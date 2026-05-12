@@ -17,7 +17,7 @@ def tag_file(task):
 
     start = time.time()
     with open(infile, "r", encoding="utf-8") as fin, \
-         open(outfile, "w", encoding="utf-8") as fout:
+            open(outfile, "w", encoding="utf-8") as fout:
         subprocess.run(
             ["tree-tagger-portuguese2"],
             stdin=fin, stdout=fout, check=True
@@ -30,36 +30,23 @@ def tag_file(task):
 # ---------------------------------------------------------
 def main():
 
-    INPUT_BASE = Path("corpus")
+    INPUT_BASE = Path("corpus/02_extracted")
     OUTPUT_BASE = Path("corpus/07_tagged")
     OUTPUT_BASE.mkdir(parents=True, exist_ok=True)
 
-    # Gather all corpus/05_* folders
-    folders = sorted(INPUT_BASE.glob("05_*"))
+    # Gather all immediate subfolders under corpus/02_extracted (e.g., es, mg, rj, sp)
+    folders = sorted([p for p in INPUT_BASE.iterdir() if p.is_dir()])
     if not folders:
-        print("No folders found under corpus/05_*. Exiting.")
+        print("No folders found under corpus/02_extracted. Exiting.")
         return
 
     tasks = []
 
-    # Collect files and map each to output subfolder
+    # Collect files and map each to mirrored output subfolder
     for folder in folders:
-        if not folder.is_dir():
-            continue
-
         # folder.name examples:
-        #   "05_clean_human"
-        #   "05_clean_persona_gpt"
-        #   "05_plain_gemini"
-        #
-        # 1. Remove "05_"
-        suffix = folder.name[3:]  # everything after "05_"
-
-        # 2. Remove leading "clean_" if present
-        if suffix.startswith("clean_"):
-            suffix = suffix[len("clean_"):]
-
-        out_subfolder = OUTPUT_BASE / suffix
+        #   "es", "mg", "rj", "sp"
+        out_subfolder = OUTPUT_BASE / folder.name
 
         for infile in sorted(folder.glob("*.txt")):
             outfile = out_subfolder / infile.name
@@ -67,10 +54,11 @@ def main():
 
     total = len(tasks)
     if total == 0:
-        print("No text files to tag. Exiting.")
+        print("No text files to tag under corpus/02_extracted. Exiting.")
         return
 
     print(f"Total files to tag: {total}\n")
+    print(f"Input root directory: {INPUT_BASE}")
     print(f"Output root directory: {OUTPUT_BASE}\n")
 
     # Determine number of workers

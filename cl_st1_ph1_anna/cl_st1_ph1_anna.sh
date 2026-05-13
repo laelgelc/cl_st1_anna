@@ -1,6 +1,11 @@
 python tag.py
 # Output: corpus/07_tagged
 
+python keylemmas.py \
+    --input corpus/07_tagged \
+    --output corpus/08_keylemmas \
+    --cutoff 3
+
 rm -rf columns columns_clean
 python columns.py
 # Output: columns, columns_clean, file_ids.txt, index_top_labels.txt

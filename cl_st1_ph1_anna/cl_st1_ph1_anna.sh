@@ -10,6 +10,8 @@ python select_kws_stratified.py \
     --input-dir corpus/08_keylemmas \
     --output-dir corpus/09_kw_selected
 # Output: corpus/09_kw_selected
+
+# Case 1 (without removing paragraphs shorter than 10 words)
 "
 Reading key-lemma files from: corpus/08_keylemmas
   es                   → loaded 36 POSKW lemmas (after filtering)
@@ -29,6 +31,27 @@ Wrote    52 lemmas → corpus/09_kw_selected/rj.txt
 Wrote    28 lemmas → corpus/09_kw_selected/sp.txt
 
 Final unique keywords written: 168 → corpus/09_kw_selected/keywords.txt
+"
+# Case 2 (removing paragraphs shorter than 10 words)
+"
+Reading key-lemma files from: corpus/08_keylemmas
+  es                   → loaded 38 POSKW lemmas (after filtering)
+  mg                   → loaded 52 POSKW lemmas (after filtering)
+  rj                   → loaded 51 POSKW lemmas (after filtering)
+  sp                   → loaded 27 POSKW lemmas (after filtering)
+
+=== Keyword Summary ===
+Total POSKW lemmas (incl. duplicates): 168
+Unique POSKW lemmas:                  166
+Duplicates removed in consolidated:   2
+=======================
+
+Wrote    38 lemmas → corpus/09_kw_selected/es.txt
+Wrote    52 lemmas → corpus/09_kw_selected/mg.txt
+Wrote    51 lemmas → corpus/09_kw_selected/rj.txt
+Wrote    27 lemmas → corpus/09_kw_selected/sp.txt
+
+Final unique keywords written: 166 → corpus/09_kw_selected/keywords.txt
 "
 
 rm -rf columns columns_clean

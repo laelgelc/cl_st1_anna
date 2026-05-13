@@ -1,0 +1,253 @@
+\begin{figure}[ht]
+\centering
+\begin{minipage}[t]{0.24\textwidth}
+\centering
+\hspace*{-.25in}
+\begin{tikzpicture}
+\begin{axis}[
+  boxplot/draw direction=y,
+  enlarge x limits=0.01,
+  every boxplot/.style={draw=black, fill=blue!25},
+  ylabel={Mean Dim. 1 Score},
+  ylabel style={font=\scriptsize},
+  height=0.45\textheight, width=\textwidth,
+  yticklabel style={font=\footnotesize},
+  x tick label style={rotate=60, anchor=east, font=\scriptsize},
+  x=7.5,
+  xtick={1,...,4},
+  xticklabels={
+es,
+  sp,
+  mg,
+  rj
+},
+]
+\addplot[red, densely dashed] coordinates {(0.5,0) (4.5,0)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(1,-5) (1,-5) (1,-5) (1,-5) (1,-5) (1,-4) (1,-4) (1,-4) (1,-4) (1,-4) (1,-4) (1,-4) (1,-4) (1,-4) (1,-4) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,-3) (1,2) (1,2) (1,2) (1,2) (1,2) (1,2) (1,2) (1,2) (1,2) (1,2)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-2.5,
+  lower quartile=-1.0,
+  median=0.0,
+  upper quartile=0.0,
+  upper whisker=1.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(1,-0.647887323943662)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(2,-7) (2,-6)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-5.0,
+  lower quartile=-2.0,
+  median=-1.0,
+  upper quartile=0.0,
+  upper whisker=1
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(2,-1.072072072072072)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(3,-7) (3,-7) (3,-7) (3,-6) (3,-6) (3,-6) (3,-6) (3,-6) (3,-6) (3,-6) (3,-6) (3,-6) (3,-6)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-5.0,
+  lower quartile=-2.0,
+  median=-1.0,
+  upper quartile=0.0,
+  upper whisker=1
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(3,-1.4304556354916067)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(4,-9) (4,-7) (4,-6) (4,-6)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-5.0,
+  lower quartile=-2.0,
+  median=-1.0,
+  upper quartile=0.0,
+  upper whisker=1
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(4,-1.4953703703703705)};
+\end{axis}
+\end{tikzpicture}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.24\textwidth}
+\centering
+\hspace*{-.25in}
+\begin{tikzpicture}
+\begin{axis}[
+  boxplot/draw direction=y,
+  enlarge x limits=0.01,
+  every boxplot/.style={draw=black, fill=blue!25},
+  ylabel={Mean Dim. 2 Score},
+  ylabel style={font=\scriptsize},
+  height=0.45\textheight, width=\textwidth,
+  yticklabel style={font=\footnotesize},
+  x tick label style={rotate=60, anchor=east, font=\scriptsize},
+  x=7.5,
+  xtick={1,...,4},
+  xticklabels={
+mg,
+  rj,
+  es,
+  sp
+},
+]
+\addplot[red, densely dashed] coordinates {(0.5,0) (4.5,0)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(1,6) (1,6) (1,6) (1,6) (1,6) (1,6) (1,6) (1,6) (1,6) (1,6) (1,6) (1,6) (1,6) (1,6) (1,6) (1,7) (1,7)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1,
+  lower quartile=0.0,
+  median=1.0,
+  upper quartile=2.0,
+  upper whisker=5.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(1,1.3968824940047961)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(2,6) (2,6) (2,6) (2,6) (2,6) (2,7) (2,10)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1,
+  lower quartile=0.0,
+  median=1.0,
+  upper quartile=2.0,
+  upper whisker=5.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(2,1.2453703703703705)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(3,6) (3,6) (3,6) (3,6) (3,7) (3,7) (3,8) (3,13)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1,
+  lower quartile=0.0,
+  median=1.0,
+  upper quartile=2.0,
+  upper whisker=5.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(3,1.2253521126760563)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(4,6) (4,6) (4,7) (4,7)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1,
+  lower quartile=0.0,
+  median=1.0,
+  upper quartile=2.0,
+  upper whisker=5.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(4,1.0864864864864865)};
+\end{axis}
+\end{tikzpicture}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.24\textwidth}
+\centering
+\hspace*{-.25in}
+\begin{tikzpicture}
+\begin{axis}[
+  boxplot/draw direction=y,
+  enlarge x limits=0.01,
+  every boxplot/.style={draw=black, fill=blue!25},
+  ylabel={Mean Dim. 3 Score},
+  ylabel style={font=\scriptsize},
+  height=0.45\textheight, width=\textwidth,
+  yticklabel style={font=\footnotesize},
+  x tick label style={rotate=60, anchor=east, font=\scriptsize},
+  x=7.5,
+  xtick={1,...,4},
+  xticklabels={
+rj,
+  mg,
+  es,
+  sp
+},
+]
+\addplot[red, densely dashed] coordinates {(0.5,0) (4.5,0)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(1,6) (1,6) (1,7)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=0,
+  lower quartile=0.0,
+  median=1.0,
+  upper quartile=2.0,
+  upper whisker=5.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(1,1.1203703703703705)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,5) (2,5) (2,5) (2,5) (2,6) (2,6) (2,7) (2,7) (2,7) (2,8) (2,10)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=0,
+  lower quartile=0.0,
+  median=0.0,
+  upper quartile=1.0,
+  upper whisker=2.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(2,0.7398081534772182)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,4) (3,4) (3,4) (3,4) (3,5) (3,5) (3,7)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=0,
+  lower quartile=0.0,
+  median=0.0,
+  upper quartile=1.0,
+  upper whisker=2.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(3,0.6502347417840375)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(4,3) (4,3) (4,3) (4,3) (4,3) (4,3) (4,3) (4,3) (4,3) (4,3) (4,3) (4,3) (4,3) (4,3) (4,4) (4,4) (4,4) (4,4) (4,4) (4,4) (4,6)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=0,
+  lower quartile=0.0,
+  median=0.0,
+  upper quartile=1.0,
+  upper whisker=2.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(4,0.5513513513513514)};
+\end{axis}
+\end{tikzpicture}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.24\textwidth}
+\centering
+\hspace*{-.25in}
+\begin{tikzpicture}
+\begin{axis}[
+  boxplot/draw direction=y,
+  enlarge x limits=0.01,
+  every boxplot/.style={draw=black, fill=blue!25},
+  ylabel={Mean Dim. 4 Score},
+  ylabel style={font=\scriptsize},
+  height=0.45\textheight, width=\textwidth,
+  yticklabel style={font=\footnotesize},
+  x tick label style={rotate=60, anchor=east, font=\scriptsize},
+  x=7.5,
+  xtick={1,...,4},
+  xticklabels={
+sp,
+  mg,
+  es,
+  rj
+},
+]
+\addplot[red, densely dashed] coordinates {(0.5,0) (4.5,0)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,3) (1,4) (1,4) (1,4) (1,4) (1,4) (1,4) (1,4) (1,4) (1,4) (1,4) (1,4) (1,4) (1,5)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1,
+  lower quartile=0.0,
+  median=0.0,
+  upper quartile=1.0,
+  upper whisker=2.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(1,0.41081081081081083)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(2,-3) (2,-2) (2,-2) (2,-2) (2,-2) (2,-2) (2,-2) (2,-2) (2,-2) (2,-2) (2,-2) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,3) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,4) (2,5) (2,5) (2,5) (2,5) (2,6) (2,6) (2,6)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=-1.5,
+  lower quartile=0.0,
+  median=0.0,
+  upper quartile=1.0,
+  upper whisker=2.5
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(2,0.3513189448441247)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,-1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,1) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,2) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,3) (3,4) (3,4) (3,4) (3,4) (3,5) (3,6) (3,6) (3,6)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=0.0,
+  lower quartile=0.0,
+  median=0.0,
+  upper quartile=0.0,
+  upper whisker=0.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(3,0.2793427230046948)};
+\addplot+[only marks, mark=*, mark options={fill=black, mark size=.8pt}] coordinates {(4,-3) (4,-2) (4,-2) (4,-2) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,-1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,1) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,2) (4,3) (4,4) (4,5) (4,6)};
+\addplot+[solid, draw=black, fill=blue!25, boxplot prepared={
+  lower whisker=0.0,
+  lower quartile=0.0,
+  median=0.0,
+  upper quartile=0.0,
+  upper whisker=0.0
+}] coordinates {};
+\addplot[only marks, mark=*, draw=red, fill=red, mark size=1.2pt] coordinates {(4,0.08564814814814815)};
+\end{axis}
+\end{tikzpicture}
+\end{minipage}\hfill
+\caption{Mean Dim. Scores by Prompt}
+\label{fig:mosaic_by_prompt}
+\end{figure}

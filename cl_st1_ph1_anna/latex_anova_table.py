@@ -21,11 +21,11 @@ import re
 import pandas as pd
 from pathlib import Path
 
-INPUT_DIR  = Path('sas/output_cl_st1_ph3_andressa')
+INPUT_DIR  = Path('sas/output_cl_st1_ph1_anna')
 OUTPUT_DIR = Path('latex_tables')
 OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
-SCORES_ONLY = INPUT_DIR / "cl_st1_ph3_andressa_scores_only.tsv"
+SCORES_ONLY = INPUT_DIR / "cl_st1_ph1_anna_scores_only.tsv"
 
 CONDITIONS = [
     ('Source', 'anova_source_f{dim}.tsv', 'params_source_f{dim}.tsv', 'anova_source.tex'),

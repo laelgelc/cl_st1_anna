@@ -56,7 +56,7 @@ Final unique keywords written: 166 → corpus/09_kw_selected/keywords.txt
 
 rm -rf columns columns_clean
 python columns.py
-# Output: columns, columns_clean, file_ids.txt, index_top_labels.txt
+# Output: columns, columns_clean, file_ids.txt, index_keywords.txt
 
 python merge_columns.py
 # Output: sas/counts.txt

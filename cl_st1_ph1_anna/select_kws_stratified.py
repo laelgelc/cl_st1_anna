@@ -2,34 +2,26 @@
 """
 select_kws_stratified.py
 
-Selects a stratified (quota-based) subset of *positive* keywords (POSKW) from
-key-lemma tables produced upstream (e.g., by `keylemmas.py`).
+Selects all *positive* keywords (POSKW) from key-lemma tables produced upstream
+(e.g., by `keylemmas.py`), without per-stratum quotas or human-weighting.
 
 What it does
 ------------
-1) Reads every `*.txt` key-lemma file in `corpus/08_keylemmas/` (one file per
-   stratum/subcorpus, e.g., `human.txt`, `generic_gpt.txt`, `summary_guided_gpt.txt`).
+1) Reads every `*.txt` key-lemma file in a user-specified input directory
+   (one file per stratum/subcorpus).
 2) Extracts lemmas whose final column is `POSKW`, applying additional filters:
    - drop lemmas containing Unicode punctuation
    - drop lemmas containing any digits
    - drop lemmas containing any uppercase letters (keep lowercase-only)
-3) Applies per-stratum quotas:
-   - each non-human stratum: at most `--ceiling` lemmas
-   - `human`: at most `--ceiling * --human-weight` lemmas
-   Selection preserves the original file order (i.e., top-ranked first).
-4) Builds a consolidated list in a priority order tailored to this project:
-   human → summary_guided_* → (other strata) → generic_*
-   Truncates the consolidated list to `--max-total` (before de-duplication).
-5) Writes outputs to `corpus/09_kw_selected/`:
-   - one file per stratum: `<stratum>.txt`
+3) Writes outputs to a user-specified output directory:
+   - one file per stratum: `<stratum>.txt` (all filtered POSKW lemmas in file order)
    - one consolidated, de-duplicated list: `keywords.txt` (alphabetical)
 
 Typical usage
 -------------
 python select_kws_stratified.py \
-    --ceiling 250 \
-    --human-weight 2 \
-    --max-total 1200
+    --input-dir corpus/08_keylemmas \
+    --output-dir corpus/09_kw_selected
 """
 
 import os
@@ -37,18 +29,16 @@ import glob
 import unicodedata
 import argparse
 
-INPUT_DIR = "corpus/08_keylemmas"
-OUTPUT_DIR = "corpus/09_kw_selected"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
 # -----------------------------------------------------------
 # Helpers
 # -----------------------------------------------------------
 
-def contains_punctuation(s):
+def contains_punctuation(s: str) -> bool:
+    """Return True if any character in s is Unicode punctuation."""
     return any(unicodedata.category(ch).startswith("P") for ch in s)
 
-def load_poskw(filepath):
+
+def load_poskw(filepath: str):
     """
     Load POSKW lemmas from a keylemma file.
     Skips header, punctuation, digits, uppercase.
@@ -78,101 +68,83 @@ def load_poskw(filepath):
 
     return lemmas
 
+
 # -----------------------------------------------------------
 # Main
 # -----------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--ceiling", type=int, required=True,
-                        help="Max keywords per non-human stratum (e.g., 125)")
-    parser.add_argument("--human-weight", type=int, required=True,
-                        help="Multiplier applied to human quota (e.g., 2 → 250)")
-    parser.add_argument("--max-total", type=int, required=True,
-                        help="Max total keywords allowed (e.g., 1000)")
+    parser = argparse.ArgumentParser(
+        description=(
+            "Select all filtered POSKW lemmas from key-lemma tables, "
+            "without quotas or human-weighting."
+        )
+    )
+    parser.add_argument(
+        "--input-dir",
+        required=True,
+        help="Directory containing key-lemma .txt files (one per stratum).",
+    )
+    parser.add_argument(
+        "--output-dir",
+        required=True,
+        help="Directory where per-stratum and consolidated keyword lists will be written.",
+    )
     args = parser.parse_args()
 
-    ceiling = args.ceiling
-    human_weight = args.human_weight
-    max_total = args.max_total
+    input_dir = args.input_dir
+    output_dir = args.output_dir
+
+    os.makedirs(output_dir, exist_ok=True)
 
     # Load all strata
     strata = {}
-    for filepath in sorted(glob.glob(os.path.join(INPUT_DIR, "*.txt"))):
+    pattern = os.path.join(input_dir, "*.txt")
+    filepaths = sorted(glob.glob(pattern))
+
+    if not filepaths:
+        print(f"No .txt key-lemma files found in: {input_dir}")
+        return
+
+    print(f"Reading key-lemma files from: {input_dir}")
+    for filepath in filepaths:
         name = os.path.basename(filepath).replace(".txt", "")
         strata[name] = load_poskw(filepath)
+        print(f"  {name:<20} → loaded {len(strata[name])} POSKW lemmas (after filtering)")
 
-    # Determine quotas
-    quotas = {}
-    for name in strata:
-        if name == "human":
-            quotas[name] = ceiling * human_weight
-        else:
-            quotas[name] = ceiling
+    # Per-stratum selection is now simply "all filtered lemmas"
+    selected_by_stratum = strata
 
-    # Display quotas
-    print("=== Keyword Quotas ===")
-    for name in sorted(quotas):
-        print(f"{name:<15} → {quotas[name]} keywords (max)")
+    # Build consolidated list (no quotas, no special ordering beyond filename sort)
+    consolidated = []
+    for name in sorted(selected_by_stratum):
+        consolidated.extend(selected_by_stratum[name])
+
+    unique_lemmas = sorted(set(consolidated))
+    total_count = len(consolidated)
+    unique_count = len(unique_lemmas)
+
+    print("\n=== Keyword Summary ===")
+    print(f"Total POSKW lemmas (incl. duplicates): {total_count}")
+    print(f"Unique POSKW lemmas:                  {unique_count}")
+    print(f"Duplicates removed in consolidated:   {total_count - unique_count}")
     print("=======================\n")
 
-    # Per-stratum selection
-    selected_by_stratum = {}
-    consolidated = []
-
-    for name, lemmas in strata.items():
-        quota = quotas[name]
-        chosen = lemmas[:quota]
-        selected_by_stratum[name] = chosen
-
-        print(f"{name:<15} → selected {len(chosen)}/{quota} keywords")
-
-    # Build consolidated list in priority order
-    # priority: human → summary_guided_* → (others) → generic_*
-
-    human_key = ["human"] if "human" in strata else []
-    summary_guided_keys = sorted([s for s in strata if s.startswith("summary_guided_")])
-    generic_keys = sorted([s for s in strata if s.startswith("generic_")])
-
-    # Any remaining files (e.g., model names) are treated as "other"
-    other_keys = sorted([
-        s for s in strata
-        if s not in set(human_key + summary_guided_keys + generic_keys)
-    ])
-
-    ordered_strata = human_key + summary_guided_keys + other_keys + generic_keys
-
-    for s in ordered_strata:
-        consolidated.extend(selected_by_stratum[s])
-
-    # Enforce max_total
-    if len(consolidated) > max_total:
-        consolidated = consolidated[:max_total]
-
-    unique_count = len(set(consolidated))
-    total_count = len(consolidated)
-
-    print(f"\nTotal consolidated keywords (incl. duplicates): {total_count}")
-    print(f"Unique keywords (used downstream): {unique_count}")
-    print(f"Duplicates removed later: {total_count - unique_count}")
-
     # Write per-stratum outputs
-    for name, words in selected_by_stratum.items():
-        outpath = os.path.join(OUTPUT_DIR, f"{name}.txt")
+    for name, words in sorted(selected_by_stratum.items()):
+        outpath = os.path.join(output_dir, f"{name}.txt")
         with open(outpath, "w", encoding="utf-8") as fout:
             for w in words:
                 fout.write(w + "\n")
+        print(f"Wrote {len(words):>5} lemmas → {outpath}")
 
-    # Write consolidated
-    # Deduplicate and sort before saving
-    unique_lemmas = sorted(set(consolidated))
-
-    cons_path = os.path.join(OUTPUT_DIR, "keywords.txt")
+    # Write consolidated (deduplicated, sorted)
+    cons_path = os.path.join(output_dir, "keywords.txt")
     with open(cons_path, "w", encoding="utf-8") as fout:
         for w in unique_lemmas:
             fout.write(w + "\n")
 
-    print(f"\nFinal unique keywords written: {len(unique_lemmas)}")
+    print(f"\nFinal unique keywords written: {len(unique_lemmas)} → {cons_path}")
 
 
 if __name__ == "__main__":

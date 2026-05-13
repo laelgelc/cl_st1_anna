@@ -6,6 +6,12 @@ python keylemmas.py \
     --output corpus/08_keylemmas \
     --cutoff 3
 
+python select_kws_stratified.py \
+    --ceiling 250 \
+    --human-weight 2 \
+    --max-total 1200
+# Output: corpus/09_kw_selected
+
 rm -rf columns columns_clean
 python columns.py
 # Output: columns, columns_clean, file_ids.txt, index_top_labels.txt

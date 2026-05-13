@@ -23,6 +23,10 @@ word_counts_model = defaultdict(int)
 file_counts_season = defaultdict(int)
 word_counts_season = defaultdict(int)
 
+# By state (es, mg, rj, sp)
+file_counts_state = defaultdict(int)
+word_counts_state = defaultdict(int)
+
 # By source + model
 file_counts_source_model = defaultdict(lambda: defaultdict(int))
 word_counts_source_model = defaultdict(lambda: defaultdict(int))
@@ -40,13 +44,14 @@ def extract_season(filename_stem: str) -> str:
 
 
 # -------------------------------------------------
-def process_file(path: Path, source: str, model: str, season: str):
+def process_file(path: Path, source: str, model: str, season: str, state: str):
     global total_files, total_words
 
     # File counter
     file_counts_source[source] += 1
     file_counts_model[model] += 1
     file_counts_season[season] += 1
+    file_counts_state[state] += 1
     file_counts_source_model[source][model] += 1
     total_files += 1
 
@@ -61,6 +66,7 @@ def process_file(path: Path, source: str, model: str, season: str):
     word_counts_source[source] += words
     word_counts_model[model] += words
     word_counts_season[season] += words
+    word_counts_state[state] += words
     word_counts_source_model[source][model] += words
     total_words += words
 
@@ -68,18 +74,19 @@ def process_file(path: Path, source: str, model: str, season: str):
 # -------------------------------------------------
 # WALK THE CORPUS
 for txt in CORPUS_ROOT.rglob("*.txt"):
-    model_folder = txt.parent.name  # e.g., "gemma", "human", "gpt"
+    # state is the immediate subdirectory under 07_tagged
+    state = txt.parent.name  # es, mg, rj, sp
 
-    # SOURCE
-    source = "human" if model_folder == "human" else "ai"
+    # SOURCE (all tagged texts are human)
+    source = "human"
 
-    # MODEL
-    model = model_folder
+    # MODEL (no model distinction here)
+    model = "none"
 
     # SEASON (from filename stem)
     season = extract_season(txt.stem)
 
-    process_file(txt, source, model, season)
+    process_file(txt, source, model, season, state)
 
 
 # -------------------------------------------------
@@ -99,6 +106,11 @@ with out.open('w', encoding='utf-8') as f:
     # by model
     for mdl in sorted(file_counts_model):
         f.write(f"{mdl}\t{file_counts_model[mdl]}\t{word_counts_model[mdl]}\n")
+    f.write("\n")
+
+    # by state (es, mg, rj, sp)
+    for st in sorted(file_counts_state):
+        f.write(f"{st}\t{file_counts_state[st]}\t{word_counts_state[st]}\n")
     f.write("\n")
 
     # by source/model combined

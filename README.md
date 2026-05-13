@@ -88,6 +88,6 @@ The EF Sudeste pilot curriculum documents were cleaned and transformed into a pa
 - After this filtering step, the per-state extracted and tagged corpora no longer contain paragraphs shorter than 10 words, reducing noise from extremely short segments in subsequent analyses.
 - This results in 2,271 paragraph files distributed across the four state-specific subdirectories, providing a cleaned, state-organized paragraph corpus ready for lexical multi-dimensional analyses.
 
-9. **Lexical Multi-dimensional Analysis**
+### Lexical Multi-dimensional Analysis
 
 - The Lexical Multi-dimensional Analysis (LMDA) was processed according to the corresponding procedures.

@@ -154,14 +154,16 @@ def locate_tagged_text(row: pd.Series) -> Path | None:
 
 def locate_fulltext(row: pd.Series) -> Path | None:
     """
-    Locate the corresponding full transcript under corpus/05_*.
+    Locate the corresponding full transcript for the paragraph in plaintext form.
 
-    Primary rule (recommended for this project):
-      - if rel is "<subdir>/<fname>": use corpus/05_<subdir>/<fname>
-        except subdir == "human" -> corpus/05_human/<fname>
+    In this project, the per‑paragraph, non‑tagged corpus lives under:
+        corpus/02_extracted/<state>/<filename_paragraph>.txt
 
-    Fallback:
-      - if rel is just "<fname>": use group to pick folder corpus/05_<group> (or 05_human)
+    `file_ids.txt` already stores exactly that relative layout:
+        es/es_..., mg/mg_..., rj/rj_..., sp/sp_...
+
+    So we resolve:
+        corpus/02_extracted / <state> / <filename_paragraph>
     """
     tid = row["filename"]
     rel = id_map.get(tid)
@@ -169,16 +171,15 @@ def locate_fulltext(row: pd.Series) -> Path | None:
         return None
 
     rel_path = Path(rel)
-    fname = rel_path.name
-
     if len(rel_path.parts) >= 2:
-        subdir = rel_path.parts[0]
-        folder = FULLTEXT_ROOT / ("05_human" if subdir == "human" else f"05_{subdir}")
-        return folder / fname
+        state_dir = rel_path.parts[0]
+        fname = rel_path.name
+        return Path("corpus/02_extracted") / state_dir / fname
 
-    grp = str(row["group"]).strip()
-    folder = FULLTEXT_ROOT / ("05_human" if grp == "human" else f"05_{grp}")
-    return folder / fname
+    # If for some reason there's no subdir (should not happen here),
+    # fall back to using the group as the state.
+    state = str(row["group"]).strip()
+    return Path("corpus/02_extracted") / state / rel_path.name
 
 
 # ============================================================
@@ -271,8 +272,8 @@ for fac_num in range(1, num_factors + 1):
 
             fulltext_path = locate_fulltext(row)
             if not fulltext_path or not fulltext_path.exists():
-                missing_files.add(row["filename"])
-                continue
+                # Fall back to tagged text if no separate plaintext exists
+                fulltext_path = tagged_path
 
             tid = row["filename"]
             lw = loading_words.get(tid, {}).get(label)
@@ -313,8 +314,8 @@ for fac_num in range(1, num_factors + 1):
 
                 fulltext_path = locate_fulltext(row)
                 if not fulltext_path or not fulltext_path.exists():
-                    missing_files.add(row["filename"])
-                    continue
+                    # Fall back to tagged text if no separate plaintext exists
+                    fulltext_path = tagged_path
 
                 tid = row["filename"]
                 lw = loading_words.get(tid, {}).get(label)

@@ -45,34 +45,20 @@ text_infos = []
 for text_file in text_paths:
     fid = file_id_map[text_file]
 
-    # Top-level folder under corpus/07_tagged/
+    # Top-level folder under corpus/07_tagged/ (state code: es, mg, rj, sp)
     folder = text_file.relative_to(TAGGED_BASE).parts[0]
+    state = folder.lower()
 
-    # ----- SOURCE -----
-    source = "human" if folder == "human" else "ai"
-
-    # ----- PROMPT -----
-    if folder == "human":
-        prompt = "human"
-    elif folder.startswith("generic_"):
-        prompt = "generic"
-    elif folder.startswith("summary_guided_"):
-        prompt = "summary_guided"
-    else:
-        prompt = "unknown"
-
-    # ----- MODEL -----
-    # Expected folder formats:
-    #   human
-    #   generic_gpt
-    #   summary_guided_gpt
-    if folder == "human":
-        model = "human"
-    else:
-        # model is whatever comes after the last underscore
-        # generic_gpt -> gpt
-        # summary_guided_gpt -> gpt
-        model = folder.split("_")[-1].lower()
+    # ----- SOURCE / PROMPT / MODEL for this (human-only, state-organised) corpus -----
+    # We keep four metadata fields for compatibility with downstream code:
+    #   id, prompt, model, source
+    # Here:
+    #   - prompt: state code (es, mg, rj, sp) – useful for between-state comparisons;
+    #   - model: constant "none" (no model dimension in this corpus);
+    #   - source: constant "human" (all texts are human-written curricula).
+    prompt = state
+    model  = "none"
+    source = "human"
 
     # Extract lemmas from 3rd column (word, tag, lemma) in tagged files
     present = set()

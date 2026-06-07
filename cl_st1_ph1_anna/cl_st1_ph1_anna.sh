@@ -1,17 +1,26 @@
+# Tag the corpus.
 python tag.py
-# Output: corpus/07_tagged
+# Produces: corpus/07_tagged
 
+# Extract key lemmas from the tagged corpus.
+# Only lemmas with frequency >= 3 are retained.
 python keylemmas.py \
     --input corpus/07_tagged \
     --output corpus/08_keylemmas \
     --cutoff 3
+# Produces: corpus/08_keylemmas
 
+# Select keywords from the key-lemma files using stratified selection.
 python select_kws_stratified.py \
     --input-dir corpus/08_keylemmas \
     --output-dir corpus/09_kw_selected
-# Output: corpus/09_kw_selected
+# Produces: corpus/09_kw_selected
 
-# Case 1 (without removing paragraphs shorter than 10 words)
+# ----------------------------------------------------------------------
+# Keyword-selection reference output
+# ----------------------------------------------------------------------
+
+# Case 1: Paragraphs shorter than 10 words are kept.
 "
 Reading key-lemma files from: corpus/08_keylemmas
   es                   → loaded 36 POSKW lemmas (after filtering)
@@ -32,7 +41,8 @@ Wrote    28 lemmas → corpus/09_kw_selected/sp.txt
 
 Final unique keywords written: 168 → corpus/09_kw_selected/keywords.txt
 "
-# Case 2 (removing paragraphs shorter than 10 words)
+
+# Case 2: Paragraphs shorter than 10 words are removed.
 "
 Reading key-lemma files from: corpus/08_keylemmas
   es                   → loaded 38 POSKW lemmas (after filtering)
@@ -54,40 +64,62 @@ Wrote    27 lemmas → corpus/09_kw_selected/sp.txt
 Final unique keywords written: 166 → corpus/09_kw_selected/keywords.txt
 "
 
+# ----------------------------------------------------------------------
+# Column generation and SAS preparation
+# ----------------------------------------------------------------------
+
+# Remove previously generated column directories before rebuilding them.
 rm -rf columns columns_clean
+
+# Generate keyword-count columns and related index files.
 python columns.py
-# Output: columns, columns_clean, file_ids.txt, index_keywords.txt
+# Produces: columns, columns_clean, file_ids.txt, index_keywords.txt
 
+# Merge generated columns into a SAS-compatible counts file.
 python merge_columns.py
-# Output: sas/counts.txt
+# Produces: sas/counts.txt
 
+# Generate SAS format files, such as word-label formats.
 python sas_formats.py
-# Output: sas/word_labels_format.sas, etc
+# Produces: sas/word_labels_format.sas, etc.
 
-## RUN SAS
-## Rogerio Yamada's account
+# ----------------------------------------------------------------------
+# Manual SAS step
+# ----------------------------------------------------------------------
 
+# Run the SAS analysis manually.
+# Use Rogerio Yamada's account.
+
+# ----------------------------------------------------------------------
+# Post-SAS analysis and reporting
+# ----------------------------------------------------------------------
+
+# Generate factor lists from the SAS output.
 python factor_lists.py
-# Output: factors
+# Produces: factors
 
+# Calculate corpus-size statistics.
 python corpus_size.py
-# Output: corpus_size/corpus_size.tsv
+# Produces: corpus_size/corpus_size.tsv
 
+# Build LaTeX boxplot slides for the factor analysis.
 cd latex_boxplots
-# Builds boxplots for factor analysis:
 python latex_boxplots.py
-# Output: latex_boxplots/slides
+# Produces: latex_boxplots/slides
 cd ..
 
+# Generate LaTeX ANOVA tables.
 python latex_anova_table.py
-# Output: latex_tables
+# Produces: latex_tables
 
+# Generate examples in LaTeX format.
 python examples.py
-# Output: examples (LaTeX format)
+# Produces: examples
 
-# Sanity check on the scores:
+# Run a sanity check on the scores.
 python score_details.py
-# Output: examples/score_details.txt
+# Produces: examples/score_details.txt
 
+# Generate examples in plaintext format.
 python examples_txt.py
-# Output: examples_txt (plaintext format)
+# Produces: examples_txt

@@ -41,7 +41,7 @@ python llm_denoise.py \
     --prompt denoising_prompts/denoising_v1.md \
     --model gpt-5.6-luna \
     --limit 200 \
-    --workers 20 \
+    --workers 10 \
     --resume \
     --max-output-tokens 1000
 ```
@@ -54,7 +54,7 @@ python llm_denoise.py \
     --output corpus/02_extracted \
     --prompt denoising_prompts/denoising_v1.md \
     --model gpt-5.6-luna \
-    --workers 20 \
+    --workers 10 \
     --resume \
     --max-output-tokens 1000 \
     --max-retries 5
@@ -69,7 +69,7 @@ bash run_python_ec2.sh \
     --output corpus/02_extracted \
     --prompt denoising_prompts/denoising_v1.md \
     --model gpt-5.6-luna \
-    --workers 20 \
+    --workers 10 \
     --resume \
     --max-output-tokens 1000 \
     --max-retries 5

@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "id": "resp_09bc1db417cd664f006ab2e85ce1d087d2b207116ff1945dab",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 1568,
+      "input_tokens_details": {
+        "cache_write_tokens": 1565,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1000,
+      "output_tokens_details": {
+        "reasoning_tokens": 312
+      },
+      "total_tokens": 2568
+    }
+  },
+  "created_at": "2026-09-22T20:43:17Z",
+  "duration_seconds": 8.696,
+  "error": null,
+  "excerpt_id": "ac_ef_11",
+  "filename": "ac_ef_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7dba982078202a18e063836038ab2cf91dfb6d931db702ce30e986566f69ea77",
+    "manifest_file_sha256": "7d0d65f31af8a623e26180334d1729697835b6221a47055227eb2a0bbd9d20b8",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "dd85bf240234073fcc7ef8517ac36eb4b8c826ab3d67fe42aa8d5ca7f2f2d655",
+    "rendered_prompt_sha256": "fdd02bdd9c6c5e650c49786b96543025214f230cefe74cd3cba102444745b398",
+    "source_text_sha256": "6bca5b95cb75e0bc26fd8f0b273207a436f463c59f480a7ff6195d354ca8cc18"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3,
+    "filename": "ac_ef_11.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_11.txt",
+    "state": "ac"
+  },
+  "max_output_tokens": 1000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-5.6-luna",
+    "response_model": "gpt-5.6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_11.json"
+  },
+  "raw_response_text": "# QUADRO COMPARATIVO DAS TRADIÇÕES RELIGIOSAS DO ACRE – IBGE – 2010\n\n| RELIGIÕES | NÚMERO REAL | NÚMERO PROPORCIONAL |\n|---|---:|---:|\n| CATÓLICA APOSTÓLICA ROMANA | 133.926 | 100.000 |\n| EVANGÉLICA | 133.632 | 100.000 |\n| SEM RELIGIÃO | 53.535 | 50.000 |\n| OUTRAS RELIGIOSIDADES CRISTÃS | 3.871 | 4.000 |\n| ESPÍRITA | 3.309 | 3.500 |\n| TESTEMUNHAS DE JEOVÁ | 2.616 | 2.500 |\n| NÃO DETERMINADA E MÚLTIPLO PERTENCIMENTO | 1.601 | 1.500 |\n| TRADIÇÕES INDÍGENAS | 945 | 1.000 |\n| IGREJA DE JESUS CRISTO DOS SANTOS DOS ÚLTIMOS DIAS | 714 | 700 |\n| CATÓLICA APOSTÓLICA BRASILEIRA | 653 | 650 |\n| UMBANDA E CANDOMBLÉ | 183 | 200 |\n| CATÓLICA ORTODOXA | 177 | 200 |\n| CANDOMBLÉ | 170 | 200 |\n| JUDAÍSMO | 59 | 50 |\n| TRADIÇÕES EXOTÉRICAS | 57 | 50 |\n| NOVAS RELIGIÕES ORIENTAIS | 51 | 50 |\n| BUDISMO | 47 | 50 |\n| OUTRAS RELIGIÕES ORIENTAIS | 21 | 20 |\n| ISLAMISMO | 20 | 20 |\n| ESPIRITUALISTA | 23 | 20 |\n| UMBANDA | 13 | 20 |\n\nDisponível em: <https://cidades.ibge.gov.br/brasil/ac/rio-branco/pesquisa/23/22107>. Acesso em: 3 dez. 2018.\n\n**01.** Embora de fonte fidedigna, este quadro não está atualizado. Portanto, ao oferecer um mosaico indicativo da presença religiosa no Acre, omite, entre outras, as religiões de tradições ayahuasqueiras, também conhecidas como daime, originárias do Acre já a partir de 1910, possuindo rica, história e sistemática documentação desde sua origem, incluída a sua relação com tradições indígenas;\n\n**02.** Há menção a “tradições indígenas”, no quadro, porém numa proporção de 1.000, certamente desatualizada, visto existirem 15 etnias diferentes, distribuídas entre 34 terras indígenas de 11 municípios do estado, sem contar os denominados povos isolados;\n\n**03.** Católicos e evangélicos são expressões do cristianismo. Mas evangélicos subdividem-se em grupos, uns mais e outros menos simpáticos ao ecumenismo, aqui definido como diálogo entre religiões cristãs. A aproximação ecumênica deve ser incentivada em sala de aula, preserv",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

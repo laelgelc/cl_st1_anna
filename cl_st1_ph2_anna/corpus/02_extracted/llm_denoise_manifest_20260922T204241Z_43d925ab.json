@@ -1,0 +1,139 @@
+{
+  "counts": {
+    "excerpts_dry_run": 0,
+    "excerpts_failed": 0,
+    "excerpts_invalid_response": 0,
+    "excerpts_planned": 10,
+    "excerpts_skipped_existing": 0,
+    "excerpts_succeeded": 10,
+    "manifest_rows_total": 4112
+  },
+  "end_time": "2026-09-22T20:44:19Z",
+  "environment": {
+    "env_file": "env/.env",
+    "env_file_found": true,
+    "openai_api_key_available": true,
+    "openai_api_key_logged": false,
+    "openai_api_key_source": "env_file_or_process_environment"
+  },
+  "excerpts": [
+    {
+      "excerpt_id": "ac_ef_1",
+      "filename": "ac_ef_1.txt",
+      "markdown_file": "corpus/02_extracted/ac/ac_ef_1.md",
+      "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_1.json",
+      "state": "ac",
+      "status": "success"
+    },
+    {
+      "excerpt_id": "ac_ef_10",
+      "filename": "ac_ef_10.txt",
+      "markdown_file": "corpus/02_extracted/ac/ac_ef_10.md",
+      "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_10.json",
+      "state": "ac",
+      "status": "success"
+    },
+    {
+      "excerpt_id": "ac_ef_11",
+      "filename": "ac_ef_11.txt",
+      "markdown_file": "corpus/02_extracted/ac/ac_ef_11.md",
+      "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_11.json",
+      "state": "ac",
+      "status": "success"
+    },
+    {
+      "excerpt_id": "ac_ef_12",
+      "filename": "ac_ef_12.txt",
+      "markdown_file": "corpus/02_extracted/ac/ac_ef_12.md",
+      "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_12.json",
+      "state": "ac",
+      "status": "success"
+    },
+    {
+      "excerpt_id": "ac_ef_13",
+      "filename": "ac_ef_13.txt",
+      "markdown_file": "corpus/02_extracted/ac/ac_ef_13.md",
+      "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_13.json",
+      "state": "ac",
+      "status": "success"
+    },
+    {
+      "excerpt_id": "ac_ef_14",
+      "filename": "ac_ef_14.txt",
+      "markdown_file": "corpus/02_extracted/ac/ac_ef_14.md",
+      "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_14.json",
+      "state": "ac",
+      "status": "success"
+    },
+    {
+      "excerpt_id": "ac_ef_15",
+      "filename": "ac_ef_15.txt",
+      "markdown_file": "corpus/02_extracted/ac/ac_ef_15.md",
+      "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_15.json",
+      "state": "ac",
+      "status": "success"
+    },
+    {
+      "excerpt_id": "ac_ef_16",
+      "filename": "ac_ef_16.txt",
+      "markdown_file": "corpus/02_extracted/ac/ac_ef_16.md",
+      "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_16.json",
+      "state": "ac",
+      "status": "success"
+    },
+    {
+      "excerpt_id": "ac_ef_17",
+      "filename": "ac_ef_17.txt",
+      "markdown_file": "corpus/02_extracted/ac/ac_ef_17.md",
+      "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_17.json",
+      "state": "ac",
+      "status": "success"
+    },
+    {
+      "excerpt_id": "ac_ef_18",
+      "filename": "ac_ef_18.txt",
+      "markdown_file": "corpus/02_extracted/ac/ac_ef_18.md",
+      "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_18.json",
+      "state": "ac",
+      "status": "success"
+    }
+  ],
+  "hashes": {
+    "manifest_file_sha256": "7d0d65f31af8a623e26180334d1729697835b6221a47055227eb2a0bbd9d20b8",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c"
+  },
+  "model_configuration": {
+    "max_output_tokens": 1000,
+    "model": "gpt-5.6-luna",
+    "temperature": 0.0
+  },
+  "paths": {
+    "denoised_ndjson": "corpus/02_extracted/llm_denoised_guidelines.ndjson",
+    "failures_ndjson": "corpus/02_extracted/llm_denoise_failures.ndjson",
+    "invalid_responses_ndjson": "corpus/02_extracted/llm_denoise_invalid_responses.ndjson",
+    "log_file": "corpus/02_extracted/llm_denoise.log",
+    "manifest": "corpus/brazilian_educational_guidelines.ndjson",
+    "metadata_dir": "corpus/02_extracted/_llm_denoise_metadata",
+    "output": "corpus/02_extracted",
+    "prompt": "denoising_prompts/denoising_v2.md"
+  },
+  "processing": {
+    "dry_run": false,
+    "limit": 10,
+    "max_retries": 2,
+    "output_extension": ".md",
+    "reprocess": false,
+    "resume": false,
+    "retry_backoff_seconds": 5.0,
+    "workers": 1
+  },
+  "programme": "llm_denoise.py",
+  "run_id": "20260922T204241Z_43d925ab",
+  "start_time": "2026-09-22T20:42:41Z",
+  "status": "success",
+  "usage_totals": {
+    "input_tokens": 16095,
+    "output_tokens": 9026,
+    "total_tokens": 25121
+  }
+}

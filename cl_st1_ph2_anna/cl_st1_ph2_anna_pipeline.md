@@ -15,8 +15,9 @@ python llm_denoise.py \
     --manifest corpus/brazilian_educational_guidelines.ndjson \
     --output corpus/02_extracted \
     --prompt denoising_prompts/denoising_v2.md \
-    --model gpt-5.6-luna \
+    --model gpt-6-luna \
     --limit 10 \
+    --max-output-tokens 10000 \
     --dry-run
 ```
 
@@ -39,12 +40,12 @@ python llm_denoise.py \
 python llm_denoise.py \
     --manifest corpus/brazilian_educational_guidelines.ndjson \
     --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v1.md \
-    --model gpt-5.6-luna \
+    --prompt denoising_prompts/denoising_v2.md \
+    --model gpt-6-luna \
     --limit 200 \
     --workers 10 \
     --resume \
-    --max-output-tokens 1000
+    --max-output-tokens 10000
 ```
 
 ### Full run
@@ -53,11 +54,11 @@ python llm_denoise.py \
 python llm_denoise.py \
     --manifest corpus/brazilian_educational_guidelines.ndjson \
     --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v1.md \
-    --model gpt-5.6-luna \
+    --prompt denoising_prompts/denoising_v2.md \
+    --model gpt-6-luna \
     --workers 10 \
     --resume \
-    --max-output-tokens 1000 \
+    --max-output-tokens 10000 \
     --max-retries 5
 ```
 
@@ -68,10 +69,10 @@ bash run_python_ec2.sh \
     llm_denoise.py \
     --manifest corpus/brazilian_educational_guidelines.ndjson \
     --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v1.md \
-    --model gpt-5.6-luna \
+    --prompt denoising_prompts/denoising_v2.md \
+    --model gpt-6-luna \
     --workers 10 \
     --resume \
-    --max-output-tokens 1000 \
+    --max-output-tokens 10000 \
     --max-retries 5
 ```

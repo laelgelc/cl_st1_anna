@@ -14,7 +14,7 @@ cl_st1_ph2_anna/
 python llm_denoise.py \
     --manifest corpus/brazilian_educational_guidelines.ndjson \
     --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v1.md \
+    --prompt denoising_prompts/denoising_v2.md \
     --model gpt-5.6-luna \
     --limit 10 \
     --dry-run
@@ -27,7 +27,7 @@ python llm_denoise.py \
 python llm_denoise.py \
     --manifest corpus/brazilian_educational_guidelines.ndjson \
     --output corpus/02_extracted \
-    --prompt denoising_prompts/denoising_v1.md \
+    --prompt denoising_prompts/denoising_v2.md \
     --model gpt-5.6-luna \
     --limit 10
 ```

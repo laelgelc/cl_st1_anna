@@ -1,0 +1,43 @@
+## QUADRO COMPARATIVO DAS TRADIÇÕES RELIGIOSAS DO ACRE – IBGE - 2010
+
+| Religiões | Número real | Número proporcional |
+|---|---:|---:|
+| Católica Apostólica Romana | 133.926 | 100.000 |
+| Evangélica | 133.632 | 100.000 |
+| Sem religião | 53.535 | 50.000 |
+| Outras religiosidades cristãs | 3.871 | 4.000 |
+| Espírita | 3.309 | 3.500 |
+| Testemunhas de Jeová | 2.616 | 2.500 |
+| Não determinada e múltiplo pertencimento | 1.601 | 1.500 |
+| Tradições indígenas | 945 | 1.000 |
+| Igreja de Jesus Cristo dos Santos dos Últimos Dias | 714 | 700 |
+| Católica Apostólica Brasileira | 653 | 650 |
+| Umbanda e Candomblé | 183 | 200 |
+| Católica Ortodoxa | 177 | 200 |
+| Candomblé | 170 | 200 |
+| Judaísmo | 59 | 50 |
+| Tradições exotéricas | 57 | 50 |
+| Novas religiões orientais | 51 | 50 |
+| Budismo | 47 | 50 |
+| Outras religiões orientais | 21 | 20 |
+| Islamismo | 20 | 20 |
+| Espiritualista | 23 | 20 |
+| Umbanda | 13 | 20 |
+
+Disponível em: <https://cidades.ibge.gov.br/brasil/ac/rio-branco/pesquisa/23/22107>. Acesso em: 3 dez. 2018.
+
+01. Embora de fonte fidedigna, este quadro não está atualizado. Portanto, ao oferecer um mosaico indicativo da presença religiosa no Acre, omite, entre outras, as religiões de tradições ayahuasqueiras, também conhecidas como daime, originárias do Acre já a partir de 1910, possuindo rica história e sistemática documentação desde sua origem, incluída a sua relação com tradições indígenas;
+
+02. Há menção a “tradições indígenas”, no quadro, porém numa proporção de 1.000, certamente desatualizada, visto existirem 15 etnias diferentes, distribuídas entre 34 terras indígenas de 11 municípios do estado, sem contar os denominados povos isolados;
+
+03. Católicos e evangélicos são expressões do cristianismo. Mas evangélicos subdividem-se em grupos, uns mais e outros menos simpáticos ao ecumenismo, aqui definido como diálogo entre religiões cristãs. A aproximação ecumênica deve ser incentivada em sala de aula, preservada a identidade desses dois grupos. Essa equivalência entre eles, da ordem dos 100.000, não deve ser entendida como fator de hegemonia numérica, porém como advertência, para que a quantidade de adeptos não se constitua em fator de negação do igual valor que se deve atribuir, indistintamente, a todas as religiões, independentemente de sua abrangência;
+
+04. Observa-se, também, o acentuado grupo dos “Sem religião”, da ordem de 50.000, correspondendo, proporcionalmente, à metade dos dois maiores grupos religiosos. Não devem ser discriminados em sua escolha, mas estimulados a conviver, em sala de aula, junto aos adeptos de quaisquer outras religiões, visto serem contemplados no Currículo de Referência Único pelo conteúdo “filosofias de vida”, atendendo às suas convicções, as quais devem ser conhecidas e valorizadas, do mesmo modo que qualquer doutrina de confissão religiosa;
+
+05. Observem como a quantidade para “Outras religiosidades cristãs”, proporcionalmente 4 X 1.000, amplia-se quando somadas às declaradamente cristãs, também indicadas no quadro: católicos apostólicos brasileiros, cerca de 650; católicos ortodoxos, mais 200. E uma vez incluídos os Testemunhas de Jeová, 2,5 X 1.000, e Igreja de Jesus Cristo dos Santos dos Últimos Dias, chega-se a um total de mais 5.500. Os critérios de estudo e pesquisa em Ciências da Religião indicam os parâmetros exatos de abordagem dessas modalidades de variação do ramo cristão. Suas especificidades devem ser respeitadas, compreendidas as variações de seu modo de crer, sem nenhuma discriminação;
+
+06. Há problemas de terminologia na designação de grupos religiosos, como a semelhança entre as classificações “Espírita” e “Espiritualista”, também uma definição precisa para “Tradições Exotéricas”, assim como “Novas” e “Outras” Religiões Orientais. As mais antigas podem ser Hinduísmo, Confucionismo, Budismo, Taoísmo e Xintoísmo. E as “Novas” seriam Seicho-no-ie, Fé Bahá’í, Igreja Messiânica (ou Johrei), algumas entre elas presentes no Acre. Há religiosos espiritualistas que não são, propriamente, espíritas. E costuma-se classificar a Maçonaria como exotérica, embora não seja uma religião. Terminologias e designações necessitam de cuidadosa pesquisa, para que reflitam com exatidão os variados aspectos dessa complexidade;
+
+07. As religiões de matriz africana devem estar incluídas nessa pesquisa criteriosa. Aparecem separadas, ora como “Umbanda” e “Candomblé”, assim como conjuntamente “Umbanda e Candomblé”. Os adeptos dessas duas vertentes, de modo muito nítido, reconhecem suas diferenças. Mas também há subgrupos que se consideram conjuntamente praticantes dessas duas correntes religiosas. A melhor posição, nesses casos, são entrevistas com líderes dessas religiões, mesmo porque valorizam a tradição oral e bons livros publicados sobre essas religiões ainda são raros;
+
+08. “Judaísmo” e “Islamismo” que, ao lado do “Cristianismo”, são designadas como “Grandes Religiões”, com significativo número de adeptos em todo o mundo, não devem ser consideradas de maior importância por tamanho ou antiguidade. É curioso notar que as três têm uma origem comum, sendo Abraão, Ab’haam ou Ibrahim o mesmo líder, patriarca ou profeta de origem dessas religiões. Porém, infelizmente, já houve história de grandes conflitos, perseguições e guerras. Daí a necessidade de se desenvolver, de modo maduro e permanente, uma cultura de paz e tolerância entre as religiões. A escola deve se tornar um espaço democrático e pluralista, que contemple a diversidade religiosa presente na sociedade, aspecto este previsto tanto na Proposta Curricular do Acre quanto na Base Nacional Comum Curricular e levado em consideração na preparação deste Currículo de Referência Único.

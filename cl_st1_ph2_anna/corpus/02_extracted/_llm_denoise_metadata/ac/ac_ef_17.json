@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "id": "resp_0a5552f306dba2be006ab2ecdf3eb487d2ad0f070dec715d7d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 832,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1036,
+      "output_tokens_details": {
+        "reasoning_tokens": 298
+      },
+      "total_tokens": 1868
+    }
+  },
+  "created_at": "2026-09-22T21:02:28Z",
+  "duration_seconds": 5.749,
+  "error": null,
+  "excerpt_id": "ac_ef_17",
+  "filename": "ac_ef_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d86f5c08a9a99f002131b31e2f1e58683cdc3f4d661f6122d49c87e436421b1e",
+    "manifest_file_sha256": "7d0d65f31af8a623e26180334d1729697835b6221a47055227eb2a0bbd9d20b8",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "318bd8c2a75e7a6f1dee9f459b5804619ee8f53e25a6fa5149e65ec818d9a7c6",
+    "rendered_prompt_sha256": "3fc3c2ede0e06a4656bd0f5c88e59b176313c1b3adb31f21e0cc231219a13e13",
+    "source_text_sha256": "22dbc0f386b6b16d0b5b44974bab09d2cedf14a872e79367dc1248d5d3d2ded0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 9,
+    "filename": "ac_ef_17.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_17.txt",
+    "state": "ac"
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_17.json"
+  },
+  "raw_response_text": "## 2. CONCEITOS-CHAVE E ABORDAGEM METODOLÓGICA\n\n**Linguagem e língua** – Aceita-se neste ponto para a Língua Espanhola a concepção de língua do Currículo de Referência Único de Língua Espanhola do Estado do Acre está relacionada ao conceito de língua franca proposto por Clarissa Menezes Jordão e está intimamente ligada a sua função política, social e econômica, assim como aborda Kanavillil Rajagopalan (2003), que defende uma linguística crítica, que envolva a linguagem, a identidade e a ética. A visão de linguagem e de aprendizagem baseia-se na teoria de Vygotsky (1996), que identifica dois níveis de desenvolvimento na aprendizagem, o real e o potencial. No primeiro, encontra-se a habilidade de execução de diversas atividades de maneira independente. O segundo envolve as tarefas que o aluno pode desenvolver com a ajuda de uma pessoa mais experiente, o que pode implicar artefatos com a linguagem ou recursos tecnológicos. Desse modo, o trabalho de colaboração é fundamental, não só para o sucesso do aluno, mas de toda a turma. Além disso, a colaboração entre pares propicia o desenvolvimento do pensamento crítico, promove o protagonismo juvenil, eleva a motivação e a autoestima e, também, proporciona uma atmosfera positiva no ambiente de aprendizagem.\n\n**Língua franca** – A BNCC preconiza a relação entre língua, território e cultura, considerando a função social e política do inglês enquanto língua franca. Neste caso, a Língua Espanhola possui imensa importância nestes conceitos e em ambas as situações, pois, a partir de agora o aluno deixa (mais do que nunca) de ser submisso às normas linguísticas, para tornar-se autônomo e independente. O professor assume seu caráter de não nativo e não mais aspira alcançar a posição inatingível e idealizada do falante nativo.\n\nNão apenas a língua inglesa deixa de ser a “língua do imperialismo” ou do “centro”, restrita a países como os Estados Unidos ou a Inglaterra, assim como a Língua Espanhola também deixa de ser a língua da Espanha, México, Peru ou Bolívia, por exemplo. Assim, a noção de “língua estrangeira” passa a ser ressignificada em contraponto com a percepção do local, da aprendizagem de si e do outro, como propõe Clarissa Jordão Menezes.\n\n**Multiletramento** – Para tratar a questão dos multiletramentos, conceito presente na BNCC (BRASIL, 2017, p. 240), utiliza-se a conceituação de Roxane Rojo (2012: 13):\n\n> Trabalhar com multiletramentos pode ou não envolver o uso de novas tecnologias da comunicação e de informação, mas caracteriza-se como um trabalho que parte das culturas de referência do alunado e de gêneros, mídias e linguagens por eles conhecidos, para buscar um enfoque crítico, pluralista, ético e democrático de textos/discursos que ampliem o repertório cultural, na direção de outros letramentos.\n\nA autora nos lembra ainda que é importante levar em consideração as produções culturais que estão à nossa volta (textos híbridos de diferentes gêneros) e a necessidade de novas ferramentas que nos permitem interagir não mais com textos engessados, mas com hipertextos, hipermídias e afins, e incentiva um aluno crítico e autônomo, não desconsiderando os conhecimentos de mundo que cada aprendiz carrega.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

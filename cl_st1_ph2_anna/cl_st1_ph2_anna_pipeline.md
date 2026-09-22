@@ -28,8 +28,8 @@ python llm_denoise.py \
     --manifest corpus/brazilian_educational_guidelines.ndjson \
     --output corpus/02_extracted \
     --prompt denoising_prompts/denoising_v2.md \
-    --model gpt-5.6-luna \
-    --limit 10
+    --model gpt-6-luna \
+    --limit 10 \
     --max-output-tokens 10000
 ```
 

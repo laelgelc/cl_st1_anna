@@ -32,7 +32,7 @@ python llm_denoise.py \
     --limit 10
 ```
 
-### 20 workers test run
+### 10 workers test run
 
 ```shell
 python llm_denoise.py \

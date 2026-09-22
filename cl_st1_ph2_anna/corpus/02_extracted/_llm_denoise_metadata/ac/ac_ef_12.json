@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "id": "resp_067a3c38d70d751d006ab27e0ef49887d293aa9b3effc844f1",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 902,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 606,
+      "output_tokens_details": {
+        "reasoning_tokens": 38
+      },
+      "total_tokens": 1508
+    }
+  },
+  "created_at": "2026-09-22T13:09:41Z",
+  "duration_seconds": 6.725,
+  "error": null,
+  "excerpt_id": "ac_ef_12",
+  "filename": "ac_ef_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "77153d08c7f22acc1afd1301e0b94182ccbf540f71356c91136e148202cbf20d",
+    "manifest_file_sha256": "7d0d65f31af8a623e26180334d1729697835b6221a47055227eb2a0bbd9d20b8",
+    "prompt_template_sha256": "f73807f77af829fa7bd93dd35627ef73cfa8e6726733ebef3cc368f073e68896",
+    "raw_response_text_sha256": "fdd72700889e313aa6c33bbce8fa3986dd849ef7ce80e21ec1adf11855944f33",
+    "rendered_prompt_sha256": "286f4c81055e2cdd571ef73d240b83f3e90dea64d29b89209c572bcd2343b9e7",
+    "source_text_sha256": "e4553b3e1830fcf904d70fc9b3b2082c4be0b9460319a04ffcac51a9c2fd0ef7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v1.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4,
+    "filename": "ac_ef_12.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_12.txt",
+    "state": "ac"
+  },
+  "max_output_tokens": 1000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-5.6-luna",
+    "response_model": "gpt-5.6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_12.json"
+  },
+  "raw_response_text": "## 4. ORIENTAÇÕES DE APLICABILIDADE DO COMPONENTE ENSINO RELIGIOSO\n\nÉ fundamental ao professor compreender as subdivisões do Quadro Organizador Curricular, observando a relação entre os Objetivos (Capacidades) e sua correspondência com os Conteúdos, definidos como: “O que é preciso ensinar explicitamente ou criar condições para que os alunos aprendam e desenvolvam as capacidades que são objetivos”. Estes Objetivos correspondem a Direitos de Aprendizagem equivalentes às seis Competências Específicas para o Ensino Religioso, conforme expressas na Base Nacional Comum Curricular.\n\nAparecem na coluna “Objetivos”, no Quadro Organizador Curricular, seja nos Anos Iniciais, do 1o ao 5o ano, assim como nos Anos Finais, do 6o ao 9o ano. Estão alinhados aos Conteúdos correspondentes, sendo possível e necessário ao professor verificar essa correspondência, no momento em que consulta o Quadro Organizacional Curricular, visto que seu objetivo final, como está expresso, será alcançar a formação plena de seus alunos dentro desses Direitos de Aprendizagem, as mesmas Competências Específicas do Ensino Religioso, em correspondência às 10 Competências Gerais da Base Nacional Comum Curricular.\n\n### 4.1. Anos iniciais\n\nA tabela abaixo indica, a cada ano, a incidência de conteúdos e a que direitos de aprendizagem correspondem de modo específico. Isto significa que, por exemplo, o primeiro direito de aprendizagem ou competência específica 1 do Ensino Religioso, que é “Conhecer os aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida, a partir de pressupostos científicos, filosóficos, estéticos e éticos”, será abordado por 1 conteúdo no 1o, 2° e 3o anos, por 3 conteúdos no 4o e 2 conteúdos no 5o ano. E assim por diante, em relação aos demais direitos de aprendizagem ou demais competências específicas do Ensino Religioso. Na última coluna à direita, na coluna TOTAL, em relação a cada direito de aprendizagem, verifica-se a quantidade de vezes em que é abordado cada conteúdo, nos Anos Iniciais e nos Anos Finais, numa leitura horizontal. Até o final dos Anos Iniciais, o aluno terá contato, por meio dos conteúdos abordados, oito vezes com os direitos de aprendizagem 1 e 2, sete vezes com os direitos de aprendizagem 3, 4 e 5 e seis vezes com o direitos de aprendizagem 6, conforme pode ser conferido numa leitura vertical da coluna TOTAL dos Anos Iniciais.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

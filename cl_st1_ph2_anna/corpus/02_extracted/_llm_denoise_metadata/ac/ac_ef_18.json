@@ -1,0 +1,57 @@
+{
+  "api_metadata": {
+    "id": "resp_03808f00c39c31f0006ab27e6d769887d293cc567d293ccfa9",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 782,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 606,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 1388
+    }
+  },
+  "created_at": "2026-09-22T13:11:15Z",
+  "duration_seconds": 5.735,
+  "error": null,
+  "excerpt_id": "ac_ef_18",
+  "filename": "ac_ef_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "431839935d5bb6403f4c54ea0e38ad900faeb8a56aa5a210cc79c57c444fb770",
+    "manifest_file_sha256": "7d0d65f31af8a623e26180334d1729697835b6221a47055227eb2a0bbd9d20b8",
+    "prompt_template_sha256": "f73807f77af829fa7bd93dd35627ef73cfa8e6726733ebef3cc368f073e68896",
+    "raw_response_text_sha256": "cf03108e1ee43e903cc59b951cbea3b9b8e1001ec9eb6e7c13f7f42e9c0cf232",
+    "rendered_prompt_sha256": "519fe5b52ac97180a3d6ca93b7552ece90abb4f664b868f1f93ec0d16308d171",
+    "source_text_sha256": "383d223ef3eb1231ad39d390e69442839322bd71a2814e0a1fe489bcb3ae560c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v1.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 10,
+    "filename": "ac_ef_18.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_18.txt",
+    "state": "ac"
+  },
+  "max_output_tokens": 1000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-5.6-luna",
+    "response_model": "gpt-5.6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_18.json"
+  },
+  "raw_response_text": "### 3. PARTE DIVERSIFICADA E ESPECIFICIDADES DO ESTADO DO ACRE\n\nEste documento propõe, para cada ano, o desenvolvimento de uma ou duas temática(s) transversal (ais), como ferramentas que possibilitam a escola alcançar as competências gerais da Base Nacional Comum Curricular. São temas tratados de forma a permitir que os alunos percebam que a linguagem está impregnada de valores, pois, assim como aponta Almeida Filho: “Aprender uma nova língua na escola é uma experiência educacional que se realiza para e pelo aprendiz/aluno como reflexo de valores específicos do grupo social e/ou étnico que mantém essa escola” podendo assim, a língua ser um instrumento para uma ação mais efetiva e crítica no mundo. São indicados temas que abordam questões ambientais e indígenas, além de questões que são próprias do momento histórico atual e que perpassam tanto a região e/ou comunidade local quanto toda a sociedade brasileira e/ou global, afligindo-as e exigindo tomada de consciência e posicionamentos éticos em relação ao cuidado de si mesmo, dos outros e do planeta, como a questão do bullying, do respeito à diversidade e ao idoso, da violência, além de educação financeira.\n\nOs temas propostos estão distribuídos nos objetivos e nas orientações didáticas e devem ser trabalhados de forma integrada ao conteúdo das aulas. Outros temas, além dos que estão propostos neste documento, podem ser trabalhados, levando-se em conta a relevância social. O eixo da Dimensão Cultural permite ao professor e ao aluno desenvolverem projetos interdisciplinares com os diferentes componentes curriculares e está conectado a primeira competência específica de Língua Espanhola, que permite ao aluno identificar-se em um mundo multilíngue e multicultural, refletindo criticamente sobre seu processo de aprendizagem e sobre seu lugar em um mundo globalizado. Está em consonância também com a competência que recomenda ao aluno conhecer diferentes patrimônios culturais, a fim de ampliar sua perspectiva de mundo em contato com diferentes manifestações artístico-culturais, possibilitando um trabalho interdisciplinar com os componentes curriculares de Arte, Educação Física, História, Geografia e Linguagens.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

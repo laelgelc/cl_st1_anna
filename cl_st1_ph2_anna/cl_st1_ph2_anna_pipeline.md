@@ -30,6 +30,7 @@ python llm_denoise.py \
     --prompt denoising_prompts/denoising_v2.md \
     --model gpt-5.6-luna \
     --limit 10
+    --max-output-tokens 10000
 ```
 
 ### 10 workers test run

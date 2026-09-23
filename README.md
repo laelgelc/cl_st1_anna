@@ -91,3 +91,6 @@ The EF Sudeste pilot curriculum documents were cleaned and transformed into a pa
 ### Lexical Multi-dimensional Analysis
 
 - The Lexical Multi-dimensional Analysis (LMDA) was processed according to the corresponding procedures.
+
+## Phase 2 - Lexical Multi-dimensional Analysis
+

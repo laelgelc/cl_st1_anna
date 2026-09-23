@@ -13,8 +13,8 @@ import math
 import argparse
 from collections import defaultdict
 
-# POS tags to keep: nouns, main verbs, adjectives (NO ADVERBS)
-VALID_TAG_PREFIXES = ("NOUN", "PROPN", "VERB", "ADJ")
+# POS tags to keep: nouns, main verbs, adjectives, and adverbs
+VALID_TAG_PREFIXES = ("NOUN", "PROPN", "VERB", "ADJ", "ADV")
 
 # stopwords (lowercase)
 #STOPWORDS = {

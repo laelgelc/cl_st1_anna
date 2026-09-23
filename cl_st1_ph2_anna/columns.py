@@ -1,18 +1,22 @@
 #!/usr/bin/env python3
 """
-Create binary keyword-presence columns for the tagged news subcorpus.
+Create binary keyword-presence columns for the tagged corpus.
 
 Input:
-    corpus/07_kw_selected/keywords.txt
-    corpus/05_tagged/<group>/<country>/<article_id>.txt
+    corpus/09_kw_selected/keywords.txt
+    corpus/07_tagged/<state>/<text_id>.txt
 
-Expected group folder format:
-    global_north_YYYY_MM
-    global_south_YYYY_MM
+Expected state folder format:
+    ac
+    al
+    am
+    ...
+    sp
+    to
 
 Outputs:
     columns/<Keyword ID>.txt
-        Full column files with file ID, group, and binary keyword presence.
+        Full column files with file ID, state, and binary keyword presence.
 
     columns_clean/<Keyword ID>.txt
         Clean binary columns for downstream analysis.
@@ -29,14 +33,14 @@ from pathlib import Path
 
 
 # === Configuration ===
-KEYWORD_FILE = Path("corpus/07_kw_selected/keywords.txt")
-TAGGED_BASE = Path("corpus/05_tagged")
+KEYWORD_FILE = Path("corpus/09_kw_selected/keywords.txt")
+TAGGED_BASE = Path("corpus/07_tagged")
 OUTPUT_DIR = Path("columns")
 CLEAN_DIR = Path("columns_clean")
 INDEX_FILE = Path("index_keywords.txt")
 FILE_IDS = Path("file_ids.txt")
 
-GROUP_RE = re.compile(r"^global_(north|south)_\d{4}_\d{2}$")
+STATE_RE = re.compile(r"^[a-z]{2}$")
 
 
 def natural_sort_key(text):
@@ -48,6 +52,16 @@ def natural_sort_key(text):
 def normalise_lemma(lemma):
     """Normalise lemmas consistently with the keyword-selection stage."""
     return lemma.strip().lower()
+
+
+def is_corpus_state_folder(path):
+    """Return True if path is a valid state-level corpus folder."""
+    return (
+            path.is_dir()
+            and STATE_RE.match(path.name)
+            and not path.name.startswith("_")
+            and not path.name.startswith(".")
+    )
 
 
 def load_keywords(path):
@@ -65,7 +79,7 @@ def load_keywords(path):
 
 
 def collect_tagged_texts(tagged_base):
-    """Collect tagged text files from Global North/South year-month group folders."""
+    """Collect tagged text files from state folders."""
     if not tagged_base.exists():
         raise FileNotFoundError(f"Tagged corpus directory does not exist: {tagged_base}")
 
@@ -74,22 +88,25 @@ def collect_tagged_texts(tagged_base):
 
     text_paths = []
 
-    group_folders = sorted(
+    state_folders = sorted(
         [
             folder for folder in tagged_base.iterdir()
-            if folder.is_dir() and GROUP_RE.match(folder.name)
+            if is_corpus_state_folder(folder)
         ],
         key=lambda path: natural_sort_key(path.name),
     )
 
-    if not group_folders:
+    if not state_folders:
         raise FileNotFoundError(
-            f"No group folders found under {tagged_base}. "
-            "Expected folders such as global_north_2023_09 or global_south_2024_06."
+            f"No state folders found under {tagged_base}. "
+            "Expected folders such as ac, es, mg, sp, etc."
         )
 
-    for folder in group_folders:
-        for text_file in sorted(folder.rglob("*.txt"), key=lambda path: natural_sort_key(path.as_posix())):
+    for folder in state_folders:
+        for text_file in sorted(
+                folder.rglob("*.txt"),
+                key=lambda path: natural_sort_key(path.as_posix()),
+        ):
             text_paths.append(text_file)
 
     if not text_paths:
@@ -151,14 +168,14 @@ def main():
     for text_file in text_paths:
         file_id = file_id_map[text_file]
         rel_parts = text_file.relative_to(TAGGED_BASE).parts
-        group = rel_parts[0]
+        state = rel_parts[0]
 
         present = read_present_lemmas(text_file)
 
         text_infos.append(
             {
                 "id": file_id,
-                "group": group,
+                "state": state,
                 "lemmas": present,
             }
         )
@@ -175,7 +192,7 @@ def main():
                 has_keyword = 1 if lemma in info["lemmas"] else 0
                 outf.write(
                     f"{info['id']} "
-                    f"{info['group']} "
+                    f"{info['state']} "
                     f"{has_keyword}\n"
                 )
 

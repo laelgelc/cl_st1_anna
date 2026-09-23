@@ -379,6 +379,7 @@ def load_manifest_rows(path: Path) -> list[dict[str, Any]]:
 
             obj["_manifest_line_number"] = line_number
             rows.append(obj)
+
     return rows
 
 
@@ -508,12 +509,74 @@ def write_text_atomic(path: Path, text: str) -> None:
     tmp_path.replace(path)
 
 
+def _obj_to_dict(obj: Any) -> dict[str, Any]:
+    if obj is None:
+        return {}
+    if isinstance(obj, dict):
+        return obj
+    if hasattr(obj, "model_dump"):
+        try:
+            return obj.model_dump()
+        except Exception:
+            pass
+    if hasattr(obj, "to_dict"):
+        try:
+            return obj.to_dict()
+        except Exception:
+            pass
+    if hasattr(obj, "to_json_dict"):
+        try:
+            return obj.to_json_dict()
+        except Exception:
+            pass
+    return {}
+
+
+def make_json_safe(value: Any) -> Any:
+    """
+    Recursively convert provider SDK objects and unusual Python values into
+    JSON-serializable structures.
+
+    This protects all metadata, manifest, summary, failure, invalid-response,
+    and consolidated NDJSON writes from SDK-specific objects such as bytes.
+    """
+    if value is None or isinstance(value, (str, int, float, bool)):
+        return value
+
+    if isinstance(value, bytes):
+        try:
+            return value.decode("utf-8")
+        except UnicodeDecodeError:
+            return {
+                "__type__": "bytes",
+                "sha256": hashlib.sha256(value).hexdigest(),
+                "size": len(value),
+            }
+
+    if isinstance(value, Path):
+        return str(value)
+
+    if isinstance(value, dict):
+        return {str(key): make_json_safe(nested) for key, nested in value.items()}
+
+    if isinstance(value, (list, tuple, set)):
+        return [make_json_safe(item) for item in value]
+
+    converted = _obj_to_dict(value)
+    if converted:
+        return make_json_safe(converted)
+
+    return str(value)
+
+
 def write_json_file(path: Path, obj: dict[str, Any]) -> None:
-    write_text_atomic(path, json.dumps(obj, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
+    safe_obj = make_json_safe(obj)
+    write_text_atomic(path, json.dumps(safe_obj, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
 
 
 def write_ndjson_file(path: Path, rows: list[dict[str, Any]]) -> None:
-    lines = [json.dumps(row, ensure_ascii=False, sort_keys=True) for row in rows]
+    safe_rows = [make_json_safe(row) for row in rows]
+    lines = [json.dumps(row, ensure_ascii=False, sort_keys=True) for row in safe_rows]
     write_text_atomic(path, "\n".join(lines) + ("\n" if lines else ""))
 
 
@@ -548,29 +611,6 @@ def _api_error_suggests_temperature_unsupported(exc: Exception) -> bool:
             or "unknown parameter" in text
             or "invalid parameter" in text
     )
-
-
-def _obj_to_dict(obj: Any) -> dict[str, Any]:
-    if obj is None:
-        return {}
-    if isinstance(obj, dict):
-        return obj
-    if hasattr(obj, "model_dump"):
-        try:
-            return obj.model_dump()
-        except Exception:
-            pass
-    if hasattr(obj, "to_dict"):
-        try:
-            return obj.to_dict()
-        except Exception:
-            pass
-    if hasattr(obj, "to_json_dict"):
-        try:
-            return obj.to_json_dict()
-        except Exception:
-            pass
-    return {}
 
 
 def extract_response_text(response: Any) -> str:
@@ -960,14 +1000,26 @@ def process_item(
 
     if not item.source_path.exists():
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "missing_source_file", "Source file not found", started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "missing_source_file",
+            "Source file not found",
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
 
     if not item.source_path.is_file():
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "source_path_not_file", "Source path is not a file", started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "source_path_not_file",
+            "Source path is not a file",
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -976,14 +1028,26 @@ def process_item(
         source_text = read_source_text(item.source_path)
     except Exception as exc:
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "unreadable_source_file", str(exc), started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "unreadable_source_file",
+            str(exc),
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
 
     if not source_text.strip():
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "empty_source_file", "Source file is empty", started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "empty_source_file",
+            "Source file is empty",
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -1001,14 +1065,26 @@ def process_item(
         )
     except Exception as exc:
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "api_error_after_retries", str(exc), started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "api_error_after_retries",
+            str(exc),
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
 
     if not raw_response_text.strip():
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "empty_llm_response", "No usable response text found", started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "empty_llm_response",
+            "No usable response text found",
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -1034,7 +1110,13 @@ def process_item(
         write_text_atomic(item.markdown_path, denoised_markdown)
     except Exception as exc:
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "markdown_output_write_failure", str(exc), started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "markdown_output_write_failure",
+            str(exc),
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -1057,7 +1139,13 @@ def process_item(
         write_json_file(item.metadata_path, record)
     except Exception as exc:
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "metadata_json_write_failure", str(exc), started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "metadata_json_write_failure",
+            str(exc),
+            started_at,
         )
         return record
 
@@ -1284,7 +1372,6 @@ def main(argv: list[str] | None = None) -> int:
             item.metadata_path.parent.mkdir(parents=True, exist_ok=True)
 
         results_by_index: dict[int, dict[str, Any]] = {}
-        skipped_records: list[dict[str, Any]] = []
 
         to_process: list[PlanItem] = []
         for item in plan:
@@ -1292,7 +1379,6 @@ def main(argv: list[str] | None = None) -> int:
                 metadata = json.loads(item.metadata_path.read_text(encoding="utf-8"))
                 metadata["status"] = "skipped_existing"
                 results_by_index[item.index] = metadata
-                skipped_records.append(metadata)
                 logging.info("Skipped existing success filename=%s", item.filename)
             else:
                 to_process.append(item)
@@ -1300,7 +1386,11 @@ def main(argv: list[str] | None = None) -> int:
         if config.dry_run:
             for item in to_process:
                 results_by_index[item.index] = build_dry_run_record(
-                    config, item, manifest_hash, prompt_hash, prompt_template
+                    config,
+                    item,
+                    manifest_hash,
+                    prompt_hash,
+                    prompt_template,
                 )
         else:
             client = make_llm_client(config)

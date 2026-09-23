@@ -96,6 +96,18 @@ python llm_denoise.py \
     --manifest corpus/brazilian_educational_guidelines.ndjson \
     --output corpus/02_extracted \
     --prompt denoising_prompts/denoising_v2.md \
+    --model gemini-3.8-flash \
+    --max-output-tokens 10000 \
+    --max-retries 5 \
+    --only-filename se_inf_1.txt \
+    --reprocess
+```
+
+```shell
+python llm_denoise.py \
+    --manifest corpus/brazilian_educational_guidelines.ndjson \
+    --output corpus/02_extracted \
+    --prompt denoising_prompts/denoising_v2.md \
     --model gpt-6-luna \
     --max-output-tokens 10000 \
     --max-retries 5 \

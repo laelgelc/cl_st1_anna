@@ -148,111 +148,77 @@ Output: `corpus/08_keylemmas/<group>.tsv`
 python select_kws_stratified.py \
     --input corpus/08_keylemmas \
     --output corpus/09_kw_selected \
-    --per-group 50 \
+    --per-group 45 \
     --max-total 20000
 ```
 
 Output: `corpus/09_kw_selected/keywords.txt
 
 ```shell
-=== Group Keyword Quotas ===
-global_north_2023_09   → 40 keywords max
-global_north_2023_10   → 40 keywords max
-global_north_2023_11   → 40 keywords max
-global_north_2023_12   → 40 keywords max
-global_north_2024_01   → 40 keywords max
-global_north_2024_02   → 40 keywords max
-global_north_2024_03   → 40 keywords max
-global_north_2024_04   → 40 keywords max
-global_north_2024_05   → 40 keywords max
-global_north_2024_06   → 40 keywords max
-global_north_2024_07   → 40 keywords max
-global_north_2024_08   → 40 keywords max
-global_north_2024_09   → 40 keywords max
-global_north_2024_10   → 40 keywords max
-global_north_2024_11   → 40 keywords max
-global_north_2024_12   → 40 keywords max
-global_north_2025_01   → 40 keywords max
-global_north_2025_02   → 40 keywords max
-global_north_2025_03   → 40 keywords max
-global_north_2025_04   → 40 keywords max
-global_north_2025_05   → 40 keywords max
-global_north_2025_06   → 40 keywords max
-global_south_2023_09   → 40 keywords max
-global_south_2023_10   → 40 keywords max
-global_south_2023_11   → 40 keywords max
-global_south_2023_12   → 40 keywords max
-global_south_2024_01   → 40 keywords max
-global_south_2024_02   → 40 keywords max
-global_south_2024_03   → 40 keywords max
-global_south_2024_04   → 40 keywords max
-global_south_2024_05   → 40 keywords max
-global_south_2024_06   → 40 keywords max
-global_south_2024_07   → 40 keywords max
-global_south_2024_08   → 40 keywords max
-global_south_2024_09   → 40 keywords max
-global_south_2024_10   → 40 keywords max
-global_south_2024_11   → 40 keywords max
-global_south_2024_12   → 40 keywords max
-global_south_2025_01   → 40 keywords max
-global_south_2025_02   → 40 keywords max
-global_south_2025_03   → 40 keywords max
-global_south_2025_04   → 40 keywords max
-global_south_2025_05   → 40 keywords max
-global_south_2025_06   → 40 keywords max
-============================
+=== Stratum Keyword Quotas ===
+ac                     → 45 keywords max
+al                     → 45 keywords max
+am                     → 45 keywords max
+ap                     → 45 keywords max
+ba                     → 45 keywords max
+ce                     → 45 keywords max
+df                     → 45 keywords max
+es                     → 45 keywords max
+go                     → 45 keywords max
+ma                     → 45 keywords max
+mg                     → 45 keywords max
+ms                     → 45 keywords max
+mt                     → 45 keywords max
+pa                     → 45 keywords max
+pb                     → 45 keywords max
+pe                     → 45 keywords max
+pi                     → 45 keywords max
+pr                     → 45 keywords max
+rj                     → 45 keywords max
+rn                     → 45 keywords max
+ro                     → 45 keywords max
+rr                     → 45 keywords max
+rs                     → 45 keywords max
+sc                     → 45 keywords max
+se                     → 45 keywords max
+sp                     → 45 keywords max
+to                     → 45 keywords max
+==============================
 
-global_north_2023_09   → selected 40/40 from 455 available POSKW lemmas
-global_north_2023_10   → selected 40/40 from 475 available POSKW lemmas
-global_north_2023_11   → selected 40/40 from 347 available POSKW lemmas
-global_north_2023_12   → selected 40/40 from 342 available POSKW lemmas
-global_north_2024_01   → selected 40/40 from 315 available POSKW lemmas
-global_north_2024_02   → selected 40/40 from 326 available POSKW lemmas
-global_north_2024_03   → selected 40/40 from 380 available POSKW lemmas
-global_north_2024_04   → selected 40/40 from 375 available POSKW lemmas
-global_north_2024_05   → selected 40/40 from 413 available POSKW lemmas
-global_north_2024_06   → selected 40/40 from 307 available POSKW lemmas
-global_north_2024_07   → selected 40/40 from 296 available POSKW lemmas
-global_north_2024_08   → selected 40/40 from 279 available POSKW lemmas
-global_north_2024_09   → selected 40/40 from 289 available POSKW lemmas
-global_north_2024_10   → selected 40/40 from 363 available POSKW lemmas
-global_north_2024_11   → selected 40/40 from 359 available POSKW lemmas
-global_north_2024_12   → selected 40/40 from 308 available POSKW lemmas
-global_north_2025_01   → selected 40/40 from 383 available POSKW lemmas
-global_north_2025_02   → selected 40/40 from 433 available POSKW lemmas
-global_north_2025_03   → selected 40/40 from 425 available POSKW lemmas
-global_north_2025_04   → selected 40/40 from 363 available POSKW lemmas
-global_north_2025_05   → selected 40/40 from 436 available POSKW lemmas
-global_north_2025_06   → selected 40/40 from 477 available POSKW lemmas
-global_south_2023_09   → selected 40/40 from 248 available POSKW lemmas
-global_south_2023_10   → selected 40/40 from 379 available POSKW lemmas
-global_south_2023_11   → selected 40/40 from 301 available POSKW lemmas
-global_south_2023_12   → selected 40/40 from 362 available POSKW lemmas
-global_south_2024_01   → selected 40/40 from 321 available POSKW lemmas
-global_south_2024_02   → selected 40/40 from 237 available POSKW lemmas
-global_south_2024_03   → selected 40/40 from 262 available POSKW lemmas
-global_south_2024_04   → selected 40/40 from 249 available POSKW lemmas
-global_south_2024_05   → selected 40/40 from 250 available POSKW lemmas
-global_south_2024_06   → selected 40/40 from 221 available POSKW lemmas
-global_south_2024_07   → selected 40/40 from 265 available POSKW lemmas
-global_south_2024_08   → selected 40/40 from 334 available POSKW lemmas
-global_south_2024_09   → selected 40/40 from 327 available POSKW lemmas
-global_south_2024_10   → selected 40/40 from 412 available POSKW lemmas
-global_south_2024_11   → selected 40/40 from 346 available POSKW lemmas
-global_south_2024_12   → selected 40/40 from 293 available POSKW lemmas
-global_south_2025_01   → selected 40/40 from 350 available POSKW lemmas
-global_south_2025_02   → selected 40/40 from 387 available POSKW lemmas
-global_south_2025_03   → selected 40/40 from 333 available POSKW lemmas
-global_south_2025_04   → selected 40/40 from 274 available POSKW lemmas
-global_south_2025_05   → selected 40/40 from 368 available POSKW lemmas
-global_south_2025_06   → selected 40/40 from 438 available POSKW lemmas
+ac                     → selected 45/45 from 246 available POSKW lemmas
+al                     → selected 45/45 from 89 available POSKW lemmas
+am                     → selected 45/45 from 170 available POSKW lemmas
+ap                     → selected 45/45 from 46 available POSKW lemmas
+ba                     → selected 45/45 from 356 available POSKW lemmas
+ce                     → selected 45/45 from 368 available POSKW lemmas
+df                     → selected 45/45 from 120 available POSKW lemmas
+es                     → selected 45/45 from 124 available POSKW lemmas
+go                     → selected 45/45 from 364 available POSKW lemmas
+ma                     → selected 45/45 from 244 available POSKW lemmas
+mg                     → selected 30/45 from 30 available POSKW lemmas
+ms                     → selected 45/45 from 147 available POSKW lemmas
+mt                     → selected 45/45 from 252 available POSKW lemmas
+pa                     → selected 45/45 from 679 available POSKW lemmas
+pb                     → selected 45/45 from 140 available POSKW lemmas
+pe                     → selected 45/45 from 68 available POSKW lemmas
+pi                     → selected 45/45 from 191 available POSKW lemmas
+pr                     → selected 45/45 from 853 available POSKW lemmas
+rj                     → selected 45/45 from 121 available POSKW lemmas
+rn                     → selected 45/45 from 74 available POSKW lemmas
+ro                     → selected 45/45 from 110 available POSKW lemmas
+rr                     → selected 45/45 from 65 available POSKW lemmas
+rs                     → selected 45/45 from 92 available POSKW lemmas
+sc                     → selected 45/45 from 1150 available POSKW lemmas
+se                     → selected 45/45 from 161 available POSKW lemmas
+sp                     → selected 45/45 from 98 available POSKW lemmas
+to                     → selected 45/45 from 102 available POSKW lemmas
 
-Total consolidated keywords before de-duplication: 1760
-Unique keywords after de-duplication: 1041
-Duplicates removed: 719
+Total consolidated keywords before de-duplication: 1200
+Unique keywords after de-duplication: 1063
+Duplicates removed: 137
 
-Final unique keywords written to: corpus/07_kw_selected/keywords.txt
-Final unique keyword count: 1041
+Final unique keywords written to: corpus/09_kw_selected/keywords.txt
+Final unique keyword count: 1063
 ```
 
 ## 5. Build binary keyword columns

@@ -16525,3 +16525,103 @@
 2026-09-23 10:50:06,585 WARNING ThreadPoolExecutor-0_0 Model rejected temperature; retrying without temperature for future calls
 2026-09-23 10:50:24,810 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
 2026-09-23 10:50:24,935 INFO MainThread Completed run_id=20260923T135005Z_2a51c3c0 status=completed_with_errors counts={'manifest_rows_total': 4112, 'manifest_rows_matched': 1, 'excerpts_planned': 1, 'excerpts_succeeded': 0, 'excerpts_failed': 0, 'excerpts_invalid_response': 1, 'excerpts_skipped_existing': 0, 'excerpts_dry_run': 0}
+2026-09-23 10:53:19,787 INFO MainThread Starting llm_denoise.py run_id=20260923T135319Z_536fa893
+2026-09-23 10:53:19,787 INFO MainThread Manifest: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/brazilian_educational_guidelines.ndjson
+2026-09-23 10:53:19,787 INFO MainThread Output: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/02_extracted
+2026-09-23 10:53:19,787 INFO MainThread Prompt: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/denoising_prompts/denoising_v2.md
+2026-09-23 10:53:19,787 INFO MainThread Model: gpt-5.6-luna
+2026-09-23 10:53:19,787 INFO MainThread Workers: 1 dry_run=False resume=False reprocess=True only_filename=ms_inf_e_ef_45.txt
+2026-09-23 10:53:20,218 INFO ThreadPoolExecutor-0_0 Processing index=0 filename=ms_inf_e_ef_45.txt state=ms
+2026-09-23 10:53:21,045 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2026-09-23 10:53:21,047 WARNING ThreadPoolExecutor-0_0 Model rejected temperature; retrying without temperature for future calls
+2026-09-23 10:53:33,127 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-09-23 10:53:33,251 INFO MainThread Completed run_id=20260923T135319Z_536fa893 status=completed_with_errors counts={'manifest_rows_total': 4112, 'manifest_rows_matched': 1, 'excerpts_planned': 1, 'excerpts_succeeded': 0, 'excerpts_failed': 0, 'excerpts_invalid_response': 1, 'excerpts_skipped_existing': 0, 'excerpts_dry_run': 0}
+2026-09-23 10:54:17,883 INFO MainThread Starting llm_denoise.py run_id=20260923T135417Z_b62345ea
+2026-09-23 10:54:17,883 INFO MainThread Manifest: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/brazilian_educational_guidelines.ndjson
+2026-09-23 10:54:17,883 INFO MainThread Output: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/02_extracted
+2026-09-23 10:54:17,883 INFO MainThread Prompt: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/denoising_prompts/denoising_v2.md
+2026-09-23 10:54:17,883 INFO MainThread Model: gpt-5.6-luna
+2026-09-23 10:54:17,883 INFO MainThread Workers: 1 dry_run=False resume=False reprocess=True only_filename=se_inf_1.txt
+2026-09-23 10:54:18,314 INFO ThreadPoolExecutor-0_0 Processing index=0 filename=se_inf_1.txt state=se
+2026-09-23 10:54:18,900 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2026-09-23 10:54:18,902 WARNING ThreadPoolExecutor-0_0 Model rejected temperature; retrying without temperature for future calls
+2026-09-23 10:54:24,736 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-09-23 10:54:24,851 INFO ThreadPoolExecutor-0_0 Finished index=0 filename=se_inf_1.txt status=success
+2026-09-23 10:54:24,858 INFO MainThread Completed run_id=20260923T135417Z_b62345ea status=success counts={'manifest_rows_total': 4112, 'manifest_rows_matched': 1, 'excerpts_planned': 1, 'excerpts_succeeded': 1, 'excerpts_failed': 0, 'excerpts_invalid_response': 0, 'excerpts_skipped_existing': 0, 'excerpts_dry_run': 0}
+2026-09-23 10:55:38,365 INFO MainThread Starting llm_denoise.py run_id=20260923T135538Z_15d99d5b
+2026-09-23 10:55:38,365 INFO MainThread Manifest: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/brazilian_educational_guidelines.ndjson
+2026-09-23 10:55:38,365 INFO MainThread Output: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/02_extracted
+2026-09-23 10:55:38,365 INFO MainThread Prompt: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/denoising_prompts/denoising_v2.md
+2026-09-23 10:55:38,365 INFO MainThread Model: gpt-5.5
+2026-09-23 10:55:38,365 INFO MainThread Workers: 1 dry_run=False resume=False reprocess=True only_filename=se_inf_1.txt
+2026-09-23 10:55:38,798 INFO ThreadPoolExecutor-0_0 Processing index=0 filename=se_inf_1.txt state=se
+2026-09-23 10:55:40,002 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2026-09-23 10:55:40,003 WARNING ThreadPoolExecutor-0_0 Model rejected temperature; retrying without temperature for future calls
+2026-09-23 10:56:00,993 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-09-23 10:56:01,124 INFO ThreadPoolExecutor-0_0 Finished index=0 filename=se_inf_1.txt status=success
+2026-09-23 10:56:01,133 INFO MainThread Completed run_id=20260923T135538Z_15d99d5b status=success counts={'manifest_rows_total': 4112, 'manifest_rows_matched': 1, 'excerpts_planned': 1, 'excerpts_succeeded': 1, 'excerpts_failed': 0, 'excerpts_invalid_response': 0, 'excerpts_skipped_existing': 0, 'excerpts_dry_run': 0}
+2026-09-23 10:56:43,620 INFO MainThread Starting llm_denoise.py run_id=20260923T135643Z_ddff046d
+2026-09-23 10:56:43,620 INFO MainThread Manifest: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/brazilian_educational_guidelines.ndjson
+2026-09-23 10:56:43,620 INFO MainThread Output: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/02_extracted
+2026-09-23 10:56:43,620 INFO MainThread Prompt: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/denoising_prompts/denoising_v2.md
+2026-09-23 10:56:43,620 INFO MainThread Model: gpt-5.5
+2026-09-23 10:56:43,620 INFO MainThread Workers: 1 dry_run=False resume=False reprocess=True only_filename=ms_inf_e_ef_45.txt
+2026-09-23 10:56:44,054 INFO ThreadPoolExecutor-0_0 Processing index=0 filename=ms_inf_e_ef_45.txt state=ms
+2026-09-23 10:56:44,787 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2026-09-23 10:56:44,790 WARNING ThreadPoolExecutor-0_0 Model rejected temperature; retrying without temperature for future calls
+2026-09-23 10:57:04,686 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-09-23 10:57:04,833 INFO MainThread Completed run_id=20260923T135643Z_ddff046d status=completed_with_errors counts={'manifest_rows_total': 4112, 'manifest_rows_matched': 1, 'excerpts_planned': 1, 'excerpts_succeeded': 0, 'excerpts_failed': 0, 'excerpts_invalid_response': 1, 'excerpts_skipped_existing': 0, 'excerpts_dry_run': 0}
+2026-09-23 10:59:12,358 INFO MainThread Starting llm_denoise.py run_id=20260923T135912Z_92ea4304
+2026-09-23 10:59:12,358 INFO MainThread Manifest: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/brazilian_educational_guidelines.ndjson
+2026-09-23 10:59:12,358 INFO MainThread Output: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/02_extracted
+2026-09-23 10:59:12,358 INFO MainThread Prompt: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/denoising_prompts/denoising_v2.md
+2026-09-23 10:59:12,358 INFO MainThread Model: gpt-5.2
+2026-09-23 10:59:12,359 INFO MainThread Workers: 1 dry_run=False resume=False reprocess=True only_filename=ms_inf_e_ef_45.txt
+2026-09-23 10:59:12,793 INFO ThreadPoolExecutor-0_0 Processing index=0 filename=ms_inf_e_ef_45.txt state=ms
+2026-09-23 10:59:25,786 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-09-23 10:59:25,907 INFO MainThread Completed run_id=20260923T135912Z_92ea4304 status=completed_with_errors counts={'manifest_rows_total': 4112, 'manifest_rows_matched': 1, 'excerpts_planned': 1, 'excerpts_succeeded': 0, 'excerpts_failed': 0, 'excerpts_invalid_response': 1, 'excerpts_skipped_existing': 0, 'excerpts_dry_run': 0}
+2026-09-23 10:59:45,085 INFO MainThread Starting llm_denoise.py run_id=20260923T135945Z_dcb57627
+2026-09-23 10:59:45,085 INFO MainThread Manifest: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/brazilian_educational_guidelines.ndjson
+2026-09-23 10:59:45,085 INFO MainThread Output: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/02_extracted
+2026-09-23 10:59:45,085 INFO MainThread Prompt: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/denoising_prompts/denoising_v2.md
+2026-09-23 10:59:45,085 INFO MainThread Model: gpt-5.2
+2026-09-23 10:59:45,085 INFO MainThread Workers: 1 dry_run=False resume=False reprocess=True only_filename=se_inf_1.txt
+2026-09-23 10:59:45,530 INFO ThreadPoolExecutor-0_0 Processing index=0 filename=se_inf_1.txt state=se
+2026-09-23 10:59:49,041 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-09-23 10:59:49,155 INFO ThreadPoolExecutor-0_0 Finished index=0 filename=se_inf_1.txt status=success
+2026-09-23 10:59:49,161 INFO MainThread Completed run_id=20260923T135945Z_dcb57627 status=success counts={'manifest_rows_total': 4112, 'manifest_rows_matched': 1, 'excerpts_planned': 1, 'excerpts_succeeded': 1, 'excerpts_failed': 0, 'excerpts_invalid_response': 0, 'excerpts_skipped_existing': 0, 'excerpts_dry_run': 0}
+2026-09-23 11:01:54,497 INFO MainThread Starting llm_denoise.py run_id=20260923T140154Z_37dec77d
+2026-09-23 11:01:54,497 INFO MainThread Manifest: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/brazilian_educational_guidelines.ndjson
+2026-09-23 11:01:54,498 INFO MainThread Output: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/02_extracted
+2026-09-23 11:01:54,498 INFO MainThread Prompt: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/denoising_prompts/denoising_v2.md
+2026-09-23 11:01:54,498 INFO MainThread Model: gpt-6-sol
+2026-09-23 11:01:54,498 INFO MainThread Workers: 1 dry_run=False resume=False reprocess=True only_filename=se_inf_1.txt
+2026-09-23 11:01:54,930 INFO ThreadPoolExecutor-0_0 Processing index=0 filename=se_inf_1.txt state=se
+2026-09-23 11:01:56,050 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2026-09-23 11:01:56,062 WARNING ThreadPoolExecutor-0_0 Model rejected temperature; retrying without temperature for future calls
+2026-09-23 11:02:00,830 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-09-23 11:02:00,944 INFO ThreadPoolExecutor-0_0 Finished index=0 filename=se_inf_1.txt status=success
+2026-09-23 11:02:00,950 INFO MainThread Completed run_id=20260923T140154Z_37dec77d status=success counts={'manifest_rows_total': 4112, 'manifest_rows_matched': 1, 'excerpts_planned': 1, 'excerpts_succeeded': 1, 'excerpts_failed': 0, 'excerpts_invalid_response': 0, 'excerpts_skipped_existing': 0, 'excerpts_dry_run': 0}
+2026-09-23 11:02:55,096 INFO MainThread Starting llm_denoise.py run_id=20260923T140255Z_4c6390e9
+2026-09-23 11:02:55,096 INFO MainThread Manifest: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/brazilian_educational_guidelines.ndjson
+2026-09-23 11:02:55,096 INFO MainThread Output: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/02_extracted
+2026-09-23 11:02:55,096 INFO MainThread Prompt: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/denoising_prompts/denoising_v2.md
+2026-09-23 11:02:55,096 INFO MainThread Model: gpt-6-luna
+2026-09-23 11:02:55,096 INFO MainThread Workers: 1 dry_run=False resume=False reprocess=True only_filename=se_inf_1.txt
+2026-09-23 11:02:55,521 INFO ThreadPoolExecutor-0_0 Processing index=0 filename=se_inf_1.txt state=se
+2026-09-23 11:02:56,332 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2026-09-23 11:02:56,334 WARNING ThreadPoolExecutor-0_0 Model rejected temperature; retrying without temperature for future calls
+2026-09-23 11:03:05,547 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-09-23 11:03:05,658 INFO ThreadPoolExecutor-0_0 Finished index=0 filename=se_inf_1.txt status=success
+2026-09-23 11:03:05,663 INFO MainThread Completed run_id=20260923T140255Z_4c6390e9 status=success counts={'manifest_rows_total': 4112, 'manifest_rows_matched': 1, 'excerpts_planned': 1, 'excerpts_succeeded': 1, 'excerpts_failed': 0, 'excerpts_invalid_response': 0, 'excerpts_skipped_existing': 0, 'excerpts_dry_run': 0}
+2026-09-23 11:03:39,381 INFO MainThread Starting llm_denoise.py run_id=20260923T140339Z_a68d5a42
+2026-09-23 11:03:39,381 INFO MainThread Manifest: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/brazilian_educational_guidelines.ndjson
+2026-09-23 11:03:39,381 INFO MainThread Output: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/corpus/02_extracted
+2026-09-23 11:03:39,381 INFO MainThread Prompt: /home/eyamrog/PycharmProjects/cl_st1_anna/cl_st1_ph2_anna/denoising_prompts/denoising_v2.md
+2026-09-23 11:03:39,381 INFO MainThread Model: gpt-6-luna
+2026-09-23 11:03:39,381 INFO MainThread Workers: 1 dry_run=False resume=False reprocess=True only_filename=ms_inf_e_ef_45.txt
+2026-09-23 11:03:39,811 INFO ThreadPoolExecutor-0_0 Processing index=0 filename=ms_inf_e_ef_45.txt state=ms
+2026-09-23 11:03:40,365 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2026-09-23 11:03:40,367 WARNING ThreadPoolExecutor-0_0 Model rejected temperature; retrying without temperature for future calls
+2026-09-23 11:03:55,801 INFO ThreadPoolExecutor-0_0 HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2026-09-23 11:03:55,966 INFO MainThread Completed run_id=20260923T140339Z_a68d5a42 status=completed_with_errors counts={'manifest_rows_total': 4112, 'manifest_rows_matched': 1, 'excerpts_planned': 1, 'excerpts_succeeded': 0, 'excerpts_failed': 0, 'excerpts_invalid_response': 1, 'excerpts_skipped_existing': 0, 'excerpts_dry_run': 0}

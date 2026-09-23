@@ -123,6 +123,8 @@ python llm_denoise.py \
 
 ## 2. Tag the corpus
 
+The programme was adapted to remove Markdown marker characters that should not be tagged as tokens.
+
 ```shell
 python tag.py
 ```

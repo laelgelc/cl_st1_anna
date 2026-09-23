@@ -55,6 +55,11 @@ def gather_tasks(input_base: Path, output_base: Path) -> list[tuple[str, str]]:
     return tasks
 
 
+def clean_text_for_treetagger(text: str) -> str:
+    """Remove Markdown marker characters that should not be tagged as tokens."""
+    return text.translate(str.maketrans("", "", "*#"))
+
+
 # ---------------------------------------------------------
 # Worker
 # ---------------------------------------------------------
@@ -63,12 +68,18 @@ def tag_file(task: tuple[str, str]) -> tuple[str, float]:
     os.makedirs(os.path.dirname(outfile), exist_ok=True)
 
     start = time.time()
-    with open(infile, "r", encoding="utf-8") as fin, \
-            open(outfile, "w", encoding="utf-8") as fout:
+
+    with open(infile, "r", encoding="utf-8") as fin:
+        text = fin.read()
+
+    cleaned_text = clean_text_for_treetagger(text)
+
+    with open(outfile, "w", encoding="utf-8") as fout:
         subprocess.run(
             ["tree-tagger-portuguese2"],
-            stdin=fin,
+            input=cleaned_text,
             stdout=fout,
+            text=True,
             check=True,
         )
 
@@ -99,7 +110,8 @@ def main() -> None:
     print(f"Input root directory: {INPUT_BASE}")
     print(f"Input extension: {INPUT_EXTENSION}")
     print(f"Output root directory: {OUTPUT_BASE}")
-    print(f"Output extension: {OUTPUT_EXTENSION}\n")
+    print(f"Output extension: {OUTPUT_EXTENSION}")
+    print("Characters removed before tagging: * #\n")
 
     n_workers = max(1, multiprocessing.cpu_count() - 1)
     print(f"Using {n_workers} workers...\n")

@@ -9,16 +9,17 @@ same filename.
 Default project usage:
     python generate_interpretation_gpt.py
 
-Equivalent explicit usage:
+Example explicit usage:
     python generate_interpretation_gpt.py \
         --input interpretation/input \
         --output interpretation/output \
-        --model gpt-5.5 \
+        --model gpt-6-sol \
         --workers 4 \
         --max-output-tokens 9000 \
         --skip-existing \
         --retries 5 \
-        --retry-base-sleep 2.0
+        --retry-base-sleep 2.0 \
+        --limit 3
 
 The script loads OPENAI_API_KEY from either:
     1. the system environment; or
@@ -29,11 +30,16 @@ Expected input:
 
 Output:
     interpretation/output/f<n>_<pole>.txt
+
+Additional run artefacts:
+    interpretation/output/generate_interpretation_gpt.log
+    interpretation/output/failed_prompts.txt, if any prompts fail
 """
 
 from __future__ import annotations
 
 import argparse
+import logging
 import os
 import random
 import sys
@@ -51,11 +57,13 @@ from dotenv import load_dotenv
 DEFAULT_PROJECT = Path.cwd().name
 DEFAULT_INPUT_DIR = Path("interpretation/input")
 DEFAULT_OUTPUT_DIR = Path("interpretation/output")
-DEFAULT_MODEL = "gpt-5.6-sol"
+DEFAULT_MODEL = "gpt-6-sol"
 DEFAULT_WORKERS = 4
 DEFAULT_MAX_OUTPUT_TOKENS = 9000
 DEFAULT_RETRIES = 5
 DEFAULT_RETRY_BASE_SLEEP = 2.0
+DEFAULT_LOG_FILE_NAME = "generate_interpretation_gpt.log"
+DEFAULT_FAILED_FILE_NAME = "failed_prompts.txt"
 
 
 # ------------------------------------------------------------
@@ -144,8 +152,59 @@ def parse_args() -> argparse.Namespace:
         default=DEFAULT_RETRY_BASE_SLEEP,
         help=f"Base sleep in seconds for exponential backoff. Default: {DEFAULT_RETRY_BASE_SLEEP}.",
     )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=0,
+        help="Optional maximum number of prompt files to process. Use 0 for no limit.",
+    )
+    parser.add_argument(
+        "--log-file",
+        default="",
+        help=(
+            "Optional log-file path. "
+            f"Default: <output>/{DEFAULT_LOG_FILE_NAME}."
+        ),
+    )
+    parser.add_argument(
+        "--failed-file",
+        default="",
+        help=(
+            "Optional failed-prompts file path. "
+            f"Default: <output>/{DEFAULT_FAILED_FILE_NAME}."
+        ),
+    )
 
     return parser.parse_args()
+
+
+# ------------------------------------------------------------
+# Logging
+# ------------------------------------------------------------
+
+def setup_logging(log_file: Path) -> None:
+    """Configure console and file logging."""
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+
+    root_logger = logging.getLogger()
+    root_logger.setLevel(logging.INFO)
+
+    for handler in list(root_logger.handlers):
+        root_logger.removeHandler(handler)
+
+    formatter = logging.Formatter(
+        fmt="%(asctime)s [%(levelname)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
+
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(formatter)
+
+    file_handler = logging.FileHandler(log_file, encoding="utf-8")
+    file_handler.setFormatter(formatter)
+
+    root_logger.addHandler(console_handler)
+    root_logger.addHandler(file_handler)
 
 
 # ------------------------------------------------------------
@@ -163,12 +222,21 @@ def write_text(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8")
 
 
+def write_failed_prompts(path: Path, failed: list[str]) -> None:
+    """Write failed prompt filenames, one per line."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        "".join(f"{name}\n" for name in failed),
+        encoding="utf-8",
+    )
+
+
 def model_supports_temperature(model: str) -> bool:
     """
     Return whether the selected model should receive the temperature parameter.
 
-    In this project, gpt-5.5 rejected the Responses API temperature parameter,
-    so GPT-5-family models are treated as not supporting temperature here.
+    In this project, GPT-5-family models are treated as not supporting
+    the Responses API temperature parameter.
     """
     normalized = model.strip().lower()
 
@@ -191,6 +259,7 @@ def is_transient_error(exc: Exception) -> bool:
         "server",
         "service unavailable",
         "gateway",
+        "empty output",
         "429",
         "500",
         "502",
@@ -244,7 +313,7 @@ def call_api_with_retries(
     """
     Retry wrapper with exponential backoff and jitter for transient failures.
 
-    Creates a fresh client per call to avoid thread-safety assumptions.
+    Creates a fresh client per prompt to avoid thread-safety assumptions.
     """
     client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
@@ -268,10 +337,13 @@ def call_api_with_retries(
             sleep_seconds = base_sleep * (2 ** attempt)
             sleep_seconds = sleep_seconds * (0.8 + 0.4 * random.random())
 
-            print(
-                f"[WARN] Attempt {attempt + 1}/{retries} failed: {exc} "
-                f"— retrying in {sleep_seconds:.1f}s"
-            )
+            logging.warning(
+                "Attempt %s/%s failed: %s — retrying in %.1fs",
+                attempt + 1,
+                retries + 1,
+                exc,
+                sleep_seconds,
+                )
 
             time.sleep(sleep_seconds)
 
@@ -295,14 +367,14 @@ def process_prompt(
 ) -> bool:
     """Process one prompt file."""
     try:
-        print(f"[WORKER] Reading {path.name}")
+        logging.info("[WORKER] Reading %s", path.name)
 
         full_prompt = read_text(path).strip()
 
         if not full_prompt:
             raise ValueError("Prompt file is empty after stripping.")
 
-        print(f"[WORKER] Sending to GPT: {path.name}")
+        logging.info("[WORKER] Sending to GPT: %s", path.name)
 
         result = call_api_with_retries(
             model=model,
@@ -314,12 +386,12 @@ def process_prompt(
 
         write_text(outpath, result)
 
-        print(f"[WORKER] Saved → {outpath}")
+        logging.info("[WORKER] Saved → %s", outpath)
 
         return True
 
     except Exception as exc:
-        print(f"[ERROR] {path.name}: {exc}")
+        logging.error("[ERROR] %s: %s", path.name, exc)
         return False
 
 
@@ -334,6 +406,15 @@ def main() -> None:
     input_dir = Path(args.input)
     output_dir = Path(args.output)
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    log_file = Path(args.log_file) if args.log_file else output_dir / DEFAULT_LOG_FILE_NAME
+    failed_file = (
+        Path(args.failed_file)
+        if args.failed_file
+        else output_dir / DEFAULT_FAILED_FILE_NAME
+    )
+
+    setup_logging(log_file)
 
     if not input_dir.exists() or not input_dir.is_dir():
         raise SystemExit(
@@ -352,6 +433,9 @@ def main() -> None:
     if args.retry_base_sleep < 0:
         raise SystemExit("ERROR: --retry-base-sleep must be non-negative.")
 
+    if args.limit < 0:
+        raise SystemExit("ERROR: --limit must be non-negative.")
+
     api_key = os.environ.get("OPENAI_API_KEY")
 
     if not api_key:
@@ -361,8 +445,11 @@ def main() -> None:
 
     files = sorted(input_dir.glob("*.txt"))
 
+    if args.limit:
+        files = files[: args.limit]
+
     if not files:
-        print("No prompt files found.")
+        logging.info("No prompt files found.")
         sys.exit(0)
 
     tasks: list[tuple[Path, Path]] = []
@@ -376,15 +463,28 @@ def main() -> None:
         tasks.append((prompt_file, outpath))
 
     if not tasks:
-        print("Nothing to do: all outputs already exist.")
+        logging.info("Nothing to do: all outputs already exist.")
         sys.exit(0)
 
-    print(f"Project: {DEFAULT_PROJECT}")
-    print(f"Input directory: {input_dir}")
-    print(f"Output directory: {output_dir}")
-    print(f"Model: {args.model}")
-    print(f"Temperature sent: {model_supports_temperature(args.model)}")
-    print(f"Submitting {len(tasks)} prompts using {args.workers} workers…")
+    if failed_file.exists():
+        failed_file.unlink()
+
+    logging.info("Project: %s", DEFAULT_PROJECT)
+    logging.info("Input directory: %s", input_dir)
+    logging.info("Output directory: %s", output_dir)
+    logging.info("Log file: %s", log_file)
+    logging.info("Failed-prompts file: %s", failed_file)
+    logging.info("Model: %s", args.model)
+    logging.info("Temperature sent: %s", model_supports_temperature(args.model))
+    logging.info("Max output tokens: %s", args.max_output_tokens)
+    logging.info("Retries: %s", args.retries)
+    logging.info("Retry base sleep: %s", args.retry_base_sleep)
+    logging.info("Skip existing: %s", args.skip_existing)
+
+    if args.limit:
+        logging.info("Limit: %s prompt files", args.limit)
+
+    logging.info("Submitting %s prompts using %s workers…", len(tasks), args.workers)
 
     succeeded = 0
     failed: list[str] = []
@@ -406,20 +506,33 @@ def main() -> None:
         for future in as_completed(future_map):
             prompt_path = future_map[future]
 
-            if future.result():
+            try:
+                ok = future.result()
+            except Exception as exc:
+                logging.error("[ERROR] Unhandled worker failure for %s: %s", prompt_path.name, exc)
+                ok = False
+
+            if ok:
                 succeeded += 1
             else:
                 failed.append(prompt_path.name)
 
-    print(f"\nDone. Succeeded: {succeeded}/{len(tasks)}")
+    logging.info("")
+    logging.info("Done. Succeeded: %s/%s", succeeded, len(tasks))
 
     if failed:
-        print("Failed prompts:")
+        failed = sorted(failed)
+        write_failed_prompts(failed_file, failed)
 
+        logging.error("Failed prompts:")
         for name in failed:
-            print(f"  - {name}")
+            logging.error("  - %s", name)
+
+        logging.error("Failed-prompts list written to: %s", failed_file)
 
         raise SystemExit("ERROR: some prompts failed. See log above.")
+
+    logging.info("All prompts completed successfully.")
 
 
 if __name__ == "__main__":

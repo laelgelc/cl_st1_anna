@@ -46,6 +46,7 @@ class Config:
     prompt: Path
     model: str
     limit: int | None
+    only_filename: str | None
     resume: bool
     reprocess: bool
     dry_run: bool
@@ -153,6 +154,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--model", required=True)
 
     parser.add_argument("--limit", type=int)
+    parser.add_argument(
+        "--only-filename",
+        help="Process only manifest row(s) whose filename field exactly matches this value.",
+    )
     parser.add_argument("--resume", action="store_true")
     parser.add_argument("--reprocess", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
@@ -194,6 +199,7 @@ def make_config(args: argparse.Namespace) -> Config:
         prompt=prompt,
         model=args.model,
         limit=args.limit,
+        only_filename=args.only_filename.strip() if args.only_filename and args.only_filename.strip() else None,
         resume=args.resume,
         reprocess=args.reprocess,
         dry_run=args.dry_run,
@@ -222,6 +228,8 @@ def validate_basic_options(config: Config) -> None:
         raise FatalSetupError("--model must not be empty")
     if config.limit is not None and config.limit <= 0:
         raise FatalSetupError("--limit must be greater than 0")
+    if config.only_filename is not None and not config.only_filename.strip():
+        raise FatalSetupError("--only-filename must not be empty")
     if config.workers <= 0:
         raise FatalSetupError("--workers must be greater than 0")
     if config.max_retries < 0:
@@ -336,6 +344,32 @@ def load_manifest_rows(path: Path) -> list[dict[str, Any]]:
             obj["_manifest_line_number"] = line_number
             rows.append(obj)
     return rows
+
+
+def filter_rows_by_filename(rows: list[dict[str, Any]], config: Config) -> list[dict[str, Any]]:
+    if config.only_filename is None:
+        return rows
+
+    filtered = [
+        row
+        for row in rows
+        if str(row.get(config.filename_field, "")).strip() == config.only_filename
+    ]
+
+    if not filtered:
+        raise FatalSetupError(
+            f"No manifest row matched --only-filename {config.only_filename!r} "
+            f"using filename field {config.filename_field!r}"
+        )
+
+    if len(filtered) > 1:
+        logging.warning(
+            "--only-filename matched multiple rows filename=%s matches=%s",
+            config.only_filename,
+            len(filtered),
+        )
+
+    return filtered
 
 
 def get_excerpt_id(filename: str) -> str:
@@ -742,21 +776,39 @@ def process_item(
 
     if not item.valid:
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, item.error_type or "invalid_manifest_row", item.error or "", started_at
-        )
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            item.error_type or "invalid_manifest_row",
+            item.error or "",
+            started_at,
+            )
         write_json_file(item.metadata_path, record)
         return record
 
     if not item.source_path.exists():
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "missing_source_file", "Source file not found", started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "missing_source_file",
+            "Source file not found",
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
 
     if not item.source_path.is_file():
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "source_path_not_file", "Source path is not a file", started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "source_path_not_file",
+            "Source path is not a file",
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -765,14 +817,26 @@ def process_item(
         source_text = read_source_text(item.source_path)
     except Exception as exc:
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "unreadable_source_file", str(exc), started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "unreadable_source_file",
+            str(exc),
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
 
     if not source_text.strip():
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "empty_source_file", "Source file is empty", started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "empty_source_file",
+            "Source file is empty",
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -787,14 +851,26 @@ def process_item(
         api_metadata = extract_api_metadata(response)
     except Exception as exc:
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "api_error_after_retries", str(exc), started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "api_error_after_retries",
+            str(exc),
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
 
     if not raw_response_text.strip():
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "empty_llm_response", "No usable response text found", started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "empty_llm_response",
+            "No usable response text found",
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -820,7 +896,13 @@ def process_item(
         write_text_atomic(item.markdown_path, denoised_markdown)
     except Exception as exc:
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "markdown_output_write_failure", str(exc), started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "markdown_output_write_failure",
+            str(exc),
+            started_at,
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -843,7 +925,13 @@ def process_item(
         write_json_file(item.metadata_path, record)
     except Exception as exc:
         record = build_failure_record(
-            config, item, manifest_hash, prompt_hash, "metadata_json_write_failure", str(exc), started_at
+            config,
+            item,
+            manifest_hash,
+            prompt_hash,
+            "metadata_json_write_failure",
+            str(exc),
+            started_at,
         )
         return record
 
@@ -990,6 +1078,7 @@ def build_run_manifest(
         "processing": {
             "workers": config.workers,
             "limit": config.limit,
+            "only_filename": config.only_filename,
             "resume": config.resume,
             "reprocess": config.reprocess,
             "dry_run": config.dry_run,
@@ -1033,7 +1122,14 @@ def main(argv: list[str] | None = None) -> int:
         logging.info("Output: %s", config.output)
         logging.info("Prompt: %s", config.prompt)
         logging.info("Model: %s", config.model)
-        logging.info("Workers: %s dry_run=%s resume=%s reprocess=%s", config.workers, config.dry_run, config.resume, config.reprocess)
+        logging.info(
+            "Workers: %s dry_run=%s resume=%s reprocess=%s only_filename=%s",
+            config.workers,
+            config.dry_run,
+            config.resume,
+            config.reprocess,
+            config.only_filename,
+        )
 
         env_metadata = load_dotenv_file(config.env_file)
         if not config.dry_run and not env_metadata["openai_api_key_available"]:
@@ -1047,7 +1143,8 @@ def main(argv: list[str] | None = None) -> int:
             make_openai_client()
 
         rows = load_manifest_rows(config.manifest)
-        plan = build_plan(config, rows)
+        filtered_rows = filter_rows_by_filename(rows, config)
+        plan = build_plan(config, filtered_rows)
 
         for item in plan:
             item.markdown_path.parent.mkdir(parents=True, exist_ok=True)
@@ -1132,6 +1229,7 @@ def main(argv: list[str] | None = None) -> int:
 
         counts = {
             "manifest_rows_total": len(rows),
+            "manifest_rows_matched": len(filtered_rows),
             "excerpts_planned": len(plan),
             "excerpts_succeeded": len(successes),
             "excerpts_failed": len(failures),

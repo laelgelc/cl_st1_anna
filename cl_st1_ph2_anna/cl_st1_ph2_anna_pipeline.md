@@ -77,6 +77,7 @@ bash run_python_ec2.sh \
     --max-retries 5
 ```
 
+### Retry specific files
 
 ```shell
 python llm_denoise.py \
@@ -84,7 +85,18 @@ python llm_denoise.py \
     --output corpus/02_extracted \
     --prompt denoising_prompts/denoising_v2.md \
     --model gpt-6-luna \
-    --resume \
+    --max-output-tokens 10000 \
+    --max-retries 5 \
+    --only-filename se_inf_1.txt \
+    --reprocess
+```
+
+```shell
+python llm_denoise.py \
+    --manifest corpus/brazilian_educational_guidelines.ndjson \
+    --output corpus/02_extracted \
+    --prompt denoising_prompts/denoising_v2.md \
+    --model gpt-6-luna \
     --max-output-tokens 10000 \
     --max-retries 5 \
     --only-filename ms_inf_e_ef_45.txt \

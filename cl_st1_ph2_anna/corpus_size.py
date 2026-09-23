@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Calculate corpus size for the tagged NOW corpus.
+Calculate corpus size for the tagged guideline corpus.
 
 Expected input structure:
-    corpus/05_tagged/<group>/<article_id>.txt
+    corpus/07_tagged/<state>/<text_id>.txt
 
 Example:
-    corpus/05_tagged/global_north_2023_09/101993957.txt
-    corpus/05_tagged/global_south_2024_01/105565020.txt
+    corpus/07_tagged/ac/ac_ef_1.txt
+    corpus/07_tagged/se/se_inf_1.txt
 
 Expected tagged-file format:
     word<TAB>tag<TAB>lemma
@@ -25,31 +25,51 @@ Output format:
 """
 
 import re
-from pathlib import Path
 from collections import defaultdict
+from pathlib import Path
 
 
 # --- Configuration ---
-CORPUS_ROOT = Path("corpus/05_tagged")
+CORPUS_ROOT = Path("corpus/07_tagged")
 OUTPUT_DIR = Path("corpus_size")
 OUTPUT_FILE = OUTPUT_DIR / "corpus_size.tsv"
 
-GROUP_PATTERN = re.compile(r"^global_(north|south)_\d{4}_\d{2}$")
-VALID_TOKEN_PATTERN = re.compile(r"^[A-Za-z]")
-
-
-# --- Counters ---
-total_files = 0
-total_words = 0
-
-file_counts_strata = defaultdict(int)
-word_counts_strata = defaultdict(int)
+STATE_PATTERN = re.compile(r"^[a-z]{2}$")
 
 
 def natural_sort_key(text):
     """Return a natural-sort key that treats digit runs as integers."""
     parts = re.split(r"(\d+)", str(text))
     return [int(part) if part.isdigit() else part.lower() for part in parts]
+
+
+def is_state_folder(path: Path) -> bool:
+    """Return True if path is a state-level tagged corpus folder."""
+    return (
+            path.is_dir()
+            and STATE_PATTERN.match(path.name)
+            and not path.name.startswith("_")
+            and not path.name.startswith(".")
+    )
+
+
+def is_countable_token(word: str, tag: str) -> bool:
+    """
+    Return True if a tagged line should count as a word/token.
+
+    Punctuation, symbols, and numeric-only tokens are excluded.
+    Unicode alphabetic words, including accented Portuguese words, are included.
+    """
+    if not word:
+        return False
+
+    if not word[0].isalpha():
+        return False
+
+    if tag.startswith(("PUNCT", "SYM")):
+        return False
+
+    return True
 
 
 def count_tokens_in_tagged_file(path: Path) -> int:
@@ -67,19 +87,28 @@ def count_tokens_in_tagged_file(path: Path) -> int:
             if not line:
                 continue
 
-            if not VALID_TOKEN_PATTERN.match(line):
+            parts = line.split("\t")
+
+            if len(parts) < 3:
+                parts = line.split()
+
+            if len(parts) < 3:
                 continue
 
-            parts = line.split()
+            word, tag, _lemma = parts[:3]
 
-            if len(parts) >= 3:
+            if is_countable_token(word, tag):
                 words += 1
 
     return words
 
 
 def main():
-    global total_files, total_words
+    total_files = 0
+    total_words = 0
+
+    file_counts_strata = defaultdict(int)
+    word_counts_strata = defaultdict(int)
 
     if not CORPUS_ROOT.exists():
         raise FileNotFoundError(f"Corpus directory does not exist: {CORPUS_ROOT}")
@@ -90,15 +119,15 @@ def main():
     strata_dirs = sorted(
         [
             path for path in CORPUS_ROOT.iterdir()
-            if path.is_dir() and GROUP_PATTERN.match(path.name)
+            if is_state_folder(path)
         ],
         key=lambda path: natural_sort_key(path.name),
     )
 
     if not strata_dirs:
         raise FileNotFoundError(
-            f"No group folders found under {CORPUS_ROOT}. "
-            "Expected folders such as global_north_2023_09 or global_south_2024_01."
+            f"No state folders found under {CORPUS_ROOT}. "
+            "Expected folders such as ac, es, mg, sp, etc."
         )
 
     for strata_dir in strata_dirs:
@@ -118,7 +147,7 @@ def main():
             total_files += 1
             total_words += words
 
-    OUTPUT_DIR.mkdir(exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     with OUTPUT_FILE.open("w", encoding="utf-8") as f:
         f.write("Strata\tText Count\tWord Count\n")

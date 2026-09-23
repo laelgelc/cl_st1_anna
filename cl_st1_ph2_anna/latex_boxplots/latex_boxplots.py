@@ -13,8 +13,8 @@ Default input, resolved relative to the project directory:
 
 where <project> is inferred from the parent directory name, for example:
 
-    cl_st1_ph2_melina
-    cl_st1_ph3_melina
+    cl_st1_ph2_anna
+    cl_st1_ph3_anna
 
 Default output:
 
@@ -32,8 +32,8 @@ Typical usage from the project root:
 Optional explicit usage:
 
     python latex_boxplots.py \
-        --project cl_st1_ph3_melina \
-        --sas-output-dir ../sas/output_cl_st1_ph3_melina \
+        --project cl_st1_ph3_anna \
+        --sas-output-dir ../sas/output_cl_st1_ph3_anna \
         --output-dir slides
 """
 
@@ -64,7 +64,7 @@ def parse_args() -> argparse.Namespace:
         "--project",
         default=DEFAULT_PROJECT,
         help=(
-            "Project name, e.g. cl_st1_ph2_melina or cl_st1_ph3_melina. "
+            "Project name, e.g. cl_st1_ph2_anna or cl_st1_ph3_anna. "
             "Default: inferred from the parent directory name."
         ),
     )
@@ -86,10 +86,10 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--group-column",
-        default="group",
+        default="state",
         help=(
             "Column in the scores-only TSV used for grouping. "
-            "Default: group."
+            "Default: state."
         ),
     )
 

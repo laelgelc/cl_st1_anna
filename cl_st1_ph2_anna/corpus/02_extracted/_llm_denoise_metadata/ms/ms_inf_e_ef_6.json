@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02305fcc19b94308006ab30403afe087d2b8cee1a7b5da1469",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 830,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 751,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 1581
+    }
+  },
+  "created_at": "2026-09-22T22:41:12Z",
+  "duration_seconds": 5.273,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_6",
+  "filename": "ms_inf_e_ef_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e5c61950d3d1528e92b065cad5be3f4fb0f598503a8184ba126db3d860e23422",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3b92ddb0baa9079f53752ade80ce2f03d8c457e2eb82ffa16ac59578074a8bb9",
+    "rendered_prompt_sha256": "8fd4ae0e1486b73586568cf13b474dded8a9ea7e18a56c632177b4f63a76bba3",
+    "source_text_sha256": "246ac3f27aae9918fbcc66348ae64675347126e5868acecf227311865f5d73cd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1770,
+    "filename": "ms_inf_e_ef_6.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_6.txt",
+    "state": "ms",
+    "word_count_original": 485
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_6.json"
+  },
+  "raw_response_text": "## 2.4 Educação Escolar Indígena\n\nA Educação Escolar Indígena no Brasil vem obtendo significativos avanços desde a década de 70, no que diz respeito à legislação que a regula, mediante os avanços legais e as novas perspectivas para o reconhecimento da necessidade de uma educação específica, diferenciada e de qualidade para as populações indígenas.\n\nA Constituição Federal de 1988, marco na história brasileira para os povos indígenas, tem garantido uma educação intercultural, bilíngue e diferenciada, que atualmente vem sendo regulamentada em vários documentos que dão garantia legal e jurídica para a educação escolar de qualidade em áreas indígenas.\n\nA Lei de Diretrizes e Bases da Educação Nacional – LDB – Lei n. 9394/96 – que orienta e especifica a educação brasileira, no que diz respeito à educação escolar indígena, no art. 78 afirma que a educação para os povos indígenas deve ser intercultural e bilíngue; o art. 79 prevê que a União apoiará técnica e financeiramente os sistemas de ensino por meio dos estados ou municípios.\n\nEm 1998, o Ministério da Educação publicou o Referencial Curricular Nacional para as Escolas Indígenas – RCNE/Indígena, objetivando oferecer subsídios para a elaboração de projetos pedagógicos, com o intuito de orientar a prática educativa de professores e profissionais da educação em cursos nas áreas indígenas, bem como oferecer uma educação intercultural dentro de suas características, concepções e princípios, calendários, pedagogia diferenciada, objetivos, conteúdos, espaços e momentos para a educação escolarizada, conforme os anseios e as expectativas de cada comunidade.\n\nEm 1999, a Resolução CEB n. 3/CNE/99 fixa as Diretrizes Nacionais para o funcionamento das Escolas Indígenas e estabelece no art. 1º “[...] no âmbito da educação básica, a estrutura e funcionamento das Escolas Indígenas, reconhecendo-lhes a condição de escolas com normas e ordenamento jurídico próprio, e fixando as diretrizes curriculares do ensino intercultural bilíngue, visando à valorização plena das culturas dos povos indígenas e à afirmação e manutenção de sua diversidade étnica”.\n\nEm 2015, o Conselho Estadual de Educação de Mato Grosso do Sul elaborou, com a colaboração dos povos indígenas e a devida homologação da Secretaria de Estado de Educação, a Deliberação CEE/MS n. 10.647, que fixa normas para a organização, estrutura e funcionamento das Escolas Indígenas no Sistema Estadual de Ensino de Mato Grosso do Sul.\n\nConforme o relato histórico apresentado, é evidente que atualmente os povos indígenas têm o direito garantido a uma escola específica e diferenciada, respeitando a diversidade, as diferenças étnicas, a língua, a cultura, as tradições e os costumes que constituem cada grupo.\n\nDiante dos avanços legais e sociais que as comunidades indígenas têm conquistado, verifica-se, de outro lado, a necessidade de que as escolas não indígenas tenham conhecimentos dessas realidades, principalmente porque essas estão inseridas no contexto histórico e social do Estado de Mato Grosso do Sul. Nesse sentido, é preciso que as escolas contemplem em seus currículos as especificidades e diversidades locais e regionais, conforme preconiza a BNCC.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

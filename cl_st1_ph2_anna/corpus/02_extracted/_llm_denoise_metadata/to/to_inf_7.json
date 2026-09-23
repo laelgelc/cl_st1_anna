@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05f78d8a963ddfe7006ab31084de3087d2bb3d6a542cb5daf9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 472,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 476,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 948
+    }
+  },
+  "created_at": "2026-09-22T23:34:32Z",
+  "duration_seconds": 3.973,
+  "error": null,
+  "excerpt_id": "to_inf_7",
+  "filename": "to_inf_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "04da8e56bdc5b3a87320de5aa062c7b131cddc4eef7bdc18de6acd29faa75f27",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4c9cff4fc63db91ed8aa29d001a68f15840f0bd0787a5884a98ec71b0391e1fd",
+    "rendered_prompt_sha256": "e08668ba7b49315e1e163dc735248c7eaebb870171169bd85c39c9b000c60a35",
+    "source_text_sha256": "46a1c29ed1683cf89681861fc17126e24f73c288a927c1aaf07dee65a7b8f79e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_inf_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4110,
+    "filename": "to_inf_7.txt",
+    "filepath": "corpus/00_source_per_state/to/to_inf_7.txt",
+    "state": "to",
+    "word_count_original": 291
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_inf_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_inf_7.json"
+  },
+  "raw_response_text": "# O direito de ser criança\n\nToda criança tem o direito de ser criança e de ser pensada como tal. Tem direito a brincar e explorar o mundo. Há, no Brasil, uma vasta legislação que garante os direitos das crianças, todavia é possível observar, em várias situações, que elas são diariamente negligenciadas, seja por ausência, seja pela inabilidade dos agentes que deveriam garantir seus direitos. Nesse sentido, os adultos precisam conceber a criança como sujeito histórico, ativo e promotor de cultura.\n\nÉ sabido que toda criança tem direito a um nome e a pertencer a uma família. Direito de ter uma vida segura, livre da violência, dos perigos sociais e naturais. Direito de brincar e a não trabalhar. Direito a receber educação de qualidade e que respeite seu tempo, de ter um sistema de saúde que a acolha. Direito à alimentação saudável. Sobretudo, tem o direito de viver uma infância feliz e rica em possibilidades, vivências e experiências sociais significativas.\n\nPara Kramer (2007, p. 15), “crianças são cidadãs, pessoas detentoras de direito, que produzem cultura e são nela produzidas”. Esse modo de ver a criança favorece entendê-la e ver o mundo a partir de seu ponto de vista. A infância, mais que um estágio, é categoria da história: existe uma história porque o homem tem infância.\n\nNesse sentido, para além das questões legais, é importante que os adultos, responsáveis pela garantia dos direitos das crianças, atentem para o tempo da criança de ser criança. Que respeitem suas fases, etapas e descobertas. Que percebam a criança no seu hoje, no agora e jamais tenham somente o futuro como referência para suas ações. Que entendam que a infância bem vivida é a possibilidade de crianças felizes e equilibradas para vida social e coletiva.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

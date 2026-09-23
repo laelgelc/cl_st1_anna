@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e0c1174451dd3d9006ab3050921d487d2bd82e6de9d2e5760",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1645,
+      "input_tokens_details": {
+        "cache_write_tokens": 1642,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1565,
+      "output_tokens_details": {
+        "reasoning_tokens": 185
+      },
+      "total_tokens": 3210
+    }
+  },
+  "created_at": "2026-09-22T22:45:40Z",
+  "duration_seconds": 11.078,
+  "error": null,
+  "excerpt_id": "mt_em_58",
+  "filename": "mt_em_58.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a955dccb50039448041ddbd9a6562772b9470a090256b9c197a8676ab5f4c708",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "308699d9856591415cdb7c80dfcd1ee650da79fe7b75e4ebcfb52ebb6456aae3",
+    "rendered_prompt_sha256": "77e45f2ca4bc90f7f5e0fde85fb5132ac172e2b7463eaf8b725d1ec92e43404f",
+    "source_text_sha256": "2e8120bdb3e5fcb760473ed4f2135a38f91487a8aa8ef88383fc29bf8d24e619"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_58.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1952,
+    "filename": "mt_em_58.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_58.txt",
+    "state": "mt",
+    "word_count_original": 1021
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_58.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_58.json"
+  },
+  "raw_response_text": "## 9.5 Metodologias para o ensino de Matemática e aprendizagens mais significativas\n\nA adoção de metodologia de ensino para área de Matemática e suas Tecnologias, possibilita que as aulas se tornem cada vez mais interessantes, devido incentivar o protagonismo e proporcionar aprendizagens mais significativas aos estudantes. Para tanto, independente da metodologia adotada pelos educadores para o ensino e aprendizagem da matemática, sempre os estudantes deverão ser motivados a mobilizar seu modo próprio de raciocinar, representar, comunicar e argumentar.\n\nNesse sentido, para que os propósitos de aprendizagens da Matemática, previstos na Base Nacional Comum Curricular, se concretizem na etapa Ensino Médio, os estudantes devem desenvolver habilidades relativas aos processos de investigação, construção de modelos e resolução de problemas (BRASIL, 2018), o que poderá ser facilitado pela adoção das metodologias de ensino.\n\nAssim sendo, a seguir são apresentadas algumas propostas de metodologias de ensino da matemática, denominadas de: Resolução de Problemas, Modelagem Matemática e Investigação Matemática. Acreditamos que essas metodologias contribuirão de forma efetiva com o fazer pedagógico, de modo a propiciar aos estudantes, aprendizagens conceituais, discussões, validações de modelos, desenvolvimento de representações e procedimentos cada vez mais elaborados e aprofundados, com intuito de garantir a progressão das aprendizagens ao decorrer do Ensino Médio.\n\nAlém das metodologias de ensino apresentadas neste documento, outras podem ser adotadas pela escola, como por exemplo: História da Matemática, Etnomatemática etc. Assim como poderão ser utilizadas outras estratégias de ensino tais como, Sequências de Atividades, Construções Geométricas, entre outras. Nesse contexto, para o processo de ensino e aprendizagem da matemática o professor não deverá limitar-se as propostas de metodologias aqui apresentadas.\n\n### 9.5.1 Resolução de problemas\n\nA Resolução de Problemas é uma metodologia de ensino, em que são propostas situações ativadoras, com objetivo de despertar e estimular os estudantes à investigação e exploração de novos conceitos. No início da década de 2000 a resolução de problemas era, comumente, vinculada ao estudo da matemática, entretanto, atualmente, esse princípio metodológico é reconhecido como fio condutor no processo de ensino e aprendizagem de vários componentes curriculares. Por isso, na Base Nacional Comum Curricular (BNCC) é ressaltada a importância do uso dessa metodologia de ensino e, ainda, é notado que a área da Matemática possui várias habilidades e competências voltadas à elaboração e resolução de problemas.\n\nNesse contexto, o uso da referida metodologia em todas as etapas da Educação Básica, se torna uma aliada ao processo de ensino e aprendizagem, proporcionando a aplicabilidade mais significativas dos conceitos matemáticos, o que possibilita aulas mais interessantes aos estudantes, principalmente quando os problemas cotidianos são abordados nas aulas. No entanto, no Ensino Médio, os professores devem considerar que “o cotidiano” não se restringe apenas às atividades do dia a dia do estudante, mas também às questões da comunidade e do mundo e, ainda, que eles não devem ser excluídos da construção de significados para os problemas próprios da matemática.\n\nComo visto na figura 11, na metodologia de ensino resolução de problemas é previsto que o estudante, a partir de um problema cotidiano, identifique os conceitos e procedimentos matemáticos utilizados na formulação matemática do problema. Essa metodologia também permite que o estudante aplique esses conceitos, execute procedimentos e, ao final, compatibilize os resultados matemáticos com o resultado no contexto, comunicando a solução aos colegas por meio de argumentação consistente e linguagem adequada (BRASIL, 2018). O resultado no contexto, quando necessário, deve motivar os estudantes na promoção de ações que visem melhorias à comunidade.\n\nA resolução de um problema exige processos cognitivos diferentes, pois alguns determinam a aplicação imediata de um conceito ou um procedimento, enquanto há outras situações que necessitam de algumas adaptações antes de adotar o conceito que foi explicitado. Há, ainda, problemas cujas tarefas não estão explícitas e nessas os estudantes deverão mobilizar seus conhecimentos e habilidades a fim de identificar conceitos e estabelecer um processo próprio de resolução.\n\nNo entanto, a BNCC (BRASIL, 2018) busca ampliar o significado dado à resolução de problemas, abordando em várias habilidades os processos cognitivos de “Resolver e Elaborar Problemas”, ou seja, amplia e aprofunda o processo de resolução de problemas, devido instigarem a reflexão e o questionamento sobre o que ocorreria na situação problema se algum dado fosse alterado, se alguma condição fosse acrescentada ou retirada. Nesse sentido, o ensino da matemática no Ensino Médio, deve promover a autonomia e o protagonismo dos estudantes, para que eles possam elaborar e resolver problemas e vice-versa.\n\n#### A resolução de problemas como uma macrocompetência da Matemática\n\nNa Base Nacional Comum Curricular é percebido que a resolução de problemas é uma macrocompetência que a Matemática deve assumir como sua, entretanto, tal fato não exime outras áreas de conhecimento de utilizarem essa metodologia de ensino como recurso pedagógico ao processo de ensino aprendizagem.\n\nA relevância da metodologia Resolução de Problemas pode ser constatada ao analisar cada uma das competências específicas da área de Matemática e suas Tecnologias trazidas pela Base Nacional Comum Curricular, como é visto a seguir:\n\nNa Competência 1, são propostas 05 habilidades que auxiliam a leitura, escrita, interpretação e a reformulação de problemas.\n\nA Competência 2 contempla 03 habilidades que favorecem a interação do estudante com seus colegas de sala de aula de forma coletiva, para que possam identificar e investigar quais conceitos e procedimentos matemáticos a serem utilizados para solucionar problemas e/ou situações problemas.\n\nA Competência 3 é a que mais se aproxima da Resolução de Problemas e é composta por 16 habilidades, que estão relacionadas a interpretação, construção de modelos, resolução e formulação de problemas matemáticos utilizando os diversos conceitos e procedimentos quantitativos, estatísticos, probabilísticos, entre outros por meio de situações que tenham significados real para os estudantes, utilizando os conceitos da própria matemática, validando tais resultados por meio de argumentações, construindo modelos para que possam chegar às respostas adequadas ou corretas.\n\nA Competência 4 possui 09 habilidades que estão mais direcionadas às diferentes representações que uma situação problema pode abordar.\n\nA Competência 5 possui 12 habilidades que envolvem aprendizagens acerca da investigação e de formulação de explicações e argumentos que o estudante deve utilizar na resolução de problemas, utilizando a tecnologia, investigação, comunicação, por meio da oralidade, leitura e escrita de problemas.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

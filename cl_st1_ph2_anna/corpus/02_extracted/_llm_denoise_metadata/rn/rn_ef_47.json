@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00f5fbd23fee4b45006ab30aedad6887d2a7be432ad71975ff",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 503,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 476,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 979
+    }
+  },
+  "created_at": "2026-09-22T23:10:41Z",
+  "duration_seconds": 3.975,
+  "error": null,
+  "excerpt_id": "rn_ef_47",
+  "filename": "rn_ef_47.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e37fe2b179fba50361be3a9a31301e65da33b0e27c750b4b4a58f589c0ee5293",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5e3907157e999842c9c4212d8471219e5daab0a80ea57eac38f00ab1cdb13f1f",
+    "rendered_prompt_sha256": "1bef705920610af6ff40832ed28d2817aa2462eba49c39396b9667ff0c518ed4",
+    "source_text_sha256": "096aceca2edbe23471ac4670f33905434f6462a2f0fbd7ec82d22ed276ad62f4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_47.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2987,
+    "filename": "rn_ef_47.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_47.txt",
+    "state": "rn",
+    "word_count_original": 285
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_47.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_47.json"
+  },
+  "raw_response_text": "# COMPETÊNCIAS ESPECÍFICAS DA ÁREA DE CIÊNCIAS HUMANAS\n\n1. Compreender a si e ao outro como identidades diferentes, de forma a exercitar o respeito à diferença em uma sociedade plural e promover os direitos humanos.\n2. Analisar o mundo social, cultural e digital e o meio técnico-científico-informacional com base nos conhecimentos das Ciências Humanas, considerando suas variações de significado no tempo e no espaço, para intervir em situações do cotidiano e se posicionar diante de problemas do mundo contemporâneo.\n3. Identificar, comparar e explicar a intervenção do ser humano na natureza e na sociedade, exercitando a curiosidade e propondo ideias e ações que contribuam para a transformação espacial, social e cultural, de modo a participar efetivamente das dinâmicas da vida social.\n4. Interpretar e expressar sentimentos, crenças e dúvidas com relação a si mesmo, aos outros e às diferentes culturas, com base nos instrumentos de investigação das Ciências Humanas, promovendo o acolhimento e a valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de qualquer natureza.\n5. Comparar eventos ocorridos simultaneamente no mesmo espaço e em espaços variados, e eventos ocorridos em tempos diferentes no mesmo espaço e em espaços variados.\n6. Construir argumentos, com base nos conhecimentos das Ciências Humanas, para negociar e defender ideias e opiniões que respeitem e promovam os direitos humanos e a consciência socioambiental, exercitando a responsabilidade e o protagonismo voltados para o bem comum e a construção de uma sociedade justa, democrática e inclusiva.\n7. Utilizar as linguagens cartográfica, gráfica e iconográfica e diferentes gêneros textuais e tecnologias digitais de informação e comunicação no desenvolvimento do raciocínio espaço-temporal relacionado a localização, distância, direção, duração, simultaneidade, sucessão, ritmo e conexão.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

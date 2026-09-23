@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03b30b89bd4787d9006ab303491f8c87d2a281e8fb279b99af",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 575,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 576,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 1151
+    }
+  },
+  "created_at": "2026-09-22T22:38:05Z",
+  "duration_seconds": 4.527,
+  "error": null,
+  "excerpt_id": "mg_em_58",
+  "filename": "mg_em_58.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "39ed469fa7fd0b2f45df5a7ed3b3a97a3d86ef0ed1f0548d389992c09c032bbf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e2c10a29129b2b55a380dbe07de15108a8cdd61e2e2af46d81463d1a7252bac7",
+    "rendered_prompt_sha256": "67c43fbd5161b7d237938a1443fd50776a6d47dc618a301aaf1f243dfaec889b",
+    "source_text_sha256": "18a16601efca8d3cd964fc491f0b1b720423af27136ce99279158213fcae462d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_58.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1590,
+    "filename": "mg_em_58.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_58.txt",
+    "state": "mg",
+    "word_count_original": 320
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_58.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_58.json"
+  },
+  "raw_response_text": "### 3.2.2 Especificidades da área do conhecimento\n\nNo Ensino Médio, o desempenho dos estudantes em Matemática está estagnado. De acordo com o IDEB (Índice de Desenvolvimento da Educação Básica), nos últimos 10 anos não houve melhoria na proficiência dos estudantes nessa área. Dessa forma, observa-se a necessidade de mudanças no ensino e na aprendizagem da área, relacionando os conteúdos programáticos com a realidade vivenciada pelos estudantes. Tal entendimento deve-se ao fato de que não basta o estudante aprender os conceitos matemáticos, é fundamental aplicar e compartilhar o que se aprende para desenvolver as competências para o século XXI.\n\nAssim, o Currículo Referência corrobora para uma concepção atual de ensino, propondo uma visão integrada da matemática aplicada à realidade e interligada às outras áreas do conhecimento. De acordo com D’Ambrósio (1999) um dos maiores erros que se pratica em educação, em particular na Educação Matemática, é desvincular a matemática das outras atividades humanas.\n\nNo Currículo aqui proposto, nota-se uma mudança significativa nos verbos que compõem as habilidades anteriormente definidas no CBC. Nesse sentido, rompe-se com a predominância dos verbos calcular, reconhecer, identificar e resolver, substituindo-os por outros, como: raciocinar, representar, analisar, utilizar, comunicar e argumentar. Esses novos verbos têm o objetivo de aproximar a matemática do desenvolvimento integral dos estudantes, promovendo articulações entre os seus vários campos (Números, Álgebra, Geometria, Probabilidade e Estatística, Grandezas e medidas), os quais são importantes para a consolidação do pensamento matemático e também para outras áreas do conhecimento.\n\nO Currículo Referência, em conformidade com a BNCC, propõe e incentiva o uso de tecnologias digitais (calculadora, planilhas eletrônicas, softwares etc.) como apoio ao desenvolvimento das habilidades matemáticas. O uso de tecnologias para fins educacionais, além de tornar as aulas mais atrativas e despertar a curiosidade e atenção dos estudantes, permite o desenvolvimento de competência crítica para utilizarem esse recurso de forma responsável e consciente, a serviço das diferentes práticas sociais.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

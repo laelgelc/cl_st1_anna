@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03f7b6b7be1e2cae006ab2fdf728f887d285949ca36bc53eea",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 879,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1299,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2178
+    }
+  },
+  "created_at": "2026-09-22T22:15:28Z",
+  "duration_seconds": 9.884,
+  "error": null,
+  "excerpt_id": "ap_em_10",
+  "filename": "ap_em_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a0369f0a829c01d240512bb7b62b1af095941a94e903a3998e2be7d70286b6d2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "084399fc618a72a932cb94f13c5387e21fbc368dd30ae3541512c68f7456137f",
+    "rendered_prompt_sha256": "1979e1f0643b6c17106af0dec40080e45b04567dcd1dcfa5b4555fcd784440fe",
+    "source_text_sha256": "deee22e79933d44a0bfbdfe1de8722fbe802d2d87f87dda5a5d3246c18cbadfa"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 503,
+    "filename": "ap_em_10.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_10.txt",
+    "state": "ap",
+    "word_count_original": 522
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_10.json"
+  },
+  "raw_response_text": "# A INCLUSÃO E AS MODALIDADES DE ENSINO\n\n## EDUCAÇÃO ESPECIAL\n\nA Educação Especial é definida pela LDBEN como a modalidade de ensino destinada aos “educandos público-alvo da educação especial, oferecida preferencialmente na rede regular de ensino, a qual compreende todos os níveis, etapas e modalidades”. Considera-se público-alvo da educação especial estudantes com deficiência, transtornos globais do desenvolvimento e altas habilidades/superdotação.\n\nA Resolução CNE/CEB nº 4, de 2 de outubro de 2009, institui as Diretrizes Operacionais para o Atendimento Educacional Especializado na Educação Básica, na Modalidade Educação Especial:\n\nArt. 1º Para a implementação do Decreto nº 6.571/2008, os sistemas de ensino devem matricular os alunos com deficiência, transtornos globais do desenvolvimento e altas habilidades/superdotação nas classes comuns do ensino regular e no Atendimento Educacional Especializado (AEE), ofertado em salas de recursos multifuncionais ou em centros de Atendimento Educacional Especializado da rede pública ou de instituições comunitárias, confessionais ou filantrópicas sem fins lucrativos.\n\nO AEE tem a finalidade de identificar, elaborar e organizar recursos pedagógicos e de acessibilidade que eliminem as barreiras para a plena participação dos estudantes, considerando suas necessidades específicas.\n\nO Plano Estadual de Educação do Amapá, Lei nº 1907/2013, na Meta nº 05, determina:\n\n> Universalizar, para a população de quatro a dezessete anos de idade com deficiência, transtornos globais do desenvolvimento, altas habilidades ou superdotação, o acesso à Educação Básica e ao Atendimento Educacional Especializado, preferencialmente na rede regular de ensino, garantindo sistema educacional inclusivo, com salas de recursos multifuncionais, classes, escolas ou serviços especializados, públicos ou conveniados. (PEE. p. 6).\n\nRessaltamos que o AEE é ofertado nos Centros Especializados, que devem cumprir as normativas estabelecidas pelo Conselho de Educação/AP do respectivo Sistema de Ensino. O Estado do Amapá possui 4 (quatro) Centros de Apoio aos estudantes da Educação Especial: Centro Educacional Raimundo Nonato Dias Rodrigues - CERNDR; Centro de Apoio Pedagógico ao Deficiente Visual - CAP; Centro de Atendimento ao Surdo - CAS e o Centro de Atendimento de Altas Habilidades e Superdotação – CAAH'S. Além do professor do AEE, a Educação Especial tem outros profissionais que atuam com os estudantes: intérpretes em LIBRAS e o Cuidador.\n\nA inclusão é um processo que requer engajamento e participação de todos os envolvidos no processo, profissionais específicos na área de educação especial colaborando com os processos de permanência, oportunizando estratégias e reflexões sobre o acesso ao conhecimento.\n\nO Decreto nº 10.502, de 30 de setembro de 2020, institui a Política Nacional de Educação Especial: Equitativa, Inclusiva e com Aprendizado ao Longo da Vida. Tal Política, entre outras, considera:\n\nIII - política educacional equitativa - conjunto de medidas planejadas e implementadas com vistas a orientar as práticas necessárias e diferenciadas para que todos tenham oportunidades iguais e alcancem os seus melhores resultados, de modo a valorizar ao máximo cada potencialidade, e eliminar ou minimizar as barreiras que possam obstruir a participação plena e efetiva do educando na sociedade. (BRASIL, 2020).\n\nPara dar provimento aos atos normativos que se referem à Modalidade Educação Especial, é necessário práticas educativas, durante toda a Educação Básica e no Ensino Superior, uma ação concreta e centrada na formação integral dos estudantes.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

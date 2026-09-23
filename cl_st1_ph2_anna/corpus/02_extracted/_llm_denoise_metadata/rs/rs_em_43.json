@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00b31571e415250d006ab30db7f8d487d29bf5725f421e95e1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 918,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 874,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 1792
+    }
+  },
+  "created_at": "2026-09-22T23:22:37Z",
+  "duration_seconds": 5.521,
+  "error": null,
+  "excerpt_id": "rs_em_43",
+  "filename": "rs_em_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8b2a689f292c4a9e17bf10d6b596d459ced2978816ebbfd08f101990719f606f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "940a9b27ac19f14f82b1ce858b7c46d7445fb20f9e60fdcf619ee5af1a5a4c22",
+    "rendered_prompt_sha256": "c63c6c932cc8806c2117d4edc2acbc6a57af7accb366ab16b8400fa4830bfc1b",
+    "source_text_sha256": "c5d68409e54ccffb2323cc25f2bb09b3c18204bead93fe599da861de86a7a49c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3587,
+    "filename": "rs_em_43.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_43.txt",
+    "state": "rs",
+    "word_count_original": 522
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_43.json"
+  },
+  "raw_response_text": "## 3.2 CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS\n\n### 3.2.1 Introdução\n\nA Formação Geral Básica no currículo do Ensino Médio Gaúcho é formada por uma carga horária de 1.800h distribuídas ao longo dos três anos da etapa, conforme disposto na LDBEN (BRASIL, 1996) a partir das alterações efetivadas pela Lei nº. 13.415/2017.\n\nO novo formato do Ensino Médio, composto pela Formação Geral Básica e pelos Itinerários Formativos, previsto na supracitada legislação, corrobora documentos anteriores como a Constituição Federal (BRASIL, 1988) que garante um currículo de aprendizagens básicas para o Ensino Fundamental, garantia que se estendeu a toda Educação Básica na LDBEN e ao Plano Nacional (BRASIL, 2014a) e Plano Estadual de Educação (RS, 2015), culminando na elaboração da Base Nacional Comum Curricular (BRASIL, 2018a).\n\nA partir da BNCC, novas Diretrizes Curriculares para o Ensino Médio (DCNEM) foram exaradas (BRASIL, 2018c), orientando a complementação curricular sinalizada pela própria Base, que se trata do documento normativo para a elaboração dos currículos regionais e locais. Nesse movimento, elaborou-se o Referencial Curricular Gaúcho, a fim de dispor sobre as aprendizagens básicas a serem construídas na rede, às quais todos os estudantes do território tenham acesso e que, a partir delas, possam fazer a escolha do Itinerário Formativo desejado.\n\nAs DCNEM assinalam que o Ensino Médio é um direito de todas as juventudes e têm como princípios a formação integral do estudante, a partir do seu projeto de vida; a pesquisa como prática pedagógica, o respeito aos direitos humanos e à diversidade étnica, cultural, sexual, de gêneros e de classes sociais; a sustentabilidade ambiental e a indissociabilidade entre teoria e prática no processo de ensino e de aprendizagem; permeando a educação formal com a prática social, por meio da flexibilidade curricular, proporcionando ao estudante o contato efetivo com sua comunidade por meio da cultura, do lazer, do contato com o meio ambiente e com o mundo do trabalho.\n\nAinda, segundo o Parecer CNE/CP nº. 15/2017, que definiu e fundamentou a Resolução CNE/CP nº. 2/2017, a introdução dos Itinerários Formativos foi a forma que a lei encontrou para permitir que se cumprisse a finalidade do Ensino Médio presente na LDBEN: “consolidação e o aprofundamento dos conhecimentos adquiridos no ensino fundamental, possibilitando o prosseguimento de estudos” (BRASIL, 1996), ao mesmo tempo que reconhece que diferentes estudantes podem seguir caminhos diversos. O Parecer recomenda que os estudantes não precisam construir e desenvolver todos os conhecimentos e habilidades em todos os componentes curriculares, como hoje está consagrado nos currículos. Portanto, este documento tem como premissa subsidiar os professores e os estudantes, visando a um embasamento seguro para o desenvolvimento das desafiadoras competências e habilidades que são esperadas e exigidas para a sociedade no século XXI.\n\nRessalta-se que todas as orientações deste documento estão de acordo com os princípios políticos e pedagógicos das leis já citadas anteriormente, bem como das Leis nº. 10.639/2003 e nº. 11.645/2008, que dispõem sobre o combate ao preconceito e ao racismo, visando considerar as contribuições das culturas indígenas, afrodescendentes e quilombolas. Assim, cada professor deve incluir em seu trabalho pedagógico tais questões legais.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0562e2db9e1f4b79006ab303da83b487d28e72e79063e084e3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 763,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 768,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 1531
+    }
+  },
+  "created_at": "2026-09-22T22:40:32Z",
+  "duration_seconds": 5.777,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_12",
+  "filename": "ms_inf_e_ef_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "38e80354ee454ca8c7c4e938182e7cc5e1b424b273e45f72753d71c6ef1e0bf9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b8ec2c24f346d524535fa5891e028693688712740b83261ed1d228750a6f60ee",
+    "rendered_prompt_sha256": "c1a6ef7a8bd04b67d553ba7aea012d729f8733360c1db21bedd83c0dfe2e4a02",
+    "source_text_sha256": "5321b2d76d733000ba7a94ee936f5520d5c9b8a03966c004a6069ecb684ba98d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1730,
+    "filename": "ms_inf_e_ef_12.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_12.txt",
+    "state": "ms",
+    "word_count_original": 468
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_12.json"
+  },
+  "raw_response_text": "### 3.5 Educação para o Trânsito\n\nO Código de Trânsito Brasileiro instituído pela Lei n. 9.503, de 23 de setembro de 1997, estabelece que a Educação para o Trânsito seja promovida na pré-escola e nas escolas de Ensino Fundamental e de Ensino Médio, por meio de ações planejadas e coordenadas entre entidades do Sistema Nacional de Trânsito e da Educação. Assim, a Educação para o Trânsito está inserida nas Diretrizes Curriculares Nacionais Gerais para a Educação Básica como pertencente à parte diversificada do currículo.\n\nO objetivo da Educação para o Trânsito é estimular hábitos e comportamentos seguros no trânsito, transformando o conhecimento em ação, por meio de observação, vivências e situações cotidianas. Outrossim, a Educação para o Trânsito provoca a interpretação do mundo em que o sujeito vive, ou seja, pode reconstruir conceitos e valores condizentes ao exercício da cidadania.\n\nDesse modo, faz-se necessário compreender o trânsito como parte da vida cotidiana do cidadão. As crianças, os adolescentes e os jovens que se enquadram na categoria de pedestre precisam conhecer as leis, os símbolos e os agentes de trânsito e conviver com os mesmos. Numa proposta contínua de Educação para o Trânsito, percebe-se a relevância do papel desenvolvido pelos estabelecimentos de ensino na ampliação dos conhecimentos acerca dos direitos e deveres do pedestre e dos futuros motoristas.\n\nPara tanto, a escola deverá apresentar em seu Projeto Político Pedagógico (PPP) a Educação para o Trânsito para que esse tema seja inserido no currículo escolar, tendo como principal foco a formação cidadã e o desenvolvimento de ações que propiciem aos estudantes experienciar práticas educativas relacionadas ao assunto proposto, com possibilidades de mudança de valores, comportamento e atitudes.\n\nDe acordo com as Diretrizes Nacionais da Educação para o Trânsito, a abordagem do tema trânsito deve ser realizada de forma abrangente de modo que seja contemplada em todos os componentes curriculares, haja vista ser uma temática inerente à realidade de todos os estudantes e profissionais que compõem a equipe escolar. Nessa perspectiva, a Educação para o Trânsito deve ser compreendida como construção do conhecimento, mormente, ao favorecer o desenvolvimento de atitudes de respeito, solidariedade, além de outros valores indispensáveis para a convivência e segurança no trânsito, com vistas à construção de uma sociedade justa, equânime e igualitária.\n\nAssim, considera-se que a Educação para o Trânsito não pode ser reduzida à mera transmissão de regras de trânsito e representação de símbolos e objetos, pois deve suscitar análises e reflexões acerca de valores e condutas adotadas em prol do bem comum, oportunizando aos estudantes serem agentes transformadores do espaço em que vivem.\n\nConsidera-se, a partir dessa compreensão, que a Educação para o Trânsito corrobora a médio e longo prazo para reduzir acidentes de trânsito, pois elevam os níveis de consciência social e responsabilidade individual e coletiva dos cidadãos.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

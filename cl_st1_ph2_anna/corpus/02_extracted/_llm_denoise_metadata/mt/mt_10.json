@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06e7f1ad69b2dc10006ab304061da487d2bd0a03d6c7a941cf",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1075,
+      "input_tokens_details": {
+        "cache_write_tokens": 1072,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1009,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 2084
+    }
+  },
+  "created_at": "2026-09-22T22:41:17Z",
+  "duration_seconds": 7.385,
+  "error": null,
+  "excerpt_id": "mt_10",
+  "filename": "mt_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f2202058f3c2f08c7b124191787896d1450ce1813ca2e3298290e8f631db7acf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1cdf31b30714b8bac8fd2ad78bfc68bceeeddfe93857d119711ea130bfe3a2ab",
+    "rendered_prompt_sha256": "6f2dcc387ecfbf7716752387630eca665385b9e5a1f2c8d6182b604e89d8e26c",
+    "source_text_sha256": "02a70ce020a94b83924658a0873ccb3f1d090ea5baf17f709b6cf22d52f41100"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1775,
+    "filename": "mt_10.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_10.txt",
+    "state": "mt",
+    "word_count_original": 619
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_10.json"
+  },
+  "raw_response_text": "### 3.7 Avaliação para a Aprendizagem: Concepções, Funções, Instrumentos/Estratégias\n\nA avaliação educacional, genericamente falando, tem múltiplas dimensões, sendo que o espaço pedagógico de sua atuação possibilita falar em: avaliação com foco na aprendizagem – avaliação de sala de aula, do cotidiano da sala de aula; avaliação da instituição no cumprimento de sua função social – avaliação institucional; avaliação de programas e projetos; avaliação de currículo; avaliação de sistemas de ensino – com vista a informar políticas educacionais (SOUSA, 2000; FREITAS, 2005).\n\nNa última década, a avaliação educacional passou a ocupar lugar central nas políticas públicas de educação no Brasil. Do ponto de vista teórico, ampliou-se bastante o conjunto de referências sobre as ações, estratégias avaliativas, em todas as etapas de organização escolar do processo ensino e aprendizagem.\n\nNesse texto, a ênfase se dá à avaliação com vista à aprendizagem das crianças, adolescentes e jovens. Ou seja, a avaliação objetiva, na perspectiva de Cardinet (1993), para facilitar a aprendizagem dos alunos. Neste sentido, compete ao professor criar as condições para que as dificuldades dos educandos sejam ultrapassadas, o que implica também a avaliação do resultado de sua própria intervenção. Nessa perspectiva de ensino, a avaliação funciona como um guia da ação. Ela assume, portanto, a função, não mais de “aprovar” ou “reprovar” o educando, mas sim de ajudá-lo a identificar quais as competências/objetos de conhecimento/habilidades que ele já construiu satisfatoriamente e quais ainda precisa desenvolver.\n\nA avaliação também é comparada a um sistema de comunicação, a um diálogo entre professor e educandos, por meio da sistematização das informações recolhidas, de cunho investigativo (CARDINET, 1993; FREIRE, 1996). Entende-se que, assim concebida, a avaliação tem um caráter interativo, a partir da interpretação dos dados por ela fornecidos.\n\nNesse mesmo ponto de vista, concebe-se a avaliação como:\n\n> todo e qualquer processo deliberado e sistemático de recolha de informação, mais ou menos participado e interactivo, mais ou menos negociado, mais ou menos contextualizado, acerca do que os alunos sabem e são capazes de fazer numa diversidade de situações (FERNANDES, 2005, p.16).\n\nUma das perspectivas da concepção e da prática avaliativa trazidas pela Lei de Diretrizes e Bases da Educação Nacional – LDBEN 9.394/1996, em seu art. 23, pressupõe a lógica de inclusão, a qual situa a defesa de uma avaliação inclusiva no âmbito de um horizonte de expectativas mais amplo: a democratização do acesso ao conhecimento e a constituição de uma práxis educativa libertadora (FREITAS, 2005, CARVALHO, 2014).\n\nNesse cenário, as práticas de uma avaliação inclusiva respeitam as diferenças, criam mecanismos de apoio à aprendizagem e comprometem-se com a reflexão crítica e permanente sobre o cotidiano escolar. Assim sendo, a avaliação consiste em responsabilidade coletiva e orienta-se no sentido da transformação das condições que naturalizam o fracasso escolar, a partir do pressuposto de que todos têm condições de aprender e dar continuidade à sua trajetória escolar (CARVALHO, 2014).\n\nAvaliação inclusiva tem como finalidade: compreender o que os alunos já sabem e o que precisam aprender; que os professores programem intervenções; garantam as aprendizagens; redefinam o planejamento; favoreçam a aprendizagem e redirecionem a prática na sala de aula. Dessa forma, a avaliação para aprendizagem deve servir para orientar e regular a prática pedagógica, colocando-se a serviço das aprendizagens.\n\nNessa percepção, avaliar é, portanto, o exercício de um olhar sensível, de uma escuta atenta e cuidadosa do outro, é um ato de “amorosidade”, apropriando-se das palavras de Paulo Freire. Consiste, ainda, numa perspectiva de avaliação como um ato de inclusão.\n\nEm todas as etapas de ensino, faz-se necessário o emprego das diferentes funções da avaliação como meio de reprogramar as ações pedagógicas. Considera-se de fundamental importância a avaliação em suas diferentes funções:",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02eb0c07aad53e13006ab30d7d0d6887d2bc54caaeeca2ea1c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 629,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 701,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 1330
+    }
+  },
+  "created_at": "2026-09-22T23:21:39Z",
+  "duration_seconds": 6.544,
+  "error": null,
+  "excerpt_id": "rr_inf_6",
+  "filename": "rr_inf_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5c6d89fcc9a56837b26cc63619936496fface9d997f65866f0d702d396a5381d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e502e7c1204561521a795d0943d6e8fea6c25d10c643f5265532ca6bb8b65a39",
+    "rendered_prompt_sha256": "9a8ae20b99d180678c0c7cfa3bebbde7383fc8fa17ab5fc0de8cf36ec4db2eb5",
+    "source_text_sha256": "ad84aafbb9a5abae6f6e93f820a4359cfb807d7fdbc1f9f095d67cc0a20e6378"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3529,
+    "filename": "rr_inf_6.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_6.txt",
+    "state": "rr",
+    "word_count_original": 368
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_6.json"
+  },
+  "raw_response_text": "### 3.3 OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO\n\nEm razão das especificidades e diferenças desses sujeitos, a aprendizagem e desenvolvimento para a Educação Infantil no currículo do Estado de Roraima conforme os preceitos da BNCC consideram singularidades que pautam a estrutura dos objetivos propostos, no quais, primeira relaciona-se ao fato das crianças, ao longo da Educação Infantil, serem muito dinâmicas, obedecendo a ritmos muito diversos, sendo impossível prever que um determinado objetivo seja alcançado pela maioria das crianças em um mesmo momento. (BRASIL, 2016)\n\nPor esse motivo, na BNCC organizam-se os objetivos de aprendizagem, considerando-se três subgrupos etários:\n\n- Bebês (zero a 1 ano e 6 meses)\n\n  Os bebês usam a linguagem da não palavra, mas comunicam muitos pensamentos, sensações, expressões, relações, desejos e emoções, dando sinais de extraordinária versatilidade e expressividade aos seus modos de dizer.\n\n  Por conta desse enfoque, entendemos que as propostas de cuidado e educação em espaços coletivos devem priorizar a potência de ação dos bebês e das crianças bem pequenas.\n\n- Crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses)\n\n  Bebês e crianças bem pequenas utilizam diferentes formas de comunicação e expressão, que adultos precisam observar e escutar com sensibilidade e inteligibilidade: são gestos, expressões faciais, lágrimas, risos, gritos, silêncios, movimentos, balbucios, entre outros modos e formas de estabelecer relações e conexões com o mundo.\n\n- Crianças Pequenas (4 anos a 5 anos e 11 meses)\n\n  A criança é capaz de pronunciar, de forma adequada, todos os fonemas. Os diálogos e as histórias são contados com detalhes, com noção de tempo e espaço.\n\nAssim, a criança é considerada em sua totalidade garantindo-lhe o respeito as suas necessidades, ao dar-lhe oportunidade de aprendizagem em diferentes situações no seu cotidiano escolar.\n\nA segunda diz respeito a uma perspectiva com relação aos objetivos de aprendizagem e desenvolvimento que não os circunscreve a um único campo disciplinar, mas inclui conhecimentos de naturezas distintas, relevantes para os bebês e as crianças pequenas, relativos às práticas sociais e às linguagens. Os objetivos propostos procuram fortalecer o compromisso da Educação Infantil, tanto com os direitos das crianças às aprendizagens, quanto com a vivência da infância pela criança nos distintos Campos de Experiências. (BRASIL, 2016)",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

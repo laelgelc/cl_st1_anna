@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ea28140e4591a33006ab2fc41c53487d2801834aaa25a7100",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 749,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 837,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 1586
+    }
+  },
+  "created_at": "2026-09-22T22:08:07Z",
+  "duration_seconds": 6.093,
+  "error": null,
+  "excerpt_id": "al_ef_28",
+  "filename": "al_ef_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b06f4ec62ae76e84a5fa2929146b3ce29795bbeb4ae07eaf90bcc683196b3d1e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1d5ca5f23d66b436e854c2650158c778118267c115a101910509a1141f2d6843",
+    "rendered_prompt_sha256": "4d02d1cf507b68d6c6534e4f6cc31819200692aa4d1dc3a5c69cd5b6d975495f",
+    "source_text_sha256": "9ef053200d9a2516b2840fe4b83666c2472a4a9520f6260a8c14e6d840d38504"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 162,
+    "filename": "al_ef_28.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_28.txt",
+    "state": "al",
+    "word_count_original": 425
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_28.json"
+  },
+  "raw_response_text": "## 11. TRANSIÇÃO ENTRE ETAPAS\n\nA transição entre as etapas da Educação Básica requer atenção, para que haja equilíbrio entre as mudanças introduzidas, garantindo integração e continuidade dos processos de aprendizagem, respeitando suas singularidades e as diferentes relações que elas estabelecem com os conhecimentos, assim como a natureza das mediações de cada etapa (BNCC, 2017).\n\nTorna-se necessário estabelecer estratégias de acolhimento e adaptação tanto para os estudantes quanto para os docentes, de modo que a nova etapa se construa embasada nos saberes previamente adquiridos em cada etapa, vislumbrando uma perspectiva de continuidade de seu percurso educativo.\n\n### 11.1 Transição da Educação Infantil para o Ensino Fundamental Anos Iniciais em Língua Portuguesa\n\nNa transição da Educação Infantil para o Ensino Fundamental Anos Iniciais, aprofundam-se as experiências com a língua oral e escrita já iniciadas na família e na Educação Infantil.\n\nNos Anos Iniciais, valorizam-se as situações lúdicas de aprendizagem, que apontam para a necessária articulação com as experiências vivenciadas na Educação Infantil. Tal articulação precisa prever tanto a progressiva sistematização dessas experiências quanto o desenvolvimento, pelos estudantes, de novas formas de relação com o mundo, novas possibilidades de ler e formular hipóteses sobre os fenômenos, de testá-las, de refutá-las, de elaborar conclusões, em uma atitude ativa na construção de conhecimentos (BNCC, 2017 p. 56).\n\nConforme os direitos e os objetivos de aprendizagem e desenvolvimento, compreendidos como elemento balizador e indicativo de objetivos a serem explorados no segmento da Educação Infantil — que serão ampliados e aprofundados no Ensino Fundamental para o componente Curricular de Língua Portuguesa —, o campo de experiência envolve:\n\n**Traços, sons, cores e formas**\n\n- Discriminar os diferentes tipos de sons e ritmos e interagir com a música, percebendo-a como forma de expressão individual e coletiva.\n- Expressar-se por meio das artes visuais, utilizando diferentes materiais.\n- Relacionar-se com o outro empregando gestos, palavras, brincadeiras, jogos, imitações, observações e expressão corporal.\n\n**Escuta, fala, pensamento e imaginação**\n\n- Expressar ideias, desejos e sentimentos em distintas situações de interação, por diferentes meios.\n- Argumentar e relatar fatos oralmente, em sequência temporal e causal, organizando e adequando sua fala ao contexto em que é produzida.\n- Ouvir, compreender, contar, recontar e criar narrativas.\n- Conhecer diferentes gêneros e portadores textuais, demonstrando compreensão da função social da escrita e reconhecendo a leitura como fonte de prazer e informação.\n\nFonte: BNCC, 2017\n\nEsses campos de experiências possibilitam apresentar uma síntese das habilidades e competências referente ao componente curricular da Língua Portuguesa na Educação Infantil.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

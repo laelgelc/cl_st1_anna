@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d8e0302e69bd25b006ab2ff7fe68487d2a07b0f27bea7f1a7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 851,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 865,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 1716
+    }
+  },
+  "created_at": "2026-09-22T22:21:58Z",
+  "duration_seconds": 7.078,
+  "error": null,
+  "excerpt_id": "ce_em_41",
+  "filename": "ce_em_41.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e3d682322e316b048831a007f36279da52a52a47cae0e9a6babb534625a54ee4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "def2a4622cf61c707c13dc6832faf2a3ca62350f73816e27b9b9aef7ec9247f1",
+    "rendered_prompt_sha256": "93576a7c3bb635c7d593a72f34fc4add61275e372fe7e77539ab6ac78ad894b3",
+    "source_text_sha256": "d60a81fdb4890d98f7bf8cadf3bd5405c62621d1d95239a2a0e68852433c978d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_41.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 798,
+    "filename": "ce_em_41.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_41.txt",
+    "state": "ce",
+    "word_count_original": 560
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_41.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_41.json"
+  },
+  "raw_response_text": "### 8.3.4 Pesquisa como princípio pedagógico integrador\n\nDentre outros desafios atuais, a escola precisa quebrar o paradigma de que fazer ciência ocorre apenas nas universidades e que é possível e necessário educar pela pesquisa na educação básica. Para que isso se efetive, é necessário primeiramente que os docentes sejam pesquisadores, não no sentido de ser profissional pesquisador, mas sim que visualize a pesquisa como instrumento primordial do processo educativo e a tenha como atitude cotidiana orientada por princípios políticos e pela ética dos fins e valores. Consecutivamente também é necessária uma mudança no modo como os alunas/os são vistos, de objetos de ensino, sujeitos passivos e mero receptores de informações, para sujeitos participativos, parceiros de trabalho e tendo o questionamento reconstrutivo como anseio comum a docentes e discentes.\n\nPara Demo (2011), fazer pesquisa “não se trata de copiar a realidade, mas reconstruí-la conforme os nossos interesses e esperanças”. Portanto, a pesquisa busca a construção do conhecimento, através de um procedimento sistemático, para explicar e compreender os fatos cotidianos que estão inseridos em um determinado contexto socioambiental, histórico, econômico e ético. “A pesquisa é a arte de questionar de modo crítico e criativo, para melhor intervir na realidade” (DEMO, 2011, p.32).\n\nAssim, a escola que vivencia o princípio educativo pela pesquisa configura-se como um espaço de formação de sujeitos críticos, com capacidade para criar meios que estabeleçam novas interações, mediações e modificações de sua realidade.\n\nA pesquisa como princípio pedagógico integrador mostra-se explícita na BNCC em suas competências gerais da Educação Básica de número 2 - Pensamento Científico, Crítico e Criativo - exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências, incluindo a investigação, a reflexão, a análise crítica, a imaginação e a criatividade, para investigar causas, elaborar e testar hipóteses, formular e resolver problemas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das diferentes áreas; e de número 7 – Argumentação - argumentar com base em fatos, dados e informações confiáveis, para formular, negociar e defender ideias, pontos de vista e decisões comuns que respeitem e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, com posicionamento ético em relação ao cuidado de si mesmo, dos outros e do planeta.\n\nPara Moraes, et al (2004), a pesquisa em sala de aula envolve alunas/os e professores num processo de questionamento das informações, atitudes, valores, comportamentos e modos de agir, propiciando a partir disso a construção de argumentos que levem a novas descobertas e a atingir novos patamares do ser, do fazer e do conhecer. Ramos (2004) complementa as ideias de Moraes ao afirmar que a educação pela pesquisa é uma das ferramentas de transformação das escolas, visto que possibilita o desenvolvimento da autonomia dos alunas/os, tornando os sujeitos ativos na construção de conhecimentos, a partir do desenvolvimento da capacidade argumentativa, de participação social e de tomada de decisão frente aos discursos nos quais estão inseridos.\n\nO desenvolvimento da pesquisa nas escolas promove nos alunas/os, além da habilidade de exercer um questionamento reconstrutivo, a emancipação do sujeito objeto e passivo, tornando os sujeitos com consciência crítica e criativa que se opõem a procedimentos manipulativos, que incorporam a prática à teoria e que fazem uso de princípios políticos, ideológicos ou não, para construção de uma sociedade ética, equitativa e solidária.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

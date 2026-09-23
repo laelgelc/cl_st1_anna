@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01a8866561c26a3e006ab302d0b09487d2ba7b3f1715a90574",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 715,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 749,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 1464
+    }
+  },
+  "created_at": "2026-09-22T22:36:07Z",
+  "duration_seconds": 6.579,
+  "error": null,
+  "excerpt_id": "mg_ef_matematica_1",
+  "filename": "mg_ef_matematica_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8e2493c56b5204a4da674071e3f13dbce352548f7d6689bd2a3ba282fc3bc030",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "accd0af4dbd36dfb6910f772d4a29fb6cdf675fbf699ae1c64e626a0a038d6cf",
+    "rendered_prompt_sha256": "c70e169c1b9cad38af2fd9cb67987cc0850eb04946f26e12798238b7f658c5b8",
+    "source_text_sha256": "b4a843a1355cf4432cd54995c39a54a3a85f083b8ae6c8fab183c9f0192c91e3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_matematica_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1478,
+    "filename": "mg_ef_matematica_1.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_matematica_1.txt",
+    "state": "mg",
+    "word_count_original": 399
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_matematica_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_matematica_1.json"
+  },
+  "raw_response_text": "## 10.1 Componente Curricular: Matemática\n\nO componente curricular de Matemática fundamenta-se nos Parâmetros Curriculares Nacionais (PCNs), na Base Nacional Comum Curricular (BNCC) e nas Diretrizes Curriculares Nacionais (DCNs). Tem como finalidade o desenvolvimento das competências gerais de investigação, compreensão de fenômenos, construção de representações significativas e argumentações consistentes nos mais variados contextos.\n\nO conhecimento matemático é essencial para a formação de cidadãos críticos, capazes de compreender e transformar o mundo à sua volta, fazer observações sistemáticas identificando padrões e regularidades existentes, resolver situações-problema, estabelecer relações entre temas matemáticos de diferentes campos e, entre esses temas e conhecimentos de outros componentes curriculares e desenvolver nos estudantes a capacidade de interagir com seus pares de forma colaborativa.\n\nOs diferentes campos que compõem a Matemática reúnem um conjunto de ideias fundamentais para o desenvolvimento do pensamento matemático dos estudantes, dentre eles: equivalência, ordem, proporcionalidade, interdependência, representação, variação e aproximação. Essas ideias, por serem fundamentais, reitera-se, devem ser convertidas, na escola, em objetos de conhecimento.\n\n## 10.2 Relação do Componente Curricular com as Concepções do Currículo Referência de Minas Gerais\n\nO Currículo Referência de Minas Gerais apresenta os princípios orientadores para uma escola capaz de promover as competências indispensáveis ao enfrentamento dos desafios sociais, culturais e profissionais do mundo contemporâneo. Nessa perspectiva, contempla algumas das principais características da sociedade do conhecimento e propõe princípios orientadores para a prática educativa, a fim de que as escolas mineiras possam preparar seus estudantes em consonância com esta contemporaneidade.\n\nO currículo precisa ser adaptado aos diferentes contextos para atender a um determinado ambiente geográfico e/ou social. Neste caso, é importante que o Projeto Político Pedagógico (PPP) contemple as especificidades locais, considerando a integralidade do estudante que se pretende formar.\n\nPara atender às novas necessidades do mundo contemporâneo, espera-se que a Matemática esteja relacionada entre si e com outros componentes curriculares atribuindo significado ao conhecimento escolar e incentivando o raciocínio e a capacidade de aprendizagem.\n\nDesta forma, é necessário que o componente curricular no Ensino Fundamental, sempre que possível, relacione os conhecimentos matemáticos, e que esses conhecimentos sejam interligados com o cotidiano do estudante, tornando o aprendizado significativo. Além disso, espera-se que a Matemática forneça aos estudantes o desenvolvimento de algumas habilidades como o letramento matemático, a resolução de problemas, a investigação, a visualização, a percepção e a argumentação. Essas habilidades possibilitarão que os estudantes estabeleçam conexões com várias áreas do saber.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

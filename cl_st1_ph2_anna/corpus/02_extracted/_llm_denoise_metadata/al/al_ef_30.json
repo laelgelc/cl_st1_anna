@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02c45a786dd4b2de006ab2fc46460887d2bcfe78501b58e6b3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 799,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 753,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 1552
+    }
+  },
+  "created_at": "2026-09-22T22:08:12Z",
+  "duration_seconds": 6.095,
+  "error": null,
+  "excerpt_id": "al_ef_30",
+  "filename": "al_ef_30.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b5f99035e6ab94d26d897c54a00e8086625ff9d92b730362f879bc3bf5923233",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "da216c58b8e87d6cc2f1f3fc598f9c2e1443aefc2feb46e37c2512d1ed507e8a",
+    "rendered_prompt_sha256": "7d4b81a1e7894b8b80fa1aa22943bb12951f3bb0f2199ae7cf74b9df896ea57b",
+    "source_text_sha256": "eaac6749eadc818ab0bc4f53c06bb8388d59e1e6d5e8db4b410826f7c28dc629"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_30.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 165,
+    "filename": "al_ef_30.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_30.txt",
+    "state": "al",
+    "word_count_original": 485
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_30.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_30.json"
+  },
+  "raw_response_text": "# 1. APRESENTAÇÃO\n\nA Arte é indispensável na vida das pessoas e na sociedade desde os primórdios da civilização, uma vez que é constituída por modos específicos de manifestações criativas dos sujeitos ao interagirem consigo mesmo e com o mundo em que vivem. Refletir sobre as concepções de arte pode contribuir bastante quando se depara com situações em que a arte está envolvida, ou seja, a arte enquanto conhecimento a ser construído, enquanto linguagem a ser desenvolvida, experimentada e fruída; expressão a ser exteriorizada e refletida.\n\nEnquanto conhecimento a ser construído, arte é interdisciplinaridade e essa concepção está relacionada a processos, com características próprias e imprescindíveis ao desenvolvimento do ser humano na sua totalidade e subjetividade, desenvolvendo competências cognitivas e socioemocionais.\n\nComo construção de conhecimento, a Arte e suas dimensões desenvolvem a sensibilidade por meio de práticas artísticas e pedagógicas, além de oportunizar vivências e significados essenciais para o desenvolvimento do sujeito aprendente.\n\nO Componente Curricular Arte do Referencial Curricular de Alagoas explora as dimensões do ser, pertencer, perceber e estar no mundo, revelando sentidos, além de construir pontes entre as origens culturais de cada sujeito e sua participação no aprendizado.\n\nUma educação humanizada e inclusiva respeita as individualidades pessoais, a história do sujeito, as características culturais e suas territorialidades, criando um ambiente escolar enriquecedor e oportunizando a expressão de emoções, sensações e intenções inspiradas naquilo que toca os sentimentos de cada um. Esse contato sensível com o mundo imaginário e real, repleto de signos que refletem as relações sociais, permeiam o cotidiano, tornando-o vivo e em constante transformação por meio de produções artísticas.\n\nNas linguagens, o conhecimento artístico na experiência do fazer, revela a função social e ética da arte como produção social humana que não fragmenta o ser racional e o ser sensível, pois transita entre o inteligível e a sensibilidade. A intencionalidade do processo criativo enquanto materialização do fazer, direciona o indivíduo ampliando o universo de cada ser, sua visão de mundo em um contexto de interação sociocultural.\n\nEsse esforço, ao explicitar uma ideia, pensamento e visão através da produção artística como representação simbólica da realidade interior e exterior, constitui a arte como um sistema de representações construtoras de símbolos, que propiciam o desvelar da cultura e o acesso a ela.\n\nEm relação ao sujeito aprendente, torna-se essencial construir seu modo de ser pelo aprendizado, respeitando e valorizando a diversidade de formas de conhecimento e seu processo de construção, no qual os fazeres se relacionam, envolve uma série de ações/operações conectadas a esse sujeito em que o conhecer, o fazer, o expressar, o comunicar e o interagir instauram práticas inventivas a partir da vivência de cada um, que compreende, relaciona, ordena, classifica, transforma e cria, relacionando a arte e vida.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

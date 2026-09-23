@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c1c77805912aa04006ab307ab5d0487d2b5e4fa392fa9aeab",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 721,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 759,
+      "output_tokens_details": {
+        "reasoning_tokens": 141
+      },
+      "total_tokens": 1480
+    }
+  },
+  "created_at": "2026-09-22T22:56:50Z",
+  "duration_seconds": 6.875,
+  "error": null,
+  "excerpt_id": "pe_ef_1",
+  "filename": "pe_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d22de42f2e811915223f4187182aadf26185e59805d12cbdf35b0b94f43039c1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b6738310a8728edd5e79b3697743ad72f907865099b9b33a2c0ede84dc6d6106",
+    "rendered_prompt_sha256": "0905717979e689a08be49a614034e3e3e83bf48e39e75cea17c8597f28fdce5c",
+    "source_text_sha256": "d748bbacfc34f3d5b32c671ff3ec5b23711aaaf421fb517d88aa3f017a100110"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2385,
+    "filename": "pe_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_1.txt",
+    "state": "pe",
+    "word_count_original": 464
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_1.json"
+  },
+  "raw_response_text": "# APRESENTAÇÃO\n\nÉ com muita satisfação e alegria que entregamos à sociedade o Currículo de Pernambuco, que irá orientar a partir de 2019 o trabalho pedagógico da Educação Infantil e Ensino Fundamental nas escolas em todo o Estado. A produção do documento, que contou com mais de oito mil contribuições de professores e membros da sociedade civil, é resultado de uma parceria entre a Secretaria de Educação e Esportes de Pernambuco (SEE) e a União dos Dirigentes Municipais de Educação (UNDIME/PE).\n\nNossa trajetória de construção curricular remonta o ano de 2011, quando iniciamos o debate sobre os parâmetros curriculares no Estado. Pernambuco foi um dos pioneiros no Brasil a construir um documento que ajudasse as escolas a estruturar seus currículos e projetos pedagógicos. A partir de 2015, participamos da discussão sobre a versões preliminares da Base Nacional Comum Curricular (BNCC), homologada em 2017 para o Ensino Fundamental e a Educação Infantil. O ano de 2018 foi repleto de desafios, dentre os quais a revisão do currículo do Ensino Fundamental e a construção de um currículo para a Educação Infantil.\n\nO processo foi intenso, mas contamos com uma equipe técnica competente que trabalhou de maneira articulada com professores de diversas universidades e escolas, realizando discussões nas unidades de ensino, organizando seminários regionais e consulta online. Desta forma, Pernambuco construiu um currículo que valorizou o diálogo com a comunidade educativa e com a sociedade, respeitando as diversas identidades do seu povo e segundo princípios éticos e humanos.\n\nPara a elaboração deste documento, priorizamos a ampliação do debate com os profissionais da educação e o respeito às identidades culturais, políticas, sociais e econômicas das diferentes regiões de Pernambuco. Traçamos um planejamento envolvendo escolas das redes municipal, estadual e privada do litoral ao Sertão e instituímos a Comissão Estadual de Construção Curricular, formada por representantes da SEE, UNDIME/PE, Conselho Estadual de Educação (CEEPE) e União dos Conselhos Municipais de Educação (UNCME).\n\nO currículo, aprovado por unanimidade pelo Conselho Estadual de Educação, é composto por quatro fascículos, sendo um volume para Educação Infantil e três para o Ensino Fundamental. Neles, estão orientações para o processo de ensino e aprendizagem e as práticas pedagógicas em sala de aula.\n\nTivemos a honra de participar de todo o processo e acompanhar os avanços da educação de Pernambuco, apesar da forte crise econômica pela qual atravessa o País. Isto é um indicador de que as práticas de gestão adotadas por nós estão nos levando para o caminho certo. Esperamos desta forma que este Currículo em suas mãos seja vivenciado na escola e que ele colabore para mais avanços na Educação em Pernambuco e na formação de jovens autônomos, criativos e críticos que exerçam plenamente sua cidadania ativa.\n\nFrederico da Costa Amâncio  \nSecretário de Educação\n\nMaria Elza da Silva  \nPresidente da UNDIME/PE",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0aa182f9d95e902d006ab30b083b3c87d288eeebba2f11afee",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 617,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 611,
+      "output_tokens_details": {
+        "reasoning_tokens": 90
+      },
+      "total_tokens": 1228
+    }
+  },
+  "created_at": "2026-09-22T23:11:08Z",
+  "duration_seconds": 4.722,
+  "error": null,
+  "excerpt_id": "rn_em_18",
+  "filename": "rn_em_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5af37d4f8fa3c1e7034c6182b1c6f641b53e865e5320621401ec13fc3e39f4c2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5f82445ac3908df01243f985e0260d80149de9880c741ec4740e6d396f456f3d",
+    "rendered_prompt_sha256": "73df6ca0661ad4396f351c8587bb8939e6363df8fcbc2b162bd10c2003015c92",
+    "source_text_sha256": "71378809432df22765e5281da95daf8d823d7be76f541543bd8674fc7bd92366"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3016,
+    "filename": "rn_em_18.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_18.txt",
+    "state": "rn",
+    "word_count_original": 377
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_18.json"
+  },
+  "raw_response_text": "### 4.1 PROTAGONISMO NO ENSINO MÉDIO\n\nOs estudantes de ensino médio, constituídos em sua diversidade de comportamentos, condições de gênero e expressões das diferentes juventudes, registram diferenças culturais, históricas, familiares e sociais, juntamente com capacidades cognitivas variáveis (incluindo aqueles com necessidades educacionais especiais) e projetos que estes identificam como essenciais à sua vida.\n\nNesse pensamento, é possível inferir que colocar os estudantes no centro da construção curricular é uma necessidade, respeitando as diferenças e possibilitando exercerem o papel de protagonistas, dando espaço e voz, promovendo um currículo com força transformadora da ação educativa. Nessa direção, o protagonismo proposto neste Referencial coaduna com a educação libertadora concebida por Freire (2001, p.38), quando diz: “não pode ser a do depósito de conteúdos, mas a da problematização dos homens em suas relações com o mundo”.\n\nConcernente ao reconhecimento e valorização do estudante de ensino médio, as Instituições de Ensino trazem uma função basilar de apoiar cada um por elas recebido, de forma a conduzi-lo a se perceber como ator ativo de sua vida, aprendendo a se respeitar e ao outro, diante da diversidade. É primordial que o estudante entenda e exerça o papel de protagonista de sua história, ponderando a ética e a cidadania como valores essenciais; é papel da escola dispor de espaços para a promoção desse protagonismo, além de acreditar junto com o estudante no desenvolvimento de seu potencial, buscando contribuir para o desenho de seu projeto de vida.\n\nA Educação, ao considerar que o protagonismo juvenil é importante nas práticas educativas que ocorrem no ambiente escolar, volta-se para a concepção de protagonismo que promove a emancipação por meio da formação de sujeitos autônomos e participativos, na perspectiva de que as juventudes em sua diversidade saiam da invisibilidade e ganhem vozes representativas, independentemente da condição social ou coletiva a que pertencem.\n\nDestarte, o Ensino Médio Potiguar propõe a Unidade Curricular Projeto de Vida, como promotora do protagonismo, compreendendo três dimensões: a do autoconhecimento, a social e a do mundo do trabalho. É um espaço aberto para que o jovem reflita e conduza melhor seu percurso formativo, articulando a formação básica à parte flexível, atendendo às suas expectativas históricas, sociais e pessoais, rompendo com a ideia da construção de um projeto simplesmente de caráter profissional.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

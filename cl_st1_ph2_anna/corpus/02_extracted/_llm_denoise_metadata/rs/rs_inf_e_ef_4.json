@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_035b9fac0a4587a0006ab30e12cbe887d2aa4dc6d15858ce08",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 698,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 707,
+      "output_tokens_details": {
+        "reasoning_tokens": 152
+      },
+      "total_tokens": 1405
+    }
+  },
+  "created_at": "2026-09-22T23:24:09Z",
+  "duration_seconds": 6.721,
+  "error": null,
+  "excerpt_id": "rs_inf_e_ef_4",
+  "filename": "rs_inf_e_ef_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3c07f1519afa4f82f89f4224e31b3a074633a8fb42819a82daadd727a3e8f514",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6da269fdf383402d607b72f861ce4c18c8621b5bd65d60bfe5897eee0ca00396",
+    "rendered_prompt_sha256": "605e4577aef5fbf7a5af3ca79fed72ffcc1c5d6b7f51285051e6bf156a3b4c62",
+    "source_text_sha256": "aa5cd830fa82f9e08b117542994cbb27c74b3748c29749e14446031a27c8c232"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_e_ef_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3673,
+    "filename": "rs_inf_e_ef_4.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_e_ef_4.txt",
+    "state": "rs",
+    "word_count_original": 392
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_e_ef_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_e_ef_4.json"
+  },
+  "raw_response_text": "# PRINCÍPIOS ORIENTADORES DO DOCUMENTO\n\n## 1. CONCEPÇÕES\n\n### 1.1 Educação\n\nConsiderando as mudanças históricas, sociais, políticas e econômicas, muitas são as concepções de educação que vão se instituindo nas sociedades, implicando em paradigmas educacionais que compõem o vasto território da educação, nas suas mais diversas dimensões. Este documento não pretende realizar estudo histórico sobre as concepções da educação nas suas mais diferentes correntes teóricas já estudadas.\n\nInteressa aqui pautar a concepção de educação como processos em constante transformação. Em seu sentido mais amplo, compreender o desenvolvimento integral do sujeito (físico, intelectual, emocional, afetivo, social e cultural), que permita as formas de inserção social, envolvendo educação escolar e extraescolar.\n\nA literatura, no campo educacional, sinaliza que o fenômeno educativo representa a expressão de interesses sociais em conflito. Muito se tem estudado e debatido que a educação deve ter caráter emancipatório, entendendo também que a dialética das relações está em pleno movimento e transita por dentro destas instituições escolarizadas, implicando em transformações sociais. Dessa forma, as práticas educativas pressupõem vetores de diferentes sentidos na formação humana, a fim de que se torne efetivo o processo educativo.\n\nA complexidade da sociedade do século XXI impõe outras maneiras de vislumbrar o mundo, exigindo da educação escolarizada outras formas de práticas educativas diárias, no interior das salas de aula, sendo essas efetivas a fim de promover a formação humana na sua integralidade.\n\nNa perspectiva do mundo contemporâneo, o universo simbólico das crianças e adolescentes está também vinculado aos suportes variados (imagens, infográficos, fotografia, sons, música, textos) veiculados através da internet, da TV, da comunicação visual de ambientes públicos, da publicidade, do celular, entre outros. Dessa forma, estabelecer relações com as diversas competências e habilidades implica abrir oportunidades para que os estudantes acessem estes e outros tipos de suportes e veículos, com o objetivo de selecionar, organizar e analisar criticamente a informação presente em tais artefatos culturais.\n\nA educação escolarizada pensada para este documento está pautada no direito de aprender independente do sistema ou rede educacional em que pertencem os estudantes. Também implica na contextualização e sistematização dos conceitos articulados com processos de aprendizagem organizados de forma interdisciplinar e transdisciplinar; na construção do conhecimento orientado pelo professor em atividades diversificadas com foco no desenvolvimento de competências e habilidades de cada etapa de ensino, vinculando as macrocompetências da BNCC; e o entendimento do estudante como protagonista do processo educativo.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

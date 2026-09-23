@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_051dd4dcba8930e5006ab2fe0c20b887d2b075f25f45b21c2e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 537,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 531,
+      "output_tokens_details": {
+        "reasoning_tokens": 92
+      },
+      "total_tokens": 1068
+    }
+  },
+  "created_at": "2026-09-22T22:15:47Z",
+  "duration_seconds": 7.052,
+  "error": null,
+  "excerpt_id": "ap_em_25",
+  "filename": "ap_em_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7f3d8da3cb2e2e6adcccc36c06e3a1f757c9fc878befe9d7b7ec1562e340ff65",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b943bc215073601e55478351a67101026e629b099d696e3c4bb93ede4d6e4ed6",
+    "rendered_prompt_sha256": "ff6140c5de2aae2b34f06c9336550e15f65cabe0098a2a16f6e8ce41d787cbd0",
+    "source_text_sha256": "52e92c7d03bf2aff576256d56f23e4f082204592b4a0140329544b914800c653"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 519,
+    "filename": "ap_em_25.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_25.txt",
+    "state": "ap",
+    "word_count_original": 326
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_25.json"
+  },
+  "raw_response_text": "# O PERFIL DO DOCENTE DE BIOLOGIA\n\nDo ponto de vista da relação professor-aluno, o que se percebe é a predominância da autoridade inquestionável do professor e a atitude receptiva e relativamente passiva do aluno. Na realidade, basicamente, o ensino de biologia se dá por meio de ensinamentos repetidos, tradicionais, impostos por docentes que não tiveram uma boa preparação ou boa avaliação da sua prática pedagógica. De acordo com a Gleiser (2005), “o pouco preparo dos professores e a falta de recursos são os principais problemas do ensino da ciência hoje no Brasil. De modo geral, infelizmente, a ciência é ensinada no quadro-negro. O professor fala de biologia fazendo desenhos no quadro, raramente realizando experiências simples em salas de aula para ilustrar os conceitos”.\n\nPara Delizoicov e Angotti (2002), os professores encontram dificuldades em preencher o tempo destinado às aulas e procuram fazê-lo cobrindo maior quantidade de matéria, ao invés de aprofundar tópicos de maior importância de interesse. Vale inferir, que muitos professores não têm paixão pelo assunto e só lecionam a disciplina porque precisam. Porém, eles devem perceber que “a ciência quando explicada por meios de demonstrações e experiências, vai além de uma fórmula e se torna verdadeiramente concreta (GLEISER, 2005)”.\n\nO professor, procurando mudar essa realidade não deve abordar os assuntos de biologia de forma superficial. “Ouvir falar sobre um organismo é, em geral, muito menos interessante e eficiente do que ver diretamente a realidade, o que justifica a inclusão das excursões, aulas práticas, trabalhos de campo, iniciação científica e demonstrações”. É fato que quando a prática pedagógica inclui o uso de metodologias renovadas o ensino de biologia se torna mais ativo, dinâmico e participativo, tanto para o aluno como para o professor. Em vista disto, é natural que o aluno se sinta mais motivado a comparecer em aulas experimentais, pois se trata de uma metodologia que se apoia na qualidade educacional visando despertar a prática reflexiva e crítica do estudante.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

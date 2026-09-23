@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06585cf4fd3c517e006ab30ca6dad087d29d4f154405dec4bc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 495,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 599,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 1094
+    }
+  },
+  "created_at": "2026-09-22T23:18:04Z",
+  "duration_seconds": 6.116,
+  "error": null,
+  "excerpt_id": "ro_inf_3",
+  "filename": "ro_inf_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ea2f3ecb68e3e7b5b2dc8d65d1f85f59df0b91762c0e52656da637e742df03f8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "522dce8d966c0b7357bc8959afcf5d9dae943c5b1b642b780e2b810bb9ccb68f",
+    "rendered_prompt_sha256": "f571976b0c085fe74af0f8a1eeab21e42bd9603d2f0a5fc9a73a1aca0057582a",
+    "source_text_sha256": "58291b49951659dffef721f37713dd6ab215862884eec5540151218d18518dd0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3343,
+    "filename": "ro_inf_3.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_3.txt",
+    "state": "ro",
+    "word_count_original": 289
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_3.json"
+  },
+  "raw_response_text": "O Referencial Curricular que aqui se apresenta fundamenta-se nos princípios legais da Legislação brasileira e tem como fundamento a formação integral de bebês, crianças bem pequenas e crianças pequenas, público alvo da Educação Infantil, primeira etapa do Ensino Básico, a quem esse documento se destina.\n\nEste documento referencia-se na Base Nacional Comum Curricular (BNCC), assegurando os direitos de aprendizagem e desenvolvimento e arranjo por campos de experiências, conforme os preceitos presentes no Plano Nacional de Educação (PNE), consolidando nesse Sistema de Ensino, em suas respectivas redes escolares, o compromisso com a promoção de uma educação integral voltada ao acolhimento, reconhecimento e desenvolvimento pleno das crianças matriculadas nessa etapa de ensino, garantindo o respeito às diferenças e combatendo à discriminação e preconceito de qualquer espécie.\n\nConforme o estabelecido na BNCC, nos termos da LDB, apresenta como foco do trabalho educativo o desenvolvimento de competências que se definem como mobilização de conhecimentos – conceituais e procedimentais – habilidades – práticas, cognitivas e socioemocionais – favorecedoras da capacidade de resolver demandas complexas da vida cotidiana e do pleno exercício da cidadania, reconhecendo que a educação processa-se na articulação da construção de conhecimentos e na vivência de experiências nas quais bebês e crianças possam construir significados sobre si, os outros e o mundo social, físico e natural, coincidindo na construção de atitudes e valores.\n\nPortanto, a finalidade desse Referencial Curricular é servir como instrumento balizador das ações pedagógicas destinadas à Educação Infantil. Porta-se como orientador na elaboração de outros instrumentos legais que concretizem e fortaleçam ações que asseguram as aprendizagens essenciais definidas na BNCC para esta etapa da Educação Básica, através dos eixos estruturantes das práticas pedagógicas que são as interações e brincadeiras, consolidando direitos de aprendizagem e desenvolvimento cotidianamente no processo educativo.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

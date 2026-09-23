@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d43612ff32e8e85006ab3042fd1d487d2be3466cbe0a51975",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 379,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 361,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 740
+    }
+  },
+  "created_at": "2026-09-22T22:41:55Z",
+  "duration_seconds": 3.833,
+  "error": null,
+  "excerpt_id": "mt_ef_100",
+  "filename": "mt_ef_100.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0f81fabb72d563b69b79a8e1a01735d1e6182348cbc2b1c69ea70770bb57f171",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0603b12631caa389651dce577b525cc808bdc10669c3de2fcf2b02d8999e3d74",
+    "rendered_prompt_sha256": "355b8c9f298e28903377485a49577f4b6f738a1f09fcc1be4efacd20a00729af",
+    "source_text_sha256": "819e4d0d9120925101893259ca72f8f1aea4c486c37f6aa59bcb0da197e7da6f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_100.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1800,
+    "filename": "mt_ef_100.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_100.txt",
+    "state": "mt",
+    "word_count_original": 184
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_100.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_100.json"
+  },
+  "raw_response_text": "### 4.3.5. Unidades Temáticas / Habilidades / Objetos de Conhecimento\n\nA organização dos objetos de conhecimento, neste documento, parte do conhecimento da identidade, do ser humano físico, com sentimento e emoções, que interage e integra em diversos grupos, espaços e tempo. Que possui semelhanças e diferenças entre o eu, o outro e o nós. Que tem uma vida rica em experiências religiosas, e que essas experiências são o elo entre imanente (corpo-matéria) e o transcendente (o sagrado, o metafísico).\n\nOs objetos de conhecimento partem dos fenômenos mais conhecidos dos estudantes, que fazem parte do universo cultural da comunidade, onde está inserido, para posteriormente, agregar os objetos de conhecimento que tratam das expressões do sagrado, desconhecidas ou manifestações religiosas menos comuns.\n\nDesse modo, pretende-se evitar a redução dos objetos de conhecimento do Componente Curricular referentes às manifestações religiosas hegemônicas, que historicamente têm ocupado um grande espaço nas aulas de Ensino Religioso e pouco têm acrescentado ao processo de formação integral dos estudantes, ou seja, no alargamento de sua compreensão e do seu conhecimento a respeito da diversidade religiosa e dos múltiplos significados dos sagrados.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00440dd548362ebb006ab3036fc3fc87d298fb44ca4e4a3fab",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 543,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 517,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 1060
+    }
+  },
+  "created_at": "2026-09-22T22:38:44Z",
+  "duration_seconds": 4.864,
+  "error": null,
+  "excerpt_id": "mg_em_93",
+  "filename": "mg_em_93.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9958125839b32600e3bb06e89f9c423cd9f49163488a875dfb5260fad883e3bd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f747f73b1ca42ecae6f11dccfcedf85c3c90707d315e65d2a9234e142ca04c2a",
+    "rendered_prompt_sha256": "ec568508e17f6efbecabc3ec2097e33e77a18543969fccd178512e10ebe6390a",
+    "source_text_sha256": "e5a505fbe764bdf4e29809a71abd92fe819c1309953c2bfd96a2d9e501356653"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_93.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1629,
+    "filename": "mg_em_93.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_93.txt",
+    "state": "mg",
+    "word_count_original": 293
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_93.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_93.json"
+  },
+  "raw_response_text": "### 4.9.2 Área de Linguagens e suas Tecnologias\n\nNa área de Linguagens, o Currículo Referência traz os Itinerários Formativos que oferecem a seus estudantes um conjunto de disciplinas, projetos, oficinas, núcleos de estudos, entre outras situações de trabalho, nas quais estes poderão escolher, meios pelos quais possam construir seus projetos de vida de acordo com suas necessidades, considerando a construção de todo repertório sociocultural desenvolvido e a desenvolver ao longo dessa etapa da educação básica.\n\nPara tanto, na área de Linguagens, o currículo propõe que os estudantes escolham os itinerários que perpassam pelos quatro eixos estruturantes comentados a seguir.\n\n**Investigação Científica:** este eixo enfatiza a ampliação da capacidade de investigação e compreensão do estudante, ao aplicar o conhecimento sistematizado através de práticas e produções científicas. São dimensões deste trabalho as posturas éticas, críticas e cidadãs, em consonância com os direitos humanos, articuladas às práticas desenvolvidas.\n\n**Processos Criativos:** Neste eixo os estudantes participarão na elaboração de projetos com foco na criatividade, que incluem a utilização de diferentes manifestações linguísticas, culturais e científicas. Para concretização deste processo o estudante deverá utilizar e integrar diferentes linguagens, manifestações sensoriais, vivência artísticas, culturais e midiáticas.\n\n**Mediação e Intervenção Sociocultural:** Neste eixo é desenvolvida a habilidade de mediar conflitos e problemas da comunidade, onde o envolvimento do estudante em campos de atuação da vida pública por meio do seu engajamento, em projetos de mobilização e intervenção sociocultural o leva a promover transformações na comunidade.\n\n**Empreendedorismo:** Neste eixo o estudante é capacitado a estruturar iniciativas empreendedoras dentro do seu universo. Com essas capacidades, espera-se que o estudante que optar por este itinerário aprimore um perfil que esteja em consonância com seu projeto de vida, e lhe proporcione uma formação para a inserção e permanência no mundo do trabalho.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

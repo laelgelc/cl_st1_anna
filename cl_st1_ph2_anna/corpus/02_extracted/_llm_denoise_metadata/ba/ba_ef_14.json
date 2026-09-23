@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0736943bcfd3c68e006ab2fe60f5b087d288b262c187fd5cd5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 501,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 478,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 979
+    }
+  },
+  "created_at": "2026-09-22T22:17:08Z",
+  "duration_seconds": 3.874,
+  "error": null,
+  "excerpt_id": "ba_ef_14",
+  "filename": "ba_ef_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9c60f05c535f3cff4573ecdf7ef402f7108027ce25cef222726aa6e1ba31430d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9b8f65d39e21e15ce29d4a6af100d644360e9a75dfa8a6e6aa1896905125b937",
+    "rendered_prompt_sha256": "f645cfba7de637aea4acd8ee25877fed291c87bf8658725039996e20af4636e8",
+    "source_text_sha256": "41ca6fb8088600c8e3751be36c26154f3ec7973c222bfcd139cdcfa5411852c5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_ef_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 597,
+    "filename": "ba_ef_14.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_ef_14.txt",
+    "state": "ba",
+    "word_count_original": 251
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_ef_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_ef_14.json"
+  },
+  "raw_response_text": "### 8.2.4.2. Organizador Curricular\n\n**ÁREA DE LINGUAGENS**  \n**COMPONENTE CURRICULAR LÍNGUA INGLESA**\n\n**COMPETÊNCIAS ESPECÍFICAS DE LÍNGUA INGLESA**\n\n1. Identificar o lugar de si e o do outro em um mundo plurilíngue e multicultural, refletindo, criticamente, sobre como a aprendizagem da Língua Inglesa contribui para a inserção dos sujeitos no mundo globalizado, inclusive no que concerne ao mundo do trabalho.\n2. Comunicar-se na Língua Inglesa, por meio do uso variado de linguagens em mídias impressas ou digitais, reconhecendo-a como ferramenta de acesso ao conhecimento, de ampliação das perspectivas e de possibilidades para a compreensão dos valores e interesses de outras culturas e para o exercício do protagonismo social.\n3. Identificar similaridades e diferenças entre a Língua Inglesa e a língua materna/outras línguas, articulando-as a aspectos sociais, culturais e identitários, em uma relação intrínseca entre língua, cultura e identidade.\n4. Elaborar repertórios linguístico-discursivos da Língua Inglesa usados em diferentes países e por grupos sociais distintos dentro de um mesmo país, de modo a reconhecer a diversidade linguística como direito e valorizar os usos heterogêneos, híbridos e multimodais emergentes nas sociedades contemporâneas.\n5. Utilizar novas tecnologias, com novas linguagens e modos de interação, para pesquisar, selecionar, compartilhar, posicionar-se e produzir sentidos em práticas de letramento na Língua Inglesa, de forma ética, crítica e responsável.\n6. Conhecer diferentes patrimônios culturais, materiais e imateriais, difundidos na Língua Inglesa, com vistas ao exercício da fruição e da ampliação de perspectivas no contato com diferentes manifestações artístico-culturais.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

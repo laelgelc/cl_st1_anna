@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08eeff98fdcee488006ab2fbadd67c87d29140b45bf9f068d5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 624,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 852,
+      "output_tokens_details": {
+        "reasoning_tokens": 319
+      },
+      "total_tokens": 1476
+    }
+  },
+  "created_at": "2026-09-22T22:05:40Z",
+  "duration_seconds": 7.112,
+  "error": null,
+  "excerpt_id": "ac_ef_42",
+  "filename": "ac_ef_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ea04b370cfe07062e5815a157a0787524ba99b0e3cc737d47d1946409779f5c5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ad985a39b518357094585a4531f16d3ce684511da8b8357679dc774841cb2b20",
+    "rendered_prompt_sha256": "1a8d57985af4e23956b35e96183d461550dcab643a195a70ce61053ca642c21f",
+    "source_text_sha256": "533b04dd66131514223c2a5da9250739524b18923f6fc9826786ac71c31221f6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 37,
+    "filename": "ac_ef_42.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_42.txt",
+    "state": "ac",
+    "word_count_original": 369
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_42.json"
+  },
+  "raw_response_text": "# 1. REFLEXÕES SOBRE PORTUGUÊS\n\nO primeiro documento curricular do Estado do Acre, com proposta para o ensino de Língua Portuguesa, bem como para os demais componentes, foi escrito em 2009, com o objetivo de delinear os conteúdos a serem ensinados e garantir uma melhor qualidade na educação e, consequentemente, na aprendizagem dos alunos.\n\nA nova redação elaborada tem o propósito de ajustar-se aos princípios pedagógicos estabelecidos pela Base Nacional Comum Curricular, homologada em dezembro de 2017, cujo teor “dialoga com os documentos e orientações curriculares produzidos nas últimas décadas, motivado pelas transformações das práticas de linguagem em decorrência do desenvolvimento das tecnologias digitais da informação e comunicação (TDIC).” (BRASIL, 2017, p. 65).\n\nA perspectiva assumida na proposta de trabalho é a enunciativo-discursiva da linguagem, também observada em outros documentos, como é o caso dos Parâmetros Curriculares Nacionais (PCN), que definem a linguagem como “uma forma de ação interindividual orientada para uma finalidade específica; um processo de interlocução que se realiza nas práticas sociais existentes numa sociedade, nos distintos momentos de sua história” (BRASIL, 1998, p. 20).\n\nTal perspectiva adota o texto como objeto central da unidade de trabalho, de modo que esteja sempre relacionado à interação comunicativa e aos contextos envolvidos, com o objetivo principal de que os alunos possam utilizar a linguagem de modo significativo em atividades de leitura, escuta e produção de textos em várias mídias e semioses.\n\nDesse modo,\n\n> Compete, portanto, à Língua Portuguesa, enquanto dispositivo curricular, proporcionar aos estudantes, experiências que contribuam para a ampliação dos letramentos, de forma a possibilitar a participação significativa e crítica nas diversas práticas sociais permeadas/constituídas pela oralidade, pela escrita e por outras linguagens. (BRASIL, 2017, p. 65-66).\n\nLevando em consideração que a linguagem permeia as práticas de interação e que é através dela que as pessoas adquirem informações, socializam ideias, opiniões, posicionam-se em relação a seus pontos de vista, expõem suas reflexões e experiências, é necessário que a escola esteja comprometida com a democratização social e cultural dos saberes. Além disso, precisa tomar para si a responsabilidade de garantir o acesso a todos esses conhecimentos imprescindíveis para o exercício da cidadania, considerada direito de todos, ainda que essa oferta não garanta a efetiva participação.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_080198dc64604f2a006ab2ff38472c87d297d113b479d27635",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 671,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 991,
+      "output_tokens_details": {
+        "reasoning_tokens": 424
+      },
+      "total_tokens": 1662
+    }
+  },
+  "created_at": "2026-09-22T22:20:48Z",
+  "duration_seconds": 8.342,
+  "error": null,
+  "excerpt_id": "ce_ef_27",
+  "filename": "ce_ef_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "31efd907851b9d72cf46be2ec727377ca59d898c1ac5224eb8b297cbd410046a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "214fb41324378308e85f83af0ca364545604ebfae737be1ff07ef1d549cd0b8a",
+    "rendered_prompt_sha256": "ea249a43ee39747e861904505158a49cc697f25c3bc7edbbf1b5fd86fbb57186",
+    "source_text_sha256": "9b86bf60d78609b93a570c3725d9c797f293baa38a61ef4768910cc97fb06582"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 746,
+    "filename": "ce_ef_27.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_27.txt",
+    "state": "ce",
+    "word_count_original": 426
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_27.json"
+  },
+  "raw_response_text": "### 4.2.3.1.1.2. O letramento científico nos anos finais\n\nNos anos finais, o letramento científico objetiva o desenvolvimento das competências relacionadas à análise do contexto social, político e cultural, com a identificação de problemas ambientais mais complexos e a tomada de atitudes voltadas à manutenção da homeostase no meio ambiente e com a manutenção da saúde psíquica, física e emocional do ser.\n\nAssim, para os anos finais o DCRC propõe 66 habilidades a serem desenvolvidas com vistas na consolidação das competências específicas de Ciências, distribuídas nos três eixos temáticos como apresentado no Gráfico 05.\n\nOs objetos de aprendizagem nos anos finais, são mais complexos, trabalhando a percepção das mudanças ocorridas no corpo, na sociedade e nas relações interpessoais. À/a estudante desta etapa de ensino, devem ser garantidos a reflexão da função social da ciência e o desenvolvimento de atitudes e valores pertinentes à cidadania.\n\n### 4.3.2.1.2. A Educação Ambiental\n\nA relação sustentável do ser humano com o ambiente que a cerca é uma das premissas que propomos neste documento. Assim, a temática ambiental está inserida nos 3 eixos temáticos de Ciências, de tal forma que as/os estudantes sejam convidados (as) a identificar, analisar, refletir e debater questões ambientais, iniciando com uma visão local, nos anos iniciais e, progressivamente ampliando o campo de estudos ao adentrar os anos finais. Pretendemos que, ao finalizar o ensino fundamental, as/os estudantes apresentem ganhos cognitivos e mudanças de valores, advindos do desenvolvimento de uma consciência social crítica.\n\nAssim, a educação ambiental proposta pelo componente de Ciências, desenvolve-se a partir da interação das/dos estudantes com os objetos específicos relacionados ao uso sustentável dos recursos naturais e preservação da biodiversidade. O documento objetiva estimular o protagonismo das crianças e dos/das jovens, na resolução de problemas que perpassam pelo desenvolvimento da qualidade de vida das futuras gerações por meio da educação.\n\nDestacamos que esse documento deixa espaço para as/os educadoras/educadores do estado do Ceará elaborarem currículos e planos de aulas, voltados à realidade da comunidade, aos processos antrópicos locais e aos debates internacionais relacionados ao meio ambiente. Sugerimos que o envolvimento aconteça de tal forma que a escola se torne um local de produção de conhecimentos científicos para a tomada de decisão sobre as melhores ações a serem desenvolvidas. Acreditamos que, assim sendo, os recursos naturais podem continuar a existir e podem ser usufruídos pelas gerações atuais e futuras.\n\nAs orientações curriculares do componente Ciências do Ensino Fundamental encontram-se detalhadas na planilha a seguir:",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

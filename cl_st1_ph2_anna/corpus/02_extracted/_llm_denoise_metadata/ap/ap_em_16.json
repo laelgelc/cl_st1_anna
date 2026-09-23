@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_095bf81d4127ffeb006ab2fe00978087d29a4b0a74e5af8cb8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 674,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 763,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 1437
+    }
+  },
+  "created_at": "2026-09-22T22:15:34Z",
+  "duration_seconds": 6.29,
+  "error": null,
+  "excerpt_id": "ap_em_16",
+  "filename": "ap_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "34bd6aa7706fe64a8e0a01142092dd87afe3a815af4c9aefc8d8a233cb740a81",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "aa3a4399ba65d1c467edf2bd50577adcb58067cfb09fcdb1c6a59624ea50065b",
+    "rendered_prompt_sha256": "4697e97b58dbceeab8bc71d046915b23bba3e82cbfb3670d6bbfba2d48122f19",
+    "source_text_sha256": "407adb52359f6730779404ebde0edebbcdd679a4344329c5c038c9172913b461"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 509,
+    "filename": "ap_em_16.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_16.txt",
+    "state": "ap",
+    "word_count_original": 424
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_16.json"
+  },
+  "raw_response_text": "# ÁREAS DE CONHECIMENTO\n\n## LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS\n\nO referencial curricular do Ensino Médio da área de Linguagens, Códigos e suas Tecnologias do Estado do Amapá foi construído segundo as diretrizes da Resolução CNE/CP nº 2, de 22 de dezembro de 2017, que instituiu a implementação da Base Nacional Comum Curricular. Esta etapa é responsável pela continuidade, aprofundamento e consolidação dos conhecimentos adquiridos nas fases anteriores do Ensino Fundamental. Os componentes Língua Portuguesa, Educação Física, Arte e Língua Inglesa foram organizados de modo a possibilitar que os alunos participem de diversas práticas de linguagem, desenvolvendo competências e habilidades de forma integrada.\n\nA construção do conhecimento com a integração dos componentes curriculares possibilitará a criação de práticas pedagógicas eficientes no desenvolvimento das habilidades gerais e específicas da área, superando, assim, a fragmentação por disciplinas em face de um ensino contextualizado.\n\nO trabalho multidisciplinar que será desenvolvido com base nos objetos de conhecimentos e disposto em unidades temáticas apresenta situações de aprendizagens significativas de competências e habilidades para a vida do estudante como forma de atender à sua formação integral.\n\n## A TRANSIÇÃO DOS ANOS FINAIS DO ENSINO FUNDAMENTAL PARA O ENSINO MÉDIO\n\nA Base Nacional Comum Curricular adotou as dez competências gerais como o fio condutor que garante os direitos de aprendizagem dos alunos por toda a Educação Básica. A articulação para a transição dos anos finais do Ensino Fundamental para o Ensino Médio se efetiva pelo desenvolvimento de aprendizagens dessas competências, que se desdobram em habilidades de forma contextualizada na utilização de conteúdos relevantes e adequados às especificidades de cada fase de desenvolvimento dos estudantes.\n\nNa área de Linguagens, a progressão do Ensino Fundamental centrada no conhecimento, na compreensão, na exploração e na utilização das diferentes linguagens é ampliada no Ensino Médio com a participação do estudante como protagonista na construção do conhecimento, agora como autor das práticas de linguagens em seus diferentes usos na sociedade de forma crítica e criativa.\n\nPara a construção da Base Nacional Comum Curricular, adotou-se como conceito de competência a mobilização de conhecimentos e habilidades, atitudes e valores para desenvolver demandas da vida cotidiana e do mundo do trabalho.\n\nJá as habilidades dizem respeito às aprendizagens essenciais esperadas para cada disciplina e ano. O texto-base apresenta o processo cognitivo que se pretende atingir, iniciando sempre por um verbo.\n\nAs habilidades, responsáveis pelo desenvolvimento das competências específicas, aparecem relacionadas a determinados objetos de conhecimento, referentes aos conteúdos, conceitos e processos organizados em diferentes unidades temáticas, o que possibilita o trabalho multidisciplinar.\n\n## O TRABALHO ARTICULADO ENTRE OS COMPONENTES:",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

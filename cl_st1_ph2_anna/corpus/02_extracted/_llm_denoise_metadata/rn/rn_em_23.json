@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05cd3f5f25d124d5006ab30b0ef87087d2877e9c20e7e38a2e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 536,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 525,
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "total_tokens": 1061
+    }
+  },
+  "created_at": "2026-09-22T23:11:16Z",
+  "duration_seconds": 5.368,
+  "error": null,
+  "excerpt_id": "rn_em_23",
+  "filename": "rn_em_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "be62f10f3c23ce6a6750adde4d4c04abc9316c620607f738ae4d60fa5662ab00",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8ecd9a21dd87049d7452382b596262214db1bc4456022f239a6e9256d00b2218",
+    "rendered_prompt_sha256": "9729e6db5534f17d4f7ccfbc02871ba6495eb8d296c3caacce6903b7963b9933",
+    "source_text_sha256": "5e88c84b13db929de4b7c7bc1a27ce5c93adf4c99f6a232b8fb52007df22c5bc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3022,
+    "filename": "rn_em_23.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_23.txt",
+    "state": "rn",
+    "word_count_original": 290
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_23.json"
+  },
+  "raw_response_text": "### 6.2.1 Eixos Integradores\n\nOs Eixos Integradores da Área de Linguagens têm o objetivo de aglutinar aprendizagens e conhecimentos que colaborem para a integração, diálogo e direcionamento pedagógico entre os componentes da Área:\n\n1. **Linguagens e Identidades** – os componentes privilegiam a integração de aprendizagens que colaborem para a pesquisa, discussão, reflexão, dos processos identitários presentes nas juventudes, como se constituem e se relacionam.\n2. **Linguagens e Práticas Culturais** – os componentes privilegiam a integração de aprendizagens que colaborem para a pesquisa, discussão, reflexão e socialização de práticas culturais presentes nas juventudes, assumidas a partir das várias perspectivas, considerando a diversidade local, regional e global.\n3. **Linguagens e Letramentos** – os componentes privilegiam a integração de aprendizagens que colaborem para a pesquisa, discussão, reflexão, compreensão, produção e aprofundamento, a partir de uma função social da leitura e da escrita, que transcende a aprendizagem dos elementos da cultura letrada que circulam no ambiente escolar, para contemplar o uso da língua nas práticas sociais, incluindo os multiletramentos (visual, verbal, sonora, espacial...), sobretudo de conhecimento presente nas múltiplas linguagens que circulam, hoje, na diversidade cultural.\n4. **Linguagens e Interação** – os componentes privilegiam a integração de aprendizagens que colaborem para a pesquisa, discussão, reflexão e aprofundamento de conhecimentos que permitam aos estudantes interagir nas relações sociais, em situações e espaços diversos, tendo em vista que a linguagem é, antes de tudo, social.\n5. **Linguagens e Tecnologias Digitais** – os componentes privilegiam a integração de aprendizagens que colaborem para a pesquisa, discussão, reflexão e aprofundamento de conhecimentos que permitam (re)conhecer, explorar, produzir e compartilhar, criticamente, a produção e circulação de informações por meio das tecnologias digitais.\n\nOs Eixos não são estanques e permeiam uns aos outros quando necessário ou quando o planejamento pedagógico da Área exigir.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

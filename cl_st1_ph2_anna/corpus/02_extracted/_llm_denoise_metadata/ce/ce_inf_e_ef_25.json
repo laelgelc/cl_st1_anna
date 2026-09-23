@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0156e0919949e006006ab2ffefc14887d2923716fe32ffe0d9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 872,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1155,
+      "output_tokens_details": {
+        "reasoning_tokens": 389
+      },
+      "total_tokens": 2027
+    }
+  },
+  "created_at": "2026-09-22T22:23:53Z",
+  "duration_seconds": 9.641,
+  "error": null,
+  "excerpt_id": "ce_inf_e_ef_25",
+  "filename": "ce_inf_e_ef_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2ab07d1960e32153db273d4c3612d79e7c4dbecc8439bdfb2553719972352433",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fc62e5e4763fab55baad111708606200f02e21ea53e75126a387a9a2603fceef",
+    "rendered_prompt_sha256": "897e7be2221de23bdcbb0e812737eb4a976a063f3f5bb51b71ec78ca496361e3",
+    "source_text_sha256": "eea3ca707dca0778b0bec872df2cfb9e2155112b12d1c5d177eb0b5a61298ad8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_inf_e_ef_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 861,
+    "filename": "ce_inf_e_ef_25.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_inf_e_ef_25.txt",
+    "state": "ce",
+    "word_count_original": 554
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_inf_e_ef_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_inf_e_ef_25.json"
+  },
+  "raw_response_text": "## 3.9. Educação Financeira\n\nO Decreto nº 7.397, de 22 de dezembro de 2010, institui a Estratégia Nacional de Educação Financeira (ENEF) criada pelo Ministério da Fazenda, “com a finalidade de promover a educação financeira e previdenciária e contribuir para o fortalecimento da cidadania, a eficiência e solidez do sistema financeiro nacional e a tomada de decisões conscientes por parte dos consumidores” (2010).\n\nNa verdade, trata-se de uma política pública de Estado em caráter permanente, que promove ações gratuitas de educação financeira no Brasil. O seu objetivo é contribuir para o fortalecimento da cidadania, ao fornecer e apoiar ações que ajudem a população a tomar decisões financeiras mais autônomas e conscientes.\n\nTodos os dias as pessoas lidam com artigos financeiros, configurando-se como agentes econômicos. Diretamente ou não, as decisões sobre compras, venda, empréstimos, investimentos etc. influenciam na sua vida tanto no presente quanto no futuro. Por isso, faz-se necessário em todas as fases da vida aprender sobre movimentação de recursos financeiros.\n\nOs estabelecimentos de ensino e aprendizagem possibilitam que crianças e jovens adquiram, além das competências e habilidades de leitura, cálculo e raciocínio lógico, a capacidade de viver em sociedade, em que fará escolhas decisivas para a realização de sonhos e modo de vida, influenciando a sociedade da qual faz parte.\n\nNeste sentido, a educação financeira, pensada como tema transversal, dialoga com os diversos objetos de conhecimento e outros temas transversais do currículo, ministrados para as etapas da Educação Básica. Isso possibilita ao estudante concretizar suas aspirações e se preparar para as várias fases da vida, bem como agir com maturidade nos assuntos de interesse da coletividade. Cabe, pois, ao Projeto Político-Pedagógico da escola ser o documento norteador da formatação desse diálogo.\n\nEmerge, então, a importância de incluirmos a educação financeira no currículo, pois ela promove o diálogo articulador entre as áreas de conhecimento, à medida que transita nos diversos componentes curriculares das escolares, sendo um pilar para o exercício pleno da cidadania e para o bem-estar coletivo.\n\nAo apresentar este documento à comunidade escolar cearense, é importante dizer que concebemos a educação como um compromisso que promove a formação e o desenvolvimento humano global, em suas dimensões intelectual, física, afetiva, social, ética, moral e simbólica; apontamos a necessidade de contextualização dos conteúdos dos componentes curriculares, para torná-los significativos a partir da realidade local e do tempo que situa a aprendizagem, bem como a organização interdisciplinar dos componentes. Ainda cabe aos sistemas e às redes de ensino e às escolas incorporar aos currículos e às propostas pedagógicas a abordagem de temas contemporâneos que atinjam a vida humana em escala local, regional e global, preferencialmente de forma transversal e integrada.\n\nEntre esses temas, destacamos a (Lei nº 8.069/1990) direito da criança e do adolescente; (Lei nº 9795/1999) educação ambiental; (Lei 9.503/1997) educação para o trânsito, dentre outros, que se vistos a partir da BNCC estão alocados nas Ciências Sociais e Humanas Aplicadas que\n\n“[...] devem estimular uma formação ética, [...] auxiliando os alunos a construir um sentido de responsabilidade para valorizar: os direitos humanos; o respeito ao ambiente e à própria coletividade; o fortalecimento de valores sociais, [...] a solidariedade, a participação e protagonismo voltado para o bem comum [...]” (BRASIL, 2018, p. 352).\n\nÉ, portanto, neste contexto que se encontra a educação financeira.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_011e1350b8406ce2006ab2fdf88e6c87d284b59c619cd725c4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 662,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1948,
+      "output_tokens_details": {
+        "reasoning_tokens": 1383
+      },
+      "total_tokens": 2610
+    }
+  },
+  "created_at": "2026-09-22T22:15:38Z",
+  "duration_seconds": 17.516,
+  "error": null,
+  "excerpt_id": "ap_em_11",
+  "filename": "ap_em_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "69947a92495f9aa2bb0f980ca0c92ef7ae020ee8670d56a371be20f036be900d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f8f4f191e5f6381d7e3d15ed37c9454b003e32084392076c00db9002b8e71b6a",
+    "rendered_prompt_sha256": "bf3fbcd334b0c9ddda44ac95442d3e678a9b131247f97e500019a7e082412b6f",
+    "source_text_sha256": "ee33833176c998cdfa9001ff18536dd96aad61629ea6f03780b84d8fee207603"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 504,
+    "filename": "ap_em_11.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_11.txt",
+    "state": "ap",
+    "word_count_original": 403
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_11.json"
+  },
+  "raw_response_text": "# EDUCAÇÃO BÁSICA DO CAMPO\n\nA escola do campo deverá se organizar nos tempos e espaços que melhor atendam a essa realidade, oferecendo as condições necessárias para o enfrentamento e a melhoria das situações de vida dos homens e mulheres, de acordo com o Parecer CNE/CEB nº 36/2001 e a Resolução CNE/CEB nº 1/2002, os quais tratam sobre as Diretrizes Operacionais para a Educação Básica nas Escolas do Campo e que reconhecem como fundamental:\n\n- O modo próprio de vida social da população do campo;\n- A identidade da escola do campo definida pela sua vinculação com a realidade, com os saberes dos estudantes, com a memória coletiva da comunidade;\n- A garantia da universalização do acesso da população do campo à Educação Básica e à Educação Profissional de Nível Técnico (Art. 3º);\n- A Educação do Campo como espaço público de investigação e articulação de experiências e estudos direcionados para o mundo do trabalho e com o desenvolvimento social, economicamente justo e ecologicamente sustentável.\n\n**Art. 4º** O projeto institucional das escolas do campo, expressão do trabalho compartilhado de todos os setores comprometidos com a universalização da educação escolar com qualidade social, constituir-se-á num espaço público de investigação e articulação de experiências e estudos direcionados para o mundo do trabalho, bem como para o desenvolvimento social, economicamente justo e ecologicamente sustentável.\n\n**Art. 5º** As propostas pedagógicas das escolas do campo, respeitadas as diferenças e o direito à igualdade e cumprindo imediata e plenamente o estabelecido nos artigos 23, 26 e 28 da Lei 9.394, de 1996, contemplarão a diversidade do campo em todos os seus aspectos: sociais, culturais, políticos, econômicos, de gênero, geração e etnia. (BRASIL, 2002)\n\nOs sujeitos do campo têm direito à educação, vinculada à cultura e às suas necessidades humanas e sociais. Sendo assim, as Diretrizes Curriculares da Educação do Campo denotam um importante instrumento para a construção de uma educação pública de qualidade, presente e que respeite e valorize a diversidade humana, cultural, socioambiental, étnica, de gênero, sexual, religiosa e científica, e ainda, os valores sociais e políticos, contribuindo com a construção de uma sociedade cada vez mais justa e solidária.\n\nÉ importante destacar que o currículo flexibilizado nas escolas do campo deve observar os interesses dos estudantes, uma organização escolar própria, incluindo adequações do calendário escolar às fases do ciclo agrícola, às lançantes das marés, às condições climáticas e à adequação à natureza do trabalho no campo.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a539a959272c2a5006ab30bb8e52087d2babe8f683953029e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 438,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 406,
+      "output_tokens_details": {
+        "reasoning_tokens": 63
+      },
+      "total_tokens": 844
+    }
+  },
+  "created_at": "2026-09-22T23:14:07Z",
+  "duration_seconds": 7.033,
+  "error": null,
+  "excerpt_id": "ro_ef_65",
+  "filename": "ro_ef_65.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f917227e29c61d2eb64fc9cf6a2014e420fd15cdc8605e909ea2ca67eefaf2b0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "979c4c2aeb0a0cd4904c6df5b864eb3444e63e9cdd4df8cc95f992b2f90eb5ba",
+    "rendered_prompt_sha256": "f149b38de34979b4d4d4bb322430ec4094428f1d766532a9ed043f104bfc9dc5",
+    "source_text_sha256": "845fbb192e9d95bb33c146c3626021e0599282c0d6bbf6791aabb667f28ef1db"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_65.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3167,
+    "filename": "ro_ef_65.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_65.txt",
+    "state": "ro",
+    "word_count_original": 234
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_65.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_65.json"
+  },
+  "raw_response_text": "### 9.4.1 Avaliação\n\nSobre a avaliação em Arte, Ana Mae Barbosa alerta para a necessidade de ampliar os conceitos para além de termos, como erros e acertos, especialmente no componente de Arte. A autora afirma que “é preciso descobrir os erros para não repeti-los, e eles são descobertos mediante avaliação, que não deve levar à punição... mas, à readequação, reestruturação, redimensionamento” (2009, p. 22).\n\nA avaliação em Arte deve superar aquela ideia de punição, mecanismo de controle e medidas de êxito e fracasso. Deve haver predominância da avaliação processual, com aberturas conceitual, investigadora e metodológica. Logo, a avaliação deve ser coerente, contínua, formativa, compreendida pelos estudantes e integrada à prática artística. Sobretudo, não se deve usar o parâmetro de comparação entre os estudantes, uma vez que todos podem e devem fazer arte, mesmo não tendo a tal “habilidade nata”, visto que a arte educa e transforma, apresentando-se em suas múltiplas linguagens, como meio de expressão, reflexão sobre contextos sociais e lugares no mundo, exercício da sensibilidade, e ainda estimulando a imaginação e criação, construindo a humanidade do estudante e enriquecendo sua bagagem cultural.\n\nTodo o processo criativo dos estudantes deve ser observado e avaliado. Igualmente a aprendizagem conceitual contextualizada e o fazer artístico, porém, não sobrepor a valorização de objetos artísticos finais em detrimento do processo de criação, pois nem sempre o resultado final do fazer artístico reflete a aprendizagem.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

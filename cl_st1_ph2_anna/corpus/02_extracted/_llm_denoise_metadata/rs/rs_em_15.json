@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b3d2f440100effb006ab30d9c353c87d2a7394d9eba2eb944",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 808,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 775,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 1583
+    }
+  },
+  "created_at": "2026-09-22T23:22:09Z",
+  "duration_seconds": 5.562,
+  "error": null,
+  "excerpt_id": "rs_em_15",
+  "filename": "rs_em_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "45de38f3911269a48ce24c4843f18efba108a08bb84c1802808b411e52dd895f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e65f00326daa03ada4d5d3b49249579254ba1640f9d5421b8201744466892cd1",
+    "rendered_prompt_sha256": "6683621a3ec9b71c384586d09e79cfdcbed093b9a2db2049f78054b456bf100a",
+    "source_text_sha256": "aa02da754f36f91d0d5264f719837314ecb36a3476a7bedf5fc56d1230412f8b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3556,
+    "filename": "rs_em_15.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_15.txt",
+    "state": "rs",
+    "word_count_original": 460
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_15.json"
+  },
+  "raw_response_text": "### 1.7.5 Educação a Distância (EaD)\n\nO RCGEM, em atenção à legislação federal e estadual, prevê a possibilidade da modalidade de Educação a Distância no território gaúcho. Para a organização e a oferta da Educação a Distância, o que compreende atividades síncronas e assíncronas, a legislação vigente, especialmente, a Portaria ME/GAB nº. 1.432/2018, amparada na Lei nº. 13.415/2017, art. 36; e na Resolução CNE/CEB nº. 03/2018 em seu art. 17, parágrafos 5º, 6º, 13, 14 e 15, estabelece critérios específicos que precisam ser observados pelas entidades mantenedoras na elaboração das propostas pedagógicas do Ensino Médio. Para o Sistema Estadual e Municipais de Ensino, o Conselho Estadual de Educação do Estado do Rio Grande do Sul, através da Resolução CEEd-RS nº. 334/2016, estabelece normas para a oferta de cursos na modalidade de EaD nos níveis fundamental e médio, nas seguintes modalidades educacionais: Educação de Jovens e Adultos de nível Médio, Educação Especial e Educação Profissional.\n\nPara operacionar e proporcionar EaD de qualidade, é fundamental que sejam observados os requisitos previstos na legislação vigente, respeitadas a autonomia das mantenedoras e a flexibilidade curricular prevista na BNCC e neste RCGEM. Observar, para a oferta da EaD, a construção do Projeto Político-Pedagógico, a disponibilidade de equipe profissional habilitada e qualificada, a existência de mecanismos de interatividade entre professor e estudantes; a disponibilidade de recursos didáticos e infraestruturais suficientes para o trabalho pedagógico e administrativo e para o desenvolvimento do processo de aprendizagem e de avaliação dos estudantes e do estabelecimento de ensino. As instituições mantenedoras são responsáveis pela formação permanente dos recursos humanos, bem como a viabilização de equipamentos e da logística necessária para que tenha significação científico-cultural e sócio-intelectual com o uso das tecnologias como suportes do processo de construção do conhecimento.\n\nPara o Ensino Médio diurno, as atividades a distância podem ser previstas em até 20% da carga horária total. Para o ensino noturno, a oferta pode chegar até 30%, e para a Educação de Jovens e Adultos, a legislação prevê até 80% de EaD. A organização, a estrutura e oferta de EaD no território gaúcho, de autonomia das redes e suas mantenedoras, precisa prever formas de contratação de professores para o acompanhamento, a coordenação e o desenvolvimento das atividades que contemplem tanto a FGB quanto, preferencialmente, os IFs, com suporte tecnológico – digital ou não – e pedagógico apropriados. Este RCGEM considera que, na etapa final da Educação Básica, os polos são as escolas e os tutores, são os próprios professores que nelas lecionam, no caso das escolas integrantes da rede estadual. No que se refere às demais escolas das redes presentes no território gaúcho, a autonomia é das suas instituições mantenedoras para a organização e a oferta de EaD.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

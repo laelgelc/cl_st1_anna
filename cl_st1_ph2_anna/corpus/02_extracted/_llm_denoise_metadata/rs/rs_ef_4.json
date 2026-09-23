@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_025a35c00b5e6e27006ab30d8d0f0487d2a6f425e5a14f3246",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 691,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 703,
+      "output_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "total_tokens": 1394
+    }
+  },
+  "created_at": "2026-09-22T23:21:55Z",
+  "duration_seconds": 6.155,
+  "error": null,
+  "excerpt_id": "rs_ef_4",
+  "filename": "rs_ef_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a6601c0f80621d958fd1641706b0b2f905851155daec1672107c55c55efa8af4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bbbb261e82da82c86378b264ab16161363460132cf27f4eacb23fd93f5d2e5e1",
+    "rendered_prompt_sha256": "049535530fccbfd095e844aa82d41419fd23f6444f8023aecb1dcb7ac50ed6f5",
+    "source_text_sha256": "45adf90f8021e3fe9f0f0b7330d6bdfeb07585461193eadf56fd0bc489fab955"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_ef_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3544,
+    "filename": "rs_ef_4.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_ef_4.txt",
+    "state": "rs",
+    "word_count_original": 427
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_ef_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_ef_4.json"
+  },
+  "raw_response_text": "No Ensino Fundamental, a área de Linguagens, nos Anos Iniciais, é composta pelos seguintes componentes curriculares: Língua Portuguesa, Arte e Educação Física, e nos Anos Finais, com o acréscimo da Língua Inglesa. A finalidade é proporcionar aos estudantes a participação em práticas de linguagem diversificadas, que lhes permitam a possibilidade de interação e de expressão de valores, sentimentos, ideologias, ampliando também suas capacidades expressivas em manifestações artísticas, corporais e linguísticas, como também seus conhecimentos sobre essas linguagens, em continuidade às experiências vividas na Educação Infantil.\n\nA área de Linguagens propõe o desenvolvimento do processo de socialização e comunicação entre os diferentes campos da atividade humana, auxiliando-nos no uso de recursos favoráveis para a manifestação dos diferentes tipos de linguagem. Por meio dessas práticas, as pessoas interagem consigo mesmas e com os outros, constituindo-se como sujeitos sociais.\n\nAs linguagens, antes articuladas, passam a ter status próprios de objetos de conhecimento escolar. Considerando esses pressupostos, e em articulação com as competências gerais da Educação Básica, a área de Linguagens deve garantir aos alunos o desenvolvimento das seguintes competências específicas:\n\n- Compreender as linguagens como construção humana, histórica, social e cultural, de natureza dinâmica, reconhecendo-as e valorizando-as como formas de significação da realidade e expressão de subjetividades e identidades sociais e culturais.\n- Conhecer e explorar diversas práticas de linguagem (artísticas, corporais e linguísticas) em diferentes campos da atividade humana para continuar aprendendo, ampliar suas possibilidades de participação na vida social e colaborar para a construção de uma sociedade mais justa, democrática e inclusiva.\n- Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e digital –, para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao diálogo, à resolução de conflitos e à cooperação.\n- Utilizar diferentes linguagens para defender pontos de vista que respeitem o outro e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, atuando criticamente frente às questões do mundo contemporâneo.\n- Desenvolver o senso estético para reconhecer, fruir e respeitar as diversas manifestações artísticas e culturais, das locais às mundiais, inclusive aquelas pertencentes ao patrimônio cultural da humanidade, bem como participar de práticas diversificadas, individuais e coletivas, da produção artístico-cultural, com respeito à diversidade de saberes, identidades e culturas.\n- Compreender e utilizar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares), para se comunicar por meio das diferentes linguagens e mídias, produzir conhecimentos, resolver problemas e desenvolver projetos autorais e coletivos.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

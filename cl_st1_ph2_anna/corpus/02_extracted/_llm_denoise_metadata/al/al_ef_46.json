@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_084698dfaacdee3e006ab2fc58f1c487d292afe86f87bcb18f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 524,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 531,
+      "output_tokens_details": {
+        "reasoning_tokens": 161
+      },
+      "total_tokens": 1055
+    }
+  },
+  "created_at": "2026-09-22T22:08:29Z",
+  "duration_seconds": 4.599,
+  "error": null,
+  "excerpt_id": "al_ef_46",
+  "filename": "al_ef_46.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "86be549793767ac41bc668471c42ee04ee0087656ef0130009fd27b72aec5a28",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "563c96a38d88f5773b68b65b41873b7bae26999bfae9f21aeda0741a68fcc640",
+    "rendered_prompt_sha256": "2feba52d3a4cf982cc48b37ce47dfb1edaacd0cebf0c1b90e9aa3a5a4e3e0a3f",
+    "source_text_sha256": "72ce9c975012a4679548d74f1bf133c22b78adbcd5a9491850243049b0bdf99f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_46.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 182,
+    "filename": "al_ef_46.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_46.txt",
+    "state": "al",
+    "word_count_original": 292
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_46.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_46.json"
+  },
+  "raw_response_text": "Apresentamos o REFERENCIAL CURRICULAR DE ALAGOAS, construído em Regime de colaboração entre Estado e municípios, em consonância com a Base Nacional Comum Curricular (BNCC). O documento tem como premissa, a garantia dos direitos de aprendizagem dos educandos, contribuindo para a promoção de aprendizagens significativas, visando à formação integral de todos os estudantes alagoanos.\n\nEste caderno é direcionado aos professores de Educação Física e busca-se com ele, auxiliar o trabalho pedagógico do professor de forma dinâmica, objetivando garantir o direito de aprendizagens dos estudantes do componente curricular Educação Física, a fim de que estes possam ingressar no Ano/Série subsequente, com as habilidades necessárias e específicas que lhes são inerentes em cada etapa e modalidade de ensino.\n\nO Referencial Curricular de Educação Física encontra-se disposto neste caderno, com a seguinte estrutura organizacional: Na primeira parte detalha-se uma breve introdução ao componente e na sequência os marcos legais que sustentam a Educação Física, como disciplina curricular obrigatória. Na segunda parte, apresenta-se a estrutura do Componente para o Ensino fundamental e a estrutura do seu Currículo, e as expectativas de aprendizagem, a organização curricular do componente de Educação Física, a organização das Unidades Temáticas, as Dimensões do Conhecimento e as competências específicas do componente.\n\nFinalizando o documento, apresentamos o Organizador Curricular com as habilidades diretamente relacionadas às aprendizagens a serem desenvolvidas pelos educandos.\n\nPortanto, o Referencial Curricular de Educação Física, aqui proposto, tem a finalidade de auxiliar os professores na reflexão, no planejamento de suas aulas, na análise e seleção de materiais didáticos e recursos tecnológicos e, em especial que possa contribuir para formação de um cidadão crítico e reflexivo.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

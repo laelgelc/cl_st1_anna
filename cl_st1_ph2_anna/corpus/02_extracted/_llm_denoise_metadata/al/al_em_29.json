@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f4ac6e7a4f2b98d006ab2fcc6b6e487d2a344ca21c64dc5cd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 769,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 758,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 1527
+    }
+  },
+  "created_at": "2026-09-22T22:10:20Z",
+  "duration_seconds": 6.073,
+  "error": null,
+  "excerpt_id": "al_em_29",
+  "filename": "al_em_29.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "48342c27367fc4a8287ea350cd9f524e83dddc08b2e694360c61be3895b47ab1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "adebaf02d69232f8f934b84480a3be81eacaf4b49c6a07817d753341c5ec2a1c",
+    "rendered_prompt_sha256": "951725f417a32b9380fcf649bfa445f2e8019b991d168527d9a9b76934fd80ef",
+    "source_text_sha256": "d69796ccc793b071446c495caa7a847e5491c1e4e9b3dab042185f80d52a13b0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_em_29.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 262,
+    "filename": "al_em_29.txt",
+    "filepath": "corpus/00_source_per_state/al/al_em_29.txt",
+    "state": "al",
+    "word_count_original": 460
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_em_29.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_em_29.json"
+  },
+  "raw_response_text": "# ELEMENTOS DO ORGANIZADOR CURRICULAR NA ÁREA DE MATEMÁTICA\n\nPara auxiliar na organização do currículo, cada área do conhecimento utiliza o organizador curricular. Em matemática, esse organizador é formado pelas competências específicas da área, pelas habilidades, pelos objetos do conhecimento e pelos desdobramentos didáticos pedagógicos (DesDP).\n\nAs cinco competências específicas da matemática e as quarenta e três habilidades da área do conhecimento são retiradas da Base Nacional Comum Curricular, BNCC. Os objetos do conhecimento são sugeridos pelo documento da BNCC Comentada (DINIZ et al., 2019). Os desdobramentos didáticos pedagógicos foram propostos nos grupos de trabalho com professores, estudantes de mestrado e de cursos de licenciatura em matemática, também foram considerados os comentários da BNCC Comentada sobre propostas para o currículo. Todas estas etapas foram supervisionadas e aprovadas pela Secretaria de Estado da Educação - SEDUC.\n\nAs habilidades permitiram encontrar objetos do conhecimento que deveriam ser estudados para a sua efetivação e, como a matemática se integra com outras áreas, podem ser vistas habilidades que se relacionam com as áreas de Ciências da Natureza e suas Tecnologias, Ciências Humanas e Sociais Aplicadas, Linguagens e suas Tecnologias. Além disso, diversas habilidades estão relacionadas às competências gerais da BNCC, conforme vimos anteriormente nos quadros 1, 2, 3, 4 e 5. Como já vimos, as habilidades também visam uma ampliação de conceitos estudados no Ensino Fundamental, algumas podem ser vistas no quadro a seguir, com base em Diniz e Ferreira (2020).\n\nSobre os Desdobramentos Didáticos Pedagógicos (DesDP), são definidos pelo Referencial Curricular de Alagoas (ALAGOAS, 2018, p. 15), como: “[...] sugestões metodológicas e orientações didáticas voltadas para a matemática escolar e a Educação Matemática. Possuem como escopo auxiliar o professor na prática pedagógica, favorecendo o ato pedagógico, o fazer em sala de aula”. Esses desdobramentos didáticos pedagógicos consideram o que a territorialidade oferece para a área de Matemática e suas tecnologias, valorizam os anseios e os limites da realidade escolar e, além disso, colaboram para pensar numa matemática de forma mais prazerosa e convidativa, que envolva, instigue, provoque nos estudantes a curiosidade e a descoberta. Para colocação dos DesDP no Organizador Curricular consideramos as propostas sugeridas nos grupos de trabalho, sendo observadas as peculiaridades regionais de Alagoas.\n\nA avaliação de aprendizagem está diretamente relacionada às competências e habilidades específicas. É necessário identificar, usando diversos meios, se os estudantes adquiriram as habilidades também descritas nas competências gerais. É importante verificar se os estudantes são capazes de identificar, descrever, comparar e julgar certos conceitos e processos matemáticos, não sendo apenas uma verificação de aplicações de conhecimento, mas sim de tomada de decisões em situações, compreensão e, inclusive, formas de organização e sistematização de informações e habilidade para expressar resultados obtidos em diferentes modalidades.\n\nA seguir, será apresentado o organizador curricular, contendo competências específicas, habilidades, objetos do conhecimento e DesDP.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

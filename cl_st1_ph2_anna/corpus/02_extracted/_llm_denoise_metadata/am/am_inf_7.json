@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c31547e1b78ee88006ab2fdc2bae087d29d0ed77ba52a2a4b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 679,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 663,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 1342
+    }
+  },
+  "created_at": "2026-09-22T22:14:32Z",
+  "duration_seconds": 5.787,
+  "error": null,
+  "excerpt_id": "am_inf_7",
+  "filename": "am_inf_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0b6a97e94c13865d75756670c1a02b3b1518c98914b1b0b663fdcc585118f32c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "eba7836dbc3cf84102a78d38eaba4092d823c18efafbdea0db2d6d1fde0d0e07",
+    "rendered_prompt_sha256": "e3bb6f22286508baeb4f3ef788ba82e6e8a31b63002b58f8a11f44f0b15f0bcc",
+    "source_text_sha256": "7191964d886a927cf933b48558360dcab78bc848b7451b44fdd25de35805cb22"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 455,
+    "filename": "am_inf_7.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_7.txt",
+    "state": "am",
+    "word_count_original": 423
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_7.json"
+  },
+  "raw_response_text": "### 3.2 Concepção de professora/professor na Educação Infantil\n\nA docência na Educação Infantil, como atividade profissional está definida na LDBEN n.º 9394/96, Art. 62, que determina que para atuar em creches e pré-escolas, é necessário que o profissional tenha formação em nível superior nos cursos de Licenciatura de Graduação Plena, admitindo-se, como formação mínima, a obtida em nível médio na modalidade Normal. Essa definição é importante no processo de constituição da identidade da Educação Infantil, mas não é suficiente.\n\nÉ preciso dar conteúdo ao que se entende por docência junto a bebês, crianças bem pequenas e crianças pequenas. Mesmo a legislação afirmando que essa atuação é uma atividade educacional, o trabalho, sobretudo com crianças de zero a três anos, ainda é associado à dimensão de assistência. Por outro lado, para muitos professores, diretores e para as famílias, os objetivos e as práticas da Educação Infantil devem se concentrar em favorecer aprendizagens de um modo geral, mas enfatizando o plano cognitivo e a preparação para o Ensino Fundamental, o que demanda a continuidade da discussão sobre as relações existentes entre o cuidar e o educar de zero e cinco anos de idade.\n\nSer professora ou professor da Educação Infantil significa pertencer ao conjunto de professores do nosso sistema de ensino como categoria única. Cada etapa da Educação Básica exige de seus profissionais a mobilização de saberes, competências, habilidades e disponibilidades específicas e na Educação Infantil, as práticas profissionais se articulam para atender as necessidades e demandas de bebês e crianças, compartilhando cuidado e educação desse público com suas famílias e comunidade.\n\nIsso significa que a instituição de Educação Infantil deve planejar e desenvolver ações fundamentadas em conhecimento aprofundado sobre a criança e seu meio, sobre a sociedade, sobre o papel das interações entre adultos e crianças e entre crianças e elas mesmas, com a finalidade de promover aprendizagem, bem-estar, desenvolvimento, participação e produção da cultura. Para isso acontecer, a formação de professores deve dar conta das especificidades dessa etapa. Ciente do papel a ser desenvolvido e sustentado teoricamente por uma formação inicial, continuada e em serviço, que contemple o desenvolvimento da pequena infância, a prática pedagógica na Educação Infantil não será pautada em práticas que se preocupam apenas com o bem-estar físico da criança ou em práticas preocupadas com as etapas seguintes. Tão pouco esse fazer será conduzido pela expectativa das famílias e séries posteriores, mas naquilo que é importante e necessário para o desenvolvimento da criança hoje, em sua integralidade.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07e48e1c2a1aace2006ab309761d2c87d2829250ad4e14bd68",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 621,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 535,
+      "output_tokens_details": {
+        "reasoning_tokens": 46
+      },
+      "total_tokens": 1156
+    }
+  },
+  "created_at": "2026-09-22T23:04:26Z",
+  "duration_seconds": 4.741,
+  "error": null,
+  "excerpt_id": "pr_em_127",
+  "filename": "pr_em_127.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4e6524a34f87bb9818be2e73ce2f5ed043a19bf6246d601c5ec18e3733ff77a8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d41d9e4cabdfd7d8391c7b10bebb2f4eee8325046e2314dff44bb73b2bbc0428",
+    "rendered_prompt_sha256": "7713fe5da43c510992c1dd038b00baa745e4a3a028bdc21e03a619dcc190cae0",
+    "source_text_sha256": "abeab7846286c0f8f2bedd9ad554c855772b084e354b885acfc568b90a9e8105"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_127.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2713,
+    "filename": "pr_em_127.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_127.txt",
+    "state": "pr",
+    "word_count_original": 330
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_127.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_127.json"
+  },
+  "raw_response_text": "## 4. ITINERÁRIO FORMATIVO DE APROFUNDAMENTO NA ÁREA DE CIÊNCIAS HUMANAS E SOCIAIS APLICADAS\n\nA BNCC define que a área de Ciências Humanas e Sociais Aplicadas (CHS) tem o compromisso de desenvolver a formação integral do estudante e o pensamento crítico, a fim de formar cidadãos reflexivos, éticos e ativos no entendimento consciente da realidade (Brasil, 2018). Para a compreensão das ideias, dos fenômenos e dos processos políticos, sociais, econômicos e culturais, as CHS utilizam as categorias: tempo e espaço; territórios e fronteiras; indivíduo, natureza, sociedade, cultura e ética; e política e trabalho. Nesse sentido, os componentes da área — Filosofia, Geografia, História e Sociologia — mobilizam e articulam conhecimentos, habilidades, atitudes e valores para fortalecer os saberes em todas as suas dimensões, o saber, o saber fazer e o saber ser nos estudantes. Cada componente apresenta uma abordagem epistemológica única que, de forma integradora, viabiliza a aprendizagem dos sujeitos frente às temporalidades e espacialidades.\n\nOs Itinerários Formativos de Aprofundamento (IFA) na área de CHS têm por finalidade promover o aprofundamento dos conhecimentos da FGB e, para isso, são organizados por meio de projetos integradores alinhados aos Temas Contemporâneos Transversais apresentados na BNCC, para assegurar a presença e articulação dos eixos curriculares estruturantes: Método, Conhecimento e Ciência; Mediação e Intervenção Sociocultural; Inovação e Intervenção Tecnológica; e Mundo do Trabalho e Transformação Social.\n\nEm consonância com a proposta da formação integral do sujeito, o IFA busca desenvolver nos jovens o pensamento crítico em uma sociedade multicultural, mediada pelas tecnologias digitais e marcada pela difusão dinâmica do conhecimento e da informação. Assim, assume-se a responsabilidade de formar cidadãos reflexivos e éticos, orientados pelos princípios da justiça social, pelo exercício dos direitos humanos e da cidadania. Outro aspecto importante é oferecer subsídios para o desenvolvimento do projeto de vida de modo que o estudante possa desenvolver suas habilidades cognitivas, motoras, sociais e socioemocionais a fim de enfrentar e buscar soluções para problemas e desafios em diferentes contextos, seja na escola, no trabalho ou na vida.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

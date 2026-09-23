@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08d4f392d8c9b9cb006ab306fa9c5887d298dae6119565d934",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1230,
+      "input_tokens_details": {
+        "cache_write_tokens": 1227,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1523,
+      "output_tokens_details": {
+        "reasoning_tokens": 820
+      },
+      "total_tokens": 2753
+    }
+  },
+  "created_at": "2026-09-22T22:54:00Z",
+  "duration_seconds": 13.948,
+  "error": null,
+  "excerpt_id": "pb_em_104",
+  "filename": "pb_em_104.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9b4c281c4b1694e32a42bca7ee4081e99b8e691173c4bd1d7be296ba135d8104",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6a6649903ce1d32b3898d2ea43542223efc4ab5ddd56932ea65a245af8fa36ec",
+    "rendered_prompt_sha256": "ac76b55c0d36d8604df6da3179aa1570b558952922416259783df56ec7482754",
+    "source_text_sha256": "29f625304b2404dc639b6c3205af0a5496d975ed8523532223cb7fe421a4e6e2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_104.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2238,
+    "filename": "pb_em_104.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_104.txt",
+    "state": "pb",
+    "word_count_original": 810
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_104.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_104.json"
+  },
+  "raw_response_text": "## 3.7.4 MODELO DE PLANEJAMENTO DA ELETIVA\n\nPlanejar é um ato essencial para obter os objetivos desejáveis em toda e qualquer situação da vida e, em se tratando do setor educacional, torna-se uma prioridade. O planejamento, pois, é uma etapa fundamental para intervenção pedagógica exitosa, saindo do tradicionalismo e se aproximando das práticas sociais atuais, principalmente, com o uso das novas tecnologias, o que o torna coerente com as orientações da BNCC no que se refere ao desenvolvimento de habilidades e competências na garantia do direito de aprender.\n\nAdemais, o professor precisa ter a ação de planejar a Eletiva com um olhar direcionado para o estudante e que as práticas se fundamentem e contribuam para a sua formação integral de forma que ele se torne autônomo, solidário e competente para enfrentar os anseios da sociedade contemporânea. Desta forma, Padilha (2001, p. 63) nos esclarece:\n\n> Lembramos que realizar planos e planejamentos educacionais e escolares significa exercer uma atividade engajada, intencional, científica, de caráter político e ideológico e isento de neutralidade. Planejar, em sentido amplo, é um processo que visa dar respostas a um problema, através do estabelecimento de fins e meios que apontem para a sua superação, para atingir objetivos antes previstos, pensando e prevendo necessariamente o futuro, mas sem desconsiderar as condições do presente e as experiências do passado, levando-se em conta os contextos e os pressupostos filosófico, cultural, econômico e político de quem planeja e de com quem se planeja.\n\nSendo assim, na elaboração do planejamento, devemos pensar no passado, porém vislumbrando o futuro do estudante, com o cuidado de relacionar os Projetos de Vida com o Projeto Político Pedagógico (PPP) e a Proposta Curricular do Novo Ensino Médio do Estado da Paraíba, para que haja um ponto convergente com a educação do século XXI. Posto isso, segue um modelo de instrumento de planejamento semestral para nortear o professor.\n\nVale ressalvar que o planejamento para a realização de uma Eletiva deve ser pautado na importância do tema para o estudante, considerando a durabilidade de um semestre e as orientações do Planejamento Estratégico da Escola (PDCA) referentes às etapas de planejar, fazer, verificar e agir, ou seja, consiste no: Plan (Planejamento), que é a etapa inicial de planejamento da ementa, da apresentação do Feirão das Eletivas e dos materiais; Do (Executar), que é a realização das atividades; Check (Avaliar), que deve ser feito a todo instante, ouvindo os estudantes e garantindo seu protagonismo; e Act (Ajustar), que consiste na aplicação dos ajustes necessários após as etapas de avaliação.\n\nÉ de suma importância que o estudante conheça as dificuldades e desperte o interesse em ajudar, pois o projeto não é apenas realizado pelos professores: o trabalho deve ser em conjunto e tendo o estudante como protagonista. Dessa maneira, o estudante, conhecendo a realidade, deve ter ideias para a realização da Eletiva, com o efetivo exercício de ações colaborativas, cooperativas e empreendedoras, viabilizando o uso, por exemplo, de recursos digitais, crowdfunding e parcerias, a exemplo de empresas, ONG e instituições públicas.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

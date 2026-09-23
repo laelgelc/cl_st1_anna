@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_076827c42bc0d0c7006ab303f6916887d28801d0ec223bd13b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 514,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 453,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 967
+    }
+  },
+  "created_at": "2026-09-22T22:40:58Z",
+  "duration_seconds": 3.782,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_37",
+  "filename": "ms_inf_e_ef_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2e28f6c1dfcc1a4e45f1291fda66125688cd6f4a53193e95b42a343c2c5e4fbb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "449614c2bddb83f7e333107efeff932d386b96f9b9dd445c98f38562cd42b208",
+    "rendered_prompt_sha256": "bdcfd76f143e79e64e1ef66b2a678466ee65d9331e86074ebe9d9ed16ac5b3cc",
+    "source_text_sha256": "ce737bb0c583e3aad4a327409c84ff40e5889802f7b9a87b23af4a7d9e12ed5e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1757,
+    "filename": "ms_inf_e_ef_37.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_37.txt",
+    "state": "ms",
+    "word_count_original": 260
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_37.json"
+  },
+  "raw_response_text": "### 8.3.3.1 Competências específicas de Arte, de acordo com a BNCC (2017)\n\n1. Explorar, conhecer, fruir e analisar criticamente práticas e produções artísticas e culturais do seu entorno social, dos povos indígenas, das comunidades tradicionais brasileiras e de diversas sociedades, em distintos tempos e espaços, para reconhecer a arte como um fenômeno cultural, histórico, social e sensível a diferentes contextos e dialogar com as diversidades.\n2. Compreender as relações entre as linguagens da Arte e suas práticas integradas, inclusive aquelas possibilitadas pelo uso das novas tecnologias de informação e comunicação, pelo cinema e pelo audiovisual, nas condições particulares de produção, na prática de cada linguagem e nas suas articulações.\n3. Pesquisar e conhecer distintas matrizes estéticas e culturais – especialmente aquelas manifestas na arte e nas culturas que constituem a identidade brasileira –, sua tradição e manifestações contemporâneas, reelaborando-as nas criações em Arte.\n4. Experienciar a ludicidade, a percepção, a expressividade e a imaginação, ressignificando espaços da escola e de fora dela no âmbito da Arte.\n5. Mobilizar recursos tecnológicos como formas de registro, pesquisa e criação artística.\n6. Estabelecer relações entre arte, mídia, mercado e consumo, compreendendo, de forma crítica e problematizadora, modos de produção e de circulação da arte na sociedade.\n7. Problematizar questões políticas, sociais, econômicas, científicas, tecnológicas e culturais, por meio de exercícios, produções, intervenções e apresentações artísticas.\n8. Desenvolver a autonomia, a crítica, a autoria e o trabalho coletivo e colaborativo nas artes.\n9. Analisar e valorizar o patrimônio artístico nacional e internacional, material e imaterial, com suas histórias e diferentes visões de mundo.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

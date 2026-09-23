@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06a87d056da3bb37006ab2feb9faa887d2b74704cdda33ce1b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 674,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 766,
+      "output_tokens_details": {
+        "reasoning_tokens": 185
+      },
+      "total_tokens": 1440
+    }
+  },
+  "created_at": "2026-09-22T22:18:40Z",
+  "duration_seconds": 6.367,
+  "error": null,
+  "excerpt_id": "ba_em_37",
+  "filename": "ba_em_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a0cceab91e7ebdaf3a4006f26aa976dafa9d4341faee0b174806c911079cbac5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "996880a6b814e318df2f5b306df20f8f80f6113baf250fde6b34ca63c2defd0b",
+    "rendered_prompt_sha256": "2c5adda0c701ec7137967dc4b68ca1207031d1a07c4c0efd4a9753600a33a91d",
+    "source_text_sha256": "a9024d31694472df7a606eccd069311e25f968c2f467df7c98edc9128c290f90"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_em_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 653,
+    "filename": "ba_em_37.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_em_37.txt",
+    "state": "ba",
+    "word_count_original": 401
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_em_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_em_37.json"
+  },
+  "raw_response_text": "## 8.2.4. O QUE É O PROJETO DE VIDA COMO COMPONENTE CURRICULAR?\n\nO Projeto de Vida tem eco no campo do desejo e todo desejo ecoa em conjunto, concorrendo para um agenciamento, estando sempre próximo das condições de existência objetiva, unindo-se a elas (DELEUZE; GUATTARI, 2010).\n\nA inserção do Projeto de Vida no Currículo é uma oportunidade ímpar para valorizar e trabalhar as várias dimensões do ser humano, expandindo as aprendizagens para além da racionalidade cognitiva, que ainda ocupa lugar de centralidade nos currículos, possibilitando uma aproximação com a educação interdimensional, onde o Logos (pensamento, razão, ciência), o Pathos (afetividade, relação do homem consigo mesmo e com os outros), o Eros (impulso, corporeidade) e o Mythus (relação do homem com a vida e a morte, com o bem e com o mal) encontram lugar e onde, sobretudo com a dimensão transcendental do ser humano no Mythus, é possível trabalhar os sentidos da vida dos/as estudantes (COSTA, 2008).\n\nA competência geral que trata do Projeto de Vida, na BNCC, nos apresenta o vínculo do projeto de vida com a liberdade, autonomia, criticidade e responsabilidade. Para o desenvolvimento dessa competência, ao longo da Educação Básica, são apresentadas as sub-dimensões da determinação, esforço, auto eficácia, perseverança e autoavaliação. Ainda no texto da BNCC, encontramos uma clara orientação para a organização da unidade de ensino para, em atenção ao acolhimento das diversidades que as juventudes trazem, bem como a um percurso formativo que, observando diferentes percursos e histórias, faculte aos sujeitos da aprendizagem a definição dos seus Projetos de Vida, em âmbito individual e coletivo.\n\nDemarcando, ainda, que o Projeto de Vida deve ocupar o campo privilegiado de fortalecimento do protagonismo juvenil e da construção de identidades, convidamos os/as profissionais da educação a reconhecerem seus/suas estudantes como detentores de saberes, com suas formas de sociabilidade e práticas culturais, aproveitando esse singular momento do desenvolvimento humano, para fomentar a construção do “eu”, para estimular a autonomia, para encorajar nossas juventudes a se prepararem para ir além do que, muitas vezes, se acredita e se credita a elas. Não devemos desperdiçar a extraordinária potência que guardam as juventudes de construir suas identidades.\n\nÉ mais do que oportuno, portanto, que possamos mover o currículo na direção da construção de Projetos de Vida que inspirem as juventudes a caminhar na direção dos seus desejos e sonhos alicerçados em bases éticas, democráticas e humanistas.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

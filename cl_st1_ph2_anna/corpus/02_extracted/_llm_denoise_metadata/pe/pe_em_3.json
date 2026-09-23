@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07ffe3319bc86673006ab3081b5fdc87d28e4b788c186520ab",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 976,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1181,
+      "output_tokens_details": {
+        "reasoning_tokens": 304
+      },
+      "total_tokens": 2157
+    }
+  },
+  "created_at": "2026-09-22T22:58:45Z",
+  "duration_seconds": 9.968,
+  "error": null,
+  "excerpt_id": "pe_em_3",
+  "filename": "pe_em_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8814c186eabe66905422421ed8f6564fc038a25c16b78f59b756be1ef6733424",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "eeed214eaea44cbafd0b2ea5f97d2837270e94a00775f8d54aee5a890d0bdbef",
+    "rendered_prompt_sha256": "856f4fab753181e5c992971beaf498a9a76d8a5d9f60cf93bd49c0afe95eae77",
+    "source_text_sha256": "fc959245968c1e7dd7028c01bc6576ff55d4d72ab4a15de26b720dc8a54aa4b2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2486,
+    "filename": "pe_em_3.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_3.txt",
+    "state": "pe",
+    "word_count_original": 643
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_3.json"
+  },
+  "raw_response_text": "# 1. INTRODUÇÃO\n\n## 1.1 A CONSTRUÇÃO DO CURRÍCULO DE PERNAMBUCO\n\nO Currículo da etapa do Ensino Médio, construído em parceria com a UNDIME, vem, em 2020, completar o documento curricular da Educação Básica de Pernambuco. Desde dezembro de 2018, Pernambuco teve o currículo da Educação Infantil e Ensino Fundamental homologado pela Secretaria Estadual de Educação, após parecer favorável do Conselho Estadual de Educação.\n\nA elaboração posterior do Currículo do Ensino Médio ocorreu em função de mudanças determinadas pela Lei 13.415/2017, que promoveu a Reforma do Ensino Médio. A lei impôs a necessidade de uma reorganização da Base Nacional Comum Curricular (BNCC) destinada a essa etapa de ensino, que vinha sendo construída na perspectiva de organização por componentes curriculares, como a do Ensino Fundamental, e passou a ser pensada a partir de uma nova perspectiva composta de duas partes indissociáveis: (1) Formação Geral Básica (FGB) estruturada por área de conhecimento e (2) Itinerários Formativos (IFs) que dialogam com as expectativas e interesses dos estudantes, contribuindo para seus projetos de vida.\n\nEm consequência às alterações propostas pela Lei 13.415/2017 para o Ensino Médio, em 2018, o Conselho Nacional de Educação (CNE) emitiu parecer, atualizando as Diretrizes Curriculares Nacionais para o Ensino Médio (DCNEM)- documento norteador para as mudanças a serem implementadas em todo o país.\n\nNeste documento curricular, serão abordados conceitos valiosos para a compreensão da etapa do Ensino Médio, como sua identidade, as juventudes, os desafios, bem como, a nova estrutura planejada, tanto do ponto de vista de sua arquitetura, da distribuição de carga horária, como também, de uma de suas maiores inovações, os Itinerários Formativos por área de conhecimento e da formação técnica e profissional. Ao final do documento, em anexo, poderão ser encontradas as competências e habilidades específicas da FGB e exemplos de IFs.\n\nAs mudanças propostas reforçam princípios já consolidados e importantes para identidade do Ensino Médio, como a formação integral, a compreensão da diversidade e das diferentes culturas, a pesquisa como prática pedagógica, entre outros, mas também ressignificam o Ensino Médio, aproximando-o das juventudes e garantindo maior flexibilidade na formação do estudante.\n\nA operacionalização do novo Ensino Médio implica, entre outros aspectos, em modificações profundas na organização da escola e nos processos de formação de professores, inicial e continuada. Por esta razão, precisa ser compreendida e construída por toda a sociedade.\n\nNessa perspectiva, este documento curricular foi elaborado a partir de muitas escutas e muita colaboração, envolvendo todas as escolas de ensino médio da rede pública de Pernambuco, em diversos momentos de discussão, desde as primeiras versões, quando em 10 de maio de 2019 realizou-se o Dia D da Base do Ensino Médio. Ainda em relação a FGB, foram realizados, em julho de 2020, três seminários regionais online, em função da pandemia do novo coronavírus, com 1.045 participantes, envolvendo todas as escolas da rede estadual que ofertam o ensino médio, além de representantes dos municípios de Bonito e Tuparetama que também ofertam esta etapa, e técnicos das áreas de conhecimento das Gerências Regionais de Educação (GRE). Em relação aos Itinerários Formativos (IF), foram realizados quatro seminários, em formato semelhante ao da FGV, entre os meses de setembro de outubro de 2020, envolvendo além dos atores listados anteriormente, representantes de Instituições de Ensino Superior, Sindicato dos professores e Conselho Estadual de Educação, com 1.383 participantes. Foram realizadas ainda consultas públicas sobre a Formação Geral Básica e as propostas de Itinerários Formativos com mais de 22.208 contribuições.\n\nO maior legado desse processo amplo de diálogo com a sociedade, por meio de seminários e consulta pública foi a diversidade de opiniões, garantindo um documento plural que dialoga com os diferentes atores da sociedade, mas que tem como principal objetivo assegurar um Ensino Médio que faça sentido para os estudantes e que contribua para que sua formação seja integral, ética e cidadã.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

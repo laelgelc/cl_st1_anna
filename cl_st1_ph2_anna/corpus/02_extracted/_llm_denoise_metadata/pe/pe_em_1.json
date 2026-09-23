@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06141dde023b3cab006ab307ff83d487d2aedcf57fd76b323b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 521,
+      "output_tokens_details": {
+        "reasoning_tokens": 172
+      },
+      "total_tokens": 952
+    }
+  },
+  "created_at": "2026-09-22T22:58:13Z",
+  "duration_seconds": 6.144,
+  "error": null,
+  "excerpt_id": "pe_em_1",
+  "filename": "pe_em_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "618f9f0248964de7447dc722ca12b29fac42af7617dfc8a19c08cfe732e98a28",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "08996028a183aa6fb51f75c644b9e46a8bb389056f95d5b16dd5c804e3c49dbd",
+    "rendered_prompt_sha256": "ccdebfcb92cdaa86a5aa6c3d7b88847425da8e01b15ef59a395df25c1d6bb9fa",
+    "source_text_sha256": "f98077bfbd7a598b3dad43a01f9a2608dd4b13389a3e3c10f1e183907410e802"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2464,
+    "filename": "pe_em_1.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_1.txt",
+    "state": "pe",
+    "word_count_original": 242
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_1.json"
+  },
+  "raw_response_text": "Prezados(as) professores(as),\n\nCom imenso prazer, apresentamos para a comunidade o Currículo de Pernambuco do Ensino Médio, que vem a complementar os Currículos da Educação Infantil e Ensino Fundamental, já publicados.\n\nEste documento curricular foi construído numa parceria entre Estado e UNDIME (União dos Dirigentes Municipais da Educação), com amplo debate de professores das escolas estaduais e municipais que ofertam ensino médio, além da participação de professores das instituições de ensino superior públicas do Estado, Conselho Estadual de Educação, Sindicato dos Profissionais da Educação do Estado de Pernambuco, entre outras instituições.\n\nEste Currículo também responde aos anseios das juventudes em ter um ensino médio mais sintonizado com as demandas atuais dos jovens, articulando-se aos pilares da pesquisa, do trabalho, da inovação e tecnologia, da cidadania crítica e do engajamento social, tão caros para a formação dos jovens.\n\nSabemos que o Novo Ensino Médio traz grandes mudanças e inovações, desafiantes para toda comunidade educacional, que repercutem na arquitetura, na formação geral básica e, especialmente, na inclusão dos itinerários formativos na formação dos jovens. Assim, o próximo desafio será o processo de formação continuada dos profissionais da educação, assegurando a implementação do currículo construído para essa etapa, de forma a fortalecer a formação dos estudantes pernambucanos, garantindo-lhes oportunidades para que possam seguir com seus projetos de vida, contribuindo para uma sociedade mais justa, solidária e fraterna.\n\n|  |  |\n|---|---|\n| Marcelo Andrade Bezerra Barros | Natanael José da Silva |\n| Secretário de Educação | Presidentes da UNDIME/PE |",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

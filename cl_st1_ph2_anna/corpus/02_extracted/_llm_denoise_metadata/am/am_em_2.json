@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0708fd8a0c3c9845006ab2fd6a3bdc87d295dc85d811ade8f0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1032,
+      "input_tokens_details": {
+        "cache_write_tokens": 1029,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1000,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 2032
+    }
+  },
+  "created_at": "2026-09-22T22:13:06Z",
+  "duration_seconds": 8.541,
+  "error": null,
+  "excerpt_id": "am_em_2",
+  "filename": "am_em_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "58645b1fa894e578e8d0d4e7ef355e0ba72fd70885534bd79c6e6bf6ec8bd825",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d2c1780d75c8116a28c6f85a3cd460e888898b43025286922cea25ee78c3d2fb",
+    "rendered_prompt_sha256": "51a077e9c60b220187a4f1d90c217150ec8e7582477b17548d973d44ad45f29c",
+    "source_text_sha256": "0d9d4e9e1ba84c6d22aa47c12cd4b4d1c16173d7fe32546cbd9a1c003527655e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 378,
+    "filename": "am_em_2.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_2.txt",
+    "state": "am",
+    "word_count_original": 591
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_2.json"
+  },
+  "raw_response_text": "# 1 CONTEXTO DO ENSINO MÉDIO\n\nO Ensino Médio, conforme a LDB, é considerado a última etapa de escolarização da Educação Básica, tendo a duração de, no mínimo, três anos. É, portanto, considerada a etapa na qual os conhecimentos são consolidados e aprofundados, a fim de que o estudante tenha preparação para o trabalho, a possibilidade de dar continuidade aos estudos e aos seus projetos de vida.\n\nDestaca-se que a oferta do ensino médio às populações brasileiras (sejam jovens ou adultos) tem respaldo legal na Constituição Federal de 1988 e no Estatuto da Criança e do Adolescente de 1990, normativos esses que instituem o direito à formação plena dos estudantes, ao direito à cidadania e à qualificação para o mundo do trabalho (BRASIL, 1988, 1990, 1996).\n\nEm meio a essas finalidades, o ensino médio brasileiro buscou a universalização do ensino. Entretanto, ao longo dos anos, a escola distanciou-se dos anseios das juventudes e das necessidades da sociedade contemporânea. Por isso, é urgente a implementação de um ensino médio condizente com as culturas e as identidades desses estudantes, alinhado também às exigências da contemporaneidade.\n\nDe igual modo, destaca-se que as políticas voltadas à ampliação do acesso ao ensino médio não se articularam às ações de permanência e de garantias da aprendizagem dos estudantes, situação evidenciada pelos índices de abandono, evasão e repetência que marcam o ensino médio brasileiro.\n\nObserva-se que muitas mudanças ocorreram na vida e no trabalho na sociedade pós-industrial, o que, consequentemente, passou a exigir mudanças nas propostas para a Educação Básica. Embora o objetivo seja aproximar os estudantes da escolha profissional e da atuação no mercado de trabalho.\n\nPor conta disso, a reforma do ensino médio expressa pela Lei nº 13.415/2017 prevê a flexibilização do currículo, a ampliação da carga horária e estabelece uma nova organização curricular, que contemple a Formação Geral Básica (FGB) e os Itinerários Formativos (IFs) de maneira indissociável, conforme o art. 9º da Resolução CNE/CP nº 4/2018, com vistas a tornar o ensino médio mais atrativo e condizente com a realidade dos estudantes (BRASIL, 2018d).\n\nAlém disso, a Resolução CNE/CEB nº 03/2018 orienta que o ensino médio, além dos princípios gerais estabelecidos para a educação nacional, seja orientado por princípios específicos, dentre os quais se destaca, para este contexto de reforma, o Projeto de Vida, compreendido como uma estratégia de reflexão acerca da trajetória escolar na construção das dimensões pessoal, cidadã e profissional do estudante.\n\nNesse tocante, um dos mecanismos para atender ao projeto de vida do estudante, segundo o § 7º, art. 12 da mesma Resolução, será considerar nos currículos do ensino médio competências eletivas complementares como formas de ampliação da carga horária do Itinerário Formativo escolhido pelo estudante (BRASIL, 2018a).\n\nQualquer mudança, seja ela política, social ou educacional, por si só, já carrega consigo muitos desafios. No caso mais específico da reforma do ensino médio, as mudanças foram impulsionadas também por conta das transformações sociais e emocionais pelas quais passam os jovens (BRASIL, 2018b). Além de que existe um grande descompasso entre a formação escolar, os interesses dos estudantes e as exigências do mundo contemporâneo (BRASIL, 2018b).\n\nDessa maneira, a BNCC, ao propor a elaboração dos Referenciais Curriculares do Ensino Médio, reafirma a necessidade de uma formação integral alinhada às Tecnologias Digitais da Informação e da Comunicação (TDIC), no sentido de que os estudantes de ensino médio — adolescentes, jovens e adultos, tenham “acesso à ciência, à tecnologia, à cultura e ao trabalho” (BRASIL, 2011) e, assim, tenham uma formação alinhada aos seus interesses.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

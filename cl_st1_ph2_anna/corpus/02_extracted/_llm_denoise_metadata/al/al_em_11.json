@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0876644bd3a38f37006ab2fca7628c87d2b845867da7638512",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1134,
+      "input_tokens_details": {
+        "cache_write_tokens": 1131,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1172,
+      "output_tokens_details": {
+        "reasoning_tokens": 132
+      },
+      "total_tokens": 2306
+    }
+  },
+  "created_at": "2026-09-22T22:09:52Z",
+  "duration_seconds": 9.07,
+  "error": null,
+  "excerpt_id": "al_em_11",
+  "filename": "al_em_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "639386158b93928c924220bcb18ad8828b7194eebf1693eec3c973e4c45f68d9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f16dfd5774a8a38415069fdd89178b94d3ab3c3e8956989d1f22e287726d0370",
+    "rendered_prompt_sha256": "11c8ff3bcc69d3d23d58a11640a8d5ef5c0192c8d2388abe081faa701d7ba1d7",
+    "source_text_sha256": "82abeef9b0b4425bbfb87c414aebdb4ae0f8935b8b0fd194a04fa2fc83da98eb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_em_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 243,
+    "filename": "al_em_11.txt",
+    "filepath": "corpus/00_source_per_state/al/al_em_11.txt",
+    "state": "al",
+    "word_count_original": 760
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_em_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_em_11.json"
+  },
+  "raw_response_text": "## OFICINAS\n\nAs oficinas constituem mais uma forma de construir conhecimento através da ação, mas sem perder de vista a teoria. Segundo Vieira e Volquind (2002, p. 11), as oficinas são “um tempo e um espaço para aprendizagem; um processo ativo de transformação recíproca entre sujeito e objeto; um caminho com alternativas, com equilibrações que nos aproximam progressivamente do objeto a conhecer”. Neste momento, os educadores têm a oportunidade de interação com os estudantes, o que torna a experiência enriquecedora permitindo a comparação entre experiências diversificadas e uma abordagem reflexiva nos desafios encontrados pelos professores. Mesmo que a unidade de ensino tenha uma ótima estrutura física, que seu corpo docente seja de excelência e oferte os recursos tecnológicos necessários para uma boa aprendizagem, a qualidade só será realmente reconhecida devido à aprendizagem de seus estudantes, uma forma de instigar a aprendizagem dos estudantes é a utilização das oficinas pedagógicas. Se bem planejadas as oficinas pedagógicas podem proporcionar momentos dinâmicos e inovadores de forma interativa, proporcionando assim a construção do conhecimento.\n\nDurante as oficinas os estudantes são levados a construir seu próprio conhecimento, interagindo, discutindo, perguntando, formulando hipóteses e reformulando conceitos. Além disso, o ensino e a aprendizagem podem ser mais humanizados quando eles são levados à construção e ao manuseio de materiais manipuláveis para serem usados nos vários conteúdos das áreas do conhecimento. O que reforça VIEIRA e VALQUIND, 2002, quando afirmam que:\n\n> Através das oficinas, podemos ensinar de forma mais humanizada, onde a cultura e os valores dos alunos participantes serão respeitados. As oficinas promovem a abertura de um espaço de aprendizagem alternativo. Na oficina surge um novo tipo de comunicação entre professores e alunos. É formada uma equipe de trabalho, onde cada um contribui com sua experiência. O professor é o dirigente, mas também, o aprendiz. Cabe a ele diagnosticar o que cada participante sabe e promover o ir além do imediato. Através das oficinas é possível transformar-se o conhecimento científico em saber de ensino (VIEIRA e VALQUIND, 2002:17)\n\nA aprendizagem que ocorre com as oficinas é de construção do conhecimento, onde cada área tem a oportunidade de relacionar seus conteúdos com a prática, tem a possibilidade de interagir e discutir com os estudantes a visão da realidade escolar ao qual estão envolvidos.\n\nNa parte flexível do currículo, ou seja durante os itinerários formativos, os estudantes serão levados a compreensão e resolução de situações cotidianas para promover o desenvolvimento local e a melhoria da qualidade de vida da comunidade através da iniciação científica, além disso eles serão incentivados a idealização e execução de projetos criativos com a expressão criativa e/ou construção de soluções inovadoras para problemas da sociedade e do mundo do trabalho.\n\nAlém dessas, a SEDUC/AL já realiza oficinas para professores na área de tecnologia no Espaço de Formação e Experimentação - EfeX, ligado ao Centro de Inovação para a Educação Brasileira - Cieb, o EfeX é um “Espaço dinâmico dedicado à formação continuada de professores da rede pública de ensino em inovação e tecnologias educacionais, onde eles se sentem à vontade para experimentar novos equipamentos, plataformas digitais e metodologias inovadoras de ensino que permitam desenvolver as competências necessárias para aprimorar a sua prática pedagógica”. Nesse espaço são trabalhadas oficinas com foco na aprendizagem criativa.\n\n## LABORATÓRIOS DE APRENDIZAGEM\n\nDiversas temáticas mobilizadoras podem reorganizar o planejamento dos professores da unidade de ensino, principalmente, quando a proposta apresenta as possibilidades de articulação dos conhecimentos e da aprendizagem, de forma integradora e interdisciplinar.\n\nDe forma geral e, mais da vida prática, o contexto do conhecimento, não se apresenta compartimentado, contudo a escola revela um ensino disciplinar e uma constante de isolamentos. O Laboratório propõe um trabalho diferenciado, com foco na aprendizagem de um conhecimento interdisciplinar, por meio da interlocução de professores e estudantes acerca de conhecimentos que propõem uma pauta comum e observada por todos.\n\nNa rede estadual muito se avançou com a proposta de laboratórios de aprendizagem, que trouxe espaços de discussão e análise para o ensino e aprendizagem. Citamos os laboratórios de aprendizagem da rede estadual de ensino de Alagoas, que podem ser importante recurso estratégico de articulação do conhecimento:\n\n- Laboratório de aprendizagem de Língua Portuguesa\n- Laboratório de aprendizagem de Matemática\n- Laboratório de aprendizagem de Comunicação\n- Laboratório de aprendizagem de Desenvolvimento de Ideias Inovadoras\n- Laboratório de aprendizagem de Iniciativas Sociais ou Comunitárias\n- Laboratório de Atividades Lúdicas\n- Clube do Livro\n\nNa proposta de Laboratórios não se dispõe disciplinas, mas professores de diferentes áreas que apoiam estudantes, explorando sequências didáticas e roteiros de estudos com a finalidade de intervir e aprender frente aos contextos apresentados nas temáticas interdisciplinares.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

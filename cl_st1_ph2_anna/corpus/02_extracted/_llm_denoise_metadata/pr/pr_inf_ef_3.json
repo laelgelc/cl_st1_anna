@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ad1378d7fe28129006ab30a4ebff087d2b1813113bed505d2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1469,
+      "input_tokens_details": {
+        "cache_write_tokens": 1466,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1538,
+      "output_tokens_details": {
+        "reasoning_tokens": 270
+      },
+      "total_tokens": 3007
+    }
+  },
+  "created_at": "2026-09-22T23:08:07Z",
+  "duration_seconds": 9.116,
+  "error": null,
+  "excerpt_id": "pr_inf_ef_3",
+  "filename": "pr_inf_ef_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7ab8616f10d4f9484aabcd406f3e019e299e604c3406f6f14df28facc4c18023",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9791fd8a07c54671120057a1222ed568f3ba16939c416f322ea4c73f814dc7ff",
+    "rendered_prompt_sha256": "ce00a1f88762c28d5bd6f15553302c2d091662c231f8b6b73df64b5f7e5abaf3",
+    "source_text_sha256": "53f28b9a5977e20e7e458820937614c41bada4517a3d04e1b4f5db1e8a197b15"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_inf_ef_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2841,
+    "filename": "pr_inf_ef_3.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_inf_ef_3.txt",
+    "state": "pr",
+    "word_count_original": 812
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_inf_ef_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_inf_ef_3.json"
+  },
+  "raw_response_text": "## Contextualização\n\nCom relação à organização do sistema de ensino, o Paraná possui um sistema estadual de ensino constituído, atualmente, por 382 municípios, e 17 municípios com sistemas próprios.\n\nO sistema estadual de ensino abrange a educação básica e superior, nas redes estadual, municipal e privada, estabelecido pela Lei nº 4978/64, a qual determina que o mesmo seja composto por um órgão executivo, a Secretaria de Estado da Educação (SEED), e por um órgão colegiado deliberativo, o Conselho Estadual de Educação (CEE). Quanto à Educação Básica, o sistema estadual conta com 2.144 escolas estaduais, 4.982 escolas municipais, 2.399 escolas privadas e 406 escolas parceiras que ofertam a Educação Especial.\n\nOs sistemas municipais de ensino estão constituídos em 17 municípios organizados com legislação específica, tendo como órgão executivo cada Secretaria Municipal de Educação e como órgão colegiado deliberativo, os respectivos Conselhos Municipais de Educação (CME). Atualmente, esses sistemas municipais contam com 1.099 escolas públicas e 1.203 escolas privadas, nos municípios de Araucária, Cascavel, Chopinzinho, Curitiba, Guarapuava, Ibiporã, Jacarezinho, Londrina, Palmas, Palmeira, Paranaguá, Pinhais, Ponta Grossa, São José dos Pinhais, Sarandi, Telêmaco Borba e Toledo.\n\nEm relação às matrículas, conforme resultados do Censo Escolar da Educação Básica do estado do Paraná[^3], o número de matrículas nas creches (crianças na faixa etária de zero a três anos) aumentou de 160.735 em 2012 para 209.954 em 2016. Na pré-escola (crianças na faixa etária de quatro a cinco anos), o número passou de 200.816 em 2012 para 231.155 em 2016. Já no Ensino Fundamental, o número teve um decréscimo e passou de 1.541.736 em 2012 para 1.430.589 em 2016. No Ensino Médio também ocorreu decréscimo no número de matrículas: passou de 484.607 em 2012 para 457.554 em 2016. Sobre o número total de matrículas na Educação Básica do Paraná, mais de 70% encontram-se na rede pública de ensino (rede federal, estadual e municipal).\n\nQuanto aos dados de alfabetização, a Pesquisa Nacional por Amostra de Domicílios (Pnad) do IBGE – Instituto Brasileiro de Geografia e Estatística mostra que, em 2014, o percentual de crianças ainda não alfabetizadas entre oito e nove anos estava em 1,3%. Aponta também que os números do Paraná melhoraram significativamente, visto que, em 2009, havia oito mil crianças com idades entre oito e nove anos que não sabiam ler e escrever, e que, em 2014, esse número foi reduzido à metade, totalizando quatro mil.\n\nDa mesma forma, o Ideb – Índice de Desenvolvimento da Educação Básica, de 2013 a 2017, mostra que, no Ensino Fundamental Anos Iniciais, os resultados indicaram 5,9 (2013), 6,2 (2015) e 6,5 (2017), superando as metas projetadas de 5,6, 5,9 e 6,2, respectivamente. Nos Anos Finais, aumentou de 4,3 (2013), 4,6 (2015) e 4,9 (2017), porém, ainda ficou abaixo das metas projetadas que eram de 4,4, 4,8 e 5,1. No Ensino Médio, passou de 3,8 (2013) para 3,9 (2015) e 4,0 (2017). Contudo, ficou abaixo das metas projetadas que eram de 4,2 (2013), 4,5 (2015) e 5,0 (2017). Embora as metas do Ensino Fundamental, Anos Finais, e Ensino Médio não tenham sido alcançadas, a análise desses indicadores identifica um crescimento nesse último período avaliado, bem como permite identificar os desafios para a melhoria da qualidade da educação no intuito de atingir as metas projetadas.\n\nNessa perspectiva, a rede pública estadual de ensino apresenta um histórico de reflexão quanto à construção de currículos. Nos anos 80, foi elaborado o Currículo Básico do Estado do Paraná, o qual trouxe o Ciclo Básico de Alfabetização e o Projeto de Reestruturação do Ensino de 2º Grau. Esse documento foi um marco educacional, representando um grande avanço na educação do Paraná. Nos anos 90, no intuito de atender os Parâmetros Curriculares Nacionais, houve a necessidade de reestruturação curricular. A partir do ano de 2003, foi iniciado o processo coletivo de elaboração das Diretrizes Curriculares Orientadoras da Educação Básica para a Rede Estadual de Ensino do Paraná, publicada no ano de 2008. Em 2010, houve a construção do documento Ensino Fundamental de Nove Anos: orientações pedagógicas para os anos iniciais, válido para as redes públicas do sistema estadual de ensino, bem como, em 2015, houve a elaboração das Orientações Pedagógicas da Educação Infantil: estudos e reflexões para organização do trabalho pedagógico.\n\nPara a rede pública estadual de ensino, em 2011, houve a elaboração do Caderno de Expectativas de Aprendizagem, apresentando-se como documento de subsídios e acompanhamento da apropriação dos conteúdos trabalhados nos Anos Finais do Ensino Fundamental e no Ensino Médio.\n\nEssa experiência do Paraná na elaboração de documentos orientadores curriculares já está consolidada nas escolas públicas, sendo importante ser considerada na implementação da BNCC.\n\n[^3]: Fonte: http://www.gestaoescolar.diaadia.pr.gov.br/arquivos/File/censo/serie_historica_matricula_inicial2000_2017.pdf",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

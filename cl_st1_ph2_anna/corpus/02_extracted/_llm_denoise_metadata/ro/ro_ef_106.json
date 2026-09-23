@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_048e575820a270b9006ab30b6c988887d287a9ee9befb06c7d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1663,
+      "input_tokens_details": {
+        "cache_write_tokens": 1660,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2073,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3736
+    }
+  },
+  "created_at": "2026-09-22T23:12:58Z",
+  "duration_seconds": 14.166,
+  "error": null,
+  "excerpt_id": "ro_ef_106",
+  "filename": "ro_ef_106.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7d0a243fab7117fc5cda409786bd84c5289fc6ec4a8acb71e6e8fae8fd055d39",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e5b8cf6620c6507712ce891e92c27cccb35946fdda683a7e289203065b8247cd",
+    "rendered_prompt_sha256": "897c3b6c4bc7c04bed3f9cced2d4f06e7af67d9285de48de59a126475365bf32",
+    "source_text_sha256": "f5cd79b1a825167b090f248d18fb99175b357bab7c8fe0093f849142a4535b8b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_106.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3103,
+    "filename": "ro_ef_106.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_106.txt",
+    "state": "ro",
+    "word_count_original": 1150
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_106.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_106.json"
+  },
+  "raw_response_text": "## 10.2 Transição do Ensino Fundamental para o Ensino Médio\n\nA passagem para o Ensino Médio permeia um diferencial da etapa anterior, os jovens ao ingressarem no Ensino Médio, já possuem experiência com o ambiente escolar e suas rotinas, além disso, esses adolescentes possuem dependência menor em relação às suas famílias, ou seja, administram de forma mais independente seus estudos. Porém, não significa que não se criem tensões, que derivam, principalmente, das novas expectativas familiares e sociais que envolvem o jovem. A esse respeito as Diretrizes Curriculares Nacionais Gerais para a Educação Básica: diversidade e Inclusão aponta que tais expectativas giram em torno de três variáveis principais conforme o estrato sociocultural em que se produzem: a) os “conflitos da adolescência”; b) a maior ou menor aproximação ao mundo do trabalho; c) a crescente aproximação aos rituais da passagem da Educação Básica para a Educação Superior (BRASIL, 2013, p. 25).\n\nDessa forma, o conjunto da Educação Básica deve se constituir em um processo organizacional, progressivo e articulado, de maneira que possa assegurar à criança, ao adolescente, ao jovem de qualquer condição social, regional a formação comum para o pleno exercício da cidadania, oferecendo as condições necessárias para o seu desenvolvimento integral, sem discriminação de cor, raça e etnia. A educação Básica de modo mais amplo também tem a finalidade em colaborar para a construção de uma sociedade mais democrática, gerando oportunidades de acesso e com qualidade.\n\nEstas são finalidades de todas as etapas constitutivas da Educação Básica, acrescentando-se os meios para que possa progredir no mundo do trabalho e acessar a continuidade dos estudos. São referências conceituais e legais, bem como desafio para as diferentes instâncias responsáveis pela concepção, aprovação e execução das políticas educacionais (BRASIL, 2013, p. 25).\n\nAo longo do Ensino Fundamental – Anos Finais, os estudantes se deparam com desafios de maior complexidade, sobretudo devido à necessidade de se apropriarem das diferentes lógicas de organização dos conhecimentos relacionados às áreas. Tendo em vista essa maior especialização, é importante, nos vários componentes curriculares, retomar e ressignificar as aprendizagens do Ensino Fundamental – Anos Iniciais no contexto das diferentes áreas, visando ao aprofundamento e à ampliação de repertórios dos estudantes.\n\nA educação Básica precisa abarcar caminhos que promovam a conscientização e transformação social dos educandos nessa faixa etária, por isso deve ser organizada e fundamentada a partir dos objetivos sociais em que os direitos e deveres sejam explícitos. Os conhecimentos por meio dos currículos e práticas pedagógicas na escola precisam ser instrumentos de conscientização e transformação da realidade, visando a autonomia social e melhoria de vida dos educandos no Ensino Médio. O projeto curricular nessa perspectiva precisa possibilitar as mudanças necessárias para melhoria social, ampliando caminhos em que os discentes possam sair da posição de subalternos e sejam capazes da autonomia intelectual e profissional.\n\nNesse sentido, também é importante fortalecer a autonomia desses adolescentes, oferecendo-lhes condições e ferramentas para acessar e interagir criticamente com diferentes conhecimentos e fontes de informação. Os estudantes dessa fase inserem-se em uma faixa etária que corresponde à transição entre infância e adolescência, marcada várias mudanças e transformações biológicas, psicológicas, sociais e emocionais. Nesse período de vida, como bem aponta o Parecer CNE/CEB nº 11/2010, ampliam-se os vínculos sociais e os laços afetivos, “intensificando suas relações dos estudantes com os pares de idade e as aprendizagens referentes à sexualidade e às relações de gênero, acelerando o processo de ruptura com a infância na tentativa de construir valores próprios” (BRASIL, 2010).\n\nNesse cenário o ensino precisa dialogar com as práticas sociais, para que os conhecimentos repassados superem a mera reprodução das relações de poder que intensificam as desigualdades sociais. Sendo assim, o ponto de partida deve ser pelo diálogo entre o ensino e a práxis social sistematizada e potencializada para transformações dos jovens. Assim o currículo precisa alinhar prescrito, o oculto e real, bem como às práticas pedagógicas que contemplam a diversidade na educação, estabelecendo, dessa forma, um instrumento que contribua efetivamente para o ensino com qualidade.\n\nAmpliam-se também as possibilidades intelectuais e intensifica-se a capacidade de raciocínios mais abstratos. Os estudantes tornam-se mais capazes de ver e avaliar os fatos pelo ponto de vista do outro, exercendo a capacidade de descentração, “importante na construção da autonomia e na aquisição de valores morais e éticos” (BRASIL, 2010). As mudanças próprias dessa fase da vida implicam a compreensão do adolescente como sujeito em desenvolvimento, com singularidades e formações identitárias e culturais próprias, que demandam práticas escolares diferenciadas, capazes de contemplar suas necessidades e diferentes modos de inserção social. Conforme reconhecem as DCN, é frequente, nessa etapa:\n\n> Observar forte adesão aos padrões de comportamento dos jovens da mesma idade, o que é evidenciado pela forma de se vestir e também pela linguagem utilizada por eles. Isso requer dos educadores maior disposição para entender e dialogar com as formas próprias de expressão das culturas juvenis, cujos traços são mais visíveis, sobretudo, nas áreas urbanas mais densamente povoadas (BRASIL, 2010).\n\nHá que se considerar, ainda, que a cultura digital tem promovido mudanças sociais significativas nas sociedades contemporâneas. Em decorrência do avanço e da multiplicação das tecnologias de informação e comunicação e do crescente acesso a elas pela maior disponibilidade de computadores, telefones celulares, tablets e afins, os estudantes estão dinamicamente inseridos nessa cultura, não somente como consumidores.\n\nMoran (2000) informa que com as mudanças na sociedade, as formas de ensinar também sofreram alterações, tantos os professores quanto os alunos percebem que muitas aulas estão ultrapassadas. Mudanças na educação são importantes para mudar a sociedade” (MORAN, 2000, p. 11). Assim, faz-se necessário reflexão sobre como mediar o ensino numa sociedade na era digital, em que os conhecimentos estão postos de várias formas na internet e os jovens precisam ser preparados para selecionar as informações válidos e reais que servem para a vida cotidiana, que permeiam os valores éticos e estéticos, de respeito a cultura e a democracia social.\n\nOs jovens têm se engajado cada vez mais como protagonistas da cultura digital, envolvendo-se diretamente em novas formas de interação multimidiática e multimodal e de atuação social em rede, que se realizam de modo cada vez mais ágil. Por sua vez, essa cultura também apresenta forte apelo emocional e induz ao imediatismo de respostas e à efemeridade das informações, privilegiando análises superficiais e o uso de imagens e formas de expressão mais sintética, diferente dos modos de dizer e argumentar característicos da vida escolar.\n\nNessa direção, no Ensino Fundamental – Anos Finais, a escola pode contribuir para o delineamento do projeto de vida dos estudantes, ao estabelecer uma articulação não somente com os anseios desses jovens em relação ao seu futuro como também com a continuidade dos estudos, no Ensino Médio. Esse processo de reflexão sobre o que cada jovem quer ser no futuro, e de planejamento de ações para construir esse futuro, pode representar mais uma possibilidade de desenvolvimento pessoal e social.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

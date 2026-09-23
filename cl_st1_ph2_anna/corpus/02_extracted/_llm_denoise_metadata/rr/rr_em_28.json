@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01f8c493889fc629006ab30d29086487d2ac02c6d17170aaf7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 610,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 579,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 1189
+    }
+  },
+  "created_at": "2026-09-22T23:20:13Z",
+  "duration_seconds": 4.601,
+  "error": null,
+  "excerpt_id": "rr_em_28",
+  "filename": "rr_em_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "89283b2c393f1093b0a7fd0564d598aadc3f43865921680537c4484ceeeac73e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f7940c55ca0dd129186f132e96b3b40475f995d3ce0fc690650365ca1b17142f",
+    "rendered_prompt_sha256": "a64c2bd3d516e8edd10fa77cbad4eb43cc2fa518c07a06388f63c1d4da0ead50",
+    "source_text_sha256": "8fcfeb9d452cde5e4e1497d6fe4443432cc2b1cd32ddfafaafd978dfb34062d6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3461,
+    "filename": "rr_em_28.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_28.txt",
+    "state": "rr",
+    "word_count_original": 385
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_28.json"
+  },
+  "raw_response_text": "### 4.3.1.3 Educação Física\n\nA Educação Física é um componente curricular obrigatório da Educação Básica que tem como objeto de conhecimento a cultura corporal de movimentos voltada para as competências gerais estabelecidas pela BNCC (BRASIL, 2018a). Por meio do estudo das práticas corporais, dos aspectos morfofuncionais do corpo humano, do autoconhecimento e autocuidado para a manutenção da saúde e da qualidade de vida, das práticas corporais e das interações sociais do indivíduo por meio de suas capacidades psicomotoras e de expressão corporal.\n\nNa área de Linguagens e suas Tecnologias, a corporeidade e a motricidade são recursos da linguagem corporal explorados no ensino da Educação Física, uma vez que esses atos de linguagem são acontecimentos vivenciados no interior das práticas de linguagem, em que as experiências corporais e motoras deverão ser integradas à reflexão sobre as relações interpessoais e o Projeto de Vida.\n\nNo Ensino Fundamental, o Documento Curricular de Roraima preceitua que o estudante deve ser olhado como um indivíduo integral, não podendo dissociá-lo de seus aspectos sociais, físico/motor, afetivo e cognitivo e que pode “vivenciar, criar, recriar e ampliar o seu repertório de conhecimento sobre as diferentes práticas corporais”, de modo a tornar-se um indivíduo autônomo, crítico e participativo no contexto onde vive.\n\nAssim, além da quadra, que sempre foi espaço já tradicionalmente direcionado à prática de Educação Física e que deve ser mantida, há outros espaços dentro da escola que também podem propiciar a cultura corporal de movimento, bem como os componentes da área de linguagens e de outras áreas podem ser trabalhados, de forma interdisciplinar, para que a promoção da aprendizagem sobre as práticas corporais.\n\nPortanto, no Ensino Médio, os estudantes terão a oportunidade de aprofundar, ampliar e consolidar o que foi experimentado no Ensino Fundamental e, ao final deste processo de formação cidadã, espera-se que estes jovens possam adquirir, não somente a autonomia para a prática, mas também a tomada de posicionamentos críticos diante dos discursos sobre o corpo e a cultura corporal que circulam em diferentes campos da atividade humana.\n\nNo que se refere ao contexto local, pode-se trabalhar as diferentes linguagens corporais presentes, por exemplo, nas comunidades indígenas ou advindas de migrantes e propor uma reflexão sobre estes movimentos e aqueles que são considerados culturalmente hegemônicos no país e no mundo.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bad12cdc76d13db006ab2fbc4b0dc87d2b1504c9651690a8d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 870,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 929,
+      "output_tokens_details": {
+        "reasoning_tokens": 210
+      },
+      "total_tokens": 1799
+    }
+  },
+  "created_at": "2026-09-22T22:06:04Z",
+  "duration_seconds": 7.819,
+  "error": null,
+  "excerpt_id": "ac_em_14",
+  "filename": "ac_em_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2a1cbff7ea965ba3b05740f31ff8cdb0a720973dbf30c9b38711353059d802b6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "047e806c349d9dfd053bcdee076fb45507cb96037e8e91171e3883af7a1012ba",
+    "rendered_prompt_sha256": "996460b64610a53fc1818e9f4a2d643379b1e32c02a4c2c613dfb620ec2a7c9b",
+    "source_text_sha256": "32018f8e474e9a8d68b60c6c3bc29fd252a6d512084ffa3c3d9b53abf55ccfa9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 52,
+    "filename": "ac_em_14.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_14.txt",
+    "state": "ac",
+    "word_count_original": 452
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_14.json"
+  },
+  "raw_response_text": "### 10.1. Educação indígena\n\nO ensino médio nas escolas indígenas do Acre segue o que dispõe a Lei de Diretrizes e Bases da Educação Nacional - LDB 9394/1996, que estabelece como objetivos principais:\n\nI - proporcionar aos índios, suas comunidades e povos, a recuperação de suas memórias históricas; a reafirmação de suas identidades étnicas; a valorização de suas línguas e ciências;\n\nII - garantir aos índios, suas comunidades e povos, o acesso às informações, conhecimentos técnicos e científicos da sociedade nacional e demais sociedades indígenas e não-índias.\n\nAssim, no intuito de garantir a regulamentação desta modalidade, a Resolução CEE/AC Nº 352/2019 aprova e define as matrizes curriculares para o Ensino Fundamental e Ensino Médio nas escolas indígenas do estado. Nesta resolução, a carga horária total do ensino médio nas escolas indígenas é de 1000 horas aulas/ano, com um total de 3000 horas trabalhadas durante toda a etapa, o que atende ao movimento de expansão da carga horária escolar nacional, conforme definido no Art. 24 da Lei nº 13.415/2017.\n\nA educação escolar Indígena no estado do Acre é, segundo dados do Censo Escolar da SEE/AC 2019, ofertada em doze municípios – Assis Brasil, Cruzeiro do Sul, Feijó, Jordão, Mâncio Lima, Manoel Urbano, Marechal Thaumaturgo, Porto Walter, Rodrigues Alves, Santa Rosa do Purus, Sena Madureira e Tarauacá – para quinze povos distribuídos/organizados em três famílias linguísticas: Arawa (Madija, Kulina); Aruak (Ashaninka, Kampa e Manchineri); Pano (Apolima Arara, Huni Kuĩ, Kaxinawa, Jaminawa, Jaminawa Arara, Kuntanawa, Nawa, Noke Koĩ, Katukina, Nukini, Puyanawa, Shanenawa, Shawãdawa e Yawanawa).\n\nDesta maneira, de acordo com a resolução aprovada pelo CEE, o importante componente curricular, especificamente desenvolvido nas escolas indígenas, é a Língua Materna, trabalhada em todas escolas do estado, conforme ressalta a Lei de Diretrizes e Bases da Educação Nacional - LDB 9394/96, no que tange à “articulação dos sistemas de ensino para a oferta da educação escolar bilíngue e intercultural aos povos indígenas”.\n\nO contexto intercultural escolar indígena é constituído de 147 escolas, com 5.825 alunos matriculados (Censo SEE/AC, 2019), nos diferentes segmentos de ensino. Os dados do ensino médio indicam 23 escolas indígenas que ofertam esta etapa, atingindo 435 alunos, e sendo classificadas em escolas de fácil e médio acesso. Apesar do baixo número de atendimento, esta etapa é muito importante para desenvolvimento e consolidação dos conhecimentos, além de crucial na capacidade de inserção dos indígenas nas universidades, viabilizando seu acesso ao ensino superior.\n\nPortanto, reforça-se a importância de adaptação do currículo e das práticas educacionais da educação indígena para o modelo do Novo Ensino Médio, a fim de que possibilite o desenvolvimento das diferentes competências e habilidades requisitadas no mundo atual, conectadas às características específicas e dos contextos socioculturais indígenas.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

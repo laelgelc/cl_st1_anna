@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06719fe881afb2e5006ab2fff4811c87d29537e7af8dae9ddc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 658,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 628,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 1286
+    }
+  },
+  "created_at": "2026-09-22T22:23:52Z",
+  "duration_seconds": 4.532,
+  "error": null,
+  "excerpt_id": "ce_inf_e_ef_30",
+  "filename": "ce_inf_e_ef_30.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1f9065ad7e9efd27eef6c902a45dfcf3151ce027b90852fc0db701275768fd2f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "304e76333fb87768a72e182e45e922ee4e211394ab33e71eb1bb492809b84325",
+    "rendered_prompt_sha256": "55a6fd9e4c0c99d9d428b2a839b6e77507ec7a49e0a07a1b98cc526c58dd9778",
+    "source_text_sha256": "590d31afdbf2f71a3e337f407152be936b72332d6c5a35746d5742d67160c4be"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_inf_e_ef_30.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 867,
+    "filename": "ce_inf_e_ef_30.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_inf_e_ef_30.txt",
+    "state": "ce",
+    "word_count_original": 415
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_inf_e_ef_30.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_inf_e_ef_30.json"
+  },
+  "raw_response_text": "### 3.14. Educação Territorial\n\nVivemos, hoje, numa sociedade murada, na qual prevalece o individualismo em detrimento do pensar coletivo, o que estigmatiza e esvazia os espaços públicos. Em prol de uma sensação de segurança, a arquitetura dos espaços foi tornando-se defensiva e, gradativamente, tais espaços têm sido marcados por uma cultura de violação de direitos, privação de liberdades, exclusão e medo.\n\nNesse cenário, é preciso pensar em novas formas de ocupar os espaços públicos, expressando a cultura do cuidado com o “bem comum”. Esse processo deve ser iniciado na escola. O território deve ser um lugar de interação social, expressão cultural, artística e política, e não de ameaças. Construir ou resgatar o sentimento de pertencimento e de cidadania é necessário para se criar espaços públicos acolhedores que possam ser compartilhados, apropriados e ressignificados na perspectiva de promover o encontro do diferente, que se reúne em um mesmo espaço em pé de igualdade. Esse processo passa pelo direito de transformar a si mesmo, por meio da transformação dos espaços (HARVEY, 2013) — da escola, da praça, do parque, das ruas, das calçadas, dos muros; consiste em aprender a olhar para o outro entendendo o que é comum a todas e todos.\n\nHá, nessa discussão, dois pontos fundamentais: o uso e o cuidado com o espaço público para o desenvolvimento da cidadania e do vínculo com aquele espaço, mas também o convívio comunitário que desenvolve habilidades socioemocionais como a empatia, o diálogo, o respeito e a tolerância.\n\nAssim, a partir de um pensar coletivo e comunitário e incentivando atividades, realizadas em outros espaços para além da sala de aula comumente utilizada, criamos um elo forte entre a escola e o seu entorno. Isso corrobora para o desenvolvimento da cidadania de crianças e adolescentes na relação com os espaços sociais e com o território que ocupam, expresso em uma participação mais ativa na dinâmica escolar e na vida da comunidade. Considerar a dimensão humana como elemento central do espaço público possibilita (re)criar a sociedade que queremos: mais justa, participativa, democrática e igualitária.\n\nCom este item, estamos concluindo a terceira parte do Documento Curricular de Referência do Ceará. Como podemos constatar, as três primeiras partes dão conta de posicionamentos teóricos, epistemológicos e políticos do DCRC. Nosso caminho foi completamente alinhado à BNCC. Fizemos um resumido do panorama das Secretarias de Educação do Estado e do Município de Fortaleza. A quarta etapa dá início às etapas de ensino, quando iremos nos deter às especificidades de cada uma delas.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0add5764e6dbf238006ab30125235887d29ba7aa282cb3af38",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 743,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 748,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 1491
+    }
+  },
+  "created_at": "2026-09-22T22:28:58Z",
+  "duration_seconds": 5.033,
+  "error": null,
+  "excerpt_id": "go_em_22",
+  "filename": "go_em_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b612751b71dc44cf8dd02cd9e23ca1c4856fc680afb7d2e7311fba42db46824e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "53b98a79972b68940bd4e22fc9086757bf1118803794a8d64464d7e51e63f10e",
+    "rendered_prompt_sha256": "0e20bdf35d0157394a9286b841839259bb1edd9b180157d4af9c039bab7b6fd2",
+    "source_text_sha256": "ec3ac1a6ff92eadf6daa86268d4aaa156c5eafee01f73ea8309921603a04a4c5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1144,
+    "filename": "go_em_22.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_22.txt",
+    "state": "go",
+    "word_count_original": 464
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_22.json"
+  },
+  "raw_response_text": "## Orientações Para Elaborar Instrumentos de Integração Curricular\n\nPara um bom desenvolvimento da integração curricular é interessante observar algumas orientações:\n\n1. Desenvolver no grupo de trabalho da escola (do/a porteiro/a ao/à gestor/a) o estreitamento das relações, tentando promover uma concordância sobre os sentidos do existir, do ensinar, sobre o ambiente escolar, parcerias, trocas, sobre o aprender com o outro e empatia. Um grupo coeso possibilita o desenvolvimento de processos inovadores.\n2. Garantir planejamento para os grupos de professores/a. A integração exige parcerias e trocas. Assim, é interessante formar na escola vários grupos (conforme as afinidades e objetivos de ensino) para os trabalhos integrativos, desenvolvendo planejamentos que abordem o expandir das fronteiras desses componentes. Para uma integração coesa é importante o planejamento em conjunto.\n3. Fazer rodízios de grupos de trabalho. Ter alguns grupos de trabalhos integrativos na escola, realizando um revezamento de professores/as entre esses grupos para que haja maior possibilidade de trocas, organizados por período de trabalho, conforme o contexto escolar.\n4. Integrar conexões que perpassam por conceitos, elementos constituintes, metáforas, técnicas, problemas, situações, metodologias, competências, habilidades de cada componente envolvido, criando diálogos entre eles, buscando sempre a equidade entre os componentes e/ou áreas.\n5. Criar ações dentro da escola que extrapolem a zona de conforto para apresentar os produtos finais, bem como ações integrativas que possam ser processos de construção do conhecimento.\n6. Buscar parcerias fora da escola: empresas, profissionais, artistas, líderes comunitários e, até mesmo, outras escolas. Realizar visitas, tanto dentro da escola como fora dela em teatros, empresas, cidades, parques, cinemas, entre outras.\n7. Ampliar a sensibilidade, a curiosidade, a inovação, a imaginação e a criatividade com ações que envolvam os elementos artístico e cultural.\n8. Realizar formação continuada integrada de professores/as que busque o desenvolvimento de novas habilidades, percepções de mundo e conexões entre as áreas do conhecimento.\n9. Promover avaliações que tragam reflexões e atitudes para a próxima etapa. O que deve ser fundamental para o/a estudante não é a nota, mas o processo pelo qual ele/ela passou, (seu comportamento diante do conhecimento) para construir seu conhecimento e visão de mundo até ali e o que deverá realizar para continuar a caminhada. Deve haver equidade entre os componentes curriculares e devem ser avaliados no mesmo nível de importância e de valor.\n10. Proporcionar experiências, utilizando outros sentidos do corpo, além da visão e audição, como o olfato, paladar e tato. Buscando uma aprendizagem integral para o/a estudante.\n\nDessa forma, a construção desse Documento Curricular, tanto na parte da FGB, quanto nos IFs estão alinhados com as novas práticas educativas e em consonância com as demandas reais da vida do/a estudante. A seguir apresentamos um quadro geral dos IFs propostos nesse documento e sua integração com os TCTs.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

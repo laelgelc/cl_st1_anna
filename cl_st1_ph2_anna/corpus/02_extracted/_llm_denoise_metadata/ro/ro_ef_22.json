@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_062d7db44f0242c9006ab30b82c9ac87d29fe46bbfcf7b7435",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 592,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1020,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 1612
+    }
+  },
+  "created_at": "2026-09-22T23:13:17Z",
+  "duration_seconds": 11.233,
+  "error": null,
+  "excerpt_id": "ro_ef_22",
+  "filename": "ro_ef_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ec764a5dce723730e8de74f7d4467df5b883df6363fb7771cdd52bcf81c9b707",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "934425918560a84f54769da9542cc3a6d6efdae616a51561dfbd4fae61e19299",
+    "rendered_prompt_sha256": "7fd1fa7972965f9d603816723f6c3b193f50ed00d6c5f24f07d97316a409278f",
+    "source_text_sha256": "bc274ac4bfe731def56f2bd50f7019cf6e7206a7fde6c0bdda00c3b6c37f109e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3120,
+    "filename": "ro_ef_22.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_22.txt",
+    "state": "ro",
+    "word_count_original": 336
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_22.json"
+  },
+  "raw_response_text": "### 6.4.2 Modalidades de Avaliação\n\nÉ essencial saber diferenciar as modalidades de avaliação e compreender que “avaliar não é medir, mas confrontar em um processo de negociação (Hadji, 2001, p. 27)[7]”. Na BNCC (2017), a Avaliação Formativa ganha ênfase e significa:\n\n> Construir e aplicar procedimentos de avaliação formativa de processo ou de resultado que levam em conta os contextos e as condições de aprendizagem, tomando tais registros como referência para melhorar o desempenho da escola, dos professores e dos alunos (BNCC, 2017, p. 15. Grifo nosso).\n\n#### Diagnóstica\n\n1. Acontece no início do ano letivo.\n2. Tem aspecto preventivo.\n3. Foca em obter informações sobre os conhecimentos dos estudantes.\n4. Busca conhecer as habilidades e competências enquanto pré-requisitos para futuras ações pedagógicas.\n\n#### Formativa ou Processual\n\n1. Tem o propósito de monitorar um processo enquanto ele ainda está ocorrendo.\n2. Ocorre durante o processo por meio da observação informal, quizzes, atividades em sala e/ou de casa, perguntas e atividades.\n3. As informações da avaliação visam melhorar e modificar um processo enquanto ele ainda está em andamento.\n4. Fornece feedback ao aluno sobre como melhorar ou aprofundar a sua compreensão.\n\n#### Somativa\n\n1. Tem o propósito de julgar o sucesso de um processo que está terminado.\n2. Ocorre ao final do processo.\n3. Ocorre por meio de provas formais, projetos, ensaios.\n4. As informações da avaliação visam julgar o processo; atribuir nota e nível; promover um aluno.\n\nFonte: Adaptação do livro *Avaliação em sala de aula: conceitos e aplicações*, p. 121.\n\nDe acordo com Fernandes (2007, p. 40)[6], a “avaliação pode e deve ter um papel relevante no desenvolvimento de aprendizagens complexas, no desenvolvimento moral e no desenvolvimento socioafetivo dos educandos. (...) Pode orientar o percurso”. Isso significa que a forma de organizar a avaliação pode motivar ou desmotivar os alunos; assim, é importante incentivar os alunos a superarem as possíveis dificuldades.\n\nDessa maneira, a avaliação precisa ser mediadora e acolhedora para contribuir tanto com a ampliação do conhecimento quanto com a interação e a socialização.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

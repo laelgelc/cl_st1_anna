@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c4d873da45a2b23006ab307d238ac87d2b30eadfc2d3b96b4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 505,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 491,
+      "output_tokens_details": {
+        "reasoning_tokens": 82
+      },
+      "total_tokens": 996
+    }
+  },
+  "created_at": "2026-09-22T22:57:26Z",
+  "duration_seconds": 4.334,
+  "error": null,
+  "excerpt_id": "pe_ef_37",
+  "filename": "pe_ef_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5e189933fcc4113cf9df078b94dd6f1f5deefe3d97c8d7063f2bf65e975d293e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a9ba513c1751bd0ff00ca5495769f2444a30a76736b1c696b9ff711473e91962",
+    "rendered_prompt_sha256": "146d7a3a879db6b9d6910dc3d6dde62ee3495296865482f096b9291374c63fc5",
+    "source_text_sha256": "5c5a82229c1ed26ae29472eaf6fd4af91f824550d88a9cca0e049f88b1740232"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2415,
+    "filename": "pe_ef_37.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_37.txt",
+    "state": "pe",
+    "word_count_original": 266
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_37.json"
+  },
+  "raw_response_text": "### 3.5.6 COMPETÊNCIAS ESPECÍFICAS DE LÍNGUA INGLESA PARA O ENSINO FUNDAMENTAL\n\nAdotando esses pressupostos e alinhado às competências gerais previstas neste documento, o ensino da Língua Inglesa visa garantir o desenvolvimento das seguintes competências:\n\n1. Identificar o lugar de si e o do outro em um mundo plurilíngue e multicultural, refletindo, criticamente, sobre como a aprendizagem da Língua Inglesa contribui para a inserção dos sujeitos no mundo globalizado, inclusive no que concerne ao mundo do trabalho.\n2. Comunicar-se, na Língua Inglesa, por meio do uso variado de linguagens em mídias impressas ou digitais, reconhecendo-a como ferramenta de acesso ao conhecimento, de ampliação das perspectivas e de possibilidades para a compreensão dos valores e interesses de outras culturas e para o exercício do protagonismo social.\n3. Identificar similaridades e diferenças entre a Língua Inglesa e a língua materna/outras línguas, articulando-as a aspectos sociais, culturais e identitários, em uma relação intrínseca entre língua, cultura e identidade.\n4. Elaborar repertórios linguístico-discursivos da Língua Inglesa, usados em diferentes países e por grupos sociais distintos dentro de um mesmo país, de modo a reconhecer a diversidade linguística como direito e valorizar os usos heterogêneos, híbridos e multimodais emergentes nas sociedades contemporâneas.\n5. Utilizar novas tecnologias, com novas linguagens e modos de interação, para pesquisar, selecionar, compartilhar, posicionar-se e produzir sentidos em práticas de letramento na Língua Inglesa, de forma ética, crítica e responsável.\n6. Conhecer diferentes patrimônios culturais, materiais e imateriais, difundidos na Língua Inglesa, com vistas ao exercício da fruição e da ampliação de perspectivas no contato com diferentes manifestações artístico-culturais.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_041f9773114034c5006ab30300d56487d2b9676c7eba5de328",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 525,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 623,
+      "output_tokens_details": {
+        "reasoning_tokens": 222
+      },
+      "total_tokens": 1148
+    }
+  },
+  "created_at": "2026-09-22T22:36:54Z",
+  "duration_seconds": 5.777,
+  "error": null,
+  "excerpt_id": "mg_em_130",
+  "filename": "mg_em_130.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "34bcd765aab03120803302c47c7c788cc7158eb3890f9f997ae26d2d1a93ee86",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6fca6c44c5f6abb03e31144399f01ac7507fded64fecae14776f81254ec4f01d",
+    "rendered_prompt_sha256": "c732cb1716ba9bf929872a61d3f4ff8c11f48a05eaddd8330b38c9de8264df27",
+    "source_text_sha256": "cf04be8b6f230712981626b4204f425eb29ebb3dbbee2d6fa650c820cbed4ea9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_130.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1520,
+    "filename": "mg_em_130.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_130.txt",
+    "state": "mg",
+    "word_count_original": 304
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_130.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_130.json"
+  },
+  "raw_response_text": "## Conclusão\n\nComo já enfatizado, a Educação Especial é uma modalidade de educação escolar transversal a todos os níveis, anos de escolaridade e modalidades de ensino oferecida preferencialmente na rede regular, para estudantes com Deficiência, Transtorno do Espectro Autista e Altas Habilidades/Superdotação. Diante dos desafios postos pelo novo Currículo Referência no que diz respeito à sua parte flexível, é importante lembrar alguns pontos específicos que devem ser objeto de atenção das escolas e dos docentes.\n\nO primeiro deles diz respeito às possíveis dificuldades na escolha de Itinerários Formativos. Na prática de seu protagonismo, entende-se necessário que essa escolha aconteça em diálogo com a família para que ela o auxilie em escolhas pertinentes. A escola deve promover o diálogo que subsidie a construção do percurso do estudante nas escolhas dos Aprofundamentos, das Eletivas e no Projeto de Vida.\n\nO Projeto de Vida deve possibilitar ao estudante da Educação Especial a compreensão de suas limitações e potencialidades, expectativas e anseios. E visar a construção de sua autonomia enquanto sujeito e o reconhecimento enquanto pessoa com direitos e transformadora da sociedade em que vive. Assim, o Projeto de Vida deve contribuir para a construção da consciência do próprio ‘eu’ e de suas habilidades e auxiliar nas questões do universo adulto.\n\nÉ preciso, ainda, considerar o PDI obrigatório para o acompanhamento do desenvolvimento e aprendizagem do estudante público da educação especial. A partir dele serão elaboradas as avaliações diagnósticas, as adaptações pedagógicas e as correções de rumo. Além disso, recomenda-se que o professor elabore um plano de transição individualizado e centrado no próprio estudante, traçando estratégias pedagógicas para direcionar a sua escolarização. Como resultado, espera-se favorecer a apropriação de novos conhecimentos e experiências, a aquisição de benefícios pessoais e profissionais com responsabilidade, liberdade e autonomia para uma boa transição da escola para a vida independente.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,23 @@
+## 5. O CURRÍCULO E A ARTE NA PÓS-MODERNIDADE
+
+### ARTE
+
+A arte ocupa um espaço vivo e em constante mutação. Nesse sentido, propor um currículo voltado para a compreensão das linguagens artísticas, de forma significativa, se faz necessário para estabelecer vínculos entre cultura, conhecimento e aprendizagem. Por isso, é importante compreender como os vínculos são estabelecidos e como se dão os processos de integrações entre eles, para que as relações sejam estabelecidas, de forma consciente.
+
+Pode-se afirmar, conforme Marcelo Gruman (2012, p. 2), que “cultura” se refere ao significado que um grupo social dá a sua experiência, incluindo, aqui, idéias, crenças, costumes, artes, linguagem, moral, direito, culinária etc. A cultura é dinâmica, se transforma incessantemente, incorporando novos elementos, abandonando antigos, mesclando-os, transformando-os num terceiro com novo sentido. Trata-se, portanto, do mundo das representações, incorporadas simbolicamente na complexidade das manifestações culturais. Cultura não é acessório da condição humana, é, sim, seu substrato. O ser humano é humano porque produz cultura, dando sentido à experiência objetiva, sensorial.
+
+O ensino da Arte busca trazer as experiências e os conhecimentos dos estudantes para dentro da escola, trabalhando, a partir deles, para eles e, com eles, o currículo oculto de cada um, de forma intencional. A Arte, como uma área de conhecimento, opera com a organização imaginativa do sujeito, a partir da experiência universal da humanidade e das experiências particulares de cada um, resguardados os princípios da unidade na diversidade, da harmonia na heterogeneidade e do equilíbrio nas diferenças (PEREIRA, 1993).
+
+A cultura do Estado de Alagoas, como um repertório de significados, práticas e valores construídos e compartilhados por grupos identitários, tem atenção especial, como objeto de estudo, valorizando e buscando diminuir distâncias entre o erudito e o popular. O resgate e a valorização do território alagoano e suas tradições populares estabelecem pontes e diminuem as assimetrias entre os estudantes, os saberes e a escola.
+
+Os vínculos criados entre cultura e currículo estabelecem integrações transculturais entre as diferenças identitárias. Afirma-se isto por entender que o que culturalmente nos identifica está de antemão resolvido e que as integrações se dão entre as diferenças.
+
+As relações entre escola, cultura e estética devem atender um campo muito maior do que meramente procedimentos tecnicistas e conceitos descontextualizados da realidade local. É essencial que os trabalhos desenvolvidos pelas escolas e professores de Arte considerem o cotidiano do estudante, construindo-se um ambiente de aprendizagem pulsante e diretamente conectado com a realidade.
+
+O currículo, como um espaço habitado por uma pluralidade de vozes que interagem e negociam sentidos, espaços, tempos e valores, precisa tornar claras as infinitas possibilidades de integrações que o Componente Curricular Arte, e suas linguagens artísticas, irá trabalhar. É com esse olhar que escolas e professores devem direcionar seus projetos, planejamentos e planos, percebendo as especificidades de seu território, com o objetivo de despertar em cada estudante, por meio das dimensões do conhecimento, a ampliação e o desenvolvimento de percepções de mundo e de pertencimento.
+
+A educação pela Arte tem por finalidade a formação e o desenvolvimento global do ser humano, assumindo uma visão plural, singular e integral da criança, do adolescente, do jovem e do adulto – considerando-os como protagonistas da aprendizagem –, promovendo uma educação voltada ao seu acolhimento, inclusão, reconhecimento e desenvolvimento pleno de competências socioemocionais, nas suas singularidades e diversidades.
+
+Essa concepção de Educação Integral, que é apresentada para o componente curricular Arte, necessita, para o seu pleno desenvolvimento, de um olhar inovador por parte da gestão escolar, ou seja, do porteiro à direção, todos devem estar envolvidos e integrados à proposta pedagógica da escola, superando a fragmentação e possibilitando a quebra de paradigmas no desenvolvimento do trabalho dos professores, inclusive no trabalho das equipes de gestão.
+
+Uma gestão colaborativa e inovadora, aberta à mudança de comportamento e atitudes, promove e assegura aprendizagens que vão além das estritamente cognitivas, criando ambientes de aprendizagens que proporcionem a inclusão, que incorporem o universo do sujeito aprendente, trabalhando valores éticos, estéticos e sociais, como também escolhas artísticas, padrões e potencialidades.

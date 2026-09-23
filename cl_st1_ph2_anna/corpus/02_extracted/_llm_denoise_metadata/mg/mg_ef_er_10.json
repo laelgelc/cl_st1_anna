@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07fd879ef1af29cc006ab30293653087d2849e9fd773a9fc36",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 845,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 862,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 1707
+    }
+  },
+  "created_at": "2026-09-22T22:35:06Z",
+  "duration_seconds": 7.586,
+  "error": null,
+  "excerpt_id": "mg_ef_er_10",
+  "filename": "mg_ef_er_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2ecd7e5325eec56c0b85bd5c8be141ff0a6e445e4a3e3a61b6e351876f34d9b6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "dc99a956c4154e37d241eda0e577199ffda361ccf764727de310fde7df6b592e",
+    "rendered_prompt_sha256": "c529b6be30ed8621733a608ad8e061f2277664af18c9aa694238ad1b08d40d72",
+    "source_text_sha256": "414d7e89921a1e035a58a8f395857f0a602b78defe202666f0ff47e1b92fc905"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_er_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1412,
+    "filename": "mg_ef_er_10.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_er_10.txt",
+    "state": "mg",
+    "word_count_original": 486
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_er_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_er_10.json"
+  },
+  "raw_response_text": "## 16.6 O Processo Avaliativo no Componente Curricular Ensino Religioso\n\nA proposta avaliativa deste componente curricular aproxima-se da tarefa de regular a aprendizagem do educando a partir de observações e produções processualmente sistematizadas, capazes de auxiliar e conduzir apropriadamente o educando em seu caminho na construção de conhecimentos socialmente relevantes.\n\nConsidera-se a escola como um ambiente rico em características e visões de mundo distintas, que segundo a visão de Lacueva (1997)³², pode possibilitar momentos bastante enriquecedores e oportunos para a troca de saberes e a elaboração de conhecimentos diversificados. Nesse ambiente enriquecido pela diversidade, é oportuno a construção das habilidades que o Ensino Religioso propõe como formação e, nesse aspecto, a avaliação tem como principal objetivo permitir ao professor o acompanhamento constante e sistemático de todo processo de aprendizagem do educando, desde a verificação diagnóstica de seus conhecimentos prévios, passando pela elaboração de hipóteses e, finalmente, chegando à elaboração concreta de conceitos e contextualização do conteúdo.\n\nNo processo educacional, pensando numa formação integral, o educando também precisa ter consciência de seu desenvolvimento, de seu percurso de aprendizagem: “nível de compreensão de conteúdos específicos, habilidades desenvolvidas, dificuldades enfrentadas, desafios a serem superados, objetivos a serem alcançados. Este tipo de avaliação tem um caráter formativo.” (LORDÊLO; ROSA; SANTANA, 2010, p. 18).³³ E para que de fato seja processual, a avaliação está presente em todas as etapas da aprendizagem, sendo necessário ajustá-la a concepção pedagógica formativa e aos aspectos metodológicos, que enriquecem o dia a dia da sala de aula.\n\nSugere-se, portanto, que as Unidades Temáticas possam dialogar com outros componentes curriculares. A proposta se efetiva na apresentação das unidades temáticas, juntamente com o levantamento do que se sabe sobre o tema e o que se espera conhecer, permitindo o acompanhamento do ritmo da aprendizagem a partir das experiências vivenciadas pelos educandos.\n\nO conhecimento é mensurado pelas informações apresentadas, bem como pelo número de questionamentos despertados com caráter investigativo, podendo, portanto, ajustar a ajuda pedagógica às características individuais dos educandos. E cada passo dado é criteriosamente registrado e avaliado, bem como as relações estabelecidas, servindo de subsídio para o planejamento do processo educacional.\n\nA avaliação processual de caráter formativo baseia-se em procedimentos qualitativos e propõem a possibilidade de ampliar significativamente a capacidade de compreensão e estruturação das unidades temáticas estudadas, enfatizando o desenvolvimento de habilidades e o seu envolvimento com os conteúdos trabalhados.\n\nEssa proposta de avaliação exige esforço e a superação de uma visão disciplinar para atender a proposta de uma formação emancipatória e integral do ser humano.\n\n³² LACUEVA, Aurora. La evaluacion en la escuela: una ayuda para seguir aprendiendo. Revista da Faculdade de Educação, São Paulo, v. 23, n. 1/2, jan. 1997.\n\n³³ LORDELO, José Albertino Carvalho; ROSA, Dora Leal e SANTANA, Lisa de Almeida. Avaliação processual da aprendizagem e regulação pedagógica no Brasil: implicações no cotidiano docente. FACED, Salvador, n. 17, p. 13-33, jan./jun. 2010.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

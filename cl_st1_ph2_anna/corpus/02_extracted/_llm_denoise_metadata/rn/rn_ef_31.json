@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a507e4dd1e2316f006ab30ae138e087d281980cfe21bbba2f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 843,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 852,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 1695
+    }
+  },
+  "created_at": "2026-09-22T23:10:32Z",
+  "duration_seconds": 7.161,
+  "error": null,
+  "excerpt_id": "rn_ef_31",
+  "filename": "rn_ef_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a1dc13625fe217f79920db5863b1216f23bc883adef03b87dec51e92257f2268",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1aeb244e23648d9c85705c651e3db5f7257da4229f63c967e0a72051469c38b9",
+    "rendered_prompt_sha256": "73d3be18a1e265cd0cb495b6a5a0ff0453ee66b62bed53571ddbd067f342cc63",
+    "source_text_sha256": "c4b1b8f1665811488f74e97a9f7278e81d01de5659d921a1462134b5724a4d3c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2970,
+    "filename": "rn_ef_31.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_31.txt",
+    "state": "rn",
+    "word_count_original": 529
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_31.json"
+  },
+  "raw_response_text": "## Esportes\n\nEsporte é a unidade temática de maior adesão dos alunos dentro e fora do ambiente escolar. Segundo Tubino (1999), o esporte é entendido como fenômeno sociocultural, que além de movimentar o mercado financeiro, possui ciência própria, com tecnologia específica, cujas discussões vêm ganhando cada vez mais espaços. O termo esporte vem do século XIV, quando os marinheiros usavam o termo “fazer esporte” para se referirem a “sair do porto” visando realizar atividades físicas. O esporte, compreendido como manifestação da cultura física, assim como a dança e a recreação, fundamenta-se na Educação Física. Quanto à sua origem, existem duas vertentes, uma que afirma que o esporte surgiu para fins educacionais e outra, como fenômeno biológico. Embora as duas vertentes se fundamentem distintamente, coincidem em um aspecto: a competição.\n\nEm tempos antigos, os homens praticavam exercícios físicos para a sobrevivência. Foram os gregos que marcaram a história esportiva com os Jogos Olímpicos, primeiros registros de organizações de competições. Ao final do século XIX, o esporte foi utilizado para tentar evitar conflitos internacionais, pois se acreditava que tivesse o poder de estimular a paz e as relações humanas. Desde aquela época, o esporte moderno foi crescendo, até atingir a estabilidade, mantendo-se assim até a eclosão da Segunda Guerra Mundial, quando a perspectiva pedagógica foi sendo abandonada em favor da ideia de rendimento. Na década de 1930, Adolf Hitler percebeu que o esporte seria um meio político poderoso, de grande apelo popular e o transformou em um palco de disputa entre o capitalismo e o socialismo. A visão de rendimento permaneceu por um longo período.\n\nApenas ao final da década de 1970, com a publicação da Unesco, o mundo passou a aceitar o novo conceito de esporte: além de ser direito de todos, assim como a educação e a saúde, é entendido pela abrangência de suas três dimensões sociais: esporte-educação, esporte-participação e esporte-performance, propostas corroboradas no Brasil pela Constituição Federal de 1988. A primeira dimensão ressalta o caráter formativo, exercício de cidadania, devendo-se evitar a seletividade e a competição acirrada. Ela corrobora, ainda, princípios educacionais de participação, coeducação e responsabilidade. A segunda dimensão apoia princípios de ludicidade, no lazer e na utilização construtiva do tempo livre, sem compromisso com regras institucionalizadas e tendo por finalidade maior o bem-estar dos praticantes, proporcionando o desenvolvimento de um espírito comunitário e de interações sociais e fortalecendo as parcerias e as relações pessoais. A terceira dimensão, por fim, obedece rigidamente às regras existentes de cada modalidade, considerando o esporte como algo institucionalizado (TUBINO, 1999).\n\nPara González et al. (2014), o esporte educacional é indicado, de acordo com a Lei Pelé (Lei n. 9.615/1998), para o desenvolvimento integral e a formação para a cidadania e o lazer, obedecendo aos princípios de totalidade, emancipação, cooperação e regionalismo, além dos já citados acima. Tem ainda o intuito de reverter o quadro de vulnerabilidade social que assola nosso país, possibilitando maior convivência social, construção de valores, promoção da saúde e aprimoramento do senso crítico e de cidadania. Nesse sentido, o Estado brasileiro possui na atualidade uma importante função de fomento às atividades socioeconômicas, nas diversas esferas de poder.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

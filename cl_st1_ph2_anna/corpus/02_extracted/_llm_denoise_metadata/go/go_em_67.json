@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06a0de0994e56603006ab3016d93c887d28f99fcf489d653f3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 779,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 751,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 1530
+    }
+  },
+  "created_at": "2026-09-22T22:30:11Z",
+  "duration_seconds": 6.433,
+  "error": null,
+  "excerpt_id": "go_em_67",
+  "filename": "go_em_67.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6ab80a18515c8cdd39513e2a8d77ed4600dcb84ea2ec145edeb01339a6a2f516",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "54c46c8e4d13e07c0f5c265ac31bb49746eeb52f38ebdb1cca3d6989f025b233",
+    "rendered_prompt_sha256": "2dd01ecff5afc27e1d5946cc5b0b980bd0915a45ca9cc7552d7ec7771b893955",
+    "source_text_sha256": "4bfd20af0731afcc97d1e600e93e241a1b0e23311f981da8e85c10edf1b0e26e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_67.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1193,
+    "filename": "go_em_67.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_67.txt",
+    "state": "go",
+    "word_count_original": 431
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_67.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_67.json"
+  },
+  "raw_response_text": "## 2.4 - Quadro de Habilidade\n\nOs quadros com os objetivos de aprendizagem apresentados a seguir estão estruturados em 5 módulos que partem da relação do/a estudante consigo mesmo/a, na busca pela construção e entendimento das suas identidades, dos seus sonhos, aspirações, expectativas, desejos, e potencialidades (CONHECER); para então, identificar a importância das suas relações com o mundo e a potencialidade transformadora do relacionar com o outro (amigos, família e comunidade) na elaboração das suas escolhas (ENTRE NÓS); seguido pela observação e busca da superação de suas limitações e desafios enquanto planeja e escolhe suas trilhas de aprendizagem que auxiliam na concretização dos seus projetos (ARQUITETAR); o início e a exploração dos projetos são impulsionados logo em seguida ao colocá-los sob a ótica da responsabilidade social (MOVIMENTAR); resultando na elaboração do Projeto de Vida que retoma, aprofunda e explora as competências do século XXI e das possibilidades de carreiras e modos de ter espaço no mundo (CIDADÃO DO MUNDO).\n\nCada habilidade associa-se, por meio de colunas, com as competências gerais da BNCC, com os quatro pilares da educação e às competências socioemocionais propostas por CASEL (2015). O percurso metodológico para lidar com as dimensões sociais, pessoais ou profissionais se entrelaçam.\n\nContudo, pode-se distinguir dentro dos objetivos de aprendizagem características que remetem de modo específico à dimensão pessoal (valores, interesses, biografia, habilidades, dificuldades, identidade, personalidade, autoestima, autoconceito, desempenho acadêmico etc.), dimensão social (problemas contemporâneos, demandas sociais, objetivos do desenvolvimento sustentável, vida estudantil, modos de inserção social, família, relacionamentos etc.) e dimensão profissional (critérios de escolha profissional, carreiras profissionais, mercado de trabalho, competências do mundo do trabalho etc.).\n\nIgualmente, as metodologias também são pensadas sob esses critérios: dimensão pessoal: (i) evidenciamento de valores (perguntas elucidativas, frases inacabadas, exercícios expressivos), (ii) exercícios autobiográficos (narrativa de vida); dimensão social: (iii) discussão de dilemas (hipotéticos, reais, autobiográficos), (iv) interpretação de papéis (debate simulado e encenação de conflito), (v) compreensão crítica, (vi) modelos de comportamento (pessoas ou situações), (vii) aprendizagem por projetos sociais (com parcerias ou sem parcerias); dimensão profissional: (viii) resolução de conflitos (hipotéticos, reais, autobiográficos), (ix) formação de grupos de trabalho (hipotéticos e reais), (x) enfoques socioafetivos; (xii) aprendizagem baseada em problemas e por projetos (criação de protótipos), (xiii) estudos de caso, (xiv) análise de dados etc.\n\nRessalta-se que o/a professor/a de Projeto de Vida tem total autonomia para desenvolver outras habilidades cognitivas, utilizando as metodologias e procedimentos didáticos que entender importantes, podendo definir, planejar e organizar novas finalidades para os conhecimentos, saberes e capacidades relacionadas com o objeto de conhecimento e com os temas trabalhados.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

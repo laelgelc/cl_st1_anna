@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09afe2c182f2cd55006ab307aaea7487d2bcb1da7adbafc0bf",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 677,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 892,
+      "output_tokens_details": {
+        "reasoning_tokens": 359
+      },
+      "total_tokens": 1569
+    }
+  },
+  "created_at": "2026-09-22T22:56:51Z",
+  "duration_seconds": 8.842,
+  "error": null,
+  "excerpt_id": "pb_inf_e_ef_5",
+  "filename": "pb_inf_e_ef_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "acb2f74950dcfb7f0ea0cf36f46dacc78c94434044b40810eb19547a6a2431f6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "29b918ac63738e58584ba171af5cd4f4f67bd07fe89065ba147f2ba53389a645",
+    "rendered_prompt_sha256": "064b98b37b474628174c8d2bae5197d94423ab97815b040b7870762cfd17724d",
+    "source_text_sha256": "58ecef9354671cf366a423e0d1c25e804426d9a0f4624a897cf944315ae9df89"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_e_ef_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2384,
+    "filename": "pb_inf_e_ef_5.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_e_ef_5.txt",
+    "state": "pb",
+    "word_count_original": 417
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_e_ef_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_e_ef_5.json"
+  },
+  "raw_response_text": "## 2.3 A aprendizagem e avaliação na escola\n\nDois aspectos fundamentais ao trabalho do professor na escola e, consequentemente, a uma proposta curricular que oriente essa prática são a aprendizagem e sua avaliação no contexto nas instituições de ensino.\n\nNo que diz respeito à aprendizagem, a presente proposta toma-a como um processo em que o sujeito, longe de ser um mero receptáculo de conhecimentos, é ativo e, em sua relação com o mundo, com seu objeto de estudo, reconstrói permanentemente este mundo (REGO, 2002).\n\nPara que isso ocorra, é fundamental o papel do professor como aquele que intervém e faz a mediação da relação do sujeito com seu objeto de conhecimento. Em seus esforços pedagógicos, o professor pode intervir nessa relação, fornecendo a ajuda necessária para que ele caminhe em seu processo de aprendizagem, provocando avanços que não conseguiria espontaneamente.\n\nEntretanto, essa intervenção precisa estar informada pelo segundo aspecto aqui destacado, a avaliação das aprendizagens, concebida como um instrumento de compreensão do estágio de aprendizagem em que se encontram os sujeitos, tendo em vista tomar decisões para auxiliá-lo no seu processo de aprendizagem. Desse modo, não pode se constituir em ferramenta classificatória, cujo fim último é apenas a aprovação ou a reprovação do aluno.\n\nNessa direção, a avaliação é diagnóstica, contínua e formativa, devendo pautar-se em: dados relevantes sobre determinado objeto de aprendizagem, previstos em planejamento e traduzidos em práticas educativas em sala de aula; e em instrumentos adequados aos conteúdos essenciais avaliados, ao tipo de conduta ou habilidade avaliada, devendo estar claros para os estudantes (LUCKESI, 1999). Na Educação Infantil, a concepção de avaliação tem uma especificidade que será apresentada mais adiante.\n\nPara além da dimensão diagnóstica, é importante considerar a dimensão institucional da avaliação, pois a sala de aula não pode ser entendida de forma dissociada da escola e esta de forma independente do entorno social. Discutir resultados da aprendizagem dos alunos é mais do que examinar as notas que estes obtiveram, pois é preciso acionar a discussão sobre a natureza da mediação pedagógica realizada e os fatores contextuais intra e extra-escolares intervenientes no processo.\n\nSendo assim, considerando o espaço coletivo da escola, seus diferentes problemas e como estes afetam a aprendizagem de crianças e jovens nas salas de aula, enriquece-se a discussão avaliativa e potencializa-se o compromisso dos professores com o direito das crianças e jovens paraibanos de aprenderem.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

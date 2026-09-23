@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0607c9190549b471006ab2fc2a6bd887d2bca96129491ca81b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 841,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1070,
+      "output_tokens_details": {
+        "reasoning_tokens": 359
+      },
+      "total_tokens": 1911
+    }
+  },
+  "created_at": "2026-09-22T22:07:46Z",
+  "duration_seconds": 8.215,
+  "error": null,
+  "excerpt_id": "ac_inf_e_ef_7",
+  "filename": "ac_inf_e_ef_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6ccedad26b93c6137f544f10c138571c7aeb9953773855ac2a80f7760efb12ce",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6490fb47bd8964fa6254d81b8de9940a7d105dfe994fb54b2a6c3b7bb766c39b",
+    "rendered_prompt_sha256": "0e78b7e6d82bf6a161e921b7b746a86c5c5bafc731bf349112cf0b3a850ac4db",
+    "source_text_sha256": "58b94f46708bcc23fbf5260baa718868ca3143d8aa2438bde9d7220e0de30575"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_inf_e_ef_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 137,
+    "filename": "ac_inf_e_ef_7.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_inf_e_ef_7.txt",
+    "state": "ac",
+    "word_count_original": 479
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_inf_e_ef_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_inf_e_ef_7.json"
+  },
+  "raw_response_text": "## 4.4 Conteúdos\n\nO termo conteúdo será ancorado nos estudos de Antoni Zabala em ‘A prática educativa: como ensinar’ (1998) e será definido como tudo aquilo que se ensina. Tomando por base este referencial teórico, os conteúdos escolares estarão divididos em quatro tipos: (ZABALA, Antoni. A prática educativa - como ensinar. Porto Alegre: ARTMED, 1998.)\n\n1. **Conteúdos factuais:** aqueles que envolvem fatos, acontecimentos, situações, dados e fenômenos concretos e que, ao serem ensinados, envolvem habilidades relacionadas à repetição, e/ou cópia, a fim de que o estudante possa memorizar nomes, localizações, códigos, fatos, números, pessoas.\n2. **Conteúdos conceituais:** aqueles que estão relacionados conceitos, princípios, teorias e leis. É importante compreender que para o estudante desenvolver esta habilidade é necessário saber interpretar, compreender e realizar uma elaboração pessoal do conceito. Para tanto, o professor deve propor situações de ensino que permitam ao educando mobilizar conhecimentos, comparar, estabelecer relações, para que a aprendizagem seja significativa e, em situações cotidianas, saiba usar o conhecimento.\n3. **Conteúdos procedimentais:** aqueles que são aprendidos na prática e envolvem procedimentos, métodos, técnicas, habilidades e estratégias. Nem sempre são observáveis, requerem repetição-fixação-memorização com mediação do professor para ensinar a fazer. Para aprender esse tipo de conteúdo, é importante que sejam sugeridas situações de aprendizagem que simulem contextos reais e diferenciados, a fim de que os estudantes possam aplicar, \"testar\" o que aprenderam e refletir sobre os processos envolvidos na aprendizagem. São exemplos de conteúdos procedimentais: classificar, dançar, ler, escrever, comparar, calcular, recortar, inferir, pesquisar, dentre muitos outros.\n4. **Conteúdos atitudinais:** são aqueles que envolvem valores, atitudes e normas e requerem conhecimento e reflexão para tomadas de decisão. Valores serão compreendidos como princípios ou ideias éticas capazes de levar o indivíduo a emitir juízo sobre condutas. Já atitudes são predisposições relativamente estáveis dos indivíduos para agir dessa ou daquela forma, conforme os valores envolvidos na situação. E normas dizem respeito a padrões de comportamento socialmente construídos. São exemplos de conteúdos atitudinais: responsabilidade, solidariedade, normas de trânsito, padrões de comportamento, respeito, hábitos de leitura, liberdade, justiça, ética, etc.\n\nAo professor, é importante destacar que as apropriações de cada tipo de conteúdo não ocorrem de maneira isolada, mas de forma inter-relacionadas. Além disso, os conteúdos procedimentais ocorrem em maior número, pois o que verdadeiramente importa é o uso do conhecimento em situações cotidianas. Por essa razão, os conteúdos não estarão listas conceitos, temas e informações, mas diretamente com as capacidades (objetivos), uma vez a seleção dos conteúdos só poderá ser feita se estiver claro para o professor que capacidade o aluno desenvolverá.\n\n## 4.5. As propostas de atividades\n\nAs propostas atividades são ações ou situações que favoreçam a aprendizagem do (s) conteúdo (s). Dependem das capacidades (objetivos) que o aluno desenvolverá, do tipo de conteúdo a ser ensinado e, não menos importante, do desenvolvimento da aprendizagem do aluno no decorrer na situação de ensino.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

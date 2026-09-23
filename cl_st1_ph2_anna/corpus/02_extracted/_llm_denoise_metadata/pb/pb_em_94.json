@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05cc5b2a601585aa006ab30785f45487d284f8f46c0883d61e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 706,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 685,
+      "output_tokens_details": {
+        "reasoning_tokens": 76
+      },
+      "total_tokens": 1391
+    }
+  },
+  "created_at": "2026-09-22T22:56:10Z",
+  "duration_seconds": 5.096,
+  "error": null,
+  "excerpt_id": "pb_em_94",
+  "filename": "pb_em_94.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "273d64fc1c131ccb758bbcb2b9d892639c33d1254b40a9c0434af585d763a8b1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "178575f46e44c5e562ec4a2c7db0351d3f4ea796bc7322120d5ff384ecf29e22",
+    "rendered_prompt_sha256": "d1d384496501afab120ec4498f3ec9430f2f24724d21e2083c7c8bc0a25668af",
+    "source_text_sha256": "eaffa2303b3fb712a432ba1d420bc34e7835ff0df1fec95dcb4088d29b5ddc25"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_94.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2346,
+    "filename": "pb_em_94.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_94.txt",
+    "state": "pb",
+    "word_count_original": 434
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_94.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_94.json"
+  },
+  "raw_response_text": "### 3.3.2 PERFIL DO ESTUDANTE EGRESSO\n\nDos estudantes que fizerem a opção pelo Itinerário Formativo TSS, esperamos que, ao término dessa etapa de ensino, sejam capazes de contribuir com soluções para os mais diversos enfrentamentos; e para o desenvolvimento e/ou o melhoramento de novas tecnologias para o setor de serviços e de bens e consumo, de forma crítica em relação às consequências do emprego das tecnologias, hoje existentes, para o meio ambiente. Além disso, ter autonomia para empregar os conhecimentos na idealização de projetos pessoais com vistas a melhoria da qualidade de vida individual e coletiva.\n\nTambém esperamos que o egresso tenha capacidade de se perceber não só como beneficiário, mas também como criador de produtos, bens e serviços, podendo elaborar projetos e executar atividades fundamentados cientificamente e, sobretudo, com responsabilidade ética, financeira, ambiental e social.\n\n### 3.3.3 OBJETIVOS GERAIS DO ITINERÁRIO FORMATIVO\n\n- Desenvolver as habilidades de criação de serviços, sistemas e tecnologias sustentáveis com base nos Eixos Estruturantes: Investigação Científica, Processos Criativos, Empreendedorismo e Mediação e Intervenção Cultural.\n- Capacitar o estudante quanto ao aprimoramento da percepção de situações-problema, e na análise de variáveis que interferem na dinâmica de fenômenos da natureza e/ou de processos tecnológicos, considerando dados e informações disponíveis em diferentes mídias, com ou sem o uso de dispositivos e aplicativos digitais.\n- Desenvolver a habilidade de seleção e sistematização de dados e informações (independentemente da fonte), seja no aspecto pessoal quanto no coletivo, promovendo assim a otimização da aprendizagem, quanto ao desenvolvimento do protagonismo e proativismo individual, no sentido da geração de hipóteses e soluções frente aos problemas do cotidiano.\n- Evidenciar a relevância da investigação científica como instrumento de validação, ou não, de hipóteses, frente às situações-problema (variáveis) que interferem na dinâmica de fenômenos da natureza e/ou de processos tecnológicos, com ou sem o uso de dispositivos e aplicativos digitais, utilizando procedimentos e linguagens adequados à investigação científica.\n- Motivar os estudantes quanto a relevância de métodos alternativos de resolução de conflitos, utilizando para isso a mediação e outras formas de intervenção na resolução de problemas de natureza sociocultural e de natureza ambiental relacionados às Ciências Exatas e da Natureza.\n- Capacitar o estudante quanto ao uso intencional de conhecimentos e recursos das Ciências Exatas e da Natureza para propor ações individuais e/ou coletivas de mediação e intervenção sobre problemas socioculturais e problemas ambientais.\n- Desenvolver a capacidade de intervir em produtos, serviços e tecnologias buscando a sustentabilidade e eficiência na utilização de recursos, assim como as características do contexto local e global.\n- Fornecer subsídios para o exercício da cidadania de forma autônoma, crítica e participativa.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

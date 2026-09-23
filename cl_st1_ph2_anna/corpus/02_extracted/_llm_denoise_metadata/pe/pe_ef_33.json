@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_050f14a1bc6251f0006ab307d00e9887d284cf8f267fbd226b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 645,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 599,
+      "output_tokens_details": {
+        "reasoning_tokens": 50
+      },
+      "total_tokens": 1244
+    }
+  },
+  "created_at": "2026-09-22T22:57:24Z",
+  "duration_seconds": 4.807,
+  "error": null,
+  "excerpt_id": "pe_ef_33",
+  "filename": "pe_ef_33.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "aa1c6be7b768b58cf0ea6c89e3045c406959808cd777a304755bb02ada3060b8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "28761a8650234af0535a12f4f9fe5eff9e1ca6ee61c3c69b8519e41989dbf917",
+    "rendered_prompt_sha256": "077d6ecc21139433784bc14d7a3624964c5ded3b8b0a6bf76b08c0f2f378a82b",
+    "source_text_sha256": "788bc4341bf776897f0339751a200d129b040ab85804848685f574c6a40b43d0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_33.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2411,
+    "filename": "pe_ef_33.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_33.txt",
+    "state": "pe",
+    "word_count_original": 373
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_33.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_33.json"
+  },
+  "raw_response_text": "### 3.5.2 A LÍNGUA INGLESA NA CONTEMPORANEIDADE\n\nHá um olhar mais centrado nas diversas possibilidades de interação com as crianças e jovens no que compete ao ensino de Inglês, à medida que são concebidas a diversidade e as condições plurissignificativas propiciadas por um ensino multiletrado. Em tempos de globalização no âmbito das comunicações e novas tecnologias, é preciso estar atento às condições reais de que um estudante e um professor de línguas dispõem quando em face dos diversos gêneros textuais orais e escritos que se manifestam por meio de mídias digitais, impressas e de massa.\n\nAtualmente, com a inserção mais efetiva das novas tecnologias e seus instrumentos audiovisuais nas escolas, além da ampliação da conectividade com a internet, são propiciados ao ensino da Língua Inglesa meios para um novo olhar metodológico – um espaço mais amplo para novas pedagogias formativas frente aos conteúdos, habilidades e competências desse componente curricular. Justificam-se, assim, as atualizações dos currículos para esse novo horizonte de saberes e multiletramento. Por conseguinte, são exigidas maiores reflexões acerca da importância da referida língua na efetivação do ensino-aprendizagem.\n\nA sociedade, hoje, funciona a partir de uma diversidade de linguagens, mídias e culturas. Essas realidades devem ser tematizadas na escola a partir de multiletramentos e multiculturalidade. Lembremos que o ensino da Língua Inglesa, grande facilitador do ambiente de multiletramento e multiculturalidade já citados, fundamenta-se numa perspectiva sociointeracionista vygotskiana, apoiando-se em dois aspectos: primeiro, a linguagem é ação e interação e, portanto, respaldada num conjunto de práxis humanas – compreensão e produção de enunciados orais e escritos, traduzidos em leitura, escuta, fala e escrita; segundo, a linguagem é adquirida tanto pela utilização da língua em si, quanto pela percepção dos contextos de uso em situações diversas (VYGOTSKY, 2009).\n\nA consequência da adoção da perspectiva acima mencionada é um deslocamento da compreensão de significado, antes atribuído a signos abstratos, passando agora a ser entendido a partir de uma relação que o indivíduo estabelece entre as informações registradas em sua mente e os contextos por ele percebidos. Assim, a aprendizagem é realizada no plano intersubjetivo, isto é, na troca de experiências entre as pessoas, quando há um choque de conceitos e realidades – experiência essa que desenvolve a consciência crítica de ambos os sujeitos.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09413a7bf0985132006ab302c1c9c487d298cd5570458d2c14",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 582,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 647,
+      "output_tokens_details": {
+        "reasoning_tokens": 172
+      },
+      "total_tokens": 1229
+    }
+  },
+  "created_at": "2026-09-22T22:35:51Z",
+  "duration_seconds": 6.017,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_lp_11",
+  "filename": "mg_ef_linguagens_lp_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8f48317524b3382dfee0e651e21cc8164226fa16e02fb9883db31d2ed5019ba9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c23e61a5a6d74ec32dd2600372066545a1788d53d98dfff6e4adf0f12d056d1b",
+    "rendered_prompt_sha256": "38789a39f1281f107054a8e8263b75d405116ffa9c5c45b60c2a13d5d9f242b2",
+    "source_text_sha256": "afcdf3cae6421cda4a04585533e2d6a399fb00fad67900beb2deb818b3affab6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_lp_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1463,
+    "filename": "mg_ef_linguagens_lp_11.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_lp_11.txt",
+    "state": "mg",
+    "word_count_original": 282
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_lp_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_lp_11.json"
+  },
+  "raw_response_text": "### 5.7 Os Campos de Atuação Previstos para os Anos Iniciais\n\n#### 5.7.1 Campo da Vida Cotidiana\n\nCampo de atuação relativo à participação em situações de leitura, próprias de atividades vivenciadas cotidianamente por crianças, adolescentes, jovens e adultos, no espaço doméstico e familiar, escolar, cultural e profissional. Alguns gêneros textuais deste campo: agendas, listas, bilhetes, recados, avisos, convites, cartas, cardápios, diários, receitas, regras de jogos e brincadeiras.\n\n#### 5.7.2 Campo Artístico-Literário\n\nCampo de atuação relativo à participação em situações de leitura, fruição e produção de textos literários e artísticos, representativos da diversidade cultural e linguística, que favoreçam experiências estéticas. Alguns gêneros deste campo: lendas, mitos, fábulas, contos, crônicas, canções, poemas, poemas visuais, cordéis, quadrinhos, tirinhas, charge/cartum, dentre outros.\n\n#### 5.7.3 Campo da Vida Pública\n\nCampo de atuação relativo à participação em situações de leitura e escrita, especialmente de textos das esferas jornalística, publicitária, política, jurídica e reivindicatória, contemplando temas que impactam a cidadania e o exercício de direitos. Alguns gêneros textuais deste campo: notas; álbuns noticiosos; notícias; reportagens; cartas do leitor (revista infantil); comentários em sites para criança; textos de campanhas de conscientização; Estatuto da Criança e do Adolescente; abaixo-assinados; cartas de reclamação, regras e regulamentos.\n\n#### 5.7.4 Campo das Práticas de Estudo e Pesquisa\n\nCampo de atuação relativo à participação em situações de leitura/escrita que possibilitem conhecer os textos expositivos e argumentativos, a linguagem e as práticas relacionadas ao estudo, à pesquisa e à divulgação científica, favorecendo a aprendizagem dentro e fora da escola. Alguns gêneros deste campo em mídia impressa ou digital: enunciados de tarefas escolares; relatos de experimentos; quadros; gráficos; tabelas; infográficos; diagramas; entrevistas; notas de divulgação científica; verbetes de enciclopédia.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

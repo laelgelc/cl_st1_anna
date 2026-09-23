@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07f0b8ff02baf10c006ab30c61315887d2a89ae6e483a6f99d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 935,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 946,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1881
+    }
+  },
+  "created_at": "2026-09-22T23:16:55Z",
+  "duration_seconds": 6.75,
+  "error": null,
+  "excerpt_id": "ro_em_65",
+  "filename": "ro_em_65.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "920606d0b0548ef18f9c073e6687eb8ea649220bf3f9fa759c4657b391d5ad3b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "629facd20232a14c0c1cbbf3b86156a53707df26e587183811ede4b42baf654c",
+    "rendered_prompt_sha256": "bc0c78f06d99d2abd816c6d07f382ddef6f70edf0acfa6a9679326fb2e2d0638",
+    "source_text_sha256": "7983aea9e72d27d57807de5ed4b91b411a9c60ac240c15b56bb8a5dce7c6c666"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_65.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3283,
+    "filename": "ro_em_65.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_65.txt",
+    "state": "ro",
+    "word_count_original": 580
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_65.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_65.json"
+  },
+  "raw_response_text": "### 3.1.1. Concepções e tipos de itinerários formativos\n\nNo Ensino Médio, conforme o artigo nº 6, inciso III das DCNEM (Resolução CEB/CNE nº 3 de 21 de novembro de 2018), os itinerários formativos se caracterizam por cada conjunto de unidades curriculares ofertadas pelas instituições e redes de ensino. Tem por objetivo possibilitar aos estudantes o aprofundamento de seus conhecimentos e a preparação para o prosseguimento de estudos ou para o mundo do trabalho, ao mesmo tempo em que contribui para a construção de soluções inerentes aos problemas específicos da sociedade (BRASIL, 2018a).\n\nReferente às DCNEM para elaboração curricular no Ensino Médio, em consonância com a Portaria nº 1432/2018/MEC, os itinerários formativos integram diferentes arranjos curriculares e asseguram o desenvolvimento de conhecimentos, habilidades, atitudes e valores capazes de formar, sob uma perspectiva integral, as novas gerações no que diz respeito a lidar com os desafios pessoais, profissionais, sociais, culturais e ambientais. Nesse sentido, o foco pedagógico é atender as necessidades e as expectativas dos estudantes; fortalecer seus interesses e autonomia; explorar seu engajamento e protagonismo; garantir sua permanência e a aprendizagem significativa na escola (BRASIL, 2018b).\n\nOs itinerários podem ser estruturados com foco em uma área do conhecimento, na formação técnica e profissional ou, também, na mobilização de competências e habilidades de diferentes áreas. Os estudantes podem cursar um ou mais itinerários formativos, de forma concomitante ou sequencial.\n\nEm relação aos fundamentos pedagógicos que corroboram com a mobilização dos saberes e a articulação das aprendizagens essenciais nos itinerários formativos, destacam-se a formação integral do estudante, considerando os valores, aspectos físicos, cognitivos e socioemocionais em articulação com os pilares da educação (aprender a conhecer, fazer, conviver e ser), a reflexão sobre a trajetória escolar e o desenvolvimento das dimensões do projeto de vida (dimensão pessoal, cidadã/social e profissional).\n\nOs itinerários formativos buscam, ainda, expandir os aprendizados promovidos pela formação geral básica, promovendo a ampliação dos aprendizados em articulação com temáticas contemporâneas em sintonia com o contexto e os interesses dos estudantes, por meio da exploração dos potenciais e vocações, permitindo que os jovens concluam o ensino médio com algum diferencial na sua formação. Desse modo, possibilitam um histórico escolar personalizado com maior tempo de dedicação a unidades curriculares escolhidas em consonância com o Projeto de Vida.\n\n### 3.1.2. Objetivos e princípios dos Itinerários Formativos\n\nOs itinerários formativos de Áreas do Conhecimento buscam ampliar e aprofundar as aprendizagens dos estudantes em: Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias ou Ciências Humanas e Sociais Aplicadas. O estudante também pode escolher Itinerários voltados à sua Formação Técnica e Profissional ou cursar Itinerários Integrados, que combinam diferentes opções, como duas ou mais Áreas do Conhecimento ou delas com a Formação Técnica e Profissional. Garantindo, ainda, a apropriação das competências transversais e o uso de metodologias que favoreçam o protagonismo estudantil.\n\nOs Itinerários Formativos têm ainda os objetivos de consolidar a formação integral, promover a incorporação de valores universais e desenvolver habilidades que permitam aos estudantes ampliar sua visão de mundo, tomar decisões e agir com autonomia e responsabilidade.\n\nAssim, ao final do Ensino Médio, espera-se que os estudantes sejam capazes de realizar pesquisas científicas, criar obras, soluções e/ou inovações, intervir positivamente na realidade e empreender iniciativas pessoais, acadêmicas, produtivas e/ou cidadãs, sempre em diálogo com as Competências Gerais indicadas pela BNCC como finalidade da Educação Básica e direito de aprendizagem e desenvolvimento de todos os estudantes brasileiros.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

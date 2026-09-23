@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07afc69c391c5e02006ab30523a3bc87d289269354e59d1f80",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 906,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 800,
+      "output_tokens_details": {
+        "reasoning_tokens": 53
+      },
+      "total_tokens": 1706
+    }
+  },
+  "created_at": "2026-09-22T22:46:01Z",
+  "duration_seconds": 6.098,
+  "error": null,
+  "excerpt_id": "mt_em_8",
+  "filename": "mt_em_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d7756904eb77252afac7830f25fea88356b1bb077ad850034bd58069f04f2a5c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "628f06f67ffd4307126cdd93632e88052cea112f72f12b390bdcd68225c2c7fb",
+    "rendered_prompt_sha256": "5f3a69377cd0da1fd37d0986ba9957a127af317f11a07482df98d742b2986903",
+    "source_text_sha256": "7b7798a0238e2d2bce64faf8d9abbc51f75d699c40a9898d9ce2fa34a08ab292"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1974,
+    "filename": "mt_em_8.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_8.txt",
+    "state": "mt",
+    "word_count_original": 536
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_8.json"
+  },
+  "raw_response_text": "## 4. Ciências, Saberes e Singularidades\n\n### 4.1 Área de Ciências e Saberes do Campo\n\nA parte diversificada no currículo das escolas do campo, denominada Ciências e Saberes do Campo, surgiu a partir das demandas desses povos que lutam por manter e fortalecer seus saberes históricos. Por muito tempo as escolas do campo seguiram o modelo de ensino das escolas urbanas e essa prática culminou no silenciamento das singularidades e dos saberes construídos por essas comunidades.\n\nEsse silenciamento revela a forma como a educação se organizou historicamente no Brasil, o que ocasionou a exclusão de diversas comunidades, “a colonização do interior do país gerou um forte preconceito em relação aos povos que vivem e trabalham no campo, bem como uma enorme dívida social” (MACHADO, 2013, p. 261).\n\nConforme Arroyo, as desigualdades e injustiças, as inferiorizações dos coletivos sociais, étnicos, raciais, de gênero e orientação sexual, do campo e das periferias, enfim, a produção dos diferentes em desiguais é uma produção histórica que se deu e se reproduz nas relações políticas de dominação-subordinação (ARROYO, 2010, p. 1414).\n\nAs lutas das comunidades do campo buscam reverter essa lógica hegemônica que legitima as desigualdades. Nesse sentido, essas comunidades reivindicam políticas públicas de educação que considerem as suas potencialidades nos currículos escolares.\n\nA força da Educação do Campo está justamente naquilo que a torna única: seus processos de produção e reprodução da vida, relação com a terra, produção de técnicas coletivas e transmissão de saberes de geração para geração. A Educação do Campo, ao desenvolver o complexo processo de formação humana, encontra nas práticas sociais o principal ambiente dos seus aprendizados. Ela é mantenedora das raízes e tradições culturais da comunidade, o lugar das reuniões comunitárias, do encontro dos sujeitos e espaço de socialização pelas festas e comemorações.\n\nSegundo Siqueira, Rossetto e Souza, \"A Educação do Campo, no âmbito nacional, é um direito social conquistado através dos movimentos sociais, cujo principal objetivo é fortalecer a permanência do homem no campo\" (2014, p. 143). Portanto, é fundamental que escolas do campo ofereçam um ensino que considere a realidade dos estudantes, compreendendo que eles são sujeitos que possuem histórias, vivências e subjetividades.\n\nEntre os objetivos da Educação do Campo estão o reconhecimento de toda a diversidade sociocultural, o direito à igualdade e à diferença, atender a legislação (quanto à recomendação de considerar as finalidades, os objetos de conhecimentos, metodologias e os processos próprios de aprendizagem dos estudantes do campo), contribuir para a construção de identidades socioculturais dos estudantes do campo e articular as vivências e saberes dos estudantes com os conhecimentos acumulados historicamente pela sociedade.\n\nNesse sentido, a Parte Diversificada, denominada de área de Ciências e Saberes do Campo, composta pelos eixos Agroecologia, Agricultura Familiar e Economia Solidária, no currículo das escolas do campo se relaciona aos saberes da comunidade e vem justamente complementar e enriquecer a Base Nacional Comum Curricular (BNCC), respeitando as características regionais e locais do nosso Estado. Dessa forma, a Parte Diversificada visa garantir que os saberes das comunidades do campo sejam valorizados com o intuito de fortalecer a identidade dos nossos estudantes. Portanto, ao refletirmos sobre uma prática pedagógica na Educação do Campo, precisamos levar em consideração as práticas da comunidade em que o estudante está inserido.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

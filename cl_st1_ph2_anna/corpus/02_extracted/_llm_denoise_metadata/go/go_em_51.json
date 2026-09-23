@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06683e0a2bfdc39a006ab30152cc5487d2882f50d15aec9336",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1510,
+      "input_tokens_details": {
+        "cache_write_tokens": 1507,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1651,
+      "output_tokens_details": {
+        "reasoning_tokens": 307
+      },
+      "total_tokens": 3161
+    }
+  },
+  "created_at": "2026-09-22T22:29:49Z",
+  "duration_seconds": 10.779,
+  "error": null,
+  "excerpt_id": "go_em_51",
+  "filename": "go_em_51.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fd7ec1bc72342a3ad037a0ae88fa7ad7e0783de646116cdb45a1199ef79189a3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f509548ec7894e59222501353cb92e311583a9002b8f5dcc7131b188b498497e",
+    "rendered_prompt_sha256": "69b521ef053f0e5a5c4d7210c9c52d594e7f89371711b80289dd60bea5c11386",
+    "source_text_sha256": "7e1b943218c682fa32ed72f6272c6ed02da5c92ff3928e62e3f2b1aa8dd93155"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_51.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1176,
+    "filename": "go_em_51.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_51.txt",
+    "state": "go",
+    "word_count_original": 1003
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_51.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_51.json"
+  },
+  "raw_response_text": "## Integração dos Componentes Curriculares\n\nA área de Ciências da Natureza e suas Tecnologias do DC-GOEM articula os componentes curriculares Biologia, Física e Química a partir de uma visão transversal e interdisciplinar, trazendo uma proposta de concepção do conhecimento contextualizado com a realidade social, econômica, ambiental e histórica e com os processos e práticas de investigação científica. Busca desenvolver a formação integral do/a estudante para enfrentar os novos desafios da contemporaneidade e na tomada de decisões éticas e fundamentadas a partir das habilidades construídas na Biologia, Física e Química.\n\nO Conselho Nacional de Educação (CNE) destaca a importância da transversalidade no Parecer Nº 7, de 14 de dezembro de 2010:\n\n> A transversalidade orienta para a necessidade de se instituir, na prática educativa, uma analogia entre aprender conhecimentos teoricamente sistematizados (aprender sobre a realidade) e as questões da vida real (aprender na realidade e da realidade). Dentro de uma compreensão interdisciplinar do conhecimento, a transversalidade tem significado, sendo uma proposta didática que possibilita o tratamento dos conhecimentos escolares de forma integrada. Assim, nessa abordagem, a gestão do conhecimento parte do pressuposto de que os sujeitos são agentes da arte de problematizar e interrogar, e buscam procedimentos interdisciplinares capazes de acender a chama do diálogo entre diferentes sujeitos, ciências, saberes e temas (CNE/CEB, 2010, p. 24).\n\nO Parecer diferencia, ainda, a transversalidade e a interdisciplinaridade. Enquanto a primeira refere-se à dimensão didático-pedagógica, a segunda refere-se à abordagem de como se dá a produção do conhecimento, como uma forma de organizar o trabalho didático pedagógico em que temas, eixos temáticos são integrados às disciplinas, às áreas ditas convencionais de forma a estarem presentes em todas elas (p. 65).\n\nAs macroáreas Ciência e Tecnologia, Saúde e Meio Ambiente, Cidadania e Civismo, Economia e Multiculturalismo são abordadas de forma integrada e em níveis intradisciplinar, interdisciplinar e transdisciplinar entre os componentes curriculares de Biologia, Física e Química.\n\nNessa óptica, cada componente curricular área de Ciências da Natureza e suas Tecnologias do DC-GOEM apresenta determinada gama de conhecimentos de forma transversal e interdisciplinar para o desenvolvimento de expectativas de aprendizagens.\n\nO componente curricular Biologia apresenta conhecimentos sobre a vida em sua diversidade de formas e níveis de organização, destacando a importância da natureza e dos recursos, com ênfase nos ecossistemas regionais. A partir do reconhecimento dos processos de transformação e evolução que permeiam a natureza, os/as estudantes terão a oportunidade de elaborar reflexões que posicionem a humanidade e o planeta Terra na história do Universo, bem como inteirar-se da evolução histórica dos conceitos e das diferentes interpretações e controvérsias envolvidas nessa construção.\n\nOutro foco desse componente é a percepção de que o corpo humano como um todo dinâmico e articulado, e que a manutenção e o funcionamento harmonioso desse conjunto dependem da integração entre as funções específicas desempenhadas pelos diferentes sistemas que o compõem.\n\nAlém disso, destacam-se aspectos relativos à saúde, compreendida não somente como um estado de equilíbrio dinâmico do corpo, mas como um bem da coletividade, abrindo espaço para discutir o que é preciso para promover a saúde individual e coletiva. O/A estudante, também, será desafiado/a a analisar situações-problema para avaliar aplicações do conhecimento científico e tecnológico e suas implicações no mundo, como, por exemplo, a aplicação da tecnologia do DNA recombinante e o emprego de células-tronco.\n\nO componente curricular Física, por sua vez, propõe ao/à estudante a análise dos fenômenos e processos tecnológicos, com base nas relações de energia, em sua conservação, condução e transformação, abordando a radioatividade e o eletromagnetismo e suas respectivas aplicações. Ademais, será apresentada a dinâmica dos movimentos de objetos na Terra, no Sistema Solar e no Universo, a partir da análise das interações gravitacionais, além de tópicos da física moderna.\n\nA discussão sobre as tecnologias relacionadas ao desenvolvimento de materiais e à geração, à transmissão e ao consumo de energia elétrica, conduzirá os/as estudantes à análise dos diferentes modos de vida das populações humanas e suas dependências desses fatores. A compreensão desses processos é essencial para um debate fundamentado sobre os impactos da tecnologia nas relações humanas, sejam elas locais ou globais, e suas implicações éticas, morais, culturais, sociais, políticas e econômicas.\n\nO componente curricular Química apresenta para o/a estudante uma abordagem sobre os fenômenos naturais e processos produtivos, com base nas interações e relações entre matéria e energia, propondo ações individuais e coletivas para aperfeiçoar processos produtivos, minimizar os impactos socioambientais e melhorar as condições de vida em âmbito local, regional e global. As interpretações dos diferentes modelos, leis e teorias permitem ao/à estudante analisar as explicações acerca do conhecimento científico, da evolução histórica dos conceitos e das controvérsias envolvidas nessa construção.\n\nO desenvolvimento da capacidade de seleção e análise de informações do/a estudante será promovido a partir da investigação do conhecimento científico e tecnológico e suas implicações, usando modelos explicativos, considerando o contexto histórico da construção do conhecimento científico e utilizando procedimentos e linguagens próprias da Ciências da Natureza e suas Tecnologias. Tais capacidades permitem investigar situações-problema e avaliar as aplicações do conhecimento científico e tecnológico nas diversas esferas da vida humana com ética e responsabilidade.\n\nEnfim, neste DC-GOEM, habilidades de área foram desdobradas em objetivos de aprendizagens, buscando ampliar o diálogo entre os componentes curriculares para a promoção de transformações na aprendizagem rígida e fragmentada de objetos de conhecimento da área de Ciências da Natureza e suas Tecnologias. Visões interdisciplinares e transversais das diversas temáticas referenciadas na BNCC, também foram aqui consideradas, visando, principalmente, à formação integral do/a estudante. E, assim como para a produção dos conhecimentos nos diversos campos científicos, é fundamental a integração dos componentes para a construção de saberes escolares relevantes e contextualizados. Sendo assim, buscamos articular a Biologia, a Física e a Química aos eixos temáticos aqui apresentados, fazendo com que a tradicional fragmentação do conhecimento por disciplinas seja superada, possibilitando um verdadeiro trabalho por área do conhecimento.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

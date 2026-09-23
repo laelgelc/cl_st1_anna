@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01ca132b82c9f392006ab304e8f82087d2836486d8908569f2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1781,
+      "input_tokens_details": {
+        "cache_write_tokens": 1778,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1670,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 3451
+    }
+  },
+  "created_at": "2026-09-22T22:45:09Z",
+  "duration_seconds": 13.011,
+  "error": null,
+  "excerpt_id": "mt_em_40",
+  "filename": "mt_em_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3918c392dbbd4430a69672492f3986bbb89a9f417cde5145906d345f068cb189",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "767c7591ced64b6f32084f5de24176211a3b8f700f97ef3eead5f4e884fbb4c9",
+    "rendered_prompt_sha256": "f9a82ff33c1f017799c93fb482c383f74791d8abae2d8ec3c7e780138ec66584",
+    "source_text_sha256": "ead48f48ad655aed7ef65ed0c51a3d2c0f8f9e7fdadbd1684aaa73a35bab496a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1933,
+    "filename": "mt_em_40.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_40.txt",
+    "state": "mt",
+    "word_count_original": 1140
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_40.json"
+  },
+  "raw_response_text": "## 7.8 Metodologias e estratégias para o ensino de Ciências Humanas e Sociais Aplicadas e aprendizagens mais significativas\n\nUm dos grandes desafios da educação é a superação da pedagogia taylorista/fordista, cujos princípios são a separação dos conteúdos que, fragmentados, organizam-se em sequências rígidas e tem por meta a uniformidade de respostas para procedimentos padronizados, bem como separa os tempos de aprender teoricamente e de repetir procedimentos práticos, sem considerar a dimensão socioemocional. A metodologia de ensino tradicional não abriga os fenômenos da vida cotidiana, sendo necessário o desenvolvimento de novas metodologias que considerem a formação integral humana.\n\nÉ necessário que o processo educativo seja considerado em sua totalidade a partir de uma concepção histórica de homem em sua integralidade, que compreenda as dimensões social, psíquico e emocional. O processo educativo deve considerar o respeito ao próximo, às diferenças, aos Direitos Humanos, e, levar os estudantes a dominar diferentes linguagens, uso de conhecimentos científicos, tecnológicos, sócio-históricos e culturais para compreender e intervir na sociedade, exercendo assim uma cidadania plena.\n\nA metodologia de trabalho na área de Ciências Humanas e Sociais Aplicadas deve ocorrer de maneira contextualizada, interdisciplinar, transdisciplinar e integradora, relacionando e articulando vivências e experiências dos estudantes em situações cotidianas relacionadas aos aspectos políticos, sociais, culturais e econômicos.\n\nAs estratégias de ensino deverão permitir que os estudantes dominem conteúdos e se relacionem com o conhecimento de forma ativa, com a perspectiva da construção de uma sociedade justa, democrática e igualitária. Nessa direção, espera-se que os estudantes elaborem hipóteses e argumentos, a partir de uma leitura crítica, com base em fontes confiáveis e sólidas. É relevante ainda que desenvolvam capacidades de estabelecer diálogos - entre indivíduos, grupos sociais de saberes e culturas distintas.\n\nNeste sentido, as diversas preocupações sobre a construção de agentes científicos e pesquisadores na realidade escolar retrata a necessidade de discutir a importância e realizar o processo de ensino e aprendizagem o mais próximo ao cotidiano do estudante. Rubem Alves trata a Ciência como o Senso Comum refinado, ou seja, a importância de apresentar o fazer das CHSA em consonância com metodologias de aprendizagem.\n\n> “Existe uma classe especializada em pensar de maneira correta (os cientistas), os outros indivíduos são liberados da obrigação de pensar e podem simplesmente fazer o que os cientistas mandam. Antes de mais nada é necessário acabar com o mito de que o cientista é uma pessoa que pensa melhor do que as outras”. (ALVES, 2009, p. 44).\n\nPor isso, a necessidade de desenvolver métodos que permeiam as dimensões socioemocionais dos estudantes e a criação de espaços para o protagonismo dos estudantes. Nesse sentido, a produção deste referencial curricular não impede a construção de uma educação democrática e coletiva, justamente pelo método em que os profissionais da área são provocados para a realização de indagações e o fazer autônomo em sala de aula. Portanto, os estudantes não são liberados da obrigação de pensar, mas são agentes desse pensar.\n\nDestaca-se a necessidade do uso de metodologias ativas no espaço da sala de aula para a mediação do conhecimento. Por meio da metodologia ativa, o estudante é o protagonista na ação pedagógica, que considera a realidade a partir dos conhecimentos apreendidos. A metodologia ativa tem muito a contribuir com a ação pedagógica, tendo em vista que o estudante questiona, pesquisa, levanta hipótese, formula opiniões sobre o mundo e a realidade que está inserido, sendo assim, de suma importância a construção de uma aprendizagem significativa.\n\nConstruir o caminho metodológico é parte fundamental do processo de elaboração do conhecimento, a proposta pedagógica deve ocorrer através de uma criteriosa seleção de conteúdos e de seu percurso metodológico. O/a professor/a deve propor situações problemáticas que leve o estudante a sentir a necessidade de reelaborar conhecimento, considerando seus saberes, experiências e suas especificidades.\n\nA Área de Ciências Humanas e Sociais aplicadas tem como objetivo formar estudantes protagonistas, que saibam planejar seu projeto de vida, sendo intelectualmente autônomos, com capacidade de articular categorias de tempo e espaço, pensamento histórico, filosófico, sociológico e geográfico em face de seu próprio tempo, percebendo as experiências humanas e refletindo sobre elas. O Documento Referência Curricular de Mato Grosso, etapa do Ensino Médio, baseia-se em competências, habilidades e objetos de conhecimento que possibilitam o processo de formação integral do estudante, considerando suas diversidades.\n\n## 7.9 Oportunidades acerca da Avaliação por meio competências e habilidades\n\nA pluralidade de metodologias e estratégias postas no planejar e no ensinar das CHSA possibilita aos professores realizar diversos tipos de avaliação, cada qual de acordo com a sua sequência didática coadunando com as habilidades e objetos de conhecimento que se quer desenvolver. A avaliação objetiva deve ser superada na medida em que se identificam as dificuldades dos estudantes e o professor busca caminhos para superá-las (MATO GROSSO, 2018, p. 43). Deste modo, a avaliação representa caminhos de superação do fracasso escolar e inclusão dos estudantes a partir da valorização de seus saberes e busca pela construção de seu conhecimento.\n\nPortanto, os processos avaliativos contemplam momentos como a observação, a análise e a promoção de melhores oportunidades de aprendizagem (MATO GROSSO, 2010, p. 61). Ainda:\n\n> A observação e a análise devem procurar conhecer quem o estudante é: como vive e sente as situações de aprendizagem; o que pensa; como aprende; e com quem aprende. A partir das respostas encontradas na avaliação diagnóstica, o professor definirá uma melhor estratégia. [...] Tais reflexões possibilitam conhecer e compreender os estudantes em sua singularidade e diversidade. (MATO GROSSO, 2010, p. 61).\n\nAs aulas de CHSA permitem um leque de atividades que podem ir além do ler e escrever. Debates, seminários, apresentações orais permitem o desenvolvimento de habilidades que garantirão aos estudantes uma melhor interação oral. É nesse tipo de atividades que podem ser desenvolvidas competências relacionadas à análise de processos, argumentação e participação no debate público de forma crítica e ativa. Assim, se a escola dedica todo um planejamento de atividades e avaliações a partir da prática da escrita, por que não inserir em seu dia a dia atividades que possibilitem aos estudantes aprender através da oralidade, da interação pública e do debate? Apresentações de trabalhos e pesquisas colaboram para que os estudantes desenvolvam sua performance, tanto no que se refere à fala como à postura, gesto e comunicação.\n\nTensionados ao expor seu saber, os estudantes serão instigados à pesquisa como princípio pedagógico, ver-se-ão envolvidos no problema elencados por seus professores, e, portanto, serão instigados a investigar, descobrir, tecer relações. No momento da exposição, tornam-se protagonistas da construção de conhecimento.\n\nAo passo que a avaliação de atividades orais colabora com o desenvolvimento ético, cognitivo e socioemocional dos estudantes, a avaliação de atividades escritas é tão importante quanto a anteriormente descrita. O escrever permite aos estudantes a construção do discurso e a elaboração de hipóteses, bem como é mister na construção do vocabulário e da expressão da comunicação formal.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

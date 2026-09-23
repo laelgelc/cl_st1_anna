@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e07a5c57eb57bba006ab30110b57087d2a6a63166a5044741",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 846,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 749,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 1595
+    }
+  },
+  "created_at": "2026-09-22T22:28:37Z",
+  "duration_seconds": 5.263,
+  "error": null,
+  "excerpt_id": "go_ef_7",
+  "filename": "go_ef_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a5585c355afcbbbb5eb9b31d821a5e5b555dda347221a59a71675e40bd170a75",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c327af916fd9dd13b3ded837c2afa8c2434756a135ce55f49419da3e8ad706f4",
+    "rendered_prompt_sha256": "cc2cefffea3d93d57a9af07ef0e48b21ee9cebd6a8e2bd479e40ae18311df460",
+    "source_text_sha256": "9e517b23b517ac3bbf2cf9d0f3969c40af704663b313274cf5c15c6e72920de0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_ef_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1127,
+    "filename": "go_ef_7.txt",
+    "filepath": "corpus/00_source_per_state/go/go_ef_7.txt",
+    "state": "go",
+    "word_count_original": 484
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_ef_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_ef_7.json"
+  },
+  "raw_response_text": "# QUADRO CURRICULAR DO COMPONENTE GEOGRAFIA\n\nO quadro curricular do Componente de Geografia para o Ensino Fundamental é composto por cinco unidades temáticas que se repetem ao longo dos nove anos: O sujeito e o seu lugar no mundo; Conexões e escalas; Mundo do trabalho; Formas de representação e pensamento espacial; Natureza, ambientes e qualidade de vida. Essas unidades temáticas estão organizadas em objetos de conhecimentos/conteúdos e habilidades numa sequência que permite uma construção progressiva dos conhecimentos geográficos no decorrer do Ensino Fundamental, levando em consideração o desenvolvimento cognitivo dos estudantes, sem perder de vista a articulação entre o espaço vivenciado e as outras escalas de abordagem.\n\nNo DC-GO Ampliado os conteúdos são apresentados para garantir ao professor uma sistematização do conhecimento e do processo cognitivo, explicitado por meio das habilidades, uma vez que, em determinadas situações, os objetos de conhecimentos e as habilidades não evidenciam de forma explícita o conteúdo de ensino esperado para uma maior especificidade da aprendizagem.\n\nAs habilidades expressam as aprendizagens essenciais que devem ser asseguradas aos estudantes nos diferentes contextos escolares. Elas estão organizadas em um quadro e são identificadas por um código alfanumérico. Quando esse código apresenta a mesma estrutura da BNCC, a habilidade permanece original.\n\nNos casos em que houve desmembramentos, contextualizações, acréscimos e/ou modificações nas habilidades da BNCC, foi acrescida, ao final, uma letra da sequência do alfabeto, por exemplo: (EF04GE11-A); (EF04GE11-B); (EF04GE11-C); (EF04GE11-D). Quando desdobramentos das habilidades da BNCC foram agrupados, o código alfanumérico é acrescido ao final com uma sequência de letras, assim como se pode observar em (EF01GE01-B/C). Aparece nos códigos a sigla GO quando uma nova habilidade foi elaborada, como em (GO-EF07GE16).\n\nO DC-GO Ampliado apresenta o ordenamento das unidades temáticas, dos objetos de conhecimento/conteúdos e das habilidades do componente, numa perspectiva de promover a progressão tanto horizontal, no mesmo ano, como vertical, de um ano para outro, contribuindo, assim, para a compreensão do processo cognitivo das habilidades.\n\nAinda nesse movimento, esse ordenamento promove uma integração com a História, pertencente a área de Ciências Humanas, com as Ciências da Natureza e com as demais áreas e componentes curriculares, visto que o pensamento espacial está associado ao desenvolvimento cognitivo e intelectual de todos os demais componentes. Como exemplo temos: a unidade temática “O sujeito e seu lugar no mundo” integra com a unidade de História “Mundo pessoal: eu, meu grupo social e meu tempo”; a unidade temática “Natureza, ambiente e qualidade de vida” integra com a unidade temática Ciências da Natureza, “Terra e Universo”.\n\nPara uma melhor compreensão da organização do espaço geográfico brasileiro em todas as suas dimensões ao longo do processo histórico, foi acrescentado, no quadro do 7º ano, um novo objeto de conhecimento/conteúdo denominado de “Divisão regional do Brasil”, que tem como conteúdo as diversas formas de regionalizar o nosso território, dentro da unidade temática “Conexões e escalas”.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08aca0e7cede38fd006ab308fb396c87d29b736fc234005f04",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1001,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 932,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 1933
+    }
+  },
+  "created_at": "2026-09-22T23:02:26Z",
+  "duration_seconds": 7.241,
+  "error": null,
+  "excerpt_id": "pi_inf_e_ef_10",
+  "filename": "pi_inf_e_ef_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5e320a2bcb8751a7cbe6d09a7d582f3189f5ded774159dc8883831353b21030d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a70b95fc10563fe625561efdf3766a38b16030bc5ad7a109e3d6ffa06bf41ee7",
+    "rendered_prompt_sha256": "f4efd4d9c48672ba6ae93db1c12f6ef2afe8cd7d2ef42aeaac2ebe51a08c82f9",
+    "source_text_sha256": "726c4a14d55a383ed9d4816c78bfa865cfe040a8c7ef2672a9d31eb32c9455dc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_inf_e_ef_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2654,
+    "filename": "pi_inf_e_ef_10.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_inf_e_ef_10.txt",
+    "state": "pi",
+    "word_count_original": 611
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_inf_e_ef_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_inf_e_ef_10.json"
+  },
+  "raw_response_text": "## 2.2 Ensino e Aprendizagem\n\nA implantação de um currículo, com foco no desenvolvimento pleno dos estudantes, pressupõe a incorporação de princípios coerentes com a concepção de educação integral, já discutida neste texto. E, ainda, ao estabelecer competências e habilidades que os alunos deverão desenvolver, a BNCC (2017) exige dos educadores um planejamento pensado coletivamente, com vistas à garantia dos direitos de aprendizagem às crianças e aos jovens.\n\nNeste sentido, a concepção de aprendizagem utilizada neste documento está baseada no princípio de que as aprendizagens dos estudantes devem ser efetivadas, de modo a extrapolarem os muros da escola e acontecerem efetivamente. Assim, para que tais aprendizagens possam se efetivar, é preciso que as escolas criem as condições necessárias para isso, e os pais acompanhem essas condições promovidas pela escola. Mas, acima de tudo, é preciso que o ensino faça sentido para quem deve aprender, pois, se a concepção de ensino e aprendizagem ainda estiver dissociada de uma carga significativa, é possível que os sujeitos da aprendizagem ainda fiquem presos a um passado que considera uma hierarquia entre quem ensina e quem aprende.\n\nAssim, se a perspectiva do professor é a de quem está “no lugar de quem já sabe” (WEISZ e SANCHEZ, 2009, p. 19), é ele quem definirá “o que é mais fácil e o que é mais difícil para os alunos e quais os caminhos que devem percorrer para realizar as aprendizagens desejadas [...]”, (idem, p. 19). E esse procedimento pedagógico tende a dificultar o processo de aprendizagem, principalmente para aqueles que apresentam mais dificuldade de apreensão de conhecimentos.\n\nNeste cenário, é preciso que a escola assuma uma tripla função, como bem apontam Weisz e Sanchez (2009, p. 36): “levar os alunos a aprender a aprender, dar-lhes os fundamentos acadêmicos e, sem perda de tempo, equalizar as enormes diferenças no repertório de conhecimentos com que eles chegam”. Esse aprender a aprender exige do aprendiz uma certa capacidade de autonomia em relação aos desafios advindos da construção do conhecimento, pois, ainda de acordo com as referidas autoras (idem, p. 35), aprender a aprender “só se torna possível para quem já aprendeu muito sobre muita coisa”.\n\nSobre essa questão, é válido salientar que o processo de ensino e aprendizagem defendido neste Currículo não tem relação com acúmulo de conhecimentos desconectados da realidade dos estudantes, mas, sim, com o sentido que esse conhecimento tem para quem está aprendendo ou acredita que já aprendeu. Importante ressaltar, ainda, que a aprendizagem precisa contemplar os anseios de quem quer aprender, para que ela realmente seja significativa.\n\nImportante destacar que, nessa perspectiva de aprendizagem, é preciso compreender que aprender significativamente implica em ampliar e reconfigurar ideias já existentes na estrutura mental e com isso ser capaz de relacionar e acessar novos conteúdos (FERNANDES, 2011).\n\nDiante desse contexto, a autora assim descreve a aprendizagem significativa:\n\n> [...] a teoria de Ausubel leva em conta a história do sujeito e ressalta o papel dos docentes na proposição de situações que favoreçam a aprendizagem. De acordo com ele, há duas condições para que a aprendizagem significativa ocorra: o conteúdo a ser ensinado deve ser potencialmente revelador e o estudante precisa estar disposto a relacionar o material de maneira consistente e não arbitrária (FERNANDES, 2011, on-line).\n\nIsso endossa a tese de que aprendizagem e ensino precisam estar correlacionados e não vistos como caminhos diferentes a serem seguidos, pois se as condições de aprendizagens são criadas, é porque o ensino também passa a fazer sentido. Assim, no contexto escolar, ensinar e aprender devem estar no mesmo nível de importância e, ainda, devem ser avaliados com a mesma seriedade, para que se efetive a concepção de educação integral preconizada na BNCC.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

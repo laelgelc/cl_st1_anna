@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_036dae27f25725fd006ab30e1999ec87d2b795390bdf1d552a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 861,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 780,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 1641
+    }
+  },
+  "created_at": "2026-09-22T23:24:14Z",
+  "duration_seconds": 5.017,
+  "error": null,
+  "excerpt_id": "sc_em_15",
+  "filename": "sc_em_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "32ccd472356fd222a063f8268c66096eba3476f4dcd6ea26502005c9a87eb417",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "20c6a3800b27b31a337fe7086693356589867758e71fbd44c31bc5d9588f94c9",
+    "rendered_prompt_sha256": "846081aaca2c59dbc3e84fbede4d7307ae55ef318daade5d60205f69e87ce6d5",
+    "source_text_sha256": "bbb643e81326cb510e90496fcda72eac7f1a403f5deac321061a713b53ee365a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sc/sc_em_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3685,
+    "filename": "sc_em_15.txt",
+    "filepath": "corpus/00_source_per_state/sc/sc_em_15.txt",
+    "state": "sc",
+    "word_count_original": 492
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sc/sc_em_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sc/sc_em_15.json"
+  },
+  "raw_response_text": "### 5.4 TRILHAS DE APROFUNDAMENTO\n\nAs trilhas de aprofundamento fazem parte do Itinerário Formativo e possuem destaque significativo no que se refere à parte flexível do currículo, pois congregam maior carga horária da parte flexível do currículo em relação aos demais componentes. Tomando por foco os objetivos definidos pelas DCNem, as trilhas de aprofundamento são organizadas em torno de uma temática específica, e seu desencadeamento é dado pelas unidades curriculares, que promovem a articulação entre objetos de conhecimento das respectivas áreas, e seus componentes, das habilidades dos eixos estruturantes, das habilidades previstas na BNCC e, ainda, das habilidades da educação técnica e profissional, além de outras não previstas na base.\n\nDeve-se esclarecer, aqui, a compreensão de unidades curriculares presentes nas DCNem. O documento as define, em seu Art. 6º, inciso III, como “elementos com carga horária predefinida, formadas pelo conjunto de estratégias cujo objetivo é desenvolver competências específicas, podendo ser organizadas em áreas de conhecimento, disciplinas, módulos, projetos, entre outras formas de oferta” (BRASIL, 2018, p. 2).\n\nAs DCNem indicam a necessidade de o Novo Ensino Médio contemplar um tratamento “metodológico contextualizado, diversificado e transdisciplinar, favorecendo a interação e a articulação entre diferentes campos de saberes específicos, vivenciando práticas vinculadas à educação escolar e ao mundo do trabalho, bem como à prática social” (SANTA CATARINA, 2019, p. 30). Desse modo, frisa-se que um mesmo objeto de conhecimento pode concorrer para o trabalho em diferentes áreas de conhecimento e para a promoção de diferentes habilidades a partir de diferentes abordagens. Com base nessa compreensão, as Trilhas de Aprofundamento do Currículo do Território Catarinense foram construídas a partir de um movimento que não demarca os componentes curriculares, mas elenca uma série de habilidades das áreas e dos eixos estruturantes, bem como objetos de conhecimento a elas vinculados, os quais podem ser trabalhados, de acordo com a organização da unidade escolar, por diferentes componentes curriculares.\n\nPonto a ser reforçado diz respeito à forma de passagem pelos quatro eixos estruturantes nas trilhas de aprofundamento. Orienta-se que nelas sejam contemplados, e com maior ou menor ênfase, os quatro eixos estruturantes: investigação científica, processos criativos, mediação e intervenção sociocultural e empreendedorismo. Esta orientação constitui um requisito para as escolas de ensino médio da Rede Estadual de Ensino e apresenta-se como sugestão para as demais instituições do sistema estadual de educação. Tal exigência indica a necessidade de se abordar as habilidades indicadas para cada um destes eixos, ou, ainda, de se vincular novas habilidades que permitam o cumprimento do foco pedagógico definido para cada um deles, a partir das DCNem.\n\nAs trilhas de aprofundamento podem contemplar uma área do conhecimento, integrar duas ou mais áreas do conhecimento ou, ainda, contemplar a educação técnica e profissional. Em vista disso, organizam-se a partir dos objetivos definidos pelas DCNem para os itinerários formativos, posto que são parte constitutiva destes itinerários (Quadro 1 – Objetivos dos Itinerários Formativos do Novo Ensino Médio das Áreas do Conhecimento e EPT).",
+  "state": "sc",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

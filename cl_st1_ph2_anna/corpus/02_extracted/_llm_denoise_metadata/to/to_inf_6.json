@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bae2ee7ea8dbf60006ab310829df487d2bbbcc650bf4597f2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 824,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1396,
+      "output_tokens_details": {
+        "reasoning_tokens": 670
+      },
+      "total_tokens": 2220
+    }
+  },
+  "created_at": "2026-09-22T23:34:36Z",
+  "duration_seconds": 9.849,
+  "error": null,
+  "excerpt_id": "to_inf_6",
+  "filename": "to_inf_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "54edcb3b0b76bfcbef1e02bccdd7207267d51e6a9a663ab07f97db149aa242b8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "414bf7151129b4bb36f988b087c4dcbf95e730e5655975f09aa677d149023bd6",
+    "rendered_prompt_sha256": "0096f42e9fad29a16bb00b9db3bd2829f8253fad8a577673792064f65d4f67f9",
+    "source_text_sha256": "a9c307bc507fa4ec85fdc64072ea27338beb28fbed3cf4785ec33bcde59a1735"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_inf_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4109,
+    "filename": "to_inf_6.txt",
+    "filepath": "corpus/00_source_per_state/to/to_inf_6.txt",
+    "state": "to",
+    "word_count_original": 517
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_inf_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_inf_6.json"
+  },
+  "raw_response_text": "## Concepção de criança\n\nA visão de criança vem sendo construída historicamente; portanto, as alterações no decorrer dos tempos mostram-se bastante heterogêneas, embora dentro de uma mesma sociedade. Até meados do século XX, a criança era vista como um adulto em miniatura. Observam-se as diversas formas de se considerar as crianças e questões como classe social, etnia, cultura, religião, entre outras, influenciam na maneira como são conceituadas, vistas e tratadas.\n\n## Concepção de criança\n\nA criança deve ser compreendida “como sujeito histórico e de direitos, que, nas interações, relações e práticas cotidianas que vivencia, constrói sua identidade pessoal e coletiva, brinca, imagina, fantasia, deseja, aprende, observa, experimenta, narra, questiona e constrói sentidos sobre a natureza e a sociedade, produzindo cultura” (BRASIL, 2009, p. 12).\n\nNa primeira etapa da vida, a criança necessita de auxílio dos adultos para sobreviver e aprender. Essa característica não se apresenta como incapacitante, mas como fator de incentivo para desenvolver-se. Nessa perspectiva, as crianças desenvolvem habilidades e constroem o conhecimento a partir das interações que constituem desde a primeira infância, com outros pares e com o meio que as cerca. Demonstram seu interesse em entender o mundo em que vivem; assim sendo, ampliam seus saberes e conhecimentos de diferentes naturezas.\n\nConsiderar a criança como sujeito é vislumbrar sua natureza e singularidade, questões que ao longo de muitos anos não foram consideradas. Compreender a criança como sujeito histórico permite que ela seja participante na construção da sua própria vida e da vida daqueles que fazem parte do seu cotidiano. A criança enquanto sujeito social aprende e se desenvolve por meio das interações e brincadeiras, e consegue estabelecer relações com os pares, demonstrando suas ideias, desejos e capacidades de criar e decidir.\n\nAs experiências vividas pelas crianças são elementos importantes a serem observados e ressignificados pelos educadores, para que pensem na construção do conhecimento a partir das vivências que elas já possuem. Portanto, é necessário considerar que suas diferenças individuais, econômicas, sociais, culturais, étnicas, religiosas, entre outras, sem discriminação de espécie alguma, das crianças, das suas famílias, dos seus saberes, dos seus contextos, qualificam a compreensão desses sujeitos e das práticas pedagógicas dos professores.\n\nPartindo da concepção da criança enquanto protagonista e autônoma, entendendo-a como sujeito ativo, construtora do seu próprio desenvolvimento, possuidora de grande capacidade de explorar espaços, fazer descobertas, aprender e construir novos saberes, ações que ampliam as concepções do mundo, requer-se mudança nas práticas das instituições e dos profissionais que atuam na Educação Infantil, na perspectiva de oportunizar possibilidades às crianças de escolha das brincadeiras, das músicas, dos jogos, dos materiais e do ambiente, favorecendo o desenvolvimento das diversas linguagens.\n\nA postura da instituição e dos profissionais precisa levar em consideração que as crianças têm voz própria, vontades, opiniões, as quais precisam ser ouvidas e respeitadas nas suas especificidades. Para isso, a relação entre adultos e criança não deve ser unilateral, mas sim dialógica, favorecendo a construção da subjetividade. A instituição de Educação Infantil, ao promover práticas de ressignificação do conhecimento e desenvolvimento de habilidades, necessita considerar as especificidades afetivas, sociais, emocionais e cognitivas para conceber seu desenvolvimento integral.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

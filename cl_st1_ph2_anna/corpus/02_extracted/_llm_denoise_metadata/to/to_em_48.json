@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ccee95a31e5f6d4006ab31043dc6487d280d54dea3d00a792",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1085,
+      "input_tokens_details": {
+        "cache_write_tokens": 1082,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1332,
+      "output_tokens_details": {
+        "reasoning_tokens": 320
+      },
+      "total_tokens": 2417
+    }
+  },
+  "created_at": "2026-09-22T23:33:32Z",
+  "duration_seconds": 8.992,
+  "error": null,
+  "excerpt_id": "to_em_48",
+  "filename": "to_em_48.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "72b42ffaa93701ac014850cd70561fad4df38ac7a88055e7873991e28fe9fab9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e7f3fe2c3202277f25eb9de64ef73b0629111ff939cac67377c849d9664561d1",
+    "rendered_prompt_sha256": "9cf8d1ff30298ea6ae9108c6ff6d371afc6a8da81bfd76b87501883acb29bf6e",
+    "source_text_sha256": "2a1362f306ba934571df289037edafaf3cb1d4c468d27fb55205fdec4f7f425a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_48.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4049,
+    "filename": "to_em_48.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_48.txt",
+    "state": "to",
+    "word_count_original": 611
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_48.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_48.json"
+  },
+  "raw_response_text": "## 2. ESTRUTURAÇÃO DO DCT/TO, ETAPA ENSINO MÉDIO\n\nO Documento Curricular de Território do Tocantins, Etapa Ensino Médio, está organizado em cinco cadernos, sendo:\n\n### 2.1 Caderno 1 - Disposições Gerais\n\nO Caderno 1 compõe a primeira parte do Documento Curricular do Território do Tocantins - Etapa Ensino Médio e está organizado nas seguintes seções: Apresentação; Estruturação do DCT-TO, Etapa Ensino Médio; Marcos Legais; Introdução; As juventudes e o Ensino Médio Tocantinense; Princípios Orientadores; Modalidades de Ensino Etapa Ensino Médio; Avaliação; Formação de Professores; Arquitetura do Ensino Médio e as possibilidades para o Território; Projeto Político Pedagógico; e Referências.\n\n### 2.2 Caderno 2 - Formação Geral Básica\n\nO Caderno 2 é composto por textos da Formação Geral Básica organizados por áreas de conhecimento: Linguagens e suas Tecnologias; Matemática e suas Tecnologias; Ciências Humanas e Sociais Aplicadas; e Ciências da Natureza e suas Tecnologias.\n\nCada área do conhecimento possui a seguinte estrutura: apresentação, componente(s) curricular(es), sistematização das aprendizagens essenciais, sendo garantido a cada área do conhecimento as especificidades correspondentes. Desta forma, não há uma padronização na estrutura dos textos, a exemplo de Linguagens e suas Tecnologias, que traz um glossário. No que se refere ao quadro de sistematização das aprendizagens essenciais, o componente de Língua Portuguesa foi elaborado de forma destacada dos demais componentes da área, seguindo a estrutura da BNCC.\n\nA estrutura curricular do Ensino Médio do território do Tocantins está organizada com uma parte de Formação Geral Básica e outra de Itinerários Formativos. Os Itinerários Formativos são compostos por: Trilhas de Aprofundamento e/ou de Formação Técnica Profissional, Eletivas e Projeto de Vida. Para as Escolas de Tempo Integral, somam-se as Unidades Curriculares Integradoras.\n\n### 2.3 Caderno 3 - Trilhas de Aprofundamento\n\nÉ composto por Trilhas de Aprofundamento e subdividido em 5 blocos que são:\n\n#### 2.3.1 Trilhas de Aprofundamento de Linguagens e suas Tecnologias\n\nAmplifica! A linguagem em movimento; Clube dos Literatos Juvenis; Eu sou o meu padrão; Cultura Digital - na vibe das redes; e Aperta o Play!\n\n#### 2.3.2 Trilhas de Aprofundamento de Matemática e suas Tecnologias\n\nContribuições da matemática para o mundo digital; Como a Matemática se conecta com a Juventude, com a democracia e a sociedade?; Finanças Pessoais: o que o mundo exige na vida adulta que a gente pode aprender na escola?; Meu mundo, Meu futuro: Me ajuda a construir?; e Modelagem Matemática aplicada à vida: construindo o saber matemático a partir das relações sociais.\n\n#### 2.3.3 Trilhas de Aprofundamento de Ciências Humanas e Sociais Aplicadas\n\nVozes da juventude: passado e presente para um novo futuro; Sementes do cerrado: Cidadania e Sustentabilidade; e Uma ideia na cabeça e uma câmera na mão.\n\n#### 2.3.4 Trilhas de Aprofundamento de Ciências da Natureza e suas Tecnologias\n\nAgronegócio e Agricultura Familiar; Ecoturismo em face do empreendedorismo; Energias Renováveis: Expectativa - Energia Fotovoltaica (solar), Realidade - Usinas Hidrelétricas; e Nutrição e qualidade de vida: cuidando do corpo e da mente.\n\n### 2.4 Caderno 4 - Itinerários Formativos: Eletivas e Projeto de Vida\n\nO Caderno 4 apresenta as concepções e orientações acerca das Eletivas e do Projeto de Vida, compondo juntamente com as Trilhas de Aprofundamento os Itinerários Formativos.\n\n### 2.5 Caderno 5 - Itinerários Formativos da Formação Técnica e Profissional\n\nO Caderno 5 é o último a compor o DCT-TO e traz orientações para a elaboração dos Itinerários Formativos da Formação Técnica e Profissional.\n\nOs Itinerários Formativos da Formação Técnica e Profissional resultarão do processo de escolha dos estudantes conciliado às demandas identificadas da região e à capacidade de atendimento da unidade de ensino. Esses Itinerários poderão ser compostos por cursos de diferentes organizações curriculares, a exemplo de: Cursos Técnicos (Habilitação Profissional), Cursos de Qualificações Profissional e Formações Experimentais.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

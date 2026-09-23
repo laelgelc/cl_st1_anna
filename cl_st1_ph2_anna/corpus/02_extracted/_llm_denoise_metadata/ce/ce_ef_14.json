@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09f0c0b5367e9d6d006ab2ff28580887d2af8b791e20297e14",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 645,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 718,
+      "output_tokens_details": {
+        "reasoning_tokens": 178
+      },
+      "total_tokens": 1363
+    }
+  },
+  "created_at": "2026-09-22T22:20:30Z",
+  "duration_seconds": 5.831,
+  "error": null,
+  "excerpt_id": "ce_ef_14",
+  "filename": "ce_ef_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f503045c2b07a6d26528489379082e5efb0ae39ee94230b21934df7c71358a8c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "10e7d565ba3ce4f2ed2190ec0a51f2e2c0b6b7707f9eb19655e9869e0105b97d",
+    "rendered_prompt_sha256": "2575000b60fc7a394202dc093451f1d89388a9b463183ddd2e8da00d65321d12",
+    "source_text_sha256": "9d68472a4106d11981a3123e1b9d6a29bd4414a6b3d26b48b124a08712dc4e3e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 732,
+    "filename": "ce_ef_14.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_14.txt",
+    "state": "ce",
+    "word_count_original": 404
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_14.json"
+  },
+  "raw_response_text": "## Organização da proposta, relacionando às competências da área\n\nA criação dos objetos específicos da proposta em questão buscou contemplar todas as competências específicas da Educação Física, relacionando unidade temática, objeto de conhecimento, habilidades e, por fim, competências. Alguns pontos foram desafiadores no sentido de tornar mais lógico e exequível diferentes objetos específicos de ensino, considerando a aglutinação de diferentes objetos de conhecimento e dimensões por habilidade.\n\nDe um modo geral, buscamos, neste documento, sugerir objetos específicos de conteúdo dentro de cada unidade temática a partir de cada habilidade, considerando-se principalmente a(s) dimensão(ões) destacada(s), conectando a competência específica pretendida para aquele ciclo, podendo ser visualizada na planilha adiante.\n\nInformamos, ainda, que professores e professoras podem, no momento que idealizar a sua proposta curricular, acrescentar conteúdos que acreditem que sejam adequados a sua realidade ou mesmo adaptar a proposta deste material conforme necessidade local, pois entende-se que cada lugar tem uma constituição sócio-histórico-geográfica-política-estrutural diversificada.\n\n## Possibilidade de atendimento à parte diversificada, à diversidade, à etnia\n\nFinalmente denotamos atenção para alguns pontos positivos e negativos da proposta que merecem destaque e, principalmente, tomada de decisão dos envolvidos para superação das inconsistências percebidas.\n\nO componente curricular da Educação Física traz consigo a relevância social de onde a escola se encontra, explorando manifestações locais, regionais, nacionais e internacionais. Ele também destaca grupos étnicos nativos, como os negros e os índios. Contudo não destaca a questão da diversidade sexual em sua proposta e da educação inclusiva, merecendo atenção a estes aspectos durante a construção das propostas curriculares escolares.\n\nNo tocante a esta questão, alguns objetos específicos foram acrescidos em vistas a buscar destacar a influência da diversidade sexual nas práticas corporais. O objetivo era reforçar o combate aos preconceitos atrelados e às formas de superação desses comportamentos. Da mesma forma, pretende refletir sobre a adaptação de diferentes modalidades físicas para grupos com diversificadas limitações, propondo sempre uma atividade para todos, independentemente da necessidade apresentada.\n\nPor fim, acreditamos que este documento será um marco inicial na organização curricular do componente Educação Física, na tentativa de garantir um ensino de qualidade aos estudantes de todo o estado do Ceará. O propósito final de é contribuir para a construção de uma sociedade mais ética, democrática, responsável, inclusiva e solidária, promovendo a diversidade e os direitos de todos, onde o docente apresenta um papel importante nessa jornada sendo um agente mediador nesse processo.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

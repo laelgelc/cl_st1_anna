@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0149a9e80afa03c2006ab309a8cd1487d28ff62b1c20f0ad64",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 785,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 732,
+      "output_tokens_details": {
+        "reasoning_tokens": 89
+      },
+      "total_tokens": 1517
+    }
+  },
+  "created_at": "2026-09-22T23:05:18Z",
+  "duration_seconds": 5.464,
+  "error": null,
+  "excerpt_id": "pr_em_29",
+  "filename": "pr_em_29.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "71f4b62d85d98da8169af7b6cd92aa7d07316f6f672cacca5112cdeade9d1585",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7df3fd020f7beb3f3f3a58a52830b9f94a9d168d07ea39889a94d02eaa10db68",
+    "rendered_prompt_sha256": "271917885f8346908495f233e264c0f4cdf4c5e4b020ddae58b6812ad540d7fe",
+    "source_text_sha256": "9abce3f1a0fd015cdd44c39f07c0d8ccc60c56380e9ddba3569c5432ad23d224"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_29.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2745,
+    "filename": "pr_em_29.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_29.txt",
+    "state": "pr",
+    "word_count_original": 453
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_29.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_29.json"
+  },
+  "raw_response_text": "### Unidade Temática 1 — Artes Visuais\n\nEsta unidade permite aos estudantes desenvolverem competências e habilidades como criação e interpretação de imagens, articulando elementos da linguagem visual, audiovisual e tecnologias. Aborda a imagem como referência, com a intencionalidade de estimular o olhar, a percepção dos elementos que a compõem, partindo da premissa de que o estudante vive num mundo rodeado por imagens e o “aprender a ver” torna-se fundamental para seu desenvolvimento intelectual e sensível.\n\nO estudante educa seu olhar apropriando-se dos diferentes discursos e contextos em que as imagens são criadas. O professor mediador promove a “alfabetização visual” em sala de aula, desenvolvendo no estudante o senso crítico por meio de leituras de obras de arte, possibilitando a expressão através do ato criador e a ampliação de percepção de uma sociedade carregada por imagens fixas e/ou em movimento, desenvolvendo, assim, o pensamento estético.\n\nSegundo Richter, a arte na escola deve resgatar o “encantamento do universo” imagético e estético infantil (Richter, 2003, p. 54). Isso possibilita não apenas contextualizar o ensino de arte, mas também fazer conexões com o meio social e contexto cultural no qual o adolescente vive. O ensino da arte na escola deve romper a barreira entre o limite da arte erudita e arte popular, valorizando toda a produção artística local.\n\nA perspectiva da inserção da leitura da imagem no contexto escolar é muito importante, pois nossos estudantes já desfrutam de experiência visual antes mesmo de entrar na escola. No entanto, apenas desfrutar da experiência visual não é garantia de estarem compreendendo o que estão lendo ou que já tenham uma habilidade crítico-reflexiva bem desenvolvida. A obra de arte tem seus códigos e um sistema estruturado de signos, e os nossos estudantes necessitam decodificá-los. Assim, o professor tem um papel fundamental nesse processo: que é o de mediar a decodificação dos signos e a construção do conhecimento.\n\nA autora Santaella destaca a importância de saber realizar a leitura e interpretação dos diferentes signos visuais, que vão desde as artes plásticas até a publicidade, como fotografia, ilustrações, design, entre outros, expandindo o conceito de leitura, reconhecendo também a importância de outros elementos como figuras, gestos, sons, cores, entre outros (Santaella, 2012).\n\nRessaltamos, neste documento, o desenvolvimento destes aspectos nas artes visuais através da bidimensionalidade — desenhos, pinturas, fotografia, entre outros —; tridimensionalidade — esculturas, arquitetura, instalações, entre outros —; das mídias audiovisuais; da perspectiva histórica das imagens trabalhadas em sala de aula e das relações com outras linguagens artísticas.\n\nÉ preciso ter em vista que os objetos artísticos levados para a sala de aula podem contribuir para que o estudante crie o hábito de observar, apreciar, examinar, refletir, expressar-se, aguçando sua curiosidade como pesquisador e avaliador, redimensionando sua visão de mundo.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

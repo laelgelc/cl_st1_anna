@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d48fcdd7fe5a176006ab300c400e087d293c06410a9084b51",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 880,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 847,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 1727
+    }
+  },
+  "created_at": "2026-09-22T22:27:22Z",
+  "duration_seconds": 6.466,
+  "error": null,
+  "excerpt_id": "es_inf_3_direitos",
+  "filename": "es_inf_3_direitos.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "be27b4e7f88d647db2d713016d090a91097aec87bff09f1fd685aa3eeb589f15",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9f76732e9b171ae740f1e66eca1557770eb5cc93fdff430ef0d5147af61f3ab0",
+    "rendered_prompt_sha256": "19523844e481b33996572be6886ec514d01dbefd64ae6f6e05fee637cecd8963",
+    "source_text_sha256": "2a795ca81ba0b4008d541debcb200c5f1ed669b96cf6dba98eabbf03f6e52dad"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_3_direitos.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1053,
+    "filename": "es_inf_3_direitos.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_3_direitos.txt",
+    "state": "es",
+    "word_count_original": 457
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_3_direitos.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_3_direitos.json"
+  },
+  "raw_response_text": "## Direitos de aprendizagem\n\nConstituem como pontos referenciais os 6 (seis) direitos de aprendizagem que os bebês, as crianças bem pequenas e as crianças pequenas devem ter garantidos:\n\n- Conviver com outras crianças e adultos, em pequenos e grandes grupos, utilizando diferentes linguagens, ampliando o conhecimento de si e do outro, o respeito em relação à cultura e às diferenças entre as pessoas.\n- Brincar cotidianamente de diversas formas, em diferentes espaços e tempos, com diferentes parceiros (crianças e adultos), ampliando e diversificando seu acesso a produções culturais, seus conhecimentos, sua imaginação, sua criatividade, suas experiências emocionais, corporais, sensoriais, expressivas, cognitivas, sociais e relacionais.\n- Participar ativamente, com adultos e outras crianças, tanto do planejamento da gestão da escola e das atividades propostas pelo educador quanto da realização das atividades da vida cotidiana, tais como a escolha das brincadeiras, dos materiais e dos ambientes, desenvolvendo diferentes linguagens e elaborando conhecimentos, decidindo e se posicionando.\n- Explorar movimentos, gestos, sons, formas, texturas, cores, palavras, emoções, transformações, relacionamentos, histórias, objetos, elementos da natureza, na escola e fora dela, ampliando seus saberes sobre a cultura, em suas diversas modalidades: as artes, a escrita, a ciência e a tecnologia.\n- Expressar, como sujeito dialógico, criativo e sensível, suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, questionamentos, por meio de diferentes linguagens.\n- Conhecer-se e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações, brincadeiras e linguagens vivenciadas na instituição escolar e em seu contexto familiar e comunitário. (BNCC, p. 36, 2017)\n\nAs características e peculiaridades das crianças, que hoje frequentam as unidades de Educação Infantil, devem impulsionar os educadores a garantir que os direitos de aprendizagem sejam mediadores de significativas aprendizagens, conferindo intencionalidade às práticas pedagógicas, a fim de contemplar as diferenças e diversidades, características da infância.\n\nAssim, faz-se importante alinhar, com os profissionais de cada instituição, os conceitos sobre a infância, tempos, espaços escolares, sobre as concepções teóricas adotadas para a elaboração de currículos, que respondam aos questionamentos e subsidiem intervenções intencionais nos processos de ensino e aprendizagem, considerando:\n\n> Essa concepção de criança como ser que observa, questiona, levanta hipóteses, conclui, faz julgamentos e assimila valores e que constrói conhecimentos e se apropria do conhecimento sistematizado por meio da ação e nas interações com o mundo físico e social não deve resultar no confinamento dessas aprendizagens a um processo de desenvolvimento natural ou espontâneo. Ao contrário, impõe a necessidade de imprimir intencionalidade educativa às práticas pedagógicas na Educação Infantil, tanto na creche quanto na pré-escola. (BRASIL, 2017 – p. 34, grifo no original)\n\nA intenção educativa deve consubstanciar tanto o planejamento, a organização do ambiente pedagógico pelo professor e o acompanhamento e avaliação da aprendizagem e desenvolvimento da criança.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

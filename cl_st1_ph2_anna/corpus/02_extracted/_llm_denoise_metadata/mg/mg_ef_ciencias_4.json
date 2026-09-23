@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01366a9e2727ec43006ab30289c99487d28f4aeb260100eb13",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 539,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 547,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 1086
+    }
+  },
+  "created_at": "2026-09-22T22:34:54Z",
+  "duration_seconds": 4.661,
+  "error": null,
+  "excerpt_id": "mg_ef_ciencias_4",
+  "filename": "mg_ef_ciencias_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fc49bbabaaf1c3030a6ecec8c48b2a30e7d1ef49e7a76467f9bdefbab2561b07",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b883cdd721a6f2d62ff2a73ff32c7b88e59bf97a8c96071cbff04937ceb9355d",
+    "rendered_prompt_sha256": "a300cba152e092bc2e1333841cdd8b08225132d22b77f1b0dd427bb3b624b192",
+    "source_text_sha256": "4b834edb9f317b3f923e7e989e81777f871e38ae49d9d6f1319a785bbcfdc038"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ciencias_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1400,
+    "filename": "mg_ef_ciencias_4.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ciencias_4.txt",
+    "state": "mg",
+    "word_count_original": 306
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ciencias_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ciencias_4.json"
+  },
+  "raw_response_text": "## 12.4 Diretrizes para o ensino do componente curricular de Ciências\n\nA proposta curricular do Componente Ciências, não pretende homogeneizar as práticas docentes, mas sugerir caminhos que possibilitem a promoção da autonomia de cada professor no desenvolvimento de seu trabalho. Por isso, tais diretrizes têm como meta explicitar escolhas, repensar posturas e sugerir estratégias de ações que promovam a ampliação da noção de conteúdo, que deve englobar três componentes interdependentes: os conceitos, os procedimentos e os valores e atitudes.\n\nAs diretrizes para o ensino no Componente Curricular Ciências têm como ponto de partida a concepção de que a ciência, além de ser um modo de pensar, de chegar a conclusões coerentes a partir de proposições, de questionar conceitos pré-estabelecidos e hipóteses, propor novas ideias a partir do que já existe, é também uma construção humana que envolve relações com os contextos: cultural, ambiental, socioeconômico, histórico e político.\n\nPara tanto, é necessário criar um ambiente investigativo e dinâmico em que a construção desses conteúdos represente um ponto de chegada de um processo coletivo de pesquisa, de debate e de investigação. As orientações listadas a seguir explicitam posturas e estratégias pedagógicas que podem auxiliar na criação desse ambiente:\n\n1. Reconhecer a importância do conhecimento prévio dos estudantes como elemento fundamental a ser considerado no processo de ensino e aprendizagem.\n2. Transformar os contextos de vivência, os problemas da contemporaneidade e da prática social dos sujeitos do processo escolar em objetos de estudo, investigação e intervenção.\n3. Promover maior comunicação entre os saberes das várias disciplinas que compõem a área das ciências naturais ao tratar dos temas ligados à vivência dos estudantes.\n4. Escolher e privilegiar certos conceitos centrais e ideias-chave que estruturam o saber das ciências naturais e promover, de modo progressivo e recursivo, oportunidades para que os estudantes possam compreendê-los e se apropriar deles.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

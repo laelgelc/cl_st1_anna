@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_003218397536b79c006ab3046bf91c87d2813f31f925b05086",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 2119,
+      "input_tokens_details": {
+        "cache_write_tokens": 2116,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2125,
+      "output_tokens_details": {
+        "reasoning_tokens": 266
+      },
+      "total_tokens": 4244
+    }
+  },
+  "created_at": "2026-09-22T22:43:07Z",
+  "duration_seconds": 15.153,
+  "error": null,
+  "excerpt_id": "mt_ef_46",
+  "filename": "mt_ef_46.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a44d78838b95e8337a2373960cb8d5816311ef39bdb0128779fc383e622806db",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9e5345319d8ca9b652f3a61e35de7ecc9473ccde1f72450fdea51cb8a72822a5",
+    "rendered_prompt_sha256": "03bfd966060aee1480655855cc8b9bce286d66aaa2e1e472c1c034a75308919a",
+    "source_text_sha256": "90191de51715b6e811af3cebd1139b2f52d073ac407baa4145763e0f9b6ca8da"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_46.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1840,
+    "filename": "mt_ef_46.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_46.txt",
+    "state": "mt",
+    "word_count_original": 1365
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_46.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_46.json"
+  },
+  "raw_response_text": "### 1.2.6. Objetivos do Componente Curricular Arte\n\nConforme disposto na Base Nacional Comum Curricular, o objetivo deste componente curricular é desenvolver o pensamento artístico e a percepção estética, caracterizando um modo próprio de ordenar e dar sentido à experiência humana, por meio da sensibilidade, da percepção e da imaginação no domínio do conhecimento artístico, necessário para compreender a arte como meio de humanização da realidade. Essa concepção já se tinha em mente na implantação da Arte como disciplina na LDB 9394/96.\n\nApós muitos debates e manifestações de educadores, a atual legislação educacional brasileira reconhece a importância da arte na formação e desenvolvimento de crianças e jovens, incluindo-a como componente curricular obrigatório da educação básica. No ensino fundamental a Arte passa a vigorar como área de conhecimento e trabalho com as várias linguagens e visa à formação artística e estética dos alunos. A área de Arte, assim constituída, refere-se às linguagens artísticas, como as Artes Visuais, a Música, o Teatro e a Dança (PCN Arte, 1997, p. 19).\n\nÉ sabido que, dentro de um senso comum, conceber o fazer artístico e descrevê-lo como um tipo de conhecimento tão necessário quanto os conhecimentos engendrados nas ciências matemáticas, por exemplo, tem desencadeado debates ao longo da história da arte no contexto da educação. Apoiado nos preceitos de Dewey, é possível afirmar que tanto o que fazer de um cientista quanto de um artista passam pela mesma ordem de experiência. Em suas palavras, o autor afirma que tanto o artista pensa o que faz, como o cientista torna em objeto aquilo que pensa, pois,\n\n> O pensador tem seu momento estético quando suas ideias deixam de ser meras ideias e se transformam nos significados coletivos dos objetos. O artista tem seus problemas e pensa enquanto trabalha. Mas seu pensamento se incorpora de maneira mais imediata ao objeto. Em função do caráter comparativamente remoto de seu fim, o trabalhador científico opera com símbolos, palavras e signos matemáticos. O artista desenvolve seu raciocínio nos meios muito qualitativos em que trabalha, e os termos ficam tão próximos do objeto que ele produz que se fundem diretamente com este. (DEWEY, 1953 p.78)\n\nContudo, na educação brasileira, em seu processo de democratização do ensino regular, mesmo diante de todos os avanços da pedagogia contemporânea, o sistema educacional brasileiro vem considerando como referenciais apenas as disciplinas de Língua Portuguesa e Matemática. Nesse contexto, a disciplina de arte é entendida por muitos professores como um apêndice da programação curricular e pedagógica. As atividades são observadas como ações didáticas para se conseguir alcançar determinadas habilidades nas mais diversas disciplinas. As expressões cênicas, em muitos dos casos, transformam-se em jogos para a melhor compreensão do conteúdo de literatura, as artes visuais tornam-se exercícios de análise de volumes e dimensões, no campo da geometria, a música apenas como uma ilustração de determinado evento histórico ou social, a dança como uma atividade de relaxamento ou de atividade dentro do calendário cívico para o professor de educação física.\n\nPercebe-se, aqui, que a essência da disciplina ou da criação artística está na condição simples de atividade para outro fim, como se este último fosse maior, ou mais coerente. Tais práticas podem, evidentemente, acontecer no cotidiano escolar, contudo, a disciplina de arte não pode ser compreendida apenas nessa dimensão. O ensino da arte não deve ser vinculado a uma ação metodológica para auxiliar outra disciplina, e nem como um mero passatempo, em que os professores solicitem para os estudantes a “desenhar alguma coisa” ou para pintar um desenho fotocopiado.\n\nO valor da arte na cultura escolar e na vida do estudante deve ser melhor compreendido. A arte não deve ser entendida apenas como uma oportunidade para aliviar as tensões causadas pelas outras disciplinas, aquelas consideradas de maior relevância. Acima de tudo, a arte não pode estar vinculada apenas como prática de ilustração de fatos e eventos.\n\nEm diversos contextos, quando a disciplina de arte não é entendida como uma simples ação didática para outras áreas ou eventos, ela é vinculada a um estudo teórico que, em muitos dos casos, é meramente conteudístico, abstrato, cansativo e longe da realidade do estudante. O componente curricular fica, então, desvinculado do seu objetivo maior: o de oportunizar a sensibilidade artística por meio da expressão de sentimentos, visão de mundo e da interação, numa relação direta com a realidade do estudante.\n\nDesta forma, a disciplina de arte deve exceder a essa desvalorização, marcadamente influenciada pela herança cultural escolar que categoriza o fazer artístico a um plano inferior às outras vivências epistemológicas e científicas, uma vez que a disciplina se ocupa da subjetividade e da experiência sensível.\n\nO fazer artístico, no componente Arte, estimula o desenvolvimento de processos criativos expressos na dimensão estética, contribuindo para a formação do senso crítico. Contribuí para estabelecer relações de individualidades, compreendendo suas subjetividades. Para que isso aconteça, é necessário que o fazer artístico seja proposto numa distância segura da imposição de modelos padronizados, muitos deles carregados de estereótipos incorporados que diminuem a capacidade de criação e análise do estudante.\n\nSegundo as Orientações Curriculares da Área de Linguagens da Secretaria de Estado de Educação de Mato Grosso, o fazer artístico é o momento de criação, de releitura, de fazer, de repensar, de expressar-se artisticamente num espaço-tempo para criar. A arte, como forma de aprendizagem, oportuniza o estreitamento entre os povos ao se conectarem de alguma forma pelas produções artísticas. O cantar em grupo, por exemplo, pode aproximar um grupo a partir de suas diferenças e semelhanças ao mesmo tempo, mobilizando sentidos e emoções. Nessa atividade, são articulados movimentos “físico, emocional, sensorial, estético e intelectual” (ZAMPRONHA, 2002, P. 23).\n\nQuando o estudante observa obras de arte, é estimulado, e não obrigado, a escolher uma delas como suporte de ideias para o seu trabalho artístico, o objeto de arte que produziu é sempre um suporte interpretativo e não um modelo a ser copiado, reproduzido. Dessa forma, o fazer artístico precisa explorar a sensibilidade, lidar com o jogo de emoções, transcender a ditadura da forma e dos conceitos, para tornar-se livre expressão idiossincrática do estudante.\n\nO fazer artístico deve propor ao estudante momentos em que perceba que muitas das grandes obras, ainda que concebidas numa profunda exploração da sensibilidade de seu criador, são dotadas de expressividade inteligível, cuja comunicação entre artista e fruidor se estabelece, rompendo as barreiras do tempo e do espaço, preservando a livre expressão.\n\nAntes de quaisquer análises, é necessário esclarecer as diferenças entre experiências sensoriais e experiências sensíveis. Define-se aqui as experiências sensoriais, todas aquelas relativas aos processos de ativação do sistema sensorial, ou seja, as experiências que estimulam sentidos relacionadas ao ver, ao tocar, ao ouvir, ao sentir o cheiro ou o sabor.\n\nO prazer está ligado puramente às sensações, em muitos casos, de efeito muito mais biológico do que cultural. Quando se trata de experiência sensível, estas estão relacionadas aos sentimentos, emoções, experimentados pela suscetibilidade humana para ofender-se, melindrar-se, rir, chorar, temer ou apresentar qualquer outro tipo de reação a uma abordagem que lhe é feita.\n\nTodo e qualquer processo de criação perpassa pelo repertório emocional. Ninguém que seja impassível a determinado assunto será capaz de produzir qualquer objeto, seja artístico ou mercadológico, sem dotá-lo de fraquezas e adiaforia. O fazer artístico está diretamente ligado à experiência sensível. Quanto maior for a sensibilidade do artista, mais profunda será a tradução da realidade ou do pensamento da sociedade em que ele está inserido.\n\nÉ na experiência sensível que se entra em contato com as mazelas sociais, com as dinâmicas do amor e do ódio, com as inquietações psíquicas, com os valores morais e emocionais, e consegue-se traduzir alegrias e tristezas em obras artísticas.\n\nÉ pela experiência sensível que se compreende determinadas obras, concebidas em outros séculos, em outras culturas, mas que, em muitos casos, traduzem o estado de espírito, aplacam ou enfurecem as emoções, e transportam as pessoas para determinados mundos nos quais querem viver ou esquecer.\n\nA experiência sensível é que permite as obras nunca envelhecerem, rompem as fronteiras do espaço e aproxima a todos do fazer artístico autêntico. É pela experiência sensível que se exteriorizam ou se manifestam as criações subjetivas.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

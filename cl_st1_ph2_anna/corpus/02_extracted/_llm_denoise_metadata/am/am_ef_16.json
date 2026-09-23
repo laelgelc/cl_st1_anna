@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ec39894edcea765006ab2fd13031087d2862eb60552ddbe89",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 804,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1195,
+      "output_tokens_details": {
+        "reasoning_tokens": 540
+      },
+      "total_tokens": 1999
+    }
+  },
+  "created_at": "2026-09-22T22:11:41Z",
+  "duration_seconds": 10.515,
+  "error": null,
+  "excerpt_id": "am_ef_16",
+  "filename": "am_ef_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "410b5be5c92013c33f2874c8754232eaf16d0edbe01a643125256a5d26e2036b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "11af9e56e17bf3e60bf513c6a5f2b622f44d3fc1c94db3b140b77f625d361729",
+    "rendered_prompt_sha256": "a923728edd8dfcbcd151f5a5c2d00fd7e70045dc1767718500d9c009d6b8ca80",
+    "source_text_sha256": "88dec6b921c2f1d12790057030f258ef2df787442ed76e05ec1efce4b245dfdf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 317,
+    "filename": "am_ef_16.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_16.txt",
+    "state": "am",
+    "word_count_original": 435
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_16.json"
+  },
+  "raw_response_text": "### 5.5.\n\nNa língua banto, a palavra quilombos refere-se a um tipo de instituição sociopolítica militar na África Central e, no Brasil, a palavra foi usada para designar comunidades organizadas por escravos negros fugidos, mas que também abrigavam índios e brancos pobres. Um dos quilombos mais conhecidos é o de Palmares, situado no interior de Alagoas, num local de difícil acesso. No entanto, não foi o único. Esses espaços de luta e resistência espalharam-se por todo o Brasil, como sociedades organizadas e hierarquizadas com liberdade para viver e manifestar suas crenças e cultura.\n\nSeu reconhecimento e legitimidade veio apenas com a Constituição de 1988, atribuindo a esses espaços atuais o nome de Comunidades Remanescentes Quilombola. Existem atualmente cerca de 14.369 (quatorze mil, trezentos e sessenta e nove) comunidades no Brasil.\n\nO Decreto Nº 4887/03 oportuniza uma melhor compreensão sobre essas comunidades, principalmente do grande desafio lançado aos(as) educadores(as) em formar nessas comunidades, mas também nas escolas não quilombolas, uma perspectiva de respeito, valorização e preservação da sua tradição oral, principalmente numa sociedade prioritariamente escrita. Assim:\n\n> consideram-se remanescentes das comunidades dos quilombos  \n> os grupos étnico-raciais, segundo critérios de auto atribuição, com  \n> trajetória histórica própria, dotados de relações territoriais  \n> específicas, com presunção de ancestralidade negra relacionada  \n> com a opressão histórica sofrida (DECRETO Nº 4887/2003).\n\nO objetivo desta perspectiva é fortalecer os sistemas municipais, estaduais e do Distrito Federal de educação, envolvendo o apoio às coordenações locais na melhoria de infraestrutura, formação inicial e continuada de professores e professoras que atuam nas comunidades remanescentes de quilombos, visando à valorização e a afirmação dos valores étnico-raciais na escola e proporcionando instrumentos teóricos e conceituais necessários para compreender e refletir criticamente sobre a educação básica oferecida nas comunidades remanescentes de quilombos.\n\nVale ressaltar, no entanto, que a proposta da educação quilombola se configure em trabalho contínuo visando minimizar o preconceito, porque este nasce na ignorância.\n\nDiferente do que se divulga, no Amazonas há várias comunidades remanescentes de Quilombos:\n\n1. Cinco no Município de Barreirinha;\n2. Um no município de Novo Airão, localizada no Parque Nacional do Jaú;\n3. Um no bairro Praça 14 de Janeiro, em Manaus;\n4. Uma comunidade no município de Itacoatiara.\n\nEssas comunidades enfrentam coletivamente uma história de luta e resistência contra a opressão, o racismo, o preconceito e a violência. É importante lembrar que nos tempos da escravidão essa luta se dava em relação ao regime escravista. Na atualidade, em relação à posse indevida das terras quilombolas por grupos com poder político e econômico, o racismo e a invisibilização de sua cultura e de seus direitos.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

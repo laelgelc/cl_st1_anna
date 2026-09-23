@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0eeddc430be8aecb006ab3030c95b487d290c489d8dc677839",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1269,
+      "input_tokens_details": {
+        "cache_write_tokens": 1266,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1425,
+      "output_tokens_details": {
+        "reasoning_tokens": 318
+      },
+      "total_tokens": 2694
+    }
+  },
+  "created_at": "2026-09-22T22:37:11Z",
+  "duration_seconds": 10.722,
+  "error": null,
+  "excerpt_id": "mg_em_138",
+  "filename": "mg_em_138.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1973abd0e3336fad93185ccfa6f064b26fd0d906be861aaef9fe7165d47a4519",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7cdeea80543999656fc5fa60ad0d2f3ed41b2d587e0d2b67ead086cc147f1f1d",
+    "rendered_prompt_sha256": "ca12043c2f948af142b252fc627f94c6b491f08dbb0d61dda9f2d1316e5e7f27",
+    "source_text_sha256": "4103c53c46e2e672f500b88d84d01278bc912c2805af5068f50d36ce77a4d58b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_138.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1528,
+    "filename": "mg_em_138.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_138.txt",
+    "state": "mg",
+    "word_count_original": 774
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_138.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_138.json"
+  },
+  "raw_response_text": "## 6.10.2 Pressupostos teóricos da BNCC em relação às Ciências da Natureza e no campo da educação ambiental\n\nVárias são as iniciativas de desenvolvimento de ações de Educação Ambiental existentes. Todas as ações educativas são dinâmicas, integrativas, permanentes e transformadoras, justamente porque possibilitam a aquisição de conhecimento e habilidades de forma participativa, tendo como ponto central o desenvolvimento socioambiental. A transformação que se efetiva na sociedade é promovida, principalmente, pelas escolas, seus estudantes e profissionais, pela apropriação dos conhecimentos, tendo como ponto de partida a realidade vivida pelos estudantes, sua família e comunidades, valorizando seus conhecimentos e saberes.\n\nEm um contexto cultural, podemos destacar que grande parte da sociedade de consumo em que vivemos tem como hábito extrair da natureza a matéria-prima, utilizá-la e depois descartá-la inadequadamente, especialmente em lixões, caracterizando uma relação contraditória com o que chamamos de “civilização”. Atitudes como essa acarretam uma significativa perda ambiental, devido ao potencial altamente poluidor e do mau gerenciamento dos resíduos gerados, comprometendo a qualidade do ar, do solo e, principalmente, das águas superficiais e subterrâneas (AZEVEDO, 1996, p. 56-60).\n\nPor outro lado, para Marcos Reigota (1999), a Educação Ambiental visa à formação de cidadãos críticos, conscientes e atuantes, na promoção de uma educação política. O que reitera a abordagem que defende a corrente moral/ética, em termos do objetivo da Educação Ambiental. Conforme bem ressalta Lucie Sauvé (2005), pretende-se dar prova de ecocivismo, desenvolver um sistema ético, a partir das seguintes estratégias: análise e definição de valores, crítica aos valores sociais, com os enfoques dominantes no âmbito cognitivo, afetivo e moral.\n\nNesse sentido, por meio de uma educação transformadora e pautada no senso crítico, o Currículo de Referência em conformidade com a BNCC busca desenvolver ações de intervenção para melhorar a qualidade de vida individual, coletiva e socioambiental (BRASIL, 2018, p. 323).\n\nPrioriza-se, assim, o agir pessoal e coletivo baseado em valores éticos. Conforme a BNCC, tais valores, por sua vez, pressupõem atitudes éticas, tais como respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação. Portanto, o trabalho efetivo da Educação Ambiental se faz essencial e indispensável na formação escolar das juventudes e adultos inseridos no Ensino Médio de Minas Gerais:\n\n> A crise ambiental é a crise do nosso tempo. O risco ecológico questiona o conhecimento do mundo. Esta crise apresenta a nós como limite no real, que ressignifica e reorienta o curso da história: limite do crescimento econômico e populacional; limite dos desequilíbrios ecológicos e das capacidades de sustentação da vida; limite da pobreza e da desigualdade (LEFF, 2003).[^41]\n\nNa pós-modernidade, o homem parece perceber o rastro de sua destruição provocado ao planeta e que para a garantia da vida e de sua sobrevivência na Terra, necessita voltar a viver em comunidade adotando a prática da solidariedade e da conservação ambiental.\n\nNesse sentido, a educação ambiental deve ser desenvolvida ao longo de toda a educação básica para que, os estudantes de todas as etapas possam entender o ambiente onde estão inseridos, observando o seu funcionamento, sua importância e a necessidade de sua preservação para a garantia da vida. Para tanto, os hábitos, as atitudes, o comportamento, a sensibilidade, a solidariedade, o respeito mútuo, e a ética são pontos a serem refletidos e desenvolvidos na agenda ambiental incluída no PPP de cada escola, no intuito de resgatar a ética do cuidado.\n\nJustifica-se, assim, a importância de ampliação da perspectiva ambiental em consonância com os PCNs – Temas Transversais: meio ambiente e saúde, tendo em vista que esse tema consiste num modo de ver o mundo em que se evidenciam as inter-relações e a interdependência dos diversos elementos na constituição e manutenção da vida. A educação, nessa perspectiva, contribui para evidenciar a necessidade de um trabalho vinculado aos princípios da dignidade do ser humano, da participação, da corresponsabilidade, da solidariedade e da equidade.\n\nA Educação Ambiental do Currículo Referência visa articular tais princípios às práticas educativas da ecofilosofia/eco-ontogênese e do desenvolvimento sustentável, com o intuito de evidenciar seus reflexos no contexto da escola/sala de aula, bem como fora dela. Assim, o objetivo é a promoção e o desenvolvimento de posturas mais coerentes e conscientes em torno da valorização da temática ambiental, para além do âmbito individual. A Educação Ambiental é, portanto, de fundamental importância, sobretudo no espaço escolar e na comunidade de seu entorno, uma vez que estudantes podem adquirir uma consciência favorável à preservação ambiental, revendo e modificando, assim, suas práticas (e também de seus familiares) no que diz respeito ao meio ambiente.\n\n[^41]: LEFF, Enrique. Pensar a Complexidade Ambiental. In: LEFF, Enrique (org). A Complexidade Ambiental. São Paulo: Cortez, 2003. p. 15-6.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_078e686f51bc2f07006ab3052d722887d2b78122b941f13546",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 662,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 681,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 1343
+    }
+  },
+  "created_at": "2026-09-22T22:46:11Z",
+  "duration_seconds": 5.872,
+  "error": null,
+  "excerpt_id": "mt_inf_16",
+  "filename": "mt_inf_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "489e84c03a001f48d800b7cdc56d123b45b97339ef5301cfb3c1f8f88cf8dc34",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ee80b91c553b2c946ef3566f8cc933ddb65b5e866f1687236c0e24bf48b36145",
+    "rendered_prompt_sha256": "8de41aaf476baad40b5760c7f1b87c5696f2ab3b5a726fff082c0bc181824d24",
+    "source_text_sha256": "96d626f88f4aef8a1e9c76566e471461b926f049dfece39188e2fedd678eb759"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_inf_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1983,
+    "filename": "mt_inf_16.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_inf_16.txt",
+    "state": "mt",
+    "word_count_original": 355
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_inf_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_inf_16.json"
+  },
+  "raw_response_text": "## 2.2.1 Direitos de aprendizagem e desenvolvimento no campo de experiências corpo, gestos e movimentos (CG)\n\nNo campo de experiências corpo, gestos e movimentos, os direitos de aprendizagem podem ser assegurados quando oportunizamos às crianças:\n\n- **CONVIVER** com crianças e adultos vivenciando aspectos da cultura corporal nos cuidados com si e nas diferentes representações culturais (dança, música, teatro, artes circenses, escuta de histórias e brincadeiras).\n- **BRINCAR** de forma criativa utilizando o repertório da cultura corporal e do movimento.\n- **EXPLORAR** por meio dos gestos, olhares, movimentos, produção de sons e de mímicas, para a descoberta do uso e ocupação do espaço com o corpo.\n- **PARTICIPAR** de vivências que envolvem as práticas corporais para o desenvolvimento da autonomia nos cuidados com si.\n- **EXPRESSAR** corporalmente nas suas ações e relações cotidianas, nas brincadeiras, dramatizações, danças, músicas, contação de histórias suas emoções e representações.\n- **CONHECER-SE** nas diferentes situações de interações e explorações com seu corpo.\n\nFONTE: BRASIL (2018)\n\n## 2.2.2 Objetivos de aprendizagem e desenvolvimento no campo de experiências corpo, gestos e movimentos (CG)\n\nOs objetivos de aprendizagem e desenvolvimento para os bebês, as crianças bem pequenas e as crianças pequenas assim são descritos na BNCC:\n\n## 2.2.3 Professor, o que garantir no planejamento?\n\nNa definição do campo de experiência — corpo, gestos e movimentos —, o sistema de ensino Mato-Grossense assume o entendimento de Faria e Salles (2012, p. 110), sobre a apropriação e a transformação do mundo por meio do movimento: “conhecemos e modificamos os espaços, os objetos, os elementos da natureza, a nós mesmos, bem como nos relacionamos com o outro e com a cultura[...]”.\n\nDeste modo, o professor precisa oportunizar diferentes situações que envolvam a dança, a expressão corporal e o movimento por meio dos eixos interações e brincadeiras, garantindo nas práticas pedagógicas a efetivação dos direitos de aprendizagem e desenvolvimento.\n\nTorna-se necessário garantir nas propostas didáticas a organização espacial e material, propiciando à criança a mobilização de seus movimentos para explorar o entorno e as possibilidades de seu corpo, observando as expressões do corpo das crianças nas mais diferentes manifestações culturais e brincadeiras tradicionais.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

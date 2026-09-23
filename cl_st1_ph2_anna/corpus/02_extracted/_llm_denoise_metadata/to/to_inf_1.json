@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0eb1482c1bf9f482006ab3106598ac87d2b2e13a28d2fb4472",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 449,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 451,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 900
+    }
+  },
+  "created_at": "2026-09-22T23:34:02Z",
+  "duration_seconds": 5.211,
+  "error": null,
+  "excerpt_id": "to_inf_1",
+  "filename": "to_inf_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3a4c11b38b4de02559737c005844227f24f78a3305fc0f3cb91852250d97240d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c301740c4078e7033fbd7e0f59f1940ed2cf81c5e6d7462c2d0137f020f7702f",
+    "rendered_prompt_sha256": "5b18af20df5b721bf857803286dc1fcdb844587dfa0f0a35d2e53d735555209b",
+    "source_text_sha256": "7ed848ded71facd8573af87ca7fa77ad6114dde69c12cdcbea67207e5863bbba"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_inf_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4082,
+    "filename": "to_inf_1.txt",
+    "filepath": "corpus/00_source_per_state/to/to_inf_1.txt",
+    "state": "to",
+    "word_count_original": 239
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_inf_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_inf_1.json"
+  },
+  "raw_response_text": "O Documento Curricular do Tocantins – DCT para a Educação Infantil e o Ensino Fundamental representa a entrega de um consistente processo participativo, transparente, democrático e, sobretudo, educacional. Foram largos anos de análises, discussões e proposições que tiveram como fio condutor políticas nacionais curriculares direcionadas à Educação Básica e, que hoje se materializam por meio da Base Nacional Comum Curricular – BNCC, diretriz que alicerça o referencial ora apresentado.\n\nNesse sentido, a intenção deste documento consiste na garantia ao direito à aprendizagem, ao desenvolvimento das potencialidades e capacidade transformadora dos estudantes, numa perspectiva de formação integral e cidadã em todo o território.\n\nOs pressupostos impressos neste documento perpassam pelo repensar e ressignificar espaços e estratégias de aprendizagem, modelos pedagógicos, relações docentes, processos avaliativos, considerando o estudante como centralidade do ensino e aprendizagem.\n\nConvictos de que o Documento Curricular do Tocantins contempla oportunidades iguais, por meio de percursos diferentes, e acolhe os anseios dos profissionais da educação, sua implementação conduz para a oferta de uma educação que edifica uma sociedade digna e justa.\n\nPor isso, prezado(a) professor(a), para que este marco legal, normativo e referencial do Estado seja consistente e representativo, frente ao currículo vivo das escolas, você é fundamental neste contexto e sua prática docente será o diferencial para o ensino de qualidade do Estado do Tocantins.\n\nPorque, Professor que Educa, Faz!\n\nSecretária Estadual da Educação, Juventude e Esportes",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02857dfe38abc625006ab306fc38a887d2a083132460dc54f4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 810,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 847,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 1657
+    }
+  },
+  "created_at": "2026-09-22T22:53:55Z",
+  "duration_seconds": 7.45,
+  "error": null,
+  "excerpt_id": "pb_em_106",
+  "filename": "pb_em_106.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4e6c63a56e3a98fb75133909a87fac0330524fa5563d8cdcb3afe78408c53765",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a3dbf8c8f5bf3cfd0008e1a7e9a35d75d6c64821c27fa69d0f123028166c4cd7",
+    "rendered_prompt_sha256": "fb1a8c79fcb002834c09819823d915e340e2687e608ff61347a7dff61b619b85",
+    "source_text_sha256": "abb0adb1eeb28c6ff0bcc75eeaa0aef67778ce5f77533d79671e4766843df04e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_106.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2240,
+    "filename": "pb_em_106.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_106.txt",
+    "state": "pb",
+    "word_count_original": 504
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_106.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_106.json"
+  },
+  "raw_response_text": "### 3.7.7 COMO SERÁ A AVALIAÇÃO?\n\nA avaliação é um suporte facilitador das aprendizagens, sendo assim um meio para acompanhar a evolução do processo de ensino e aprendizagem. As ferramentas avaliativas precisam estar alinhadas com as possibilidades dos campos de vivências e com os objetivos de aprendizagem, pois ela vai além de uma noção baseada em conteúdo. Entendemos, assim como (LIBÂNEO, 1994, p. 195), que “a avaliação é uma didática necessária e permanente do trabalho docente, que deve acompanhar passo a passo o processo de ensino e aprendizagem”.\n\nSendo assim, faz-se necessária a percepção de uma educação para a vida, em que a escola, por sua vez, precisa reafirmar o seu papel como mediadora do conhecimento e estar ciente da sua importância na construção formativa do estudante.\n\nA avaliação é uma tarefa complexa que não se resume à realização de provas e atribuição de notas. A mensuração apenas proporciona dados que devem ser submetidos a uma apreciação qualitativa. A avaliação, assim, cumpre funções pedagógico-didáticas, de diagnóstico e de controle, em relação às quais se recorrem a instrumentos de verificação do rendimento escolar. (LIBÂNEO, 1994, p. 195).\n\nO processo avaliativo das Eletivas poderá ser composto por:\n\n- **Diagnóstico:** no início da Eletiva — verificar o quanto os estudantes dominam determinados conhecimentos, habilidades e competências. É possível, dessa forma, mapear os pontos fortes e as dificuldades da turma e de cada aluno, em específico, o que funciona de fato como um diagnóstico (atividade, questionário, entrevista, produções textuais ou qualquer outra forma que seja coerente com aquilo que se pretende avaliar).\n- **Formativo:** durante o processo da Eletiva — verificar se os estudantes estão alcançando os objetivos propostos na ementa da Eletiva. Analisar as aprendizagens desenvolvidas no processo de ensino e aprendizagem através de debates orientadores, conversas com os alunos, exercícios, trabalhos em grupo, feedbacks, entre outros.\n\nNessa perspectiva, os professores titulares podem confeccionar juntamente com os alunos cadernos para esse fim. Poderão realizar atividades em grupo e individuais para apoiar nesse processo, tais como autoavaliação, avaliação por pares, uso de rubricas, criação de portfólios, observação etc. O desempenho do aluno poderá ser levado em consideração durante a constatação crescente e sustentável das ações avaliativas realizadas pelos componentes curriculares correlacionados durante o processo avaliativo realizado na Formação Geral Básica.\n\nPara que o estudante possa entender o seu progresso de evolução na aprendizagem, é essencial que o professor:\n\n1. Faça registros sobre o desenvolvimento dos estudantes.\n2. Garanta momentos de devolutivas.\n\nNa atribuição do conceito, é importante haver uma conexão entre ambos, com o objetivo de sensibilizar o(a) estudante para uma avaliação honesta de si. O professor deve solicitar que cada estudante realize uma autoavaliação, com base em alguns critérios, tais como:\n\nAo final do processo, é importante que o professor instigue o estudante a realizar uma autoavaliação a partir dos seguintes pontos:\n\nNesse caso, a autoavaliação servirá de apoio para o aprimoramento e aperfeiçoamento significativo no desenvolvimento do carácter ético e profissional por parte dos estudantes no processo de Formação Geral Básica apoiado pelos Itinerários Formativos.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

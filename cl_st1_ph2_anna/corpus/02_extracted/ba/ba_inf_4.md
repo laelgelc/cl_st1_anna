@@ -1,0 +1,58 @@
+### 7.4. Articulações e Garantias
+
+É preciso afirmar a infância como “um mundo outro” (CHOMBART DE LAUWE, 1991).
+
+É preciso, portanto, não fazer da conjugação da Educação Infantil com o Ensino Fundamental um processo de subordinação a este e a sua tradição pedagógica, para não cairmos numa certa pedagogização essencialista da Educação Infantil. Essa atitude que defendemos não significa, como alerta Kuhlmann Jr., uma demarcação no estilo avestruz, face à realidade nacional, fazendo uma reserva de domínio descomprometida com o Ensino Fundamental.
+
+Trata-se de reconhecer a importância dos dois momentos, que deverão entretecer-se, articular-se intensamente, pois vivenciar a Educação Infantil e suas especificidades e valorizar o Ensino Fundamental como uma demanda de potência democrática ineliminável é reconhecer que, afinal de contas, formação, aqui, está tratando da infância na sua condição humana e nas suas diferenças ontológicas.
+
+Ao publicizar o Programa de Ampliação do Ensino Fundamental, o Ministério da Educação aponta para uma ação de equidade social, ou seja, de justiça social pela via da diferença, ao garantir a todas as crianças mais um ano de escolarização, corrigindo, por consequência, as distorções produzidas pelos mecanismos do Fundef. Não se tratava tão somente da antecipação da escolarização obrigatória, mas também de sua ampliação, o que poderia significar mais permanência com mais qualidade.
+
+No que se refere à Educação Infantil, apostou-se que o deslocamento das crianças de 6 anos para o Ensino Fundamental geraria, como efeito positivo, o aumento de vagas nessa etapa educativa. Em realidade, estudos de Campos e Silva (2011) mostram que a transição tem sido feita de forma inconsistente em alguns contextos educacionais brasileiros, e que as expectativas da iniciativa não vêm ocorrendo. Por exemplo, a pressão por vagas na Educação Infantil continua.
+
+Preocupar-se com uma prática pedagógica que não compartimentalize Educação Infantil e Ensino Fundamental é fundar mais uma atitude de desconstrução das fragmentações que tanto aprendemos a fabricar. Aproximar, articulando, esses dois momentos educacionais é um procedimento que nos direciona justamente para a complexidade da aprendizagem como fenômeno sociointerativo que deve sempre, de forma inarredável, estar compromissada com a qualificação da formação.
+
+É preciso que qualquer orientação norteadora sobre a educação das crianças pequenas parta das suas ontologias, das suas condições socioculturais concretas, compreendendo que o conhecimento do mundo envolve afeto, prazer, desprazer, fantasia, brincadeira, movimento, poesia, ciências, artes, linguagem, música, matemática etc., que, para a criança, a brincadeira é uma forma de linguagem, assim como a linguagem pode ser uma forma de brincadeira (KUHLMANN JR., 1999), e que o polimorfismo é a forma de expressão preponderante deste mundo outro.
+
+Nessa nova realidade, o Ensino Fundamental de 9 (nove) anos traz diversas implicações, desde a exigência de investimentos em aspectos físicos e materiais para atender à criança de 6 (seis) anos no espaço escolar, até a destinação de recursos relacionados às políticas de formação de professores e demais necessidades de cunho pedagógico. Podemos dizer que, mesmo com o avanço das políticas públicas para a pequena infância, verificamos que as propostas educativas criadas para este momento histórico revelam que, de forma elaborada, o caráter compensatório ainda se faz presente.
+
+Vale ressaltar que a Educação Infantil é complementar à educação da família e um direito da criança; portanto não se constitui apenas como um pré-requisito para o seu ingresso na escola. Reiteramos que o fato de a Educação Infantil fazer parte da Educação Básica não subentende que deverá antecipar o modelo escolar do Ensino Fundamental, extremamente contestável quando se trata da relação dessa proposta pedagógica com as diversas infâncias que se apresentam à escola buscando formação.
+
+Convencido da necessidade de parâmetros para a educação da infância, o MEC (BRASIL, 1995, p. 11) apresentou critérios de qualidade para que a Educação Infantil respeitasse os direitos fundamentais das crianças:
+
+- Nossas crianças têm direito à brincadeira;
+- Nossas crianças têm direito à atenção individual;
+- Nossas crianças têm direito a um ambiente aconchegante, seguro e estimulante;
+- Nossas crianças têm direito ao contato com a natureza;
+- Nossas crianças têm direito à higiene e à saúde;
+- Nossas crianças têm direito a uma alimentação sadia;
+- Nossas crianças têm direito a desenvolver sua curiosidade, imaginação e capacidade de expressão;
+- Nossas crianças têm direito ao movimento em espaços amplos;
+- Nossas crianças têm direito à proteção, ao afeto e à amizade;
+- Nossas crianças têm direito a expressar seus sentimentos;
+- Nossas crianças têm direito a uma especial atenção durante seu período de adaptação à creche;
+- Nossas crianças têm direito a desenvolver sua identidade cultural, racial e religiosa.
+
+O que podemos concluir dessas elaborações de possibilidades autonomistas e emancipacionistas é que devemos falar não apenas de direito à aprendizagem, mas de direito à formação qualificada via aprendizagens relevantes e pertinentes. Toda proposta curricular que tem como base propostas de aprendizados precisa ser submetida a processos ampliados de debate sobre sua valoração, pois esse é o campo do formacional.
+
+Na medida em que nem toda aprendizagem é boa, a formação requer uma aprendizagem eleita como formativa, do contrário podemos estar repetindo padrões e crenças legitimados por centros de poder da educação, sem reflexões profundas sobre suas pertinências e relevâncias formativas, até porque, levando em conta os argumentos aqui já desenvolvidos sobre a formação, a formação, da perspectiva curricular, é sempre uma (in)tensa pauta ética e política, e envolve, portanto, opções, escolhas em face de demandas diversas.
+
+Nesse mesmo veio, devemos nos interrogar quem elege o que é formativo para as crianças, como elegem e para que elegem. Vale dizer que, para nosso interesse de texto, o formativo para as crianças implica compreender o que e como elas estão aprendendo, envolvendo os atos de currículo (MACEDO, 2010; 2012; 2013) que envolvem e fazem a mediação dessa aprendizagem. Portanto, não falemos apenas de direito à aprendizagem, mas de direito à formação qualificada, em que aprendizagens mediadas e com conteúdos cognitivos, éticos, estéticos, políticos e culturais estejam presentes em processos de qualificação dessa própria formação.
+
+Vale ressaltar o argumento de Kohan (2003). Para esse autor, em educação, associamos infância à primeira idade, pensando os seres humanos atravessando estágios cujos percursos costumam ter o signo do progresso. A infância seria o primeiro degrau associado a uma marca do ser em potência – e não em ato –, do que pode ser, mas ainda não é, do que virá a ser se acompanhamos a infância com um bom currículo, numa referência aberta a uma concepção exterodeterminante de desenvolvimento, a uma perspectiva de quase condenação sociopedagógica.
+
+A proposta pedagógica para a Educação Infantil e a incorporação da criança de 6 anos no Ensino Fundamental é justificada como uma tentativa de superar um discurso que difundiu o assistencialismo separado da educação. Buscou-se, e ainda se busca, a construção de uma identidade localizada em outro extremo, exaltando a excelência educativa pautada no modelo escolar, como se este fosse o melhor parâmetro de qualidade.
+
+A permanência de crianças de 6 anos no Ensino Fundamental hoje é fato, ou seja, é uma política que se efetivou. Com efeito, em 2006, a redação da Lei no 11.274 modificou o art. 32 da Lei de Diretrizes e Bases da Educação Nacional de 1996. A partir de então, definiu-se que o aluno ingressaria nos estabelecimentos escolares que ministravam o Ensino Fundamental aos 6 anos de idade, em caráter obrigatório.
+
+Alguns incisos do artigo mencionado afirmam a necessidade de que os estudantes desenvolvam, ao longo da segunda etapa da Educação Básica, a habilidade de aprender, considerando relevante o pleno domínio da leitura, da escrita e do cálculo, além da percepção adequada do ambiente natural e social. O estudo do sistema político, da tecnologia, das artes e dos valores que regem a sociedade em que vivemos deveria fazer parte do currículo.
+
+O Ministério da Educação (MEC), a Secretaria de Educação Básica (SEB), o Departamento de Políticas de Educação Infantil e Ensino Fundamental (DPE) e a Coordenação Geral do Ensino Fundamental (COEF) publicaram, em 2004, um documento intitulado “Ensino Fundamental de nove anos: orientações gerais”, dizendo ter como objetivo incentivar políticas que pudessem promover transformações estruturais nas instituições escolares, no que se refere ao processo de “ensino/aprendizagem, avaliação, currículo, conhecimento e desenvolvimento humano”.
+
+Ao mesmo tempo, postulava-se a necessidade de que não houvesse uma ruptura entre a Educação Infantil e o Ensino Fundamental e, nessa direção, reforçava-se a importância das Diretrizes Curriculares Nacionais para a Educação Infantil na revisão da proposta pedagógica do Ensino Fundamental, que passaria a atender às crianças de 6 anos:
+
+> “[...] O objetivo de um maior número de anos de ensino obrigatório é assegurar a todas as crianças um tempo mais longo de convívio escolar, maiores oportunidades de aprender e, com isso, uma aprendizagem mais ampla. É evidente que a maior aprendizagem não depende do tempo de permanência na escola, mas sim do emprego mais eficaz do tempo. No entanto, a associação de ambos deve contribuir, significativamente, para que os estudantes aprendam mais. Seu ingresso no Ensino Fundamental obrigatório não pode constituir-se em medida meramente administrativa. O cuidado na sequência do processo de desenvolvimento e aprendizagem das crianças de seis anos de idade implica o conhecimento e a atenção às suas características etárias, sociais e psicológicas. As orientações pedagógicas, por sua vez, estarão atentas a essas características para que as crianças sejam respeitadas como sujeitos do aprendizado” (BRASIL, 2004, p. 17-18).
+
+Importante notar que, se no âmbito formal o primeiro ano passou a pertencer ao Ensino Fundamental, do ponto de vista da prática pedagógica ainda está inserido na Educação Infantil. Por isso, as Diretrizes continuam sendo orientações para o planejamento dos conteúdos que deveriam ser trabalhados com as crianças de 6 anos.
+
+Recomenda-se atenção às singularidades dos alunos dessa faixa etária, a não antecipação do currículo da antiga primeira série, ao mesmo tempo em que se estimula a alfabetização precoce. O fato de o educando estar imerso em um “ambiente alfabetizador” já na Educação Infantil, ou seja, de ter acesso a situações em que a leitura e a escrita possuem usos reais de expressão e comunicação, seria um elemento facilitador para um processo de transição “natural” entre a primeira e a segunda etapas da Educação Básica.

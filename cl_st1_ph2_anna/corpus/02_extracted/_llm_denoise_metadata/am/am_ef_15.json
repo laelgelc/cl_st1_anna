@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02d5b76978748034006ab2fd10899087d287e2c30cbc0274c1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 646,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1145,
+      "output_tokens_details": {
+        "reasoning_tokens": 653
+      },
+      "total_tokens": 1791
+    }
+  },
+  "created_at": "2026-09-22T22:11:41Z",
+  "duration_seconds": 13.36,
+  "error": null,
+  "excerpt_id": "am_ef_15",
+  "filename": "am_ef_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "020549fec877f5ad4d8125a3df6a1d26ecf301ac27e76aa63b63485a1523581b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ecb2b7a4a5e5cadcf614a9b73ba81911ce1a8279deb07504888b02ac28a81977",
+    "rendered_prompt_sha256": "1c3a322b434079bf1e6a38b2b7c55035aea7cb43e73433eb318e1b8ae6d7d3f2",
+    "source_text_sha256": "cbd8f1ab7035735e6733e0d0adf1ca0bd72b25c80cf7d18a3f674f51d76de0fc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 316,
+    "filename": "am_ef_15.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_15.txt",
+    "state": "am",
+    "word_count_original": 357
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_15.json"
+  },
+  "raw_response_text": "5.4.\n\nNa mesma perspectiva de desconstrução de estereótipos e folclorização, a Lei Nº 11.645/08 trouxe a obrigatoriedade do Ensino de História e Cultura Indígena, propondo uma mudança na abordagem desse tema que, ao contrário dos negros, não foi invisibilizado, mas também não dera a eles o direito de ser reconhecidos e valorizados pela presença, contribuição e influência, além do fato de serem os primeiros habitantes desta nação. Nesse contexto, insere-se um aprofundamento das discussões que envolvem a questão racial na escola visando à desconstrução de representações negativas.\n\nA legislação citada prevê não apenas o reconhecimento dos direitos fundamentais dos povos indígenas, mas também a incorporação da temática indígena nos currículos escolares, visando debater as principais questões em relação ao processo de ensino-aprendizagem e desfazer ainda equívocos como tratar todos os povos indígenas como um índio genérico, como se praticassem a mesma crença e a mesma cultura, a mesma crença e a mesma língua, isto é, conforme afirma Freire (2010), mantendo “uma ideia equivocada que reduz culturas tão diferenciadas a uma entidade supraétnicas”, considerar sua cultura como atrasada ou primitiva ou ainda congelar as culturas indígenas como se qualquer transformação na imagem que se tem do indígena causasse estranhamento e fosse passível do julgamento de que se é ou se deixou de ser.\n\nDiante disso, a escola é responsável em realizar uma abordagem na perspectiva do multiculturalismo, visando romper o modelo eurocêntrico, suprimir a concepção positivista que ainda permeia os livros didáticos, promover o diálogo entre o ensino de História e as culturas indígenas, superar as tensões que historicamente atravessam as relações entre a escola e a cultura indígena, subsidiar e entender as questões sociais enfrentadas por estes povos ao longo de mais de 500 anos de História, centrando essa práxis nas transformações que a escola indígena vem experimentando nas últimas décadas e nas políticas públicas voltadas para o ensino e cultura indígena.\n\nEnfim, o objetivo é a valorização e o respeito à cultura desses povos indígenas, que tenha atenção específica com a construção de materiais pedagógicos, onde contemple sua diversidade, suas reivindicações, considerando suas complexidades, envolvendo muita pesquisa para sua construção.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e1dfe7d389a37c1006ab2ffea0ee487d29dc988fea3c88f84",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 496,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 700,
+      "output_tokens_details": {
+        "reasoning_tokens": 303
+      },
+      "total_tokens": 1196
+    }
+  },
+  "created_at": "2026-09-22T22:23:43Z",
+  "duration_seconds": 5.686,
+  "error": null,
+  "excerpt_id": "ce_inf_e_ef_24",
+  "filename": "ce_inf_e_ef_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fa76e0e447ef465804060b48ad91d23262079bfe1a3682ea21cbc57f167bf853",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c80f95a8243143fc935e594e2e14b6c4101f42bf51d2aea3eb53223df4e6504f",
+    "rendered_prompt_sha256": "ec119798a6faaa4a342d78252d058e6a2ff541f2d42d439ed7c8191a49a176cc",
+    "source_text_sha256": "d0f1e1d63fdb1e1e1d89acdfbbe058ee38fb6b277bfe9a25483f436a17f7b5f9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_inf_e_ef_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 860,
+    "filename": "ce_inf_e_ef_24.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_inf_e_ef_24.txt",
+    "state": "ce",
+    "word_count_original": 278
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_inf_e_ef_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_inf_e_ef_24.json"
+  },
+  "raw_response_text": "### 3.8. Educação Patrimonial\n\nA Educação Patrimonial se apresenta como um processo permanente e sistemático de trabalho educacional, centrado no Patrimônio Cultural, como fonte primária de conhecimento e enriquecimento individual e coletivo.\n\nPortanto, ao implantarmos a Educação Patrimonial, de forma transversal no currículo escolar das instituições educacionais, temos como objetivo primordial possibilitar que crianças, jovens e adultos se apropriem e possam valorizar sua herança cultural. Isso permite capacitar para um melhor usufruto dos bens culturais, e ainda, propicia a produção de novos conhecimentos, num processo contínuo e profícuo de criação cultural.\n\nO pensamento crítico e o desenvolvimento da consciência pelo cidadão, acerca de seu Patrimônio Cultural, são fatores indispensáveis, no processo de preservação sustentável de sua história, bem como no fortalecimento do exercício ativo da sua cidadania. A Educação Patrimonial é um instrumento pedagógico de compreensão do mundo e de resgate da própria identidade cultural de uma sociedade. Este processo educacional proporciona um autoconhecimento dos indivíduos e à valorização da cultura brasileira, compreendida como múltipla e plural.\n\nO ensino da Educação Patrimonial se propõe a ir além do estudo de conceitos, buscando o desenvolvimento de atitudes de responsabilidade e compromisso frente à preservação dos bens culturais, quer sejam materiais ou imateriais.\n\nNessa direção, Horta; Grunberg; Monteiro (1999, p. 6), afirmam que: “[...] a Educação Patrimonial é um instrumento de ‘alfabetização cultural’ que possibilita, ao indivíduo, fazer a leitura do mundo que o rodeia, levando-o à compreensão do universo sociocultural e da trajetória histórico-temporal em que está inserido.”\n\nEntendemos, assim que a abordagem da temática Educação Patrimonial em sala de aula é uma ferramenta indispensável para assegurar o conhecimento e a valorização do patrimônio cultural local.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

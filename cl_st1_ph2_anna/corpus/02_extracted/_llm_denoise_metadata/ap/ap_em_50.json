@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0485bbe212bb9e73006ab2fe2b744887d2966f3c8bc2aae77f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 994,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1442,
+      "output_tokens_details": {
+        "reasoning_tokens": 535
+      },
+      "total_tokens": 2436
+    }
+  },
+  "created_at": "2026-09-22T22:16:22Z",
+  "duration_seconds": 11.543,
+  "error": null,
+  "excerpt_id": "ap_em_50",
+  "filename": "ap_em_50.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "367af25dd2d1ac11819d98f5eefe06aa84c8d26cbefd5001793cd6376c2f7faa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "077ecb2330dfd872951b01498f25f57e3395df81276ce0eceb92f3494d2d4a7c",
+    "rendered_prompt_sha256": "571965e08e7df0516431803a44251810e20d03380845f09bbadee27a2c9647f2",
+    "source_text_sha256": "6ea13b961c42a2f729b05fac31d58cb33e90bea449622b29fbda3862b7511a0f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_50.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 547,
+    "filename": "ap_em_50.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_50.txt",
+    "state": "ap",
+    "word_count_original": 643
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_50.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_50.json"
+  },
+  "raw_response_text": "## CERTIFICAÇÃO\n\nA SEED estabelecerá cronograma de implementação das alterações promovidas pela Lei nº 13.415/2017 ainda no primeiro ano letivo após inseridas as mudanças e, a partir do segundo ano letivo subsequente, definirá o processo de certificação dos alunos.\n\nO 6º parágrafo do art. 4º da Lei nº 13.415/2017 possibilita que, a critério da SEED, a oferta de formação com ênfase técnica e profissional considere a inclusão de vivências práticas de trabalho no setor produtivo ou em ambientes de simulação. E também a possibilidade de concessão de certificados de qualificação para o trabalho, quando a formação for estruturada e organizada em etapas com terminalidade.\n\n## AVALIAÇÃO\n\nA oferta dos cursos de educação profissional e tecnológica via itinerários formativos no novo ensino médio deve ter continuidade, ser ampliada e fortalecida quantitativa e qualitativamente, com vistas a propiciar aos educandos não apenas a conclusão do ensino médio, como também sua inclusão no mundo do trabalho, a continuidade dos estudos em nível superior e, principalmente, a compreensão das realidades social, econômica, política, cultural e do mundo do trabalho como instituidoras da formação humana.\n\nO processo de avaliação é elaborado pelo professor, previstos no planejamento de ensino, e a escolha dos instrumentos respeitará as especificidades de cada componente curricular, os objetivos de aprendizagem e os aspectos formativos que envolvem o desenvolvimento das competências e habilidades inerentes à formação profissional e demais elementos da formação cidadã.\n\nMúltiplos instrumentos poderão ser utilizados no processo avaliativo, tais como:\n\nI – Observações e registros constantes com a construção de portfólio individual, diário de bordo;  \nII – Pesquisas, resenha, sínteses, análises, produções, relatórios de trabalhos práticos fundamentados;  \nIII – Visitas técnicas com elaboração de relatório, seminários, elaboração e execução de projetos;  \nIV – Provas, autoavaliação e/ou outros instrumentos específicos elaborados pelo professor, definidos no plano de ensino e previamente informados aos discentes.\n\nOs critérios de avaliação terão como referência aspectos qualitativos gerais da formação humana, as competências e habilidades inerentes à prática profissional do curso proposto, os saberes teóricos e práticos que fundamentam a prática profissional expressos nos respectivos Projetos Pedagógicos de Curso, metodologias de ensino e de avaliação de aprendizagem que potencializem o desenvolvimento das competências e habilidades expressas na BNCC e estimulem o protagonismo dos estudantes.\n\nAinda no âmbito do itinerário de formação técnica e profissional, as instituições e redes de ensino devem realizar processo de avaliação, reconhecimento e certificação de saberes e competências adquiridos na educação profissional, inclusive no trabalho, para fins de prosseguimento ou conclusão de estudos nos termos do art. 41 da LDB, conferindo aos aprovados um diploma, no caso de habilitação técnica de nível médio, ou certificado idêntico ao de curso correspondente, no caso de curso(s) de qualificação profissional.\n\nOs itinerários formativos orientados para o aprofundamento e ampliação das aprendizagens em áreas do conhecimento devem garantir a apropriação de procedimentos cognitivos e uso de metodologias que favoreçam o protagonismo juvenil, organizar-se em torno de um ou mais dos seguintes eixos estruturantes:\n\n- **Investigação científica:** supõe o aprofundamento de conceitos fundantes das ciências para a interpretação de ideias, fenômenos e processos para serem utilizados em procedimentos de investigação voltados ao enfrentamento de situações cotidianas e demandas locais e coletivas, e a proposição de intervenções que considerem o desenvolvimento local e a melhoria da qualidade de vida da comunidade;\n- **Processos criativos:** supõe o uso e o aprofundamento do conhecimento científico na construção e criação de experimentos, modelos, protótipos para a criação de processos ou produtos que atendam a demandas pela resolução de problemas identificados na sociedade;\n- **Mediação e intervenção sociocultural:** supõe a mobilização de conhecimentos de uma ou mais áreas para mediar conflitos, promover entendimento e implementar soluções para questões e problemas identificados na comunidade; e\n- **Empreendedorismo:** supõe a mobilização de conhecimentos de diferentes áreas para a formação de organizações com variadas missões voltadas ao desenvolvimento de produtos ou prestação de serviços inovadores com o uso das tecnologias.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

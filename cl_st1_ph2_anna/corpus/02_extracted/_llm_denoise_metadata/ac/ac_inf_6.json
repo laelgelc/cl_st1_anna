@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c644e48423dfe10006ab2fc1b653087d2b68ae45a364b78ba",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 650,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 617,
+      "output_tokens_details": {
+        "reasoning_tokens": 82
+      },
+      "total_tokens": 1267
+    }
+  },
+  "created_at": "2026-09-22T22:07:27Z",
+  "duration_seconds": 4.763,
+  "error": null,
+  "excerpt_id": "ac_inf_6",
+  "filename": "ac_inf_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "190773627128795341f9fc51a6172e5243bc269e888a62901746fd892f28610e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c8b8d3d475f7e66635f5e59cf17521f5f284c853c082edd677585230460c0401",
+    "rendered_prompt_sha256": "5ff0d576227b81f1b4f8f2124172b414ecbbe5b78576adb9fc748a7f5d25c52b",
+    "source_text_sha256": "990be6f3c6eb04006f7f9ad3bd092a57ad589ea0a03bd4d723b62de6a37061c1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_inf_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 124,
+    "filename": "ac_inf_6.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_inf_6.txt",
+    "state": "ac",
+    "word_count_original": 372
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_inf_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_inf_6.json"
+  },
+  "raw_response_text": "## 6. O QUE É IMPORTANTE CONSIDERAR\n\nPara que a Instituição de Educação Infantil se constitua espaço educacional inclusivo, de fato, e de direito, é necessário reconhecer que:\n\n- a educação é um direito de todos, e sendo assim, não pode recusar matrícula de crianças deficientes e/ou com necessidades educacionais específicas, sob o pretexto de não estar preparada e/ou não saber como lidar com as diferenças;\n- a acessibilidade (espaço físico, proposta pedagógica, relações interpessoais, comunicação, materiais pedagógicos...) é uma condição para a equiparação de oportunidades;\n- as instituições de Educação Infantil precisam organizar-se para que todas as crianças possam ser reconhecidas e valorizadas, independentemente das suas condições físicas, intelectuais, sociais, emocionais, linguísticas, dentre outras;\n- a inclusão não é, única e exclusivamente, responsabilidade da Educação Especial, mas de todos os profissionais que atuam nas creches e nas pré-escolas, dos familiares e da comunidade em geral;\n- a organização de uma proposta pedagógica que favoreça a aprendizagem deve promover a igualdade de oportunidades e valorizar as diferenças;\n- todas as crianças, com ou sem deficiência, possuem particularidades e são capazes de aprender, dentro de suas possibilidades;\n- cada sujeito é único, sendo assim, crianças com uma mesma deficiência podem ter necessidades educacionais completamente diferentes;\n- o planejamento deve prever adequação e flexibilização, com vistas à participação efetiva das crianças com deficiências e/ou com necessidades educacionais específicas, em todas as atividades, oportunizando experiências cognitivas, sensoriais, ambientais, afetivas e emocionais;\n- o trabalho pedagógico precisa ser redimensionado, fortalecendo e consolidando práticas pedagógicas inclusivas, e consequentemente, intervenções pedagógicas eficazes, que atendam as demandas de interesses e necessidades de aprendizagem de todas as crianças;\n- para a concretização do processo de inclusão, que envolve novos saberes e práticas é necessário desenvolver e/ou intensificar ações e responsabilidades compartilhadas entre profissionais que atuam nas instituições de educação infantil e profissionais da educação especial, já que essa articulação deve acontecer para que, também, crianças com transtornos funcionais sejam assistidas em suas necessidades educacionais (meta 4);\n- a formação inicial e/ou continuada subsidia e fomenta discussões de natureza teórico-prática que podem contribuir para uma ação docente inclusiva;\n- é importante garantir e fortalecer parceria intersetorial (educação, saúde, assistência social, instituições de proteção à infância, entre outras), com o objetivo de potencializar as ações educativas.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

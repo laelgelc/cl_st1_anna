@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04d5f47816da9d22006ab2fdbb5f5487d280455d01f21914c6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 682,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 690,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 1372
+    }
+  },
+  "created_at": "2026-09-22T22:14:25Z",
+  "duration_seconds": 6.357,
+  "error": null,
+  "excerpt_id": "am_inf_43",
+  "filename": "am_inf_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dc016fa7ecba1dbf45b96e11f2cabd3796a9f4a1dc1e8008ca2399156a49f442",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c2837a3569732c0aaa4296e1c10694d3f59fd3168b66bd2fc18e43bb28304f28",
+    "rendered_prompt_sha256": "28b7dc4f032ee77a89f73e3b7479668b624d5c84e242713a01d505d5f9b626c7",
+    "source_text_sha256": "bc2e6053be98b25f74d14c457a52ce4ebe8934d15329bbee1c24bec2b62b6aef"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 446,
+    "filename": "am_inf_43.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_43.txt",
+    "state": "am",
+    "word_count_original": 425
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_43.json"
+  },
+  "raw_response_text": "## 20.2 Vigilâncias em saúde nas unidades de Educação Infantil em tempo integral e/ou parcial\n\nAs crianças começam a explorar e conhecer o mundo muito cedo. As instituições de Educação Infantil devem promover experiências ricas e desafiadoras que ampliem as vivências e percepções dos bebês, crianças bem pequenas e crianças pequenas, garantindo que os direitos de aprendizagem de conviver, brincar, participar, explorar, expressar e conhecer-se se efetivem por meio dos objetivos contidos nos campos de experiências desenvolvidas nas salas de referências.\n\nAlém de desenvolver o processo educativo, as unidades de Educação Infantil devem ter atenção redobrada aos cuidados com a saúde das crianças nos espaços da instituição. O convívio nos espaços físicos coletivo é essencial para o desenvolvimento das crianças, porém, se não forem observadas as medidas de vigilância em saúde, torna-se condição facilitadora de transmissão de doenças. Adotar as boas práticas de higiene e de cuidados com a saúde para prevenção de agravos é um dever de toda equipe escolar.\n\nConsiderando que o cuidado é educativo nas creches e pré-escolas, é necessária uma observação atenta das condições físicas que garantam o pleno desenvolvimento de todos os bebês e crianças atendidos. A construção dos prédios e a rotina diária precisam seguir critérios de saúde e higiene que assegurem o bem-estar, pois é um direito dos bebês e das crianças, conviver num espaço limpo, saudável e bem cuidado.\n\n### 20.2.1 Saúde e higiene dos bebês, crianças bem pequenas e das crianças pequenas\n\nA saúde deve ser responsabilidade de todos aqueles que cuidam, de forma direta ou indireta, dos bebês e crianças durante sua permanência na Unidade de Ensino. Os cuidados de saúde e higiene faz parte do processo educativo. São de responsabilidade dos professores das salas de referências, lavar as mãos dos bebês com água e sabão, orientar e supervisionar a lavagem das mãos das crianças maiores antes e após alimentação, após a ida ao banheiro ou após o contato com objetos ou superfícies sujas.\n\nQuando realizar o banho diário dos bebês e das crianças e higiene bucal após refeições, utilizar toalha e pente individuais, encaminhar as roupas sujas para serem lavadas na residência dos bebês e crianças pelo responsável, organizar o material necessário para as trocas das fraldas e jamais deixar o bebê e criança sozinha na bancada. Ainda é necessário orientar a família para que realizem o corte das unhas dos bebês e crianças e quando apresentar doenças infectocontagiosas, bebês e crianças deverão permanecer afastados da Unidade de Ensino durante o período de transmissibilidade.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

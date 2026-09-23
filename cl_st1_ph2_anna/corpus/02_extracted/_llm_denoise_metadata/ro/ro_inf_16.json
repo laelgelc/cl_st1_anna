@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b45d924569741d0006ab30c9ad80c87d291a412590a914eea",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 522,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 590,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 1112
+    }
+  },
+  "created_at": "2026-09-22T23:17:52Z",
+  "duration_seconds": 5.573,
+  "error": null,
+  "excerpt_id": "ro_inf_16",
+  "filename": "ro_inf_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "97c1b85be18fdf51f3b360250d613c47860f8258b46bd95dc9ec5c29c8141208",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1eb35c4a9d842f107305739486474a61ca48c0bd6ff015a81ddc8610f63e7cd2",
+    "rendered_prompt_sha256": "6595c3c31bf3f9869fdedad9634e9323aa1867e71ecac4bc7d854d788e94951c",
+    "source_text_sha256": "70044ea89785c069578344a90435156980a997cce4a6b8be66f9553456e60fa8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3328,
+    "filename": "ro_inf_16.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_16.txt",
+    "state": "ro",
+    "word_count_original": 334
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_16.json"
+  },
+  "raw_response_text": "A educação é direito de todos os cidadãos, torna-se necessário receber e atender de maneira que contemple as singularidades de cada criança. A modalidade Educação Especial se articula com a Educação Infantil em seu aspecto transversal, com o objetivo de garantir oportunidades sócio-educacionais à criança, promovendo o seu desenvolvimento e participação social, como também respeito às singularidades existentes.\n\nAs instituições de Educação Infantil precisam buscar melhores alternativas e estratégias para propiciar experiências de aprendizagens que contemplem as flexibilizações curriculares que garantam o desenvolvimento dentro das capacidades e limitações de cada criança, respeitando todas as singularidades, não somente físicas e intelectuais como também altas habilidades. É importante ressaltar que as experiências com as diferenças, tanto físicas, quanto intelectuais, devem ser vistas como oportunidade para o desenvolvimento de respeito mútuo e solidariedade humana.\n\nA criança que conviver com a diversidade nas instituições educativas poderá aprender muito com ela. Para aquelas que apresentam necessidades especiais, o convívio com outras crianças se torna benéfico na medida em que representa uma inserção de fato no universo social e favorece o desenvolvimento e a aprendizagem, permitindo a formação de vínculos estimuladores, o confronto com a diferença e o trabalho com a própria dificuldade.\n\nA observação na perspectiva de um olhar atento às crianças, nesta faixa etária, revela-se de fundamental importância, pois quanto mais cedo perceber as particularidades das crianças, mais cedo será o diagnóstico, possibilitando melhores capacidades no desenvolvimento de suas habilidades, as quais não se restringem apenas ao cognitivo, mas a formação integral, considerando as capacidades e limitações de cada criança.\n\nÉ importante ressaltar que as experiências oportunizadas à criança com deficiência não podem ser respaldadas em compensar faltas, mas pensar em como valorizar, explorar e potencializar a forma singular da criança ser e como reage aos desafios propostos. Assim, é importante que seja efetivada a Educação Especial, na perspectiva da inclusão, considerando os direitos de todas as crianças a uma educação de qualidade, garantida a equidade para o desenvolvimento pleno da criança na Educação Infantil.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

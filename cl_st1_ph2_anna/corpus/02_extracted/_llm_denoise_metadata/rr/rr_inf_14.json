@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b61d602c46de6c6006ab30d6ad72087d292ceb03f6819bc91",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 800,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1145,
+      "output_tokens_details": {
+        "reasoning_tokens": 440
+      },
+      "total_tokens": 1945
+    }
+  },
+  "created_at": "2026-09-22T23:21:22Z",
+  "duration_seconds": 7.437,
+  "error": null,
+  "excerpt_id": "rr_inf_14",
+  "filename": "rr_inf_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a6cd2e5aecd973613c9ae47c19b4a9508bc282e4d026611a307d22f3aebe06f7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e60d554978b7363eae5b356982f65f992354dec36bae985277a0c9cae843eeb7",
+    "rendered_prompt_sha256": "681be11570d83d77419b5d6b84edc7b2e821ef6d67e2ff3bf61884aac15f8601",
+    "source_text_sha256": "9c14a8e496df89a3af0e036b26f657ee92b21a583fc65eeb293eef19374645ab"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3512,
+    "filename": "rr_inf_14.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_14.txt",
+    "state": "rr",
+    "word_count_original": 472
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_14.json"
+  },
+  "raw_response_text": "## 3.6 PRÁTICAS E RECURSOS METODOLÓGICOS\n\n### 3.6.1 O PLANEJAMENTO NA EDUCAÇÃO INFANTIL\n\nO desenvolvimento integral da criança permite que vivencie o mundo, construa conhecimentos, expresse-se, interaja e manifeste seus desejos e curiosidades de modo que lhe são bastante peculiares.\n\nAo considerar tais aspectos, a prática pedagógica deve estar em consonância com o planejamento que ultrapassa o simples fato de estabelecer objetivos e caminhos a percorrer, como também implica no conhecimento que temos sobre valores e concepções da educação atual. Deste modo, o art. 4º das Diretrizes Curriculares Nacionais da Educação Infantil diz que:\n\n> As propostas pedagógicas da Educação Infantil deverão considerar que a criança, centro do planejamento curricular, é sujeito histórico e de direitos que, nas interações, relações e práticas cotidianas que vivencia, constrói sua identidade pessoal e coletiva, brinca, imagina, fantasia, deseja, aprende, observa, experimenta, narra, questiona e constrói sentidos sobre a natureza e a sociedade, produzindo cultura.\n\nNa observância das DCNEI, a criança é tida como centro do planejamento pedagógico, considerando todos os seus anseios e expectativas de aprendizagem, levando-se em conta a habilidade do professor em perceber atentamente os interesses e desejos a partir da observação do cotidiano escolar. Desse modo, o planejamento permite ao professor refletir sobre a ação embasada no conhecimento, sobre o desenvolvimento infantil e as aprendizagens significativas elaboradas pelas crianças. Deve ser visto como um documento metodológico orientador da prática pedagógica, tendo como característica a integração das ações, permitindo ao professor a organização do tempo e espaço, viabilizando a criação de recursos e meios de construção de conhecimentos.\n\nO artigo 9º, da Resolução de nº 5/2009, contempla a integração das experiências geradoras das aprendizagens das crianças voltadas para a educação e cuidado, devendo ser garantidas por meio de práticas pedagógicas realizadas pelo professor, respeitando assim, os princípios éticos, políticos e estéticos, além das interações e brincadeiras.\n\nVale ressaltar as principais orientações relacionadas abaixo para a prática pedagógica do professor conforme a DCNEI, levando em consideração os eixos estruturantes de aprendizagem da criança:\n\n- Planejar considerando a articulação entre os Campos de Integração das Experiências;\n- Considerar que uma experiência perpassa outra;\n- Assegurar os princípios éticos, políticos e estéticos;\n- Garantir os eixos norteadores das práticas pedagógicas — as interações e as brincadeiras;\n- Considerar a criança como centro do planejamento curricular, sujeito histórico e de direitos;\n- Considerar os ritmos de aprendizagens das crianças;\n- Organizar o planejamento tendo em vista os aspectos do desenvolvimento (afetivo, social, psicomotor, cognitivo) de modo a favorecer o desenvolvimento integral da criança;\n- Planejar considerando que os conhecimentos do patrimônio da humanidade se entrelaçam e deve articular-se com os saberes ou experiências prévias das crianças;\n- Compreender que os Campos de Integração das Experiências consideram os agrupamentos, ou seja, a faixa etária das crianças;\n- Promover a continuidade dos conhecimentos propostos com vistas à ampliação e ao aprofundamento dos saberes das crianças;",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

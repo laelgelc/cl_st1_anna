@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08e7d0ce675639d6006ab3103455c087d287c3eb6d437bb374",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 615,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 736,
+      "output_tokens_details": {
+        "reasoning_tokens": 217
+      },
+      "total_tokens": 1351
+    }
+  },
+  "created_at": "2026-09-22T23:33:14Z",
+  "duration_seconds": 6.53,
+  "error": null,
+  "excerpt_id": "to_em_33",
+  "filename": "to_em_33.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "02e62830ab692f84a65dfd7867a44455d714513e77c6d6b1c9402054029c7344",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "31e6ecccbd632c6941006ccc3b9fcf739a4aea113c663123439a1c9f7824eed8",
+    "rendered_prompt_sha256": "9b54af126cd6fd0ed3f44b1785ea0e66c2dc32300ef235de99ff3205672bdce3",
+    "source_text_sha256": "1c2bf61798428c263275dcd89406a319ad39957bcec509f22c1757e136b428f0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_33.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4033,
+    "filename": "to_em_33.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_33.txt",
+    "state": "to",
+    "word_count_original": 385
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_33.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_33.json"
+  },
+  "raw_response_text": "Prezado(a) Professor(a),\n\nO caderno 5, denominado Documento Orientador do Itinerário Formativo da Formação Técnica e Profissional, tem o propósito de orientar as instituições de educação do território do Tocantins, que ofertam ou pretendem ofertar o Itinerário da Formação Técnica e Profissional, na formulação dos projetos pedagógicos de curso e/ou Planos de Curso para o desenvolvimento de currículos que ofereçam trajetórias formativas alinhadas e articuladas a diversos campos de saberes específicos, contemplando vivências práticas e vinculando a educação escolar ao mundo do trabalho.\n\nA Lei nº 13.415/2017 apresentou como uma das principais inovações a possibilidade de os estudantes escolherem itinerários formativos de acordo com as áreas de seu interesse e projetos de vida. A partir disso, as unidades escolares de ensino médio do território do Tocantins têm o desafio de implementar currículos que proporcionem maior integração e flexibilização curricular e, essa mudança, pode ocorrer a partir da oferta do Itinerário da Formação Técnica e Profissional. Nesse sentido, esse documento auxiliará as unidades escolares no processo que envolve a tomada de decisão, planejamento e organização do currículo desta etapa de ensino.\n\nO caderno 5 apresenta informações que facilitarão na construção de currículos onde os estudantes possam aprofundar seus conhecimentos a partir de cursos de formação técnica, integrando sua área de interesse, a capacidade de oferta da escola e as demandas do setor produtivo. O texto traz informações importantes sobre a modalidade da educação profissional, o planejamento e as formas de oferta, a carga horária obrigatória dos cursos, o perfil dos docentes, o plano de curso, a avaliação e a certificação, e os documentos legais que orientam essa modalidade de ensino. O conteúdo também ressalta que o Itinerário da Formação Técnica e Profissional prevê o desenvolvimento de habilidades específicas de acordo com as ocupações previstas no Catálogo Nacional de Cursos Técnicos (CNCT) e na Classificação Brasileira de Ocupações (CBO), apontando esses documentos como fundamentais para a elaboração do plano de curso e projeto pedagógico de curso.\n\nEsse material foi produzido para ser um aliado das unidades escolares, visto que suas orientações são destinadas aos professores, coordenadores, diretores, coordenadores de curso, estudantes e demais membros da comunidade escolar. Seu papel é apoiar a implementação de um currículo que garanta aprendizagens significativas, formando sujeitos críticos, criativos, autônomos e responsáveis.\n\nFábio Pereira Vaz  \nSecretário Estadual da Educação",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

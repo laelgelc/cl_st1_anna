@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02c60ad4bdc47ba2006ab30b6168a487d2b64bd56839a3bd52",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 660,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 700,
+      "output_tokens_details": {
+        "reasoning_tokens": 137
+      },
+      "total_tokens": 1360
+    }
+  },
+  "created_at": "2026-09-22T23:12:39Z",
+  "duration_seconds": 6.404,
+  "error": null,
+  "excerpt_id": "ro_ef_1",
+  "filename": "ro_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "89c1284d1ae3819922db46b8f794f3c1e72dc3d873e4c60fa2e40e794f26975d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6ef28cf797e5a72f8f3ce9dc1f8105837642e901a47250f94c33c7bf5d3a8a1f",
+    "rendered_prompt_sha256": "46daffb91f3e4f7e1bad5d26d83b77dc06c95054d07cba17f5190a39848c2e17",
+    "source_text_sha256": "fd2f8ddb9f80f4053d599811b6da55ef99f3aa3a872ea391c6421c42008be891"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3095,
+    "filename": "ro_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_1.txt",
+    "state": "ro",
+    "word_count_original": 425
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_1.json"
+  },
+  "raw_response_text": "SENHORES EDUCADORES,\n\nA presente versão do Referencial Curricular do Estado de Rondônia para a Educação Infantil e Ensino Fundamental, está alinhada às propostas da Base Nacional Comum Curricular/BNCC, que é um marco de relevância histórica para a Educação no Brasil e, ademais, define os conhecimentos essenciais que os estudantes têm direito a aprender, ano a ano, e apresenta as 10 competências gerais que devem ser desenvolvidas e norteadas nas aprendizagens em todas as áreas do conhecimento e seus respectivos Componentes Curriculares. Ajustando nosso Documento Curricular a essas importantes contribuições, acreditamos que o processo de ensino e aprendizagem estará favorecendo o protagonismo dos estudantes do Estado de Rondônia, dentro e fora da sala de aula.\n\nA (re) elaboração do Referencial Curricular do Estado de Rondônia, foi constituída em um documento estruturado, sob um conjunto orgânico e progressivo de aprendizagens essenciais, focado no desenvolvimento de competências e habilidades, formalizado em diferentes componentes curriculares e, organizado para atender as etapas da Educação Infantil e Ensino Fundamental. Pontos estes, que orientarão o planejamento e as práticas pedagógicas dos professores com fins à produção dos processos de ensino e aprendizagem e ainda, foco na promoção da formação integral do estudante.\n\nÉ importante destacar, que este Referencial Curricular busca contextualizar as especificidades e realidades local, social e individual da escola e do estudante no âmbito do Estado de Rondônia, e para isso foi preponderante a participação de um grupo de bolsistas composto de professores, técnicos educacionais, coordenadores pedagógicos e especialistas, com expertise em sala de aula e conhecedores da nossa história.\n\nContudo, ainda que a presente versão do Referencial Curricular tenha sido pensada e constituída da maneira acima exposta, as escolas das redes públicas e privadas seguirão com autonomia para elaborar os seus Projetos Pedagógicos com metodologias de ensino, abordagens pedagógicas e avaliações adequadas às suas especificidades e peculiaridades, bem como de acordo com a etapa de ensino ofertada e/ou modalidade de ensino atendida, considerando também os aspectos regionais e locais de cada comunidade.\n\nPara atender esse momento de reformas educativas e garantir as demandas e o sucesso no processo de ensino e aprendizagem aos estudantes do Estado de Rondônia, a Secretaria de Estado de Educação/Seduc, atuará em regime de colaboração com a União e os Municípios para consolidar a melhoria das estruturas físicas das escolas, da inserção de novas tecnologias educacionais, no alinhamento dos materiais didáticos e das matrizes de avaliação e, acima de tudo, no aprimoramento inicial e contínuo dos seus professores, a fim de promover mais qualidade e equidade na aprendizagem global do estudante rondoniense.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

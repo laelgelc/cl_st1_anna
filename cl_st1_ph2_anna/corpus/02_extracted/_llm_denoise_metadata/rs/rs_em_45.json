@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b033a3ae5f29757006ab30db92e1087d28df06c3d0af071ab",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 585,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 595,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 1180
+    }
+  },
+  "created_at": "2026-09-22T23:22:38Z",
+  "duration_seconds": 5.33,
+  "error": null,
+  "excerpt_id": "rs_em_45",
+  "filename": "rs_em_45.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8c2981d7089f9eaadcd4e538460ce47b084dfde243f3ad298b560bc08a43b19d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "de4586854430776ca4bd449ce9ebe17671c6a487f2b66a019f2ff154896e9025",
+    "rendered_prompt_sha256": "a056720822939eda898e3b2d61aa0112fb3844ed303e51a5735b8f215ddeba51",
+    "source_text_sha256": "92da2e75faefea35d520e530cba4679f90391988111d8f73a1524ff5d5158241"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_45.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3589,
+    "filename": "rs_em_45.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_45.txt",
+    "state": "rs",
+    "word_count_original": 345
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_45.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_45.json"
+  },
+  "raw_response_text": "### 3.2.3 Caracterização das Ciências da Natureza e suas Tecnologias\n\nA caracterização da área das Ciência da Natureza e suas Tecnologias no Ensino Médio, a partir da BNCC, ocorre pela presença das temáticas Matéria e Energia e Vida, Terra e Cosmos, a partir das quais, junto com as dez competências gerais, e com o aprofundamento e com a reflexão a respeito das tecnologias e suas perspectivas futuras desdobram-se em três competências específicas. Dessas competências específicas, derivam as habilidades a serem trabalhadas ao longo de toda a etapa, a fim de consolidar as aprendizagens da área e sua formação integral.\n\nComo já visto, a Ciência é uma construção humana que vem ocorrendo em diferentes contextos sociais, históricos e culturais. Os estudos da área proporcionam ao estudante essa percepção, ao passo que desenvolvem também a curiosidade, a análise crítica e reflexiva, a argumentação, a ética e a responsabilidade consigo mesmo, com os outros e com a Natureza.\n\nTomando o desenvolvimento desses princípios como base nos processos de ensino e de aprendizagem da área, o estudante poderá apropriar-se – ao longo do Ensino Médio – das linguagens específicas das Ciências, por meio da interlocução destas com a linguagem cotidiana, com os saberes populares, com as demandas de suas comunidades e com os avanços tecnológicos.\n\nPara alcançar esse propósito, o incentivo à investigação, à possibilidade de contextualização e de experimentação, bem como o uso das Tecnologias Digitais de Informação e Comunicação (TDIC), oferecerão ao estudante condições de depreender os conceitos científicos de forma significativa, partindo do seu cotidiano, das suas experiências e vivências, relacionando-as aos conceitos científicos consolidados.\n\nOs professores da área também deverão organizar-se em um viés interdisciplinar, incluindo em seu trabalho pedagógico o uso das tecnologias, as metodologias ativas, a percepção do estudante como sujeito de sua aprendizagem e a necessidade de colaboração entre a física, a química e a biologia, a fim de desenvolver as competências e habilidades previstas neste documento de forma atrativa ao estudante, contribuindo para a sua formação integral, garantindo o acesso e a permanência em uma escola de qualidade.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

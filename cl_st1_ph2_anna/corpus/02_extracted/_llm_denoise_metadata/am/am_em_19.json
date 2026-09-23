@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03a8b0344a0c7dec006ab2fd68b51887d2bf6fe0e0c44ccb78",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 662,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 706,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 1368
+    }
+  },
+  "created_at": "2026-09-22T22:13:02Z",
+  "duration_seconds": 5.866,
+  "error": null,
+  "excerpt_id": "am_em_19",
+  "filename": "am_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "793822c675f98b76962507f3a5b8ad205e2b95cf0c9c8cb3243e87770807a90e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f6fc3407110f8c197685d2b838f12bb5c6f6670f38687a23c7bd499cd1d37c2e",
+    "rendered_prompt_sha256": "2bc56d02f9206e06c6a3f08d1d340d9a1abde6b17b47689adb6db3fd52a2550f",
+    "source_text_sha256": "0b16e0bafd3ebc022caffa892242db13c8cb14a756a69b6bea5d2698f9122160"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 377,
+    "filename": "am_em_19.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_19.txt",
+    "state": "am",
+    "word_count_original": 385
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_19.json"
+  },
+  "raw_response_text": "## 2.4.4 Componentes Curriculares da área de Ciências da Natureza e suas Tecnologias\n\nEste Referencial Curricular busca de forma intencional a formação integral do estudante nos aspectos físicos, cognitivos e socioemocionais, por meio de processos educativos significativos que promovam a autonomia, o comportamento cidadão e o protagonismo na construção de seu projeto de vida.\n\nA BNCC do ensino médio define para a área de Ciências da Natureza e suas Tecnologias competências e habilidades que devem ser desenvolvidas e alcançadas nessa etapa da Educação Básica. As competências e habilidades da área de Ciências da Natureza e suas Tecnologias para o ensino médio promovem um olhar articulado dos componentes curriculares Biologia, Física e Química, buscando alcançar as aprendizagens previstas nessa etapa da Educação Básica.\n\nA articulação desses componentes enquanto área de conhecimento tem como ponto de partida o contexto do estudante e da escola e os aspectos interdisciplinares dos objetos de conhecimento.\n\nO objetivo do componente curricular Biologia, para a formação do jovem, está na organização do pensamento crítico para a compreensão sistemática e Taxonômica das relações existentes na natureza. Além disso, discute questões de sustentabilidade, impactos ambientais, questões de saúde (voltadas à prevenção e promoção da saúde) e avanços tecnológicos, como a biotecnologia, genética, biomateriais etc. O componente da História da Ciência também pode ser explorado em Biologia, bem como as relações CTSA.\n\nNo tocante ao componente curricular Física, o ensino deve levar os estudantes a desenvolverem competências e habilidades para entender e analisar aspectos cotidianos como: uso racional e consciente das fontes de energia, e qual o impacto para um desenvolvimento econômico sustentável; as questões que envolvem a mobilidade urbana; possibilitar a familiarização com temas ligados à Cosmologia, como Buracos Negros e Big Bang, que podem explicar a origem e o destino do Universo, e outros.\n\nQuanto ao componente curricular Química, os objetos de conhecimento indicados no organizador curricular discutem diferentes aspectos das transformações; o uso da linguagem científica e representações; aspectos voltados à sustentabilidade; ao uso de recursos naturais; às propriedades dos materiais e ao avanço tecnológico.\n\nEsse componente atende às necessidades humanas, econômicas, sociais e ambientais. Essas necessidades requerem uma série de conhecimentos que possam potencializar a reflexão, protagonismo, pesquisa e aplicação do conhecimento científico e tecnológico, garantindo os interesses da comunidade, sendo de forma sustentável e sem prejudicar o meio ambiente.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

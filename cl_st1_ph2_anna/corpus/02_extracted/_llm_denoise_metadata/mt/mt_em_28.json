@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a32cd3bc10d9766006ab304d54ce887d2bcc041045177553d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 902,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 840,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 1742
+    }
+  },
+  "created_at": "2026-09-22T22:44:43Z",
+  "duration_seconds": 6.278,
+  "error": null,
+  "excerpt_id": "mt_em_28",
+  "filename": "mt_em_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d5d5c7fb0c28ce04d8cf7f3a49bcd34c277926f1e13e7ebca5e65a58495b7b36",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2a155e6bbaf09c346c76d1bd92bca0578d49f1b8027c98d6f2a8e314e3827fe2",
+    "rendered_prompt_sha256": "cb6ee3cc25e947b145c6ed88346a2092af62b09feb74f8dd09fdd2a124d9ec14",
+    "source_text_sha256": "466e08464b3fb6863dc37c07e9659d2abbfa9d78a5b572c6360aee50460dca7b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1919,
+    "filename": "mt_em_28.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_28.txt",
+    "state": "mt",
+    "word_count_original": 524
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_28.json"
+  },
+  "raw_response_text": "## 6.2 Progressão das Aprendizagens das Ciências da Natureza na Educação Básica\n\nNa perspectiva da BNCC/DRC-MT, considera-se a Educação Infantil como ponto de partida para a consolidação das dez competências gerais, de maneira progressiva no decorrer de toda a educação básica.\n\nDessa forma, as competências específicas das Ciências da Natureza e suas Tecnologias para o Ensino Médio articulam e mobilizam conceitos, por vezes complexos ou ainda abstratos, encorajando os estudantes a uma postura mais ativa, além de proporcionar o desenvolvimento do processo de investigação científica em um contexto crítico e reflexivo.\n\nPerceber como se dá a progressão de aprendizagens é essencial na elaboração dos currículos, na construção dos Projetos Políticos Pedagógicos (PPPs) das escolas e, evidentemente, no planejamento pedagógico dos professores.\n\nNesse contexto, de acordo com Ferraz e Belhot (2010), “é mais fácil e adequado atingir altos graus de abstração de um conteúdo a partir do estímulo do desenvolvimento cognitivo linear, ou seja, a partir de conceitos mais simples para os mais elaborados (estratégia indutiva) e/ou do concreto/real para o abstrato”.\n\nAssim, apresenta-se, por meio da Figura 1, um exemplo utilizando conceitos e objetos de conhecimento presentes no Campo de Experiências “Espaços, tempos, quantidades, relações e transformações” na Educação Infantil e em Habilidade da Unidade Temática “Matéria e Energia”, partindo da observação de fenômenos para chegar, no âmbito do Ensino Médio, utilizando processos de investigação mais complexos para tomar decisões, isto é, a análise dos processos de produção e aplicação da energia elétrica, considerando as tecnologias desenvolvidas: geradores de energia, pilhas e baterias, dispositivos eletrônicos, por exemplo. Dessa forma, associando a produção do conhecimento científico com a necessidade do desenvolvimento socioambiental da humanidade.\n\nRessalta-se, aqui, que no exemplo a seguir (Figura 1), o intuito não é discutir nem a Educação Infantil e nem o Ensino Fundamental, mas demonstrar que a progressão de competências e habilidades permeia toda a Educação Básica. Assim, ao término do Ensino Médio, espera-se que os estudantes consigam mediar conflitos, resolver problemas e intervir na realidade em que estão inseridos.\n\nVerifica-se, por meio dos verbos destacados em negrito na Figura 1, a ampliação da complexidade dos níveis de aprendizagem dos estudantes pelo uso dos verbos (que representam processos de aprendizagem em diferentes níveis cognitivos): Observar → Comparar → Discutir → Concluir → Propor. Ainda na Figura 1, observa-se que o desenvolvimento da capacidade de abstração dos estudantes ao transcorrer da progressão das habilidades e competências. Na Educação Infantil a percepção é direta, por meio dos sentidos, em especial a visão e o tato. No Ensino Fundamental, por meio de dispositivos: microscópio, lupas, smartphones, dentre outros. Assim, as habilidades no Ensino Fundamental proporcionam aos estudantes uma visão mais abstrata da natureza. Já no Ensino Médio estas direcionam o processo de ensino e aprendizagem para uma ampliação da capacidade de abstração e, além disso, instigam a argumentação cientifica, os processos de investigação e resolução de problemas, de modo a viabilizar uma visão mais holística da natureza e dos fenômenos naturais, por exemplo. Portanto, é essencial o papel do professor como mediador neste processo, retomando habilidades quando necessário, visando desenvolver nos estudantes as dez competências gerais da BNCC.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

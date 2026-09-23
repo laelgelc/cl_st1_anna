@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a2e49b333508d2e006ab3066fe0c487d2b076409d5d5314a3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 864,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 907,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 1771
+    }
+  },
+  "created_at": "2026-09-22T22:51:35Z",
+  "duration_seconds": 7.53,
+  "error": null,
+  "excerpt_id": "pa_inf_1",
+  "filename": "pa_inf_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "18d7505a93a7f3531100b665bcb350d89789d5ccaec38aa4d11d9f4b383a69aa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9ea9ab9cc7484afb0b5993e61e5be742c594b6cf085c67617b5b214d4d85e605",
+    "rendered_prompt_sha256": "3d1d3fc2ad24d79635b1563e10c2c742b0bdaebcd0ecdbab069090f99bf0fdd8",
+    "source_text_sha256": "7e5013e0c9bb7f2834554232426458b95e3e623c242e8e5ddb5376c7ceec948b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_inf_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2152,
+    "filename": "pa_inf_1.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_inf_1.txt",
+    "state": "pa",
+    "word_count_original": 535
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_inf_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_inf_1.json"
+  },
+  "raw_response_text": "# 3 ETAPAS DE ENSINO\n\nA partir de agora, serão abordadas as especificidades das duas etapas de ensino que compõem este Documento Curricular: Educação Infantil e Ensino Fundamental.\n\n## 3.1 ETAPA DA EDUCAÇÃO INFANTIL\n\nResultado de um esforço coletivo, o presente documento, que irá nortear a Educação Infantil no estado do Pará, foi elaborado em vista da diversidade e do pluralismo de ideias. Considera os contextos brasileiro e global, sem deixar alheios, no processo de educação, os saberes e as práticas próprias dos sujeitos da região da Amazônia; para tal, considera as concepções atualizadas acerca da infância e da educação, compreendidas como direitos fundamentais à construção da cidadania e em favor do respeito à humanidade das crianças.\n\nDe maneira interdisciplinar, o documento curricular é dividido por grupos de faixa etárias explicitados em Campos de Experiências (BRASIL, 2017a), organizados em cinco campos: “O eu, o outro e o nós”; “Traços, sons, cores e formas”; “Corpo, gestos e movimentos”; “Escuta, fala, pensamento e imaginação”; e “Espaços, tempos, quantidades, relações e transformações”. Em cada campo são definidos objetivos de aprendizagem e desenvolvimento e finalmente são postas as aprendizagens a serem vivenciadas pelos bebês, pelas crianças bem pequenas e pelas crianças pequenas.\n\nNeste documento curricular, buscou-se coadunar teoria e prática, uma práxis que possa cumprir a função social e política da Educação Infantil nas instituições de ensino e aprendizagem. Seja nos princípios éticos, políticos ou estéticos, espera-se que este documento possa subsidiar a educação, a formação, o desenvolvimento, a autonomia, o protagonismo e a poética inerente das crianças no contexto da Amazônia paraense, com todas as suas diversidades e especificidades.\n\nA Educação Infantil é uma importante etapa da formação e do desenvolvimento da criança no contexto escolar. Como a etimologia da palavra sugere, Educare – instruir – é extrair de dentro para fora; nessa etapa de ensino, consideram-se as crianças como sujeitos históricos e de direitos, com uma vivência primeira na sua cultura e sociedade, cabendo à escola harmonizar, criar e recriar seus saberes e vivências, considerando o que já são e visando a seus potenciais.\n\nTrata-se de uma educação que se desenvolve de maneira prioritária nos processos de interação, de dialogismos, nas práticas cotidianas, nas relações afetivas e em torno dos diversos saberes que circundam a criança. Desse modo, a concepção dessa etapa de ensino pressupõe o protagonismo das crianças enquanto sujeitos co-partícipes das suas construções.\n\nNesse processo e por meio das diversas linguagens, elas mesmas, mediadas pelo professor, dão sentido às suas existências, formulam suas identidades e se tornam íntegras na medida em que se desenvolvem nos aspectos afetivos, motores, sociais e cognitivos.\n\nEm face do desenvolvimento dos sujeitos a quem está destinada, é uma educação que se dá pelo viés da curiosidade, do explorar e do descobrir o mundo, as coisas, o outro e a si, isso tudo viabilizado pela brincadeira como experiência da cultura infantil e pela ampliação dessa experiência até a fase adulta. É na Educação Infantil que começam a se erguer os pilares fundadores do Ser-Cidadão: político, ético e estético.\n\nEssa fase, portanto, ligada ao que Sarmento (2004) denomina “sociologia da infância” que compreende a criança em seus aspectos biológicos, mas, sobretudo, essencialmente inserida no meio social local e global.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

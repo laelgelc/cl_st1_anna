@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00afd7395655ac31006ab2ff227b0087d2a7df2df41dfff64a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 957,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 931,
+      "output_tokens_details": {
+        "reasoning_tokens": 77
+      },
+      "total_tokens": 1888
+    }
+  },
+  "created_at": "2026-09-22T22:20:24Z",
+  "duration_seconds": 6.502,
+  "error": null,
+  "excerpt_id": "ce_ef_12",
+  "filename": "ce_ef_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9adc4135a1327b9d1211dd9229ccef50ac57b24ba4999a0aa72427201b6f7d40",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a8b7fbcdcd96fad7985af0216734ec770ce92580a53feda3fc187db37de761ab",
+    "rendered_prompt_sha256": "420647c0395741ca3bebda3dc6ae7f02030b6c3983ccd6c4ba48d3c26ec660ea",
+    "source_text_sha256": "0f618a38ec0b7fb10cfd8aeb66631a3fa4f70ccf6e50a34c9b17b7f7a56f456d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 730,
+    "filename": "ce_ef_12.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_12.txt",
+    "state": "ce",
+    "word_count_original": 596
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_12.json"
+  },
+  "raw_response_text": "## Organização da proposta, relacionando às competências do componente Arte\n\nAs propostas para o ensino e aprendizagem de Arte, da etapa do Ensino Fundamental do estado do Ceará, levam em consideração as demandas específicas de cada linguagem. Desse modo, cada professora e/ou professor, ao seguir as orientações do DCRC, tem autonomia no desenvolvimento de sua prática em sala de aula.\n\nEm Dança, por exemplo, há a indicação da combinação de estratégias de experimentação, articulação de aspectos estruturais, dinâmicos e expressivos do movimento na experimentação de danças indígenas e afro-brasileiras a métodos sistematizados por pesquisadoras/pesquisadores estrangeiros. Em Teatro, há a proposição de Jogos teatrais na utilização de diferentes tipos de vozes (mimese vocal, alturas tonais, timbres, intensidade, duração, sotaques brasileiros e estrangeiros) para a criação de personagens teatrais. Em Artes visuais, no que concerne à investigação de estilos visuais, há a indicação da apresentação de diferentes estilos locais (no Ceará e em seus respectivos municípios), no Brasil e no mundo, em diferentes épocas. E por fim, em Música, propomos a identificação e apreciação crítica de diversas formas e gêneros de expressão musical, tais como cantigas de roda, música popular, música de concerto, trilha sonora, entre outros.\n\nAcreditamos que uma proposta de documento curricular referencial que leva em conta a produção de saberes das/dos estudantes, a partir de seus diferentes territórios, promove uma abertura do campo sensível e criativo para o desenvolvimento de saberes em Arte. Para isso, consideramos alcançar as seguintes competências apontadas na BNCC:\n\n1. Explorar, conhecer, fruir e analisar criticamente práticas e produções artísticas e culturais do seu entorno social, dos povos indígenas, das comunidades tradicionais brasileiras e de diversas sociedades, em distintos tempos e espaços, para reconhecer a arte como um fenômeno cultural, histórico, social e sensível a diferentes contextos e dialogar com as diversidades.\n2. Compreender as relações entre as linguagens da Arte e suas práticas integradas, inclusive aquelas possibilitadas pelo uso das novas tecnologias de informação e comunicação, pelo cinema e pelo audiovisual, nas condições particulares de produção, na prática de cada linguagem e nas suas articulações.\n3. Pesquisar e conhecer distintas matrizes estéticas e culturais – especialmente aquelas manifestas na arte e nas culturas que constituem a identidade brasileira –, sua tradição e manifestações contemporâneas, reelaborando-as nas criações em Arte.\n4. Experienciar a ludicidade, a percepção, a expressividade e a imaginação, ressignificando espaços da escola e de fora dela no âmbito da Arte.\n5. Mobilizar recursos tecnológicos como formas de registro, pesquisa e criação artística.\n6. Estabelecer relações entre arte, mídia, mercado e consumo, compreendendo, de forma crítica e problematizadora, modos de produção e de circulação da arte na sociedade.\n7. Problematizar questões políticas, sociais, econômicas, científicas, tecnológicas e culturais, por meio de exercícios, produções, intervenções e apresentações artísticas.\n8. Desenvolver a autonomia, a crítica, a autoria e o trabalho coletivo e colaborativo nas artes.\n9. Analisar e valorizar o patrimônio artístico nacional e internacional, material e imaterial, com suas histórias e diferentes visões de mundo.\n\nDessa forma, esperamos que o componente curricular Arte contribua para o “exercício conjunto complementar da razão e do sonho, no qual conhecer é também maravilhar-se, divertir-se, brincar com o desconhecido, arriscar hipóteses ousadas, trabalhar duro, esforçar-se e alegrar-se com descobertas” (PCN de Arte, p. 27, 1997).\n\nEntendemos que, com o acesso e aprofundamento à leitura, à criação e à produção nas diferentes linguagens artísticas, no diálogo entre elas e com as outras áreas do conhecimento, o DCRC possibilite, às estudantes e aos estudantes, maior autonomia em suas experiências e vivências artísticas dentro e fora da escola.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0319fca938f80a16006ab30cb1661487d2ad9644a0ada87fff",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 583,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 797,
+      "output_tokens_details": {
+        "reasoning_tokens": 333
+      },
+      "total_tokens": 1380
+    }
+  },
+  "created_at": "2026-09-22T23:18:16Z",
+  "duration_seconds": 6.696,
+  "error": null,
+  "excerpt_id": "ro_inf_37",
+  "filename": "ro_inf_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "04059cae1102b4f6a9aad01462ff3b36c5267a984b5796c6d36e31ffc79c57fb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4508b49f2b041fe54cb48134f2586800d185700b14d06b86f0cd01b293380873",
+    "rendered_prompt_sha256": "fa5fd657fd29e7c15db4872b835fe6b28ba278287fd338834b2b60cead8dc4bb",
+    "source_text_sha256": "514197a0540fd5298f71f3d918d7f730ba015daca351cc8d60ca0cf70916e5ce"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3351,
+    "filename": "ro_inf_37.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_37.txt",
+    "state": "ro",
+    "word_count_original": 311
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_37.json"
+  },
+  "raw_response_text": "### Experiências em relação ao tempo\n\n- Noções de tempo físico (dia e noite, estações do ano, ritmos biológicos) e de tempo cronológico (ontem, hoje, amanhã; semana, mês e ano).\n- Comparar situações que se dão em tempos diferentes.\n- Investigação de certos objetos do passado e nos dias atuais (caneta tinteiro, máquina fotográfica, telefone, computador).\n- Padrões na sonoridade possibilitam a constatação pela criança de que algumas “qualidades” do som estão associadas a noções temporais (especialmente a duração de um som) e de intensidade (som fraco/som forte).\n- A estruturação da rotina e o emprego social do calendário.\n- Mudanças temporais na paisagem.\n- Acompanhamento cronológico da agenda de eventos institucional e do seu grupo. Acompanhamento de crescimento das plantas.\n\nPropor situações-problema em que a criança possa ampliar, aprofundar e construir novos conhecimentos sobre medidas de objetos, de pessoas e de espaços, o que inclui: observá-los e utilizar instrumentos para quantificar sua grandeza.\n\n### Experiências em relação à medidas\n\n- Estabelecer a distância percorrida por uma bola, comparar uma criança maior ou pequena em relação a outra, verificar a dimensão de algum espaço da unidade para sua reorganização.\n- Possibilitar presença de referências para a consulta dos números e da ordem numérica, tais como, a fita métrica, trenas, réguas, o quadro numérico, entre outros.\n- Comparação de comprimentos, distância, massa e capacidade em diferentes contextos.\n- Utilização do calendário em práticas sociais de medição do tempo.\n- Utilização das relações: mais que, menos que, maior que e menor que, a utilizar diferentes estratégias para juntar, repartir e tirar quantidades, e a avançar ou retroceder em uma série numérica em contextos significativos de investigação.\n- Experiência em que as crianças possam perceber durante contagem, a repetição com certa regularidade no sistema de numeração: vinte e sete, vinte e oito, vinte e nove, vinte e dez — ela revela que já percebeu que há algo com regularidade sequencial.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f973d5ba9bf3cc9006ab30d7ff36c87d2915141c5e7f4da46",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 794,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1281,
+      "output_tokens_details": {
+        "reasoning_tokens": 587
+      },
+      "total_tokens": 2075
+    }
+  },
+  "created_at": "2026-09-22T23:21:46Z",
+  "duration_seconds": 10.668,
+  "error": null,
+  "excerpt_id": "rr_inf_9",
+  "filename": "rr_inf_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0dd8813383242b143e5f6fe193f499d4ba92ac6aaef14f17b3eed1cc40e27e8d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9f5a5663ed7d6bcc4409afa6325abf6527ca461fa05f2e943674a520a7bf36b6",
+    "rendered_prompt_sha256": "3d5a2a8665ab22f65cb9259f3dd4995e341d58af05a729a09cdb2821f1087b56",
+    "source_text_sha256": "f566d226c53f1aac42b19230d3ff5e669e47f13be60c69d387c000541200d677"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3532,
+    "filename": "rr_inf_9.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_9.txt",
+    "state": "rr",
+    "word_count_original": 475
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_9.json"
+  },
+  "raw_response_text": "### 3.4.2 CORPO, GESTOS E MOVIMENTOS\n\nNa primeira infância, o corpo é o instrumento expressivo e comunicativo por excelência, que serve de suporte para o desenvolvimento emocional e mental, sendo essencial na construção de afetos e conhecimentos. Esse campo destaca experiências nas quais o CORPO, os GESTOS e os MOVIMENTOS constituem linguagens das quais as crianças, desde cedo, fazem uso e que as orientam em relação ao mundo.\n\nO corpo expressa e carrega consigo não somente características físicas e biológicas, mas também marcas de nosso pertencimento social que repercutem em quem somos e nas experiências que temos em relação ao gênero, etnia ou raça, classe, religião e à sexualidade. O corpo revela nossa singularidade, nossa identidade pessoal e social.\n\nPor meio do olhar, do tato, da audição, do paladar, do olfato, das sensações, da postura, da mímica, dos movimentos impulsivos ou coordenados, dos gestos, as crianças, desde bebês, exploram o mundo, estabelecem relações, expressam-se, brincam e produzem conhecimentos sobre si, sobre o outro, sobre o universo social e cultural.\n\nNesse contexto, as crianças brincam com seu corpo, se comunicam e se expressam por meio das diferentes linguagens, como música, dança, teatro, brincadeiras de faz de conta, no entrelaçamento entre corpo, emoção e linguagem.\n\nNa Educação Infantil, o corpo das crianças e dos bebês ganha centralidade, pois ele é o partícipe privilegiado das práticas pedagógicas de cuidado físico, orientadas para a emancipação e a liberdade e não para a submissão.\n\nAs crianças conhecem e reconhecem com o corpo suas sensações, funções corporais e, nos seus gestos e movimentos, identificam as suas potencialidades e limites, desenvolvendo, ao mesmo tempo, a consciência sobre o que é seguro e o que pode ser um risco. Também podem explorar e vivenciar um amplo repertório de movimentos, gestos, olhares, sons e mímicas com o corpo – individualmente ou em pares – descobrindo variados modos de ocupação e uso do espaço, como sentar com apoio, rastejar, engatinhar, escorregar, caminhar se apoiando em berços, mesas e cordas, saltar, escalar, equilibrar-se, correr, dar cambalhotas, alongar, ações sempre norteadas pelas interações e brincadeiras.\n\nO referido campo destaca experiências ricas e diversificadas, em que gestos, mímicas, posturas e movimentos expressivos constituem uma linguagem vital com a qual as crianças percebem e expressam emoções, reconhecem sensações, interagem, brincam, ocupam espaços e neles se localizam, construindo conhecimento de si e do mundo. Destaca-se também que a capacidade de nomear, identificar e ter consciência do próprio corpo, assim como a construção de uma autoimagem positiva, estão associadas às oportunidades oferecidas às crianças para expressão e conhecimento da cultura corporal da sociedade em que vivem.\n\nA experiência que este campo propõe à criança vai além de movimentar partes do corpo ou deslocar-se no espaço, pois assume um importante papel para o desenvolvimento e a aprendizagem na infância, proporcionando o conhecimento de si e do mundo.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00d576cf9106368d006ab2fe420c5c87d2a657d5c04d1d2426",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1409,
+      "input_tokens_details": {
+        "cache_write_tokens": 1406,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1547,
+      "output_tokens_details": {
+        "reasoning_tokens": 229
+      },
+      "total_tokens": 2956
+    }
+  },
+  "created_at": "2026-09-22T22:16:45Z",
+  "duration_seconds": 11.188,
+  "error": null,
+  "excerpt_id": "ap_inf_17",
+  "filename": "ap_inf_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b8b3a438ef69dac0ee0431f0a4d789f55d04ccae52db3e2a2696e1fc3fb366ca",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "98c32fea4e23e71786f88f2c1b446acd08d08728d2622c7ae68f831794bc4dfc",
+    "rendered_prompt_sha256": "dba6c851880bc5bebfcef95a2aa708cdd3286a04abb5592093eecea489ecbdcd",
+    "source_text_sha256": "897699fc14871ab6158409fd8358410034d8c2a846600ef00224b583c3613604"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_inf_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 570,
+    "filename": "ap_inf_17.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_inf_17.txt",
+    "state": "ap",
+    "word_count_original": 973
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_inf_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_inf_17.json"
+  },
+  "raw_response_text": "### 3.6.3. Etapas de Transição\n\nA criança da Educação Infantil passa por momentos distintos de transições que são: transição da casa para a escola, transição no interior da instituição e a transição da Educação Infantil para o Ensino Fundamental (BRASIL, 2009). É necessário que esses momentos sejam pensados, planejados e muito bem organizados para que a criança se sinta segura e acolhidas nesse processo.\n\nAo fazer a transição da casa para a instituição de Educação Infantil, a criança sai de sua zona de conforto, pois deixa de conviver somente no vinculo familiar, com pessoas, costumes e regras conhecidas, para um espaço totalmente novo, ambiente coletivo, com regras e pessoas inicialmente estranhas. Nesta fase, a segurança emocional dos pais e as formas de adaptações/acolhimento por parte da instituição são fatores determinantes para o bem-estar da criança. É importante que os pais estejam seguros em deixar seus filhos na instituição, fazendo com que a criança se sinta segura, e ainda, que a escola seja um espaço que transmita aconchego e encantamento.\n\nA adaptação ou acolhimento da criança é um processo lento e gradual, em um tempo indeterminado, com avanços e retrocessos, sendo essencial o respeito ao tempo de cada criança e de sua família, haja vista, que esse processo é encarado de maneiras diferentes pela criança (BRASIL, 2009). Algumas crianças podem ver a escola como um lugar seguro, divertido e que rapidamente criam vínculos com a professora e com as outras crianças, no entanto, irá acontecer também de ter crianças com sentimentos oposto, que vão sentir-se com medo, angustiados e irão sofrer com a separação da família.\n\nCom base nas DCNEI/2009 recomenda-se as seguintes ações para a efetivação da adaptação e acolhimento:\n\n- **Planejamento:** é importante que a escola considere todos os aspectos desse período de adaptação, pensar em tempos, espaço acolhedores, materiais didáticos que desperte a curiosidade e interesse da criança, e distribuir atribuições para todos os profissionais da escola.\n- **Envolvimento dos funcionários da escola:** todos da escola independente de sua função é (co)responsável por esse processo de acolhimento da criança. Para isso é importante que a escola promova palestras e cursos com toda equipe escolar sobre a importância do acolhimento. Assim, estarão preparados para esse momento, entendendo suas atribuições e importância para a qualificação da chegada e permanência da criança no contexto escolar.\n- **Participação das famílias:** é essencial para esse processo o envolvimento da família, efetivando uma parceria de cuidado e educação, criando um vínculo de confiança. Para isso, é necessário, que a família conheça o papel da escola, seu funcionamento e seus profissionais.\n- **Atendimento à diversidade:** é necessário que a escola esteja preparada para as manifestações individuais das crianças, suas particularidades e especificidades.\n- **Lidar com os sentimentos:** no período de adaptação acontece uma explosão de sentimentos, seja por parte das famílias que ficam inseguros em deixar seus filhos, ou pelo profissional que precisam lidar com reações diversas por parte das crianças, como: choro, inquietação, recusa de alimentos entre outras. É nesse momento que a escola intervém com paciência para aproximar as crianças da rotina da escola, criando vinculo e confiança com as crianças e entre seus pares.\n\nÉ importante destacar que essa adaptação também precisa ser considerada quando ocorre mudança de instituição escolar ou entre as etapas da Educação Infantil.\n\nEssa mudança de uma turma para outra dentro das etapas da Educação Infantil é outro processo de transição que também precisar ser bem trabalhada. Ainda que todas as turmas façam parte da mesma etapa, possuem mudança em suas rotinas, de pessoas, de espaços. A preocupação de criar condições favoráveis para a transição entre turmas requer atenção de todos os adultos que cuidam da educação da criança.\n\nA nova estrutura que compõe a Educação Infantil, com base na BNCC (BRASIL, 2017), é um fator que favorece esse processo de transição, pois as aprendizagens essenciais estão organizadas por campos de experiências, seus objetivos de desenvolvimento são estabelecidos gradualmente, ou seja, é possível perceber a evolução em cada faixa etária, com isso é possível à continuidade do processo educativo.\n\nEm relação a transição entre as etapas a Educação Infantil e Ensino Fundamental. As DCNEI recomendam:\n\n> Art. 11. Na transição para o Ensino Fundamental, a proposta pedagógica deve prever formas para garantir a continuidade no processo de aprendizagem e desenvolvimento das crianças, respeitando as especificidades etárias, sem antecipação de conteúdos que serão trabalhados no Ensino Fundamental (BRASIL, 2009, p. 5).\n\nPara a continuidade do processo educativo, torna-se necessário que as escolas considerem as orientações do Parecer n. 20 - CNE/CEB:\n\n> [...] c) planejar o trabalho pedagógico reunindo as equipes da creche e da pré-escola, acompanhado de relatórios descritivos das turmas e das crianças, suas vivências, conquistas e planos, de modo a dar continuidade a seu processo de aprendizagem; d) prever formas de articulação entre os docentes da Educação Infantil e do Ensino Fundamental (encontros, visitas, reuniões) e providenciar instrumentos de registro – portfólios de turmas, relatórios de avaliação do trabalho pedagógico, documentação da frequência e das realizações alcançadas pelas crianças – que permitam aos docentes do Ensino Fundamental conhecer os processos de aprendizagem vivenciados na Educação Infantil, em especial na pré-escola e as condições em que eles se deram, independentemente dessa transição ser feita no interior de uma mesma instituição ou entre instituições, para assegurar às crianças a continuidade de seus processos peculiares de desenvolvimento e a concretização de seu direito à educação (BRASIL, 2009, p. 17).\n\nAo considerar os dois documentos é evidente a necessidade do trabalho conjunto entre as etapas, para que haja um equilíbrio no momento da transição, de forma que a etapa seguinte considere os que os educandos sabem e são capazes de fazer, garantindo a continuidade do trabalho pedagógico. Por esse motivo a importância do acesso aos relatórios, portfólios ou qualquer outro tipo de registro de acompanhamento da criança de sua trajetória na Educação Infantil.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

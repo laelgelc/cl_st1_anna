@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0469b570ddc6cf4c006ab30ac6522487d2943a926a7502217a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1437,
+      "input_tokens_details": {
+        "cache_write_tokens": 1434,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1504,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 2941
+    }
+  },
+  "created_at": "2026-09-22T23:10:09Z",
+  "duration_seconds": 11.131,
+  "error": null,
+  "excerpt_id": "rn_ef_11",
+  "filename": "rn_ef_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b371e86b2b3520aa580dc646a1fda4a73dfa3bd41f74685de53246d78e82108e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d0f7f29a0fafbeb7877ef5c6423ded3304a4053b5ad41e4565046e959db99de0",
+    "rendered_prompt_sha256": "78254a2eed03f03b7404d9429a1749d05f960c3456233601c375671b98c11774",
+    "source_text_sha256": "db28e89df77df9b15a935e79a86955a967e26af017fd91438ec2c4de7dddaeeb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2948,
+    "filename": "rn_ef_11.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_11.txt",
+    "state": "rn",
+    "word_count_original": 941
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_11.json"
+  },
+  "raw_response_text": "### 7.3 Educação do Campo\n\nConsiderada modalidade de ensino pela Resolução CNE/CBE n. 4/2010, a Educação Básica do Campo surgiu da luta histórica dos movimentos sociais do campo para garantir que crianças, jovens e adultos que vivem no campo e do campo tenham direito ao acesso, à permanência e ao sucesso em uma educação que atenda as especificidades das populações do campo. Para tanto, faz-se necessário compreender a concepção de Educação do Campo como um processo de emancipação humana, valorizando a cultura, a diversidade dos sujeitos, o trabalho coletivo e a realidade onde a escola está inserida.\n\nDe acordo com o Decreto n. 7.352/2010, entende-se por\n\nArt. 1o. § 1o – I – populações do campo: os agricultores familiares, os extrativistas, os pescadores artesanais, os ribeirinhos, os assentados e acampados da reforma agrária, os trabalhadores assalariados rurais, os quilombolas, os caiçaras, os povos da floresta, os caboclos e outros que produzam suas condições materiais de existência a partir do trabalho no meio rural; e\n\nII – escola do campo: aquela situada em área rural, conforme definida pela Fundação Instituto Brasileiro de Geografia e Estatística – IBGE, ou aquela situada em área urbana que atenda prioritariamente a populações do campo. (BRASIL, 2010a)\n\nA Educação do Campo assenta-se no princípio de respeito às diferenças entre as populações atendidas quanto à sua atividade econômica, seu estilo de vida, sua cultura, suas tradições e suas identidades. As atividades curriculares e pedagógicas da Educação do Campo devem efetivar uma proposta de desenvolvimento sustentável, com observância ao que dispõem as Diretrizes Curriculares Nacionais, adotando-se formas alternativas de organização de tempos e espaços escolares dedicados ao estudo e à investigação pelos estudantes de questões ligadas a sua realidade, com flexibilização e adequação no calendário e nos agrupamentos etários, em um processo que conte com efetiva participação da comunidade do campo e respeite sua diversidade em relação a outras comunidades.\n\nNa organização da ação pedagógica nas escolas do campo do Rio Grande do Norte é preciso:\n\n1. considerar o projeto político-pedagógico como instrumento de organização e de gestão do trabalho educativo escolar que respeita o direito à igualdade e que contempla a diversidade do campo em todos os seus aspectos: sociais, culturais, políticos, econômicos, de gênero, geração e etnia;\n2. garantir a identidade da escola do campo, de acordo com a Resolução CNE/CEB n. 1/2002:\n\n   Art. 2. Parágrafo Único. A identidade da escola do campo é definida pela sua vinculação às questões inerentes à sua realidade, ancorando-se na temporalidade e saberes próprios dos estudantes, na memória coletiva que sinaliza futuros, na rede de ciência e tecnologia disponível na sociedade e nos movimentos sociais em defesa de projetos que associem as soluções exigidas por essas questões à qualidade social da vida coletiva no país. (BRASIL, 2002)\n\n3. garantir uma organização curricular escolar própria, que atenda às especificidades das realidades locais, podendo se organizar em grupos seriados ou não seriados, ou alternância, conforme os Artigos 23, 26 e 28 da LDB;\n4. adequar o calendário escolar às fases do ciclo de produção e às condições climáticas de cada comunidade;\n5. implementar a alternância pedagógica como alternativa que compatibilize espaços e tempos distintos de formação, estabelecendo diálogo – previsto no projeto político-pedagógico e materializado nas práticas escolares – entre o tempo-escola e o tempo-comunidade;\n6. compreender os eixos temáticos na Educação do Campo – agricultura familiar; sistemas de produção e processos de trabalho no campo; economia solidária; desenvolvimento rural sustentável e solidário com enfoque territorial; agroecologia; identidade, cultura, gênero e etnia; entre outros que possam emergir do diálogo com a comunidade – como problemáticas centrais de pesquisas realizadas com a própria comunidade, construindo, assim, uma prática pedagógica dialógica;\n7. estabelecer diálogo entre as áreas do conhecimento e os eixos temáticos da Educação do Campo, contemplando a diversidade e a realidade do campo, servindo de referência para que as unidades temáticas apresentadas na BNCC ressignifiquem os objetos de conhecimento, tornando-os mais significativos quanto mais próximos estiverem da realidade vivenciada nas comunidades do campo;\n8. articular os saberes dos educandos com as diferentes áreas do conhecimento para possibilitar a vivência de novos saberes e o desencadeamento de ações coletivas, fortalecidas e facilitadas pelas metodologias e estratégias didáticas voltadas para o campo;\n9. garantir que as metodologias sejam pertinentes à realidade do campo, em um trabalho pedagógico fundamentado no princípio da sustentabilidade, assegurando a preservação da vida das futuras gerações, e à pedagogia da alternância, na qual o estudante participa, concomitante e alternadamente, de dois ambientes/situações de aprendizagem: o escolar e o laboral;\n10. considerar a avaliação como elemento constitutivo do processo de ensino e aprendizagem, com base na formação integral dos educandos, em suas múltiplas perspectivas – humana, social, política, cultural, ambiental, ética, estética e profissional –, e também como um processo diagnóstico, investigativo, formativo, sistemático, contínuo e participativo, de modo a possibilitar aos educandos uma formação emancipatória;\n11. implementar o Regime de Colaboração, entre a União, os Estados, o Distrito Federal e os Municípios, cumprindo suas responsabilidades para o melhor funcionamento das etapas da Educação Infantil e Ensino Fundamental nas comunidades rurais, inclusive para aqueles que não o concluíram na idade prevista, conforme Artigo 6o da Resolução CNE/CEB n. 1/2002 (BRASIL, 2002);\n12. garantir que os professores das escolas do campo tenham condições dignas de trabalho, ofertando transporte, quando necessário, para seu deslocamento para as escolas (especialmente aquelas que se situam em localidades de difícil acesso);\n13. garantir que os professores das escolas do campo possuam formação necessária ao desenvolvimento adequado dos processos educativos próprios à realidade do campo, seja por meio de formação inicial, seja por meio de formação continuada.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

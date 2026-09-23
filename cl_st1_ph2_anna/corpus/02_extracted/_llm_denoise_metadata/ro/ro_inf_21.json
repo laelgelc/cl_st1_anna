@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c2c34dda80a288e006ab30c9fa01487d2abd154b1b70f17eb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 429,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 490,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 919
+    }
+  },
+  "created_at": "2026-09-22T23:17:56Z",
+  "duration_seconds": 4.747,
+  "error": null,
+  "excerpt_id": "ro_inf_21",
+  "filename": "ro_inf_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ce6dd6707fb09978ba4b47716a20379dca933c68ff9b920bbd402b07acaea08d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4a911dc727ada1e202543b699fa055203604ac92a8d0a21f12fa5b34a378ed89",
+    "rendered_prompt_sha256": "9ea7ef247d6d070ca11557bc7aec6d31fa79ba464e83fab32aae1029bf2702a3",
+    "source_text_sha256": "67bed1536b1b009907a56248614d4b30fc9b5f893667f1f072449012d8770bd9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3334,
+    "filename": "ro_inf_21.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_21.txt",
+    "state": "ro",
+    "word_count_original": 225
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_21.json"
+  },
+  "raw_response_text": "## Os Campos de Experiências\n\nO trabalho na Educação Infantil, a partir de seus fundamentos pedagógicos, se organizará por meio de campos de experiências, os quais explicitam as experiências de aprendizagem que podem ser oportunizadas às crianças, através de uma intencionalidade educativa pensada, projetada e organizada por docentes da primeira infância, bem como pela comunidade escolar, complementando as ações da família no ato de educar.\n\n## O Currículo da Educação Infantil por Campos de Experiências\n\nAssim, considerando a identidade de integralidade e entrelaçamento entre os campos de experiências, seguem os campos com seus objetivos de aprendizagem e desenvolvimento que tem organização por códigos alfanuméricos que facilita o reconhecimento de cada um deles, bem como seus desdobramentos, como no exemplo:\n\n- EO = O eu, o outro e o nós\n- CG = Corpo, gestos e movimentos\n- TS = Traços, sons, cores e formas\n- EF = Escuta, fala, pensamento e imaginação\n- ET = Espaços, tempos, quantidades, relações e transformação\n\n**EI02EO01**\n\n- EI = Educação Infantil\n- 02 = faixa etária\n- EO = campo de experiência, no caso, O eu, O outro e O nós.\n- 01 = objetivo de aprendizagem e desenvolvimento\n- RO = Rondônia\n- d = desdobramento\n\nÉ relevante ressaltar que esta organização de objetivos de aprendizagens e desenvolvimento não representa hierarquia entre eles, ou seja, a escolha deles na elaboração dos planejamentos/proposições da professora e do professor se dará a partir das necessidades de vivências e experiências do grupo de crianças.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

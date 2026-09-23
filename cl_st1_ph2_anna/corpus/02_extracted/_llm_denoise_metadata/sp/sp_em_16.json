@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f73679dd0714598006ab30f9ceb2087d2a31b7c5801a27dcc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 689,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 638,
+      "output_tokens_details": {
+        "reasoning_tokens": 96
+      },
+      "total_tokens": 1327
+    }
+  },
+  "created_at": "2026-09-22T23:30:43Z",
+  "duration_seconds": 6.55,
+  "error": null,
+  "excerpt_id": "sp_em_16",
+  "filename": "sp_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "345a4a7938b294e042a7adfa4c05644a9cdf2129b444a1eeca640abf4ab0f7e8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7cd9367fb8594c1d2fd2bee12cb45276ddb21a6a48115471a23f2fe0e9db8453",
+    "rendered_prompt_sha256": "9cc25cf0159502fbd1a70ea607ddf93ebac8ac0ca485cb7866e27cd956caff8d",
+    "source_text_sha256": "8db1b60007072b02cb690af18ddb76e20816ccb0af9dfb39244033bd9cc25eed"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3909,
+    "filename": "sp_em_16.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_16.txt",
+    "state": "sp",
+    "word_count_original": 371
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_16.json"
+  },
+  "raw_response_text": "## Componentes curriculares da área de Linguagens e suas Tecnologias\n\nOs componentes curriculares da área desenvolvem uma articulação de trabalho, seguindo os pressupostos a seguir relacionados.\n\nO componente Arte no Ensino Médio, de acordo com a BNCC, contribui para o desenvolvimento da autonomia criativa e expressiva do estudante, por meio da conexão entre racionalidade, sensibilidade, intuição e ludicidade. É, também, propulsor da ampliação do conhecimento do sujeito relacionado a si, ao outro e ao mundo.\n\nÉ na aprendizagem, na pesquisa e no fazer artístico que as percepções e compreensões do mundo se ampliam no âmbito da sensibilidade e se interconectam, em uma perspectiva poética em relação à vida, que permite aos sujeitos a abertura às percepções e experiências, mediante a capacidade de imaginar e ressignificar os cotidianos e rotinas.\n\nA pesquisa e o desenvolvimento de processos de criação de materialidades híbridas – entendidas como formas construídas nas fronteiras entre as linguagens artísticas, que contemplam aspectos corporais, gestuais, teatrais, visuais, espaciais e sonoros – oferecem ao estudante a possibilidade de explorar, de maneira dialógica e interconectada, as especificidades das artes visuais, do audiovisual, da dança, da música e do teatro.\n\nEsses processos criativos devem permitir a incorporação de estudo, pesquisa e referências estéticas, poéticas, sociais, culturais e políticas, para criar relações entre sujeitos e seus modos de olhar para si e para o mundo. Eles são, portanto, capazes de gerar transformação, crescimento e reelaboração de poéticas individuais e coletivas. No decorrer desses processos, o estudante pode também relacionar, de forma crítica e problematizadora, os modos como as manifestações culturais se apresentam na contemporaneidade, estabelecendo relações entre arte, mídia, mercado e consumo. Pode, assim, aprimorar sua capacidade de elaboração de análises sobre as produções estéticas que observa/vivencia e cria.\n\nSegundo a BNCC:\n\n> O trabalho com a Arte no Ensino Médio deve promover o cruzamento de culturas e saberes, possibilitando aos estudantes o acesso e a interação com as distintas culturas populares presentes na sua comunidade. O mesmo deve ocorrer com outras manifestações presentes nos centros culturais, museus e outros espaços, de modo a garantir o exercício da crítica, da apreciação e da fruição de exposições, concertos, apresentações musicais e de dança, filmes, peças de teatro, poemas e obras literárias, entre outros [...] (BRASIL, 2018, p. 474).",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

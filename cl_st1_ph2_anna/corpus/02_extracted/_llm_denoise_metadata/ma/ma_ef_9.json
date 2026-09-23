@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0323bc62dbe12a1a006ab301faf29887d288d192ac33c15866",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 853,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 843,
+      "output_tokens_details": {
+        "reasoning_tokens": 94
+      },
+      "total_tokens": 1696
+    }
+  },
+  "created_at": "2026-09-22T22:32:32Z",
+  "duration_seconds": 5.903,
+  "error": null,
+  "excerpt_id": "ma_ef_9",
+  "filename": "ma_ef_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5e057b937bf783483eecec384190fc759f72bf1299e1483467cbd1404b673a2e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "088438c444bec546734e72000eb7093be9bd2aee409ee9d1e21ae7728daf4f4b",
+    "rendered_prompt_sha256": "834e886889e5712314b56c0a9e780bf2fd5ec01fb8680b654f88928afd083a72",
+    "source_text_sha256": "ede2435d538f7089d09f83db8930b8266dbebe11f36e303ea86876fe1c1f20b6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_ef_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1294,
+    "filename": "ma_ef_9.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_ef_9.txt",
+    "state": "ma",
+    "word_count_original": 559
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_ef_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_ef_9.json"
+  },
+  "raw_response_text": "## Linguagens artísticas\n\nO componente curricular Arte é formado por quatro linguagens diferentes: artes visuais, dança, música e teatro. Além dessas linguagens, engloba também outras práticas e manifestações consideradas híbridas ou integradas (a exemplo das instalações, do cinema, da videoarte, do circo, da ópera, da performance, das intervenções, entre outras).\n\nUma das funções do ensino de Arte diz respeito à dimensão social das manifestações artísticas, ou seja, a cada modo de perceber, sentir e articular significados e valores que norteiam as relações políticas e sociais do ser humano. Por meio das linguagens artísticas, o aluno adquire conhecimentos específicos que possibilitam o aprender a ver, a ouvir, a pensar, a perceber e a interagir com o mundo que o cerca.\n\nAs aulas de Arte em toda a Educação Básica são fundamentais para a promoção do desenvolvimento pleno dos alunos. A educação do século XXI tem na formação integral do aluno uma necessidade de atender esse sujeito como um todo, considerando seus aspectos físicos, cognitivos, culturais e emocionais. Ao ampliar seu universo a partir das diferentes linguagens artísticas, o aluno tem a possibilidade de vivenciar diferentes experiências nas várias dimensões que compõem a educação integral.\n\nAs linguagens artísticas oportunizam uma aprendizagem que extrapola o muro escolar, valorizando diferentes profissionais e formas de produção e proporcionam a diminuição das diferenças sociais ao permitir a todos o acesso aos conhecimentos dos bens culturais, ampliando o seu repertório. Barbosa (2010:99) corrobora com esse pensamento ao afirmar que: “A arte como linguagem aguçadora dos sentidos transmite significados que não podem ser transmitidos por meio de nenhum outro tipo de linguagem, tal como a discursiva ou a científica”.\n\nEmbora a BNCC do Ensino Fundamental coloque as artes visuais, a dança, a música e o teatro como unidades temáticas, essas manifestações são muito mais que mera compartimentação de conteúdos no contexto do componente curricular Arte; são, na verdade, linguagens artísticas já estabelecidas na legislação vigente da educação, cada uma contendo seus conteúdos específicos. Porém, isso não quer dizer que elas não dialoguem entre si.\n\nA própria Base, no entanto, dá abertura para que os estados formulem seus currículos tomando essa organização como uma sugestão. Como podemos observar nesse trecho:\n\n> Cumpre destacar que os critérios de organização das habilidades na BNCC (com a explicitação dos objetos de conhecimento aos quais se relacionam e do agrupamento desses objetos em unidades temáticas) expressam um arranjo possível (dentre outros). Portanto, os agrupamentos propostos não devem ser tomados como modelo obrigatório para o desenho dos currículos (BRASIL, 2017:192, grifos nossos).\n\nDessa forma, usaremos neste documento a denominação linguagens artísticas, quando nos referirmos às artes visuais, dança, música e teatro, na tentativa de evitar qualquer interpretação de ensino de Arte na perspectiva da polivalência. E no que se refere às artes integradas, estas serão incluídas no eixo integrador que também estará contemplado em nossa estrutura curricular. Assim, cada linguagem artística deve ser ministrada por um professor de Arte licenciado em acordo com a modalidade específica de sua graduação, no sentido de garantir a qualidade do ensino e a valorização profissional. Entretanto, isso não invalida a possibilidade de o profissional da educação fazer conexões com outras linguagens e com outras áreas do conhecimento, quando isso for relevante para o ensino, uma vez que a interdisciplinaridade e a transdisciplinaridade são consolidadas como práticas eficazes para a aprendizagem significativa do aluno.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

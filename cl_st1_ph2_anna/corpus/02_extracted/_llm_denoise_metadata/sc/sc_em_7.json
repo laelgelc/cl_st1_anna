@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_083f70f06f300663006ab30e8e0ad487d2b142987c931738fb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1414,
+      "input_tokens_details": {
+        "cache_write_tokens": 1411,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1458,
+      "output_tokens_details": {
+        "reasoning_tokens": 236
+      },
+      "total_tokens": 2872
+    }
+  },
+  "created_at": "2026-09-22T23:26:15Z",
+  "duration_seconds": 9.161,
+  "error": null,
+  "excerpt_id": "sc_em_7",
+  "filename": "sc_em_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "581264e72f07de45b6f98f4fa32403e429869a7db9f3a7f3680c9527b868a82a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "12f8b7b7157f95744ffef2b188c5984f6ea7876f69587a441ac5e36ed78685e2",
+    "rendered_prompt_sha256": "af383f7681edf1fdb86dc0806dc76dcb9ba9e0c25392a917613c594853b8379d",
+    "source_text_sha256": "9c416bfee7aa9c336c04ab5575a1da70b5d479999fd5ffbb4b1ec4ba4c31da70"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sc/sc_em_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3745,
+    "filename": "sc_em_7.txt",
+    "filepath": "corpus/00_source_per_state/sc/sc_em_7.txt",
+    "state": "sc",
+    "word_count_original": 847
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sc/sc_em_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sc/sc_em_7.json"
+  },
+  "raw_response_text": "## 4 FUNDAMENTOS DO NOVO ENSINO MÉDIO\n\nAs Diretrizes Curriculares Nacionais para o Ensino Médio (DCNem), atualizadas pelo Conselho Nacional de Educação (CNE) em novembro de 2018, indicam que o Novo Ensino Médio deve se tornar um espaço de aprendizagens e vivências que oportunizem ao estudante desenvolver-se integralmente, compreendendo-o em sua condição de sujeito multidimensional, contemplando suas necessidades, interesses e expectativas. Para alcançar esse objetivo, operou-se a flexibilização do currículo, propondo-se alcançar uma aproximação desta organização com a realidade contemporânea e com a formação pessoal, social/cidadã e profissional destes estudantes.\n\nPrevê-se ainda, com este novo currículo, oportunizar a jovens, adultos e idosos a vivência de percursos escolares conectados com seus contextos, tempos, espaços e identidades. Pretende-se, com ele, proporcionar ao jovem, por meio da possibilidade do trajeto por múltiplos percursos, em articulação com o contexto histórico, econômico, social, científico, ambiental, cultural e com o mundo do trabalho, a possibilidade de alcançar seu pleno desenvolvimento (RESOLUÇÃO nº 3 CNE/2018, p. 2).\n\nA Organização do Novo Ensino Médio compreende o desdobramento do currículo em uma parte de Formação Geral Básica, que lista o conjunto de competências e habilidades das áreas de conhecimento previstas para a etapa do ensino médio, que consolidam e aprofundam as aprendizagens essenciais do ensino fundamental, com carga horária total máxima de 1.800 horas, e uma segunda parte, denominada Parte Flexível, com carga horária total mínima de 1.200 horas, consolidada via oferta de itinerários formativos.\n\nEssa nova organização encontra embasamento na BNCC, que propõe, além do desdobramento do tronco comum do currículo em uma Parte de Formação Geral Básica e uma Parte Flexível (itinerários formativos), também a organização do trabalho pedagógico por área de conhecimento. As Diretrizes Curriculares Nacionais para o Ensino Médio (2018), na mesma direção, preveem que o currículo do Novo Ensino Médio efetive um tratamento metodológico contextualizado, diversificado e transdisciplinar, que favoreça a interação e a articulação entre diferentes campos de saberes específicos, e permita o estabelecimento de práticas vinculadas à educação escolar e ao mundo do trabalho, bem como à prática social.\n\nNessa perspectiva, a proposta de apresentação e articulação dos conhecimentos, a partir das áreas de conhecimento, favorece o trabalho interdisciplinar, o fortalecimento das relações entre os componentes curriculares e sua contextualização, contribui com a elaboração conceitual interdisciplinar. Portanto, pondera-se aqui, tal organização não implica, em nenhuma medida, a retirada ou o esvaziamento de conteúdos próprios de cada um dos componentes. Permanecem presentes na organização curricular os procedimentos e conceitos próprios de cada componente, que passam a compor as áreas do conhecimento (Linguagens e suas tecnologias; Matemática e suas tecnologias; Ciências da Natureza e suas tecnologias; e Ciências Humanas e Sociais Aplicadas), conforme exposto na figura 3.\n\n**Figura 3 - Organização por área do conhecimento para o ensino médio, conforme BNCC**\n\nFonte: SANTA CATARINA. Caderno Orientações para o Novo Ensino Médio. 2019.\n\nCabe frisar a importância de se preservar tanto a relação entre a Formação Geral Básica e a Parte Flexível - Itinerários Formativos -, quanto a relação entre os componentes que integram essas áreas. Todos estes elementos devem compor os fazeres escolares em sólida articulação, dentro de uma proposta pedagógica única, tendo por finalidade o desenvolvimento de uma educação integral, que considere as aprendizagens essenciais e as necessidades pedagógicas dos estudantes (SANTA CATARINA, 2019).\n\nA organização curricular por área permite que os objetos de conhecimento e os conceitos estruturantes de cada componente curricular sejam trabalhados de forma integrada, inter-relacional e mais aberta, a partir da diluição dos contornos disciplinares, contemplando o desenvolvimento das competências e habilidades específicas de cada área, além das dez competências gerais da BNCC. Esta abordagem favorece a atuação interdisciplinar e transdisciplinar, permitindo ao estudante, na medida em que contextualiza os conhecimentos escolares, dispor de uma visão integrada dos conceitos e do mundo, tornando-os significativos. A integração, por sua vez, oportuniza ao estudante “desenvolver as competências e habilidades específicas na etapa do ensino médio, intrinsecamente articuladas às competências específicas desenvolvidas nas etapas anteriores, garantindo a progressão dos conhecimentos ao longo do percurso formativo do sujeito” (SANTA CATARINA, 2019, p. 30). Esta organização assegura a superação de uma “tradição pautada em conteúdos fragmentados e descontextualizados, objetivando, assim, a garantia da permanência e da aprendizagem dos estudantes deste nível a partir de experiências educativas significativas para o seu desenvolvimento integral” (SANTA CATARINA, 2019, p. 14).\n\nTendo em vista estabelecer ações pedagógicas que promovam efetivamente a integração entre as áreas do conhecimento, deve-se ancorar a atuação docente em uma sólida dinâmica de planejamento integrado interárea e entre áreas, a partir do qual resultem situações de aprendizagem que coloquem os estudantes no centro do processo educativo. Devem-se priorizar processos educacionais colaborativos e dialógicos que permitam a realização do trabalho, considerando os objetos de conhecimento previstos nos textos, tanto na Formação Geral Básica, quanto nos Itinerários Formativos. Registra-se ser importante que o trabalho pedagógico seja realizado a partir de uma vinculação direta com a realidade e com os interesses dos estudantes, permitindo-lhes mobilizar os conhecimentos historicamente acumulados a partir de questões extraídas de seus contextos e de suas práticas cotidianas.",
+  "state": "sc",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_075da5408ca96266006ab30c5dd3dc87d29c5b0a8b872736fa",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 711,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 766,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 1477
+    }
+  },
+  "created_at": "2026-09-22T23:16:52Z",
+  "duration_seconds": 6.329,
+  "error": null,
+  "excerpt_id": "ro_em_63",
+  "filename": "ro_em_63.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "433d8a18473ba0a3855d856b98f5065bf2f6ad5e04201d5271bad5afe5880129",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1ae762a7ee264b407f5ec5a89843e16d7787f58b63ed1a63f29fd16ef58fceb6",
+    "rendered_prompt_sha256": "81ac90b9f4bb60dde7699b45debc71900163327f314db1831405810ba59bbd0b",
+    "source_text_sha256": "87a0a60f99b21549cd869b6164cffc0313212a53c3ba15a48bc9b993aa39f75d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_63.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3281,
+    "filename": "ro_em_63.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_63.txt",
+    "state": "ro",
+    "word_count_original": 439
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_63.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_63.json"
+  },
+  "raw_response_text": "### 2.5.7. Quadro Organizador Curricular de Ciências da Natureza e suas Tecnologias\n\nO organizador Curricular Rondoniense traz as competências específicas da área de Ciências da Natureza e suas Tecnologias, com suas respectivas unidades curriculares, habilidades, objetos de conhecimento (para cada componente), a serem desenvolvidos nesta etapa da Educação Básica.\n\nPara construir o quadro organizador curricular da área de Ciências da Natureza e suas Tecnologias procedemos da seguinte maneira: primeiro colocamos as unidades curriculares, depois as competências específicas; seguido das habilidades e finalizamos com os objetos do conhecimento, que são detalhados a seguir:\n\nAlém das 10 Competências Gerais da BNCC, que orientam o trabalho nas diversas áreas do conhecimento, as Competências Específicas de CNT sintetizam o conjunto de habilidades que a área deverá abordar e abrangem a “mobilização de conhecimentos, habilidades, valores e atitudes para solucionar fenômenos do dia a dia, do pleno exercício da cidadania e do mundo do trabalho” (BNCC, 2018, p.13). No caso de CNT, temos três Competências Específicas, conforme segue no quadro.\n\nDe acordo com as três competências específicas da área de CNT, foram relacionadas habilidades e temáticas presentes nos componentes de Biologia, Física e Química. Estas deverão ser desenvolvidas por meio da proposição de situações de aprendizagem problematizadoras, envolvendo diversos contextos, considerando, sempre que possível, questões pertinentes a cada região. Portanto, a organização curricular pode ter flexibilidade para atender a projetos interdisciplinares que necessitam do desenvolvimento de um conjunto de habilidades.\n\n**Habilidades:** foram descritas por meio de verbos para indicar ação, estão distribuídas ao longo das três competências específicas e são relacionadas a aspectos cognitivos e socioemocionais da área de CNT.\n\n**Unidades temáticas:** são blocos temáticos que agrupam diversos objetos do conhecimento com proximidade entre si. Em CNT, são: Matéria e Energia; Vida, Terra e Cosmos; Tecnologia e Linguagem Científica. Cada unidade atende a uma competência específica.\n\n**Objetos do conhecimento:** são conteúdos, processos e conceitos vinculados às habilidades de CNT. Assim, vale ressaltar que o nível de detalhamento e aprofundamento dos objetos do conhecimento devem atender ao que propõem as habilidades a eles correlacionadas. As unidades temáticas e os objetos do conhecimento aqui propostos foram construídos pelas Equipes Curriculares da Secretaria da Educação do Estado de Porto Velho, por meio do trabalho colaborativo entre diferentes entidades, como universidades, institutos e organizações não governamentais (ONGs), além da consulta pública realizada a todos os interessados.\n\nVale lembrar que, para o desenvolvimento do quadro organizador curricular da área de CNT (a seguir), é necessário planejar estratégias contextualizadas numa abordagem investigativa que possibilitem o desenvolvimento de aprendizagens significativas, permitindo que o estudante atue de forma cidadã na formação e manutenção de sociedades mais justas e sustentáveis.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

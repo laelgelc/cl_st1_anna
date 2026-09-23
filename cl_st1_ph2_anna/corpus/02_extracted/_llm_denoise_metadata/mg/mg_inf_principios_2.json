@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c1565feeec63fa8006ab30395fcdc87d2b1a33205a6d68fd3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 656,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 695,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 1351
+    }
+  },
+  "created_at": "2026-09-22T22:39:23Z",
+  "duration_seconds": 5.389,
+  "error": null,
+  "excerpt_id": "mg_inf_principios_2",
+  "filename": "mg_inf_principios_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d3d3c6668bed679b64c4ff3e917e6a817eeabc01149a8cf67737640f47c4abdd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d473c7943744c86b17741dc16a18b81b9f743cdb7c19351140dfd3d8984ec6c5",
+    "rendered_prompt_sha256": "4bd6b098de76350cfcb03d8b819e938e482797dae4ccbb3a5011894cbc77360c",
+    "source_text_sha256": "1e84d62be5b26f32e24ef28050ae430be348b2921bf45fb9821e05c124afb9d9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_principios_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1667,
+    "filename": "mg_inf_principios_2.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_principios_2.txt",
+    "state": "mg",
+    "word_count_original": 374
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_principios_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_principios_2.json"
+  },
+  "raw_response_text": "### 2.4.1 Concepção de Infância\n\nAs concepções abordadas neste documento apontam para a superação do conceito único de “criança” e “infância”, em consonância com Dahlberg et al. (2003, p. 63), “há muitas crianças e muitas infâncias, cada uma, construída por nossos entendimentos da infância e do que as crianças são e devem ser”.\n\nDe acordo com Andrade (2010, p. 66), a compreensão desse conceito de infância nos possibilita um novo olhar sobre a criança, concebendo-a como um sujeito ativo, capaz de aprender por meio de interações sociais desde o seu nascimento:\n\n> O entendimento das infâncias rompe com o paradigma da criança frágil, inocente, dependente e incapaz, dando lugar à concepção da criança rica, forte, poderosa e competente, construtora de conhecimento, identidade e cultura. A criança é reconhecida como um sujeito ativo, competente, com potencialidades a serem desenvolvidas desde o nascimento; sujeito que aprende e constrói conhecimentos no processo de interação social.\n\nA infância, então, passou a ser considerada como tempo de aquisições fundamentais para as crianças, superando a sua condição de invisibilidade social e passando a ser reconhecida como criança ativa construtora de cultura com direitos garantidos por leis, que foram aos poucos sendo incorporados pelas políticas públicas.\n\nNo entanto, Benjamin (1987) desmistifica a ideia de que a criança possui um caráter estritamente puro e ingênuo, há de se considerar também os seus desejos, os sentimentos hostis, vontade de mando ou de submissão, entre outros, desconstruindo a imagem idealizada que o adulto tem da criança. Ela constrói um universo próprio no qual revela através do jogo que estabelece com os outros e com as coisas, a forma como conhece o mundo e dá múltiplos significados à realidade física e social, construindo verdades provisórias. Desta forma, “podemos enxergar a criança como espelho, através do qual é possível revisitar nossa própria infância, e, assim, perceber o quanto, como adultos, estamos atualmente tão distantes dela [...]” (p. 33).\n\nAo evidenciar a desconstrução das representações sociais sobre a concepção de infância e fortalecer a condição da criança como sujeito de direito, percebe-se a urgência de um novo fazer pedagógico, tanto do docente quanto das instituições de Educação Infantil a fim de articular a educação dos bebês, crianças bem pequenas e crianças pequenas com as demandas contemporâneas.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

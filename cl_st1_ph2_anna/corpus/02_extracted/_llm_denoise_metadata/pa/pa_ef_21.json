@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01eddc5ebcd4681b006ab3055cc76887d2a11eac45b8f283c2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 543,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 713,
+      "output_tokens_details": {
+        "reasoning_tokens": 269
+      },
+      "total_tokens": 1256
+    }
+  },
+  "created_at": "2026-09-22T22:47:00Z",
+  "duration_seconds": 8.026,
+  "error": null,
+  "excerpt_id": "pa_ef_21",
+  "filename": "pa_ef_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4de560f109b87253bce5c646778f9f77723f2788452aebd28621ba20bf17622a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a7fe2b1c40c5517ab893f69d27ddea8773f20a72c0b76078e41cbfb79f4f353a",
+    "rendered_prompt_sha256": "98ddf31a0e32e28903646293e8bf01ebe2dc3d55c483f06c2645c6041213e9a7",
+    "source_text_sha256": "de492a78566b8209fdfe2ef394745c313debda46f65d6213261ffe220b8eeb2c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_ef_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2014,
+    "filename": "pa_ef_21.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_ef_21.txt",
+    "state": "pa",
+    "word_count_original": 319
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_ef_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_ef_21.json"
+  },
+  "raw_response_text": "## 4 PARTE DIVERSIFICADA\n\nA Base Nacional Comum Curricular (BNCC) homologada em dezembro de 2017 define as aprendizagens essenciais que todos os alunos devem desenvolver ao longo da educação básica de forma progressiva e por áreas de conhecimento (BRASIL, 2017a).\n\nAo se referir à parte diversificada, o documento diz que os currículos devem trazer conteúdos específicos e complementares a serem definidos pelas próprias redes de ensino, instituições e sistemas, de forma a garantir que as características regionais e locais sejam contempladas, conforme estabelece a LDB no Art. 26:\n\n(BRASIL, 1996, n.p.).\n\n> os currículos da educação infantil, do ensino fundamental e do ensino médio devem ter base nacional comum, a ser complementada, em cada sistema de ensino e em cada estabelecimento escolar, por uma parte diversificada, exigida pelas características regionais e locais da sociedade, da cultura, da economia e dos educandos\n\nLogo, de acordo com a citada Lei, o objetivo de ter uma parte diversificada nos currículos locais é reconhecer e considerar que as escolas brasileiras atendem estudantes nos diferentes contextos físicos, sociais, econômicos, culturais, entre outros, específicos de cada realidade.\n\nNesse contexto se situa o Pará, um estado com dimensões territoriais continentais, ampla diversidade cultural e uma população caracterizada por diferentes povos: quilombola, ribeirinho, urbano e indígena. Essas características exigem, então, que a parte diversificada não seja uma decisão curricular definida pelas políticas educacionais, e, sim pelos sistemas e/ou pelas escolas, no entanto, os conhecimentos selecionados precisam ser formalizados ao Conselho de Educação e ao sistema próprio, pois tais conhecimentos devem estar articulados à BNCC e ao Documento Curricular Estadual.\n\nComo espaço para que a escola pense a cultura local, à parte diversificada é inerente à discussão entre conhecimento e cultura locais de forma a complementar criticamente a formação cidadã dos estudantes.\n\nEste Documento Curricular Estadual traz dois, de seus três princípios, conhecimentos próprios da Amazônia paraense, que podem ser referências para a seleção desses conhecimentos nas escolas.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,55 @@
+### 5.2.1 As Competências Específicas para o Ensino de Ciências da Natureza
+
+A formação integral do estudante à luz da BNCC (2017), aponta para o desenvolvimento de características que auxiliem o mesmo no processo de aprendizagem. Esta formação deve ser constituída de competências que o habilitem para resolver problemas em seu cotidiano de forma autônoma, crítica e reflexiva.
+
+Para tanto, segue um quadro com as competências específicas de Ciências da Natureza para o Ensino Fundamental, descritas pelo documento nacional.
+
+1. Compreender as Ciências da Natureza como empreendimento humano, e o conhecimento científico como provisório, cultural e histórico.
+
+2. Compreender conceitos fundamentais e estruturas explicativas das Ciências da Natureza, bem como dominar processos, práticas e procedimentos da investigação científica, de modo a sentir segurança no debate de questões científicas, tecnológicas, socioambientais e do mundo do trabalho, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.
+
+3. Analisar, compreender e explicar características, fenômenos e processos relativos ao mundo natural, social e tecnológico (incluindo o digital), como também as relações que se estabelecem entre eles, exercitando a curiosidade para fazer perguntas, buscar respostas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das Ciências da Natureza.
+
+4. Avaliar aplicações e implicações políticas, socioambientais e culturais da ciência e de suas tecnologias para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.
+
+5. Construir argumentos com base em dados, evidências e informações confiáveis e negociar e defender ideias e pontos de vista que promovam a consciência socioambiental e o respeito a si próprio e ao outro, acolhendo e valorizando a diversidade de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.
+
+6. Utilizar diferentes linguagens e tecnologias digitais de informação e comunicação para se comunicar, acessar e disseminar informações, produzir conhecimentos e resolver problemas das Ciências da Natureza de forma crítica, significativa, reflexiva e ética.
+
+7. Conhecer, apreciar e cuidar de si, do seu corpo e bem-estar, compreendendo-se na diversidade humana, fazendo-se respeitar e respeitando o outro, recorrendo aos conhecimentos das Ciências da Natureza e às suas tecnologias.
+
+8. Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, recorrendo aos conhecimentos das Ciências da Natureza para tomar decisões frente a questões científico-tecnológicas e socioambientais e a respeito da saúde individual e coletiva, com base em princípios éticos, democráticos, sustentáveis e solidários.
+
+Fonte: Base Nacional Comum Curricular (2017).
+
+Dentre as 8 competências específicas de Ciências da Natureza para o Ensino Fundamental, a competência específica 1, trata da necessidade de compreensão sobre a evolução das Ciências, que acontece continuamente. Logo, nada está determinado para sempre, novas descobertas vão sendo divulgadas e, com isso, o conhecimento científico se apresenta provisório, a partir do contexto socio-histórico e cultural que perpassa a sociedade naquele momento.
+
+Os conceitos fundamentais das Ciências da Natureza, bem como suas estruturas explicativas, denotam “Dominar processos, práticas e procedimentos da investigação científica” (BNCC, 2017, p. 322) aparecem na competência específica 2.
+
+Ela aponta para a necessidade de compreensão sobre as questões científicas e tecnológicas que nos cercam, estabelecendo relações com o cotidiano e com os artefatos que contribuem para melhor qualidade de vida do ser humano.
+
+Nessa perspectiva, esse tipo de conhecimento contribui na construção de “uma sociedade mais justa, democrática e inclusiva”, o que proporciona debates sobre diversos temas que podem apresentar reflexões no campo da ética e do olhar sobre o coletivo. O cuidado com seu corpo e com o outro, como preconiza as Competências Gerais da BNCC.
+
+No que se refere a competência específica 3, por exemplo, “compreender e explicar características e fenômenos ligados ao mundo natural”, tem o intuito de aguçar a curiosidade proporcionando ao estudante capacidade de desenvolver o pensamento lógico na formulação de perguntas, e na tentativa de resolução de problemas voltados para o cotidiano.
+
+Ainda nessa competência e em consonância com a competência geral da Base, o processo tecnológico, incluindo o digital, lança um olhar para resolução de situações na criação de soluções que utilizem tais artefatos, o que corrobora com a necessidade de conhecimentos oriundos das Ciência da Natureza.
+
+Sobre a competência específica 4, o mundo contemporâneo, que envolve também o mundo do trabalho, implica possuir conhecimentos para avaliar situações postas com olhar para questões políticas, socioambientais e culturais, e o uso das tecnologias. A BNCC (2017), traz, ainda, em suas competências gerais, a formação integral na perspectiva não só do conteúdo da área de Ciências da Natureza, mas uma visão global de benefícios, e/ou consequências, que as decisões tomadas afetem de modo positivo a sociedade contemporânea.
+
+De importante teor é que na formação desse estudante de forma integral, ele possa argumentar com base em dados confiáveis, de cunho científico, que possam compreender a situação e defender a ideia, e levar em conta questões sociais e socioemocionais valorizando os grupos sociais e sua diversidade, excluindo preconceitos e formando cidadãos livres de intolerâncias. Grupos culturais que defendem ideias que podem melhorar a convivência no mundo devem ser valorizados, e esta premissa constitui a competência específica 5 de Ciências da Natureza do Ensino Fundamental.
+
+Na competência específica 6, e nas competências gerais, a utilização de diferentes linguagens para comunicar-se apresenta-se como imprescindível na formação desse estudante autônomo, crítico, reflexivo e com postura de intervenção sobre a realidade.
+
+Isso também denota o uso das tecnologias digitais nesse processo, devido a evolução tecnológica e o que ela pode nos oferecer, pois formar um cidadão que domine as tecnologias em benefício da sociedade torna-se uma característica necessária na resolução de situações problemas que o cotidiano pode nos mostrar.
+
+A competência específica 7 chama a atenção de todos nós, para a importância do respeito. O cuidado de si e de seu próprio corpo, o cuidado do outro e o respeito à diversidade, são elementos que subjazem a coletividade. Pois, tomada de decisões para a melhoria da qualidade de vida de todos independe de credos, de lugar da moradia, se no campo na cidade, de diversidade étnica, se descende do indígena ou do quilombo, se pertencente a grupos sociais, se possui alguma necessidade especial.
+
+A BNCC (2017) em suas competências gerais, assim como as competências específicas de Ciências da Natureza, a qual discute-se aqui, deixa claro a miscigenação e diversidade existente em nosso país como questão histórico e cultural de grande importância, e a necessidade de respeito a todos para a formação de uma sociedade mais justa e igualitária.
+
+Neste sentido, pode-se inferir sobre a competência específica 8, que valoriza o agir coletivamente em prol não só de si, mas de todos, no pensar com responsabilidade, recorrendo a conhecimentos oriundos dos estudos sobre Ciências da Natureza, que aprecia o respeito à saúde coletiva nas atitudes do sujeito perante a vivência em sociedade.
+
+Assim, em todas as competências específicas de Ciências da Natureza para o Ensino Fundamental, em consonância com as competências gerais da BNCC, a equidade se apresenta como uma premissa indispensável. Portanto, nesse processo ancora-se a necessidade de letramento científico, quando se desenvolve no estudante a apropriação dos conhecimentos necessários e essa apropriação perpassa pelo desenvolvimento integral do cidadão, com visão macro e micro do seu papel na sociedade.
+
+Dessa forma, a área de Ciências da Natureza tem como premissa o desenvolvimento das competências necessárias, mediante a multiplicidade de estratégias, além de um olhar articulado dos vários campos de saber.
+
+Vale ressaltar que este documento aponta como desafio a verticalização do ensino e a promoção do conhecimento em espiral. A verticalização para além da horizontalidade dos objetos de conhecimentos que a BNCC propõe, no sentido de revisitar conhecimentos prévios que podem agregar valor ao conhecimento em construção. Os objetos de conhecimentos devem aparecer nas salas de aulas de maneira espiral, a partir do ano letivo que o estudante está vinculado, e de forma vertical, entrelaçando conhecimentos diversificados, correlatos e complementares. A premissa do trabalho com objetos de conhecimentos que a BNCC traz, no formato da verticalidade e do espiral, para além da horizontalidade, vai constituir a progressividade de desenvolvimento cognitivo e socioemocional nos estudantes. Desse modo, são de suma importância para a inserção nos processos de ensino, as estratégias profícuas à investigação científica, tais como o ensino por investigação.

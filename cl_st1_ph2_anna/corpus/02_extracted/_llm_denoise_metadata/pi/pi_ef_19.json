@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0feddffed9dc3100006ab3085aab4887d2b5ac6d86daa88f11",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 525,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 400,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 925
+    }
+  },
+  "created_at": "2026-09-22T22:59:41Z",
+  "duration_seconds": 3.082,
+  "error": null,
+  "excerpt_id": "pi_ef_19",
+  "filename": "pi_ef_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e6cfa4ceea5ef9e47f4ef4cdbb259f670f191850d2ec219a87637222cc74f4a7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "81cdf1cbbf9c08e5fed5e24b2b4b27381d4c5c8f3d6507315ccdde6adc8d6cd1",
+    "rendered_prompt_sha256": "91917b5e61aada648bcee3d526d212a9f10f53da1209805851624a219116dd9c",
+    "source_text_sha256": "3aa2e41476c2ee377c60cced405409f6f2987e9cc2d3927ec33693129d4174e1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_ef_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2553,
+    "filename": "pi_ef_19.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_ef_19.txt",
+    "state": "pi",
+    "word_count_original": 271
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_ef_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_ef_19.json"
+  },
+  "raw_response_text": "## Teatro\n\nDevido aos crescentes nichos culturais constantemente absorvidos no território piauiense, inúmeras narrativas ganham novas caras ao debruçarem-se no forte regionalismo que pode variar de *Macbeth*, de Shakespeare, ao clássico *Palha de Arroz*, de Fontes Ibiapina. A quebra de sequência cronológica em troca de uma visão contextualizada fortalece o incentivo pela apreciação do cenário cultural rico em nordestinidades.\n\nO Teatro envolve, sobremaneira, a linguagem corporal abrangendo e promovendo o verbal e o não verbal, desse modo, no ensino de teatro o estudante deve ser levado a interagir com os elementos próprios dessa manifestação: corpo, voz, face, gestos, movimento, de forma a experimentar a improvisação, interpretação e atuação em diversas situações, bem como desenvolver noções básicas da inter-relação entre palco e plateia.\n\nEsse jogo de abstração trabalha o imaginário em consonância com a ação, formando vidas e mundos fictícios, o que, em geral, provoca, atrai e encanta os estudantes. Nessa perspectiva, Viola Spolin (2008) destaca a felicidade e fascinação demonstrada pelos alunos após experiências de jogos teatrais, focando na alegria em que um jogo teatral resulta. Como ela afirma:\n\n> Jogos teatrais, experimentados em sala de aula, devem ser reconhecidos não como diversões que extrapolam necessidades curriculares, mas sim como suportes que podem ser tecidos no cotidiano, atuando como energizadores e/ou trampolins para todos (SPOLIN, 2008, p. 20).\n\nCom base nisso, é possível afirmar que o teatro aflora aspectos indispensáveis para a convivência em sociedade, tais como a capacidade de dialogar, negociar e conviver com a diversidade. Além disso, na interpretação teatral o jovem encontra um espaço de libertação, de confronto e de representação de questões como igualdade e solidariedade.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

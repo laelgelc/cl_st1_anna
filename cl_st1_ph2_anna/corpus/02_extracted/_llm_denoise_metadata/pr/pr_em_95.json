@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00c9edb9335b5ed3006ab30a2c953087d28ddfbaa11b45b35d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 964,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1051,
+      "output_tokens_details": {
+        "reasoning_tokens": 236
+      },
+      "total_tokens": 2015
+    }
+  },
+  "created_at": "2026-09-22T23:07:34Z",
+  "duration_seconds": 9.77,
+  "error": null,
+  "excerpt_id": "pr_em_95",
+  "filename": "pr_em_95.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a0c1a77993fe0a3e1367a6709fec3f2793c1c384204712c6744d0c773e8ada2b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a202c03828108eb5de5ab936ad22f2d93925f53df4eff29257f48fd593dbaed1",
+    "rendered_prompt_sha256": "600f6ae366dd7efb6cb5712f46d6dd1b8d733f79749b7c06b1ece615852245d2",
+    "source_text_sha256": "e479f3b116deb044fc18313622e7f7dcaaf56dad6b27b3cb9dabda5f82e4a035"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_95.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2818,
+    "filename": "pr_em_95.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_95.txt",
+    "state": "pr",
+    "word_count_original": 571
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_95.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_95.json"
+  },
+  "raw_response_text": "### 3.2 Componente Curricular Geografia\n\nA Geografia, como componente curricular da Área de Ciências Humanas e Sociais Aplicadas, na etapa do Ensino Médio, contribui para a formação integral dos estudantes em suas dimensões intelectual, social, emocional, física e cultural, auxiliando no desenvolvimento dos seus projetos de vida, na atuação no mundo do trabalho e na melhor utilização das tecnologias para o seu dia a dia. Tal contribuição deve fundamentar-se em pressupostos teórico-metodológicos desenvolvidos no decorrer da história, tanto no âmbito científico, quanto pedagógico, e em conceitos, categorias e princípios lógicos próprios de sua área de conhecimento.\n\nTendo em vista a democratização de um Novo Ensino Médio que auxilie os estudantes jovens e adultos a buscarem sua inserção no mundo do trabalho, bem como para a cidadania, é importante pensar em currículos que priorizem a reflexão sobre o trabalho em sua dupla dimensão, de práxis humana e de prática produtiva.\n\nNesse contexto, assim como em outros momentos da história, a Geografia constituiu-se como uma importante ciência que auxilia na compreensão da organização e da dinâmica do espaço geográfico e das múltiplas territorialidades que nele se manifestam, bem como no desvendamento de contradições espaciais e das relações que se estabelecem entre o mundo vivido pelo estudante e as escalas, regional, nacional e global.\n\nA construção de tais compreensões deve estar calcada no raciocínio geográfico que, baseado em princípios lógicos, dará condições de analisar fatos, fenômenos e dinâmicas para, então, compreendê-los, permitindo aos estudantes estabelecer as maneiras de agir com responsabilidade individual e coletiva frente aos desafios impostos pelo mundo contemporâneo e inerentes ao mundo do trabalho, enfrentar problemas e construir soluções práticas — o que irá somar para a construção do projeto de vida do estudante.\n\nDecorrente da atualização das Diretrizes Nacionais para o Ensino Médio em 2018 e da homologação da Base Nacional Comum Curricular (BNCC) para esta etapa, objetivando adequações nos documentos que orientam os processos didático-pedagógicos das redes estaduais, o presente documento curricular constitui-se na estruturação de competências e habilidades necessárias ao processo de ensino-aprendizagem, cujas premissas são projeto de vida e protagonismo juvenil, como elementos fundamentais.\n\nAqui destacamos a juventude em sua multiplicidade socioespacial e demográfica, público notório do Ensino Médio, dado às circunstâncias como faixa etária e aos desafios quanto ao abandono escolar.\n\nÉ importante ressaltar que, para a Geografia, as práticas cotidianas dos jovens potencializam os estudos espaciais, na medida em que elas produzem espacialidades e territorialidades (Cavalcanti, 2011). Assim:\n\n> É preciso salientar, como também já se fez referência aqui, que essa produção se articula a diferentes modos de inserção desses jovens, dependendo de sua condição socioeconômica, do gênero, etnia, opção religiosa, orientação sexual, além de sua vinculação aos diversos grupos ou “tribos” mais específicos. Ainda que se leve em conta essa diversidade, é possível generalizar a ideia de que os jovens, de uma ou outra maneira, buscam constituir seus lugares, em diferentes meandros, em diversas “fendas” da cidade (ou de outros lugares), em espaços públicos ou privados, na rua, no clube, na praça, nos bares, na escola, imprimindo neles suas marcas. Nesse processo de constituição de lugares e de territórios, fazem leituras da cidade, produzem conhecimento sobre ela e seus diferentes lugares (Cavalcanti, 2011, p.48).\n\nDesse modo, refletir e agir tendo em vista a cidadania, e conhecendo seus lugares de convivência imediata, sua cidade ou comunidade, estabelecem sentido ético para suas práticas de modo articulado a seus direitos e deveres.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

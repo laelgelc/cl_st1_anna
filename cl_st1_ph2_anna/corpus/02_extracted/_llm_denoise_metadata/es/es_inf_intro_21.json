@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_081c3842a29ff93e006ab300d64b6087d2a9efa186cffe147d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1365,
+      "input_tokens_details": {
+        "cache_write_tokens": 1362,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1266,
+      "output_tokens_details": {
+        "reasoning_tokens": 90
+      },
+      "total_tokens": 2631
+    }
+  },
+  "created_at": "2026-09-22T22:27:41Z",
+  "duration_seconds": 7.631,
+  "error": null,
+  "excerpt_id": "es_inf_intro_21",
+  "filename": "es_inf_intro_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "98fd5e1f8f1c24107c76c53708d108bcc367f823fbe819f84de5aff5843f5207",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6ae1b4d9e909110ae00ddf928380c45d377ccae0801907e7e51d968216083cf4",
+    "rendered_prompt_sha256": "a521bfe0c328c7853485e0429572d98c5a417557d90fa97462c72e60cefe5b12",
+    "source_text_sha256": "8cfc7b735b3c0db017ae93bd3e074168d5c11963fe75b1314ee60df1dd38f40e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_intro_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1074,
+    "filename": "es_inf_intro_21.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_intro_21.txt",
+    "state": "es",
+    "word_count_original": 911
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_intro_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_intro_21.json"
+  },
+  "raw_response_text": "As funções da avaliação, apesar de diferentes, não devem ser vistas de modo fragmentado. Elas fazem parte de todo o processo, se integram e se complementam, com o objetivo maior de se colocar a serviço da aprendizagem e do trabalho docente, e reorientar o processo educativo.\n\nNesse sentido, a avaliação deve ter parâmetros claros para identificar o desenvolvimento e a aprendizagem dos estudantes, assim como para acompanhar o trabalho pedagógico. A partir dos resultados o professor poderá identificar se o estudante aprendeu e, também, se o planejamento, as estratégias elaboradas, as metodologias escolhidas e a abordagem dos objetos de conhecimento foram eficientes, fazendo uma autoanálise das suas escolhas ao verificar se, de fato, estão promovendo a aprendizagem.\n\nNa perspectiva do desenvolvimento de competências e da integralidade do estudante, é imprescindível que avaliação inclua também uma combinação de problemas e contextos que permitam mobilizar o conjunto de conhecimentos, habilidades e atitudes que atendam às capacidades previstas (ZABALA e ARNAU, 2014) e as diferentes dimensões e saberes dos sujeitos envolvidos.\n\nOutro aspecto importante da avaliação é que, por um lado, se identifique as dificuldades, reconhecendo o erro como um elemento que faz parte do processo de aprendizagem, sendo possível aprender com ele; por outro lado, também se valorize os avanços e conquistas já alcançados pelos estudantes para que se sintam estimulados a melhorar o seu desempenho e tenham abertura a novos conhecimentos.\n\nO processo de avaliação requer acompanhamento do que é planejado, das ações em sala de aula e da aprendizagem dos estudantes, utilizando-se de instrumentos e de estratégias diversificadas que permitam identificar o ponto de partida e onde se quer chegar ao longo do processo de todas as etapas da educação básica.\n\nDessa forma, para que a avaliação da aprendizagem seja realizada de uma forma mais abrangente e integradora, que considere os diferentes tipos de saberes envolvidos no processo de ensino e aprendizagem, os instrumentos devem ser variados, construídos no âmbito da comunidade escolar, contextualizados ao modo como foi promovida a aprendizagem e coerentes com que se espera, para possibilitar a identificação de necessidades e potencialidades e o alcance dos resultados esperados, tendo em vista a diversidade e condições que compõem o contexto educativo.\n\nNa Educação Infantil evidenciam-se a observação crítica e criativa das atividades, brincadeiras e interações, assim como o uso de registros variados, realizados por adultos e crianças (relatórios, fotografias, desenhos, etc.), sem o objetivo de seleção, promoção ou classificação, conforme orientam as Diretrizes Curriculares da Educação Infantil (BRASIL, 2009).\n\nNa etapa do Ensino Fundamental, destacam-se o uso de trabalhos, provas, questionários, seminários, pesquisas, roteiros de aprendizagem, fichas de observação, autoavaliação, relatórios, portfolio, projetos, entre outros registros, em momentos individuais ou coletivos, visando evidenciar a diversidade de saberes que compõem o processo educativo, bem como ser adaptável às condições ou necessidades específicas dos estudantes, especialmente aqueles que fazem parte do atendimento nas diferentes modalidades da Educação Básica, uma vez que a avaliação deve também ser orientada pelos princípios da inclusão educacional e promoção da equidade.\n\nDessa forma, ao repensar as práticas de avaliação devemos levar em conta os contextos e as condições de aprendizagem que perpassam os diferentes espaços escolares, as especificidades de cada etapa e de cada modalidade atendida, de modo que seus resultados não sejam vistos como uma sentença, mas como ponto de reflexão e investigação que auxilie os professores na compreensão dos resultados para tomada de decisões.\n\nAlém de identificar se as aprendizagens previstas foram alcançadas e subsidiar o trabalho docente, é necessário reconhecer a avaliação como um processo contínuo que possibilita compreender de forma global o projeto educativo, pelos sujeitos que dele fazem parte, de modo que contribua para identificar as circunstâncias e variáveis que influenciam os resultados de aprendizagem, bem como apontar caminhos para a superação de seus entraves e a melhoria das condições da realidade avaliada.\n\nO resultado geral de avaliação da aprendizagem na escola, discutido em momentos coletivos, envolve o professor e os demais profissionais da escola, especialmente a gestão escolar. Ele pode ser usado como termômetro pela equipe para identificar o alcance das metas da proposta político-pedagógica da escola e para provocar reflexão sobre os caminhos percorridos por todos, de modo que contribua para avançar na compreensão dos desafios cotidianos e na busca de soluções pedagógicas conjuntas e de modo colaborativo.\n\nO mesmo diz respeito ao resultado das avaliações institucionais, que ocorrem periodicamente para evidenciar as percepções de toda comunidade escolar sobre sua atuação em diferentes dimensões e permitir um diagnóstico coletivo das condições colocadas em cada contexto, visando aprimorar as suas práticas educativas.\n\nOutra perspectiva a ser considerada diz respeito às avaliações externas, que evidenciam aspectos dos sistemas de ensino estadual e municipal, cujos resultados podem ser usados como indicadores para serem refletidos junto com os resultados das avaliações ocorridas no âmbito escolar, visando o fortalecimento da aprendizagem nas unidades escolares. As necessidades internas e externas, apontadas pelas diferentes avaliações, devem ser usadas, em conjunto, como referência para a definição de metas que visem a melhoria da qualidade educacional da escola.\n\nDessa forma, a avaliação da aprendizagem, da escola e do sistema educativo são vistos como partes que compõem um todo, dando clareza a todos aqueles que fazem parte das ações e decisões sobre o que acontece com o estudante, o professor, a escola e a gestão das redes municipal e estadual, visando promover o acompanhamento sistemático e as melhorias contínuas identificadas em seus resultados para que se aprimore e avance a qualidade educacional em nosso país.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

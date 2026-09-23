@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d792dc0b38a9a68006ab30069c54487d2b65341f0630665cc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 800,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 856,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 1656
+    }
+  },
+  "created_at": "2026-09-22T22:25:53Z",
+  "duration_seconds": 7.456,
+  "error": null,
+  "excerpt_id": "df_inf_26",
+  "filename": "df_inf_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d60ed1ad1c3a638a34bc8bce336135d7c4f20590c1440f547465b505baf9c131",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "04a9f34a36456c38d4ea412aaf7ec0480f3cbc1d842ee8721b704928b34e435e",
+    "rendered_prompt_sha256": "eae1106a06c1cbfa5feac4cf8e4aa15c53988a7ea13984b82326e176ac04b9ec",
+    "source_text_sha256": "ee0d8fd524a3828b2b1bc9cb04138265abed2969ec9674bf385bdd1774b90a5d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_inf_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 970,
+    "filename": "df_inf_26.txt",
+    "filepath": "corpus/00_source_per_state/df/df_inf_26.txt",
+    "state": "df",
+    "word_count_original": 427
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_inf_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_inf_26.json"
+  },
+  "raw_response_text": "### 16.5. Espaços, tempos, quantidades, relações e transformações\n\nAutora: Gabrielly Soares Teodolino\n\nEste campo de experiência do Currículo propõe que as crianças experimentem o mundo ao seu redor, enquanto investigam, descobrem, interagem, elaboram e transformam a sociedade na qual estão inseridas.\n\nDe acordo com Arce, Silva e Varotto (2011), a criança, desde pequena, busca compreender, assim como o cientista, o mundo ao seu redor, partindo de sentimentos de admiração, encantamento e curiosidade diante dele. Esses sentimentos devem ser nutridos pelos adultos, que, intencionalmente, planejam propostas de pesquisa, investigação, exploração, constatação e refutação de ideias acerca do mundo, proporcionando atividades que estimulem a resolução de problemas inerentes à fase e ao contexto das crianças.\n\nLevando em conta a interlocução entre as múltiplas linguagens da infância, neste campo de experiência, as linguagens mais presentes são a matemática e interações com a natureza e a sociedade, embora também haja conexões com as demais.\n\nEste Currículo não propõe o ensino da Matemática de modo sistemático, mas o desenvolvimento da linguagem matemática. Assim, considerando que “enquanto atividade humana, a matemática é uma forma particular de organizarmos os objetos e eventos no mundo” (NUNES; CARRAHER; SCHLIEMANN, p. 13, 1988), sugere-se que, por meio da manipulação e experimentação proporcionadas pelas interações e brincadeiras, as crianças vivenciem a matemática debatendo e discutindo ideias que permitam a compreensão e o desenvolver de conceitos matemáticos.\n\nUma vez que a matemática está presente na vida de todos, é indispensável que, desde a mais tenra idade, as crianças participem de situações que possibilitem a apropriação e o emprego desta linguagem. Isso se realiza mediante atividades que contemplem a matemática para além do uso dos números e possibilitem que se “recriem, em contextos significativos para as crianças, relações quantitativas, medidas, formas e orientações espaço temporais” (DCNEI, 2010a, p. 25-26).\n\nSegundo Arce, Silva e Varotto (2011), frequentemente, a Educação Infantil tem organizado suas propostas apenas de acordo com o que é perceptível aos órgãos sensoriais. Todavia, esse processo necessita ser acompanhado da dedução e da investigação, que exigem da criança um planejamento mental e, consequentemente, favorecem o desenvolvimento dos processos de percepção, atenção, memória, fala, imaginação e criação.\n\nNo processo de interação com o mundo físico e natural, a criança elabora explicações para os fenômenos e acontecimentos, bem como opera e refuta conceitos. De acordo com as DCNEI (BRASIL, 2010a), as propostas pedagógicas devem incentivar a curiosidade, a exploração, o encantamento, o questionamento, a indagação e o conhecimento das crianças em relação ao mundo físico, social, ao tempo e à natureza; a isso se propõe esse campo de experiência.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

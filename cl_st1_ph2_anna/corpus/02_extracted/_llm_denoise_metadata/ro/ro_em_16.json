@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00006e3cf734c4d8006ab30c08d5a887d2b03cee2caca2c237",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1631,
+      "input_tokens_details": {
+        "cache_write_tokens": 1628,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2705,
+      "output_tokens_details": {
+        "reasoning_tokens": 1121
+      },
+      "total_tokens": 4336
+    }
+  },
+  "created_at": "2026-09-22T23:15:45Z",
+  "duration_seconds": 24.459,
+  "error": null,
+  "excerpt_id": "ro_em_16",
+  "filename": "ro_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1f6cb17fdc88b408b823ccead9bb0d237c66d968db43a41c409a185cfb9402af",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7e76352ac468b41d68b636c378c46a2d36c55dc1182612c235698256be533ed5",
+    "rendered_prompt_sha256": "6aacff820f4ce374723707c9bf3c02d97cb24fba1d9bea531b0110e35e321683",
+    "source_text_sha256": "7f0adbf2e342bd37e1b8b08a698f5add43b3dad72bc63deb1a571c1b1b39261b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3230,
+    "filename": "ro_em_16.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_16.txt",
+    "state": "ro",
+    "word_count_original": 1030
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_16.json"
+  },
+  "raw_response_text": "**Quadro 2. Proposição de exemplos de estratégias de metodologias ativas para o trabalho pedagógico com o estudante no Ensino Médio em Rondônia**\n\n| Tipo de Estratégia | O que é? | Quando usar? | Como usar? | Como avaliar? |\n|---|---|---|---|---|\n| Aprendizagem colaborativa | Consiste em uma estratégia ativa de aprendizagem que requer a participação, integração e colaboração de todos os membros da equipe. | Pode ser usada em processos de aprendizagem com vistas a estimular os estudantes a fazer e receber críticas sobre temáticas estudadas. E ainda, para o trabalho em equipe, a tomada de decisão e a melhora na comunicação. | Em ambientes de sala de aula (presencial e virtual). Criar grupos e atribuir funções aos integrantes conforme as possibilidades e o interesse coletivo.<br><br>Exemplos: contrato de aprendizagem; diagrama dos cinco porquês; giro colaborativo; jogos de cartas; passa ou repassa; disputa argumentativa; aprendizagem em espiral. | Envolver os grupos de modo que todos possam apontar os pontos positivos e de atenção da participação de cada grupo. |\n| Aprendizagem entre pares ou times (TBL) | Caracteriza-se como uma estratégia de aprendizagem entre pares e times na qual os estudantes aprendem e ensinam ao mesmo tempo. | Em situações educativas voltadas para a troca e compartilhamento de informações e/ou a construção colaborativa e participativa de ideias sobre a temática estudada. | Em ambientes de sala de aula (presencial e virtual). Criar grupos e atribuir funções aos integrantes conforme as possibilidades e o interesse coletivo.<br><br>Exemplos: estudo individual/coletivo, entrevista, conferência, filmes, experimentos, realização de tarefas (individual/coletivo); apelação, feedback; estudos de caso; aplicação de testes (individual/coletivo). | Envolver os grupos de modo que todos possam apontar os pontos positivos e de atenção da participação de cada grupo. |\n| Exposições interativas | Trata-se de uma estratégia ativa de docência interativa que ocorre mediante relações dialógicas e participativas entre aluno e professor. | É utilizada quando o professor deseja problematizar e dinamizar a aula, e deste modo, envolver o estudante em situações de aprendizagem concretas sobre a temática abordada. | A exposição interativa não ocorre somente em salas de aula equipadas com recursos tecnológicos, mas também pode ser planejada para sala de aula não informatizada.<br><br>Exemplos: debate, intercâmbio com o autor; mapa mental, mural de fatos e notícias; paleta de cores; uso de aplicativos. | A partir da interação e participação do estudante nas dinâmicas desenvolvidas, como, por exemplo, em atividades como jogos de perguntas e respostas; músicas; filmes. |\n| Aprendizagem baseada em projetos ou problemas | Consiste em uma estratégia de aprendizagem que alia a construção do conhecimento de forma ativa com vista à solução colaborativa de desafios chamados problemas. | Recomenda-se utilizar quando se busca que o estudante explore soluções dentro de um contexto específico. E ainda, é utilizado para despertar o lado inventivo, crítico e colaborativo do estudante ao participar de projetos diversificados. | A estratégia pode ser desenvolvida em espaços de aprendizagem diversificados. Entretanto, é essencial o trabalho em grupos de forma colaborativa.<br><br>Exemplos: análise de fatores ou ideias; estudo de caso; uso de aplicativos; construção de situações-problema; matriz de problemas; mapeamento de causas; árvore dos problemas; problemas do cotidiano. | Envolver os grupos de modo que todos possam apontar os pontos positivos e de atenção da participação de cada grupo. Em paralelo, avaliar a capacidade de tomada de decisão, definição das ações, os prazos e o trabalho em grupo. |\n\nFonte: adaptado de Costa (2020); Camargo (2018b).\n\n| Tipo de Estratégia | O que é? | Quando usar? | Como usar? | Como avaliar? |\n|---|---|---|---|---|\n| Design Thinking | É uma estratégia de ensino-aprendizagem ativa, criativa e colaborativa. Também é conhecida como uma metodologia para solução de problemas e/ou uma abordagem que catalisa a colaboração, a inovação e a busca por soluções. | É utilizada em situações de aprendizagem em que se deseja:<br>▪ Propor processos educativos para conversas; iniciar, aprender com os erros, falhas e resolver discordâncias;<br>▪ Definir um desafio estratégico (problema);<br>▪ Avaliar conhecimentos preexistentes sobre a realidade do estudante;<br>▪ Planejar em conjunto soluções para um problema específico;<br>▪ Identificar capacidades e perfis para implementar soluções;<br>▪ Desenvolver habilidades do estudante referente ao gerenciamento da projeção de uma solução para um problema complexo;<br>▪ Transformar ideias em realidade. | O Design Thinking pode ser desenvolvido em espaços de aprendizagem diversificados, mediante a observação e a cocriação, a partir do conceito de prototipagem (criação e testes de protótipos) rápida e análise de diferentes realidades.<br>▪ Pode ser utilizado diversos materiais (papelão, massa de modelar ou papel).<br>▪ São exemplos: storyboards, diagramas, mockup, filmagens, peças de teatro, maquetes, páginas da internet; brainstorm com post-its. | ▪ Observe os conhecimentos prévios dos estudantes sobre os problemas levantados;<br>▪ Analise os protótipos (material) produzidos pelos grupos. O foco no processo de aprendizagem é constatar o que e como o estudante está aprendendo;<br>▪ Oportunize momentos de diálogos para verificação se o aluno aprendeu o que estava previsto nos objetivos de aprendizagem. |\n| Gamificação | ▪ É uma técnica que usa elementos, design e pensamento de jogos em diferentes contextos para gerar engajamento, mudanças de comportamento, interatividade, resolução de problemas, atividades mais divertidas, motivar a ação e promover a aprendizagem do estudante. | ▪ Recomenda-se o uso quando se busca: a resolução de problemas, principalmente sociais; o desenvolvimento de habilidades complexas como: tomada de decisão, desenvolvimento de liderança e inovação; mudança de hábitos (exemplo: inserção da atividade física na rotina; aprender um idioma).<br>▪ Pode ser usado também quando se pretende alcançar objetivos de aprendizagem mensuráveis e definidos por regras de forma interativa e com a presença de feedback. | ▪ Pode ser desenvolvida em espaços de aprendizagem diversificados que contemplem elementos como interatividade, ações individuais, coletivas, a estruturação de regras e o feedback.<br>▪ É importante no game: conhecer os objetivos/metas de aprendizagem; definir os comportamentos e tarefas que fazem parte da solução; conhecer seus jogadores; selecionar o tipo de conhecimento ensinado; assegurar a presença da diversão; e utilizar as ferramentas apropriadas; fazer protótipos e testagem.<br>▪ Exemplos: jogos pedagógicos; jogos eletrônicos e populares; jogos de aplicativos. | ▪ Elabore mapas de empatia para conhecer o tipo de jogador;<br>▪ Verifique os avanços de aprendizagem a partir da taxonomia de Bloom;<br>▪ Verifique o grau de dificuldade de cada game proposto;<br>▪ Observe a motivação, a ação e ofereça feedback constante da atividade gamificada;<br>▪ Utilize os pontos, níveis, fases e placar para dar feedback do game. |\n\nFonte: adaptado de Cavalcanti e Filatro (2016); Flora (2015); Camargo (2018b).",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

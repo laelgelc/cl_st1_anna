@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09fc0d830dec67ab006ab2fc88e12487d29e5e97818255ee4f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 602,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 749,
+      "output_tokens_details": {
+        "reasoning_tokens": 282
+      },
+      "total_tokens": 1351
+    }
+  },
+  "created_at": "2026-09-22T22:09:18Z",
+  "duration_seconds": 5.697,
+  "error": null,
+  "excerpt_id": "al_ef_81",
+  "filename": "al_ef_81.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8d5ebfb4e5bb2b3ac2826a2d652842e2c4689be86ae966eb3b0d4e082d9476b7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c8dc7be9d07222178ca9aec1762267f2d1e2c606ee9d7ceae42674fde63b07f6",
+    "rendered_prompt_sha256": "58db2761208120f986bcce13017c56ace0f25024f433b7613d4572c10cdb9c4d",
+    "source_text_sha256": "d1eb895bf134f01ae13a5192c9dd9ba6d61c8976a2467a8261bec88a7a03fa3c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_81.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 221,
+    "filename": "al_ef_81.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_81.txt",
+    "state": "al",
+    "word_count_original": 352
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_81.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_81.json"
+  },
+  "raw_response_text": "### 11. O papel do estudante no processo curricular\n\nA escola tem um papel decisivo na formação do estudante, ela deve propiciar uma formação que seja capaz de estimular o desenvolvimento das habilidades e competências. É preciso levá-los a aperfeiçoar as próprias características e descobrir recursos para lidar com suas dificuldades e/ou inabilidades. O currículo voltado para a construção de um sujeito autônomo deve considerar: os conhecimentos prévios; a formação integral; as habilidades e competências; capacidade de superação, e as competências socioemocionais e cognitivas dos educandos.\n\nO currículo escolar precisa ser elaborado a partir do seu Projeto Político Pedagógico, e nele deverá está expresso, de forma clara, uma proposta educativa que orientará o trabalho pedagógico no dia a dia da escola, dos trabalhos realizados, principalmente na sala de aula com os estudantes. Isto significa dizer que, o currículo escolar vai muito além do simples rol de disciplinas e conteúdos programáticos a serem cumpridos em determinada carga horária ou de uma matriz curricular.\n\nO ensino da Geografia deve possibilitar ao estudante a compreensão do mundo em que vive tornando-lhe em um agente de transformação social. Dessa forma os conteúdos precisam ser abordados de forma contextualizada, ou seja, além de relacioná-los à realidade vivida do estudante, é preciso situá-los no contexto histórico, nas relações políticas, sociais, econômicas, culturais e em manifestações espaciais concretas, utilizando diversas escalas geográficas.\n\n### 12. Organização Curricular do Componente de Geografia nos Anos Iniciais e Finais\n\nPara dar conta desse desafio que é (re) organizar o Componente Curricular de Geografia de Alagoas, tomou-se como referência a BNCC, desse modo, estruturou-se o componente curricular de Geografia em 5 Unidades Temáticas (O sujeito e seu lugar no mundo; Conexões e escalas; Mundo do trabalho; Formas de representação e pensamento espacial e Natureza, ambientes e qualidade de vida), que se estendem desde o Ensino Fundamental Anos Iniciais até os Anos Finais, em uma progressão das habilidades distribuídas desde o 1º ano até o 9º ano. Vejamos como estão distribuídas as Unidades Temáticas:",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

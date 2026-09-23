@@ -1,0 +1,16 @@
+# Boas-vindas da Secretária de Educação do Pará
+
+Estamos vivenciando um momento histórico importante para o ensino médio brasileiro. Momento este de mudanças estruturais na etapa final da educação básica, requer o envolvimento com engajamento e compromisso de todas/os nós que acreditamos na educação como um instrumento de libertação e transformação da sociedade, sobretudo, da vida humana, com vistas à garantia constitucional aos direitos à educação de todos nós brasileiros/as.
+
+Neste sentido, desde a aprovação da Lei nº 13.415/2017, as Secretarias de Educação dos estados e do Distrito Federal vêm trabalhando para construir propostas pedagógicas consistentes aos desafios que o ensino médio é capaz de contribuir na formação de juventudes mais fortalecidas e participativas. No Pará, não está sendo diferente!
+
+Foi com esse compromisso com a sociedade paraense que a Secretaria de Estado de Educação do Pará (SEDUC/PA), como articuladora do Sistema de Ensino Estadual e por meio do Programa de Apoio à Implementação da Base Nacional Comum Curricular (ProBNCC), construiu uma proposta preliminar de Documento Curricular para o Estado do Pará, que está sendo disponibilizado à comunidade para debates e contribuições de todas/os as/os interessadas/os.
+
+Assim, espera-se que, a partir desta importante iniciativa, possamos juntos reescrever um capítulo diferenciado da história do ensino médio paraense, tendo como principal referência as nossas histórias, peculiaridades, culturas, entre tantos outros aspectos fundamentais que tornam o Pará um Estado de muitas Amazônias, cuja principal riqueza está na sua gente e na capacidade de sonhar e lutar por dias melhores.
+
+A SEDUC/PA convida a todas/os para participar dessa etapa de discussões e debates do Documento Curricular do ensino médio e juntos vamos fortalecer as redes de ensino paraenses.
+
+Um forte abraço!
+
+Elieth de Fátima da Silva Braga  
+Secretária de Estado de Educação do Pará.

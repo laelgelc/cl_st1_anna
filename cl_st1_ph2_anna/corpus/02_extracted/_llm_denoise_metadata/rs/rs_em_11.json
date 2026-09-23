@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d711172ec1b7097006ab30d96532487d294560f505f4e3034",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 456,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 423,
+      "output_tokens_details": {
+        "reasoning_tokens": 90
+      },
+      "total_tokens": 879
+    }
+  },
+  "created_at": "2026-09-22T23:22:01Z",
+  "duration_seconds": 3.588,
+  "error": null,
+  "excerpt_id": "rs_em_11",
+  "filename": "rs_em_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6feb1d93b3772ad4033da352de7c3d4cf45a0c72e148e381e207dc693fe684cb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "66297b906db83a8ff40f572fdefc3a212a8dc5c815c702fa4c18f833f721a8b5",
+    "rendered_prompt_sha256": "28c49ea03476a24ae0c001a364e098363bc29d272f09faa7da37a615ddce31bb",
+    "source_text_sha256": "fbf6c761a36b5a397ae1bfd4e807f54f32dba96f9b87fac4390ce6b06ecf92dc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3552,
+    "filename": "rs_em_11.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_11.txt",
+    "state": "rs",
+    "word_count_original": 242
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_11.json"
+  },
+  "raw_response_text": "### 1.7.3 Educação Especial\n\nEducação Especial é uma modalidade de ensino que perpassa todos os níveis, etapas e demais modalidades. Nesse sentido, a Política Pública Estadual para Educação Especial apresenta uma perspectiva inclusiva na qual os estudantes com deficiência, transtornos do espectro autista e altas habilidades/superdotação têm acesso ao ensino regular atendendo às suas necessidades específicas e garantindo a sua participação e aprendizagem.\n\nO Atendimento Educacional Especializado (AEE) é responsável por realizar e disponibilizar os recursos, serviços e orientação para utilização no ensino e na aprendizagem em escolas de ensino regular. Ao longo de todo o processo de escolarização, esse atendimento deve estar articulado com a proposta pedagógica da escola, não sendo substitutivo das atividades do ensino regular, nem reforço escolar.\n\nO AEE promove a acessibilidade curricular prevendo, de acordo com as necessidades do estudante, o Atendimento; o plano de AEE; o ensino do Sistema Braille; o ensino da Língua Brasileira de Sinais (LIBRAS), o ensino do uso do Soroban; as estratégias para autonomia no ambiente escolar; a orientação e a mobilidade; o ensino do uso de recursos de tecnologia assistiva; o ensino do uso da Comunicação Alternativa e Aumentativa (CAA); as estratégias para o desenvolvimento de processos cognitivos; as estratégias para enriquecimento curricular; profissional de apoio; tradutor/intérprete da Língua Brasileira de Sinais/Língua Portuguesa e guia intérprete. Com isso, as escolas poderão garantir o acesso, a participação, a interação, a autonomia e a inclusão de todos os estudantes.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

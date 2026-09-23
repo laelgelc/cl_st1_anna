@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a8ad0ae95625ccd006ab2ff8f4a8887d2a66221220c54084b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 789,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1118,
+      "output_tokens_details": {
+        "reasoning_tokens": 429
+      },
+      "total_tokens": 1907
+    }
+  },
+  "created_at": "2026-09-22T22:22:16Z",
+  "duration_seconds": 9.384,
+  "error": null,
+  "excerpt_id": "ce_em_50",
+  "filename": "ce_em_50.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8cb6d5d979167586e468bce59de97fe2704e81320ed61b30626168721e9fea73",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d90b6e24ac5a24554a0c8aa8e2968a6b60592aa75138372bb6ed4dc80b3dba9c",
+    "rendered_prompt_sha256": "8bc02462841da8630ce71c074470543c4c61a9b0cfd54dd2699d8c721227670a",
+    "source_text_sha256": "ffd04fe58057ac3f8eb31c3d895f52e8cf6977b47321c0dfc299a5fc0b860c03"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_50.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 808,
+    "filename": "ce_em_50.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_50.txt",
+    "state": "ce",
+    "word_count_original": 514
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_50.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_50.json"
+  },
+  "raw_response_text": "Após a leitura de todos esses conhecimentos, objetos de conhecimentos, competências e habilidades que estiveram ou estão em diversos documentos, desde a criação da LBD, percebe-se que a grande maioria se apresenta como importantes e necessários aos alunas/os adquirirem para que sua formação seja efetivamente integral. Desse modo, os termos Novo Ensino Médio e BNCC não representam um momento novo quando refletimos sobre a Filosofia no currículo do ensino médio, mas uma nova estrutura organizada através de competências e habilidades – e os novos termos objetos de conhecimento e objetos específicos. O currículo mínimo de Filosofia presente na DCRC (ver a matriz curricular) apresenta o necessário aos alunos terem acesso para que sejam formados integral.\n\nOrienta-se que os professores façam uma revisão do modo como ensinam, questionando se a forma de ensinar, de aprender a aprender e outras de cunho pedagógico, como foram ensinados na universidade, proporcionam uma experiência do pensamento de nossas alunas/os cearenses. Essa orientação, segundo a tese de Sílvio Gallo (2012, p. 131), vai no sentido de não reproduzirmos um modo conteudista de ensinar, como geralmente aprendemos na universidade.\n\nDiferente das duas orientações curriculares estaduais anteriores (Escola Viva e Escola Aprendente) que se dirigiam às instituições públicas do Ceará, a DCRC também se dirige às privadas. Neste ponto, gostaríamos de considerar a necessidade de um olhar diferenciado para as instituições particulares, pois é comum que, em muitos casos, objetivando de forma prioritária o êxito em avaliações como o ENEM, possam reduzir de suas grades, muito mais do que nas instituições públicas, o ensino de Filosofia. Neste contexto, é importante que os professores de Filosofia fortaleça, em cada instituição, a importância da Filosofia no Ensino Médio, lançando mão, por exemplo, do argumento da sua presença no ENEM e em vestibulares, como na Universidade Estadual do Ceará (UECE), proporcionando a comunidade escolar reconhecer a importância desse saber para o discente que ingressar no Ensino Superior, pois a Filosofia, independente do curso que escolha, por pensar as bases científicas e do pensamento ocidental, será sempre base para a compreensão dos diversos saberes. É importante que essa mesma decisão tomada pela UECE seja reproduzida pelas IES do Ceará, a fim de fortalecer o ensino do componente em todo o estado.\n\nDesse modo, convidamos à todos os professores de Filosofia do estado do Ceará, das redes públicas e privadas, a desenvolverem práticas inovadoras, considerando as questões aqui levantadas, a fim de proporcionar que nossos aprendentes desenvolvam as competências e habilidades necessárias para que sejam integralmente formados, possibilitando que tenham os mesmos direitos (igualdade), tenham as particularidades de suas subjetividades respeitadas (diversidade) e condições reais de conviver em sociedade (equidade), objetivos do estado e da sociedade, como lembra a BNCC (p. 15) ao retomar as ideias constituintes do pacto federativo do estado brasileiro\n\nSe a Filosofia, como iniciamos nossa conversa, é esse amor ao saber que na forma de relação conduz o sujeito ao saber, colocando em prática o que aqui foi sugerido estaremos no caminho de cumprir nosso papel como educadores e efetivarmos os anseios fundamentais da Filosofia.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

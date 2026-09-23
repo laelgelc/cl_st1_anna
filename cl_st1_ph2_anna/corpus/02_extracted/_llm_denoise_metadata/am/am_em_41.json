@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07c3b0c307ef4d4a006ab2fd8ba21887d28001bff5a9e9036b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1101,
+      "input_tokens_details": {
+        "cache_write_tokens": 1098,
+        "cached_tokens": 0
+      },
+      "output_tokens": 978,
+      "output_tokens_details": {
+        "reasoning_tokens": 80
+      },
+      "total_tokens": 2079
+    }
+  },
+  "created_at": "2026-09-22T22:13:38Z",
+  "duration_seconds": 6.457,
+  "error": null,
+  "excerpt_id": "am_em_41",
+  "filename": "am_em_41.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2fdc19f0bc87abab45d37024b7c656b5277a78d754e13aad2f78422004272d50",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "982c739cd960ebaa1e43ccef51db434b36f132f48a5de29323593f0a0507a8a9",
+    "rendered_prompt_sha256": "e7a133ab14b961a44b321ee60c71cdf705f104eff1c491d2af1c95afaf1b66fa",
+    "source_text_sha256": "6f82bdae58ce635fc83a8247f8fa3f346def53881c8dbe0b242cfc328fbf0478"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_41.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 402,
+    "filename": "am_em_41.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_41.txt",
+    "state": "am",
+    "word_count_original": 699
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_41.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_41.json"
+  },
+  "raw_response_text": "### 5.2.1 Sugestões de tipos de avaliação e instrumentos avaliativos\n\nTomando como ponto de partida o que se apresenta sobre avaliação, faz-se necessário destacar que o estudante deve ser acolhido, enquanto ser humano e na sua totalidade. No âmbito escolar, a avaliação deverá considerar todo o processo educativo, enquanto ferramenta para tomada de decisão, levando-se em conta a aprendizagem dos estudantes.\n\nA proposta da avaliação deverá garantir a continuidade da escolarização e a de possibilitar a criação de condições, no intuito de que as escolas trabalhem de várias maneiras com a diversidade dos estudantes. Diante disso, as escolas necessitam inovar, compreender formas mais justas e igualitárias que possibilitem o desenvolvimento de competências e habilidades necessárias para este século.\n\nOs professores necessitam perceber o processo de ensino-aprendizagem a partir de um novo olhar, ressignificando sua postura, no intuito de promover diálogos mais abertos com os estudantes, estabelecendo e compartilhando quais são as expectativas de aprendizagem com cada atividade.\n\nE os estudantes necessitam tomar conhecimento das habilidades que precisam desenvolver, para cumprirem com as expectativas almejadas pelo professor, que deverá deixar bem claro o que se pretende com o conhecimento que está conduzindo em suas aulas. É necessário que alguns pontos sejam norteadores da avaliação, para que ao longo do processo de aprendizagem, seja possível detectar os avanços e as dificuldades encontrados.\n\nAlguns desses pontos são incluídos como sugestões, principalmente, os que correspondem à compreensão da avaliação, enquanto processo sistemático, que deve contar com variados instrumentos, previamente, planejados, indo ao encontro do que está sendo avaliado; à atenção aos instrumentos que avaliem continuamente, o estudante, em tudo o que conseguir atingir ao longo do percurso; à elaboração de objetivos enquanto parâmetros do que se pretende com o que se ensina, auxiliando o estudante a desenvolver as habilidades que não está dominando de modo eficaz.\n\nDeve-se acrescentar a tudo isso a ideia de que a avaliação é relacional, o estudante aprende com o professor, com o outro estudante, consigo mesmo e com tudo o que o cerca, dentro e fora do contexto educacional. Daí ser fundamental que, durante o processo de aprendizagem, reflita-se acerca da melhor maneira de se aplicar instrumentos que irão medir o desenvolvimento do estudante.\n\nA avaliação não tem nem deverá ter uma só finalidade e nesta direção, destacam-se a avaliação diagnóstica, a formativa e a somativa. Em relação à diagnóstica, o objetivo é o de identificar o estágio de desenvolvimento que o estudante se encontra no início do processo ou investigar causas de dificuldades que ocorrem durante o processo.\n\nQuanto à formativa, o objetivo é o de acompanhar e analisar todo o desempenho do estudante e detectar suas dificuldades, para ajustar os pontos frágeis ao longo do processo. Os instrumentos a serem utilizados, devem permitir a participação constante do estudante, possibilitando a aplicação do conhecimento em sua vivência pessoal e profissional. Análise de informações, postura crítica diante delas, formulação de soluções, interação que oportunize a troca de informações e opiniões, construção e reconstrução de conhecimentos.\n\nHá de se considerar que nesse tipo de avaliação, o estudante deverá realizar tarefas que pressuponham a elaboração de textos, realização de apresentações, exposição do que for construído por ele, permitindo-lhe refletir sobre as estratégias utilizadas.\n\nE em relação à somativa, o objetivo é o de aferir se o que foi proposto, foi alcançado ao final do processo, servindo como uma retomada ao estudo, mas para isto, os instrumentos ao longo do percurso deverão possibilitar ao estudante sanar suas dificuldades.\n\nÉ importante ressaltar que os instrumentos a serem adotados para quaisquer tipos de avaliação deverão considerar os quatro domínios de competências que regem os princípios estabelecidos pelo documento da Unesco. Para os professores, o desafio recairá na construção de variados instrumentos capazes de diagnosticar dificuldades, de oferecer possibilidade de saná-las, de permitir reflexão e de aferir o conhecimento.\n\nAlém disso, devem ser contempladas as duas formas de avaliação, qualitativa e quantitativa, dependendo do instrumento a ser utilizado. A primeira, porque prioriza o processo de aprendizagem, dando ênfase ao estudante e ao que, realmente, aprendeu; e a segunda, porque aponta para uma abordagem mais objetiva, ao grau de conhecimento medido pelo número de respostas corretas.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

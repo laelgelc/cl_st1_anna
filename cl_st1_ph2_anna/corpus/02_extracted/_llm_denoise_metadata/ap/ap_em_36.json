@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0edd4002495941fc006ab2fe18bb5087d292e936782c859d47",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 510,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 603,
+      "output_tokens_details": {
+        "reasoning_tokens": 185
+      },
+      "total_tokens": 1113
+    }
+  },
+  "created_at": "2026-09-22T22:15:57Z",
+  "duration_seconds": 5.267,
+  "error": null,
+  "excerpt_id": "ap_em_36",
+  "filename": "ap_em_36.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a529485d5c64d16b3c7f7f6158cbd3207c979aaa965c302ad392f0217988c8dd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7976c72de465d578d020b5c57c5d85bf7baac9dbf875b763253a20bb6836a3f2",
+    "rendered_prompt_sha256": "471f98932f02b4ee5ea0845188f64aa3db1cdcb08346f30a61bea6e9a191e206",
+    "source_text_sha256": "2f18535c5ff4676ada65bf39c941babc77ab8ed7f07592041503f07c2a9a91d2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_36.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 531,
+    "filename": "ap_em_36.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_36.txt",
+    "state": "ap",
+    "word_count_original": 307
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_36.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_36.json"
+  },
+  "raw_response_text": "# PRINCÍPIOS DA EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA\n\n## FORMAÇÃO HUMANA INTEGRAL\n\nCiavatta (2005), ao se propor a refletir sobre o que é ou que pode vir a ser a formação integrada, pergunta: que é integrar? A autora remete o termo, então, ao seu sentido de completude, de compreensão das partes no seu todo ou da unidade no diverso, o que implica tratar a educação como uma totalidade social, isto é, nas múltiplas mediações históricas que concretizam os processos educativos. No caso da formação integrada ou do ensino médio integrado ao ensino técnico e profissional, o que se quer com a concepção de educação integrada é que a educação geral se torne parte inseparável da educação profissional em todos os campos onde se dá a preparação para o trabalho: seja nos processos produtivos, seja nos processos educativos como a formação inicial, como o ensino técnico, tecnológico ou superior. Significa que buscamos enfocar o trabalho como princípio educativo, no sentido de superar a dicotomia trabalho manual / trabalho intelectual, de incorporar a dimensão intelectual ao trabalho produtivo, de formar trabalhadores capazes de atuar como dirigentes e cidadãos.\n\nA ideia de formação integrada sugere superar o ser humano dividido historicamente pela divisão social do trabalho entre a ação de executar e a ação de pensar, dirigir ou planejar. Trata-se de superar a redução da preparação para o trabalho ao seu aspecto operacional, simplificado, escoimado dos conhecimentos que estão na sua gênese científico-tecnológica e na sua apropriação histórico-social. Como formação humana, o que se busca é garantir ao adolescente, ao jovem e ao adulto trabalhador o direito a uma formação completa para a leitura do mundo e para a atuação como cidadão pertencente a um país, integrado dignamente à sua sociedade política. Formação que, nesse sentido, supõe a compreensão das relações sociais subjacentes a todos os fenômenos. (Ciavatta, 2005, p. 85)",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05dfb1eb5dd81255006ab30332f5f887d292ccb0b5ccd2a699",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 651,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 576,
+      "output_tokens_details": {
+        "reasoning_tokens": 54
+      },
+      "total_tokens": 1227
+    }
+  },
+  "created_at": "2026-09-22T22:37:43Z",
+  "duration_seconds": 4.685,
+  "error": null,
+  "excerpt_id": "mg_em_32",
+  "filename": "mg_em_32.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fbd270db2f3abe4402767fe2f0078b004682472566d6ac682094ab6b5f69a65b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2ca24913f6df8038758ee86f7d178ae9d90a0f3540a55cd57769b1a402994e27",
+    "rendered_prompt_sha256": "d89c85903f575a2a76b00a72355f30277c70821877cfaa86fcfb97fa71632c8b",
+    "source_text_sha256": "d32373a48c1eed6509a05bc14ad68875104ba89fc36ca4608d41fc95da5f7040"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_32.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1562,
+    "filename": "mg_em_32.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_32.txt",
+    "state": "mg",
+    "word_count_original": 391
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_32.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_32.json"
+  },
+  "raw_response_text": "Dados da Pesquisa Nacional por Amostra de Domicílios (PNAD/IBGE, 2015) evidenciam que, quanto maior a vulnerabilidade familiar, maior a probabilidade desses jovens evadirem ou abandonarem os estudos. Por exemplo, enquanto 59% dos jovens brasileiros concluem a educação média com, no máximo, um ano de atraso, entre jovens negros cuja mãe é analfabeta, vivendo em situação de extrema pobreza em áreas rurais, apenas 8% concluem a educação média com no máximo um ano de atraso.\n\nNesse cenário ganha destaque, ainda, a relação dos jovens das classes populares com o mundo do trabalho, a escolaridade do grupo familiar, a paternidade e a maternidade na adolescência, entre outros fatores que impactam o acesso ao ambiente escolar e a permanência nele e que não podem ser ignorados em um processo de reformulação curricular que tem entre os seus propósitos fazer frente aos ainda altos índices de evasão apresentados pelo ensino médio no Estado de Minas Gerais.\n\nPara isso, entende-se que os “problemas da juventude na escola” devem ser compreendidos como uma questão de relacionamento entre os estudantes e a instituição, e não um problema isolado que possa ser atribuído ou mesmo equacionado ao olhar apenas para um dos lados buscando um único “culpado”. Portanto, deve-se compreender que a efetiva implementação de um currículo que visa a uma formação integral passa pelo entendimento do jovem como interlocutor válido na hora da tomada de decisões importantes para a instituição. Assim, passaremos a enxergar os jovens como sujeitos de direitos, e os problemas que os atingem devem ser vistos como expressão de necessidades e demandas não atendidas (BRASIL, 2015. p. 12).\n\nDentro dessa mudança de perspectiva cabe ainda destacar a necessidade de a escola estabelecer uma aproximação com essa realidade sociocultural, possibilitando uma reflexão quanto ao uso adequado dos recursos presentes em cada contexto. Dentre eles, vale ressaltar o mundo virtual, em que parte significativa dos jovens está mergulhada e, na sua maioria, sente-se confortável em meio às diferentes tecnologias, estabelecendo por meio delas diversas relações.\n\nAs mídias digitais fazem parte do cotidiano do jovem, o que lhe confere habilidade e autonomia em relação às gerações de seus pais, professores, direção e especialistas, entre outros. Sendo assim, cada escola não pode se distanciar dessa realidade, mas, sim, contribuir para a construção de conhecimentos significativos na formação do letramento digital de forma ética e reflexiva.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

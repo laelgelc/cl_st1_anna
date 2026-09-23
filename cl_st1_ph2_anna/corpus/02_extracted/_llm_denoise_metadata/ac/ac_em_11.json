@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0eebdbbb75304213006ab2fbbe534887d294adfc62093833fd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1052,
+      "input_tokens_details": {
+        "cache_write_tokens": 1049,
+        "cached_tokens": 0
+      },
+      "output_tokens": 939,
+      "output_tokens_details": {
+        "reasoning_tokens": 60
+      },
+      "total_tokens": 1991
+    }
+  },
+  "created_at": "2026-09-22T22:05:56Z",
+  "duration_seconds": 5.901,
+  "error": null,
+  "excerpt_id": "ac_em_11",
+  "filename": "ac_em_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e93f0c80460f2fea45d8a5ba22eee03caa8233670f157495b688efc0b0d1fc74",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bc1801b0c09f95cc7ad35f7156d555dbe8102e1ca9c19203bff99f83b43083fc",
+    "rendered_prompt_sha256": "c493e69fdb51a83c3c58b625de05500c2a3b7f389efef7117f8967d8da758d1c",
+    "source_text_sha256": "d8d9d836eac04bfff9578c8027e4541ec0e2365e88e72ee47591432fa6ba3728"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 49,
+    "filename": "ac_em_11.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_11.txt",
+    "state": "ac",
+    "word_count_original": 665
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_11.json"
+  },
+  "raw_response_text": "### 9.1. Contexto de escrita do currículo\n\nO Currículo de Referência Único do Acre visa assegurar a todos os segmentos da sociedade, que possuem distintas características socioculturais e situações de vulnerabilidades, o acesso educacional inclusivo, de acordo com a necessidade constatada, efetivando, assim, o direito de todos à educação integral. Foi construído à luz da Base Nacional Comum Curricular – BNCC, documento de caráter normativo que define o conjunto orgânico e progressivo de aprendizagens essenciais que todos os alunos devem desenvolver ao longo das etapas e modalidades da educação básica.\n\nNo início de 2019 a SEE/AC promoveu pesquisas on-line com os alunos do 9º ano do ensino fundamental e do ensino médio, para tomadas de decisões sobre qual modelo atenderia aos anseios dos estudantes. Com base em suas respostas, os primeiros passos para a construção do documento curricular foram efetivados. O feedback dessas pesquisas trouxe à luz os desejos e vislumbres de melhorias que os estudantes esperavam. Desse modo, o currículo foi elaborado pela equipe de professores redatores de todos os componentes curriculares da SEE, para atender a legislação em vigor e às expectativas dos alunos do estado do Acre.\n\nDurante o processo de construção do currículo, além das reuniões da equipe da SEE/AC, ocorreram momentos de discussões com outros profissionais especialistas da educação, que atuaram como consultores do currículo. Esse grupo foi composto por profissionais com atuação no ensino médio e no ensino fundamental das redes pública e privada, do Instituto Federal do Acre – IFAC, e da Universidade Federal do Acre – UFAC, que contribuíram com suas proposições para análise e seleção dos objetos de conhecimentos, das habilidades e competências e elaboração das propostas de atividades.\n\nUma vez firmadas as discussões e consolidadas as contribuições agregadas ao texto do currículo, a parte da formação geral básica (FGB) entrou em processo de consulta pública, que ocorreu em 2019, inicialmente, de forma presencial, tendo sido realizado um encontro com os professores das áreas de conhecimento, seguido de um período para consulta pública on-line.\n\nApós esse decurso, o documento da formação geral básica foi atualizado e organizado de forma seriada. Concluídos os ajustes, nova consulta pública foi realizada, em 2020, apenas via on-line, devido à pandemia da covid-19, para que fosse submetida à validação da seriação efetuada. Após as contribuições da segunda consulta, o documento da formação geral básica foi finalizado.\n\nEm paralelo à consulta pública, a equipe de currículo da SEE/AC iniciou a escrita das Rotas de Aprofundamento, parte que integra os itinerários formativos e que também passou por processo de consulta pública on-line e presencial com os professores da rede estadual de educação que estão em sala de aula, da UFAC e do CEE/AC. Após os processos de ajustes e contribuições, foram construídas duas (2) rotas para cada área de conhecimento.\n\n### 9.2. Modelo de organização curricular\n\nO Currículo de Referência Único do Acre visa assegurar a todos os segmentos da sociedade, que possuem distintas características socioculturais e situações de vulnerabilidades, o acesso educacional inclusivo, de acordo com a necessidade constatada, efetivando, assim, o direito de todos à educação integral.\n\nPara que o Novo Ensino Médio esteja presente e garantido em todas as modalidades de ensino apresentadas na rede, é necessário que ocorra uma adaptação no currículo trabalhado e nas práticas de oferta de cada uma delas, a fim de que possibilitem o desenvolvimento de competências e habilidades, a partir de atendimentos específicos, levando em consideração os contextos socioculturais inerentes aos diversos grupos da população acreana.\n\nDeste modo, os textos a seguir não têm como objetivo definir o currículo do Novo Ensino Médio para cada modelo (Parcial, Integral e Militar) e modalidade ofertada na rede estadual de ensino (Educação Escolar Indígena, Educação do Campo, Educação Especial e Educação de Jovens e Adultos), mas sim trazer a reflexão sobre como se dá a oferta de cada uma na rede, antes da reforma, a fim de que as propostas de modificações sejam realizadas de acordo com cada contexto educacional evidenciado.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

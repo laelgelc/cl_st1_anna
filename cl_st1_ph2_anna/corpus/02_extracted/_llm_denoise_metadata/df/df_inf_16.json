@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c0d8946cc384896006ab300607b1087d29a599eb712c834af",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 849,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 787,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 1636
+    }
+  },
+  "created_at": "2026-09-22T22:25:42Z",
+  "duration_seconds": 6.524,
+  "error": null,
+  "excerpt_id": "df_inf_16",
+  "filename": "df_inf_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f4f1a249d090b28d5c4af906dc8bed9c540705a8c31b9c4e0f1612885fba941c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "83bff899139c92c74b60765778d10129be8763d348377ac233fcc8c70c3c4d59",
+    "rendered_prompt_sha256": "acedd373133d7285adc0ad88d1c3759d6c9f0074f2a81d637a5655dbfcab6ed2",
+    "source_text_sha256": "488a8bc905abfe79a7cf38635dd4964c395404ecbeff1266717a51d257de506a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_inf_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 959,
+    "filename": "df_inf_16.txt",
+    "filepath": "corpus/00_source_per_state/df/df_inf_16.txt",
+    "state": "df",
+    "word_count_original": 518
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_inf_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_inf_16.json"
+  },
+  "raw_response_text": "## 11. INSTITUIÇÃO DE EDUCAÇÃO INFANTIL E FAMÍLIA: experiências compartilhadas\n\nA instituição que oferta Educação Infantil para os bebês, crianças bem pequenas e crianças pequenas não é o único lugar de aprendizagens durante a primeira infância. Sendo assim, não é possível imputar à Educação Infantil toda a responsabilidade em relação aos pequenos. Somente pelo trabalho intersetorial – educação, saúde, cultura, esporte, assistência social, sociedade civil organizada e, sobretudo, a família e/ou responsáveis –, é possível assegurar que os direitos das crianças sejam efetivados cotidianamente. Nesse sentido, é essencial a interação família e/ou responsáveis e instituição educativa, tendo como fio condutor a intenção de garantir à criança seu desenvolvimento integral.\n\nHá legislações vigentes que indicam e confirmam a necessidade de refletir, promover e aperfeiçoar a interação família e/ou responsáveis e instituição que oferta Educação Infantil, tais como a Lei de Diretrizes e Bases da Educação Nacional – LDB e o Estatuto da Criança e do Adolescente – ECA, que ressaltam que os direitos fundamentais das crianças sejam assumidos como responsabilidade de todos. Ainda no que se refere às legislações que asseguram o direito de participação das famílias e/ou responsáveis, as Diretrizes Curriculares Nacionais da Educação Básica – DCN reafirmam que:\n\n> O atendimento aos direitos da criança na sua integralidade requer que as instituições de Educação Infantil, na organização de sua proposta pedagógica e curricular, assegurem espaços e tempos para participação, o diálogo e a escuta cotidiana das famílias, o respeito e a valorização das diferentes formas em que as famílias se organizam (BRASIL, 2013, p. 92).\n\nEssa proximidade entre instituição que oferta Educação Infantil e família e/ou responsáveis não pode ser esporádica, mas sim sistemática e com intencionalidade educativa, uma vez que os efeitos são constituídos a partir desse vínculo. Assim, para que os laços sejam estreitados, a relação seja de confiança mútua e o núcleo das ações seja a criança, a instituição educativa para a primeira infância precisa se organizar no sentido de:\n\n- ter uma postura acolhedora em relação às famílias e/ou responsáveis de todas as crianças;\n- considerar famílias e/ou responsáveis e comunidade parceiros protagonistas da instituição educativa;\n- programar formas de conversar com as famílias e/ou responsáveis, individualmente ou em grupos, de modo a conhecer suas expectativas, preocupações, reivindicações e trocar informações sobre as crianças;\n- apresentar e discutir o cotidiano e a Proposta Pedagógica da instituição que oferta Educação Infantil por meio de fotos, projeções de slides ou filmes de uma atividade, de exposições de produções infantis, de reuniões ou participação direta das famílias e/ou responsáveis nas atividades da instituição educativa;\n- convidar a família e/ou responsáveis para produzir algo ou realizar atividades ou projetos com as crianças;\n- envolver a família e/ou responsáveis em projetos, tais como narração e ou leitura de histórias para as crianças em casa, pesquisas etc.\n\nA instituição que atende à Educação Infantil deve ser, por sua natureza, um lugar de encontros e diálogos. Isso posto, essa instituição educativa e a família e/ou responsáveis, exercendo funções distintas e complementares, precisam ter um objetivo comum: possibilitar às crianças o seu desenvolvimento integral, considerando os ritmos e tempos de cada sujeito.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

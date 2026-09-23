@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_065dfcb8ce2f9f9e006ab30327d00487d28141d63d17befc8b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 658,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 574,
+      "output_tokens_details": {
+        "reasoning_tokens": 54
+      },
+      "total_tokens": 1232
+    }
+  },
+  "created_at": "2026-09-22T22:37:33Z",
+  "duration_seconds": 5.864,
+  "error": null,
+  "excerpt_id": "mg_em_20",
+  "filename": "mg_em_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "119c329d82bb956ae5041c60eb5adc8c77e1d07f996ee784c7a272c28b21006d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b94120dc57b35cef53603947c8f3e52f8319a2b1d377dd4a9a3b0ac440f6df35",
+    "rendered_prompt_sha256": "a4d5396ef1747e67ac872d57232c26c7eb54682eb02fc744271eebb8918c1d1a",
+    "source_text_sha256": "d6a3baf8661fa91a1d0f17f3e3ba87f4365cc58a693caf1f1a08ff4b1e49fbca"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1549,
+    "filename": "mg_em_20.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_20.txt",
+    "state": "mg",
+    "word_count_original": 409
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_20.json"
+  },
+  "raw_response_text": "### 2.6.3 Cultura digital\n\nOs diferentes elementos da cultura digital já fazem parte do nosso dia a dia, os dispositivos tecnológicos estão em todos os lugares da sociedade, inclusive nas escolas. O atual momento é propício para a utilização dessas ferramentas digitais; e, nessa medida, os novos letramentos e os multiletramentos podem ser apropriados para a produção de conteúdos nas diversas mídias com possibilidades de acesso à ciência, às linguagens, à tecnologia, à cultura e ao trabalho. A cultura digital vem nortear ações que possibilitam ao/à professor/a trabalhar com essas tecnologias, pois o mundo digital envolve aprendizagens relativas às formas de processar, transmitir e distribuir a informação de maneira segura e confiável em vários artefatos digitais.\n\nUma das competências específicas da Linguagem e Suas Tecnologias salienta que a mobilização de práticas de linguagem no universo digital, considerando as dimensões técnicas, criativas, éticas e estéticas para a expansão de formas de produzir sentidos é de fundamental importância para os sujeitos tornarem-se autores individuais e de textos coletivos. Nesse cenário faz-se necessário que as juventudes tenham uma visão crítica, criativa e ética e não somente técnica das TDIC, apropriando-se criticamente de processos de pesquisa e busca de informação, por meio de ferramentas e de novos formatos de produção e distribuição do conhecimento na cultura de rede.\n\nA cultura digital dialoga com muitos componentes curriculares e alguns em especial.\n\nA capacidade de utilizar as ferramentas digitais pode ser explorada no currículo de quase todos os componentes curriculares e fazer uso do computador em seu benefício próprio, pesquisar informações, apresentar o resultado de um trabalho por meio de tabelas e planilhas, implementar soluções envolvendo diferentes tecnologias, para identificar, analisar, modelar e solucionar problemas complexos em áreas distintas da vida cotidiana. Na Matemática, por exemplo, temos a lógica da programação, o pensamento computacional. Nas Ciências Humanas e Sociais Aplicadas, podemos compreender os impactos da tecnologia no mundo, nos comportamentos; a influência das redes sociais. Nessa perspectiva, buscando sempre o uso dessas tecnologias de forma ética e responsável, deve-se possibilitar ao estudante ser protagonista na busca do conhecimento.\n\nAs competências gerais da cultura digital em articulação com os objetivos da aprendizagem das habilidades específicas dos diferentes componentes curriculares foram totalmente contempladas. As juventudes estão inseridas na cultura digital, nessa medida, importante ampliar e aprofundar o reconhecimento das potencialidades das tecnologias digitais para a realização de uma série de atividades em relação a uma aprendizagem significativa para todos/as.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

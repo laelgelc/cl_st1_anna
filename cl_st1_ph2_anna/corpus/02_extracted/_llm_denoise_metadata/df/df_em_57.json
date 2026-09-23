@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02c5a8e2bd7ec4c3006ab30055aab887d2ae3bf519d8aaca61",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1486,
+      "input_tokens_details": {
+        "cache_write_tokens": 1483,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1572,
+      "output_tokens_details": {
+        "reasoning_tokens": 277
+      },
+      "total_tokens": 3058
+    }
+  },
+  "created_at": "2026-09-22T22:25:38Z",
+  "duration_seconds": 12.831,
+  "error": null,
+  "excerpt_id": "df_em_57",
+  "filename": "df_em_57.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "baea1acbedc098e1067ba28c5becc352ee0a5371ffcd304a5a0136c7ab4589e1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c38ce38e8cac6e6f5c93f908243809d76431e58105e3c31ba8e00907e587a08e",
+    "rendered_prompt_sha256": "2086032c4e50db1d3db705a17336071198a83775500842231c8be5fde98e5692",
+    "source_text_sha256": "f206e5c24604fead8779d93660a4fd7218ca41653ff968f38222c1600bbbf42c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_57.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 947,
+    "filename": "df_em_57.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_57.txt",
+    "state": "df",
+    "word_count_original": 932
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_57.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_57.json"
+  },
+  "raw_response_text": "# ORGANIZAÇÃO, FORMAS E MODALIDADES DE OFERTA\n\nA EPT articulada ao Ensino Médio se dá por meio de diferentes estratégias de formação nas Instituições Educacionais da rede de ensino ou em Instituições Parceiras devidamente autorizadas, com os cursos FIC ou de Qualificação Profissional e Cursos Técnicos de Nível Médio, com organização curricular própria, de acordo com as legislações vigentes.\n\nAdemais, segundo Cordão (2010):\n\n> E a educação profissional vai além dos cursos técnicos de nível médio integrados ou articulados com o ensino médio. Ela integra todo o itinerário formativo das pessoas, preparando-as para o mundo do trabalho, para definirem seus próprios itinerários de profissionalização (CORDÃO, 2010, p. 37).\n\n## QUALIFICAÇÃO PROFISSIONAL OU FORMAÇÃO INICIAL E CONTINUADA (FIC)\n\nOs cursos de Qualificação Profissional ou FIC são organizados e ofertados conforme denominação, carga horária, escolaridade e perfis profissionais definidos segundo o Guia Nacional de Cursos FIC, editado pelo MEC, e/ou que constem da Classificação Brasileira de Ocupações (CBO), editada pelo Ministério do Trabalho (BRASIL, 2002b), além de se constituírem como partes integrantes da matriz curricular dos cursos técnicos de nível médio, conforme possibilidades de saídas intermediárias, previstas no CNCT. Após a conclusão do curso, o estudante recebe certificado de acordo com as normativas do DF e a devida descrição da denominação do Guia Nacional de Cursos FIC e/ou da CBO.\n\nA elaboração do Plano de Curso para oferta desses cursos deve ocorrer consoante as normativas definidas pela área responsável no âmbito do Sistema de Ensino do Distrito Federal, sendo necessariamente construída de forma articulada com a Formação Geral Básica.\n\n## CURSOS TÉCNICOS DE NÍVEL MÉDIO\n\nOs cursos técnicos são destinados a estudantes matriculados no Ensino Médio ou egressos, conforme preconiza o Catálogo Nacional de Cursos Técnicos (CNCT) do Ministério da Educação.\n\nO Catálogo Nacional de Cursos Técnicos é instrumento que disciplina a oferta de cursos de educação profissional técnica de nível médio, para orientar as instituições, os estudantes e a sociedade em geral. É um referencial para subsidiar o planejamento dos cursos e correspondentes qualificações profissionais e especializações de nível médio (BRASIL, 2014b, p. 8).\n\nO CNCT, em sua última atualização, disponibiliza a lista de cursos técnicos, os quais estão agrupados em eixos tecnológicos, sendo que cada perfil profissional exige uma carga horária mínima. O acesso e a permanência nos cursos promovem a preparação técnica para a inserção dos estudantes no mundo do trabalho, sem, no entanto, deixar de possibilitar a continuidade dos estudos para a Especialização Técnica de Nível Médio e para o Ensino Superior. Durante a formação, os estudantes têm aulas teóricas e práticas, as quais podem ser realizadas em laboratórios ou em empresas, a fim de aproximar a formação das experiências com o perfil profissional.\n\nA elaboração do Plano de Curso para a oferta de cursos técnicos de nível médio deve obedecer às normativas e legislações vigentes, sendo necessariamente construída de forma articulada com a Formação Geral Básica.\n\n## FORMAS DE OFERTA\n\n- **Integrada ao Ensino Médio:** a formação ocorre em um mesmo currículo que integra a Base Nacional Comum Curricular e as unidades curriculares específicas do curso técnico ofertado, com matrícula única do estudante e, portanto, na mesma Instituição Educacional.\n- **Concomitante ao Ensino Médio:** a formação ocorre com currículos distintos e articulados na forma, integrando a Base Nacional Comum Curricular que é cursada em uma Instituição Educacional e as unidades curriculares específicas do curso técnico, ofertadas na mesma Instituição Educacional ou em outra Instituição, sendo para isso necessário o estabelecimento de duas matrículas.\n\nEm ambas as formas de oferta, o currículo deverá ser executado de forma integrada, permitindo que o estudante curse mais de um Itinerário Formativo, simultânea ou sequencialmente.\n\n## POSSIBILIDADES DE OFERTA\n\n- **Forma Presencial:** a organização curricular prevê a execução de todas as unidades curriculares e seus respectivos conteúdos por meio de aulas em que os estudantes e os docentes estão fisicamente, na maioria das vezes, no mesmo local e ao mesmo tempo, o que exige o cumprimento da carga horária prevista com definição de hora de início e término.\n- **Modalidade de Educação a Distância (EaD):** a mediação didático-pedagógica nos processos de ensino e aprendizagem ocorre com a utilização de meios e tecnologias de informação e comunicação, nos quais estudantes e docentes, na maioria das vezes, desenvolvem atividades educativas em lugares ou tempos diversos.\n\n## REGISTRO EM SISTEMA NACIONAL DE INFORMAÇÕES DA EPT\n\nA fim de garantir a validade nacional dos diplomas expedidos e registrados na própria instituição educacional, todo curso técnico de nível médio, com Plano de Curso aprovado pelo CEDF, deve ser registrado no Sistema Nacional de Cursos Técnicos vigente, definido pelo MEC.\n\n## FORMALIZAÇÃO DE PARCERIAS PARA OFERTA DO ITINERÁRIO DE EPT\n\nA oferta dos Itinerários Formativos no Novo Ensino Médio possibilita a articulação da SEEDF com instituições parceiras, na garantia e efetivação de direitos, e estimula o desenvolvimento de uma gestão pública democrática e participativa. Nesse sentido, as parcerias se apresentam como uma forma de aproximar as políticas públicas dos cidadãos e das realidades locais, possibilitando a solução conjunta de problemas no cenário educacional.\n\nEm relação à certificação, caberá às instituições parceiras emitir certificados de qualificação profissional ou outros documentos comprobatórios das atividades concluídas sob sua responsabilidade, sendo que os documentos comprobatórios deverão ser incorporados pela instituição de origem no Histórico Escolar do estudante.\n\nFirmar parcerias, para a implementação do Novo Ensino Médio, objetiva reunir agentes no cumprimento de sua função social, para a consecução de finalidades de interesse público, a fim de atender às necessidades e expectativas dos estudantes, fortalecer seu interesse, engajamento e protagonismo, bem como promover a sua permanência e aprendizagem.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0113f895282f4992006ab30ee7b82887d28844d7710146c181",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 660,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 627,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 1287
+    }
+  },
+  "created_at": "2026-09-22T23:27:41Z",
+  "duration_seconds": 5.522,
+  "error": null,
+  "excerpt_id": "sc_inf_e_ef_25",
+  "filename": "sc_inf_e_ef_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "187645e7112f6c8e2bd49c09c3d05af7e65a84a0f46db25fd11d9f43eb6dce0a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6901f6ff17385cdf15e3f360e126fba085f16d3d25457596f5e1306da45cd09e",
+    "rendered_prompt_sha256": "ce0fe3029491909df312b373b20f9384af24b6fb09bf5097111094a7cddd4401",
+    "source_text_sha256": "4872426d187abf71fc24a6731835efca28ee3f9362a934092cd2f25a8be42204"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sc/sc_inf_e_ef_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3776,
+    "filename": "sc_inf_e_ef_25.txt",
+    "filepath": "corpus/00_source_per_state/sc/sc_inf_e_ef_25.txt",
+    "state": "sc",
+    "word_count_original": 391
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sc/sc_inf_e_ef_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sc/sc_inf_e_ef_25.json"
+  },
+  "raw_response_text": "## 2.3 ORGANIZADORES CURRICULARES\n\nO Currículo Base do Território Catarinense apresenta dois organizadores curriculares para a Educação Infantil que podem ser trabalhados concomitante ou individualmente, conforme opção do município, escola e professor. O primeiro organizador curricular - por Campos de Experiências (Apêndice A) - dispõe de cinco quadros (um quadro para campo de experiência), cujos campos de experiência, direitos de aprendizagem e de desenvolvimento e os objetivos de aprendizagem e de desenvolvimento por grupos etários (bebês, crianças bem pequenas e crianças pequenas) estão organizados de maneira conjunta. Há, assim, a possibilidade de acompanhar a progressão de conhecimento por faixa etária, sempre relacionando o contexto dos campos de experiências com os direitos de aprendizagem e de desenvolvimento. Os campos de experiência constituem “[...] um arranjo curricular que acolhe as situações e as experiências concretas da vida cotidiana das crianças e seus saberes, entrelaçando-os aos conhecimentos que fazem parte do patrimônio cultural” (BRASIL, 2017, p. 36).\n\nO segundo organizador curricular - por Grupos Etários (Apêndice B) - dispõe de três quadros (um quadro para cada grupo etário), onde são apresentados todos os campos de experiência, direitos de aprendizagem e de desenvolvimento e objetivos de aprendizagem e de desenvolvimento por grupo etário. Nesse formato de organizador curricular, é possível visualizar todos os objetivos por campos de experiência, de modo a favorecer a constituição de contextos de aprendizagem e a interlocução entre os campos de experiência.\n\nAo final de cada quadro dos Apêndices A e B, apresentam-se indicações metodológicas com o objetivo de ampliar as possibilidades de trabalho com as crianças, por grupos etários e campos de experiências. As indicações metodológicas buscam traduzir possibilidades de aprendizagem e produção do conhecimento com o intuito de instrumentalizar a prática docente e propor estratégias de ação junto às crianças. Apresentam características fundantes de cada campo de experiência e questões imprescindíveis para o trabalho com crianças na Educação Infantil. Ressalta-se que essas indicações metodológicas podem ser vistas como ponto de partida; assim, elas podem ser problematizadas e ampliadas de acordo com os contextos educativos.\n\nNas indicações metodológicas, é possível perceber características do desenvolvimento infantil, relacionadas às possibilidades de brincadeiras e de interações no cotidiano, dando visibilidade à criança e seu potencial criativo e imagético, bem como a potência de suas ações na contribuição da construção de uma proposta pedagógica significativa, em que os direitos de aprendizagem e de desenvolvimento estejam garantidos.",
+  "state": "sc",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d546479fe52d0f9006ab306f2f9a087d28ba4a64177539b2d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 735,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 869,
+      "output_tokens_details": {
+        "reasoning_tokens": 204
+      },
+      "total_tokens": 1604
+    }
+  },
+  "created_at": "2026-09-22T22:53:46Z",
+  "duration_seconds": 7.661,
+  "error": null,
+  "excerpt_id": "pb_em_10",
+  "filename": "pb_em_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "152dc2eaefdbf1a8e52d8ef9410d3efcbf01a16974fc89f8ac9246cec0425f9e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b34fcc1d56a6c803268b5af21f45445c5101b99390610bd55cceeb9143feaa6d",
+    "rendered_prompt_sha256": "c678c969d110bbb49a8834704df1df2a6dab486b14093b12631faf754a36119e",
+    "source_text_sha256": "4aa33c18caac159b30e473465d45541e78da0189667e7b625ca892f9d10c7351"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2233,
+    "filename": "pb_em_10.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_10.txt",
+    "state": "pb",
+    "word_count_original": 432
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_10.json"
+  },
+  "raw_response_text": "# FORMAÇÃO GERAL BÁSICA\n\n## 2.1 A ÁREA DE LINGUAGENS E SUAS TECNOLOGIAS\n\n### 2.1.1 APRESENTAÇÃO\n\nColegas,\n\nValendo-nos do poema *Convite*, de José Paulo Paes, que nos faz um chamamento para brincar com as palavras, vimos aqui chamá-los para ler este Documento. Fazemos questão de afirmar que ele foi construído por companheiros de sala de aula, pessoas que passam pelas mesmas aflições e delícias que só aqueles que estão no cotidiano escolar experimentam. Como atestado no poema, as palavras não se desgastam com o uso, ao contrário, como “a água do rio”, estão sempre a renovar-se.\n\n#### Convite\n\nPoesia é brincar com palavras  \ncomo se brinca com bola, papagaio, pião.  \nSó que bola, papagaio, pião  \nde tanto brincar se gastam.  \nAs palavras não:  \nquanto mais se brinca com elas  \nmais novas ficam.  \nComo a água do rio  \nque é água sempre nova.  \nComo cada dia  \nque é sempre um novo dia.  \nVamos brincar de poesia?\n\nJosé Paulo Paes\n\nPortanto, a Proposta Curricular para o Novo Ensino Médio da área de Linguagens e suas Tecnologias é um Documento norteador para todos nós. Não há nela nada de definitivo ou fechado. Seu conteúdo, ao ser agregado, vai revigorar-se e, aos poucos, ganhará novos colaboradores. De certo, quando a legítima autonomia das educadoras e dos educadores de nosso Estado brilhar na prática pedagógica, nossa proposta vai produzir novas formas, novas páginas, novos capítulos. Talvez, haja os que entendam como fraqueza essa incompletude confessa. Nós enxergamos de forma distinta. Tal qual podemos contemplar no poema abaixo, de Camões, escrito há muitos séculos, o caráter mutável do Documento é o que o faz forte. O fato de tê-los como coautores é o que o enriquece.\n\nMudam-se os tempos, mudam-se as vontades,  \nMuda-se o ser, muda-se a confiança:  \nTodo o mundo é composto de mudança,  \nTomando sempre novas qualidades.  \nContinuamente vemos novidades,  \nDiferentes em tudo da esperança:  \nDo mal ficam as mágoas na lembrança,  \nE do bem (se algum houve) as saudades.  \nO tempo cobre o chão de verde manto,  \nQue já coberto foi de neve fria,  \nE em mim converte em choro o doce canto.  \nE afora este mudar-se cada dia,  \nOutra mudança faz de mor espanto,  \nQue não se muda já como soía.\n\nCamões\n\nAssim, colegas, apoderem-se do Documento! Apoderem-se no sentido estreito da palavra. Tomando sua posse, assenhorando-se dele. E que ele esteja sempre em mãos, como um conselheiro. Todavia, ele não deve ser encarado como um velho sábio, que só fala e tudo ensina. Este material também precisa ouvir. Boa leitura!",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

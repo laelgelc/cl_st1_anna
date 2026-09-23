@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0064f063c018751e006ab2fe24139087d2bc227d8d02271c23",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1282,
+      "input_tokens_details": {
+        "cache_write_tokens": 1279,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1423,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 2705
+    }
+  },
+  "created_at": "2026-09-22T22:16:14Z",
+  "duration_seconds": 10.328,
+  "error": null,
+  "excerpt_id": "ap_em_45",
+  "filename": "ap_em_45.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b59b761277e526c78d1e5dac06a5e8e8310033ec871f23286e331f4ca92791ec",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c1d2570dabc50d82dbc660713040171a261f2cbeaf88caef5a4e0c44a13e3e0f",
+    "rendered_prompt_sha256": "4ea437e5893b1bb93f4ac2d0eca58cc54c0b8c5dc252a5aa32df3f5fff588f8d",
+    "source_text_sha256": "32000d9efb3c2fb78e6d00a0a08efea5d9aa9bbb3e74f568b07f73a6cbf1ffb6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_45.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 541,
+    "filename": "ap_em_45.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_45.txt",
+    "state": "ap",
+    "word_count_original": 822
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_45.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_45.json"
+  },
+  "raw_response_text": "# FORMAÇÃO BÁSICA PARA O TRABALHO\n\nHá pouco mais de 200 anos surgiram as primeiras políticas públicas de Educação Básica, garantindo ao povo o direito à Educação através da criação da Escola Normal que funcionava de modo similar às agências de seleção da educação jesuítica, com a supervalorização do trabalho intelectual em detrimento do trabalho braçal.\n\nO ensino profissionalizante, há mais de dois séculos, tem suas primeiras experiências descritas como limitadas e destinadas aos mais pobres. O ano de 1906 consolidou-se pelo surgimento das políticas promotoras do ensino técnico-industrial no Brasil. Estas, em 1930 passaram a ser de responsabilidade do Ministério da Educação e Cultura (MEC), se expandindo com novas unidades e introdução de novas especializações.\n\nApós algumas reformas no modelo de Educação Profissional Brasileiro (1937 – Liceus Profissionais; 1941 – Reforma Capanema; 1942 – Escolas Industriais e Técnicas; e, 1959 – tornam-se autarquias com o nome de Escolas Técnicas Federais) em 1996 com a Lei n.o 9.394 acontece a dedicação legal especifica da Educação Profissional, e sucessivamente, a rede passa a ser identificada por Educação Profissional e Tecnológica (EPT) e até 2002 oferta cursos através de 140 unidades. Em 2010 já são 354 unidades cobrindo todas as regiões do país, oferecendo cursos de qualificação, de ensino técnico, superior e de pós-graduação, sintonizados com as necessidades de desenvolvimento local e regional.\n\nSegundo os dados obtidos pelo Censo Escolar da Educação Básica 2018, realizado pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP/MEC), foram registradas 7,7 milhões de matrículas no ensino médio, mas a etapa segue uma tendência de queda de 7,1% nos últimos 5 anos. O que não se evidenciou no número total de matrículas da educação profissional, que aumentou 3,9% em 2017, sendo observado maior crescimento nas formas concomitante e integrada ao ensino médio, com percentuais de 8,0% e 5,5%, respectivamente, conforme exposto na Tabela 1.\n\nO crescimento do número de matrículas na modalidade integrada à educação profissional é reflexo da política de expansão da Rede Federal de Educação Profissional, Científica e Tecnológica (Rede Federal) e da ampliação do número de unidades dos Institutos Federais de Educação, Ciência e Tecnologia (Institutos Federais), a partir do ano de 2008, que possibilitou o aumento do número de vagas, garantindo a inserção de jovens e adultos trabalhadores na educação profissional brasileira, com uma formação que lhes assegura os conhecimentos básicos inerentes ao ensino e lhes proporciona a formação para o trabalho. Esse aspecto impõe a importância do fortalecimento das instituições que ofertam essa modalidade de ensino integrado, tais como os Institutos Federais de Educação, Ciência e Tecnologia.\n\nAliada ao trabalho, propõe-se a pesquisa como princípio educativo. Esta, ao ser assumida no ensino médio integrado, contribui para a construção da autonomia intelectual do educando “bem como está orientada ao estudo e à busca de soluções para as questões práticas do cotidiano do estudante” (MOURA, 2007, p.23).\n\nAs Diretrizes Curriculares Nacionais para a Educação Profissional Técnica de Nível Médio ainda estabelecem como princípios a contextualização e a flexibilidade. Baseando-se em Baracho et al. (2006, p. 77-78), a contextualização pode ser compreendida como uma estratégia de problematização das condições sociais, históricas, econômicas na qual “o conteúdo ganha sentido em razão da relação que se estabelece entre o que é ensinado/aprendido e o conhecimento situado numa dada realidade”; a flexibilidade não significa aligeiramento e precarização da formação humana, mas a possibilidade de o estudante “avançar quando demonstrar condições para isso ou ter estudos de complementação necessários ao desenvolvimento nas áreas de conhecimentos científicos e tecnológicos”.\n\nCom a sanção da Lei no 13.415, de 16 de fevereiro de 2017 (reforma do ensino médio), resultado da Medida Provisória (MP) no 746, de 22 de setembro de 2016, que alterou a LDB e outros dispositivos legais. As mudanças propostas e aprovadas de forma aligeirada nos colocam diante de um cenário de incertezas que poderá contribuir para legitimar o afastamento da EPT do ensino médio.\n\nDiante do cenário de incertezas em que está assentada a educação profissional e tecnológica, bem como o ensino médio, é importante garantir e fortalecer os princípios da integração, visto que a integração do ensino médio com a EPT fundamenta-se na concepção de educação unitária (ensino para a formação integral, geral e técnica, na perspectiva da superação da dualidade escolar) e de educação politécnica ou tecnológica, necessária à compreensão teórica e prática dos fundamentos científicos das múltiplas técnicas utilizadas no processo produtivo (REGATTIERI; CASTRO, 2009).\n\nNesse contexto, o fortalecimento do ensino médio integrado também perpassa pela formação continuada de docentes e demais profissionais da educação visando a construção de conhecimento sobre as bases conceituais e os princípios norteadores da EPT, subsidiando-os para compreenderem e implementarem, de forma coletiva e efetiva, a integração. Perpassa também, pela consulta aos alunos de suas necessidades formativas e garantia de permanente financiamento público, de forma a viabilizar condições de infraestrutura adequadas das instituições de ensino.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

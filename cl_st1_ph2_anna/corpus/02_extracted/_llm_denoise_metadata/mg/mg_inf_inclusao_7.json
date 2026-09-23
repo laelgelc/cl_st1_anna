@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04fdf7e381b437da006ab3038dd4c487d2bbafaea8531b259a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 907,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 898,
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "total_tokens": 1805
+    }
+  },
+  "created_at": "2026-09-22T22:39:18Z",
+  "duration_seconds": 8.685,
+  "error": null,
+  "excerpt_id": "mg_inf_inclusao_7",
+  "filename": "mg_inf_inclusao_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "997284586087554b0c445240d1bfe21552f1283d5a7f56f424045c954e7277e5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f4972b386ae919fff60c6d461aa3be2c48f96b60859dcd27ac30ccb6b7c6f001",
+    "rendered_prompt_sha256": "de4dae43cd0e54471a17a5a3f9615e093fd278f458be50907001f7b0061249e3",
+    "source_text_sha256": "facebf5b7fe8ace758b6357963ed3de74f5a35dac6fa8827f74c434034c33bff"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_inclusao_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1659,
+    "filename": "mg_inf_inclusao_7.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_inclusao_7.txt",
+    "state": "mg",
+    "word_count_original": 555
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_inclusao_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_inclusao_7.json"
+  },
+  "raw_response_text": "### 2.11.5 Educação Infantil do Campo\n\nAo pensarmos a Educação Infantil do Campo, devemos considerar duas concepções: a de Educação do Campo e a de Educação Infantil. Para Caldart (2002), a Educação do Campo deve ser pensada para além da Educação Básica, ou seja, deve atender todos os sujeitos do campo, não avaliando apenas a territorialidade geográfica, mas, e principalmente, deve considerar suas identidades e suas relações sociais.\n\nAssim, uma proposta de Educação do Campo deve ser pensada e concebida pelos povos do campo, para atender às suas especificidades e expectativas, deve buscar valorizar e ressignificar seus saberes, valores, culturas, na perspectiva de assim ressignificar o espaço do campo como um espaço de vida e com qualidade de vida, onde esses sujeitos vejam, nas políticas públicas apresentadas, a valorização de suas comunidades e sua participação efetiva na busca da melhoria das condições de vida, reforçando assim o desejo de permanência no campo.\n\nA Educação Infantil vem aos poucos sendo lembrada na construção das políticas nacionais, mas entendemos que ainda se faz longe o alcance do entendimento da inclusão plena das crianças de zero a cinco anos de idade, como sujeitos do campo. Constitucionalmente, as crianças moradoras das áreas rurais, como qualquer outra das áreas urbanas, têm seus direitos garantidos. A Constituição Federal de 1988 as reconhece como um indivíduo de direitos com prioridades absolutas conforme aponta o artigo 227:\n\n> É dever da família, da sociedade e do Estado assegurar à criança e ao adolescente, com absoluta prioridade, o direito à vida, à saúde, à alimentação, à educação, ao lazer, à profissionalização, à cultura, à dignidade. Ao respeito, à liberdade e a convivência familiar comunitária, além de colocá-los a salvo de qualquer forma de negligência, discriminação, exploração, violência e opressão.\n\nPorém, essa mesma lei não especifica os grupos de crianças existentes, considerando que todas são passíveis dos mesmos direitos estando elas onde estiverem.\n\n> “A identidade das crianças é também a identidade cultural, isto é a capacidade das crianças constituírem culturas não redutíveis totalmente às culturas dos adultos” (SARMENTO, 2000).\n\nAssim, ao construírem as “Orientações Curriculares para a Educação Infantil do Campo”, Ana Paula Silva e Jaqueline Pasuch (2010) defendem:\n\n> Uma educação infantil que permita que a criança conheça os modos como sua comunidade nomeia o mundo, festeja, canta, dança, conta histórias, produz e prepara seus alimentos. Creches e pré-escolas com a cara do campo, mas também com o corpo e a alma do campo, com a organização dos tempos, atividades e espaços organicamente vinculados aos saberes de seus povos. (SILVA; PASUCH, 2010. p. 2).\n\nPortanto, pensar uma educação infantil do campo é pensarmos um campo onde a criança viva sua infância. É pensar uma educação que estabeleça uma estreita relação com a cultura de seu povo e de sua comunidade, que se identifique com as atividades desenvolvidas pela família, que são normalmente voltadas para a agricultura e o trabalho com a terra. É pensar, pedagogicamente, neste ambiente específico, para que se valorize a prática do trabalho coletivo, se fortaleça os vínculos com a comunidade e sua cultura, pois o papel desenvolvido pela comunidade na educação dessa criança está ainda fortemente arraigado, ou seja, pensar uma educação infantil que enxergue a criança em sua plenitude e valorize sua relação com a natureza e seus vários significados e seja resguardada por todos em sua comunidade.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

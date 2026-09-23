@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d85d432bad2bde7006ab303bb4c1087d2a592f9ef37382053",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 973,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1127,
+      "output_tokens_details": {
+        "reasoning_tokens": 308
+      },
+      "total_tokens": 2100
+    }
+  },
+  "created_at": "2026-09-22T22:40:05Z",
+  "duration_seconds": 10.176,
+  "error": null,
+  "excerpt_id": "ms_em_4",
+  "filename": "ms_em_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "35bc6dceddd644228796ed1ce2d8e81e50eb3a6e8074e03f86e1a939082d2a95",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e333fa33290cb64a519d6c463d5c1622a7ed2e03eb478a87a2165c282f6c7311",
+    "rendered_prompt_sha256": "24c7ff03e7a980a2afb2303d7625b5c868e8030e71606919bb3083fde06357fc",
+    "source_text_sha256": "2f80c1f3dc59c367141645655d2544acd947457574e2258d21f776b5856bdb76"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1705,
+    "filename": "ms_em_4.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_4.txt",
+    "state": "ms",
+    "word_count_original": 557
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_4.json"
+  },
+  "raw_response_text": "## 2.1. Diagnóstico e Escuta da Rede\n\nSegundo dados apurados sobre as unidades escolares, referentes ao ano de 2020, por meio do Sistema de Gestão de Dados Escolares – SGDE, a Rede Estadual de Ensino de Mato Grosso do Sul – REE/MS é composta por 343 escolas, distribuídas nos 79 municípios do Estado de Mato Grosso do Sul, que ofertam as diferentes etapas e modalidade da educação básica. Destaca-se que, desse total, 308 escolas operacionalizam o Ensino Médio, oferecido a mais de 97 mil estudantes por meio de mais de 5 mil docentes.\n\nO monitoramento de todas as unidades escolares é realizado por meio das Coordenadorias Regionais Educacionais – CREs, as quais têm como finalidade exercer o acompanhamento e a supervisão das escolas da REE/MS localizadas nos municípios sob sua jurisdição, oferecendo suporte administrativo, técnico e pedagógico para a viabilização das políticas educacionais da SED/MS.\n\nAtualmente, existem 11 Coordenadorias Regionais situadas nos seguintes municípios: Coxim, Paranaíba, Três Lagoas, Campo Grande, Nova Andradina, Naviraí, Dourados, Ponta Porã, Jardim, Aquidauana e Corumbá, e atendem as regiões conforme o mapa a seguir.\n\n### 2.1.1. Unidades Escolares\n\nNo que se refere à infraestrutura das unidades escolares, das 343 unidades da REE/MS, 155 possuem biblioteca em sala própria, 78 adaptaram uma sala de aula para o funcionamento da biblioteca e 110 não possuem biblioteca ou atendem em espaço alternativo, tal como sala dos professores e sala da coordenação. Com relação às Salas de Tecnologias Educacionais – STEs, a REE/MS possui 378 STEs com rede lógica para a conexão de Internet, sendo que 308 unidades escolares possuem uma STE e 35 possuem duas STE. Por fim, 70 unidades escolares foram contempladas com a construção de Laboratórios da Base Científica e 222 unidades escolares possuem Sala de Recursos Multifuncionais.\n\nO Ensino Médio é ofertado na REE/MS em diferentes modalidades, as quais, nesse diagnóstico, foram agrupadas da seguinte maneira:\n\n- Regular: Ensino Médio 25h/a e 30h/a, e Integral;\n- Correção de Fluxo: AJA, AJA-EPT e EJA;\n- Profissional: Técnicos e Ensino Profissional.\n\nA unidade escolar pode ofertar uma ou mais modalidades do Ensino Médio. No Gráfico 1, observa-se o quantitativo de escolas que ofertam cada modalidade de Ensino Médio em diferentes configurações. Destaca-se que mais da metade das unidades escolares ofertam apenas o Ensino Médio Regular; porém, há um quantitativo considerável de escolas que operacionalizam as demais modalidades.\n\nConsiderando a implementação da flexibilização curricular, destaca-se a necessidade de se pensar em estratégias específicas para que os municípios, com uma ou duas escolas, tenham condições de proporcionar o direito de escolha dos estudantes. Dessa forma, destaca-se que, conforme os dados expostos, cerca de 30% dos municípios apresentam apenas uma escola e cerca de 24% dos municípios, duas escolas, conforme se demonstra nos quadros seguintes:\n\n### 2.1.2. Docentes\n\nEm 2020, o quadro de professores era composto por 5.425 docentes, atuando nos componentes curriculares da Base Nacional Comum do Ensino Médio, da REE/MS. Desses, 2.057 são efetivos e 3.368 convocados, discriminados por componentes na Tabela 1.\n\n### 2.1.3. Estudantes\n\nA partir de dados levantados pelo Sistema de Gestão de Dados Escolares, foram identificados o total de 97.069 estudantes atendidos pela REE/MS, que estão distribuídos por município, considerando o mesmo agrupamento de modalidades⁷ já mencionado nesse diagnósticos, conforme tabela abaixo:",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

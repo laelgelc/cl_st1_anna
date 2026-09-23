@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_013db4ced1852de1006ab30aa1dba487d2a158467a01fb018c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 900,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1101,
+      "output_tokens_details": {
+        "reasoning_tokens": 294
+      },
+      "total_tokens": 2001
+    }
+  },
+  "created_at": "2026-09-22T23:09:30Z",
+  "duration_seconds": 8.597,
+  "error": null,
+  "excerpt_id": "rj_inf_camp_exp_8",
+  "filename": "rj_inf_camp_exp_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "48999d2c3aa9dcddb769772300f414fcf7e382ab1430f2459b562159e219ca36",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ca2f6e0d4c6a950c48b069f951a2ca64614903abfbc1c18a64fbc858b72926d8",
+    "rendered_prompt_sha256": "1aee4873297220c8c0edbe41ec17fb4197203ef2f921580738665b85daf1e3c8",
+    "source_text_sha256": "d57855d11d77c408bc8498116440605a4e1a5d969458e665dd42470ac0936239"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_camp_exp_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2911,
+    "filename": "rj_inf_camp_exp_8.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_camp_exp_8.txt",
+    "state": "rj",
+    "word_count_original": 552
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_camp_exp_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_camp_exp_8.json"
+  },
+  "raw_response_text": "# O Campo de Experiências Traços, Sons, Cores e Formas\n\nA BNCC, assim apresenta esse campo:\n\n> Conviver com diferentes manifestações artísticas, culturais e científicas, locais e universais, no cotidiano da instituição escolar, possibilita às crianças, por meio de experiências diversificadas, vivenciar diversas formas de expressão e linguagens, como as artes visuais (pintura, modelagem, colagem, fotografia etc.), a música, o teatro, a dança e o audiovisual, entre outras. Com base nessas experiências, elas se expressam por várias linguagens, criando suas próprias produções artísticas ou culturais, exercitando a autoria (coletiva e individual) com sons, traços, gestos, danças, mímicas, encenações, canções, desenhos, modelagens, manipulação de diversos materiais e de recursos tecnológicos. Essas experiências contribuem para que, desde muito pequenas, as crianças desenvolvem senso estético e crítico, o conhecimento de si mesmas, dos outros e da realidade que as cerca. Portanto a Educação Infantil precisa promover a participação das crianças em tempos e espaços para a produção, manifestação e apreciação artística, de modo a favorecer o desenvolvimento da sensibilidade, da criatividade e da expressão pessoal das crianças, permitindo que elas se apropriem e reconfigurem, permanentemente, a cultura e potencializem suas singularidades, ao ampliar repertórios e interpretar suas experiências artísticas.\n\nAs crianças vivem em ambientes onde a cada momento ocorrem situações envolvendo pessoas, atividades, espaços, objetos e materiais que elas buscam perceber, reconhecer, significar e representar, e o fazem pela apropriação de diferentes linguagens e recursos, como suas sensações, afetos e desejos, sua corporeidade, sua linguagem verbal, sua percepção das ações de seus parceiros e sua atenção voltada para os aspectos materiais do ambiente.\n\nEssas aquisições pela criança dependem em especial das interações que ela estabelece com seus parceiros, dado que as características das atividades, das ações dos que as executam e dos aspectos físicos e simbólicos dos espaços em que elas ocorrem, levam a criança a significar este ambiente como um local que amedronta, ou que é divertido, conforme sinta que foi afetada por ele.\n\nDentre outros elementos, o ambiente que a criança percebe é composto de traços, sons, cores e formas, que aparecem também nas plantas, solos e outros elementos do entorno, em objetos e vestimentas, em gravuras de livros, na caracterização própria de atores e cenários teatrais, na decoração e iluminação do espaço etc.\n\nO ambiente envolve a criança em um mundo de estímulos visuais, sonoros, táteis, cinéticos em que o formato, a cor, a textura, a sonoridade e o uso habitual dos objetos – brinquedos, latas, blocos de madeira, telas, argila, livros, cartazes, lápis, canetas, pedaços de giz ou carvão –, a presença de equipamentos elétricos e eletrônicos, e de mobiliário e adornos presentes na ocorrência de certas atividades, provocam nela emoções e representações.\n\nPerceber os objetos a partir de sua estrutura, de sua forma, de suas qualidades sensoriais, e não apenas segundo sua utilização imediata, possibilita às crianças ver o mundo como uma soma de estímulos e não como mera série de utensílios, dentro de um projeto pedagógico que não é voltado à produção de apresentações em datas comemorativas, ou de “trabalhinhos” a serem levados para casa. Essa visão supera tendências de apresentar as crianças tão somente o mundo das utilidades, da produção industrial, e as apoia a pensar o mundo como um espaço para ver o ambiente com sensibilidade, como uma paisagem cativante, fugindo de padrões estereotipados e de elementos da cultura de massa.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

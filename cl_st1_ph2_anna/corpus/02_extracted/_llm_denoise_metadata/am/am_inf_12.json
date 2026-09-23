@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03bcaf01d3920942006ab2fd95005887d2b00134f87d015f2a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 974,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1006,
+      "output_tokens_details": {
+        "reasoning_tokens": 201
+      },
+      "total_tokens": 1980
+    }
+  },
+  "created_at": "2026-09-22T22:13:48Z",
+  "duration_seconds": 7.455,
+  "error": null,
+  "excerpt_id": "am_inf_12",
+  "filename": "am_inf_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "88f0417244fb254e886c12d53f473755741bdeaa0000403e8b0cd94802f3ce10",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8852079ba2e4f92c7f18af132fbb26c361a386b146f4ededea1ca9050b164308",
+    "rendered_prompt_sha256": "1ac5ae8572d0dfb3c58d9049dd73001c35080448809f92b21b0167515a08c039",
+    "source_text_sha256": "5c8d1c8c449644eb8f810596ef67138ed13babc1c43c3ce8e18300e84ffd49f4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 412,
+    "filename": "am_inf_12.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_12.txt",
+    "state": "am",
+    "word_count_original": 574
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_12.json"
+  },
+  "raw_response_text": "### 6.3 Interações entre bebês, crianças e os brinquedos\n\nAs DCNEI (BRASIL, 2009b) estabelecem que as interações e as brincadeiras são os eixos da prática pedagógica na Educação Infantil. Promover interações é muito mais que aproximar os bebês e crianças fisicamente. O indivíduo que vive em grupo tem a possibilidade de abrir-se para conhecer o outro e permitir que este outro o conheça. Nessa relação, é possível olhar o outro como parceiro para todas as aventuras, respeitando o espaço do outro, seus desejos e anseios. A brincadeira na Educação Infantil vai além de um passa tempo. Quando brinca, seja com as outras crianças ou sozinha, a criança manifesta seus conhecimentos, suas emoções, sentimentos, imaginação e criatividade. Para Brougère (1995, p. 73, 74),\n\n> o interessante do brinquedo é que ele testemunha a importância da interação, do que se passa entre o objeto e o autor. A socialização não pode ser entendida como condicionada pelo objeto, mas sim como um processo de apropriação e de reconstrução a partir do contato com o brinquedo. De sorte que na brincadeira infantil este surge como elemento fundamental para o jogo da imaginação, ajudando a criança a descobrir o mundo.\n\nConsiderando a importância do brinquedo para o desenvolvimento e aprendizagens dos bebês e crianças, Kishimoto (2010) esclarece que a seleção de brinquedos envolve diversos aspectos: ser durável, atraente e adequado, apropriado a diversos usos, garantir a segurança, ampliar oportunidades para brincar, atender à diversidade racial, não conter preconceitos de gênero, classe social e etnia, não estimular a violência, incluir diversidade de materiais e tipos: tecnológicos, industrializados, artesanais e produzidos pelas crianças, professoras e pais. Assim, é preciso considerar algumas particularidades durante a aquisição de um brinquedo, como:\n\n- **Tamanho:** precisa ser duas vezes mais largo que a mão fechada do bebê e criança (punho), em suas partes e no todo;\n- **Durabilidade:** não pode se quebrar com facilidade;\n- **Segurança:** não pode conter partes de vidro, cordas e cordões que podem se enroscar no pescoço da criança e/ou bordas cortantes ou pontas afiadas;\n- **Produtos não tóxicos:** não comprar com tintas ou materiais tóxicos, a fim de evitar que o bebê e a criança coloquem na boca e cause o risco de envenenamento;\n- **Não inflamável:** assegurar-se que o brinquedo não pega fogo antes de adquiri-lo;\n- **Lavável:** é feito com materiais que podem ser limpos, especialmente como bonecas e brinquedos estofados.\n- **Divertido:** assegurar que o brinquedo seja atraente e interessante.\n\nSendo o brinquedo uma das linguagens pelas quais bebês e crianças se expressam e manifestam seus sentimentos e desprazeres, é importante que as instituições de Educação Infantil oportunizem brinquedos e momentos de interação para bebês e crianças. A brincadeira e a manipulação dos objetos também ajudam no desenvolvimento da habilidade motora, assim como na ampliação de novas aprendizagens.\n\nDe acordo com Silva (2013), embora a brincadeira tenha um fim em si mesma para as crianças, quando ela acontece no ambiente da Educação Infantil, oferece inúmeras possibilidades para desencadear outras situações de aprendizagens, como o desenvolvimento e a ampliação da linguagem oral e escrita, a compreensão das relações temporais e espaciais, bem como aquelas afetas às dimensões relacionais. No entanto, a garantia do tempo, espaço e materiais para a brincadeira não pode estar condicionada a uma estratégia de ensino e aprendizagem. A brincadeira é parte da cultura infantil e é essa importância que ela precisa ter na escola da infância.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07d5bf77a77149e5006ab3033ecde487d29a4b5d01eab85ea2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 433,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 372,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 805
+    }
+  },
+  "created_at": "2026-09-22T22:37:53Z",
+  "duration_seconds": 3.016,
+  "error": null,
+  "excerpt_id": "mg_em_46",
+  "filename": "mg_em_46.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bc3cce79fb0e06b58649675155fdf21263053241b370db8a21f6d028becd9b0d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e5150379467fae62ff36bf810cd41818b375a42b99bf316c5461aa88a07c39e9",
+    "rendered_prompt_sha256": "925ccf2783479e6b2f15b94654d2a14fd477e55a6fc5698987241c662aca5ede",
+    "source_text_sha256": "43ec8afbc3a6041281059054826258a55bbc837ac36d1a5d62746384244cc3cb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_46.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1577,
+    "filename": "mg_em_46.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_46.txt",
+    "state": "mg",
+    "word_count_original": 240
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_46.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_46.json"
+  },
+  "raw_response_text": "### 3.1.5 As habilidades do componente curricular Língua Inglesa\n\nAs habilidades a serem desenvolvidas no componente Língua Inglesa são aquelas apresentadas para a área de Linguagens e para os diversos campos de atuação da Língua Portuguesa (listadas no arquivo com as habilidades de cada área de conhecimento).\n\nNo Currículo Referência, a Língua Inglesa permite aos estudantes ampliar a compreensão de mundo e as formas de participação social e de interação com diferentes culturas juvenis e o entendimento e as possibilidades de explicação e interpretação crítica da realidade. Por meio do uso da Língua Inglesa, espera-se que os estudantes possam explorar as culturas digitais, aprofundar-se em novas formas de estudos e pesquisas, ampliar os projetos de vida e as perspectivas em relação à sua vida pessoal e profissional. Esse componente permite entender a língua como um fenômeno marcado pela heterogeneidade e variedade de registros, dialetos, estilizações e usos bem variados, fazendo com que o estudante respeite todas essas diferenças, posicione-se criticamente diante de diversas visões de mundo e interaja com grupos multilíngues e multiculturais.\n\nAssim, ampliam sua capacidade discursiva e de reflexão em diferentes áreas do conhecimento e são formados nas suas dimensões emocional, cognitiva e social. Para tanto, o professor de Língua Inglesa deve trabalhar integradamente com os outros professores da área de Linguagens ou de outras áreas, relacionando os saberes e propondo uma visão de totalidade, sem que um componente se destaque mais que outros.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

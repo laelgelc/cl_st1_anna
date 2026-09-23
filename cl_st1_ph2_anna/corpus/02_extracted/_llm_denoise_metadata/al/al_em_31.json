@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c28aee05b87404d006ab2fcc7303c87d2848014c28c76bbdb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 772,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 761,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 1533
+    }
+  },
+  "created_at": "2026-09-22T22:10:20Z",
+  "duration_seconds": 5.267,
+  "error": null,
+  "excerpt_id": "al_em_31",
+  "filename": "al_em_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "02538608df1025ce065783e65b46028d687d3b2e226f5694807cfe381e550552",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e1efd15b80e80d79f454caf4e7b8a6d80d36071d11ddb3a7e3c38c299cc5b176",
+    "rendered_prompt_sha256": "58c8aeb6724d11027355ca6851a095431c23ce97b7c6f6997b5e7edeb17366e5",
+    "source_text_sha256": "25a8bf368261957908ada5a02e1c046c9fdb647ccc63dc0685f4676bf627fe4c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_em_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 265,
+    "filename": "al_em_31.txt",
+    "filepath": "corpus/00_source_per_state/al/al_em_31.txt",
+    "state": "al",
+    "word_count_original": 453
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_em_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_em_31.json"
+  },
+  "raw_response_text": "## BREVE HISTÓRICO DAS CONCEPÇÕES DO ENSINO DE CIÊNCIAS DA NATUREZA\n\nSegundo o Referencial Curricular de Alagoas (ALAGOAS, 2014), as Ciências são definidas como “o conjunto de conhecimentos teóricos sobre os fenômenos naturais baseado em metodologia científica e fundamentação experimental”. Portanto, o desenvolvimento das Ciências da Natureza (Física, Química, Biologia, Astronomia, Geologia, e suas tecnologias) ocorreu através da construção de conhecimentos, mudanças e rupturas, que contribuíram para o desenvolvimento científico e tecnológico, trazendo melhoria de qualidade de vida dos indivíduos e alguns impactos socioambientais.\n\nNeste sentido, é importante compreender que sua origem não tem um ponto único de partida, mas entre eles, os trabalhos dos filósofos e as pesquisas e descobertas de vários cientistas. Dessa forma, o desenvolvimento das ciências deu-se, provavelmente, quando o homem dominou o fogo e passou a utilizar o sal, o que permitiu à preparação de comida cozida diminuindo a mortalidade, melhorando as condições gerais de vida e fazendo com que nossa raça sobrevivesse aos momentos mais difíceis da história evolutiva (CHASSOT, 1994).\n\nAs civilizações antigas também contribuíram para o desenvolvimento das ciências, principalmente com a produção de materiais, destacando-se o papiro dos egípcios que registraram estudos sobre a anatomia e práticas cirúrgicas, receitas de pomadas e colírios e, a agricultura que permitiu ao homem se estabelecer em determinadas regiões tornando-se sedentário.\n\nNo entanto é com os gregos que surge o pensamento racional – a Filosofia e os grandes filósofos como Tales de Mileto, que refletiam sobre os fenômenos da natureza, e sobre como elas se formavam; Pitágoras a quem é atribuída à criação da palavra Filosofia; Aristóteles com sua hipótese de que tudo é composto por um dos quatro elementos: terra, água, ar e fogo; os atomistas: Leucipo de Mileto e Demócrito entre tantos. Já na idade média, buscando explicações sobre os fenômenos da natureza, surge a Alquimia - a precursora da Química e, neste mesmo período são fundadas as primeiras Universidades (CHASSOT, 1994). A partir do século XVI, iniciam-se as grandes descobertas nas áreas de Física e Química, que contou com a participação de Copérnico, Kepler e Galileu, Isaac Newton, Planck, Einstein, Lavoisier, entre outros. Na área da Biologia, conceitos de adaptação e seleção natural, conhecimentos de Botânica, Zoologia, Paleontologia e Embriologia, Genética e da Biologia Molecular, como por exemplo, Charles Darwin, Pasteur, entre outros, que aliados ao desenvolvimento tecnológico, realizaram diversas pesquisas que contribuíram e contribuem com a melhoria da qualidade de vida do ser humano na terra.\n\nAo longo do tempo novas descobertas foram feitas possibilitando a criação de materiais, como por exemplo, o plástico, fios sintéticos, fertilizantes, medicamentos entre outros. Produtos que modificaram a forma de viver e os padrões de consumo da humanidade trazendo benefícios e afetando o meio ambiente (ALAGOAS, 2014).",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

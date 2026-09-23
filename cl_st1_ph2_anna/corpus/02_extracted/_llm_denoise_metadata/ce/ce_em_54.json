@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f0a6be790ef4a5b006ab2ff96996487d286926a2524b4dd86",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1883,
+      "input_tokens_details": {
+        "cache_write_tokens": 1880,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2244,
+      "output_tokens_details": {
+        "reasoning_tokens": 447
+      },
+      "total_tokens": 4127
+    }
+  },
+  "created_at": "2026-09-22T22:22:30Z",
+  "duration_seconds": 15.562,
+  "error": null,
+  "excerpt_id": "ce_em_54",
+  "filename": "ce_em_54.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "27889266639431fa9891c3e020409001e98ada43c856df98d0b3aa10e6966471",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b8c30a7373ce9e77c3b44f82e897d88f75e21e858b38cb31624571875fba64ab",
+    "rendered_prompt_sha256": "2fa08563df9d6015a81c59c0af0a1e972d37e5b6f67b44ff98f4c23af511e857",
+    "source_text_sha256": "a5d31377609d5231edda93e5697068c381c80d8ce7366d2eea791ab6f215b450"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_54.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 812,
+    "filename": "ce_em_54.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_54.txt",
+    "state": "ce",
+    "word_count_original": 1197
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_54.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_54.json"
+  },
+  "raw_response_text": "# PARTE III - ITINERÁRIOS FORMATIVOS (IF)\n\n## 9. Itinerários Formativos\n\n**726** A Resolução nº 3, de 21 de novembro de 2018, do MEC/CNE/CEB atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio. Em seu Capítulo II, Art. 6º, faz referência à organização curricular e às suas formas de oferta, em acordo com o sistema de educação, prevendo que “a distribuição da carga horária da formação geral básica e dos itinerários formativos deve ser definida pelas instituições e redes de ensino conforme normatização do respectivo sistema de ensino”. Diante dessa resolução, destacamos que a carga horária máxima para a formação geral básica (FGB) deve ser de 1800 horas, enquanto a carga horária mínima para os itinerários formativos (IF) corresponde a 1200 horas.\n\n### 9.1 Definição de itinerário formativo\n\n**727** Os itinerários formativos (IF) configuram “cada conjunto de unidades curriculares ofertadas pelas instituições e redes de ensino que possibilitem à/ao aluna/o aprofundar seus conhecimentos” nas áreas de Linguagens e suas Tecnologias; Ciências Humanas e Sociais Aplicadas; Ciências da Natureza e suas Tecnologias; Matemática e suas Tecnologias e Formação Técnica e Profissional, conforme as novas Diretrizes Nacionais para o Ensino Médio (BRASIL, 2018).\n\n**728** Entende-se por unidades curriculares, elementos com carga horária pré-definida cujo objetivo é desenvolver competências específicas dos itinerários formativos. Desse modo, as possibilidades de unidades curriculares que podem configurar um itinerário formativo são diversas. São exemplos de unidades curriculares:\n\na) disciplinas eletivas⁵: disciplinas temáticas que não fazem parte do perfil curricular do curso, mas que são escolhidas semestralmente pelas/pelos alunas/os e criadas a partir de uma seleção de assuntos propostos pelos professores e/ou alunas/os e promovem o enriquecimento, a ampliação e a diversificação de conteúdos, temas ou áreas do núcleo comum.\n\nb) laboratórios: supõem atividades que envolvem observação, experimentação e produção em uma área de estudo e/ou o desenvolvimento de práticas de um determinado campo (línguas, jornalismo, comunicação e mídia, humanidades, ciências da natureza, matemática etc.).\n\n⁵ Apresentamos aqui a definição da BNCC de disciplinas eletivas em oposição ao entendimento como componentes curriculares ofertados pela escola, ministrados por professores (as), por tutores, por membros da comunidade ou que sejam de autogestão das/os alunas/os.\n\nc) clubes: agrupamentos de alunas/os livremente associados que partilham de gostos e opiniões comuns (leitura, conservação ambiental, desportivo, cineclube, fã-clube, fandom etc.);\n\nd) oficinas: espaços de construção coletiva de conhecimentos, técnicas e tecnologias, que possibilitam articulação entre teorias e práticas (produção de objetos/equipamentos, simulações de “tribunais”, quadrinhos, audiovisual, legendagem, fanzine, escrita criativa, performance, produção e tratamento estatístico etc.);\n\ne) observatórios: grupos de alunas/os que se propõe, com base em uma problemática definida, a acompanhar, analisar e fiscalizar a evolução de fenômenos, o desenvolvimento de políticas públicas etc. (imprensa, juventude, democracia, saúde da comunidade, participação da comunidade nos processos decisórios, condições ambientais etc.);\n\nf) incubadoras: estimulam e oferecem condições ideais para o desenvolvimento de determinado produto, técnica ou tecnologia (plataformas digitais, canais de comunicação, páginas eletrônicas/sites, projetos de intervenção, projetos culturais, protótipos etc.);\n\ng) empresas juniores: “Empresa Júnior é uma associação civil sem fins lucrativos, formada e gerida por alunas/os, cujos principais objetivos são: Fomentar o aprendizado prático do universitário em sua área de atuação; Aproximar o mercado de trabalho das academias e os próprios acadêmicos; Gerir com autonomia em relação à direção da faculdade ou centro acadêmico; Elaborar projetos de consultoria na área de formação dos alunas/os.” (SEBRAE, 2020)\n\nh) núcleos de criação artística: desenvolvem processos criativos e colaborativos, com base nos interesses de pesquisa dos jovens e na investigação das corporalidades, espacialidades, musicalidades, textualidades literárias e teatralidades presentes em suas vidas e nas manifestações culturais das suas comunidades, articulando a prática da criação artística com a apreciação, análise e reflexão sobre referências históricas, estéticas, sociais e culturais (artes integradas, videoarte, performance, intervenções urbanas, cinema, fotografia, slam, hip hop etc.);\n\ni) núcleos de estudo: desenvolvem estudos e pesquisas, promovem fóruns de debates sobre um determinado tema de interesse e disseminam conhecimentos por meio de eventos — seminários, palestras, encontros, colóquios —, publicações, campanhas etc. (juventudes, diversidades, sexualidade, mulher, juventude e trabalho etc.);\n\nj) grupos de pesquisa: “Grupo de Pesquisa é a denominação atribuída ao grupo de pesquisadores e alunas/os que se organizam em torno de uma ou mais linhas de pesquisa de uma área do conhecimento, com o objetivo de desenvolver pesquisa científica. Há o envolvimento profissional e permanente com atividades de pesquisa no qual o trabalho se organiza em torno de linhas comuns de pesquisa e que, em algum grau, compartilha instalações e equipamentos.” (GRUPOS, 2013)\n\nk) projetos: “O projeto didático é uma das formas de construir o conhecimento com sentido e profundidade e a razão é simples: ele é um tipo de organização que envolve uma situação-problema com o objetivo de articular propósitos didáticos e propósitos sociais (o trabalho tem um produto final que vai ser apreciado por alguém).” (GESTÃO, 2019)\n\n**729** Ao proporcionar o aprofundamento de conhecimentos das áreas, os itinerários formativos possibilitam ao educando se preparar para enfrentar desafios acadêmicos, profissionais e pessoais de maneira que possa contribuir para a construção de soluções de problemas específicos da sociedade a qual ele pertence (BRASIL, 2018).\n\n**730** Do ponto de vista estrutural, os itinerários formativos podem ser construídos com foco em uma das áreas específicas de conhecimento, na formação técnica e profissional ou em diferentes áreas, compondo itinerários integrados. Além disso, os itinerários devem ser orientados para o aprofundamento e ampliação das aprendizagens garantindo a apropriação de procedimentos cognitivos, o uso de metodologias que favoreçam o protagonismo juvenil e organizados em torno dos seguintes eixos estruturantes:\n\nI - investigação científica: supõe o aprofundamento de conceitos fundantes das ciências para a interpretação de ideias, fenômenos e processos para serem utilizados em procedimentos de investigação voltados ao enfrentamento de situações cotidianas e demandas locais e coletivas, e a proposição de intervenções que considerem o desenvolvimento local e a melhoria da qualidade de vida da comunidade;\n\nII - processos criativos: supõe o uso e o aprofundamento do conhecimento científico na construção e criação de experimentos, modelos, protótipos para a criação de processos ou produtos que atendam a demandas pela resolução de problemas identificados na sociedade;\n\nIII - mediação e intervenção sociocultural: supõe a mobilização de conhecimentos de uma ou mais áreas para mediar conflitos, promover entendimento e implementar soluções para questões e problemas identificados na comunidade;\n\nIV - empreendedorismo: supõe a mobilização de conhecimentos de diferentes áreas para a formação de organizações com variadas missões voltadas ao desenvolvimento de produtos ou prestação de serviços inovadores com o uso das tecnologias. (BRASIL, 2018, p.7, grifo nosso)\n\n**731** Tais eixos envolvem as/os estudantes em situações de aprendizagem que lhes permitam produzir conhecimentos, criar, intervir na realidade e empreender projetos presentes e futuros. Para tanto, é importante que os itinerários formativos busquem incorporar e integrar todos os eixos, possibilitando às/aos alunas/os experienciar diferentes situações de aprendizagem.\n\n**732** Ao compor a parte diversificada do currículo, os itinerários formativos devem ser organizados considerando não apenas as demandas e as necessidades do mundo contemporâneo, mas também os interesses e os perfis das/dos alunas/os, suas diversas possibilidades de inserção sociocultural, as especificidades do local em que vivem, dentre outros aspectos.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

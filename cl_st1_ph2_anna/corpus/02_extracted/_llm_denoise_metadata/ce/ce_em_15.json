@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dfead28f3df50fa006ab2ff57fc7c87d2856e29ba4ece364f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 799,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 878,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 1677
+    }
+  },
+  "created_at": "2026-09-22T22:21:18Z",
+  "duration_seconds": 6.901,
+  "error": null,
+  "excerpt_id": "ce_em_15",
+  "filename": "ce_em_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "118c5cad41b5e594e7beead4c91b9b3652bd81c3331d26c3025238a628b1bd17",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d1bfb8e5a6b5930f02513cec28b01d6d32ccd256a7cf870856e08e1df589d25b",
+    "rendered_prompt_sha256": "5464ebbe815ac0403e9eedba60f8c11b0ff6ffcefc246c30045b3822af8a7e32",
+    "source_text_sha256": "5da647a36ad0ded67c49187fe6f64311d32eb624ecb605f35e0f3085fa69dc3b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 769,
+    "filename": "ce_em_15.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_15.txt",
+    "state": "ce",
+    "word_count_original": 484
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_15.json"
+  },
+  "raw_response_text": "### 3.6 Escola Família Agrícola (EFA)\n\nA EFA é uma escola do campo, diferenciada, cuja construção social é fruto da mobilização dos camponeses que buscam por uma formação contextualizada e integral para os jovens residentes no campo, qualificando-os a elaborar e a implantar projetos de base agroecológica nos quintais produtivos e nas comunidades rurais.\n\nA EFA é, preferencialmente, destinada a filhos de trabalhadores rurais ou de pequenos produtores familiares com práticas na agricultura e/ou pecuária. Para tanto, é importante que a/o jovem e a família conheçam, compreendam e aceitem a especificidade desse tipo de Escola, sua organização e metodologia de ensino (Pedagogia da Alternância) e assumam o compromisso da parceria no processo de formação da/o aluna/o.\n\nEssa escola oferta Educação Profissional Técnica de Nível Médio e adota a Pedagogia da Alternância como metodologia de ensino, possibilitando às/aos alunas/os uma flexibilidade nos tempos pedagógicos: tempo escola, que prevê a permanência do educando durante uma semana na Escola, em regime de internato; e o tempo comunidade, em que o educando se desloca para a comunidade em que reside, aplicando na prática o que aprendeu na Escola.\n\nA organização do ensino no regime de alternância possui três momentos integrados no processo de aprendizagem:\n\ni) No meio socioprofissional – observação – descrição da realidade – convivência familiar e comunitária – experiência do trabalho – saber empírico;\n\nii) Na escola – colocação em comum da reflexão de cada alternante, formalização – conceitualização – problematização – análise – aprofundamento e sistematização do conhecimento popular com os conhecimentos escolares – saber teórico;\n\niii) No meio socioprofissional, retornando à família e ao trabalho, o jovem fecha o ciclo do processo metodológico – realização de experiências e aplicações dos estudos, confrontamento dos saberes teóricos e práticos, criação de novas interrogações e novas pesquisas – saber prático.\n\nAdemais, uma EFA estrutura-se a partir dos seguintes pilares:\n\na) Pedagogia da Alternância (PA) – uma metodologia pedagógica específica, a Alternância Integrativa, que reveza momento no ambiente escolar (Tempo Escola) e momento ambiente familiar comunitário (Tempo Comunidade);\n\nb) Associativismo – princípio fundamental da participação e do envolvimento das/dos beneficiárias/os - educandas/os, famílias, gestores, docentes, servidores e demais funcionárias/os - como protagonistas do poder educativo. Uma EFA pressupõe a participação efetiva das famílias interessadas, que estão representadas na/pela Associação;\n\nc) Formação Integral – promove a educação e a formação integral, ao considerar todas as dimensões da pessoa; valoriza e desenvolve as capacidades de cada jovem de forma individual e coletiva, estimulando a iniciativa, a criatividade, o trabalho em grupo e o senso de responsabilidade e de solidariedade; assim como contribui para o desenvolvimento do Projeto de Vida/Profissional junto à família e ao meio em que vive;\n\nd) Desenvolvimento Local Sustentável – formação dos jovens, de suas famílias e dos demais atores envolvidos, tendo como objetivo principal o fortalecimento da agricultura familiar, com enfoque agroecológico e a inserção profissional e empreendedora dos jovens no meio rural.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

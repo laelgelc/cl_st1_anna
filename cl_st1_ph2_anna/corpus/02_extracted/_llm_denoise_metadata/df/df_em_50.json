@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06b34ae0abe520f8006ab30051fd7c87d2ae5488fc80d4f3bc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 497,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 464,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 961
+    }
+  },
+  "created_at": "2026-09-22T22:25:25Z",
+  "duration_seconds": 3.68,
+  "error": null,
+  "excerpt_id": "df_em_50",
+  "filename": "df_em_50.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c4af31144d5b770f86064adefde75b0b6326f635db1534b80f90921fd1954250",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "63c77589ff75c9116be29b28a86ab3a3b795c38b9cb3178b02f754db5fddd8db",
+    "rendered_prompt_sha256": "45e7f9943585a37bad227b6267c8532feb228b96edaf9f9e613613f202ea7231",
+    "source_text_sha256": "fcb6425acd88177c466ff3f0c5dbbac63b8728a5aa3a3eb04114b359621966a1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_50.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 940,
+    "filename": "df_em_50.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_50.txt",
+    "state": "df",
+    "word_count_original": 256
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_50.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_50.json"
+  },
+  "raw_response_text": "# INVESTIGAÇÃO CIENTÍFICA\n\nNo eixo estruturante de Investigação Científica, a área busca promover a indagação sistemática dos fenômenos para desenvolver pesquisas empíricas articuladas a conhecimentos teóricos e, assim, encorajar os estudantes a utilizarem os conceitos como ferramentas de abstração diante das contradições, das complexidades da natureza e da vida em sociedade. Concretamente, os estudantes podem desenvolver pesquisas diversas, estudos epistemológicos, investigar a história dos saberes e dos discursos e adentrar no campo dos estudos da Ciência, Tecnologia, Sociedade e do Ambiente (CTSA).\n\nPara este eixo estruturante, a área deve oportunizar aos estudantes situações de aprendizagem voltadas para o desenvolvimento de posturas analítica e sintética, incentivando o ato crítico. Propõe-se, nesse sentido, que a investigação da realidade e das ideias leve à compreensão de suas relações, processos e essências. Portanto, parte de uma perspectiva mais ampla, em que a investigação sempre está presente na vida do ser humano e, no decorrer do tempo histórico, estimula diferentes ações que, por diversas vezes, se reinauguram para responder às inquietações de cada período e recorte espacial.\n\nOs métodos de investigação aguçam a curiosidade, proporcionam coletas de dados, estimulam debates e promovem posturas críticas em relação às diversas possibilidades de interpretações. Ainda, podem contribuir para os projetos de vida dos estudantes. A práxis investigativa, por meio de interpretações, de escolhas, de exclusões, de representações e de ‘representâncias’, coaduna com a construção/reconstrução/desconstrução da integralidade do ser, pois fomenta o uso do conhecimento para a percepção e proposição de resoluções de problemas de diversas ordens, de forma empreendedora, criativa e inovadora.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

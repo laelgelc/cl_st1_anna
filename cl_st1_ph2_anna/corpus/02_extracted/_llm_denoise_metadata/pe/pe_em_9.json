@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0429b22e0e87ed12006ab30833ed3087d281e4b6a9e3c82604",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1167,
+      "input_tokens_details": {
+        "cache_write_tokens": 1164,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1232,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 2399
+    }
+  },
+  "created_at": "2026-09-22T22:59:09Z",
+  "duration_seconds": 9.937,
+  "error": null,
+  "excerpt_id": "pe_em_9",
+  "filename": "pe_em_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d6c10e6485735b508fa59bea369c3b41f598c230dfa2d31d55cb3d4a091d38f7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3789c220f1d93e9a5d51c277773e7d271c4abfbe61e6b14e39e13be005c1e36f",
+    "rendered_prompt_sha256": "55bd48e734990055562a8fed78193751b36c40e701d0d20b67b89e165f31f1bc",
+    "source_text_sha256": "ee816b1898f498a52bea6af7d276036010696404363070d29e5f9200eaa360c4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2513,
+    "filename": "pe_em_9.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_9.txt",
+    "state": "pe",
+    "word_count_original": 753
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_9.json"
+  },
+  "raw_response_text": "## 1.6 CONCEPÇÕES SOBRE O PROCESSO DE ENSINO E APRENDIZAGEM\n\nA observação e a análise das práticas educativas têm se intensificado nas últimas décadas no cenário nacional. Tal fato é decorrente da inserção, nesse meio, de ideias e referenciais que subsidiam as ações de ensinar e aprender, visando, de certa maneira, à compreensão do sistema educacional, que está centrado na escola, seu papel, seu currículo — como apresentado em seção anterior — e seus profissionais, principalmente os professores.\n\nSob a égide dos verbos ensinar e aprender se constitui a base para todo o processo de construção do conhecimento. Numa perspectiva histórica e de desenvolvimento da ciência, esses dois verbos já foram bastante questionados e inferia-se que, se houve ensino, a aprendizagem aconteceu. Assim, era suficiente um professor que dominasse um determinado conhecimento e “ensinasse”, transmitisse, esse saber para seu grupo de estudantes. Aquilo que os estudantes repetissem com exatidão e reproduzissem nas avaliações, resultando na medição do quanto tinham conseguido absorver, era a aprendizagem.\n\nA partir das contribuições da epistemologia para os processos de desenvolvimento subjetivo humano e, mais recentemente, das neurociências, com o mapeamento cerebral de todas as condições do sujeito em situações de interação com os outros e com as ideias/fatos/experiências, muda a concepção do que é aprender, de como se aprende e, por correspondência, de como devem ser desenvolvidas práticas na sala de aula que despertem o interesse, o desejo e a motivação para o efetivo sucesso desse processo.\n\nAssim, transformam-se também as concepções de ensinar. Agora, em vez de apenas lembrar e repetir informações, o estudante deve ser capaz de encontrá-las e usá-las com autonomia. Dessa forma, a recente ciência da aprendizagem enfatiza a importância de se repensar o que é ensinado; a maneira de ensinar, centrando o processo no estudante; e o modo de avaliar a aprendizagem, compreendendo a avaliação enquanto processo, aspecto que será discutido adiante neste texto introdutório.\n\nFaz-se necessário, no bojo do processo de ensino e aprendizagem, que o Projeto Político Pedagógico da escola se proponha a: (1) valorizar os conhecimentos prévios que os estudantes trazem de suas vivências para a escola; (2) auxiliá-los a desenvolver competências nas diversas áreas de conhecimento, valorizando sua base sólida dos fatos, relacionando esses conhecimentos às ideias dentro de um eixo conceitual, visando à mediação da aprendizagem; e (3) incentivá-los em sua autonomia de aprender, ajudando-os a compreender como podem e devem também, sendo autores do seu conhecimento, monitorar seus progressos (BRANSFORD, BROWN & COCKING, 2007).\n\nOutro aspecto de suma importância têm sido os desafios que as mudanças tecnológicas e seus avanços ininterruptos têm provocado e trazido aos processos de ensino e de aprendizagem. As tecnologias digitais de informação e comunicação, além das tecnologias assistivas, favorecem novas situações de aprendizagem, possibilitando ao estudante, por meio de seu uso, acessar e propagar informações que possam servir de ferramentas para o desenvolvimento de competências transversais para a aprendizagem colaborativa, motivando o protagonismo e práticas autorais.\n\nÉ nesse âmbito denso de reflexões que o Currículo de Pernambuco encontra-se alinhado com a BNCC que traz, em sua apresentação, o foco no desenvolvimento de competências:\n\n> [...] o que os alunos devem ‘saber’ (considerando a constituição de conhecimentos, habilidades, atitudes e valores) e, sobretudo, do que devem ‘saber fazer’ (considerando a mobilização desses conhecimentos, habilidades, atitudes e valores para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho) (BNCC, 2017, p. 13).\n\nTal discussão tem sido proposta por vários teóricos que abordam a prática educativa e do que se torna imprescindível desenvolver no processo de ensino e de aprendizagem: aprender a conhecer, apontando para o interesse do estudante pelo conhecimento (conteúdos factuais); aprender a fazer, que mostra a coragem de arriscar, de executar, até mesmo de errar, na busca de acertar (conteúdos procedimentais); aprender a conviver, oportunizando o desafio da convivência, do respeito ao próximo e aprender a ser, que traz o objetivo de viver como o papel central do estudante como cidadão (conteúdos atitudinais) (ZABALA, 1998; ZABALA & ARNAU, 2009).\n\nPor fim, um aspecto extremamente relevante também nesse ‘novo’ processo do binômio ensino e aprendizagem é compreendê-lo como constituído mutuamente — ou seja, o ensino e a aprendizagem enquanto aspectos indissociáveis — assim como são constituídas no estudante as dimensões cognitiva e afetiva. O objetivo é promover o olhar para o desenvolvimento global deste, pensando na complexidade de sua construção e desenvolvimento integral, de forma que o olhar centrado no estudante considere a sua singularidade e o respeito às diversidades.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ff8f28e7bcff0cc006ab2fda5534487d2a933c3b84ec97ed9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 827,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 812,
+      "output_tokens_details": {
+        "reasoning_tokens": 151
+      },
+      "total_tokens": 1639
+    }
+  },
+  "created_at": "2026-09-22T22:14:03Z",
+  "duration_seconds": 6.297,
+  "error": null,
+  "excerpt_id": "am_inf_28",
+  "filename": "am_inf_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d4b72855cee1316d9f5a1d23c63083a97d8b2ffada7cd6d0b55a59fe5c772da4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2b92e512de04d253cd487960a97a85f75d49e213ae7a403b210992a542981a3a",
+    "rendered_prompt_sha256": "da0ca5c0a0daa40b67d160613ededfee8668906637675ba08b573cf4d53269f2",
+    "source_text_sha256": "b5d7406f184b05bb725e1b181771ab3f7cc4a08fee574484721c57c04846f180"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 429,
+    "filename": "am_inf_28.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_28.txt",
+    "state": "am",
+    "word_count_original": 531
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_28.json"
+  },
+  "raw_response_text": "## 14. O envolvimento da família e da comunidade na instituição\n\nA instituição de ensino deve participar para as famílias e comunidade sobre o seu fazer pedagógico e sobre as especificidades de sua atuação no tocante ao cuidar e ao educar. Professora/professor deve deixar claras as famílias/comunidade sobre as trocas de informações e sobre as ações desenvolvidas diariamente, estabelecendo elo educativo de comunicação e parceria.\n\nO atendimento nas instituições de Educação Infantil, tanto na fase creche como na fase Pré-Escola, deve administrar, priorizar e manter as idas e vindas dos responsáveis ao seu interior, com vistas à reflexão, participação, elaboração e implementação de uma avaliação aberta e compartilhada sobre a educação desenvolvida, criando condições para que as famílias e comunidade se sintam parte do processo de aprendizagem e desenvolvimento de bebês e crianças.\n\nNo estabelecimento dessa aproximação com as famílias e comunidade, a instituição deve considerar que a família nuclear não é hoje, a única referência existente. Além disso, as condições de trabalho existentes em nossos dias produzem formas diversificadas sobre os cuidados e guarda dos bebês e crianças. Assim, não há como pensar a aprendizagem e o desenvolvimento dos bebês e crianças sem levar em conta as relações concretas de existência em que eles se inserem. A instituição escolar está localizada em uma comunidade e precisa fazer parte dela. Muitas vezes, as instituições encontram-se isoladas e fechadas para o meio em que está inserida. É necessário que a instituição tenha um projeto educativo realmente articulado com a comunidade. A participação dos familiares na escola ajuda a reformular as práticas educativas. A família costuma buscar na escola respostas para educar seus filhos, mas não é só a família que aprende. A instituição também cresce com essa troca. Se há um ganho na relação entre família e escola é o incentivo à reflexão, e os bebês e as crianças serão os maiores beneficiados.\n\n### 14.1 Família e gestão participativa\n\nÉ importante que a família e a comunidade se sintam partícipes na construção e concretização do Projeto Político Pedagógico. Para isso, a instituição deve promover a democracia apoiada em atitudes de respeito, criando condições para que ela se envolva consciente do compromisso de participar ativamente do cuidar e educar de bebês e crianças. Isso se constitui num processo que está ativamente em movimento.\n\nA promoção da democracia se dá quando a instituição está de portas abertas para que as famílias participem nas principais decisões, possibilitando que estas se sintam acolhidas no ambiente escolar. A participação, o diálogo e a escuta efetiva pela instituição produzem mecanismos que, além de mostrar consideração pelas contribuições vindas das famílias e comunidade, estimulam o trabalho coletivo, que é a forma mais promissora de cooperação e troca entre estas instituições tão fundamentais para o desenvolvimento dos bebês e crianças.\n\nA organização interna possibilita a interação com as instituições que também atuam na comunidade, abrindo espaço para a criação de parcerias. A articulação entre diferentes serviços evita a sobreposição de ações e o desperdício de investimentos. Quanto mais participativa, democrática e transparente for a gestão administrativa e pedagógica da instituição, maiores serão as chances de fazer um atendimento de qualidade.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

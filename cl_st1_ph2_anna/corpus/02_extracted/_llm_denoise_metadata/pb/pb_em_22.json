@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_074bd8b9e1457858006ab3071c241887d2b60e6a0a8cea2d29",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 704,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 952,
+      "output_tokens_details": {
+        "reasoning_tokens": 343
+      },
+      "total_tokens": 1656
+    }
+  },
+  "created_at": "2026-09-22T22:54:29Z",
+  "duration_seconds": 9.171,
+  "error": null,
+  "excerpt_id": "pb_em_22",
+  "filename": "pb_em_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "67730618edf713c1b993c264bd48143cf88948c2ef0e8b09c6d95340a8bfb50c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "88aaca22e5125444b10996b3e272e217558b6613a5d416ee6a040691a5bbd470",
+    "rendered_prompt_sha256": "eac12139ffa08ba142fb00b98d7328f54aa07d10d626f4241561b26fb77488a3",
+    "source_text_sha256": "98d97c4f4b484952d4d239e46126605c7c8366806af599f5a74294c190192016"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2267,
+    "filename": "pb_em_22.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_22.txt",
+    "state": "pb",
+    "word_count_original": 411
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_22.json"
+  },
+  "raw_response_text": "## 2.1.3.5 Uma breve discussão sobre norma-padrão e norma culta\n\nChamamos atenção para o conceito de norma. Nos estudos da linguagem verbal, esse termo apresenta dois sentidos: a) um geral (equivale à variedade linguística – toda e qualquer variedade linguística) e b) um específico (equivale a um conjunto de preceitos que definem o uso socialmente prestigiado, norma normativa, prescritiva).\n\nA “norma normativa” busca padronizar o uso em determinados contextos, servindo de parâmetro para certos usos. Em geral, ela é adequada aos usos mais formais, aos contextos em que, por razões de expectativas sociais, os falantes dão mais atenção às formas das suas expressões, monitorando a fala. Cabe, então, distinguir as expressões norma culta e norma-padrão, que, frequentemente, são confundidas.\n\nPara Faraco e Zilles (2017, p. 19),\n\n> Norma culta ‘designa-se tecnicamente o conjunto das características linguísticas do grupo de falantes que se consideram cultos (ou seja, a ‘norma normal’ desse grupo social específico)’. Na sociedade brasileira, esse grupo é tipicamente urbano, tem elevado nível de escolaridade e faz amplo uso dos bens da cultura escrita. A chamada norma culta é uma ‘norma normal’, porque é uma das tantas normas presentes na dinâmica corrente, viva, do funcionamento social da língua. Norma-padrão, por sua vez, é a expressão que designa a ‘norma normativa’, isto é, o conjunto de preceitos estipulados no esforço homogeneizador do uso em determinados contextos. Nesse sentido, a norma-padrão é um modelo idealizado construído para fins específicos; não é, portanto, uma das tantas normas presentes no fluxo espontâneo do funcionamento social da língua, mas um construto que busca controlá-lo.\n\nNesse sentido, como bem explicam os autores, os falantes da norma culta têm diversos estilos de fala correlacionados às diferentes circunstâncias da interação social de que participam, desde as espontâneas até as mais monitoradas. Isso posto, defendemos o ponto de vista dos autores (op. cit. p. 200) quando afirmam que “não se pode tratar diferenças entre variedades de uma língua como erros, usando uma delas, no caso, a norma-padrão, como regra para todas as outras”.\n\nNa escola, é imprescindível o trabalho com o ensino produtivo, garantindo a ampliação do repertório linguístico e dos conhecimentos dos/das estudantes sobre a linguagem e a sociedade em funcionamento, a fim de prepará-los para serem cidadão participativos, responsáveis e críticos, capazes de se expressar de forma adequada e de discernir, na voz dos outros, os sentidos que estão sendo construídos conjuntamente nas interações (FARACO, ZILLES, 2017).",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

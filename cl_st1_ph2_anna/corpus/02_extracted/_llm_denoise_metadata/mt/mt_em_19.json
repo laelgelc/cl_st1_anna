@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08994c984ebe3124006ab304c97ec487d28702a395b0917d2a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1221,
+      "input_tokens_details": {
+        "cache_write_tokens": 1218,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1116,
+      "output_tokens_details": {
+        "reasoning_tokens": 94
+      },
+      "total_tokens": 2337
+    }
+  },
+  "created_at": "2026-09-22T22:44:34Z",
+  "duration_seconds": 8.715,
+  "error": null,
+  "excerpt_id": "mt_em_19",
+  "filename": "mt_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "49df889f86273d5bf1178effc1d71e7a0fab746ba244a5d874c2dea04f67f663",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cb6a5af0322974795e556e38795c56fb6c35874e8705fb427c025c8068846ee2",
+    "rendered_prompt_sha256": "6373140b0a66ddc872c559ae81f6b2787e0fc1d31b74137aa727ee87fc68cf44",
+    "source_text_sha256": "d6acd1b5683f25e0aa7920dc78509ea25f378613e507f4bb4b367c71a14c9e34"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1909,
+    "filename": "mt_em_19.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_19.txt",
+    "state": "mt",
+    "word_count_original": 726
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_19.json"
+  },
+  "raw_response_text": "### 4.3.2 Protagonismo Juvenil Indígena\n\nO Protagonismo Juvenil nas Escolas Indígenas deve estar alicerçado nas formas tradicionais da organização social e cosmológica do povo aos quais os estudantes pertencem. Desse modo, a participação social e política do jovem indígena deve ter foco não apenas no desenvolvimento pessoal, mas também no desenvolvimento das comunidades indígenas onde estão inseridos. O protagonismo juvenil contribui para formação de jovens indígenas conscientes, comprometidos socialmente com valores da cultura tradicional, capazes do exercício pleno da cidadania, solidariedade, generosidade hospitalidade com respeito ao sagrado, a mitologia, a natureza, a religiosidade e aos direitos coletivos indígenas.\n\nEmbasado em todo este contexto, nas práticas do Ensino Médio, a ação pedagógica deve se dar no binômio professor-aluno, onde o professor deve atuar como líder organizador, animador, facilitador, criativo, coautor e participativo do acontecimento. O estudante indígena, enquanto protagonista da ação, deve buscar a procedência dos acontecimentos agindo de maneira efetiva na sua produção. Deve: decidir, produzir, questionar e buscar soluções estimulando seu crescimento pessoal e ativando a cidadania no compromisso do processo interativo de responder pelos seus atos, assumindo a responsabilidade de suas ações. Só assim os jovens indígenas desenvolverão a autonomia solidária ampliando, através do protagonismo, a competência pessoal de (aprender a ser) a competência social de (aprender a conviver) a competência cognitiva de (aprender a aprender).\n\nParticipar de projetos sociais e desenvolver sua preocupação com o crescimento e fortalecimento do dia a dia em sociedade faz parte da essência do protagonismo juvenil indígena. Mas, a atuação como protagonista vai além dos projetos social, cultural, educacional e esportivo. Para que aconteça, os jovens precisam aproveitar seu espaço de fala para repercutir suas vozes em todos os aspectos da vida em comunidade. seja em projetos já estabelecidos ou a partir de ações que impactam positivamente suas vidas e de outras pessoas. A participação política e defesa da democracia é uma questão básica e necessária para garantir que todos os direitos e deveres dos cidadãos sejam respeitados.\n\n### 4.3.3 As Ciências e Saberes Indígenas\n\nNo estado de Mato Grosso o currículo da modalidade Educação Escolar Indígena é composto pela Base Nacional Comum Curricular e uma área de conhecimento denominada de Ciências e Saberes Indígenas. Esta arquitetura curricular visa atender às especificidades das comunidades indígenas, do multilinguismo e da interculturalidade, fortalecendo as práticas culturais e saberes tradicionais, bem como proporciona interação entre a educação cultural e a educação escolar. A escola enquanto espaço de múltiplas aprendizagens tem o papel de desenvolver projetos educativos nas comunidades indígenas que contribuam para a emancipação individual, coletiva e o bem viver das comunidades.\n\nA área Ciências e Saberes Indígenas é composta pelos componentes: Práticas Culturais e Sustentabilidade, Práticas Agroecológicas e Tecnologias Indígenas. No que tange ao conhecimento linguístico indígena, na Base Nacional Comum Curricular a Modalidade Educação Escolar Indígena acrescenta à Área de Linguagens o componente curricular Língua Materna, perfazendo assim o diálogo das línguas indígenas com as variadas formas de letramento.\n\n### 4.3.4 Ciências e Saberes Indígenas no Currículo\n\nA área de Ciências e Saberes Indígenas deverá proporcionar aos estudantes elementos culturais e antropológicos. Esses elementos fundamentam e embasam os componentes curriculares, partindo da premissa da cosmovisão tradicional/milenar e a filosofia de vida do povo indígena e do diálogo intercultural com os saberes acadêmicos.\n\nOs componentes desta área devem estar intrinsecamente ligados aos conhecimentos e uso de práticas culturais na sustentabilidade socioambiental, dentro da cultura do povo e sua relação com o meio em que vive numa perspectiva humana e devem ser trabalhados por meio de abordagens críticas. Dessa forma, os saberes e práticas indígenas devem ancorar o acesso a outros conhecimentos, de modo a valorizar os modos próprios de conhecer, investigar e sistematizar de cada povo indígena, valorizando a oralidade, a cultura, a história, contribuindo para o projeto societário de bem viver de cada comunidade, contemplando ações voltadas à manutenção e preservação de seus territórios e recursos neles existentes.\n\nTrabalhar os saberes indígenas requer um saber histórico e culturalmente produzido, e em constante diálogo com outros saberes de outras épocas e outras culturas, que possam identificar questões relativas aos conhecimentos societários.\n\nSeguem abaixo relacionadas as habilidades e possibilidades de objetos de conhecimento a serem abordados nesta fase da Educação Básica. Os códigos alfanuméricos estão elencados de acordo com cada componente curricular da área de Ciências e Saberes Indígenas. Passemos a olhar e entender os códigos:",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

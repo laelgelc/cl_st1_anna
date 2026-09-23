@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ccc9f7cfef739a2006ab305d3805487d2ae857c989effd083",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 745,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1194,
+      "output_tokens_details": {
+        "reasoning_tokens": 568
+      },
+      "total_tokens": 1939
+    }
+  },
+  "created_at": "2026-09-22T22:49:05Z",
+  "duration_seconds": 14.615,
+  "error": null,
+  "excerpt_id": "pa_em_26",
+  "filename": "pa_em_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2b643ab3fd38a9ef6f4bc9da5c3f1552fc19ebc5572361b15577a282d6bf5eb3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "698ce377872745698ccb37611e52b069ceaeb0c0146bc24b2252051e2e32bb0d",
+    "rendered_prompt_sha256": "491107f5a6daa9e76b9369d95770ab2e560b55f0ff590aa743d75f1f07d61c0f",
+    "source_text_sha256": "9b5859fb22f91260634f43c9c93024b3e7731d4ae40bccd192f52f1edb70031d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2071,
+    "filename": "pa_em_26.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_26.txt",
+    "state": "pa",
+    "word_count_original": 429
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_26.json"
+  },
+  "raw_response_text": "**Quadro 7: Correlação entre as categorias de área de Linguagens e suas tecnologias e o campo de saberes e práticas do ensino de Língua Inglesa**\n\n| Categoria de área | Campo de saberes e práticas do ensino de Língua Inglesa |\n|---|---|\n| Atuação na vida Pública | Nessa categoria propõem-se práticas pedagógicas que desenvolvam no aluno a proatividade e fomentem atitudes de intervenção e transformação no contexto sociolinguístico, político e cultural no qual esteja envolvido. Por exemplo, em Língua Inglesa os professores podem propiciar aos estudantes o reconhecimento do caráter fluido, dinâmico e particular dessa língua, bem como as marcas identitárias e de singularidade de seus usuários, buscando ampliar suas vivências com outras formas de organizar, dizer e valorizar o mundo e de construir identidades. |\n| Vida Pessoal | Nesta categoria, os professores, de modo interdisciplinar e contextualizado, devem propor atividades que expandam os repertórios linguísticos, multissemióticos e culturais dos estudantes, propiciando o desenvolvimento de maior consciência e reflexões críticas das funções e usos do inglês na sociedade atual — possibilitando, por exemplo, problematizar com maior criticidade as razões pelas quais o inglês se tornou uma língua de uso global. |\n| Práticas de estudo e pesquisa | Esta categoria propicia à aprendizagem colaborativa, integra teoria e prática ao levar o aluno à condição de pesquisador e construtor do próprio conhecimento. Para atuar neste campo, os(as) professores(as) podem, a partir de projetos ou práticas curriculares, promover, por exemplo, em Língua Inglesa uma ampliação na abordagem da língua com vistas a oportunizar uma exposição mais real via textos variados e multimeios autênticos e trabalhar com gêneros diversos, que aproximam a sala de aula a práticas reais do uso da língua, de acordo com as necessidades locais. |\n| Cultural-artístico-literário | Nesta categoria os(as) professores(as) podem propor aos alunos atividades que possibilitem uma abordagem intercultural das diferentes línguas-culturas em sua diversidade, isto é, oportunizar aos aprendizes o contato — no sentido do letramento — com diferentes modos de fazer sentido em outras línguas-culturas, por meio de diversos gêneros discursivos, considerando que são produzidos e colocados em circulação por determinadas práticas sociais. |\n| Jornalístico-midiático | Esta categoria requer atenção devido ao excesso de circulação de informação, de textos e discursos nas diversas mídias. Os professores de Língua Inglesa devem potencializar as possibilidades de participação e circulação, que aproximam e entrelaçam diferentes linguagens (verbal, visual, corporal, audiovisual), em um contínuo processo de significação contextualizado, dialógico e ideológico. Desse modo, os alunos serão levados a cooperar e compartilhar informações e conhecimentos, bem como agir e posicionar-se criticamente na sociedade, em âmbito local e global. |\n\nFonte: ProBNCC – etapa ensino médio (2019).",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

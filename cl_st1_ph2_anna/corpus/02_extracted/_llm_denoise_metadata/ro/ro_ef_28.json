@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bcb55ea141be97e006ab30b874f3c87d2922ce8aefa7e44dd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1298,
+      "input_tokens_details": {
+        "cache_write_tokens": 1295,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1442,
+      "output_tokens_details": {
+        "reasoning_tokens": 232
+      },
+      "total_tokens": 2740
+    }
+  },
+  "created_at": "2026-09-22T23:13:20Z",
+  "duration_seconds": 8.939,
+  "error": null,
+  "excerpt_id": "ro_ef_28",
+  "filename": "ro_ef_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cc98f85170ee573d6e0ef718940f8106d19577576af9bec04e3de91d77c31e73",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "93624c5e44fd7e21a8a074c2f665ff5637e07a00e2e1d51399ca2c2c4ea70030",
+    "rendered_prompt_sha256": "ea7889b093762e0799b0adce17bffbc60e1f385d676156eb0165d9ebfb85ca85",
+    "source_text_sha256": "42328cdd5332002d593f368f0da8895c235a5e2cae81e6f5247f376ed68970e7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3126,
+    "filename": "ro_ef_28.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_28.txt",
+    "state": "ro",
+    "word_count_original": 871
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_28.json"
+  },
+  "raw_response_text": "### 7.2.1 Atendimento Educacional Especializado-AEE\n\nConsiste em serviço da Educação Especial, que organiza atividades, recursos pedagógicos e de acessibilidade, de forma complementar ou suplementar à escolarização dos estudantes com deficiência, transtornos globais do desenvolvimento e altas habilidades/superdotação, matriculados nas classes comuns do ensino, devendo a sua oferta constar no projeto pedagógico da escola, em todas as etapas da educação básica. Tem como função identificar, elaborar e organizar recursos pedagógicos e de acessibilidade que eliminem as barreiras para a plena participação dos alunos. As atividades desenvolvidas no AEE diferenciam-se daquelas realizadas na sala de aula comum, não sendo substitutivas à escolarização. Esse atendimento complementa e/ou suplementa a formação dos alunos com vistas à autonomia e independência na escola e fora dela e é realizado prioritariamente nas salas de recursos multifuncionais (SRM) da própria escola ou de outra escola de ensino regular, podendo, ainda, ser realizado em centros de atendimento educacional especializado.\n\nAs Salas de Recursos Multifuncionais são espaços localizados nas escolas de educação básica em que se realiza o AEE, são constituídos por equipamentos, mobiliários, recursos de acessibilidade e materiais didático-pedagógicos. O AEE deve ser realizado por professor com formação em educação especial. São atividades oferecidas no AEE:\n\n- **Ensino do Sistema Braille:** consiste na definição e utilização de métodos e estratégias para que o estudante se aproprie desse sistema tátil de leitura e escrita, serviço destinado ao aluno com deficiência visual;\n- **Ensino do uso do Soroban:** o ensino do uso do soroban, calculadora mecânico manual, consiste na utilização de estratégias que possibilitem ao estudante o desenvolvimento de habilidades mentais e do raciocínio lógico-matemático, serviço destinado ao aluno com deficiência visual;\n- **Estratégias para autonomia no ambiente escolar:** consiste no desenvolvimento de atividades, realizadas ou não com o apoio de recursos de tecnologia assistiva, visando a fruição, pelos estudantes, de todos os bens – sociais, culturais, recreativos, esportivos entre outros – serviços e espaços disponíveis no ambiente escolar com autonomia, independência e segurança;\n- **Orientação e mobilidade:** consiste no ensino de técnicas e desenvolvimento de atividades para a orientação e mobilidade, proporcionando o conhecimento dos diferentes espaços e ambientes a fim de promover o ir e vir com segurança e autonomia. Tais atividades devem considerar as condições físicas, intelectuais e sensoriais de cada estudante, serviço destinado ao aluno com deficiência visual;\n- **Ensino do uso de recursos de tecnologia assistiva:** consiste na identificação das funcionalidades dos diversos recursos de tecnologia assistiva, aplicáveis às atividades pedagógicas, assim como ao ensino de sua usabilidade. São exemplos desses recursos: leitores de tela e sintetizadores de voz, ponteiras de cabeça, teclados alternativos, acionadores, softwares de comunicação alternativa, scanner com voz, sistema de frequência modular, lupas manuais ou digitais, plano inclinado, cadernos de pauta ampliada, caneta de escrita grossa, dentre outros, serviço destinado alunos que apresentam algum tipo de deficiência;\n- **Ensino da Língua Brasileira de Sinais-LIBRAS:** O ensino de Libras consiste no desenvolvimento de estratégias pedagógicas para a aquisição das estruturas gramaticais e dos aspectos linguísticos que caracterizam essa língua, serviço destinado ao aluno com deficiência auditiva;\n- **Ensino da língua Portuguesa Escrita para Alunos Surdos:** Desenvolvimento de atividades e de estratégias de ensino da língua portuguesa, na modalidade escrita, como segunda língua, para alunos usuários de Libras, voltadas à observação e à análise da estrutura da língua, seu sistema linguístico, funcionamento e variações, tanto nos processos de leitura como na produção de textos, serviço destinado ao aluno com deficiência auditiva;\n- **Ensino do uso da comunicação alternativa e aumentativa – CAA:** consistem na promoção de atividades que ampliem as estruturas cognitivas facilitadoras da aprendizagem nos diversos campos do conhecimento para desenvolvimento da autonomia e independência do estudante frente às diferentes situações no contexto escolar. A ampliação dessas estratégias para o desenvolvimento dos processos cognitivos possibilita maior interação entre os estudantes, o que promove a construção coletiva de novos saberes na sala de aula comum;\n- **Estratégias para o desenvolvimento de processo cognitivos:** Consiste na organização de estratégias que visam ao desenvolvimento da autonomia e à independência do aluno diante de diferentes situações no contexto escolar. A ampliação dessas estratégias para o desenvolvimento dos processos mentais possibilita maior interação entre os alunos, o que promove a construção coletiva de novos saberes na sala de aula comum;\n- **Ensino do uso de recursos ópticos e não ópticos:** Ensino das funcionalidades dos recursos ópticos e não ópticos para o desenvolvimento de estratégias para a promoção da acessibilidade nas atividades de leitura e escrita. São exemplos de recursos ópticos: lupas manuais ou de apoio, lupas eletrônicas, lentes específicas bifocais, telescópios, dentre outros, que possibilitam a ampliação de imagens. São exemplos de recursos não ópticos: iluminação, plano inclinado, contraste, ampliação de caracteres, cadernos com pauta ampliada, caneta de escrita grossa, recursos de informática, dentre outros, que favorecem o funcionamento visual;\n- **Estratégias para enriquecimento curricular:** consiste na organização de práticas pedagógicas exploratórias suplementares ao currículo comum, que objetivam o aprofundamento e expansão nas diversas áreas do conhecimento. Tais estratégias podem ser efetivadas por meio do desenvolvimento de habilidades, da articulação dos serviços realizados na escola, na comunidade, nas instituições de educação superior, da prática da pesquisa e desenvolvimento de produtos; da proposição e do desenvolvimento de projetos no âmbito da escola, com temáticas diversificadas, como artes, esporte, ciências e outras.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

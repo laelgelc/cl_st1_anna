@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00b26773dd2928bf006ab300e4423087d2acc9ffa5e5303403",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 510,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 456,
+      "output_tokens_details": {
+        "reasoning_tokens": 50
+      },
+      "total_tokens": 966
+    }
+  },
+  "created_at": "2026-09-22T22:27:53Z",
+  "duration_seconds": 5.369,
+  "error": null,
+  "excerpt_id": "go_ef_13",
+  "filename": "go_ef_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "44eb0f4be90dbce5a4c6c6921ee93bd057a63d652be6aa8102af923419e3147f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d0fd4a7cb3b8b0f2f422a1bb5189f04a7694f0441c357ba3545dc2891b4a2920",
+    "rendered_prompt_sha256": "d8f6d65d2a2092a92ffbc185119247b6db4916cd185641859a8eb5fa9d8b9952",
+    "source_text_sha256": "e61418757c9a0d689786c28eece9bad7f04592fafd1cbb71ab050982637ed786"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_ef_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1087,
+    "filename": "go_ef_13.txt",
+    "filepath": "corpus/00_source_per_state/go/go_ef_13.txt",
+    "state": "go",
+    "word_count_original": 269
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_ef_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_ef_13.json"
+  },
+  "raw_response_text": "### QUADRO 13 - COMPETÊNCIAS ESPECÍFICAS DE LINGUAGENS PARA O ENSINO FUNDAMENTAL\n\n1. Compreender as linguagens como construção humana, histórica, social e cultural, de natureza dinâmica, reconhecendo-as e valorizando-as como formas de significação da realidade e expressão de subjetividades e identidades sociais e culturais.\n2. Conhecer e explorar diversas práticas de linguagem (artísticas, corporais e linguísticas) em diferentes campos da atividade humana para continuar aprendendo, ampliar suas possibilidades de participação na vida social e colaborar para a construção de uma sociedade mais justa, democrática e inclusiva.\n3. Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e digital –, para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao diálogo, à resolução de conflitos e à cooperação.\n4. Utilizar diferentes linguagens para defender pontos de vista que respeitem o outro e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, atuando criticamente frente a questões do mundo contemporâneo.\n5. Desenvolver o senso estético para reconhecer, fruir e respeitar as diversas manifestações artísticas e culturais, das locais às mundiais, inclusive aquelas pertencentes ao patrimônio cultural da humanidade, bem como participar de práticas diversificadas, individuais e coletivas, da produção artístico-cultural, com respeito à diversidade de saberes, identidades e culturas.\n6. Compreender e utilizar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares), para se comunicar por meio das diferentes linguagens e mídias, produzir conhecimentos, resolver problemas e desenvolver projetos autorais e coletivos.\n\nFonte: BNCC, 2017, p.63.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

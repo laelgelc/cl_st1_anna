@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c77b6e6ad413c92006ab30295f54487d282eb391e49272e83",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 960,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 923,
+      "output_tokens_details": {
+        "reasoning_tokens": 111
+      },
+      "total_tokens": 1883
+    }
+  },
+  "created_at": "2026-09-22T22:35:09Z",
+  "duration_seconds": 7.399,
+  "error": null,
+  "excerpt_id": "mg_ef_er_5",
+  "filename": "mg_ef_er_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2b6490c07d692d751d26229a6e68738672f7985185042f96500fa290714256c6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c04a419f94f0052b73f727de449893a87ed5a141202182576e375e56c44671a8",
+    "rendered_prompt_sha256": "f3d277297d1a6f8619a676b2c9963614fa635dc17c36f30e5f13fb23dbd600e5",
+    "source_text_sha256": "33e8d85f5ae26395ab80ffd6c8f496374fd22368cd3f1ec0afd2440857160c82"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_er_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1416,
+    "filename": "mg_ef_er_5.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_er_5.txt",
+    "state": "mg",
+    "word_count_original": 553
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_er_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_er_5.json"
+  },
+  "raw_response_text": "Na unidade temática Crenças religiosas e filosofias de vida são tratados aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida. Os mitos são outro elemento estruturante das tradições religiosas. Eles representam a tentativa de explicar como e por que a vida, a natureza e o cosmos foram criados. Apresentam histórias dos deuses ou heróis divinos, relatando, por meio de uma linguagem rica em simbolismo, acontecimentos nos quais as divindades agem ou se manifestam.\n\nO mito é um texto ou narrativa que estabelece uma relação entre imanência (existência concreta) e transcendência (o caráter simbólico dos eventos). Ao relatar um acontecimento, o mito situa-se em um determinado tempo e lugar e, frequentemente, apresenta-se como uma história verdadeira para os sujeitos envolvidos, repleta de elementos imaginários.\n\nNo enredo mítico, a criação é uma obra de divindades, seres, entes ou energias que transcendem a materialidade do mundo. São representados de diversas maneiras, sob distintos nomes, formas, faces e sentidos, segundo cada grupo social, cultural ou tradição religiosa.\n\nO mito, o rito, o símbolo e as divindades alicerçam as crenças, entendidas como um conjunto de ideias, conceitos e representações estruturantes de determinada tradição religiosa. As crenças fornecem respostas teológicas aos enigmas da vida e da morte, que se manifestam nas práticas rituais e sociais sob a forma de orientações, leis e costumes.\n\nEsse conjunto de elementos originam narrativas culturais e religiosas que, de modo mais ou menos organizado, são preservadas e passadas de geração em geração pela oralidade. Desse modo, ao longo do tempo, cosmovisões, crenças, espiritualidades, ideias de divindade, histórias, narrativas e mitos sagrados constituíram tradições específicas, inicialmente orais. Em algumas culturas, o conteúdo dessa tradição foi registrado sob a forma de textos escritos.\n\nNo processo de sistematização e transmissão dos textos referenciais ou sagrados, para grupos, tradições ou movimentos religiosos, sejam eles orais ou escritos, certos grupos sociais acabaram por definir um conjunto de princípios que configuraram doutrinas religiosas ou valorativas. Estas reúnem afirmações, dogmas e verdades que procuram atribuir sentidos e finalidades à existência, bem como orientar as formas de relacionamento comunitário, com a(s) divindade(s) e com a natureza.\n\nAs doutrinas constituem a base do sistema religioso, sendo transmitidas e ensinadas aos seus adeptos de maneira sistemática, com o intuito de assegurar uma compreensão mais ou menos unitária e homogênea de seus conteúdos.\n\nNo conjunto das crenças e doutrinas religiosas encontram-se ideias de imortalidade (ancestralidade, reencarnação, ressurreição, transmigração, entre outras), que são norteadoras do sentido da vida dos seus seguidores. Essas informações oferecem aos sujeitos referenciais tanto para a vida terrena quanto para o pós-morte, cuja finalidade é direcionar condutas individuais e sociais, por meio de códigos éticos e morais. Tais códigos, em geral, definem o que é certo ou errado, permitido ou proibido. Esses princípios éticos e morais atuam como balizadores de comportamento, tanto nos ritos como na vida social.\n\nTambém as filosofias de vida se ancoram em princípios cujas fontes não advêm do universo religioso. Pessoas sem religião adotam princípios éticos e morais cuja origem decorre de fundamentos racionais, filosóficos, científicos, entre outros. Esses princípios, geralmente, coincidem com o conjunto de valores seculares de mundo e de bem, tais como: o respeito à vida e à dignidade humana, o tratamento igualitário das pessoas, a liberdade de consciência, crença e convicções, e os direitos individuais e coletivos.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

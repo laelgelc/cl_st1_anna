@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f895db56699e6a7006ab2fb9f115087d29805d70820784a7e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 854,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1049,
+      "output_tokens_details": {
+        "reasoning_tokens": 291
+      },
+      "total_tokens": 1903
+    }
+  },
+  "created_at": "2026-09-22T22:05:26Z",
+  "duration_seconds": 7.59,
+  "error": null,
+  "excerpt_id": "ac_ef_28",
+  "filename": "ac_ef_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8167b74f48c2622ac85703dfdd35120ee93cfb09a40fa1b652551c967aff6699",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "28998f9ff34b48031bccd4fa40619e7f5b16e245dcbb45e8ffa71072cf8cb651",
+    "rendered_prompt_sha256": "0e31dcf73d41a58df6f55afc390b252a5e06c41dcd30599516ed258aef7bfc43",
+    "source_text_sha256": "40438a67b74c87a443fe83f4c3d413011fa53b99c9acb56e42a2d657ab12bb7b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 21,
+    "filename": "ac_ef_28.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_28.txt",
+    "state": "ac",
+    "word_count_original": 563
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_28.json"
+  },
+  "raw_response_text": "## 2. CONCEITOS-CHAVE E ABORDAGEM METODOLÓGICA\n\nA História é um campo de pesquisa e produção de saber em permanente mudança que influencia o ensino de história e, por sua vez, a prática pedagógica dos professores em sala de aula, favorecendo o desenvolvimento de metodologias que articulam prática e teoria e que possibilitam aos alunos elementos que desenvolvam capacidades de identificação, comparação, contextualização, interpretação, análise e outras; uma metodologia construída a partir das experiências e realidades mais próximas dos alunos. Para que dessa forma, possamos transformar a história em ferramenta a serviço de um discernimento maior sobre as experiências humanas e das sociedades em que se vive.\n\nNo trabalho com o ensino de História é importante construir formas de ensinar e aprender que procurem desenvolver a produção do conhecimento vinculando o ensino e a pesquisa, oportunizando aos sujeitos do processo, isto é, ao professor e ao aluno, uma postura que leve sempre ao questionamento, à coleta de dados, bem como à permanente reflexão. Como afirma Cunha (2001):\n\n> “Unir ensino e pesquisa significa caminhar para que a educação seja integrada, envolvendo estudantes e professores numa criação do conhecimento comumente partilhado. A pesquisa deve ser usada para colocar o sujeito dos fatos, para que a realidade seja apreendida e não somente reproduzida” (CUNHA, 2001, p. 32).\n\nAo se trabalhar com a pesquisa escolar, alguns procedimentos devem ser ensinados como, por exemplo, localizar e ler informações em diferentes fontes — livros, revistas, jornais —, estabelecer relações entre elas e compará-las, familiarizar-se e desenvolver domínios linguísticos. A pesquisa escolar deve ser graduada de acordo com a idade dos alunos e à sua realidade, deve ser uma atividade que desperte interesse e curiosidade dos alunos, incentivando-os a aprofundar o conhecimento, garantindo-lhes participação ativa, autonomia e construção. Para isso o professor deverá assumir, no processo, o papel do orientador, direcionando os passos da pesquisa, como levantamentos de questões, coleta de fontes (com indicações dos locais onde elas possam ser encontradas), objetivos a serem alcançados, instrumentos de análise das fontes de redação ou de exposição oral, além da avaliação.\n\nUm outro aspecto relevante é que, do confronto entre a produção existente e o que está sendo construído pelo aluno, resulta a problematização. “A problematização deve ser trabalhada e entendida pelo professor como a ultrapassagem do senso comum, da aparente uniformidade e permanência que o cotidiano apresenta, para a pluralidade das práticas sociais, das inúmeras tensões que constituem o presente, bem como a recuperação da historicidade dessas práticas”. Daí a importância que o professor se acostume a trabalhar problematizando os conteúdos porque cria condições para o aluno pensar sobre eles, argumentar e fundamentar suas opiniões. A problematização sempre exige que o aluno pesquise, levante hipóteses, classifique-as e passe por um processo de desaprovação ou rejeição com argumentos da hipótese escolhida.\n\nAinda nos estudos dos conteúdos históricos escolares destacam-se algumas categorias conceituais importantes comuns a todas as etapas e modalidades de ensino, consideradas fundamentais nos estudos e na construção do conhecimento histórico: sujeito histórico, tempo histórico e fato histórico. E depreendem-se importantes conceitos como: contexto histórico, cultura e sociedade e outros, e ao mesmo tempo, enfatiza-se a compreensão de que conteúdos escolares abarcam diferentes tipologias, como por exemplo: as informações, os conceitos, os procedimentos e atitudes que serão organizados a partir de capacidades (objetivos), considerando o nível cognitivo em que a criança se encontra.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

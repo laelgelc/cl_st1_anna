@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0488e10c32076842006ab2fbf0cf4087d28ac467e28ec51ef4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 829,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 815,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 1644
+    }
+  },
+  "created_at": "2026-09-22T22:06:46Z",
+  "duration_seconds": 6.161,
+  "error": null,
+  "excerpt_id": "ac_em_53",
+  "filename": "ac_em_53.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fc1d20b6a9e61451d084deec37008e2f0ea0b0e80b3f03f18b660c13836a382c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f8f3beeb15593169c9a196cc9e8e3bbc6c11baa1cd8bae734fad1d4ddb8e9dc4",
+    "rendered_prompt_sha256": "1d1b30d8b8319d13a0500591cd9fa65e80dcfcf20f417c0b7109ee24ba45aad2",
+    "source_text_sha256": "88e4baf7893cc690d6c5c6372710b9244c0a6706ea3efe6c7c6e4afaecb33660"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_53.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 95,
+    "filename": "ac_em_53.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_53.txt",
+    "state": "ac",
+    "word_count_original": 487
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_53.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_53.json"
+  },
+  "raw_response_text": "## Geografia\n\nCompreendida como um dos componentes curriculares da área de Ciências Humanas e Sociais Aplicadas, a importância da Geografia dentro da nova estrutura do Ensino Médio, agora organizado por área de conhecimento, é fundamental, pois tem como função propiciar ao estudante a visão macro do mundo em seus aspectos físicos, humanos, suas transformações, correlações e interferências, sob uma perspectiva de ações de forma global, regional e local. Nesse sentido, o componente curricular de Geografia, no Ensino Médio, oportuniza ao estudante a compreensão e as transformações processadas no espaço geográfico, exercendo, assim, um protagonismo inovador nas diversas dimensões, sejam elas geopolíticas, culturais, econômicas e socioambientais, empreendidas no mundo contemporâneo.\n\nCompreender a Geografia é pensar nas relações estabelecidas entre a humanidade, seus saberes e a natureza. Assim, estudá-la não é pensar o rio sem a relação dialógica com o ribeirinho, assim como também não é pensar nas sociedades globais sem o conhecimento da comunidade local, pois o estudo da geografia leva a uma análise da utilização do conhecimento, contribuindo para a formação integral do estudante.\n\nNo novo currículo do Ensino Médio, o componente curricular Geografia apresenta a sua relação de forma integradora com o mundo, a vida, o cotidiano e a experiência de vida dos estudantes. Conforme Corrêa (2011, p. 16),\n\n> “como ciência social, a geografia tem como objeto de estudo a sociedade que, no entanto, é objetivada via cinco conceitos chave que guardam entre si forte grau de parentesco, pois todos se referem à ação humana modelando a superfície terrestre: paisagem, região, espaço, lugar e território”.\n\nNesse sentido, é importante a contextualização dos objetos de conhecimento entre teoria e prática, para que haja o desenvolvimento de habilidades geográficas. Dentro desse processo, o professor tem o papel relevante de articulador para alinhar os objetos de conhecimento, de modo que possibilite aos estudantes aprendizagens mais significativas e, assim, eles possam adquirir habilidades e competências que os despertem para a conquista do seu próprio espaço e também tenham a consciência da sociedade como um todo.\n\nNa proposta curricular para o Ensino Médio, objetiva-se as aprendizagens essenciais ligadas à área de conhecimento de Ciências Humanas e Sociais Aplicadas, aliando-se a uma ideia de educação humanista e emancipatória, trazida pelas dez competências gerais da BNCC, pelas seis competências específicas da área e ainda pelas habilidades a serem alcançadas, oferecendo ao estudante mecanismos para a construção de uma visão de mundo mais ampla, complexa e contextualizada.\n\nO componente curricular de Geografia para esta etapa do ensino requer do estudante conhecimentos fundamentais e estruturantes, adquiridos em etapas anteriores. As propostas de atividades, baseadas em metodologias ativas, são exequíveis e buscam ampliar a compreensão das relações de interdependência e transformação do espaço entre homem e natureza, permitindo analisar de forma macro uma determinada situação ou fenômeno dentro das concepções humanas e características naturais, quando a antiga lógica de raciocínio é invertida para que o estudante seja o protagonista na busca e produção de conhecimento.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

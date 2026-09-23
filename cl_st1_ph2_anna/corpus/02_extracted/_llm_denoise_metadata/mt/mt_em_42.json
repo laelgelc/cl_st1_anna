@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a3f7a98b69c50a1006ab304ee6ef087d289bb503cf177d2d6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1998,
+      "input_tokens_details": {
+        "cache_write_tokens": 1995,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2331,
+      "output_tokens_details": {
+        "reasoning_tokens": 542
+      },
+      "total_tokens": 4329
+    }
+  },
+  "created_at": "2026-09-22T22:45:19Z",
+  "duration_seconds": 17.452,
+  "error": null,
+  "excerpt_id": "mt_em_42",
+  "filename": "mt_em_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e8bf1d6bf1e72deb94de616ed72baaaf5be527aa5823673d8e3f79f3472be0e7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "39de6347c198f42d7d35e01ba7f59598376cf845cd64cde94a450ff64ca640ed",
+    "rendered_prompt_sha256": "565dcfd3baf92c0222eb3c7794c3f9bad0e7ebb249a6d2cf25a58ff614087522",
+    "source_text_sha256": "e4469743fea2c6019aff1ac9d27d1856a447c1b79da914878373bfcedb41ce7f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1935,
+    "filename": "mt_em_42.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_42.txt",
+    "state": "mt",
+    "word_count_original": 1241
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_42.json"
+  },
+  "raw_response_text": "# 8. Área de Linguagens e suas Tecnologias\n\n## 8.1 Apresentação\n\nHistoricamente, a Linguagem se transforma conforme a evolução do ser humano e, consequentemente, suas necessidades e possibilidades de interação. É ela que permite a construção de conhecimento e a ressignificação da comunicação nas práticas sociais. As formas de se expressar são os objetos de estudo da Área de Linguagens. Símbolos, gestos, palavras, corpos, entre outras formas de representação, são textos que permitem a interação entre os seres humanos e constituem os componentes da Área.\n\nAs Orientações Curriculares do Estado do Mato Grosso da Área de Linguagens já afirmavam que:\n\n> Utilizar a linguagem é, portanto, interagir a partir de textos, intertextos e hipertextos produzidos por códigos, pois as linguagens se concretizam nesses produtos de manifestação significativa e articulada de uma história social e cultural, únicos em cada contexto (MATO GROSSO, 2012, p. 12).\n\nNessa perspectiva, se estabelece que o texto assume papel de objeto de significação, leitura, interação, apreciação, expressão e fruição dos diversos elementos linguísticos, pictóricos, corporais, tecnológicos, sonoros, plásticos, gestuais e cênicos, e não está restrito à língua escrita ou falada.\n\nO modelo flexível e diversificado de currículo para o Ensino Médio previsto na Lei nº 13.415/2017, que fundamenta o Documento de Referência Curricular do Estado de Mato Grosso para Área de Linguagens e suas Tecnologias, deve propiciar ao estudante a aprendizagem de seus componentes de modo concomitante ao desenvolvimento de competências socioemocionais para tornar significativa a “consolidação e a ampliação das habilidades de uso e de reflexão sobre as linguagens” (BRASIL, 2018, p. 482).\n\nA articulação dos componentes da Área nos Campos de Atuação: da vida pessoal, das práticas de estudo e pesquisa, do campo jornalístico-midiático, da atuação na vida pública e no artístico é o que viabiliza “[...] romper barreiras disciplinares e vislumbrar outras formas de organização curricular (como laboratórios de comunicação e de mídias, clubes de leitura e de teatro, núcleos de criação artística e literária, oficinas culturais e desportivas etc.)” (BRASIL, 2018, p. 489).\n\nA Área de Linguagens e suas Tecnologias está organizada em campos de atuação[^25] e tem as práticas sociais de linguagem como seus principais eixos, o que possibilita a relação dialética entre as variadas formas de manifestações do texto e suas ilimitadas imbricações e a inter-relação dos componentes curriculares da Área: Arte, Educação Física, Língua Inglesa, Língua Espanhola e Língua Portuguesa (BRASIL, 2018).\n\n## 8.2 Diagnóstico\n\nA proposta curricular construída para o Ensino Médio no Estado de Mato Grosso considera as proposições da política nacional de educação fundamentadas na BNCC, bem como os resultados da aprendizagem alcançados com a atual política. Os últimos dados do Pnad-C – Pesquisa Nacional por Amostra de Domicílio, de 2012 a 2018[^26], apontam que Mato Grosso apresenta taxa de conclusão acima de 65% e não figura entre os oito Estados da Federação em que essa taxa atinge 80%.\n\nUm aspecto relevante com relação à utilização de dados diagnósticos que deve ser considerado na construção deste currículo é quanto à utilização das análises do SAEB para a contextualização da aprendizagem da área, considerando que apenas o componente da Língua Portuguesa foi até então verificado.\n\nO componente Língua Portuguesa tem sua própria forma de fazer diagnóstico da aprendizagem na etapa Ensino Médio no Mato Grosso, por meio do AVALIA MT, programa de avaliação implementado em 2017 na rede estadual, que constrói um diagnóstico de todas as unidades de ensino (MONITORAMENTO), apresentando a proficiência dos estudantes, o desempenho dos profissionais e gestores, como forma de subsidiar a definição de políticas públicas com vistas à melhoria da educação. Esse monitoramento é contínuo e se realiza nos moldes propostos pelo SAEB.\n\nPráticas de linguagem essenciais para o desenvolvimento do jovem para o enfrentamento do mundo contemporâneo, a leitura e a escrita oportunizadas no Ensino Médio têm apresentado níveis insatisfatórios, considerando os resultados de avaliações que medem essas práticas.\n\nCom relação à leitura, os dados do Programa Internacional de Avaliação do Estudante[^27] (PISA), realizado pela Organização para Cooperação do Desenvolvimento Econômico (OCDE), que avalia estudantes de 15 e 16 anos em Ciências, Leitura e Matemática, mostram o Brasil na 59ª posição em leitura, atingindo a média de 407 pontos dos 493 da média alcançada pelos 70 países avaliados.[^28]\n\nOs resultados da prova objetiva de Linguagens do Exame Nacional do Ensino Médio dos anos 2016, 2017 e 2018 mostram que os estudantes do Mato Grosso, na sua maioria, alcançam médias abaixo do esperado para as competências avaliadas.\n\nA baixa proficiência em leitura indicada nos percentuais do PISA, reforçada também no desempenho geral na prova objetiva de Linguagem do Enem, pode ser observada ainda na proficiência da escrita dos resultados na redação do Enem para os estudantes do Estado de Mato Grosso que, no período 2013 e 2014, alcançaram as médias de 484,96 e 452,32, respectivamente, abaixo da média nacional. Em 2015, houve um avanço nessa média e o Estado chegou a 528,0 pontos, ainda abaixo da nacional, que foi de 543,00.\n\nNos anos seguintes, os índices voltaram a apresentar declínio, mantendo as médias abaixo do desejado para os concluintes do Ensino Médio, conforme demonstram os percentuais do gráfico 2, que resumem as médias da prova escrita do Enem no período de 2016 a 2018.\n\nO retrato da aprendizagem das práticas de leitura e escrita proporcionado no Ensino Médio não deve ser, contudo, compreendido apenas no limite dos números divulgados pelos órgãos e institutos que avaliam de modo pontual e a partir de uma matriz que não avalia todos os aspectos que compreendem a aprendizagem. Segundo Freitas, essa avaliação formal não pode se sobrepor a muitos outros aspectos que influenciam esses resultados, por exemplo, o cotidiano da escola e seu funcionamento, contexto no qual inúmeras situações contribuem para o atual desempenho escolar, que se somam à falta de infraestrutura, à falta de envolvimento dos pais no processo de aprendizagem, à busca pela formação continuada dos profissionais envolvidos nesse processo, aspectos que ele denomina de avaliação informal.[^29]\n\nOs professores da Área de Linguagem, com vistas a melhor instrumentalizar os estudantes com relação às práticas de linguagem, precisam compreender e aprimorar o processo de ensino e aprendizagem, em consonância com as diretrizes pedagógicas orientadas pela BNCC para a formação de um cidadão crítico e consciente.\n\n[^25]: “[...] a organização das práticas de linguagem (leitura de textos, produção de textos, oralidade e análise linguística/semiótica) por campos de atuação aponta para a importância da contextualização do conhecimento escolar, para a ideia de que essas práticas derivam de situações da vida social e, ao mesmo tempo, precisam ser situadas em contextos significativos para os estudantes” (BRASIL, 2017, p. 84).\n\n[^26]: https://biblioteca.ibge.gov.br/index.php/biblioteca-ccatalogo?view=detalhes&id=2101657. Acesso em: 06/03/2020.\n\n[^27]: Índice alcançado em avaliação internacional realizada pela Organização para Desenvolvimento Econômico – OCDE, entidade formada por governos de 30 países e que têm como princípios a democracia e a economia de mercado, que mede o nível educacional de jovens de 15 anos por meio de provas de Leitura, Matemática e Ciências. O Brasil não é membro OCDE, mas foi convidado para participar do PISA pela terceira vez consecutiva. O objetivo principal do Pisa é produzir indicadores que contribuam, dentro e fora dos países participantes, para a discussão da qualidade da educação básica e que possam subsidiar políticas nacionais de melhoria da educação.\n\n[^28]: http://portal.mec.gov.br/busca-geral/211-noticias/218175739/42741-resultado-do-pisa-de-2015-e-tragedia-para-o-futuro-dos-jovens-brasileiros-afirma-ministro\n\n[^29]: Freitas.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

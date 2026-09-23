@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06770628d241eda6006ab30066374c87d2b205d592efce7473",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 799,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 908,
+      "output_tokens_details": {
+        "reasoning_tokens": 274
+      },
+      "total_tokens": 1707
+    }
+  },
+  "created_at": "2026-09-22T22:25:49Z",
+  "duration_seconds": 6.973,
+  "error": null,
+  "excerpt_id": "df_inf_20",
+  "filename": "df_inf_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c12c1cc39c4d4c8538493a7d0c8eb998c447ae55b949d5eb068a9cc085de92c3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c51bd215259dcab5f693982beb59a4304ca5716677529375a6f7ba052349c42f",
+    "rendered_prompt_sha256": "49930211ee2c1d2329b5fe7b4a9b100d1dd0de309311ee335585fcc810aee2df",
+    "source_text_sha256": "2e9879a76a8aeb90e25ca39d084bb9babf7a1fb870892f5a20afed624f4e0d9b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_inf_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 964,
+    "filename": "df_inf_20.txt",
+    "filepath": "corpus/00_source_per_state/df/df_inf_20.txt",
+    "state": "df",
+    "word_count_original": 482
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_inf_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_inf_20.json"
+  },
+  "raw_response_text": "# 15. EDUCAÇÃO INFANTIL: 1º Ciclo da Educação Básica\n\nOs princípios orientadores de um currículo que se propõe a ser integrado – unicidade teoria-prática, interdisciplinaridade, contextualização e flexibilização – apresentam grandes possibilidades de serem incorporados ao dia a dia das instituições que ofertam Educação Infantil, favorecendo uma organização temporal que respeite o ciclo de aprendizagens dos bebês, das crianças bem pequenas e das crianças pequenas.\n\nA possibilidade de se (re)organizar em ciclos, de adotar o currículo integrado e de assumir modificações faz a instituição que oferta Educação Infantil se movimentar, porque tais elementos propõem alternativas de mudança, de início de novo momento de inquietação e de questionamentos no que diz respeito ao planejamento pedagógico, à avaliação, à didática aplicada e ao processo de desenvolvimento das aprendizagens.\n\nA reorganização dos tempos e dos espaços exige mobilização de todo o corpo docente no sentido de encontrar soluções, discutir estratégias e tomar decisões quanto ao planejamento e avaliação das ações pedagógicas. A responsabilidade da elaboração desse projeto educativo cabe, ao mesmo tempo, a todos profissionais da educação e a cada um em particular, uma vez que todas as decisões são o resultado das discussões do coletivo. Mais que uma instituição que oferta Educação Infantil organizada em ciclos, esta é uma instituição educativa que se reinventa, ao buscar mudar e inovar, de modo a garantir a constituição da aprendizagem e do desenvolvimento em todas as etapas e modalidades da Educação Básica.\n\nIsso posto, o Currículo em Movimento do Distrito Federal para a Educação Infantil já propõe que as instituições de educação coletiva para a primeira infância reflitam sobre novas possibilidades de organização curricular a partir de faixas etárias ampliadas, considerando que as interações e brincadeiras são seus eixos fundamentais para o desenvolvimento das crianças, sendo:\n\n- Bebês: 0 a 1 ano e 6 meses;\n- Crianças bem pequenas: 1 ano e 7 meses a 3 anos e 11 meses;\n- Crianças pequenas: 4 anos a 5 anos e 11 meses.\n\nConvém salientar que a organização em ciclos apresenta uma ideia de progressão das aprendizagens e desenvolvimento das crianças que ocorre por meio das ações pedagógicas entre crianças da mesma idade e de idades diferentes e entre adultos. Vale destacar que, nesse modelo de organização escolar, é preciso considerar a unidade existente no contexto educativo.\n\nConforme já mencionado, as crianças são organizadas considerando as especificidades da periodização da infância, porém, como o Currículo tem por base a Psicologia Histórico-Cultural, essa organização não é rígida, permitindo a fluidez. No capítulo a seguir, que trata dos Campos de Experiência, serão apresentados objetivos de aprendizagem e desenvolvimento, sendo eles distribuídos entre os bebês, as crianças bem pequenas e as crianças pequenas. Na organização curricular proposta, entre as colunas, há linhas pontilhadas, para demonstrar a existência da fluidez, pois, além das peculiaridades de cada período da infância, existem as possibilidades de influências do contexto social e cultural.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

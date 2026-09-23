@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09a3b72d9adb172c006ab2fe0111e887d2bca071dbc02d2843",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 422,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 460,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 882
+    }
+  },
+  "created_at": "2026-09-22T22:15:33Z",
+  "duration_seconds": 4.15,
+  "error": null,
+  "excerpt_id": "ap_em_17",
+  "filename": "ap_em_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5959a8c047379b6dd4bb590566b4816297080921d01f346d57c05b3bea550240",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "50054fda1cae4b6825bf9e508531fb8f45e2a85538d3ecdf5b46773a56a70207",
+    "rendered_prompt_sha256": "ddaa05fc4eba7757cbc60a2d3c544cb85348237f592f1dec676f0760c01c5d5a",
+    "source_text_sha256": "a03bbf862b1e6dafdb7223819b806e763b38c7ce3893fcb6624e50ecae851ce1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 510,
+    "filename": "ap_em_17.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_17.txt",
+    "state": "ap",
+    "word_count_original": 245
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_17.json"
+  },
+  "raw_response_text": "# A TRANSIÇÃO DOS ANOS FINAIS DO ENSINO FUNDAMENTAL PARA O ENSINO MÉDIO\n\nA Base Nacional Comum Curricular adotou as dez competências gerais como o fio condutor que garante os direitos de aprendizagem dos alunos por toda a Educação Básica. A articulação para a transição dos anos finais do Ensino Fundamental para o Ensino Médio se efetiva pelo desenvolvimento de aprendizagens dessas competências que se desdobram em habilidades de forma contextualizada na utilização de conteúdos relevantes e adequados às especificidades de cada fase de desenvolvimento dos estudantes.\n\nNa área de linguagens, a progressão do ensino fundamental centrada no conhecimento, na compreensão, na exploração e na utilização das diferentes linguagens é ampliada no ensino médio com a participação do estudante como protagonista na construção do conhecimento, agora como autor das práticas de linguagens em seus diferentes usos na sociedade de forma crítica e criativa.\n\nPara a construção da Base Nacional Comum Curricular, adotou-se como conceito de competência a mobilização de conhecimentos e habilidades, atitudes e valores para desenvolver demandas da vida cotidiana e do mundo do trabalho.\n\nJá as habilidades, dizem respeito às aprendizagens essenciais esperadas para cada disciplina e ano. O texto base apresenta o processo cognitivo que se pretende atingir iniciando sempre por um verbo.\n\nAs habilidades, responsáveis pelo desenvolvimento das competências específicas, aparecem relacionadas a determinados objetos de conhecimento, referentes aos conteúdos, conceitos e processos organizados em diferentes unidades temáticas o que possibilita o trabalho multidisciplinar.\n\n# O TRABALHO ARTICULADO ENTRE OS COMPONENTES:",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

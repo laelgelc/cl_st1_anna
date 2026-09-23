@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03bfa06f503bb477006ab30df1561887d2a56080c4c16c3ba1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1125,
+      "input_tokens_details": {
+        "cache_write_tokens": 1122,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1121,
+      "output_tokens_details": {
+        "reasoning_tokens": 145
+      },
+      "total_tokens": 2246
+    }
+  },
+  "created_at": "2026-09-22T23:23:36Z",
+  "duration_seconds": 7.301,
+  "error": null,
+  "excerpt_id": "rs_em_9",
+  "filename": "rs_em_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "14329a1f793772c4932817298914aa02f865e5adb2075e6476b74ebd466d96dc",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "89f497e321e1c3e17426ca65c65d666960249a57019ad80c99bd8c29dc444185",
+    "rendered_prompt_sha256": "9b9d039ae789ca539d4afde277e2f84558ae46d8064d034a9a47502e3fc6f645",
+    "source_text_sha256": "eea8ad7810be129fb0a0cafda837467eda347a8651b0d1a31db753c9508aca74"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3638,
+    "filename": "rs_em_9.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_9.txt",
+    "state": "rs",
+    "word_count_original": 676
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_9.json"
+  },
+  "raw_response_text": "## 1.7 MODALIDADES DO ENSINO MÉDIO NO RS\n\n### 1.7.1 Educação do Campo\n\nO conceito de campo como espaço de vida é multidimensional, pois possibilita leituras e políticas mais amplas do que o conceito de campo ou de rural somente como espaço de produção de mercadorias (FERNANDES, 2020).\n\nA Lei de Diretrizes e Bases da Educação Nacional, no artigo 28, estabelece que, na oferta de Educação Básica para a população rural, os sistemas de ensino deverão adequar-se às peculiaridades da vida rural e de cada região, no que tange aos objetos do conhecimento previstos nas organizações curriculares, assim como deverão adequar-se às metodologias apropriadas aos interesses e às reais necessidades dos estudantes.\n\nAs escolas do campo têm a finalidade de pensar o processo de educação para o campo como espaço de vida, de cultura, de saber e de formação de identidades, gestado desde o ponto dos sujeitos do campo e da trajetória de lutas de suas organizações. É o campo dialogando com sua realidade para qualificar a vida do sujeito camponês. Nesse sentido, é importante que a proposta pedagógica da escola dialogue com sua realidade, do sujeito que está naquele lugar e pensa a vida a partir daquele lugar.\n\nPara se conceber uma educação a partir do campo e para o campo, é preciso desconstruir paradigmas, preconceitos e injustiças historicamente construídas e estabelecidas pelo senso comum, a fim de reverter as desigualdades educacionais entre campo e cidade. A identidade da escola do campo é definida pela sua vinculação às questões inerentes à sua realidade, ancorando-se na temporalidade, nos saberes próprios dos estudantes, na memória coletiva que sinaliza futuros, na rede de ciência e tecnologia disponível às sociedades e aos movimentos sociais - em defesa de projetos que associam as soluções exigidas por essas questões à qualidade de vida em sociedade.\n\nExiste uma política educacional desenvolvida pelo Ministério da Educação do Brasil (BRASIL, 2007a), que tem como princípio uma educação rica voltada à realidade do estudante campesino, com um Projeto Político Pedagógico flexível, que contemple as particularidades de sua comunidade, que resgate seus valores culturais, bem como o essencial desenvolvimento da cidadania. Tal política encontra-se descrita no caderno por uma Educação Básica do Campo nos itens a, b e c, do Ministério da Educação do Brasil (BRASIL, 2007a).\n\nAlém do proposto pelo MEC como política educacional, há o Parecer CEEd-RS nº. 02/2018 – define as Diretrizes Curriculares para a oferta da Educação do Campo no Sistema Estadual e Municipais de Ensino –, referindo a Resolução CNE/CEB nº. 02/2008, que diz, e no artigo 1º:\n\n> A Educação do Campo compreende a Educação Básica em suas etapas de Educação Infantil, Ensino Fundamental, Ensino Médio e Educação Profissional Técnica de nível médio integrada com o Ensino Médio e destina-se ao atendimento às populações rurais em suas mais variadas formas de produção da vida – agricultores familiares, extrativistas, pescadores artesanais, ribeirinhos, assentados e acampados da Reforma Agrária, quilombolas, caiçaras, indígenas e outros (BRASIL, 2008d).\n\nAinda, de acordo com o Decreto nº. 7.352/2010, que dispõe sobre a política de educação do campo e o Programa Nacional de Educação na Reforma Agrária – PRONERA – em seu art. 1°, § 1°, entende-se por:\n\n> I - Populações do campo: os agricultores familiares, os extrativistas, os pescadores artesanais, os ribeirinhos, os assentados e acampados da reforma agrária, os trabalhadores assalariados rurais, os quilombolas, caiçaras, os povos da floresta, os caboclos e outros que produzam suas condições materiais de existência a partir do trabalho no meio rural; e  \n> II - Escola do campo: aquela situada em área rural, conforme definida pela Fundação Instituto Brasileiro de Geografia e Estatística - IBGE, ou aquela situada em área urbana, desde que atenda predominantemente a populações do campo. (BRASIL, 2010b).\n\nAssim sendo, percebe-se a clara prescrição de órgãos vinculados à educação, a fim de que a escolarização do campo seja pensada e respeitada em suas particularidades, pois se trata de um processo contínuo, dinâmico, que perpassa as relações das comunidades camponesas e como tal deve olhar para esse lugar e para essa população de modo especial.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

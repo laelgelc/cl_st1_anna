@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0db0284ac0412954006ab30ccb74ec87d29ac52a22f4286144",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 463,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 539,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 1002
+    }
+  },
+  "created_at": "2026-09-22T23:18:39Z",
+  "duration_seconds": 4.45,
+  "error": null,
+  "excerpt_id": "rr_ef_13",
+  "filename": "rr_ef_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3309adb9a09484f7e679076b2c2ef0b2168767b7cb48b09765316ea17f38b79b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "395f4255d1d90fb4315c542c812b806a88ac80deae9c3bf9a00393b598b2b579",
+    "rendered_prompt_sha256": "6331500be73f42c592d6ac70eebffa77160fc6ea29f06c9867b4a05834616029",
+    "source_text_sha256": "a9b731759a5b7976ff6a02e1c100ae45abff350a5da43f320128a322f9a13862"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3378,
+    "filename": "rr_ef_13.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_13.txt",
+    "state": "rr",
+    "word_count_original": 253
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_13.json"
+  },
+  "raw_response_text": "### 4.3.3 PRINCÍPIOS METODOLÓGICOS\n\nO processo de ensino e aprendizagem da Educação Física nas escolas de Roraima deve atender alguns princípios metodológicos, no sentido de nortear as práticas pedagógicas do professor e facilitar o entendimento e apropriação da cultura corporal por parte dos alunos, sendo eles:\n\n- **Princípio da Inclusão:** as práticas corporais e estratégias de ensino escolhidas pelo professor (a) devem sempre propiciar a inclusão e o acesso de todos os alunos durante as aulas, possibilitando uma ampliação do vocabulário corporal desses alunos por meio das vivências e experiências relacionadas às brincadeiras e jogos, esportes, ginásticas, danças, lutas e práticas corporais de aventura. Inclusive levando em consideração as vivências e experiências de todo contexto regional.\n- **Princípio da Diversidade:** as práticas corporais escolhidas devem incidir sobre a totalidade da cultura corporal de movimento de maneira integral e dialógica, explorando os mais variados contextos e possibilidades.\n- **Princípio da Complexidade:** as práticas corporais devem adquirir complexidade crescente, de acordo com os objetos de conhecimento nos aspectos motor e cognitivo, hierarquizados de acordo com os ciclos de escolarização. Nesse processo, além do aprendizado por meio das vivências, os alunos precisam refletir como essas práticas se relacionam socialmente, quais são os seus impactos e transformações históricas, as interferências da mídia, os valores envolvidos e as questões culturais.\n- **Princípio da Adequação:** as práticas corporais devem ser adequadas às características dos alunos nos seus respectivos ciclos de escolarização, respeitando sempre a progressão racional dos conhecimentos, adequando-se também aos espaços e materiais disponíveis nas instituições escolares do território roraimense.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

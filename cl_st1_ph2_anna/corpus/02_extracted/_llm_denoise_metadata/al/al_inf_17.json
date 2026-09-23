@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b729e0f17890b21006ab2fcf3019087d29b680950473461a3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 917,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1218,
+      "output_tokens_details": {
+        "reasoning_tokens": 425
+      },
+      "total_tokens": 2135
+    }
+  },
+  "created_at": "2026-09-22T22:11:08Z",
+  "duration_seconds": 9.58,
+  "error": null,
+  "excerpt_id": "al_inf_17",
+  "filename": "al_inf_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0a365ea024e299cd3fed20cc6a775990e7df5afb680f121b99a1a832bad384eb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "26ecc95949359da4d440ec8998b1cea1dd68ffed1718fe7c05e6e0ed88cf8ba0",
+    "rendered_prompt_sha256": "bb26fbe218b4dc1dfe992e824579628d787e992479a2a3d121088531dcca5599",
+    "source_text_sha256": "74ccc411c340a9b114e89ee289c7a2bbc5634a9d861a97fd887e319f054b1988"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_inf_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 295,
+    "filename": "al_inf_17.txt",
+    "filepath": "corpus/00_source_per_state/al/al_inf_17.txt",
+    "state": "al",
+    "word_count_original": 593
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_inf_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_inf_17.json"
+  },
+  "raw_response_text": "Crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses)\n\nConforme a teoria do desenvolvimento da pessoa humana de Wallon, entre um e três anos de idade, aproximadamente, a criança vivencia o estágio sensório-motor e projetismo, marcada pela investigação e exploração da realidade exterior, bem como pela aquisição da capacidade simbólica e pelo início da representação. Ao final do segundo ano, a criança começa a imaginar, sem a necessidade do objeto concreto, ao que chamamos de faz-de-conta. Os movimentos passam a ser mais controlados, objetivos em relação aos interesses da criança. As atividades circulares (repetidas) servem para reafirmar as novas sensações descobertas.\n\nEssa atividade circular consiste em uma coordenação mútua dos campos sensoriais e motores, possibilitando um ajustamento do gesto a seu efeito, o que refina os progressos de preensão, da percepção e da linguagem, como também permite à criança descobrir as qualidades dos objetos, aguçar as sensibilidades e organizar seus gestos úteis. Pela organização de suas ações, ela discrimina diferentes movimentos e os efeitos sensoriais, visuais, auditivos e cinestésicos, tornando sua atividade, cada vez mais planejada e organizada voluntariamente (MAHONEY et al, 2007, p.32).\n\nÉ a fase na qual a criança se coloca de pé, começa a andar e a desenvolver a linguagem oral, momento em que a etapa projetiva do estágio entra em cena, significa que a criança, por meio de suas novas habilidades expressa por meio de gestos e movimentos seu funcionamento mental. Começa a ver o mundo de um jeito novo. O movimento e os gestos precedem a palavra, tal como uma criança quando indagada sobre o tamanho do elefante e ela abre os braços para demonstrar.\n\nGraças à função simbólica, isto é, à possibilidade de representar o real, a criança pode elaborar mentalmente o espaço, distribuir os objetos no espaço e no tempo, representá-los e estabelecer signos para as representações. [...] A função simbólica de desdobramento e de substituição é, portanto, condição para o nascimento do pensamento e da pessoa. São as atividades de exploração do mundo objetivo que desenvolvem na criança a capacidade de diferenciar objetos dos seres humanos (MAHONEY et al, 2007, p.32).\n\nA criança não é capaz de imaginar sem representar, já é capaz de imitar e simular situações, um prelúdio da representação, que somente se efetiva aproximadamente ao terceiro ano de vida, no estágio do personalismo.\n\n• Crianças pequenas (4 anos a 5 anos e 11 meses)\n\nO personalismo, que começa aos 3 anos e finaliza aos 6, apresentará mais características neste agrupamento etário. Nesta fase de construção da consciência de si, através das interações sociais começa o egocentrismo e início da formação da personalidade com a construção da consciência de si, através das interações sociais e relações afetivas. Nesta idade, há um sentimento forte de posse da criança sobre seus brinquedos e as pessoas que ama, a criança pensa que tudo é apenas dela, inclusive a mãe e o pai e que as coisas acontecem por causa dela. Por isso, ela precisa compreender que existem pessoas com quem precisará dividir o mundo e as pessoas e esse processo será direcionado nas situações intencionais como um dia de partilha com lanche coletivo, partilha de brinquedos, jogos e brincadeiras com intencionalidades planejadas. Com isso, a situação muda e o compartilhar fica mais fácil, embora não deva ser forçado; aos poucos vão se constituindo os vínculos afetivos, surgindo os questionamentos, curiosidades e descobertas, que levam as crianças a desenvolverem representação do seu imaginário.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

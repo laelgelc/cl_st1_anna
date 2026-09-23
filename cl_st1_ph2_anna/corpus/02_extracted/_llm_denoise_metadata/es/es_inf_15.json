@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07ba530ccc0a5728006ab300bd638887d2969a1d5ab816b9b1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 619,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 638,
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "total_tokens": 1257
+    }
+  },
+  "created_at": "2026-09-22T22:27:14Z",
+  "duration_seconds": 5.337,
+  "error": null,
+  "excerpt_id": "es_inf_15",
+  "filename": "es_inf_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "04f823bf7cbea2477378331ad6cea76697fb7a4078076e3a7e99035df7e4d519",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "41b9bfccf634354a09d31c2c7dd8f57217b6c96c372397a4760ff9bf2c204459",
+    "rendered_prompt_sha256": "6f286fd944af5470b5477c3027c9af99b2ee004a7afe63d8c6ef66425191d695",
+    "source_text_sha256": "eb1cd57c6f92e683450bfb6544f6341527476181e6d5e5f735d849b41bde9e49"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1047,
+    "filename": "es_inf_15.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_15.txt",
+    "state": "es",
+    "word_count_original": 344
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_15.json"
+  },
+  "raw_response_text": "### Para Refletir\n\nÉ sabido que neste campo de experiências as crianças falam, narram, explicam, fazem relações sobre tudo e todos que estão a sua volta, construindo e ampliando seus saberes. As vivências que lhes são proporcionadas na Educação Infantil fortalecem sua autonomia, desenvolvem seu raciocínio lógico e impulsionam seu potencial imaginador. Para tanto, cada docente deve pensar se:\n\n- As crianças são estimuladas a explorar as características de diferentes objetos e materiais, jogos de construção, ampliando suas habilidades de orientação no tempo e espaço?\n- São promovidas brincadeiras que envolvem situações estáticas (longe, perto; em cima, embaixo; dentro, fora) ou dinâmicas (para a frente, para trás, para o lado, para cima, para baixo, para direita, para esquerda, na mesma direção), promovendo a compreensão da criança sobre a relação de seu corpo com o ambiente que a cerca?\n- São proporcionadas experiências como pintar, desenhar, ler, escrever, explorar as formas geométricas planas e não planas, brincar, localizar-se e muitas outras que ampliem as noções das crianças sobre os espaços que ocupa, as formas, proporcionalidade e semelhanças?\n- São propostas situações/problemas em que as crianças possam ampliar, aprofundar e construir novos conhecimentos sobre peso, medidas e grandezas?\n- São desenvolvidas brincadeiras que envolvem contagem oral e escrita, ordenação, seriação e classificação de objetos?\n- Faz-se uso de materiais concretos, possibilitando as crianças o desenvolvimento de seu pensamento lógico?\n- São mantidas à disposição das crianças fita métrica, quadro numérico, calendário para que possam fazer consultas quando solicitadas?\n- São explorados jogos com regras em sala de aula?\n- São realizados experimentos para que as crianças possam perceber as transformações de materiais e objetos?\n- São oportunizados os conhecimentos das múltiplas culturas feitas pelos homens, assim como seus elementos simbólicos, por meio de pesquisas, exposições, passeios e até mesmo, pela história de vida das crianças?\n\nDentre muitas outras propostas pedagógicas que podem ser desenvolvidas, nas atividades exploratórias que vivenciam na Educação Infantil, as crianças se apropriam de formas produtivas de pensar os mundos da natureza e da sociedade, vivenciando de modo integrado experiências em relação ao tempo, aos espaços, às quantidades, relações e transformações.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01ad9ae4de1166ee006ab3014b13b087d29fb12dd3ab8a13a2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1106,
+      "input_tokens_details": {
+        "cache_write_tokens": 1103,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1172,
+      "output_tokens_details": {
+        "reasoning_tokens": 253
+      },
+      "total_tokens": 2278
+    }
+  },
+  "created_at": "2026-09-22T22:29:38Z",
+  "duration_seconds": 7.706,
+  "error": null,
+  "excerpt_id": "go_em_46",
+  "filename": "go_em_46.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "669e21bb9645f70707d9d1fcd3da2f292fe90690343c1760d5dc847020ffee9f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8af0dc31a669ee3ada6aaf40a5b86153a53dac9fd658b7a5065975aac71afbfc",
+    "rendered_prompt_sha256": "625de5c2b9b2a0d38c308fea6bc87025b45e1e3aa0b9ab30fb76bf8967f6db0a",
+    "source_text_sha256": "a55a50121fb2cbfaec7ccb115e9c1188f1b394a742b48d70bb3f67974d181a2e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_46.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1170,
+    "filename": "go_em_46.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_46.txt",
+    "state": "go",
+    "word_count_original": 668
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_46.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_46.json"
+  },
+  "raw_response_text": "## 2.2 - A Base Nacional Comum Curricular\n\nA BNCC é um documento de caráter normativo, concluído após amplo debate com a sociedade civil e com os/as educadores/as do Brasil, com o propósito de direcionar as propostas pedagógicas dos currículos das instituições de Educação Básica do país. A BNCC apresenta um conjunto de aprendizagens essenciais (AE) para garantir o desenvolvimento integral do/a estudante, por meio de competências e habilidades, gerais e específicas que direcionam todo o percurso formativo desde a Educação Infantil até o Ensino Médio.\n\nAs aprendizagens essenciais são organizadas na BNCC a partir da estruturação das competências e habilidades específicas que articulam-se por áreas de conhecimento. Sobre as competências, a BNCC (2018, p. 8) define que é a “mobilização de conhecimentos (conceitos e procedimentos), habilidades (práticas, cognitivas e socioemocionais), atitudes e valores para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho”.\n\nNo caso da área de Matemática e suas Tecnologias, as cinco competências específicas elencadas na BNCC são:\n\n1. Utilizar estratégias, conceitos e procedimentos matemáticos para interpretar situações em diversos contextos, sejam atividades cotidianas, sejam fatos das Ciências da Natureza e Humanas, das questões socioeconômicas ou tecnológicas, divulgados por diferentes meios, de modo a contribuir para uma formação geral.\n2. Propor ou participar de ações para investigar desafios do mundo contemporâneo e tomar decisões éticas e socialmente responsáveis, com base na análise de problemas sociais, como os voltados a situações de saúde, sustentabilidade, das implicações da tecnologia no mundo do trabalho, entre outros, mobilizando e articulando conceitos, procedimentos e linguagens próprios da Matemática.\n3. Utilizar estratégias, conceitos, definições e procedimentos matemáticos para interpretar, construir modelos e resolver problemas em diversos contextos, analisando a plausibilidade dos resultados e a adequação das soluções propostas, de modo a construir argumentação consistente.\n4. Compreender e utilizar, com flexibilidade e precisão, diferentes registros de representação matemáticos (algébrico, geométrico, estatístico, computacional etc.), na busca de solução e comunicação de resultados de problemas.\n5. Investigar e estabelecer conjecturas a respeito de diferentes conceitos e propriedades matemáticas, empregando estratégias e recursos, como observação de padrões, experimentações e diferentes tecnologias, identificando a necessidade, ou não, de uma demonstração cada vez mais formal na validação das referidas conjecturas.\n\nSobre essas competências a BNCC (2018, p. 530) destaca que:\n\n> [...] não têm uma ordem preestabelecida. Elas formam um todo conectado, de modo que o desenvolvimento de uma requer, em determinadas situações, a mobilização de outras. Cabe observar que essas competências consideram que, além da cognição, os estudantes devem desenvolver atitudes de autoestima, de perseverança na busca de soluções e de respeito ao trabalho e às opiniões dos colegas, mantendo predisposição para realizar ações em grupo.\n\nEm relação às habilidades específicas e objetos do conhecimento, a BNCC (2018, p. 28) afirma que:\n\n> Para garantir o desenvolvimento das competências específicas, cada componente curricular apresenta um conjunto de habilidades. Essas habilidades estão relacionadas a diferentes objetos do conhecimento aqui entendidos como conteúdos, conceitos e processos, que, por sua vez, são organizados em unidades temáticas.\n\nTodas as habilidades específicas da BNCC possuem um código verificador cuja composição dos algarismos e letras fornecem informações conforme ilustra a figura 17, a seguir:\n\n## 2.3 - O DC-GOEM Referente à Área de Matemática e Suas Tecnologias\n\nO DC-GOEM área de Matemática está organizado a partir das competências e habilidades essenciais que constam na BNCC do Ensino Médio e por Objetivos de Aprendizagem (OA), que serão apresentados posteriormente.\n\nO eixo orientador para a estruturação, concepção e organização de todos os OA da área de Matemática são as 10 competências gerais e as competências e habilidades específicas de área apontadas pela BNCC para o Ensino Médio.\n\nÉ importante ressaltar que o foco do DC-GOEM área de Matemática não é o trabalho com conteúdos matemáticos e, sim, o desenvolvimento de conhecimentos, saberes e capacidades matemáticas essenciais para a ampliação, sistematização e consolidação das aprendizagens adquiridas no Ensino Fundamental.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

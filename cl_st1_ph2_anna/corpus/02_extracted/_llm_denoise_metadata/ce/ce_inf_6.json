@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c0e818cd0be64cd006ab2ffc9cf0c87d28baedc25a0e1d4eb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1029,
+      "input_tokens_details": {
+        "cache_write_tokens": 1026,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1032,
+      "output_tokens_details": {
+        "reasoning_tokens": 96
+      },
+      "total_tokens": 2061
+    }
+  },
+  "created_at": "2026-09-22T22:23:12Z",
+  "duration_seconds": 6.733,
+  "error": null,
+  "excerpt_id": "ce_inf_6",
+  "filename": "ce_inf_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "537fb2bb8cb1f645d6703e349e8ecf642f5ec751a9b0d0cfb3c0d89198126374",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "53f9a7585fdf7d6d8abb51a7040d017e82cf258b8e519dcf59e98d88922a2733",
+    "rendered_prompt_sha256": "df4dc76e313820b33e4fb30d183bdf4b2fbe9c999538bd2e73a101c6fe1cf06c",
+    "source_text_sha256": "4aff37bd62ec5c699f61c3c53d98353d3ad6bdcea54d897ee5acac27113eb4c2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_inf_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 840,
+    "filename": "ce_inf_6.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_inf_6.txt",
+    "state": "ce",
+    "word_count_original": 645
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_inf_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_inf_6.json"
+  },
+  "raw_response_text": "### 4.1.1.4. Educar e cuidar na educação e desenvolvimento de bebês e crianças\n\nPensar em um currículo sustentado em princípios éticos, políticos e estéticos definidos a partir da referência democrática e inclusiva da educação, nos coloca inevitavelmente diante da reflexão sobre o papel sócio-político e pedagógico da primeira etapa da educação básica.\n\nO documento *Práticas Cotidianas na Educação Infantil* (BRASIL, 2009) aborda, dentre outros aspectos, a função social de creches e pré-escolas de acolher para educar e cuidar crianças de 0 a 5 anos e 11 meses. Orienta que sejam compartilhadas com as famílias, as informações sobre o aprendizado e desenvolvimento das crianças. Desta forma, compreende-se que a indissociabilidade das ações de educação e cuidado, constituem um princípio político e identitário da Educação Infantil em sua especificidade.\n\nAinda conforme o mesmo documento (BRASIL, 2009, p. 68), o ato de cuidar não se restringe apenas às ações de atendimento às necessidades físicas, mas\n\n> [...] ultrapassa processos ligados à proteção e ao atendimento das necessidades físicas de alimentação, repouso, higiene, conforto e prevenção da dor. Cuidar exige colocar-se em escuta às necessidades, aos desejos e inquietações, supõe encorajar e conter ações no coletivo, solicita apoiar a criança em seus devaneios e desafios, requer interpretação do sentido singular de suas conquistas no grupo, implica também aceitar a lógica das crianças em suas opções e tentativas de explorar movimentos no mundo.\n\nO cuidar, por vezes, é entendido como cuidados relativos apenas à segurança física, alimentação, sono etc., enquanto educar, subentendido como aprendizagem de conhecimentos. No DCRC, nosso desafio, quanto à essa questão, é superar este equívoco. Esse é um equívoco que precisa ser superado, pois, muitas vezes há uma supervalorização de atividades que envolvem papel e lápis — por serem considerados como momentos de atividade pedagógica — enquanto que outros momentos são desvalorizados, feitos de forma rápida e descuidada, ou ainda sem que se preste atenção nos significados que estão sendo dados àquele momento e que são percebidos pelas crianças.\n\nÉ relevante ainda mencionar que tais ações (cuidar e educar) são também complementares aos cuidados e educação efetuados pela família, não devendo ser vistas como um favor prestado, superando uma visão meramente assistencialista. Portanto, devem ser garantidos como direitos da criança. Assim, os momentos de alimentação, repouso, higiene, conforto, prevenção da dor, são também ações educativas que demandam planejamento, observação e registro.\n\nImporta ainda ponderar que cada ação voltada para o cuidar e o educar na escola se constitui como um “processo pedagógico coletivo” que “escute as singularidades infantis”. Assim como as diversas maneiras de interações da criança na instituição de Educação Infantil, “[...] o desfralde da criança, o controle dos esfíncteres e o uso social do banheiro, precisam ser compreendidos como prática cultural presente na escola e representam importante aprendizagem social das crianças pequenas [...]” (BARBOSA; QUADROS, 2017, p. 59).\n\nConforme as Orientações Curriculares para a Educação Infantil (CEARÁ, 2011), o educar e o cuidar das crianças, na Educação Infantil significa, entre outros aspectos:\n\n- Atender suas necessidades oferecendo-lhes condições, de se sentir confortável, em relação ao sono, fome, sede, higiene, dor etc.;\n- Acolher seus afetos e alimentar sua curiosidade e expressividade;\n- Dar-lhes condições para explorar o ambiente e construir sentidos pessoais, sobre o mundo e sobre si, apropriando-se de formas de agir, sentir e pensar existentes em sua cultura\n\nRatificamos nossa posição quanto ao alinhamento à BNCC, quando no DCRC, consideramos o cuidado indissociável do processo educativo. Portanto, as creches e pré-escolas devem acolher os conhecimentos, vivências construídas pelas crianças no contexto familiar e na comunidade, articulando-os à proposta pedagógica da instituição. Nesse sentido, vemos como necessidade ampliar as experiências, habilidades, conhecimentos, promovendo a socialização, autonomia, comunicação, entre outros aspectos necessários ao desenvolvimento da criança. Assim sendo, queremos assegurar o cuidar e o educar de maneira integrada, atendendo às especificidades dos bebês, crianças bem pequenas e crianças pequenas. (BRASIL, 2017).",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

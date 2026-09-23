@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_098510e3d14ac2ba006ab308d3f14887d28db39ea5ebbce1d2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 917,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 785,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1702
+    }
+  },
+  "created_at": "2026-09-22T23:01:46Z",
+  "duration_seconds": 6.516,
+  "error": null,
+  "excerpt_id": "pi_em_50",
+  "filename": "pi_em_50.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3ba92856da265834a4a5d218d4b5673c7ce67ce1abf52bbd2dc4d256a708f128",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c4c5e0d876b905d63b9b7b171373d457d0f43ba13f1cb45baa17554485abea51",
+    "rendered_prompt_sha256": "f92f1afc08b22f42fffb08a3388eb5b89560dd2d8ea127918ca8f5d59b6d83b9",
+    "source_text_sha256": "57f640f4846a5fefe6965b17edf3a63188c624bea43cefe44e8e3e92f4ddac07"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_em_50.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2630,
+    "filename": "pi_em_50.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_em_50.txt",
+    "state": "pi",
+    "word_count_original": 514
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_em_50.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_em_50.json"
+  },
+  "raw_response_text": "## Distribuição das Habilidades por Série\n\nOs componentes da área de Ciências da Natureza têm em comum a investigação científica, além de compartilharem linguagens para a representação e sistematização do conhecimento e, portanto, necessitam ser desenvolvidos de forma não isolada (BRASIL, 2006). A fim de promover a organização do aprendizado, as habilidades foram organizadas em unidades temáticas que tem a função de estruturar o processo de ensino-aprendizagem. As unidades temáticas definidas para a área de ciências da natureza no currículo do Piauí para o ensino médio são Matéria e Energia e Vida, Terra e Cosmos. Essas unidades temáticas fazem a integração com os objetos do conhecimento, a partir das quais, as habilidades e competências devem ser desenvolvidas, de forma articulada e contextualizada, com o objetivo de dar sentido ao aprendizado dos alunos.\n\nOs componentes, Biologia, Química e Física apresentam elementos de identidade que os aproximam entre si, ou seja, existem temáticas comuns entre elas. Para fins de articulação, o primeiro passo é explicitar os vínculos e aspectos comuns entre os componentes da área. A articulação entre os componentes poderá implicar em diversificação e modificações metodológicas, que orientadas pelo projeto pedagógico da escola promoverão a organização e estruturação dos tópicos a serem enfatizados em cada área ou etapa. Procedimentos comuns, como a experimentação praticada nas ciências da natureza, estudo do meio e projetos interdisciplinares, nos quais diferentes componentes tratam ao mesmo tempo de temas afins, são exemplos de metodologias integradoras (BRASIL, 2006; PONTUSCHKA et al., 1991).\n\nRecomenda-se ainda que os temas contemporâneos transversais, também sejam aplicados na perspectiva de integrar os componentes das Ciências da Natureza, e estes com as demais áreas do conhecimento. Propiciando ao estudante uma integração da formação geral básica com a vida social e com o mundo do qual faz parte. Na BNCC os temas contemporâneos transversais são quinze, distribuídos em seis macro áreas temáticas que são: Ciência e Tecnologia, Meio Ambiente, Saúde, Cidadania e Civismo, Multiculturalismo e Economia, como é mostrado na Figura 1 (BRASIL, 2019).\n\nAs habilidades estão vinculadas aos objetivos de aprendizagem e aos objetos do conhecimento necessários para que o ensino seja desenvolvido em toda a sua integridade. Tais objetos devem ser trabalhados de forma interdisciplinar, contextualizada e aplicada ao cotidiano dos estudantes, visando formá-los como cidadãos conscientes, críticos, criativos e capazes de se adaptarem às rápidas mudanças que ocorrem na atualidade, e acima de tudo, respeitando o próximo e as diferentes culturas e etnias.\n\nOutro ponto importante é que ao tempo em que se busca o desenvolvimento das habilidades e competências específicas da área, deve-se também atentar para as competências gerais a serem desenvolvidas ao longo de toda a educação básica. Por exemplo, ao se abordar uma certa competência específica, o Professor também pode pedir que os alunos desenvolvam projetos em equipe. Desta forma, o aluno estará exercitando a empatia, a cooperação com acolhimento e respeito à diversidade de indivíduos, que faz parte das competências gerais.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

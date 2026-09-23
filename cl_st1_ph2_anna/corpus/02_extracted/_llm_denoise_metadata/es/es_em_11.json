@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08c9742d8db5cc39006ab300988e3087d2a036d0c6b1830188",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1625,
+      "input_tokens_details": {
+        "cache_write_tokens": 1622,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1577,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 3202
+    }
+  },
+  "created_at": "2026-09-22T22:26:42Z",
+  "duration_seconds": 10.013,
+  "error": null,
+  "excerpt_id": "es_em_11",
+  "filename": "es_em_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a79377dce516a37bab89f920b2de445dfe0e54939c2e64973315d607e8988bef",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a5c45fb60ddbf7d65f0509b509c4818a4584e3ef2aae4073ce5edd557db5efab",
+    "rendered_prompt_sha256": "e023dabebdefd973eed743d7a4b301db0534f74d4dd145b75b27922342b7f7f8",
+    "source_text_sha256": "a1dfb41ec351f018d4477b7520aa2616eae6741cb8357e483594648c974b894b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_em_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1017,
+    "filename": "es_em_11.txt",
+    "filepath": "corpus/00_source_per_state/es/es_em_11.txt",
+    "state": "es",
+    "word_count_original": 1009
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_em_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_em_11.json"
+  },
+  "raw_response_text": "# Itinerários Formativos\n\n## Contexto e Marco Legal do Novo Ensino Médio\n\nA partir dos anos de 1990 o Brasil teve um aumento significativo na quantidade de matrículas de Ensino Médio, todavia, o maior quantitativo de estudantes fez aumentar as exigências para atender as diversidades do seu público. O Plano Nacional de Educação (PNE), Lei No 13.005 (BRASIL, 2014) trouxe em sua meta 3, universalizar, até 2016, o atendimento escolar para toda a população de 15 (quinze) a 17 (dezessete) anos e elevar, até o final do período de vigência deste PNE, a taxa líquida de matrículas no Ensino Médio para 85% (oitenta e cinco por cento) – o que corrobora para a extensão da oferta e para a qualidade do Ensino Médio público.\n\nA exigência pelo aumento de matrículas na última etapa da educação básica solicita mudanças para o Ensino Médio e, ao longo dos anos, o governo federal vem realizando políticas e programas que buscam atender de maneira efetiva essa etapa do ensino. Entre as solicitações está a necessidade de flexibilização da oferta da formação, de maneira que contemple os diferentes interesses dos jovens, principal público da etapa, além dos adultos e, até idosos, que também são compreendidos por esse segmento de ensino.\n\nCom as alterações da Lei de Diretrizes e Base da Educação Nacional, buscou-se qualificar e atender o interesse dos jovens para a oferta do Ensino Médio. Essas alterações atentam, especificamente, da Reforma do Ensino Médio. Com a alteração almejada pela da Lei 13. 415/2017 (BRASIL, 2017), em seu Artigo 36, o Currículo do Ensino Médio passa a vigorar com as seguintes características:\n\n> Art. 36. O currículo do ensino médio será composto pela Base Nacional Comum Curricular e por Itinerários Formativos, que deverão ser organizados por meio da oferta de diferentes arranjos curriculares, conforme a relevância para o contexto local e a possibilidade dos sistemas de ensino, a saber:\n>\n> I - linguagens e suas tecnologias;\n>\n> II - matemática e suas tecnologias\n>\n> III - ciências da natureza e suas tecnologias;\n>\n> IV - ciências humanas e sociais aplicadas;\n>\n> V - formação técnica e profissional.\n\nComo aporte legal do funcionamento para o Novo Ensino Médio, o governo federal aprovou em 21 de novembro de 2018 a Resolução no 3 que atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio. Entre os 38 artigos da supracitada resolução, inúmeros deles tratam dos itinerários formativos com direcionamento para seu referencial legal e conceitual, organização curricular, formas de oferta e organização, dentre outros. Em seu Art. 5o, inciso III, define Itinerários Formativos como:\n\n> [...] cada conjunto de unidades curriculares ofertadas pelas instituições e redes de ensino que possibilitam ao estudante aprofundar seus conhecimentos e se preparar para o prosseguimento de estudos ou para o mundo do trabalho de forma a contribuir para a construção de soluções de problemas específicos da sociedade (BRASIL, 2018b).\n\nDessa maneira, os Itinerários Formativos são um conjunto de situações, atividades educativas e/ou unidades curriculares ofertadas pelas escolas e redes de ensino que possibilitam ao estudante aprofundar os conhecimentos e as habilidades relacionadas às competências gerais da Base Nacional Comum Curricular (BNCC), às competências específicas de uma determinada área ou entre diferentes áreas do conhecimento e sua aplicação em contextos diversos. Além disso, os Itinerários Formativos visam consolidar a formação integral dos estudantes, desenvolvendo a autonomia necessária para que realizem seus projetos de vida, incorporando valores universais, desenvolvendo habilidades que permitam ter uma visão de mundo ampla e heterogênea e, com isso, os estudantes terão condições de tomar decisões e agir nas mais diversas situações, seja na escola, seja no trabalho, seja na vida.\n\nPara a construção do documento curricular que orienta o desenvolvimento dos Itinerários Formativos, o Ministério da Educação estabeleceu a Portaria no 1.432, (BRASIL, 2018c), que define os referenciais para elaboração dos Itinerários, conforme preveem as Diretrizes Nacionais do Ensino Médio. O artigo 1o estabelece que:\n\n> Art. 1o Ficam estabelecidos os Referenciais para a Elaboração dos itinerários formativos de modo a orientar os sistemas de ensino na construção dos itinerários formativos, visando atender as Diretrizes Curriculares Nacionais do Ensino Médio publicadas na Resolução MEC/CNE/CEB No 3, de 21 de novembro de 2018, e a Lei no 13.415, de 16 de Fevereiro de 2017, na forma do anexo a esta Portaria. (BRASIL, 2018c).\n\nOs Referenciais para a Elaboração dos Itinerários Formativos servem de documentos orientadores para a construção dos Aprofundamentos de áreas, ou entre áreas, atendendo as quatro áreas de conhecimento e a formação técnica e profissional. Esses Aprofundamentos devem ser construídos levando em consideração as demandas e necessidades do mundo contemporâneo, sintonizados com os diferentes interesses dos estudantes e sua inserção na sociedade. Assim, a definição dos Aprofundamentos deve ser orientada pelo perfil de saída almejado para o estudante. O perfil de saída, por sua vez, leva em consideração os interesses dos estudantes, suas perspectivas de continuidade de estudos no nível pós-secundário e de inserção no mundo do trabalho.\n\nAssim, de acordo com os Referenciais para a Elaboração dos Itinerários Formativos (BRASIL, 2018d) o Novo Ensino Médio busca assegurar o desenvolvimento de conhecimentos, habilidades, atitudes e valores capazes de formar as novas gerações para lidar com desafios pessoais, profissionais, sociais, culturais e ambientais do presente e do futuro, considerando a intensidade e velocidade das transformações que marcam as sociedades na contemporaneidade. Além disso, esse novo formato do Ensino Médio pretende atender às necessidades e expectativas dos estudantes, fortalecendo seu interesse, engajamento e protagonismo, visando garantir sua permanência e aprendizagem na escola. Um dos maiores desafios provocados pelo aumento da oferta dessa etapa da educação básica foi de garantir a permanência dos estudantes nas escolas. O abandono escolar é um dos principais problemas que as políticas educacionais precisam resolver na atualidade.\n\nEm virtude desse cenário, uma das apostas para garantir a permanência dos estudantes no Ensino Médio é o desenvolvimento de um currículo mais dinâmico e flexível, que contemple a interface entre os conhecimentos das diferentes áreas e a realidade dos estudantes, atendendo suas necessidades e expectativas. Além disso, os currículos devem reconhecer as especificidades regionais, que respeite a diversidade das práticas pedagógicas já existentes nas escolas.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

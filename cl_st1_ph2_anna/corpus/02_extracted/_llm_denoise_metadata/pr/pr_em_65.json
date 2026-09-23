@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_064da5e2b46839e7006ab309f4bc8c87d2a55269003be3f9bc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1069,
+      "input_tokens_details": {
+        "cache_write_tokens": 1066,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1054,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 2123
+    }
+  },
+  "created_at": "2026-09-22T23:06:38Z",
+  "duration_seconds": 9.575,
+  "error": null,
+  "excerpt_id": "pr_em_65",
+  "filename": "pr_em_65.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3a56b4782f5aaca538e8ed06e957c685da9fd142afd7c0c997104a7bdd957a7f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d71f912e0c40ae0dc9d7c4a805aa51816c03cfbf0d29a028a6a5e9317d87b2ae",
+    "rendered_prompt_sha256": "dfaa6f91e9c1de05df1870b989661419b4e9f9a4748d5302af289848e82c76de",
+    "source_text_sha256": "9335353ef9dc984e23e4c56ed0662401589e9fd16892ecc47db713452db6d6f0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_65.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2785,
+    "filename": "pr_em_65.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_65.txt",
+    "state": "pr",
+    "word_count_original": 657
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_65.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_65.json"
+  },
+  "raw_response_text": "Na competência específica 1, a Matemática é apresentada de forma a permitir a leitura, a interpretação, a análise de fenômenos, fatos, problemas, situações que impactam a realidade e, por meio de seus conceitos e procedimentos, permitir que o estudante possa fazer uma análise mais crítica e mais fundamentada da realidade.\n\nA competência específica 2 visa à mobilização e à articulação de conceitos e procedimentos próprios da Matemática para propor ações e tomar decisões éticas e socialmente responsáveis diante dos desafios do mundo contemporâneo. Essa competência destaca-se pelas ações de intervenção da realidade e dá indicativos de diferentes contextos que viabilizam a aprendizagem de novos conceitos matemáticos aplicados cotidianamente.\n\nA competência específica 3 preza pela utilização de noções, conceitos, estratégias e definições matemáticas para interpretar, construir modelos, resolver e (re)formular problemas matemáticos. Além disso, busca uma análise crítica da resposta ou da solução encontrada de um problema. Preza, também, pela verificação e justificação da plausibilidade das possíveis respostas para um determinado problema. Nesse processo, o estudante deve ser motivado a questionar, formular, testar e validar hipóteses em um processo investigativo, pois além de resolver problemas, ele deve saber analisar e justificar sua resposta. Assim, novas e diferentes formas de pensar são propiciadas, novas linguagens que permitem ao estudante interpretar uma situação de forma crítica.\n\nA competência específica 4 visa a uma discussão sobre o emprego de conceitos, procedimentos, definições, estratégias matemáticas para a construção de modelos e resolução de problemas. Para tal, necessária a utilização de diferentes registros e representações matemáticas — algébricos, geométricos, computacionais, determinísticos, estatísticos, entre outros — para a busca de soluções e comunicação de resultados de problemas. Os diferentes registros na Matemática permitem uma melhor leitura, análise e compreensão de uma determinada problemática e contribuem para melhorar a capacidade de argumentar matematicamente diante de cada situação.\n\nNa competência específica 5, a Matemática e seu corpo de conhecimento tornam-se mais evidentes. O pensamento algébrico potencializa os processos de abstração e de generalização necessários para validar, de maneira formal, as conjecturas elaboradas, ou mesmo refutá-las por meio de um processo investigativo.\n\nNa área de Matemática, no Ensino Fundamental, e na área de Matemática e suas Tecnologias, no Ensino Médio, as habilidades estão organizadas em unidades temáticas que refletem os objetos de conhecimento da Matemática e, assim, também organizam o currículo. No entanto, mais do que conhecer objetos de conhecimento, resolver operações, saber algoritmos, conhecer propriedades diversas na Matemática, estudar e identificar fórmulas, é necessário saber aplicar esses conhecimentos em situações práticas diversas do cotidiano. Isso pressupõe, para além de saber os objetos de conhecimento, desenvolver competências e habilidades. Por exemplo, saber ler e compreender matematicamente as informações que são apresentadas a todo instante pelos meios de comunicação e redes sociais implica em ter desenvolvido competência e habilidade para além de saber os objetos de conhecimento da Matemática.\n\nOs objetos de conhecimento são desdobramentos dentro do campo da Matemática, que especificam e delimitam o conhecimento em estudo; constituem-se como instrumento de compreensão, interpretação e análise, que permitem estudar e compreender a própria Matemática, a sua relevância na realidade e no mundo ao redor. Os objetos de conhecimento, as ideias, os métodos, os objetivos, os produtos característicos, a linguagem própria, os variados tipos de raciocínios, embora específicos e fundamentados em seus preceitos epistemológicos, efetivam-se e ganham significado nas relações que a Matemática e suas tecnologias estabelecem com as demais áreas e com as tecnologias.\n\nNa medida em que se potencializam os diálogos entre as áreas de conhecimento, também se viabilizam a realização de atividades integradoras, que permitem ao estudante uma compreensão mais ampliada da realidade, em uma dimensão que leve em consideração os aspectos dos diferentes contextos em que vive, permitindo também a compreensão das relações intrínsecas entre a Matemática e a sua aplicação na realidade, em conjunto com as demais áreas do conhecimento e com as tecnologias, contribuindo, dessa forma, para uma formação integral e para a construção de seu projeto de vida.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

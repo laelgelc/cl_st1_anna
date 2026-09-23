@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a298eedfd17e0e1006ab304c9e4bc87d29d164ace66cae045",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1304,
+      "input_tokens_details": {
+        "cache_write_tokens": 1301,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1430,
+      "output_tokens_details": {
+        "reasoning_tokens": 330
+      },
+      "total_tokens": 2734
+    }
+  },
+  "created_at": "2026-09-22T22:44:37Z",
+  "duration_seconds": 11.397,
+  "error": null,
+  "excerpt_id": "mt_em_20",
+  "filename": "mt_em_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "05a2595ba0b1c4d45fc2bf43211f93f7265eaba093af4a865cbe09f59e2688e3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c5fe071ea237706df06e38ef98295095248b1ae4563c705eea67e762ac7e4ecb",
+    "rendered_prompt_sha256": "d104bc940c1903b8b5c2fc015904dbbbfe6bef61aa696d4814810c12c1ca7339",
+    "source_text_sha256": "6114663e5c0fb3e1432cd8e5c27b2ab4e156d5c5a15a8c21cec1d355c5b9d7cb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1911,
+    "filename": "mt_em_20.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_20.txt",
+    "state": "mt",
+    "word_count_original": 782
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_20.json"
+  },
+  "raw_response_text": "### 4.3.5 Línguas Indígenas no Currículo\n\n> “Os povos indígenas são tradicionalmente ágrafos, sem escrita. A educação das crianças é realizada por meio da narração de histórias e mitos. Para ser mais eficaz, o letramento, assim como as demais etapas do ensino-aprendizagem, deve tomar a cultura e a tradição dos povos indígenas por referência. Por esse motivo, a tradição oral sempre deve ser valorizada nas escolas indígenas. Uma estratégia interessante é contar com a presença de pessoas da própria comunidade na sala de aula para a narração de histórias.”  \n> — Luís Donisete Benzi Grupioni\n\nNa modalidade Educação Escolar Indígena, o ensino da Língua Materna Indígena compõe o currículo das escolas como fundamento da educação específica e diferenciada. É um componente curricular da Área de Linguagens que deve ser ensinado por docente com conhecimento e fluência da língua materna. Além disso, o trabalho com este componente deve desenvolver o ensino e a aprendizagem na perspectiva interdisciplinar. O Estado de Mato Grosso abriga uma diversidade linguística de 44 (quarenta e quatro) povos que se agrupam em troncos e famílias linguísticas:\n\nFamílias que têm semelhanças entre si são agrupadas, por sua vez, em troncos linguísticos. Há também línguas indígenas que os linguistas chamam de “línguas isoladas”, porque não parecem ter parentesco com nenhuma das famílias linguísticas conhecidas (BRASIL, 1998).\n\nO contexto do ensino da língua materna compreende uma dinâmica dos processos de contato. Portanto, temos uma grande diversidade situacional: povos que têm a língua indígena como primeira língua; povos que têm a língua portuguesa dominante, mas que estão em processo de retomada linguística[^7]; povos bilíngues e multilíngues. Têm-se ainda povos onde não houve a finalização de convenção linguística, portanto, escreve de maneira variada. Sendo assim, a Escola Indígena, em especial na etapa Ensino Médio, se torna lócus importante dos estudos, ensino e aprendizagem, produção e reprodução das línguas indígenas.\n\nA língua indígena neste componente curricular deverá ser a língua de instrução oral do currículo. Chama-se de “língua de instrução” a língua utilizada na sala de aula para introduzir conceitos, dar esclarecimentos e explicações. A língua indígena será, nesse caso, a língua através da qual os docentes e os estudantes discutem os componentes curriculares. Esse tipo de procedimento permite que os estudantes que têm pouco domínio do português possam aprender melhor e mais rapidamente os novos conhecimentos (BRASIL, 1998).\n\nÉ importante destacar que a Língua Indígena é um componente fundamental para que o povo possa fortalecer o seu pertencimento étnico, desenvolver suas habilidades e competências na perspectiva da cidadania indígena e da sustentabilidade cultural e social.\n\nNa alfabetização, a língua indígena deve ser trabalhada de maneira que o estudante possa aprender as primeiras letras no seu idioma e, posteriormente, permita a transição para o domínio da língua portuguesa. Nesse sentido, compreender as estruturas linguísticas da Língua Materna propicia a análise do uso da língua em distintos campos de conhecimento e contextos sociais, bem como fortalece o sistema da escrita das línguas indígenas e seu uso no processo educacional, como instrumento de expressão, comunicação, de criação, de produção de conhecimento e de documentação do saber indígena, enfatizando o seu pertencimento étnico. É importante garantir que os diferentes padrões encontrados em cada língua possam ser estudados e tornem-se currículo específico da Educação Escolar Indígena.\n\nAlém disso, o ensino de Línguas Indígenas tem o objetivo de fornecer aos estudantes introdução à linguística, através de seus conceitos fundamentais, para sensibilizá-los para o caráter intrinsecamente dinâmico das línguas. Em Mato Grosso temos casos relacionados à perda de línguas, não obstante os esforços de revitalização, passando por temas como documentação participativa das línguas, educação indígena, macro e micropolíticas de preservação e de revitalização linguísticas. Assim, faz-se necessário identificar e analisar as línguas indígenas presentes no contexto escolar e cada comunidade deve organizar a melhor maneira de estruturação deste componente de acordo com sua situação linguística. Nos casos onde a etnia não escreve ou não fala fluentemente a língua materna o componente curricular é de suma importância para a revitalização, retomada e discussão linguística.\n\nPor mais que tenha uma política afirmativa de preservação para garantir a sobrevivência das línguas minoritárias, estas terão, de fato, chances reduzidas de sobrevivência em um mundo globalizado, a menos que a população de falantes indígenas valorize a sua língua original e decida mantê-la, garantindo a sua transmissão regular através da prática do diálogo e ensinando para as novas gerações, quer seja em sala de aula ou no cotidiano da comunidade.\n\n[^7]: Retomada linguística significa o processo dinâmico, coletivo que a língua “[...] percorreu no decorrer da história e da vida do povo [...]” (BOMFIM, 2012, p.11). Agora a retomada representa a resistência e a reafirmação da identidade étnica através do processo de revitalização.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

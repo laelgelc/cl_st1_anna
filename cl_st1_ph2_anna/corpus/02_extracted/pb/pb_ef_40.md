@@ -1,0 +1,9 @@
+### 7.1.4 Unidades temáticas, objetivos de aprendizagem e conteúdos para o ensino de Ciências da Natureza
+
+À luz da Base Nacional Comum Curricular (BNCC), dos seus objetos de conhecimento e Habilidades para cada ano foram organizados os conteúdos e objetivos de aprendizagem em três unidades temáticas:
+
+- **Matéria e energia:** os conteúdos são abordados através do estudo de materiais e suas transformações, fontes e tipos de energia que são utilizados na vida cotidiana, com o intuito de construir o conhecimento sobre a natureza da matéria e os diferentes usos da energia.
+- **Vida e evolução:** o desdobramento se dará contemplando o estudo das relações entre os seres vivos, suas características e necessidades, e a vida como fenômeno natural e social, os elementos essenciais à sua manutenção e à compreensão dos processos evolutivos que geram a diversidade de formas de vida no planeta. A proposta também traz um enfoque importante relativo à saúde individual e coletiva, considerando as políticas públicas vigentes.
+- **Terra e universo:** nesta unidade objetiva-se a compreensão das características da Terra, do Sol, da Lua e de outros corpos celestes – suas dimensões, composição, localizações, movimentos e forças que atuam entre eles. Dentro desta perspectiva, busca-se promover conhecimentos sobre efeito estufa, camada de ozônio, vulcões, tsunamis, terremotos, clima e previsão do tempo, entre outros fenômenos.
+
+A seguir, são apresentados os quadros propostos para o trabalho em Ciências da Natureza com cada ano do Ensino Fundamental, contemplando objetivos de aprendizagem, conteúdos e o código de referência às habilidades explicitadas na BNCC. Os desdobramentos necessários a cada conteúdo que estejam além deste documento deverão ser considerados no Projeto Político Pedagógico de cada escola, considerando suas especificidades, bem como no Plano de Curso da disciplina proposto pelo professor.

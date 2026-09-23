@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a94da76fd617060006ab30219950087d2b380d64356968249",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 776,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 798,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 1574
+    }
+  },
+  "created_at": "2026-09-22T22:33:03Z",
+  "duration_seconds": 6.095,
+  "error": null,
+  "excerpt_id": "ma_em_31",
+  "filename": "ma_em_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b37504d59cba424e8e98b15b65c0a820668a3fe7c4922ac2ea620212f02c4d52",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8f636db8965302d1413482fb67d16b5170ea490f5032f57e9038d833ab48a1f3",
+    "rendered_prompt_sha256": "adcb92a2b0a5847b6c3d1b6600558217bf8d43cfcf9bc50b3619866a6b8f4a20",
+    "source_text_sha256": "82d7d8fa3c0ccd154daee39f61e245ee79414128ef55e24e3c90884957db673c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1319,
+    "filename": "ma_em_31.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_31.txt",
+    "state": "ma",
+    "word_count_original": 520
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_31.json"
+  },
+  "raw_response_text": "## 2.1. Do ensino fundamental ao ensino médio\n\nA Base Nacional Comum Curricular, homologada pelo Ministério da Educação em dezembro de 2017, prevista na Lei de Diretrizes e Bases da Educação Nacional (LDB) de 1996 e no Plano Nacional de Educação (PNE) de 2014, é um documento normativo que visa orientar os entes federados na elaboração de suas propostas curriculares, cujo foco deve estar alicerçado nos direitos de aprendizagem e desenvolvimento integral dos estudantes, desde a educação infantil até o ensino médio.\n\nPortanto, assegurar aprendizagens e experiências dotadas de sentidos e significados aos estudantes para que sejam capazes de atuar no mundo de maneira protagonista e executarem a visão que construíram para os seus futuros, sob a forma de um projeto de vida, é o objetivo do Documento Curricular do Território Maranhense, que se estrutura em dois volumes: Vol. I, que abrange as etapas da educação infantil ao ensino fundamental; e Vol. II, que contempla o ensino médio, etapa final da educação básica.\n\nO documento se orienta pelos princípios pedagógicos e educacionais norteadores para as diferentes etapas de ensino (educação infantil, ensino fundamental e ensino médio) e define as dez competências gerais associadas às competências específicas de cada área de conhecimento e suas respectivas habilidades.\n\nNesse sentido, o conjunto das competências específicas e habilidades definidas para o ensino médio está articulado às aprendizagens essenciais estabelecidas para o ensino fundamental, tendo por objetivo consolidar, aprofundar e ampliar a formação integral, atender às finalidades dessa etapa e contribuir para que os estudantes possam construir e realizar seus projetos de vida, em consonância com os princípios da justiça, ética e da cidadania.\n\nSeguindo os fundamentos pedagógicos do DCTMA – Vol. I, as competências gerais devem desenvolver-se ao longo de toda a educação básica, em cada etapa da escolaridade, como expressão dos direitos de aprendizagens, de forma progressiva, junto a cada estudante.\n\nA transição entre etapas da educação básica e, de forma mais específica, do ensino fundamental para o ensino médio, exige cuidados que permitam a integração e continuidade dos processos de aprendizagem e desenvolvimento. Essa mudança é vista por educadores e especialistas como a mais marcante e profunda das três transições pelas quais um estudante passa ao longo de sua vida, tendo em vista que a centralidade da adolescência está na descoberta de si mesmo, ou seja, é notadamente uma fase de construção progressiva da capacidade de autopercepção e da consciência de si próprio. As profundas transformações vividas pelo adolescente não são apenas aquelas já conhecidas e frequentemente confundidas como “problemáticas”, mas a procura e a construção da sua identidade, constituída por características, valores, ideais e crenças.\n\nPara alcançar os objetivos de cada etapa de ensino a partir da educação infantil, deve ser assegurada a cada criança e a cada estudante a vivência de experiências pedagógicas articuladas e progressivas, até a conclusão do ensino médio, que possam contribuir para o desenvolvimento das competências gerais. Desta forma, garantindo, em seu processo de aprendizagem, uma formação humana integral, que resulte em seres críticos, ativos e criativos, protagonistas capazes de se mobilizarem para a construção de uma sociedade justa e inclusiva.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

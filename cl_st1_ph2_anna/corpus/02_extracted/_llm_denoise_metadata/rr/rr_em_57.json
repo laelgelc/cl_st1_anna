@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c2677f12eb8dd3b006ab30d4b2edc87d28c537a69278bfcb3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1489,
+      "input_tokens_details": {
+        "cache_write_tokens": 1486,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1828,
+      "output_tokens_details": {
+        "reasoning_tokens": 377
+      },
+      "total_tokens": 3317
+    }
+  },
+  "created_at": "2026-09-22T23:20:57Z",
+  "duration_seconds": 14.869,
+  "error": null,
+  "excerpt_id": "rr_em_57",
+  "filename": "rr_em_57.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e3a71a93f67dee8ff399cd32e6ed96afd9238b6fd8e63879f9d020c5121c05a3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "34598c275eab2a5ca43142d8267283e18e4c34a3d8cdc87c5a86cec46997d62e",
+    "rendered_prompt_sha256": "e55083de99f1dc33afaf86c2127662f67a4bb8519dfb4946e15c11cae52ec3b9",
+    "source_text_sha256": "ab53994f92e2a3c68fdeee0ad4a3300b17eb1434af3b793c02f514db121b257e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_57.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3493,
+    "filename": "rr_em_57.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_57.txt",
+    "state": "rr",
+    "word_count_original": 920
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_57.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_57.json"
+  },
+  "raw_response_text": "### 5.9.4\n\nA oferta de formação técnica e profissional está prevista na meta 11 do Plano Nacional de Educação – PNE (BRASIL, 2014) e Plano Estadual de Educação de Roraima – PEE/RR (RORAIMA, 2015), aprovados para o decênio (2014-2024), que prevê triplicar as matrículas na EPT de nível médio, assegurando a qualidade da oferta e pelo menos 50% da expansão no segmento público. Esta meta, está alinhada ao desejo dos jovens roraimenses, constatada pela escuta online, quando 27% dos jovens responderam que 1 (uma) hora a mais por dia na escola, gostariam de receber atividades de preparação profissional.\n\nO Art. 7º da Resolução CNE nº 6 (BRASIL, 2012c), a oferta de EPT pelo sistema estadual se dão nas formas articulada e subsequente ao Ensino Médio, conforme quadro abaixo:\n\n| MODALIDADE | CATEGORIAS | CONDIÇÃO |\n|---|---|---|\n| Articulada | Integrada | Ofertada somente a quem já tenha concluído o Ensino Fundamental, com matrícula única na mesma instituição, de modo a conduzir o estudante à habilitação profissional técnica de nível médio ao mesmo tempo em que conclui a última etapa da Educação Básica. |\n| Articulada | Concomitante | Ofertada a quem ingressa no Ensino Médio ou já o estejam cursando, efetuando-se matrículas distintas para cada curso, aproveitando oportunidades educacionais disponíveis, seja em unidades de ensino da mesma instituição ou em distintas instituições de ensino. |\n| Articulada | Concomitante na forma | Oferta desenvolvida simultaneamente em distintas instituições educacionais, mas integrada no conteúdo, mediante a ação de convênio ou acordo de intercomplementaridade, para a execução de projeto pedagógico unificado. |\n| Subsequente |  | Desenvolvida em cursos destinados exclusivamente a quem já tenha concluído o Ensino Médio. |\n\nEm consonância com a Lei 13.415 (BRASIL, 2017a), o sistema de ensino estadual, sintetiza a organização da oferta de EPT, conforme se segue:\n\n- Aluno concluinte pode cursar mais de um itinerário;\n- Possibilidade de ser organizado em módulos<sup>32</sup> e adotar o sistema de créditos com terminalidade específica;\n\n<sup>32</sup> O sistema modular é uma modalidade de ensino que garante o EPT em localidades mais distantes, que precisavam de atendimento imediato, porém não é possível construir uma escola com toda a estrutura do ensino regular por ter menos alunos.\n\n- As escolas deverão orientar os alunos no processo de escolha das áreas de conhecimento ou de atuação profissional;\n- As instituições de ensino emitirão certificado com validade nacional;\n- Possibilidade de reconhecer competências e firmar convênios com instituições de educação a distância com notório reconhecimento;\n\nResumidamente, em acordo às Diretrizes da Resolução CNE nº 3 (BRASIL, 2018d), o sistema de ensino estadual, considera a oferta do itinerário formativo EPT, como:\n\n- a inclusão de vivências práticas de trabalho, constante de carga horária específica, no setor produtivo ou em ambientes de simulação, estabelecendo parcerias e fazendo uso, quando aplicável, de instrumentos estabelecidos pela legislação sobre aprendizagem profissional;\n- a possibilidade de concessão de certificados intermediários de qualificação para o trabalho, quando a formação for estruturada e organizada em etapas com terminalidade específica.\n- os profissionais com notório saber, são reconhecidos pelo sistema de ensino local, podendo atuar como docentes no Ensino Médio, apenas no itinerário EPT para ministrar conteúdos afins à sua formação ou experiência profissional, devidamente comprovadas, conforme inciso IV do art. 61 da LDB.\n\nA docência nas instituições que ofertam o itinerário EPT será realizada por profissionais com comprovada competência técnica referente ao saber operativo de atividades inerentes à respectiva formação técnica e profissional.\n\nO sistema de ensino local opta por estabelecer parcerias com outras instituições de ensino para oferta de diferentes itinerários. No caso da formação técnica e profissional, mesmo estudantes que não optarem inicialmente por esse itinerário podem realizar cursos técnicos ou FICs em escolas credenciadas da região. O CEE normatiza os critérios para o estabelecimento de parcerias, sendo a instituição de origem do aluno a responsável por estabelecer diretrizes para o acompanhamento dos cursos realizados em outras instituições.\n\nO roteiro de organização de trajetórias para a Produção Curricular específica do itinerário formativo EPT, considera:\n\n1. **Tipo de oferta de Itinerário Formativo de Formação Técnica Profissional**\n\n   Curso Técnico; FICs; Programa de Aprendizagem (Projeto Aprendiz).\n\n2. **Matrizes de Cursos Técnicos e Planos de Curso:**\n\n   As Matrizes curriculares de Cursos Técnicos serão revisadas a partir da parte comum do currículo, organizada por competência e incorporando componentes curriculares/unidades que contemplem os eixos estruturantes considerando foco pedagógico, competências e habilidades).\n\n3. **Planos de Curso:**\n\n   Conforme Art. 20 da Resolução CNE nº 6 (BRASIL, 2012c), os Plano de Curso devem apresentar:\n\n   - a identificação do curso justificativa e objetivos;\n   - requisitos e formas de acesso;\n   - perfil profissional das saídas intermediárias e perfil profissional de conclusão;\n   - organização curricular;\n   - critérios de aproveitamento de conhecimentos e experiências anteriores;\n   - critérios e procedimentos de avaliação de aprendizagem;\n   - biblioteca, laboratórios, instalações e equipamentos;\n   - perfil de professores, instrutores e técnicos;\n   - certificados e diplomas a serem emitidos.\n\n4. **Planos de Curso de FICs:**\n\n   Segundo CBO (BRASIL, 2010) os Planos de Cursos de FICs devem conter os mesmos requisitos acima.\n\n5. **Ementas de eletivas:**\n\n   Sugere-se que as ementas de eletivas contenham: tema, competências, habilidades, objetos de conhecimento, carga horária, perfil docente, quantidade de estudantes, recursos, avaliação.\n\n6. **Ementas de Módulo de Preparação Básica para o Trabalho:**\n\n   As ementas do Módulo de Preparação Básica para o Trabalho, devem conter as 4 unidades dos eixos estruturantes, de 60 a 80h cada um, sendo eles: Investigação Científica; Processos Criativos; Mediação e Intervenção Sociocultural e Empreendedorismo, composto de: tema, competências, habilidades, objetos de conhecimento, carga horária, perfil docente, quantidade de estudantes, recursos, avaliação.\n\n7. **Organização Curricular para participação no Projeto Aprendiz**\n\n   Esta organização deve apresentar uma composição de trajetórias possíveis articulando com as demais ofertas de itinerários formativos de áreas de conhecimento.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ce52c650630932b006ab2fba1c63087d2a0863c746f98c2ef",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 599,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 664,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 1263
+    }
+  },
+  "created_at": "2026-09-22T22:05:27Z",
+  "duration_seconds": 5.317,
+  "error": null,
+  "excerpt_id": "ac_ef_30",
+  "filename": "ac_ef_30.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8e2a07af0fa7fabd60d4483f7fa88809337e7809e5a80dcd22a4b399e580ae95",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bf9ec791a3f99d3396d6ac15def9c74a89db89f00d3f4df993aeeef7695c5aef",
+    "rendered_prompt_sha256": "29b24b59e09d73f0dc3f9b0b3c5a539b5bf6f41bdced1a67d4b3037309e0e7bd",
+    "source_text_sha256": "2581400d7c66fd10001f697fdde1e4ad9099dc55d8b645290299c19439b9221e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_30.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 24,
+    "filename": "ac_ef_30.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_30.txt",
+    "state": "ac",
+    "word_count_original": 361
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_30.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_30.json"
+  },
+  "raw_response_text": "# 4. ORIENTAÇÕES DE APLICABILIDADE DO COMPONENTE HISTÓRIA\n\n## 4.1. Anos iniciais\n\nO ensino de História para as crianças pequenas é um campo ainda aberto a investigações, principalmente quando os educadores se interessam por entender as noções de tempo que elas dominam, como elas interpretam suas convivências sociais e culturais e como constroem suas hipóteses a respeito dos acontecimentos, dos costumes, das histórias de diferentes épocas e povos. O que pensam a respeito, a partir de seu universo particular, do que ouvem, veem ou leem no mundo social? Como organizam o tempo? O que sabem e pensam sobre a história? Distinguem os contos de fadas das histórias vividas?\n\nDependendo dos objetivos, dos temas e dos procedimentos metodológicos, o estudo de História possibilita que, aos poucos, as crianças comecem a pensar além de suas dimensões individuais e além dos acontecimentos imediatos do presente, para considerarem às poucas vivências sociais, culturais e históricas em seu cotidiano. O estudo da história estimula, ao longo da escolaridade, as crianças a questionarem suas vivências e aprenderem a identificar, debater e analisar de maneira reflexiva suas ações como relacionadas aos contextos e ao tempo, identificando e discernindo acontecimentos, obras, costumes, organizações e valores comuns entre grupos, procurando alternativas de atitudes e compromissos com outras pessoas e com a realidade por elas vivida.\n\nEm relação à faixa de idade das crianças, é importante considerar que, apesar de pequenas, elas são inteligentes e capazes de estudar épocas e sociedades diferentes das suas, e que necessitam ter acesso a informações sobre outras culturas e modos de viver, outros tempos e contextos históricos, e acesso a possibilidades de organização de acontecimentos no tempo, para construírem relações temporais, amadurecerem suas noções e estabelecerem relações entre outras sociedades e os elementos conhecidos e reconhecidos por elas em seu cotidiano.\n\nComo bem ressalta a Base Nacional Comum Curricular, BNCC (2017), o ensino de História nos anos inicias contempla, antes de mais nada, a construção do sujeito. O processo tem início quando a criança toma consciência da existência de um “Eu” e de um “Outro”. Portanto, com estes indicativos estabelecidos, espera-se garantir os direitos de aprendizagens dos alunos, explicitados nos anos a seguir:",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

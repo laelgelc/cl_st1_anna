@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0be80a9771c88c18006ab3024b0ac087d2ad99a7d440156369",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 797,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 822,
+      "output_tokens_details": {
+        "reasoning_tokens": 220
+      },
+      "total_tokens": 1619
+    }
+  },
+  "created_at": "2026-09-22T22:33:53Z",
+  "duration_seconds": 6.572,
+  "error": null,
+  "excerpt_id": "ma_em_57",
+  "filename": "ma_em_57.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "53613c6a9d295ed55f3e08da12929f8c674d9fce96fc59dc369bb1ac1d5a29c0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4ff021165b2d7e04bf47048736190b5523d53906c316247c96d6c99051a28c20",
+    "rendered_prompt_sha256": "23085530a9b487547665d9763c611617564cb7de8f79328a38fd11079ea0df77",
+    "source_text_sha256": "fb26680d3262d84dde04a1b2a32f83e06f2fb2fa0094ab35583b784e2b4d71d9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_57.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1347,
+    "filename": "ma_em_57.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_57.txt",
+    "state": "ma",
+    "word_count_original": 358
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_57.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_57.json"
+  },
+  "raw_response_text": "## 5.5. Os eixos estruturantes e a oferta da formação técnica e profissional\n\nO currículo das diversas formas de ofertas do itinerário técnico e profissional do estado do Maranhão será organizado com vistas à garantia do desenvolvimento dos quatro eixos estruturantes e de suas habilidades no módulo de formação para o mundo do trabalho, contemplados na formação básica para o trabalho, que, por sua vez, dialogará continuamente com as competências gerais da BNCC e as relacionadas ao mundo do trabalho previstas pelo CNCT e pela CBO.\n\nEssa organização curricular objetiva proporcionar aos estudantes vivências de situações reais como subsídios formativos para o uso social e a aplicabilidade de suas aprendizagens. O quadro 5, a seguir, contempla as habilidades específicas do itinerário técnico e profissional associadas aos quatro eixos estruturantes.\n\n### A regulamentação de ofertas do itinerário técnico e profissional\n\nTodos os processos integrantes das formas de ofertas da formação técnica e profissional, além da observação das normas constantes em leis nacionais vigentes, nas DCN-EM e DCN-EPT, devem ser orientados e regulamentados no âmbito do Sistema Estadual de Ensino, por meio do Conselho Estadual de Educação, quais sejam:\n\n- Processo de escolha do itinerário formativo pelo estudante;\n- Oferta de mais de um itinerário formativo por município;\n- Transferência entre instituições ou oportunidade de mudar de itinerário;\n- Possibilidades de oferta por meio de parcerias, com credenciamento prévio de parcerias entre instituições de ensino para garantir a oferta de diferentes itinerários formativos;\n- Autorização específica para a oferta de formações experimentais de cursos de habilitação profissional técnica de nível médio que não constem do Catálogo Nacional de Cursos Técnicos;\n- Contabilização e certificação de atividades complementares, incluindo-as no histórico escolar do estudante;\n- Ampliação de ambiente de aprendizagem para além do espaço escolar em que o estudante está matriculado, com vistas a oportunizar aprendizagem profissional em espaços de trabalho (empresas);\n- Realização de atividades pedagógicas a distância, observando as cargas horárias estabelecidas em lei por turno de funcionamento e modalidade de ensino;\n- Aproveitamento de estudos realizados com êxito aos estudantes em processo de transferência de itinerário formativo, de instituição ou de rede de ensino;\n- Reconhecimento, validação e certificação de saberes adquiridos tanto no processo de escolarização quanto nas experiências de vida e/ou do trabalho dos estudantes;\n- Organização e propostas de progressão para atendimento dos direitos e objetivos de aprendizagem instituídos na BNCC na construção das propostas pedagógicas;\n- Reconhecimento de profissionais com notório saber para que possam atuar como docentes do ensino médio, especificamente no itinerário de formação técnica e profissional.\n\nNo âmbito de sua competência normativa, o Conselho Estadual de Educação do Maranhão constitui órgão de fundamental relevância para o planejamento, acompanhamento, supervisão, construção e/ou revisão e execução dos currículos da rede pública estadual do Maranhão.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

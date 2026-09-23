@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a13afeef62061c8006ab2fc69761087d2a024f7375c109c31",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 903,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 848,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 1751
+    }
+  },
+  "created_at": "2026-09-22T22:08:47Z",
+  "duration_seconds": 5.861,
+  "error": null,
+  "excerpt_id": "al_ef_60",
+  "filename": "al_ef_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "990da763775de3153151e6db78809eec04077d9574e114a62e91fcb7c7dc577c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5118d9c753e1785ad2175a78eed3bc99b599ed0fe179ece461214f1865952dcb",
+    "rendered_prompt_sha256": "e076103269e33725ee5ae115d7f4fdf9ea5c73f1a9fefb6ac2084eb5498584a9",
+    "source_text_sha256": "ad146adf92f2481720e3a187dfdd557842289ce30bd93047527fcea572983c63"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 198,
+    "filename": "al_ef_60.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_60.txt",
+    "state": "al",
+    "word_count_original": 543
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_60.json"
+  },
+  "raw_response_text": "## 1.2 Matemática como Área de Conhecimento\n\nObserva-se que a matemática pode ser incluída na área de Linguagens, uma vez que, como a Língua Materna, a matemática compõe o par de sistemas simbólicos fundamentais para a representação da realidade, para a expressão de si e compreensão do outro, para a leitura, em sentido amplo, de textos e do mundo dos fenômenos.\n\nEntretanto, segundo São Paulo (2008), desde a organização final dos PCN, prevaleceu a proximidade com as Ciências da Natureza, pois estas encontram na Matemática uma linguagem especialmente apropriada, desde as origens da Ciência moderna, com Galileu, até Descartes, com seu sonho de expressão de todo conhecimento confiável na linguagem matemática.\n\nContudo, de acordo com o Ministério da Educação, o Conselho Nacional de Educação e a Câmara de Educação, a partir da Resolução número 4 de 2010, que define as Diretrizes Curriculares Nacionais Gerais para a Educação Básica, a Resolução número 2 de 2012, que define as Diretrizes Curriculares Nacionais para o Ensino Médio, a nova proposta é a matemática como uma área de conhecimento, um terreno específico e distinto, tanto das Linguagens quanto das Ciências da Natureza.\n\n### Por que uma área específica para a matemática?\n\nA BNCC afirma que a matemática não se restringe apenas à quantificação de fenômenos determinísticos – contagem, medição de objetos, grandezas – e das técnicas de cálculo com os números e com as grandezas, pois também estuda a incerteza proveniente de fenômenos de caráter aleatório.\n\nA matemática cria sistemas abstratos, que organizam e inter-relacionam fenômenos do espaço, do movimento, das formas e dos números, associados ou não a fenômenos do mundo físico. Esses sistemas contêm ideias e objetos que são fundamentais para a compreensão de fenômenos, a construção de representações significativas e argumentações consistentes nos mais variados contextos.\n\nDe acordo com São Paulo (2008), o tratamento da matemática como área específica pode facilitar a incorporação crítica dos inúmeros recursos tecnológicos de que dispomos para a representação de dados e o tratamento das informações, na busca da transformação de informação em conhecimento. A apresentação da matemática, como uma área específica, não pretende amplificar suas supostas peculiaridades nem caracterizá-la como um tema excessivamente especializado ou relevante. Visa apenas a uma exploração mais adequada de suas possibilidades de servir às outras áreas, na ingente tarefa de transformar a informação em conhecimento em sentido amplo, em todas as suas formas de manifestação.\n\n## 2. Organização do Conhecimento Escolar de Matemática\n\nNeste capítulo, este Referencial Curricular sistematiza através de metodologias de ensino para a obtenção de aprendizagem, o ensino de matemática e sala de aula, auxiliando a elaboração curricular na escola. Está distribuído em seções, a seção 2.1 trata da educação matemática para sala de aula, onde se evidencia a evolução histórica do processo de ensino da matemática, 2.2 trata das concepções de ensino da matemática, 2.3 trata da matemática escolar, 2.4 evidencia as unidades temáticas, 2.5 Objetos do conhecimento e habilidades, 2.6 Competências específicas da matemática, 2.7 A Progressividade da Aprendizagem dos Conhecimentos Matemáticos.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

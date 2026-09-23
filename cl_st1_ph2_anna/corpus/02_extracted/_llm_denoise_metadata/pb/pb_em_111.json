@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_022b7afa7a9d64ea006ab3070432c087d2a58290c10e369b01",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 297,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 284,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 581
+    }
+  },
+  "created_at": "2026-09-22T22:53:59Z",
+  "duration_seconds": 3.156,
+  "error": null,
+  "excerpt_id": "pb_em_111",
+  "filename": "pb_em_111.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7b13aa35f75479288a6495f1fb3900c0228ec750d0544d9b7dac36acef0d244d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "224455e3465efbac59bc6a69af49416dafec634c8af803b593f3397225ecf555",
+    "rendered_prompt_sha256": "be3a0b85d8000666f7ae057b50d1634f953a0540ebd6e5cf86409fc70214ef16",
+    "source_text_sha256": "e98fbe5137378fb5abfb2e08cd8e21ce63317273a9b68df0ddf339fe27c1f339"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_111.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2246,
+    "filename": "pb_em_111.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_111.txt",
+    "state": "pb",
+    "word_count_original": 151
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_111.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_111.json"
+  },
+  "raw_response_text": "### 4.2.3 EMENTÁRIO\n\nA ementa é o instrumento norteador do professor. Nesse contexto, todo o processo de mudança ou atualização do currículo deve refletir nele. Assim como as competências e as habilidades, a elaboração desse instrumento deve contar com a participação da equipe docente para que tudo esteja alinhado, condizente com a realidade e funcional.\n\nTodos os tópicos desse instrumento, como metodologia, objetivos, avaliação, conteúdos, entre outros, devem estar em conformidade com as competências e habilidades e trazer clareza referente ao processo de articulação curricular.\n\nDessa forma, momentos de articulação curricular entre os docentes da Base Comum e os da Área Técnica possibilitarão a construção desse instrumento. Mas é importante lembrar que esses momentos devem fazer parte não só da construção, mas da rotina escolar para que os processos aconteçam de forma efetiva e a ementa se torne apenas a norteadora para vários outros processos, ideias e metodologias de articulação.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

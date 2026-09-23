@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d160cf404e4e35d006ab30572ff0887d28ca72c4a6e1f2b54",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 968,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 946,
+      "output_tokens_details": {
+        "reasoning_tokens": 173
+      },
+      "total_tokens": 1914
+    }
+  },
+  "created_at": "2026-09-22T22:47:22Z",
+  "duration_seconds": 7.712,
+  "error": null,
+  "excerpt_id": "pa_ef_6",
+  "filename": "pa_ef_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "44c13ca255ddf861cd9595397a34b45be5381243b8c0eda5ecdeb4e854c0dd90",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e3835a3b1b5bff1fdd63214237241ee6fde78080e394ca4492023c747084f546",
+    "rendered_prompt_sha256": "57e9e9ca610a1db4f839bd36b3654fab6ebdd0782af5d3ee95c7d406d202aad4",
+    "source_text_sha256": "c6e53794b1352e44459cce1b43e16a356885fad80995479114b040e264dadbf8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_ef_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2026,
+    "filename": "pa_ef_6.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_ef_6.txt",
+    "state": "pa",
+    "word_count_original": 626
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_ef_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_ef_6.json"
+  },
+  "raw_response_text": "### 3.2.2 Ciclos de Aprendizagem e Avaliação Formativa\n\nAtualmente, algumas redes e/ou escolas, em território nacional, organizam o seu currículo por ciclos de aprendizagem como se propõe neste documento, importando assim o que cada aluno vai aprendendo e como organiza e orienta seu processo de aprendizagem em colaboração com o professor e demais colegas em tempo e ritmos diferenciados.\n\nO ciclo designa, portanto um período temporal ou duração de um processo pedagógico alongado para que algo ocorra, no caso a aprendizagem do aluno. A organização do Ensino Fundamental em ciclos pressupõe, assim a garantia de que o ritmo dos alunos, em organizar o conhecimento seja respeitado, por isso o objetivo de aprendizagem se torna aspecto central porque o que importa é como o aluno aprende, contrariando a ideia de que o sucesso da aprendizagem estava garantido pela maneira como o professor ensinava.\n\nNesse modelo de organização de ensino, o professor apoia sua prática pedagógica nos objetivos de aprendizagem (focados no estudante), elaborados em aliança com métodos, atividades e conteúdos utilizados para a obtenção de uma aprendizagem significativa e o protagonismo daqueles que aprendem.\n\nA ideia é alongar a conquista desses objetivos de aprendizagem pelo estudante pelos anos que compõem o Ciclo, pois os percursos na elaboração de conhecimento são individuais; cada sujeito tem seu tempo para aprender que nem sempre se alinha com o tempo estabelecido pelo currículo linear, que tradicionalmente a escola brasileira assumiu.\n\nO ensino organizado mediante essa proposta se constitui numa iniciativa que se desenvolveu para responder, de uma maneira mais ou menos satisfatória, às mutáveis demandas e necessidades as quais a escola deve responder no cenário atual, além do enfrentamento aos índices elevados de reprovação e evasão escolares. Os Ciclos, assim, favorecem novo lastro temporal ao entender: “[...] o tempo escolar organizado em fluxos mais flexíveis, mais longos e mais atentos às múltiplas dimensões dos sujeitos socioculturais” (MINAS GERAIS, 1994, p. 15).\n\nNão existe um modo único de organização, pelo contrário, é uma proposta manifesta em diferenciadas experiências, algumas consolidadas[^25], que trazem argumentos favoráveis como:\n\n- Não só favorece o processo ensino-aprendizagem, mas se constitui num forte elemento na melhoria da escolaridade;\n- Potencializa a comunicação e o intercâmbio entre docentes, o que repercute na qualidade do ensino e no acompanhamento personalizado da aprendizagem dos alunos;\n- Cada aluno possui um ritmo e um tempo próprios para aprender, logo a sala de aula passa a se constituir num espaço heterogêneo, múltiplo e diverso.\n\nNesse contexto passa a ser relevante a avaliação da aprendizagem como aliada no planejamento do professor, não para aprovar ou reprovar o aluno, mas como um diagnóstico do processo de construção do conhecimento, no (re)encaminhamento da ação, possibilitando consequências na direção dos resultados que se pretende.\n\nO que tem de nortear o processo avaliativo não são os conteúdos, mas os objetivos de aprendizagem, indagando-se a partir das seguintes questões:\n\n- Como cada educando aprendeu?\n- Como sistematizou os conhecimentos?\n- Quais as dificuldades do processo de aprender?\n\nAs diversas realidades impõem desafios ao professor, mas ao focar na qualidade da aprendizagem e não na quantidade de conteúdos, até porque a Base traz à tona o foco em competências e habilidades (BRASIL, 2017a), ganha tempo para investir naquilo que de fato importa na sala de aula – a garantia de que todos aprendam.\n\n[^25]: Escola Candanga (DF); Escola Plural (MG); Escola Cidadã (RS), Escola Cabana (PA); entre outras.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

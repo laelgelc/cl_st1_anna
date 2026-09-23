@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a775c961bcc1dc2006ab30fa0818887d298acf6c5524f4bdd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 889,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 861,
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "total_tokens": 1750
+    }
+  },
+  "created_at": "2026-09-22T23:30:47Z",
+  "duration_seconds": 6.754,
+  "error": null,
+  "excerpt_id": "sp_em_21",
+  "filename": "sp_em_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cfaf9b84df41ba1b9156236b1af3e596c45671527db51cc18f8badea22194d2c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "63a45e9a95c68754dd0741ebcb936c59854f99b13054b009c9db48c751856896",
+    "rendered_prompt_sha256": "1c4cd6cbf23966ffc1de7f4435a6f8d562e3bee1e6583010d4016c15955910d3",
+    "source_text_sha256": "c4eb791e9b700f883d50a0cb97f9000fc2dadfadb71c1767e0952c671682d20d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3915,
+    "filename": "sp_em_21.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_21.txt",
+    "state": "sp",
+    "word_count_original": 532
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_21.json"
+  },
+  "raw_response_text": "## Área de Matemática e suas Tecnologias\n\n“A matemática é uma atividade humana, um fenômeno científico e social, um conjunto de métodos usados para ajudar a elucidar o mundo, e ela faz parte da nossa cultura.” Jo Boaler, 2019\n\nO Currículo Paulista para a Área de Matemática do Ensino Médio considera fundamental a premissa preconizada nessa citação, e propõe uma reflexão sobre o processo de ensino e aprendizagem da Matemática, nesta etapa.\n\nConvém ressaltar, que o nosso maior propósito é o desenvolvimento do conhecimento matemático esperado para o estudante do Ensino Médio, mas sem perder de vista que, para isso, não basta que ele domine os conceitos e procedimentos previstos. Além desse domínio, o aprendizado no componente curricular compreende dotar o estudante de um conjunto de competências e habilidades para raciocinar, justificar conclusões e expressar ideias de maneira clara, o que se alcança por meio de atividades matemáticas problematizadoras. Estas oferecem ao estudante a chance de compreender o sentido do aprendizado e, por extensão, a relevância social do conhecimento matemático.\n\nPor essa via, e reconhecendo a diversidade na maneira de ser e aprender de cada estudante, em sala de aula, espera-se que todos tenham a oportunidade e o direito de aprender Matemática.\n\nA Matemática permite ao estudante mobilizar conhecimentos para identificar modelos no enfrentamento de situações complexas, fazer observações e análises críticas, coletar e organizar dados identificando evidências, levantar hipóteses, fazer críticas, fazer conjecturas e decidir se são válidas ou devem ser refutadas. Trata-se de capacidades essenciais para a vida pessoal e profissional.\n\nNesse sentido, para além de normatizar repertórios de saberes codificados, um currículo precisa ser um instrumento que propicie o domínio próprio do conhecimento, com a autonomia de formalização do sujeito de aprendizagem. Segundo Grundy (1987):\n\n> O currículo não é um conceito, mas uma construção cultural. Isto é, não se trata de um conceito abstrato que tenha algum tipo de existência fora e previamente à experiência humana. É antes, um modo de organizar uma série de práticas educativas. (GRUNDY, 1987 apud Sacristán, 2000, p.14)\n\nDe modo geral, o processo de construção e apropriação de princípios e desenvolvimento de habilidades e competências em Matemática, particularmente na situação de formação na Educação Básica, se propõe a descrever e explicar os fenômenos específicos às relações entre o ensino e a aprendizagem.\n\nIgualmente, os estudos referentes à aprendizagem, se fundamentam no que o sujeito constrói, de maneira ativa, interagindo com o ambiente e organizando suas construções mentais.\n\nO desenvolvimento do conhecimento matemático envolve a utilização da metodologia da resolução de problemas, especialmente no que tange às contextualizações, à busca de instrumentação crítica para o mundo do trabalho e à aproximação dos conteúdos escolares. Nesse sentido, o ato de abstrair e ressignificar os saberes matemáticos pode favorecer a elaboração de novas situações-problema. Nessa perspectiva, pretende-se que o estudante também formule problemas em outros contextos e áreas do conhecimento.\n\nHaja vista a importância dos saberes da Matemática imbricados com os conteúdos dos TCT propostos pela BNCC, todo o aparato teórico e metodológico do conhecimento matemático se faz presente nas questões de Ciência e Tecnologia, Educação Alimentar e Nutricional, Educação Ambiental, Educação Financeira, Educação Fiscal e Educação para o Consumo, Saúde e Trabalho.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

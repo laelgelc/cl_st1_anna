@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04e44a32a73e58ac006ab30d22320887d28ed5bdb18e61d956",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 747,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 872,
+      "output_tokens_details": {
+        "reasoning_tokens": 221
+      },
+      "total_tokens": 1619
+    }
+  },
+  "created_at": "2026-09-22T23:20:08Z",
+  "duration_seconds": 6.84,
+  "error": null,
+  "excerpt_id": "rr_em_20",
+  "filename": "rr_em_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f4a2c89337320d9af1066d2edc4f99f2603c233fd2c86653b208f0692e9f3d29",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4606d3327054ef84029ef5fbba8aab878d987c20fc6159597aa092e4a9968494",
+    "rendered_prompt_sha256": "e3b81bd88887f50c9ee602e3e9e214d4f5549034a23fd71517afa5b00d513a0f",
+    "source_text_sha256": "0a19409ee0cc046f6e7acaa44f19f6a8496794aef2d221161a957ffb21cc5dd9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3453,
+    "filename": "rr_em_20.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_20.txt",
+    "state": "rr",
+    "word_count_original": 465
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_20.json"
+  },
+  "raw_response_text": "### 3.1.\n\nA partir de 2022, o Ensino Médio no Estado de Roraima estará estruturado em 3.000 horas, sendo que cada série contemplará 1.000 horas, distribuídas entre FGB e IF, com ampliação progressiva da carga horária deste, ao longo das séries. Para tanto, define-se nesta estrutura de distribuição de carga horária para o Novo Ensino Médio em Roraima:\n\nDiante dessa estrutura, as redes e instituições de ensino deverão ofertar mais de um itinerário formativo, principalmente quando se tratar de única escola de Ensino Médio em um município. Para isso, devem se atentar que os IF sejam de áreas distintas, permitindo a escolha dos estudantes, dentre diferentes arranjos curriculares, atendendo, assim, a heterogeneidade e pluralidade de condições, interesses e aspirações.\n\nDessa forma, para garantir a oferta de diferentes IF, podem ser estabelecidas parcerias entre diferentes instituições, entidades e empresas, desde que sejam previamente credenciadas pelo sistema de ensino, por meio de Acordo de Cooperação Técnica - ACT entre os parceiros, conforme previsto em normativas vigentes. Assim, as redes de ensino, ainda poderão articular parcerias em seu contexto local, com destaque para instituições que já possuem expertise, estrutura e interesse para constituir a parceria, das quais destacamos, as instituições de ensino técnico, superior, empresas que compõem o sistema S, dentre outras.\n\nNa oferta de IF, as redes e instituições de ensino devem considerar que o ingresso do estudante pressupõe a escolha de qual IF ele deseja cursar. Dessa forma, e entendendo a importância de se desenvolver e amadurecer a experiência do aluno para uma escolha mais consistente e alinhada com seus anseios.\n\nAssim, o DCRR estabelece que na 1ª série do EM a escolha dos estudantes se dará em relação às unidades curriculares “eletivas” ofertadas pela escola e na 2ª série do EM o estudante realizará a escolha da unidade curricular de “aprofundamento” dos IF de áreas do conhecimento e de EPT. Vale salientar, a importância da presença de carga horária específica nos itinerários formativos, relacionada ao desenvolvimento do “Projeto de Vida” desde o início da oferta do Novo Ensino Médio e com ênfase nos primeiros anos da formação para fortalecer a tomada de decisão dos estudantes.\n\nAs unidades curriculares ofertadas nos itinerários formativos poderão ser agrupadas em periodicidades distintas. Nesse sentido, existe a possibilidade de sua oferta com duração de um ano, um semestre, um bimestre, entre outras formas temporais.\n\nPara tanto, as redes e instituições de ensino devem aprovar junto ao Conselho Estadual de Educação de Roraima, suas matrizes curriculares de referência, considerando as especificidades da etapa e das modalidades a serem ofertadas. Além disso, as matrizes curriculares apresentadas para aprovação, deverão especificar a distribuição de carga horária das unidades curriculares, a temporalidade das unidades curriculares, o processo de progressão e avaliação de aprendizagem, respeitando as DCNEM (BRASIL, 2018d) e demais normativas.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

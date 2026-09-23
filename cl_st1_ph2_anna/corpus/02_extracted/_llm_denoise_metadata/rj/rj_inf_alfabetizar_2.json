@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09b9373f278812b1006ab30a93367487d28cc7af2ae91ecf58",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 664,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 583,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 1247
+    }
+  },
+  "created_at": "2026-09-22T23:09:12Z",
+  "duration_seconds": 4.854,
+  "error": null,
+  "excerpt_id": "rj_inf_alfabetizar_2",
+  "filename": "rj_inf_alfabetizar_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "aa02d76230d6d7d96c8bb967c0bd2822f082484b17fcd93f1abf69c3e606b294",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "688044710b8e8d021d0cfc7c78cfa18eb419be1dc20f93c098d3f311a33ab481",
+    "rendered_prompt_sha256": "01c53ab1050b17f6732b1f509e581703925b035d2be0c324ce44808eb09220cb",
+    "source_text_sha256": "b70a6a0943e1d4aacfeb4eec51755700bfabe877f8bd67347eb1109bf505f903"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_alfabetizar_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2893,
+    "filename": "rj_inf_alfabetizar_2.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_alfabetizar_2.txt",
+    "state": "rj",
+    "word_count_original": 390
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_alfabetizar_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_alfabetizar_2.json"
+  },
+  "raw_response_text": "Nas sociedades letradas, desde os primeiros meses, as crianças estão em permanente contato com a linguagem escrita. É por meio desse contato diversificado em seu ambiente social que descobrem o aspecto funcional da comunicação escrita, desenvolvendo interesse e curiosidade por essa linguagem. Diante do ambiente de letramento em que vivem, podem fazer, a partir de dois ou três anos de idade, uma série de perguntas, como “O que está escrito aqui?”, ou “O que isto quer dizer?”, indicando sua reflexão sobre a função e o significado da escrita, ao perceberem que ela representa algo.\n\nSabe-se que, para aprender a escrever, a criança terá de lidar com dois processos de aprendizagem paralelos: o da natureza do sistema de escrita da língua – o que a escrita representa e como – e o das características da linguagem que se usa para escrever. A aprendizagem da linguagem escrita está intrinsecamente associada ao contato com textos diversos, para que as crianças possam construir sua capacidade de ler, e às práticas de escrita, para que possam desenvolver a capacidade de escrever autonomamente.\n\nA observação e a análise das produções escritas das crianças revelam que elas tomam consciência, gradativamente, das características formais dessa linguagem. Constata-se que, desde muito pequenas, as crianças podem usar o lápis e o papel para imprimir marcas, imitando a escrita dos mais velhos, assim como se utilizam de livros de literatura, revistas, jornais, gibis, rótulos etc. para “ler” o que está escrito. Não é raro observar crianças muito pequenas, que têm contato com material escrito, folheando um livro, emitindo sons e fazendo gestos, como se estivessem lendo.\n\nA escrita da criança não resulta de simples cópia de um modelo externo, mas é um processo de construção pessoal, como diz Emilia Ferreiro (2000). Essa autora também nos convida a defender a importância de a Educação Infantil assumir o compromisso com um ambiente alfabetizador inundado da linguagem escrita em nossas salas das creches e pré-escolas. Nesse ambiente, devem constar os textos orais das crianças registrados pelo professor na forma escrita, além de haver a presença constante e pujante de bilhetes, cartas, receitas, livros de literatura infantil, entre outros. Nesse sentido, a linguagem escrita aparece no cotidiano do trabalho como uma das múltiplas linguagens (oral, mímica, desenho, colagem, pintura etc.) que as crianças utilizam para livremente exprimir suas vivências, experiências, sentimentos, desejos e necessidades.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

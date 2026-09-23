@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_036f6b00858a54d9006ab2fdd8b7b487d2a65fb5a4d90f472c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 481,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 780,
+      "output_tokens_details": {
+        "reasoning_tokens": 393
+      },
+      "total_tokens": 1261
+    }
+  },
+  "created_at": "2026-09-22T22:14:55Z",
+  "duration_seconds": 6.84,
+  "error": null,
+  "excerpt_id": "ap_ef_22",
+  "filename": "ap_ef_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "498f38ee85e18445368edcf729d76dd3085ed4d89176f89cabc99f0bcaf4efc1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "78387d20538a2a7792876dee5793c95f366bc881b72d55b267d63029c1661cd4",
+    "rendered_prompt_sha256": "ba7de857c41c6cecc72c33eb7395d53dec75d3fcd78dfb237d3a51283cd6fcef",
+    "source_text_sha256": "29f9bb28b9ee912d98a62ba07bdaa697f653032259237c876a8441005e76f8a0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_ef_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 472,
+    "filename": "ap_ef_22.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_ef_22.txt",
+    "state": "ap",
+    "word_count_original": 258
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_ef_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_ef_22.json"
+  },
+  "raw_response_text": "4. Experienciar a ludicidade, a percepção, a expressividade e a imaginação, ressignificando espaços da escola e de fora dela no âmbito da Arte.\n\n5. Mobilizar recursos tecnológicos como formas de registro, pesquisa e criação artística.\n\n6. Estabelecer relações entre arte, mídia, mercado e consumo, compreendendo, de forma crítica e problematizadora, modos de produção e de circulação da arte na sociedade.\n\n7. Problematizar questões políticas, sociais, econômicas, científicas, tecnológicas e culturais, por meio de exercícios, produções, intervenções e apresentações artísticas.\n\n### 4.4.2. Arte\n\n**Competências Específicas de Arte para o Ensino Fundamental**\n\n1. Explorar, conhecer, fruir e analisar criticamente práticas e produções artísticas e culturais do seu entorno social, dos povos indígenas, das comunidades tradicionais brasileiras e de diversas sociedades, em distintos tempos e espaços, para reconhecer a arte como um fenômeno cultural, histórico, social e sensível a diferentes contextos e dialogar com as diversidades.\n\n2. Compreender as relações entre as linguagens da Arte e suas práticas integradas, inclusive aquelas possibilitadas pelo uso das novas tecnologias de informação e comunicação, pelo cinema e pelo audiovisual, nas condições particulares de produção, na prática de cada linguagem e nas suas articulações.\n\n3. Pesquisar e conhecer distintas matrizes estéticas e culturais – especialmente aquelas manifestas na arte e nas culturas que constituem a identidade brasileira –, sua tradição e manifestações contemporâneas, reelaborando-as nas criações em Arte.\n\n8. Desenvolver a autonomia, a crítica, a autoria e o trabalho coletivo e colaborativo nas artes.\n\n9. Analisar e valorizar o patrimônio artístico nacional e internacional, material e imaterial, com suas histórias e diferentes visões de mundo.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_050d4dabd79a4a23006ab303e767b887d2b6627db2158c319a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 942,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 878,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 1820
+    }
+  },
+  "created_at": "2026-09-22T22:40:46Z",
+  "duration_seconds": 7.144,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_25",
+  "filename": "ms_inf_e_ef_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "610611581a25eed724acfd40107ed9b07e48a9bcddfb9d0d945d8bf3b026f594",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a21fe4804ba460d3ee6387ec96a56c71d53513647fb6d2c42105039cee773b79",
+    "rendered_prompt_sha256": "8618d56a64052ba87d8f25bf82651298b153811a4b223ff113d70f0c2e1ee6eb",
+    "source_text_sha256": "80cfbc91311d28020fe174ce40c7b43fbd2746b60ac1b62cfd402d9deb814476"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1744,
+    "filename": "ms_inf_e_ef_25.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_25.txt",
+    "state": "ms",
+    "word_count_original": 521
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_25.json"
+  },
+  "raw_response_text": "### 7.2 Direitos de Aprendizagem\n\nAs Diretrizes Curriculares Nacionais para a Educação Infantil – DCNEI definem como eixos norteadores das práticas pedagógicas as interações e a brincadeira. Com o objetivo de garantir à criança acesso a processos de apropriação e articulação de conhecimentos e aprendizagens de diferentes linguagens, assim como o direito à proteção, saúde, liberdade, confiança, ao respeito, à dignidade, convivência e a interação com outras crianças e adultos, foram estabelecidos na Base Nacional Comum Curricular (BNCC) seis direitos de aprendizagem e desenvolvimento que deverão permear as vivências de todas as crianças brasileiras. São eles:\n\n- Conviver com outras crianças e adultos, em pequenos e grandes grupos, utilizando diferentes linguagens, ampliando o conhecimento de si e do outro, o respeito em relação à cultura e às diferenças entre as pessoas.\n- Brincar cotidianamente de diversas formas em diferentes espaços e tempos, com diferentes parceiros (crianças e adultos), ampliando e diversificando seu acesso a produções culturais, seus conhecimentos, sua imaginação, sua criatividade, suas experiências emocionais, corporais, sensoriais, expressivas, cognitivas, sociais e relacionais.\n- Participar ativamente, com adultos e outras crianças, tanto do planejamento da gestão da escola e das atividades propostas pelo educador quanto da realização das atividades da vida cotidiana, tais como a escolha das brincadeiras, dos materiais e dos ambientes, desenvolvendo diferentes linguagens e elaborando conhecimentos, decidindo e se posicionando.\n- Explorar movimentos, gestos, sons, formas, texturas, cores, palavras, emoções, transformações, relacionamentos, histórias, objetos, elementos da natureza, na escola e fora dela, ampliando seus saberes sobre a cultura em suas diversas modalidades: as artes, a escrita, a ciência e a tecnologia.\n- Expressar, como sujeito dialógico, criativo e sensível, suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, questionamentos, por meio de diferentes linguagens.\n- Conhecer-se e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações, brincadeiras e linguagens vivenciadas na instituição escolar e em seu contexto familiar e comunitário.\n\nOs Direitos de Aprendizagem e Desenvolvimento estão articulados aos três princípios elencados nas DCNEI, quais sejam, princípios éticos: da autonomia, responsabilidade, da solidariedade e do respeito ao bem comum, ao meio ambiente e às diferentes culturas, identidades e singularidades, correspondem aos direitos de conviver e conhecer-se; políticos: dos direitos de cidadania, do exercício da criticidade e do respeito à ordem democrática, correspondentes aos direitos de expressar-se e de participar; estéticos: da sensibilidade, criatividade, ludicidade e da liberdade de expressão nas diferentes manifestações artísticas e culturais, referentes aos direitos de brincar e explorar. Portanto, esses princípios devem nortear todas as ações dos profissionais e as experiências vivenciadas pelas crianças.\n\nNa garantia desses direitos é necessário considerar que as crianças são diferentes, possuem culturas diversas, trazendo com elas valores, atitudes, procedimentos e vivências de realidades diversificadas, portanto devem ser respeitados o tempo, o modo de aprender e de se expressar de cada uma delas.\n\nA intencionalidade educativa na Educação Infantil consiste em ações planejadas, nas quais os direitos de aprendizagem devem ser assegurados, considerando as relações e interações das crianças com os saberes e práticas sociais e os conhecimentos sistematizados, sem perder de vista as competências gerais da Educação Básica.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

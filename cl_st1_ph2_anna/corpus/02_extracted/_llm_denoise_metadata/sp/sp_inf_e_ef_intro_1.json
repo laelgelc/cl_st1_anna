@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bfc61d79e2d77ca006ab30fd03dd887d29757314a7a59de09",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 976,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1393,
+      "output_tokens_details": {
+        "reasoning_tokens": 433
+      },
+      "total_tokens": 2369
+    }
+  },
+  "created_at": "2026-09-22T23:31:37Z",
+  "duration_seconds": 9.251,
+  "error": null,
+  "excerpt_id": "sp_inf_e_ef_intro_1",
+  "filename": "sp_inf_e_ef_intro_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "56c883d820a6896a3a0145962c1d5b96d03b9a2b4f3d40918e3bf3ec5de45d26",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3061ee0ecf55ef30f9fabf7093ef6013ce30fc830784715b38b891b7e0e9547e",
+    "rendered_prompt_sha256": "94939ff61e038aa92aaa2cb720031ddd34eef9f832f5a8cabf6b1727164c7520",
+    "source_text_sha256": "9a3d09e853cbd8b8d8cc120a93b5bf82805500cdd59a902f377784f2b8925f56"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_inf_e_ef_intro_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3954,
+    "filename": "sp_inf_e_ef_intro_1.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_inf_e_ef_intro_1.txt",
+    "state": "sp",
+    "word_count_original": 535
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_inf_e_ef_intro_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_inf_e_ef_intro_1.json"
+  },
+  "raw_response_text": "Introdução\n\n## O Estado de São Paulo: números que impressionam!\n\nO Estado de São Paulo é dividido atualmente em 645 municípios que ocupam um total de pouco mais de 248.000 km² de território, o que representa apenas 2,9% da superfície terrestre brasileira. No entanto, os municípios paulistas contam, juntos, com aproximadamente 45 milhões de habitantes, de acordo com as estimativas populacionais do Instituto Brasileiro de Geografia Estatística (IBGE) de março de 2019. Esse montante corresponde a mais de 22% do total da população do nosso país. A população paulista é superior à de países como o Canadá (35.881.659), Peru (31.331.228) e Ucrânia (43.952.299) e muito próxima à da Argentina (44.694.198), de acordo com o Atlas The World Fact Book, da CIA — Central Intelligence Agency (2018)¹.\n\n¹ Informações disponíveis em: [https://www.cia.gov/library/publications/resources/the-world-factbook/fields/335rank.html](https://www.cia.gov/library/publications/resources/the-world-factbook/fields/335rank.html).\n\nA população paulista é uma das mais diversificadas e descende principalmente de africanos, indígenas, italianos, portugueses e de migrantes de outras regiões do país. Outras grandes correntes imigratórias, como a de árabes, alemães, espanhóis, japoneses e chineses, tiveram presença significativa na composição étnica e cultural da população do estado. Esses dados mostram quão diversa é a população paulista, assim como a enormidade do quantitativo de pessoas que habitam um espaço tão pequeno, quando comparado às dimensões continentais do país.\n\nNa Educação Básica, as matrículas nas diferentes redes atingem o total de 7.433.331, segundo dados coletados no Cadastro de Alunos em fevereiro de 2019. As tabelas 1 a 5 apresentam a distribuição dessas matrículas, permitindo mais acurada avaliação da dimensão das redes e da quantidade de crianças e estudantes atendidos.\n\n### Tabela 1 — Distribuição das crianças e estudantes matriculados na Educação Básica\n\n| Rede | Matrículas |\n|---|---:|\n| Privada | 699.954 |\n| Estadual | 3.241.473 |\n| Municipal | 3.491.994 |\n| Total | 7.433.421 |\n\nFonte: Cadastro de Alunos, fev. 2019\n\n### Tabela 2 — Distribuição das crianças matriculadas na Educação Infantil\n\n| Rede | Matrículas |\n|---|---:|\n| Particular | 324.072 |\n| Estadual | 69 |\n| Municipal | 1.279.461 |\n| Total | 1.603.602 |\n\nFonte: Cadastro de Alunos, fev. 2019\n\n### Tabela 3 — Distribuição dos estudantes matriculados no Ensino Fundamental — Anos Iniciais\n\n| Rede | Matrículas |\n|---|---:|\n| Particular | 91.068 |\n| Estadual | 646.725 |\n| Municipal | 1.667.015 |\n| Total | 2.404.808 |\n\nFonte: Cadastro de Alunos, fev. 2019\n\n### Tabela 4 — Distribuição dos estudantes matriculados no Ensino Fundamental — Anos Finais\n\n| Rede | Matrículas |\n|---|---:|\n| Particular | 60.150 |\n| Estadual | 1.390.583 |\n| Municipal | 532.619 |\n| Total | 1.983.352 |\n\n### Tabela 5 — Distribuição dos estudantes matriculados no Ensino Médio\n\n| Rede | Matrículas |\n|---|---:|\n| Particular | 224.664 |\n| Estadual | 1.204.096 |\n| Municipal | 12.899 |\n| Total | 1.441.569 |\n\nFonte: Cadastro de Alunos, fev. 2019\n\nCabe destacar que os números representados nas tabelas anteriores não incluem aos estudantes matriculados na Educação de Jovens e Adultos e na Educação Profissional. Somadas essas matrículas, segundo o Censo Escolar de 2015, o total de estudantes matriculados em escolas no Estado de São Paulo chega ao número 10.051.652.\n\nTais dados ressaltam, por um lado, o desafio enfrentado pelo Estado de São Paulo para assegurar educação de qualidade a todos os estudantes matriculados nas escolas paulistas; por outro, a importância que o Currículo Paulista representa para a garantia de um patamar comum de aprendizagens.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

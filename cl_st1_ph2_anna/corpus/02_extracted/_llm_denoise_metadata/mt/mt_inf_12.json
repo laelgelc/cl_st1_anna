@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_036ea710116c8791006ab3052b000087d2b6c1fda8814049d8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 948,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 953,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 1901
+    }
+  },
+  "created_at": "2026-09-22T22:46:09Z",
+  "duration_seconds": 7.063,
+  "error": null,
+  "excerpt_id": "mt_inf_12",
+  "filename": "mt_inf_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "322f21242609b7d5f4327a837d49a862b4093732274be120a62a08e64aeb8a04",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "455ea021b2fde0a67103ec6f4c5f7934e5caa5dd0bd86d61d9088ee922549dba",
+    "rendered_prompt_sha256": "6f5096f6494699dd75eb38d2209738f1753e86069c711c346b08be672818131a",
+    "source_text_sha256": "176cb9bac5d03cc710b9c8c62642d796b3c25901713f1887653a562795178174"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_inf_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1979,
+    "filename": "mt_inf_12.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_inf_12.txt",
+    "state": "mt",
+    "word_count_original": 553
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_inf_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_inf_12.json"
+  },
+  "raw_response_text": "## 2.1. O Eu, o Outro e o Nós (EO)\n\nNa definição do campo de experiência o eu, o outro e o nós (EO), o ensino Mato-Grossense, de acordo com a BNCC (2017), compreende que os direitos da criança precisam ser assegurados desde a organização dos ambientes educativos, do espaço e do tempo, de modo a promover oportunidades de se conhecer e de se relacionar autonomamente.\n\nEsse campo de experiência envolve conceitos fundamentais para o desenvolvimento da criança, na construção da sua identidade individual e social – O EU; nas relações pessoais com outras crianças, com adultos e com o meio físico – O OUTRO; na participação em atividades coletivas – O NÓS. Nessas convivências a criança pode desenvolver formas amorosas, afetivas, cooperativas e democráticas de se relacionar com outras pessoas e com o mundo, de modo a ampliar a sua autonomia, autoconfiança, autoestima e autocuidado. Tais conceitos, ampliam o olhar das crianças para noções de equidade, de não discriminação de outros seres humanos, de preservação do nosso Planeta e da existência de outros ambientes sociais, de outras culturas, lugares e costumes, diferentes dos seus.\n\nA BNCC assim descreve o campo de experiências o eu, o outro e o nós (EO):\n\n> É na interação com os pares e com adultos que as crianças vão constituindo um modo próprio de agir, sentir e pensar e vão descobrindo que existem outros modos de vida, pessoas diferentes, com outros pontos de vista. Conforme vivem suas primeiras experiências sociais (na família, na instituição escolar, na coletividade), constroem percepções e questionamentos sobre si e sobre os outros, diferenciando-se e, simultaneamente, identificando-se como seres individuais e sociais. Ao mesmo tempo que participam de relações sociais e de cuidados pessoais, as crianças constroem sua autonomia e senso de autocuidado, de reciprocidade e de interdependência com o meio. Por sua vez, na Educação Infantil, é preciso criar oportunidades para que as crianças entrem em contato com outros grupos sociais e culturais, outros modos de vida, diferentes atitudes, técnicas e rituais de cuidados pessoais e do grupo, costumes, celebrações e narrativas. Nessas experiências, elas podem ampliar o modo de perceber a si mesmas e ao outro, valorizar sua identidade, respeitar os outros e reconhecer as diferenças que nos constituem como seres humanos (BRASIL, 2017, p.38).\n\n### 2.1.1 Direitos de aprendizagem e desenvolvimento no campo de experiências o eu, o outro e o nós (EO)\n\nOs direitos de aprendizagem no campo de experiência o eu, o outro e o nós podem ser assegurados quando oportunizamos as crianças:\n\n- **CONVIVER** com crianças e adultos, reconhecendo e respeitando as diferentes identidades e grupos de pertencimento.\n- **BRINCAR** com diferentes parceiros, desenvolvendo sua criatividade, imaginação e solidariedade.\n- **EXPLORAR** diferentes formas de interagir com o outro e com o meio, nas diversas situações cotidianas, ampliando sua noção de mundo e sua sensibilidade em relação ao outro.\n- **PARTICIPAR** ativamente das situações do cotidiano, tanto aquelas ligadas ao cuidado de si e do ambiente, como as relativas às atividades propostas pelo/a professor/a.\n- **EXPRESSAR** às outras crianças e adultos suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, oposições, etc.\n- **CONHECER-SE** de modo a valorizar as suas características e as das outras crianças e adultos combatendo atitudes preconceituosas e discriminatórias, bem como construir uma identidade pessoal e cultural positiva.\n\nFONTE: BRASIL (2018)",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

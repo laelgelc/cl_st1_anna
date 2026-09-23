@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c3fa3c90c17ca0b006ab30cdbd61887d2aa9a9ca833bcebfe",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1195,
+      "input_tokens_details": {
+        "cache_write_tokens": 1192,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1396,
+      "output_tokens_details": {
+        "reasoning_tokens": 304
+      },
+      "total_tokens": 2591
+    }
+  },
+  "created_at": "2026-09-22T23:19:01Z",
+  "duration_seconds": 9.503,
+  "error": null,
+  "excerpt_id": "rr_ef_32",
+  "filename": "rr_ef_32.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fd204ca609d7fb670e1f51c85b0e4374f6229692327be2b414c976024a5e27af",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b5785ce061b4f42b46cc771354068b462ecbb6c10ec91c2de6ad5623236b0c96",
+    "rendered_prompt_sha256": "26f432c96a9d4d621e01b9ca306a318d4a0502dd2837022c6fadf96a23fe98b3",
+    "source_text_sha256": "74106a97ed7cb54b01dcfdcefbce10e332cdaba2a1a77206aea71686dae63300"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_32.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3399,
+    "filename": "rr_ef_32.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_32.txt",
+    "state": "rr",
+    "word_count_original": 775
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_32.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_32.json"
+  },
+  "raw_response_text": "## 4.8 CIÊNCIAS\n\n### 4.8.1 INTRODUÇÃO: ÁREA CIÊNCIAS DA NATUREZA\n\nO presente documento traz ao Estado de Roraima referências para a implementação do currículo da área Ciências da Natureza para o Ensino Fundamental, a partir da Base Nacional Comum Curricular (BNCC). Tem caráter normativo, consolida o compromisso com o letramento científico do aluno, a fim de que este seja capaz de compreender e interpretar o mundo (natural, social e tecnológico), e consiga ainda desenvolver as habilidades e competências necessárias para transformá-lo.\n\n### 4.8.2 BREVE HISTÓRICO DA ÁREA DE CIÊNCIAS DA NATUREZA\n\nAo longo da história da educação no Brasil, o ensino de Ciências passou por vários formatos, inserções, retrocessos e avanços, sempre com o intuito de satisfazer e incrementar as lacunas sociais, culturais e econômicas contextuais de cada época. De forma que só em 1890, com a Reforma Benjamin Constant, ainda na República Velha, o ensino de Ciências foi incluído no sistema educacional brasileiro, nas duas últimas séries do ensino secundário.\n\nContudo, por ocasião da Reforma Epitácio Pessoa em 1901, o ensino de Ciências foi retirado do currículo escolar. Com a criação da Associação Brasileira de Educação (ABE), ele volta a figurar na educação brasileira como preceitos higienistas, e dessa forma, o ensino de Ciências se manteve vivo na educação brasileira, de forma fragmentada e empobrecida, restrito à área da saúde pessoal e tendo como intuito consertar as deformidades e os problemas da população brasileira (BAYERL, 2014).\n\nA partir de 1930, o ensino de Ciências continuou nos cursos primários e secundários sobre os princípios do higienismo, mas com modificações na nomenclatura. Na década de 1950, no mundo pós-Segunda Guerra Mundial, os avanços científicos e tecnológicos evidenciaram a necessidade de um novo olhar para o conhecimento científico e seu papel no sistema educacional brasileiro, passando a integrar o ensino de Ciências ao desenvolvimento da sociedade.\n\nQuando a Lei 4.024 foi promulgada em 1961, estabelecendo as Diretrizes e Bases da Educação e ampliando a obrigatoriedade do ensino da disciplina de Ciências a todas as séries do então curso ginasial, o cenário escolar era dominado pelo ensino tradicional, ainda que esforços de renovação estivessem em processo. Com o golpe militar, em 1964, a escola passou a atuar com a finalidade de formar trabalhador, visando à formação de mão de obra barata para promover o desenvolvimento do país. Contudo, as propostas acerca do ensino de Ciências são influenciadas por projetos curriculares desenvolvidos por países como a Inglaterra e os Estados Unidos, focando não só na formação de mão de obra, mas também nos jovens que almejavam o ingresso em cursos superiores (BAYERL, 2014). Somente a partir de 1971, com a Lei nº 5.692, o componente Ciências passou a ter caráter obrigatório nas oito séries do ensino primário, à época denominado “primeiro grau”.\n\nOs Parâmetros Curriculares Nacionais, um referencial de qualidade para a Educação Básica no Brasil, apresentou a proposta do ensino de Ciências a partir da LDB (Lei 9394/96). A proposta dos PCNs para área de Ciências da Natureza no Ensino Fundamental foi mostrar a Ciência como um conhecimento que colabora para a compreensão do mundo e suas transformações, para reconhecer o homem como parte do universo e como indivíduo (BRASIL, 1997). Considerando o Ensino Fundamental como nível de escolarização obrigatório no Brasil, os parâmetros curriculares referenciam o ensino de Ciências não como um ensino propedêutico, voltado para aprendizagem efetiva em momento futuro. Segundo o documento, “A criança não é cidadã do futuro, mas já é cidadã hoje, e, nesse sentido, conhecer Ciência é ampliar a sua possibilidade presente de participação social e viabilizar sua capacidade plena de participação social no futuro”. Ibidem.\n\nOs PCNs abordaram a superação do ensino de Ciências tradicional que se baseia na mera transmissão de conhecimentos acumulados pela humanidade, por meio de aulas expositivas, e passe a considerar o aluno como protagonista no ensino de Ciências. No ensino tradicional, o conhecimento científico era considerado um saber neutro, isento, e a verdade científica tinha caráter inquestionável. A qualidade do curso era definida pela quantidade de conteúdos ministrados.\n\nPrevista na Constituição Federal (1988), na LDB (1996) e no PNE (2014), a BNCC tem o intuito de alinhar o Brasil aos melhores e mais qualificados sistemas educacionais do mundo. Instituída legalmente na LDB pela Lei 13.415/2017, a Base Nacional Comum Curricular é resultado de um extenso processo de elaboração que perdura desde 2015, sendo submetida aos mais variados mecanismos de discussão, participação de especialistas e consultas públicas (BRASIL, 2017).\n\nO compromisso com a formação humana integral e a construção de uma sociedade justa, democrática e inclusiva justificam a definição das competências gerais da educação básica.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

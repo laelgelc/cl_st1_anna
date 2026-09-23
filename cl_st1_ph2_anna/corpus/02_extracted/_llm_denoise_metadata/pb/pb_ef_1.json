@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09fc7047a98c1b93006ab306a19da087d2b164386f5ecf1eca",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 843,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1312,
+      "output_tokens_details": {
+        "reasoning_tokens": 588
+      },
+      "total_tokens": 2155
+    }
+  },
+  "created_at": "2026-09-22T22:52:31Z",
+  "duration_seconds": 13.568,
+  "error": null,
+  "excerpt_id": "pb_ef_1",
+  "filename": "pb_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "12d424443f790d3c16b1fdc866fac370d5888081e6683383ff6bc97ddfc41503",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3b03f9370b7e394a0b14dae1eb9eb9dd75a777c9ac4825d0536551162609042f",
+    "rendered_prompt_sha256": "d49e6ae2dda5c5cbb36b85d0e226d1b9c2b36c7249e15d7afa7312eba253cc35",
+    "source_text_sha256": "dfe26b62f4341247c37b35d48f1d31ff5a2516e4c8122ee1bebfc243bb27ecc3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2176,
+    "filename": "pb_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_1.txt",
+    "state": "pb",
+    "word_count_original": 532
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_1.json"
+  },
+  "raw_response_text": "### 4.1 Marco Regulatório\n\nO Ensino Fundamental de nove anos no Brasil está regulamentado pelas Diretrizes Curriculares para o Ensino Fundamental de nove anos (Resolução CNE/CEB nº 7, de 14 de dezembro de 2010), que estabelece o atendimento de alunos entre os 6 e 14 anos, configurando-se como o período mais longo da educação básica. Por atender a crianças e adolescentes, tem o desafio constante de lidar com as grandes mudanças, sobretudo nos campos cognitivo e social, pelas quais esses sujeitos passam durante seu desenvolvimento.\n\nDe acordo com as Diretrizes Curriculares para o Ensino Fundamental de nove anos (Resolução CNE/CEB nº 7, de 14 de dezembro de 2010, art. 6º), a etapa Fundamental deverá ser norteada pelos seguintes princípios:\n\nI – Éticos: de justiça, solidariedade, liberdade e autonomia; de respeito à dignidade da pessoa humana e de compromisso com a promoção do bem de todos, contribuindo para combater e eliminar quaisquer manifestações de preconceito de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.\n\nII – Políticos: de reconhecimento dos direitos e deveres de cidadania, de respeito ao bem comum e à preservação do regime democrático e dos recursos ambientais; da busca da equidade no acesso à educação, à saúde, ao trabalho, aos bens culturais e outros benefícios; da exigência de diversidade de tratamento para assegurar a igualdade de direitos entre os alunos que apresentam diferentes necessidades; da redução da pobreza e das desigualdades sociais e regionais.\n\nIII – Estéticos: do cultivo da sensibilidade juntamente com o da racionalidade; do enriquecimento das formas de expressão e do exercício da criatividade; da valorização das diferentes manifestações culturais, especialmente a da cultura brasileira; da construção de identidades plurais e solidárias.\n\nNa presente proposta, entende-se o respeito a esses princípios no Ensino Fundamental como essencial, no sentido de garantir o direito dos diferentes sujeitos à educação com qualidade, por meio de aprendizagens significativas, que possam lhes proporcionar desenvolvimento nas esferas pessoal e social.\n\nOutro marco regulatório para este documento é a Base Nacional Comum Curricular (BNCC) para a Etapa do Ensino Fundamental (2017), que normatiza os conhecimentos comuns que se constituem como objeto de ensino para garantir os direitos de aprendizagem de crianças e adolescentes que frequentam a Etapa do Ensino Fundamental em todo Brasil. A BNCC também define a forma de organização do Ensino Fundamental (anos iniciais e finais), em áreas de conhecimento e respectivos componentes curriculares, tomadas como base para apresentação desta proposta curricular:\n\n| Áreas de conhecimento | Componentes curriculares (anos iniciais e finais) |\n|---|---|\n| Linguagens | Língua Portuguesa; Arte; Educação Física; Língua Inglesa |\n| Matemática | Matemática |\n| Ciências da Natureza | Ciências da Natureza |\n| Ciências Humanas | Geografia; História |\n| Ensino Religioso | Ensino Religioso |\n\nTendo como referência a BNCC, esta proposta para o trabalho com os componentes curriculares está apresentada a partir da definição de princípios, direitos e objetivos de aprendizagem, bem como dos conteúdos a serem contemplados nos planejamentos e práticas de ensino e avaliação dos professores do Ensino Fundamental na Paraíba. Também são discutidas possibilidades metodológicas e avaliativas para cada componente curricular em específico, na perspectiva de se constituírem como ponto de partida para reflexão dos professores sobre seus encaminhamentos pedagógicos, com autonomia.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

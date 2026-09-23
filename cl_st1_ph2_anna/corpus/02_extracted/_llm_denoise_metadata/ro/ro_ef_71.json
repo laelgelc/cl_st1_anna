@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0df409e050f1daae006ab30bc0568487d29541264933cb32ec",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 715,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 817,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 1532
+    }
+  },
+  "created_at": "2026-09-22T23:14:15Z",
+  "duration_seconds": 7.225,
+  "error": null,
+  "excerpt_id": "ro_ef_71",
+  "filename": "ro_ef_71.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "35e2971720a7889704eb73fe64f46e55d2a2515f62bd869ea8fb6c547c5e3b48",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cdfbbaebe97760dd3cfbd36a5ecc0109b8be5fc2e16b929bb7adc1afbe25e64d",
+    "rendered_prompt_sha256": "1acb163d0ff63af2055457c34989cc27a389ef24920479e06a8501ec226f56fd",
+    "source_text_sha256": "1c87c527d9923a0f071a73b452e7ff550ca68bb2ce0092b6ee5aa3981792ec88"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_71.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3174,
+    "filename": "ro_ef_71.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_71.txt",
+    "state": "ro",
+    "word_count_original": 460
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_71.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_71.json"
+  },
+  "raw_response_text": "### 9.5.2 Um pouco da história da Educação Física no Brasil\n\nO interesse em refletir sobre a Educação Física já não vem de hoje, já tem um tempo que se busca entender a forma como o ser humano aprende e desenvolve seus conhecimentos. Este processo é decorrente da própria história da Educação Física que norteou a construção e reconstrução da sua identidade que organizam a vida em sociedade.\n\nA Educação Física no Brasil passou por várias transformações, mais não podemos deixar de contextualizar a trajetória da Educação Física que se passou na Europa a partir do século XIX, tendo em vista que esse período influenciou diretamente as concepções da área nos dias atuais. Para Soares (1994), o século XIX é particularmente importante para o entendimento da área, uma vez que é neste século que se elaboraram conceitos básicos sobre o corpo e sobre sua utilização enquanto força de trabalho.\n\nA Educação do corpo das classes abastadas, que inicialmente era função da família, passou a ser amplamente divulgada e efetivada na escola pública do século XIX.\n\nNo final do século XIX e início do século XX, o Brasil foi marcado pela transição da sociedade escravista para a sociedade capitalista, saí da condição de colônia para assegurar a ordem social e o progresso, conforme Castellani Filho (1998), tornando os indivíduos fortes e saudáveis para não comprometer a coletividade.\n\nNas quatro primeiras décadas do século XX a Educação Física foi marcada pela influência dos métodos ginásticos europeus (sueco, francês, alemão) e da instituição militar sobre a educação física, nas escolas brasileiras. A primeira escola civil de formação de professores foi criada em 1939, antes os instrutores eram formados pelo exército. Esta disciplina era entendida como uma atividade exclusivamente prática e a presença da ginástica no currículo escolar tinha um caráter higienista, visando a construção de corpos saudáveis e fortes para viver nas cidades e trabalhar na indústria que se desenvolvia (SOARES et al., 2012).\n\nNas décadas de 80 e 90, com a redemocratização do país, surgiu um movimento renovador que defendia uma educação física mais humanista e uma preocupação com a formação integral dos seres humanos, tais como a psicomotricidade e o esporte para todos (SOARES et al., 1992). Neste período a hegemonia do conteúdo esportivo nas aulas de educação física foi duramente criticada, principalmente porque promovia a exclusão dos alunos menos habilidosos e reproduzia os valores da sociedade capitalista. Nestas décadas, surgiram várias teorias pedagógicas na educação Física brasileira, tais como: a abordagem desenvolvimentista, a construtivista, a crítico-superadora, a crítico emancipatória.\n\nA Educação Física na escola sempre foi tema de muita reflexão e discussão, até porque as abordagens pedagógicas da educação física têm seus limites e potencialidades e estas abordagens representando as riquezas e o acúmulos de saberes pedagógico.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

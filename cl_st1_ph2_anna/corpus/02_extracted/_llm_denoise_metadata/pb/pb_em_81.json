@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e4614bf56ba1155006ab307777c1c87d2856886797b22be17",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 580,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 580,
+      "output_tokens_details": {
+        "reasoning_tokens": 94
+      },
+      "total_tokens": 1160
+    }
+  },
+  "created_at": "2026-09-22T22:55:56Z",
+  "duration_seconds": 5.064,
+  "error": null,
+  "excerpt_id": "pb_em_81",
+  "filename": "pb_em_81.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b10b8e73eb274e67122e0c52d40cb52c503422eab13b38bc00e905c7341ad573",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2cb632321ae1494431ce08015c43ed4536c28cb3fd9937736fe7095228159520",
+    "rendered_prompt_sha256": "0d3dae50d13b973f766b586153f6c34dbb98b9be2dd3a35d481588640fdf7108",
+    "source_text_sha256": "16a2ec14e13d28086c8000f0855a2a8c258e45ad95b902c902b49c79766d1069"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_81.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2332,
+    "filename": "pb_em_81.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_81.txt",
+    "state": "pb",
+    "word_count_original": 374
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_81.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_81.json"
+  },
+  "raw_response_text": "### 2.4.5.5 Criatividade e Tecnologia\n\nO mundo contemporâneo está eivado de mídias digitais que trazem a potencialidade de estar a serviço do bem estar humano e social. As novas formas de comunicação e interação social tomaram conta da sociedade e de todas as relações no mundo atual, das relações de amizades ao mundo do trabalho temos novas formas e perspectivas de relacionamentos sociais. Assim, é fundamental que haja estímulo à alfabetização e cidadania digital, com base em uma pauta inclusiva para jovens e adultos.\n\nDesse modo, podemos buscar aquilo que Pierre Lévy (2007) chama de Inteligência Coletiva, a fim de possibilitar uma maior criatividade dentro da tecnologia e do ciberespaço. A criatividade é um ponto chave para os posicionamentos individuais nos dias atuais. Para criar, é necessário interação e coexistência humana. A questão da interação entre sensação, percepção, conhecimento, imaginação e intuição, é fundamental para a plasticidade que a criatividade pode proporcionar ao melhoramento das relações entre os seres humanos e sua jornada no planeta.\n\n### 2.4.5.6 Política e Trabalho\n\nPreparar os jovens estudantes para o mundo do trabalho não é uma tarefa fácil. Antes de habilidades e competências técnicas e racionais, é necessário que tenham habilidades e competências emocionais para lidar consigo mesmo, com o outro e nas relações de trabalho, sobretudo nos últimos cinquenta anos, quando o papel da mulher diante do mercado de trabalho passou a ter um significado mais questionador, crítico e transformador das relações de gênero. Como nos lembra Jürgen Habermas, que o trabalho seja uma forma de emancipação e não uma redução aos sistemas técnicos. Preparar também para um consumo consciente e crítico diante do mundo midiático, industrializado e tecnológico que preserva os ecossistemas. Pois há uma constante necessidade de identificar e discutir os dilemas do mundo do trabalho e a construção da desigualdade social.\n\nNesse sentido, o conceito de política como um lócus do cidadão da pólis (cidade em grego), se coaduna com o de trabalho, pois a política é a arte de gerir as relações de poder, e tudo em sociedade, se realiza sustentado por relações de poder, inclusive o trabalho. Saber identificar e agir criticamente nas relações de poder e agir pelo diálogo é uma habilidade essencial nos dias atuais.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

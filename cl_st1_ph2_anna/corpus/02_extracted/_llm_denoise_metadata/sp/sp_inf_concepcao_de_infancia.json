@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01e8c6bcf79b62a8006ab30fcb7f5487d2a641ec00ec992a9c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 990,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1512,
+      "output_tokens_details": {
+        "reasoning_tokens": 721
+      },
+      "total_tokens": 2502
+    }
+  },
+  "created_at": "2026-09-22T23:31:35Z",
+  "duration_seconds": 11.795,
+  "error": null,
+  "excerpt_id": "sp_inf_concepcao_de_infancia",
+  "filename": "sp_inf_concepcao_de_infancia.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4b3703cf23a06faa7584d128d2ea4f6207590d6186a99eb2a3e84ff9e7df9f37",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9ee31f6eb6b1b928bdd05b93acaa179ba90e9b6b85dce077e7fa1838e8a64fcd",
+    "rendered_prompt_sha256": "ef2c131576d75d44f5558451bacc5ecbc0e28ad718e58c787a636724e6e3ec7d",
+    "source_text_sha256": "9650e94e93daf66125776b130f7b25be735ba20d658d96f5a6a531616479f52a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_inf_concepcao_de_infancia.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3950,
+    "filename": "sp_inf_concepcao_de_infancia.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_inf_concepcao_de_infancia.txt",
+    "state": "sp",
+    "word_count_original": 567
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_inf_concepcao_de_infancia.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_inf_concepcao_de_infancia.json"
+  },
+  "raw_response_text": "## Concepção de Infância e Criança\n\nA infância não se refere apenas a um tempo cronológico, a uma etapa de desenvolvimento, mas, também, a um lugar social e simbólico construído nas diferentes culturas. Por isso, é preciso falar sobre infâncias no plural, respeitando a diversidade das culturas locais. Assim,\n\n> [...] os novos conhecimentos oriundos de diversas áreas do conhecimento, têm paulatinamente reforçado e complementado a concepção de criança competente, ressaltado as suas possibilidades de estabelecer relações e levantar hipóteses explicativas, de se comunicar, de criar e manter vínculos interpessoais, construir saberes e culturas, etc. Assim, a criança passou a ser considerada como cidadã, sujeito de direitos, pessoa com agência. É nesse contexto que cria as condições para ouvi-las. (CRUZ, 2008, p.77)\n\nDo ponto de vista do desenvolvimento, a infância caracteriza-se por intensos processos cognitivo, físico, social, afetivo, cultural e linguístico. Essa fase da vida não pode ser vista como estanque, mas sim como processo que produz marcas constitutivas da subjetividade, instituindo modos de ser, de estar e de agir no mundo.\n\nAs Diretrizes Curriculares Nacionais da Educação Infantil (2009) ratificam a visão da criança compreendida como sujeito histórico e de direitos que, nas interações e práticas do cotidiano, vivencia e constrói sua identidade pessoal e coletiva; brinca, imagina, fantasia, aprende, observa, experimenta, narra, questiona e constrói sentido sobre a natureza e a sociedade, produzindo cultura.\n\nNesse sentido, é irrefutável a relevância da Educação Infantil como tempo de vivência das infâncias, como forma de potencializar a formação integral das crianças, apoiando seu processo de desenvolvimento, visto que desde o nascimento a criança atribui significado à sua experiência, ampliando gradativamente sua curiosidade e suas inquietações com a mediação das orientações, materiais, espaços e tempos que organizam as diversas situações de aprendizagem. De acordo às Diretrizes Curriculares Nacionais Gerais da Educação Básica:\n\n> O período de vida atendido pela Educação Infantil caracteriza-se por marcantes aquisições: a marcha, a fala, o controle esfincteriano, a formação da imaginação e da capacidade de fazer de conta e de representar usando diferentes linguagens. Embora nessas aquisições a dimensão orgânica da criança se faça presente, suas capacidades para discriminar cores, memorizar poemas, representar uma paisagem através de um desenho, consolar uma criança que chora, etc. não são constituições universais biologicamente determinadas e esperando o momento de amadurecer. Elas são histórica e culturalmente produzidas nas relações que estabelecem com o mundo material e social mediadas por parceiros mais experientes. (BRASIL, 2013, p.86)\n\nNota-se que a criança de 0 a 6 anos é complexa, desafiadora, surpreendente e exuberante. Na Educação Infantil, várias ciências devem concorrer para repertoriar o professor, propiciando os conhecimentos que os habilitem a ser para a criança um eficaz mediador do seu processo formativo, que envolve aprendizagem, desenvolvimento e vida.\n\nAtualmente, a neurociência tem contribuído muito com as ciências da educação. Segundo Houzel (2005) aproximadamente 90% das conexões cerebrais são estabelecidas de zero a seis anos. Nessa fase, são formadas as bases para as capacidades físicas, intelectuais e emocionais. Assim, podemos potencializar esse desenvolvimento promovendo experiências lúdicas e estabelecendo interações sociais que impulsionem a atividade cerebral. Isso evidencia que o contexto, associado às estratégias adequadas a cada fase, auxilia na remodelação do cérebro, a chamada plasticidade cerebral.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

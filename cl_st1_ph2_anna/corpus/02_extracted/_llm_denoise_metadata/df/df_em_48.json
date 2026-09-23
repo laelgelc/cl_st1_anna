@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b88b33ca9a4e7b6006ab30050188487d28ec3bdb8dd79cc66",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 332,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 356,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 688
+    }
+  },
+  "created_at": "2026-09-22T22:25:23Z",
+  "duration_seconds": 3.453,
+  "error": null,
+  "excerpt_id": "df_em_48",
+  "filename": "df_em_48.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "598b3a59c1e9987266d17a63d0f5238ab8a9b5b73e6f089721531dd7abbce1c8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4089f8835d50957b38d346686355f366c96fa232d3c2686075bffb2f68dbfcdc",
+    "rendered_prompt_sha256": "9a5d075e822e3f80826c4a41669cb91f7b99d6b30dc8b325bb48ebad5b0f1735",
+    "source_text_sha256": "51096468899c98bcfbb8112cddabeec8319515e84f77379549f3d5bcd7306cea"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_48.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 937,
+    "filename": "df_em_48.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_48.txt",
+    "state": "df",
+    "word_count_original": 160
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_48.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_48.json"
+  },
+  "raw_response_text": "# OS ITINERÁRIOS FORMATIVOS E O CURRÍCULO DE FORMAÇÃO BÁSICA\n\nO ensino de Ciências enfrenta desafios históricos que passam pela formação inicial e continuada dos docentes, a disponibilidade de equipamentos e insumos nas escolas, o acesso ao material didático e o crescimento cumulativo de componentes e unidades curriculares a serem tratados. O ensino médio é definido como etapa de aprofundamento dos conhecimentos adquiridos na educação fundamental. Sofreu uma profunda transformação ao deixar de ser organizado por componente curricular, passando por um arranjo por áreas de conhecimento, com a publicação da BNCC (BRASIL, 1996; 2018a). Esse desafio torna a construção do currículo do ensino médio uma tarefa que deve privilegiar a integração interdisciplinar, radicalizando a integração dos componentes curriculares dentro e entre as áreas.\n\nA formação básica em Ciências da Natureza deverá trabalhar os conhecimentos essenciais para a formação dos estudantes, cabendo ao professor selecionar temas essenciais para a FGB e organizar os aspectos mais aprofundados em ofertas de eletivas ou trilhas.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

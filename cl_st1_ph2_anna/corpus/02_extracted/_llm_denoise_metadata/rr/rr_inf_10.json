@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00bbb92b4670a494006ab30d64ce8487d2910007c385971a34",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 756,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 997,
+      "output_tokens_details": {
+        "reasoning_tokens": 338
+      },
+      "total_tokens": 1753
+    }
+  },
+  "created_at": "2026-09-22T23:21:17Z",
+  "duration_seconds": 8.552,
+  "error": null,
+  "excerpt_id": "rr_inf_10",
+  "filename": "rr_inf_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "199ec87e5a6a3dca62c55870601ecda54aedc5a5587a5edc3f26d31728f5e5b0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "20fa51075b6c64ec54ae258aaf7d007c051842ce62d1e8bf04f61b0eb837e16e",
+    "rendered_prompt_sha256": "ae21989df5f3947e4b84c15748ee4078f72c97d4f805915966a6c5eeb5e5bdb0",
+    "source_text_sha256": "32e483c10136e7f24d125d514614a4c1956e9d8dc9be1a1dad35b429dd608cbc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3508,
+    "filename": "rr_inf_10.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_10.txt",
+    "state": "rr",
+    "word_count_original": 452
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_10.json"
+  },
+  "raw_response_text": "### 3.4.3 TRAÇOS, SONS, CORES E FORMAS\n\nConviver com diferentes manifestações artísticas, culturais e científicas, locais e universais, no cotidiano da instituição escolar, possibilita às crianças, por meio de experiências diversificadas, vivenciar diversas formas de expressão e linguagens, como as artes visuais (pintura, modelagem, colagem, fotografia etc.), a música, o teatro, a dança e o audiovisual, entre outras. Com base nessas experiências, criam suas próprias produções artísticas ou culturais, exercitando a autoria (coletiva e individual), correlacionando as expressões com explorações de sons, traços, gestos, danças, mímicas, encenações, canções, desenhos, modelagens, manipulação de diversos materiais e de recursos tecnológicos, ampliando sua rede de significações e aprendizagens.\n\nEssas experiências contribuem para que, desde muito pequenas, as crianças desenvolvam senso estético e crítico, o conhecimento de si mesmas, dos outros e da realidade que as cerca. Segundo Bondía (2002), esse campo de experiência tem na observação um modo genuíno de conhecer e interpretar o mundo, valorizando e incentivando a contemplação da vida.\n\nNesse sentido, busca-se desenvolver as sensibilidades, a criatividade, as diversas formas de expressão pessoal e cultural, apropriando-se e reconfigurando, permanentemente, a cultura. Ao abordar as experiências relacionadas aos sons, imagens, traços e formas, é necessário qualificar e ampliar os repertórios imagéticos, artísticos e simbólicos das crianças e professores, promovendo a abertura ao novo e conhecendo outros modos de expressão e de se relacionar com os objetos de conhecimento.\n\nAs aprendizagens se tornam mais complexas à medida que a criança cresce, requerendo, assim, a organização dessas experiências em situações estruturadas de aprendizagem, objetivos e propostas didáticas bem definidas.\n\nO trabalho com “Traços, Sons, Cores e Formas” caminha lado a lado com o campo de “Corpo, Gestos e Movimento”. No primeiro, a parte cultural deve ser mais explorada com o objetivo de ampliar o repertório cultural das crianças.\n\nÉ essencial destacar que as crianças da Educação Infantil estão aprendendo a lidar com seu corpo, assim, deve-se propor situações dirigidas de psicomotricidade e movimento, essas atividades fazem parte da aula e das aprendizagens na Educação Infantil e terão impacto nas aprendizagens futuras e atuais.\n\nÉ fundamental lembrar que os pais precisam ser seus parceiros e compreender a importância das atividades em que os bebês e as crianças possam mexer com tintas, brincar e correr para desenvolver-se, sendo necessário oportunizar situações que os envolvam socialização e vínculos afetivos ao longo do cotidiano.\n\nPortanto, a Educação Infantil precisa promover a participação das crianças em tempos e espaços para a produção, manifestação e apreciação artística, de modo a favorecer o desenvolvimento da sensibilidade, da criatividade e da expressão pessoal, permitindo que se apropriem e reconfigurem, permanentemente, a cultura e potencializem suas singularidades, ao ampliar repertórios e interpretar suas experiências e vivências artísticas.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

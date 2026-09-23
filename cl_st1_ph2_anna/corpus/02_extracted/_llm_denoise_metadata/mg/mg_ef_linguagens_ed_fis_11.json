@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e938d6449d95701006ab302a7c07087d2b4bca92d3eed9757",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 784,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 806,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 1590
+    }
+  },
+  "created_at": "2026-09-22T22:35:26Z",
+  "duration_seconds": 6.429,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_ed_fis_11",
+  "filename": "mg_ef_linguagens_ed_fis_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4f6d8b76baac5767cfd3a7411d0a0abc3cc07233d801ecc4eab0354edc1b90ec",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d4d11ae2c2a67a9cf6d6e2fbdcb0e291c73a98edaef97e1134c4087c3528d645",
+    "rendered_prompt_sha256": "9ea2da54eaa2458339e5256acf4a4471be7f8f900dc7c22e5c17854e11aa3dd8",
+    "source_text_sha256": "45fbc5a9cc290fd4bff9828f9ec6708712203e6790a999237e5816c317705d21"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_ed_fis_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1435,
+    "filename": "mg_ef_linguagens_ed_fis_11.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_ed_fis_11.txt",
+    "state": "mg",
+    "word_count_original": 440
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_ed_fis_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_ed_fis_11.json"
+  },
+  "raw_response_text": "### 7.5.4 Ginásticas\n\nA BNCC apresenta nessa unidade temática uma forma de organização que classifica as práticas de ginástica conforme seus principais movimentos constituintes, seu padrão de execução e os sentidos e os significados atribuídos a elas. Estão assim organizadas e distribuídas ao longo dos nove anos do ensino fundamental: ginástica geral, ginásticas de condicionamento físico e ginásticas de conscientização corporal.\n\nA ginástica geral, também conhecida como ginástica para todos, reúne as práticas corporais que têm como elemento organizador a exploração das possibilidades acrobáticas e expressivas do corpo, a interação social, o compartilhamento do aprendizado e a não competitividade. Podem ser constituídas de exercícios no solo, no ar (saltos), em aparelhos (trapézio, corda, fita elástica), de maneira individual ou coletiva, e combinam um conjunto bem variado de piruetas, rolamentos, paradas de mão, pontes, pirâmides humanas etc. Integram também essa prática os denominados jogos de malabar ou malabarismo.\n\nAs ginásticas de condicionamento físico se caracterizam pela exercitação corporal orientada à melhoria do rendimento, à aquisição e à manutenção da condição física individual ou à modificação da composição corporal. Geralmente, são organizadas em sessões planejadas de movimentos repetidos, com frequência e intensidade definidas. Podem ser orientadas de acordo com uma população específica, como a ginástica para gestantes, ou atreladas a situações ambientais determinadas, como a ginástica laboral.\n\nAs ginásticas de conscientização corporal reúnem práticas que empregam movimentos suaves e lentos, tal como a recorrência a posturas ou à conscientização de exercícios respiratórios, voltados para a obtenção de uma melhor percepção sobre o próprio corpo. Algumas dessas práticas que constituem esse grupo têm origem em práticas corporais milenares da cultura oriental. (BNCC, 2017).\n\n### 7.5.5 Danças\n\nAs danças integram a cultura corporal humana desde suas origens com sentidos e significados relacionados a crenças e valores específicos. Seus elementos constituintes, entre eles o ritmo, as músicas e canções, os movimentos e as vestimentas, possuem valores e sacralidade vinculados às sociedades e culturas onde são criadas e reproduzidas. Atualmente acompanhamos a expansão dessa prática corporal materializando sentidos e significados muito mais amplos do que os que a constituíram até pouco tempo. Fica a critério do professor o desafio de, ao abordar essa unidade temática, trazer para os estudantes a compreensão de todas as dimensões a ela vinculadas (história, culturas e territórios, gestos e cânones etc.), assim como despertar neles a capacidade de autoria e criação.\n\nEm Minas Gerais não podemos deixar de tematizar e valorizar as manifestações das danças regionais presentes em cada território. Elas compõem, estruturam e se relacionam a um acervo cultural riquíssimo que fornece identidade, visibilidade e prestígio ao nosso povo e ao nosso estado, muito além de suas fronteiras.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

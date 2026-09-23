@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_061c77e246cb85eb006ab30244eec087d2a565fd91f6e271ff",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1197,
+      "input_tokens_details": {
+        "cache_write_tokens": 1194,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1310,
+      "output_tokens_details": {
+        "reasoning_tokens": 238
+      },
+      "total_tokens": 2507
+    }
+  },
+  "created_at": "2026-09-22T22:33:51Z",
+  "duration_seconds": 10.81,
+  "error": null,
+  "excerpt_id": "ma_em_54",
+  "filename": "ma_em_54.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "48652a9e0da9b7a5f65f347b497a3303b10733a98316da3f1e79925e8a86412f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fc1134519a3f6fe928822fcf0413cdd4d6af61b959e8fa80d389ea6b6d575590",
+    "rendered_prompt_sha256": "c170b960bdc55709c29950406e44998298778310c35b8e9b355b8c80ea2f1a71",
+    "source_text_sha256": "7240ec97e79cf7d4403cff545a99667cd34ca9fb3ea91981c33f0c9aec4ec055"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_54.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1344,
+    "filename": "ma_em_54.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_54.txt",
+    "state": "ma",
+    "word_count_original": 776
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_54.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_54.json"
+  },
+  "raw_response_text": "## 5.2. Organização e formas de ofertas\n\n### Orientações para a oferta do itinerário técnico e profissional\n\nA organização da oferta da educação profissional e técnica no estado do Maranhão observará:\n\n- instrumentos normativos específicos do sistema de ensino, pautados nas legislações nacionais gerais e específicas;\n- integralidade dos diferentes eixos estruturantes, associada às habilidades exigidas pelas ocupações técnicas e de qualificação profissional reconhecidas pelo setor produtivo, tendo como referência o Catálogo Nacional de Cursos Técnicos e a Classificação Brasileira de Ocupações (BRASIL, 2018);\n- percursos formativos integrados e estruturados por arranjos curriculares que combinem uma ou mais áreas do conhecimento à formação técnica e/ou qualificação profissional, dada a relevância para o contexto escolar e local e as possibilidades infraestruturais mínimas requeridas, capacidade física, recursos humanos e financeiros, entre outros;\n- arranjos curriculares orientados por perfis de conclusão de cursos, com base nos anseios dos estudantes maranhenses quanto à continuidade dos estudos pós-médio e/ou inserção no mundo do trabalho;\n- participação ativa das escolas no processo de planejamento e organização da oferta, mediante escuta aos estudantes e profissionais da educação, assim como realização de diagnóstico das potencialidades socioeconômicas e ambientais;\n- extensão da oferta por meio de estabelecimento de parcerias com diferentes instituições de ensino credenciadas para oferta da educação profissional;\n- viabilização de aproveitamento de estudos realizados com sucesso pelo estudante em situação de transferência entre instituições ou redes de ensino, assim como alteração de itinerário formativo ao longo do ensino médio, com base em regulamentação específica;\n- avaliação coletiva e contínua de todo o processo de implantação de cursos técnicos e/ou qualificação profissional nas unidades de ensino, de forma a acompanhar o processo educativo e traçar alternativas que permitem a execução efetiva do planejado;\n- oferta de cursos de habilitação profissional técnica ou de qualificação profissional, com possibilidade de integração a esta do programa de aprendizagem profissional;\n- possibilidades de formações experimentais de cursos de habilitação profissional técnica de nível médio não contemplados no Catálogo Nacional de Cursos Técnicos, mediante autorização do Conselho Estadual de Educação;\n- cruzamento de informações entre as potencialidades econômicas levantadas, possibilidades de ofertas de cursos por eixo tecnológico e os cursos efetivamente oferecidos por instituições credenciadas para oferta da educação profissional e técnica, a fim de evitar sobreposição da oferta.\n\n### Formas de oferta na rede\n\nOs cursos e programas de educação profissional e técnica de nível médio são organizados por eixos tecnológicos, permitindo itinerários formativos flexíveis, diversificados e articulados, em razão dos anseios dos estudantes, das normas vigentes para essa oferta educacional, além das condições de atendimento da rede estadual de ensino do Maranhão, compreendendo as formas de ofertas, conforme demonstrado a seguir:\n\n**Figura 6 – Formas de oferta na rede**\n\nPodendo incluir, em sua organização curricular, o Programa de Aprendizagem Profissional.\n\nFonte: Organizado pelos autores a partir da Resolução nº 3/2018\n\n### Cursos na educação profissional técnica de nível médio (DCNEM, 2018)\n\n**I - Qualificação profissional técnica de nível médio**\n\nSão cursos que integram a organização curricular de uma habilitação profissional técnica de nível médio, devidamente aprovada pelo Conselho Estadual de Educação. Esse itinerário formativo é constituído por unidades ou módulos correspondentes a saídas intermediárias delineadas na organização curricular, com carga horária mínima de 20% (vinte por cento) da prevista no Catálogo Nacional de Cursos Técnicos para determinada habilitação. Esse arranjo curricular propicia o desenvolvimento de competências e valores essenciais ao exercício de uma ou mais ocupações reconhecidas no mercado de trabalho (CBO).\n\n**II - Habilitação profissional técnica de nível médio**\n\nSão cursos, devidamente aprovados pelo órgão competente, que habilitam para o exercício profissional em área ou função reconhecida pelo mercado de trabalho (CBO). São voltados a estudantes que concluíram o ensino fundamental e estão cursando o ensino médio ou, ainda, egressos dessa etapa de ensino. A carga horária dessa oferta varia entre 800, 1.000 e 1.200 horas, dependendo da habilitação profissional técnica prevista no CNTC.\n\nOs cursos técnicos podem ser organizados por vários arranjos curriculares, possibilitando a composição de itinerários formativos com saídas intermediárias de qualificação profissional, conforme estabelece o CNTC. Também podem ser desenvolvidos de forma articulada com o ensino médio ou a este subsequente, que por sua vez se destina a estudante que já concluiu o ensino médio e almeja uma habilitação profissional técnica.\n\nA oferta articulada pode ocorrer nas formas: integrada ao ensino médio, para estudantes que já tenham concluído o ensino fundamental, implicando em matrícula única para o estudante e oferta na mesma escola; e concomitante, oferecida a estudantes que vão ingressar ou estejam cursando o ensino médio, implicando em duas matrículas, com oferta tanto na mesma escola quanto em instituições de ensino distintas, todavia com proposta pedagógica unificada.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

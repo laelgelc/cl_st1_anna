@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0150c237f1e1fc33006ab30360bbd087d2ab335de7e43e8fa5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 978,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 988,
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "total_tokens": 1966
+    }
+  },
+  "created_at": "2026-09-22T22:38:31Z",
+  "duration_seconds": 7.298,
+  "error": null,
+  "excerpt_id": "mg_em_8",
+  "filename": "mg_em_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c04067af0ccaec3c987afe6af7cf94c777ab42290031e554a84978991f1a7ee7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6a073c84460ba2e4039332c339741d5ee6a6dbc4b481642c69f1c53de38d5579",
+    "rendered_prompt_sha256": "98c6c1017190606925211be2643b9a7fb36c5b596692ebb8fb0e0a23cbf0b9c2",
+    "source_text_sha256": "473a31240778dac5904e62fa5593582be80708179c27de83a59f16ab093ee2fb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1614,
+    "filename": "mg_em_8.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_8.txt",
+    "state": "mg",
+    "word_count_original": 627
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_8.json"
+  },
+  "raw_response_text": "### 1.4 Currículo e Educação integral\n\nAo organizar o Currículo Referência do Ensino Médio de Minas Gerais é necessário que as premissas da Educação como direito sejam garantidas a todos os cidadãos. Essa garantia se efetiva quando construímos uma escola com todos, e não apenas “para” todos, ou de todos. O currículo de Minas não pode, de forma alguma, ser proposto a partir da lógica da padronização ou, a partir de uma organização pautada em estereótipos ou preconceitos sobre os sujeitos, tempos ou espaços da educação. Nesse sentido, a integralidade da educação é um dos princípios fundantes do Currículo Referência. A concepção de educação integral nos permite organizá-lo desconsiderando a hierarquização dos saberes, garantindo a construção do conhecimento a partir das diversas dimensões humanas.\n\nNa perspectiva da Educação Integral, o Currículo Referência não se limita à organização rígida de conteúdos a serem ensinados e aprendidos, mas propõe pensar como e quais são as competências e habilidades que, traduzidas em direitos de aprendizagem, contribuirão para a formação integral dos estudantes. É mister trazer as capacidades que envolvam repertório cultural, empatia, responsabilidade, cultura digital e projeto de vida. Ou seja, desenvolver um currículo integral, interdisciplinar e interdimensional, em que a centralidade das aprendizagens seja o estudante.\n\nO currículo interdimensional possibilita o exercício dos atuais quatro pilares da Educação, segundo a Comissão Internacional sobre Educação da UNESCO: o aprender a conhecer, o aprender a ser, o aprender a fazer e o aprender a viver; associando a formação básica a outros conteúdos, habilidades, competências e experiências que garantam a melhoria das aprendizagens em todas as áreas do conhecimento. E nessa inter-relação, contemplam-se, também, a construção e ocupação da cidade como território educativo e a possibilidade de exercício de voluntariado e intervenção social na comunidade, a promoção e o desenvolvimento de habilidades que ampliem o letramento em leitura, escrita e matemática e a promoção de uma educação de qualidade para todos e todas.\n\n#### 1.4.1 Escola democrática e participativa\n\nPara o desenvolvimento integral da aprendizagem, faz-se necessário conhecer os sujeitos que estão na escola, seus tempos de vivência, os que desenvolvem as ações escolares, respeitando identidades e memórias dialogadas com o território educativo e a forma como se efetiva a participação de todos nas decisões e escolhas dos processos inerentes à vida da escola. Esse conjunto de ações é essencial para a gestão democrática e participativa.\n\nA perspectiva da centralidade dos sujeitos está diretamente ligada à intersetorialidade e à territorialidade, pois falar em rede ou comunidade é pensar em sujeitos com autonomia, que podem construir processos de ensino e de aprendizado coletivamente. A comunidade ao redor da escola, tanto no que tange ao seu aspecto territorial, quanto às pessoas que dele fazem parte, é um ethos importante no processo de ensino e de aprendizagem e, portanto, na definição do currículo. As/Os crianças/estudantes, ao mesmo tempo em que aprendem a circular por um determinado território, a partir das perspectivas sociais e culturais deste, também dão novos significados aos tempos e espaços daquele ambiente.\n\nÉ por meio do entendimento da relação dos sujeitos da comunidade escolar com seus territórios que se compreende também a realidade socioespacial da escola. Além disso, e partindo da perspectiva da intersetorialidade, pensar o território nos permite identificar suas potencialidades e incluí-lo como espaços educativos, de modo que a escola compartilhe o processo educacional com demais grupos e instituições. Nesse processo, compreendendo o significado e a singularidade de cada território e contexto, a comunidade tem papel fundamental na construção dos saberes e no fortalecimento dos currículos e das instituições. Num sentido complementar à ocupação educativa dos estudantes do território, a comunidade, ao adentrar no processo de escolarização e dele participar, amplia seu potencial educativo e as relações ali construídas, fortalecendo o currículo",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_076ae687e83f8304006ab30c7cbca087d2a6b45a24f1c54c77",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 632,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 887,
+      "output_tokens_details": {
+        "reasoning_tokens": 348
+      },
+      "total_tokens": 1519
+    }
+  },
+  "created_at": "2026-09-22T23:17:24Z",
+  "duration_seconds": 8.254,
+  "error": null,
+  "excerpt_id": "ro_em_84",
+  "filename": "ro_em_84.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "07f4025f947a3168f28a1d41ba6251c97161e805728019c6b9c21ece1d62a03e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c3ed7af3530e6a1565be7a7f640e9c27ec8970604f540628a7f5e5ad03187ab1",
+    "rendered_prompt_sha256": "9d259a370900c988a2447870cdf138ff500a76c9b66d0a88f0644367443058ef",
+    "source_text_sha256": "e2eeeb37adb700f492f225b917004f73b400c1531a0483d8941c0fec82a810b2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_84.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3304,
+    "filename": "ro_em_84.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_84.txt",
+    "state": "ro",
+    "word_count_original": 367
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_84.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_84.json"
+  },
+  "raw_response_text": "### 3.3.6. Língua Espanhola no Itinerário Formativo de Rondônia\n\nA inserção do componente de Língua Espanhola no Itinerário Formativo dos estudantes do Estado de Rondônia confirma a garantia de direito a uma educação de qualidade com equidade: um dos pilares de uma sociedade democrática, inclusiva, com pleno exercício da cidadania. Essas aprendizagens devem assegurar que os estudantes desenvolvam competências que lhe permitam comunicar-se em Língua Espanhola, ampliando sua inserção no mundo do trabalho, alinhada a seu projeto de vida.\n\nA perspectiva de aprofundamento do componente de Língua Espanhola a partir de Itinerários Formativos reforça a proposta da interdisciplinaridade, mas também o diálogo entre áreas. Esse trabalho deve ser pautado no desenvolvimento das dez competências gerais da BNCC, que requer do aprendiz ser capaz de fazer uso de diferentes linguagens para se inserir em um mundo globalizado, plurilíngue e multicultural, reconhecendo, valorizando, respeitando as diversidades, usos heterogêneos e multimodais da língua.\n\nDesta forma, entendemos que o Itinerário Formativo do componente de Língua Espanhola precisa ter a abordagem pedagógica com base na interdisciplinaridade, na autonomia, no protagonismo e na inovação. Para tanto, faz-se necessário à articulação e diálogo entre os componentes que embasará o desenvolvimento das práticas pedagógicas a partir de habilidades que devem ser desenvolvidas de forma progressiva e concomitante, respeitando-se as especificidades e apresentando um olhar múltiplo para o desenvolvimento integral dos estudantes.\n\nO aprofundamento de conhecimentos da Língua Espanhola na área de Linguagens e suas Tecnologias está em consonância e integrado com os eixos estruturantes a seguir: Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo, por entender que as habilidades que estão relacionadas a eles contribuem, significativamente, para a formação dos estudantes com o perfil juvenil na contemporaneidade.\n\nA abordagem didático-pedagógica dos eixos estruturantes e suas habilidades ajudam a promover uma visão de mundo mais ampla dos estudantes e, assim, contribuem para que eles possam tomar decisões, almejando uma formação para além da escola, pessoal e profissional. Assim, a integração da Língua Espanhola no itinerário formativo está ancorada na formação integral do estudante para o seu projeto de vida, ampliação da autonomia, do protagonismo e na autoria nas práticas de linguagem multissemióticas, na reflexão e no posicionamento crítico.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

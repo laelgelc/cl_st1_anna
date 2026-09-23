@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b1454381eb6f38d006ab2ff5b0c0087d2b1de6776da3824a3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 769,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 808,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 1577
+    }
+  },
+  "created_at": "2026-09-22T22:21:21Z",
+  "duration_seconds": 6.373,
+  "error": null,
+  "excerpt_id": "ce_em_17",
+  "filename": "ce_em_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f98d6e1239ede34b3a746c99b31038b9afb52c9e849abd3b1c7d7d0f8de9137f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "736cee1edfc17095320ede6053d6184bed3ea46dca5c036ae49cddf6e7501f42",
+    "rendered_prompt_sha256": "17c4d41dd7b9379a423de9f34d99e9458781c76ad0139477f182ffe3ae83fb4c",
+    "source_text_sha256": "d902a93ad40874f80f680dfb0a836120378cc3e5d2a2a5155ca543ad05e51bb0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 771,
+    "filename": "ce_em_17.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_17.txt",
+    "state": "ce",
+    "word_count_original": 474
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_17.json"
+  },
+  "raw_response_text": "### 3.8 Educação Escolar Indígena\n\nEducação Escolar Indígena é uma modalidade da Educação Básica que garante aos povos indígenas a recuperação de suas memórias históricas, a reafirmação de suas identidades étnicas, a valorização de suas línguas e ciências, bem como o acesso a informações, conhecimentos técnicos e científicos da sociedade nacional e demais sociedades indígenas e não indígenas.\n\nEssa modalidade de ensino busca respeitar os etnoconhecimentos e assim construir uma trilha pedagógica que valorize os entendimentos da cultura indígena relacionados às ciências, à matemática e às suas aplicações em vivências do cotidiano desses povos.\n\nAs políticas para atendimento à educação escolar indígena estão respaldadas na Resolução CNE/CEB no 05/2012, que define as Diretrizes Curriculares Nacionais para a Educação Escolar Indígena na Educação Básica, e no Plano de Ação Etnoeducacional do Território Potirõ, conforme Decreto no 6.861, de 27/05/2009, que dispõe sobre a Educação Escolar Indígena, em alguns estados do nordeste, e define sua organização em territórios etnoeducacionais, pactuados em 2012. Esses instrumentos legais objetivam o desenvolvimento e a institucionalização dessa modalidade de ensino no Estado, de forma a respeitar a territorialidade dos povos indígenas e a operacionalizar o regime de colaboração entre os sistemas de ensino, com a finalidade de responder às necessidades educacionais e às especificidades socioculturais das comunidades atendidas.\n\nAs Diretrizes Curriculares Nacionais para a Educação Escolar Indígena na Educação Básica estabelecem que os currículos indígenas precisam estar em consonância com as especificidades da modalidade de ensino. Tendo assim quatro princípios fundamentais, os quais são:\n\nI – dos tempos e dos diferentes espaços das escolas indígenas;  \nII – das relações sociais tecidas no cotidiano escolar;  \nIII – das interações do ambiente educacional com a sociedade;  \nIV – das relações de poder presentes no processo pedagógico e nas formas de construção dos conhecimentos associados às suas identidades sociopolíticas e culturais.\n\nComo afirma Nascimento e Urquiza (2010, p. 125), os saberes indígenas, específicos de cada povo, devem se materializar no currículo da escola, assim:\n\n> A expectativa da participação dos saberes locais no cotidiano da escola indígena, além do caráter político de respeito à diferença, tem como pressuposto a interculturalidade que exige procedimentos no sentido de: desterritorializar o mapa das culturas dominantes que, historicamente se colocaram como únicas a serem transmitidas apropriando-se da mesma naquilo que ela tem de relevante para a autonomia de cada povo e, ao mesmo tempo, considerar os chamados saberes tradicionais em um contexto historicamente dinâmico e em constante processo de tradução e ressignificação.\n\nA construção dos currículos das escolas indígenas do Ceará é pautada no fortalecimento da identidade, da cultura e da valorização da história dos povos indígenas do Estado, na articulação dos conhecimentos historicamente construídos aos conhecimentos próprios desses povos, de forma integrada, em que ambos os conhecimentos sejam postos com a mesma importância no processo de ensino-aprendizagem.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00ab15dd314b31e5006ab30540092087d2a90b03c678a7d2b3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 865,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 827,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 1692
+    }
+  },
+  "created_at": "2026-09-22T22:46:31Z",
+  "duration_seconds": 7.059,
+  "error": null,
+  "excerpt_id": "mt_inf_4",
+  "filename": "mt_inf_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "08c909779dbae0ec0b09f964c3579375ff5a45741a549eec14bfee1a4fc1ab76",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "57022f7d577e6f4a038b7bc17a8b45b69eb83b26a02105f4668aa70d5f5855af",
+    "rendered_prompt_sha256": "cf4d58f129aa9f24cab68c7120d5861fa9f797651661436c3f57aa764bbcb02f",
+    "source_text_sha256": "db9229bd6f93721681872a9b49ff1e08f7d11ec1514863ea8eeee01ffd8cd843"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_inf_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1995,
+    "filename": "mt_inf_4.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_inf_4.txt",
+    "state": "mt",
+    "word_count_original": 509
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_inf_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_inf_4.json"
+  },
+  "raw_response_text": "### 1.3 Educar e Cuidar: Processos Indissociáveis na Educação das Crianças\n\nAs especificidades da Educação Infantil necessitam ser compreendidas pelos profissionais que atuam nessa etapa, visto que, a concepção de criança como sujeito de direitos e necessidades, pautam sua ação em atividades de educar e cuidar.\n\nO educar e o cuidar são processos indissociáveis no contexto das práticas pedagógicas da Educação Infantil, conforme estabelecem as DCNEI (2009):\n\n> As práticas pedagógicas devem ocorrer de modo a não fragmentar a criança nas suas possibilidades de viver experiências, na sua compreensão do mundo feita pela totalidade de seus sentidos, no conhecimento que constrói na relação intrínseca entre razão e emoção, expressão corporal e verbal, experimentação prática e elaboração conceitual. As práticas envolvidas nos atos de alimentar-se, tomar banho, trocar fraldas e controlar os esfíncteres, na escolha do que vestir, na atenção aos riscos de adoecimento mais fácil nessa faixa etária, no âmbito da Educação Infantil, não são apenas práticas que respeitam o direito da criança de ser bem atendida nesses aspectos, como cumprimento do respeito à sua dignidade como pessoa humana (BRASIL, 2013, p. 88-89).\n\nCorrobora-se com Barbosa (2009), ao destacar que as crianças desde muito pequenas, aprendem no âmbito familiar as atividades da vida cotidiana, essas aprendizagens são saberes, conhecimentos, hábitos e valores. Desse modo, esse conjunto de atividades auxiliam as crianças na constituição da sua maneira de ser, fazer e de estar do grupo social a que pertence. Assim, o ingresso nas práticas da vida social é uma tarefa das famílias e das escolas.\n\nO Educar e o cuidar na Educação Infantil, dentre outras coisas, objetiva atender as crianças nas suas necessidades, oferecendo-lhes condições de se sentir confortável, em relação a sono, fome, sede, higiene, dor e outros. Como também, acolher seus afetos e alimentar sua curiosidade e expressividade, e ainda, proporcionar-lhes condições para explorar o ambiente e construir sentidos pessoais, sobre o mundo e sobre si, apropriando-se de formas de agir, sentir e pensar, existentes em sua cultura. Contudo, na instituição educacional, “(...) essa experiência estará vinculada aos desafios da vida coletiva numa cultura diversificada e às exigências de um projeto político pedagógico sistematizado” (BARBOSA, 2009, p. 82).\n\nEssa concepção do Educar e Cuidar, cria novas possibilidades para a Educação Infantil e requer novas atitudes por parte dos professores. Nessa primeira etapa da Educação Básica, as práticas educativas devem ser pensadas de forma a propiciar às crianças cuidar de si mesmas, de outras crianças e demais adultos, que convivem em seu ambiente, desenvolvendo sua autonomia e independência.\n\nDesta maneira o Estado de Mato Grosso entende que as ações voltadas para estas faixas etárias devem contemplar o educar e cuidar como indissociáveis, promovendo o acolhimento e a valorização dos conhecimentos que as crianças trazem de seu ambiente familiar e de sua comunidade. Também compreende-se que o educar e cuidar na Educação Infantil, significam impregnar a ação pedagógica de consciência, afeto, respeito e responsabilidade, tendo uma visão do desenvolvimento da criança com base em concepções das peculiaridades da Infância e que respeitem a diversidade.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

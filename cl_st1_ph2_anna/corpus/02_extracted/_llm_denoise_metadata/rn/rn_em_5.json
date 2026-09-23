@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_049bcfa01f11c31b006ab30b2dfb9087d2a3ea466933aa33d9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1047,
+      "input_tokens_details": {
+        "cache_write_tokens": 1044,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1160,
+      "output_tokens_details": {
+        "reasoning_tokens": 207
+      },
+      "total_tokens": 2207
+    }
+  },
+  "created_at": "2026-09-22T23:11:51Z",
+  "duration_seconds": 9.776,
+  "error": null,
+  "excerpt_id": "rn_em_5",
+  "filename": "rn_em_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "900ec2cb155212a4422f71a46f75f7648daea5837517a9f2baa94d148b889f2a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9b340c8a11fadf0230410b6ae54f611a33bfc42eeb9f9ce59302c5d30d377940",
+    "rendered_prompt_sha256": "b5600275c8b775dee8a828f2c9e944ca125d8b581ca5ab4bcbb8d4b0808461a1",
+    "source_text_sha256": "5e6717c98e13782f7906b15ae13137b47c12aa95c69e39c13db174696e1d5380"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3049,
+    "filename": "rn_em_5.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_5.txt",
+    "state": "rn",
+    "word_count_original": 627
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_5.json"
+  },
+  "raw_response_text": "## 1.5 SUJEITOS DO ENSINO MÉDIO POTIGUAR\n\nIdentificar sujeitos, segundo alguns autores como Karl Mannhein (1976), parte de um princípio do qual os indivíduos formam suas personalidades intimamente relacionadas onde se realizam suas interações sociais. Dessa forma, traçar um perfil das juventudes potiguares, remete-nos a aspectos histórico-culturais e socioeconômicos que nos auxiliam na compreensão dos cômputos educacionais que, rotineiramente, são atribuídos exclusivamente à falta de políticas públicas direcionadas a este segmento, cabendo aqui neste Referencial Curricular o dever de contribuirmos com estratégias didáticas que minimizem as discrepâncias destes impactos.\n\nO Estado do Rio Grande do Norte é, conforme o IBGE, 2018, composto por aproximadamente 3 (três) milhões e meio de habitantes. Essa população ocupa os 167 (cento e sessenta e sete) municípios, com uma ligeira predominância de representantes do sexo feminino. Pardos 52,25% e Brancos 40,84% compõem a maioria dos grupos raciais, seguidos por pretos 5,23% e indígenas 0,09%.\n\nTal distribuição é resultante da descendência entrelaçada de três povos: os negros, indígenas e portugueses, respectivamente, povos escravizados, nativos e colonizadores. Há registro de 33 (trinta e três) comunidades quilombolas em 26 (vinte e seis) cidades desta unidade federativa e 11 (onze) comunidades indígenas reconhecidas, distribuídas entre os municípios.\n\nDestacamos a vulnerabilidade social a qual estão submetidos os dois últimos grupos, dificultando o desenvolvimento pleno de atividades educativas. Ainda nesse contexto, constatamos uma distribuição geográfica agrupada nos centros urbanos (82%). Contudo, essa disposição está concentrada a um número reduzido de cidades, sendo a maioria delas composta por uma divisão mais equitativa da população urbe-campestre, sobretudo no interior, com uma parcela significativa delas com prevalência de população campesina, o que pode ser considerado um obstáculo para os nossos jovens quanto ao acesso aos meios de comunicação, conexão global, tecnologia, transportes, energia elétrica e saneamento básico.\n\nSomando-se a este fato, devemos considerar também fatores climáticos marcantes em nosso solo, no qual encontra-se localizado 90% de sua totalidade na região do Polígono das Secas, com abrangência do clima tropical semiárido, perpassando praticamente todo o interior do estado e litoral norte.\n\nVislumbramos, nesse cenário, um outro entrave aos nossos estudantes, pois muitos têm que se desdobrarem em duplas jornadas de trabalho e estudos, muitas vezes ausentando-se das instituições escolares por períodos sazonais que coincidem com colheitas ou ciclos econômicos microrregionais periódicos. Este panorama de carência econômica familiar atinge 66% dos alunos matriculados na rede estadual de ensino que possuem renda média familiar de até 2 (dois) salários mínimos, evidenciando a necessidade do trabalho precoce.\n\nO Estado do Rio Grande do Norte é dotado de um grande número de jovens, fruto de altas taxas de natalidade e fertilidade históricas, embora venha declinando nas últimas décadas. A faixa etária de 15 (quinze) a 29 (vinte e nove) anos representa 1⁄4 da população, dos quais 15% estão matriculados na rede estadual de ensino.\n\n**Gráfico 2 – Pirâmide etária**\n\nFonte: IBGE (2010).\n\nAlém do trabalho prematuro de ambos os sexos já elencados, chamamos atenção a grande quantidade de estudantes do sexo feminino fora da escola e sem exercer atividade remunerada. Dados apontam que muitos adolescentes abandonam a escola em virtude da gravidez precoce e afazeres familiares e domésticos. Um cenário que abrange todo o país, mas que se agrava em nossa região devido a estereótipos arraigados culturalmente.\n\nUma vez traçado o perfil dos sujeitos das nossas juventudes, ponderando seus aspectos históricos, culturais e socioeconômicos, propiciamos a adoção de diretrizes que contemplem seus anseios e potencialidades, respeitando suas adversidades, propondo ações e políticas que assegurem os direitos constitucionais educacionais desses jovens, preparando-os para os desafios do mundo pessoal e profissional diante do contemporâneo e cada vez mais exigente processo de transformação global e informacional, visando a formação de sujeitos ativos no exercício de sua cidadania.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

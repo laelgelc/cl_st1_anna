@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_097ced389630f40b006ab30f5ade8487d2beb6755ca3f2b634",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 0
+    }
+  },
+  "created_at": "2026-09-22T23:29:35Z",
+  "duration_seconds": 4.677,
+  "error": null,
+  "excerpt_id": "se_inf_4",
+  "filename": "se_inf_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "00b30d93a41d26b8944023943862199bf66a228fe679f774f108bce20bd02e3d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4a45e49a2b2fb39f95c0a34b399ad456146a524e9b640a157e755c101f4abd19",
+    "rendered_prompt_sha256": "c919f90a4b1cda73e59dafcc336a10fe2bd0d6f2c1a98e0d4df8cc4eff11f175",
+    "source_text_sha256": "d2555a18b58abea986e6cbcfbe84cb7a7edc0930710125fb3cd44a065bf5396e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_inf_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3856,
+    "filename": "se_inf_4.txt",
+    "filepath": "corpus/00_source_per_state/se/se_inf_4.txt",
+    "state": "se",
+    "word_count_original": 928
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_inf_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_inf_4.json"
+  },
+  "raw_response_text": "### 2.3.3 Cuidar e Educar: Ações Indissociáveis\n\n“Neném sem chupeta Romeu sem Julieta, Sou eu assim sem você, Carro sem estrada, Queijo sem",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

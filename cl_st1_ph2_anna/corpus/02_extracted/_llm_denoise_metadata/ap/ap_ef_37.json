@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08afe53a28e7d0cb006ab2fde9303887d2aa6583f9a9a15d6f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 674,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 638,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 1312
+    }
+  },
+  "created_at": "2026-09-22T22:15:09Z",
+  "duration_seconds": 4.581,
+  "error": null,
+  "excerpt_id": "ap_ef_37",
+  "filename": "ap_ef_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "28f6a042557a7293b24b9842749b23a60c8077dfa9bf3edc19a5983f60f0c1eb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2fa3bd47d384e4ee8f1ce0f94764b095826c254d9abc5a52f98ff6c47ff46fbe",
+    "rendered_prompt_sha256": "3c402c6ace019b5b2f281fe110fc271253746d1e74d0362bee62cfe65ba79ac7",
+    "source_text_sha256": "243a08ff046d094481bc4efc7bda2cbe07436217510cac06762d4a60fa98afef"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_ef_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 488,
+    "filename": "ap_ef_37.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_ef_37.txt",
+    "state": "ap",
+    "word_count_original": 463
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_ef_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_ef_37.json"
+  },
+  "raw_response_text": "## 4.5. Organização do Trabalho Pedagógico para os Anos Iniciais\n\n### 4.5.1. Planejamento\n\nO planejamento escolar é uma ação garantida pela Lei de Diretrizes e Bases da Educação Nacional, que foi estipulada no ano de 1996. Por meio dessa lei é assegurado que todos os profissionais que atuam na área de educação possam contar com um tempo destinado para pensar, apontar e efetuar o planejamento pedagógico, obtendo assim um melhor controle das atividades educacionais que irão ocorrer durante o ano letivo.\n\nAlém disso, o planejamento é uma ferramenta imprescindível para uma satisfatória gestão do tempo, de materiais de ensino, de profissionais e também de espaço, uma vez que, ao planejar, todos os eventos e atividades que a escola irá desenvolver ao longo do ano delinear-se-ão de forma detalhada; existe assim a possibilidade de possuir um panorama do cenário e alocar os recursos e materiais conforme as necessidades dos períodos do ano letivo.\n\nVale salientar que entre as várias pautas que podem fazer parte do planejamento pedagógico, estão aquelas que são de extrema relevância para o bom andamento do ano letivo, tais como a apresentação e a análise dos resultados do ano anterior, a definição precisa das grades horárias das disciplinas a serem ministradas, a divisão das turmas, a organização das salas e dos materiais a serem utilizados durante as atividades, a recepção de professores novatos, a divulgação das metas e os objetivos que a equipe de profissionais da escola almeja alcançar, a apresentação do calendário escolar, a criação e a elaboração adequada de planos de ação, entre outros quesitos que são de extrema importância para o bom andamento das aulas e uma melhor abordagem educacional.\n\nPara um planejamento pedagógico eficiente, é importante dar início a esse processo já no ano anterior, a partir do instante em que a equipe de professores e profissionais efetua a avaliação do que deu certo ou errado de acordo com as ações do último plano. No entanto, isso não quer dizer que esse planejamento será seguido durante todo o ano, afinal, planejar e otimizar os processos escolares é uma atividade constante que sempre precisa ser revista.\n\nTal planejamento deve levar em consideração uma aprendizagem em que haja interação com o espaço escolar e com os espaços nos quais o jovem se insere; a expressão na aprendizagem de múltiplas linguagens, incluindo os usos sociais da escrita e da matemática; deve estimular a abertura aos novos conhecimentos e a afirmação de sua identidade em relação ao coletivo no qual se insere. Em suma, o planejamento escolar deve privilegiar os usos sociais dos conhecimentos trabalhados, levando os alunos a serem hábeis nas normas sociais, por meio das linguagens escolares e não escolares e por meio da prática de conhecimentos.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

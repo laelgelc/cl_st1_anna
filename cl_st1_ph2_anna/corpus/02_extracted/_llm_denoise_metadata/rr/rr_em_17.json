@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02bd17615d478bb2006ab30d1f506c87d2b4140ac3b26efc0e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 586,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 767,
+      "output_tokens_details": {
+        "reasoning_tokens": 281
+      },
+      "total_tokens": 1353
+    }
+  },
+  "created_at": "2026-09-22T23:20:06Z",
+  "duration_seconds": 6.886,
+  "error": null,
+  "excerpt_id": "rr_em_17",
+  "filename": "rr_em_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "32f7ead7ef0607619bf35546a1db57980e9a2ee6cd93603f815fe793aee25010",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8d014521eaba5b304a83e8555f010208bd15b0f18e0a7cd414f46d19e84a5f43",
+    "rendered_prompt_sha256": "23ce82a5a9ad792e85b2e354d62821b80bcd3fcbe7d3c0b776961336ed6349f6",
+    "source_text_sha256": "3c18a939feb3e0ee4e063e9bce96b1fcdc41902e362e0ba1080068b0d459ae39"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3449,
+    "filename": "rr_em_17.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_17.txt",
+    "state": "rr",
+    "word_count_original": 355
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_17.json"
+  },
+  "raw_response_text": "2.4.\n\nO DCRR do Ensino Médio adota uma abordagem de reconhecer a necessidade sociocultural e relacional do educando e intervir para que a escola cumpra as suas funções sociais. Logo, é necessário fazer o estudante compreender e reconhecer as questões étnico racial, de gênero e a sua diversidade como fenômeno histórico e cultural, com suas diferentes formas de expressões simbolizadas pelos seus respectivos estereótipos no espaço escolar. O Estado e a sociedade são responsáveis por políticas públicas de combate ao racismo e toda forma de discriminação e preconceito.\n\nAssim, o debate precisa ser conduzido no ambiente escolar de forma transversal, para que sejam significadas na prática. Dessa forma, professores/as das diferentes áreas do conhecimento poderão lidar com o tema e com situações do cotidiano. Com esse procedimento, estaremos contribuindo para que a escola não seja um instrumento de reprodução de preconceitos, mas de valorização das diversidades que compõem e enriquecem a sociedade roraimense. Por isso, a escola se configura como o caminho mais consistente e promissor para um mundo tolerante, mais plural e democrático.\n\nNeste sentido Ferreira e Luz (2009, p.38) dizem que:\n\n> [...] a instituição escolar deve contribuir para uma educação libertadora que contemple a dimensão sexual, a diversidade, os direitos humanos e a multiculturalidade. Todavia, para que isso aconteça é necessário a implementação de novas práticas pedagógicas.\n\nEsta visão, é reforçada pela ideia de que “a sexualidade não é apenas uma questão pessoal, mas social e política, sendo construída ao longo de toda uma vida, de muitos modos, por todos os sujeitos, particularmente, os envolvidos no processo educacional” Louro (2007 apud Ferreira e Luz, 2009).\n\nConsiderando ainda, o que estabelece a LDBEN (BRASIL, 1996), em seu art. 3º, inciso IV, que define o “respeito à liberdade e apreço à tolerância” como princípio educacional, torna-se imprescindível que a escola adote estratégias para sensibilizar os estudantes sobre a diversidade dos sujeitos e a necessidade de respeitar o outro. Assim, o DCRR entende a importância de se trabalhar essa temática e reforça o papel do trabalho desenvolvido nas instituições de ensino em relação às temáticas relacionadas à diversidade sexual e de gênero.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

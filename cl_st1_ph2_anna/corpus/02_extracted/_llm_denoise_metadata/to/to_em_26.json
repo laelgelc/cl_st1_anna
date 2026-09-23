@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d70c0c22ba12485006ab3102aa51887d2bd5f2cea9281f013",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1137,
+      "input_tokens_details": {
+        "cache_write_tokens": 1134,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1533,
+      "output_tokens_details": {
+        "reasoning_tokens": 461
+      },
+      "total_tokens": 2670
+    }
+  },
+  "created_at": "2026-09-22T23:33:10Z",
+  "duration_seconds": 11.801,
+  "error": null,
+  "excerpt_id": "to_em_26",
+  "filename": "to_em_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "08c7c7498f76a90872740090968931b453c070751c7890c15e0fd54072d41a23",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2340ddc5b9d42d3ef588e99667baf1092d19b3d7ab2b2b4a48d1e529a450270e",
+    "rendered_prompt_sha256": "380127a395f9d7e38ad2ca813b6db433c4370ae117d02d85aee6325408485fe3",
+    "source_text_sha256": "8043de4a125aa760365ea6b7ed6c0d3e07ad00c0ab178f692bfdcef3ff5d7fc6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4025,
+    "filename": "to_em_26.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_26.txt",
+    "state": "to",
+    "word_count_original": 654
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_26.json"
+  },
+  "raw_response_text": "## 4. ORGANIZAÇÃO OPERACIONAL\n\n### 4.1 Formação de turmas e o perfil do Professor(a)\n\nA escola poderá fazer uma estimativa de Eletivas a serem ofertadas levando em consideração o quantitativo de matrículas, fundamentada na manifestação de interesse ou necessidades a partir de prévia escuta aos estudantes.\n\nAs turmas de Eletivas são formadas por adesão do estudante. A composição poderá ser com estudantes de diferentes turmas (formação geral/matrícula inicial) e diferentes séries do Ensino Médio (1ª, 2ª e 3ª séries).\n\n### 4.2 Orientações para Elaboração de ELETIVA\n\n#### ESTRUTURA DO EMENTÁRIO DA ELETIVA\n\n**Tema da Eletiva:** Temas Contemporâneos Transversais (TCT) — quais temas.  \n**Título da Eletiva:** deve ser criativo, interessante e contemporâneo.  \n**Carga horária:** 40h (em cada semestre letivo).  \n**Nº de Turmas:** conforme o número de estudantes e suas escolhas e a disponibilidade de oferta da escola.  \n**Forma de oferta:** aula presencial e possibilidade de parte da carga horária em aula não presencial, conforme legislação vigente.  \n**Autor(a)/autores(as):** elaborador(es) da Eletiva.\n\n**Introdução/Resumo/Apresentação:** neste espaço, falar de forma objetiva e clara o que será trabalhado na Eletiva, os ganhos individuais (para o estudante) e sociais (para a comunidade, o município e a sociedade), o que é esperado da Eletiva em termos de aprendizagens cognitivas/conceituais, procedimentais e atitudinais, e as áreas de conhecimento envolvidas/contempladas na Eletiva para ampliar e aprofundar.\n\n**Justificativa:** qual(is) motivo(s) foi(ram) considerado(s) para definição desta Eletiva — em termos de fortalecimento das aprendizagens cognitivas, socioemocionais (Formação Geral ou Itinerários Formativos) e projeto de vida dos estudantes.\n\n**Área(s) do Conhecimento/Componente(s) Curricular(es):** contemplar uma ou mais áreas de conhecimento, um ou mais componentes curriculares para ampliar e aprofundar.\n\n**Competências Gerais (BNCC):** citar a(s) competência(s) que será(ão) trabalhada(s).\n\n**Eixo(s) Estruturante(s) dos Itinerários Formativos:** evidenciar qual(is) eixo(s) será(ão) trabalhado(s) (Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo). É recomendado que na composição da Eletiva seja incorporado e integrado no mínimo um eixo estruturante, a fim de garantir que os estudantes experimentem diferentes situações de aprendizagem e desenvolvam um conjunto diversificado de habilidades relevantes para sua formação integral.\n\n**Habilidades dos Itinerários Formativos Associadas às Competências Gerais da BNCC.**\n\n**Habilidades dos Itinerários Formativos Associadas aos Eixos Estruturantes.**\n\n**Objetos de conhecimento:** citar os objetos de conhecimento (conteúdos, conceitos e processos) que serão abordados, de acordo com as habilidades dos Itinerários Formativos destacadas para ampliar e aprofundar.\n\n**Orientações didático-pedagógicas/Metodologias:** listar as formas de ações e as fases do desenvolvimento da Eletiva em termos de atividades, espaços de aprendizagens e tempo pedagógico, conforme carga horária e calendário letivo, de modo que atenda à oferta de aula presencial e não presencial.\n\n**Entrega/Produto Final:** todo trabalho com Eletiva deve ter como resultado um produto final que possa impactar no processo de aprendizagem dos estudantes, no seu projeto de vida, em âmbito pessoal, social e produtivo/profissional (evidenciando as aprendizagens das áreas de conhecimento e o desenvolvimento das habilidades dos Eixos Estruturantes contemplados na Eletiva).\n\n**Evento de culminância:** a Eletiva deve ser concluída com um evento científico ou cultural (seminário, exposição, debate, conferência, teatro, sarau, noite de autógrafos, fórum, dentre outros) na unidade escolar ou em outro espaço público, para entrega do produto final à sociedade, de forma que seus resultados sejam socializados com o público-alvo (comunidade escolar, local e outros). Para tanto, faz-se importante indicar quem será o público. Neste momento, os estudantes apresentam as temáticas estudadas, o que aprenderam, como criaram/fizeram o produto final, explicitando a intencionalidade pedagógica, as habilidades desenvolvidas, o que agora são capazes de ver, perceber e fazer e qual a importância do aprendizado adquirido para sua vida estudantil e para as práticas socioambientais.\n\n**Recursos didáticos:** recursos que o(a) professor(a) utilizará para realização do trabalho com os estudantes (tecnologia, financeiro, parcerias e outros).\n\n**Avaliação:** conforme orientações do DCT-TO, Etapa Ensino Médio.\n\n**Referências:** citar as impressas e os links.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

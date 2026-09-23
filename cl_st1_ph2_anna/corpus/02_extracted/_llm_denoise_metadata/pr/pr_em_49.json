@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b06c8b2473c213e006ab309ceb50087d283fd9da1066e6ef7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 764,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 907,
+      "output_tokens_details": {
+        "reasoning_tokens": 298
+      },
+      "total_tokens": 1671
+    }
+  },
+  "created_at": "2026-09-22T23:05:59Z",
+  "duration_seconds": 8.44,
+  "error": null,
+  "excerpt_id": "pr_em_49",
+  "filename": "pr_em_49.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0660b7de65707b72c42608075084414ac7fc9130b36002b56c4968ff122ee587",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2db6d93e7d3605539d34adf9797f73fdee00a2d35646495f324b632b8a0ca443",
+    "rendered_prompt_sha256": "a63d611812e3d1733ea1b665d4195c904611c51dfbd0b892414c750d8bbe0770",
+    "source_text_sha256": "2cdf4cd5d24d76ead70285443b69bc6c5990e5f93f91e12d981ecdc47546935b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_49.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2767,
+    "filename": "pr_em_49.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_49.txt",
+    "state": "pr",
+    "word_count_original": 424
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_49.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_49.json"
+  },
+  "raw_response_text": "### Unidade Temática 1 – Práticas Discursivas de Leitura\n\nAs práticas discursivas de leitura no componente LI integram-se na Área de Linguagens e suas Tecnologias pelos procedimentos de análise e exploração de seus objetos de conhecimentos, para compreensão, reflexão, apreciação, experimentação e investigação de diferentes discursos veiculados por textos e atos de linguagem.\n\nO quadro organizador a seguir indica as práticas discursivas de leitura — habilidades a serem desenvolvidas para a compreensão leitora, de leitura e compreensão digital —; os objetos de conhecimento e os conteúdos referentes a essa unidade.\n\n### Unidade Temática 2 – Práticas Discursivas de Compreensão e Produção Oral\n\nEssa unidade temática destaca a importância da exposição e do contato com textos orais de diferentes discursos e contextos da LI em uso, com diferentes formas de expressão, diferentes linguagens multissemióticas, digitais e diferentes “ingleses”, pronúncias e sotaques, apresentando ao estudante as diversidades linguísticas e as similaridades que fazem da linguagem e da língua um meio comum de interação e comunicação, justificando seu papel de língua franca (ILF).\n\nRessalta-se, portanto, a função pedagógica da sensibilização dos estudantes para além do uso funcional da língua e suas tecnologias, para a percepção das possibilidades de inclusão de sua própria forma de expressar seus pensamentos e ideias, fazendo parte da comunidade de usuários da Língua Inglesa (ILF), em instâncias comuns na cultura juvenil e nas múltiplas culturas, nas diversas esferas sociais de comunicação oral, bem como o trabalho com temáticas que abordam a interculturalidade a partir dos textos.\n\n### Unidade Temática 3 – Práticas Discursivas de Compreensão e Produção Escrita\n\nA produção textual escrita aportada pelas práticas de leitura e oralidade resulta das análises, apreciações, reflexões e réplicas construídas por meio dos conteúdos das leituras (dos diversos textos/gêneros discursivos) e das interações orais — comentários, discussões, debates, expressões de opinião, constatações de fatos informativos, entre outras interações —, constituindo-se em conteúdos e caminhos para a (re)construção dos conhecimentos a serem expressados através da produção escrita: produção textual significativa, com propósitos significativos.\n\nCompreendamos que, entre as práticas de produção textual escrita, serão incluídas as oportunidades trans e interdisciplinares de produção de textos pertencentes à cultura juvenil e de conteúdos apreendidos de outras áreas de conhecimento, cujas temáticas transitam socialmente. Produções textuais essas construídas como resultado das razões pelas quais o jovem estudante do Ensino Médio se sente instigado a falar sobre e a escrever, como resultado de suas reflexões, ideias e pontos de vista. Essas são oportunidades de valor significativo para que o jovem exercite sua autonomia e protagonismo, enquanto constrói perspectivas e planos para o futuro: seu projeto de vida.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

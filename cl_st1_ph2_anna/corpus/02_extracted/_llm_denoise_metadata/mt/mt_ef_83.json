@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_000231a0d79f8a3d006ab304ab3f1487d2a4c763f04d175447",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 815,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 726,
+      "output_tokens_details": {
+        "reasoning_tokens": 75
+      },
+      "total_tokens": 1541
+    }
+  },
+  "created_at": "2026-09-22T22:44:00Z",
+  "duration_seconds": 5.741,
+  "error": null,
+  "excerpt_id": "mt_ef_83",
+  "filename": "mt_ef_83.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "57f77bcb477846964fb83f2ef2e78751927e6696cafb0e6c187b60a6326ae42c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f480125335e8e757ce3e72f67d03f170bf3c83dbcd791c955ee5a3d5a256f0f6",
+    "rendered_prompt_sha256": "2cf2a8d35822da8a2e1d2bec039451f0bfdb781a2d46f7dcde38ab95f788d9db",
+    "source_text_sha256": "00df8fb497ee4f1ea8ce7d05fe2ed6052e7264ad6ae55cfa2c4e23819f8e1062"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_83.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1881,
+    "filename": "mt_ef_83.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_83.txt",
+    "state": "mt",
+    "word_count_original": 479
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_83.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_83.json"
+  },
+  "raw_response_text": "### 3.1.13. Planejamento de Ensino\n\nAntes de abordar tópicos referentes à elaboração e/ou reelaboração do planejamento de ensino, serão retomadas informações relevantes contidas neste documento, com o intuito de subsidiar o professor na realização dessa importantíssima tarefa. Sendo assim, seguem abaixo elementos importantes a serem considerados para a construção do planejamento:\n\n- Realização de diagnóstico para conhecer o perfil dos estudantes,\n- Estudo sobre o estágio de desenvolvimento das crianças segundo Piaget,\n- Aquisição de informações referentes à Alfabetização e ao Letramento matemático dos estudantes,\n- Realização de estudo da BNCC e do Documento de Referência Curricular para Mato Grosso,\n- Entendimento da organização da matemática em Unidades Temáticas, Blocos, Habilidades e Objetos de Conhecimento,\n- Leitura vertical, horizontal e realização de conexões das Habilidades e Objetos de Conhecimento,\n- Apropriação das competências específicas de Matemática do Ensino Fundamental e gerais da Educação Básica,\n- Definição de metodologia de ensino específica da matemática e coerência entre a avaliação e metodologia adotada,\n- Conhecimento sobre as Tecnologias de Informações e Comunicação (TICs).\n\nA partir da apropriação dos elementos dispostos anteriormente, os professores terão melhores condições para planejar suas ações pedagógicas e de forma organizada realizar previsões das etapas do trabalho escolar.\n\nO planejamento de ensino pode ser definido como processo contínuo que se preocupa com o “para onde ir” e “quais as maneiras adequadas para chegar lá”, tendo em vista a situação presente e possibilidades futuras, para que o desenvolvimento da educação atenda tanto necessidades de desenvolvimento da sociedade quanto do indivíduo. (TURRA et al. 1975)\n\nNesse contexto, o planejamento de ensino visa à organização racional da ação educativa, possibilitando uma visão técnica do processo de ensinar e aprender, auxiliando na tomada de decisões claras e precisas, evitando a improvisação do fazer pedagógico.\n\nO planejamento de ensino possibilita ao professor definir os possíveis caminhos que levarão os estudantes a obterem habilidades e competências, sendo assim, na definição de tais caminhos deverá se basear na realidade existente, observando os recursos materiais, a estrutura do local, dentre outros aspectos, para que o mesmo tenha validade e que os resultados previstos possam ser alcançados. Nesta perspectiva, sempre que possível, o professor deverá fazer uso das tecnologias digitais como estratégias de ensino.\n\nOutro aspecto que deve ser considerado no planejamento de ensino é a diversidade cultural, pois, mesmo sabendo que a educação matemática proposta para o Ensino Fundamental está estruturada de forma semelhante para todo território mato-grossense, devem-se considerar as especificidades de cada localidade. Todavia, o professor não deverá ver as especificidades como barreiras para estabelecer a comunicação entre o referido componente curricular e o contexto local.\n\nEnfim, durante o planejamento, os professores e gestores escolares fomentam um conjunto de ações, que asseguram a aproximação da matemática ao contexto local, regional e global, em que os estudantes estão inseridos, potencializando as especificidades de ensino, sejam quilombola, indígena, urbana e/ou rural, entre outras, zelando pelo currículo em ação.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

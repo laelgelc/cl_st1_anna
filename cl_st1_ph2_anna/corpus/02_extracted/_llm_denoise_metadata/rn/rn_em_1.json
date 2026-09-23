@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06ea6c635b4e16da006ab30afede7087d290fe359af28abf11",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1771,
+      "input_tokens_details": {
+        "cache_write_tokens": 1768,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1852,
+      "output_tokens_details": {
+        "reasoning_tokens": 186
+      },
+      "total_tokens": 3623
+    }
+  },
+  "created_at": "2026-09-22T23:11:08Z",
+  "duration_seconds": 13.403,
+  "error": null,
+  "excerpt_id": "rn_em_1",
+  "filename": "rn_em_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "12cd232cffde0d8b00d4e046a6992245488e5a04a39aab63feafc9524a70c222",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ce0d352b5cf71a70de33aa0ada0b6957ffd7f022bcb94f6a4e4461e7e1095e08",
+    "rendered_prompt_sha256": "9f883728f4dc9f34ba126e9d2301b957d228bd1aa476a3ad445ba1050a001895",
+    "source_text_sha256": "add5c2e419e339f56e488857b7d7397ad61e8c18e6d6e3c942ea1d4711a8ec5c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3007,
+    "filename": "rn_em_1.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_1.txt",
+    "state": "rn",
+    "word_count_original": 1187
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_1.json"
+  },
+  "raw_response_text": "# APRESENTAÇÃO\n\nA Secretaria de Estado da Educação, da Cultura, do Esporte e do Lazer (SEEC-RN) apresenta aos profissionais da educação, estudantes e suas famílias, demais profissionais das diversas instituições públicas e privadas de Educação Básica e Ensino Superior e para a sociedade em geral, o Referencial Curricular do Ensino Médio Potiguar, resultado de discussões, estudos, intercâmbios de experiências, reflexões acerca do currículo e da prática docente. Este Referencial consolida as orientações curriculares para a Educação Básica, articulando-se com o Documento Curricular das etapas da Educação Infantil e Ensino Fundamental, aprovado por meio da Resolução n° 102/2018-CEE/RN.\n\nA elaboração dos Referenciais Curriculares, em todos os estados, mobilizou as Secretarias de Educação para ações articuladas pelo Conselho de Secretários de Educação (CONSED), a União Nacional dos Dirigentes Municipais de Educação (UNDIME) e Conselho Nacional de Educação (CNE), como forma de estabelecer unidade nas orientações curriculares nacionais, que pode favorecer à universalização das aprendizagens, atender à mobilidade dos estudantes entre as redes de ensino, e contemplar a diversidade regional e local nas formas de organização das ofertas da Educação Básica.\n\nEssa mobilização teve como referência o processo de elaboração da Base Nacional Comum Curricular, iniciado em 2016, e a Reforma do Ensino Médio, promulgada por meio da Lei no 13.415/2017. Nesse contexto, a educação brasileira passa por mudanças significativas, com repercussões na legislação educacional, aprofundando o debate sobre os fundamentos e procedimentos a serem adotados em todas as etapas, tendo em vista a melhoria do ensino-aprendizagem condizente com as mudanças ocorridas nas últimas décadas, principalmente pelo advento das novas tecnologias digitais.\n\nNo Rio Grande do Norte, instituiu-se a Comissão Estadual destinada à implementação da Base Nacional Comum Curricular por meio da Portaria no 141/2018-SEEC/RN, sob presidência da Secretária de Estado da Educação e da Cultura do Rio Grande do Norte e representações da União Nacional dos Dirigentes Municipais de Educação (UNDIME) e da União Nacional dos Conselhos Municipais de Educação (UNCME), com o compromisso de estabelecer e cumprir as premissas do regime de colaboração. O Termo de Intenção de Colaboração para construção do Documento Curricular do Estado obteve a adesão total dos 167 municípios e firmou, entre o Estado e os Municípios, o compromisso com a garantia das aprendizagens dos estudantes de todas as redes de ensino do território potiguar.\n\nA construção do documento curricular para Educação Básica no RN para as etapas da Educação Infantil, Ensino Fundamental e Ensino Médio, é fruto de um trabalho colaborativo, que envolveu articuladores dos diversos segmentos das redes estadual, municipais e privada e os Conselhos Estadual e Municipais de Educação, entre outros colaboradores. Configurou-se como um processo democrático uma vez que a comunidade escolar se mobilizou e contribuiu, significativamente, na sua construção.\n\nNa etapa do Ensino Médio, ela decorreu da articulação da Subcoordenadoria de Ensino Médio (SUEM/SEEC) com as Diretorias Regionais de Educação e Cultura (DIRECs) na promoção de seminários com a participação de professores e de outros profissionais da educação, bem como de especialistas contratados por meio do Projeto Governo Cidadão para contribuições ao Documento Curricular.\n\nEsse documento, em sua primeira versão, orientado por consultores da Fundação Vanzollini, foi encaminhado para análise do CEE-RN em 2018. No entanto, a SEEC-RN solicitou seu retorno em 2019 com o objetivo de adequá-lo às Diretrizes Curriculares Nacionais para o Ensino Médio, conforme Resolução no 3, de 21 de novembro de 2018, à BNCC do Ensino Médio, aprovada pela Resolução CNE no 4, de 17 de dezembro de 2018, à Portaria no 1.432, de 28 de dezembro de 2018, que estabelece os referenciais para elaboração dos itinerários formativos, à Resolução CNE/CP no 1, de 5 de janeiro de 2021 que define as Diretrizes Curriculares Nacionais Gerais para a Educação Profissional e Tecnológica, bem como para ser feita uma reanálise das orientações pela gestão educacional vigente.\n\nA coordenação dessa nova etapa da escrita foi realizada pela Coordenadoria de Desenvolvimento Escolar (CODESE/SEEC) e a Subcoordenadoria de Ensino Médio (SUEM/SEEC), em articulação com a Subcoordenadoria de Educação Profissional (SUEP/SEEC) e a equipe de profissionais formada a partir do Programa de Apoio à Implementação da Base Nacional Comum Curricular (ProBNCC), instituída pela Portaria MEC no 331, de 5 de abril de 2018. Essa equipe foi composta por técnicos representantes dos setores pedagógicos da SEEC e DIRECs, representante do Conselho Estadual de Educação, representante da UNDIME, professores de escolas de ensino médio e professor representante do Instituto de Educação Superior Presidente Kennedy (IFESP), conforme os perfis descritos na figura abaixo:\n\nA metodologia para a escrita deste Referencial Curricular se deu por meio de encontros presenciais e virtuais, sendo esses momentos com toda a equipe e outros por subdivisão de acordo com a área de conhecimento e/ou grupo de trabalho, a partir da necessidade da temática em elaboração. Todo o processo de escrita foi realizado com base em planejamento e definições coletivas.\n\nApós a redação, o Referencial Curricular foi disponibilizado para consulta pública e contribuições de professores, estudantes, familiares e sociedade em geral, através de formulário virtual disponibilizado no sítio da SEEC na Internet por um período de 20 dias. Além da consulta pública, recebemos contribuições de profissionais da educação de universidades públicas por meio de instrumento especificamente desenvolvido para esse fim e, também, do Instituto Reúna/Consed, que analisou, sob critérios próprios, os referenciais curriculares dos estados. Todas as contribuições advindas desses processos foram sistematizadas pela equipe ProBNCC para inserções no Referencial, quando necessário.\n\nEste Referencial está estruturado em sete capítulos, expondo aspectos legais, contextuais e epistemológicos referentes ao Ensino Médio Potiguar, que impactam nos processos de ensino-aprendizagem, bem como em outra forma de organização do trabalho pedagógico. No primeiro capítulo, são destacados os objetivos que ancoram este Referencial, a organização da Educação Básica em suas etapas, finalidades e a transição entre as mesmas, além do perfil dos sujeitos do Ensino Médio Potiguar; No segundo capítulo, são abordados os fundamentos e concepções da proposta alicerçada em uma educação democrática, integral e inclusiva; O terceiro capítulo traz as bases do Ensino Médio Potiguar em suas modalidades e especificidades; No quarto capítulo, os temas tratados são as juventudes, o protagonismo e o projeto de vida; O quinto capítulo apresenta a arquitetura curricular que traz a organização dos tempos e das aprendizagens, ao longo das três séries, para a Formação Geral Básica e para os Itinerários Formativos; O sexto capítulo aborda a organização curricular da Formação Geral Básica, por área de conhecimento e seus respectivos componentes curriculares, considerando as aprendizagens essenciais a serem asseguradas aos estudantes; O sétimo, e último capítulo, destaca as diretrizes para a organização da oferta dos Itinerários Formativos.\n\nAssim, a SEEC coloca à disposição das redes pública e privada e sociedade do Rio Grande do Norte o Referencial Curricular para o Ensino Médio Potiguar, essencial na tomada de decisões nas unidades escolares, no momento de organização do Projeto Político Pedagógico (PPP) em produção colaborativa com os Conselhos Escolares. A organização do trabalho pedagógico e curricular, explicitada no PPP, deve expressar a formação integral, democrática, inclusiva e emancipatória de crianças, jovens, adultos e pessoas idosas.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

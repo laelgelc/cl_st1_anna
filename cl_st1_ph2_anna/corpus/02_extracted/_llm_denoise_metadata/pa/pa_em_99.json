@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_070617a12aa8f15c006ab3066f42d887d2874a7289a0c27227",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 672,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 786,
+      "output_tokens_details": {
+        "reasoning_tokens": 210
+      },
+      "total_tokens": 1458
+    }
+  },
+  "created_at": "2026-09-22T22:51:36Z",
+  "duration_seconds": 9.446,
+  "error": null,
+  "excerpt_id": "pa_em_99",
+  "filename": "pa_em_99.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2b6b786bef86082c93fc858f0d72d258eec84f150fdea44984a2e2161bc5bda1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c4d24f148c96db24553ef2c83406ee20cb04f349f19c4412ecd0758acf4fa1b8",
+    "rendered_prompt_sha256": "8012e5d6d63f18950656173bd7e0f2f47ecf96bc1cba3173408e0383dfd56d4d",
+    "source_text_sha256": "bdbfb9a73e0936128672541e7e5931183ea00f0ca9ffb1ead9830a0cbb05729c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_99.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2151,
+    "filename": "pa_em_99.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_99.txt",
+    "state": "pa",
+    "word_count_original": 400
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_99.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_99.json"
+  },
+  "raw_response_text": "Convém destacar, contudo, que na escola, estudantes e professores sempre foram mediados por materiais didáticos, que, conceitualmente, são tecnologias educacionais. Atualmente, estes recursos passam a ser auxiliados pelas tecnologias midiáticas com incremento tecnológico educacional. Os tempos atuais denotam que a realidade midiática está presente no cotidiano, representada por redes de computadores, redes sociais interativas tais como “facebook”, “WhatsApp” e “twiter” e a realização de lives e reuniões on line.\n\nO grande impacto desta inovação tecnológica representada na mediação tecnológica, consiste na implementação da interatividade em tempo real. A ação do professor como mediador de conhecimentos e saberes, ao invés de representar um mero transmissor do ensino, propicia uma aprendizagem mais lúdica, contextualizada, colaborativa e consequentemente interativa por excelência, com a participação ativa dos alunos.\n\nNeste aspecto, Freire (1996, p.42) enfatiza que a tarefa coerente do educador que pensa certo é, exercendo como ser humano a irrecusável prática de inteligir, desafiar o educando com quem se comunica e a quem comunica, produzir sua compreensão do que vem sendo comunicado. Não há inteligibilidade que não seja comunicação e intercomunicação e que não se funde na dialogicidade.\n\nEste novo paradigma educacional emergente, suscita o ensino como um fenômeno processual por excelência, no qual o aluno e professor passam a compartilhar de experiências inovadoras de aprendizagem, sendo a pesquisa e a curiosidade acadêmicas, construtores dos novos saberes.\n\nSobre este aspecto (MASETTO, 2011, p.147) destaca que o professor fará uso destas ferramentas para que elas tenham o papel de uma ‘ponte móvel’ entre o conhecimento científico trazido pelo professor ao aluno.\n\nAinda nessa perspectiva (2009):\n\n> Ensinar com as novas mídias será uma revolução se mudarmos simultaneamente os paradigmas convencionais do ensino, que mantêm distantes professores e alunos. Caso contrário, conseguiremos dar um verniz de modernidade, sem mexer no essencial. (MORAN, p. 63)\n\nO conceito \"interatividade\" (como fenômeno presencial em tempo real) é de fundamental importância para o estudo da comunicação mediada por tecnologias, da educação à distância, da engenharia de software e de todas as áreas que lidam com a interação homem-máquina e homem-homem, via computador.\n\nDesta forma, o SEI segue a lógica da mediação tecnológica como um recurso e/ou metodologia de aprendizagem que utiliza as tecnologias educacionais, tendo como principal característica a relação educativa à interatividade, para estimular a curiosidade e não de imposição cultural ou de desconsiderar a identidade dos adolescentes, jovens e adultos de cada comunidade.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

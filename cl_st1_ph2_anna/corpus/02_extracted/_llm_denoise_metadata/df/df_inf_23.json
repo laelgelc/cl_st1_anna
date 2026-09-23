@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_020e2f3616f72762006ab30067930487d294e4adfe77b48641",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 798,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 716,
+      "output_tokens_details": {
+        "reasoning_tokens": 75
+      },
+      "total_tokens": 1514
+    }
+  },
+  "created_at": "2026-09-22T22:25:48Z",
+  "duration_seconds": 5.33,
+  "error": null,
+  "excerpt_id": "df_inf_23",
+  "filename": "df_inf_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "695a58cedbc9ef185502fba43e8807c7199f411c799d59b65446be8dd2173701",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f9276299917de7afdaaf271b53e70afa4872d338507098281b313a72b6ac4080",
+    "rendered_prompt_sha256": "34c1c3ff85103f6630efdf7e78aba1e13ca86a83753c79f6b6ea7c3929f69339",
+    "source_text_sha256": "078095f468b3bd13d277cb63a9d4e5b800c380aefb0cd6bf657ef973568eb00d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_inf_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 967,
+    "filename": "df_inf_23.txt",
+    "filepath": "corpus/00_source_per_state/df/df_inf_23.txt",
+    "state": "df",
+    "word_count_original": 459
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_inf_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_inf_23.json"
+  },
+  "raw_response_text": "## 16.2. Corpo, gestos e movimentos\n\nAutor: Arthur Di Fábio Castro\n\nEsse campo de experiência propõe o trabalho voltado ao desenvolvimento corporal da criança que, ao se expressar, interage com o mundo desde cedo por meio de gestos e movimentos corporais, sejam eles dotados de intencionalidade ou de impulsos próprios da infância, bem como de espontaneidade ou coordenação de movimentos, gestos e sentidos. A criança brinca e interage em diversas situações sociais e culturais as quais está exposta, estabelecendo relações que produzem conhecimentos sobre si e o outro e, progressivamente, tomando consciência de sua corporeidade.\n\nNa Educação Infantil, as linguagens se entrelaçam e as diversas dimensões de aprendizagem se fundem na expressão da criança, o que torna essencial o trabalho corporal como instrumento de interação e comunicação que possibilita seu desenvolvimento e aprendizagem. O trabalho corporal educativo na Educação Infantil deve levar em conta a centralidade do corpo da criança, voltando-o para o conhecimento e reconhecimento de suas potencialidades, limites, sensações e funções corporais. Dessa forma, o corpo, como veículo de expressão das diversas linguagens (a música, a dança, o teatro e as brincadeiras, dentre outras), comunica-se com outros campos de experiência, de modo a promover possibilidades de desenvolvimento integral.\n\nNesse processo, é fundamental considerar ainda as contribuições de todas as matrizes culturais que compõem a sociedade brasileira. Assim, jogos e brincadeiras de origem africana, indígena e europeia, que deram origem à população brasileira, por exemplo, devem ser considerados para o planejamento das ações na Educação Infantil.\n\nOs cuidados físicos necessários com o corpo perpassam as interações da criança com o meio, com o outro e consigo mesma, fato que torna o trabalho educativo corporal primordial ao desenvolvimento da noção do que é seguro ou do que pode promover riscos para sua integridade física. No entanto, ressalta-se que tais cuidados devem propiciar à criança condições de expressão sem que supostas limitações tolham seu desenvolvimento.\n\nO trabalho pedagógico nesse campo de experiência deve propiciar explorações de movimentos que envolvam o próprio repertório da criança, ampliando-o à descoberta de variados modos de ocupação dos espaços com o corpo, bem como de atividades que lhe possibilite expressões cognitivas e afetivas em suas relações sociais e culturais, entrelaçadas às diversas linguagens e campos de experiências trabalhados. Para tal, o repertório deve abranger atividades que envolvam mímica, expressões faciais e gestuais; sonoridades; olhares; sentar com apoio; rastejar, engatinhar, escorregar e caminhar, apoiando-se ou livremente; correr; alongar; escalar; saltar; dar cambalhotas; equilibrar-se e rolar. Além dessas, o repertório pode incluir também as atividades que surgirem das brincadeiras e interações propostas no trabalho educativo com outras linguagens e campos de experiência, em que a autonomia e o protagonismo infantil devem ser levados em consideração nos objetivos pretendidos nesse campo de experiência.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

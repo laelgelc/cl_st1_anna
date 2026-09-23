@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05c4ad842ce4c7ca006ab30aa44eb887d2a9c98cf7c70e206a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 816,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 963,
+      "output_tokens_details": {
+        "reasoning_tokens": 243
+      },
+      "total_tokens": 1779
+    }
+  },
+  "created_at": "2026-09-22T23:09:32Z",
+  "duration_seconds": 8.674,
+  "error": null,
+  "excerpt_id": "rj_inf_diversidade_etnico_racial",
+  "filename": "rj_inf_diversidade_etnico_racial.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d9e3ac6a86a7a3ae32e91b62aea6900af881cca1d2b4aff58853990278a904e4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a27a9993c92ee04baa54e00615610f4b485510d9a6294e82ae16cf54196d1cc6",
+    "rendered_prompt_sha256": "b9a3924ef5ae32c35ff9cdc39ef6a352287efc74ccbbe3fe3def0cf1796f3ef0",
+    "source_text_sha256": "d53292e32c04e5a35ae813bbbdb32576b5764edbda7771dbb27eb50e03c2e3a4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_diversidade_etnico_racial.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2917,
+    "filename": "rj_inf_diversidade_etnico_racial.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_diversidade_etnico_racial.txt",
+    "state": "rj",
+    "word_count_original": 522
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_diversidade_etnico_racial.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_diversidade_etnico_racial.json"
+  },
+  "raw_response_text": "## Diversidade Étnica e Racial\n\nNa Educação Infantil, um elemento que precisamos levar em conta é a nossa raiz afrodescendente e a luta pelo seu reconhecimento, que tem repercutido em conquistas importantes do ponto de vista legal, tais como nos mostra algumas leis e resoluções que são nossos maiores exemplos da valorização e das discussões em torno dessa temática:\n\n- Lei nº 12.288/2010 institui o Estatuto da Igualdade Racial, destinado a garantir à população negra a efetivação da igualdade de oportunidades, a defesa dos direitos étnicos individuais e coletivos e combate à discriminação e às demais formas de intolerância étnica;\n- Lei nº 10.639, de 9 de janeiro de 2003, que inclui no currículo oficial das Redes de Ensino a obrigatoriedade da temática “Histórias e Cultura Afro-Brasileira”;\n- Resolução nº 1, de 17 de junho de 2004, que institui as Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais e para o Ensino de História e Cultura Afro-Brasileira e Africana.\n\nNo entanto, não se trata de ensinar conteúdos na Educação Infantil, mas de promover a imersão da criança em histórias, músicas, poesias, literatura, ritmos, danças, hábitos alimentares e vestimentas, ornamentos e produções artístico-culturais afrodescendentes para integrar, nos projetos pedagógicos, essas manifestações no cotidiano da criança.\n\nVemos assim, que a Educação Infantil é amplamente desafiada com essa temática. Os princípios que norteiam devem ser traduzidos de forma diferente de como é feito nas demais etapas da educação. Ter conhecimento desse processo implica necessariamente que os professores das creches e pré-escolas tenham o compromisso ético de transformação da sociedade e dos modos de relações sociais historicamente construídos, e com o necessário cuidado com a criança em relação aos seus processos de construção de sua identidade. É nessa direção que caminha o reconhecimento das diversas singularidades dos bebês e das crianças pequenas.\n\nNa sociedade, as relações entre os indivíduos são marcadas por processos hegemônicos de dominação de classe (ricos sobre pobres), de gênero (homens sobre mulheres), de lugar (urbano sobre rural), étnica (brancos sobre negros) ou etária (adultos sobre crianças). Um ambiente educacional que pretende colaborar para o estabelecimento de relações sociais mais justas e mais respeitosas, no sentido da aceitação do outro como legítimo, necessita estar atento às formas como os processos de dominação vigentes na sociedade são reproduzidos e colaborar para que meninos e meninas enfrentem as tensões presentes nos processos de construção de si mesmos e de construção do outro através do diálogo e reconhecimento de outros grupos e identidades culturais.\n\nA heterogeneidade cultural como princípio educativo extrapola a noção de identidade nacional e se concretiza por meio das experiências e vivências sociais e culturais que envolvem a individualidade na sociedade. São nas diferenças que a prática educativa se efetiva e cabe ao professor saber organizar seu trabalho em função do desenvolvimento de práticas adequadas ao ambiente da Educação Infantil. O professor, ao contar história e dialogar com a criança, está promovendo sua socialização e desenvolvendo seu senso de moralidade, sem entregar prontos, conceitos e saberes que ela precisa construir. O objetivo não é transmitir o valor ou encontrar a resposta certa, mas ensinar a criança a pensar.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

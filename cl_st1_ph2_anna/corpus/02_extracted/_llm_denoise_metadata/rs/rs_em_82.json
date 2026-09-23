@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05f9df31750dd6fc006ab30de6f5e887d2bbccc093a72a6c1f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1723,
+      "input_tokens_details": {
+        "cache_write_tokens": 1720,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1748,
+      "output_tokens_details": {
+        "reasoning_tokens": 213
+      },
+      "total_tokens": 3471
+    }
+  },
+  "created_at": "2026-09-22T23:23:29Z",
+  "duration_seconds": 10.287,
+  "error": null,
+  "excerpt_id": "rs_em_82",
+  "filename": "rs_em_82.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "180ceafa29ceb66d19d4580eed021ed1419ef3d17f31bae9aa43ece03303d392",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fb181166925731290b9f12694b7e41cb4c1c484327a90605b28366b3a876e688",
+    "rendered_prompt_sha256": "577d8cc4d5f2ae625c127b84701b32a8d864b750c203866f618f01ce017f2cb0",
+    "source_text_sha256": "f86a11d26fa867a7bda10f3d72eb8953270190c94f141534c9de69017e546c00"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_82.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3630,
+    "filename": "rs_em_82.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_82.txt",
+    "state": "rs",
+    "word_count_original": 963
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_82.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_82.json"
+  },
+  "raw_response_text": "## 5.5.1 Itinerário Formativo Saúde I\n\na) Objetivo: Compreender o conceito de saúde, identificando seus princípios determinantes na coletividade, vislumbrando possibilidades, desafios e perspectivas para melhoria da qualidade de vida;\n\nb) Eixos Estruturantes: Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo;\n\nc) Formas de Organização Metodológica: Laboratórios, Clubes, Oficinas, Observatórios, Incubadoras, Núcleos de Estudos e Núcleos de Criação Artística;\n\nd) Habilidades da Área focal Ciências da natureza e suas tecnologias (CNT): a seguir estão listadas as habilidades para cada Eixo estruturante.\n\n### Eixo Estruturante: Investigação Científica nas CNT\n\n(EMIFCNT01): Investigar e analisar situações-problema e variáveis que interferem na dinâmica de fenômenos da natureza e/ou de processos tecnológicos, considerando dados e informações disponíveis em diferentes mídias, com ou sem o uso de dispositivos e aplicativos digitais.\n\n(EMIFCNT02): Levantar e testar hipóteses sobre variáveis que interferem na dinâmica de fenômenos da natureza e/ou de processos tecnológicos, com ou sem o uso de dispositivos e aplicativos digitais, utilizando procedimentos e linguagens adequados à investigação científica.\n\n(EMIFCNT03): Selecionar e sistematizar, com base em estudos e/ou pesquisas (bibliográfica, exploratória, de campo, experimental etc.) em fontes confiáveis, informações sobre a dinâmica dos fenômenos da natureza e/ou de processos tecnológicos, identificando os diversos pontos de vista e posicionando-se mediante argumentação, com o cuidado de citar as fontes dos recursos utilizados na pesquisa e buscando apresentar conclusões com o uso de diferentes mídias.\n\n### Eixo Estruturante: Processos Criativos nas CNT\n\n(EMIFCNT04): Reconhecer produtos e/ou processos criativos por meio de fruição, vivências e reflexão crítica sobre a dinâmica dos fenômenos naturais e/ou de processos tecnológicos, com ou sem o uso de dispositivos e aplicativos digitais (como softwares de simulação e de realidade virtual, entre outros).\n\n(EMIFCNT05): Selecionar e mobilizar intencionalmente recursos criativos relacionados às Ciências da Natureza para resolver problemas reais do ambiente e da sociedade, explorando e contrapondo diversas fontes de informação.\n\n(EMIFCNT06): Propor e testar soluções éticas, estéticas, criativas e inovadoras para problemas reais, considerando a aplicação de design de soluções e o uso de tecnologias digitais, programação e/ou pensamento computacional que apoiem a construção de protótipos, dispositivos e/ou equipamentos, com o intuito de melhorar a qualidade de vida e/ou os processos produtivos.\n\n### Eixo Estruturante: Mediação e Intervenção Sociocultural nas CNT\n\n(EMIFCNT07): Identificar e explicar questões socioculturais e ambientais relacionadas a fenômenos físicos, químicos e/ou biológicos.\n\n(EMIFCNT08): Selecionar e mobilizar intencionalmente conhecimentos e recursos das Ciências da Natureza para propor ações individuais e/ou coletivas de mediação e intervenção sobre problemas socioculturais e problemas ambientais.\n\n(EMIFCNT09): Propor e testar estratégias de mediação e intervenção para resolver problemas de natureza sociocultural e de natureza ambiental relacionados às Ciências da Natureza.\n\n### Eixo Estruturante: Empreendedorismo nas CNT\n\n(EMIFCNT10): Avaliar como oportunidades, conhecimentos e recursos relacionados às Ciências da Natureza podem ser utilizados na concretização de projetos pessoais ou produtivos, considerando as diversas tecnologias disponíveis e os impactos socioambientais.\n\n(EMIFCNT11): Selecionar e mobilizar intencionalmente conhecimentos e recursos das Ciências da Natureza para desenvolver um projeto pessoal ou um empreendimento produtivo.\n\n(EMIFCNT12): Desenvolver projetos pessoais ou produtivos, utilizando as Ciências da Natureza e suas Tecnologias para formular propostas concretas, articuladas com o projeto de vida.\n\ne) Habilidades da Área complementar Matemática e suas tecnologias (MAT): A seguir, estão listadas as habilidades para cada Eixo estruturante:\n\n### Eixo Estruturante: Investigação Científica na MAT\n\n(EMIFMAT01): Investigar e analisar situações-problema identificando e selecionando conhecimentos matemáticos relevantes para uma dada situação, elaborando modelos para sua representação.\n\n(EMIFMAT02): Levantar e testar hipóteses sobre variáveis que interferem na explicação ou resolução de uma situação-problema elaborando modelos com a linguagem matemática para analisá-la e avaliar sua adequação em termos de possíveis limitações, eficiência e possibilidades de generalização.\n\n(EMIFMAT03): Selecionar e sistematizar, com base em estudos e/ou pesquisas (bibliográfica, exploratória, de campo, experimental etc.) em fontes confiáveis, informações sobre a contribuição da Matemática na explicação de fenômenos de natureza científica, social, profissional, cultural, de processos tecnológicos, identificando os diversos pontos de vista e posicionando-se mediante argumentação, com o cuidado de citar as fontes dos recursos utilizados na pesquisa e buscando apresentar conclusões com o uso de diferentes mídias.\n\n### Eixo Estruturante: Processos Criativos na MAT\n\n(EMIFMAT04): Reconhecer produtos e/ou processos criativos por meio de fruição, vivências e reflexão crítica na produção do conhecimento matemático e sua aplicação no desenvolvimento de processos tecnológicos diversos.\n\n(EMIFMAT05): Selecionar e mobilizar intencionalmente recursos criativos relacionados à Matemática para resolver problemas de natureza diversa, incluindo aqueles que permitam a produção de novos conhecimentos matemáticos, comunicando com precisão suas ações e reflexões relacionadas a constatações, a interpretações e a argumentos, bem como adequando-os às situações originais.\n\n(EMIFMAT06): Propor e testar soluções éticas, estéticas, criativas e inovadoras para problemas reais, considerando a aplicação dos conhecimentos matemáticos associados ao domínio de operações e relações matemáticas simbólicas e formais, de modo a desenvolver novas abordagens e estratégias para enfrentar novas situações.\n\n### Eixo Estruturante: Mediação e Intervenção Sociocultural na MAT\n\n(EMIFMAT07): Identificar e explicar questões socioculturais e ambientais aplicando conhecimentos e habilidades matemáticas para avaliar e tomar decisões em relação ao que foi observado.\n\n(EMIFMAT08): Selecionar e mobilizar intencionalmente conhecimentos e recursos matemáticos para propor ações individuais e/ou coletivas de mediação e intervenção sobre problemas socioculturais e problemas ambientais.\n\n(EMIFMAT09): Propor e testar estratégias de mediação e intervenção para resolver problemas de natureza sociocultural e de natureza ambiental relacionados à Matemática.\n\n### Eixo Estruturante: Empreendedorismo na MAT\n\n(EMIFMAT10): Avaliar como oportunidades, conhecimentos e recursos relacionados à Matemática podem ser utilizados na concretização de projetos pessoais ou produtivos, considerando as diversas tecnologias disponíveis e os impactos socioambientais.\n\n(EMIFMAT11): Selecionar e mobilizar intencionalmente conhecimentos e recursos da Matemática para desenvolver um projeto pessoal ou um empreendimento produtivo.\n\n(EMIFMAT12): Desenvolver projetos pessoais ou produtivos, utilizando processos e conhecimentos matemáticos para formular propostas concretas, articuladas com o projeto de vida.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

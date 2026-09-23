@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0558841a830a80b0006ab300c0f4e087d29e2bb6aa1e40f278",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 804,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 844,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 1648
+    }
+  },
+  "created_at": "2026-09-22T22:27:19Z",
+  "duration_seconds": 6.377,
+  "error": null,
+  "excerpt_id": "es_inf_18",
+  "filename": "es_inf_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2a714202c6eb6584b8f16563fb03dd7818ece9747db1f99d40851fcf60b4fb66",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9d66a993628a780ccd307ecfa5554319249d7821dae43fe9803b6a728fe56037",
+    "rendered_prompt_sha256": "f83cf3de124d9bb7156a19e5c93fed5454fdca207c0998c449766369aa964486",
+    "source_text_sha256": "216facc97a5ea6f9a6c5331247a7d19db354ef43646881fc256a0ebc59f84b83"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1050,
+    "filename": "es_inf_18.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_18.txt",
+    "state": "es",
+    "word_count_original": 487
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_18.json"
+  },
+  "raw_response_text": "## Avaliação na Educação Infantil\n\nA avaliação na Educação Infantil tem por finalidade acompanhar o trabalho pedagógico e avaliar o processo de desenvolvimento e aprendizagem da criança sem o objetivo de seleção, promoção ou classificação, garantindo:\n\n- A observação crítica e criativa das atividades, das brincadeiras e interações das crianças no cotidiano;\n- Utilização de múltiplos registros realizados por adultos e crianças (relatórios, fotografias, desenhos, álbuns etc.);\n- A continuidade dos processos de aprendizagens por meio da criação de estratégias adequadas aos diferentes momentos de transição vividos pela criança (transição casa/instituição de Educação Infantil, transições no interior da instituição, transição creche/pré-escola e transição pré-escola/Ensino Fundamental);\n- Documentação específica que permita às famílias conhecer o trabalho da instituição junto às crianças e os processos de desenvolvimento e aprendizagem da criança na Educação Infantil;\n- A não retenção das crianças na Educação Infantil.\n\n(BRASIL, 2010)\n\nAssim, como no planejamento, o olhar do professor para o acompanhamento e desenvolvimento das aprendizagens poderá ser documentado tanto em relatórios individuais de acompanhamento das crianças, quanto em portfólios que organizem o trabalho pedagógico do professor. Outras formas de avaliar podem ser através de registros fotográficos, vídeos, desenhos, escritas de textos das crianças (desde que seja uma escrita espontânea e intencional, sem o objetivo de rotular as crianças em níveis de escrita), entre outros.\n\n## Transições nos Diversos Contextos na Educação Infantil\n\nAo ingressar na Educação Infantil, a criança passa por muitos momentos de transição que podem afetar diretamente seu processo de desenvolvimento e aprendizagem:\n\n- Transição de casa para a instituição de Educação Infantil;\n- Transição entre etapas, no interior da instituição;\n- Transição da Creche para Pré-escola.\n\nÉ necessário que a equipe escolar de cada instituição crie estratégias adequadas para esses diferentes momentos vivenciados pela criança.\n\n## Transição da Educação Infantil para o Ensino Fundamental\n\nNa perspectiva da interação entre a Educação Infantil e os Anos Iniciais do Ensino Fundamental, os Campos de Experiências fundamentam importantes processos das crianças que terão continuidade e progressão nas demais etapas da Educação Básica, quando serão tratadas em Áreas de Conhecimento da Base Nacional Comum Curricular (Linguagens, Ciências Humanas, Ciências da Natureza e Matemática) e respectivos componentes curriculares. A transição de uma etapa para outra deve ocorrer da forma mais suave possível, tomando-se como referências as competências e habilidades que marcaram o percurso da criança desde o início da escolaridade na Educação Infantil até o ingresso no 1º Ano do Ensino Fundamental.\n\nA BNCC apresenta uma Síntese das Aprendizagens esperadas que devem ser trabalhadas e aprendidas pela criança em cada campo de experiências ao longo de seu percurso na Educação Infantil, para que tenham condições favoráveis para ingressar no Ensino Fundamental.\n\n> Essa síntese deve ser compreendida como elemento balizador e indicativo de objetivos a serem explorados em todo o segmento da Educação Infantil, e que serão ampliados e aprofundados no Ensino Fundamental, e não como condição ou pré-requisito para o acesso a essa etapa do ensino.  \n> (BRASIL, 2017, p. 51)",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

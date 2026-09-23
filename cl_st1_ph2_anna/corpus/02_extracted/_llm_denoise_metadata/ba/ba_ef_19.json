@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0049f08e08ae427e006ab2fe6962f087d28d2e3b72d5790071",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 717,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 810,
+      "output_tokens_details": {
+        "reasoning_tokens": 234
+      },
+      "total_tokens": 1527
+    }
+  },
+  "created_at": "2026-09-22T22:17:19Z",
+  "duration_seconds": 6.171,
+  "error": null,
+  "excerpt_id": "ba_ef_19",
+  "filename": "ba_ef_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "67eddccf978330d9908c566ca9bda0fb81f3abae0cf8117035dca3265dba8449",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c06dc8c9ecc7bf53107c4a217ad34e98fa33b5757a24cbc314944c8909f2f351",
+    "rendered_prompt_sha256": "829bdc146c0438eaddd2f4b30f7d2a3154589ee2be129595e8aff8a37938d551",
+    "source_text_sha256": "5d931bfd6d3d4058dfb26465a441252aca3e22e6ce6286996682fd956d648577"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_ef_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 602,
+    "filename": "ba_ef_19.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_ef_19.txt",
+    "state": "ba",
+    "word_count_original": 399
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_ef_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_ef_19.json"
+  },
+  "raw_response_text": "### 8.3.1. Organizador Curricular\n\nEm articulação com as competências gerais da Educação Básica, a área de Matemática e, por consequência, o componente curricular de Matemática devem garantir aos alunos o desenvolvimento de competências específicas. Nesse sentido, as competências da área são as mesmas competências do componente curricular.\n\n**ÁREA DE MATEMÁTICA**\n\n**COMPONENTE CURRICULAR: MATEMÁTICA**\n\n**COMPETÊNCIAS ESPECÍFICAS DE MATEMÁTICA**\n\n1. Reconhecer que a Matemática é uma ciência humana, fruto das necessidades e preocupações de diferentes culturas, em diferentes momentos históricos, e é uma ciência viva, que contribui para solucionar problemas científicos e tecnológicos e para alicerçar descobertas e construções, inclusive com impactos no mundo do trabalho.\n2. Desenvolver o raciocínio lógico, o espírito de investigação e a capacidade de produzir argumentos convincentes, recorrendo aos conhecimentos matemáticos para compreender e atuar no mundo.\n3. Compreender as relações entre conceitos e procedimentos dos diferentes campos da Matemática (Aritmética, Álgebra, Geometria, Estatística e Probabilidade) e de outras áreas do conhecimento, sentindo segurança quanto à própria capacidade de construir e aplicar conhecimentos matemáticos, desenvolvendo a autoestima e a perseverança na busca de soluções.\n4. Fazer observações sistemáticas de aspectos quantitativos e qualitativos presentes nas práticas sociais e culturais, de modo a investigar, organizar, representar e comunicar informações relevantes, para interpretá-las e avaliá-las crítica e eticamente, produzindo argumentos convincentes.\n5. Utilizar processos e ferramentas matemáticas, inclusive tecnologias digitais disponíveis, para modelar e resolver problemas cotidianos, sociais e de outras áreas de conhecimento, validando estratégias e resultados.\n6. Enfrentar situações-problema em múltiplos contextos, incluindo situações imaginadas, não diretamente relacionadas como aspecto prático-utilitário; expressar suas respostas e sintetizar conclusões, utilizando diferentes registros e linguagens (gráficos, tabelas, esquemas, além de texto escrito na língua materna e outras linguagens para descrever algoritmos, como fluxogramas e dados).\n7. Desenvolver e/ou discutir projetos que abordem, sobretudo, questões de urgência social, com base em princípios éticos, democráticos, sustentáveis e solidários, valorizando a diversidade de opiniões de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.\n8. Interagir com seus pares de forma cooperativa, trabalhando coletivamente no planejamento e desenvolvimento de pesquisas, para responder a questionamentos e na busca de soluções para problemas, de modo a identificar aspectos consensuais ou não na discussão de uma determinada questão, respeitando o modo de pensar dos colegas e aprendendo com eles.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

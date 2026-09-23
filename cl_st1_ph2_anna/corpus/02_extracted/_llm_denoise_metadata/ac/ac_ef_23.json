@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_015d2da321e56b3a006ab2fb9a5f1c87d2a9279bb1d45d9835",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 473,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 560,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 1033
+    }
+  },
+  "created_at": "2026-09-22T22:05:18Z",
+  "duration_seconds": 5.234,
+  "error": null,
+  "excerpt_id": "ac_ef_23",
+  "filename": "ac_ef_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3befebe2d6ed532aebaf4b4832e45329e0d1366bbb03ebdc78b0b0148f518398",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e62310e36504c263af06d10cfba602fe2bab2dba4d28e229fabca2cb7df03982",
+    "rendered_prompt_sha256": "694c2a9287407121cddc09fdf04a4b6f4f445485e01b13298aaab41ab89dbe7d",
+    "source_text_sha256": "4b031ae76c479cdde1a2851c67a2b39eb52d788502027e5835b2f6ee1b627fd0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 16,
+    "filename": "ac_ef_23.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_23.txt",
+    "state": "ac",
+    "word_count_original": 275
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_23.json"
+  },
+  "raw_response_text": "## 3. PARTE DIVERSIFICADA E ESPECIFICIDADES DO ESTADO DO ACRE\n\nO presente documento norteador deve apresentar, além de conhecimentos articulados com as competências gerais e específicas do componente curricular, conhecimentos que abordem a parte singular ou a chamada parte diversificada, que englobe temáticas necessárias, respeitando características regionais e locais da sociedade acreana.\n\nNo caso do ensino da Geografia, é importante salientar a abordagem geográfica e política do Acre, a materialização das lutas e disputas no espaço geográfico, configurando o espaço socioeconômico na formação cartográfica no que hoje temos como nosso espaço territorial, mostrando que nenhum estado tem uma formação igual; mas surge de diferentes modos e condições. Assim, é importante abordar os embates coloniais, as relações de fronteiras, os tratados políticos e as questões relacionadas à expansão territorial.\n\nTambém, de igual modo, no sentido de relevância, é importante trazer o conhecimento do ciclo da borracha, a vinda dos nordestinos e o processo migratório como um todo, a agricultura, a hidrografia e a biodiversidade do estado do Acre. E não menos fundamental, o estudo do povo indígena na região acreana e suas contribuições para formação e cultura do povo acreano.\n\nNesse sentido, a Geografia, na sua parte diversificada, está relacionada à necessidade de se conhecer o espaço geográfico acreano. Este pode ser entendido como o espaço produzido pelo homem e que está em constante transformação, ao longo do tempo. Podemos dizer, então, que o espaço geográfico possui um caráter histórico-político e, por isso, é importante seu estudo para compreensão das características da ação humana sobre o meio em que vive. Sendo, portanto, campo de estudo desta parte toda a dinâmica da natureza e social da Terra.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

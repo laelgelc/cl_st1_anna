@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_086321efe979c803006ab30d9cdf8c87d2abc34bd24a9bb396",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 385,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 585,
+      "output_tokens_details": {
+        "reasoning_tokens": 318
+      },
+      "total_tokens": 970
+    }
+  },
+  "created_at": "2026-09-22T23:22:09Z",
+  "duration_seconds": 4.722,
+  "error": null,
+  "excerpt_id": "rs_em_16",
+  "filename": "rs_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b7c66f6026578ece8546c15ef84ff05dc7667c4d1fa18a5d368001bd001a955b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "95e6a731fc0a8f89ad2aa07ccec1cb296bc534fc5b9fe4997b4842f1902ece85",
+    "rendered_prompt_sha256": "37d13f99006a3175e92e3fa4389d2e963a68a8abe042f6eff0d3274c68e445b3",
+    "source_text_sha256": "2d23c329124b392d83e1492a1365a5a99e2db939b600068449be5bb434cdc091"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3557,
+    "filename": "rs_em_16.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_16.txt",
+    "state": "rs",
+    "word_count_original": 184
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_16.json"
+  },
+  "raw_response_text": "### 1.7.6 Educação Profissional e Tecnológica\n\nA Educação Profissional e Tecnológica é uma modalidade de Ensino que articula princípios norteadores - o respeito aos valores éticos, estéticos e políticos na educação, ao mesmo tempo em que propõe a centralidade do trabalho assumido como princípio educativo - para a organização curricular, ao mesmo tempo que promove o estímulo à pesquisa como princípio pedagógico em um mundo permanentemente em transformação. No Estado do Rio Grande do Sul, a Lei nº. 11.123/1998, criou a Superintendência da Educação Profissional do Estado do Rio Grande do Sul (SUEPRO-RS) no âmbito da Secretaria da Educação, com a finalidade de implementação e acompanhamento das políticas estaduais para a educação profissional. Atualmente, a rede estadual de educação oferta cursos de Educação Profissional e Tecnológica em todas as trinta Coordenadorias Regionais de Educação, nos seguintes eixos tecnológicos propostos no Catálogo Nacional de Cursos Técnicos: Ambiente e Saúde, Controle e Processos Industriais, Gestão e Negócios, Informação e Comunicação, Infraestrutura, Produção Alimentícia, Produção Cultural e Design, Controle e Processos Industriais, Produção Industrial, Recursos Naturais, Segurança e Turismo, Hospitalidade e Lazer.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

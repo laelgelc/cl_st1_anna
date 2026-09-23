@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a2dedf6af611076006ab3102d26a487d2a2a3112c5c240eff",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 932,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 986,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 1918
+    }
+  },
+  "created_at": "2026-09-22T23:33:08Z",
+  "duration_seconds": 7.176,
+  "error": null,
+  "excerpt_id": "to_em_3",
+  "filename": "to_em_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c9463be4bdb3076ad26231a374c67b60872e96921a0f124f69924ea977755030",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f497f06a63610499ff54a0453cbac3321c69e6b9e5cdf8d12c57b5226ac97b5e",
+    "rendered_prompt_sha256": "2fccd5bc7758da4c5006e1522bfb25013f173e114766c3fe3147dc61025f3144",
+    "source_text_sha256": "6647498590915422557e6bd5fd9fdf6568a1decc396acb6d58902f6474c6edb8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4029,
+    "filename": "to_em_3.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_3.txt",
+    "state": "to",
+    "word_count_original": 588
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_3.json"
+  },
+  "raw_response_text": "## 3. Campos de atuação social\n\nOs Campos de Atuação Social perpassam por todos os componentes curriculares da área e possibilitam, além das experiências situadas nas práticas de linguagens, novos conhecimentos por meio do desenvolvimento de habilidades em contextos significativos para os estudantes, seja na escola ou fora dela. Os Campos permitem diferentes formas de organização curricular. Nessa perspectiva, optou-se por agrupar as competências específicas e suas respectivas habilidades a partir de cada Campo de Atuação Social, prevalecendo a integração curricular, a interdisciplinaridade e a transdisciplinaridade como princípio pedagógico. Tal organização garantirá a participação dos estudantes em diferentes práticas de linguagens de forma que possam se reconhecer em suas realidades locais, sociais e culturais.\n\nSão cinco os Campos de Atuação Social priorizados pela BNCC na área de Linguagens e suas Tecnologias:\n\n### Campo da Vida Pessoal\n\nOrganiza-se de modo a possibilitar uma reflexão sobre as condições que cercam a vida contemporânea e a condição juvenil no Brasil e no mundo e sobre temas e questões que afetam os jovens. As vivências, experiências, análises críticas e aprendizagens propostas nesse campo podem se constituir como suporte para os processos de construção de identidade e de projetos de vida, por meio do mapeamento e do resgate de trajetórias, interesses, afinidades, antipatias, angústias, temores etc., que possibilitam uma ampliação de referências e experiências culturais diversas e do conhecimento sobre si.\n\nNo escopo aqui considerado, a construção de projetos de vida envolve reflexões/definições não só em termos de vida afetiva, família, estudo e trabalho, mas também de saúde, bem-estar, relação com o meio ambiente, espaços e tempos para lazer, práticas corporais, práticas culturais, experiências estéticas, participação social, atuação em âmbito local e global etc. Considerar esse amplo conjunto de aspectos possibilita fomentar nos estudantes escolhas de estilos de vida saudáveis e sustentáveis, que contemplem um engajamento consciente, crítico e ético em relação às questões coletivas, além de abertura para experiências estéticas significativas. Nesse sentido, esse campo articula e integra as aprendizagens promovidas em todos os campos de atuação.\n\n### Campo das Práticas de Estudo e Pesquisa\n\nAbrange a pesquisa, recepção, apreciação, análise, aplicação e produção de discursos/textos expositivos, analíticos e argumentativos, que circulam tanto na esfera escolar como na acadêmica e de pesquisa, assim como no jornalismo de divulgação científica. O domínio desse campo é fundamental para ampliar a reflexão sobre as linguagens, contribuir para a construção do conhecimento científico e para aprender a aprender.\n\n### Campo Jornalístico-Midiático\n\nCaracteriza-se pela circulação dos discursos/textos da mídia informativa (impressa, televisiva, radiofônica e digital) e pelo discurso publicitário. Sua exploração permite construir uma consciência crítica e seletiva em relação à produção e circulação de informações, posicionamentos e induções ao consumo.\n\n### Campo de Atuação na Vida Pública\n\nContempla os discursos/textos normativos, legais e jurídicos que regulam a convivência em sociedade, assim como discursos/textos propositivos e reivindicatórios (petições, manifestos etc.). Sua exploração permite aos estudantes refletir e participar na vida pública, pautando-se pela ética.\n\n### Campo Artístico¹\n\nÉ o espaço de circulação das manifestações artísticas em geral, contribuindo para a construção da apreciação estética, significativa para a constituição de identidades, a vivência de processos criativos, o reconhecimento da diversidade e da multiculturalidade e a expressão de sentimentos e emoções. Possibilita aos estudantes, portanto, reconhecer, valorizar, fruir e produzir tais manifestações, com base em critérios estéticos e no exercício da sensibilidade.\n\n¹ O Documento Curricular de Linguagens e suas Tecnologias – DCT - TO utiliza a expressão “artístico-literário” conforme expresso no quadro campos de atuação social - Ensino Fundamental e Médio (BRASIL, 2018, p.501).",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

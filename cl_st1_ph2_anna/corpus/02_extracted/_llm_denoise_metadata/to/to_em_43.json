@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a27fda3fb2bd855006ab3103bea3c87d2a6ddc2deb3ecc2f3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 612,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 842,
+      "output_tokens_details": {
+        "reasoning_tokens": 320
+      },
+      "total_tokens": 1454
+    }
+  },
+  "created_at": "2026-09-22T23:33:21Z",
+  "duration_seconds": 5.737,
+  "error": null,
+  "excerpt_id": "to_em_43",
+  "filename": "to_em_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c62ae6306ff90338acd842579469ca69294293984d6be153bc7548d6114834c3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8b1b6557fc2f8194cdde165f10c851264c48606bd35eb9836a999e7a31588a14",
+    "rendered_prompt_sha256": "92bac56f8d3b633aa7e3a416df5e99e2a75b388b110af79afcad3369f21f4e81",
+    "source_text_sha256": "ab50dfd83f0b039dc4e5f7ab3245ae191c5f726b03d68326671d0ec7999f9ecc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4044,
+    "filename": "to_em_43.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_43.txt",
+    "state": "to",
+    "word_count_original": 384
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_43.json"
+  },
+  "raw_response_text": "### 6) PLANO DE CURSO\n\nO Plano de Curso é o documento que define a identidade e a organização dos cursos da Educação Profissional. Ele deve conter informações sobre a concepção de ensino e aprendizagem de um curso, promovendo alinhamento com a missão educacional da instituição e com as diretrizes curriculares nacionais que orientam essa modalidade de ensino. Além disso, orienta o profissional no decorrer das atividades escolares, referenciando os componentes curriculares, as metodologias, os procedimentos e as técnicas a serem utilizadas no processo de ensino-aprendizagem.\n\nSua elaboração é fundamentada a partir dos seguintes critérios: o diagnóstico realizado a partir de levantamento de demanda dos arranjos produtivos locais; a definição da oferta educacional; os elementos da arquitetura curricular que será desenvolvida no percurso da formação; a especificação de como se dará a gestão dos recursos financeiros, materiais e humanos; e a definição do processo de avaliação dos resultados adquiridos. Nele são incluídas ainda informações sobre o perfil profissional de conclusão, as atividades obrigatórias, cargas horárias, atividades opcionais, a matriz curricular, a obrigatoriedade ou não de estágios e trabalhos de conclusão de curso, etc.\n\nA Resolução CNE/CP nº 01, de 5 de janeiro de 2021, orienta sobre a estrutura mínima exigida para a elaboração da proposta pedagógica de curso (aplicada a cursos de qualificação profissional) e plano de curso (voltado aos cursos de habilitações técnicas profissionais), em seus artigos 13 e 25, respectivamente.\n\nA construção de um plano de curso demanda a participação da equipe pedagógica da unidade escolar com o intuito de promover entre os profissionais uma nova postura, ocasionando discussões voltadas para a promoção de ações norteadoras e inovadoras capazes de garantir um currículo articulado, flexível e voltado para as competências. Um mesmo Plano pode incluir várias Qualificações Profissionais, Especializações Técnicas e Habilitações.\n\nÉ fundamental que o plano de curso construído esteja alinhado com o Projeto Político Pedagógico e o regimento escolar da unidade de ensino. Os documentos devem apresentar coerência e serem submetidos à aprovação do órgão regulador do Sistema de Ensino, em especial quando se tratar dos cursos de habilitação técnica profissional.\n\nRessalta-se que a unidade escolar que optar pela oferta de habilitação técnica como itinerário de formação técnica e profissional só poderá iniciar as atividades do curso, inclusive as matrículas dos estudantes, após receber autorização do órgão regulador do sistema de ensino.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

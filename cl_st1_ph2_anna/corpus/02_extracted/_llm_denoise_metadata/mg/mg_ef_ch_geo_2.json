@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01ac874a0a1bd473006ab302780a1487d2b607e246a24a118d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 785,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 781,
+      "output_tokens_details": {
+        "reasoning_tokens": 131
+      },
+      "total_tokens": 1566
+    }
+  },
+  "created_at": "2026-09-22T22:34:37Z",
+  "duration_seconds": 6.033,
+  "error": null,
+  "excerpt_id": "mg_ef_ch_geo_2",
+  "filename": "mg_ef_ch_geo_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "35b9f119ddf535df4f7ba5a6987acc5a60dc3b1e006f4a021935ce80b1d3f0a4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8d6be49f0c89c6a71cba3d81bea134129fcd50d4ce1465f3c0487a446ed0fb80",
+    "rendered_prompt_sha256": "9c4afcfb9ec72122cb71793a9864ef39202838c7e6c391b9f0d7a6392f4d8eb1",
+    "source_text_sha256": "45e8b444cfeac36b12c9b783a4147cc59bcda98ecc791ad3efa01fae830ca807"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ch_geo_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1382,
+    "filename": "mg_ef_ch_geo_2.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ch_geo_2.txt",
+    "state": "mg",
+    "word_count_original": 456
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ch_geo_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ch_geo_2.json"
+  },
+  "raw_response_text": "### 14.1.1 Competências Específicas de Geografia para o Ensino Fundamental\n\nO componente curricular de Geografia, em articulação com as competências gerais da BNCC e com as competências específicas da área de Ciências Humanas, deve garantir aos estudantes o desenvolvimento de sete competências específicas.\n\n1. Utilizar os conhecimentos geográficos para entender a interação sociedade/natureza e exercitar o interesse e o espírito de investigação e de resolução de problemas.\n2. Estabelecer conexões entre diferentes temas do conhecimento geográfico, reconhecendo a importância dos objetos técnicos para a compreensão das formas como os seres humanos fazem uso dos recursos da natureza ao longo da história.\n3. Desenvolver autonomia e senso crítico para compreensão e aplicação do raciocínio geográfico na análise da ocupação humana e produção do espaço, envolvendo os princípios de analogia, conexão, diferenciação, distribuição, extensão, localização e ordem.\n4. Desenvolver o pensamento espacial, fazendo uso das linguagens cartográficas e iconográficas, de diferentes gêneros textuais e das geotecnologias para a resolução de problemas que envolvam informações geográficas.\n5. Desenvolver e utilizar processos, práticas e procedimentos de investigação para compreender o mundo natural, social, econômico, político e o meio técnico-científico e informacional, avaliar ações e propor perguntas e soluções (inclusive tecnológicas) para questões que requerem conhecimentos científicos da Geografia.\n6. Construir argumentos com base em informações geográficas, debater e defender ideias e pontos de vista que respeitem e promovam a consciência socioambiental e o respeito à biodiversidade e ao outro, sem preconceitos de qualquer natureza.\n7. Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, propondo ações sobre as questões socioambientais, com base em princípios éticos, democráticos, sustentáveis e solidários.\n\nEssas competências expressam os direitos de aprendizagem a que todos os estudantes devem ter acesso ao longo da Educação Básica. O conceito de competências consiste na mobilização de conhecimentos, seja de conteúdos ou de procedimentos, de habilidades, sejam elas práticas cognitivas, socioemocionais, de atitudes ou valores, para resolver questões cotidianas mais complexas ou menos complexas.\n\nAs competências específicas do componente curricular Geografia estão em consonância com as competências da área de Ciências Humanas e com as competências gerais da BNCC. Como exemplo de como as competências gerais poderão ser desenvolvidas em Geografia, temos:\n\n- As habilidades que trabalharão as diferentes formas de representação espacial e a apresentação de características dos diferentes lugares por meio do uso de geotecnologias desenvolvem a competência 5 (Cultura Digital).\n- As habilidades que exploram a organização e a apropriação do espaço por diferentes comunidades desenvolvem a competência 6 (Trabalho e Projeto de Vida).\n- As habilidades que trabalham com as questões relacionadas à ação do homem sobre a natureza desenvolvem a competência 7 (Argumentação).\n- As competências 8 (Autoconhecimento e autocuidado), 9 (Empatia e cooperação) e 10 (Responsabilidade e cidadania) são amplamente contempladas em Geografia.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

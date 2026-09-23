@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e2bad82419a4011006ab30dce369887d290c47e3dfda237b5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 732,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 716,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1448
+    }
+  },
+  "created_at": "2026-09-22T23:22:59Z",
+  "duration_seconds": 5.759,
+  "error": null,
+  "excerpt_id": "rs_em_66",
+  "filename": "rs_em_66.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d6d900c307a7e6e09f38540fb66bc9d66a96fc6e32e55d7b49fd99acbd60fb6c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "dd1403a17e07f460e66f6d404c56cd91deed066401a6b6c4ed546cfd4c6aa1a9",
+    "rendered_prompt_sha256": "cf2fe94adbd5a8aed07c93704dcd567eddbca20f2c4321bc66280f64b348ed39",
+    "source_text_sha256": "ae3ae32fc0ee172b70279baf475e94e4421e0f02e0f26078b91f0c8d483ecff0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_66.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3612,
+    "filename": "rs_em_66.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_66.txt",
+    "state": "rs",
+    "word_count_original": 408
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_66.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_66.json"
+  },
+  "raw_response_text": "### 3.4.4.4 Língua Espanhola\n\nEm consonância com o Ensino da Língua Inglesa, tendo por base a Lei nº. 13.415/2017, em seu artigo 35-A, parágrafo 4º e a Resolução CNE/CEB nº. 3/2018, a oferta de Língua Espanhola concorre de maneira optativa, já que a preferência deverá ser pela Língua Inglesa. Entretanto, a Emenda Constitucional nº. 74/2018, art. 1º, § 3º, prevê que “O ensino da língua espanhola, de matrícula facultativa, constituirá disciplina obrigatória das escolas públicas de ensino fundamental e médio” (RS, 2018a). Desse modo, a EC 74/2018, deve ser cumprida nas escolas públicas do estado gaúcho, tanto no Ensino Fundamental quanto no Ensino Médio. Assegurar que os estudantes possam optar por esse componente curricular, e aprimorá-lo à guisa das Unidades Curriculares Eletivas, bem como nos itinerários formativos que lhe assegurem presença é direito do estudante.\n\nAlém de ser fundamental para a integração com os países hispano-americanos que nos rodeiam, há a possibilidade de inserção cultural com povos e países além do Mercosul. E a inserção da Língua de Cervantes não se aplica somente às Regiões de Fronteira e Missões, mas sim a todas as regiões do Estado.\n\nO estudo desse idioma latino não só é importante por ser a segunda língua mais falada nas relações internacionais, mas também por possuir mais de 585 milhões de falantes nativos espalhados no mundo, e, além disso, ser oficial em vinte e um países e três continentes dos seis existentes.\n\nAssim, o acesso à cultura e à educação é assegurado, segundo a Constituição Federal de 1988, a todos os brasileiros e residentes no território nacional. Por isso, a garantia da oferta da Língua Espanhola, além de cumprir com os dispostos nas leis que regem, possibilitará que os estudantes sul-rio-grandenses entrem em contato com culturas, povos, costumes, tradições e ideologias diferentes – processo ímpar rumo à autonomia, ao protagonismo, ao compartilhamento de informações/letramentos, acesso às mídias digitais – bem como agir e posicionar-se criticamente na sociedade, em âmbito local e global.\n\nDe modo análogo, a contextualização das práticas de linguagem nos diversos campos de atuação permite aos estudantes explorarem a presença dos multiletramentos digitais, visando a ampliação de suas perspectivas em relação à sua vida pessoal e profissional. Igualmente, abrem-se possibilidades de aproximação e integração com grupos multilíngues e multiculturais no mundo globalizado, no qual a Língua Espanhola consolida-se, cada vez mais, como língua comum para a interação social.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

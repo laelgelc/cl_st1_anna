@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_097c619291a8a627006ab2fec10c8487d2bfbfef25fb676bff",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1425,
+      "input_tokens_details": {
+        "cache_write_tokens": 1422,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1563,
+      "output_tokens_details": {
+        "reasoning_tokens": 231
+      },
+      "total_tokens": 2988
+    }
+  },
+  "created_at": "2026-09-22T22:18:51Z",
+  "duration_seconds": 10.996,
+  "error": null,
+  "excerpt_id": "ba_em_41",
+  "filename": "ba_em_41.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1fdfa56097f093c4d0bc680b575003a6fc5543ba08fbe4c4a5e80d86edb9ca4e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1c3b3c59317335f3eea88e2ad17521c747a76b6efc2b9ae224a193934e3c45de",
+    "rendered_prompt_sha256": "3917c2712f391400faafa04a273c611693410d566c9c1f2acd608d34d4c643b4",
+    "source_text_sha256": "060c1102d82bc752765cf536bee506627b94fa81ae8761290282ddf83c69dc3d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_em_41.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 658,
+    "filename": "ba_em_41.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_em_41.txt",
+    "state": "ba",
+    "word_count_original": 914
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_em_41.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_em_41.json"
+  },
+  "raw_response_text": "## 10. ITINERÁRIOS FORMATIVOS: O QUÊ, PARA QUÊ, PARA QUEM?\n\nA discussão sobre “Itinerários Formativos” no Brasil ganhou destaque em 2017, após a sanção da Lei nº 13.415/17, que estabeleceu mudanças para a estrutura do Ensino Médio no país. Não obstante à recente discussão, Perrenoud (1998, apud LOPES, 2019, p. 66) considera que o termo não é inédito na “história do currículo e faz parte de discursos que tentam propor a individualização do percurso formativo em nome de uma pedagogia diferenciada, entendida como capaz de combater o fracasso escolar”.\n\nConforme Lopes (2019), no contexto nacional, a terminologia foi conceituada e empregada, primeiramente, no âmbito da Educação Profissional no ano 2010, para dois anos depois fazer parte da legislação do Ensino Médio brasileiro, mais precisamente por meio da resolução CNE/CEB nº 2, de 30 de janeiro de 2012 (Brasil, 2012), que define diretrizes curriculares nacionais para o Ensino Médio.\n\nOs IF são incorporados pela resolução CNE/CEB nº 2, de 30 de janeiro de 2012 (Brasil, 2012), que define diretrizes curriculares nacionais para o Ensino Médio, porém sem pré-definição de quais são os possíveis itinerários a serem construídos. É proposto que a organização curricular desse nível de ensino ofereça tempos e espaços próprios para estudos e atividades que permitam itinerários formativos opcionais diversificados, a fim de melhor responder à heterogeneidade e pluralidade de condições, múltiplos interesses e aspirações dos (as) estudantes, com suas especificidades etárias, sociais e culturais, bem como sua fase de desenvolvimento (p. 6). (LOPES, 2019, p. 66).\n\nAinda segundo a autora, em seu trabalho “Itinerários formativos na BNCC do Ensino Médio: identificações docentes e projetos de vida juvenis”, com a reforma do Ensino Médio, a proposta de organização do currículo passa a indicar os itinerários formativos por áreas (linguagens e suas tecnologias; matemática e suas tecnologias; ciências da natureza e suas tecnologias; ciências humanas e sociais aplicadas; formação técnica e profissional), ou mesmo integrando diferentes áreas, sendo afirmado que busca atender o contexto local, na medida da possibilidade dos sistemas de ensino, e favorecer possíveis articulações com a educação profissional. (LOPES, op. cit.)\n\nO conceito de Itinerários Formativos — e sua constituição — passa a ser considerado e reforçado nos textos normativos do Ministério da Educação. No documento das Diretrizes Curriculares Nacionais Para o Ensino Médio (BRASIL, 2018), eles são concebidos como conjuntos de unidades curriculares ofertadas pelas escolas e redes de ensino que “possibilitam ao estudante aprofundar seus conhecimentos e se preparar para o prosseguimento de estudos ou para o mundo do trabalho de forma a contribuir para a construção de soluções de problemas específicos da sociedade”, devendo ser organizados a partir das quatro áreas de conhecimento e da formação técnica e profissional (BRASIL, 2018, p. 2). Essa ideia é reforçada e ampliada nos Referenciais Curriculares Para a Elaboração de Itinerários Formativos (BRASIL, 2019) ao considerar:\n\n> Itinerários Formativos como conjunto de situações e atividades educativas que os estudantes podem escolher conforme seu interesse, para aprofundar e ampliar aprendizagens em uma ou mais Áreas de Conhecimento (Linguagens e Suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias e Ciências Humanas e Sociais Aplicadas) e/ou na Formação Técnica e Profissional, com carga horária total mínima de 1.200 horas.\n\nA presença das quatro áreas do conhecimento mencionadas acima como percursos formativos para oferecer caminhos distintos ajustados às preferências e aos projetos de vida dos/as estudantes talvez já fosse previsível na flexibilização do currículo. O próprio Exame Nacional do Ensino Médio (ENEM) avalia o desempenho dos/as estudantes e os seleciona para instituições federais de ensino superior e para programas do Governo Federal em todo o país a partir desses blocos de conhecimento. Já a Formação Técnica e Profissional, incluída no Ensino Médio regular, é algo mais peculiar, uma vez que os/as estudantes terão possibilidade de cursar um itinerário técnico, fazer cursos de Formação Inicial e Continuada (FIC) ou até mesmo um conjunto de FICs entre si.\n\nNo âmbito dessa nova configuração, as escolas do Ensino Médio do Brasil terão a possibilidade de ofertar currículos flexíveis que atendam aos anseios e desejos de sua comunidade de estudantes, respeitando as orientações dos sistemas de ensino. A flexibilização, como já mencionado, pode ser organizada a partir de diferentes formatos: por área do conhecimento e formação técnica e profissional ou de forma integrada a partir da mobilização de competências e habilidades de diferentes áreas ou da formação técnica e profissional. As mudanças determinam ainda que os/as estudantes cursem um ou mais Itinerários Formativos de forma concomitante ou sequencial, sem perder de vista que são indissociáveis da formação básica. No caso das escolas baianas, as orientações sobre a flexibilização do Ensino Médio estarão presentes ao longo de todo este capítulo.\n\nSeja qual for a organização/arquitetura curricular proposta pelos sistemas de ensino, é imprescindível que não se perca de vista os objetivos centrais dos Itinerários Formativos previstos nos Referenciais Curriculares Para a Elaboração de Itinerários Formativos (BRASIL, 2019), a saber:\n\nI. aprofundar as aprendizagens relacionadas às competências gerais, às Áreas de Conhecimento e/ou à Formação Técnica e Profissional;\nII. Consolidar a formação integral dos (as) estudantes, desenvolvendo a autonomia necessária para que realizem seus projetos de vida;\nIII. promover a incorporação de valores universais, como ética, liberdade, democracia, justiça social, pluralidade, solidariedade e sustentabilidade; e\nIV. desenvolver habilidades que permitam aos estudantes ter uma visão de mundo ampla e heterogênea, tomar decisões e agir nas mais diversas situações, seja na escola, seja no trabalho, seja na vida (BRASIL, 2019, p. 4).",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

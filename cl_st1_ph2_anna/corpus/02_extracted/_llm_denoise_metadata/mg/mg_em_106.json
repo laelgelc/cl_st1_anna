@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b672a9ee313ff04006ab302e0c06887d2b8843132207434c7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 735,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 753,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 1488
+    }
+  },
+  "created_at": "2026-09-22T22:36:22Z",
+  "duration_seconds": 6.195,
+  "error": null,
+  "excerpt_id": "mg_em_106",
+  "filename": "mg_em_106.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d5eb453319d18086538ab27c760ef4d4daeb5a31ddc537af78c5d480560a5650",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "121717feaa6c88d3c69ac8a2fdd11675d2c8bac571644ec9a36dda6c60722502",
+    "rendered_prompt_sha256": "653a72bfb4c22aff96e18f0b8dd3dc80701637a9add0616eaac7b3a6055be418",
+    "source_text_sha256": "93a6001ce91f4fffa7c3eeea7ebfc5f01aee52e46a44a3e8ecbe3ee689ab44aa"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_106.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1493,
+    "filename": "mg_em_106.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_106.txt",
+    "state": "mg",
+    "word_count_original": 426
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_106.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_106.json"
+  },
+  "raw_response_text": "### 5.4 Competências gerais da Educação Profissional e Técnica (EPT)\n\nA inserção da Formação Profissional e Tecnológica (EPT) na proposta do Novo Ensino Médio, como 5º itinerário formativo voltado para a preparação básica para o trabalho e cidadania, não corrobora a profissionalização precoce ou precária dos jovens. Pelo contrário, a opção de um itinerário formativo em que os estudantes possam, além de desenvolver os conhecimentos gerais estruturados na oferta da educação básica, desenvolver conhecimentos, habilidades e competências relacionados ao mundo do trabalho apresenta-se como ampliação das suas possibilidades de escolhas e de atuação, protagonismo e transformação da própria história de vida, podendo também impactar em seus tempos e espaços de vivência, convivência e ação.\n\nMediante o desenvolvimento das competências propostas, esse percurso formativo tem como objetivo a inserção do estudante de forma ativa, crítica, criativa, inovadora, ética e responsável em um mundo do trabalho marcado, cada vez mais, por rápidas e significativas rupturas, constantes mudanças e transformações. No Currículo Referência essa oferta – o 5º Itinerário – se organiza a partir do desenvolvimento de competências gerais voltadas para o fortalecimento do Protagonismo Juvenil e desenvolvimento do Projeto de Vida de cada estudante, estimulando reflexões individuais e coletivas sobre o binômio liberdade/responsabilidade. Busca-se, assim, que escolhas e ações se estruturem de forma consciente e esperançosa, responsável e inovadora, possibilitando profunda transformação de atitudes e perspectivas, garantidas pela oferta de uma formação integral comprometida com a equidade e o desenvolvimento humano e social.\n\nCompreende-se, então, que as habilidades apresentadas no documento “Diretrizes Curriculares para a construção dos itinerários formativos para a educação profissional” são convergentes com a intencionalidade formativa relacionada à oferta do 5º Itinerário pela Rede Estadual de Minas Gerais. Mas é importante que as proposições considerem e estejam vinculadas às especificidades do estado de Minas Gerais, de forma a contemplar aspectos culturais relacionados aos territórios de desenvolvimento, aos modos de ser e de fazer do povo mineiro.\n\nSerão apresentadas, a seguir, as competências e habilidades que deverão ser desenvolvidas em todos os formatos de oferta do 5º itinerário, ou seja, os cursos de formação técnica, os percursos formativos compostos por conjuntos de cursos FIC articulados e as atividades formativas da Aprendizagem Profissional. As especificidades de cada ocupação serão tratadas de forma pormenorizada nos Planos de Curso e demais documentos pedagógicos vinculados à oferta de cada eixo tecnológico, formação técnica e qualificação profissional específica.\n\nSomada às habilidades relacionadas aos eixos estruturantes, a oferta do 5º itinerário buscará também desenvolver as seguintes competências e habilidades, no que tange à formação geral para o mundo do trabalho.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

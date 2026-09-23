@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_031dbcbe51c6c0a5006ab303e9b39487d2ae0eaa81afb2eb3e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 682,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 644,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 1326
+    }
+  },
+  "created_at": "2026-09-22T22:40:46Z",
+  "duration_seconds": 5.311,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_27",
+  "filename": "ms_inf_e_ef_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8e2aba5c3a22d3ef8fe7ca71c079ad22b40451ef5ba412aae7c6313eb19b68b8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0a5767c401c0fd8e3447e997b4a638cb0d67d0a2a629feb825a9b55536c5611a",
+    "rendered_prompt_sha256": "4daca1fc120dd9f3dd085b7f3bf97145f7c698a90222f85845520f44ba2501c7",
+    "source_text_sha256": "8090d4c1239546b7989a2cfb11ec64672f06586c6c291ffeb357bad523bcf11a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1746,
+    "filename": "ms_inf_e_ef_27.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_27.txt",
+    "state": "ms",
+    "word_count_original": 383
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_27.json"
+  },
+  "raw_response_text": "### 7.3.1 Objetivos de Aprendizagem e Desenvolvimento\n\nTendo em vista as especificidades da Educação Infantil, as crianças precisam vivenciar experiências significativas na perspectiva de que essas possam incidir sobre a aprendizagem e o desenvolvimento delas.\n\nNa BNCC, reconhecendo as características das diferentes faixas etárias, os objetivos de aprendizagem e desenvolvimento foram organizados em três grupos: bebês (de 0 – 1 ano e 6 meses), crianças bem pequenas (de 1 ano e 7 meses – 3 anos e 11 meses) e crianças pequenas (de 4 anos – 5 anos e 11 meses), porém não inviabilizam outras formas de organização nos municípios, desde que as propostas respeitem o tempo e o modo de aprender das crianças.\n\nAssim, no presente documento, além dos objetivos definidos pela BNCC, foram inseridos outros como forma de ampliar os conhecimentos das crianças, cujas preservação, divulgação e ampliação são papéis das instituições educativas.\n\nO desafio de construir coletivamente um currículo para a Educação Infantil que respeite a pluralidade e diversidade das crianças sul-mato-grossenses, coloca em pauta outros fatores que também devem ser considerados na consolidação de um trabalho pedagógico de qualidade: a infraestrutura, garantindo espaços diferenciados, materiais e brinquedos em quantidade suficiente; a proporção adulto/criança; a gestão do tempo nas instituições; a formação inicial e continuada dos profissionais: professores, gestores, coordenadores, assim como os administrativos, para que esses entendam a especificidade da faixa etária; e, também, a interação da instituição com as famílias e outras instituições responsáveis pela educação das crianças com vistas a subsidiar os projetos educativos em parceria com a comunidade.\n\n### 7.4 Os Campos de Experiências e as Ações Didáticas\n\nO cuidar e o educar são princípios fundamentais na Educação Básica. Para as ações didáticas, o professor deve levar em consideração a relevância social e cultural dos objetivos, assegurando a progressão nos saberes para a formação integral das crianças, nas dimensões afetivas, cognitivas, físicas, sociais e culturais.\n\nNesse sentido, as ações didáticas aqui propostas são possibilidades que poderão ser ampliadas nas instituições a partir de concepções comuns de educação, criança, ensino, aprendizagem e avaliação, definidas em cada Proposta Pedagógica. Nessas escolhas coletivas o professor terá como imprimir a intencionalidade pedagógica, planejando de forma sistemática, porém de maneira contextualizada visando à garantia do direito das crianças de ampliar seus conhecimentos e de frequentar uma instituição educativa de qualidade.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

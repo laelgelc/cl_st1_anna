@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01ab0cd21a87bb09006ab303f72e4887d2a5c1e51777adaef1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 504,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 478,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 982
+    }
+  },
+  "created_at": "2026-09-22T22:41:00Z",
+  "duration_seconds": 5.287,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_39",
+  "filename": "ms_inf_e_ef_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bbb66dd21b348ac672ce2e65e90161e96a7f3756fb41bc7185ce8c28b37e364c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ab2ff392cf0c2c22d857a1fc28994e3b0ea9f3796ceb86c0f445e6af6692f501",
+    "rendered_prompt_sha256": "31c4483d2ecb6f3852ec9eba946423e2aa8e5cab71018b348862aa4b884f1b1b",
+    "source_text_sha256": "2038481b4ac1ea9d399f16544dad30ad442a3e3e10fbf074e2cf6475c05dddea"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1759,
+    "filename": "ms_inf_e_ef_39.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_39.txt",
+    "state": "ms",
+    "word_count_original": 249
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_39.json"
+  },
+  "raw_response_text": "### 8.3.4.1 Competências Específicas de Educação Física de acordo com a BNCC (2017):\n\n1. Compreender a origem da cultura corporal de movimento e seus vínculos com a organização da vida coletiva e individual.\n2. Planejar e empregar estratégias para resolver desafios e aumentar as possibilidades de aprendizagem das práticas corporais, além de se envolver no processo de ampliação do acervo cultural nesse campo.\n3. Refletir, criticamente, sobre as relações entre a realização das práticas corporais e os processos de saúde/doença, inclusive no contexto das atividades laborais.\n4. Identificar a multiplicidade de padrões de desempenho, saúde, beleza e estética corporal, analisando, criticamente, os modelos disseminados na mídia e discutir posturas consumistas e preconceituosas.\n5. Identificar as formas de produção dos preconceitos, compreender seus efeitos e combater posicionamentos discriminatórios em relação às práticas corporais e aos seus participantes.\n6. Interpretar e recriar os valores, os sentidos e os significados atribuídos às diferentes práticas corporais, bem como aos sujeitos que delas participam.\n7. Reconhecer as práticas corporais como elementos constitutivos da identidade cultural dos povos e grupos.\n8. Usufruir das práticas corporais, de forma autônoma, para potencializar o envolvimento em contextos de lazer, ampliar as redes de sociabilidade e a promoção da saúde.\n9. Reconhecer o acesso às práticas corporais como direito do cidadão, propondo e produzindo alternativas para sua realização no contexto comunitário.\n10. Experimentar, desfrutar, apreciar e criar diferentes brincadeiras, jogos, danças, ginásticas, esportes, lutas e práticas corporais de aventura, valorizando o trabalho coletivo e o protagonismo.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

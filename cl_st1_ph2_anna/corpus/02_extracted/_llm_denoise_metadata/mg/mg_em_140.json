@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ffd4a2d61441a4a006ab303135a1087d28394749f742e7679",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1609,
+      "input_tokens_details": {
+        "cache_write_tokens": 1606,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1798,
+      "output_tokens_details": {
+        "reasoning_tokens": 375
+      },
+      "total_tokens": 3407
+    }
+  },
+  "created_at": "2026-09-22T22:37:27Z",
+  "duration_seconds": 20.495,
+  "error": null,
+  "excerpt_id": "mg_em_140",
+  "filename": "mg_em_140.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "55ef6b07d6f2741bcc9c74e2805da1defc11387cb09308267a85eb6aee3c1d2a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f50ae6c666413b3b9ed121cc9971e51efe32fb3cb62f60607715bd812f21245a",
+    "rendered_prompt_sha256": "0a2a2f59d2187f74102545bf8ddf8319422ac143154c1e76bdea2ea661900fc4",
+    "source_text_sha256": "858d6d5d32361d62d24c9a1fe61b2a1af621037f61f6053bb874283b06a71629"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_140.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1531,
+    "filename": "mg_em_140.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_140.txt",
+    "state": "mg",
+    "word_count_original": 976
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_140.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_140.json"
+  },
+  "raw_response_text": "## 6.10.4 Interfaces com as áreas do conhecimento e seus objetivos\n\nInicialmente, cabe destacar que a Educação Ambiental (EA), constitui-se num conceito abrangente de educação, que se propõe atingir a toda a população por meio de um processo participativo, embasado por um conjunto de valores, conscientes e coerentes, que procura trazer à tona uma problemática ambiental. Nesse sentido, assume cada vez mais uma função transformadora, na qual a corresponsabilização dos indivíduos torna-se objetivo essencial para promover um novo formato de desenvolvimento – o desenvolvimento sustentável. Nessa perspectiva, é importante destacar a proposta de Loureiro (2004) a qual concebe a Educação Ambiental como um processo educativo de construção da cidadania plena e planetária, que visa à qualidade de vida dos envolvidos e a consolidação de uma ética ecológica. Diante dessa concepção, ressaltamos a percepção ambiental como:\n\n> Processo em que se busca despertar a preocupação individual e coletiva para a questão ambiental, garantindo o acesso à informação em linguagem adequada, contribuindo para o desenvolvimento de uma consciência crítica e estimulando o enfrentamento das questões ambientais e sociais. Desenvolve-se num contexto de complexidade, procurando trabalhar não apenas a mudança cultural, mas também a transformação social, assumindo a crise ambiental como uma questão ética e política (MOUSINHO, 2003, s/p).\n\nNessa direção, depreende-se que a Educação Ambiental trata da condição necessária para modificar um quadro de crescente degradação socioambiental (JACOBI, 2003). Sendo que um dos maiores desafios da educação ambiental concerne ao futuro da vida, já que possui, dentre outros objetivos, o intuito de formar uma atitude ecológica nos (as) estudantes. Um dos propósitos da EA é a visão socioambiental, que afirma que o meio ambiente é um espaço de relações culturais, sociais e naturais.\n\nPara questões mais práticas, aponta-se reflexões acerca do que a Educação Ambiental pode promover em termos de construção crítica diante dos problemas que vivemos. Nosso planeta é afetado por diversos problemas e questões ambientais, muitos deles provocados pela ação antrópica, os quais afetam diretamente o meio ambiente, a fauna, a flora, o solo, as águas e o ar. Os principais problemas ambientais do mundo e do Brasil são:\n\n- Poluição do ar por gases poluentes, gerada, principalmente, pela queima de combustíveis fósseis, como carvão mineral, gasolina e diesel, e indústrias;\n- Poluição de rios, lagos, mares e oceanos provocada por despejos de esgotos e lixo, acidentes ambientais, como vazamento de petróleo;\n- Poluição do solo provocada por contaminação de agrotóxicos, fertilizantes e produtos químicos, e descarte incorreto de lixo;\n- Queimadas em matas e florestas como forma de ampliar áreas para pastagem ou agricultura;\n- Desmatamento com o corte ilegal de árvores para comercialização de madeira;\n- Esgotamento do solo, como perda da fertilidade para a agricultura provocado por seu uso incorreto;\n- Diminuição e extinção de espécies animais, provocados pela caça predatória e destruição de ecossistemas;\n- Falta de água para o consumo humano, causado pelo uso irracional (desperdício), contaminação e poluição dos recursos hídricos;\n- Acidentes nucleares que causam contaminação do solo por centenas de anos. Podemos citar, como exemplos, os acidentes nucleares de Chernobyl (1986) e na Usina Nuclear de Fukushima, no Japão, em 2011;\n- Diminuição da camada de ozônio, provocada pela emissão de determinados gases (CFC, por exemplo) no meio ambiente.\n\nDestacam-se, no Brasil, poluição da água, do ar e do solo, o desmatamento, o depósito e disposição de lixo em locais inadequados, o desperdício de alimentos e de recursos naturais, o aquecimento global, crimes ambientais de larga escala, mais comuns em países subdesenvolvidos ou em desenvolvimento, como por exemplo, o rompimento das barragens de mineração de Mariana e Brumadinho. Esses problemas ambientais podem ser amplamente trabalhados no Currículo Referência, com o uso de diversos materiais didáticos.\n\nRessalta-se, ainda, a abrangência das interfaces da Educação Ambiental, tendo em vista que há pouca informação e conhecimento dos impactos da criação de gado e do consumo de carne para o meio ambiente. O consumo crescente de proteína animal, principalmente de carne bovina e de aves, é mais um dos fatores responsáveis pelo aumento do desmatamento na Amazônia e no Cerrado, biomas severamente impactados pela criação de gado e plantação de soja.\n\nDiante disso, são questões importantes para o Brasil atual – há ainda possibilidade de reverter a trajetória atual de destruição da Amazônia e do Cerrado? Há ainda como evitar a ruína final de nossas sociedades, causada pelas consequências dessa destruição: temperaturas mais altas, epidemias, secas, inundações, elevação do nível do mar, quebras de safras crescentes e cada vez maior insegurança alimentar e hídrica?\n\nSegundo a Associação Brasileira das Indústrias Exportadoras de Carne (ABIEC), em 2017 a população de bovinos no Brasil atingiu 221,81 milhões de indivíduos, excedendo a população de humanos. O maior percentual concentra-se cada vez mais na região Norte e no Centro-Oeste. Cerca de 80% do desmatamento da Amazônia brasileira deve-se à conversão da floresta em pastagens. A destruição do Cerrado, cuja cobertura original caminha hoje para um estado terminal, deve-se também preponderantemente à expansão da pecuária. Segundo estimativas do Fundo Mundial para a Natureza (WWF), 60% da área total do Cerrado é destinada à pecuária e 6% aos grãos, principalmente soja. Destaca-se alguns conceitos importantes:\n\n**Desmatamento:** As florestas são derrubadas a fim de abrir pastagens para os rebanhos. Para limpar os terrenos, são realizadas queimadas, o que emite os gases-estufa e representa o maior fator de emissão desses gases no Brasil. Em terras brasileiras, isso ocorre na Amazônia e no Cerrado, sendo que 75% do desmate na Amazônia e 56% do desmate no Cerrado estão associados à pecuária.\n\n**Queimadas:** As queimadas também são realizadas periodicamente para renovar a vegetação das pastagens, emitindo mais gases-estufa. Assim, quanto maior for o consumo de carne, maior será o rebanho criado e, consequentemente, maior o prejuízo para o meio ambiente, como também da crise hídrica, a responsabilidade do esgotamento desse recurso, também perpassa por uma nova educação ambiental.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

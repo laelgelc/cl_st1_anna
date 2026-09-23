@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08bfeb525778a129006ab2fe05ebc887d2ae02108034a0a44a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 560,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 671,
+      "output_tokens_details": {
+        "reasoning_tokens": 206
+      },
+      "total_tokens": 1231
+    }
+  },
+  "created_at": "2026-09-22T22:16:02Z",
+  "duration_seconds": 29.661,
+  "error": null,
+  "excerpt_id": "ap_em_19",
+  "filename": "ap_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "44ddede96e23aefd27cbdfd31aa57bbf287923753c9b851889e2b097a1e94806",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ad2e945b23a13945ac9db2ddc2800a0a05bbac4f27b2e8a645ecb7f9fa06c8d7",
+    "rendered_prompt_sha256": "f96bee7927d1ff271b07cfaa50e97887219daf594c836b6213040547f368f9b9",
+    "source_text_sha256": "fc01dafcc43a182c72eff387ee7037de0e58f98d7dc2f8e0c9a991d60d103d3a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 512,
+    "filename": "ap_em_19.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_19.txt",
+    "state": "ap",
+    "word_count_original": 325
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_19.json"
+  },
+  "raw_response_text": "# REFERENCIAL DA ÁREA DE LINGUAGENS\n\nO Currículo Amapaense define competências específicas para cada área do conhecimento, conforme a BNCC apresenta em seu documento normativo, atendendo às especificidades de formação do estudante desta etapa da Educação Básica. Relacionadas às competências específicas de cada área do conhecimento, as respectivas habilidades são descritas a serem desenvolvidas ao longo dos três anos do Ensino Médio. Tais competências e habilidades procuram garantir as aprendizagens essenciais que constituem a formação geral básica.\n\nVale destacar que, por ser um referencial para todas as redes e escolas do Estado do Amapá, o Currículo Amapaense, organizado nos quadros abaixo, apresenta seus organizadores curriculares estruturados por área do conhecimento, nesse caso, Linguagens e suas Tecnologias, e contemplam suas competências específicas, objetos de conhecimento e habilidades que, entre outros, deverão ser trabalhados ao longo dos três anos da etapa do Ensino Médio, buscando flexibilizar a construção de conhecimentos da língua e da cultura local. Cada habilidade é identificada por um código alfanumérico, cuja composição é a seguinte:\n\n`EM13LGG101`\n\nOs números finais indicam a competência específica à qual se relaciona a habilidade (1º número) e sua numeração no conjunto de habilidades relacionadas a cada competência (dois últimos números). Vale destacar que o uso de numeração seqüencial para identificar as habilidades não representa uma ordem ou hierarquia esperada das aprendizagens. Cabe aos sistemas definir a progressão das aprendizagens, em função de seus contextos locais.\n\n- O primeiro par de letras indica a etapa Ensino Médio.\n- O primeiro par de números indica que as habilidades descritas podem ser desenvolvidas em qualquer série do EM.\n- A segunda sequência de letras indica a área (três letras) ou o componente curricular (duas letras):\n  - LGG = Linguagens e suas Tecnologias\n  - LP = Língua Portuguesa\n\nPara as habilidades criadas pela Equipe ProBNCC do Amapá, o código alfanumérico apresentará após a indicação da área de Linguagens, a competência a qual a habilidade se refere, sigla do Estado e a numeração da habilidade criada, conforme exemplo a seguir:",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

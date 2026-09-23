@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bfdabd949b6823f006ab2fccdb20887d2aa47ab57873378a2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1020,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1570,
+      "output_tokens_details": {
+        "reasoning_tokens": 647
+      },
+      "total_tokens": 2590
+    }
+  },
+  "created_at": "2026-09-22T22:10:33Z",
+  "duration_seconds": 12.174,
+  "error": null,
+  "excerpt_id": "al_em_35",
+  "filename": "al_em_35.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d3bdfb90899f1e0e6d55067dc3f245fe646e39d5d2aca706460e16d32c1a84d3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1063d4ce90bc87d4ba4a891bd0cdffb4c82c416ec9447388aab269d352a96b39",
+    "rendered_prompt_sha256": "4147159084873de8a5121ae95aa3586c9789fae826dffe7358b898e302e22a4c",
+    "source_text_sha256": "2690389f3586f98db2250e6d6b218c4007ea3695b50b7fdb8bc30595b90fb270"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_em_35.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 269,
+    "filename": "al_em_35.txt",
+    "filepath": "corpus/00_source_per_state/al/al_em_35.txt",
+    "state": "al",
+    "word_count_original": 588
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_em_35.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_em_35.json"
+  },
+  "raw_response_text": "# AS UNIDADES TEMÁTICAS NO ENSINO MÉDIO\n\nA área de Ciências da Natureza e suas Tecnologias propõem aprofundar e ampliar as unidades temáticas do Ensino Fundamental, considerando aspectos relativos aos conhecimentos conceituais, suas contextualizações sociais, culturais, ambientais e históricas, aos processos e práticas de investigação e às linguagens das Ciências da Natureza. Tais aspectos proporcionam aos jovens fazer julgamentos, tomar iniciativas, elaborar argumentos, apresentar proposições alternativas, fazer uso criterioso de diversas tecnologias, promover discussões, tomar decisões, e propor ações responsáveis, éticas e consistentes.\n\nDessa forma, as aprendizagens essenciais propostas para a área aprofundam as temáticas abordadas no Ensino Fundamental. No Ensino Médio, essas temáticas foram agrupadas da seguinte forma: Matéria e Energia e, Vida, Terra e Cosmos.\n\nO foco de Matéria e Energia, são as situações problema, com nível de abstração bem maior do que na etapa anterior, considerando os conhecimentos conceituais inseridos na competência específica 1 e suas respectivas habilidades, descritas na BNCC (2018), tais como:\n\n...estrutura da matéria; transformações químicas; leis ponderais; cálculo estequiométrico; princípios da conservação da energia e da quantidade de movimento; ciclo da água; leis da termodinâmica; cinética e equilíbrio químicos; fusão e fissão nucleares; espectro eletromagnético; efeitos biológicos das radiações ionizantes; mutação; poluição; ciclos biogeoquímicos; desmatamento; camada de ozônio e efeito estufa; desenvolvimento e aprimoramento de tecnologias de obtenção de energia elétrica; processos produtivos como o da obtenção do etanol, da cal virgem, da soda cáustica, do hipoclorito de sódio, do ferro-gusa, do alumínio, do cobre, entre outros. (BNCC, 2018, p.540)\n\nA unidade temática, Vida, Terra e Cosmo, no Ensino Médio, resulta da junção das unidades temáticas Vida e Evolução e, Terra e Universo, do Ensino Fundamental, buscando, uma análise mais complexa da origem e evolução da vida, do planeta, das estrelas, e dos cosmos, considerando os conhecimentos conceituais inseridos na competência específica 2 e suas respectivas habilidades, descritas na BNCC (2018, p. 542), tais como:\n\n...origem da Vida; evolução biológica; registro fóssil; exobiologia; biodiversidade; origem e extinção de espécies; políticas ambientais; biomoléculas; organização celular; órgãos e sistemas; organismos; populações; ecossistemas; teias alimentares; respiração celular; fotossíntese; neurociência; reprodução e hereditariedade; genética mendeliana; processos epidemiológicos; espectro eletromagnético; modelos atômicos, subatômicos e cosmológicos; astronomia; evolução estelar; gravitação; mecânica newtoniana; previsão do tempo; história e filosofia da ciência; entre outros.\n\nNas duas unidades temáticas, além de considerar os conhecimentos conceituais, os objetos de conhecimentos devem ser abordados considerando a contextualização social, histórica e cultural da ciência e da tecnologia, para que a aprendizagem valorize a vida individual, os projetos de vida e o mundo do trabalho dos jovens, estimulando o protagonismo no enfrentamento de situações-problemas, avaliando o impacto de tecnologias contemporâneas na interpretação de fenômenos e problemas sociais.\n\nDeve-se considerar também, os processos e práticas de investigação em que os jovens devem ser capazes, por meio de procedimentos e instrumentos, de:\n\nidentificar problemas, formular questões, identificar informações ou variáveis relevantes, propor e testar hipóteses, elaborar argumentos e explicações, escolher e utilizar instrumentos de medida, planejar e realizar atividades experimentais e pesquisas de campo, relatar, avaliar e comunicar conclusões e desenvolver ações de intervenção, a partir da análise de dados e informações sobre as temáticas da área (BNCC-EI-EF, 2018, p.550).\n\nOutro ponto importante a considerar no trato dos objetos de conhecimentos são as linguagens específicas da área, que faz parte do letramento científico dos jovens, garantindo o uso correto das diversas terminologias científicas, como as unidades de medidas corretas para as grandezas envolvidas e nas leituras de informações contidas nas diversas mídias e tecnologias digitais de informação e comunicação.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

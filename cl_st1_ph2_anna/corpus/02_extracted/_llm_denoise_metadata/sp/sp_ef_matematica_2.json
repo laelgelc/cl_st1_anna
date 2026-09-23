@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f1c523850ebf98d006ab30f8db0f887d28764883f6da53ec1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1635,
+      "input_tokens_details": {
+        "cache_write_tokens": 1632,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1817,
+      "output_tokens_details": {
+        "reasoning_tokens": 276
+      },
+      "total_tokens": 3452
+    }
+  },
+  "created_at": "2026-09-22T23:30:35Z",
+  "duration_seconds": 13.74,
+  "error": null,
+  "excerpt_id": "sp_ef_matematica_2",
+  "filename": "sp_ef_matematica_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0c326e5ef40a5239a682950d3ab519cca71eb01897118136cdd4fdc92bb32426",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "781da583339f8899fb42e02308c9926e837d1c38e50bb46294d4cd55bab11e42",
+    "rendered_prompt_sha256": "df9e57dc9f2533622c3a77d1641d008fe402cd9aeef6844405676fd8d0ae153c",
+    "source_text_sha256": "0df003269c14ebebb467a97558db430b9f83bcbec7cdf98d3e209f5a335ff66e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_ef_matematica_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3897,
+    "filename": "sp_ef_matematica_2.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_ef_matematica_2.txt",
+    "state": "sp",
+    "word_count_original": 1129
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_ef_matematica_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_ef_matematica_2.json"
+  },
+  "raw_response_text": "Na perspectiva assumida pelo Currículo Paulista, o ensino deve considerar a necessidade de vincular a escola e a vida, envolvendo todos os componentes curriculares. Por isso, um dos compromissos do Ensino Fundamental no componente Matemática é o desenvolvimento do Letramento Matemático dos estudantes.\n\nO Letramento Matemático é aqui considerado como proposto na BNCC:\n\n> [...] definido como as competências e habilidades de raciocinar, representar, comunicar e argumentar matematicamente, de modo a favorecer o estabelecimento de conjecturas, a formulação e a resolução de problemas em uma variedade de contextos, utilizando conceitos, procedimentos, fatos e ferramentas matemáticas. (BRASIL, 2017, p. 264)\n\nO desenvolvimento do Letramento Matemático – que se dá ao longo da escolarização – envolve diferentes aspectos.\n\nNo que se refere à comunicação, ao se deparar com um desafio, os estudantes se sentem estimulados a reconhecer e compreender uma situação-problema, construindo um modelo mental da situação, o que levará à compreensão, ao esclarecimento e à formulação de um problema. Ao encontrar uma solução, os estudantes precisarão apresentar, explicar ou justificar, ou seja, “matematizar”: transcrever um problema do mundo real para a linguagem matemática, além de interpretar ou avaliar um resultado matemático em relação ao problema original.\n\nOutro aspecto é a representação de objetos matemáticos, por meio de tabelas, gráficos, diagramas, fluxogramas, figuras, equações, materiais concretos, na proposição ou resolução de problemas. Envolve o raciocínio e a argumentação, favorecendo que os estudantes desenvolvam o pensamento lógico e a capacidade de justificar e fazer inferência sobre uma informação ou solução de problemas.\n\nO Letramento Matemático supõe, ainda, que os estudantes possam desenvolver estratégias para formular problemas e não apenas para a resolução de problemas.\n\nRaciocinar matematicamente oportuniza desenvolver algumas formas de pensar muito próprias da Matemática, dentre as quais se destacam o pensar indutivo, o dedutivo, o espacial e o não determinístico. Essas diferentes formas de pensar contribuem para que os estudantes aprendam a raciocinar a partir das evidências que encontram em suas explorações e investigações e do que já sabem que é verdade. Aprendam, ainda, a reconhecer as características de uma ideia aceitável em Matemática, desenvolvendo raciocínios cada vez mais sofisticados, tais como análise, prova, avaliação, explicação, inferência, justificativa e generalização, dependendo da situação-problema que enfrentam.\n\nEm um ambiente que valoriza a comunicação matemática, esse desenvolvimento se dá quando esses estudantes debatem pontos de vista, explicam e justificam a resolução de um problema, uma inferência ou uma regularidade identificada; deduzem e justificam estratégias usadas e conclusões obtidas; adaptam o conhecido ao desconhecido; transferem uma aprendizagem de um contexto para outro; provam que algo é verdadeiro ou refutam uma hipótese, buscando um contraexemplo para uma conclusão falsa, entre outras possibilidades.\n\nO Letramento Matemático requer o uso de linguagem simbólica, formal e técnica, e operações envolvendo a compreensão, interpretação e resolução de expressões simbólicas dentro de um contexto matemático, bem como saber fazer uso de instrumentos de medida, de calcular e das tecnologias digitais.\n\nPara o desenvolvimento do Letramento Matemático, é necessário levar em consideração a resolução de problemas, investigação, desenvolvimento de projetos e modelagem.\n\nA Resolução de Problemas é uma atividade central no ensino e na aprendizagem de Matemática porque favorece não apenas que os estudantes articulem e refinem seu pensamento, mas também que percebam diferentes perspectivas para enfrentar uma dada situação. A possibilidade de enfrentar um desafio promove a reflexão e a valorização de formas pessoais de resolução, o uso da criatividade na busca de uma estratégia que modele e resolva a situação enfrentada, a convivência com diferentes pontos de vista, bem como o ajuste consciente, por cada um, de suas próprias estratégias. Isso contribui para que as soluções propostas sejam as mais eficientes e precisas, propicia persistência, capacidade de refletir, investigar, questionar e observar – elementos característicos do pensar crítico.\n\nO caminho da Resolução de Problemas como estratégia metodológica tem a perspectiva de tornar os estudantes ativos no processo de aprendizagem, uma vez que um problema é o ponto de partida para a construção de novos conhecimentos. Desenvolver um trabalho em conjunto entre estudantes e professores de forma colaborativa, por meio de problemas que sejam compatíveis com os conhecimentos dos estudantes, possibilita oportunidades para a organização do pensamento lógico. Dessa forma, contribui-se para o desenvolvimento da Competência 8, referente à interação entre os estudantes, num trabalho coletivo, de forma cooperativa. Se a resolução de problemas for associada à utilização das tecnologias, materiais manipuláveis e jogos, então amplia-se o potencial do desenvolvimento do raciocínio crítico, o estímulo à investigação, à criatividade, às descobertas, à imaginação, à intuição, trazendo para as aulas de Matemática o prazer de aprender.\n\nA necessidade de os cidadãos compreenderem os fenômenos que os cercam, a partir de questionamentos e/ou investigação, aponta para o trabalho pedagógico com a Modelagem Matemática. A partir de uma situação prática, os estudantes podem utilizar modelos matemáticos para responder aos questionamentos inicialmente propostos. Isto exige intuição e criatividade para a interpretação do problema e proposição de soluções não somente para uma situação particular, mas que podem ser suporte para resolução de novos problemas, sejam de ordem prática ou teórica.\n\nCom a Modelagem Matemática, o objeto de conhecimento passa a ter concretude, pois o modelo matemático concretiza o que era abstrato, o que pode tornar a aprendizagem mais significativa.\n\nOs jogos auxiliam na socialização dos estudantes, estimulam o trabalho em equipe, a busca da cooperação mútua, ou seja, estimulam a interação entre os pares. Da mesma maneira, como os jogos estabelecem regras que representam limites, isto concorre para que eles aprendam a respeitar as inúmeras soluções para uma mesma situação, além de questionar os seus erros e acertos.\n\nOutro aspecto que merece atenção no Currículo Paulista é a interdisciplinaridade. O trabalho interdisciplinar pode criar nos estudantes a motivação para aprender algo a partir de questões e problemas complexos, o que propicia que realizem conexões entre as áreas do conhecimento e seus respectivos componentes curriculares, bem como demonstrem criatividade, ampliem a atenção a problemas do entorno e outros, despertando a atenção e levando a uma maior compreensão dos objetos de conhecimento. Isso tudo propicia o desenvolvimento da Competência 2, possibilitando o espírito de investigação e a capacidade de produzir argumentos convincentes, recorrendo aos conhecimentos matemáticos para compreender e atuar no mundo.\n\nUm recurso pedagógico importante a ser utilizado no componente são as Tecnologias Digitais de Informação e Comunicação. É fundamental o diálogo com as novas tecnologias no processo de aprendizagem, uma vez que elas fazem parte dos diferentes contextos dos estudantes – familiar, social e cultural. Além disso, elas influenciam a leitura de mundo e os comportamentos sociais, desde a utilização das tecnologias até a comunicação e produção de conteúdos digitais. Na Matemática, a inserção das tecnologias digitais está prevista na Competência 5, que prevê a utilização dos processos e ferramentas matemáticas, inclusive tecnologias digitais, para modelar e resolver problemas do cotidiano, sociais e de outras áreas de conhecimento.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

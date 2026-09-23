@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0576ccc88b104d94006ab3104dabdc87d2b1ec7c5e519c54bf",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 598,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 702,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 1300
+    }
+  },
+  "created_at": "2026-09-22T23:33:39Z",
+  "duration_seconds": 6.044,
+  "error": null,
+  "excerpt_id": "to_em_57",
+  "filename": "to_em_57.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5f10f47e4e25837b5235e7dbc780fe9198efb9926e42f43e49d2ed8693a3d307",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8a390f8aa3dceb6b3db575333ca6d546b395fa1dba898f9a9ac2d5cbb0383614",
+    "rendered_prompt_sha256": "5ca241e1abeb66c178aa6696b199354ebcde749b58c539b5e387a1aeaaf90676",
+    "source_text_sha256": "6041cf28d465af0837252d524295f700ddf7ba9f0194ed6c51f685119348f889"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_57.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4059,
+    "filename": "to_em_57.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_57.txt",
+    "state": "to",
+    "word_count_original": 378
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_57.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_57.json"
+  },
+  "raw_response_text": "## 7.4 Tecnologias\n\nO Documento Curricular do Território do Tocantins – DCT, Etapa Ensino Médio apresenta entre as premissas a tecnologia e o seu uso pedagógico no processo de ensino e aprendizagem, visando atender às novas demandas da sociedade, do mundo do trabalho e aos anseios dos jovens tocantinenses. Através da Internet e outras tecnologias, a escola e o professor podem inovar e, ao mesmo tempo, construir um elo com os avanços da sociedade.\n\nA BNCC traz no âmbito das competências gerais a quinta competência “Cultura Digital” que fomenta a utilização das Tecnologias Digitais de Informação e Comunicação (TIDIC), cujo objetivo é promover uma aprendizagem significativa para os estudantes, incorporando métodos diferenciados baseados no uso da tecnologia na prática de ensino.\n\nNo que tange aos projetos pedagógicos, é necessário um novo olhar sobre as novas tendências educativas, buscando formas de implementar a aprendizagem democrática e inovadora. A fim de promover e incentivar o ensino com o uso de tecnologias, a exemplo disso o movimento “STEM”, sigla em inglês para Ciência, Tecnologia, Engenharia e Matemática, visa encorajar as escolas a trabalharem de forma articulada e aplicada, e ainda estimular o público feminino a se interessar mais por estas áreas de estudo. O STEM também prioriza o letramento científico, promovendo a formação integral do estudante preparando-o para lidar com os novos desafios do mundo na era tecnológica. É importante também que a escola trabalhe de forma a desenvolver a autonomia, a pró-atividade e a autogestão, consolidando a formação plena do indivíduo.\n\nPor meio da Internet é possível ter um ambiente de aprendizagem virtual que permita professores e estudantes terem acesso a REDs (Recursos Educacionais Digitais), o que aumenta ainda mais as possibilidades na procura de alternativas inovadoras. Assim como qualquer recurso, a utilização de tecnologias deve ocorrer de forma assistida, de modo que o objetivo proposto no planejamento do trabalho seja alcançado. Por mais importante que a aprendizagem do estudante tenha impacto, é preciso prepará-lo para lidar com o mundo virtual que dispõe de muitas ferramentas atraentes, mas ao mesmo tempo perigosas, que podem influenciar negativamente alguns aspectos socioemocionais como, por exemplo, o Cyberbullying, que pode deixar marcas indeléveis na vida do estudante. Por isso, é necessário refletir e orientar sobre o uso responsável dos recursos tecnológicos.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

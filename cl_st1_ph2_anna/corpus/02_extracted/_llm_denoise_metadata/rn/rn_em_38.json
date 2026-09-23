@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06a782b925a244a8006ab30b22af5087d2b78bda06269a499f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 551,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 521,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 1072
+    }
+  },
+  "created_at": "2026-09-22T23:11:36Z",
+  "duration_seconds": 5.487,
+  "error": null,
+  "excerpt_id": "rn_em_38",
+  "filename": "rn_em_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4b04d229d2e9552c24a015f5f38b9ecdad9ce6ec1eda13d9174808c315fd1a24",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bc4b2d04c3dad2809e010bf3fac636aa3cdd683f1a980315a3fb6caa0e7d2140",
+    "rendered_prompt_sha256": "922833e26c185ba6d7542644e24c98b4ba36919a975010465c5d12d053fc4406",
+    "source_text_sha256": "d75f9ec193ceb7428cc665c6489bb76338dcd4b83e75fdfa0a92692e4ac8714a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3038,
+    "filename": "rn_em_38.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_38.txt",
+    "state": "rn",
+    "word_count_original": 330
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_38.json"
+  },
+  "raw_response_text": "## 2. Progressão para o segundo ano/série\n\nNesse ano/série, os estudantes precisam entrar em contato com todo o ciclo da atividade matemática, que vai desde o ato criativo da consideração de um problema, passa pela elaboração de conjecturas e estratégias de resolução, até chegar ao refinamento e prova, de maneira a consolidar os modos de pensar em Matemática. Com esse fim, voltamos a destacar a importância da observação de regularidades, tendo em vista enfatizar que a Matemática é uma ciência que se desenvolveu a partir da observação e do estudo da natureza e seus fenômenos. Podemos propor que, diante do que já foi visto em estudos anteriores, por análises de semelhanças e diferenças com a Progressão Aritmética (PA), os próprios estudantes deduzam alguns modelos a serem empregadas na Progressão Geométrica (PG) e delas passem a realizar conjecturas para se iniciarem no estudo das funções exponenciais.\n\nAs funções exponenciais e logarítmicas são modelos para muitos fenômenos naturais, científicos e econômicos, o que possibilita pesquisas dos estudantes sobre suas aplicações para resolver e elaborar problemas. No estudo dos logaritmos, temos uma nova oportunidade de colocar os estudantes diante da dedução de propriedades a partir da potenciação. Outros aspectos a serem tratados são os de análise e comparação das representações gráficas das duas funções para explicarem as interferências dos valores das bases nessas representações.\n\nO estudo dos sólidos geométricos encaminha para as medidas de volume, capacidade e massa, com pesquisas sobre suas relações. Outra oportunidade para colocar os estudantes em contato com as deduções de modelos matemáticos se dá por meio do estudo do princípio de Cavalieri e da busca pela determinação do volume das pirâmides a partir do volume dos prismas.\n\nO pensamento não determinístico, característico da estatística e da probabilidade, caracteriza-se pela análise de situações, levantamento de possibilidades e julgamento do que seja provável, improvável e impossível. O que implica discussões e determinações de espaços amostrais, identificando quando são equiprováveis ou não, discretos ou não e suas implicações no cálculo de probabilidades.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

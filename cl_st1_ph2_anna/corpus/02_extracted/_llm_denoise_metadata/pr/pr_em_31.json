@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03c938df9300ff5c006ab309ae41d487d2a48eb0f288c3f74f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 731,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 681,
+      "output_tokens_details": {
+        "reasoning_tokens": 92
+      },
+      "total_tokens": 1412
+    }
+  },
+  "created_at": "2026-09-22T23:05:24Z",
+  "duration_seconds": 6.149,
+  "error": null,
+  "excerpt_id": "pr_em_31",
+  "filename": "pr_em_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4d49e88bfaed3fc3ba6e40c8007dbc168a520c7ab60c1c93bdbe5653d2f36833",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b1fa65b228eca126d3e3d54713ae3dd525eabf6beba694bd8555b7464849d520",
+    "rendered_prompt_sha256": "5c89e09fc7d9423eb7c2c0021957c65de7583071ac12264aa068d8780ca39cf7",
+    "source_text_sha256": "95362896e19f34ecbd6e93f069da47084c40120b50bef6a27da4c4d5a10020d0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2748,
+    "filename": "pr_em_31.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_31.txt",
+    "state": "pr",
+    "word_count_original": 428
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_31.json"
+  },
+  "raw_response_text": "### Unidade Temática 3 — Música\n\nEssa unidade temática aborda o som e a música como referência, com a intenção de ampliar o universo cultural dos estudantes por meio de gêneros e estilos musicais dentro das diversas culturas, bem como a abordagem dos elementos que compõem e constituem a música, como altura, intensidade, duração, timbre e densidade.\n\nEssa unidade permite aos estudantes desenvolverem competências e habilidades por meio do entendimento e da percepção da linguagem musical, ampliando repertório por meio de audições, pesquisas e criações, colocando-os em contato com diversos instrumentos musicais, sua história, sonoridades, abordando ritmos, ampliando repertório folclórico, popular e possibilitando improvisações no ato de criar.\n\nPara que o desenvolvimento da unidade Música ocorra, sugere-se que o professor considere os interesses dos estudantes nesta fase de suas vidas, considere a realidade dessa juventude, seus espaços, contribuindo para que eles identifiquem os elementos que organizam e estruturam a música e sejam capazes de realizar criações individuais e/ou coletivas.\n\nOutro fator que é preciso considerar é que a juventude vive cada momento com muita intensidade emocional, passa por grandes descobertas e utiliza os dispositivos eletrônicos atuais, como celulares e tablets, para expandir seu universo sonoro. Esta expansão e intercâmbio de informações ocorre entre a articulação das tecnologias e dos grupos sociais que o jovem integra. O desenvolvimento dos grupos entre os jovens se firma por afinidades e gostos e a música é um dos elementos principais. A influência do universo musical é tamanha que a música incide até mesmo na forma de pensar, vestir-se, agir e comportar-se frente a situações cotidianas.\n\nOutro ponto a ser enfatizado nesta unidade é o desenvolvimento da audição. Este fator torna-se imprescindível para o entendimento musical, ou seja, o estudante, ao desenvolver o hábito de ouvir com atenção (audição dirigida), identifica os aspectos musicais, compreende os elementos que compõem a música. Zagonel destaca que é comum a apreciação ocorrer sem conhecimento da estrutura musical, e que a escuta concentrada seguramente desvendará muitos aspectos ao ouvinte, auxiliando na construção de seu conhecimento musical (Zagonel, 2008).\n\nAdemais, é importante a percepção da paisagem sonora. Este termo foi criado pelas experiências do pesquisador musical Murray Schafer, que propõe abrir os ouvidos dos ouvintes para a observação atenta dos sons que nos rodeiam — sejam sons produzidos em ambiente natural ou até mesmo tecnológico —, tornando o momento da audição uma experiência profundamente pessoal, ampliando os sentidos (Schafer, 2011).\n\nPretende-se, com esta Unidade Temática, estabelecer um cenário musical educativo coerente, consistente e contextualizado com o que se almeja para a formação plena do indivíduo.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

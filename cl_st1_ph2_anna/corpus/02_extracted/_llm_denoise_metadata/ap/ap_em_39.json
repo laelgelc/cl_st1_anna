@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b4e7f967da3cd27006ab2fe203cfc87d2bef3b4f5553944ed",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 605,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 723,
+      "output_tokens_details": {
+        "reasoning_tokens": 211
+      },
+      "total_tokens": 1328
+    }
+  },
+  "created_at": "2026-09-22T22:16:05Z",
+  "duration_seconds": 5.688,
+  "error": null,
+  "excerpt_id": "ap_em_39",
+  "filename": "ap_em_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "51f478e1a850407762f74d4a0f046fc9ae14d66163ec801006a476bc6d753486",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3b0f365f45c70b8df7ac8c9a2ac2d00bb63ee4d310d15930a5c0aa9ad1e03899",
+    "rendered_prompt_sha256": "604e59fce62133a41424125657a476f1634d15c446ceee3541d902f711bc2e68",
+    "source_text_sha256": "c208c29d8b10d6cf94ec1dad9d7b37a0a91acde3ede4d9aefd6fa02db04f60a7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 534,
+    "filename": "ap_em_39.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_39.txt",
+    "state": "ap",
+    "word_count_original": 357
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_39.json"
+  },
+  "raw_response_text": "## FORMAS DE OFERTA: (CURSO TÉCNICO, FICS E PROJETO APRENDIZ)\n\nA oferta do EPT e Novo Ensino Médio na rede da SEED/AP acontece em cumprimento do que preconiza a BNCC, ou seja, com atendimento de mínimo de 1800 horas/aulas. Sendo, portanto, oferta através de cursos técnicos, cursos de qualificação profissional – FIC e pelo projeto Aprendiz.\n\nNessa perspectiva, as Diretrizes Curriculares Nacionais para o Ensino Médio (DCNEM), atualizadas em novembro de 2018, indicam que o currículo dessa etapa deve ser composto por: Formação Geral Básica e Itinerários Formativos, e estabelece uma nova organização curricular que deverá contemplar a Base Nacional Comum Curricular - BNCC e a oferta de diferentes itinerários formativos, com foco em áreas de conhecimento e na formação técnica e profissional.\n\nA composição recomenda (Figura 1) se ofertada possibilitará o fortalecimento do protagonismo juvenil no que se refere à escolha do percurso de aprendizagem e, também, à ampliação das ações voltadas à construção do projeto de vida dos estudantes.\n\nAs atividades realizadas pelos estudantes podem ser realizadas na forma presencial – mediada ou não por tecnologia – ou a distância, inclusive mediante regime de parceria com instituições previamente credenciadas pelo sistema de ensino. O desenho da arquitetura desta etapa de ensino leva em conta as grandes definições que precisam ser tomadas pelas equipes estaduais. O diagnóstico das capacidades físicas, operacionais e organizacionais, bem como a análise de sua dinâmica territorial, econômica e capacidade de articulação e mobilização, norteará a construção de currículos e a definição de uma arquitetura mais adequada à realidade local.\n\nQuando orientada a definição da oferta dos currículos é necessário traçar um plano de ação que efetive estratégias de comunicação, diagnóstico e a participação das escolas nas escolhas de seus itinerários.\n\n**Eletivas:** São unidades curriculares de livre escolha dos estudantes, com duração de um semestre cada, que lhes possibilitam experimentar diferentes temas, vivências e aprendizagens, de maneira a diversificar e enriquecer o seu Itinerário Formativo. É importante que tenham intencionalidade pedagógica e se articulem com as Áreas do Conhecimento, os eixos estruturantes e as Competências Gerais da BNCC. Na Formação Técnica e Profissional, as FICs (Curso de Qualificação Profissional) também podem ser ofertadas como eletivas.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

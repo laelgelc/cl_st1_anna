@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b0820da7981fb4e006ab30278644c87d2a9225c8d47d3c313",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 641,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 622,
+      "output_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "total_tokens": 1263
+    }
+  },
+  "created_at": "2026-09-22T22:34:37Z",
+  "duration_seconds": 5.128,
+  "error": null,
+  "excerpt_id": "mg_ef_ch_geo_3",
+  "filename": "mg_ef_ch_geo_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9d7a1b47674d60fac31c2a21d5e80942208e7a8e3a7c895aa932786e084f96e2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bc94b7c58a97c42a7085969adf971392df7dc7cbc3b28c66b09b22b3044268ff",
+    "rendered_prompt_sha256": "99afa921eb5ddfd2683c269947201a38fe929a6d4befb312ab24944364a8a777",
+    "source_text_sha256": "b8ed5762a7c455bbafc3aa6242d58f51642d7993f2c926d1953af2ee3e87f6d3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ch_geo_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1383,
+    "filename": "mg_ef_ch_geo_3.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ch_geo_3.txt",
+    "state": "mg",
+    "word_count_original": 392
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ch_geo_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ch_geo_3.json"
+  },
+  "raw_response_text": "## 14.2 Relação do Componente Curricular com as Concepções do Currículo Referência de Minas Gerais\n\nO Currículo Referência de Minas Gerais prioriza uma educação de qualidade que valoriza a equidade e a diversidade. Para garantir o acesso e a permanência dos estudantes na escola, a educação básica mineira tem como compromisso a formação integral dos estudantes em seus aspectos cognitivos, físicos e emocionais.\n\nNesse sentido, o componente curricular de Geografia, por meio do desenvolvimento de competências e habilidades, favorece a formação integral do estudante proporcionando-lhe a compreensão do espaço local e suas inter-relações com o global; permitindo-lhe o reconhecimento e a valorização dos diferentes saberes como também favorecendo a construção de uma atitude responsável diante da natureza e consciente de suas responsabilidades e direitos.\n\nO Currículo Referência de Minas Gerais em consonância com a Base Nacional Comum Curricular tem também como princípio a inclusão da diversidade mais ampla de todos os estudantes. Dessa forma, parte-se da premissa de que todo estudante é capaz de aprender e, para garantir a equidade a eles é proposto, à adoção de práticas pedagógicas diferenciadas que estimulem a aprendizagem, a autonomia intelectual, o exercício da empatia e do diálogo, a resolução de conflitos, a cooperação e o respeito ao outro e aos direitos humanos, bem como o acolhimento e a valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de qualquer natureza.\n\nO componente curricular de Geografia, para garantir o que está proposto no Currículo Referência de Minas Gerais e na BNCC, a partir do seu objeto de estudo, o espaço geográfico, trabalhará com diferentes estilos de aprender, visual, auditivo, sinestésico. Esses modos de aprender, associados às metodologias ativas, em que os estudantes são convidados a participarem da construção do conhecimento, favorecem o aprendizado de todos e a transposição dos seus saberes para a resolução de problemas da vida prática.\n\nO Projeto Político Pedagógico é reconhecido pelo Currículo Referência de Minas Gerais como um instrumento de participação democrática no qual cada escola considerando seu contexto e suas singularidades encontra espaço para destacá-lo e apresentar estratégias para o seu desenvolvimento no âmbito escolar. O componente curricular de Geografia poderá ter destacado no Projeto Político Pedagógico de cada escola sua atuação no reconhecimento e valorização do espaço local e social da escola e de sua comunidade.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

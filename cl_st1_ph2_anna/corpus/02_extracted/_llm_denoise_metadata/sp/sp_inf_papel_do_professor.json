@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04b2db99a901ad5e006ab30fdbba6c87d2af2d56b16a1aca5a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1055,
+      "input_tokens_details": {
+        "cache_write_tokens": 1052,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1524,
+      "output_tokens_details": {
+        "reasoning_tokens": 678
+      },
+      "total_tokens": 2579
+    }
+  },
+  "created_at": "2026-09-22T23:31:52Z",
+  "duration_seconds": 12.666,
+  "error": null,
+  "excerpt_id": "sp_inf_papel_do_professor",
+  "filename": "sp_inf_papel_do_professor.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2f1013119b151bec7c7775c9fd7a9e9dd1e406b91019eaa745d3fbaf86d2a480",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8f4912f5562987d90238b68d619c98f3ac5913d63779a954591cb5ca9d5b5166",
+    "rendered_prompt_sha256": "f0206ca5334316d0080f60140159cf2d02888913a44382bb28995b3787660b6e",
+    "source_text_sha256": "dd2d82aedc444d93a247fda6dd8c36e10953d8241523a2d54edea2d177b90119"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_inf_papel_do_professor.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3966,
+    "filename": "sp_inf_papel_do_professor.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_inf_papel_do_professor.txt",
+    "state": "sp",
+    "word_count_original": 681
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_inf_papel_do_professor.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_inf_papel_do_professor.json"
+  },
+  "raw_response_text": "### Papel dos profissionais da instituição de Educação Infantil\n\nA instituição de Educação Infantil está centrada no atendimento aos bebês e às crianças, que estão sob a responsabilidade dos adultos com os quais estabelece vínculos estáveis e seguros, como os professores e cuidadores, bem como daqueles com os quais interagem ao longo da rotina, como os responsáveis pela limpeza, pela alimentação, pela segurança, pela secretaria, pela gestão da instituição, dentre outros.\n\nNesse sentido, é essencial que todos os profissionais conheçam as especificidades da faixa etária atendida, a fim de compreender a importância de suas ações em favor da criança, de modo a zelar e contribuir efetivamente com a qualidade do atendimento prestado. Assim, também, é relevante cuidar das narrativas por meio dos quais nos dirigimos às crianças, nas diferentes situações do cotidiano, compreendendo esses momentos como referências de práticas sociais, que precisam ser apresentados de modo ético e empático, cientes de que as crianças aprendem não apenas pelo que lhe falamos, mas que observam, replicam e reinventam o que fazemos. Por fim, é importante ressaltar que todos os profissionais que atuam direta ou indiretamente na Educação Infantil, assim como nas demais etapas da Educação Básica, que de algum modo participam do processo aprendizagem e desenvolvimento da criança, ou que deem suporte pedagógico, tornam-se corresponsáveis pela formação integral da criança, sendo assim considerados educadores.\n\n### Papel do professor de Educação Infantil\n\nOs professores da Educação Infantil devem priorizar o protagonismo da criança. Para tanto, precisam praticar a escuta ativa e a mediação do processo de aprendizagem e desenvolvimento, fazendo com que as ações do cotidiano e do imaginário (faz de conta) se abram, intencionalmente, como um mapa de possibilidades educacionais, criando oportunidades, situações, propondo experiências que ampliem os horizontes culturais, artísticos, científicos e tecnológicos das crianças.\n\nDessa forma, é preciso compreender seu papel fundamental no desenvolvimento das crianças: sua intencionalidade educativa se expressa nas atividades propostas e na gestão de ambientes que promovam as interações e a brincadeira.\n\nPara realizar plenamente o trabalho como professor de Educação Infantil, é imprescindível aprender a interpretar os processos contínuos e compreender as percepções, as ideias e os pensamentos das crianças sobre as ações dos adultos e de seus pares. Assim, os professores devem estar atentos e conscientes sobre os interesses que surgem no decorrer do dia, durante as brincadeiras, e saber correlacioná-los aos objetivos de aprendizagem, conferindo sentido pedagógico às suas próprias intervenções.\n\nOs professores devem também conhecer as bases científicas do desenvolvimento da criança nas diferentes fases, de bebês a crianças pequenas, compreendendo que as ações de educar e cuidar são práticas indissociáveis.\n\nTambém é importante garantir aos professores que continuem seu processo de aperfeiçoamento, de forma a ir além da formação inicial, assegurando formação continuada em seus espaços de trabalho, a fim de potencializar a reflexão sobre as práticas pedagógicas e construir um olhar criterioso sobre a aprendizagem e o desenvolvimento das crianças. Para tanto, os professores precisam ser pesquisadores das práticas pedagógicas, compreendendo a necessidade de planejar com base no conhecimento específico sobre cada faixa etária, garantindo os objetivos de aprendizagem e desenvolvimento e organizando os tempos, espaços e materiais adequados à cada proposta.\n\nPara que os objetivos sejam atingidos, os professores necessitam ser exímios observadores e fazer diferentes registros sobre o que observam. É o que pode dar sustentação às avaliações, à reflexão sobre a aprendizagem e, então, às propostas para (re)encaminhamentos que garantam aprofundamento no domínio das competências e habilidades previstas para a fase.\n\nPor fim, é importante compreender como se dá essa relação do cuidar e educar, considerada imprescindível para a construção dos saberes, a constituição do sujeito, a aprendizagem e o desenvolvimento, cientes de que o espaço e o tempo vividos pela criança demandam intervenções responsivas dos professores, que devem planejar vivências e ampliar as experiências a partir dos interesses e das necessidades das crianças.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a25122128917260006ab3080e166487d2bd541b9a23248f6c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 644,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 805,
+      "output_tokens_details": {
+        "reasoning_tokens": 263
+      },
+      "total_tokens": 1449
+    }
+  },
+  "created_at": "2026-09-22T22:58:28Z",
+  "duration_seconds": 6.855,
+  "error": null,
+  "excerpt_id": "pe_em_2",
+  "filename": "pe_em_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b9785c3c7af2ded228004234e336acf5670d520573c07d0a02e09161dbcea5dd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8c3fe85df5cd7cd2eb2990bc057dadd44905b4481d365daed05ee2ce0e67277f",
+    "rendered_prompt_sha256": "36cda883bf61bc1d9009e4e091571e4d5b75257f91c39c375e2881253e480006",
+    "source_text_sha256": "990905e478e3f0bc5c33c94a00efdbeb7e23000a01c4c6b6915d9a2267958f8f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2475,
+    "filename": "pe_em_2.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_2.txt",
+    "state": "pe",
+    "word_count_original": 401
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_2.json"
+  },
+  "raw_response_text": "# PALAVRA DAS COORDENADORAS ESTADUAIS\n\nPrezado(a) professor(a),\n\nApós um intenso processo de discussão democrática, com participação de professores e outros profissionais da educação das redes municipais e estadual, gestores, estudantes, professores de instituições de ensino superior públicas e comunidade escolar, temos o prazer de publicar o Currículo da Etapa do Ensino Médio de Pernambuco, fruto da parceria Secretaria Estadual de Educação e União dos Dirigentes Municipais da Educação – UNDIME.\n\nA construção desse Currículo atendeu aos documentos legais orientadores, em especial à Base Nacional Comum Curricular e às Diretrizes Curriculares Nacionais para o Ensino Médio, e também considerou as sugestões de professores, estudantes, comunidade escolar e demais instituições da sociedade civil que participaram ativamente do processo de construção.\n\nConsiderando o contexto de pandemia do ano de 2020, os Seminários realizados naquele ano aconteceram em modelo remoto, mas contaram com ampla participação de professores, do estado e dos municípios que oferecem ensino médio, garantindo-se o debate de ideias e a construção coletiva. As consultas públicas, online, da formação geral básica e dos itinerários formativos ofereceram a possibilidade de participação mais ampla da sociedade civil.\n\nGostaríamos ainda de registrar o constante diálogo realizado na construção do Currículo do Ensino Médio com os Currículos das etapas anteriores, ensino fundamental e educação infantil, de forma a assegurar a continuidade pedagógica entre as etapas de ensino que compõem a Educação Básica.\n\nEste documento curricular apresenta, na introdução, entre outros aspectos, discussões relativas à concepção sobre currículo, formação de professores e avaliação da, para e como aprendizagem. O segundo capítulo é dedicado a abordar a identidade do ensino médio, a trajetória do ensino médio em Pernambuco, seus sujeitos e os desafios para o Novo Ensino Médio. O terceiro e quarto capítulos apresentam os Itinerários Formativos e a Formação Geral Básica, com todas suas áreas do conhecimento. Em anexo, encontram-se as trilhas propostas para dar início à implementação em Pernambuco.\n\nUm agradecimento especial a todos(as) professores(as) que se dedicaram a estudar e enriquecer as propostas, contribuindo para que o Currículo de Pernambuco do ensino médio garantisse as habilidades e competências da BNCC, avançasse em termos de regionalidade e na construção de itinerários formativos sintonizados aos interesses da comunidade escolar, fortalecendo uma formação cidadã, solidária e crítica para todos os estudantes pernambucanos.\n\nAna Selva  \nSecretaria de Educação e Esportes do Estado de Pernambuco\n\nSônia Diógenes  \nUnião dos Dirigentes Municipais de Educação – (UNDIME/PE)",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c9628f2c4717705006ab2fd2816dc87d285ebc97e88aaebc5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 803,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 802,
+      "output_tokens_details": {
+        "reasoning_tokens": 158
+      },
+      "total_tokens": 1605
+    }
+  },
+  "created_at": "2026-09-22T22:11:58Z",
+  "duration_seconds": 6.395,
+  "error": null,
+  "excerpt_id": "am_ef_3",
+  "filename": "am_ef_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bd457485b6f542cc92703502564b6f60cc1f1deda9419059bbe4e5839a1eb537",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d9b5e7272a8ca873abdb4603bcf73a27c6d23e458d1bb4fa61e472df1d6e9be3",
+    "rendered_prompt_sha256": "294561c119da620775c1c95042c7f51967aa4de83979eb160e880687c1a95bdf",
+    "source_text_sha256": "bf81ed2fadd46057aa66dc690bd56cd2c6557fa5d3047150857672ab47e029db"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 332,
+    "filename": "am_ef_3.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_3.txt",
+    "state": "am",
+    "word_count_original": 441
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_3.json"
+  },
+  "raw_response_text": "2.\n\nA discussão e reflexão acerca do processo de alfabetização e letramento conduzidas nas escolas brasileiras são necessárias, principalmente, por conta dos resultados advindos das atuais políticas de avaliação (nacional e internacional) que, cada vez mais, demonstram que, mesmo percorrendo os primeiros anos do ensino, os estudantes brasileiros ainda apresentam índices elevados de analfabetismo. Ou seja, não conseguem superar os níveis insuficientes de leitura, fato que revela o grande desafio da educação brasileira em repensar formas para que a alfabetização e o letramento sejam uma realidade em todas as escolas brasileiras, inclusive, nas amazonenses.\n\nPartindo do princípio de que a educação é um direito subjetivo garantido constitucionalmente a todos os cidadãos brasileiros, cabe ao Estado, à família e à sociedade oportunizar essa educação de qualidade aos cidadãos. Fica clara, portanto, a corresponsabilidade da educação entre esses entes sociais, configurando-se em um dever compartilhado, conforme preceitua o artigo 205 da Constituição Federal. Nesse sentido, a responsabilidade pela alfabetização e pelo letramento dessas crianças é nossa, cabendo-nos, portanto, propiciar-lhes aprendizagens significativas, levando-as a usar socialmente tais conhecimentos.\n\nAo adentrar o espaço escolar, aos 6 (seis) anos, no primeiro ciclo, a criança tem garantias a uma educação de qualidade, visto que cabe à escola a tarefa de formar cidadãos capazes de compreender, pensar, refletir e agir sobre o mundo, participando ativamente das diversas práticas sociais, exercendo, assim, sua cidadania com dignidade. Quanto a isso, a Lei de Diretrizes de Bases da Educação Nacional (LDB) 9394/1996 reafirma esse direito ao estender essa responsabilidade aos entes sociais — família, estado e sociedade, dando destaque em seu artigo 32 à “formação básica do cidadão [...]\" (BRASIL, 1996, p. 23) mediante ao “desenvolvimento da capacidade de aprender tendo como meios básicos o pleno domínio da leitura, da escrita e do cálculo” (BRASIL, 1996, p. 23).\n\nFica visível, nesse trecho, que dominar plenamente essas habilidades exige dos profissionais em educação, um currículo capaz de articular os processos de alfabetização e de letramento. Além disso, necessita de uma compreensão conceitual, prática e metodológica acerca dos conceitos de alfabetização e letramento. Esse é o grande desafio que recai, primeiramente, sobre as escolas e professores. Na perspectiva de Délia Lerner (2002), o desafio posto à escola é, de fato, inserir nossos estudantes na cultura escrita, tornando-os leitores e escritores competentes. Sem dúvida, essa tarefa não é das mais fáceis, frente a realidade na qual as escolas estão inseridas, contudo, há possibilidades para modificá-la. Uma dessas possibilidades é propiciar práticas sociais da leitura e escrita, tal qual, ocorrem no contexto social. Para isso, faz-se necessário discutirmos acerca do conceito de alfabetização e letramento e suas inter-relações.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

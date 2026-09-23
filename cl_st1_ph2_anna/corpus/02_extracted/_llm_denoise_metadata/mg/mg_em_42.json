@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bde1b95d8238269006ab3033bd97887d2aced18f7e43cbc1f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1000,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1100,
+      "output_tokens_details": {
+        "reasoning_tokens": 245
+      },
+      "total_tokens": 2100
+    }
+  },
+  "created_at": "2026-09-22T22:37:55Z",
+  "duration_seconds": 7.568,
+  "error": null,
+  "excerpt_id": "mg_em_42",
+  "filename": "mg_em_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5f9db6227a765de144b4f036c038650a0c0c09df96ae5f55fd76b6c59a694d3c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8bc171dabcf17556225f1736e0622f9045533b7a0b89ba177df98aa135d9c8f8",
+    "rendered_prompt_sha256": "1f85627cdcbfe553be058830a25af0fa96fa91f303927c22271ef6b4994921b5",
+    "source_text_sha256": "c590f1311dfd71882fec9ce8e367e94d9ead69cd6ca8176308804fee44c9d61a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1573,
+    "filename": "mg_em_42.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_42.txt",
+    "state": "mg",
+    "word_count_original": 580
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_42.json"
+  },
+  "raw_response_text": "### 3.1.3.1 Literatura e a área de Linguagens e suas Tecnologias\n\nA literatura na BNCC é compreendida dentro do campo artístico-literário, apresentando-se nesse espaço de circulação das manifestações literárias e artísticas em geral. Nesse contexto, o estudo da literatura visa, de forma integrada, ao desenvolvimento de habilidades pautadas no exercício da sensibilidade, na fruição estética, buscando o (re)conhecimento e a produção de manifestações literárias e artísticas.\n\nLer, escrever, letrar e literalizar: é preciso, para além das palavras, decifrar mundos! Apresentando tais objetivos como proposta da literatura no Currículo Referência, sugerimos propiciar aos estudantes a oportunidade de:\n\n1. Vivências estéticas a partir da interação com elementos constituintes da linguagem literária;\n2. Formação de estudantes críticos, reflexivos, potencialmente mais conscientes das ideologias que perpassam os textos literários, sendo capazes de identificá-las, de compreendê-las e de confrontá-las, posicionando-se ativamente, construindo argumentos que sustentem sua opinião.\n\nNessa perspectiva, o estudo da literatura tem como proposta conjugar o letramento literário com o letramento crítico¹¹, possibilitando ao estudante, por meio das múltiplas linguagens, a interação com variados instrumentos de acesso à informação e à comunicação em contextos de realidades físicas ou digitais. Segundo Cosson (2006),\n\n> o processo de letramento literário deve envolver aspectos que conciliem os diversos textos literários circundantes nas esferas sociais. E, para seu desenvolvimento, é preciso refletir sobre como fazer para que estudantes compreendam o que estão lendo e como promover a leitura literária em um mundo em que as novas tecnologias dividem e disputam a atenção dos estudantes.\n\nEssas preocupações perpassam os pressupostos do letramento literário para o Currículo Referência.\n\nVale salientar a importância da fruição literária, apresentando-a como um marco para recuperar e promover a leitura subjetiva no Ensino Médio, ou seja, aquela que dialoga com questões internas dos sujeitos e é passível de interpretações distintas. A questão sobre o que os jovens leem e/ou gostariam de ler, num primeiro momento, dá à literatura contemporânea um caráter interdiscursivo, contemplando possibilidades de interação e socialização de uma multiplicidade de culturas e representações semióticas (linguísticas, visuais, sonoras, digitais, entre outras), para que o estudante seja capaz de\n\n> Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconhecimento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza (BRASIL, 2018, p. 490).\n\nOutro aspecto importante da proposta é descolonizar o currículo de literatura, por meio de sua abertura a obras literárias de referências ocidentais, em especial da literatura portuguesa, assim como obras mais complexas da literatura contemporânea e das literaturas indígena, africana e latino-americana. Nesse sentido, a proposta é a formação de leitores literários dos clássicos, mas não somente os canonizados, a intenção é incluir textos das comunidades indígenas, textos hispânicos, textos da literatura feminina, que até há poucos anos não adentravam as Faculdades de Letras do país.\n\nEssa ampliação busca, em uma constante interação com as múltiplas linguagens, contemplar os multiletramentos na escola, visando à aquisição de habilidades de compreensão, exploração, interpretação e produção de diversos gêneros discursivos/textuais que circulam em diferentes esferas, inclusive na digital. Nesse sentido, o processo de produção autoral dos estudantes deve utilizar e se apropriar de recursos multissemióticos no que se referem aos gêneros discursivos/textuais presentes em suas práticas cotidianas.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

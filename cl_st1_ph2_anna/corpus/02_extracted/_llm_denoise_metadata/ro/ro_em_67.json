@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dd1c3e56fb4c430006ab30c64aaa087d2bb45a1eb11f572a7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1381,
+      "input_tokens_details": {
+        "cache_write_tokens": 1378,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1572,
+      "output_tokens_details": {
+        "reasoning_tokens": 294
+      },
+      "total_tokens": 2953
+    }
+  },
+  "created_at": "2026-09-22T23:17:03Z",
+  "duration_seconds": 10.804,
+  "error": null,
+  "excerpt_id": "ro_em_67",
+  "filename": "ro_em_67.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "28f78846984974e9af8c1f1d2fa3370c00ecf8363387616221ea9cec95baef83",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9db2e09c2ed0e00e154a6e47cd042e66c7db2a8074a9e99dd225973f7dc02f46",
+    "rendered_prompt_sha256": "52fc56514ee7b0fe6ece5574b4b739c47890fc7f54373e640b1f4dd03809bc11",
+    "source_text_sha256": "87969569e4c107b6789089065a3c722a5dea46e211c8ee769d81dd29f0def130"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_67.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3285,
+    "filename": "ro_em_67.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_67.txt",
+    "state": "ro",
+    "word_count_original": 882
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_67.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_67.json"
+  },
+  "raw_response_text": "## 3.2. Orientações para a construção, validação e oferta dos itinerários formativos\n\n### 3.2.1. Composição dos itinerários formativos\n\nNos Itinerários Formativos do currículo do ensino médio de Rondônia, foram incluídas as seguintes unidades curriculares:\n\n- Trilhas de Aprofundamento nas quatro Áreas do Conhecimento;\n- Trilhas de Aprofundamento em Educação Profissional e Tecnológica;\n- Projeto de Vida;\n- Eletivas; e\n- Língua Espanhola.\n\nA seguir caracterizaremos cada uma delas, especificando as formas de atendimento no âmbito do sistema de ensino estadual.\n\n**Trilhas de Aprofundamento:**\n\nAs Trilhas de Aprofundamento buscam expandir os aprendizados promovidos pela Formação Geral Básica. No caso dos Itinerários Formativos de Áreas do Conhecimento, essa ampliação acontece em articulação com temáticas contemporâneas sintonizadas com o contexto e os interesses dos estudantes. Na Formação Técnica e Profissional, a expansão se dá juntamente com o desenvolvimento de habilidades básicas requeridas pelo mundo do trabalho e habilidades específicas relacionadas aos Cursos Técnicos, Cursos de Qualificação Profissional (FICs) ou Programa de Aprendizagem Profissional escolhidos pelos estudantes. Além de melhor explorar potenciais e vocações, as Trilhas de Aprofundamento permitem que os jovens já concluam o Ensino Médio com algum diferencial na sua formação.\n\nPara que cumpram com esses objetivos, as Trilhas de Aprofundamentos nas áreas do conhecimento terão duração anual e deverão ser ofertadas no 2º e 3º anos do Ensino Médio. Desse modo, os estudantes do 2º ano do Ensino Médio poderão dar sequência na mesma área do conhecimento no ano seguinte ou se matricular em outra Trilha de Aprofundamento no 3º ano do Ensino Médio.\n\nA matrícula nas Trilhas de Aprofundamento em Educação Profissional e Tecnológica dar-se-á em conformidade com os cursos a serem ofertados pela instituição.\n\n**Eletivas:**\n\nAs Eletivas são unidades curriculares de livre escolha dos estudantes, com duração de um semestre cada, que possibilitam aos estudantes experimentar diferentes temas, vivências e aprendizagens, de maneira a diversificar e enriquecer o seu Itinerário Formativo. O estudante pode cursar Eletivas associadas à mesma área do conhecimento ou formação técnica e profissional em que estiver se aprofundando ou optar por diversificar a sua formação, escolhendo Eletivas de temas de seu interesse associados a outras áreas do conhecimento.\n\nAs Eletivas serão construídas pelos professores, a partir de sugestões dos próprios jovens. Apesar do seu caráter mais lúdico e prático, é necessário que tenham intencionalidade pedagógica e se articulem com as Áreas do Conhecimento, os Eixos Estruturantes e as Competências Gerais da BNCC. Na Formação Técnica e Profissional, as FICs (Curso de Qualificação Profissional) também podem ser ofertadas como Eletivas.\n\n**Projeto de Vida:**\n\nConsiste em uma unidade curricular que objetiva o desenvolvimento de trabalho pedagógico intencional e estruturado com foco em desenvolver nos estudantes as capacidades de tomar decisões, planejar o futuro e agir no presente com autonomia e responsabilidade.\n\nNo 1º ano do Ensino Médio, o objetivo é trabalhar com os estudantes o autoconhecimento para permitir que eles façam escolhas mais assertivas em relação às Eletivas e, especialmente, às Trilhas de Aprofundamento a serem ofertada no ano seguinte. Já no 2º ano do Ensino Médio, a ênfase é na ampliação de repertório de possibilidades para diversificar as opções e expandir os horizontes dos estudantes em relação às suas escolhas, durante e após a educação básica. Por fim, no 3º ano do Ensino Médio, o foco é orientar os jovens para que planejem ações presentes e futuras, definindo metas para sua vida pessoal, profissional e cidadã.\n\nTodo o percurso educativo no componente Projeto de Vida deve ser permeado por vivências que lhes permitam desenvolver competências como autoconfiança, determinação e resiliência, dentre outros.\n\n**Língua Espanhola:**\n\nA inserção da unidade curricular de Língua Espanhola nos itinerários formativos dos estudantes do Estado de Rondônia confirma a garantia de direito a uma educação de qualidade com equidade: um dos pilares de uma sociedade democrática, inclusiva, com pleno exercício da cidadania. Essas aprendizagens devem assegurar que os estudantes desenvolvam competências que lhes permitam se comunicar em Língua Espanhola, ampliando sua inserção no mundo do trabalho, alinhada ao seu projeto de vida.\n\nA perspectiva de aprofundamento da unidade curricular Língua Espanhola a partir de itinerários formativos reforça a proposta da interdisciplinaridade, mas também o diálogo entre áreas. Esse trabalho deve ser pautado no desenvolvimento das dez competências gerais da Base Nacional Comum Curricular (BNCC), que requer do aprendiz ser capaz de fazer uso de diferentes linguagens para se inserir em um mundo globalizado, plurilíngue e multicultural, reconhecendo, valorizando, respeitando as diversidades, usos heterogêneos e multimodais da língua. Dessa maneira, compreende-se como de fundamental importância oportunizar aos estudantes no Ensino Médio a aprendizagem de mais uma língua estrangeira, priorizando a Língua Espanhola, conforme orientação contida na LDB, garantindo assim, a opção consciente de escolha da Língua Estrangeira, em concursos públicos, e avaliações externas e de larga escala, além da ampliação dos conhecimentos linguísticos e culturais de seus estudantes.\n\nCumpre salientar que o desenvolvimento das habilidades previstas nas unidades curriculares dos itinerários formativos demanda a aplicação de metodologias ativas e diversificadas, bem como a possibilidade de maior protagonismo dos estudantes. Tais especificidades também requerem criatividade e inovação no que diz respeito à elaboração de arranjos curriculares que oportunizem mudanças significativas na organização de tempos, espaços e práticas escolares, de forma a assegurar que os estudos façam mais sentido aos estudantes e gerem mais aprendizagem e desenvolvimento para jovens que já nasceram no século XXI.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

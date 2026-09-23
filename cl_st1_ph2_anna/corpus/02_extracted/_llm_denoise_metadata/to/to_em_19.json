@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ce94cc26acf2263006ab3101f9ea487d2b9d17f527a6d8255",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 831,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1252,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2083
+    }
+  },
+  "created_at": "2026-09-22T23:32:56Z",
+  "duration_seconds": 9.371,
+  "error": null,
+  "excerpt_id": "to_em_19",
+  "filename": "to_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "53c344afec7b502cbd6b41ba73b7fddc1f1b568fadc55639bfaaf6bee6235f91",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3064e3b2cfe07b39b74baf947b6412f5544d8b6901350f1c71a53a65fcf253b5",
+    "rendered_prompt_sha256": "32c79e65fedc97590a2f4a6b68b0a7bdf220e42357ff472cc23b34cdf1c56ff0",
+    "source_text_sha256": "b04b98b6a064776a7388cc3f1601d95083246edb34f19c1e0411a7f1c6859fae"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4017,
+    "filename": "to_em_19.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_19.txt",
+    "state": "to",
+    "word_count_original": 504
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_19.json"
+  },
+  "raw_response_text": "### 3.2 Estrutura da Oferta\n\nA Reforma do Ensino Médio tem propósitos claros, a necessidade de profundas mudanças na organização curricular e nos princípios que norteiam a etapa final da Educação Básica. Nesse sentido, na oferta dos Itinerários Formativos, a flexibilização é requisito essencial, motivo pelo qual, as unidades curriculares devem ter documentos próprios, considerando as especificidades de cada Área do Conhecimento e Formação Profissional Técnica, com orientações próprias, que perpassam desde o planejamento, execução, acompanhamento, orientações, avaliação e certificação.\n\nA carga horária dos Itinerários Formativos está subdividida em três partes: Trilhas de Aprofundamento, Eletivas e Projeto de Vida.\n\nOs Itinerários Formativos estão assegurados no Documento Curricular do Território do Tocantins - DCT/TO - Etapa Ensino Médio, possuem organização própria e estão dispostas nos Cadernos 3, 4 e 5.\n\nO organizador curricular (sistematização das aprendizagens essenciais) das Trilhas de Aprofundamento é subsidiado por documentos complementares, considerando as especificidades e necessidades pedagógicas, bem como, assegurar às unidades escolares a autonomia didática e pedagógica para elaboração de itinerários formativos próprios.\n\n### 3.3 Projeto de Vida\n\nA Base Nacional Comum Curricular - BNCC define os direitos e objetivos de aprendizagem do Ensino Médio, em conformidade com as diretrizes do Conselho Nacional de Educação e dos Sistemas Estaduais de Ensino. Nesse sentido, a Resolução CNE 03/2018 regulamenta que o Ensino Médio, além dos princípios gerais estabelecidos para a educação, será orientado pelos princípios específicos, dentre os quais, destaca-se o “projeto de vida como estratégia de reflexão sobre a trajetória escolar na construção das dimensões pessoal, cidadã e profissional do estudante.” E ainda, em conformidade com o disposto no Art. 35-A §7° da Lei de Diretrizes e Bases da Educação Nacional (LDB),\n\n“§ 7o Os currículos do ensino médio deverão considerar a formação integral do aluno, de maneira a adotar um trabalho voltado para a construção de seu projeto de vida e para sua formação nos aspectos físicos, cognitivos e socioemocionais.” (Art. 35-A §7° - Incluído pela Lei no 13.415, de 2017).\n\nO Projeto de Vida está estruturado no DCT-TO, Etapa Ensino Médio como unidade curricular assumindo a centralidade da parte flexível, tendo como premissa básica a efetivação do protagonismo e da autonomia dos estudantes.\n\nO objetivo desta unidade curricular é oportunizar a autorreflexão sobre o presente e o futuro, estimulando a autonomia, o protagonismo e o desenvolvimento das competências cognitivas e socioemocionais para que os estudantes se tornem cidadãos ativos, críticos e responsáveis.\n\nSendo assim, é necessário que o estudante, sob orientação do professor, construa o projeto de sua vida, que definirá sua trajetória no Ensino Médio, conforme as suas aspirações e potencialidades.\n\nAlém disso, projetar é um processo gradual, lógico, reflexivo e necessário na construção de sentido para a vida, norteando o prosseguimento de estudos após a conclusão do Ensino Médio, bem como, se for de interesse do estudante, orientar o ingresso no mundo do trabalho, a formação técnica de nível médio ou a formação superior, ou ainda, trazer luz às aspirações sociais e de protagonismo na vida cidadã, política e organizações sociais e ativismo.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

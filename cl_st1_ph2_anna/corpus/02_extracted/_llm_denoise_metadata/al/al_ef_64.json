@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05f00c9f8bab169c006ab2fc7084f487d2aaa0a5550ad8fc23",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 827,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 839,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 1666
+    }
+  },
+  "created_at": "2026-09-22T22:08:54Z",
+  "duration_seconds": 6.298,
+  "error": null,
+  "excerpt_id": "al_ef_64",
+  "filename": "al_ef_64.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "82f4e5139309390b0bb82536af1d9a01aff70c663407f08e9fdb0844734c9d8d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d44b02d49b2221c2e76f6126d32c179eacb0fc8c43786c98bb42baffb5c35e4d",
+    "rendered_prompt_sha256": "93d9789c41464310d55a213a6e12c8482e39107321fa35b5ec60995e67096262",
+    "source_text_sha256": "ec803f579e7540c85dc7303619e997019f42acf27dd9653c64ddaa6d10db6876"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_64.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 202,
+    "filename": "al_ef_64.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_64.txt",
+    "state": "al",
+    "word_count_original": 480
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_64.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_64.json"
+  },
+  "raw_response_text": "## 2.5 Objetos do conhecimento e habilidades\n\nOs objetos do conhecimento são agrupados por unidades temáticas, representam os conhecimentos necessários para a aprendizagem matemática. Os conceitos científicos são sistematizados em conteúdos conceituais, descritos no Referencial Curricular de Alagoas e na BNCC como objetos do conhecimento.\n\nEsses objetos do conhecimento estão dispostos por unidade temática (Números, Álgebra, Grandezas e Medidas, Geometria, Probabilidade e Estatística) descritas no organizador curricular capítulo 4 deste Referencial.\n\nAs habilidades decorrem das competências adquiridas e referem-se ao plano imediato do “saber fazer”. Por meio das ações e operações, as habilidades aperfeiçoam-se e articulam-se, possibilitando nova reorganização das competências. Competências são as modalidades estruturais da inteligência, ou melhor, ações e operações que utilizamos para estabelecer relações com e entre objetos, situações, fenômenos e pessoas que desejamos conhecer (INEP, 1999, p. 7).\n\nNo que concerne ao trabalho com os objetos e objetivos descritos, os conceitos e os conhecimentos matemáticos articulam-se em unidades temáticas. A organização do ensino de matemática em unidades é uma opção didática que envolve uma concepção de ensino e aprendizagem contraposta à tendência de um ensino fragmentado, ou seja, que prioriza a aritmética, ignorando ou dando pouca ênfase às demais. Em outras palavras, por trás dessa opção, está uma preocupação em garantir formas diversas de aprender a partir de uma visão menos fragmentada do ensino e da aprendizagem da matemática escolar. Essa visão embasada por uma concepção de ensino e aprendizagem interfere diretamente na forma como são planejadas as aulas, na escolha da perspectiva metodológica e na forma de avaliar o processo de ensinar e aprender.\n\nOs desdobramentos didáticos pedagógicos (DesDP) são sugestões metodológicas e orientações didáticas voltadas para a matemática escolar e a educação matemática. Possuem como escopo auxiliar o professor na prática pedagógica, favorecendo ao ato pedagógico, ao fazer em sala de aula.\n\nA parte diversificada que deve ser está vinculada ao conhecimento e à cultura, regionalismo e territorialidade está inserida no DesDP, pois dentre as atividades metodológicas propostas pode-se unir as características locais e objetos da região.\n\nAlagoas é um estado de muita riqueza cultural que perpassam do litoral ao sertão, as comunidades indígenas, quilombolas, campesina e cigana.\n\nAs aprendizagens trazidas pela BNCC são essenciais e normativas e nesse sentido estão dispostas em sua totalidade, seguem um código que representa etapa/ano/componente/código da habilidade, como por exemplo, EF03MA01, é um código de habilidade da BNCC, representa Ensino fundamental, 3º ano, Matemática e habilidade 01. Os códigos são identificadores, não representam uma sequência de habilidades. O professor no seu planejamento pode estabelecer a ordem dos objetos do conhecimento e habilidades que irá seguir. No DesDP estão algumas habilidades propostas para adequação e sugestões metodológicas.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

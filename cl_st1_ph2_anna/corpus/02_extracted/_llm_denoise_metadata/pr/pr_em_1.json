@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b9fc2174242f355006ab309320af887d2b4263d0af442e4d8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1148,
+      "input_tokens_details": {
+        "cache_write_tokens": 1145,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1250,
+      "output_tokens_details": {
+        "reasoning_tokens": 268
+      },
+      "total_tokens": 2398
+    }
+  },
+  "created_at": "2026-09-22T23:03:23Z",
+  "duration_seconds": 9.837,
+  "error": null,
+  "excerpt_id": "pr_em_1",
+  "filename": "pr_em_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "693f744b0c4eec93b390ef41891e5a857e558bf8e5fc464f2bca37a7d66d02db",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5c8fce70cf4a21918bf14d1c10057c662ea181dc975be349ea1341a24666dd22",
+    "rendered_prompt_sha256": "33d068915bb00bed2186aeb8a7fbf2da1b7c5025ae1024092972c1fbdc1201e5",
+    "source_text_sha256": "fabfa6e47c28b03d3a57e7750142d1a7ad4cd395bb7e289b7b038484048280c5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2682,
+    "filename": "pr_em_1.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_1.txt",
+    "state": "pr",
+    "word_count_original": 663
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_1.json"
+  },
+  "raw_response_text": "# APRESENTAÇÃO\n\nA urgência de uma reforma do Ensino Médio no Brasil vem sendo discutida desde a promulgação da Constituição Federal de 1988 e aprovação da Lei de Diretrizes e Bases da Educação - LDB n.º 9.394, de 20 de dezembro de 1996. Essas discussões ganharam força visando apoiar e fortalecer o desenvolvimento de propostas inovadoras, para que o currículo fosse organizado de maneira flexível, atendendo as expectativas e necessidades dos estudantes, fomentando atividades que contemplassem a Iniciação Científica, a Comunicação, o Letramento e a Cultura Digital, o Protagonismo Juvenil e a inserção no mundo do trabalho.\n\nNo estado do Paraná, a reforma do Ensino Médio estabelecida pela Lei n.º 13.415, de 16 de fevereiro de 2017 (BRASIL, 2017), acompanhada pela Resolução MEC/CNE n.º 03 de 21 de novembro de 2018 (BRASIL, 2018a), que atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio, e pela publicação da Resolução MEC/CNE n.º 04, de 17 de dezembro de 2018 (BRASIL, 2018c), que instituiu a Base Nacional Comum Curricular (BNCC) para a etapa do Ensino Médio (BRASIL, 2018d), promoveu uma série de ações coordenadas envolvendo a Secretaria de Estado da Educação, como órgão executivo e o Conselho Estadual de Educação, como órgão normativo do Sistema Estadual de Ensino, as quais resultaram na publicação da Deliberação CEE/PR n.º 04, de 29 de julho de 2021, que estabeleceu as Diretrizes Curriculares Complementares para o Novo Ensino Médio do Paraná e o Referencial Curricular para o Ensino Médio do Paraná (PARANÁ, 2021).\n\nTendo em vista a promulgação da Lei n.º 14.945/2024 (BRASIL, 2024a), a qual revogou parcialmente a Lei n.º 13.415/2017, foi estabelecida uma nova organização para o Ensino Médio em todo o país. Considerando as mudanças, advindas da Lei, juntamente com a publicação da Resolução CNE/CEB n.º 02, de 13 de novembro de 2024, que atualiza das Diretrizes Curriculares Nacionais para o Ensino Médio (BRASIL, 2024b), foi realizada a revisão do Referencial Curricular para o Ensino Médio do Paraná, contemplando os princípios pedagógicos que norteiam essa etapa de ensino.\n\nEste Referencial está estruturado em três volumes: o Texto Introdutório, a Formação Geral Básica e os Itinerários Formativos.\n\nO Texto Introdutório apresenta o cenário da oferta atual do Ensino Médio em todo o estado; as percepções e os interesses dos estudantes para essa etapa de ensino; os demarcadores conceituais essenciais para o desenvolvimento da gestão e prática pedagógica das escolas paranaenses; os pressupostos da educação inclusiva, amparada pela educação em direitos humanos, destacando a diversidade das juventudes e as modalidades de ensino; os princípios pedagógicos e formativos que orientam o Ensino Médio do Paraná.\n\nA Formação Geral Básica contempla a organização curricular, visando ao desenvolvimento de competências e habilidades a partir do aprofundamento das aprendizagens desenvolvidas no Ensino Fundamental. Inclui a Educação Digital, orientada pela BNCC Computação e está estruturada em quatro áreas do conhecimento, a saber: Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias e Ciências Humanas Sociais e Aplicadas. Em cada uma dessas áreas são desenvolvidas habilidades específicas, de acordo com a Base Nacional Comum Curricular (BNCC).\n\nOs Itinerários Formativos estão organizados em subseções. Após uma breve introdução, trazendo o conceito e finalidades do Itinerário Formativo de Aprofundamento, seguem pressupostos que orientam o Projeto de Vida e, na sequência, os princípios organizadores para a elaboração de Itinerários Formativos: a perspectiva do desenvolvimento de projetos integradores, os elementos conceituais, orientações pedagógicas, encaminhamentos metodológicos e avaliativos por área do conhecimento; os quais objetivam orientar as redes e instituições de ensino do estado, na estruturação de suas propostas curriculares. Por fim, são explicitados os princípios balizadores para organização e estruturação do Itinerário de Formação Técnica e Profissional.\n\nOs três volumes se integram possibilitando a construção curricular, com foco na aprendizagem de todos os estudantes das instituições de ensino que ofertam o Ensino Médio, a partir da premissa da formação integral do sujeito.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

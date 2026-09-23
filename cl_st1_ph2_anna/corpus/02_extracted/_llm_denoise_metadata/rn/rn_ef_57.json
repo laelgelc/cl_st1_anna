@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c8d880641c382b2006ab30af773c087d2a8e4200dd063d872",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 644,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 669,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 1313
+    }
+  },
+  "created_at": "2026-09-22T23:10:53Z",
+  "duration_seconds": 5.652,
+  "error": null,
+  "excerpt_id": "rn_ef_57",
+  "filename": "rn_ef_57.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "905cea2a806d4ddd5fc8d1b1466ff6a3cd7a8b81fabd25ae8df03250ccd4fc0e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "90a31f8dbd2c965a535168b166e96ef456054d76ae6f7079c2207e49ff72765a",
+    "rendered_prompt_sha256": "266a44f8f19e88aacf1d1e7c31a0a5c0f29056a934191e70a577c8f7f0669142",
+    "source_text_sha256": "dcd3e0b693ae8bd1c71e6a463613d74478e92aa2ef940b742072212311225e97"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_57.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2998,
+    "filename": "rn_ef_57.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_57.txt",
+    "state": "rn",
+    "word_count_original": 371
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_57.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_57.json"
+  },
+  "raw_response_text": "# Ensino religioso\n\nPara introduzir a área de ensino religioso, faz-se necessário apresentar alguns marcos legais. Esse ensino sempre fez parte da história da educação no Brasil, desde a chegada dos jesuítas até os dias atuais. Nesse percurso, apresentou-se com diversos paradigmas, quase sempre adotando uma postura catequética. Ele tem sua oferta assegurada desde a promulgação da Constituição Brasileira de 1934, marcando presença em todas as outras (1937, 1946 e 1967) até a atual, publicada em 1988.\n\nFoi incluído, entretanto, na Lei de Diretrizes e Bases da Educação Nacional (LDBEN), a partir da Lei n. 4.024, publicada em 20 de dezembro de 1961, passando a ter, do ponto de vista legal, um viés não catequético. Na prática, contudo, ainda era ministrado na forma de evangelização ou de orientações e ensinamentos bíblicos.\n\nComo área do conhecimento, foi reconhecido a partir da Resolução n. 2, de 7 de abril de 1998, da Câmara de Educação Básica (CEB), do Conselho Nacional de Educação (CNE), que institui as Diretrizes Curriculares Nacionais para o Ensino Fundamental, e foi ratificado pelas Resoluções n. 4, de 13 de abril de 2010, e n. 7, de 14 de dezembro de 2010.\n\nA partir dos marcos legais apontados, o Ensino Religioso assume uma postura pedagógica, tendo como objeto de estudo o fenômeno religioso presente nas diversas culturas e tradições religiosas, afastando-se da postura de confessionalidade. Nesse contexto, foram criados em alguns estados do Brasil cursos de graduação, de pós-graduação e de aperfeiçoamento com o objetivo de qualificar os professores para esse componente.\n\nNo Rio Grande do Norte, ele foi regulamentado pelo Artigo 137 da Constituição Estadual de 1989 e segundo o Parecer n. 50, de 27 de dezembro de 2000, do Conselho Estadual de Educação, tendo como marco referencial o ano de 1973, quando foi organizada pela Secretaria de Educação e Cultura uma equipe de professores que, embasada na Lei n. 5.692, de 11 de agosto de 1971 (LDBEN), teve o objetivo de acompanhar e prestar assessoramento em todo o estado aos profissionais de educação a respeito desse componente curricular. Desde então, o Ensino Religioso tem se mantido presente nas escolas do Rio Grande do Norte, apresentando-se conforme o contexto histórico e legal.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

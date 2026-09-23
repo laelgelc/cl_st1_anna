@@ -1,0 +1,32 @@
+# TEXTO INTRODUTÓRIO
+
+## LINGUAGENS
+
+A linguagem, conforme os Parâmetros Curriculares Nacionais, é “uma forma de ação interindividual orientada para uma finalidade específica; um processo de interlocução que se realiza nas práticas sociais existentes numa sociedade, nos distintos momentos de sua história” (BRASIL, 1998, p. 20).
+
+Em consonância com a quarta competência geral da BNCC (2017), as atividades humanas realizam-se nas práticas sociais, mediadas por diferentes linguagens: verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e, contemporaneamente, digital. Por meio dessas práticas, as pessoas interagem consigo mesmas e com os outros, constituindo-se como sujeitos sociais. Nessas interações, estão imbricados conhecimentos, atitudes e valores culturais, morais e éticos.
+
+As linguagens são utilizadas para a produção de conhecimentos e compreensão dos fenômenos naturais, sociais e culturais, contribuindo para a interação das demais áreas. A linguagem, verbal ou não verbal[^1], serve de meio de comunicação de ideias ou sentimentos, podendo ser percebida pelos diversos órgãos dos sentidos, o que leva a distinguirem-se várias espécies de linguagens: visual, auditiva, tátil, entre outras. A organização e sistematização da área da linguagem na Educação Básica envolvem os componentes curriculares de Língua Portuguesa, Língua Estrangeira, Arte e Educação Física. Esses componentes integram concepções relacionadas às atividades humanas mediadas por diferentes linguagens.
+
+Esta articulação resgata a unidade no desenvolvimento na aquisição do conhecimento curricular, de modo a potencializar o desenvolvimento das respectivas competências e habilidades, integrando os conhecimentos científico, acadêmico e escolar, conforme a BNCC (2017), documento norteador do nosso referencial. A integração dos componentes curriculares da área perpassa:
+
+- Pelo componente Língua Portuguesa, no qual cabe o trabalho em uma perspectiva enunciativo-discursiva, evidenciando a linguagem em uso, proporcionando aos estudantes experiências de letramentos sociais, dentro e fora do espaço escolar, de forma a possibilitar a participação significativa e crítica nas diversas práticas sociais permeadas/constituídas pela oralidade, pela escrita e por outras linguagens.
+- Língua Inglesa que, por sua vez, exerce grande influência para a formação do educando, contribuindo para melhorar sua comunicação, aumentar seu repertório cultural, inserir-se, responsavelmente, na cultura digital e argumentar usando textos, orais e escritos, para efetivar seus argumentos.
+- A Arte é uma forma do ser humano expressar suas emoções, sua história, sua cultura através de valores estéticos, beleza, harmonia, equilíbrio e outros. Inúmeras são as formas em que a arte pode ser representada, em especial na música, na escultura, na pintura, na dança no teatro e outras. Conforme a terceira competência geral da BNCC, “valorizar e fruir as diversas manifestações artísticas e culturais, das locais às mundiais, e também participar de práticas diversificadas da produção artístico cultural”. Associados e estimulados pelo contexto em que o ser humano se encontra e sua identidade social, os modos de fazer arte possibilitam a criação de símbolos que, de alguma maneira, expressam o que não está aparente, dando-lhe sentido, falando ao sentimento e à imaginação.
+- A Educação Física é o componente curricular que tematiza as práticas corporais; onde os sujeitos são oportunizados a compreender, refletir criticamente, interpretar e recriar valores, sentidos e significados às diversas manifestações das práticas corporais, reconhecendo a historicidade da cultura corporal de movimento e suas relações com a organização da vida de forma individual e coletiva, como também o respeito à cultura e às origens das práticas corporais, sem exclusão para todos que a praticam.
+
+É pela linguagem que se podem construir os quadros de referências culturais, como concepções e ideologias, mitos, representações, conhecimento científico e arte. A linguagem oral, escrita, imagética ou corporal, faz parte da atividade discursiva, ou seja, do ato de falar, de expressar claramente ideias, informações ou sentimentos a alguém.
+
+A sistematização das linguagens produz um conjunto de disposições e atitudes, como ler, interpretar, pesquisar, selecionar informações, analisar, argumentar e produzir textos orais e escritos. Sobretudo “valorizando e utilizando os conhecimentos historicamente construídos sobre o mundo físico, social, cultural e digital para entender e explicar a realidade [...]”, conforme a primeira competência geral da BNCC (2017).
+
+A linguagem possibilita ao homem a apreensão do mundo exterior, dando-lhe meios para se posicionar criticamente perante os outros, tornando-o agente transformador. Dessa forma, a linguagem é compreendida como o maior mediador da convivência humana, assim como das transformações que a educação busca.
+
+Garantir os direitos de aprendizagem relacionados às múltiplas linguagens é dever da escola, e o mais importante é que os estudantes se apropriem das especificidades de cada linguagem, sem perder a visão do todo no qual elas estão inseridas. Mais do que isso, é relevante que compreendam que as linguagens são dinâmicas, e que todos participem desse processo de constante transformação (BNCC, 2017).
+
+É importante considerar, também, o aprofundamento da reflexão crítica sobre os conhecimentos dos componentes da área, dada a maior capacidade de abstração dos estudantes no Ensino Fundamental. Essa dimensão analítica é proposta não como fim, mas como meio para a compreensão dos modos de se expressar e de participar no mundo, constituindo práticas mais sistematizadas de formulação de questionamentos, seleção, organização, análise e apresentação de descobertas e conclusões.
+
+Dessa forma, cabe-nos refletir: Que cidadão queremos formar? sujeitos autônomos, criativos, que consigam interagir, que possam aprofundar uma reflexão de forma crítica e promover mudanças na sua realidade. É deste cidadão que o mundo atual necessita e para quem nosso referencial precisa oportunizar.
+
+Considerando o exposto e em articulação com as competências gerais da Educação Básica, a área de Linguagens deve garantir aos alunos o desenvolvimento de competências específicas, apresentadas no quadro a seguir.
+
+[^1]: A linguagem não verbal utiliza-se do desenho, da dança, dos sons, dos gestos, da expressão fisionômica, das cores.

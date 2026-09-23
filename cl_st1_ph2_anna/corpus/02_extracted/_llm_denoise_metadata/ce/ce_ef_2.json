@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07ca41616f588edb006ab2ff2e2ce487d2afb952524bb32042",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 555,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 567,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1122
+    }
+  },
+  "created_at": "2026-09-22T22:20:34Z",
+  "duration_seconds": 4.867,
+  "error": null,
+  "excerpt_id": "ce_ef_2",
+  "filename": "ce_ef_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "312699523bb37fbfe97438ce09dd62d40137d0725b7889d4b85ab0f2f62d9db3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1fd0c275597e5a5f7c668be13831b53267e5053a1058011dfc91fece209b8a62",
+    "rendered_prompt_sha256": "38b1d5dc0a52516efc214507a4d250b116941c3219cacce21910146be94081e1",
+    "source_text_sha256": "6b7d583c233cd720baa7d71f5b9f852cbc6033ca3b0e30ddbf4b81b4a9a75bfc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 738,
+    "filename": "ce_ef_2.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_2.txt",
+    "state": "ce",
+    "word_count_original": 324
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_2.json"
+  },
+  "raw_response_text": "### 4.2.1 Área de Linguagens\n\nOs humanos se comunicam com seus pares nas práticas sociais de linguagem compreendendo e sendo compreendidos ou, pelos menos, tentando compreender e tentando ser compreendidos. Nesse jogo, eles/elas utilizam diferentes linguagens: verbal (oral ou visual-motora, como Libras, Braille e escrita), corporal, visual, sonora e, contemporaneamente, digital. Por meio dessas práticas, interagem consigo mesmos e com os outros, constituindo-se como sujeitos sociais. Nessas interações, estão imbricados conhecimentos, atitudes e valores culturais, morais e éticos. Nessas práticas sociais de linguagem, o homem se comunica para alcançar muitos objetivos e, dentre eles, o de ensinar e o de aprender. Por essa razão, a linguagem assume um status tão relevante: ela tanto organiza o pensamento, quanto proporciona as relações interpessoais, inclusive na escola.\n\nNeste contexto, a linguagem representa uma área de conhecimento que é constituída por quatro componentes curriculares (Arte, Educação Física, Língua Inglesa e Língua Portuguesa), seguindo a organização dos Parâmetros Curriculares Nacionais e também a da Base Nacional Comum Curricular. A finalidade dessa composição é possibilitar aos estudantes melhores condições para interagir com seus pares. Apesar de possuírem pontos de convergência, motivo do seu agrupamento, esses componentes curriculares apresentam particularidades que merecem ser respeitadas e potencializadas na realidade da sala de aula. As articulações são estabelecidas entre os Componentes curriculares e uma delas, provavelmente a principal, ocorre por intermédio do envolvimento dos estudantes, de maneira completa e produtiva, em seu processo de aprendizagem. Para isso, é preciso, antes de tudo, entender a relação corpo e mente em envolvimento e movimento com as diversas linguagens, numa perspectiva holística.\n\nO desafio que apresentamos é promover uma articulação entre os componentes curriculares constituintes da Área de Linguagens. Ela pode se realizar na e pela própria compreensão do conceito e da função e funcionamento da linguagem, considerando as especificidades de cada Componente curricular que a constitui. É, portanto, sobre as especificidades de cada componente que se passa a tratar.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

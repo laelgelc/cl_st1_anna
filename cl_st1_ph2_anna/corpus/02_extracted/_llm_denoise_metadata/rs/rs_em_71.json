@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04118a9e31f2d144006ab30dd6848c87d28abe19f1f5481dc1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1667,
+      "input_tokens_details": {
+        "cache_write_tokens": 1664,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1870,
+      "output_tokens_details": {
+        "reasoning_tokens": 394
+      },
+      "total_tokens": 3537
+    }
+  },
+  "created_at": "2026-09-22T23:23:13Z",
+  "duration_seconds": 11.373,
+  "error": null,
+  "excerpt_id": "rs_em_71",
+  "filename": "rs_em_71.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e136ba066e5a8127e240e7e2525248214875e34d14346885e87bcf238f98ebd9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8a808e330c7e668ff6420dd041e1002031412b936fb16e4bf1c246eff763f4a5",
+    "rendered_prompt_sha256": "dafed5fb32fdb7e2a100c80a2b9354e5562d8013edb5321e2d833fad28b6f53f",
+    "source_text_sha256": "8ba8ed5a050e1d3e1d2794e3173b683b3b42aa6bc2c20757a3e8c48a848870a8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_71.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3618,
+    "filename": "rs_em_71.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_71.txt",
+    "state": "rs",
+    "word_count_original": 1058
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_71.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_71.json"
+  },
+  "raw_response_text": "### 3.5.2 Interface com Ensino Fundamental\n\nOs PCNs, promulgados no ano de 1997 pelo Ministério da Educação, são um marco histórico no sentido de se estabelecer os eixos que nortearam, como orientação, a construção dos currículos das escolas de Educação Básica de todo o país. Com isso, a Base Nacional Comum Curricular para os Ensinos Fundamental e Médio surge como documento normativo, para estabelecer um conjunto de aprendizagens essenciais a serem desenvolvidas em todas as etapas e modalidades da Educação Básica.\n\nA área de Matemática lança um olhar mais integrado sobre a Educação Básica, associando as competências específicas e competências gerais protagonizadas pela BNCC, procurando dar sentido para os processos de ensino e aprendizagem a partir do avanço gradual, progressivo e articulado para as unidades temáticas.\n\nNesse sentido, o Referencial Curricular Gaúcho para o Ensino Médio, em consonância com as diretrizes elaboradas para o Ensino Fundamental, percebe a Educação Básica como um período da educação escolar no qual as aprendizagens ocorrem de forma contínua e interligada. As competências podem ser desenvolvidas respeitando os tempos, os espaços e as características de cada contexto, sendo, desse modo, ampliados os níveis de consolidação e aprofundamento na medida que o estudante avança nos estudos.\n\nA partir das competências gerais, dos marcos legais e dos fundamentos pedagógicos, muitas habilidades que anteriormente eram trabalhadas somente nos anos finais do Ensino Fundamental e consolidadas no Ensino Médio, passaram a compor o rol de habilidades que devem ser desenvolvidas em toda a Educação Básica. Da mesma forma, habilidades anteriormente trabalhadas somente no Ensino Médio figuram agora como indispensáveis para o desenvolvimento de competências propostas para o Ensino Fundamental.\n\nA Educação Infantil, por meio dos direitos de aprendizagem, desenvolvimento e dos campos de experiências, passa a observar, para cada faixa etária, objetivos de aprendizagem e desenvolvimento que também integram, fundamentalmente, “o início e o fundamento” do processo educacional (BRASIL, 2018a). Constrói-se, assim, a partir do educar e do cuidar, a “intencionalidade educativa”, ou seja, as práticas pedagógicas que podem permitir, a partir das experiências do “eu com o mundo”, as aprendizagens ao longo da vida.\n\nNo Ensino Fundamental, os objetos de conhecimento passam a estar associados ao desenvolvimento das competências e habilidades, promovendo uma mudança na ação pedagógica e na gestão das aprendizagens. Isso possibilita a vivência de situações potencialmente favoráveis ao desenvolvimento das várias formas de pensamento matemático, desde o início da escolarização.\n\nA BNCC compreende os objetos de conhecimento como “conteúdos, conceitos e processos, que, por sua vez, são organizados em unidades temáticas” (BRASIL, 2018a, p. 28). Nesse sentido, descreve que as unidades temáticas podem definir o arranjo dos objetos de conhecimento ao longo do Ensino Fundamental, assim como um objeto de conhecimento pode estar contemplado em diferentes habilidades.\n\nO Ensino Médio, ao buscar consolidar e aprofundar os conhecimentos construídos pelos estudantes no Ensino Fundamental, explicita o seu papel na formação integral. Cada área do conhecimento destaca particularidades no tratamento dos seus objetos de conhecimento; estes, por sua vez, são integrados às competências específicas, às unidades temáticas e às habilidades.\n\nSob esse aspecto, a área da Matemática e suas Tecnologias tem a possibilidade de propor uma organização curricular a partir de unidades temáticas, associadas às competências específicas e às habilidades, mantendo uma estrutura semelhante àquela mostrada no Ensino Fundamental.\n\nO Quadro 4 (BRASIL, 2018a) mostra a organização das unidades temáticas para as etapas do Ensino Fundamental e Médio.\n\n**Quadro 4 – MAT: Unidades Temáticas**\n\n| Ensino Fundamental | Ensino Médio |\n|---|---|\n| Álgebra; Números | Números e Álgebra |\n| Geometria; Grandezas e Medidas | Geometria e Medidas |\n| Probabilidade e Estatística | Probabilidade e Estatística |\n\nAs unidades temáticas Números e Álgebra, que no Ensino Fundamental são apresentadas distintamente com a finalidade de desenvolver o pensamento numérico e algébrico, na Etapa do Ensino Médio são reunidas em uma unidade temática. Nesta fase, pressupõe-se uma ampliação do pensamento numérico e algébrico para níveis diferentes de relação e abstração. Há a possibilidade do estabelecimento de conexões, a partir das habilidades, em todos os anos (1º, 2º e 3º). Para isso, é relevante considerar as finalidades da ação pedagógica com relação a cada um dos objetos do conhecimento.\n\nDesse modo, as unidades temáticas Geometria e Grandezas e medidas, que na etapa do Ensino Fundamental se apresentam distintamente, nesta etapa se consolidam numa mesma unidade. Isso pode ser compreendido pela relação entre as unidades, que passam a aprofundar o pensamento geométrico, a construção e noções de medida, o estudo de diferentes grandezas e o pensamento proporcional.\n\nNo Ensino Médio, a unidade temática Probabilidade e Estatística, propõe integrar os conhecimentos construídos desde os anos iniciais relacionados às noções fundamentais de probabilidade, de combinatória e de estatística. A integração e o desenvolvimento nessa etapa final da Educação Básica passa pela relação dos conceitos com o contexto e o princípio da incerteza, valorizando a tomada de decisões, os fenômenos aleatórios e os princípios de contagem. Torna-se fundamental, no âmbito do RCGEM, a relação entre os conceitos de probabilidade, estatística e combinatória nos desenvolvimentos das competências e habilidades associadas a essa unidade temática, como forma de contribuir para o letramento matemático.\n\nUm dos desafios atuais consiste na capacidade de utilizar um conjunto de dados para interpretar e produzir gráficos e tabelas adequados para cada tipo de situação que os estudantes estão vivenciando. Trata-se de relacionar os princípios de contagem com outras áreas e, também, compreender os conceitos de probabilidade para além da definição clássica, observando as situações que podem vir ao encontro da probabilidade frequencial e subjetiva.\n\nAs unidades temáticas podem colaborar com a ideia da mudança de registros e da transnumeração, relevantes para a compreensão dos conceitos e das relações que eventualmente se estabelecem com diferentes áreas a partir de situações e contextos variados. Logo, o Referencial Curricular Gaúcho para o Ensino Médio, a partir da Base Nacional Comum Curricular, estabelece o desenvolvimento de uma formação integrada da Matemática, aplicada à realidade do estudante, considerando o contexto regional e local, visando às possibilidades de aprendizagem.\n\nSob esse viés, ao considerar o desenvolvimento das competências de raciocinar, representar, comunicar e argumentar como fundamentais, o RCGEM corrobora a necessidade do uso das tecnologias como recursos relevantes para o ensino e a aprendizagem. Elas cooperam para equilibrar as demandas da sociedade com aquelas desejadas pela educação, especialmente ao valorizar as habilidades digitais preconizadas pelas crianças e pelos jovens. Estes, por sua vez, necessitam desenvolver o letramento digital na escola.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0204f8a785cb6b27006ab30e09afb487d28d8af9bfc6d50689",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 637,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 600,
+      "output_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "total_tokens": 1237
+    }
+  },
+  "created_at": "2026-09-22T23:23:59Z",
+  "duration_seconds": 5.674,
+  "error": null,
+  "excerpt_id": "rs_inf_e_ef_11",
+  "filename": "rs_inf_e_ef_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1db83b13e36b8df215440114a8ff5761de21fedceeb63d20371bc705fe6bdfb6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "30e503a9e04e2ed1a542cedc0eee318e76e066376bb3627a7ed228c435ec2266",
+    "rendered_prompt_sha256": "445934175e0db63299a20c87d916581f63772369e13f5fdd009a90b4acb17cd9",
+    "source_text_sha256": "e9f40925a0544a9de06167251bfb10cf63562698c8d194986c3a39298a394a58"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_e_ef_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3662,
+    "filename": "rs_inf_e_ef_11.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_e_ef_11.txt",
+    "state": "rs",
+    "word_count_original": 350
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_e_ef_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_e_ef_11.json"
+  },
+  "raw_response_text": "## 1.8 Ciência e Tecnologia Aplicadas à Educação do Século XXI\n\nEstamos em 2018, século XXI, início da quarta Revolução Industrial e da era do conhecimento digital, em que o modo de viver e interagir com o mundo é mediado pelas tecnologias digitais de informação e comunicação. Neste contexto, quais os desafios para a escola? Sabemos que a escola precisa encontrar um novo rumo, com diferentes e modernos métodos de aprendizagem que integrem pedagogicamente tecnologias antigas e novas, uma aprendizagem voltada para o estudante protagonista e para o uso pedagógico apropriado das ferramentas digitais, o que requer um professor qualificado, inserido didaticamente a essa nova perspectiva, para que possa mediar a educação digital.\n\nAs tecnologias digitais, sempre em mudança, trazem para o contexto escolar uma inquietação, pois, ao mesmo tempo em que exigem da escola uma nova abordagem, também proporcionam a oportunidade de abandonar um modelo obsoleto, refletindo sobre uma metodologia contemporânea, que promove a participação efetiva dos estudantes, a humanização dos processos escolares e a implantação de metodologias ativas nas quais o projeto pedagógico contemple a nova realidade escolar, com inúmeras alternativas de interações, conexões, experiências, ensino pela pesquisa, descobertas e desafios.\n\nO estudante não é mais um telespectador, consumidor, mas um agente de conhecimento e mudança. E, neste contexto, o professor também não é o detentor do saber, mas o facilitador e orientador que mostra o caminho, que tem o papel de promover a reflexão, avaliação e escolhas, possibilitando ao estudante a autoaprendizagem, com o uso adequado de toda a tecnologia disponível. A escola precisa ser um porto tecnológico de apoio voltado à pesquisa, à criação e à formação integral do estudante.\n\nEspaços diferenciados, equipamentos tecnológicos, conectividade, capacitação para o uso pedagógico das tecnologias digitais, gestão democrática, princípios éticos, motivação, cooperação e políticas públicas eficientes. Com a aprovação e implantação da nova Base Nacional Comum Curricular – BNCC, outras políticas educacionais devem estar alinhadas e articuladas às mudanças que a escola precisa fazer para formar cidadãos curiosos, investigativos, reflexivos, críticos, imaginativos, criativos, autores, protagonistas. Cidadãos responsáveis, aptos a interagir e criar tecnologias voltadas à resolução de problemas pessoais e coletivos.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02cbfb0e3f53dcb8006ab3012d16a887d2b71e2b574063fe07",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 573,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 686,
+      "output_tokens_details": {
+        "reasoning_tokens": 209
+      },
+      "total_tokens": 1259
+    }
+  },
+  "created_at": "2026-09-22T22:29:06Z",
+  "duration_seconds": 5.515,
+  "error": null,
+  "excerpt_id": "go_em_27",
+  "filename": "go_em_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0de80a3123c1c086d5bb5a73099c337d1f8504e1912379967772321cc42fe5c3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9425481c08042c5afebb5900317cebc8e46eaf26a9d10468432e7706278debf2",
+    "rendered_prompt_sha256": "16b9f6d68f62903af604ab554352e2ffda08e838b5ee690ebf2a60a3a3a28d6c",
+    "source_text_sha256": "8463602f75e1bc4703142dd231390de8a4b60ff785e62c169d1fec668682da85"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1149,
+    "filename": "go_em_27.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_27.txt",
+    "state": "go",
+    "word_count_original": 350
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_27.json"
+  },
+  "raw_response_text": "As eletivas do núcleo dirigido (quadro 02) estão situadas nas áreas de Linguagens e suas Tecnologias e Matemática e suas Tecnologias e são direcionadas exclusivamente pela Seduc-GO. Tendo os/as estudantes a possibilidade de escolher uma entre as duas opções ofertadas em cada bloco. No capítulo 3, é apresentado de forma mais detalhada a estruturação das eletivas em Goiás.\n\nSobre as trilhas de aprofundamento, os/as estudantes poderão escolher a partir da 2ª série do Ensino Médio. Nesse documento, apresentamos um catálogo de trilhas de aprofundamentos que compõem os IFs e que buscam dialogar com os anseios e expectativas dos/as estudantes do território goiano, para assim, abrir possibilidades para que escolham a (as) que melhor se relacione(m) com interesses pessoais, demandas locais e com seu Projeto de Vida. O catálogo apresentado no capítulo 03 é composto por 17 (dezessete) itinerários formativos. Sendo que estes estão estruturadas da seguinte forma: oito itinerários de área do conhecimento (duas por área), seis itinerários integrados entre duas áreas e três itinerários de formação técnica e profissional, conforme figura ilustrativa a seguir:\n\nEntre os itinerários formativos acima ilustrados, apresentamos três possibilidades de integração entre o Ensino Médio e a Formação Técnica e Profissional, por meio da oferta de arranjos curriculares que consideram eletivas diversas, o Projeto de Vida (PV) dos/as estudantes e trilhas de aprofundamento relevantes para o nosso território. A escolha pelo ensino técnico integrado ao Ensino Médio foi uma demanda marcante no diagnóstico da rede, conforme ilustram dados abaixo do 1º Questionário de Escuta dos/as estudantes:\n\nOs cursos técnicos apresentados nesse documento são: Técnico em Informática, Técnico em Administração e Técnico em Química. O quadro a seguir apresenta composição de Eletivas do Núcleo Dirigido e do Núcleo Livre do IF Técnico em Informática por exemplo:\n\nDestaca-se que a arquitetura apresentada nesse documento foi pensada no contexto do território goiano e está sujeita a revisão e alterações de acordo com as demandas e realidades locais. O catálogo de itinerários formativos também está sujeito a revisão e novas proposituras conforme a realidade da rede e de seus diferentes agentes.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

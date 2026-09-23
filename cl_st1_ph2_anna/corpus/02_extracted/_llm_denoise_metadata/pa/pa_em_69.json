@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e0607a03a7fb6d3006ab3062f7e3887d2936fd0af0b4a174d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 294,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 405,
+      "output_tokens_details": {
+        "reasoning_tokens": 206
+      },
+      "total_tokens": 699
+    }
+  },
+  "created_at": "2026-09-22T22:50:28Z",
+  "duration_seconds": 4.911,
+  "error": null,
+  "excerpt_id": "pa_em_69",
+  "filename": "pa_em_69.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f83833d5be8e3c3d116b87ccc923d3a33b82c8ac0a627f43a763ea2f33832ba9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "df0ebd5b95955e2dbe58fcb32d00b5b42a7a7f8ad15c988542e7b17a79a7f886",
+    "rendered_prompt_sha256": "ef7dc08b09187ae251218fa81475a810fe0c5cae470b9ce81b9c00ee68111aba",
+    "source_text_sha256": "b5480018edd7cb2ef112ad348a272fa87a2ceb10d6cc185ca54ebf6fb2d4e322"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_69.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2118,
+    "filename": "pa_em_69.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_69.txt",
+    "state": "pa",
+    "word_count_original": 145
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_69.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_69.json"
+  },
+  "raw_response_text": "Desta forma, os caminhos dos sujeitos do ensino médio devem considerar as questões social, de gênero, política, econômica e cultural, permitindo criar novas possibilidades por meio da construção de identidades, inovando suas ideias, a partir da aprendizagem, entender o contexto e o território que fazem parte e que precisam ser considerados. Além disso, os jovens estudantes do ensino médio precisam analisar suas possibilidades, ampliar potencialidades e mobilizar escolhas conscientes para promover mudanças.\n\nVale ressaltar que as unidades curriculares que compõem a formação para o mundo do trabalho são copartícipes do redesenho da proposta curricular, que será vivenciada pela escola. Caberá às equipes do sistema, das redes e de suas respectivas instituições de ensino organizar o trabalho pedagógico, se apropriar e planejar em conjunto, traçar metodologias e redefinir modos avaliativos que atendam a proposta do DCEPA – etapa ensino médio, que serão discutidos nas seções seguintes.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

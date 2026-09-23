@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e91fdd9a7200f0a006ab30ce28bfc87d2a7f19c5d8702886a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 373,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 335,
+      "output_tokens_details": {
+        "reasoning_tokens": 53
+      },
+      "total_tokens": 708
+    }
+  },
+  "created_at": "2026-09-22T23:19:02Z",
+  "duration_seconds": 4.479,
+  "error": null,
+  "excerpt_id": "rr_ef_39",
+  "filename": "rr_ef_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3fbfc559c251285b2dcfc771d8b0818aa7aa5d61a11fd5f3bc0a8bc40b810003",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "371bfbd6ec253bfb853cbb2459b70de3c98782591a0ed3e116b75f22b8311aaf",
+    "rendered_prompt_sha256": "acce32adc16b26b284f94b0952d26079e119dc68c09a8cd96c01780473a92604",
+    "source_text_sha256": "0e2b00d08507887f0532a917f23f899b366a880822474a313cac567b127be670"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3406,
+    "filename": "rr_ef_39.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_39.txt",
+    "state": "rr",
+    "word_count_original": 178
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_39.json"
+  },
+  "raw_response_text": "## 4.9.2 O ENSINO DE GEOGRAFIA – UNIDADES TEMÁTICAS, OBJETOS DE CONHECIMENTO E HABILIDADES\n\n### 4.9.2.1 Anos Iniciais\n\nDeve ser articulado e contextualizado com os saberes de outros componentes curriculares e áreas de conhecimento, de forma a promover o processo de alfabetização e letramento e para o desenvolvimento de diferentes raciocínios. No final dessa etapa os alunos terão atingido os objetivos propostos por meio do desenvolvimento das habilidades. Assim, é imprescindível que os alunos identifiquem a presença e a sociodiversidade de culturas indígenas, afro-brasileiras, quilombolas, ciganas e dos demais povos e comunidades tradicionais para compreender suas características socioculturais e suas territorialidades.\n\nDo mesmo modo, é necessário que eles diferenciem os lugares de vivência e compreendam a produção das paisagens e a inter-relação entre elas, como o campo/cidade e o urbano/rural, no que tange aos aspectos políticos, sociais, culturais, étnico-raciais e econômicos. Essas aprendizagens servem de base para o desenvolvimento de atitudes, procedimentos e elaborações conceituais que potencializam o reconhecimento e a construção das identidades e a participação em diferentes grupos sociais.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

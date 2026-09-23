@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a26dc198f0f6d8a006ab307bea93487d2a5334694812b5b39",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 480,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2166,
+      "output_tokens_details": {
+        "reasoning_tokens": 1754
+      },
+      "total_tokens": 2646
+    }
+  },
+  "created_at": "2026-09-22T22:57:21Z",
+  "duration_seconds": 18.951,
+  "error": null,
+  "excerpt_id": "pe_ef_23",
+  "filename": "pe_ef_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "36b8ccb59bebd2949cec43a8289771acc9d5fc8acfeffe1bf94c04971849c05c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ee6ba2c97a8da7fbed3be43f9fce76700fbd9b96205da3078ddc639e5f12b178",
+    "rendered_prompt_sha256": "3dd38ee7a90386c87133be5a5b8d731615c0c6fb2552389733978254dd4fda30",
+    "source_text_sha256": "84ec3951411a18708fc5c9321ff5858a11d0ce119ced72c464f5ff45e716fbd1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2400,
+    "filename": "pe_ef_23.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_23.txt",
+    "state": "pe",
+    "word_count_original": 286
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_23.json"
+  },
+  "raw_response_text": "| Campos de atuação | Anos iniciais | Anos finais | Caracterização |\n|---|---|---|---|\n| Campo artístico-literário | Campo artístico-literário |  | Refere-se à ampliação e à diversificação das práticas relativas à leitura, à compreensão, à fruição e ao compartilhamento e valorização das manifestações artístico-literárias que possibilitem experiências estéticas, intencionando, principalmente, a formação do leitor-fruidor. |\n| Campo da vida cotidiana |  |  | Refere-se à participação em práticas de leitura próprias de atividades vivenciadas no âmbito doméstico e familiar, escolar, cultural e profissional. |\n| Campo das práticas de estudo e pesquisa | Campo das práticas de estudo e pesquisa |  | Refere-se à participação em práticas relacionadas ao estudo, à pesquisa e à divulgação científica, visando a uma melhor compreensão e apropriação dos objetos de estudo, a partir, especialmente, da elaboração de textos-síntese. Ao mesmo tempo em que se desenvolvem procedimentos de busca, tratamento e análise de dados e de informações e formas variadas de registro e socialização de estudos e pesquisas. |\n| Campo da vida pública | Campo jornalístico-midiático |  | Refere-se ao trato da informação e opinião que estão no centro dessa esfera. A proposta é promover uma formação que considere as causas e consequências de fenômenos como o da pós-verdade, o efeito bolha, a proliferação do discurso de ódio e fake news e o apelo ao consumo a partir da sensibilização para os fatos que acontecem na comunidade, na sociedade e no mundo e que afetam a vida das pessoas. |\n|  | Campo de atuação na vida pública |  | Refere-se à ampliação e à qualificação da participação dos estudantes nas práticas relativas ao debate de ideias e à atuação política e social, pretendendo a promoção da consciência de direitos, da valorização dos direitos humanos e da construção de uma postura ética e responsável diante do outro. |",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

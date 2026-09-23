@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01589c65d26aa56d006ab303a76c9087d2b352f5c4ee6f1141",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 507,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 444,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 951
+    }
+  },
+  "created_at": "2026-09-22T22:39:39Z",
+  "duration_seconds": 3.732,
+  "error": null,
+  "excerpt_id": "ms_em_26",
+  "filename": "ms_em_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1b6936ffe111b6cfdb0b02be60265ef14d2316d96f2ffaa2d97b992b0955ce9a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a6a0472c1247dfd1e5a94a09af607efcc025922c9a89a298003e3db3fd915230",
+    "rendered_prompt_sha256": "bc2be2cb1d668dc15353a546fef35eaaac680786b7688c8af7210fdf2271c4c3",
+    "source_text_sha256": "ee34fcede8f7b3362151e511f57768d3c4f381ede4a79753c193fdddd664e94f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1690,
+    "filename": "ms_em_26.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_26.txt",
+    "state": "ms",
+    "word_count_original": 277
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_26.json"
+  },
+  "raw_response_text": "### 2.7.3 Avaliações de Desempenho\n\nA avaliação de desempenho em larga escala constitui um recurso potencialmente significativo na mensuração da aprendizagem e pode, portanto, proporcionar ações corretivas eficazes que contribuam para a melhoria da qualidade da educação nas redes e sistemas de ensino no Brasil.\n\nO Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira – INEP realiza, desde 1990, o Sistema de Avaliação da Educação Básica (Saeb) que constitui um conjunto de avaliações externas em larga escala que permite um diagnóstico da educação básica brasileira e de fatores que venham interferir no desempenho dos estudantes.\n\nAo longo desses 30 anos o Saeb passou por reestruturação e, a partir de 2018, considerando o necessário alinhamento entre as Matrizes de Referência e a atual BNCC, configurou-se para ser executado da seguinte forma: a participação da Educação Infantil, por meio de questionários preenchidos pelos gestores, e a aplicação de testes cognitivos para os 2º, 5º e 9º anos do Ensino Fundamental e 3º ano do Ensino Médio. Os resultados dos testes são interpretados em uma Escala de Proficiência, a qual estabelece padrões de desempenho desses estudantes, acompanhando seu desenvolvimento ao longo do tempo.\n\nCabe destacar que oferecer educação de qualidade é um desafio que requer uma ação conjunta pautada no regime de colaboração entre os entes federativos, requisito essencial para atingir as metas estabelecidas nos Planos Nacional, Estadual e Municipais de Educação. Dentre essas, ressalta-se a meta 7, que visa à qualidade da Educação Básica em todas as etapas e modalidades de ensino, com melhoria no fluxo escolar e na aprendizagem, estipulando projeções, com base no Índice de Desenvolvimento da Educação Básica (Ideb), a serem alcançadas gradativamente.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

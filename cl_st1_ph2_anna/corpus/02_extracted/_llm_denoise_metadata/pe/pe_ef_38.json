@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02f35db32a7d133a006ab307d47c0887d2817f5ba01f60e375",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 825,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 801,
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "total_tokens": 1626
+    }
+  },
+  "created_at": "2026-09-22T22:57:30Z",
+  "duration_seconds": 6.394,
+  "error": null,
+  "excerpt_id": "pe_ef_38",
+  "filename": "pe_ef_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "11eaf5a8b84867f146e9e5f190c6f216dfcb90590a93333d418ff566d60cc86d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4660802f5b209b78380ba34627412ac1bda70d0265871150a1b38e9e3f46aba2",
+    "rendered_prompt_sha256": "26908f5bd13cc8ec7a567a25ce9fd9a63efd613e2f7f8af70d13e65fea0c0513",
+    "source_text_sha256": "3dfde42a7d0bc051134ec368d3e8b6c75af6f33eab1f6513e27e75acef810954"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2416,
+    "filename": "pe_ef_38.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_38.txt",
+    "state": "pe",
+    "word_count_original": 547
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_38.json"
+  },
+  "raw_response_text": "### 3.6 ARTE\n\nPara compreender os significados atribuídos ao ensino de Arte, tomamos como referência o entendimento de Arte como conhecimento construído ao longo da existência humana e que se mantém como necessidade fundamental para o desenvolvimento integral da pessoa. Esse conhecimento engloba os aspectos intelectuais, cognitivos e afetivos em todas as culturas, fazendo, portanto, parte da vida cotidiana. O ensino de Arte contribui para a ampliação do repertório cultural e artístico, para a compreensão e leitura de mundo e, sobretudo, para que os sujeitos possam intervir nele, criando e recriando novas formas e novos significados que podem ser vivenciados e experienciados por meio dos múltiplos sentidos que possuímos.\n\nO campo epistemológico da Arte dialoga diretamente com diferentes saberes como a História, a Filosofia, a Sociologia, a Psicologia, a Educação, a Geografia etc. Esse diálogo colabora para a expansão e o fortalecimento da compreensão de que o conhecimento atravessa a mente, o corpo, o espírito, e sua multiplicidade não pode ser dissociada da unicidade do humano.\n\nO papel da escola no processo de democratização dos saberes estéticos e artísticos é o de tornar acessível o campo da Arte. Aproximar as crianças, os jovens e os adultos da Arte é essencial para o desenvolvimento do pensamento criador e autonomia do sujeito nas reflexões sobre o mundo no qual está inserido. Faz-se necessário também que o ensino da arte assuma o compromisso de ser um importante aliado das práticas inclusivas. A Arte é uma forma de conhecimento distinta dos outros saberes, portanto, possui conteúdos, objetivos, processos, produtos, métodos, formas de comunicação que são próprias da sua epistemologia. Por meio do estudo da Arte e do seu ensino, ela colabora para uma ampla leitura social, cultural, ética e estética do mundo.\n\nA Arte, como área do conhecimento científico e humano, possui história e repertório próprios que podem ser vivenciados e refletidos pelos/as estudantes, professores/as e comunidade escolar em situações de ensino. O objeto de conhecimento é a própria Arte com suas várias linguagens e códigos, respeitando a diversidade cultural e a sua pluralidade.\n\nNa interação com as manifestações artísticas, o olhar do/a apreciador/leitor/a, do/a fruidor/a, do/a estudante deve ser participativo, estabelecendo significados na experiência a ser vivenciada. Assim, é necessário estimular um contínuo exercício de diálogos entre vivências, experiências estéticas e manifestações artísticas por meio de processos que impulsionam o pensar, o construir, o expressar e o sentir. As experiências anteriores acumuladas pelos estudantes articulam, nesse processo, o passado, o presente e o futuro, dando-se aí uma aprendizagem significativa, na qual o/a professor/a, os/as colegas e o meio desempenham um papel de mediação cultural.\n\nDestacamos que o conhecimento da Arte é proveniente da cultura de cada local e região e é de extrema importância, sendo necessário saber não só como a Arte é concebida, mas também como é ensinada/aprendida e como se manifesta no contexto local e regional, no seu tempo e no seu espaço. A fonte primária dos saberes artísticos/culturais propicia momentos preciosos de ensino/aprendizagem, no contexto, de forma mais abrangente e completa. É preciso saber qual a significação das manifestações artísticas para o indivíduo e para a coletividade, elaborando metodologias que levem os/as estudantes às condições de ler e produzir arte.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

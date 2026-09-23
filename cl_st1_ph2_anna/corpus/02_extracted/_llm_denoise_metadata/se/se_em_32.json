@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c30fd4a4af2a06e006ab30f4b94b487d2a422229122e8f976",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 689,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 725,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 1414
+    }
+  },
+  "created_at": "2026-09-22T23:29:23Z",
+  "duration_seconds": 7.613,
+  "error": null,
+  "excerpt_id": "se_em_32",
+  "filename": "se_em_32.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "39697d811a852fb08f4df061d2dad30f9f45414e85366aa689968c68ac268147",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "556dcdd5f91a5f581b90362ca0b85c2f8093fb5ed2a94e9d121fb90ad1a71f17",
+    "rendered_prompt_sha256": "49ab056b1d72391f85bd8b4e667bf4df4d9e02e6a418b6ba01aa454770c4cb53",
+    "source_text_sha256": "1dab47e0e11e75bbb1f11b3210d625324e4c3224d14d38d5b2482157dcbf4d87"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_em_32.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3846,
+    "filename": "se_em_32.txt",
+    "filepath": "corpus/00_source_per_state/se/se_em_32.txt",
+    "state": "se",
+    "word_count_original": 403
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_em_32.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_em_32.json"
+  },
+  "raw_response_text": "### 5.11 Certificação\n\nCompete às instituições educacionais expedir e registrar, sob sua responsabilidade, os diplomas de técnico de nível médio, sempre que seus dados estejam inseridos no Sistema Nacional de Informações da Educação Profissional e Tecnológica (SISTEC), a quem caberá atribuir um código autenticador do referido registro, para fins de validade nacional dos diplomas emitidos e registrados.\n\nNa Formação Técnica e Profissional – a responsabilidade pela emissão do diploma de habilitação profissional é da instituição ofertante e/ou parceira credenciada.\n\nAtividades desenvolvidas fora da instituição educacional de origem – certificados, diplomas ou outros documentos comprobatórios devem ser incorporados pela instituição de origem para efeito de emissão do certificado de conclusão.\n\nCompete igualmente às instituições de ensino a emissão dos certificados referentes a conclusão dos cursos de qualificação profissional técnica e de especialização técnica de nível médio.\n\nA conclusão de curso FIC possibilita também a obtenção de certificado de qualificação.\n\n### 5.12 Egresso como Referência de Programas de EPT\n\nO acompanhamento de egressos é uma das formas de avaliação da eficácia e da efetividade de Programas de Educação Profissional. O egresso atua como fonte de dados para a instituição que o formou, pois passa a realimentar a instituição educacional com informações necessárias para análise de currículos, tendências de mercado, desenvolvimento de tecnologia, métodos e processos de trabalho, redirecionamento de metas e aquisição de equipamentos, bem como outros aspectos que deverão contribuir para o aperfeiçoamento nos processos de acesso, de adequação das matrizes curriculares às dinâmicas tecnológicas e a incorporação de demandas sociais.\n\nE ainda, a construção de indicadores e políticas que possibilitem o aprimoramento das ações institucionais, tanto acadêmicas quanto comunitárias, na busca de identificar o perfil de quem efetivamente tem acesso à Educação Profissional; identificar as expectativas dos estudantes para com a matriz curricular; delinear o perfil do profissional formado pelas Unidades de Educação Profissional, em especial as habilidades e competências fomentadas pela Instituição, avaliando a sua inserção como egresso no mundo do trabalho.\n\nEnfim, é fundamental estabelecer um diálogo com a sociedade que constitui o entorno de cada unidade educacional e que as instituições que fazem a EPT possam contribuir para que os egressos dessa modalidade de ensino possam exercer plenamente a cidadania autônoma de forma competente e ética. A intencionalidade da EPT é proporcionar à sociedade sergipana, suporte necessário para a expansão e melhoria da qualidade da Educação Profissional, na perspectiva de equidade social e do desenvolvimento econômico e sustentável do Estado.",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

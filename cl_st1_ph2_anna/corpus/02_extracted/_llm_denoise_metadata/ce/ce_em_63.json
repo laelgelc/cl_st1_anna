@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b68f6641b796867006ab2ffac87f887d28d5733a0f16c25a5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 775,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 760,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 1535
+    }
+  },
+  "created_at": "2026-09-22T22:22:42Z",
+  "duration_seconds": 5.985,
+  "error": null,
+  "excerpt_id": "ce_em_63",
+  "filename": "ce_em_63.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "697f288a2f1c4584cf8b134cb5a476bae737c34614a166292a95572b7fb1f5f7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2c152377bf02b5aa129e7f21fbd2538191e124da9d874f18d529539a520d17fe",
+    "rendered_prompt_sha256": "90a26ff592702534326e7486ac832eb8e340d36ea7296ddaeecb2ab073115105",
+    "source_text_sha256": "75f24fac0e432b4622e716424f86c4ca5c881552b1c6cc32d7f17b3745902aaa"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_63.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 822,
+    "filename": "ce_em_63.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_63.txt",
+    "state": "ce",
+    "word_count_original": 501
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_63.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_63.json"
+  },
+  "raw_response_text": "## 9.6 Exemplos de itinerários formativos integrados\n\n### 9.6.1 Itinerário STEAM\n\nA presente proposta de itinerário formativo possui foco na integração de áreas do conhecimento, baseado na abordagem STEAM. O termo STEAM é um acrônimo, da língua inglesa, usado para designar a combinação das áreas de Ciências, Tecnologia, Engenharia, Artes e Matemática. O que surgiu como uma forma de união de áreas de estudo separadas, atualmente é reconhecido como objetos de conhecimento que se integram em um novo campo de estudo.\n\nTrata-se de uma abordagem integradora que, na maioria das vezes, é embasada metodologicamente pela aprendizagem baseada em projetos (ABP). Na prática, o STEAM acontece quando desenvolvemos projetos onde os estudantes precisam compreender e aplicar os conhecimentos das diferentes áreas para buscar soluções para problemas do mundo real.\n\n#### 9.6.1.1 Perfil do Egresso\n\nA formação nas áreas do STEAM não tem como objetivo formar pequenos cientistas, engenheiros, matemáticos, ou profissionais capazes de lidar apenas com a compreensão de assuntos complexos, mas é reconhecida como uma abordagem que ajuda a formar estudantes preparados para lidar com a contemporaneidade e seus desafios, referentes às questões socioambientais e tecnológicas. Além de aproximar o estudante das questões que estão relacionadas às tecnologias digitais e à cultura digital, o itinerário formativo conecta-se ao projeto de vida do estudante nas áreas de Ciências, Engenharia, Artes & Design e Matemática.\n\n#### 9.6.1.2 Objetivos do itinerário\n\nCom o objetivo de promover a integração de diferentes áreas do conhecimento em atividades transdisciplinares, onde os objetos de conhecimento se entrelaçam para se alcançar um objetivo comum: aplicar conhecimentos científicos para propor soluções para problemas do cotidiano. Essa abordagem tem sido amplamente empregada para promover uma aprendizagem integrada, criativa e colaborativa.\n\n#### 9.6.1.3 Detalhamento do itinerário formativo\n\nComo perspectiva para a elaboração de itinerários de STEAM, espera-se a integração de diferentes áreas do conhecimento, sobretudo:\n\n- Matemática e suas tecnologias;\n- Ciências da Natureza e suas tecnologias;\n- Linguagens e suas tecnologias.\n\nEsta integração deverá acontecer através de projetos integrados, não por meio de aulas isoladas de cada uma das áreas de conhecimento. Nos projetos, os conhecimentos das diferentes áreas passam a ser necessários para se atingir um objetivo maior, de produção de soluções ou propostas de ações individuais e coletivas, para a compreensão de uma demanda, ou situação real, relacionada à qualidade de vida, aos processos produtivos e às questões socioambientais.\n\nO presente itinerário poderá ser realizado em até 1.200 horas e, suas unidades curriculares, podem ser distribuídas ao longo dos 3 anos do ensino médio. Deste total de horas, as unidades curriculares obrigatórias correspondem às trilhas de aprofundamento com 720 horas e as unidades curriculares eletivas correspondem a 480 horas do itinerário formativo.\n\nEsta é uma sugestão para a adequação do itinerário ao longo das séries do Ensino Médio, que pode ser alterada, de acordo com as necessidades e especificidades da escola, assim como sugestões de novas unidades curriculares para compor o itinerário formativo.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

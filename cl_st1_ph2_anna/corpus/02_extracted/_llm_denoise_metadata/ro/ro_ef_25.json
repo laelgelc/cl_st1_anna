@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e8de56f56352c6d006ab30b83b69487d29cf7a13842b8dab8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 808,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 812,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 1620
+    }
+  },
+  "created_at": "2026-09-22T23:13:14Z",
+  "duration_seconds": 6.607,
+  "error": null,
+  "excerpt_id": "ro_ef_25",
+  "filename": "ro_ef_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0e37b2abd4a66ce2918ed683e00a49cfb3277d8b5b55cd36d97b91c07f7ab30b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6b3ed52d7743b138791cff281eeb85f16700fb68fcf36864e772b1162ecbd660",
+    "rendered_prompt_sha256": "b0625eb59324deba365226058981bdaed5ef6aa3de559f97fb01d1598ada8517",
+    "source_text_sha256": "c8f8ba96e47279d9418af408b466276be9bf2e8e8490c46cfc1e60a8952f3bc3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3123,
+    "filename": "ro_ef_25.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_25.txt",
+    "state": "ro",
+    "word_count_original": 523
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_25.json"
+  },
+  "raw_response_text": "## 7.1 EDUCAÇÃO DE JOVENS E ADULTOS\n\nA Educação de Jovens e Adultos – EJA é uma modalidade da Educação Básica nas etapas do Ensino Fundamental e Médio, que visa oferecer oportunidade de estudos às pessoas que não tiveram acesso ou continuidade desse ensino na idade própria, assim como, prepará-los para o mercado de trabalho e o pleno exercício da cidadania. A oferta de cursos aos jovens e adultos proporciona oportunidade educacional apropriada, considerando as características do estudante, seus interesses, condições de vida e trabalho.\n\n### 7.1.1 Caracterização da Modalidade\n\nA EJA orienta-se pelos princípios éticos da autonomia, da responsabilidade, da solidariedade e do respeito ao bem comum; princípios políticos dos direitos e deveres da cidadania; do exercício da criticidade e do respeito à ordem democrática; princípios estéticos da sensibilidade, da criatividade e da diversidade de manifestações artísticas e culturais.\n\nA andragogia é a arte ou ciência que estuda as melhores práticas, para orientar adultos a aprender, considerando a experiência como fonte mais rica de aprendizagem para adultos (Malcolm Knowles, 1970). Esses são motivados a aprender, conforme as experiências vivenciadas, suas necessidades e interesses. Enfim, é um caminho educacional que busca compreender o adulto, orientando-o na aprendizagem para a resolução de problemas e tarefas com que se confronta na sua vida cotidiana, visando potencializar habilidades e competências. Os adultos são sensíveis a estímulos de natureza externa, mas são os fatores de ordem interna (satisfação, autoestima, qualidade de vida, etc.) que motivam o adulto para a aprendizagem. Segundo Paulo Freire, trata-se de ensinar o adulto a aprender a ler a realidade para, em seguida, transformá-la.\n\nDiferentemente dos modelos da pedagogia conservadora, o ensino da Educação de Jovens e Adultos está intimamente ligado a alguns pressupostos da andragogia.\n\nA Educação de Jovens e Adultos, embasada em um modelo andragógico, indica distinções do ponto de vista da aplicabilidade do conhecimento e do método de ensinar, tendo como princípios:\n\nI - A necessidade em saber a finalidade, o “porquê” de certos conteúdos e aprendizagens;  \nII - A facilidade em aprender pela experiência;  \nIII - A percepção sobre a aprendizagem como resolução de problemas;  \nIV - A motivação para aprender é maior se for interna (necessidade individual) e se o conteúdo a ser aprendido for de aplicação imediata;  \nV - As experiências trazidas pelos educandos.\n\nA andragogia, enquanto modelo para a Educação de Jovens e Adultos é caracterizada pela participação dos estudantes, pela flexibilidade, pelo foco no processo, atendendo às especificidades de cada um, ao invés da ênfase no conteúdo com metodologia e organização voltadas para um currículo rígido. Nesse modelo, a participação dos estudantes poderá ocorrer nas diversas fases do processo de ensino e aprendizagem como diagnóstico das necessidades educativas, elaboração de plano, estabelecimento de objetivos, a partir do diagnóstico, e formas de avaliação.\n\nO professor deve ser considerado um facilitador e, como tal, sua relação com os estudantes é primordial para o ensino aprendizagem, principal característica o diálogo, o respeito, a colaboração e a confiança. O clima propício para a aprendizagem, segundo o modelo andragógico, tem como características o conforto, a informalidade e o respeito, garantindo que o estudante se sinta seguro e confiante.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

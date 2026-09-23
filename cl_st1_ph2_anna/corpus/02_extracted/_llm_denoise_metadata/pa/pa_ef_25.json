@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c30a895af145d62006ab30564c1e487d2979cd06f1f8ebedb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 834,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 853,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 1687
+    }
+  },
+  "created_at": "2026-09-22T22:47:07Z",
+  "duration_seconds": 6.853,
+  "error": null,
+  "excerpt_id": "pa_ef_25",
+  "filename": "pa_ef_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d0697cdde4516a45427d8ff662b1b61274dc2596ef30f3ccf1b8ff731e006840",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8236c4f174af83cbcd7db5f527c22490acc2d6fca22c8b4ebc916c9f66f24ed9",
+    "rendered_prompt_sha256": "108cfce5ce277bd6cf16848082cac4e8a54b6e65741829d719f21596aaa9e326",
+    "source_text_sha256": "05ac156902cffd381d7fe47764622b7bab4f1951c8432d14280e43451cd11947"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_ef_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2018,
+    "filename": "pa_ef_25.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_ef_25.txt",
+    "state": "pa",
+    "word_count_original": 562
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_ef_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_ef_25.json"
+  },
+  "raw_response_text": "## 5.2 EDUCAÇÃO DE JOVENS E ADULTOS\n\nNo contexto atual da Educação de Jovens e Adultos, faz-se urgente repensar o currículo, sua funcionalidade e suas implicações na vida dos sujeitos que participam dessa modalidade de ensino; por isso discutir o papel da escolaridade para esses sujeitos que não conseguiram concluir a Educação Básica na idade mais apropriada, é um aspecto muito relevante na educação paraense atualmente.\n\nA educação básica para todos significa dar as pessoas, independentemente da idade a oportunidade de desenvolver seu potencial, coletivamente ou individualmente. Não é apenas um direito, mas também um dever e uma responsabilidade para com os outros e com toda a sociedade (SOUZA, 2000, p. 165).\n\nNesse sentido, a construção de uma educação de qualidade para os sujeitos da EJA no Pará significa amenizar ou superar os desafios que ao longo da história marginalizam e excluem homens e mulheres, negando-lhes direitos e acesso aos bens materiais e culturais, no sentido amplo de cultura.\n\nPara tanto, é preciso que o currículo para EJA tenha em sua abrangência as vivências desses sujeitos contemplando os anseios, as necessidades e as peculiaridades dessa modalidade de ensino. Desse modo, o currículo se configurará em um instrumento importante e real do processo ensino-aprendizagem “é compreendido como instrumento básico da organização e funcionamento da escola e é através dele que se faz a transmissão, ampliação e apropriação do saber” (SANTIAGO, 1990, p. 50).\n\nNas últimas décadas, as transformações demográficas e culturais deixaram explícito o peso da diversidade, colocando-a no centro do debate e das práticas educativas, assim um currículo é hoje multicultural, seja qual for o sentido que queiramos atribuir à raiz do termo cultura.\n\nO currículo multicultural contempla os conhecimentos, as atitudes e as competências que, numa sociedade num certo momento, são considerados relevantes, tendo em conta as características da população escolar, as finalidades e propósitos do sistema educativo; ignorar essa diversidade, como variável constante na construção e realização do currículo, significa desconsiderar muitos daqueles saberes e atitudes, bem como o princípio da equidade e da igualdade de oportunidades educativas.\n\nA razão de ser e grande finalidade da teoria e da prática de organização e desenvolvimento curricular é, e sempre foi, a concepção e a realização das melhores formas de adequar o currículo à diversidade a que se destina.\n\nDe acordo com Sacristán (2000), o discurso dominante da pedagogia moderna, mediatizado pelo individualismo, ressalta as funções educativas relacionadas com o desenvolvimento humano, deixando de considerar, em muitos casos, a permanente função cultural da escola como finalidade essencial; na discussão sobre educação e qualidade do ensino, torna-se fundamental retomar e ressaltar a relevância do currículo recuperando a consciência do valor da escola como instituição facilitadora de cultura e buscando descobrir mecanismos por meio dos quais ela cumprirá tal função.\n\nA busca do sentido da educação escolar e das práticas que nela se realizam não será, por certo, uma preocupação restrita à Educação de Jovens e Adultos, porém nela assume uma dimensão preocupante e desafiante, uma vez que somente a EJA envolve não os educandos que serão “amanhã”, mas aqueles que poderiam ter sido “ontem” e que devem ser “hoje”.\n\nÉ aqui que ela se autonomiza, pois seu método e sua dinâmica próprios lhe conferem a condição de adquirir nos próximos anos uma dimensão capaz de inclusive propor respostas para os atuais problemas enfrentados pela educação como um todo.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

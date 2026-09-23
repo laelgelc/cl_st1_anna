@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08689bac4cef5176006ab307b2473487d2853955e2b45e6b2c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 708,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 737,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 1445
+    }
+  },
+  "created_at": "2026-09-22T22:56:57Z",
+  "duration_seconds": 7.565,
+  "error": null,
+  "excerpt_id": "pe_ef_14",
+  "filename": "pe_ef_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8a20f6bfd3a5bf836ecbf60120a9a101cefce3f4b955e1c405f38a32039692eb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a76a75930c6b34887ba34e87d52290534e9afa41d5163a74ae82307fe27b277b",
+    "rendered_prompt_sha256": "9a14c6f11c905e2cdddcfed2bd2afdaf8de9d0f4d443002682d689de540aecaa",
+    "source_text_sha256": "929e6d45a9c73f4517e838ee04b9e06be4e78676a9e62d890e29f25661c6b1e4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2390,
+    "filename": "pe_ef_14.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_14.txt",
+    "state": "pe",
+    "word_count_original": 408
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_14.json"
+  },
+  "raw_response_text": "## 2. ENSINO FUNDAMENTAL\n\n### 2.1 O ENSINO FUNDAMENTAL E SUAS FASES\n\nO ensino fundamental, segunda etapa da educação básica, passou por muitas mudanças ao longo de sua história. Nesse sentido, foi criada a Lei nº 11.274/2006 (BRASIL, 2006), que dispôs sobre a duração de 9 (nove) anos para o ensino fundamental com matrícula obrigatória de crianças a partir dos 6 (seis) anos de idade e, em 2010, foram publicadas as Diretrizes Curriculares Nacionais para o Ensino Fundamental de 9 (nove) anos, trazendo orientações para os processos de (re)construção tanto dos currículos quanto dos Projetos Político-Pedagógicos (PPP) das escolas dos âmbitos estadual, distrital e municipal (BRASIL, 2010).\n\nPor ser a etapa da educação básica de maior duração, atendendo crianças e adolescentes dos 6 (seis) aos 14 (quatorze) anos de idade, com especificidades diversas, físicas, cognitivas, afetivas, sociais, emocionais, dentre outras, o ensino fundamental sempre teve o desafio de proporcionar uma formação mais adequada aos estudantes. Nesse sentido, a Base Nacional Comum Curricular (BNCC), construída com participação das secretarias estaduais e da UNDIME, homologada em dezembro de 2017, trouxe grande contribuição ao indicar o conjunto de aprendizagens essenciais que todos os estudantes brasileiros devem desenvolver ao longo da educação básica, orientando a elaboração dos currículos e ao que deve ser ensinado em âmbito nacional, resguardando as características sociais e regionais existentes nos contextos dos entes federados.\n\nO Currículo de Pernambuco pretende, em consonância com a BNCC, garantir com qualidade o direito que todos os estudantes têm de aprender. Caminhando nesse sentido, no ensino fundamental – anos iniciais, busca-se, em diálogo com as experiências oriundas da educação infantil, dar continuidade às situações lúdicas e progressivas de aprendizagem. No tocante aos dois primeiros anos, o trabalho pedagógico dará ênfase aos processos de alfabetização sempre associados às práticas do letramento. Tais engajamentos devem ocorrer imbuídos da perspectiva de progressão do conhecimento e para favorecer a consolidação das aprendizagens anteriores e a “ampliação das práticas de linguagem e da experiência estética e intercultural das crianças”. (BRASIL, 2017, p. 57).\n\nNo ensino fundamental – anos finais, o perfil dos estudantes se modifica ainda mais. Além dos novos desafios relacionados às mudanças físicas e emocionais, recairá a responsabilidade de adaptação a um trabalho orientado por vários professores especialistas em suas áreas do conhecimento – ao contrário da fase anterior. É imprescindível que se retorne às aprendizagens adquiridas nos anos iniciais, ressignificando-as e aprofundando-as. A seguir, procura-se discorrer melhor sobre as transições.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_031e526256f8b879006ab30cb817f087d2a3dd1687465446d6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 384,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 354,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 738
+    }
+  },
+  "created_at": "2026-09-22T23:18:19Z",
+  "duration_seconds": 3.165,
+  "error": null,
+  "excerpt_id": "ro_inf_44",
+  "filename": "ro_inf_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "633343146c27c34c30a98651b8604f84e0db4ff9f68f336100debd0d97976862",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "272928292b9dae0f3b07a74cc5db9b3fb173046e2975cd717015266a309747b0",
+    "rendered_prompt_sha256": "26090b8a278a384de4bd749537f3635301aea90af8b81ca3516c1b2b79996537",
+    "source_text_sha256": "b007bd00ebd5da7851afbd29d31fcc696cf7a7e484342239745af6b3136bd5c2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3359,
+    "filename": "ro_inf_44.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_44.txt",
+    "state": "ro",
+    "word_count_original": 209
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_44.json"
+  },
+  "raw_response_text": "## Atividade Permanente\n\nA atividade permanente ocorre com certa regularidade, podendo ser diária, semanal ou quinzenal. Tem como objetivo oportunizar experiências de aprendizagens significativas às crianças, propiciando construção de atitudes, o desenvolvimento de hábitos, o desenvolvimento da autonomia, investigações, exploração de diversos materiais que serão contemplados na organização do tempo e do espaço, tanto os internos (sala referência), quanto nos externos.\n\nEla garante a qualidade das atividades corriqueiras no cotidiano institucional, propiciando para que as ações mais comuns do dia a dia das crianças não aconteçam de forma espontânea e dissociadas de intenções pedagógicas, por exemplo, as atividades de higiene e alimentação, como elas acontecem no sentido que concretizam a intenção de cuidar e educar em sua indissociabilidade, as rodas de conversas, parque, escrita da rotina, as rodas de leitura e história que ocorrem diariamente, entre outras. É importante ressaltar que as atividades permanentes podem mudar de acordo com a instituição de ensino.\n\nAo planejar esse tipo de atividade, é essencial saber o que se quer alcançar, que materiais usar e quanto tempo vai durar, portanto, as atividades permanentes é uma organização do trabalho pedagógico, tem como foco garantir que todas as ações que ocorrem no espaço institucional tenham cunho educativo e que não ocorram sem que haja intencionalidade pedagógica.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

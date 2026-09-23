@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0058ff2b56453f75006ab308794a2087d2a961df656c6b5f12",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 723,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 745,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 1468
+    }
+  },
+  "created_at": "2026-09-22T23:00:13Z",
+  "duration_seconds": 4.192,
+  "error": null,
+  "excerpt_id": "pi_ef_5",
+  "filename": "pi_ef_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "674b26e64fd035818e4a0631d8a9fb573f307f2ec412cdf9e924281fadd9ee45",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2c246f8f577108cad1f040263f83294fd879175e0c32d27f39ca5715276266ac",
+    "rendered_prompt_sha256": "722eb48b1c8b8ccf038ee9015f986e941393189ad49587ff439a06df4d902914",
+    "source_text_sha256": "6a9cb00a57cfdc5b322483f1085cb8ceb95c76faae861ac8e09299694ef81caf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_ef_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2580,
+    "filename": "pi_ef_5.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_ef_5.txt",
+    "state": "pi",
+    "word_count_original": 417
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_ef_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_ef_5.json"
+  },
+  "raw_response_text": "# A ABORDAGEM DO ENSINO DA EDUCAÇÃO FÍSICA E O PAPEL DOS EDUCADORES NA FORMAÇÃO DO ALUNO\n\nAs constantes transformações que vêm ocorrendo nos contextos sociopolíticos e econômicos da sociedade atingem e interferem no âmbito educacional. Consequentemente, essas transformações vêm fazendo com que às práticas pedagógicas dos professores sejam repensadas com vistas a uma atuação mais significativa que possibilite a formação dos alunos, visando uma melhor participação destes na sociedade.\n\nDiante disso, o professor, por meio de sua prática, exerce função fundamental para a construção do processo de ensino, quando desenvolve processos educativos coerentes com as necessidades dos alunos e da sociedade. Nesse ínterim, a Educação Física como um componente curricular das escolas precisa cumprir com seus objetivos, além de seu compromisso para a transformação de uma sociedade mais ativa e participativa nos diferentes contextos que a compõe.\n\nSabe-se que a Educação Física, por um longo tempo, teve sua prática e sua reflexão teórica voltada apenas para os aspectos fisiológicos e técnicos. Entretanto, atualmente, vem-se buscando superar essas concepções limitadas através de uma análise crítica que considera também as dimensões culturais, sociais, políticas e afetivas, presentes no corpo vivo das pessoas enquanto sujeitos que interagem e se movimentam, sendo esses seres socialmente construídos (BRASIL, 1997).\n\nUm dos desafios a serem enfrentados refere-se ao reconhecimento e valorização dessa disciplina enquanto campo de conhecimento e formação humana, superando a visão reducionista de atividade física desvinculada de saberes teóricos e necessidade básica de formação para a vida. Gaier (2001) afirma que, muitas vezes, o aluno não sabe por que está realizando determinada atividade ou movimento, nem os valores socioculturais e o significado da prática pedagógica da Educação Física. Outra situação presente nas aulas é a falta de espaço e de tempo oportunizado para que os educandos manifestem sua opinião e tirem suas dúvidas.\n\nDe acordo com Kunz (1999) “é imprescindível que o professor de Educação Física saiba desenvolver o seu método de ensinar”, principalmente priorizando o repertório cultural do seu aluno e os contextos onde os conhecimentos podem ser construídos e/ou ressignificados.\n\nSegundo os PCNs, a Educação Física pode proporcionar vivências que auxiliem a autonomia dos alunos, ao (re)conhecimento de potencialidades e limitações, na definição de metas a serem cumpridas e ultrapassadas no decorrer das aulas.\n\nAssim, o papel do professor é planejar e desenvolver situações de aprendizagem para que os educandos tenham condições de aprenderem o conhecimento e desenvolver competências, habilidades, atitudes e valores que o formem como ser humano ético, solidário e responsável.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

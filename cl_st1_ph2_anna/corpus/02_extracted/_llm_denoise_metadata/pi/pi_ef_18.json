@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e5f4566051ca169006ab3085a562c87d2ab3320db11f1407f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 706,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 790,
+      "output_tokens_details": {
+        "reasoning_tokens": 237
+      },
+      "total_tokens": 1496
+    }
+  },
+  "created_at": "2026-09-22T22:59:46Z",
+  "duration_seconds": 8.123,
+  "error": null,
+  "excerpt_id": "pi_ef_18",
+  "filename": "pi_ef_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dbe32f86eee825c7308b9cc0452bae156aaf79d744aee4ff7a7ab684e62e9f6f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "516bc7ab15797c6f487690c50dda80d1027fefa518751259961e172a01f63dda",
+    "rendered_prompt_sha256": "a0e47be0ef007a479e5d673e566f7d385e9b97b6ea58b788b13c0a94548e555b",
+    "source_text_sha256": "0ff41d6651129ffb9621f2ccaf77a48ab67444e237a100b83be4c060e0a901b3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_ef_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2552,
+    "filename": "pi_ef_18.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_ef_18.txt",
+    "state": "pi",
+    "word_count_original": 385
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_ef_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_ef_18.json"
+  },
+  "raw_response_text": "## Música\n\nO som da zabumba misturada ao som rústico da rabeca, elencada ao triângulo e o ritmo do cavalo-marinho, resgatam a cultura nordestina preservada pelos próprios estudantes da região de Bom Jesus, onde ocorre o Festival de Rabecas. Em Teresina, vários ritmos dialogam num mesmo pensamento rizomático, ou seja, conexões tanto com ritmos nordestinos, quanto com os nacionais e com outros movimentos estrangeiros, evidentemente no âmbito antropofágico.\n\nEssa retumbância musical, potente e diversificada demonstra a influência dos sons na sociedade que, ao servirem como expressão artística “ganham forma, sentido e significado no âmbito tanto da sensibilidade subjetiva quanto das interações sociais, como resultado de saberes e valores diversos estabelecidos no domínio de cada cultura” (BRASIL, 2017, p. 196). Aponta-se com isso uma das principais posições que a música assume na sociedade: a de criadora e catalisadora de sentidos e experiências.\n\nA experiência musical oferece a ampliação de habilidades como: observação, localização, compreensão, descrição e representação tanto em quem produz quanto em quem houve. Nesse sentido, a música configura uma potente ferramenta para o desenvolvimento global do estudante. Assim, conforme a BNCC, os objetivos relacionados à música são ampliar, desenvolver e produzir conhecimentos musicais, vivenciando a música com foco na diversidade de culturas e estilos. Para tanto, o documento aponta para a necessidade de estímulo da “percepção, experimentação, reprodução, manipulação e criação de materiais sonoros diversos, dos mais próximos aos mais distantes da cultura musical dos alunos” (BRASIL, 2017, p. 196).\n\nIsso significa que a abordagem dessa linguagem artística deve envolver, de forma integrada, diferentes experiências: escuta, análise, experimentação e criação. O foco é o desenvolvimento de diferentes habilidades tanto em âmbito cognitivo, quanto motor, expressivo, emocional e social. Sob esse viés, a musicalidade se apresenta como uma ponte para a interpretação, identificação e compreensão do mundo em seu multiculturalismo.\n\nAssim, a educação musical deve considerar a contemporaneidade do mundo, suas qualidades e possibilidades culturais, trazidas como vivências e características que os alunos carregam em seu contexto social múltiplo e diverso. Proporcionar o contato com diferentes estruturas sonoras, tornando capaz a modificação de ideias e paradigmas musicais impostos no meio cultural. O estudante poderá interligar o fictício aos processos de criação, interpretação e fruição, ampliar a dimensão do sensível e o poético que a música viabiliza ao ser humano.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

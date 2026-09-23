@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a82043043ef9273006ab30ae44b6887d2aedac6b91be930ac",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 653,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 709,
+      "output_tokens_details": {
+        "reasoning_tokens": 137
+      },
+      "total_tokens": 1362
+    }
+  },
+  "created_at": "2026-09-22T23:10:33Z",
+  "duration_seconds": 5.641,
+  "error": null,
+  "excerpt_id": "rn_ef_36",
+  "filename": "rn_ef_36.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9b9ba1a4ce3d6481eaceaf8de68f023d415f179c31dbcba445bf92b5bb41553f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "298739522555f7092b71ebcae9cd0fe6119ae23b278af9b5a2326bc8203542f4",
+    "rendered_prompt_sha256": "52c8b24ce91dd2d6bd0705248e482f0506696f273eebcad528063de2a15d0bc9",
+    "source_text_sha256": "d752d5b1437b849ea646ea95f4f55db0b6ac9e30ae621d44cd2bf75f342578ac"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_36.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2975,
+    "filename": "rn_ef_36.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_36.txt",
+    "state": "rn",
+    "word_count_original": 350
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_36.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_36.json"
+  },
+  "raw_response_text": "## INSTRUMENTOS E PROCEDIMENTOS DE AVALIAÇÃO - ANOS INICIAIS\n\nAvaliar se o estudante expressa, por meio da escrita, os conceitos trabalhados. Por exemplo: desenhos (1º e 2º anos) e relatórios (3º, 4º e 5º anos).\n\n- Avaliar se o estudante se comportou de acordo com as diretrizes sugeridas durante as aulas; respeitou os outros estudantes; aceitou os resultados das atividades competitivas e individuais.\n- Criar, como instrumento de avaliação, um caderno de anotações do professor, em que seja relacionado se o aluno:\n  - planeja ações que contribuem para a realização das atividades em sala (1º e 2º anos);\n  - experimenta os objetos de conhecimento valorizando cada um deles (1º e 2º anos);\n  - descreve, de forma oral e escrita, as atividades propostas (1º e 2º anos);\n  - planeja e utiliza estratégias para solução de problemas relacionados aos objetos de conhecimento (3º, 4º e 5º anos);\n  - realiza, com os colegas, a construção de objetos de conhecimento que favorecem a participação de todos nas aulas de Educação Física (3º, 4º e 5º anos);\n  - compreende e explica, de forma organizada, os objetos de conhecimento (3º, 4º e 5º anos);\n  - colabora para o desenvolvimento das atividades propostas (3º, 4º e 5º anos).\n\n## INSTRUMENTOS E PROCEDIMENTOS DE AVALIAÇÃO - ANOS FINAIS\n\nAvaliar se o estudante expressa, por meio da escrita e da oralidade, os conceitos trabalhados. Por exemplo: avaliação escrita, relatórios e apresentação de trabalhos em feira de ciências e na sala de aula.\n\n- Avaliar se o estudante se comportou de acordo com as diretrizes sugeridas durante as aulas; respeitou os outros estudantes; aceitou os resultados das atividades competitivas e individuais.\n- Criar, como instrumento de avaliação, um caderno de anotações do professor, em que seja relacionado se o aluno:\n  - experimenta os objetos de conhecimento valorizando cada um deles;\n  - vivencia nas aulas de Educação Física os objetos de conhecimento;\n  - pratica, com ou sem materiais, atividades relacionadas aos objetos de conhecimento;\n  - constrói materiais recicláveis e implementos que colaborem para as atividades nas aulas de Educação Física;\n  - produz e cria regras que facilitem as atividades em sala;\n  - executa as atividades propostas pelo professor;\n  - identifica com clareza os objetos de conhecimento, suas semelhanças e as diferenças entre eles.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

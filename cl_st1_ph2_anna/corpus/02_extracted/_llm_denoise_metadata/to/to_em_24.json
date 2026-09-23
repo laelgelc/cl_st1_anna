@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0233667fb8b52bbd006ab3102890a887d2a50e294f6d4ac4b1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 463,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 550,
+      "output_tokens_details": {
+        "reasoning_tokens": 177
+      },
+      "total_tokens": 1013
+    }
+  },
+  "created_at": "2026-09-22T23:33:01Z",
+  "duration_seconds": 4.617,
+  "error": null,
+  "excerpt_id": "to_em_24",
+  "filename": "to_em_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "324b0f2e80645ae29beaf06063e594ad6080d6565dc5da74e10e4a1f97fe93be",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ad20c879e144aaa09d1b4467be29939bf06ae7ff4292c3e0ec41c723ca4b4773",
+    "rendered_prompt_sha256": "45fba9bc95ed4e44390529288eddc27859380b161cbeea6806d6cd4ca38c591f",
+    "source_text_sha256": "f330eb587fe0175981d768d3daea01d2dd0637e64cfe10e698f57ebe287f3e30"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4023,
+    "filename": "to_em_24.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_24.txt",
+    "state": "to",
+    "word_count_original": 281
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_24.json"
+  },
+  "raw_response_text": "# ESCOLHA DAS ELETIVAS\n\nAo decidir por uma Eletiva, entre as opções oferecidas, o estudante exercita a sua capacidade de escolha com base num repertório ampliado, aprende a estabelecer critérios, valorando o que lhe interessa e o que importa naquele momento da sua vida escolar. Ao mesmo tempo, entende que sua escolha não o impede nem o limita a aprender sobre as demais áreas do conhecimento. Para que a Eletiva cumpra o seu papel de ampliação, enriquecimento e diversificação, é fundamental que seja atraente e tenha sentido para o jovem, sendo planejada por meio de uma rica variedade tanto teórico-conceitual quanto metodológica e didática.\n\nA escolha das Eletivas pelos estudantes pode se fundamentar a partir de expectativas identificadas em escutas realizadas e no potencial produtivo e cultural das distintas regiões do Estado e ainda em boas práticas já experienciadas. Outra forma de escolher qual Eletiva cursar é a partir do entendimento do estudante de quais temas são relevantes para ele naquele momento, contribuir para a sua formação integral e seu projeto de vida. Neste caso, várias situações problemas ou complexas, relacionadas com o cotidiano da comunidade ou com as áreas de conhecimento, são lançadas pela escola para discussão e análise dos estudantes.\n\n## 3.1 O tema de uma Eletiva\n\na) Envolver os estudantes considerando a importância do tema na vida deles. Eles precisam se enxergar no tema ou no seu contexto.\n\nb) Partir de uma situação problema ou complexa que possa ser alterada em função dos interesses dos estudantes e/ou da melhoria da qualidade de vida das pessoas, pela intervenção da discussão, leitura, pesquisa, ações concretas.\n\nc) Ser abrangente o suficiente para atender ao currículo, gerando boas situações de aprendizagens.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

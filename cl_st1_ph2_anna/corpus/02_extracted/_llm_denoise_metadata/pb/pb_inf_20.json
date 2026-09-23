@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f875cacfd46efc1006ab3079918f887d2af1d10d4aa3dc0bb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 424,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 440,
+      "output_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "total_tokens": 864
+    }
+  },
+  "created_at": "2026-09-22T22:56:29Z",
+  "duration_seconds": 4.851,
+  "error": null,
+  "excerpt_id": "pb_inf_20",
+  "filename": "pb_inf_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "81d9bb56e12bfdf0787d75e6881586979e0a67c3e3a89dc1d4f0eafad8b92c52",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "371f7520ebb34b139121641b86032289c5d34394087966ebca08bfbdac50cb44",
+    "rendered_prompt_sha256": "3286399226eeea965ba38ac40a77bb391e7926b6ea69abeab79e61d41ee3b49c",
+    "source_text_sha256": "a308e505f3ee4064c228714d793def830df0c02cab26ef0731bcac4e1ae7a6b2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2364,
+    "filename": "pb_inf_20.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_20.txt",
+    "state": "pb",
+    "word_count_original": 186
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_20.json"
+  },
+  "raw_response_text": "**Campo de experiências: “TRAÇOS, SONS, CORES E FORMAS”**\n\n**OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO**\n\nCriar sons com materiais, objetos e instrumentos musicais, para acompanhar diversos ritmos de música.\n\nUtilizar materiais variados com possibilidades de manipulação (argila, massa de modelar), explorando e grafando cores, texturas, superfícies, planos, formas e volumes ao criar objetos tridimensionais.\n\nUtilizar diferentes fontes sonoras disponíveis no ambiente em brincadeiras cantadas, canções, músicas e melodias. (BNCC, 2017)\n\n**SUGESTÕES DE VIVÊNCIAS QUE FAVORECEM A CONSTRUÇÃO DE EXPERIÊNCIAS PELAS CRIANÇAS BEM PEQUENAS NESTE CAMPO**\n\nAs práticas realizadas na Instituição de Educação Infantil devem possibilitar:\n\n- Produção e exploração de diferentes fontes sonora;\n- Apropriação das cantigas de roda valorizando a cultura popular;\n- Apreciação dos sons, cores, formas, volume e textura dos elementos da natureza;\n- Criação de sons com uso de objetos e materiais diversos do cotidiano;\n- Exploração de recursos diversos para a produção de artes visuais;\n- Participação em brincadeiras em que possam diferenciar e identificar formas, cores, sons e texturas;\n- Exploração e observação de diferentes espaços que oportunizem o reconhecimento dos diversos traços, sons, cores e formas;\n- Expressão livre do desenho, utilizando diversas possibilidades de materiais e cores.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

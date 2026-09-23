@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b770c7b6154dcb8006ab3060311d087d2917efdd2dad16ffc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 365,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 453,
+      "output_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "total_tokens": 818
+    }
+  },
+  "created_at": "2026-09-22T22:49:44Z",
+  "duration_seconds": 5.482,
+  "error": null,
+  "excerpt_id": "pa_em_5",
+  "filename": "pa_em_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c51fc2800fabb49a79b43fd755cd2c40c0cda7f677f324a22691f8cf72f318ab",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "821c5069cee431e8833014ba474f7dfecdfd258fd50c9cb093a0794900b5dc20",
+    "rendered_prompt_sha256": "b41055454b5292582cad144fde3c1e586bfd87618da8d43ac6675f01ab0c65b4",
+    "source_text_sha256": "be05177af6ce2642105566a6bedcb6bc964f8600da5d25e839ec7677fbe0556e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2097,
+    "filename": "pa_em_5.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_5.txt",
+    "state": "pa",
+    "word_count_original": 180
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_5.json"
+  },
+  "raw_response_text": "## 2.1 PRINCÍPIOS\n\nA educação paraense assumiu em sua política três princípios curriculares norteadores da educação básica: Respeito às diversas culturas amazônicas e suas inter-relações no espaço e no tempo, a Educação para a sustentabilidade ambiental, social e econômica e a Interdisciplinaridade e contextualização¹⁷ no processo ensino-aprendizagem. No Ensino Médio, esses princípios aprofundam as perspectivas que orientam o Ensino Fundamental, mantendo o mesmo compromisso ético-político, dessa vez com os jovens dos diferentes grupos sociais e comunidades campesinas, ribeirinhas, quilombolas, indígenas, citadinas, que representam as diferentes Amazônias que constituem o território paraense.\n\nOs princípios curriculares norteadores da educação básica paraense são, portanto, as bases que sustentam o DCEPA em todas as etapas da Educação Básica. Por ele, norteia-se o processo que orienta não somente o trabalho pedagógico, como também toda a arquitetura educacional incentivada pela legislação que estabelece o Novo Ensino Médio. Dada a importância, os princípios serão discutidos a fim de aprofundamento e para que se compreenda que eles perpassam a proposição curricular expressa neste Documento e que será apresentada e discutida nas seções posteriores.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

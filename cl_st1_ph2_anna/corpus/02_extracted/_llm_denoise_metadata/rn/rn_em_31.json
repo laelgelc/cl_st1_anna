@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f275570aa8319fe006ab30b1aee0887d28369482af877936a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 533,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 739,
+      "output_tokens_details": {
+        "reasoning_tokens": 305
+      },
+      "total_tokens": 1272
+    }
+  },
+  "created_at": "2026-09-22T23:11:31Z",
+  "duration_seconds": 8.16,
+  "error": null,
+  "excerpt_id": "rn_em_31",
+  "filename": "rn_em_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "eb7dba2ce9160316dccc0bf54f4d37f1b2b90d0bd608edf8fdd3cd800e942e1f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "056d78acb6d2385952438dab00db1782dab6986b97f9d771e432c987c17ab50e",
+    "rendered_prompt_sha256": "f6088040c624e909008d5d45a31d237d18e2d08410778763a2778c874d91a4be",
+    "source_text_sha256": "a08eb9b5a7771c9a2b30df192e95727c69644ef3d6291485195950a2610e88a1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3031,
+    "filename": "rn_em_31.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_31.txt",
+    "state": "rn",
+    "word_count_original": 300
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_31.json"
+  },
+  "raw_response_text": "### 6.2.9 Avaliação\n\nNa área de Linguagens, consideramos que o docente, ao avaliar, precisa observar alguns procedimentos didáticos, se se pensa práticas de ensino comprometidas com a aprendizagem ativa dos estudantes, quais sejam: levantamento de conhecimentos prévios e de vivências nas práticas linguísticas, artísticas e da cultura corporal, relação significativa dos objetos de conhecimento da área com a vida dos estudantes e as diferentes estratégias didático-pedagógicas que o professor pode desenvolver no processo de ensino aprendizagem.\n\nA partir do mapeamento desses procedimentos, o professor terá subsídios suficientes para (re)planejar suas estratégias metodológicas, definir os objetos do conhecimento que tenham afinidades com a vivência social dos estudantes e oportunizar várias formas de verificar resultados de aprendizados, pautadas pelas competências e habilidades que estão sendo desenvolvidas pelos estudantes no percurso escolar, além de desafiar o aluno a buscar novos saberes.\n\nDesse modo, os componentes da Área de Linguagens, além dos testes escritos, produções individuais, seminários, listas de exercícios, trabalhos em grupos, autoavaliação, conselhos de classe e observação de desempenho (que são as estratégias de avaliação mais comuns e que não precisam, necessariamente, ser abolidas das práticas culturais escolares), é preciso, também, acrescentarmos outras potenciais ferramentas ou instrumentos de avaliação da aprendizagem, como: portfólio, produção de gêneros orais (slam [ou batalha]), debates regrados, saraus, exposições orais em eventos escolares etc., produção de vídeos e animações em stop motion (quadro a quadro), dramatizações e encenações, montagem de exposições, participar e/ou organizar eventos culturais, artísticos e poliesportivos, painéis, linhas do tempo e publicações temáticas, como revistas, cadernos temáticos e livros.\n\nPortanto, todos os instrumentos descritos anteriormente somam-se às experiências dos profissionais de cada componente, promovendo, a partir da relação teoria/prática, o cumprimento das competências e habilidades da área necessárias para a formação integral cidadã dos jovens do ensino médio.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

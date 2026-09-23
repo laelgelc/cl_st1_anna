@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b80ff2823d135cf006ab30abdbbd087d2a6374e07e51a8d2e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1651,
+      "input_tokens_details": {
+        "cache_write_tokens": 1648,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2189,
+      "output_tokens_details": {
+        "reasoning_tokens": 639
+      },
+      "total_tokens": 3840
+    }
+  },
+  "created_at": "2026-09-22T23:10:07Z",
+  "duration_seconds": 17.891,
+  "error": null,
+  "excerpt_id": "rj_inf_provinha",
+  "filename": "rj_inf_provinha.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0b843c68b941e69b9b2055948bd53f7c75a404d50b6f3e08b585eb241430fe5f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e4b865db15527f3db6862dde3de1b3371544adca96f2673a0037315e0c5e5306",
+    "rendered_prompt_sha256": "d90e4b17daef3f1d6bc61d888e328f8c2fa07aef83bc6af62c37a34ae6d4c80d",
+    "source_text_sha256": "80a4b1ef77954c00e6105cef8a456af9f8fc47cdcec7917bd63e3952d3569bbc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_provinha.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2942,
+    "filename": "rj_inf_provinha.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_provinha.txt",
+    "state": "rj",
+    "word_count_original": 1102
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_provinha.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_provinha.json"
+  },
+  "raw_response_text": "Os procedimentos utilizados para a AVALIAÇÃO das crianças na Educação Infantil revelam as concepções sobre desenvolvimento, aprendizagem, infância e a educação, expondo assim os modelos teóricos que apoiam as práticas pedagógicas das diversas redes e sistemas de ensino do Estado do Rio de Janeiro.\n\nNa educação infantil, a avaliação cumpre o importante papel de oferecer elementos para que os professores conheçam melhor as crianças com as quais trabalham, suas características pessoais e grupais, suas emoções, reações, desejos, interesses e modos pelos quais vão se apropriando da cultura na qual estão inseridas, transformando-a. A avaliação tem também a importante função de contribuir para que os laços dos professores e da escola com as famílias sejam estreitados e para que todos aqueles que trabalham com as crianças, em diferentes momentos de suas trajetórias nas instituições, troquem informações, visando ao bem-estar, conforto e segurança dos pequenos. (MICARELLO, 2010, p. 1)\n\nNos últimos tempos, têm-se apresentado muitas modificações curriculares na Educação Infantil, e, consequentemente, o entendimento do que seja avaliar nessa etapa da Educação Básica também se transformou. Do ponto de vista legal, a avaliação na Educação Infantil sofreu uma profunda alteração, quando a LDB 9.394/96 determina, em seu artigo 31, que a avaliação das crianças na Educação Infantil “(...) far-se-á mediante o acompanhamento e registro do seu desenvolvimento, sem objetivo de promoção, mesmo para o acesso ao Ensino Fundamental”. Esse posicionamento legal abriu espaço para a criação de novos caminhos destinados a pensar a avaliação na educação das crianças pequenas nas creches e pré-escolas, lançando então um desafio: elaborar uma avaliação apropriada, autêntica, significativa e dinâmica, baseada no contexto de um grupo de crianças e na experiência real de cada criança particularmente. Redimensionou-se, assim, a ética e a responsabilidade social que temos com o ensinar e o aprender no contexto da diversidade social e cultural.\n\nNessa dimensão, cada sujeito tem uma trajetória pessoal, e o acompanhamento das aprendizagens é a única forma de valorizar não apenas o resultado, mas todo o percurso construído pelo grupo e pelo sujeito em seu processo de desenvolvimento e de aprendizagem.\n\nUma série de estratégias pode ser pensada a partir dessa perspectiva, como observar, documentar, refletir e compreender, para que o professor acompanhe a trajetória das crianças, bem como para a qualificação de sua prática pedagógica.\n\nVale citar os artigos 29, 30 e 31 da Lei de Diretrizes e Bases da Educação Nacional - 9.394/96:\n\nArt. 29. A educação infantil, primeira etapa da educação básica, tem como finalidade o desenvolvimento integral da criança de até 5 (cinco) anos, em seus aspectos físico, psicológico, intelectual e social, complementando a ação da família e da comunidade. (Redação dada pela Lei nº 12.796, de 2013)\n\nArt. 30. A educação infantil será oferecida em:\n\nI - creches, ou entidades equivalentes, para crianças de até três anos de idade;\n\nII - pré-escolas, para as crianças de 4 (quatro) a 5 (cinco) anos de idade. (Redação dada pela Lei nº 12.796, de 2013)\n\nArt. 31. A educação infantil será organizada de acordo com as seguintes regras comuns: (Redação dada pela Lei nº 12.796, de 2013)\n\nI - avaliação mediante acompanhamento e registro do desenvolvimento das crianças, sem o objetivo de promoção, mesmo para o acesso ao ensino fundamental; (Incluído pela Lei nº 12.796, de 2013)\n\nII - carga horária mínima anual de 800 (oitocentas) horas, distribuída por um mínimo de 200 (duzentos) dias de trabalho educacional; (Incluído pela Lei nº 12.796, de 2013)\n\nIII - atendimento à criança de, no mínimo, 4 (quatro) horas diárias para o turno parcial e de 7 (sete) horas para a jornada integral; (Incluído pela Lei nº 12.796, de 2013)\n\nIV - controle de frequência pela instituição de educação pré-escolar, exigida a frequência mínima de 60% (sessenta por cento) do total de horas; (Incluído pela Lei nº 12.796, de 2013)\n\nV - expedição de documentação que permita atestar os processos de desenvolvimento e aprendizagem da criança (Incluído pela Lei nº 12.796, de 2013).\n\nUm olhar avaliativo não deve se restringir apenas às crianças, mas se estender sobre elas no âmbito da instituição em todas as suas vertentes, considerando as relações que se estabelecem nesse ambiente, como as interações criança/criança, criança/adulto, criança/ambiente, criança/materiais, ou seja, sobre a dinâmica das relações no espaço pedagógico (HOFFMANN, 2012).\n\nDentre os mais variados instrumentos de avaliação de Educação Infantil, podemos citar: os Relatórios Avaliativos Individuais, os Portfólios, os Diários de Campo, os Diários de Bordo, os Dossiês etc. Assim, há uma série de estratégias que podem ser pensadas a partir dessa perspectiva para se observar, documentar, refletir, compreender e acompanhar a trajetória de cada criança, bem como qualificar a prática pedagógica do professor, redirecionando a ação e a reflexão.\n\nO que precisa ficar em evidência é que na Educação Infantil não existe qualquer tipo de PROVA para as crianças. Os muitos instrumentos de avaliação são formas de registros que servem como documentação do processo pedagógico, da reflexão e da própria formação dos professores.\n\nComo exemplos, citamos aqui dois instrumentos de avaliação bastante utilizados:\n\n- **Relatórios Avaliativos Individuais:** são documentos importantes porque constituem a história do processo de desenvolvimento e de construção de conhecimento da criança, assegurando a sua individualidade. Nesse sentido, os relatórios devem expressar as individualidades das crianças. Na elaboração dos relatórios de avaliação, o professor precisa ter um olhar reflexivo sobre os interesses, as conquistas, as possibilidades e os limites de cada criança, contextualizando o seu processo educativo, socializando tal processo com as famílias e outros professores, a fim de possibilitar diferentes oportunidades de desenvolvimento e aprendizagem.\n\n- **Portfólios:** são coleções de materiais que registram diferentes momentos e vivências das crianças nas instituições de Educação Infantil durante um período de tempo. Em uma dimensão pedagógica, são caixas ou pastas que recolhem os trabalhos produzidos pelas crianças em variadas modalidades de expressão. Os portfólios podem ser individuais ou coletivos (da turma) e têm a função não apenas de registrar os produtos das atividades, mas também devem refletir o processo de produção, por isso podem conter fotos, objetos, coleções. Um portfólio não é apenas uma seleção dos materiais; é preciso apreciar, analisar, interpretar, construir sentidos, planejar o futuro, criar uma narrativa, afinal. Assim, ao propor uma atividade de modelagem, por exemplo, o professor pode fotografar os diferentes momentos de envolvimento das crianças na atividade e usar essas fotos para compor o portfólio. É importante que os portfólios estejam sempre ao alcance das crianças e sejam retomados frequentemente pelo professor, para relembrar atividades já realizadas e situações já vividas, servindo de instrumento para provocar um olhar observador da criança sobre suas próprias produções.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dc1a85b1e8bd393006ab2fc88015087d2ba78b4ca3ba1ca90",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1153,
+      "input_tokens_details": {
+        "cache_write_tokens": 1150,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1324,
+      "output_tokens_details": {
+        "reasoning_tokens": 555
+      },
+      "total_tokens": 2477
+    }
+  },
+  "created_at": "2026-09-22T22:09:23Z",
+  "duration_seconds": 11.564,
+  "error": null,
+  "excerpt_id": "al_ef_80",
+  "filename": "al_ef_80.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "19020b7168b06d7b6aa18604a74a2ec5b7a1b8bca032b5586fc5bc7d53cbaa88",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e0b1721a66b26f16f558a26e7799bc78fe2530b3db9c13822787d20578feeb69",
+    "rendered_prompt_sha256": "4378fe14841725da45a97840497cb3c789e770e0b51ff026271fe0c8622b6b8f",
+    "source_text_sha256": "ce5372d468e97ad19c59a2bc5b4ddd21a8c4492048669a63c89298a757ba6865"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_80.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 220,
+    "filename": "al_ef_80.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_80.txt",
+    "state": "al",
+    "word_count_original": 718
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_80.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_80.json"
+  },
+  "raw_response_text": "## 10. O papel do educador no processo\n\nO currículo não pode ser considerado como algo pronto e acabado, ou ainda estático, e independente. O currículo é vivo, ele ganha forma na ligação que estabelece professor/estudante, ambos são parte integral do currículo. Compreende-se que ele é um conjunto de valores, significados, padrões de vida, fonte de conhecimentos, visão de mundo, necessárias para o desenvolvimento tanto pessoal como social do sujeito.\n\nPara que se materialize todos esses conjuntos de valores, o professor tem um papel determinante no processo de ensino e aprendizagem, uma vez que depende dele, em grande parte, os modelos como se idealizam e concretizam os processos educativos, através de sua prática pedagógica.\n\nÉ na sala de aula que ele dá vida ao currículo, materializando as diversas atividades propostas, trabalhando na perspectiva de dar um significado real as aprendizagens significativas, nos níveis: cognitivo, motor, afetivo, moral e social.\n\nAssim, esse processo de construção ou (re) construção do currículo possibilita aos professores a capacidade de interpretar, alterar e proceder à revisão e adaptação do currículo prescrito, de acordo com sua realidade. É importante que o professor leve em consideração o conhecimento adquirido pelos educandos no seu dia a dia, e não unicamente o conhecimento adquirido didaticamente no ambiente escolar. Importante salientar que o professor não deve apenas repassar para os estudantes os conteúdos prontos e acabados, ele deve levar os estudantes a desenvolver o pensamento crítico acerca da realidade na qual estão inseridos.\n\nÉ notório que o professor assume um papel muito importante com a implementação da BNCC, isto fica evidenciado nas habilidades socioemocionais que ele deve ter, portanto, é essencial que ele conheça e reflita que tipo de educação socioemocional pretende desenvolver em sua sala de aula, isso é fundamental. A BNCC descreve as habilidades que se espera dos estudantes, vejamos:\n\n### HABILIDADES QUE DEVEM SER DESENVOLVIDAS PELOS ESTUDANTES\n\n**COGNITIVA**\n\nResolver problemas, planejar, tomar decisões, estabelecer conclusões lógicas, investigar e compreender problemas, pensar de forma criativa, fortalecer a memória, classificar e seriar.\n\n**EMOCIONAL**\n\nLidar com as emoções, com o ganhar e o perder, aprender com o erro, desenvolver autoconfiança, autoavaliação e responsabilidade.\n\n**SOCIAL**\n\nCooperar e colaborar, lidar com regras, trabalhar em equipe, comunicar-se com clareza e coerência, resolver conflitos, atuar em um ambiente de competição saudável.\n\n**ÉTICA**\n\nRespeitar, tolerar e viver a diferença, agir positivamente para o bem comum.\n\nO quadro no 06 explicita as habilidades que devem ser desenvolvidas pelos estudantes.\n\nFonte: BNCC, 2017, p. 08\n\nEm observância ao quadro acima podemos fazer a seguinte indagação, será que um professor que não tem essa percepção, terá condições de trabalhar com tais habilidades com os estudantes? O professor é o elo importante nesse processo. Cabe a ele, de acordo com sua percepção, adaptar o currículo prescrito, apresentando uma nova ressignificação para os seus educandos. Portanto, o processo de apropriação e construção dos conceitos fundamentais do conhecimento geográfico se dá a partir da intervenção intencional própria do ato docente, mediante um planejamento que articule a abordagem dos conteúdos com a avaliação (CAVALCANTI, 1998).\n\nNesse sentido, é preciso propiciar a esse profissional formação continuada. Formação esta que retirar-lhe, o possibilite trilhar por esse caminho, que o permita trabalhar com situações nas quais possa mobilizar os seus próprios valores, habilidades e competências socioemocionais.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

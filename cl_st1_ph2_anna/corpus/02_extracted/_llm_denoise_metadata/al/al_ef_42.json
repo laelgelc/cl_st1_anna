@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03c24702e4015178006ab2fc552c0087d290f70fab514ddf02",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 923,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1237,
+      "output_tokens_details": {
+        "reasoning_tokens": 479
+      },
+      "total_tokens": 2160
+    }
+  },
+  "created_at": "2026-09-22T22:08:30Z",
+  "duration_seconds": 9.512,
+  "error": null,
+  "excerpt_id": "al_ef_42",
+  "filename": "al_ef_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4a03420cd8daea944e39790d9d4e63b3c85b56064b608c3ce2a98ecb06ca1877",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7da810b9c7198f5336a7d0ff06a17e42d58e46b5d85ef1e6d1a870d0354b655c",
+    "rendered_prompt_sha256": "3fcc7ef6b6b5ae7104eff5bcfb7214efbc085f2444855e8500929fd6f6338fc4",
+    "source_text_sha256": "065325be779668cdb1db8475cc782f3d7eb5518e529ea89df8e36e741c881abf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 178,
+    "filename": "al_ef_42.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_42.txt",
+    "state": "al",
+    "word_count_original": 538
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_42.json"
+  },
+  "raw_response_text": "## 10.3 As linguagens artísticas\n\nO Componente Curricular Arte está centrado no desenvolvimento de competências e habilidades mediadas pelas Artes Visuais, Dança, Música e Teatro, linguagens artísticas que, por sua vez, de forma integrada, dão origem às Artes Integradas conforme a BNCC. Sendo assim, as linguagens artísticas e as Artes Integradas, dentro de suas especificidades, definem os objetos de conhecimento e habilidades a serem trabalhados ao longo do Ensino Fundamental.\n\n### ARTES VISUAIS\n\nExplora múltiplas culturas visuais, dialogando com as diferenças e conhecendo outros espaços e possibilidades inventivas e expressivas, ampliando os limites escolares e criando novas formas de interação artística e de produção cultural, sejam elas concretas ou simbólicas. Conhece processos e produtos artísticos e culturais, nos diversos tempos históricos e contextos sociais que utilizam da expressão visual como elemento de comunicação, resultando em explorações plurais e transformações de materiais, de recursos tecnológicos e de apropriações da cultura cotidiana.\n\n### DANÇA\n\nArticula os aspectos sensíveis, epistemológicos e formais do movimento dançado ao seu próprio contexto, problematizando e transformando percepções acerca do corpo e da dança, por meio de arranjos que permitem novas visões de si e do mundo. Oportunizando o repensar dualidades e binômios (corpo versus mente, popular versus erudito, teoria versus prática), em favor de um conjunto híbrido e dinâmico de práticas artísticas mediante a articulação dos processos cognitivos e das experiências sensíveis, explorando por meio do corpo pensamentos e sentimentos, discutindo e significando relações entre corporeidade e produção estética.\n\n### MÚSICA\n\nAmplia e produz conhecimentos musicais explorando a percepção, experimentação, reprodução, manipulação e criação de materiais sonoros diversos, dos mais próximos aos mais distantes da cultura musical dos estudantes. Possibilitando vivências musicais inter-relacionadas à diversidade e ao desenvolvimento de saberes musicais fundamentais para uma participação crítica e ativa na sociedade.\n\n### TEATRO\n\nEstabelece experiências artísticas multissensoriais de encontro com o outro em performance, onde o corpo é origem de criação ficcional de tempos, espaços e sujeitos distintos de si mesmo, por meio do verbal, não verbal e da ação física de forma coletiva e colaborativa, mediadas por processos de criações (jogos, improvisações, atuações, encenações) caracterizados pela interação entre atuantes e espectadores. Possibilitando troca de experiências e aprimoramento da percepção estética, imaginação, consciência corporal, intuição, memória, reflexão e a emoção.\n\n### ARTES INTEGRADAS\n\nAlém dessas linguagens, temos uma quinta denominada Artes Integradas que explora as relações e articulações entre as diferentes linguagens, inclusive aquelas possibilitadas pelo uso das tecnologias de informação e comunicação, além de trabalhar em seus processos de criações com projetos temáticos, matrizes estéticas e patrimônio cultural.\n\nÉ importante que o componente curricular Arte leve em conta o diálogo tanto entre as linguagens artísticas como as da área, além de possibilitar o contato e reflexão acerca das formas estéticas híbridas, tais como as artes literárias, circenses, o cinema e a performance.\n\nFacilitar um trânsito criativo, fluido e desfragmentado entre as linguagens artísticas, construindo uma rede de interlocução, inclusive, com outros componentes curriculares, temas, assuntos ou habilidades afins de diferentes componentes, podem compor projetos nos quais saberes se integrem, gerando experiências de aprendizagem amplas e complexas.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

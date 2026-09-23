@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_080c8122a800a162006ab3034b55c887d2be88ed9c99842554",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 710,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 666,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 1376
+    }
+  },
+  "created_at": "2026-09-22T22:38:08Z",
+  "duration_seconds": 4.923,
+  "error": null,
+  "excerpt_id": "mg_em_6",
+  "filename": "mg_em_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9351e786c8914e0eeea18c909878d61fc8e1ced70ef36ddc0dc5bb5636dc3f8b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "99ac4cfa62639209bf4a47cbfcd37aa6bbef3722316cb42e14e3a6cfc1cf3549",
+    "rendered_prompt_sha256": "51539c6fcdc05a3061079151e601dc3bb38e168898ca073a9cf860aae33b8a1e",
+    "source_text_sha256": "a202d27c0f34fdd0a4ded891b8a31c9a9e0b87f3c34dd5d473bacc208804b9d5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1592,
+    "filename": "mg_em_6.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_6.txt",
+    "state": "mg",
+    "word_count_original": 414
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_6.json"
+  },
+  "raw_response_text": "Nessa perspectiva, o direito a aprender se materializa no currículo, uma vez que ele define o que ensinar, o porquê ensinar e o quando ensinar, conectando tudo isso às aspirações e às expectativas da sociedade e da cultura em que a escola está inserida. O Currículo diz respeito à organização escolar. Dessa forma, ele é uma construção social do conhecimento, pressupondo a sistematização dos meios para que essa construção se efetive; trata-se da seleção dos conhecimentos historicamente produzidos e construídos e as formas distintas de assimilá-los.\n\nNesse contexto, esperamos que a BNCC, o Currículo Referência e o Projeto Político Pedagógico (PPP) de cada escola indiquem caminhos para que aulas sejam pensadas, planejadas e executadas a partir das premissas do trabalho em grupo, da convivência com as diferenças, da superação dos obstáculos e do exercício pleno da autonomia, garantindo, como na imagem a seguir, a correlação do currículo com o trabalho pedagógico da escola e seu corpo docente.\n\nNum primeiro ponto, o Projeto Político Pedagógico (PPP) da escola deverá abarcar as diretrizes e perspectivas da BNCC e do Currículo Referência do Ensino Médio de Minas Gerais, considerando tais aspectos na definição do perfil, no planejamento das atividades nas escolas e nas suas metas e ações. Assim, a efetivação do Currículo deverá perpassar a sua discussão no PPP da escola e a sua concreta revisão por parte das unidades escolares, de acordo com os preceitos trabalhados nas normativas estaduais e nacionais. Depreende-se, assim, que a fase de implementação do Currículo, no contexto das escolas, será efetivada na medida em que seu PPP se consolide em um processo de ação-reflexão-ação, assumido pelo esforço coletivo e a vontade política dos atores sociais envolvidos. No cerne desse processo está o compromisso coletivo de transformar as práticas pedagógicas e sociais cotidianas, alinhando-as com as diretrizes e princípios do Currículo. Portanto, é na práxis, além da reflexão, que ao desenvolvê-lo, criam-se as possibilidades de resgatar valores, rever teorias, ressignificar experiências e promover vivências e aprendizagens contextualizadas e significativas; enfim, construir um projeto que demonstre intencionalidade e convergência com o Currículo e a Base, bem como com a realidade do território e dos estudantes.\n\nPor fim, esses três documentos (BNCC, Currículo, PPP) devem estar inseridos, direta e indiretamente, no Plano de Aula de professores/as, permitindo que todo o arcabouço legal, conceitual e material discutido possa se efetivar em sala de aula, ou fora dela, no processo de ensino e de aprendizagem com estudantes.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

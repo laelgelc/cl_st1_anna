@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fb661cd3a002def006ab3023d965487d29aea48c2c6f906e5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 644,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 636,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 1280
+    }
+  },
+  "created_at": "2026-09-22T22:33:38Z",
+  "duration_seconds": 4.897,
+  "error": null,
+  "excerpt_id": "ma_em_5",
+  "filename": "ma_em_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b5a3e829f7cdf8340c0eef8221e99ae6d5951dfe16eb7b9b1a2ccb456608b790",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a63068a6dd20357805ed7430b309f8a26b7c07c44ad6a4c4a57fd48b01d4a137",
+    "rendered_prompt_sha256": "d38d1728c4186d4d78197fba0eec155de4d19d0961913823d5c70a1cc8c5b2f6",
+    "source_text_sha256": "5f1116fe790e42cc71db3f999cf6fdf4de4d0bdd9ff8c7aff47f5c65a726533b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1339,
+    "filename": "ma_em_5.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_5.txt",
+    "state": "ma",
+    "word_count_original": 373
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_5.json"
+  },
+  "raw_response_text": "## 1.2. Modalidades educacionais e diversidades no contexto maranhense\n\nDe acordo com o Conselho Nacional de Juventude (Conjuve), os estudantes do ensino médio são majoritariamente adolescentes. São consideradas jovens as pessoas na faixa etária entre 15 e 29 anos, embora a noção de juventude não se limite a um recorte etário (Brasil, 2006). Desse modo, coerente com o Conjuve, este documento de reelaboração do Documento Curricular do Estado do Maranhão concebe a juventude como condição sócio-histórica-cultural de uma categoria de sujeitos que precisa ser considerada em suas múltiplas dimensões, com especificidades próprias que não estão restritas às dimensões biológica e etária, mas se encontram articuladas com uma multiplicidade de atravessamentos sociais e culturais, produzindo múltiplas culturas juvenis, ou muitas juventudes.\n\nNesse sentido, entende o termo sujeito de modo ampliado, considerando especificamente a peculiaridade dos sujeitos distribuídos em todo o território maranhense, nas mais longínquas comunidades. Portanto, corroborando Runes (1985) e Lalande (1993), a utilização do termo sujeito no plural é um convite à valorização e à existência de diversos sujeitos que integram essa etapa de ensino.\n\nNeste documento, interessa-nos discorrer sobre sujeito como o ser real, considerado como alguém que tem qualidades ou exerce ações (LALANDE, 1993). Coerente com o referido autor, partimos do pressuposto de que esse sujeito ao qual nos referimos não existe apenas em si, mas para si, e que não se limita a ser apenas um objeto, pois tem a sua verdadeira realidade e singularidade ao contribuir para se fazer a si mesmo, por meio de um devir voluntário e uma conquista pessoal.\n\nDessa forma, quando pensamos na elaboração de um currículo para o público de 335.629 estudantes do ensino médio do Maranhão, concentrado, em sua maioria, na zona rural, pertencente às mais diversas comunidades, com suas peculiaridades – quilombolas, campesinos, indígenas, sujeitos de diferentes raças/etnias e gêneros, com anseios e percursos diferenciados –, frequentando escolas em realidades distintas, com oferta de um ensino pautado em modalidades conforme os interesses locais de cada universo atendido, asseguramo-nos do quanto são complexas as taxativas que devemos dar a esses sujeitos. Por se tratar de um público jovem, faz-se necessário compreender as concepções de juventudes, que também serão consideradas neste documento.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

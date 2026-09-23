@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_042498619d1a2300006ab3081c06d487d2bfb7cb75fde1d224",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 857,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1410,
+      "output_tokens_details": {
+        "reasoning_tokens": 629
+      },
+      "total_tokens": 2267
+    }
+  },
+  "created_at": "2026-09-22T22:58:52Z",
+  "duration_seconds": 16.783,
+  "error": null,
+  "excerpt_id": "pe_em_31",
+  "filename": "pe_em_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bd3a3aa2342ebd3c9e1c8b12dcd86cc7cc633f88ff3c9f30dfd2a6dcb6cd1ae8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4c377a9859155306d1bb605af9a94de777aeacb42d98967720c1df7bd1b96571",
+    "rendered_prompt_sha256": "3ae1c8a58c44eb032d21587fdd1ae72eedd82d4dc18a9cf989dd8a644ceac69c",
+    "source_text_sha256": "cadb73baf5dad6ff615a0ceaa9a89c253601b5f97c9199bfd33bd1265d148441"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2488,
+    "filename": "pe_em_31.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_31.txt",
+    "state": "pe",
+    "word_count_original": 556
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_31.json"
+  },
+  "raw_response_text": "## 4. FORMAÇÃO GERAL BÁSICA\n\nA Formação Geral Básica do Currículo de Pernambuco, parte comum a todos os estudantes do Ensino Médio, considera a organização da BNCC por área de conhecimento. Segue, então, o texto introdutório que apresenta cada área e a contribuição de cada componente, além do organizador curricular com as habilidades da BNCC e as habilidades específicas de cada um dos componentes e seus objetos de conhecimentos, distribuídos ao longo dos três anos do EM.\n\nAs habilidades específicas dos componentes foram construídas de forma a promover a interdisciplinaridade, sempre referenciadas pelas habilidades de área da BNCC. Dessa forma, os professores poderão perceber como seu componente de formação está presente nas discussões propostas pelo documento nacional, mas sempre em busca de uma integração dentro e fora da área, proporcionando aos estudantes uma formação mais ampla em relação aos objetos de conhecimento apresentados.\n\n### 4.1 – DOCUMENTO E SUA ORGANIZAÇÃO\n\nO Currículo de Pernambuco tem por objetivo nortear as propostas dos projetos político-pedagógicos das escolas e as práticas pedagógicas vivenciadas em sala de aula; está em consonância com a Base Nacional Comum Curricular e com as Diretrizes Curriculares para o Ensino Médio, considerando a formação cidadã dos estudantes pernambucanos; constitui-se em um documento orientador para a rede estadual. Também é inspirador para as modalidades da educação básica, embora não contempladas diretamente nele. Essas, por suas singularidades, deverão ter documentos curriculares específicos construídos em âmbito estadual e municipal.\n\nEste volume, referente ao Ensino Médio, é formado pela apresentação da Formação Geral Básica e dos Itinerários Formativos. Em relação à Formação Geral Básica, segue a introdução de cada área e seus componentes curriculares. Logo, em seguida, apresentam-se os respectivos organizadores curriculares dos componentes da área que trazem, na sua estrutura, os eixos e os campos de atuação (para os componentes da área de Linguagens), as habilidades de área da BNCC, as habilidades específicas e os objetos de conhecimento relacionados construídos no Currículo de Pernambuco (para os componentes das áreas de Linguagens, Matemática, Natureza e Humanas).\n\nNo organizador curricular do Currículo de Pernambuco para o Ensino Médio / Formação Geral Básica, um código pode ser observado antes da descrição de cada habilidade. Foram utilizados os mesmos códigos da BNCC. Entretanto, acrescenta-se o código do componente, numeração sequencial seguida de PE, indicando que a habilidade recebeu contribuição das redes públicas e/ou escolas privadas ou foi validada pelas mesmas. Assim, o código EM 13 LGG 101 LP 06 PE representa:\n\n- EM – Ensino Médio.\n- 13 – 1º ao 3º ano do ensino médio.\n- LGG – Área de Linguagens e suas tecnologias.\n- 101 – O primeiro dígito indica a competência da área a qual a habilidade está relacionada. E os dois últimos dígitos indicam a numeração sequencial da habilidade da área.\n- LP – Componente de Língua Portuguesa.\n- 06 – Indica a numeração sequencial da habilidade para Pernambuco.\n- PE – A habilidade recebeu contribuição das redes públicas e/ou de escolas privadas.\n\nA BNCC trouxe habilidades específicas do componente de língua portuguesa. Além das habilidades da área de linguagens, no Currículo de PE há adaptações e contextualizações que seguem o seguinte formato:\n\n- EM – Ensino Médio.\n- 13 – 1º ao 3º ano do Ensino Médio.\n- LP – Componente de Língua Portuguesa.\n- 27 – Indica a numeração sequencial da habilidade para Pernambuco.\n- LP – Habilidade específica do componente de Língua Portuguesa.\n- PE – A habilidade recebeu contribuição das redes públicas e/ou de escolas privadas.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

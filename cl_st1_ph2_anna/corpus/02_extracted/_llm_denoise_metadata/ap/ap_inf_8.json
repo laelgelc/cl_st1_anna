@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_036ee2609210c24e006ab2fe47875487d289fd495cac051713",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 738,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 899,
+      "output_tokens_details": {
+        "reasoning_tokens": 254
+      },
+      "total_tokens": 1637
+    }
+  },
+  "created_at": "2026-09-22T22:16:47Z",
+  "duration_seconds": 7.591,
+  "error": null,
+  "excerpt_id": "ap_inf_8",
+  "filename": "ap_inf_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c8a5c880ec0e664a6ec5f7f088827f54e3991b159d2e129a2f2cc80771b5de83",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b65d908a7dd2694bb169a911b4252eecca22ebeb092a853f376193e9791fd443",
+    "rendered_prompt_sha256": "cd78b8188cf720dbf8c94a9ab205fc8189420bea58ec19758865dc46ee4867cd",
+    "source_text_sha256": "f3bf07cd02517999f3caa046ec813b8d989c822c23ef7c54b3ea92c91465a1d0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_inf_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 577,
+    "filename": "ap_inf_8.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_inf_8.txt",
+    "state": "ap",
+    "word_count_original": 405
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_inf_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_inf_8.json"
+  },
+  "raw_response_text": "### 3.4. Direito de Aprendizagem e Desenvolvimento na Educação Infantil e Campos de Experiências\n\nA BNCC orienta que na etapa da Educação Infantil sejam assegurados seis Direitos de aprendizagens, considerando: as formas pelas quais bebês, crianças bem pequenas e crianças pequenas aprendem e constroem significações sobre si, os outros e o mundo social e natural e as exigências fundamentais da vida contemporânea (BRASIL, 2017).\n\nOs seis Direitos de Aprendizagens e Desenvolvimento são:\n\nI - Conviver com outras crianças e adultos, em pequenos e grandes grupos, utilizando diferentes linguagens, ampliando o conhecimento de si e do outro, o respeito em relação à cultura e às diferenças entre as pessoas.\n\nII - Brincar cotidianamente de diversas formas, em diferentes espaços e tempos, com diferentes parceiros (crianças e adultos), ampliando e diversificando seu acesso a produções culturais, seus conhecimentos, sua imaginação, sua criatividade, suas experiências emocionais, corporais, sensoriais, expressivas, cognitivas, sociais e relacionais.\n\nIII - Participar ativamente, com adultos e outras crianças, tanto do planejamento da gestão da escola e das atividades propostas pelo educador quanto da realização das atividades da vida cotidiana, tais como a escolha das brincadeiras, dos materiais e dos ambientes, desenvolvendo diferentes linguagens e elaborando conhecimentos, decidindo e se posicionando.\n\nIV - Explorar movimentos, gestos, sons, formas, texturas, cores, palavras, emoções, transformações, relacionamentos, histórias, objetos, elementos da natureza, na escola e fora dela, ampliando seus saberes sobre a cultura, em suas diversas modalidades: as artes, a escrita, a ciência e a tecnologia.\n\nV - Expressar, como sujeito dialógico, criativo e sensível, suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, questionamentos, por meio de diferentes linguagens.\n\nVI - Conhecer-se e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações, brincadeiras e linguagens vivenciadas na instituição escolar e em seu contexto familiar e comunitário. (BRASIL, 2017).\n\nAssim, os Campos e Experiências são pensados para assegurar esses direitos, sua organização curricular possui caráter interdisciplinar, conservando relações com as áreas de conhecimento visando à promoção do desenvolvimento cognitivo da criança.\n\nOs cinco Campos de Experiências são:\n\n- O Eu, o Outro e o Nós;\n- Corpo, Gestos e Movimentos;\n- Traços, Sons, Cores e Formas;\n- Escuta, Fala, Pensamento e Imaginação e\n- Espaços, tempos, quantidades, relações e transformações. (BRASIL, 2017).\n\nNa sequência são apresentados os Direitos de Aprendizagem e Desenvolvimento propostos para a Educação Infantil, sendo situados em cada campo de experiências (BRASIL, 2017) e ajustados ao foco básico dos mesmos, dentro da divisão apresentada pela BNCC.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05d7ee08c7b09d17006ab304c5ee3887d29475d4a8f73164b9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 844,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 839,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 1683
+    }
+  },
+  "created_at": "2026-09-22T22:44:30Z",
+  "duration_seconds": 8.408,
+  "error": null,
+  "excerpt_id": "mt_em_15",
+  "filename": "mt_em_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bcdc7c67cb205d4ea35998e4de7a297970c54208a09481cda82d7c1e44604350",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "567666b84943f968bad4510037e1c5d8467fcc7227f5de54e7021e67a8b78456",
+    "rendered_prompt_sha256": "096d5b9377543033e40b58c1b702ef2f133b24da9be2a3810e4e6efe63037a4f",
+    "source_text_sha256": "ba41469bf0d3920cd8a0f9f18c39d5c678644c4b401fe0be1cffcd754ee136f6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1905,
+    "filename": "mt_em_15.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_15.txt",
+    "state": "mt",
+    "word_count_original": 454
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_15.json"
+  },
+  "raw_response_text": "### 4.2.3 Especificidades Curriculares\n\nO currículo específico quilombola prevê ações que fortalecem a dinamicidade da escola envolvendo as juventudes, fazendo com que elas cultivem as práticas da comunidade. São ações simples, mas que favorecem o desenvolvimento da autoestima, autoimagem e valorização da ancestralidade.\n\nA área de Ciências e Saberes Quilombolas deve valorizar elementos como circularidade, oralidade, energia vital, corporeidade, musicalidade, ludicidade, cooperatividade/comunitarismo, memória, religiosidade, ancestralidade. Assim, a Parte Diversificada não deve ser trabalhada de maneira isolada; ela se entrecruza com as áreas do conhecimento de forma transdisciplinar. Vejamos o esquema dessa organização abaixo.\n\nPara o sucesso do trabalho transdisciplinar é primordial o envolvimento de todos os profissionais da unidade escolar no desenvolvimento de novas formas de pensar e agir diante da integração dos diferentes saberes e da superação da fragmentação do conhecimento. Assim, o debate e a negociação entre os docentes envolvidos devem ser constantes e devem ter a finalidade de definir as habilidades, os objetos de conhecimentos e as estratégias pedagógicas a serem desenvolvidas. (GODEMANN, 2008).\n\nApresentamos na sequência o quadro de habilidades da área Ciências e Saberes Quilombolas com algumas possibilidades pedagógicas a serem desenvolvidas nas Escolas Quilombolas de Mato Grosso.\n\n### 4.2.4 Quadro de Habilidades\n\nCada área e componente curricular possui um conjunto de habilidades relacionadas aos diferentes objetos de conhecimento. \"As habilidades expressam as aprendizagens essenciais que devem ser asseguradas aos estudantes nos diferentes contextos escolares. Para tanto, elas são descritas de acordo com uma determinada estrutura\" (BNCC, 2018, p. 29).\n\nAs habilidades a serem desenvolvidas possuem códigos. As duas primeiras letras do código se referem à etapa: EI (Educação Infantil), EF (Ensino Fundamental) ou EM (Ensino Médio). Os dois números seguintes se referem ao ano (6º ano: 06, 07º ano: 07, 8º ano: 08, 9º ano: 09, 6º ao 9º: 69). No Ensino Médio, o código 13 se refere a todos os anos do Ensino Médio (1º ao 3º), ou seja, a habilidade pode ser desenvolvida em todos os anos. As letras após o número se referem ao componente curricular, por exemplo, GE corresponde à geografia, LP à língua portuguesa, CNT à Ciências da Natureza e suas Tecnologias, CHS à Ciências Humanas e Sociais Aplicadas etc. Os últimos dois números se referem ao número da habilidade (habilidade 01, 02, 03... 10, 11...).\n\nA área Ciências e Saberes Quilombolas é uma especificidade do currículo do Estado de Mato Grosso, sendo assim, a área não tem habilidades na BNCC. Por esse motivo, o quadro abaixo, que apresentam habilidades e objetos de conhecimentos a serem trabalhados na escola, traz habilidades de diversas áreas do conhecimento, uma vez que a Matriz Curricular das Escolas Quilombolas possibilita e facilita o trabalho interdisciplinar e transdisciplinar. Vejamos quais habilidades sustentam a Parte Diversificada.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

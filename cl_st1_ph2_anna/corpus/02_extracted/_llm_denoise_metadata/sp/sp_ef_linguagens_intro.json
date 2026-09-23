@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01b5e35d6d3fd239006ab30f8673c087d29f747b638bb1d565",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 841,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 871,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 1712
+    }
+  },
+  "created_at": "2026-09-22T23:30:20Z",
+  "duration_seconds": 5.94,
+  "error": null,
+  "excerpt_id": "sp_ef_linguagens_intro",
+  "filename": "sp_ef_linguagens_intro.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2792146a0b82d60fc05c754a9f5ab6a0eb0dcf5157f5cd8d72de0e5b4df3eaa2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e3368d9638820e6769457724bf6fa7deead427a6a0f6f3539ef6170a38bdddc9",
+    "rendered_prompt_sha256": "6a27daf07c7b1c196afecac9ff5d37a52f215e9529d2baba0382a6060e26d5af",
+    "source_text_sha256": "e55444c178df8fd5b7a37b747b18995387644b56415f9867505ab0475c8c4c38"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_ef_linguagens_intro.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3890,
+    "filename": "sp_ef_linguagens_intro.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_ef_linguagens_intro.txt",
+    "state": "sp",
+    "word_count_original": 520
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_ef_linguagens_intro.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_ef_linguagens_intro.json"
+  },
+  "raw_response_text": "# ÁREA DE LINGUAGENS\n\nAs Linguagens são aqui entendidas como práticas que pressupõem a interação entre sujeitos socialmente situados, que atuam e se inter-relacionam nos mais diversos campos da atividade humana. Essa interação entre sujeitos sociais se dá por meio das mais diversas linguagens e traduz um dado momento histórico, social e cultural, assim como valores estéticos, cognitivos, pragmáticos, morais e éticos constitutivos do sujeito e da sociedade em que ele vive.\n\nEssa premissa permeia o Currículo Paulista e contempla diferentes multissemioses e multimeios ligados à realização de práticas sociais de linguagem. Quando exploradas e disseminadas na Educação Básica, concorrem para o desenvolvimento de habilidades que permitam o uso consciente, pelos estudantes, dessas linguagens e seus recursos.\n\nNesse sentido, o Currículo Paulista, em consonância com a Base Nacional Comum Curricular (BNCC) e com as Diretrizes Curriculares Nacionais para o Ensino Fundamental de Nove Anos (conforme Resolução CNE/CEB nº 7/2010), organiza a área de Linguagens nos seguintes componentes curriculares: Língua Portuguesa, Arte, Educação Física e Língua Inglesa.\n\nEm cada componente, o trabalho com as linguagens deve considerar que todo diálogo sempre envolve os sensos crítico, estético e ético, em situações comunicativas ligadas às instâncias do verbal, do corporal, do visual, da sonoridade e/ou do digital.\n\nAs competências específicas da área de Linguagens, presentes no Currículo Paulista e referenciadas pela BNCC, definem as aprendizagens essenciais que devem ser asseguradas a todos os estudantes pelo conjunto de componentes curriculares que integram essa área.\n\n## Competências Específicas de Linguagens para o Ensino Fundamental\n\n1. Compreender as linguagens como construção humana, histórica, social e cultural, de natureza dinâmica, reconhecendo-as e valorizando-as como formas de significação da realidade e expressão de subjetividades e identidades sociais e culturais.\n2. Conhecer e explorar diversas práticas de linguagem (artísticas, corporais e linguísticas) em diferentes campos da atividade humana para continuar aprendendo, ampliar suas possibilidades de participação na vida social e colaborar para a construção de uma sociedade mais justa, democrática e inclusiva.\n3. Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e digital –, para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao diálogo, à resolução de conflitos e à cooperação.\n4. Utilizar diferentes linguagens para defender pontos de vista que respeitem o outro e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, atuando criticamente frente a questões do mundo contemporâneo.\n5. Desenvolver o senso estético para reconhecer, fruir e respeitar as diversas manifestações artísticas e culturais, das locais às mundiais, inclusive aquelas pertencentes ao patrimônio cultural da humanidade, bem como participar de práticas diversificadas, individuais e coletivas, da produção artístico-cultural, com respeito à diversidade de saberes, identidades e culturas.\n6. Compreender e utilizar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares), para se comunicar por meio das diferentes linguagens e mídias, produzir conhecimentos, resolver problemas e desenvolver projetos autorais e coletivos.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

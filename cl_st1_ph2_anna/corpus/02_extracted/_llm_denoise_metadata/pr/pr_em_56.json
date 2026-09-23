@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_041ceb799cbf6605006ab309de64e887d2827ebe0719f2dfb6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 764,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1087,
+      "output_tokens_details": {
+        "reasoning_tokens": 461
+      },
+      "total_tokens": 1851
+    }
+  },
+  "created_at": "2026-09-22T23:06:16Z",
+  "duration_seconds": 10.667,
+  "error": null,
+  "excerpt_id": "pr_em_56",
+  "filename": "pr_em_56.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "95db5aaf43c170f37ef2fdffb61bfecaeeee3b46c0508b1bc26c84d0c3f03a77",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "74e530340af67769633f38f0f71d58b882572e3ba2a236a673f428f357979d18",
+    "rendered_prompt_sha256": "b03301e60669dbe9e83e825371a0d43c327af4413df4351c6deaa5fd9efdf00e",
+    "source_text_sha256": "a0c69b27f4a858869176c8b9501d6bfd7a179c65223fd6b41c3d670ed2a4c53a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_56.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2775,
+    "filename": "pr_em_56.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_56.txt",
+    "state": "pr",
+    "word_count_original": 411
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_56.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_56.json"
+  },
+  "raw_response_text": "Unidade Temática 4 — Prática Discursiva de Produção Textual\n\nA prática discursiva de produção textual nas aulas de Língua Portuguesa, deve se apoiar no trabalho de planejar, escrever, revisar, reescrever, editar⁴. Nesse sentido, os textos produzidos serão sempre fruto de muita reflexão, porque se pensa em um estudante que selecionou algo, alguma coisa para ser dita a outrem, com quem pretendeu interagir em virtude de um objetivo específico: informar, advertir, argumentar, propor, dialogar, divertir, compartilhar ideias e estéticas, uma constante troca de informações, ou seja, textos que apresentam o que dizer, por que dizer, para quem dizer e como dizer.\n\nA produção de textos poderá tomar diferentes formas, se estender para diferentes gêneros discursivos, conforme os objetivos que esses textos queiram cumprir. Palavras, gestos, sons, imagens serão sempre o material com que se fará o ato comunicativo, escolhidos de acordo com as condições de produção e interlocução. Isso porque produzir um texto não é somente uma questão de gramática, está relacionado também às particularidades das atuações sociais. Nesse processo está a constituição de elementos linguísticos (léxico e gramatical); de textualização — informatividade, intertextualidade, coesão, coerência, estratégias de construção etc. —; e de situação em que o texto ocorre: interlocutor previsto, intenções pretendidas, gênero discursivo, domínio discursivo, conhecimentos prévios, condições materiais (suporte e ancoragem do texto).\n\nNesta etapa, o estudante necessita ser envolvido em produções de textos com estruturas mais complexas, utilizar períodos compostos da língua, fazer uso de operadores, de modalizadores; desenvolver textos multissemióticos; utilizar a língua com proposições estéticas, produções mais analíticas, críticas, propositivas, argumentativas; sínteses, pesquisas, gravações de vídeos, áudios e também textos que tragam experiências para uma vida profissional de trabalho, como produções científicas e projetos, principalmente aqueles relacionados ao campo da vida pública e projeto de vida do estudante.\n\n⁴ Editar, neste caso, se refere a fazer a edição de textos multissemióticos. Linguagem do cinema, rádio e televisão. Selecionar e combinar (materiais gravados e filmados) com vistas à obtenção de um produto final, bem como a edição de textos em telas.\n\nConsiderando a concepção deste documento, o texto é algo sempre aberto, inacabado, passível de revisão, reescrita e edição, independentemente de sua forma composicional. Portanto, o processo de produção textual será um eterno devir, em que professor e estudante se envolvem dialogicamente na constituição da produção para uma escrita de autoria de textos relevantes, com funções sociais determinadas, funcionalmente diversificadas, contextualmente adequadas, metodologicamente ajustadas. Uma produção orientada para a coerência global, principalmente para a escrita de textos que tenham leitores.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

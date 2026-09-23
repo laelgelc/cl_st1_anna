@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0610a0d6f982cee6006ab30fe717b887d2b774393f158eaf22",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 632,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1677,
+      "output_tokens_details": {
+        "reasoning_tokens": 1145
+      },
+      "total_tokens": 2309
+    }
+  },
+  "created_at": "2026-09-22T23:32:05Z",
+  "duration_seconds": 14.508,
+  "error": null,
+  "excerpt_id": "to_ef_18",
+  "filename": "to_ef_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "39354905a95666d9a2b9d24cd153db310a8ec045d55fe4ae09ceb6e6b5ff38af",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e5e6897d969b524aa668f3efd8616f4b422ed76f6057d977b7f647a739193339",
+    "rendered_prompt_sha256": "6bcbad643c946627f029bb258ae324b0c2ff86ed0c4027ef64ce3eb4c075270f",
+    "source_text_sha256": "3818afffb490400efa2585c7ac8c7cd1a7a16f3625cab75bc97afd54ea0451a4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_ef_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3977,
+    "filename": "to_ef_18.txt",
+    "filepath": "corpus/00_source_per_state/to/to_ef_18.txt",
+    "state": "to",
+    "word_count_original": 313
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_ef_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_ef_18.json"
+  },
+  "raw_response_text": "Os campos de atuação nos Anos Iniciais do Ensino Fundamental são definidos de acordo com os gêneros discursivos/textuais de sua abrangência, conforme relacionados no Quadro 1.\n\nComo são definidos cada um dos campos nos anos iniciais?\n\n**Quadro 1. Definição dos campos de atuação e gêneros textuais contemplados nos Anos Iniciais do Ensino Fundamental**\n\n| Campos | Definição | Gêneros contemplados |\n|---|---|---|\n| Campo da vida cotidiana | Relativo à participação em situações de leitura próprias de atividades vivenciadas cotidianamente por crianças, adolescentes, jovens e adultos, no espaço doméstico e familiar, escolar, cultural e profissional. | Agendas, listas, bilhetes, recados, avisos, convites, cartas, cardápios, diários, receitas, bula de remédio, regras de jogos e brincadeiras. |\n| Campo artístico-literário | Relativo à participação em situações de leitura, fruição e produção de textos literários e artísticos, representativos da diversidade cultural e linguística, que favoreçam experiências estéticas. | Lendas, mitos, fábulas, contos, crônicas, canções, poemas, poemas visuais, cordéis, quadrinhos, tirinhas, charge/cartum, dentre outros. |\n| Campo da vida pública | Relativo à participação em situações de leitura e escrita, especialmente de textos das esferas publicitária, política, jurídica e jornalística, contemplando temas que impactam a cidadania e o exercício de direitos. | Notas; álbuns noticiosos; notícias; reportagens; cartas do leitor (revista infantil); comentários em sites para criança; textos de campanha de conscientização; Estatuto da Criança e do Adolescente; abaixo-assinados; cartas de reclamação, regras e regulamentos. |\n| Campo das práticas de estudo e pesquisa | Relativo à participação em situações de leitura/escrita que possibilitem conhecer os textos expositivos e argumentativos, a linguagem e as práticas relacionadas ao estudo, à pesquisa e à divulgação científica, favorecendo a aprendizagem dentro e fora da escola. | Enunciados de tarefas escolares; relatos de experimentos; quadros; gráficos; tabelas; infográficos; diagramas; entrevistas; notas de divulgação científica; verbetes de enciclopédia. |\n\nFonte: Adaptado de BRASIL, 2017.\n\nOs eixos norteadores da Língua Portuguesa compõem todos os campos de atuação nos Anos Iniciais e finais do ensino fundamental.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

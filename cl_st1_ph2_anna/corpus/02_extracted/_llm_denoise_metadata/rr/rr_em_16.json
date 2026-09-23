@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06aba363ecb3d073006ab30d1d361c87d2a92e2d89decc8d9a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 864,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1058,
+      "output_tokens_details": {
+        "reasoning_tokens": 294
+      },
+      "total_tokens": 1922
+    }
+  },
+  "created_at": "2026-09-22T23:20:04Z",
+  "duration_seconds": 7.773,
+  "error": null,
+  "excerpt_id": "rr_em_16",
+  "filename": "rr_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8935127412b168e95dd57ea72d28951331847ff13a8b1fc22f82f08ac3f156ff",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c1e2bc87a8eca7933d9c298f9366684c23b4a47b916d1001921ff6d1dd59449e",
+    "rendered_prompt_sha256": "97adfb872bc3b2ec2f2f4bd0d1a7f02079bafa7880c80bd54ee152e6569d0031",
+    "source_text_sha256": "830509cedf904d6c8524cab542efb10ee893e943abb0283c0e74b4253273a2ba"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3448,
+    "filename": "rr_em_16.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_16.txt",
+    "state": "rr",
+    "word_count_original": 521
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_16.json"
+  },
+  "raw_response_text": "### 2.3. migrantes\n\nO Estado de Roraima é historicamente desenvolvido pelos constantes e sucessivos fluxos migratórios e imigratórios, pois ao longo de sua história, têm acolhido brasileiros de outras regiões, principalmente nordestinos, como também migrantes de diversas nacionalidades, tais como, venezuelanos, guianenses, haitianos, cubanos, dentre outras. Desse modo, fica evidente as especificidades e complexidades que o território de Roraima construiu ao longo do tempo.\n\nVale (2006, p.256) caracteriza esses processos ao refletir sobre o impacto da migração por transferência de populações em Roraima.\n\n> Uma das evidências dos resultados negativos da transferência de populações refere-se ao elevado ritmo do aumento demográfico, desproporcional ao que os governos implantam em infra-estrutura, acarretando problemas já conhecidos pelas comunidades dos grandes centros urbanos.\n\nQuando falamos especificamente do fluxo de migrantes nordestinos para região amazônica e em especial para Roraima, percebe-se que está condicionado aos estímulos econômicos e geopolíticos. Souza e Nogueira (2013) os descrevem muito bem quando mencionam o auge da exploração da borracha, a abertura de estradas nas décadas de 1950 e 1960, a política de ocupação do Regime Militar e as ações balizadas pelo conceito de desenvolvimento sustentável.\n\nNeste contexto, Vale (2006), confere ao processo de migração nordestina em Roraima um papel relevante na produção de novas territorialidades e novas formas de concepção do uso e domínio do território, que se caracterizam pelos valores tradicionais desse povo, associado a uma carga de influência das populações nativas.\n\nAtualmente, o estado de Roraima passa por um outro forte processe migratório que é caracterizado da seguinte maneira por Lima e Fernandes (2019).\n\n> O estado de Roraima (Brasil) nos últimos anos tem recebido migrantes venezuelanos, haitianos e cubanos. Os cubanos entram pela fronteira da República Cooperativista da Guiana. Já os haitianos vêm de Manaus (Estado Amazonas, Brasil) e algumas famílias vem da Venezuela. Em 2016, houve uma intensificação da vinda de venezuelanos indígenas e não-indígenas para Roraima, principalmente para a cidade de Boa Vista, capital do estado.\n\nNesse contexto, é de suma importância que as redes de ensino, considerem esta realidade, desenvolvam estratégias de acolhimento e promovam ações que visem à integração dessas populações. Além disso, Lima e Fernandes (2019) ao citar Marcelo Naputano, sugerem a necessidade de se desenvolver:\n\n> [...] programa de educação voltado para a mediação socioeducativa entre gestores, professores, estudantes e famílias de refugiados venezuelanos como alternativa para aprofundar a integração cultural, onde se possa vivenciar a educação como experiência de uma construção relacional cotidiana em que se crie vínculos em meio aos conflitos.\n\nPortanto, considerando os princípios que embasam o Novo Ensino Médio e foram incorporados no DCRR, as escolas precisam estar atentas para incluir os aspectos da migração local em seus projetos pedagógicos, na perspectiva de acolhimento das populações migrantes presentes no território roraimense de forma que promova a integração cultural e uma educação integral.\n\nAinda, cabe a escola, compreender que ambiente educativo, há uma composição de sujeitos com diversas identidades, culturas e história de vida, que devem ser considerados para a promoção de uma educação inclusiva, que assegure os direitos de todos os estudantes, conforme estabelece as legislações específicas referentes ao atendimento para este público alvo.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_034ddc0c329e88d8006ab30ba04d2c87d2a6a2e0ed46fbd9ea",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 737,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 854,
+      "output_tokens_details": {
+        "reasoning_tokens": 212
+      },
+      "total_tokens": 1591
+    }
+  },
+  "created_at": "2026-09-22T23:13:43Z",
+  "duration_seconds": 7.16,
+  "error": null,
+  "excerpt_id": "ro_ef_48",
+  "filename": "ro_ef_48.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "83cbd101bcd4a9e651e33d6d77337ff62bd856790aa7de8bd1bcaecc21df2ccf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2b2fff45e28416222d4fffd0d5948ef915eed96f7489b3b9deb0fe4614049012",
+    "rendered_prompt_sha256": "45209dc69e86114d4a11a0e4f689db0a220803b800b0765de7eaf93d1f5f160f",
+    "source_text_sha256": "c8f2f0f546d5a36b58eb4b76f7147386e8e127449ef01b14270a7514e5c97da4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_48.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3148,
+    "filename": "ro_ef_48.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_48.txt",
+    "state": "ro",
+    "word_count_original": 483
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_48.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_48.json"
+  },
+  "raw_response_text": "# 9 ÁREAS DE CONHECIMENTO\n\nO desenvolvimento da ciência no século XX dependeu substancialmente de um fato: quanto mais a ciência se especializou e se diferenciou, maior o número de novos campos que ela descobriu e descreveu. Também tanto mais definida se tornou a unidade material interna a esses campos — uma unidade epistemológica que significa a definição clara de seu objeto de estudo e dos métodos para se abordá-lo. Por exemplo, a biologia se desenvolveu tendo a vida orgânica como objeto; a química, a constituição das matérias orgânica e inorgânica e suas transformações; a física, os fenômenos da natureza mais gerais e suas propriedades de movimento, de energia. O fato de o objeto desses campos serem da natureza permite-nos, ao mesmo tempo em que reconhecemos a especificidade de seus respectivos objetos, identificar uma relação de identidade: cada um desses campos aborda a natureza que, em si, se constitui como uma unidade composta por vida, matéria, energia e transformação, sob algum enfoque específico. Ou seja, há uma relação entre particularidades e totalidade. E isso faz a nos perguntarmos:\n\n1º) O que são as áreas de conhecimento e qual sua relação com o currículo;\n2º) O ensino integrado: trabalho, ciência, tecnologia e cultura;\n3º) Caminhos para a aproximação do conhecimento das diferentes áreas: o trabalho como princípio educativo e a pesquisa como princípio pedagógico;\n4º) O projeto curricular e a relação entre os sujeitos, além da relação destes com as práticas daquele.\n\nEssas perguntas são entendidas quando entendemos a construção do currículo por área de conhecimento e entendemos a unicidade das áreas de conhecimento, ou seja, o que une os componentes curriculares em torno de uma área de conhecimento o seu respectivo objeto de investigação que no Referencial Curricular do Estado de Rondônia, na área de humanas os mesmos foram descritos como categorias analíticas básica dessa ciência que são o tempo, o espaço e o movimento.\n\nA organização por áreas de conhecimento não dilui nem exclui componentes curriculares com especificidades e saberes próprios construídos e sistematizados, mas implica no fortalecimento das relações entre eles e a sua contextualização para apreensão e intervenção na realidade, requerendo planejamento e execução conjugados e operativos dos seus professores. (BRASIL, 2012).\n\nOs conteúdos sistematizados que fazem parte do currículo são denominados componentes curriculares, os quais, por sua vez, se articulam às áreas de conhecimento, a saber: Linguagens, Matemática, Ciências da Natureza e Ciências Humanas. As áreas de conhecimento favorecem a comunicação entre os conhecimentos e saberes dos diferentes componentes curriculares, mas permitem que os referenciais próprios de cada componente curricular sejam preservados.\n\nO currículo da base nacional comum do Ensino Fundamental deve abranger obrigatoriamente, conforme o artigo 26 da LDB, o estudo da Língua Portuguesa e da Matemática, o conhecimento do mundo físico e natural e da realidade social e política, especialmente a do Brasil, bem como o ensino da Arte, a Educação Física e o Ensino Religioso.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

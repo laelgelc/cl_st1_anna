@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07193382406dca8d006ab30324e60487d28eae3eb5b877e908",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 940,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 843,
+      "output_tokens_details": {
+        "reasoning_tokens": 58
+      },
+      "total_tokens": 1783
+    }
+  },
+  "created_at": "2026-09-22T22:37:30Z",
+  "duration_seconds": 5.765,
+  "error": null,
+  "excerpt_id": "mg_em_18",
+  "filename": "mg_em_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4211256dfe7c6468ecfebf34aac6831d72a2a317e9c87f8730f67c200515d430",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4f5f1202ce3ddeb531a6973e5a8837cfdfbec076d7f240188a1cca5e748fd6b7",
+    "rendered_prompt_sha256": "bdc9092f510332b822cbc7c1097ea3f448fd56d39dd03e751cb50d9947675ba6",
+    "source_text_sha256": "95896330f5aa9ed36ebdd5055aae4c2828a01248399e144f74f4d71fa7564764"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1546,
+    "filename": "mg_em_18.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_18.txt",
+    "state": "mg",
+    "word_count_original": 552
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_18.json"
+  },
+  "raw_response_text": "## 2.5 Competências específicas da área de Ciências Humanas e Sociais Aplicadas\n\n1. Analisar processos políticos, econômicos, sociais, ambientais e culturais nos âmbitos local, regional, nacional e mundial em diferentes tempos, a partir de procedimentos epistemológicos e científicos, de modo a compreender e posicionar-se criticamente com relação a esses processos e às possíveis relações entre eles.\n2. Analisar a formação de territórios e fronteiras em diferentes tempos e espaços, mediante a compreensão dos processos sociais, políticos, econômicos e culturais geradores de conflito e negociação, desigualdade e igualdade, exclusão e inclusão e de situações que envolvam o exercício arbitrário do poder.\n3. Contextualizar, analisar e avaliar criticamente as relações das sociedades com a natureza e seus impactos econômicos e socioambientais, com vistas à proposição de soluções que respeitem e promovam a consciência e a ética socioambiental e o consumo responsável em âmbito local, regional, nacional e global.\n4. Analisar as relações de produção, capital e trabalho em diferentes territórios, contextos e culturas, discutindo o papel dessas relações na construção, consolidação e transformação das sociedades.\n5. Reconhecer e combater as diversas formas de desigualdade e violência, adotando princípios éticos, democráticos, inclusivos e solidários, e respeitando os Direitos Humanos.\n6. Participar, pessoal e coletivamente, do debate público de forma consciente e qualificada, respeitando diferentes posições, com vistas a possibilitar escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.\n\nAs competências específicas de cada área do Ensino Médio devem ser pressupostos orientadores à proposição e ao detalhamento dos Itinerários Formativos de cada escola. Em acordo ao que preconiza a LDB em seu Artigo 35-A, Parágrafos 3º e 5º, relacionadas a cada uma dessas competências, são descritas habilidades a serem desenvolvidas ao longo da etapa, além das específicas de Língua Portuguesa e Matemática – componentes obrigatórios durante os três anos do Ensino Médio. Todas as habilidades da BNCC foram definidas tomando como referência o limite de 1.800 horas do total da carga horária da etapa; e 1.200 horas para os Itinerários Formativos.\n\nNessa perspectiva, apresentamos alguns pressupostos a serem construídos em cada escola de nosso estado tendo em vista a reorganização dos Projetos Políticos Pedagógicos e a nova organização curricular pautada pela BNCC:\n\n- A elaboração de propostas pedagógicas em etapas, módulos, semestres, buscando a concepção de que a educação deve envolver a superação da organização escolar em turnos, em anos.\n- A constituição de componentes curriculares que promovam diálogos abertos com o território e que acolham as realidades das comunidades locais.\n- A inserção de itinerários formativos com seus diferentes arranjos curriculares, considerando a realidade local, recursos físicos, materiais e humanos da escola.\n- A inserção da cultura digital para estudantes, não somente como consumidores, mas se apresentando cada vez mais como protagonistas; em articulação às competências gerais e considerando as muitas juventudes que existem nos territórios.\n- O debate e articulação entre os saberes acadêmicos e os saberes populares. Práticas curriculares organizadas como ambiências criativas que acolham a participação dos estudantes, que reconheçam e promovam seu envolvimento político-comunitário.\n- A ampliação do espaço escolar para além dos muros da escola, desenvolvendo a perspectiva do território educativo.\n- A ampliação da conceituação de qualidade para além dos resultados das avaliações externas e internas, para a formação integral do sujeito, criando condições para o desenvolvimento do seu Projeto de Vida",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

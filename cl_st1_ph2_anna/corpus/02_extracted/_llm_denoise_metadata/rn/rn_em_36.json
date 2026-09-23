@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c75668b65367233006ab30b1efacc87d29233136008289c25",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 348,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 331,
+      "output_tokens_details": {
+        "reasoning_tokens": 76
+      },
+      "total_tokens": 679
+    }
+  },
+  "created_at": "2026-09-22T23:11:30Z",
+  "duration_seconds": 3.49,
+  "error": null,
+  "excerpt_id": "rn_em_36",
+  "filename": "rn_em_36.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cc6b7ca2bc8137fba5b9c718f5de4ea543e745a51500d662d031e00a4cf3dc80",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "59b6949e4af971452a4745606823d36f0c2f7298368cb502b234160a8820886e",
+    "rendered_prompt_sha256": "6823e5de0311d51bd6fe96a9746dea4dfd5418bbe8ec318c50832f1824807977",
+    "source_text_sha256": "2d18c76ee5f4570ea4736a5458bbbbeb104099da45045ba948c6dad7611a77bf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_36.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3036,
+    "filename": "rn_em_36.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_36.txt",
+    "state": "rn",
+    "word_count_original": 196
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_36.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_36.json"
+  },
+  "raw_response_text": "### 6.4.1 Progressão das Aprendizagens em Matemática\n\nA proposta de progressão das aprendizagens da matemática para o Ensino Médio considera a consolidação de definições e conceitos fundamentais estudados, bem como o processo de formação de competências específicas desta área. É importante salientar que esta proposta não implica em fragmentação do conhecimento matemático, uma vez que apesar dos objetos do conhecimento serem apresentados em diferentes etapas eles estão constantemente interligados e sendo retomados de acordo com a natureza, a necessidade de construção e de desenvolvimento das competências matemáticas.\n\nAinda, essa proposta ancora-se na necessidade de transversalidade de temas e objetos matemáticos e considera uma importante postura epistemológica dos atores envolvidos na área da matemática para a instrumentalização e validação de conceitos e resultados utilizados nas demais áreas do conhecimento, o que denota uma ação integradora e interdisciplinar.\n\nAo incluir esses jovens na prática escolar e nos processos de formação matemática, não devemos desconsiderar a identidade juvenil, contribuindo com a construção da autonomia e proporcionando a esses jovens, através do ensino e aprendizagem da matemática, um lugar de protagonista nesse processo. A seguir, apresentaremos uma proposta de progressões organizadas ao longo dos anos/séries de aprendizagem:",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

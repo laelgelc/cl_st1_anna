@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0939fc77eca662f9006ab3005fcf6487d2b531d2e91f657fec",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 800,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 777,
+      "output_tokens_details": {
+        "reasoning_tokens": 129
+      },
+      "total_tokens": 1577
+    }
+  },
+  "created_at": "2026-09-22T22:25:43Z",
+  "duration_seconds": 7.85,
+  "error": null,
+  "excerpt_id": "df_inf_15",
+  "filename": "df_inf_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0ad6a6d8472f596404aa24a59128840566c595215880eaba12cf7fef13f5f037",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ad044d8047b6c919a11ccdbea25753099182e4bc493eab8e886d7b245e9e1c83",
+    "rendered_prompt_sha256": "90dd4d5b3973f60e747d7f6cd930a1360d68ac6f0e97d2d2d5d6c04dd9e9a148",
+    "source_text_sha256": "5887c45150771976ca930d0ade37d5689b4eecdf00a05b7d878a01a87c24e360"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_inf_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 958,
+    "filename": "df_inf_15.txt",
+    "filepath": "corpus/00_source_per_state/df/df_inf_15.txt",
+    "state": "df",
+    "word_count_original": 472
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_inf_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_inf_15.json"
+  },
+  "raw_response_text": "## 10. DIMENSÃO RELIGIOSA NA EDUCAÇÃO INFANTIL? Uma questão a ser discutida entre os profissionais da educação\n\nA humanidade, ao longo da história, empreendeu uma jornada de busca e de compreensão da vivência da espiritualidade. Esse movimento constitui-se em patrimônio cultural que converge para a edificação de relações humanas em sociedade. No mundo, essa busca se materializa das mais diversas formas, sendo necessária a prática do respeito a essas experiências.\n\nNo Brasil, tem-se a existência de diversas formas de expressão dessa busca, e, considerando o respeito à diversidade existente, o Estado brasileiro se declara laico em sua Constituição Federal (1988). Dito isso, é importante mencionar que a Educação Infantil pública não é proselitista, ou seja, não pode realizar práticas educativas que induzam as crianças a vivenciarem experiências de determinadas concepções, pois trata-se de um contexto pedagógico laico e pluralista, em que cada criança precisa ser respeitada em sua individualidade e em suas experiências pessoais. No caso das instituições privadas, elas podem ser confessionais ou não.\n\nVale destacar que, na Educação Infantil, o ensino religioso não é tratado como componente curricular obrigatório, como acontece no Ensino Fundamental cuja oferta é obrigatória e matrícula facultativa. Portanto, não há a necessidade de sua efetivação, o que evidencia o respeito ao processo de identidade cultural da criança, que ainda está em fase inicial de desenvolvimento e, também, se consolidando por meio das experiências que vivencia com seus familiares.\n\nNesse sentido, tendo sempre em vista a laicidade e a perspectiva de superar conceitos e práticas equivocadas, excludentes ou discriminatórias, as instituições que ofertam Educação Infantil não se constituem em espaços religiosos, devendo acolher e valorizar a diversidade. Atividades que acabam privilegiando alguns credos em detrimento de outros, como realização de comemorações ou atividades ligadas a datas religiosas, orações, contação de histórias ou canções de caráter religioso, não devem ser praticadas nas instituições da SEEDF. A religião é uma decisão pessoal e seu desenvolvimento se dá em meio às pessoas que compartilham da mesma crença, não cabendo, portanto, em um contexto de educação laico e pluralista.\n\nÉ importante que as crianças conheçam culturas diversas, especialmente aquelas dos povos que constituíram a nação brasileira: indígena, africana e europeia. O conhecimento dessas culturas engloba a alimentação, os costumes, as festividades e vestimentas que lhes são peculiares, dentre outros aspectos. Quando esses temas são abordados, devem ser de maneira a apresentar a cultura, e não a induzir crenças ou ressaltar preconceitos, julgando uma cultura melhor ou mais válida que as outras.\n\nO respeito precisa ser vivenciado no contexto da Educação Infantil, portanto, a abordagem pedagógica precisa se constituir do conhecimento de si e do outro ao respeitar as semelhanças e diferenças que caracterizam cada sujeito, tratar de temáticas que contribuem para a formação das comunidades em sociedade, abordando aspectos humanos que envolvam convivência, responsabilidade, autoestima, solidariedade, colaboração, entre outros.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_002c0ee2378688a1006ab306f5896887d2aab960ad06645c98",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 403,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 308,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 711
+    }
+  },
+  "created_at": "2026-09-22T22:53:48Z",
+  "duration_seconds": 6.907,
+  "error": null,
+  "excerpt_id": "pb_em_100",
+  "filename": "pb_em_100.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b9a236fb10860302d47375872007d990d85c69f504b7371c1d76c4ffbdd7d61e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "68fa1fadc441ae07460244241170c2e01e13cfd02063dcbb6f5b3a3cc9692118",
+    "rendered_prompt_sha256": "738c3b6bebe28cc1a7868d9876acfa8138f723d1b9dccf306e71ff9b7b8b041a",
+    "source_text_sha256": "77378aae54a5fd429bce82e565da0b0d665da9e82fec30e6b1675a3a9ef02db1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_100.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2234,
+    "filename": "pb_em_100.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_100.txt",
+    "state": "pb",
+    "word_count_original": 223
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_100.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_100.json"
+  },
+  "raw_response_text": "### 3.6.6 ORGANIZAÇÃO CURRICULAR DE PROJETO DE VIDA\n\nA ideia de que o Projeto de Vida se delineia na relação do sujeito com o mundo nos remete à constituição do sujeito com a sociedade. As histórias de cada um certamente não seriam protagonizadas sem a presença do outro. Como pontua Nascimento (2013, p. 88), “[...] significa que o individual e o coletivo estão presentes tanto na subjetividade quanto na objetividade do sujeito. Não existe uma separação, mas uma relação entre estas partes”.\n\nProjeto de Vida é um componente curricular inovador, no contexto da educação nacional, e com forte caráter interdisciplinar, visto que parte de premissas que se relacionam a uma dimensão ampla de aprendizagem: de si, do outro e do mundo. As competências que embasam o trabalho com Projeto de Vida na escola, elencadas no tópico 3.6.4.1, foram inspiradas em competências trazidas na BNCC, tanto as gerais quanto as específicas, por área de conhecimento.\n\nAs habilidades construídas foram edificadas a partir da literatura sobre Projeto de Vida e educação sistêmica, destacando-se também a relevância dos aspectos locais e da experiência do Estado da Paraíba com o tema, cujo trabalho na rede estadual de educação iniciou-se em 2016. Em razão dessa tomada de decisão conjunta, que orientou a redação do documento, as habilidades trazidas não contêm um código alfanumérico.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

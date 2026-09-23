@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_045f8fd4c5bcb536006ab2fe403d6887d298c6d9015fda7a60",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 578,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 676,
+      "output_tokens_details": {
+        "reasoning_tokens": 189
+      },
+      "total_tokens": 1254
+    }
+  },
+  "created_at": "2026-09-22T22:16:37Z",
+  "duration_seconds": 5.785,
+  "error": null,
+  "excerpt_id": "ap_inf_16",
+  "filename": "ap_inf_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c1986762efdc1d9b780f41c2614574caa96e48ed56767e99ed50e3b61dca35fe",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c84cb9258d07dbed29cb27e72226b4f94d9333ab40cdab8106cdbb854f504638",
+    "rendered_prompt_sha256": "03b7a0123126afcfd967f56793a4f312776f102ab677df750160025a3be7a757",
+    "source_text_sha256": "1ce569e39d0c6207296e9c2dfb4c82f47a35d55a3d187450113617485c97e8d5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_inf_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 569,
+    "filename": "ap_inf_16.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_inf_16.txt",
+    "state": "ap",
+    "word_count_original": 343
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_inf_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_inf_16.json"
+  },
+  "raw_response_text": "### 3.6.2. Tempos e Espaços na Educação Infantil\n\nNo que concerne aos espaços na Educação Infantil, Zabalza (1998) entende ser um dos dez aspectos-chaves que orientam uma Educação Infantil de qualidade. Assim, os espaços no ambiente escolar precisam ser pensados com vistas ao atendimento dos bebês, com lavatórios para o banho, cozinha adequada para o preparar e o servir a alimentação, quartos confortáveis para o momento do sono, tudo vislumbrado de forma lúdica e atrativa, com iluminação adequada e instalações que não ofereçam riscos aos bebês (0 a 1 ano e 6 meses). Já para as crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses) ou para as crianças pequenas (4 a 5 anos e 11 meses), faz-se necessário, além do já supracitado, local para a escovação de dentes apropriado e adaptado aos tamanhos dos infantes, com vistas à promoção da autonomia.\n\nAdemais, para que se oportunizem situações de aprendizagem e desenvolvimento, faz-se necessária a disposição de espaços que sejam abertos às vivências e interesses das crianças, plural, seguro, lúdico e cultural. Um lugar único, sem disposições tão prefixadas, que oportunize o(s) grupos(s), mas também cada um; um lugar para brincar e trabalhar, que acolha diferentes ritmos, identidades e culturas. É na vivências deste espaço que se pode experienciar o mundo de diversos ângulos, fazendo dessa experiência uma aprendizagem significativa e permitindo ao educador estabelecer uma consonância entre as mensagens verbais e não verbais, coerências entre o currículo explícito e implícito. (OLIVEIRA-FORMOSINHO, 2011).\n\nNa organização do ambiente está intrínseca a ideia do tempo, de igual modo importante na Educação Infantil. Entende-se, portanto, que há necessidade de organizar a rotina diária e/ou semanal. O estabelecimento da rotina não deve almejar certo treinamento das crianças, mas sim respeitar seus ritmos, seu bem-estar e as aprendizagens no intuito da incorporação de uma dinâmica participativa na organização das ações em sala de aula, uma vez que, como sujeito de direitos, é salutar a criança exercitar a participação em locais de convivência social.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

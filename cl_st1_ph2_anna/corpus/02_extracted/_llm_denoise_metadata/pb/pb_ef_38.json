@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b1f90bbe59263d2006ab306c5eac487d2a80fc76e2d2f4d3a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 690,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 813,
+      "output_tokens_details": {
+        "reasoning_tokens": 254
+      },
+      "total_tokens": 1503
+    }
+  },
+  "created_at": "2026-09-22T22:53:02Z",
+  "duration_seconds": 9.104,
+  "error": null,
+  "excerpt_id": "pb_ef_38",
+  "filename": "pb_ef_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b1fb378b1dca69cdabbc6837e7e5fd050838552b7d4fee06290c110777e9c5d1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "16bd96d7128c56bfcf797d86be0cabfa0d0939f56e2dcc238c1c50a6cc7fd10f",
+    "rendered_prompt_sha256": "f65d7d9e85abe774d5ba04d4ed79c9f2e442b7cb8e8e047f2a07071c1c3da49c",
+    "source_text_sha256": "163bed181c9f382a30a526d8419a92d6c1cf3d26fdff64abf518abba6a246c30"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2207,
+    "filename": "pb_ef_38.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_38.txt",
+    "state": "pb",
+    "word_count_original": 433
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_38.json"
+  },
+  "raw_response_text": "### 7.1.2 Princípios fundamentais\n\nO estudo das Ciências da Natureza tem como um de seus princípios fundamentais a formação de jovens capazes de enfrentar desafios intrínsecos a uma sociedade em constante mudança. Frequentemente novas descobertas são adicionadas a esse campo de pesquisa, e o acesso a essas informações possibilita ao cidadão construir seu posicionamento diante de tais modificações, a fim de compreender o meio no qual está inserido e sua relação com o Universo. Precisamos de uma educação que possibilite aos estudantes um aporte para lidar com a gama, cada vez maior, de informações que são disponibilizadas à sociedade, assim como que sejam capazes de inferir e participar de discussões que envolvam as relações entre ciência e sociedade.\n\nNuma perspectiva de educação cidadã e pautada nos direitos humanos, é imprescindível que o ensino de ciências da natureza tenha como princípio o desenvolvimento de posturas de respeito com o outro e com o meio ambiente. É preciso que o despertar da consciência de sustentabilidade e preservação da natureza e seus recursos naturais ocorra desde os anos iniciais, mediante situações que lhes possibilite conhecer, interagir, compreender e intervir no meio em que estão inseridos. Em consonância com este conceito, elencamos os seguintes princípios, que fundamentam os direitos de aprendizagem em Ciências da Natureza no Ensino Fundamental:\n\n- A construção do pensamento crítico-reflexivo no aluno, para desenvolvimento de sua autonomia dentro da pesquisa escolar, identificando os aspectos positivos e negativos da temática a ser trabalhada.\n- A capacidade do aluno de desenvolver habilidades e competências voltadas para o campo da leitura científica como sujeito ativo.\n- Fomento de conceitos acerca da importância do uso racional dos recursos naturais renováveis e não renováveis e suas relações com o meio ambiente.\n- Compreensão da gênese do conhecimento científico, a fim de entender a relação das ciências da natureza atrelada com o âmbito social, político e ideológico.\n- Possibilidade de analisar a informação com o intuito de buscar informações através da observação, experimentação, registro e consolidação de dados.\n- Utilizar a informação como fonte de pesquisa e contribuição para a formação do indivíduo e a escolha de profissões na área.\n- O entendimento das relações socioambientais do meio onde está inserido (região) para fortalecimento da relação de pertencimento, desenvolvendo características culturais intrínsecas e extrínsecas ao seu cotidiano.\n- Respeito e reconhecimento da identidade social, cultural, de gênero e política do outro, tornando-se um ser humano livre de toda e qualquer forma de preconceito.\n- Valorização da fauna, flora, cultura e particularidades regionais a fim de construir o senso de pertencimento ao aluno.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

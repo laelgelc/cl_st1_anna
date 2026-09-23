@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_063daebcc97751dd006ab303c43e5487d2abd509f8fb58075c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 779,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 808,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 1587
+    }
+  },
+  "created_at": "2026-09-22T22:40:12Z",
+  "duration_seconds": 8.222,
+  "error": null,
+  "excerpt_id": "ms_em_45",
+  "filename": "ms_em_45.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2694b1cbfbdbec18cdb61df1027ef7aab6df2c7647b8d1f28ea27157b01a9361",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a91f512c0a576000fd9bf0839da01b3ba07585707aff0b8e7de966542a9536aa",
+    "rendered_prompt_sha256": "ca3d9873d1a71e43349bfce03f535bbe890d755d3dbce7c8371af83dd7ce4dce",
+    "source_text_sha256": "1e0e43c4a9a6a74ba15731de74be4ee7354d70cb37f9454cec4c513ad53685ca"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_45.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1711,
+    "filename": "ms_em_45.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_45.txt",
+    "state": "ms",
+    "word_count_original": 365
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_45.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_45.json"
+  },
+  "raw_response_text": "## II. Organizador curricular\n\n### 2.2. Objetos de conhecimento\n\n**Objetos de conhecimento:**\n\n**Ênfase em aspectos conceituais e de contextualização:**\n\n- Elementos de Antropologia – teorizações antropológicas referentes ao criacionismo, à teoria da evolução natural e à eugenia (geneísmo).\n- Eugenia, racismo genético e etnocentrismo – análise sócio-geopolítica de Esparta e Alemanha (nazista).\n- Ênfase no debate atual sobre biopoder e bioética:\n  - Projeto Genoma Humano: riscos e benefícios da manipulação genética.\n  - Biopoder e bioética: impasses ético-políticos decorrentes da instrumentalização política da ciência e tecnologia (por exemplo, banco populacionais de DNA), que possibilitam a instauração de um sistema de estratificação e biocontrole na contemporaneidade.\n  - Manipulação da corporalidade pela tecnologia, padronização social e felicidade.\n\n### 2.3. Sugestões didáticas\n\n**Sugestões didáticas associadas aos eixos estruturantes:**\n\nEstudo de caso, supondo as seguintes etapas:\n\n1. Ponto de partida (premissa: entremear conhecimentos e produtos culturais com a realidade e interesses do estudante):\n   - Provocação 1: análise do filme *Gattaca* e de outros correlacionados (*Equilibrium*). É relevante registrar a descrição da representação social das personagens e o levantamento de tópicos e assuntos que causam interesse de pesquisa pelo estudante;\n   - Provocação 2: análise semiótica de memes, comentários e vídeos, postados em redes sociais, que alimentam o preconceito e o racismo genético. Novamente, é relevante registrar os tópicos e assuntos que causam interesse de pesquisa pelo estudante;\n2. Delimitação e construção de situações-problema (cenário de aprendizagem), orientação e acompanhamento de leituras exploratórias, produção de fichamentos, resumos;\n3. Sistematização de um projeto de pesquisa (tema delimitado, objetivos, justificativa, metodologia, cronograma e fontes);\n4. Fase 1 da execução da pesquisa pelo estudante e acompanhamento processual pelo professor: revisão de literatura (pesquisa bibliográfica);\n5. Fase 2 da execução da pesquisa pelo estudante e acompanhamento processual pelo professor: pesquisa de campo e experimental com embasamento estatístico-matemático;\n6. Produção de um ensaio, seguindo as normas da ABNT;\n7. Socialização, avaliação compartilhada (entre os estudantes e o professor) e revisão do material produzido;\n8. Comunicação dos ensaios da turma na forma de seminário;\n9. Produção de banner para a comunicação na feira de ciências ou evento de culminância da escola e, posteriormente, disponibilizar em mídias da escola (redes sociais, jornais, blogs, dentre outros), com o fim de produzir esclarecimento e intervenção no contexto sociocultural.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

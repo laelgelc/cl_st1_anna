@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b4ecd0379b4ed6a006ab30bc88e9c87d2b7b245ab8cd25471",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 653,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 800,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 1453
+    }
+  },
+  "created_at": "2026-09-22T23:14:23Z",
+  "duration_seconds": 6.617,
+  "error": null,
+  "excerpt_id": "ro_ef_79",
+  "filename": "ro_ef_79.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fc082f4defbe88af47e81efe0afcfe2efcf3617037c7e2e2bd458b0e14c993f2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a28e42bce0d2e27225399ecc29fac59bdb5c95ffe8977f1b64bafcbb1024a438",
+    "rendered_prompt_sha256": "85245430da89549d010d16bd910d377d5bdd9b65dedd69f18c4a8bff8ecdaf08",
+    "source_text_sha256": "30185329c627c8b310e57048da989a63195aeb2d0ee0dc11001d6b18d7325e9e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_79.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3182,
+    "filename": "ro_ef_79.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_79.txt",
+    "state": "ro",
+    "word_count_original": 399
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_79.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_79.json"
+  },
+  "raw_response_text": "### 9.5.10 - As dimensões do conhecimento\n\nO enfoque lúdico das práticas corporais está intrínseco na caracterização e desenvolvimento das habilidades, permitindo aos alunos não apenas saber executar movimentos, e sim pensar sobre como, onde, por que e para que realizam a ação de movimentar-se. Nessa ótica, a educação física se ressignifica, pois não se limita a sistematizar um deslocamento espaço-temporal de um segmento ou de um corpo todo, passa a refletir e produzir novos sentidos para a prática da cultura corporal.\n\nAs habilidades do componente foram estruturadas de acordo com 08 dimensões do conhecimento, que são o norte do ensino da educação física:\n\n- **Experimentação:** Valoriza os conhecimentos que só podem ser acessados pela vivência da linguagem corporal. A Experimentação “ao vivo e em cores” precisa fazer sentido para o aluno, proporcionando sensações positivas; nessa dimensão, o aluno precisa realizar movimentos autorais e não ser um mero replicador de gestos otimizados.\n- **Uso e Apropriação:** São os conhecimentos do saber fazer que permitem a construção autônoma e utilização das práticas corporais, ajustando-as a diferentes contextos de atividades cotidianas. Nessa dimensão, é permitido ao aluno múltiplas formas de ajustar as vivências corporais a espaços, tempos e materiais.\n- **Fruição:** São os conhecimentos que irão contribuir para a apreciação estética e sensível das experiências corporais por parte dos alunos.\n- **Reflexão sobre a ação:** Refere-se à observação e análise das experiências corporais. Resolver desafios por meio de reflexões sobre como fazer.\n- **Construção de Valores:** Nessa dimensão, é permitido ao aluno refletir sobre todos os valores vivenciados com as práticas corporais e sua interrelação com o meio em que se vive: respeitando as diferenças, combatendo preconceitos e estereótipos que podem se apresentar no decorrer da execução das práticas corporais.\n- **Análise:** Refere-se ao acesso a conceitos sobre as práticas corporais e todos os conhecimentos, sensações que se apresentem durante a prática, associando aos conhecimentos científicos.\n- **Compreensão:** Relaciona-se ao conhecimento conceitual e sociocultural das práticas corporais, permite ao aluno conhecer a história e evolução dessas práticas.\n- **Protagonismo comunitário:** Refere-se aos conhecimentos que permitem aos alunos assumir o compromisso com a democratização do acesso às práticas corporais na sua comunidade.\n\nRessaltamos que não há uma ordem definida ou hierarquia entre as dimensões. É importante que cada dimensão seja sempre abordada de modo integrado com as outras, levando-se em conta sua natureza vivencial, experiencial e subjetiva.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

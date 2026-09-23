@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_092a9e7510bf994a006ab30fe89c0887d2ae0ec22c73af5402",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 750,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 951,
+      "output_tokens_details": {
+        "reasoning_tokens": 298
+      },
+      "total_tokens": 1701
+    }
+  },
+  "created_at": "2026-09-22T23:32:00Z",
+  "duration_seconds": 7.821,
+  "error": null,
+  "excerpt_id": "to_ef_2",
+  "filename": "to_ef_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d139c5faf41b99b271c8160b4043779cb07ff22cca64fe398b4836cc86adf6d1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9b07c8e4887a1eea553f507bc3fe6d322f73bee8f43fdebadc12c057eb3e9499",
+    "rendered_prompt_sha256": "96c35442381bfd611aa83015cdcbd4ef5916b094047656d154fcc452573ab86e",
+    "source_text_sha256": "4a7748f8a21cdcd65c6df22a384780da2a18d10be1ebd081f78c57aaa0d90b8d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_ef_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3979,
+    "filename": "to_ef_2.txt",
+    "filepath": "corpus/00_source_per_state/to/to_ef_2.txt",
+    "state": "to",
+    "word_count_original": 439
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_ef_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_ef_2.json"
+  },
+  "raw_response_text": "# Governança de Implementação\n\nO principal objetivo deste tópico consiste em orientar os perfis, atribuições e etapas das instâncias envolvidas no processo de implementação do currículo do Tocantins, fortalecendo o regime de colaboração entre os entes responsáveis, com foco em ações processuais que assegurem a concretude de um currículo coerente, considerando as especificidades regionais e locais do Estado do Tocantins.\n\n## Equipe ProBNCC\n\nO Tocantins possui uma equipe focal, com representação territorial do Programa de Implementação da Base Nacional Comum Curricular (ProBNCC), constituída por 22 redatores formadores da Educação Infantil e dos componentes curriculares dos Anos Iniciais e Anos Finais do Ensino Fundamental, 3 coordenadores de Etapa, 1 articulador do Regime de Colaboração, 1 articulador do Conselho Estadual de Educação (CEE TO), 1 articulador da União Nacional dos Conselhos Municipais de Educação (UNCME), 1 analista de gestão e 2 coordenadores estaduais, sendo um representante do Conselho dos Secretários Estaduais de Educação (Consed) e um da União Nacional dos Dirigentes Municipais de Educação (Undime).\n\nEssa equipe tem a missão de conduzir todo o processo de elaboração e implementação do DCT, alicerçado na Base Nacional Comum Curricular (BNCC), bem como orientar e apoiar os comitês gestores regionais e os formadores-multiplicadores na operacionalização das formações continuadas e das orientações pedagógicas destinadas às unidades educacionais.\n\nA estrutura da equipe consta no organograma da próxima página.\n\n## Às Diretoria Regional de Educação e Secretaria Municipal de Educação competem:\n\n- Assegurar a participação efetiva e a permanência do formador multiplicador em todas as etapas de formação continuada;\n- Propiciar condições favoráveis para que a multiplicação das formações seja realizada nas unidades educacionais;\n- Orientar e acompanhar a reestruturação dos Projetos Político Pedagógico (PPPs) em consonância com o DCT;\n- Participar e contribuir com a elaboração do planejamento das ações de implementação do DCT em conjunto com o formador-multiplicador no âmbito das redes de ensino e regiões;\n- Garantir suporte administrativo, técnico e pedagógico ao formador-multiplicador a fim de garantir que o processo formativo alcance os objetivos conforme o planejado;\n- Acompanhar e avaliar periodicamente a implementação do DCT, com o objetivo de diagnosticar e redirecionar as ações, quando necessárias, para assegurar o resultado esperado;\n- Oferecer subsídios à rede privada de educação com vistas à implementação do DCT;\n- Estabelecer parcerias com instituições de educação superior para fortalecer o aporte científico nas formações e aplicação do DCT pactuados no território tocantinense;\n- A rede estadual e municipal de ensino deve se apoiar durante todo o processo formativo, as ações de formações podem ser planejadas e executadas juntas;\n- Acompanhar e orientar a atuação docente em ambiente de ensino e aprendizagem, a fim de garantir melhorias nas práticas pedagógicas alinhadas ao DCT.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ff88201e7bc7fce006ab3039e42f887d2baa5afd66ab991fd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 777,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 727,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 1504
+    }
+  },
+  "created_at": "2026-09-22T22:39:32Z",
+  "duration_seconds": 6.362,
+  "error": null,
+  "excerpt_id": "ms_em_14",
+  "filename": "ms_em_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "99c5c563af6ef066c9d001a18b108570f5be80191b0199fa6dbe18621ac5c0b9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3d31b719cf3258bb4567aab1aa462cd22ddaf20d2f8c3da127990a7ca1d87000",
+    "rendered_prompt_sha256": "a123563186d81e265bed316f071393bc289ecea90285974d3055d07be5bf8e34",
+    "source_text_sha256": "f61c5427265c7edaaa30f25b8d4f6c38112b99cfd509d6c1663f2305c7c26e26"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1677,
+    "filename": "ms_em_14.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_14.txt",
+    "state": "ms",
+    "word_count_original": 457
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_14.json"
+  },
+  "raw_response_text": "### 2.4.5. Educação para o Trânsito\n\nO Código de Trânsito Brasileiro, instituído pela Lei n. 9.503, de 23 de setembro de 1997, estabelece que a Educação para o Trânsito seja promovida na pré-escola e nas escolas de Ensino Fundamental e médio por meio de planejamento e ações coordenadas entre entidades dos Sistemas Nacional de Trânsito e de Educação. Por isso, a Educação para o Trânsito está inserida nas Diretrizes Curriculares Nacionais Gerais para a Educação Básica como pertencente à parte diversificada do currículo.\n\nO objetivo da Educação para o Trânsito é o de estimular hábitos e comportamentos seguros no trânsito, transformando o conhecimento em ação, por meio de observação, vivências e situações cotidianas; consequentemente a Educação para o Trânsito provoca a interpretação do mundo em que o sujeito vive, ou seja, pode reconstruir conceitos e valores condizentes ao exercício da cidadania. Ressalta-se que as crianças, os adolescentes e os jovens se enquadram na categoria de pedestre, e precisam conhecer e conviver com as leis, os símbolos e os agentes de trânsito. Em uma proposta contínua de Educação para o Trânsito, percebe-se a ampliação dos direitos e deveres dos pedestres e motoristas. Desse modo, a Educação para o Trânsito, a médio e longo prazo, tende a reduzir acidentes de trânsito porque elevam os níveis de consciência social e responsabilidade individual e coletiva dos cidadãos. Esclarece-se que a Educação para o Trânsito não pode ser reduzida à transmissão de regras de trânsito e representação de símbolos e objetos; mas também experienciar práticas educativas que abordem, paralelamente, danos ao meio ambiente e à saúde.\n\n### 2.4.6. Educação Alimentar e Nutricional\n\nA temática da Educação Alimentar e Nutricional foi inserida no artigo n. 26 da Lei de Diretrizes e Bases da Educação Nacional por meio da Lei n. 13.666, de 16 de maio de 2018. Além disso, a Política Nacional de Alimentação e Nutrição (PNAN), atualizada pela Portaria n. 2.715, de 17 de novembro de 2011, visa à “melhoria das condições de alimentação, nutrição e saúde da população brasileira, mediante a promoção de práticas alimentares adequadas e saudáveis, a vigilância alimentar e nutricional, a prevenção e o cuidado integral dos agravos relacionados à alimentação e nutrição” (BRASIL, 2013b, p. 21).\n\nEntende-se que os momentos de alimentação escolar fazem parte de uma proposta pedagógica pautada no desenvolvimento pleno dos sujeitos. Por isso, ao tratar transversalmente a temática, torna-se possível orientar os aprendizes a respeito de hábitos alimentares saudáveis. Nesse sentido, a prática educativa para a formação de hábitos alimentares saudáveis deve respeitar os valores culturais, sociais, afetivos e comportamentais, assim como promover a reflexão acerca da cadeia produtiva dos alimentos, com destaque para as questões de meio ambiente e saúde pública.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

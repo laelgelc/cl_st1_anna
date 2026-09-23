@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c50cd2047952a9c006ab30aea276c87d295b00a83e6868621",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 524,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 508,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 1032
+    }
+  },
+  "created_at": "2026-09-22T23:10:38Z",
+  "duration_seconds": 4.85,
+  "error": null,
+  "excerpt_id": "rn_ef_44",
+  "filename": "rn_ef_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8f2305897bf6667d4b903c1aa32526cfed07818699c65493332e37563e43afad",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "58258a44cb9f2de835a9352ae1cd0743358a7049e253b7c3efe9032a31bed1df",
+    "rendered_prompt_sha256": "7132ad249180fb337de3ea7402ee8f7581a0ea590ac675d34cc93bfd259da237",
+    "source_text_sha256": "317f967b9ee6617e3a0c02b2570fdcd93990c2a4b7f220f523fa2c6a2eedaee2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2984,
+    "filename": "rn_ef_44.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_44.txt",
+    "state": "rn",
+    "word_count_original": 280
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_44.json"
+  },
+  "raw_response_text": "## INSTRUMENTOS E PROCEDIMENTOS DE AVALIAÇÃO - ANOS INICIAIS\n\n- Avaliar os conceitos e objetos de conhecimento utilizados na produção textual e artística.\n- Avaliar a presença dos conceitos das unidades temáticas na produção de desenhos.\n- Avaliar a partir de jogos didáticos (jogos de pergunta e resposta, quiz...).\n- Avaliar os objetos de conhecimento por meio de atividades individuais e coletivas escritas.\n- Avaliar por meio de resolução de situações-problema relacionadas ao cotidiano e aos objetos de conhecimento trabalhados nas unidades temáticas.\n- Avaliar a partir de aplicativos didáticos do componente curricular.\n- Avaliar por meio de observação das expressões orais das habilidades de identificar, relacionar, diferenciar, associar, justificar, discutir, analisar, argumentar e descrever objetos de conhecimento trabalhados no decorrer das unidades temáticas dos discentes.\n- Avaliar a confecção de produção textual e construção de objetos e modelos didáticos de aprendizagem, estabelecendo relação dos objetos de conhecimento com o cotidiano.\n- Avaliar as habilidades de utilização de diferentes linguagens para expressar os conhecimentos trabalhados nas unidades temáticas.\n- Avaliar as habilidades de montagem na produção de painéis temáticos, de acordo com os critérios estabelecidos pelo professor.\n- Avaliar as habilidades dos discentes em coletar, analisar e propor conclusões.\n- Observar, no decorrer das unidades temáticas, o desenvolvimento de atitudes que demonstrem aquisição de uma postura mais ajustadas ao que foi adquirido.\n- Observar se os discentes respeitam as orientações sugeridas pelo professor quanto à execução de atividades em sala e no ambiente escolar.\n- Avaliar se o discente participa das atividades colaborativas com outros discentes.\n- Avaliar a expressão artística, criativa e organizacional dos discentes.\n- Avaliar a pontualidade e a assiduidade nas atividades escolares e de sala de aula.\n- Avaliar o discente quanto ao potencial em buscar e sistematizar as informações científicas de fontes diversas",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

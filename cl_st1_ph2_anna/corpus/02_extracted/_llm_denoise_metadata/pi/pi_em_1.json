@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a0debe44dcc59d3006ab3087e0fd087d2bc6104a626e5651a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 524,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 586,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 1110
+    }
+  },
+  "created_at": "2026-09-22T23:00:18Z",
+  "duration_seconds": 4.736,
+  "error": null,
+  "excerpt_id": "pi_em_1",
+  "filename": "pi_em_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b78aaf324f1e1aedac43561069d79e75aee73a86386ff3e064ac46ae32d0966e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7b1ef4d5b39c26931f39ae3f32caeae96dcab7ddf625d3dc51f841785a402f11",
+    "rendered_prompt_sha256": "37db0ce7cb37a43cdc80bb10cd75bde677534fcbbf804c181430c806582f4fe4",
+    "source_text_sha256": "7cf9a20a18912938165eba27950d36eb0ef9a70e021d5ecee3a9e764fa71499f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_em_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2585,
+    "filename": "pi_em_1.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_em_1.txt",
+    "state": "pi",
+    "word_count_original": 294
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_em_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_em_1.json"
+  },
+  "raw_response_text": "# Carta à sociedade\n\nCaros leitores,\n\nÉ com muita satisfação que apresentamos à sociedade piauiense em geral, em especial aos educadores, o Currículo do Novo Ensino Médio do Piauí. Tal proposta foi elaborada após muito estudo e discussões, tendo sido observada a legislação educacional específica e, principalmente, as normas estabelecidas pelo Conselho Nacional de Educação e pelo Conselho Estadual de Educação do Piauí.\n\nA partir da homologação da Base Nacional Comum Curricular (BNCC/2017), o Estado do Piauí, seguindo as diretrizes do Guia de Implementação da BNCC, constituiu Comissões de Governança e Execução, responsáveis pela discussão, construção e implantação do novo currículo para a Educação Básica, aqui particularmente o do Novo Ensino Médio. Espero que a proposta apresentada aponte novos horizontes para as juventudes do Piauí, abra novas fronteiras com a proposta do projeto de vida para os estudantes.\n\nConsiderando as dinâmicas do mundo globalizado, compreendidas, dentre outras, pelo avanço tecnológico e as novas exigências dos mercados de trabalho – o que tem impactado as relações interpessoais, a percepção e o cuidado sobre si mesmo e o outro –, faz-se necessário que todo cidadão ou cidadã piauiense desenvolvam um conjunto de Competências e Habilidades primordiais à vida cotidiana, ao exercício da cidadania e para o mundo do trabalho.\n\nNesse sentido, apresentamos esta versão que está estruturada, por Áreas do Conhecimento e Componentes Curriculares. Vale ressaltar que este Documento foi construído a partir da ampliação dos debates com os profissionais da educação e o respeito às identidades, culturas, políticas, e demais características econômicas e socioambientais do território piauiense.\n\nSob esta perspectiva, esperamos que este Currículo seja vivenciado por toda a Comunidade Escolar e que colabore efetivamente com o avanço sustentável da Educação do Piauí.\n\nAtenciosamente,\n\nJosé Wellington Barroso de Araújo Dias  \nGOVERNADOR DO ESTADO DO PIAUÍ",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

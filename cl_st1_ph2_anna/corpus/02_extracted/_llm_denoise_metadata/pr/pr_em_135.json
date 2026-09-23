@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a4aff41c196af21006ab30987f51c87d2b5fb5069787efab3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 900,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1021,
+      "output_tokens_details": {
+        "reasoning_tokens": 279
+      },
+      "total_tokens": 1921
+    }
+  },
+  "created_at": "2026-09-22T23:04:48Z",
+  "duration_seconds": 8.868,
+  "error": null,
+  "excerpt_id": "pr_em_135",
+  "filename": "pr_em_135.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cab9236a7acec89976e62a42e5acd819e49ad785b6427c6c9782e2846de0a531",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8765a74d9dd337133d138299d245628b3ad9655e3e05dbef0e1227d384cf2936",
+    "rendered_prompt_sha256": "f5134198afb5696e3de7846735f81e95217b7afec21ca43d8565c462f35da19d",
+    "source_text_sha256": "af5b3ade5152d8cfd232fcfa2fc83de390d5af3a919ce07d97c16da30e014e9a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_135.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2722,
+    "filename": "pr_em_135.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_135.txt",
+    "state": "pr",
+    "word_count_original": 526
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_135.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_135.json"
+  },
+  "raw_response_text": "# OS SUJEITOS DA EDUCAÇÃO TÉCNICA E PROFISSIONAL E A CONEXÃO COM O MUNDO DO TRABALHO\n\nJuarez Dayrell, educador e pesquisador brasileiro reconhecido por suas contribuições no campo da juventude e da educação, destaca que a juventude é uma fase marcada pela transitoriedade e pela construção identitária. Para o autor, o jovem deve ser compreendido como um “vir a ser”, cuja existência no presente é orientada por expectativas em relação ao futuro e à transição para a vida adulta (Dayrell, 2003).\n\nA partir dessa perspectiva, é essencial refletir sobre as concepções de juventude difundidas socialmente, as quais, muitas vezes, impõem modelos homogêneos e normativos de ser jovem, ignorando a diversidade de trajetórias, experiências e significados que compõem as diferentes juventudes.\n\nA escola, por sua vez, tende a negligenciar o jovem que existe no estudante, deixando de reconhecer as múltiplas expressões da diversidade juvenil — étnica, de gênero, de orientação sexual, entre outras — presentes no cotidiano escolar (Dayrell, 2007). É a partir desse olhar mais amplo que o jovem deve ser concebido como sujeito plural, que se forma para além dos muros escolares, sendo influenciado por diferentes contextos de convivência, como o ambiente familiar, o mundo do trabalho e o círculo de amizades.\n\nDe acordo com Sacristán, a compreensão da juventude no espaço escolar deve considerar as múltiplas dimensões da vida nas quais o jovem se desenvolve (Sacristán, 1993). Isso porque as representações sociais sobre os jovens são moldadas por categorias construídas por adultos, influenciadas por ideias, práticas e valores que refletem padrões histórica e socialmente estabelecidos.\n\nPortanto, ser jovem não se limita a uma característica biológica ou a uma posição social. Envolve também aspectos geracionais, ou seja, uma inserção cultural própria, marcada por códigos simbólicos distintos, novos hábitos, formas de pensar e de interagir com o mundo, que diferenciam uma geração da outra.\n\nAs identidades juvenis são construídas ao longo do tempo e em diferentes espaços. O jovem se constitui como sujeito social através das interações que estabelece com os grupos dos quais participa. Mais do que um estado de ser, a juventude representa um constante ir sendo, em um processo dinâmico de aproximações e distanciamentos em relação a pessoas, grupos e instituições. Nesse percurso, o jovem atribui sentidos às suas vivências e experiências, construindo sua identidade e seu projeto de vida.\n\nConsiderando que as relações dos jovens se expandem por múltiplos contextos, é essencial destacar o vínculo que estabelecem com a escola e o processo de escolarização. Ser jovem e ser estudante não são experiências equivalentes; ser estudante exige o reconhecimento e a aceitação de uma condição específica dentro do espaço escolar (Dayrell, 2007).\n\nEnquanto sujeitos de direitos, os jovens vivenciam processos formativos que ocorrem em contextos sociais e educativos complexos, histórica e culturalmente construídos. Nesse sentido, a ampliação da oferta da Educação Técnica e Profissional integrada ao Ensino Médio possibilita ao estudante que conclui o Ensino Fundamental dar continuidade aos estudos de maneira articulada com suas aptidões, expectativas e o contexto local. Ao integrar formação geral e técnica, esse modelo oferece ao jovem não apenas a perspectiva de acesso à educação superior, mas também uma real oportunidade de qualificação para o mundo do trabalho (Brasil, 2014).",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

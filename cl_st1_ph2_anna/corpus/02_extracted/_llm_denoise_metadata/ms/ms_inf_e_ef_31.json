@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05a99c8e71bd424a006ab303eeed2087d2843712f343be894b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 817,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 813,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 1630
+    }
+  },
+  "created_at": "2026-09-22T22:40:54Z",
+  "duration_seconds": 7.666,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_31",
+  "filename": "ms_inf_e_ef_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4abfe490b1e5edb7e68dfbf6eec4bf2f29e30d12759754be2dee7263232be948",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9faf8f6f64994ef192212c2ef81014ba2bc0f62b1ee012f42d6d3463329c0798",
+    "rendered_prompt_sha256": "b3f2a3c8e1b22e47657e10090e5e679211289cb79aa61209bfa259e84f8df852",
+    "source_text_sha256": "3168b3a93a4fa1903dda06fd71b1ae0d438317eb4ff6dbbd43ae1a43d0d0c25e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1751,
+    "filename": "ms_inf_e_ef_31.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_31.txt",
+    "state": "ms",
+    "word_count_original": 444
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_31.json"
+  },
+  "raw_response_text": "### 7.7 Síntese das Aprendizagens\n\nConsiderando os direitos e os objetivos de aprendizagem e desenvolvimento, a BNCC apresenta a síntese das aprendizagens esperadas em cada campo de experiências como uma referência das expectativas de aprendizagem para esta etapa da Educação Básica. As articulações entre as sínteses devem ser buscadas e servem como parâmetros para o planejamento nas instituições.\n\n**O eu, o outro e o nós**\n\n- Respeitar e expressar sentimentos e emoções.\n- Atuar em grupo e demonstrar interesse em construir novas relações, respeitando a diversidade e solidarizando-se com os outros.\n- Conhecer e respeitar regras de convívio social, manifestando respeito pelo outro.\n\n**Corpo, gestos e movimentos**\n\n- Reconhecer a importância de ações e situações do cotidiano que contribuem para o cuidado de sua saúde e a manutenção de ambientes saudáveis.\n- Apresentar autonomia nas práticas de higiene, alimentação, vestir-se e no cuidado com seu bem-estar, valorizando o próprio corpo.\n- Utilizar o corpo intencionalmente (com criatividade, controle e adequação) como instrumento de interação com o outro e com o meio.\n- Coordenar suas habilidades manuais.\n\n**Traços, sons, cores e formas**\n\n- Discriminar os diferentes tipos de sons e ritmos e interagir com a música, percebendo-a como forma de expressão individual e coletiva.\n- Expressar-se por meio das artes visuais, utilizando diferentes materiais.\n- Relacionar-se com o outro empregando gestos, palavras, brincadeiras, imitações, observações e expressão corporal.\n\n**Escuta, fala, pensamento e imaginação**\n\n- Expressar ideias, desejos e sentimentos em distintas situações de interação, por diferentes meios.\n- Argumentar e relatar fatos oralmente, em sequência temporal e causal, organizando e adequando sua fala ao contexto em que é produzida.\n- Ouvir, compreender, contar, recontar e criar narrativas.\n- Conhecer diferentes gêneros e portadores textuais, demonstrando compreensão da função social da escrita e reconhecendo a leitura como fonte de prazer e informação.\n\n**Espaços, tempos, quantidades, relações e transformações**\n\n- Identificar, nomear adequadamente e comparar as propriedades dos objetos, estabelecendo relações entre eles.\n- Interagir com o meio ambiente e com fenômenos naturais ou artificiais, demonstrando curiosidade e cuidado com relação a eles.\n- Utilizar vocabulário relativo às noções de grandeza (maior, menor, igual etc), espaço (dentro e fora) e medidas (comprido, curto, grosso, fino) como meio de comunicação de suas experiências.\n- Utilizar unidades de medida (dia e noite; dias, semanas, meses e ano) e noções de tempo (presente, passado e futuro; antes, agora e depois), para responder a necessidades e questões do cotidiano.\n- Identificar e registrar quantidades por meio de diferentes formas de representação (contagens, desenhos, símbolos, escrita de números, organização de gráficos básicos etc).\n\nAssim, faz-se necessário que os professores articulem as sínteses das aprendizagens e as utilizem como parâmetros para o planejamento anual das instituições e também para a concretização das atividades no cotidiano.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

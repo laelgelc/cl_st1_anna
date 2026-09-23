@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09b00861963a9f95006ab300f85a9487d28354c6df00b6ad1b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 791,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1081,
+      "output_tokens_details": {
+        "reasoning_tokens": 425
+      },
+      "total_tokens": 1872
+    }
+  },
+  "created_at": "2026-09-22T22:28:17Z",
+  "duration_seconds": 9.17,
+  "error": null,
+  "excerpt_id": "go_ef_3",
+  "filename": "go_ef_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b0ae9892e7ae587a68dff4aac3b7eec5c4836a6f473d2de302bd0d520da06224",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "944625946b3ded3a8743bd1564af4b36873a3b79e94e95a3260bb62a17e38456",
+    "rendered_prompt_sha256": "00b2a1f7bb1381ef686de78bb7743465dbd02e5e0909588976899641f9ca81f0",
+    "source_text_sha256": "54a0ca8dc01c3841ac6a3c6d713f1be7e4689e23e57fa7110762cbd0adc3aa90"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_ef_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1105,
+    "filename": "go_ef_3.txt",
+    "filepath": "corpus/00_source_per_state/go/go_ef_3.txt",
+    "state": "go",
+    "word_count_original": 434
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_ef_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_ef_3.json"
+  },
+  "raw_response_text": "# QUADRO 07 – HABILIDADES DE LEITURA E ESCRITA: COMPETÊNCIAS DE TODAS AS ÁREAS DO CONHECIMENTO\n\n## Componentes Curriculares\n\n- Ciências da Natureza\n- Língua Inglesa\n- Educação Física\n- Matemática\n- História\n- Geografia\n- Arte\n\n## Competências Específicas\n\n1. Compreender a língua como fenômeno cultural, histórico, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo-a como meio de construção de identidade de seus usuários e da comunidade a que pertencem.\n4. Compreender o fenômeno da variação linguística, demonstrando atitude respeitosa diante de variedades linguísticas e rejeitando preconceitos linguísticos.\n6. Analisar informações, argumentos e opiniões manifestados em interações sociais e nos meios de comunicação, posicionando-se ética e criticamente em relação a conteúdos discriminatórios que ferem direitos humanos e ambientais.\n10. Mobilizar práticas de cultura digital, diferentes linguagens, mídias e ferramentas digitais para expandir as formas de produzir sentidos (nos processos de compreensão e produção), aprender a refletir sobre o mundo e realizar diferentes projetos autorais.\n\nFonte: Equipe de Currículo de Goiás, 2018.\n\nA integração entre os diferentes componentes curriculares dá-se no planejamento do professor, ao estabelecer, a partir do diagnóstico de cada criança e da turma, os objetivos que se quer alcançar e a ação didática que demarca a intencionalidade pedagógica.\n\nVale ressaltar que, nos dois primeiros anos, os objetos de conhecimento e habilidades apresentados em cada componente curricular é que possibilitarão a apropriação dos conhecimentos necessários para a consolidação do processo de alfabetização das crianças.\n\nAssim, espera-se que, ao final do segundo ano, as crianças dominem o sistema de escrita alfabético, aprendam a segmentar as palavras nas frases, usem pontuação em textos, já tenham aprendido algumas normas ortográficas como o uso de letras maiúsculas e minúsculas, concomitantemente, seja garantido às crianças o aprendizado da leitura como prática social. Portanto, é função da escola promover e ampliar o encontro da criança com diversas práticas leitoras de uso e reflexão, como leitura de obras literárias para fruição estética, ampliação do repertório linguístico, busca de informação, interpretação e argumentação, leitura crítica, investigação, apropriação do conhecimento e debate sobre temas relevantes, para melhor compreensão e atuação no mundo.\n\nNessa perspectiva, amplia-se o conceito de alfabetização: alfabetização matemática, alfabetização histórica, alfabetização geográfica, alfabetização artística, alfabetização corporal, alfabetização científica. A língua materna perpassa todos os componentes curriculares por meio da interação verbal que é materializada nas práticas de linguagem e se organiza por meio da oralidade, dos textos, da leitura por compreensão e da produção de texto. Essas atividades de linguagem, presentes em todos os componentes curriculares, possibilitam a apropriação de novos saberes, no contexto escolar e social, o desenvolvimento de competências que possibilitam a mobilização de diversos conhecimentos no espaço da escola.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

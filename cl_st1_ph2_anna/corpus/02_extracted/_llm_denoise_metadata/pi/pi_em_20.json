@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f465d664f921324006ab30895464887d296f67e11632b9a59",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1472,
+      "input_tokens_details": {
+        "cache_write_tokens": 1469,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1272,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 2744
+    }
+  },
+  "created_at": "2026-09-22T23:00:46Z",
+  "duration_seconds": 9.831,
+  "error": null,
+  "excerpt_id": "pi_em_20",
+  "filename": "pi_em_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4ccf34e7b6e9fc3e6ae420bab37f37d2cb56fefc1cad1f54994f2030f91e265d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "010346b0338cef70f97b0b4a6c5895e3bdddc7075b0a4604cd25b92b9be43d7a",
+    "rendered_prompt_sha256": "34356ddac845983382df6272c746b88883a4e58d63f02a82f625ca139bc60cc2",
+    "source_text_sha256": "23bf2a355511a8e227a6485c6b61de59d9a7b413bf9e435c0cfb07c5ea4f8f37"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_em_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2597,
+    "filename": "pi_em_20.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_em_20.txt",
+    "state": "pi",
+    "word_count_original": 871
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_em_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_em_20.json"
+  },
+  "raw_response_text": "### 3.2.5 Sustentabilidade Socioambiental\n\nA Sustentabilidade, segundo Gadotti (2008, p. 202), “É o sonho de bem viver. Sustentabilidade é equilíbrio dinâmico com o outro e com o meio ambiente, é harmonia entre os diferentes”. Nesse contexto, a sustentabilidade deve ser compreendida como processo de inclusão em que cada cidadão pode assumir um papel importante no processo de conscientização sobre a prática ambiental na sociedade, bem como no contexto escolar, na busca de soluções para uma vida saudável continuamente. Pedro Jacobi (2003, p. 191) reforça tal concepção ao afirmar que “A preocupação com o desenvolvimento sustentável representa a possibilidade de garantir mudanças sociopolíticas que não comprometam os sistemas ecológicos e sociais que sustentam as comunidades.”\n\nSobre os princípios de uma escola sustentável, o MEC (BRASIL, 2012) recomenda que o trabalho de forma integrada entre currículo, gestão democrática e espaço físico é parte fundamental para uma escola sustentável que tenha metas, objetivos que almejam alcançar e como fazer para alcançar. Assim, o currículo, o conhecimento, as práticas, as diferenças, as especificidades locais e os saberes deverão ser orientados pelos Projetos Políticos Pedagógicos – PPP, alinhados com a BNCC, nos quais as diferenças, a cultura e o saber deverão ser respeitados, sendo que e o papel da gestão é cuidar e educar de forma democrática, incentivar o diálogo e a coletividade. A inclusão e a diversidade aparecem como destaque, como um dos princípios orientadores da BNCC que devem ser seguidos na educação básica em conformidade com os DCNs.\n\nSegundo Gadotti (2008), a educação poderá contribuir de forma significativa na vida dos educandos, devendo direcionar seu aprendizado colaborando individualmente ou coletivamente, sendo capazes de transmitir saberes pautados na consciência sustentável. A comunidade escolar e a sociedade em geral deverá ser parte integrante na busca de soluções sustentáveis para a garantia de vida saudável para as futuras gerações.\n\nCom base nas competências da BNCC, o processo de ensino e aprendizagem deve ser focado no desenvolvimento do estudante de forma integral, com ênfase na necessidade de desenvolvimento da capacidade de construir argumentos de maneira qualificada, respeitando o limite e a individualidade do outro, com valores construídos na ética, nos direitos humanos, na sustentabilidade socioambiental para que este seja agente transformador da sociedade. A contribuição do professor nesse processo, conforme Jacobi (2003, p. 193), “tem a função de mediador na construção de instrumentos para o desenvolvimento de uma prática social com foco na natureza”. E complementa:\n\n> Os professores(as) devem estar cada vez mais preparados para reelaborar as informações que recebem, e dentre elas, as ambientais, a fim de poderem transmitir e decodificar para os alunos a expressão dos significados sobre o meio ambiente e a ecologia nas suas múltiplas determinações e intersecções (JACOBI, 2003, p. 199).\n\nDessa forma, a transformação com vistas na aprendizagem significativa do aluno deve interagir com diferentes temas da atualidade, por meio de diálogo entre teorias e práticas, sempre incentivando a participação social, em que a relação professor-aluno deve partir do conhecimento das condições sociais, do repertório cultural, econômico dos alunos, suas famílias e seu contexto, oportunizando este a fazer escolha com definição do que deve aprender, estimulando o poder investigativo e o prazer em apreciar o que lhe é oferecido.\n\nPara Freire (2000, p. 67), “A educação sozinha não pode transformar a sociedade, tampouco sem ela a sociedade muda”. Nesse contexto, uma escola sustentável não está ligada apenas a questão ambiental, ela abrange também as questões sociais, econômicas, culturais e espirituais. Para ser sustentável, a escola precisa ser segura, inclusiva e permitir acessibilidade e mobilidade para todos, respeitar os direitos humanos, ter qualidade de vida, promover a saúde das pessoas e do meio ambiente e a diversidade biológica, social, cultural, étnico, racial e de gênero, de forma a favorecer o exercício de participação, o compartilhamento de responsabilidades e promover uma educação integral (MEC, 2012).\n\nPara Leff (2001), a escola é o espaço ideal para haver a promoção e socialização do saber, valorizando as intenções que a sociedade deseja e aprova, onde as formas de comportamento, ambientalmente corretas, devem ser aprendidas na prática, utilizando-se de novas habilidades na tecnologia digital, bem como outras formas de aprendizagens inovadoras capazes de inserir o educando no mundo contemporâneo, de forma a contribuir com sua formação, conscientemente, no que diz respeito à temática ambiental. Nesse sentido, a educação para o meio ambiente, enquanto aprendizado social, deve pautar-se no diálogo e na interação em constante processo de recriação e reinterpretação de informações, conceitos e significados que podem se originar do aprendizado em sala de aula ou da experiência pessoal do aluno. Assim, a escola pode transformar-se no espaço em que o aluno terá condições de analisar a natureza em um contexto entrelaçado de práticas sociais, em uma realidade multifacetada (JACOBI, 2003).\n\nPercebe-se que a educação socioambiental é um princípio relevante para promover a consciência dos jovens acerca do desenvolvimento sustentável, e incentivar ações que visem a vida sustentável no planeta Terra.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_052e18ea16d10149006ab30829fce887d28fb042099c76ace8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 813,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 822,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1635
+    }
+  },
+  "created_at": "2026-09-22T22:58:57Z",
+  "duration_seconds": 7.812,
+  "error": null,
+  "excerpt_id": "pe_em_45",
+  "filename": "pe_em_45.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5aa82cd16829fccf3e7936dd79e1483683eb2eb51f4912cc8ec9fffd78f26d5a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d5a2ba8266c8a999ec7c77b04eb308b2b26daf5936178824fe68b0e21f20f94d",
+    "rendered_prompt_sha256": "541a256150377f278fd711f13343b73b2a7b856fc85072a843e2177e6aefa6cb",
+    "source_text_sha256": "2fe3ed14eafbe204a61e29a0fe9a76e8ec6f0edcb2a37654f9b695620817769a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_45.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2502,
+    "filename": "pe_em_45.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_45.txt",
+    "state": "pe",
+    "word_count_original": 517
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_45.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_45.json"
+  },
+  "raw_response_text": "### 4.5.3 – BNCC, currículo e as CHSA\n\nConsoante a BNCC, a área de Ciências Humanas e Sociais Aplicadas tem como componentes: História, Geografia, Sociologia e Filosofia. O objeto de análise de todas elas, como já observado, são as ações humanas, manifestadas em suas práticas materiais e simbólicas, decorrentes da relação do humano com a natureza, consigo mesmo, com os outros de maneira dialética e com a sociedade de maneira mais ampla; desde as relações familiares, passando pelas relações comunitárias por meio da formação de grupos dos diversos tipos até as nações e a comunidade humana.\n\nOs modos de ação e as instituições criadas pelos humanos para mediar ações se modificam e se renovam em relações espaço-temporais específicas. Essas instituições mediadoras, de modo dialético, quando constituídas, acabam por condicionar, em certa medida, a produção de novas práticas. Tais processos de mudança têm importância destacada na construção dos saberes escolares. Cabe, então, evidenciar a valorização de cada campo do saber, garantindo, no currículo, o olhar particular de cada uma delas, mas, partindo sempre do diálogo entre todos os saberes da área e mesmo de outras áreas do conhecimento.\n\nNesse sentido, talvez o grande desafio no momento de reconstrução do currículo do Ensino Médio seja atingir tais finalidades e ainda operacionalizar uma formação humana contextualizada capaz de atribuir significado aos conhecimentos escolares, de modo a desenvolver a argumentação, capacidade de pesquisar, aprender e agir sobre o mundo, indo além da memorização, do acúmulo de informações e da compartimentação dos saberes.\n\nClaro está, que os saberes escolares precisam acompanhar os avanços técnicos e tecnológicos, desenvolvendo novas formas de ensinar e aprender que dialoguem, diretamente, com as mudanças neste primeiro quartel do século XXI. Entretanto, o papel da escola e da educação, em sentido mais amplo, não é tão somente adequação às mudanças. Uma das funções mais importantes da educação básica e, caracteristicamente, na etapa do Ensino Médio, é desenvolver no estudante a postura crítica, elemento principal do protagonismo juvenil, objetivo último desta etapa de ensino.\n\nNeste sentido, é fundamental pensar qual perfil de cidadão brasileiro se está buscando formar com a disposição de conhecimentos e objetivos dos currículos, bem como para qual sociedade e quais são as condições de realização deste intento, frente aos desafios de nosso tempo. O advento de uma Base Nacional para os currículos reacende o debate sobre a universalização de saberes e, necessariamente, evoca outras questões fundamentais, como qual a legitimidade dos saberes tidos como universalizáveis frente a outros saberes e, ainda, como se operacionalizar o processo de recontextualização (Moreira; Candau, 2008) dos conhecimentos nos currículos estaduais na relação com os saberes locais. Na perspectiva histórico-crítica, a partir de Saviani, o currículo representa o conhecimento objetivado, a partir do qual se alcança a formação da consciência crítica nos estudantes. O currículo, nessa perspectiva garantiria aos estudantes um ponto de chegada comum ao final da Educação Básica (Saviani, 2003, 2016). Na perspectiva freiriana, por outro lado, são os saberes da realidade concreta dos estudantes que constituem o ponto de partida para a construção dialógica dos saberes frente aos conhecimentos curriculares (Freire, 1987, 1992).",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

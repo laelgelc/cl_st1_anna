@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0336b84da957ccdc006ab30beebf3487d2a990ddc1af8c6518",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 514,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 527,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 1041
+    }
+  },
+  "created_at": "2026-09-22T23:14:59Z",
+  "duration_seconds": 5.114,
+  "error": null,
+  "excerpt_id": "ro_em_107",
+  "filename": "ro_em_107.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a16a8b249bf8d8c036b66c99c561e3f30b236002a537f6792f3b482f84351b61",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c4c4c408d225af1635d358b4810ab5270fae91b32f0a9268b828dfc1139c7f3d",
+    "rendered_prompt_sha256": "7b3dc4e788dd04a62ee603c7d462ff4b558dbf9d2dce60de05c4ca6ffec2c78a",
+    "source_text_sha256": "fb99c045dac474d90f000a241c7ad96ee676549a38a265db430c4c578a2c5b42"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_107.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3214,
+    "filename": "ro_em_107.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_107.txt",
+    "state": "ro",
+    "word_count_original": 310
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_107.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_107.json"
+  },
+  "raw_response_text": "Em suma, despertam a atenção os desafios postos ao ato de avaliar, a materialidade de suas práticas avaliativas por meio da diversidade de instrumentos de registro como: maquetes, desenhos, fotografias dos estudantes realizando as aulas, trabalhos produzidos por eles (apresentações de slides, gráficos, protótipos, projetos) e textos de diversos gêneros, alinhados com o diálogo e reflexão entre as diferentes Áreas do Conhecimento.\n\nFace ao desafio do ato de avaliar na visão de Romão (2009), além da avaliação baseada em erros e acertos, atualmente, há que se preocupar também com o desempenho, a criação e a transformação, possibilitando ao professor a busca por alternativas subsequentes. Como ponto de partida, defende a importância de se produzir uma avaliação que mantenha e construa as memórias dos percursos formativos por meio de suportes que materializam o ensino e a aprendizagem de maneira processual.\n\nNeste cenário, buscou-se respaldo em Hoffmann (2018) para salientar que os registros avaliativos além da construção da memória de um processo e acompanhamento do processo de construção do conhecimento ao longo do processo educativo, também são representativos da imagem da ação desenvolvida pelo professor, portanto, requer tomada de consciência dos procedimentos e o uso de registros avaliativos mais adequados.\n\nPara Saul (2010), os critérios avaliativos perpassam pelo uso de instrumentos quantitativos e qualitativos, sendo que por intermédios de elementos descritivos é possível observar, por exemplo, a realidade e inserção social do aluno, bem como construir uma avaliação emancipatória pautada no levantamento do contexto histórico-cultural do aluno, na análise crítica e na criação coletiva de propostas de mudanças e/ou transformação.\n\nSobre a aplicabilidade dos instrumentos avaliativos, há de se considerar também a visibilidade da relação com os saberes produzidos pelos alunos e os desafios postos ao docente que precisam superar a vivência priorizada da dimensão do “fazer com” e pensar nas possibilidades de materialização do saber construído na escola.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

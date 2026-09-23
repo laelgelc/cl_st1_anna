@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b1ae59229113980006ab30cdf058c87d293b25fb2b1324a25",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 321,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 280,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 601
+    }
+  },
+  "created_at": "2026-09-22T23:18:57Z",
+  "duration_seconds": 2.421,
+  "error": null,
+  "excerpt_id": "rr_ef_35",
+  "filename": "rr_ef_35.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f4684b67054d7e1318b90c49e3a3440493a14927fdcb86e0cdfa7f2e231cc9ad",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9fd2a3258586ee68a1bc9f1d620f33126984212ff2b45e9739daaaa5cb4c287d",
+    "rendered_prompt_sha256": "ecc9a9064879b046269d8dd91121450fccaeb05a1c4d5a408717a4c07676dbe3",
+    "source_text_sha256": "0a7937c21a01561eb4a1bb1037e573dffd51ef2c6d12cb5b1e171c8ad2ee627f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_35.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3402,
+    "filename": "rr_ef_35.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_35.txt",
+    "state": "rr",
+    "word_count_original": 168
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_35.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_35.json"
+  },
+  "raw_response_text": "### 4.8.5 CURRÍCULO DE CIÊNCIAS DA NATUREZA\n\nAs teorias científicas, por sua complexidade e alto nível de abstração, não são passíveis de comunicação direta aos alunos de Ensino Fundamental. São grandes sínteses, distantes das ideias de senso comum. Seu ensino sempre requer adequação e seleção de conteúdo, pois não é possível ensinar o conjunto de conhecimentos científicos acumulados.\n\nPara pensar sobre o currículo e sobre o ensino de Ciências Naturais, o conhecimento científico é fundamental, mas não suficiente. É essencial considerar o desenvolvimento cognitivo dos estudantes, relacionado a suas experiências, sua idade, sua identidade cultural e social, e os diferentes significados e valores que as Ciências Naturais podem ter para eles.\n\nDizer que o aluno é sujeito de sua aprendizagem significa afirmar que é dele o movimento de ressignificar o mundo, isto é, de construir explicações, mediado pela interação com o professor e outros estudantes e pelos instrumentos culturais próprios do conhecimento científico. Mas esse movimento não é espontâneo; é construído com a intervenção fundamental do professor.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

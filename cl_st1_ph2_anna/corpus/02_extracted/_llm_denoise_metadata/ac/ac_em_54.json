@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f0e77167dbc94e5006ab2fbf175b887d2ae7f2df08ec4b49f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 848,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 750,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 1598
+    }
+  },
+  "created_at": "2026-09-22T22:06:47Z",
+  "duration_seconds": 5.821,
+  "error": null,
+  "excerpt_id": "ac_em_54",
+  "filename": "ac_em_54.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "58cbe658ae079a512dc2ef23d28bdd7a11010a26572dd0e227f75edcbbc67ae9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "994bc09ce5a0edbd73f15fca5b2796bf1422d8b18dafcf2e9946ce1a518d92e6",
+    "rendered_prompt_sha256": "7201e8c2493a6ad790f0e54d16cc85a384ed8f1cd5cc69a8c26565b8bf2781b8",
+    "source_text_sha256": "e887a15ffd8ff8407478ba48989409cc8fadbe6830731db97e6a51b674d2279e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_54.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 96,
+    "filename": "ac_em_54.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_54.txt",
+    "state": "ac",
+    "word_count_original": 511
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_54.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_54.json"
+  },
+  "raw_response_text": "## Sociologia\n\nO componente curricular Sociologia foi reinserido no currículo do Ensino Médio em caráter obrigatório a partir da Lei nº 11.684 de 2008, em um cenário no qual, por aproximadamente 40 anos, a Sociologia ficou excluída dos currículos dos estabelecimentos de ensino. Nesse sentido, oportunizar aos estudantes o ensino de Sociologia é uma forma de contribuir com a formação de cidadãos que tenham uma postura crítica e reflexiva a respeito do contexto social em que estão inseridos em sua magnitude, uma vez que o estudante deve ser estimulado a desenvolver capacidades cognitivas e socioemocionais, a fim de compreender e interrogar os distintos fenômenos sociais e perceber que a sociedade está inserida em um processo constante de mudança, contribuindo para o sentimento de pertencimento dessas juventudes que também são parte primordial de todo esse processo.\n\nA proposta curricular sugerida pela BNCC visa desenvolver a educação integral em todas suas dimensões. O ensino do componente Sociologia, fundamentado em objetos do conhecimento que primam pela problematização frente ao cenário social, na perspectiva do estranhamento e desnaturalização da realidade, potencializa a habilidade de observar e analisar a realidade, condição imprescindível nas ciências sociais. É relevante destacar que esta nova proposta enfatiza o diálogo da sociologia com as outras ciências sociais, no caso, a antropologia e a ciência política, além da transversalidade com outros componentes curriculares.\n\nSe torna necessário acrescentar que essa série de conhecimentos proporcionados pela Sociologia resultará na aplicabilidade desses saberes no cotidiano do estudante, estimulando-o a conhecer a si próprio, a usar sua imaginação e criatividade, no intuito de prospectar sua condição de vida por meio de práticas empreendedoras. O componente Sociologia dialoga de modo transversal com os outros componentes curriculares da área e os objetos de conhecimento trazem abordagens que partem de concepções clássicas até as discussões contemporâneas a respeito do que se apresenta na atualidade, com o objetivo de oferecer ao estudante uma diversidade de correntes teóricas, capacitando-o a analisar o mundo que o circunda, por meio de distintas óticas de análise.\n\nÉ necessário destacar, ainda, que o componente curricular Sociologia não se limita à compreensão e ao desenvolvimento da capacidade crítica a respeito da realidade em que estamos inseridos, mas também na mudança de postura do indivíduo, no sentido de ultrapassar os limites do senso comum, libertando-se de estereótipos, preconceitos e estigmas sociais que impedem a real apreensão da sociedade. Essa capacidade crítica corresponde a uma prática criativa ou à manifestação da imaginação sociológica, que corresponde à compreensão das conexões existentes entre o ambiente social pessoal e o mundo social impessoal que nos circunda e nos molda à realidade.\n\nSociologicamente falando, ter consciência é equivalente ao agir, ao interferir no mundo social, tendo em vista que a sociedade é construída pelos indivíduos nela existentes. Assim, essa nova configuração da Sociologia, por meio de seus objetos de conhecimento no Novo Ensino Médio, visa o aprendizado diversificado de correntes de pensamento, mas também prioriza as vivências particulares do alunado, incentivando-os à compreensão da sociedade tendo como ponto de partida o entendimento próprio de sua inserção no contexto social.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

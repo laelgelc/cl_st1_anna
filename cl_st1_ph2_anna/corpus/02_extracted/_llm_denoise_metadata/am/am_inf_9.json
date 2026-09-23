@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_064a92730c66c34f006ab2fdc7385487d2aef25efb92462208",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 841,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 769,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 1610
+    }
+  },
+  "created_at": "2026-09-22T22:14:37Z",
+  "duration_seconds": 6.732,
+  "error": null,
+  "excerpt_id": "am_inf_9",
+  "filename": "am_inf_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "136bbddd250c404db6d084080f0c47b7e3c584e50375c81407f249de5bda0b10",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "02b9cc4dab3df5cf3109476ab4530c2d3dc065aa285c636cd214cc7583cfcc11",
+    "rendered_prompt_sha256": "8b0c301a07109f6be75e895e5a277f5586b82f4c5485a63cb8300911607747d1",
+    "source_text_sha256": "16150fa87e18af3e34d1300f16335774e2b159221ad9a809e9414852c8073785"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 457,
+    "filename": "am_inf_9.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_9.txt",
+    "state": "am",
+    "word_count_original": 507
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_9.json"
+  },
+  "raw_response_text": "## 5 Cuidar e educar\n\nA partir de uma abordagem intercomplementar, as DCNEI (BRASIL, 2009b) compreendem a relevância do cuidar e educar, envolvendo acolher, ouvir, encorajar, apoiar, no sentido de desenvolver o aprendizado do pensar e agir, cuidar de si, do outro, da escola e da natureza. Nesse contexto, educar é enfrentar o desafio da compreensão da diversidade que compõe cada pessoa, ao longo de uma existência inscrita nas relações humanas ricas e complexas.\n\nDesta maneira, faz-se necessário compreender que o direito à educação parte do princípio da formação da pessoa em sua essência humana. Trata-se de considerar o cuidado e educação no sentido amplo do acolhimento de todos, com respeito e com atenção adequada, de crianças urbanas e do campo, da educação especial, indígenas, afrodescendentes e quilombolas.\n\nNo trabalho pedagógico organizado nas creches e pré-escolas, cuidar e educar são aspectos integrados. Faz-se pela criação de um ambiente em que a criança se sinta instigada a conhecer mais sobre si, sobre os outros e sobre o mundo, no qual se sinta segura, satisfeita em suas necessidades, acolhida em sua maneira de ser, e que possa desenvolver suas emoções, lidar com seus sentimentos, construindo hipóteses sobre o mundo e construindo sua identidade.\n\nO objetivo do trabalho pedagógico nas instituições de Educação Infantil é organizar os espaços, tempo e materiais para que os direitos de conviver, brincar, participar, explorar, expressar e conhecer-se sejam garantidos desde a entrada do bebê e da criança bem pequena na creche e da criança pequena na pré-escola, ao longo de todas as suas experiências cotidianas e não cotidianas, no estabelecimento de uma relação positiva com a instituição educacional, no fortalecimento de sua autoestima, interesse e curiosidade pelo conhecimento do mundo, na familiaridade com diferentes linguagens e na aceitação e acolhimento das diferenças entre as pessoas.\n\nPara garantir aos bebês e as crianças seu direito de viver a infância e de se desenvolver, creches e pré-escolas devem organizar situações agradáveis, estimulantes, que ampliem as possibilidades infantis de cuidar de si e de outrem, de se expressar, comunicar e criar, de organizar pensamentos e ideias, de conviver, brincar e trabalhar em grupo, de ter iniciativa e buscar soluções para os problemas e conflitos que se apresentam às mais diferentes idades. O ambiente deve ser rico de experiências para exploração ativa e compartilhada por crianças e professores, que constroem significações nos diálogos que estabelecem.\n\nImportante ressaltar que o trabalho indissociável presente no cuidar e educar também indica que os professores que estão com as crianças são responsáveis por toda a rotina. A partir dessa concepção, não é possível separar e hierarquizar ações pedagógicas e de cuidados pessoais, delegando, por exemplo, o banho, a troca de fraldas e a alimentação para auxiliares, enquanto os professores desenvolvem atividades consideradas educativas, como narrar histórias, cantar, desenhar, modelar e brincar. O processo de aprendizagem e desenvolvimento acontece de forma integral e em todos os momentos em que a criança está na instituição.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

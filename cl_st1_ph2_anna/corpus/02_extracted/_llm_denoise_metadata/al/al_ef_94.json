@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a6c91c0bff5583b006ab2fc99281887d29283a698105de237",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 844,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1104,
+      "output_tokens_details": {
+        "reasoning_tokens": 439
+      },
+      "total_tokens": 1948
+    }
+  },
+  "created_at": "2026-09-22T22:09:37Z",
+  "duration_seconds": 8.394,
+  "error": null,
+  "excerpt_id": "al_ef_94",
+  "filename": "al_ef_94.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2fb0549301a5ba80c0f06408baa6a2b0de0ae1dca263f29caabc8e08533007e8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b9a4911c2f21a14d9956c96af5ebaa43524fa61bcf14892db394c937f2b02aaa",
+    "rendered_prompt_sha256": "7c72175474eea3a28e2ed5f86b47498d802221a2c1e29cd787a5c135246f4c7e",
+    "source_text_sha256": "5690366860caffea9377097a036e625417d12104cc7909dad19b875d4b95665f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_94.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 235,
+    "filename": "al_ef_94.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_94.txt",
+    "state": "al",
+    "word_count_original": 522
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_94.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_94.json"
+  },
+  "raw_response_text": "### 5.2 Ciências da Natureza no Ensino Fundamental\n\nO conhecimento em ciências da natureza pode ser construído com o uso de diversos métodos, desde a experimentação até situações investigativas, como as situações-problema, em que envolvem as concepções alternativas dos estudantes, a elaboração e a verificação de hipóteses e a sistematização da construção de conceitos. De acordo com Moura (2014), o ponto a ser destacado é a multiplicidade de formas como o trabalho científico pode ser desenvolvido nos processos de ensino.\n\nNesse sentido, faz-se necessário estabelecer um conjunto de saberes integrados e significativos para o prosseguimento dos estudos, bem como para o entendimento e ação crítica acerca do mundo e para o mundo do trabalho. Segundo Carvalho (2013), cabe ao estudante dominar procedimentos básicos de investigação e de produção de conhecimentos científicos por meio da busca de informações em diversas fontes e desenvolver a capacidade de pesquisar e de buscar e (re)construir conhecimentos.\n\nDentre as recomendações dos documentos oficiais destacam-se a necessidade do tratamento interdisciplinar e contextualizado que possa responder às necessidades da vida contemporânea e o desenvolvimento de conhecimentos mais amplos e abstratos, de forma a levar os estudantes à aquisição de cultura geral e a uma visão global do mundo.\n\nA partir do que preconiza a BNCC (2017), os componentes da área de Ciências da Natureza devem interagir, buscando a explicação de fenômenos e problemas complexos, naturais ou criados pelos seres humanos. A crescente valorização do conhecimento e a capacidade de inovar demanda cidadãos capazes de aprender continuamente para o que é essencial a uma formação integral.\n\nDe acordo com as Diretrizes Curriculares Nacionais (BRASIL, 2013), a interdisciplinaridade, importante para o aprendizado científico, não elimina a indiscutível disciplinaridade do conhecimento. Além disso, o conhecimento científico disciplinar é parte essencial da cultura contemporânea.\n\nNesta perspectiva, em Ciências da Natureza se apresentam interligadas os conhecimentos das áreas de Física, Química e Biologia, que possuem em comum a investigação dos fenômenos naturais e o desenvolvimento tecnológico, e compartilham linguagens para a representação e sistematização do conhecimento de fenômenos ou processos naturais e tecnológicos.\n\nO ensino de Ciências deve permear a abordagem de temas abrangentes e contemporâneos que fazem parte da vida humana em escala global, regional e local, bem como na esfera individual. Temas que envolvam questões da sociedade brasileira como saúde, preservação do meio ambiente, educação para o consumo, educação fiscal e de trânsito, educação alimentar e nutricional, trabalho, ciência e tecnologia, diversidade étnica, de gênero e cultural, a discriminação, o preconceito, dentre outros.\n\nOs conhecimentos científicos e tecnológicos abordados devem se aproximar da cultura e da produção contemporânea, em estreita relação com outras áreas, considerando sua relevância social e sua produção histórica.\n\nO ensino de Ciências deve se distinguir do ensino unicamente voltado para formação de supostos cientistas e ser direcionado para todos os estudantes, independentemente da profissão que terão no futuro: uma formação para todos e para a vida, contemplando as competências específicas para o ensino de Ciências da Natureza.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

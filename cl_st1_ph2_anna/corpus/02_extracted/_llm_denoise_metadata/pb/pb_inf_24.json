@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09efeec4d3377b90006ab3079cf99887d28c6528938cde2146",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 512,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 559,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 1071
+    }
+  },
+  "created_at": "2026-09-22T22:56:35Z",
+  "duration_seconds": 6.404,
+  "error": null,
+  "excerpt_id": "pb_inf_24",
+  "filename": "pb_inf_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "610d55835b0b5c2af2dd76262d8c257f351f46562376b5a1cc585670e44b6e47",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b118af0c9b0f3d28956f465d1898a5b39cfede7505fd63b46f5fccc5a85b9fb2",
+    "rendered_prompt_sha256": "570bb3abda1fe488425a61a6e698044d6dd9285a274f13745a9bdb4ed55ebd60",
+    "source_text_sha256": "1a65bb23217c6a6aaa71c109a289e5e2f51759ba91cbe9c4d825cfde92f973e7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2368,
+    "filename": "pb_inf_24.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_24.txt",
+    "state": "pb",
+    "word_count_original": 252
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_24.json"
+  },
+  "raw_response_text": "**CAMPO DE EXPERIÊNCIA: “CORPO, GESTOS E MOVIMENTOS”**\n\n**OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO**\n\nCriar com o corpo formas diversificadas de expressão de sentimentos, sensações e emoções, tanto nas situações do cotidiano quanto em brincadeiras, dança, teatro e música.\n\nDemonstrar controle e adequação do uso do seu corpo em brincadeiras e jogos, escuta e reconto de histórias, atividades artísticas, entre outras possibilidades.\n\nCriar movimentos, gestos, olhares e mímicas em brincadeiras, jogos e atividades artísticas, como dança, teatro e música.\n\nAdotar hábitos de autocuidado relacionados à higiene, alimentação, conforto e aparência.\n\nCoordenar suas habilidades manuais no atendimento adequado a seus interesses e necessidades em situações diversas.\n\n(BNCC, 2017)\n\n**SUGESTÕES DE VIVÊNCIAS QUE FAVORECEM A CONSTRUÇÃO DE EXPERIÊNCIAS PELAS CRIANÇAS PEQUENAS NESTE CAMPO**\n\nAs práticas realizadas na Instituição de Educação Infantil devem possibilitar:\n\n- Exploração de situações diversas que favoreçam experiências de expressão corporal por meio de diferentes linguagens (dança, teatro, música) e de brincadeiras do universo cultural da criança e de outras culturas;\n- Situações em que possa vivenciar jogos, brincadeiras, atividades literárias, bem como outras, que impliquem o uso do seu corpo e um autocontrole do mesmo;\n- Espaços de criação por meio de diferentes linguagens artísticas e que incluam o corpo e o movimento;\n- Vivências de cuidado com o corpo, sua higiene, conforto e bem estar, construindo uma imagem de si a partir de sua própria estética, em termos de aparência;\n- Manipulem, criem e confeccionem brinquedos da cultura local e geral;\n- Possam vivenciar práticas relacionadas à autonomia, como cuidar do seu próprio corpo.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dca515e35b37b88006ab310570b5c87d284db32b9dee330f4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 817,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1008,
+      "output_tokens_details": {
+        "reasoning_tokens": 266
+      },
+      "total_tokens": 1825
+    }
+  },
+  "created_at": "2026-09-22T23:33:53Z",
+  "duration_seconds": 10.258,
+  "error": null,
+  "excerpt_id": "to_em_69",
+  "filename": "to_em_69.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2f28f1202730cfeed582e245202aba7eaf4e2f6c1bfdd12efe818f24bb220e48",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "510679f59ccc1314d5b62c0385112235111849e0a23f7acd29686797f34ef00d",
+    "rendered_prompt_sha256": "050c828859111bcdcdb3bc341818d8ba3e5588d71336d12bf09157dfd94f6da2",
+    "source_text_sha256": "28549821b14207da4d15864c5e86153e374fec87684ac2db633723d32950ca67"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_69.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4072,
+    "filename": "to_em_69.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_69.txt",
+    "state": "to",
+    "word_count_original": 486
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_69.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_69.json"
+  },
+  "raw_response_text": "## 11. ARQUITETURAS PARA O ENSINO MÉDIO E AS POSSIBILIDADES DE ESTRUTURA CURRICULAR\n\nA Lei nº 13.415/2017 alterou a Lei de Diretrizes e Bases da Educação Nacional e estabeleceu mudanças na estrutura do Ensino Médio, ampliando o tempo mínimo do estudante na escola, de 800 horas para 1.000 horas anuais (até 2022) e definindo uma nova organização curricular, mais flexível, que contemple uma Base Nacional Comum Curricular (BNCC) e a oferta de diferentes possibilidades de escolhas aos estudantes: os Itinerários Formativos (no regime parcial) e, nas Escolas de Tempo Integral, as Unidades Curriculares Integradoras com foco nas áreas de conhecimento e na formação técnica e profissional.\n\nA mudança tem como objetivos garantir a oferta de educação de qualidade a todos os jovens brasileiros e de aproximar as escolas à realidade dos estudantes do século XXI, considerando as novas demandas e complexidades do mundo do trabalho e da vida em sociedade.\n\nO infográfico a seguir traz possíveis arranjos com distribuição da carga horária da Formação Geral Básica e dos Itinerários Formativos, ao longo dos três anos do Ensino Médio.\n\n**Ponto de atenção:** É importante destacar que estas possibilidades de Arquitetura limitam-se ao período de 2022 a 2024, considerando que a legislação vigente estabelece que, a partir de 2024, a carga horária anual passará a ser de 1.400 horas (relógio).\n\nPara a rede estadual, orienta-se que seja destinada uma carga horária específica para o desenvolvimento do Projeto de Vida dos estudantes desde o início do Ensino Médio, para que estes tenham a oportunidade de exercer seu protagonismo, considerando que esta é a etapa em que ocorre o maior número de evasão.\n\n### 11.1 Possibilidades de oferta de carga horária para o Ensino Médio\n\nA arquitetura curricular do território do Tocantins compreenderá, de 2022 a 2024, a seguinte carga horária:\n\n- Formação Geral Básica com, no máximo, 1.800 horas; e\n- Itinerários Formativos com, no mínimo, 1.200 horas.\n\nA Portaria nº 521, de 13 de julho de 2021, instituiu o Cronograma Nacional de Implementação do Novo Ensino Médio, tendo como objetivo apoiar as Unidades da Federação no processo de implementação dos documentos curriculares, alinhados à Base Nacional Comum Curricular (BNCC, 2018), bem como efetivar a operacionalização do art. 24, § 1º, e do art. 36 da Lei nº 9.394, de 20 de dezembro de 1996. Desta forma, de 2022 a 2024, as Escolas de Ensino Médio deverão ofertar carga horária de mil horas anuais.\n\nA implementação do novo referencial curricular no Tocantins atenderá ao seguinte cronograma, conforme Portaria/MEC nº 521/2021:\n\n- **2022** — Implementação do Documento Curricular na 1ª série do Ensino Médio.\n- **2023** — Implementação do Documento Curricular nas 1ª e 2ª séries do Ensino Médio.\n- **2024** — Implementação do Documento Curricular nas 3ª séries do Ensino Médio.\n\nO cronograma contempla também o monitoramento da implementação do Documento Curricular do Território do Tocantins e formação continuada dos profissionais da educação, nos anos de 2022 a 2024.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

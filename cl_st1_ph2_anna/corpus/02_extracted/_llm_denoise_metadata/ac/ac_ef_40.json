@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b802f1ebeb2bfd1006ab2fbab312887d2a79644c807794d33",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 436,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 458,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 894
+    }
+  },
+  "created_at": "2026-09-22T22:05:35Z",
+  "duration_seconds": 3.903,
+  "error": null,
+  "excerpt_id": "ac_ef_40",
+  "filename": "ac_ef_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1f2869fde82b5764ae01c1cff30ea0692bcb82f368146b02058042e8ef9862cf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3d5f8e561026e4d7de05af5b38866be0ee4cdd193e4a36931c0b7cb03c6cdb93",
+    "rendered_prompt_sha256": "f102098997b4d73fa7b7c53be8bbf1fd8334c6955e67c3f9a311439e26c676f3",
+    "source_text_sha256": "431a427fc19299ba0e3588b1520cd6eef7d458094464fb800bfe259b360f094a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 35,
+    "filename": "ac_ef_40.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_40.txt",
+    "state": "ac",
+    "word_count_original": 222
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_40.json"
+  },
+  "raw_response_text": "## 4. ORIENTAÇÕES DE APLICABILIDADE DO COMPONENTE MATEMÁTICA\n\n### 4.1. Anos iniciais\n\nNo Ensino Fundamental – Anos Iniciais, deve-se retomar as vivências cotidianas das crianças com números, formas e espaço, e as experiências desenvolvidas na Educação Infantil, para iniciar uma sistematização dessas noções. Nessa fase, as habilidades matemáticas que os alunos devem desenvolver não podem ficar restritas à aprendizagem dos algoritmos das chamadas “quatro operações”, apesar de sua importância. No que diz respeito ao cálculo, é necessário acrescentar, à realização dos algoritmos das operações, a habilidade de efetuar cálculos mentalmente, fazer estimativas, usar calculadora e, ainda, para decidir quando é apropriado usar um ou outro procedimento de cálculo.\n\nPortanto, este documento orienta-se pelo pressuposto de que a aprendizagem em Matemática está intrinsecamente relacionada à compreensão, ou seja, à apreensão de significados dos objetos matemáticos, sem deixar de lado suas aplicações. Os significados desses objetos resultam das conexões que os alunos estabelecem entre eles e os demais componentes, entre eles e seu cotidiano e entre os diferentes temas matemáticos. Desse modo, recursos didáticos como malhas quadriculadas, ábacos, jogos, livros, vídeos, calculadoras, planilhas eletrônicas e softwares de geometria dinâmica têm um papel essencial para a compreensão e utilização das noções matemáticas. Entretanto, esses materiais precisam estar integrados a situações que levem à reflexão e à sistematização, para que se inicie um processo de formalização.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

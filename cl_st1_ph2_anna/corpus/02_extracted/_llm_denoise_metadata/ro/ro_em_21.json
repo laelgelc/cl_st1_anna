@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e6ed2ab877732c4006ab30c15623c87d2ad5a334de041f392",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 580,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 581,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 1161
+    }
+  },
+  "created_at": "2026-09-22T23:15:39Z",
+  "duration_seconds": 6.123,
+  "error": null,
+  "excerpt_id": "ro_em_21",
+  "filename": "ro_em_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "97cbafcfd4a4ac42d7d05f64f6ea3f0a4eb9ef6205067626e206bd0f9476ee92",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1e043b4da81c09505f2046b897536769f07247f916a243531553ac57d6cf1425",
+    "rendered_prompt_sha256": "0b0ca689040c2c83a4e14deb0b97a223029ea153484ebf9bc14788e8e635d0a9",
+    "source_text_sha256": "4b71fb56b586216e6eeb4ac91e6a1339ce9542d72975610c17e880418cdacfcd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3236,
+    "filename": "ro_em_21.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_21.txt",
+    "state": "ro",
+    "word_count_original": 337
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_21.json"
+  },
+  "raw_response_text": "### 1.6.3.4. Nível de autonomia das redes e instituições de ensino\n\nAo definir os Itinerários Formativos, as redes e instituições de ensino de Rondônia precisam assegurar e garantir a qualidade e equidade em suas propostas pedagógicas. Desse modo, as DCNEM reforçam a importância de garantir a autonomia da escola conforme estabelece em seu art. 20, parágrafo I:\n\n> Os sistemas de ensino, atendendo a legislação e a normatização nacional vigentes e na busca da adequação às necessidades dos estudantes e do meio social, devem:  \n> I - garantir liberdade, autonomia e responsabilidade às unidades escolares, fortalecendo sua capacidade de concepção, formulação e execução de suas propostas pedagógicas (BRASIL, 2018a, p.12);\n\nAo reconhecer a autonomia das redes e instituições de ensino, o Referencial Curricular para o Ensino Médio de Rondônia considera que as proposições de “Trilhas de Aprofundamento” e “Eletivas” devem ser organizadas pelas escolas com o acompanhamento das redes ou instituições de ensino e do Conselho Estadual de Educação de Rondônia. Essas ações ocorrerão por meio do processo de elaboração e aprovação das propostas pedagógicas de cada escola considerando as definições dispostas no Capítulo 3 desse referencial curricular, que trata sobre os Itinerários Formativos.\n\nNesse sentido, a DCNEM em seu art. 26, fundamentada no princípio do pluralismo de ideias e de concepções pedagógicas, no exercício da autonomia escolar e na gestão democrática, considera que:\n\n> [...] a proposta pedagógica das unidades escolares deve traduzir a proposta educativa construída coletivamente, garantida a participação efetiva da comunidade escolar e local, bem como a permanente construção da identidade entre a escola e o território no qual está inserida (BRASIL, 2018d, p.13).\n\nAinda vale ressaltar que “cabe a cada unidade escolar a elaboração da sua proposta pedagógica em consonância com o documento curricular definido pelo seu sistema de ensino” (BRASIL, 2018d, p.13).\n\nNessa perspectiva, as unidades escolares devem participar ativamente do processo de elaboração e oferta dos itinerários formativos, oportunizando a escuta dos estudantes e de toda comunidade escolar, observando as potencialidades do seu território e das condições da escola.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

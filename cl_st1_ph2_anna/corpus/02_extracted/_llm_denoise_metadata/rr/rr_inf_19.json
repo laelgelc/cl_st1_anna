@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_065ab785cc38b738006ab30d6e45f087d2a3df1a2e42ee12ae",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 671,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 739,
+      "output_tokens_details": {
+        "reasoning_tokens": 160
+      },
+      "total_tokens": 1410
+    }
+  },
+  "created_at": "2026-09-22T23:21:24Z",
+  "duration_seconds": 6.41,
+  "error": null,
+  "excerpt_id": "rr_inf_19",
+  "filename": "rr_inf_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "79ff5c4a6cec6e49ab111455886a4859adab73ce63b102327472771a95bf83be",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "388430fbf298d1c3cd53fac17d04ff36b7cfa4115cb8c490f00b9182a76e9276",
+    "rendered_prompt_sha256": "5dc590027da90bdbdddc0f4bdb3000d1742b53c422c8a932c50c0c5ed785e3a5",
+    "source_text_sha256": "43f5a4dc9884d3bcf7ec3743311eeb83273b537ac58f76780b65ec09d5f7c216"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3517,
+    "filename": "rr_inf_19.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_19.txt",
+    "state": "rr",
+    "word_count_original": 423
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_19.json"
+  },
+  "raw_response_text": "## 3.8 A EDUCAÇÃO INFANTIL NAS MÚLTIPLAS ESPECIFICIDADES\n\n### 3.8.1 A EDUCAÇÃO FÍSICA NA EDUCAÇÃO INFANTIL\n\nPor ser uma fase de constantes transformações, quer seja dos vínculos afetivos quer de ampliação das interações em ambientes diversos, a escola de educação infantil tem a função de mediar o processo de integração entre contextos familiar e socioescolar. Nesse contexto, a educação física contribui nesse processo, por meio de práticas de experiências motoras de acordo com as necessidades de cada criança.\n\nEssa premissa norteia a Educação Física como um componente curricular de grande relevância na educação infantil e está integrada ao campo de experiência Gestos, Corpo e Movimento, pois pode proporcionar as crianças momentos de novas experiências, contatos com outras pessoas que não sejam aos do seu ambiente familiar, descobertas, percepções sobre seu próprio corpo a partir da realização de uma diversidade de movimentos. Deste modo, a Educação Física atrelada à Educação infantil estará contribuindo para o desenvolvimento integral das crianças.\n\nA orientação curricular da Educação Física na Educação Infantil objetiva a promoção do lúdico, fomentando um programa de atividades psicomotoras, em que nesta primeira etapa, a construção do conhecimento está integrada à ação corporal e à ação cognitiva, uma vez que o desenvolvimento psíquico, cognitivo e social da criança é intenso e dinâmico nesta fase.\n\nNa pequena infância, as práticas corporais se organizam em jogos e brincadeiras que expressam o conhecimento a ser apropriado e construído pela criança sobre o seu movimentar (ROCHA, 2010). Para tanto, é imprescindível fomentar atividades motoras, uma vez que estas promovem a autonomia, a criatividade, a responsabilidade, a estruturação, a consciência corporal, a noção espaço-temporal na relação consigo, com o outro e com seu meio.\n\nNesse sentido, a Educação Física na Educação Infantil proposta no Currículo Territorial está voltada para a promoção da criança e o seu desenvolvimento da motricidade, através de atividades lúdicas, promovendo a consciência corporal e espaço temporal. Além disso, o estado de Roraima reconhece que o processo de desenvolvimento dos indivíduos tem relação direta com o seu ambiente sociocultural e eles não se desenvolveriam plenamente sem o suporte de outros indivíduos da mesma espécie.\n\nAssim, cada fase de desenvolvimento infantil tem suas próprias características, portanto, exigem estudos aprofundados sobre os métodos pedagógicos, as qualidades dos estímulos fornecidos e a atuação intencional do profissional na aula de educação física.\n\nPor fim, o professor deve levar em conta a peculiaridade de cada fase pela qual a criança passa as particularidades de cada jogo, brincadeira ou esporte que possam auxiliar o educando no seu desenvolvimento integral.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_094f89afcf199826006ab30c9db3e487d2b780197a64948eda",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 888,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1051,
+      "output_tokens_details": {
+        "reasoning_tokens": 265
+      },
+      "total_tokens": 1939
+    }
+  },
+  "created_at": "2026-09-22T23:17:57Z",
+  "duration_seconds": 7.415,
+  "error": null,
+  "excerpt_id": "ro_inf_19",
+  "filename": "ro_inf_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "be6fdf08518954104001eed0c62270485ae38017a16bc8a4258e6b8168c31ca5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a4f63e8f108b832c6aa6b545df7077ed91b8eb7f808528fe2bff376f7bb71700",
+    "rendered_prompt_sha256": "a0dc3ce1ae0d7a4fbb5d4b7121a75a4c082325b5ab23ad7b3d765f41e88e03ed",
+    "source_text_sha256": "2fb22773a6802845e51a6c73adb58d70910d03539c340ca37d65fc542ce4ccdc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3331,
+    "filename": "ro_inf_19.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_19.txt",
+    "state": "ro",
+    "word_count_original": 616
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_19.json"
+  },
+  "raw_response_text": "A Educação no e do campo trata-se de uma política pública que possibilita o acesso ao direito à educação de crianças que vivem fora do meio urbano e que precisam ter esse direito garantido nas mesmas proporções em que é garantido para a população urbana. Importante esclarecer que a educação do campo possui tal denominação não só apenas por sua localização espacial e geográfica, mas também pela cultura que a população camponesa possui que a diferencia da cultura das pessoas que vivem no meio urbano.\n\nA Educação no e do Campo vem ganhando espaços no debate educacional e legal. Esse avanço tem a inserção por vezes efetuada pelos movimentos sociais, mas de maneira geral, pelos sujeitos do campo. Nesse contexto, após a aprovação das Diretrizes Operacionais para Educação Básica nas escolas do campo, essa modalidade de educação vem ocupando espaço de debate educacional em nível nacional e com isso vem desencadeando um processo de mobilização e envolvimento social na busca de fortalecer a construção de políticas públicas que garantam o acesso e permanência à Educação de qualidade para os povos do campo.\n\nO cenário educacional em Rondônia é amplo e diversificado, dividido em cinquenta e dois (52) municípios, áreas rurais e de difícil acesso. Algumas comunidades vivem nas margens de rios, que compõem grande extensão, por exemplo, o rio Madeira e rio Machado. Essa realidade geográfica necessita de políticas públicas inovadoras que contemplem o direito ao acesso à educação e formação profissional dos habitantes das comunidades rurais de forma que os mesmos não precisem sair de suas localidades em busca de oportunidades ao que concerne à educação Básica.\n\nA Lei de Diretrizes e Bases da Educação Nacional no 9394/96, Art. 28 estabelece as diretrizes e bases da educação nacional para a educação no e do campo:\n\n> Na oferta de educação básica para a população rural, os sistemas de ensino promoverão as adaptações necessárias à sua adequação às peculiaridades da vida rural e de cada região, especialmente: I – conteúdos curriculares e metodologias apropriadas às reais necessidades e interesses dos alunos da zona rural; II – organização escolar própria, incluindo adequação do calendário escolar às fases do ciclo agrícola e às condições climáticas; III – adequação à natureza do trabalho na zona rural (BRASIL, 1996).\n\nA educação no e do campo há tempo vem ampliando sua oferta, porém ainda são muitos os desafios, entre eles citamos o transporte escolar com acentos seguros adequados ao tamanho das crianças, propostas pedagógicas voltadas à realidade concreta dos sujeitos do campo, que valorize a identidade desses sujeitos.\n\nA criança do campo, assim com a que reside em espaços urbanos, como a criança indígena ou quilombola tem cultura própria que inclui seu modo de viver e de brincar. Logo, a organização de vivências e experiências cotidianas para essas crianças precisam garantir suas especificidades, neste caso o olhar atento torna-se imprescindível para que seja contemplado como ponto de partida a realidade concreta das crianças do campo articulados com o patrimônio cultural, artístico, científico e tecnológico produzido pela humanidade.\n\nA importância de implantar propostas pedagógicas para as crianças que vivem no campo respalda-se nas legislações vigentes, que procuram enfatizar o seu caráter singular a exemplo da LDB 9394/96, e do Plano Nacional de Educação (PNE), que ressalta a necessidade de tratamento diferenciado para a escola do campo, da Resolução CNE/CEB n. 1/2002, que institui as diretrizes operacionais para a educação básica nas escolas do campo, dos referenciais para a Política Nacional de Educação do Campo; da Resolução CNE/CEB n.2/2008, que estabelece diretrizes complementares, normas e princípios para o desenvolvimento de políticas públicas de atendimento da Educação Infantil no e para o campo.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

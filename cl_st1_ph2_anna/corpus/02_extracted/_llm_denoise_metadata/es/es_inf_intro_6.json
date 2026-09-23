@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_007ea1c6bf9422d5006ab300ddf0c087d29da20478d16240e0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 920,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 831,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 1751
+    }
+  },
+  "created_at": "2026-09-22T22:27:47Z",
+  "duration_seconds": 5.796,
+  "error": null,
+  "excerpt_id": "es_inf_intro_6",
+  "filename": "es_inf_intro_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0cc0494eff00d7227f600b7fc6b2e55b9a7f230c16e1af52bc39dc00aad86b29",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "355784766fb6bc53ee6da19044932bfe25dc8b8a22d8f0d9a54ecb1cc2c1a95f",
+    "rendered_prompt_sha256": "519da8a7af33827aa5f42e2d24b93f13f40324a7f42d41c6c0825bb0b1403e99",
+    "source_text_sha256": "ae8b61f2d53315206b6a2e17e8702fe696b9796cf576dde213710bc764ae9f14"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_intro_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1079,
+    "filename": "es_inf_intro_6.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_intro_6.txt",
+    "state": "es",
+    "word_count_original": 572
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_intro_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_intro_6.json"
+  },
+  "raw_response_text": "Por outro lado, é preciso fortalecer políticas que visem garantir que todos os estudantes das redes atendidas por esse documento tenham seus direitos assegurados a partir da viabilidade de condições adequadas a sua aprendizagem, considerando as diferentes necessidades que apresentam e que influenciam o processo de aprendizagem, como: saúde, nutrição, diversos tipos de violência, fatores psicossociais, mobilidade, conflitos familiares, abandono, falta de perspectiva sobre o futuro, entre outros. Portanto, equidade e inclusão não são compromissos apenas da escola, o que reforça a importância do avanço de ações intersetoriais e a elaboração de políticas públicas que as consolidem e deem sustentação à sua continuidade, de modo que estejam articuladas para o enfrentamento necessário e urgente das vulnerabilidades às quais nossas crianças e adolescentes estão submetidos e para sua proteção, de modo que nenhuma negligência possa comprometer o direito ao seu pleno desenvolvimento.\n\nO acolhimento da pluralidade e da singularidade dos estudantes revela a necessidade de reconhecer as crianças, adolescentes, jovens e adultos em suas diferentes dimensões. Isso supera uma concepção que valoriza quase que exclusivamente a dimensão cognitiva e nos desafia para o desenvolvimento da integralidade dos sujeitos da aprendizagem, num contexto em constante mudança, saturado de informações, cheio de incertezas e num mundo cada vez mais diverso.\n\nMediante os novos desafios colocados pela sociedade do século XXI, especialmente ligados às mudanças econômicas, políticas e sociais provocadas pela era do conhecimento e da informação, permeada pelo uso de tecnologias digitais, nascem novas necessidades de aprendizagem e desenvolvimento, de modo que, os sujeitos que a constituem, possam se apropriar de suas exigências para ter condições de atuar em seu contexto de forma crítica e, ao mesmo tempo, de estar apto para propor novos rumos, vislumbrando uma sociedade mais igualitária, solidária, participativa, responsável e inclusiva.\n\nO Currículo do Espírito Santo vislumbra uma educação comprometida com o desenvolvimento de competências, que incluem o domínio do conhecimento, mas vão para além dele, pois pressupõe também o domínio de habilidades e atitudes necessárias para viver, atuar e intervir no mundo. Importante mencionar também que não se trata do desenvolvimento de habilidades a serem adquiridas de forma mecanicista, justaposta e fragmentada, que ao fim se chega numa atuação compartimentada, repetitiva, superficial e externa a quem a executa.\n\nEsse documento compactua com a compreensão das competências de forma global, sistêmica, flexível, reflexiva e contextualizada, o que pressupõe que, mediante situações complexas, o sujeito seja capaz de diagnosticar, analisar, propor soluções, atuar de forma criativa e adaptativa, avaliar o processo e resultados, bem como propor novas melhorias de modo pessoal, portanto, a partir de seus conhecimentos e da sua capacidade de identificar necessidades e intervir na realidade, de modo crítico e criativo. Acrescenta-se ainda a importância do diálogo e da colaboração, visando o desenvolvimento de uma educação com o outro, de modo que suas ideias e propostas sejam discutidas, pensadas coletivamente e para o coletivo, elaboradas em conjunto e voltadas para o atendimento ao bem comum e a vida democrática.\n\nO Currículo do Espírito Santo reitera seu compromisso em valorizar a aprendizagem e suas diferentes formas de desenvolvimento, de respeitar o educando em sua singularidade, integralidade e diversidade, de ampliar a leitura de mundo a partir do conhecimento científico trabalhado de modo significativo, de promover a contextualização e a problematização dos saberes, de fortalecer a relação professor-estudante num processo de mediação e diálogo, e de direcionar os esforços para a melhoria da qualidade em educação como um direito fundamental.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

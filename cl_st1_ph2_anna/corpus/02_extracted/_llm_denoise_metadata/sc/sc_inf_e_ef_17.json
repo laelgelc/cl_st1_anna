@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08feada9057c6670006ab30ed98b4487d2b73bc01c657c01a1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 653,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 666,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 1319
+    }
+  },
+  "created_at": "2026-09-22T23:27:28Z",
+  "duration_seconds": 6.647,
+  "error": null,
+  "excerpt_id": "sc_inf_e_ef_17",
+  "filename": "sc_inf_e_ef_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "015560685d34b208c8f4c6f63ab90632d6d9ee11e7919521011997c343dd6fd2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9b7e44ba86be723234bfe9dea40c11a58b02ed68afbda4588250bc8cf25f377c",
+    "rendered_prompt_sha256": "e65de3f4cae5974363252a7ca198decdf9989dd7598433c27d22ed6e55c4575e",
+    "source_text_sha256": "d3d4b66ff8207f9dba05e599211d0913672f02df82d55464b190c1610df2a659"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sc/sc_inf_e_ef_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3767,
+    "filename": "sc_inf_e_ef_17.txt",
+    "filepath": "corpus/00_source_per_state/sc/sc_inf_e_ef_17.txt",
+    "state": "sc",
+    "word_count_original": 388
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sc/sc_inf_e_ef_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sc/sc_inf_e_ef_17.json"
+  },
+  "raw_response_text": "### 1.3.9 Considerações e recomendações\n\nAo concluir este texto, situa-se um conjunto de recomendações/sugestões para a elaboração de diretrizes curriculares, teórico-metodológicas e operacionais para a implantação/acompanhamento da EJA no território catarinense. Assim sendo, indica-se e defende-se:\n\n- a compreensão dos fundamentos teórico-metodológicos da Educação de Jovens, Adultos(as) e Idosos(as) como uma modalidade da Educação Básica. Tal compreensão busca, em sua organização curricular, ações de Integração curricular orientada pelos princípios do trabalho, das questões sociais e da diversidade como percurso formativo;\n- o enfoque maior, por parte do(a) professor(a), nas experiências concretas dos(as) jovens e adultos(as), em sua maioria, trabalhadores(as) como elementos fundantes para o desenvolvimento dos processos de ensino e de aprendizagem;\n- a incorporação nas propostas curriculares dos seguintes componentes pedagógicos: avaliação diagnóstica e formativa, planejamento participativo com toda a comunidade escolar;\n- a autonomia das diferentes redes de ensino na construção de matrizes curriculares a partir das especificidades dos/das estudantes jovens, adultos(as) e idosos(as) no diálogo com as equipes pedagógicas;\n- a necessidade de acompanhamento pedagógico dos cursos e dos(as) estudantes na busca de estratégias de acesso, permanência e continuidade de estudos;\n- a promoção de chamadas públicas para a Educação de jovens, adultos(as) e idosos(as) como direito subjetivo e constitucional por parte das redes de ensino;\n- a elaboração de materiais didáticos por parte das redes de ensino, conjuntamente aos seus/suas docentes fundamentados em diretrizes específicas para a EJA;\n- a construção de indicativos para a formação docente que atenda ao caráter crítico-reflexivo e que compreenda as especificidades da EJA;\n- as garantias por parte das redes de ensino condições materiais, de estrutura pedagógica e financeiras aos docentes e às discentes da EJA e a constituição de documentos legais e de orientação para a EJA nos diferentes Conselhos Municipais de Educação;\n- os programas de alfabetização de jovens, adultos(as) e idosos(as) precisam ser pensados como processos iniciais de escolarização e é preciso que seja garantida a oferta para a continuidade dos processos de escolarização desses(as) estudantes.\n- a criação de políticas de valorização dos profissionais da Educação de Jovens, adultos(as) e idosos(as), incluindo quadros efetivos de docentes.\n- as perspectivas de possibilidades de inserção social de apostas na diversidade como percurso formativo mediante os elementos que constituem este documento.",
+  "state": "sc",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

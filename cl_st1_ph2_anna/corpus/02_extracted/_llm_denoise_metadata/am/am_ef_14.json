@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ee2194945f6a927006ab2fd0ff6fc87d2a326d5b5cb2a0f31",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 927,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 890,
+      "output_tokens_details": {
+        "reasoning_tokens": 141
+      },
+      "total_tokens": 1817
+    }
+  },
+  "created_at": "2026-09-22T22:11:35Z",
+  "duration_seconds": 7.591,
+  "error": null,
+  "excerpt_id": "am_ef_14",
+  "filename": "am_ef_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b1ea48b7bebffb3c0810ed322b167a5ce0f143a72e5f1861072e209b1321be74",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c3c1942418b0fe78ae9adc15e0fb3eafd8b7299818f973fd3f12fbab494c3dfb",
+    "rendered_prompt_sha256": "c8d3e0c5c8214ad90b603b0f915ff4280162453a707af69c6a3c8d2a85eaf9be",
+    "source_text_sha256": "793a4fbee6ee14565bc8c136dad9bfac20620496a1e2c87ec83fdba1c1616e56"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 315,
+    "filename": "am_ef_14.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_14.txt",
+    "state": "am",
+    "word_count_original": 557
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_14.json"
+  },
+  "raw_response_text": "### 5.3.\n\nA inserção da população negra na sociedade brasileira se deu pelo trabalho, base da organização econômica e da convivência familiar, social e cultural. Uma presença viva, de grande contribuição e influência, no entanto, isso foi negado durante séculos, resultante de uma sociedade construída com base em aspectos fundados no racismo e na intolerância, resquício de uma historicidade humana, infelizmente caracterizada por tantas mazelas.\n\nNo imaginário coletivo, as representações negativas em relação aos povos africanos e seus descendentes resultaram, ainda, de uma ação conjunta e articulada da educação formal e informal da mídia, da literatura, entre outros agentes de criação e manutenção de estereótipos. Paralelo a isso, podemos observar a luta do Movimento Negro ao longo de séculos, que dentre suas reivindicações e batalhas, priorizava transformar a realidade da discriminação racial dentro das escolas.\n\nSegundo Algarves (2004), a história e raiz cultural do povo negro foi esquecida, omitida e distorcida pela escola, professores e sociedade ao mesmo tempo em que atitudes discriminatórias em relação à cultura e as pessoas de origem africana foram permitidas e até naturalizadas. Assim, buscar práticas educativas que permitam aos professores e educandos conhecerem a cultura negra é uma forma de promover relações de respeito e valorização da diversidade e da diferença dentro desse espaço de educação.\n\nNesta perspectiva de valorização, surge no cenário educacional a Lei Nº10.639/03, cujo objetivo é estimular o reconhecimento e a valorização da diversidade cultural e étnica que caracteriza a população brasileira. Esta política não só propõe uma mudança no cânone educacional como também a alteração na forma como o conhecimento é transmitido e a maneira como crianças e jovens são tratados.\n\nNesse contexto ela obriga o Estado a assumir sua responsabilidade diante da situação de exclusão vivenciada pela população negra, ao mesmo tempo em que assume que o espaço da escola não é isento de preconceitos e, em função disso, denota também a dificuldade de utilização do ambiente escolar para transmissão de conhecimentos críticos em relação à discriminação e também, a construção de um ambiente efetivamente inclusivo e solidário. Logo, este novo modelo de educação exige à garantia e preservação da diversidade étnica de seus cidadãos, promovendo alteração na forma da sociedade se enxergar que, até então, era homogênea e monocultural, passando a ser vista como pluricultural, ou seja, reconhecendo a diversidade sociocultural da História e Cultura Afro-brasileira.\n\nUma abordagem sobre o Ensino de História e Cultura Afro-brasileira no chão da sala de aula significa uma mudança não só nas práticas e nas políticas, mas também no imaginário pedagógico e na sua relação com o diverso, sensibilizando quanto à importância do reconhecimento da diversidade étnico-cultural que rege a nação multirracial e pluriétnica brasileira.\n\nÉ imperativo, portanto, essa prática para contribuir na correção das desigualdades históricas, pois ao fazer tal movimento, o Estado brasileiro, por meio de uma ação educacional, sai do lugar de neutralidade estatal diante dos efeitos nefastos do racismo na educação escolar e na produção do conhecimento e se coloca no lugar de um Estado democrático que reconhece e respeita as diferenças étnico-raciais e sabe da importância da sua mudança positiva dessa situação.\n\nEsse entendimento nos auxiliará a superar opiniões preconceituosas sobre os negros, a África, a diáspora; a denunciar o racismo e a discriminação racial e a implementar ações afirmativas, rompendo com o mito da democracia racial.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01bfb9e83d5e8579006ab2ff3e79f087d290a4ed24a630c134",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 688,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 812,
+      "output_tokens_details": {
+        "reasoning_tokens": 225
+      },
+      "total_tokens": 1500
+    }
+  },
+  "created_at": "2026-09-22T22:20:54Z",
+  "duration_seconds": 7.799,
+  "error": null,
+  "excerpt_id": "ce_ef_3",
+  "filename": "ce_ef_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "da413cea228cab0d8dc446809e3005c0739bf1664d2838e52d65881519652f5a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ba166031fd2a6b809d21bea8a86ad1d2390319210341ba499025ec8067f72b16",
+    "rendered_prompt_sha256": "7fc7db6f4d49abb123c760e9eab8546b1c8e46e0f040510bbffd43c4743dff36",
+    "source_text_sha256": "1609ee8012d49cb03121e8810ab8d9d7335621bd3f862e7810a77544604cae6b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 749,
+    "filename": "ce_ef_3.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_3.txt",
+    "state": "ce",
+    "word_count_original": 426
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_3.json"
+  },
+  "raw_response_text": "# ARTE\n\nA Arte, enquanto um componente curricular, é integrante da área de Linguagens. Ela se configura como um lugar de produção de saberes sensíveis, estéticos, políticos e de conhecimentos, competências e habilidades específicas para o seu ensino e aprendizagem. Portanto, a área de Arte caracteriza uma particularidade de conhecimento que o sujeito produz a partir de questionamentos mobilizados pelo desejo de compreensão do seu lugar no mundo sensível e político.\n\nDiferente dos demais componentes que se agrupam na área de linguagens, a Arte não pretende estabelecer apenas relações de linguagem. Não é seu papel ser entendida somente como uma linguagem, mas ser vista, sentida e articulada a partir de técnicas que a estruturam em vista as suas múltiplas maneiras de existência. Possibilitar às estudantes e aos estudantes o acesso a Arte é orientá-los(as) na busca de sua própria expressão.\n\nApesar de a sua importância na formação das educandas e dos educandos, somente em 1996, com a Lei de Diretrizes e Bases (LDB) nº 9.394/96, o ensino de Arte foi considerado obrigatório na Educação Básica e em linguagens artísticas definidas – Artes visuais, Teatro, Dança e Música: o texto da referida lei anuncia que “[...] o ensino de arte constituirá componente curricular obrigatório, nos diversos níveis da educação básica, de forma a promover o desenvolvimento cultural dos alunos.” (BRASIL, 2001, p. 30).\n\nAs questões ora apresentadas sugerem uma reflexão que pode ser um ponto de partida que remete a tempos e espaços que perpassam a formação escolar básica em experiências e práticas que se apresentam insuficientes ou até inexistentes no que tange à Arte.\n\nTê-la como partícipe da formação de cidadãs e cidadãos brasileiras/brasileiros é compreender que a educação deve se dar de maneira integral, objetivo muito caro ao DCRC, ao ter em vista a necessidade da existência da produção de atos políticos, da fruição como educação dos sentidos (afectos e perceptos) e da reflexão crítica sobre os acontecimentos culturais que possibilitam a reinvenção de si.\n\nO saber em Arte tem modus operandi diverso dentro Área de linguagens (modo de pensar e de expressão de pensamento). Isto torna possível o pensamento, ou seja, pensar e agir sobre algo, experimentar ao romper com a passividade. Pensar é, além disso, interpretar. Dito de outro modo, pensar é explicar, desenvolver, decifrar, traduzir signos. Na Arte, o que se conserva “[...] é um bloco de sensações, isto é, um composto de perceptos e afectos [...] a obra de arte é um ser de sensação, e nada mais: ela existe em si.” (DELEUZE; GUATTARI, 2005, p. 203).",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

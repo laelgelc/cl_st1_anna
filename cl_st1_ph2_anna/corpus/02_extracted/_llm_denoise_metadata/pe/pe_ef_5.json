@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03c28260ca999202006ab307de297c87d2ad588e4dbac8c93d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 856,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 991,
+      "output_tokens_details": {
+        "reasoning_tokens": 229
+      },
+      "total_tokens": 1847
+    }
+  },
+  "created_at": "2026-09-22T22:57:42Z",
+  "duration_seconds": 8.217,
+  "error": null,
+  "excerpt_id": "pe_ef_5",
+  "filename": "pe_ef_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b3631a937f45c1487ec1705a88c9c1f4366c3fc4be811d9b94bfa5129f847648",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "25833cec45fbd5dcc3b1b084f7565e50f3a6b64ef44b9684e18e0377556d2381",
+    "rendered_prompt_sha256": "52281642f14ecad6f05aaddb645c2f52d2ab0390aec41a428c1db9c7d03df452",
+    "source_text_sha256": "f1563d2b84bd242a4e07ab348a01d1fe8abfb92235f9cfcc6ad8b8826c964b02"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2429,
+    "filename": "pe_ef_5.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_5.txt",
+    "state": "pe",
+    "word_count_original": 579
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_5.json"
+  },
+  "raw_response_text": "### 1.3 PRINCÍPIOS NORTEADORES\n\nAo reconhecer a educação como um direito humano, o Currículo de Pernambuco define como eixo norteador o fortalecimento de uma sociedade democrática, igualitária e socialmente justa. Para tanto, adota como princípios orientadores: equidade e excelência, formação integral, educação em direitos humanos e inclusão.\n\nConsiderar a equidade e a excelência como princípios norteadores é compreender que todos têm direito à aprendizagem e que as necessidades de uns diferem das de outros, cabendo ao sistema educacional atender a todos, em suas especificidades, com qualidade. A excelência nas aprendizagens só faz sentido se acompanhada da equidade.\n\nDessa forma, apenas garantir o acesso à educação não é suficiente para a promoção da justiça e da inclusão social como também não é para a consolidação da democracia. É imperativo que o Estado promova políticas públicas que assegurem a permanência com sucesso do estudante na escola, visto que se os processos educativos não forem de qualidade e adequados às reais necessidades, também o impedirão de ter acesso aos bens sociais e culturais, promovendo exclusões da vida do trabalho e do exercício pleno da cidadania.\n\nÉ no bojo da equidade e do direito à aprendizagem, com vistas a uma educação de qualidade e comprometida com a justiça e a inclusão, que se dá a formação integral do ser. Essa perspectiva de formação visa ao desenvolvimento do sujeito em todas as suas dimensões, pois o enxerga não apenas cognitivamente, mas também social, emocional, cultural, espiritual e fisicamente.\n\nNesse sentido, um currículo pautado na formação integral considera o estudante como centro do processo pedagógico e compreende que todas as ações voltadas para as aprendizagens devem ser construídas, avaliadas e reorientadas a partir dos contextos, interesses e necessidades dos estudantes, proporcionando, portanto, o desenvolvimento integral e entendendo que todos são capazes de aprender, ainda que em tempos e formas diferentes.\n\nNessa ótica, é necessário não confundir formação integral com escola em tempo integral. Embora a ampliação da carga horária nos espaços de aprendizagem coopere para a formação integral dos sujeitos, mais do que aumentar o tempo e as atividades escolares, a formação integral se compromete com o diálogo entre os diversos conhecimentos curriculares e a realidade dos estudantes, com a transversalidade e a interdisciplinaridade. A formação dessa natureza defende, principalmente, que o respeito às diversidades culturais, religiosas, étnicas, raciais, sexuais e de gênero não seja apenas um princípio, mas também uma estratégia formativa para o desenvolvimento de crianças, jovens e adultos nas suas multidimensionalidades.\n\nA Educação em Direitos Humanos contribui para esta visão quando parte do princípio de que todas as pessoas são iguais perante a lei e que, portanto, as diferenças são partes integrantes de cada pessoa e que as especificidades devem ser consideradas e respeitadas em todo processo social, cultural e educativo. Ao se falar de inclusão, pressupõe-se o respeito às diversidades, a valorização das diferenças e, portanto, a necessidade de se repensar as práticas pedagógicas, considerando as especificidades de cada estudante e seu projeto de vida, possibilitando o acolhimento e a aprendizagem de todos no espaço plural escolar (Lei nº 13.146/2015).\n\nPor fim, esses princípios ora citados constituem os fundamentos de todas as práticas educativas apresentadas no Currículo de Pernambuco e, dessa forma, indicam para a sociedade os sujeitos que se deseja formar: indivíduos com valores éticos e humanos, conscientes de suas responsabilidades e direitos, dispostos a construir uma sociedade mais justa, democrática e inclusiva, bem como capazes de intervir na realidade e contribuir para o desenvolvimento da humanidade.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

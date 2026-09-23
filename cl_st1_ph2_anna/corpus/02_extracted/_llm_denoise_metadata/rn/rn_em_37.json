@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b03463a19919d63006ab30b22668487d2af1f0fd4d14256c9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1231,
+      "input_tokens_details": {
+        "cache_write_tokens": 1228,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1526,
+      "output_tokens_details": {
+        "reasoning_tokens": 396
+      },
+      "total_tokens": 2757
+    }
+  },
+  "created_at": "2026-09-22T23:11:46Z",
+  "duration_seconds": 16.281,
+  "error": null,
+  "excerpt_id": "rn_em_37",
+  "filename": "rn_em_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "15b51ac52a1b9bdfb12c24a097e524f861064929788a2938ba94599d6b28be30",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "271368df5ed41efcf6cf435299288a76dd26f55a37b0f5e5f4c5c29e7f8318a9",
+    "rendered_prompt_sha256": "93a733e209051f61a9874c680d4b363a8723860aa382756a7f8c169bd082a520",
+    "source_text_sha256": "b067485d19282b1404f17a09bedd89bd19b87455074cb0dbe7ca32a978c2e577"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3037,
+    "filename": "rn_em_37.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_37.txt",
+    "state": "rn",
+    "word_count_original": 843
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_37.json"
+  },
+  "raw_response_text": "1. Progressão para o primeiro ano/série\n\nA retomada dos conceitos abordados no ensino fundamental ocorre a partir dos números racionais, por meio das porcentagens relacionadas a situações reais. A porcentagem possibilita a rediscussão dos conceitos de razão e de proporcionalidade direta e inversa e de não proporcionalidade. Nesse percurso, os aspectos da variação e constância, certeza e incerteza, relação e inter-relação estão presentes e devem ser destacados pelo professor durante as discussões com os estudantes. A compreensão dos números racionais é essencial para a identificação dos números irracionais e da reta real, destacando a importância do significado de abscissa como uma forma de endereçamento para a localização de um número ou um objeto, bem como a possível regularidade de intervalos que podem ocorrer.\n\nÉ importante que o professor possa destacar a possibilidade de registrar correlações entre dois números que representam grandezas de naturezas diferentes que serão utilizadas a seguir na representação do plano cartesiano.\n\nApós consolidado o estudo do plano cartesiano, propomos o estudo das funções polinomiais de 1º grau, retomando a observação de regularidades em sequências numéricas, a princípio empregando a proporcionalidade. A partir do estudo de sequências numéricas, sugerimos encaminhar para as discussões em torno da Progressão Aritmética (PA), abordando-a como uma função de 1º grau com domínio discreto, o que possibilita discussões férteis sobre o significado do domínio e da imagem de funções e suas representações gráficas. Outro aspecto é o reconhecimento de que cada um dos registros de representação, usados para as funções, traz informações importantes a serem consideradas e utilizadas em diferentes situações, tanto em problemas reais como em problemas da própria matemática ou conectados com outras áreas do conhecimento. Neste trabalho, o recurso a softwares, tais como GeoGebra e outros aplicativos digitais, tem importância por possibilitar simulações e construções gráficas que permitem, por exemplo, a observação de regularidades para se chegar a generalizações fundamentais.\n\nAlém disso, nesse período, deve ser contemplado o conhecimento e construção de rotinas através de fluxogramas e/ou diagramas de bloco que encaminham à elaboração de algoritmos com a posterior utilização de uma linguagem de programação, JavaScript, Hora do Código, Mindstorms, Scratch, Arduino ou outra, como meio para a revisão e consolidação de conceitos e definições estudados no Ensino Fundamental. Isto se relaciona com as habilidades descritas ao longo de toda BNCC (2018), tais como “investigar e registrar, por meio de um fluxograma, quando possível, um algoritmo que resolve um problema” (EM13MAT315) “e utilizar conceitos iniciais de uma linguagem de programação na implementação de algoritmos escritos em linguagem corrente e/ou matemática” (EM13MAT405). O objetivo é o de desenvolver o necessário pensamento computacional no estudante, que envolve uma maneira de obter a resposta de um problema após submetê-lo a uma rotina (algoritmo), construído intencionalmente e que pode ser aplicado a um conjunto maior de situações semelhantes. Esta iniciativa deve ser continuada durante todo o Ensino Médio.\n\nUma das propostas metodológicas para o desenvolvimento do currículo escolar é a metodologia STEAM. STEAM significa Science, Technology, Engineering, Arts and Mathematics, as palavras são similares em português e é uma metodologia integrada e baseada em projetos, que tem o objetivo de formar pessoas com diversos conhecimentos, desenvolver valores juntamente com os conteúdos abordados em sala de aula nas diversas áreas do conhecimento além de preparar alunos e cidadãos para os desafios do futuro. Ainda, preparar alunos para o exercício da cidadania, bem como para os desafios do futuro e para a realização dos seus projetos de vida.\n\nAs funções polinomiais do 2º grau, ou quadráticas, poderão ser apresentadas a partir de sequências, onde se pode discutir a relação de proporcionalidade direta entre uma grandeza e o quadrado de outra com aproximação a questões geométricas e de áreas. O caminho percorrido é semelhante ao já feito para as funções polinomiais de 1º grau.\n\nAs discussões sobre áreas possibilitam que sejam efetuadas investigações sobre recobrimento do plano e tipos de polígonos que permitem tal recobrimento e o que pode ser generalizado sobre a soma dos ângulos internos de polígonos. Com base nisso, adentramos em questões reais de cálculo da medida de superfícies. Ainda, o Teorema de Euler, estudado no ensino fundamental e aplicado a poliedros convexos, deve ser retomado e explorado, valendo-se da simplicidade do seu enunciado, que a verificação do resultado pode motivar os estudantes na direção da investigação científica, cuja validação é estabelecida matematicamente.\n\nO desenvolvimento do pensamento combinatório poderá ser ampliado a partir de análises de enunciados de problemas que envolvam contagens, de modo que os estudantes passem a reconhecer o que os caracteriza e as possibilidades de representação das situações apresentadas. Esse mesmo pensamento dá suporte para o estudo, definição e propriedades que envolvem aplicações das probabilidades, a partir do entendimento de um experimento estocástico e eventos além da determinação do seu espaço amostral.\n\nAs propostas de análise sobre pesquisas estatísticas completam o conjunto de situações para este ano/série e têm como foco a constituição de uma postura crítica dos estudantes perante o que se divulga na mídia em geral, inclusive nos meios de comunicação sociais.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

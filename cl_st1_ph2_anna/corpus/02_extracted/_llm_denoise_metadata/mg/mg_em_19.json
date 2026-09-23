@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07c9c942f16e7a74006ab3032509b487d2b96207b7885ae439",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 899,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 871,
+      "output_tokens_details": {
+        "reasoning_tokens": 121
+      },
+      "total_tokens": 1770
+    }
+  },
+  "created_at": "2026-09-22T22:37:31Z",
+  "duration_seconds": 6.793,
+  "error": null,
+  "excerpt_id": "mg_em_19",
+  "filename": "mg_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5f4e5f3f05ca9432e7e59482367bfdbb5a3c987422b5c856b7c8e82e9246e052",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f238c3a3bcdfb9152c4c6d959f04cbad19db659c507c71d6ef184a01f8fe2d4a",
+    "rendered_prompt_sha256": "1a143e91c3dc7026f70ce93aad2cc340b7a2478a8451735f427e9aca35e63c4f",
+    "source_text_sha256": "c773c1c32466f8bf1711a50118678e9ec67611e45ab50371aba112f5a49c6a9e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1547,
+    "filename": "mg_em_19.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_19.txt",
+    "state": "mg",
+    "word_count_original": 552
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_19.json"
+  },
+  "raw_response_text": "## 2.6 Especificidades do Currículo Referência do Ensino Médio de Minas Gerais\n\n### 2.6.1 Projeto de vida\n\nA competência Trabalho e Projeto de Vida está ligada à formação do jovem para ser protagonista na sociedade em que vive e para o mundo do trabalho. Nesse sentido, a escola tem como proposta provocar algumas reflexões para auxiliar os estudantes a projetarem seus sonhos e traduzi-los de forma mais objetiva. Assim, neste capítulo específico do Currículo Referência serão trabalhadas algumas questões relacionadas a essa competência e apontadas algumas sugestões de possibilidades e caminhos para seu desenvolvimento.\n\nO planejamento do Projeto de Vida tem um componente pessoal e individual, conectado à identidade de cada sujeito. Portanto, o/a estudante é convidado a refletir sobre sua própria trajetória, as projeções feitas pela sua família, suas ambições e as possibilidades que visualiza para seu futuro. Além disso, para o desenvolvimento dessa competência, é importante que a escola provoque investigações de um ponto de vista mais macro sobre os diferentes mercados, profissões, como funcionam as relações de trabalho, quais as capacidades valorizadas em cada campo, quais os caminhos possíveis para alcançar os objetivos e as desigualdades existentes na sociedade. Dessa forma, o objetivo é estimular um conjunto amplo de habilidades de análise do contexto, planejamento, execução e de autoconhecimento visando que o estudante desenvolva autonomia ao longo de sua vida para revisar, repensar, incorporar mudanças num processo contínuo de aprendizagem. É importante também que a escola não perca de vista o componente do exercício da cidadania e incentive o jovem a fazer escolhas éticas, com consciência crítica e responsabilidade.\n\n### 2.6.2 Itinerários formativos\n\nO Currículo Referência é composto pela Formação Geral Básica e pelos Itinerários Formativos, a serem desenvolvidos em, no mínimo, três mil horas, durante os três anos dessa etapa da Educação Básica. Para a primeira, orientada pela BNCC, sessenta por cento dessa carga horária e quarenta por cento, para o segundo. Nestes, os/as estudantes terão a oportunidade de aprofundar seus conhecimentos em uma ou mais áreas de seu interesse. Este documento servirá como orientação para que cada escola construa os Itinerários Formativos a partir das características de sua região, das demandas locais, de sua comunidade escolar e das aspirações dos jovens que atende, além das reflexões desenvolvidas pela equipe profissional.\n\nPara a construção de seus Itinerários Formativos, os gestores escolares deverão promover discussões pedagógicas no sentido de definir áreas, objetivos específicos, organizar horários e espaços. É possível construir diferentes ofertas de itinerários e, neste novo currículo, os estudantes escolhem os que melhor atendam aos seus interesses, a partir das propostas oferecidas pela escola. É, portanto, uma oportunidade de o jovem adquirir mais conhecimento e habilidades ao consolidar uma formação de forma integral, ampliando a sua visão de mundo e de valores.\n\nOs Itinerários Formativos poderão aprofundar e ampliar aprendizagens em uma das áreas do conhecimento que compõem o Currículo: Linguagens e suas Tecnologias; Matemática e suas Tecnologias; Ciências da Natureza e suas Tecnologias; Ciências Humanas e Sociais Aplicadas. Poderão ser uma Formação Técnica e Profissional. E, ainda, combinar mais de uma área e complementada por este olhar mais voltado para o mundo do trabalho. Os Itinerários Formativos devem passar, necessariamente, por um dos eixos estruturantes a seguir ou, preferencialmente, por todos eles: Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

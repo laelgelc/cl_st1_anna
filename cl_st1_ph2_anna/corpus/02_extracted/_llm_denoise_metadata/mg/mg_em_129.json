@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_083b737699345dc1006ab302fefaa487d28ffd11d3217c10d6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 678,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 640,
+      "output_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "total_tokens": 1318
+    }
+  },
+  "created_at": "2026-09-22T22:36:51Z",
+  "duration_seconds": 4.728,
+  "error": null,
+  "excerpt_id": "mg_em_129",
+  "filename": "mg_em_129.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4f0a39002c051b050b5053be697eeb428f93d9448a35e0650b9142af158d33df",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6277b077a767fe99a20d101b31e5c9c956b4ab7f405007ec78622ed91a680150",
+    "rendered_prompt_sha256": "11f99690854e4272961e9ba3c255c9ed8aa72ee2f42b0dab35a4ed8207487092",
+    "source_text_sha256": "d4668996305c81cfaef1c6de39f31f70b24e7f91a727b22e4e6ef667ea81395b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_129.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1518,
+    "filename": "mg_em_129.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_129.txt",
+    "state": "mg",
+    "word_count_original": 398
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_129.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_129.json"
+  },
+  "raw_response_text": "### 6.5.5 Atendimento Educacional Especializado - AEE\n\nO sistema educacional tem passado por várias modificações ao longo do tempo. Com a amplitude da educação especial nos espaços escolares, o reconhecimento e a valorização da diversidade são vistos como fatores de enriquecimento do processo de ensino aprendizagem. Seguindo essa perspectiva da inclusão, a educação especial integra a proposta pedagógica da escola comum, promovendo assim o Atendimento Educacional Especializado (AEE), estabelecido pela Política Nacional de Educação Especial na Perspectiva da Educação Inclusiva, em 2008 e por meio da Resolução CNE/CEB nº 4/2009, a qual institui as diretrizes operacionais para o atendimento educacional especializado na Educação Básica.\n\nO AEE tem como função identificar, elaborar e organizar recursos pedagógicos e de acessibilidade que eliminem as barreiras para a plena participação dos estudantes, considerando suas necessidades específicas. As atividades desenvolvidas no atendimento educacional especializado diferenciam-se daquelas realizadas na sala de aula comum, não sendo substitutivas à escolarização. Esse atendimento complementa e/ou suplementa, no contraturno de escolarização, a formação dos estudantes com vistas à autonomia e independência na escola e fora dela. Dentre as atividades de atendimento educacional especializado são disponibilizados programas de enriquecimento curricular, o ensino de linguagens e códigos específicos de comunicação e sinalização e tecnologia assistiva.\n\nA Sala de Recursos Multifuncionais da escola comum na qual o estudante público da educação especial está matriculado é o espaço prioritário onde o Atendimento Educacional Especializado deverá ser realizado. Na impossibilidade desse atendimento ser ofertado na própria escola, ele poderá ser oferecido em outra escola, no turno inverso da escolarização, em centros de Atendimento Educacional Especializado público ou privado sem fins lucrativos conveniados com a Secretaria de Educação.\n\nNo que tange ao trabalho do AEE, a articulação entre os professores da rede é essencial. Juntos, o professor do atendimento educacional especializado e o professor regente da escola regular, por meio de um trabalho articulado, têm a oportunidade de propor atividades considerando os interesses e as necessidades de cada estudante público da educação especial, identificando, assim, as barreiras à aprendizagem e apontando estratégias pedagógicas para que eles tenham as mesmas oportunidades de acesso ao currículo que os demais estudantes.\n\nDiante do exposto, ressalta-se que a responsabilidade pela inclusão dos estudantes da educação especial no ambiente escolar não é exclusiva dos professores; a gestão escolar, a coordenação pedagógica e os demais profissionais contribuem também para que essa inclusão de fato aconteça.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

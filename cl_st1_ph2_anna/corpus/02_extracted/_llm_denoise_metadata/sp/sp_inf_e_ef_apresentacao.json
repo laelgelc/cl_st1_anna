@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a5bc400afbdff73006ab30fcf251887d29bce3e5338fd54b0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 591,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 571,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 1162
+    }
+  },
+  "created_at": "2026-09-22T23:31:40Z",
+  "duration_seconds": 13.36,
+  "error": null,
+  "excerpt_id": "sp_inf_e_ef_apresentacao",
+  "filename": "sp_inf_e_ef_apresentacao.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e9f515f6ab71b968fbf7e0c1eacab511624dfce65daba0aa625a889f8172d3fe",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "09538588dd3f9bd514fc7f1a3de940360b9261d1e13fb5db2bacb81e0153de5a",
+    "rendered_prompt_sha256": "75b46fb77fc5b1024909aa2d87f9fd70e037fae0c8258c219af539f04a39be7f",
+    "source_text_sha256": "b9fe037d6765a8cd33653eb5a03e49d9f6aaac6fb062ddae0570dcd04e7d7941"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_inf_e_ef_apresentacao.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3953,
+    "filename": "sp_inf_e_ef_apresentacao.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_inf_e_ef_apresentacao.txt",
+    "state": "sp",
+    "word_count_original": 378
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_inf_e_ef_apresentacao.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_inf_e_ef_apresentacao.json"
+  },
+  "raw_response_text": "# Apresentação\n\nO Currículo Paulista, apresentado neste documento, é fruto do esforço dos profissionais da educação representantes das Redes Municipais, da Rede Estadual e da Rede Privada de Ensino que, atuando de modo colaborativo, associaram saberes, procedimentos, reflexões e experiências a respeito da prática docente nos diferentes componentes curriculares.\n\nEste currículo quer traduzir as especificidades sociais, econômicas, regionais, culturais e históricas de cada um dos 645 municípios que compõem o Estado de São Paulo.\n\nContempla as competências gerais discriminadas pela Base Nacional Comum Curricular (BNCC), aprovada pelo Conselho Nacional de Educação (CNE) e homologada em 20 de dezembro de 2017, bem como os currículos e as orientações curriculares das redes de ensino públicas e privadas.\n\nO Currículo Paulista define e explicita, a todos os profissionais da educação que atuam no Estado, as competências e as habilidades essenciais para o desenvolvimento cognitivo, social e emocional dos estudantes paulistas e considera sempre sua formação integral na perspectiva do desenvolvimento humano.\n\nEsperamos que essas definições orientem a (re)elaboração da Proposta Pedagógica de cada escola do território estadual, de maneira a que se promova, em cada uma delas, a necessária organização dos tempos e dos espaços, bem como práticas pedagógicas e de gestão compatíveis com as aprendizagens essenciais que se pretende garantir a todos os estudantes.\n\nDessa maneira, que o Currículo Paulista represente um passo decisivo no processo de melhoria da qualidade de educação no Estado de São Paulo, no que se refere às aprendizagens dos estudantes, à formação inicial e continuada dos educadores, à produção de materiais didáticos, às matrizes de avaliação e ao estabelecimento de critérios para a oferta de infraestrutura adequada ao pleno desenvolvimento da educação.\n\nÉ necessário destacar a importância do sistema de colaboração entre as diferentes redes na implementação do Currículo Paulista, a exemplo do que já ocorreu no processo de sua elaboração. Dessa maneira, investe-se na sinergia necessária para que o Estado de São Paulo se firme no cenário da educação brasileira como referência quanto à garantia do conjunto dessas aprendizagens essenciais aos estudantes, de seu desenvolvimento integral por meio das dez competências gerais propostas para a Educação Básica e do apoio às escolhas dos jovens e adolescentes à concretização dos seus projetos de vida e à continuidade dos seus estudos.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

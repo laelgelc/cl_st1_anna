@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_013edc505cde2181006ab3051bc52087d2b7587a8008ee1e16",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 759,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 791,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 1550
+    }
+  },
+  "created_at": "2026-09-22T22:45:54Z",
+  "duration_seconds": 6.729,
+  "error": null,
+  "excerpt_id": "mt_em_70",
+  "filename": "mt_em_70.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "01ab9326265dfd30ad402478a1dd138ebf10b94baa22a5679ce435ae70a7e13a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9fbfe9433639db7c26e2a237561e9582569afcc05f30652ae65d3c26888cff11",
+    "rendered_prompt_sha256": "c2eef574157ac69fd9b4c8f0dbed4cf76a82ac10e98d9e4e6528b74a696e1025",
+    "source_text_sha256": "f1b5a8f0b477f9a368fdfb4b6431f18542b1dc6368426c34f7e7c7cf7d26d66e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_70.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1966,
+    "filename": "mt_em_70.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_70.txt",
+    "state": "mt",
+    "word_count_original": 413
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_70.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_70.json"
+  },
+  "raw_response_text": "# Matemática e suas Tecnologias\n\nDe acordo com a perspectiva apresentada para o Módulo de Transição, durante o seu desenvolvimento, é relevante estabelecer as primeiras relações de análise em nível local e regional, por meio das habilidades já trabalhadas no Ensino Fundamental, de modo que estejam integradas às habilidades da trilha de aprofundamento (investigação científica; processos criativos; mediação e intervenção sociocultural e empreendedorismo).\n\nÉ importante salientar que as Trilhas de Aprofundamento de Matemática e suas Tecnologias – “Ciências Humanas e Matemática - possibilidades de diálogos” e “O que a matemática tem a ver com isso?” – envolvem respectivamente os TCTs, Ciência e Tecnologia, Economia e Meio Ambiente. Assim, o módulo de transição objetiva articular as habilidades da Matemática, referentes ao Ensino Fundamental que estabelecem uma relação dialógica com os TCTs supracitados.\n\nAlém disso, as habilidades dos eixos estruturantes assumem a função de estabelecer níveis cognitivos mais complexos a contextos mais elaborados, visando estabelecer uma progressão no desenvolvimento das habilidades. Neste sentido, os objetivos de aprendizagem estabelecem uma relação de equilíbrio entre as habilidades prévias e as habilidades dos eixos estruturantes das Trilhas de Aprofundamento.\n\nComo exemplo, o módulo de transição que envolve a trilha “O que a matemática tem a ver com isso?”, observa-se que a habilidade prévia (EF09MA23) apresenta-se na perspectiva em que o estudante irá planejar e executar pesquisa a partir de um tema que envolva a realidade social, enquanto, a habilidade específica associada ao eixo estruturante (EMIFMAT01) infere ao estudante uma necessidade de investigar e analisar situações-problema identificando e selecionando conhecimentos matemáticos relevantes. Ambas as habilidades dialogam com os TCTs Meio Ambiente, Economia e Ciência e Tecnologia.\n\nNesse sentido, essa articulação dos elementos de integração possibilita ao estudante exercer seu protagonismo juvenil, pois para planejar, executar e apresentar por meio de argumentos científicos a conclusão de uma pesquisa, o estudante precisa definir o tema a ser pesquisado, estruturar o processo de investigação e os cálculos matemáticos que serão utilizados, buscar argumentos teóricos científicos para defender sua ideia e para conclusão da referida pesquisa.\n\nDestaca-se que no módulo de transição há necessidade de proporcionar aos estudantes práticas que lhes possibilitem relacionar informações e fazer inferências, visto que a função do módulo é prepará-los para o aprofundamento das aprendizagens. Veja a seguir propostas de estruturação de módulos de transição para os as Trilhas de Aprofundamento de Matemática e suas Tecnologias: “O que a matemática tem a ver com isso?” (Quadro 2) “Ciências Humanas e Matemática - possibilidades de diálogos” (Quadro 3).",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_018b422a2c5cc93b006ab30af25ac487d291cd3bac158ce9f5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 454,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 394,
+      "output_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "total_tokens": 848
+    }
+  },
+  "created_at": "2026-09-22T23:10:45Z",
+  "duration_seconds": 3.365,
+  "error": null,
+  "excerpt_id": "rn_ef_50",
+  "filename": "rn_ef_50.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "87f6342db568b4a8d344f44cd6eb918637dfc4861eb3d70c8d0739b0e45e6522",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0d340311b8ae0e97cc6370fe8ceeeccc99dbf32efe8e7aa4e0df92fc06cfa172",
+    "rendered_prompt_sha256": "49b3f8c526a870d38ec20b058630b7ecb4955eba05f8fc6e4531645d2cf3fab2",
+    "source_text_sha256": "e42c2e0fde7bc7e39b578874145e35361e457af21ca9e633c4a2b4a858b8a980"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_50.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2991,
+    "filename": "rn_ef_50.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_50.txt",
+    "state": "rn",
+    "word_count_original": 235
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_50.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_50.json"
+  },
+  "raw_response_text": "## COMPETÊNCIAS ESPECÍFICAS DA GEOGRAFIA PARA O ENSINO FUNDAMENTAL\n\n1. Utilizar os conhecimentos geográficos para entender a interação sociedade/natureza e exercitar o interesse e o espírito de investigação e de resolução de problemas.\n2. Estabelecer conexões entre diferentes temas do conhecimento geográfico, reconhecendo a importância dos objetos técnicos para a compreensão das formas como os seres humanos fazem uso dos recursos da natureza ao longo da História.\n3. Desenvolver autonomia e senso crítico para compreensão e aplicação do raciocínio geográfico na análise da ocupação humana e produção do espaço, envolvendo os princípios de analogia, conexão, diferenciação, distribuição, extensão, localização e ordem.\n4. Desenvolver o pensamento espacial, fazendo uso das linguagens cartográficas e iconográficas, de diferentes gêneros textuais e das geotecnologias para a resolução de problemas que envolvam informações geográficas.\n5. Desenvolver e utilizar processos, práticas e procedimentos de investigação para compreender o mundo natural, social, econômico, político e o meio técnico-científico e informacional, avaliar ações e propor perguntas e soluções (inclusive tecnológicas) para questões que requerem conhecimentos científicos da Geografia.\n6. Construir argumentos com base em informações geográficas, debater e defender ideias e pontos de vista que respeitem e promovam a consciência socioambiental e o respeito à biodiversidade e ao outro, sem preconceitos de qualquer natureza.\n7. Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, propondo ações sobre as questões socioambientais, com base em princípios éticos, democráticos, sustentáveis e solidários.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

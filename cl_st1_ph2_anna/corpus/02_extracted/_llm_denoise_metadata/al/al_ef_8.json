@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d3769fe361957f2006ab2fc87a24487d2a5bbdf3681f33e95",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1499,
+      "input_tokens_details": {
+        "cache_write_tokens": 1496,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1736,
+      "output_tokens_details": {
+        "reasoning_tokens": 446
+      },
+      "total_tokens": 3235
+    }
+  },
+  "created_at": "2026-09-22T22:09:23Z",
+  "duration_seconds": 11.699,
+  "error": null,
+  "excerpt_id": "al_ef_8",
+  "filename": "al_ef_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7cfb54ee5649efd20a7a66cc3c331fe13bb23915c1e436e0dea255f131ddcab5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "24d72e821d8823a068e8ce9ca357640d65d0097b55b14628dbc23e8dea01e68a",
+    "rendered_prompt_sha256": "184f5de048e13d10ad5e88f43e136d593e05c5aca46c0d0dcf3bf50c2c162803",
+    "source_text_sha256": "9b51473d1d1a9c37361d49897e2ea255665749f1e79275fc612a3161b77e7d5a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 219,
+    "filename": "al_ef_8.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_8.txt",
+    "state": "al",
+    "word_count_original": 988
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_8.json"
+  },
+  "raw_response_text": "# Avaliação para uma Educação Integral\n\nA avaliação definida pelo Referencial Curricular de Alagoas é entendida como processo contínuo de apropriação, construção e reconstrução da aprendizagem, como ação educativa e se dará de forma contínua e cumulativa. Contínua, porque ocorrerá ao longo dos processos de ensino e de aprendizagem, no qual o professor deverá selecionar e elencar os instrumentos avaliativos que serão utilizados a partir das competências e habilidades básicas de cada componente curricular. Cumulativa, por ser um processo gradativo de aprendizagem, fortalecendo o conhecimento construído pelo estudante e, servindo de “ponte” para novas aprendizagens.\n\nEssas concepções de avaliação deverão ser vivenciadas em todas as etapas e modalidades da Educação Básica, observando as especificidades de cada uma. Nesse contexto, não se pode, nem se deve avaliar sob uma única visão, mas com um olhar político-pedagógico que oportunize a todos o êxito escolar e o prosseguimento nos estudos, conduzindo os estudantes às oportunidades de desenvolvimento enquanto seres conscientes, éticos e críticos, inserindo-os no mundo do trabalho, da inovação, tecnologias e da informação.\n\nA avaliação que possibilite a formação integral deve estar ancorada em um ensino que tenha por objetivo o desenvolvimento, de todas as capacidades da pessoa humana, e não apenas voltada para os aspectos cognitivos. Assim, a avaliação faz sentido nas aprendizagens de natureza sociocultural, quando envolve as dimensões afetivas, emocionais, biológicas, simbólicas, éticas, estéticas e outras que contribuem para a formação humana. Nessa forma de verificação de aprendizagem, há uma conversão dos métodos de correções tradicionais (verificação de erros e acertos) em métodos investigativos, capazes de indicar as alternativas de solução e tipos de intervenções pedagógicas necessárias em cada situação de aprendizagem do sujeito envolvido no processo.\n\nA avaliação no contexto da Educação Integral considera perspectivas para maior reflexão frente os processos e formas de promoção do ensino, tempos e espaços de aprendizagem, bem como qualidade de ensino. A rede estadual de São Paulo, por meio do documento “Diretrizes do Programa de Ensino Integral”, elenca os seis princípios norteadores da avaliação em Educação Integral, São Paulo (2018)⁴:\n\n1. Quem avalia tem decisões a tomar no sentido de qualificar o que está sendo avaliado: o avaliador deve refletir sobre a atribuição de valor nos processos de ensino e aprendizagem.\n2. A avaliação está a serviço da formação do educando e não o inverso. Da maneira como a escola está tradicionalmente organizada, os processos avaliativos costumam determinar os conteúdos de ensino, e desta forma a educação acaba perdendo sua função original (a desenvolver habilidades e competências para a vida, garantir o desenvolvimento integral, etc.). A avaliação deve, portanto, servir à melhoria do ensino, e não o contrário.\n3. A avaliação deve ir além da verificação da aprendizagem. O resultado das avaliações de aprendizagem deve necessariamente servir como ponto de partida para uma reflexão aprofundada dentro da escola: os resultados avaliativos só têm sentido na medida em que servem para orientar os próximos passos do planejamento e oferecer diretrizes para a tomada de decisões.\n4. A avaliação expressa valores, concepções, crenças e o posicionamento político-ideológico do avaliador. Não existe processo avaliativo neutro. A concepção do que é um “educador” e um “educando” se traduz nos mecanismos avaliativos utilizados. Se, por exemplo, o educando é entendido como alguém que deve acumular informações, a avaliação medirá o número de informações memorizadas (“provas”). Se, por outro lado, o educando for compreendido como um ser potente, capaz de aprender e dotado de saberes, a avaliação terá um caráter mais dinâmico, processual e com função diagnóstica.\n5. O melhor procedimento de avaliação é o procedimento de ensino. É impossível educar sem avaliar. Na medida em que se devem investigar os conhecimentos prévios dos educandos antes de iniciar novos percursos de aprendizagem, a avaliação é parte inerente do processo de educação.\n6. O ‘produto’ do trabalho do professor não é a aula, mas sim a aprendizagem do estudante. O professor deve direcionar suas estratégias e métodos de ensino para atender as necessidades específicas dos estudantes.\n\n⁴ Centro de Referências em Educação Integral. https://educacaointegral.org.br/glossario/avaliacao-na-educacao-integral/\n\nNa perspectiva da Educação Integral, a avaliação é muito mais que o desempenho dos estudantes pois considera a gestão educacional e a atividade docente como processos que devem ser avaliados, dentro de um contexto de ação-reflexão-ação, promovendo replanejamento em todas as instâncias de gestão.\n\nSalientamos, que o Referencial Curricular de Alagoas apresenta um olhar diferenciado e ampliado para avaliação na perspectiva da Educação Integral. Os aprendizados não se referem apenas às habilidades acadêmicas e conteúdos escolares, mas passam por habilidades socioemocionais, de convivência, de respeito à diversidade, de estar e agir no mundo: os aprendizados atitudinais também precisam ser contemplados nos processos avaliativos em Educação Integral. Segundo Antoni Zaballa, no livro “Prática educativa: como ensinar”, os conteúdos e competências a serem avaliados devem considerar capacidades motoras, de equilíbrio, autonomia, relação interpessoal e inserção social.\n\nA avaliação em Educação Integral é sobretudo uma avaliação processual, muito mais do que uma avaliação de resultados. Uma vez que o ponto de partida é a singularidade de cada estudante, torna-se difícil estabelecer parâmetros universais. A avaliação deve considerar os saberes prévios dos estudantes, o que querem aprender, quais suas formas de aprendizado. A partir de uma avaliação inicial, pode-se não apenas conhecer o estudante, como traçar estratégias metodológicas de ensino para atender às suas próprias necessidades e interesses. A avaliação em educação integral é, portanto, um instrumento processual de acompanhamento da aprendizagem tanto pelo estudante como pelos que promovem o ensino e aprendizagem, contemplando os diversos saberes, aproximando os conteúdos escolares dos saberes comunitários de cada território, convidando o avaliando a se autoavaliar e a traçar seu próprio percurso nos caminhos do conhecimento.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b52c283ccf1478d006ab2fe1f004887d28b94255ba94b3ddb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 610,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 569,
+      "output_tokens_details": {
+        "reasoning_tokens": 58
+      },
+      "total_tokens": 1179
+    }
+  },
+  "created_at": "2026-09-22T22:16:04Z",
+  "duration_seconds": 5.056,
+  "error": null,
+  "excerpt_id": "ap_em_38",
+  "filename": "ap_em_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "75a0eb58b82389155a7dd829edce8d848a3468d0e3c29fca356b4e41fc60015f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f2d75c5a3206d4c58f22ee5fa379b125909e6eb10a607523d6a4c0e888150eb9",
+    "rendered_prompt_sha256": "ab62c21f65c34817346a1e054fca854e93d89bf7a7fe49747afbdf91ca35c4c5",
+    "source_text_sha256": "014476c823545fa615c970c3f3a0d88958113d7733ea35efd23cb7c5b9209c25"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 533,
+    "filename": "ap_em_38.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_38.txt",
+    "state": "ap",
+    "word_count_original": 393
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_38.json"
+  },
+  "raw_response_text": "# A PESQUISA COMO PRINCÍPIO EDUCATIVO: O TRABALHO DE PRODUÇÃO DO CONHECIMENTO\n\nEsse princípio está intimamente relacionado ao trabalho como princípio educativo, o qual ao ser assumido no ensino médio integrado contribui para a formação de sujeitos autônomos que possam compreender-se no mundo e dessa forma, nele atuar, por meio do trabalho, transformando a natureza em função das necessidades coletivas da humanidade e, ao mesmo tempo, cuidar de sua preservação face às necessidades dos demais seres humanos e das gerações futuras.\n\nA necessária autonomia para que o ser humano possa, por meio do trabalho, atuar dessa forma pode e deve ser potencializada pela pesquisa, a qual contribui para a construção da autonomia intelectual e deve ser intrínseca ao ensino, bem como estar orientada ao estudo e à busca de soluções para as questões teóricas e práticas da vida cotidiana dos sujeitos trabalhadores.\n\nNesse sentido, é necessário que a pesquisa como princípio educativo esteja presente em toda a educação escolar dos que vivem e viverão do próprio trabalho. Ela instiga o estudante no sentido da curiosidade em direção ao mundo que o cerca, gera inquietude, para que não sejam incorporados pacotes fechados de visão de mundo, de informações e de saberes, quer sejam do senso comum, escolares ou científicos.\n\nNessa perspectiva, a oferta da educação profissional está intimamente relacionada com a noção de itinerário profissional, que corresponde ao conjunto das ocupações no mundo do trabalho e suas inter-relações funcionais. A partir desse leque de possibilidades de atuação e da realidade de cada região, as instituições de formação profissional estruturam diferentes itinerários formativos – trajetórias de formação que as pessoas podem percorrer para atingir seus objetivos de carreira.\n\nA função do itinerário formativo é contribuir para que o aluno possa traçar rotas e planejar percursos, de forma a conciliar as demandas do mundo do trabalho, as expectativas pessoais e os tipos de formações disponíveis. Para as organizações contratantes, a articulação dessas três variáveis se reflete na busca por profissionais mais qualificados, o que estimula a melhoria dos serviços prestados e o aumento da produtividade; para os trabalhadores, possibilita aumentar suas chances de inserção ou aprimorar seu desempenho no mundo do trabalho, com significativo impacto social e econômico em suas vidas; e, para as instituições de educação profissional, é de fundamental importância compreender as profundas transformações contemporâneas que incidem sobre o mundo do trabalho.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d90ec8383a2767f006ab2fc76d76087d2ae4a8a3eea36a584",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 596,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 647,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 1243
+    }
+  },
+  "created_at": "2026-09-22T22:09:00Z",
+  "duration_seconds": 6.055,
+  "error": null,
+  "excerpt_id": "al_ef_68",
+  "filename": "al_ef_68.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "231a0f5600ca6d8157a8299c22dc9a2ec8e5255aecfcd58ac87f686588b4ae4f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c21133f8925e5670f71f53818f04b42da7a07e782b066e222fca533213bd09ba",
+    "rendered_prompt_sha256": "3c01331eaa9dbd4cdee2056297bd364be8ae60d9819d6bbb215ceb8429a29626",
+    "source_text_sha256": "ea06f4300b878773fbadbc4e5ff6710031c12d881d616e254afd9ca1d070b559"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_68.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 206,
+    "filename": "al_ef_68.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_68.txt",
+    "state": "al",
+    "word_count_original": 350
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_68.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_68.json"
+  },
+  "raw_response_text": "### 3.4 Modelagem Matemática\n\nModelagem Matemática está relacionada com a resolução de problemas e com os procedimentos e tem como objetivo obter um modelo matemático que seja a solução do problema inicial.\n\nNa Educação Básica, a Modelagem é vista como uma alternativa pedagógica na qual é utilizada uma situação problema real ou da própria Matemática. Alguns aspectos são importantes no desenvolvimento dos trabalhos com modelagem: investigação autônoma (trabalho em grupo), ciclo de modelagem e temas do mundo real. A ideia é fazer modelagem para aprender matemática, ou seja, os Modelos Matemáticos precisam ser significativos com situações-problema úteis e possíveis de serem resolvidas e discutidas. “Modelagem Matemática é um processo dinâmico utilizado para a obtenção e validação de modelos matemáticos. É uma forma de abstração e generalização com a finalidade de previsão de tendências. A modelagem consiste, essencialmente, na arte de transformar situações da realidade em problemas matemáticos cujas soluções devem ser interpretadas na linguagem usual” (Bassanezi, 2004, p.24).\n\nSegundo Rigonatto, a modelagem matemática é a criação de um modelo matemático (um padrão ou fórmula matemática) para explicação ou compreensão de um fenômeno natural. Esse fenômeno pode ser de qualquer área do conhecimento. Através do uso da modelagem matemática na sala de aula podemos trabalhar a interdisciplinaridade, a transversalidade, mostrando ao estudante como a matemática pode ser útil em sua vida fora do ambiente escolar e como ela interage com as demais áreas do conhecimento. O estudante passa a perceber a importância da matemática para a compreensão de fenômenos naturais, como é possível “prever” alguns acontecimentos utilizando fórmulas e modelos e isso acaba despertando seu interesse pela ciência.\n\nA introdução da modelagem matemática pode ser feita através da resolução de problemas, trazendo para dentro de sala a realidade do estudante. As diversas situações-problema farão com que a capacidade de interpretação melhore, o estudante assuma uma posição crítica ao tentar resolvê-las e consiga analisar que pode haver mais de uma solução e que há vários caminhos para chegar até elas.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

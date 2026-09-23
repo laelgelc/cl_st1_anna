@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a47d141d97b539e006ab300aa8f0887d2b93230bb6d126444",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 989,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 884,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 1873
+    }
+  },
+  "created_at": "2026-09-22T22:26:56Z",
+  "duration_seconds": 5.967,
+  "error": null,
+  "excerpt_id": "es_em_24",
+  "filename": "es_em_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d01c48cdf7e8f4bb02af4a00517b63a72089e71fcf72282f255b7e666466d66d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "366d3b08d089d4150678f91c7dd6f9601ac78398c94990c92aac7eb9c229d9ea",
+    "rendered_prompt_sha256": "0ef8991048c723ba5c4ddd369d67a73437fbf0e761e2f9cf59a0c8161fc3458f",
+    "source_text_sha256": "40f7d66a50fbe642f9cf00774752a6363f6a26cddf44ad24086cc78571f894b7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_em_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1031,
+    "filename": "es_em_24.txt",
+    "filepath": "corpus/00_source_per_state/es/es_em_24.txt",
+    "state": "es",
+    "word_count_original": 573
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_em_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_em_24.json"
+  },
+  "raw_response_text": "## 5. EIXOS ESTRUTURANTES DOS ITINERÁRIOS FORMATIVOS DE APROFUNDAMENTO\n\nCom base no princípio educativo do trabalho, os Itinerários Formativos devem integrar ciência, tecnologia, cultura e trabalho, promovendo o protagonismo juvenil na identificação de problemas sociais e na proposição de soluções, inclusive políticas. Seu foco deve estar nas demandas do mundo contemporâneo e nas comunidades locais, articulando o local com o universal para inserir os(as) estudantes na prática social como agentes de transformação.\n\nA formação humana integral organiza a relação entre a Formação Geral Básica e os Itinerários exigindo que todos os componentes curriculares adotem linguagens e metodologias que integrem teoria e prática, parte e totalidade, e disciplinaridade e interdisciplinaridade. É necessário enfrentar as desigualdades educacionais agravadas pelas especificidades regionais, garantindo que a escola ofereça aos(às) jovens as categorias de análise, o método científico e a capacidade crítica para uma formação qualificada ao longo da vida.\n\nPara isso, os Itinerários devem ser organizados em torno dos quatro Eixos Estruturantes, aplicando metodologias que favoreçam o desenvolvimento cognitivo, ético e estético, aliados ao compromisso com a transformação social.\n\n### a) MÉTODO, CONHECIMENTO E CIÊNCIA\n\nO eixo “Método, Conhecimento e Ciência” enfatiza o domínio dos processos investigativos e das práticas científicas, promovendo a autonomia intelectual e a compreensão crítica de fenômenos complexos, alinhando-se aos princípios epistemológicos de valorização dos saberes historicamente produzidos e da articulação entre teoria e prática.\n\nEsse eixo tem por objetivo promover a investigação científica e a compreensão dos processos, práticas e métodos próprios das diferentes ciências para a identificação, compreensão e análise de fenômenos naturais, sociais, culturais, históricos e linguísticos.\n\n### b) MEDIAÇÃO E INTERVENÇÃO SOCIOCULTURAL\n\nPor sua vez, o eixo “Mediação e Intervenção Sociocultural” propõe o desenvolvimento de competências relacionais e analíticas a partir do diálogo com o território, a diversidade cultural e as dinâmicas sociais, integrando saberes formais e não formais para promover a justiça social e o exercício democrático.\n\nEsse eixo tem como objetivo promover a mediação como ferramenta eficaz na resolução de conflitos, além de fomentar a construção, tanto individual quanto coletiva, de iniciativas de intervenção social que contribuam para a transformação das realidades local, regional, nacional e global.\n\n### c) INOVAÇÃO E INTERVENÇÃO TECNOLÓGICA\n\nPor sua vez, o eixo “Inovação e Intervenção Tecnológica” amplia o horizonte formativo ao estimular a criatividade, o pensamento crítico e a resolução de problemas por meio da apropriação crítica de tecnologias e da construção de soluções para desafios sociais contemporâneos, especialmente em contextos de desigualdade.\n\nReforça o compromisso pedagógico com a transformação da realidade, a equidade e a sustentabilidade, em consonância com os princípios pedagógicos de contextualização e experimentação.\n\nEsse eixo tem por objetivo promover processos de criação individual e coletiva de inovações para a resolução de desafios presentes nos diversos contextos da vida social em escala local, regional, nacional e global.\n\n### d) MUNDO DO TRABALHO E TRANSFORMAÇÃO SOCIAL\n\nPor fim, o eixo “Mundo do Trabalho e Transformação Social” valoriza a aproximação entre escola, território e experiências profissionais, promovendo o reconhecimento dos sujeitos como agentes de mudança em seus contextos e preparando-os para uma inserção crítica e ética no mundo do trabalho.\n\nEsse eixo tem por objetivo promover processos de reconhecimento, compreensão e experimentação capazes de aproximar os jovens das dinâmicas próprias da transformação social e do mundo do trabalho, reconhecendo-os e estimulando sua autonomia enquanto agentes sociais, políticos, culturais e profissionais, contribuindo para sua formação básica para o mundo do trabalho e para a cidadania, com o fortalecimento do seu protagonismo.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0954911ede347d12006ab302bbf8e087d28220a26d0d851ea1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 816,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 897,
+      "output_tokens_details": {
+        "reasoning_tokens": 230
+      },
+      "total_tokens": 1713
+    }
+  },
+  "created_at": "2026-09-22T22:35:47Z",
+  "duration_seconds": 7.393,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_ingles_5",
+  "filename": "mg_ef_linguagens_ingles_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "eb7549eecdd71a6c99c62dc4810f224fe4b36b9b175bf2299e910117e348da14",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2cd5eba8793015ac75f023a1ae484fc1ffd70b9de0b55d9eb9638df4daab55c0",
+    "rendered_prompt_sha256": "bec11abdb601a60278da35ffdefa52bc547704c45af19995de3112cb2f316d69",
+    "source_text_sha256": "64bc53ec73a2af52c8ae69d06b30e55e9db491cc0f9b93b6053d747cb5c13b8b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_ingles_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1455,
+    "filename": "mg_ef_linguagens_ingles_5.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_ingles_5.txt",
+    "state": "mg",
+    "word_count_original": 489
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_ingles_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_ingles_5.json"
+  },
+  "raw_response_text": "### 8.3.1 Importância da leitura\n\nPaulo Freire diz que a leitura “é um processo que se antecipa e se alonga na inteligência do mundo” e o estudante se vale de toda a sua proficiência leitora acumulada anteriormente, de seu repertório de expectativas, de sua visão de mundo e das inúmeras convenções que regulam a grande variedade de gêneros textuais:\n\n> Textos são objetos simbólicos que pedem para ser interpretados. Os sentidos não repousam serenamente sobre as linhas à espera de leitores aptos a desvendar os sinais gráficos e a colhê-los. Mais do que decifrar signos, leitores procuram entender de que tratam os textos, acompanhando seu encadeamento e progressão, analisando suas implicações, aderindo ou não as proposições apresentadas por seus autores. Por apresentar-se descontextualizado da situação comunicativa, o texto escrito acaba admitindo múltiplas leituras, pois cada leitor vai ajustá-lo a seu horizonte de expectativas, isto é, ao conhecimento de que dispõe a respeito das convenções que regulam o gênero em que se enquadra o texto, a proficiência leitora acumulada em experiências anteriores, a maior ou menor familiaridade com a linguagem que se usa para escrever, ao seu maior ou menor domínio acerca do assunto tratado, aos seus valores e crenças, aos objetivos que orientam a atividade etc. Enquanto que na comunicação oral, face a face, os interlocutores se apoiam fortemente na situação enunciativa, que serve de moldura para a conversa, na comunicação escrita, o mais frequente é o texto ser apreendido como um objeto autônomo e fechado em si mesmo, pois o tempo da leitura não é simultâneo ao da produção do texto pelo escritor. Os textos nunca dizem tudo. São estruturas porosas que dependem do trabalho interpretativo do leitor. O que não significa, é claro, que o leitor esteja livre para atribuir qualquer sentido ao que lê. O material para ler regula a atividade interpretativa à medida que fornece indícios que orientam quem lê. Por essa razão é que se diz que a prática da leitura se realiza como interação entre textos e leitores. É o professor, mediador, que, primeiro de forma compartilhada, reconhece as vozes, traz à tona as ênfases dadas pelo grupo, estabelece esta troca na relação do texto com o leitor dentro do grupo. Num segundo momento, cada leitor, progressivamente, internaliza o diálogo com o texto e a leitura se torna autônoma. (SME/DOT, 2006).\n\nUm maior protagonismo do estudante, que faz uso de seu conhecimento anterior, assume uma posição crítica em relação ao que está sendo aprendido, desenvolvendo estratégias mais eficientes de aprendizagem.\n\nOutro aspecto importante a ser considerado é a função interdisciplinar que a aprendizagem de uma língua estrangeira é capaz de desempenhar no currículo. Seu estudo pode ser conjugado com o de outras disciplinas, como, por exemplo, o da história, o da geografia, o das ciências físicas e biológicas, o da música, tornando-se possível viabilizar, na prática dos procedimentos didáticos, a relação entre língua estrangeira e o mundo social.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e0e60a233c312f8006ab2fcfc770c87d2803bad4f6fdad140",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 612,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 778,
+      "output_tokens_details": {
+        "reasoning_tokens": 297
+      },
+      "total_tokens": 1390
+    }
+  },
+  "created_at": "2026-09-22T22:11:15Z",
+  "duration_seconds": 7.165,
+  "error": null,
+  "excerpt_id": "al_inf_23",
+  "filename": "al_inf_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f7ec88f935b34d44fdee9b9c35ad519562262e4b9fc3a08691351be8704c8c29",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "36b3fbe9393a9091304039d04f8c06f6dd8efc7256973e6438184e08a043dd02",
+    "rendered_prompt_sha256": "5f43def9ea2c985b09931ae525428321dc5f621894293896ef6840ad10a13d20",
+    "source_text_sha256": "4e44c46594f9059a6998623685392ba12db0be48535759e5929961d91389188f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_inf_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 302,
+    "filename": "al_inf_23.txt",
+    "filepath": "corpus/00_source_per_state/al/al_inf_23.txt",
+    "state": "al",
+    "word_count_original": 389
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_inf_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_inf_23.json"
+  },
+  "raw_response_text": "# 7. TRANSIÇÕES NA EDUCAÇÃO INFANTIL\n\nA educação infantil, enquanto primeira etapa da Educação Básica, pressupõe algumas transições que vão da inserção até a saída da criança na instituição de educação infantil. Ao entrar no espaço educacional, o primeiro convívio que a criança tem é dentro da família, muitas vezes restrita apenas ao contato da mãe ou responsável. Considerando esta condição de início, é necessário que se reserve no tempo curricular o momento de acolhida e de estratégias para que adaptação desta criança seja algo prazeroso, algo que deve ser partilhado com a família.\n\nCom o passar dos anos, as crianças vão mudando de espaços e professores, o que exige um olhar sensível sobre esta transição. É necessário considerar a etapa do desenvolvimento infantil e os desafios que a criança precisa superar nessa relação coletiva.\n\nA transição mais delicada e que requer uma atenção especial ocorre na saída da criança da educação infantil para o ensino fundamental. Nesse caso, é necessário o diálogo entre as instituições de saída e chegada da criança, alinhando a proposta de ambas no sentido de considerar as especificidades de suas etapas sem perder de vista a condição de criança a partir de suas necessidades de desenvolvimento e aprendizagem. Importante ressaltar que a sub etapa da educação infantil, a pré-escola, não é espaço prioritário de alfabetização de modo que não se devem antecipar conteúdos da etapa posterior. Muitas instituições se sentem pressionadas pelos pais ou mesmo por professores para que as crianças saiam lendo e escrevendo da educação infantil. Isso não implica dizer que a criança não se aproprie dos processos de aquisição da leitura e da escrita, contudo, a alfabetização não deve ser prioridade. Essa ansiedade de aprendizagem e desconhecimento da lei acerca do corte etário, recentemente julgada procedente pelo Supremo Tribunal de Justiça, tem levado algumas instituições a promover crianças para o ensino fundamental antes de completarem 6 anos, o que é considerado ilegal. Recomenda-se que a proposta pedagógica, alinhada ao que é específico da educação infantil, seja apresentada aos pais/responsáveis no início do ano, para que juntos, trabalhando em parceria, alcancem os objetivos previstos, respeitando as atividades lúdicas, com ênfase no brincar, o desenvolvimento de diversas habilidades e competências que a criança levará para toda a vida.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

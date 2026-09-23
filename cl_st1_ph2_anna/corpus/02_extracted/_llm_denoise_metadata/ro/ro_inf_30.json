@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f1ba51c7ccd1ae6006ab30ca94e3087d28178d5adb8af7de6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 853,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1220,
+      "output_tokens_details": {
+        "reasoning_tokens": 481
+      },
+      "total_tokens": 2073
+    }
+  },
+  "created_at": "2026-09-22T23:19:03Z",
+  "duration_seconds": 63.469,
+  "error": null,
+  "excerpt_id": "ro_inf_30",
+  "filename": "ro_inf_30.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a555bc068f738bc8d80371ade987b7e38d4d94ca2ed6c0040259681d01a3de30",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "35a52149ccc0686e603b6c56d81ff3a19f1b96564b4b33b329b073b0361e8d6d",
+    "rendered_prompt_sha256": "adf3fba9c1e55c57057cdff167f013c0b8ab42057f00b64adeb701794daf36fc",
+    "source_text_sha256": "0f88b76631617b1ce611782334acd911187a7fb93fda1cbc8561ee06f1cbe739"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_30.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3344,
+    "filename": "ro_inf_30.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_30.txt",
+    "state": "ro",
+    "word_count_original": 483
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_30.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_30.json"
+  },
+  "raw_response_text": "## Experiências com as Linguagens Visuais\n\n- As crianças necessitam ter contato com diversos padrões de uso das cores em diferentes culturas.\n- As crianças podem apropriar-se de alguns fundamentos das linguagens visuais, conforme participam de atividades como: desenho, pintura, escultura, modelagem, colagem, gravura, fotografia, visitas a museus e locais de produção e divulgação da arte visual.\n- Para a criação nas diferentes linguagens, requer observar os processos, analisar as produções das crianças e planejar as próximas intervenções: diversificar os materiais e os suportes, expor a criança ao contato com a experiência visual da cultura local, de Rondônia e outras, separar objetos usando o critério de cor, material, tamanho, sonoridades.\n- A expressão infantil se inicia de modo exploratório e se organiza pouco a pouco conforme a sensibilidade da professora que lhe oportuniza variados procedimentos e disponibiliza materiais.\n- Um ambiente favorável à criação plástica deve incluir uma diversidade de materiais, organizados de modo que as crianças saibam onde recorrer quando precisam de algum deles e onde limpá-los e guardá-los quando terminar de usá-los.\n- Lidar com argila, areia, massas plásticas, papel, papelão, tecidos e outros materiais que possibilitam serem manuseados, modelados, transformados, e construir estruturas tridimensionais com eles dão prazer às crianças, além de aproximá-las de noções de espaço, de transformação, de equilíbrio.\n- A experiência estética deve também estar presente na organização dos materiais e mobiliário dentro da instituição escolar, promovendo a estética dos ambientes que convidam à apreciação e ao fazer.\n- Aos bebês pode ser oportunizada a observação e exploração dos ambientes internos e externos de seu entorno, organizados com a presença de móbiles, cortinas de tecidos coloridos, fitas, flores, folhas, materiais e elementos naturais com cheiros e texturas.\n\n## Traços, Sons, Cores e Formas\n\n- A exploração de materiais como grafite, tintas caseiras, guache, aquarela, giz etc. amplia o conhecimento das crianças sobre o desenho e a pintura, conforme utilizam vários instrumentos para desenhar e pintar (pincéis, lápis, canetas, rolinhos, escovas, esponjas, gravetos etc.), em diferentes planos (horizontal e vertical), dimensões (bidimensional e tridimensional) e superfícies (telas, papéis, paredes, objetos de diferentes tamanhos, formatos e texturas, inclusive o próprio corpo), descobrindo linhas, formas, cores, volumes, planos e usando-os para expressar emoções ou representar objetos e situações vividos ou imaginados.\n- Os bebês podem ter acesso a diferentes manifestações no campo visual: desenho, pintura, fotografia, escultura, artesanato etc., podendo construir seus conhecimentos estéticos sobre o equilíbrio das formas, pesos e tamanhos de objetos no esforço de empilhar e encaixar blocos de madeira, caixas etc.\n\nEssas experiências contribuem para que, desde muito pequenas, as crianças desenvolvam senso estético e crítico, o conhecimento de si mesmas, dos outros e da realidade que as cercam. Por conseguinte, é necessário oportunizar a participação das crianças em tempos e espaços para a produção, manifestação e apreciação artística, de modo a favorecer o desenvolvimento da sensibilidade, da criatividade e da expressão individual das crianças, permitindo que se apropriem, reconfigurem e construam, permanentemente a cultura e potencializem suas singularidades nas experiências e vivências artísticas.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

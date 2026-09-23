@@ -1,0 +1,11 @@
+## 5. FORMAÇÃO DOS PROFESSORES DA EDUCAÇÃO INFANTIL
+
+Nas últimas décadas do século XX, no Brasil, inúmeros debates, reflexões e projetos são tecidos acerca da EDUCAÇÃO como um todo e de modo amplo a reflexão sobre da oferta da Educação Infantil. Da mesma forma, retoma-se a preocupação da formação continuada dos profissionais da educação notadamente dos docentes que atuam com as instituições de Educação Infantil e suas especificidades.
+
+[...] a formação inicial e continuada dos professores para atender esses alunos, deve ser uma prioridade constante visto que essa clientela necessita de constantemente informação e conhecimento [...] a formação continuada de professores deverá ser considerada prioritária (BRANCO, 2012, p. 247).
+
+Um novo panorama da educação requer que os profissionais que atuam nessa etapa vivenciem concepções diferenciadas acerca do currículo escolar, do Ensino/Aprendizagem, dos direitos de aprendizagens, das concepções de crianças e infâncias, de entender o processo de desenvolvimento da criança, de promover e participar das experiências da teoria com a prática, além de compreender a promoção dos espaços educativos e de vivências educativas ofertadas às nossas crianças.
+
+A proposta de educação infantil vem sendo alterada historicamente na Educação brasileira, em diferentes momentos, devido às diversas pesquisas estudadas na área, às concepções de criança na atualidade, às diferentes propostas e experiências que exige do docente uma formação que propiciei o desenvolvimento integral da criança para vida da sociedade que abrangendo valores éticos, sociais, familiares, estéticos, morais e políticos. A educação infantil seja na zona rural ou na zona urbana precisa ter significado para eles, atendendo suas necessidades e especificidades, dando-lhe subsídio teórico e prático para mediar uma aprendizagem nas dimensões culturais, políticas, cognitivas e da criança, estreitando o diálogo com a comunidade escolar.
+
+As instituições precisam definir no seu Projeto Político Pedagógico ações de formação continuada para seu professores considerando as múltiplas dimensões da formação humana e os diferentes contextos com a família, com as creches e a pré-escola, com a comunidade próxima, buscando favorecer aprendizagens significativas relacionadas à convivência, à participação e a autonomia dos sujeitos (TITTON, 2008, p.72).

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f70efc7261babb6006ab2fe48b06887d2ae113d73c9902fb6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 649,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 650,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 1299
+    }
+  },
+  "created_at": "2026-09-22T22:16:46Z",
+  "duration_seconds": 5.566,
+  "error": null,
+  "excerpt_id": "ap_inf_9",
+  "filename": "ap_inf_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1606d2fa5fa80e391ac2904609904ed1371f646776e225c91ff358937aaf98c3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "971add581e69771cc93bf9b690e3b38bc910d15312b4ca89908cfaaebeae770f",
+    "rendered_prompt_sha256": "3d2e15a59a2590c7a255ae0b0e0dbe6a391b70eb07088eb6737eeb8d495f8c8f",
+    "source_text_sha256": "e98378d2e4789a1ee6f6f97a02aefab7e5ac1c35013067f681879e132ff6651a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_inf_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 578,
+    "filename": "ap_inf_9.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_inf_9.txt",
+    "state": "ap",
+    "word_count_original": 396
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_inf_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_inf_9.json"
+  },
+  "raw_response_text": "I – Campo de experiência: o eu, o outro e o nós:\n\nÉ na interação com os pares e com adultos que as crianças vão constituindo um modo próprio de agir, sentir e pensar e vão descobrindo que existem outros modos de vida, pessoas diferentes, com outros pontos de vista. Conforme vivem suas primeiras experiências sociais (na família, na instituição escolar, na coletividade), constroem percepções e questionamentos sobre si e sobre os outros, diferenciando-se e, simultaneamente, identificando-se como seres individuais e sociais. Ao mesmo tempo que participam de relações sociais e de cuidados pessoais, as crianças constroem sua autonomia e senso de autocuidado, de reciprocidade e de interdependência com o meio. Por sua vez, na Educação Infantil, é preciso criar oportunidades para que as crianças entrem em contato com outros grupos sociais e culturais, outros modos de vida, diferentes atitudes, técnicas e rituais de cuidados pessoais e do grupo, costumes, celebrações e narrativas. Nessas experiências, elas podem ampliar o modo de perceber a si mesmas e ao outro, valorizar sua identidade, respeitar os outros e reconhecer as diferenças que nos constituem como seres humanos.\n\nDireitos de aprendizagem com foco no campo de experiência o eu, o outro e o nós:\n\n- CONVIVER com crianças e adultos em pequenos e grandes grupos, reconhecer e respeitar as diferentes identidades e pertencimento étnico-racial, de gênero e de religião;\n- BRINCAR com diferentes parceiros, envolver-se em variadas brincadeiras e jogos de regras, reconhecer o sentido do singular, do coletivo, da autonomia e da solidariedade, constituindo as culturas infantis;\n- PARTICIPAR das situações do cotidiano, tanto daquelas ligadas ao cuidado de si e do ambiente, como das relativas às atividades propostas pelo/a professor/a, e de decisões relativas à escola, aprendendo a respeitar os ritmos, os interesses e os desejos das outras pessoas;\n- EXPLORAR ambientes e situações, de diferentes formas, com pessoas e grupos sociais diversos, ampliando a sua noção de mundo e sua sensibilidade em relação aos outros;\n- EXPRESSAR às outras crianças e/ou adultos suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, oposições, utilizando diferentes linguagens, de modo autônomo e criativo, e empenhando-se em entender o que os outros expressam;\n- CONHECER-SE nas interações e construir uma identidade pessoal e cultural, valorizar suas próprias características e as das outras crianças e adultos, constituindo uma confiança em si e uma atitude acolhedora e respeitosa em relação aos outros.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

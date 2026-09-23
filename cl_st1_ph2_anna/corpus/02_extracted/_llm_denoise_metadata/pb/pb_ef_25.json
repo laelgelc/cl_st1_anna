@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06348bf59707ca29006ab306b3f4e487d29335a5f8413094ec",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 496,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 540,
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "total_tokens": 1036
+    }
+  },
+  "created_at": "2026-09-22T22:52:40Z",
+  "duration_seconds": 4.775,
+  "error": null,
+  "excerpt_id": "pb_ef_25",
+  "filename": "pb_ef_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0b17802e2a4e39a78dcbf72c1d9a61c03033c196eb4c4eff10c3764b6a62c55d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3989a1b8568bd77243c15c0a90d672bd026dc6c413ae1301488ddb589a369beb",
+    "rendered_prompt_sha256": "8c5ba742952ed86a048b621086119ca4209ff9dcf7344c31d6b85f4b49e48b0c",
+    "source_text_sha256": "f1ca26ce18ecccf6ff1ee065035822c241697d91fb0827bb7eb7ab09529c5375"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2193,
+    "filename": "pb_ef_25.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_25.txt",
+    "state": "pb",
+    "word_count_original": 264
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_25.json"
+  },
+  "raw_response_text": "### 5.3.6 Possibilidades metodológicas\n\nA presente proposta curricular não pretende propor, tampouco defender uma metodologia e/ou tendência pedagógica única e específica, tendo em vista: a) a preservação da autonomia didático-pedagógica docente; b) a realidade histórico-social de cada Escola; e c) as múltiplas possibilidades e abordagens que podem ser trabalhadas nas aulas de Educação Física.\n\nDesse modo, afirmamos que os professores devem buscar o desenvolvimento das habilidades propostas neste documento, utilizando-se do maior número de abordagens pedagógicas (sem limitar-se a uma única abordagem) e recursos possíveis, julgadas como úteis e apropriados para o trabalho em sala de aula, respeitando as seguintes características dos alunos: faixa-etária, cultura local, individualidade, desenvolvimento psicossocial e motor.\n\nNo entanto, é necessário que o docente esteja ciente de como se dá a formatação da estrutura de conhecimentos da disciplina de Educação Física – como proposta pelo presente documento – para que, independente da abordagem pedagógica utilizada, os alunos tenham o direito de estudar, experimentar e se desenvolver com bases nos conteúdos preconizados.\n\nDesse modo, é necessário que o docente trabalhe – em contexto escolar – cada um dos objetos de conhecimento específicos para cada ano de ensino, visando à aquisição das habilidades propostas, privilegiando as oito dimensões do conhecimento apresentadas: experimentação, uso e apropriação, fruição, reflexão sobre a ação, construção de valores, análise, compreensão e protagonismo comunitário, a serem promovidas pelo trabalho prático das seis unidades temáticas: 1) Brincadeiras e jogos; 2) Esportes; 3) Ginásticas; 4) Danças; 5) Lutas; e 6) Práticas corporais de aventura.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

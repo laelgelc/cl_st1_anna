@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fc2210fbf5d04e2006ab30a63eb3487d29d7045a66a991f4b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 650,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1064,
+      "output_tokens_details": {
+        "reasoning_tokens": 505
+      },
+      "total_tokens": 1714
+    }
+  },
+  "created_at": "2026-09-22T23:08:28Z",
+  "duration_seconds": 8.3,
+  "error": null,
+  "excerpt_id": "rj_ef_intro_2",
+  "filename": "rj_ef_intro_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0a36deeb95fb733248a82c4c6c85e344d8f46090aa3c99f1a5b85940219eef35",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0e7748b85d5d8c54ef7d9da0584af1897ddddaa8a09314961d100e5f554702c1",
+    "rendered_prompt_sha256": "1256c0aa3bc2c7b7074787b859251a171cfbd5391d6fe37d7b79bf673dbfeec8",
+    "source_text_sha256": "e16a15fb7e59d31050dbbd73446234928c66d15fbd53c1c9e358a469e9f715c9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_ef_intro_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2860,
+    "filename": "rj_ef_intro_2.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_ef_intro_2.txt",
+    "state": "rj",
+    "word_count_original": 386
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_ef_intro_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_ef_intro_2.json"
+  },
+  "raw_response_text": "As escolas legitimam seus cotidianos, como tática, em meio a normativas, vistas como estratégia, sem perder a autonomia. O que reverbera nas escolas do Rio de Janeiro precisa ser contemplado e isso aparecerá no que produzirão, assim como neste primeiro processo de elaboração de documento orientador curricular, movimento este que não para aqui, segue com outras “tecituras” e “tessituras”, outras feituras por mãos e realidades particulares e singulares. Definir algo retrata realidade. Podemos retratar a realidade dos 92 municípios do Estado do Rio de Janeiro num único documento orientador curricular?\n\nSentimo-nos confortáveis em reforçar que caberá a cada município a elaboração do seu currículo, com base na concepção e teoria curricular condizente ao seu Projeto Político Pedagógico, por compreendermos que para os anos iniciais o que define currículo para este novo tempo brasileiro é o cotidiano escolar, as artes de fazer do cotidiano escolar, alimentados por vozes docentes e por suas reverberações e a garantia das riquezas de cada regionalidade. Os contextos escolares darão as pistas e fundamentações teórico-metodológicas para elaboração dos seus próprios currículos e de suas teorias curriculares. Percebe-se que os contextos, assim como os cotidianos, não são uniformes.\n\nSilva (2019, p. 16-17) cita que:\n\n> Uma teoria de currículo define-se pelos conceitos que utiliza para conceber a “realidade”. Os conceitos de uma teoria dirigem nossa atenção para certas coisas que sem eles não “veríamos”. Os conceitos de uma teoria organizam e estruturam nossa forma de ver a “realidade”.\n\nNão é objetivo deste documento “dar forma de ver realidade”, uma vez que o conhecimento de sua realidade acontece no cotidiano, nem reforçar confusão em não apropriação de uma delimitação de concepção ou teoria, mas de enfatizar a importância de que sejam elucidados nos Projetos Pedagógicos (PPs) das escolas, tática esta a nós possibilitada diante da normativa.\n\nO projeto político-pedagógico da escola traduz a proposta educativa construída pela comunidade escolar no exercício de sua autonomia, com base nas características dos alunos, nos profissionais e recursos disponíveis, tendo como referência as orientações curriculares nacionais e dos respectivos sistemas de ensino (CNE/CEB nº 7/2010, art. 20, § 1º).\n\nAs produções curriculares oriundas do cotidiano escolar, do chão da escola, produzirão fazeres que caracterizarão teorias curriculares (a concepção da realidade em jogo). Isso se dará pela força do percurso, da construção identitária.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

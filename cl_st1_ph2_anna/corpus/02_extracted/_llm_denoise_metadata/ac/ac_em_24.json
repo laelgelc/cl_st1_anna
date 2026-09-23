@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09b43b0e233c50d9006ab2fbcf4d7c87d29c17adda1fcf9757",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 736,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 650,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 1386
+    }
+  },
+  "created_at": "2026-09-22T22:06:12Z",
+  "duration_seconds": 5.201,
+  "error": null,
+  "excerpt_id": "ac_em_24",
+  "filename": "ac_em_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1abca25a15650a3d583f50229b2c7c21d40bf6b6d748ed6f91e21429a18269dd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "52d2b9a7f510c8cdae1e6032ff6d856b171e5fb785712fa06107bcb5cc9e8d13",
+    "rendered_prompt_sha256": "56ef5f696c3c7282e5c02146b4446c8eb2b3a2ecad052e71f493545b9439c602",
+    "source_text_sha256": "70aa672253d04c1d5702da5d9e705130c157348cbe0cd2b6d5f7bcf87aca4820"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 63,
+    "filename": "ac_em_24.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_24.txt",
+    "state": "ac",
+    "word_count_original": 433
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_24.json"
+  },
+  "raw_response_text": "### 13.1. Língua Espanhola\n\nAs razões para o ensino de língua estrangeira são inúmeras, e no que tange à Língua Espanhola, em específico, são maiores ainda, pelo fato de esta não se limitar apenas aos falantes de língua materna, mas a grandes números de indivíduos pelo mundo. Assim, a oportunidade de acesso ao conhecimento de uma nova língua cria inúmeras oportunidades para os jovens estudantes, tais como a apreensão de novas realidades e modos de ver o mundo e acesso à diversidade cultural (história, costumes, crenças, música, literatura, cinema, teatro e danças dos diferentes povos) e, consequentemente, promovendo o respeito à diversidade e pluralidade cultural.\n\nVale destacar que, o estudo da Língua Espanhola, assim, poderá contribuir para a formação científica e cultural dos jovens, à medida que possibilita o aumento da capacidade de organização de ideias, da busca de suas escolhas e da clareza de suas oportunidades ou do repensar da sua realidade de forma crítica e reflexiva.\n\nMuito embora a Língua Espanhola não esteja inserida na BNCC como língua obrigatória no ensino médio, devido à Lei 13.415/2017 que incluiu o Art. 35-A na LDB 9394/96, tornando obrigatório apenas o ensino da Língua Inglesa como língua estrangeira, o ensino da Língua Espanhola no estado do Acre torna-se essencial pela relevância desta para o estado, tendo em vista as fronteiras existentes com os países que possuem como língua oficial o espanhol e toda a relação social e cultural que o Acre possui com essas nações.\n\nPara a oferta da Língua Espanhola no estado do Acre, é importante considerar o contexto histórico, geográfico, político e social, além de destacar a proposta de Emenda Constitucional nº 51, de 21 de maio de 2019, que altera o inciso V do artigo 194 da Constituição Estadual, que diz: “a oferta de Língua Espanhola nas escolas de ensino fundamental e médio como segunda língua estrangeira, em caráter preferencial”, legalizando, assim, o ensino de uma segunda língua estrangeira e legitimando sua oferta na formação curricular do estado do Acre. Ademais, compreende-se que o estudo da Língua Espanhola é uma forma de oportunizar aos alunos novas maneiras de envolvimento e atuação em seu meio social e no mundo que está cada vez mais globalizado.\n\nAssim, a Língua Espanhola no estado do Acre está definida como parte do Itinerário Formativo, mas, para fins de um ensino interdisciplinar, integrando e ampliando o diálogo dos profissionais e dos saberes entre os componentes curriculares que compõem a área de Linguagens e suas Tecnologias, seu quadro organizador curricular foi elaborado junto ao “Quadro Organizador - 2ª série” da Formação Geral Básica.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

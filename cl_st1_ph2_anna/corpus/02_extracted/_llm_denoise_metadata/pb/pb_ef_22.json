@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08d6d1c11ce5075b006ab306b2427c87d28557a3b7020824a2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1496,
+      "input_tokens_details": {
+        "cache_write_tokens": 1493,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1492,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 2988
+    }
+  },
+  "created_at": "2026-09-22T22:52:45Z",
+  "duration_seconds": 11.587,
+  "error": null,
+  "excerpt_id": "pb_ef_22",
+  "filename": "pb_ef_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ac0ae2213befd7769e3e1e781cb219c9d60742aec9c7cd41fc81daff3db98087",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "caf8892b8b41dae67dac62e60f7c8fe60160ce7711f214a65e98584e1cbb28e0",
+    "rendered_prompt_sha256": "cf8c8eb2f10460af38115a0a1655e880c04a805a1632dfc7b2c17b467751185f",
+    "source_text_sha256": "3af3160d6f4a09af11ccbb15d521c201759c39c779ff11ffdd16d3d6693dced1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2190,
+    "filename": "pb_ef_22.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_22.txt",
+    "state": "pb",
+    "word_count_original": 844
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_22.json"
+  },
+  "raw_response_text": "### 5.3.2 Sobre a matriz curricular para os anos iniciais e finais do Ensino Fundamental\n\nComo já dito anteriormente, o currículo se concentra no estudo dos objetos de conhecimento específicos para cada ano de ensino (para uma visão mais completa e abrangente dos conteúdos de educação física para o ensino fundamental, ver o APÊNDICE 1, p. 15, no final do presente documento). Aqueles, por sua vez, objetivam a aquisição de habilidades que privilegiam oito dimensões do conhecimento: experimentação, uso e apropriação, fruição, reflexão sobre a ação, construção de valores, análise, compreensão e protagonismo comunitário. Tanto os objetos de conhecimento quanto as habilidades têm como norte as seis unidades temáticas descritas na BNCC. São elas:\n\n1. **Brincadeiras e jogos:** “[...] aquelas atividades voluntárias exercidas dentro de determinados limites de tempo e espaço, caracterizadas pela criação e alteração de regras, pela obediência de cada participante ao que foi combinado coletivamente, bem como pela apreciação do ato de brincar em si [...]” (BRASIL, 2016, p. 103).\n\n2. **Esportes:** “[...] caracterizam-se por serem orientados pela comparação de um determinado desempenho entre indivíduos ou grupos (adversários), regido por um conjunto de regras formais (“formais”), institucionalizadas por organizações (associações, federações e confederações esportivas), as quais definem as normas de disputa e promovem o desenvolvimento das modalidades em todos os níveis de competição [...]” (BRASIL, 2016, p. 104). Além disso, os esportes reúnem “[...] tanto as manifestações mais “formais” dessa prática quanto as que lhe são “derivadas” [...]” (Ibid., p. 104). A primeira versão do BNCC (BRASIL, 2015, pp. 214-215) divide o esporte nas seguintes categorias: marca, precisão, técnico-combinatório, rede/quadra dividida ou parede de rebote, campo e taco, invasão ou territorial e combate. Tal divisão foi mantida nas versões subsequentes.\n\n3. **Ginásticas** (classificadas em três tipos):\n\n   3.1. **Ginásticas de demonstração:** “[...] reúnem as práticas corporais que têm como elemento organizador a exploração das possibilidades acrobáticas e expressivas do corpo, a interação social, o compartilhamento do aprendizado e a não-competitividade. Podem ser constituídas de exercícios no solo, no ar (saltos), em aparelho (trapézio, corda, cama, fita elástica), de maneira individual ou coletiva [...]” (Ibid., p. 105).\n\n   3.2. **Ginásticas de condicionamento físico:** “[...] se caracterizam pela exercitação corporal orientada a melhoria do rendimento, aquisição e manutenção da condição física individual ou modificação da composição corporal. Geralmente se organizam em sessões planejadas de movimentos repetidos com frequência e intensidade definidas. [...]” (Ibid., p. 105).\n\n   3.3. **Ginásticas de conscientização corporal:** “[...] reúnem práticas que empregam movimentos suaves e lentos, tal como a recorrência a posturas ou à conscientização de exercícios respiratórios, voltados para a obtenção de uma melhor percepção sobre o próprio corpo [...]” (BRASIL, 2015, p. 216).\n\n4. **Danças:** “[...] caracterizadas por movimentos rítmicos, organizados em passos e evoluções específicas, muitas vezes também integradas a coreografias [...]” (Ibid., p. 216).\n\n5. **Lutas:** “[...] focalizam as disputas corporais, nas quais os participantes empregam técnicas, táticas e estratégias específicas para imobilizar, desequilibrar, atingir ou excluir o oponente de um determinado espaço, combinando ações de ataque e defesa dirigidas ao corpo do adversário [...]” (Ibid., p. 216).\n\n6. **Práticas corporais de aventura:** “[...] exploram-se expressões e formas de experimentação corporal centradas nas perícias e proezas provocadas pelas situações de imprevisibilidade que se apresentam quando o praticante interage com um ambiente desafiador [...]” (Ibid., p. 216). O mesmo documento classifica tais práticas em dois tipos:\n\n   6.1. **Práticas de aventura na natureza:** “[...] se caracterizam por explorar as incertezas que o ambiente físico cria para o praticante na geração da vertigem e do risco controlado, como em corrida orientada, corrida de aventura, corridas de mountain bike, rapel, tirolesa, arborismo etc. [...]” (Ibid., p. 216).\n\n   6.2. **Práticas de aventura urbanas:** “[...] exploram a “paisagem de cimento” para produzir essas condições (vertigem e risco controlado) durante a prática de parkour, skate, patins, bike etc. [...]” (Ibid., p. 217).\n\nVisando ao pleno desenvolvimento dos alunos, todas as referidas unidades temáticas serão trabalhadas ao longo de todo o Ensino Fundamental, levando em consideração a progressão do saber, o desenvolvimento dos alunos, a faixa etária do alunado e a adequação dos conteúdos, conforme os critérios já explicitados. Fica a cargo do docente a decisão final sobre quais metodologias e conteúdos específicos que deverá utilizar em sala de aula, sem prejuízo das unidades temáticas e objetos do conhecimento já estabelecidos neste documento. É necessário, portanto, que o (a) professor (a) esteja ciente que, independentemente de sua decisão quanto aos conteúdos específicos (e.g. futebol, voleibol, xadrez, etc.) a serem trabalhados, faz-se necessário propor atividades que assegurem aos alunos o direito ao estudo de cada uma das unidades temáticas estabelecidas, objetivando, assim, ao desenvolvimento das habilidades propostas. Nos quadros dos “componentes curriculares” (APÊNDICE 2, pp. 16-26), seguem as propostas curriculares para norteamento dos conteúdos específicos a serem estudados, levando em conta: os recursos disponíveis na escola, as características específicas de cada comunidade escolar, bem como outros critérios levantados pelo próprio docente junto à comunidade escolar.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

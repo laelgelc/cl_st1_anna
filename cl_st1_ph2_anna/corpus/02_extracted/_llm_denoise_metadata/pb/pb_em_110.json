@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02445e7872c23d26006ab30703ab3487d2989330c09a7f3f66",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 661,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 635,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 1296
+    }
+  },
+  "created_at": "2026-09-22T22:54:00Z",
+  "duration_seconds": 5.373,
+  "error": null,
+  "excerpt_id": "pb_em_110",
+  "filename": "pb_em_110.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "de484db145e310dcc78f849df4234e946a8c4a019a02f194bc0eb3a06739a3ee",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8abf1adb6f4c737a248f169cd3bde6637f0e83e1561354ad1ce143a9b7d6f653",
+    "rendered_prompt_sha256": "a37554f36ce339c64171021f7457f8b4fe27b4d3ed3c4110febe6a104e007669",
+    "source_text_sha256": "2ad0a925b92469df33b9712705bd7258388f0f8fdb91e61479f0aab63e17c890"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_110.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2245,
+    "filename": "pb_em_110.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_110.txt",
+    "state": "pb",
+    "word_count_original": 439
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_110.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_110.json"
+  },
+  "raw_response_text": "### 4.2.2 PROCESSOS AVALIATIVOS\n\nNo currículo tradicional, o professor é o detentor do conhecimento e repassa para os estudantes, que, por muitas vezes, não assimilam e apenas memorizam para o dia da avaliação. Porém, hoje, o conhecimento é aberto a qualquer pessoa com acesso à internet, o que implica ao docente muito mais do que a posição de saber, mas de entender como aplicar o conhecimento utilizando situações e/ou problemas reais, possibilitando as conexões e a participação ativa do estudante por meio de relações com seus conhecimentos prévios adquiridos no cotidiano.\n\nA avaliação pautada em competências é fundamental para o processo educativo, permitindo ao professor identificar obstáculos, determinar objetivos e planejar ações a serem tomadas para o desenvolvimento das habilidades dos discentes. Além da visão do docente, as competências e habilidades também auxiliam o estudante a se autoavaliar, possibilitando a visão de uma trilha de aprendizagem clara para que ele possa entender o que é esperado dele e verifique seus potenciais e onde precisa melhorar.\n\nA avaliação deve ser contínua, de progressiva dificuldade e para além da sala de aula, pois esse modelo de avaliação possibilita a utilização de ferramentas digitais, metodologias ativas, incentiva a formação de grupos de estudo e a valorização da colaboração entre os estudantes, visto que, colocar o aluno em contextos reais ou simulados, exige muito mais que a memorização de conteúdos.\n\nDesse modo, o estudante poderá utilizar livros e até mesmo a internet, mas só conseguirá solucionar questões reais quando ele compreender a aplicabilidade e souber articular os conhecimentos, o que indica o desenvolvimento de competências, e não apenas a memorização do conteúdo. Isso o capacitará para intervir em contextos reais e lidar com questões do cotidiano, no âmbito profissional e pessoal, mediante o pensamento crítico, a capacidade de resolução de problemas e a autonomia.\n\nO processo de avaliação pautado em competências e habilidades já vem sendo discutido à luz de várias temáticas e metodologias. Com a implementação do Novo Ensino Médio, esse tipo de avaliação deverá ser trabalhada de maneira planejada, por meio de formação continuada, mapeamento e resultados.\n\nNa educação profissional, o foco está no acompanhamento da efetiva aprendizagem dos alunos, primando para que as competências e habilidades trabalhadas na escola sejam condizentes com a realidade do mundo do trabalho, aproximando o indivíduo ao máximo da experiência real, considerando as atribuições cotidianas do profissional para que o estudante, durante o período de estágio e após aprovação como profissional técnico, consiga visualizar a aplicabilidade e utilizar as competências e habilidades adquiridas. Para isso, a integração com o Setor produtivo é de suma importância, auxiliando na manutenção e atualização do currículo profissional.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

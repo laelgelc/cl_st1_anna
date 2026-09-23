@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e1a44679184e131006ab304c2fc6887d2a2cd05ca3a616747",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 665,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 675,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 1340
+    }
+  },
+  "created_at": "2026-09-22T22:44:24Z",
+  "duration_seconds": 5.157,
+  "error": null,
+  "excerpt_id": "mt_em_12",
+  "filename": "mt_em_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "890d53746514140aa86e093104e21303c5c272c810543cce5cddc2734133f470",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fc7f101c350745b3729d3b10e395b4424232795655b4834d5dd157b1b215c9d8",
+    "rendered_prompt_sha256": "b1cc9744cee29bdb2604662f8b11f1c3dccf1d3bb437cfd365cb501144d9ad2d",
+    "source_text_sha256": "2fde42f1a15b68b681aa3b2edde7c1a948c86517edeab1c093c23d066f259698"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1902,
+    "filename": "mt_em_12.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_12.txt",
+    "state": "mt",
+    "word_count_original": 368
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_12.json"
+  },
+  "raw_response_text": "### 4.1.6 Avaliação\n\nNa Educação do Campo, a avaliação seguirá a orientação da Educação Básica proposta pela SEDUC, acrescida de práticas de avaliação que possibilitem o aprimoramento das ações pedagógicas, dos projetos educativos, da relação com a comunidade, da relação professor/estudante e da gestão.\n\nA avaliação do processo de ensino e aprendizagem na Educação do Campo deve considerar também a oralidade como um dos instrumentos avaliativos, uma vez que a história oral e a memória contribuem decisivamente para a formação e valorização da identidade de um povo por trazerem uma carga de culturas, crenças e valores éticos e morais que servirão de sustentáculo para a (re)construção da identidade que está em constante transformação.\n\nTodos os componentes curriculares devem contribuir com o desenvolvimento das habilidades dos estudantes do campo. Considerando essas múltiplas habilidades, podem ser utilizados diferentes instrumentos de avaliação. Assim, ao identificar uma habilidade pouco desenvolvida, caberá ao professor reformular diferentes atividades para que o estudante avance e a consolide. Vale destacar que, devem ser respeitados os seguintes aspectos na avaliação:\n\nI. Os aspectos qualitativos, diagnósticos, processuais, formativos, dialógicos e participativos do processo educacional;\nII. O direito de aprender dos estudantes;\nIII. As experiências de vida e as características históricas, políticas, econômicas e socioculturais das comunidades rurais;\nIV. Os valores, as dimensões cognitiva, afetiva, emocional, lúdica, de desenvolvimento físico e motor, dentre outros.\n\nA Parte diversificada (Ciências e Saberes do Campo) no currículo das Escolas do Campo apresenta suas habilidades concatenadas às habilidades de outros componentes curriculares. Esta integração visa complementar e aprofundar as discussões da Base Comum, respeitando as características regionais e locais de nossa sociedade, o que não significa alterar aquilo que já está previsto no documento da BNCC, e sim inserir novos objetos de conhecimentos e/ou modificadores (outros contextos) integrados a ele, que estejam de acordo com as competências já estabelecidas.\n\nOs estudantes das escolas do campo trazem para a sala de aula seus saberes e vínculos com a comunidade. Assim, a escola precisa explorar as vivências que ele traz consigo, mediando o saber local e o saber formal. Nossa tarefa é construir uma Educação do Campo que potencialize o desenvolvimento dos estudantes, partindo da realidade concreta de cada um deles.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

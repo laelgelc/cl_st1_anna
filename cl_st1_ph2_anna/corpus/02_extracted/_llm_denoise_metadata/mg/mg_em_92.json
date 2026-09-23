@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00a3819b89beae44006ab3036edfc087d2bb12ad0ac1673abc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 850,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 826,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 1676
+    }
+  },
+  "created_at": "2026-09-22T22:38:45Z",
+  "duration_seconds": 7.193,
+  "error": null,
+  "excerpt_id": "mg_em_92",
+  "filename": "mg_em_92.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0986f8696ff427a93b6f84b8b40790ea0f9e94aea96d2125c4eef1fcbbbc6ba1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ec1ed73f4dfa4a2f8e05a57c9f3c134d6b62473af7f9f66e3253e1de624b90b1",
+    "rendered_prompt_sha256": "45499e495f9597f9280b0e49bb467bcdd0ac7c736ab88f9cae87bc0aa2f537da",
+    "source_text_sha256": "803bec22b755181a6fe0c2f4f66046cb5ff0ef729f03339854007c7629b5e860"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_92.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1628,
+    "filename": "mg_em_92.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_92.txt",
+    "state": "mg",
+    "word_count_original": 518
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_92.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_92.json"
+  },
+  "raw_response_text": "## 4.9 Organização Curricular\n\n### 4.9.1 Área de Matemática e suas Tecnologias\n\nA compreensão de que a relação do indivíduo com o mundo que o rodeia é uma dinâmica constante entre os espaços físico, social, histórico e cultural traz o desafio para a escola de assegurar a preparação de seus estudantes para viverem nessa sociedade contemporânea. A complexidade e a transformação acelerada conduzem à necessidade de se desenvolver nos estudantes competências e habilidades, atitudes e valores capazes de torná-lo um cidadão mais participativo, transformador, com capacidade de lidar com desafios pessoais, profissionais, sociais, culturais e ambientais do presente e do futuro.\n\nNo eixo Investigação Científica, considerando o itinerário formativo da área de matemática, o estudante terá a possibilidade de identificar em dada situação-problema as informações ou variáveis relevantes e elaborar possíveis estratégias para resolvê-la, reconhecer a sua natureza e situar o objeto de estudo dentro dos diferentes campos da Matemática, ou seja, decidir-se pela utilização das formas algébrica, numérica, geométrica, combinatória ou estatística. Assim como compreender a Matemática como ciência autônoma, que investiga relações, formas e eventos e desenvolve maneiras próprias de descrever e interpretar o mundo.\n\nNo itinerário formativo da área de matemática, o eixo Processos Criativos pode, entre outros processos, se traduzir como ler, articular e utilizar símbolos e códigos em diferentes linguagens e representações: sentenças, equações, esquemas, diagramas, tabelas, gráficos e representações geométricas, acompanhar e analisar os noticiários e artigos relativos à ciência em diferentes meios de comunicação, como jornais, revistas e televisão, identificando o tema em questão e interpretando, com objetividade, seus significados e implicações para, dessa forma, ter independência para adquirir informações e estar a par do que se passa no mundo em que vive.\n\nO eixo Mediação e Intervenção Sociocultural para o itinerário formativo da área de matemática pode promover situações que contribuam para a melhoria das condições de vida da comunidade onde vive o estudante, assim como a conscientização sobre a preservação responsável do ambiente. Aprofunda-se o conhecimento da área ao utilizar as ferramentas matemáticas para analisar situações de seu entorno real e propor soluções, por exemplo, analisando as dificuldades de transporte coletivo em seu bairro por meio de levantamento estatístico, manuais técnicos de aparelhos e equipamentos, ou a melhor forma de plantio de lavoura para subsistência de uma comunidade.\n\nPara o itinerário formativo da área de matemática o eixo estruturador Empreendedorismo pode contribuir de maneira significativa para o levantamento, discussão e análise de temas relacionados à escola, à família e aos locais de moradia, assim como para possíveis formulações de propostas de intervenções. Traz a possibilidade de articular conhecimento entre as áreas do conhecimento, planejar, propor estratégias de desenvolvimento e de avaliação na elaboração de projetos, problemas, estudos e pesquisas que envolvam Matemática ou Estatística.\n\nA seguir encontra-se o quadro organizador curricular do itinerário formativo da área de Matemática e suas Tecnologias que contempla as habilidades relacionadas às competências gerais da Educação Básica, as habilidades específicas dos itinerários formativos dessa área do conhecimento e os pressupostos metodológicos que visam orientar e indicar possibilidades para a concretização das aprendizagens esperadas, para cada eixo estruturante.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

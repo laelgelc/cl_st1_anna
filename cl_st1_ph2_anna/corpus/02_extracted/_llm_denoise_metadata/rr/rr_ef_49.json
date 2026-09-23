@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ffd50540c9852b1006ab30ceddfdc87d29ffe4354ab2040d0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 512,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 794,
+      "output_tokens_details": {
+        "reasoning_tokens": 376
+      },
+      "total_tokens": 1306
+    }
+  },
+  "created_at": "2026-09-22T23:19:18Z",
+  "duration_seconds": 8.388,
+  "error": null,
+  "excerpt_id": "rr_ef_49",
+  "filename": "rr_ef_49.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ab5b3c90a2fba01dbc67dc18af32b44d0fdbec81b7a495fae41aa98f2406fec9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "27a79864b7a18d3ab3782bd3b412ef479402f0dedc8a668df1fb7d70f5c8bb0a",
+    "rendered_prompt_sha256": "4798fab7a43f3ec2c14b8a4a9c7c2a678e937e6d29cf4672a3e87e628714d5d7",
+    "source_text_sha256": "aaf7cd1abd79acfb34ad09bd8d2ebdd1b30ed64b5f365d0be03453af5381fb06"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_49.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3417,
+    "filename": "rr_ef_49.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_49.txt",
+    "state": "rr",
+    "word_count_original": 324
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_49.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_49.json"
+  },
+  "raw_response_text": "### 4.11.5 AVALIAÇÃO\n\nUm dos aspectos mais difíceis da prática pedagógica é a avaliação. Avaliar na disciplina de Ensino Religioso não é como na maioria das outras disciplinas. A avaliação no Ensino Religioso não é objeto de aprovação ou reprovação e nem terá registros de notas ou conceitos, por ter caráter facultativo no ato da matrícula na disciplina. Mesmo o Ensino Religioso tendo essas particularidades, o processo de avaliação não deixa de ser um elemento integrante da disciplina, cabe ao professor proporcionar o necessário para que suas práticas avaliativas permitam acompanhar o processo de apropriação de conhecimento pelo aluno e pela classe, que são os conteúdos tratados e os seus objetivos, ou seja, o professor deverá preparar instrumentos que auxiliem no registro do (a) aluno/turma para a verificação do nível de conhecimento dos conteúdos tratados em sala de aula.\n\nOs conteúdos trabalhados poderão ser observados pelo professor em diversas situações tais como:\n\n- Em que nível de conhecimento os alunos expressam uma relação respeitosa com os colegas que tem opção por outras religiões?\n- São aceitas as diferenças de credo ou expressão de fé pelos alunos?\n- O fenômeno religioso é um dado de cultura e de identidade de cada grupo social, como o aluno entende isso?\n\nO professor terá elementos necessários para planejar e fazer intervenções no processo pedagógico, poderá retomar as falhas identificadas na aprendizagem do educando e dimensionará os níveis de aprofundamento a serem adotados em relação aos conteúdos. Após o processo avaliativo, o professor terá indicativo para a própria avaliação pedagógica ou a retomada da reorganização dos trabalhos, cuja referência são estas Diretrizes. A disciplina de Ensino Religioso necessita de um trabalho comprometido, ou seja, que a avaliação se torne um fator de contribuição para legitimação como componente curricular.\n\nAtravés dessa prática, o professor proporcionará ao aluno a oportunidade de retomar os conteúdos e conhecimentos que o ajudará a compreender melhor a diversidade cultural, da qual a religiosidade é parte integrante.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

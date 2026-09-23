@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07baf8ba9584679b006ab300fc13d887d28bf5e313e42ca8c6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 644,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 586,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 1230
+    }
+  },
+  "created_at": "2026-09-22T22:28:16Z",
+  "duration_seconds": 4.223,
+  "error": null,
+  "excerpt_id": "go_ef_32",
+  "filename": "go_ef_32.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c0fd847d562f39c33353e99d726bf304e87a9af778ea77d267697d0a103ad1b4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b00ed18a1f42e4d2e3b871e52ce2d6ef0105e5ba5fe9a7e4a9901182017bb686",
+    "rendered_prompt_sha256": "9b70e41d2980ff83889212d296b5efa0642da9998dbbe7ca9b4c8c2e40dd4cd2",
+    "source_text_sha256": "bb4ae32e268f3f57d3fad25370b9c6517d5095f41abc57f0ffdd73044f43fe14"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_ef_32.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1108,
+    "filename": "go_ef_32.txt",
+    "filepath": "corpus/00_source_per_state/go/go_ef_32.txt",
+    "state": "go",
+    "word_count_original": 372
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_ef_32.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_ef_32.json"
+  },
+  "raw_response_text": "## 6. Matemática\n\nA Matemática é uma ciência da humanidade, construída ao longo do processo de desenvolvimento humano, fruto das necessidades e preocupações de diferentes culturas, em diferentes momentos históricos. É uma ciência viva que contribui para solucionar problemas científicos e tecnológicos, bem como alicerçar descobertas e construções realizadas pelo e para o ser humano. É uma ciência imprescindível para a compreensão dos aspectos sociais, culturais e locais que caracterizam uma sociedade, seja por sua grande aplicação em outras ciências e no cotidiano, seja pelas suas potencialidades na formação de cidadãos críticos, cientes de suas responsabilidades sociais, que impactam o mundo do trabalho.\n\nOs aspectos sociais, culturais e locais se articulam e se complementam. O aspecto social engloba a reflexão sobre a criação e o uso da matemática em diferentes contextos, apontando para uma dimensão histórica e social do conhecimento matemático. O aspecto cultural considera a matemática como fruto de diferentes culturas e etnias: contagem, localização, medição, desenhos e jogos, que permitem uma reflexão sobre a construção do conhecimento matemático. A Matemática possui estrutura e linguagem própria, sendo capaz de articular dados e informações do mundo real, características e padrões do espaço, das formas e dos fenômenos físicos, os quais são representados ou expressos por contagem, codificação, ordenação, aferição de medidas e estudados pelos diversos tipos de compreensão: números, álgebra, grandezas e medidas, geometria, probabilidade e estatística.\n\nEstes diversos tipos de compreensão constituem as unidades temáticas que compõem a estrutura do Documento Curricular para Goiás, no componente curricular Matemática, as quais devem colaborar na formação do sujeito integral, considerando suas dimensões intelectual, física, cultural, afetiva, social, ética, moral e simbólica, objeto final de todo processo de ensino e aprendizagem. O aspecto local está associado à matemática vivida no cotidiano, facilitando o desenvolvimento de estratégias e uma melhor assimilação dos conteúdos matemáticos. Além disso, a matemática contextualizada localmente possibilita a formação de uma consciência cidadã capaz de se fazer presente em níveis cognitivo, social, cultural e político para o engajamento na comunidade local, por meio de práticas individuais e sociais que gerem ações e instrumentos em favor da promoção, da proteção e da defesa dos direitos humanos, da sustentabilidade e de outros temas de interesse da comunidade, como o empreendedorismo e a educação financeira.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

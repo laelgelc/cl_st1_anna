@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b1af5a392485c56006ab30d04b7f887d2a20561bc3d4b9b39",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 793,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 839,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 1632
+    }
+  },
+  "created_at": "2026-09-22T23:19:39Z",
+  "duration_seconds": 6.634,
+  "error": null,
+  "excerpt_id": "rr_ef_59",
+  "filename": "rr_ef_59.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "be2147c9bad10c6f840def93d50fd77e94ca4ae7534412921358f8548e60c0ad",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ecd54303ac9ca327cdb2bcb6d82e688e9ee402ca8d1bc8e43faa2da58b73797a",
+    "rendered_prompt_sha256": "d25c7b74bc5e1ab94d42b28ab037b2675036130eab0c890cf1b8756bb3094eb4",
+    "source_text_sha256": "abf0974b1974ac2be8f1f552d79841e530fc4f4bddeb473b094d28d1669f737c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_59.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3428,
+    "filename": "rr_ef_59.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_59.txt",
+    "state": "rr",
+    "word_count_original": 510
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_59.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_59.json"
+  },
+  "raw_response_text": "### 4.14.7 PROCESSO DE AVALIAÇÃO DA APRENDIZAGEM\n\nA avaliação se faz presente em todos os domínios da atividade humana. O “julgar”, o “comparar”, isto é, “o avaliar” faz parte de nosso cotidiano. No âmbito educacional e mais especificamente o escolar, esse processo se faz necessário para que medidas sejam tomadas a partir dos resultados da avaliação.\n\nAvaliar implica uma ação que envolve julgamento com vistas a uma tomada de decisão, essa ação deve estar balizada por princípios, sobretudo éticos, uma vez que as decisões decorrentes da avaliação da aprendizagem implicam encaminhamentos na vida escolar dos estudantes, tais como reorientações de percurso ao longo do ano, as chamadas recuperações paralelas, exames finais e até mesmo a decisão acerca da reprovação escolar e suas implicações.\n\nContudo, a avaliação precisa ser vista como parte do processo educacional. Razão pela qual ela deve ser pensada junto a outros elementos formadores do currículo. Assim, a visão de sujeito da aprendizagem que se quer formar, papel social da escola e o projeto de sociedade que se imagina a partir das políticas educacionais, estão implicados e refletem o modelo ou concepção de avaliação que se tem.\n\nHá que se considerar ainda a complexidade das ações educativas e as interferências do sujeito político professor, no convívio diário da sala de aula na qual se materializa o currículo, que, como sabemos, não é neutro ou destituído de intencionalidade e sim um instrumento político e epistemológico. Por essa razão, é possível dialogarem diferentes abordagens sobre avaliação num mesmo currículo, sem, contudo, conflitarem-se.\n\nDe acordo com o documento impõe-se um olhar inovador e inclusivo a questões centrais do processo educativo: o que aprender, para que aprender, como ensinar, como promover redes de aprendizagem colaborativa e como avaliar o aprendizado.\n\nA perspectiva crítica nos parece a que melhor responde a esses interrogantes: os porquês, os para quê e como, cuja centralidade é o aluno. Nessa perspectiva, as aprendizagens estão no centro do processo, em torno da qual gravitam outros elementos, dentre eles a avaliação, mas não aquela como sinônimo de verificações ou medições.\n\nNo cotidiano da sala de aula, podemos traduzir essa perspectiva como atividades mais participativas, ações relacionadas à construção da autonomia, aos processos de acompanhamento dos estudantes em suas múltiplas possibilidades, ao respeito aos diferentes ritmos e tempos de aprendizagem dos sujeitos.\n\nNo que tange às competências específicas e às dezenas de habilidades previstas para o capítulo de Línguas Indígenas é possível vislumbrar um sujeito crítico, criativo, ético e competente, com apropriação do conhecimento e com capacidade para compreendê-lo, empregá-lo e recriá-lo.\n\nAssim, a avaliação da aprendizagem desse aluno não se coaduna com questões positivistas, com múltipla escolha ou com reprodução do conhecimento. Mas com uma avaliação que ultrapasse a avaliação quantitativa e classificatória, sem necessariamente, dispensá-la. A avaliação que dê conta de formar um aluno com as competências e habilidades previstas na BNCC, certamente ultrapassará às questões quantitativas e se apresentará mais abertas, nas quais os alunos emitam opiniões, reflitam e apresentem proposições para soluções de conflitos presentes na sua realidade.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

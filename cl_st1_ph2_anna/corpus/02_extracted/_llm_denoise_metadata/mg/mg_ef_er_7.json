@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07dc739acbac77ff006ab30296bb8c87d29e632aa2c5b7ea94",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 883,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1231,
+      "output_tokens_details": {
+        "reasoning_tokens": 495
+      },
+      "total_tokens": 2114
+    }
+  },
+  "created_at": "2026-09-22T22:35:11Z",
+  "duration_seconds": 9.149,
+  "error": null,
+  "excerpt_id": "mg_ef_er_7",
+  "filename": "mg_ef_er_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "001179dbd7e00c5d612b4df66f7b98d0db4f061b4a145f632e0d00bfbff35367",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d43f381ce00d37b7f3c867418a4a40f3bfbbe9572150e789c4b7c4755b87ae89",
+    "rendered_prompt_sha256": "64e34a0f8f06c1ee8b1f370d2b0004fd584f70334581afe38c652a5a441620f6",
+    "source_text_sha256": "f098a4c4b5d5d647ed0a689931ffdbc3e4b3df7ee23919971c99b18c16063e67"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_er_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1418,
+    "filename": "mg_ef_er_7.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_er_7.txt",
+    "state": "mg",
+    "word_count_original": 537
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_er_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_er_7.json"
+  },
+  "raw_response_text": "Na acepção de processo de ensino-aprendizagem para o componente curricular do Ensino Religioso, cabe ainda considerar o aspecto da formação humana. Tomados como seres sócio-históricos, professor e estudante carecem de uma formação holística que lhes assegure a compreensão da sociedade não somente como um espaço de produção de saberes, mas também como um lugar de construção de identidades – a coletiva e a individual. Para isso, torna-se necessário incluir na agenda a prática da reflexão, a fim de que possam ser desenvolvidas noções de alteridade, de reciprocidade e de solidariedade. Trata-se de uma visão ecológica do conhecimento, isto é, acolher criticamente os saberes universalmente acumulados nas ciências, nas ciências humanas, especialmente nas Ciências da Religião, para uma discussão que contemple também a ética das relações entre as pessoas, começando pelos colegas mais próximos e a comunidade escolar. Por isso, é importante que esse processo se faça de forma interdisciplinar, superando uma concepção de educação fragmentada: “se a história oficial da ciência é a da disciplinaridade, outra história, ligada e inseparável, é da inter-poli-transdisciplinaridade.”31\n\n31 MORIN, Edgar. A cabeça bem-feita: repensar a reforma, reformar o pensamento. 5. Ed. Rio de Janeiro: Bertrand Brasil, 2001, p. 107.\n\nO exercício dessa reflexão crítica, inclusive do próprio processo educativo, deve ser constante no processo de formação e pode revelar-se produtiva, permitindo que afloram conceitos, preconceitos e valores que acabam sendo discutidos à luz das experiências, vivência e até de teorias. Essas reflexões reforçam ainda mais a importância da ação docente no processo educativo.\n\nAssim, a concepção adotada é de que o processo de ensino-aprendizagem não depende exclusivamente do estudante, do professor, dos métodos e das atividades propostas ou da organização escolar, mas da interação de todos no processo educativo.\n\nDeve-se observar que o sujeito principal desse processo é o educando e não o currículo ou o professor. No componente curricular do Ensino Religioso é muito importante que haja um profundo respeito às crenças dos educandos e de suas famílias, de modo que não haja espaço para nenhum tipo de desrespeito e também de proselitismo religioso. O professor deve levar em conta a situação do processo de desenvolvimento dos educandos, a realidade local e regional ao trabalhar com as unidades temáticas, os objetos de conhecimento e suas habilidades.\n\nNesse componente curricular não se trata de ensinar uma ou diversas religiões, mas oportunizar que os educandos reflitam sobre suas experiências, vivências, sobre as culturas e tradições religiosas, aprofundando e formulando sentidos para a construção de seus projetos de vida com qualidade, capacidade de respeito, em vista de uma cultura solidária e de paz.\n\nDestaca-se que os critérios de organização das habilidades no CRMG, a partir da BNCC, com a explicitação dos objetos de conhecimento, aos quais se relacionam, e do agrupamento desses objetos em unidades temáticas, construídos com a participação e a contribuição de centenas de professores, expressam um arranjo possível, dentre outros. Portanto, os agrupamentos propostos são uma referência básica, importante, e não devem ser tomados como modelo fixo e obrigatório, o que possibilita a adaptação, o aperfeiçoamento constante, a partir dos princípios, competências gerais e específicas da Base, e o atendimento à realidade dos educandos e de realidades locais e regionais.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

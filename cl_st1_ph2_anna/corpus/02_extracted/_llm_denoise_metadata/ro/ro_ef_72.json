@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_003b4dcdafcb1d16006ab30bc0973087d282e6c1cd3c377ab5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 720,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 869,
+      "output_tokens_details": {
+        "reasoning_tokens": 249
+      },
+      "total_tokens": 1589
+    }
+  },
+  "created_at": "2026-09-22T23:14:16Z",
+  "duration_seconds": 7.93,
+  "error": null,
+  "excerpt_id": "ro_ef_72",
+  "filename": "ro_ef_72.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8cd7e0f6c05f75e96fc2a4d60b06316f64a3dd0f8485b8909ef1618be8a051b9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "95ef8e14ce38f1cc0f947979736712b97dcd56427acab29a2e246f5c0b829141",
+    "rendered_prompt_sha256": "04901dd4202664e032ef43b2b951f26a81af71c12a40edb1dfc63200f93973cf",
+    "source_text_sha256": "e087c47db344468781cb34c097ed4abe06794507d03cd71949169e8e9a98ab1a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_72.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3175,
+    "filename": "ro_ef_72.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_72.txt",
+    "state": "ro",
+    "word_count_original": 470
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_72.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_72.json"
+  },
+  "raw_response_text": "### 9.5.3 Potencialidades da disciplina de Educação Física\n\nMuito se tem refletido e discutido tentando definir qual a contribuição da Educação Física para a formação integral dos estudantes. São muitas as possibilidades e sabemos que está muito além de um simples rolar bola, podemos citar alguns exemplos como: As habilidades motoras, desenvolvimento global, a práticas das capacidades físicas, da psicomotricidade, da expressão corporal, das técnicas e táticas das manifestações da cultura corporal. Podemos citar ainda o desenvolvimento da inteligência, soluções de problemas, estratégias; a cooperação, a solidariedade; o respeito aos outros e às regras das modalidades; a curiosidade; o senso crítico; a superação das dificuldades buscando assim a transformação desse ser que busca além do jogar. O Componente Educação Física resgata através do seu vasto as culturas corporais do movimento com: aulas de dança, lutas, ginásticas, esportes, jogos e brincadeiras e práticas de aventuras.\n\nE o melhor de tudo é podermos fazer a relação desses conteúdos com a realidade de cada aluno, resgatando seus valores e contribuindo para sua vida em sociedade. Não é à toa o quão comum é vermos a ansiedade que o aluno aguarda o início do ano para conhecer seu novo professor de Educação Física. O aluno logo se identifica com aquele professor que é extrovertido, amigo e que lhe proporciona momentos inesquecíveis durante seu tempo na escola.\n\nPara Araújo e Santos (2009), a Educação Física tem um papel de muita importância na formação de valores do aluno, mas para isso é preciso que o professor tenha autonomia e atitudes para que possa trabalhar as características da disciplina sem perder seu significado. Seguindo nessa ótica a Educação Física possui fatores essenciais para formação do aluno como socialização, respeito, caráter, dignidade, solidariedade, mantendo assim uma boa relação aluno-professor, onde haja uma troca de conhecimento, podendo ser contextualizada, proporcionando a integração escolar.\n\nConhecer, valorizar, respeitar e desfrutar da pluralidade de manifestações da cultura corporal, reconhecer-se como elemento integrante do ambiente, adotando hábitos saudáveis relacionando-os com os efeitos sobre a própria saúde e de melhoria da saúde coletiva, conhecer a diversidade de padrões de saúde, beleza e desempenho que existem nos diferentes grupos sociais, compreendendo sua inserção dentro da cultura em que são produzidos, analisando criticamente o que a sociedade impõe, reivindicar, organizar e interferir no espaço de forma autônoma.\n\nNão é o objetivo desse documento indicar uma postura única para o professor de Educação Física do Estado de Rondônia e sim evidenciar sua autonomia, importância e relevância na formação do aluno como cidadão crítico e reflexivo. Seu papel dentro do contexto escolar é retirar a educação física do papel de mera coadjuvante com foco exclusivamente no desenvolvimento esportivo mas notabilizá-la como um agente efetivo na adoção de experiências físicas saudáveis, prazerosas e significativas que irão perdurar por toda a vida dos alunos.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

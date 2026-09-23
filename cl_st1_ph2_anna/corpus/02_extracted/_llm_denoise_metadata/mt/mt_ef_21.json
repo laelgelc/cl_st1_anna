@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0794884af2b04bdf006ab304434acc87d2b6bf85137998e110",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 784,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 870,
+      "output_tokens_details": {
+        "reasoning_tokens": 250
+      },
+      "total_tokens": 1654
+    }
+  },
+  "created_at": "2026-09-22T22:42:19Z",
+  "duration_seconds": 8.182,
+  "error": null,
+  "excerpt_id": "mt_ef_21",
+  "filename": "mt_ef_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ffb055d30aa325c7bee568debc1a3f42213640818076af769a5def36eb3c7fa3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e69a9f83ccbb0ca3fd0d4d0b0b68a18a6b248a050bdcdf30e35b225d1f29ddea",
+    "rendered_prompt_sha256": "d0eaf456a6528e2923936480c0305d4ed49d4eefc981d9aaf4d62b5b537ef771",
+    "source_text_sha256": "088cd03fe3de1e1251e0de60652ca75bcade298655ce67646acedd772105d903"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1813,
+    "filename": "mt_ef_21.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_21.txt",
+    "state": "mt",
+    "word_count_original": 386
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_21.json"
+  },
+  "raw_response_text": "### 3.9.2. Esportes\n\nComo em muitos lugares, o futebol é um esporte bastante conhecido entre as crianças, esse pode ser o ponto de partida. Contudo, além dessa prática, os professores podem propor diversas outras que vão ampliar o conhecimento das crianças, ainda que necessitem ser adaptadas em suas regras para estarem adequadas à faixa etária.\n\nNesse sentido, torna-se pertinente, ainda, que os esportes indígenas, bem como os paraolímpicos sejam enfatizados como forma de apresentar novas possibilidades de as crianças perceberem o esporte.\n\nSão alguns esportes indígenas:\n\n- Cabo de guerra;\n- A luta corporal;\n- O atletismo;\n- O arremesso de lança (que pode ser adaptado);\n- A corrida com tora (que pode ser adaptada).\n\nSão alguns esportes paraolímpicos:\n\n- Goalball,\n- Voleibol sentado;\n- Tênis de mesa;\n- Futebol de 5 ou de 7.\n\nEsses são apenas alguns exemplos a partir dos quais a escola pode construir seu repertório de práticas esportivas nos Anos Inicias, contextualizando as práticas trabalhadas com as crianças, além de considerar a curiosidade das mesmas sobre as não adequadas à faixa etária, mas que estejam focalizadas pela mídia ou o jornalismo esportivo, como por exemplo, os esportes radicais.\n\n### 3.9.3. Danças[^18]\n\nO trabalho com algumas habilidades depende de nosso conhecimento sobre aspectos do que será ensinado, embora o que estamos apresentando seja um recorte, entende-se que poderá contribuir para que o professor conheça e amplie seu repertório sobre a cultura Mato-Grossense. Vale enfatizar, contudo, que outros conhecimentos gerais devem ser articulados nesse momento.\n\nOs Mato-Grossenses assumem danças como representativas da cultura local, portanto são manifestações de um povo que conta suas vivências cotidianas e/ou religiosas. Algumas danças, que podem ser contempladas na contextualização realizada pelas escolas, são:\n\n- Cururu;\n- Siriri;\n- Rasqueado;\n- Lambadão;\n- Corussé;\n- Catira;\n- Dança dos Mascarados;\n- Dança do chorado.\n\nEssas e outras manifestações culturais por meio da dança devem ser valorizadas no contexto escolar, além de serem ferramentas para conectar a escola à comunidade.\n\n[^18]: Para maior conhecimento sobre cultura Mato-Grossense: http://casadeguimaraes.org.br/wp-content/uploads/2018/01/LIVRO-DAN%C3%87AS-E-FESTAS-RELIGIOSAS.pdf; sobre as danças de Mato Grosso: as obras de pesquisadores como Beleni S. Gandro, Giordanna Santos entre outros citados no material disposto no link anterior; Guimarães, Lauristela Danças e Festas Religiosas: A Cultura Popular/ [Lauristela Guimarães (org)] - Cuiabá: Primeira Página Editora, 2011.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

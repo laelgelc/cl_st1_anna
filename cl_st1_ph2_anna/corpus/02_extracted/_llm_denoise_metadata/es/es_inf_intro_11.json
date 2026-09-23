@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_002df1a26dcdeb60006ab300cb3ff887d28f7115f2dadc7ce9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1137,
+      "input_tokens_details": {
+        "cache_write_tokens": 1134,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1040,
+      "output_tokens_details": {
+        "reasoning_tokens": 103
+      },
+      "total_tokens": 2177
+    }
+  },
+  "created_at": "2026-09-22T22:27:32Z",
+  "duration_seconds": 8.855,
+  "error": null,
+  "excerpt_id": "es_inf_intro_11",
+  "filename": "es_inf_intro_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "de3af91e3fa74747d263dec7f08c6d531b529c33f41f891764e906c2fc2070b2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "dd8de48e39b0c1525f186e56b7c3c83bcfa8087b6aaaa9fee367b5743f515c8b",
+    "rendered_prompt_sha256": "ada1de438a29b329104cc57caf826011877139a7ce05ebb3a8ef7ea6bccaa5a0",
+    "source_text_sha256": "d41cd11a91c32b0029fcb0930ac7b43982969648e659113e8ca1b767421eca28"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_intro_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1063,
+    "filename": "es_inf_intro_11.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_intro_11.txt",
+    "state": "es",
+    "word_count_original": 673
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_intro_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_intro_11.json"
+  },
+  "raw_response_text": "## Educação de Jovens e Adultos\n\nDe acordo com a LDB Nº 9394/96 (BRASIL, 1996), em seu Art. 37, “a educação de jovens e adultos será destinada àqueles que não tiveram acesso ou continuidade de estudos nos ensinos fundamental e médio na idade própria e constituirá instrumento para a educação e a aprendizagem ao longo da vida”. Por tratar-se de um currículo voltado para a educação básica, o documento considera como público a ser atendido por ele, os jovens e adultos que não puderam efetuar os ensinos fundamental e médio na idade regular.\n\nA meta 9 do Plano Nacional de Educação se propõe erradicar, até 2024, o analfabetismo absoluto e reduzir em 50% (cinquenta por cento) a taxa de analfabetismo funcional. Isso significa que ainda há muito a ser feito, uma vez que segundo a Pesquisa Nacional por Amostra de Domicílios Contínua (IBGE, 2017) o Brasil ainda possui 11,8 milhões de analfabetos, o que corresponde a 7,2% da população com 15 anos ou mais, o que se agrava quando o foco é a população masculina, negra e parda, e com mais de 40 anos. Outro dado alarmante na mesma pesquisa é que apenas 51% da população brasileira possui o ensino fundamental completo até os 25 anos, e 26,3% completou o ensino médio.\n\nEsses dados nos ajudam a revelar algumas facetas do atendimento ao público da educação de jovens e adultos. Trata-se de estudantes que carregam em suas histórias o fracasso e a exclusão escolar e, para além disso, vivências culturais e sociais que ultrapassam àquelas da infância e adolescência, incluindo o compromisso com a família e o trabalho, este geralmente informal. Ainda há que se considerar os estudantes da Educação Especial, que mediante fracassos repetidos e inadequações da escola para seu atendimento, tornam-se público também da EJA. Todo esse quadro de exclusão ao qual são submetidos compromete a participação cidadã desses estudantes no mundo do trabalho, da cultura e da política.\n\nMediante isso, a educação de jovens e adultos deve propiciar oportunidades educacionais pautadas na inclusão e qualidade social e apropriadas às histórias de vida de seus estudantes, visando promover a alfabetização e as demais aprendizagens previstas nesse documento curricular. Em congruência com o Art.5º, Parágrafo único, da Resolução CNE/CEB Nº 1, de 05 de julho de 2000, que estabelece as Diretrizes Curriculares Nacionais para a Educação de Jovens e Adultos, a EJA “se pautará pelos princípios da equidade, diferença e proporcionalidade na apropriação e contextualização das diretrizes curriculares nacionais”.\n\nImportante mencionar, que para além do atendimento da Educação de Jovens e Adultos no espaço escolar, as Diretrizes Nacionais da Educação Básica incluem também os jovens e adultos em situação de privação de liberdade. Tendo como objetivo estabelecer questões de ordem da política de educação para o sistema penitenciário, o Conselho Nacional de Educação dispõe na Resolução Nº 2, de 19 de maio de 2010, das diretrizes para esse atendimento em nível nacional, devendo atender a “presos provisórios, condenados, egressos do sistema prisional e àqueles que cumprem medidas de segurança” (BRASIL, 2010). Traz como uma de suas orientações “o desenvolvimento de políticas de elevação de escolaridade associada à qualificação profissional, articulando-as, também, de maneira intersetorial, a políticas e programas destinados a jovens e adultos” (Art.3º, inciso VI). Realizada em parceria com órgãos responsáveis pela política de execução penal, a educação de jovens e adultos em situação de privação de liberdade deve ser organizada de modo a atender as peculiaridades de tempo, espaço e rotatividade da população carcerária, com materiais didáticos e estratégias pedagógicas adequados, inclusive em programas educativos na modalidade de Educação a Distância.\n\nAs diretrizes da educação de jovens e adultos em estabelecimentos penais estabelecem parâmetros que visam garantir o direito de aprender de todas as pessoas encarceradas, proporcionando-lhes acesso à educação em seus diferentes níveis e contribuindo para mudar a atual cultura de prisão, na busca de convergir as ações de segurança e de educação para alcançar os objetivos da prisão, que é a recuperação e a ressocialização dos presos.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

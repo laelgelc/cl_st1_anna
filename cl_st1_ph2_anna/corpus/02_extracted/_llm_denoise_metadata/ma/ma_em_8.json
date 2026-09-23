@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d28b8815f434f35006ab3024fbd8887d2ab960b52a60467cd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 798,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 831,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 1629
+    }
+  },
+  "created_at": "2026-09-22T22:34:01Z",
+  "duration_seconds": 9.483,
+  "error": null,
+  "excerpt_id": "ma_em_8",
+  "filename": "ma_em_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5ab34a01b07af288a16f51c7ed9a1213a72551aae6584cf72d4fde8cbfb70172",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "29baf4d16b655f2844420894d71ea95f3f64352055c256d505d8fc885d044204",
+    "rendered_prompt_sha256": "028308c0009e9a465e7caecaa0ea46fd192185d56016432f58dc994558478d06",
+    "source_text_sha256": "8735c3a4b6a37409d332382ed762e72e9e27d7d87ef03b7ab3ea14e2a0173153"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1352,
+    "filename": "ma_em_8.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_8.txt",
+    "state": "ma",
+    "word_count_original": 475
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_8.json"
+  },
+  "raw_response_text": "# Educação escolar quilombola no contexto maranhense\n\nA implantação da modalidade de educação quilombola insere-se numa trajetória de discussões no campo educacional iniciada ainda na década de 1980 e marcada por alto grau de mobilização em torno da reconstrução da função social da escola. Esse processo incorporou a dinâmica instaurada pelos movimentos sociais de caráter identitário, que denunciaram o papel da educação escolar na expressão, repercussão e reprodução do racismo e do sexismo, o que contribuiu para descortinar mecanismos cotidianos de discriminação contidos na organização curricular, nos livros didáticos e em outros dispositivos.\n\nNa rede estadual de ensino, a educação escolar quilombola se configura, até o ano de 2020, em 25 instituições escolares de ensino médio que estão situadas em territórios rurais quilombolas distribuídos por 15 municípios: Bacabal, Codó, Brejo, Mata Roma, Anapurus, Itapecuru, Vargem Grande, Anajatuba, Guimarães, Turiaçu, Central do Maranhão, Mirinzal, Alcântara, Vitória do Mearim e São Vicente de Ferrer, jurisdicionados por sete Unidades Regionais de Educação: Bacabal, Codó, Chapadinha, Itapecuru, Pinheiro, São Luís e Viana, que mensuram 3.015 estudantes e 175 professores.\n\nO estado tem concentrado esforços para assegurar os direitos da população quilombola, propiciando um espaço educativo de qualidade, com a implementação do Programa Escola Digna. Essas ações vão desde a formação de professores à elaboração de documentos que orientam a adequação do currículo dessas escolas. Tais ações têm impactado positivamente na aprendizagem dos estudantes e, consequentemente, aumentado os índices educacionais dessa modalidade de ensino.\n\nDe acordo com as DCNEEQ, no seu art. 34:\n\n> O currículo da Educação Escolar Quilombola diz respeito aos modos de organização dos tempos e espaços escolares de suas atividades pedagógicas, das interações do ambiente educacional com a sociedade, das relações de poder presentes no fazer educativo e nas formas de conceber e construir conhecimentos escolares, constituindo parte importante dos processos sociopolíticos e culturais de construção de identidades (BRASIL, 2012, p. 34).\n\nO currículo deve abranger o conhecimento do mundo físico e natural, da realidade social e política do Brasil e, em particular, dos quilombos nos quais se insere a escola, além da imprescindibilidade da inclusão, no currículo escolar, de história e cultura afro-brasileira e indígena, em cumprimento das leis nos 10.639/03 e 11.645/08. De modo mais amplo, ao definir os temas e conteúdos a serem abordados na educação escolar quilombola, o currículo deve considerar as histórias, vivências e necessidades que integram o cotidiano das pessoas em suas comunidades e, além disso, propor discussões que visem ao combate do racismo e de práticas discriminatórias. O currículo na educação escolar quilombola não é um ente isolado no processo escolar, que trata apenas de disciplinas e conteúdo, mas um elemento de vivência construído no âmago de toda a comunidade escolar, de modo que o que se aprende na escola faça sentido na vida das pessoas.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

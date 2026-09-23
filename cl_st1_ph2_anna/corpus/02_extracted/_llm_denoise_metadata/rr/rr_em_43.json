@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0912c6c8071fd5e3006ab30d3b4e8487d2879c4dbd63459ed7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1014,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1130,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 2144
+    }
+  },
+  "created_at": "2026-09-22T23:20:34Z",
+  "duration_seconds": 7.619,
+  "error": null,
+  "excerpt_id": "rr_em_43",
+  "filename": "rr_em_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "868698c4547ab5c6c9f3530d300be1e6e498366932b6e549e847a65b8402a756",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f5751b6c9eca13c2d16cfd8a8b29e1283edcec528aad66fdaaf4fdec20b39374",
+    "rendered_prompt_sha256": "53f7021c8612f4c200e5509bd0f53f229785bdd5c63569f02df331f42c5f0d3c",
+    "source_text_sha256": "94e4792bd2b8ece25738344932ca3bab7fac6758b397613b5940129d2a0735f9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3478,
+    "filename": "rr_em_43.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_43.txt",
+    "state": "rr",
+    "word_count_original": 672
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_43.json"
+  },
+  "raw_response_text": "## 5.2. Formas de oferta\n\nNo art. 17, da Resolução CNE nº 3 (BRASIL, 2018d), o ensino médio, etapa final da educação básica, concebida como conjunto orgânico, sequencial e articulado, deve assegurar sua função formativa para todos os estudantes, sejam adolescentes, jovens ou adultos, mediante diferentes formas de oferta e organização.\n\nNesse sentido, o DCRR definiu em sua arquitetura a forma de oferta dos itinerários formativos conforme o modelo de ampliação progressiva da carga horária ao longo do Ensino Médio. Assim, nas matrizes curriculares de cursos de ensino médio aprovados pelo Conselho Estadual de Educação de Roraima – CEE/RR, deverão seguir essa estrutura.\n\nAs redes e instituições de ensino, também devem garantir que as unidades curriculares eletivas e aprofundamento sejam escolhidas por estudantes e escolas. Para isso, deverão planejar uma distribuição de carga horária do itinerário formativo de modo que os estudantes possam realizar escolhas alinhadas ao seu projeto de vida e de acordo com os critérios estabelecidos pelas redes e instituições de ensino.\n\nAinda, é importante que as redes e instituições de ensino considerem a possibilidade dos estudantes cursar mais de um itinerário de forma sequencial ou concomitante. Dessa forma, terão a possibilidade de cursar itinerários formativos em instituições parceiras de sua escola, de forma concomitante ao cursado em sua instituição, ou aproveitar aprendizagens realizadas em outros ambientes, como estágios, cursos de idiomas, entre outros, desde que sejam previamente credenciadas pelo CEE/RR, que atuará como harmonizador dos critérios para credenciamento. Outra possibilidade de oferta se refere aos itinerários formativos integrados por meio de arranjos curriculares que podem combinar mais de uma área de conhecimento e da formação técnica e profissional. Vale salientar que, independente do modelo de itinerário formativo ofertado, as redes e instituições de ensino devem orientá-los pelo perfil de saída almejado para o estudante, considerando seus interesses, suas perspectivas de continuidade de estudos no nível pós-secundário, a sua inserção no mundo do trabalho, como também a relevância para o contexto local e as condições de oferta das redes e instituições de ensino.\n\nCom base nesse pressuposto, o DCRR acolhe a obrigatoriedade da oferta de mais de um itinerário formativo em cada município, em áreas distintas, permitindo aos estudantes realizar escolhas, dentre diferentes arranjos curriculares, atendendo assim a heterogeneidade e pluralidade de condições, interesses e aspirações. Para tanto, a oferta de itinerários formativos deve considerar as possibilidades estruturais e de recursos das instituições ou redes de ensino. Neste contexto, fica a critério do Sistema Estadual de Educação de Roraima, definir as competências eletivas complementares dos estudantes como forma de ampliação da carga horária do itinerário formativo escolhido, atendendo ao seu projeto de vida. Já as redes e instituições de ensino, devem estabelecer o regramento do processo de escolha do itinerário formativo pelo estudante, atentando para orientá-los no processo de escolha e garantir que possam mudar de itinerário formativo ao longo de seu curso, resguardadas as possibilidades de oferta das instituições ou redes de ensino e respeitando o instrumento normativo específico do Sistema Estadual de Educação de Roraima.\n\nAtrelado a isso, o sistema de ensino deve garantir formas de aproveitamento de estudos realizados com êxito para o estudante em processo de transferência entre instituições ou redes de ensino ou em caso de mudança de itinerário formativo ao longo de seu curso. Diante de disso, é importante que as redes e instituições de ensino definam e orientem seus estudantes sobre as regras de acesso e escolha dos itinerários formativos inclusive para quando houver demanda maior que a oferta de vagas.\n\nÉ importante considerar que, havendo itinerários com demanda maior que a oferta de vagas, algumas medidas deverão ser adotadas para a matrícula dos estudantes em outros itinerários, com base em critérios pré-definidos e previamente divulgados no processo de chamada pública. Considerando essa situação, sugere-se o mapeamento das demandas antes da definição da oferta dos itinerários. Nesse contexto, é necessário considerar a reelaboração da normativa de matrícula nas redes, atualizando os procedimentos em conformidade com as novas demandas que a flexibilização do Ensino Médio requer.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

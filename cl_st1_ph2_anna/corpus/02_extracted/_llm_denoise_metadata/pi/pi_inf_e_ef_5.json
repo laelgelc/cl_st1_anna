@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_085056463172648b006ab30908abfc87d28aaa2927a4e3ef24",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1651,
+      "input_tokens_details": {
+        "cache_write_tokens": 1648,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1725,
+      "output_tokens_details": {
+        "reasoning_tokens": 248
+      },
+      "total_tokens": 3376
+    }
+  },
+  "created_at": "2026-09-22T23:02:47Z",
+  "duration_seconds": 14.542,
+  "error": null,
+  "excerpt_id": "pi_inf_e_ef_5",
+  "filename": "pi_inf_e_ef_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "65e08b7ae782e3d5b39ff7ef844441a69e473be3f5a41cc1f6591999e31a718f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "46510a46818f8ff1ce63abc7a0abb106d38e7213892934eb1dd90c6dbf6dec4e",
+    "rendered_prompt_sha256": "2fbd36ca3db780faa14fca0b6f67ea80ce5264cf02dfd2c7a04af418452798f4",
+    "source_text_sha256": "d7f85ae85afe7221a14531469bd58290b40cb499e6f991b7e7ea9ee0968eb205"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_inf_e_ef_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2665,
+    "filename": "pi_inf_e_ef_5.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_inf_e_ef_5.txt",
+    "state": "pi",
+    "word_count_original": 980
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_inf_e_ef_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_inf_e_ef_5.json"
+  },
+  "raw_response_text": "## 1.2 Contexto educacional do território piauiense\n\nDe acordo com o Censo Escolar (2018), o Brasil possui, atualmente, 181.939 escolas de Educação Básica. Deste total, 4.651 estão no Piauí, correspondendo à rede pública e privada e distribuídas em áreas urbanas e rurais, sendo a maioria (51,34%) localizada na zona urbana (CENSO ESCOLAR/INEP, 2018).\n\nOs estudantes atendidos por essas escolas são 64,3% do gênero masculino e 35,7% do gênero feminino, destes 9,2% se declaram brancos, 3,8% pretos, 59,2% pardos, 0,7% amarelos e 0,3% indígena, os 27% restantes não declararam pertencer a nenhuma etnia. Os que residem na zona rural estão distribuídos em áreas de assentamento (1,4%), áreas remanescentes de quilombos (0,7%), unidades de uso sustentável (0,1%) e unidades de uso sustentável na área remanescente de quilombos (CENSO ESCOLAR/INEP, 2018).\n\nNa Figura 1, consta o número de escolas no Piauí, considerando a rede Pública e Privada e das áreas urbanas e rurais, nos anos de 2013, 2015, 2017 e 2018.\n\nAnalisando a Figura 1, é possível observar que o número de escolas vem decrescendo no Estado. Comportamento semelhante é observado quando se analisa o acesso de crianças em pré-escolas e em escolas de Ensino Fundamental no mesmo período (Tabela 1).\n\nPara a Educação Infantil, observa-se um aumento do número de matrículas de crianças de 0 (zero) a 3 (três) anos e um decréscimo de 4 (quatro) a 5 (cinco) anos. Vale ressaltar que, desde 2013, a Educação Infantil passa ser obrigatória a partir dos 4 anos de idade (Lei 12.796/2013). Entretanto, os dados para o Piauí diferem do cenário nacional, uma vez que se observou um aumento na taxa de matrículas na fase da pré-escola. De acordo com a Meta 01 do PNE, é necessário que o mínimo de 50,0% das crianças de 0 a 3 anos frequente a creche até o final da vigência do Plano.\n\nPara o Ensino Fundamental (Tabela 01), os resultados contrastam com a primeira etapa da Meta 2 do Plano Nacional de Educação – PNE, lei nº 13/005-2014, que garante a universalização do Ensino Fundamental de 9 (nove) anos para toda a população de 6 (seis) a 14 (quatorze) anos. Ressalta-se ainda que as desigualdades de raça/cor, renda e regionais também são fatores que dificultam a universalização do Ensino Fundamental no país (PNAD, 2018).\n\nÉ válido ressaltar que tão importante quanto garantir o acesso de crianças, adolescentes e jovens nas escolas é assegurar sua permanência com êxito, haja vista que, ao final do ano letivo, o aluno matriculado pode ser reprovado, aprovado e ainda no percurso pode evadir da escola. E é o somatório dessas três situações que define a taxa de rendimento escolar, conforme demonstram as Tabela 2 e 3, referentes aos anos de 2013, 2015 e 2017 para o Estado do Piauí.\n\nOs dados da Tabela 3 contrastam com a Meta 2 do Plano Nacional de Educação – PNE, lei nº 13/005-2014, que garante a universalização do Ensino Fundamental de 9 (nove) anos para toda a população de 6 (seis) a 14 (quatorze) anos e assegura que pelo menos 95% (noventa e cinco por cento) dos alunos concluam essa etapa na idade recomendada, até o último ano de vigência do PNE. Percebe-se, também, que mesmo não alcançando a meta, houve uma diminuição desta distorção no período analisado.\n\nAinda no tocante à educação, pode-se lançar mão de variáveis mais específicas, tais como: o SAEB e o IDEB (Índice de Desenvolvimento da Educação Básica). Sendo estes relevantes para avaliar a qualidade de ensino das escolas do País, e utilizados como parâmetros norteadores de suas ações pedagógicas.\n\nConsiderando os resultados da Prova Brasil no ano de 2017 no Piauí, somente 42% dos alunos (18.128 alunos) da Rede Pública de ensino desenvolveram adequadamente a competência de leitura e interpretação de textos até o 5º ano, e 26% até o 9º ano. Com relação ao ensino de Matemática, os dados são ainda mais preocupantes, somente 30% dos estudantes conseguem aprender adequadamente a competência resolução de problemas até o 5º ano e 12% até o 9º ano.\n\nQuanto ao IDEB, a Tabela 4 mostra a evolução do referido índice no período de 2007 a 2017 do Piauí, a meta para o Estado do Piauí no período e a comparação com o IDEB nacional.\n\nNo período analisado (2007-2017), o Piauí alcançou índices abaixo da média Nacional, entretanto, superou a meta para o estado em todo o período nos Anos Inicias e o mesmo vem acontecendo nos Anos Finais desde 2013, porém, ainda não alcançou 6,0.\n\nO IDEB, assim como outros indicadores educacionais, mantém uma correlação direta com o Indicador de Nível Socioeconômico das escolas de Educação Básica (InSE) – uma vez que, quanto maior o InSE, maior o IDEB (PNAD contínua 2018). Portanto, o que é feito na escola e avaliado, quer internamente ou externamente reflete diretamente na qualidade de vida e no desenvolvimento econômico e social de uma população.\n\nImportante destacar também que, de acordo com dados do Programa das Nações Unidas para o Desenvolvimento (PNUD, 2018), o Estado do Piauí possui atualmente Índices de Desenvolvimento Humano (IDH) médio igual a 0,646 pontos, superando apenas os Estados do Maranhão e Alagoas. Em relação ao IDH, este é calculado considerando indicadores de renda, saúde e educação.\n\nAssim sendo, acredita-se que uma educação de qualidade, que tem como base o desenvolvimento de competências e habilidades e que promova aprendizagem significativa, contribui para a emancipação e melhoria na qualidade de vida dos cidadãos piauienses.\n\nAlém de considerar as características do sistema educacional piauiense, deve-se pensar em um currículo para este território, levando em conta que o estudante do século XXI tem características próprias, fazendo uso de recursos tecnológicos modernos para acessar, divulgar e produzir informações a todo momento.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

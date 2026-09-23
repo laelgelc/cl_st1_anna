@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d2e7e096ea19427006ab2ff59e71487d2ab0932bbb48e92cb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1513,
+      "input_tokens_details": {
+        "cache_write_tokens": 1510,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2322,
+      "output_tokens_details": {
+        "reasoning_tokens": 915
+      },
+      "total_tokens": 3835
+    }
+  },
+  "created_at": "2026-09-22T22:22:10Z",
+  "duration_seconds": 57.232,
+  "error": null,
+  "excerpt_id": "ce_em_16",
+  "filename": "ce_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "da3e3d85786d52415e638c92ecdbfe4542d6f632f494ae6233108ca58b652db4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "124a313b8c59365d4b4c48968f5619f0d42902f538b68cd70cde7035665ecda2",
+    "rendered_prompt_sha256": "2fb83460cc142b13c771791124dadc899319e38b816b0dcfae74b4f27e0b05b8",
+    "source_text_sha256": "38a6524f166172f1ea602ded0ba92336b39855cbcc4f144fa89440b84f2cfbc0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 770,
+    "filename": "ce_em_16.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_16.txt",
+    "state": "ce",
+    "word_count_original": 1021
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_16.json"
+  },
+  "raw_response_text": "## 3.7 Educação Especial\n\nA Educação Especial é uma modalidade de ensino que perpassa todos os níveis, etapas e modalidades, e direciona ações ao atendimento em consonância com as necessidades e as especificidades das/dos alunas/os no processo educacional.\n\nNa busca pela efetivação de uma política pública de acesso universal à educação, em 1988, a Constituição Federal trouxe como um dos seus objetivos fundamentais “promover o bem de todos, sem preconceitos de origem, de raça, de gênero, de cor, de idade e de quaisquer outras formas de discriminação” (art. 3º, inciso IV). E, no art. 205, define a educação como um direito de todos, garantindo o pleno desenvolvimento da pessoa ao exercício da cidadania e a qualificação para o trabalho. Já no art. 206, inciso I, estabelece a “igualdade de condições de acesso e permanência na escola” como um dos princípios para o ensino e garante, como dever do Estado, a oferta do atendimento educacional especializado, preferencialmente, na rede regular de ensino (art. 208).\n\nA LDB recomenda, em seu art. 59, que os sistemas de ensino devem assegurar às/aos alunas/os, público-alvo da Educação Especial: currículos, métodos, técnicas, recursos educativos e organização singulares para atender às necessidades e à terminalidade específica àqueles que não atingiram o nível cognitivo satisfatório à conclusão do Ensino Fundamental, em virtude de suas deficiências; assim como a aceleração de estudos aos superdotados para a conclusão do programa escolar.\n\nCom base na LDB, o CNE aprovou as Diretrizes Nacionais para Educação Especial na Educação Básica, por meio da Resolução CNE/CEB nº 02/2001 e determina no art. 8º que as escolas regulares devem prever e prover, na organização de suas classes comuns, o seguinte:\n\n> flexibilizações e adaptações curriculares que considerem o significado prático e instrumental dos conteúdos básicos, metodologias de ensino e recursos didáticos diferenciados e processos de avaliação adequados ao desenvolvimento dos alunas/os que apresentam necessidades educacionais especiais, em consonância com o projeto pedagógico da escola, respeitada a frequência obrigatória. (BRASIL, 2001).\n\nNessa perspectiva, a Educação Especial requer uma dinâmica curricular que promova a participação de suas/seus alunas/os nas atividades desenvolvidas em sala de aula e fora dela e que elas/eles aprendam sobre os mesmos conhecimentos ensinados aos demais. Desse modo, compreendemos que:\n\n> É de fundamental importância salientar que o currículo não deve ser concebido de maneira a ser o aluno quem se adapte aos moldes que a escola oferece, mas como um campo aberto à diversidade. Essa diversidade não é no sentido de que cada aluno poderia aprender conteúdos diferentes, mas sim aprender conteúdos de diferentes maneiras. Para efetivar tal acontecimento, ao planejar, o professor precisa estabelecer expectativas altas e criar oportunidades para todos as/os alunas/os aprenderem com sucesso, incluídos todos (REGO, 2016).\n\nTodo planejamento educacional deve atender a uma série de necessidades e especificidades que primam por um atendimento de qualidade. Isso não quer dizer que o único responsável por um currículo inclusivo é o professor em sala de aula, uma vez que:\n\n> Um Currículo fundamentado na perspectiva da inclusão precisa ser construído, de fato, pelo sistema educacional brasileiro (principalmente na escola), pois passa pela formação inicial e continuada de professores, pela organização do trabalho pedagógico, pelo desvelamento e superação de práticas culturais e pedagógicas que perpetuam preconceitos e reforçam discriminações (REGO, 2016).\n\nCom o intuito de garantir o direito à educação e ao apoio especializado no âmbito escolar, é assegurado o serviço de Atendimento Educacional Especializado (AEE), de forma complementar e/ou suplementar ao aluno, com a finalidade de promover sua autonomia e independência dentro e fora da escola. Este serviço é ofertado, de acordo com o art. 9º, § 2º da Resolução CEE nº 456/2016:\n\n> [...] prioritariamente, na Sala de Recursos Multifuncionais (SRM) da própria escola ou em outra escola de ensino regular, no turno inverso da escolarização, podendo ser realizado, ainda em Centros de Atendimento Educacional Especializado públicos ou privados, sem fins lucrativos, conveniados com as Secretarias Estadual e Municipais de Educação. (CEARÁ, 2016)\n\nAs atividades desenvolvidas no atendimento educacional especializado diferenciam-se daquelas realizadas na sala de aula comum, não sendo substitutivas à escolarização, mas devendo haver uma articulação entre os profissionais do AEE e os professores, para que ocorra a mútua colaboração. Essa inter-relação é fundamental, favorece a acessibilidade ao currículo e a um ensino que proporcione a aprendizagem e a participação de todos.\n\nNesse contexto, a avaliação é um processo de análise do ensino e da aprendizagem que ocorre em vários momentos, cabendo à escola desenvolver diferentes estratégias para que este processo aconteça de acordo com as potencialidades e com os conhecimentos adquiridos pelas/os alunas/os. Não esquecendo que a função da avaliação é a de subsidiar a aprendizagem, de forma a garantir a equidade e a superação da categorização, valorizando cada etapa de crescimento/evolução da aprendizagem de cada aluno, visto que:\n\n> A avaliação pedagógica como processo dinâmico considera tanto conhecimento prévio e o nível atual de desenvolvimento do aluno quanto às possibilidades de aprendizagem futura, configurando uma ação pedagógica processual e formativa que analisa o desempenho do aluno em relação ao seu progresso individual, prevalecendo na avaliação os aspectos qualitativos que indiquem as intervenções pedagógicas do professor. No processo de avaliação, o professor deve criar estratégias considerando que algumas/uns alunas/os podem demandar ampliação do tempo para a realização dos trabalhos e o uso da língua de sinais, de textos em Braille, de informática ou de tecnologia assistiva como uma prática cotidiana (BRASIL, 2008).\n\nA aceitação, o reconhecimento, a conscientização, o respeito às diferenças e a garantia da equidade de oportunidades norteiam as políticas públicas pautadas na concretização de ações que propiciem a individualidade, a ética, o direito à cidadania e, principalmente, a participação ativa das/dos alunas/os, público-alvo da Educação Especial na sociedade. A igualdade de oportunidades está relacionada com a ação da escola como espaço privilegiado de conhecimento voltado para a diversidade e para a cidadania, em uma perspectiva de educação para os direitos humanos e, nesse sentido, o direito fundamental à educação de qualidade (CURY, 2002; CARVALHO, 2006).",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

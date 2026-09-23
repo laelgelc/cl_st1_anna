@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04f27934ac98aa90006ab308b815ac87d28a1edb77dad2ba8d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1139,
+      "input_tokens_details": {
+        "cache_write_tokens": 1136,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1587,
+      "output_tokens_details": {
+        "reasoning_tokens": 654
+      },
+      "total_tokens": 2726
+    }
+  },
+  "created_at": "2026-09-22T23:01:28Z",
+  "duration_seconds": 16.175,
+  "error": null,
+  "excerpt_id": "pi_em_38",
+  "filename": "pi_em_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c983ae8164377be86486bb7402ae59555e7cfbf5832d5460f6c4efd95a562a2f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "50fb67fe33c3626305325fd3b032e619f8c8c1703569eaa2e242c12c735f960a",
+    "rendered_prompt_sha256": "55c38872579d44be1c0aed3d1f4445dceab95e27cda7332613b62aa3458d909f",
+    "source_text_sha256": "d2c7f0bbb3bde43d39b9650aa8bc72af75f19b51c0d61706ed76d1c903133a7c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_em_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2616,
+    "filename": "pi_em_38.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_em_38.txt",
+    "state": "pi",
+    "word_count_original": 582
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_em_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_em_38.json"
+  },
+  "raw_response_text": "As Habilidades da Área são identificadas por um código alfanumérico com a seguinte estrutura:\n\n1. Compreender o funcionamento das diferentes linguagens e práticas (artísticas, corporais e verbais) e mobilizar esses conhecimentos na recepção e produção de discursos nos diferentes campos de atuação social e nas diversas mídias, para ampliar as formas de participação social, o entendimento e as possibilidades de explicação e interpretação crítica da realidade e para continuar aprendendo.\n2. Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitar as diversidades, a pluralidade de ideias e posições e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade nos Direitos Humanos, exercitando a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza.\n3. Utilizar diferentes linguagens (artísticas, corporais e verbais) para exercer, com autonomia e colaboração, protagonismo e autoria na vida pessoal e coletiva, de forma crítica, criativa, ética e solidária, defendendo pontos de vista que respeitem o outro e promovam os Direitos Humanos, a consciência socioambiental e o consumo responsável, em âmbito local, regional e global.\n4. Compreender as línguas como fenômeno geopolítico, histórico, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo-as e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como respeitando as variedades linguísticas e agindo no enfrentamento de preconceitos de qualquer natureza.\n\n| Competências específicas | Competências gerais relacionadas |\n|---|---|\n| 01. Compreender o funcionamento das diferentes linguagens e práticas culturais (…) para ampliar as formas de participação social (…). | 01. Conhecimento<br>02. Pensamento Científico, crítico e criativo<br>10. Responsabilidade e cidadania. |\n| 02. Compreender os processos identitários, conflitos e relações de poder (…) exercitando o autoconhecimento (…). | 08. Autoconhecimento e autocuidado<br>09. Empatia e Cooperação |\n| 03. Utilizar diferentes linguagens (artísticas, corporais e verbais) para exercer, com autonomia e colaboração, protagonismo e autoria na vida pessoal e coletiva (…) | 04. Comunicação<br>07. Argumentação |\n| 04. Compreender as línguas como fenômeno (geo) político, histórico, cultural, social, variável, heterogêneo e sensível aos contextos de uso (…) | 01. Conhecimento<br>04. Comunicação |\n| 05. Compreender os processos de produção e negociação de sentidos nas práticas corporais (…) | 03. Repertorio Cultural<br>08. Autoconhecimento e autocuidado<br>09. Empatia e Cooperação |\n| 06. Apreciar esteticamente as mais diversas produções artísticas e culturais, considerando suas características locais, regionais e globais, (…) | 03. Repertorio Cultural |\n| 07. Mobilizar práticas de linguagem no universo digital, considerando as dimensões técnicas, críticas, criativas, éticas e estéticas, (…) | 04. Comunicação<br>05. Cultura Digital<br>06. Trabalho e projeto de Vida |\n\nQuadro 1 – Competências Específicas relacionadas às Gerais  \nFonte: BNCC, 2018.\n\n5. Compreender os múltiplos aspectos que envolvem a produção de sentidos nas práticas sociais da cultura corporal de movimento, reconhecendo-as e vivenciando-as como formas de expressão de valores e identidades, em uma perspectiva democrática e de respeito à diversidade.\n6. Apreciar esteticamente as mais diversas produções artísticas e culturais, considerando suas características locais, regionais e globais, e mobilizar seus conhecimentos sobre as linguagens artísticas para dar significado e (re)construir produções autorais individuais e coletivas, de maneira crítica e criativa, com respeito à diversidade de saberes, identidades e culturas.\n7. Mobilizar práticas de linguagem no universo digital, considerando as dimensões técnicas, críticas, criativas, éticas e estéticas, para expandir as formas de produzir sentidos, de engajar-se em práticas autorais e coletivas, e de aprender a aprender nos campos da ciência, cultura, trabalho, informação e vida pessoal e coletiva.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

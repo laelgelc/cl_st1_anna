@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08f9deae9afb30ef006ab301d9ec1087d2a451376c3a1e2c61",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1753,
+      "input_tokens_details": {
+        "cache_write_tokens": 1750,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1975,
+      "output_tokens_details": {
+        "reasoning_tokens": 330
+      },
+      "total_tokens": 3728
+    }
+  },
+  "created_at": "2026-09-22T22:32:07Z",
+  "duration_seconds": 13.873,
+  "error": null,
+  "excerpt_id": "ma_ef_42",
+  "filename": "ma_ef_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "949ff0416cd7300f45fd696cd2ad7688cc1b9ea77e3a8966138c0b3f171ca119",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "048d90fdbbb0365030682495eb97373e19cd955b8cb475dc02bd6d4fa0df2fe1",
+    "rendered_prompt_sha256": "04fe7c07dbe5ce12f1c944a1927cb35a0ce34924e9184ff5f3123f0be71580d9",
+    "source_text_sha256": "0747ebacfa745d6c95ec6481a556306fabfde979303ea271125ac7f4644a1cad"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_ef_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1269,
+    "filename": "ma_ef_42.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_ef_42.txt",
+    "state": "ma",
+    "word_count_original": 1276
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_ef_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_ef_42.json"
+  },
+  "raw_response_text": "# Competências específicas de Ciências da Natureza para o Ensino Fundamental\n\nDe acordo com as competências gerais da BNCC e os argumentos acima observados, a área de Ciências da Natureza e, portanto, o componente curricular de Ciências deve assegurar aos estudantes o desenvolvimento de competências específicas (BRASIL, 2017:322), que estão enumeradas a seguir:\n\n1) Compreender as Ciências da Natureza como empreendimento humano, e o conhecimento científico como provisório, cultural e histórico.\n\n    Para o estudante compreender as Ciências da Natureza como parte do seu cotidiano e um fenômeno histórico e cultural em constante mudança, o professor deve lançar mão de situações concretas nas quais os estudantes reconheçam a função da ciência para a sua vida e que ela está em todos os momentos vivenciados por eles, suas famílias e comunidades, por exemplo, cuidar da saúde, zelar pelo meio ambiente, economizar recursos naturais e materiais, nas relações e contribuições do ser humano com o espaço que o cerca para sua manutenção ou destruição.\n\n2) Compreender conceitos fundamentais e estruturas explicativas das Ciências da Natureza, bem como dominar processos, práticas e procedimentos da investigação científica, de modo a sentir segurança no debate de questões científicas, tecnológicas, socioambientais e do mundo do trabalho; continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.\n\n    Professores e estudantes precisam dialogar com o conteúdo de Ciências e contextualizá-lo com as diversas situações locais, ou seja, que estão no dia a dia da escola, da família, da comunidade, bairro e cidade. É o reconhecimento da função social da ciência que leva o estudante à aprendizagem, uma vez que ele precisa compreender-se como sujeito que participa do desenvolvimento social, tecnológico e científico, seja como construtor do conhecimento, seja como consumidor dos seus produtos. A produção, divulgação e o uso prático do conhecimento científico possibilitam a intervenção consciente sobre o meio social e ambiental, promovendo, dessa forma, mudanças de conceitos, de atitudes e práticas, as quais convergem com uma convivência mais humanizada e sustentável.\n\n3) Analisar, compreender e explicar características, fenômenos e processos relativos ao mundo natural, social e tecnológico (incluindo o digital), como também as relações que se estabelecem entre eles, exercitando a curiosidade para fazer perguntas, buscar respostas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das Ciências da Natureza.\n\n    Todos os conceitos e fenômenos analisados nas aulas de Ciências são aplicáveis à realidade próxima ao estudante? Quais características ambientais representam a região do aluno? Que fenômenos da natureza influenciam o cotidiano daquela comunidade, do bairro e da cidade? Que doenças endêmicas acometem aquela população? Que elementos históricos, econômicos e sociais da sua cidade têm relação direta com o desenvolvimento científico e tecnológico ocorrido nas últimas décadas? Identificar a realidade local do estudante é fundamental para que o conhecimento da área de Ciências seja apreendido, internalizado e, finalmente, tenha uso social com foco na intervenção direta sobre sua vida, uma vez que o desenvolvimento da capacidade argumentativa do estudante permitirá que ele possa agir de forma segura e consciente como cidadão.\n\n4) Avaliar aplicações e implicações políticas, socioambientais e culturais da ciência e de suas tecnologias para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.\n\n    Que impactos o desenvolvimento científico, tecnológico e as mudanças ambientais causaram na sua região na última década? Esses impactos foram positivos, negativos ou não alteraram em nada sua realidade? Esses são questionamentos que possibilitam uma percepção mais ampla sobre as implicações dos objetos de conhecimento trabalhados em Ciências e levarão o estudante à reflexão sobre o seu posicionamento enquanto sujeito que participa dessas mudanças, e, portanto, deve conhecer melhor para intervir conscientemente.\n\n5) Construir argumentos com base em dados, evidências e informações confiáveis e negociar e defender ideias e pontos de vista que promovam a consciência socioambiental e o respeito a si próprio e ao outro, acolhendo e valorizando a diversidade de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.\n\n    As reflexões sobre os caminhos mais apropriados para compreender os fenômenos cotidianos devem considerar leis mais universais, que tenham critérios éticos que acolham princípios humanos e de sustentabilidade. Os conceitos debatidos precisam gerar empatia com o próximo, com a vida social, com os direitos humanos e criar um sentimento de pertencimento ao meio do qual fazem parte os estudantes. Assim construirão conceitos próprios voltados notadamente para a valorização e respeito próprio, ao próximo e ao meio em que vivem.\n\n6) Utilizar diferentes linguagens e tecnologias digitais de informação e comunicação para se comunicar, acessar e disseminar informações, produzir conhecimentos e resolver problemas das Ciências da Natureza de forma crítica, significativa, reflexiva e ética.\n\n    Ciência é processual, viva, dinâmica, constante. Dessa forma, qualquer situação metodológica que não fizer uso de meios que integrem pessoas e conhecimentos não poderá alcançar seus objetivos e fundamentos de transformação social. Metodologias inovadoras e criativas são necessárias no atual contexto educativo, cujos estudantes são nativos digitais e têm no uso das tecnologias da comunicação e informação a fonte de seus interesses, curiosidade e criatividade. Os recursos tecnológicos devem ser usados para criação, construção, busca e divulgação, mas eles são meios e não fins; portanto, precisam fazer parte de um planejamento amplo, caso contrário substituem o foco central do processo de ensino e tornam-se obsoletos. Para qualquer uso, são necessários a antecipação, a organização e o domínio da sua funcionalidade.\n\n7) Conhecer, apreciar e cuidar de si, do seu corpo e bem-estar, compreendendo-se na diversidade humana, fazendo-se respeitar e respeitando o outro, recorrendo aos conhecimentos das Ciências da Natureza e às suas tecnologias.\n\n    Ao cuidar de si, o estudante se reconhece como sujeito social e histórico, participante da vida social, local, regional, nacional e planetária. Ele é único, mas também é universal. Sua natureza física e social é reflexo das transformações ao longo da história, suas escolhas e objetivos estão associados aos processos mais amplos de intervenção da sociedade sobre ele e vice-versa. Cabe à escola e ao professor proporcionar momentos de aprendizagem e reflexão sobre o corpo humano e sua relação com o ambiente e suas transformações. E, nesse trabalho, ressaltar sempre e de forma contínua o espaço mais próximo ao estudante, sua casa, seu bairro, sua cidade, seu estado. São as características locais que proporcionarão sentimento de pertencimento, respeito próprio e coletivo.\n\n8) Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, recorrendo aos conhecimentos das Ciências da Natureza para tomar decisões frente a questões científico-tecnológicas e socioambientais e a respeito da saúde individual e coletiva, com base em princípios éticos, democráticos, sustentáveis e solidários.\n\n    O reconhecimento e a valorização do ambiente natural, cultural e social levam o estudante a compreender melhor sua participação na transformação destes e o motiva a intervir diretamente no seu cotidiano sempre para sua melhoria. Em Ciências, esse processo está atrelado ao fato de que o estudante compreende que as transformações ao longo da história tiveram participação direta do desenvolvimento científico, tecnológico e da inovação, cujos resultados alteraram toda a vida social, cultural e ambiental, refletindo sobre os comportamentos individuais e coletivos. Ao reconhecer que Ciências fazem parte do cotidiano de todos – a hora em que se acorda, os modos de trabalho, a alimentação, o transporte, o que se veste, as tecnologias (das mais simples até as mais inacessíveis) –, o estudante passa a observar melhor o meio, torna-se parte dele e passa a mediar suas relações com base em novos conceitos. Espera-se que ao contextualizar o objeto de conhecimento com as vivências e experiências e ao democratizar conhecimento científico, os estudantes tenham melhores condições de intervir sobre sua realidade local, de forma responsável, ética e sustentável.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

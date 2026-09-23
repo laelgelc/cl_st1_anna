@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c6daa1244c47999006ab305ee253887d2a3293f7e9669eea0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1703,
+      "input_tokens_details": {
+        "cache_write_tokens": 1700,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2351,
+      "output_tokens_details": {
+        "reasoning_tokens": 728
+      },
+      "total_tokens": 4054
+    }
+  },
+  "created_at": "2026-09-22T22:49:39Z",
+  "duration_seconds": 20.921,
+  "error": null,
+  "excerpt_id": "pa_em_38",
+  "filename": "pa_em_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "796cd74d9be33a918983a352379cbcc058bcec03b0b2a693b02b9a44f9c3bf62",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "80d481236e3e235cf6fc0b20f99f15cdb416ea5a86e8e7b2840c51945bea2fa6",
+    "rendered_prompt_sha256": "cd420e581e8c3f2c75c0de6134756adf64ada0e5d7a2b498fa8c4bbda506c4e1",
+    "source_text_sha256": "adb2a049bbcf421d848a34e23d1f6ec29f37fbf956ce49986ddf91444a21abd9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2084,
+    "filename": "pa_em_38.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_38.txt",
+    "state": "pa",
+    "word_count_original": 1045
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_38.json"
+  },
+  "raw_response_text": "## Pensamento ou Raciocínio lógico-dedutivo\n\nSão aqueles nos quais a conclusão se segue necessariamente das premissas. A validade está relacionada à estrutura ou à ordem das premissas, de modo que não seria possível partir de premissas verdadeiras e obter uma conclusão falsa. Dizemos, assim, que essa forma de raciocínio preserva a verdade. Este pensamento é próprio da Álgebra e Geometria, por exemplo, e tudo que diz respeito a provas de propriedades em todos os campos da Matemática.\n\nNeste raciocínio, faz-se necessário observar a utilização de determinadas regras ou teoremas aceitos como verdadeiros ou provados anteriormente e, a partir deles, construir novos. Dessa maneira, podemos fazê-lo quando provamos o Teorema (b) a partir do teorema (a).\n\nVeja o exemplo 2.\n\n**(a) Teorema Fundamental da Proporcionalidade:**\n\nSeja f: R → R uma função crescente. As seguintes afirmações são equivalentes:\n\n1. f(nx) = n f(x) para todo n ∈ Z, para todo x ∈ R.\n2. Pondo a = f(1), tem-se f(x) = ax para todo x ∈ R.\n3. f(x + y) = f(x) + f(y) para qualquer x, y ∈ R.\n\n**(b) Teorema**\n\nSeja f: R → R uma função monótona injetiva. Se o acréscimo f(x + h) - f(x) = φ(h) depender apenas de h, mas não de x, então f é uma função afim.\n\nO pensamento lógico-dedutivo serve de suporte para a habilidade (EM13MAT404) - Analisar funções definidas por uma ou mais sentenças (tabela do Imposto de Renda, contas de luz, água, gás etc.), em suas representações algébrica e gráfica, identificando domínios de validade, imagem, crescimento e decrescimento, e convertendo essas representações de uma para outra, com ou sem apoio de tecnologias digitais. Cuja finalidade é alcançar a competência CE4 – Compreender e utilizar, com flexibilidade e precisão, diferentes registros de representação matemáticos (algébrico, geométrico, estatístico, computacional etc.), na busca de solução e comunicação de resultados de problemas.\n\nA partir daí, contribuir com a Competência Geral 02 - Exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências, incluindo a investigação, a reflexão, a análise crítica, a imaginação e a criatividade, para investigar causas, elaborar e testar hipóteses, formular e resolver problemas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das diferentes áreas.\n\n### Exemplo 2\n\n1. **Propriedade 1** - Dois polígonos P e P’ são semelhantes se têm de um para o outro:\n   1.1) Ângulos iguais;  \n   1.2) Lados correspondentes diretamente proporcionais.\n2. **Propriedade 2** - Se dois polígonos são semelhantes, então a razão entre seus perímetros é igual à razão entre as medidas de dois lados homólogos quaisquer dos polígonos.\n3. **Propriedade 3** - Se dois polígonos são semelhantes, então a razão entre suas áreas é igual ao quadrado da razão entre as medidas de dois lados homólogos quaisquer dos polígonos.\n\nVeja o exemplo.\n\nDetermine as medidas do perímetro e área da figura 2, que foi obtida por uma transformação homotética da figura 1, sabendo que a figura 1 tem perímetro e área, respectivamente, 17 cm e 8 cm².\n\n**Figura 14: transformação homotética**\n\nFonte: *Entre Jovens 1ª série do ensino médio: Guia do aluno Matemática* – São Paulo: Instituto Unibanco/CAED, 2013. 146 p.; Volume II.\n\nPara resolvermos a situação-problema acima, precisamos utilizar as propriedades (1), (2) e (3).\n\nA homotética é uma transformação geométrica não-isométrica e uma outra maneira de tratarmos de semelhança. Sendo desta forma, um aprofundamento do mesmo assunto tratado no Ensino Fundamental Maior.\n\nO pensamento lógico-dedutivo serve de suporte para desenvolver a habilidade (EM13MAT105) - Utilizar as noções de transformações isométricas (translação, reflexão, rotação e composições destas) e transformações homotéticas para construir figuras e analisar elementos da natureza e diferentes produções humanas (fractais, construções civis, obras de arte, entre outras), contribuindo com CE1 – Utilizar estratégias, conceitos e procedimentos matemáticos para interpretar situações em diversos contextos, sejam atividades cotidianas, sejam fatos das Ciências da Natureza e Humanas, das questões socioeconômicas ou tecnológicas, divulgados por diferentes meios, de modo a contribuir para uma formação geral. Daí, vindo a contribuir com a Competência Geral 01 - Valorizar e utilizar os conhecimentos historicamente construídos sobre o mundo físico, social, cultural e digital para entender e explicar a realidade, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.\n\n## Pensamento Não-Determinístico\n\nNo mundo contemporâneo ocorrem vários eventos de natureza não determinística; são aqueles cuja repetição, em condições idênticas, produz resultados diferentes, ou seja, não é possível determinar, com exatidão, qual seu resultado. Esses eventos produzem fenômenos relacionados à Probabilidade, que por sua vez buscam compreender como se formam os eventos aleatórios e como podem ser mensurados elementos que virão a acontecer ou não. Tais situações pode-se perceber através de fenômenos econômicos, financeiros, sociais, políticos, etc. Essa forma de pensamento depende do desenvolvimento do raciocínio hipotético-dedutivo, que será desenvolvido através de situações que levam o acaso como forma de raciocínio.\n\nVeja o exemplo 3.\n\nTodo o país passa pela primeira fase da campanha de vacinação contra a gripe suína (H1N1). Segundo um médico infectologista do Instituto Emílio Ribas, de São Paulo, a imunização “deve mudar”, no país, a história da epidemia. Com a vacina, de acordo com ele, o Brasil tem a chance de barrar uma tendência do crescimento da doença, que já matou 17 mil no mundo. A figura apresenta dados específicos de um único posto de vacinação.\n\nEscolhendo-se aleatoriamente uma pessoa atendida nesse posto de vacinação, a probabilidade de ela ser portadora de doença crônica é?\n\nO pensamento não-determinístico serve de suporte para o desenvolvimento da habilidade (EM13MAT511) - Reconhecer a existência de diferentes tipos de espaços amostrais, discretos ou não, e de eventos, equiprováveis ou não, e investigar implicações no cálculo de probabilidades. Cuja finalidade é alcançar a competência CE2 – Propor ou participar de ações para investigar desafios do mundo contemporâneo e tomar decisões éticas e socialmente responsáveis, com base na análise de problemas sociais, como os voltados a situações de saúde, sustentabilidade, das implicações da tecnologia no mundo do trabalho, entre outros, mobilizando e articulando conceitos, procedimentos e linguagens próprios da Matemática. Para posteriormente, vir alcançar a Competência Geral 08- Argumentar com base em fatos, dados e informações confiáveis, para formular, negociar e defender ideias, pontos de vista e decisões comuns que respeitem e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, com posicionamento ético em relação ao cuidado de si mesmo, dos outros e do planeta.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

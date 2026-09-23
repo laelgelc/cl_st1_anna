@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e3730ad3134464d006ab3083fe09087d2a376427c0b9e12c0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 610,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 602,
+      "output_tokens_details": {
+        "reasoning_tokens": 96
+      },
+      "total_tokens": 1212
+    }
+  },
+  "created_at": "2026-09-22T22:59:17Z",
+  "duration_seconds": 5.306,
+  "error": null,
+  "excerpt_id": "pe_inf_20",
+  "filename": "pe_inf_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dc9e757787a22905e70573b95601032f2b6fcc87990ffcb9afd764a741d19e16",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a9d515758052e9c43d787eb020014da1e6b724a2cb878366667ecada7d236a2c",
+    "rendered_prompt_sha256": "e786478b05fb17c2cd1a5a1d56e546d119a8be3722d7cccc1a1c299ea3174114",
+    "source_text_sha256": "9f4c57ad193d4482468cdf1ddab4b23d967c60d8ef614e207af6864a195e053e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_inf_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2526,
+    "filename": "pe_inf_20.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_inf_20.txt",
+    "state": "pe",
+    "word_count_original": 349
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_inf_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_inf_20.json"
+  },
+  "raw_response_text": "## 2.8 AVALIAÇÃO NA EDUCAÇÃO INFANTIL\n\nConsiderando a aprendizagem e desenvolvimento dos bebês e das crianças, as instituições de Educação Infantil são responsáveis pelos procedimentos de avaliação que, de forma simultânea, acompanham a prática pedagógica, realizando a observação do processo de desenvolvimento de cada criança e de todo grupo quanto às suas conquistas, avanços e possibilidades.\n\nTrata-se de uma avaliação diagnóstica, processual e sistemática, que se ancora na ação/reflexão/ação sobre a prática pedagógica, com foco nas experiências dos bebês e das crianças, sem o objetivo de seleção, promoção ou classificação, conforme a LDBEN (1996) e as DCNEI (2009), que acrescentam aspectos a serem garantidos na avaliação da aprendizagem e desenvolvimento das crianças:\n\nI - A observação crítica e criativa das atividades, das brincadeiras e interações das crianças no cotidiano;\nII - Utilização de múltiplos registros realizados por adultos e crianças (relatórios, fotografias, desenhos, álbuns etc.);\nIII - A continuidade dos processos de aprendizagens por meio da criação de estratégias adequadas aos diferentes momentos de transição vividos pela criança (transição casa/instituição de Educação Infantil, transições no interior da instituição, transição creche/pré-escola e transição pré-escola/Ensino Fundamental);\nIV - Documentação específica que permita às famílias conhecer o objetivo da instituição junto às crianças e os processos de desenvolvimento e aprendizagem da criança na Educação Infantil;\nV - A não retenção das crianças na Educação Infantil.\n\nNo intuito de contribuir para que o professor reconheça possibilidades de acompanhamento, no processo de desenvolvimento e aprendizagem das crianças, Hoffmann (2015) considera:\n\n- Manter uma atitude curiosa e investigativa sobre as reações e manifestações das crianças no dia a dia da instituição;\n- Valorizar a diversidade de interesses e possibilidades de exploração do mundo pelas crianças, respeitando sua identidade sociocultural;\n- Proporcionar-lhes um ambiente interativo, acolhedor e alegre, rico em materiais e situações a serem experienciadas;\n- Agir como mediador de suas conquistas, no sentido de apoiá-las, acompanhá-las e favorecer-lhes desafios adequados aos seus interesses e possibilidades;\n- Fazer anotações diárias sobre aspectos individuais observados, de forma a reunir dados significativos que embasem o seu planejamento e a reorganização do ambiente educativo.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

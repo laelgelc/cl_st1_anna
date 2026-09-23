@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00dbcd797c3fa759006ab2fc2f134087d2a3b89c03477affca",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 773,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1402,
+      "output_tokens_details": {
+        "reasoning_tokens": 803
+      },
+      "total_tokens": 2175
+    }
+  },
+  "created_at": "2026-09-22T22:07:54Z",
+  "duration_seconds": 11.991,
+  "error": null,
+  "excerpt_id": "al_ef_11",
+  "filename": "al_ef_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e2ce2385b1b44972c66efe7f6a49ce65e6877e5427fbaef9c445b6dc19e62119",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c37913482090eea007987c1338542b5af6c7d5e9cf35a18726e1a610cb373ff9",
+    "rendered_prompt_sha256": "6aafeb77ade19a5c0a18a6f8323d4c8ccaacc09c917e982e9aeb8f4b41425fa8",
+    "source_text_sha256": "786d39259f4d72f0fe87c4fa0ac54ef6c98d70c64adc69e4ca2a4661c1790f1c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 144,
+    "filename": "al_ef_11.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_11.txt",
+    "state": "al",
+    "word_count_original": 459
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_11.json"
+  },
+  "raw_response_text": "1. Compreender as linguagens como construção humana, histórica, social e cultural, de natureza dinâmica, reconhecendo-as e valorizando-as como formas de significação da realidade e expressão de subjetividades e identidades sociais e culturais.\n\n2. Conhecer e explorar diversas práticas de linguagem (artísticas, corporais e linguísticas) em diferentes campos da atividade humana para continuar aprendendo, ampliar suas possibilidades de participação na vida social e colaborar para a construção de uma sociedade mais justa, democrática e inclusiva.\n\n3. Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e digital –, para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao diálogo, à resolução de conflitos.\n\n4. Utilizar diferentes linguagens para defender pontos de vista que respeitem o outro e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, atuando criticamente frente a questões do mundo contemporâneo.\n\n5. Desenvolver o senso estético para reconhecer, fruir e respeitar as diversas manifestações artísticas e culturais, das locais às mundiais, inclusive aquelas pertencentes ao patrimônio cultural da humanidade, bem como participar de práticas diversificadas, individuais e coletivas, da produção artístico-cultural, com respeito à diversidade de saberes, identidades e culturas.\n\n6. Compreender e utilizar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares), para se comunicar por meio das diferentes linguagens e mídias, produzir conhecimentos, resolver problemas e desenvolver projetos autorais e coletivos.\n\nAs competências específicas da área da linguagem estão apresentadas no quadro a seguir.\n\nAs competências específicas da área da linguagem corroboram com as competências gerais da BNCC (2017), mais especificamente a terceira competência específica em consonância com a quarta competência geral, que remete às diferentes linguagens com o objetivo de [...] expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentido que levem ao entendimento mútuo.\n\nA sexta e última competência específica da área da linguagem dialoga em conformidade com a quinta competência geral da BNCC (2017), em relação às TDIC (Tecnologias Digitais de Informação e Comunicação): Compreender, utilizar e criar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares) para se comunicar, acessar e disseminar informações, produzir conhecimentos, resolver problemas e exercer protagonismo e autoria na vida pessoal e coletiva.\n\nO objetivo dessa área de conhecimento é possibilitar, assim, que os estudantes usem adequadamente a linguagem e produzam novos conhecimentos, sobretudo, tendo-a como elemento de integração social que os permita desenvolver e manifestar habilidades em sua vida cotidiana.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

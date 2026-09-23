@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a6bfcede131c51b006ab30a43b33087d291ae627078bea00e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 921,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 780,
+      "output_tokens_details": {
+        "reasoning_tokens": 43
+      },
+      "total_tokens": 1701
+    }
+  },
+  "created_at": "2026-09-22T23:07:52Z",
+  "duration_seconds": 4.492,
+  "error": null,
+  "excerpt_id": "pr_inf_ef_1",
+  "filename": "pr_inf_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "515974424657d395861b7c8b2b879a0b932e7be22bd7a6a0b1402f1d60087abc",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "42c332b5d292763f424f9bc05e0e17c5b40424e717e283596800d171dd6f01cc",
+    "rendered_prompt_sha256": "8562cf71c7ce2ffa561499472396ac084206f01e8e495335ca8d63aee980f977",
+    "source_text_sha256": "c112872c26abf1154b1e324fc25849f63ba59f7e668e4cb0cbdbe9ea88ff75d0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_inf_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2831,
+    "filename": "pr_inf_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_inf_ef_1.txt",
+    "state": "pr",
+    "word_count_original": 537
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_inf_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_inf_ef_1.json"
+  },
+  "raw_response_text": "## Apresentação\n\nA partir da aprovação da Base Nacional Comum Curricular – BNCC pelo Conselho Nacional de Educação – CNE e homologação pelo Ministério da Educação – MEC, em 20 de dezembro de 2017, o país definiu o conjunto de aprendizagens essenciais a serem garantidas às crianças e jovens brasileiros inseridos no processo de escolarização na Educação Básica, especialmente, para as etapas da Educação Infantil e Ensino Fundamental até este momento histórico. Vale salientar que a etapa do Ensino Médio foi apresentada pelo MEC ao CNE em 03 de abril de 2018, o qual está realizando audiências públicas como forma de garantir ainda mais a participação coletiva na construção do documento referente a última etapa da Educação Básica. Tão logo aprovada pelo CNE e homologada pelo MEC, constituirá também, junto com a Educação Infantil e Ensino Fundamental, a Base Nacional Comum Curricular.\n\nEm um esforço colaborativo o Ministério da Educação, o Conselho Nacional de Secretários de Estados da Educação – CONSED, por meio das Secretarias Estaduais de Educação e a União dos Dirigentes Municipais de Educação – UNDIME, constituíram, em cada unidade da federação, a estrutura de governança responsável por coordenar todo o trabalho de construir um documento curricular válido para cada território estadual.\n\nNo Estado do Paraná, foi constituído um comitê gestor, composto pela Secretaria de Estado da Educação do Paraná – SEED/PR, Conselho Estadual de Educação do Paraná – CEE/PR, União Nacional dos Dirigentes Municipais de Educação – UNDIME/PR e União Nacional dos Conselhos Municipais de Educação – UNCME/PR, considerando que são as instituições representativas dos sistemas estadual e municipais de educação e responsáveis por executar e normatizar a educação escolar nos diferentes sistemas.\n\nA proposta no Estado do Paraná foi a construção, em regime de colaboração entre estado e municípios, de um referencial curricular único, cujo objetivo é estabelecer direitos de aprendizagens a todos os estudantes do estado em uma perspectiva de equidade, ou seja, de garantir as condições necessárias para que essas aprendizagens se efetivem. Esse compromisso foi assumido pelo estado e por municípios paranaenses, assim como também deverá ser por todos os profissionais da educação.\n\nA versão preliminar do Referencial Curricular do Paraná: princípios, direitos e orientações recebeu, ao todo, 75.366 contribuições. Tais contribuições foram analisadas e, na medida da pertinência, incorporadas ao documento, culminando em uma versão consolidada, garantindo, assim, uma efetiva participação na construção coletiva e democrática.\n\nAssim, foi elaborado o Referencial Curricular do Paraná: Princípios, Direitos e Orientações, o qual será válido para todo o Sistema Estadual de Educação Básica do estado, incluindo a Rede Estadual, as Redes Municipais e a Rede Privada de ensino. O Referencial estabelece os princípios, os direitos e objetivos de aprendizagens para a Educação Infantil e Ensino Fundamental.\n\nNesse momento, estamos entregando uma versão consolidada, elaborada por profissionais competentes e compromissados com a educação escolar. Oficialmente, o documento será referência para revisão e reorganização dos currículos de todas as instituições de ensino de Educação Infantil e de Ensino Fundamental do Paraná e, caberá a cada rede orientar a revisão de seus documentos relativos ao currículo.\n\nFinalizando esta apresentação, destaca-se que, assim como os currículos, o Referencial Curricular do Paraná: princípios, direitos e orientações é um documento dinâmico, passível de alterações conforme requerem os momentos históricos da sociedade paranaense.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

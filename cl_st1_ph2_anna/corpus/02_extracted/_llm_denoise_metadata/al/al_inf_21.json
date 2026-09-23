@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00dd664fb56e2a60006ab2fcfbf08487d2a5f74832fdd100aa",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 623,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 694,
+      "output_tokens_details": {
+        "reasoning_tokens": 221
+      },
+      "total_tokens": 1317
+    }
+  },
+  "created_at": "2026-09-22T22:11:13Z",
+  "duration_seconds": 6.092,
+  "error": null,
+  "excerpt_id": "al_inf_21",
+  "filename": "al_inf_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3642d0d6bc37631009864d5c167e84197dba9f58e87c43ca4bae38238c71f9be",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7f73efa5f587057b974c1b68b1f64c16656caf2ab14e43ec60bf26b3b8460bbe",
+    "rendered_prompt_sha256": "0708666b612ae54970c106d9bccb0c8fa75bd7f00926713cb62d08e4756b4443",
+    "source_text_sha256": "da83739d1f000ded830ca8c6354fa3d683f8949e14259f745ddc4df97028eff0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_inf_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 300,
+    "filename": "al_inf_21.txt",
+    "filepath": "corpus/00_source_per_state/al/al_inf_21.txt",
+    "state": "al",
+    "word_count_original": 357
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_inf_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_inf_21.json"
+  },
+  "raw_response_text": "## 5. FORMAÇÃO DOS PROFESSORES DA EDUCAÇÃO INFANTIL\n\nNas últimas décadas do século XX, no Brasil, inúmeros debates, reflexões e projetos são tecidos acerca da EDUCAÇÃO como um todo e de modo amplo a reflexão sobre da oferta da Educação Infantil. Da mesma forma, retoma-se a preocupação da formação continuada dos profissionais da educação notadamente dos docentes que atuam com as instituições de Educação Infantil e suas especificidades.\n\n[...] a formação inicial e continuada dos professores para atender esses alunos, deve ser uma prioridade constante visto que essa clientela necessita de constantemente informação e conhecimento [...] a formação continuada de professores deverá ser considerada prioritária (BRANCO, 2012, p. 247).\n\nUm novo panorama da educação requer que os profissionais que atuam nessa etapa vivenciem concepções diferenciadas acerca do currículo escolar, do Ensino/Aprendizagem, dos direitos de aprendizagens, das concepções de crianças e infâncias, de entender o processo de desenvolvimento da criança, de promover e participar das experiências da teoria com a prática, além de compreender a promoção dos espaços educativos e de vivências educativas ofertadas às nossas crianças.\n\nA proposta de educação infantil vem sendo alterada historicamente na Educação brasileira, em diferentes momentos, devido às diversas pesquisas estudadas na área, às concepções de criança na atualidade, às diferentes propostas e experiências que exige do docente uma formação que propiciei o desenvolvimento integral da criança para vida da sociedade que abrangendo valores éticos, sociais, familiares, estéticos, morais e políticos. A educação infantil seja na zona rural ou na zona urbana precisa ter significado para eles, atendendo suas necessidades e especificidades, dando-lhe subsídio teórico e prático para mediar uma aprendizagem nas dimensões culturais, políticas, cognitivas e da criança, estreitando o diálogo com a comunidade escolar.\n\nAs instituições precisam definir no seu Projeto Político Pedagógico ações de formação continuada para seu professores considerando as múltiplas dimensões da formação humana e os diferentes contextos com a família, com as creches e a pré-escola, com a comunidade próxima, buscando favorecer aprendizagens significativas relacionadas à convivência, à participação e a autonomia dos sujeitos (TITTON, 2008, p.72).",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

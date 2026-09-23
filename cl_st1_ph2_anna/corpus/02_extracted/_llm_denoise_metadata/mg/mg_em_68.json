@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0633c14fde954128006ab30351a2b887d2a52c0521e5f0a53e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1470,
+      "input_tokens_details": {
+        "cache_write_tokens": 1467,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1467,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 2937
+    }
+  },
+  "created_at": "2026-09-22T22:38:19Z",
+  "duration_seconds": 10.265,
+  "error": null,
+  "excerpt_id": "mg_em_68",
+  "filename": "mg_em_68.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "51593db7fe8de47e154c77e83f34c87e119c2db1d38b8c32b65b34578b0b5cc0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3d6c2315484648c5c5ceb07ac27abb653f03ae994a2c0d834116fe31eb0685f0",
+    "rendered_prompt_sha256": "a6119f0a74c0e1e8727360bebee492156e86a2ed6bfaf619378106d2b9f15cd5",
+    "source_text_sha256": "8283b432b4dda69a2258ef24a72a48b7777dc805d82c138774ed080047742e43"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_68.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1601,
+    "filename": "mg_em_68.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_68.txt",
+    "state": "mg",
+    "word_count_original": 946
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_68.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_68.json"
+  },
+  "raw_response_text": "### 3.3.7 Diretrizes para o ensino do Componente Curricular\n\n#### 3.3.7.1 Biologia\n\nA Biologia é um dos componentes curriculares que, juntamente com a Física e a Química, constitui a área das Ciências da Natureza e suas Tecnologias. De forma interdisciplinar, elas apontam a investigação científica e suas Tecnologias como instrumentos imprescindíveis na metodologia da aprendizagem do estudante do Ensino Médio.\n\nPortanto, trabalhar as habilidades e competências é fundamental para o desenvolvimento integral dos estudantes. São estratégias que garantem o desenvolvimento das habilidades de forma progressiva e ativa. Nesse sentido, o professor assume um papel fundamental no desenvolvimento não só do aspecto cognitivo, mas também no desenvolvimento de competências socioemocionais, tais como: colaboração, criatividade, criticidade e comunicação. Estas são premissas para a formação do cidadão do século XXI.\n\nMétodos de investigação e desenvolvimento científico, na busca de respostas ao desconhecido, se deram a partir de constatações e experimentos ocorridos no cotidiano dos povos gregos. Segundo Demo, a base da educação escolar é a pesquisa, pois quem conhece é capaz de intervir de forma competente, crítica e inovadora:\n\n> “Não é possível sair da condição de objeto (massa de manobra), sem formar consciência crítica desta situação e contestá-la com iniciativa própria, fazendo deste questionamento o caminho de mudança. Aí surge o sujeito, que o será tanto mais se, pela vida afora, andar sempre de olhos abertos, reconstruindo-se permanentemente pelo questionamento. Nesse horizonte, pesquisa e educação coincidem, ainda que, no todo, uma não possa reduzir-se à outra” (2007, p. 8).\n\nSegundo o autor, é preciso superar o uso exclusivo do método expositivo de dar aulas, onde o professor tem a função principal de transmitir conhecimentos já elaborados, o que define como cópia e que “atrapalha o aluno, porque o deixa como objeto de ensino e instrução” (2007, p.7). O espaço da sala de aula onde o professor é apenas transmissor de conhecimentos precisa ser repensado e transformado. De forma alguma quer dizer que o professor vá perder a autoridade, mas, sim, que passe a se interessar pela aprendizagem de cada estudante, estabelecendo um relacionamento tranquilo e de participação (MATTOS, 2008).\n\nDe acordo com a BNCC, a área das Ciências da Natureza e suas Tecnologias aponta três competências específicas para serem desenvolvidas com os estudantes do Ensino Médio. O posicionamento deve ser interdisciplinar dentro da área e com foco na investigação científica e tecnológica para auxiliar na quebra de paradigmas e desenvolvimento de inovações no processo de ensino, aliando a teoria à prática no cotidiano dos estudantes.\n\nNa competência 1 da área das Ciências da Natureza e Tecnologias é exposta ao estudante a importância da utilização da tecnologia a favor da extração e utilização da Matéria e Energia. A compreensão do fluxo de materiais e energia nos ecossistemas, como, por exemplo, o processo de produção de energia (fotossíntese) nas cadeias tróficas dos seres vivos é fundamental para desenvolver no educando a responsabilidade no contexto social e ambiental. Sugerir pesquisas e o desenvolvimento de aplicativos digitais são instrumentos importantes para monitorarem a extração de recursos no planeta assim como os aumentos e modificações nos ecossistemas. Dessa forma, a tecnologia muito pode contribuir com o desenvolvimento de projetos científicos e tecnológicos a serem utilizados pelo homem para controle e correções de ambientes naturais.\n\nNa competência 2, a Biologia faz uma abordagem quanto à origem e o processo de evolução da vida do planeta e no universo, assim como a qualidade de vida dos seres vivos e os fatos oriundos da interação desses no planeta Terra. Fomentar a pesquisa de teorias dos temas no contexto histórico com embasamento no campo da investigação científica e tecnológica é ferramenta favorável para trilhar novos caminhos no desenvolvimento da competência, tendo em vista que, muitas vezes, nossos jovens têm acesso a informações sem fundo verdadeiro, chamadas de fake news, ou seja, notícias falsas, sendo importante a checagem de acontecimentos noticiados.\n\nÉ preciso, ainda, que o professor no desenvolvimento dessa habilidade seja capaz de problematizar temas determinantes na formação da juventude, como a saúde pública no contexto pessoal e coletivo. Promover diálogos para que esses jovens possam se conhecer e apreciar no aspecto da saúde física e emocional diante da situação imediata da vida. Isto é responsabilidade de toda a comunidade escolar. Visto que a adolescência é um período com maior vulnerabilidade emocional, dentre outros problemas da vida contemporânea, que leva ao consumo de drogas, álcool, tabaco e contração de ISTs (infecções sexualmente transmissíveis), possibilidade de gravidez precoce e suicídio. Esses são problemas ocasionados pela falta de informação e/ou cuidado com nossos jovens pela sociedade contemporânea. Portanto, ao desenvolver no estudante o sentimento de pertencimento, de respeito e responsabilidade, ele será protagonista de sua vida, sendo capaz de promover em seu meio uma sociedade justa, responsável e solidária.\n\nAo analisar a terceira competência, percebe-se a importância de trabalhar a interdisciplinaridade, visto que temas como Educação Ambiental, Sustentabilidade, Saúde, Bem Estar estão alinhados ao Conhecimento Científico e Tecnológico e transitam em todas as áreas do conhecimento. Portanto promover o debate, a investigação e a realização de experimentos para fatos e problemas elencados, são fundamentais para a preservação da vida na Terra e, nesse sentido, a investigação científica tem muito a contribuir para encontrar resolução de problemas sociais, econômicos e culturais.\n\nPortanto, a interdisciplinaridade está relacionada ao conceito de contextualização socio-histórica como princípio integrador do currículo. Isto porque ambas propõem uma articulação que vá além dos limites cognitivos próprios das disciplinas escolares, sem, no entanto, recair no relativismo epistemológico. Ao contrário, elas reforçam essas disciplinas ao se fundamentarem em aproximações conceituais coerentes e nos contextos socio-históricos, possibilitando as condições de existência e constituição dos objetos dos conhecimentos disciplinares (DCEB, 2008).",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

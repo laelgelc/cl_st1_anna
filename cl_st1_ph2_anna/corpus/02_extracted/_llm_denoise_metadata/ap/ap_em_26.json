@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b25556f50673a4d006ab2fe0df1a887d2b1ba31b0f8cd3e1f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 879,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 990,
+      "output_tokens_details": {
+        "reasoning_tokens": 211
+      },
+      "total_tokens": 1869
+    }
+  },
+  "created_at": "2026-09-22T22:15:52Z",
+  "duration_seconds": 10.757,
+  "error": null,
+  "excerpt_id": "ap_em_26",
+  "filename": "ap_em_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d8e850f635baca2edff51fc8ad2dac1421fcf0ac9538fa3bbf5a9f794e066aa8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "738fcef9539433d6aefa0104e9cba7a4311ffd7a923392d7630479187161da26",
+    "rendered_prompt_sha256": "0ab96a294a9f610a0de6d0823124c29d8bd5a03dc5b6ac22581c54981c323bad",
+    "source_text_sha256": "1a70bcacdba270b8dd2e78d91a2e6ab96d464fbec39dfdbf80ea85d81d3642de"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 520,
+    "filename": "ap_em_26.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_26.txt",
+    "state": "ap",
+    "word_count_original": 575
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_26.json"
+  },
+  "raw_response_text": "# O PERFIL DO DISCENTE DE BIOLOGIA\n\nNota-se, que os alunos, atualmente, estão preocupados com a repercussão externa do seu trabalho; as notas que vão tirar, a necessidade de passar nos exames, o interesse em atender as demandas e agradar o professor (KRASILCHIK, 2005).\n\nSegundo Krasilchik (2005), o excesso de vocabulário que o professor usa em suas aulas leva muitos alunos a pensar que biologia é só um conjunto de nomes de plantas, animais, órgãos, tecidos e substâncias que devem ser memorizados. Para esta autora, os alunos não acompanham as aulas, porque são usadas palavras desconhecidas, ou porque eles atribuem aos termos significados diferentes dos atribuídos pelo professor.\n\nDelizoicov e Angotti (1990), sugerem que os alunos não podem ser encarados como meros receptáculos de informações. Eles devem ter participação ativa, com experiências que merecem consideração (...). No entanto, superficialmente envolvidos com o estudo, os alunos preocupam-se em memorizar fatos, informações, geralmente de forma desconexa, apenas para atender as mínimas exigências escolares.\n\nArgumenta-se que, a fim de evitar que a relação do aluno com o ensino de biologia se transforme numa dicotomia, o professor deve encontrar maneiras que torne a disciplina muito interessante e motivadora. Uma forma de alcançar esse objetivo é relacionar a prática pedagógica aos interesses educacionais e à aprendizagem por parte dos alunos. É fato que, em geral, as aulas com várias modalidades didáticas assumem esse papel, pois, além de estarem de acordo com os PCN’s (1998), que propõem que “o professor de biologia deve sempre utilizar experiências práticas, respeitar o conhecimento prévio do aluno e promover o envolvimento ativo da turma”, também propiciam momentos únicos de aprendizagem.\n\nVale inferir que a maioria do corpo discente sabe da importância do uso de diversificadas modalidades didáticas pelo professor, principalmente as aulas práticas, e que isso afeta positivamente o seu desempenho escolar. O contato direto com o que se estuda torna o mundo da biologia fascinante. O aluno quando observa o que ele está estudando passa a compreender de fato o ambiente no qual ele está inserido. O aluno passa a comprovar aquilo que ele assimilou na forma de teoria e percebe que o ensino de biologia é muito interessante e vantajoso. De acordo com Stefani (2003), “as atividades práticas são de grande importância para o aprendizado do aluno. É através dessa renovada metodologia que o aluno consegue desenvolver a capacidade de interpretar, investigar, elaborar hipóteses e tirar conclusões”.\n\nCom base no que fora supracitado, percebe-se que dominar conhecimentos biológicos para compreender os debates contemporâneos e deles participar, no entanto, constitui apenas uma das finalidades do estudo dessa ciência no âmbito escolar. Há outras. As ciências biológicas reúnem algumas das respostas às indagações que vêm sendo formuladas pelo ser humano, ao longo de sua história, para compreender a origem, a reprodução, a evolução da vida e da vida humana em toda sua diversidade de organização e interação. Representam também uma maneira de enfrentar as questões com sentido prático que a humanidade tem se colocado, desde sempre, visando à manutenção de sua própria existência e que dizem respeito à saúde, à produção de alimentos, à produção tecnológica, enfim, ao modo como interage com o ambiente para dele extrair sua sobrevivência. Sendo, assim, para que a aprendizagem provoque uma afetiva mudança de comportamento e amplie cada vez mais o potencial do educando, é necessário que ele perceba a relação entre o que está aprendendo e a sua vida (JOSÉ e COELHO, 2000).",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bbc6d523840996a006ab30aa6f85487d28c9bf233d94d7789",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 623,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 555,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 1178
+    }
+  },
+  "created_at": "2026-09-22T23:09:31Z",
+  "duration_seconds": 7.166,
+  "error": null,
+  "excerpt_id": "rj_inf_e_ef_apresentacao_1",
+  "filename": "rj_inf_e_ef_apresentacao_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7f7af4e4a343c370b6448fd4753bfce41759e6bb1dc60940b1a45c83747be473",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f1881f76773b83336805c251ffb45596308f85ecc699eeebbfe4ba0e980e3e3b",
+    "rendered_prompt_sha256": "5177d8a2aa6f317c3ac95385e581e40980f61dc855acffa90c0bd5e6d25384b0",
+    "source_text_sha256": "8773da7f6cab86cce529f1f903bf619d8ea35e1745a84a0270230289ef6ff6e7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_e_ef_apresentacao_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2918,
+    "filename": "rj_inf_e_ef_apresentacao_1.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_e_ef_apresentacao_1.txt",
+    "state": "rj",
+    "word_count_original": 363
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_e_ef_apresentacao_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_e_ef_apresentacao_1.json"
+  },
+  "raw_response_text": "# Apresentação\n\nA Base Nacional Comum Curricular (BNCC) aprovada pelo Conselho Nacional de Educação através da Resolução CNE/CP Nº 2, de 22 de dezembro de 2017, institui e orienta a implantação da BNCC como referencial a ser respeitado obrigatoriamente ao longo das etapas da Educação Básica.\n\nNesse sentido, coube às unidades federativas realizarem o processo de adequação de suas propostas curriculares de forma alinhada à BNCC visando a elaboração de orientações curriculares que atendam às especificidades regionais e locais.\n\nNo Rio de Janeiro, o processo de construção do Documento de Orientação Curricular do estado que ora se apresenta é fruto da ação colaborativa entre a União Nacional dos Dirigentes Municipais de Educação (UNDIME-RJ), a Secretaria de Estado de Educação (SEEDUC-RJ), a União Nacional dos Conselhos Municipais de Educação do Rio de Janeiro (UNCME-RJ) e o Conselho Estadual de Educação do Rio de Janeiro (CEE-RJ).\n\nO processo de elaboração iniciado pela redação e consolidação do referido documento por equipes disciplinares de docentes pertencentes a redes públicas e privadas do estado, foi enriquecido, ao longo do trabalho, por diversas contribuições e sugestões que foram recebidas através da participação em plataformas digitais e consultas públicas realizadas pelo CEE-RJ, que desempenhou destacado papel na promoção do diálogo e debate sobre este referencial curricular para o estado do Rio de Janeiro. A intermediação do CEE-RJ junto às instituições superiores formadoras de professores cujos representantes se debruçaram na análise da versão preliminar também se somou ao objetivo de aperfeiçoamento deste documento.\n\nDessa forma, como fruto do trabalho de variados profissionais da educação que se esforçaram em prol desta tarefa, buscou-se a preparação de um documento que subsidie a realização de boas práticas educacionais e contribua para a formação integral dos estudantes do nosso estado, de modo a ressignificar o ambiente escolar e formar jovens protagonistas e preparados para responder aos desafios do mundo do trabalho e da vida, além de promover uma formação comum indispensável ao exercício pleno da cidadania.\n\nAssim, a partir da união de nossos esforços, vamos todos juntos em busca de uma educação que faça realmente a diferença na vida dos nossos estudantes!\n\nEquipe Técnica do Rio de Janeiro",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

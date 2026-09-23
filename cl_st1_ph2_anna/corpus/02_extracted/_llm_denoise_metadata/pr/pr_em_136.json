@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08416f45c8de19a4006ab309883cb487d29be4254ed00b2da5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 499,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 448,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 947
+    }
+  },
+  "created_at": "2026-09-22T23:04:44Z",
+  "duration_seconds": 3.992,
+  "error": null,
+  "excerpt_id": "pr_em_136",
+  "filename": "pr_em_136.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "561b2c24a0f18f60614aeaba9fc3d5ff601019fd68744c58f533f317eef00d87",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a78c553d4f6ae4da22596eba0f9bf91203348a02d37d9d622876870e6927ac86",
+    "rendered_prompt_sha256": "bd98cd1fe2e3264e3e39af75337427b81e7bce39d170945f38851f14865d28c0",
+    "source_text_sha256": "75990bfd5763d18af5eb82b0f50d05cf4c92ba738f2c1beb8da4918550f61896"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_136.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2723,
+    "filename": "pr_em_136.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_136.txt",
+    "state": "pr",
+    "word_count_original": 248
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_136.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_136.json"
+  },
+  "raw_response_text": "# 1. AS EXPECTATIVAS DOS ESTUDANTES QUE INGRESSAM E EGRESSAM DA EDUCAÇÃO TÉCNICA E PROFISSIONAL\n\nA partir desta perspectiva do conceito de juventude e suas expectativas, a Educação Técnica e Profissional recebe uma grande diversidade de sujeitos, provenientes de diferentes realidades sociais, econômicas e culturais. Entre eles, destacam-se adolescentes e jovens (oferta articulada) e adultos (oferta subsequente) que buscam formação inicial ou continuada para inserção, reinserção ou qualificação no mundo do trabalho.\n\nMuitos desses estudantes vêm de camadas populares com histórico de escolarização interrompida ou trajetórias marcadas por desigualdades sociais. Nesse contexto, a Educação Técnica e Profissional assume um papel estratégico na promoção da inclusão social, oferecendo oportunidades de desenvolvimento pessoal, profissional e cidadania.\n\nOs sujeitos que ingressam na Educação Técnica e Profissional enfrentam diversos desafios que podem comprometer sua permanência e sucesso nos cursos. Muitos lidam com a dupla jornada de trabalho e estudo, dificuldades socioeconômicas, falta de apoio familiar ou, ainda, histórico de evasão e fracasso escolar. Esses obstáculos exigem que as instituições de ensino adotem práticas pedagógicas inclusivas, acolhedoras e contextualizadas, capazes de atender às necessidades específicas desses estudantes.\n\nConforme apontam as Diretrizes Curriculares Nacionais da Educação Profissional e Tecnológica, a formação profissional deve reconhecer as diferentes trajetórias e realidades dos estudantes, promovendo a equidade, a justiça social e o direito à educação de qualidade para todos. Assim, a educação profissional se fortalece como um instrumento de transformação individual e social, contribuindo para a construção de uma sociedade mais justa, democrática e inclusiva (Brasil, 2021).",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

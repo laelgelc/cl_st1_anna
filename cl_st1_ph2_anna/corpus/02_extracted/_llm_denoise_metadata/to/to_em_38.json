@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06d46a0b8d916091006ab31036775887d2874e4249454f9791",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 551,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 674,
+      "output_tokens_details": {
+        "reasoning_tokens": 213
+      },
+      "total_tokens": 1225
+    }
+  },
+  "created_at": "2026-09-22T23:33:15Z",
+  "duration_seconds": 5.46,
+  "error": null,
+  "excerpt_id": "to_em_38",
+  "filename": "to_em_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2287d99d7d5a639e53896928f8e439cc5227c6387be7f603c638b7c92047e514",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "625205acea9d091c125aa9bee6498b94d6c1c1c244587ca3c249db7400354110",
+    "rendered_prompt_sha256": "785241ee36e9e111905a4e32058a52c1f13a5134fa138bfec0ded3173f1f8b32",
+    "source_text_sha256": "91a15fc0af06b916db7b1027a37d588d4cb281de650f8496eb8df6adf469c56d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4038,
+    "filename": "to_em_38.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_38.txt",
+    "state": "to",
+    "word_count_original": 332
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_38.json"
+  },
+  "raw_response_text": "## 3. PLANEJAMENTO, ORGANIZAÇÃO CURRICULAR E FORMAS DE OFERTA\n\n### 3.1 Planejamento da Formação Técnica e Profissional\n\nO planejamento é uma ação essencial para a construção coletiva de um projeto pedagógico de curso/Plano de Curso. A partir dele é possível conhecer as necessidades e a realidade da unidade escolar, definir objetivos e metas, destinar recursos materiais e financeiros e organizar a gestão de pessoas e tempo. A elaboração de um planejamento com intencionalidade pedagógica permite que a unidade escolar observe com antecedência os desafios e defina ações, com o propósito de assistir o desenvolvimento educacional dos estudantes.\n\nAs Diretrizes Curriculares Nacionais Gerais para a Educação Profissional e Tecnológica já trazem a definição de como deve ser concebido o planejamento de itinerários de formação técnica e profissional:\n\n> Art. 23. O planejamento curricular fundamenta-se no compromisso ético da instituição e rede de ensino em relação à concretização da identidade do perfil profissional de conclusão, o qual é definido pela explicitação dos conhecimentos, habilidades, atitudes, valores e emoções, compreendidos nas competências profissionais e pessoais, que devem ser garantidos ao final de cada habilitação técnica e das respectivas saídas intermediárias correspondentes às etapas de qualificação profissional técnica, e da especialização profissional técnica, que compõem o correspondente itinerário formativo do curso técnico de nível médio. (CONSELHO NACIONAL DE EDUCAÇÃO, 2021).\n\nPara o planejamento da formação técnica e profissional, a prática profissional deve ser elemento predominante. A possibilidade de planejar um currículo que atenda a profissionalização dos estudantes está condicionada ao desenvolvimento de conhecimentos, saberes e competências profissionais necessários ao exercício profissional e da cidadania, com base nos fundamentos científico-tecnológico, sócio-histórico e culturais.\n\nÉ importante salientar que as bases para o planejamento curricular de um itinerário de formação técnica e profissional devem observar a legislação e as normas vigentes, em especial o disposto nas Diretrizes Curriculares Nacionais Gerais para a Educação Profissional e Tecnológica, o Catálogo Nacional de Cursos Técnicos, a Classificação Brasileira de Ocupações (CBO) e as normas complementares definidas pelo sistema de ensino.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

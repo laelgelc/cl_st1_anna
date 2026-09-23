@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0916b1c1cfd30c16006ab2fd4727a487d2a37883a23f7358c5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 637,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 587,
+      "output_tokens_details": {
+        "reasoning_tokens": 89
+      },
+      "total_tokens": 1224
+    }
+  },
+  "created_at": "2026-09-22T22:12:27Z",
+  "duration_seconds": 4.407,
+  "error": null,
+  "excerpt_id": "am_ef_53",
+  "filename": "am_ef_53.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e3749710bec841c05a8a5cb22d476a283b39e47156ee14527b33df8d56ccce62",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8415a9be2d36bdb9479602903d90b8b4f396d2182853b06e096d10a4b8b8d290",
+    "rendered_prompt_sha256": "5ad311cba54ecfdce978686802f17ce7d91be8d926fb1ac4b90888990d7b0779",
+    "source_text_sha256": "381efbb9b539172d794e66b5ebfa910026c267c3f3b75d602c3a74780bf70ad7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_53.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 358,
+    "filename": "am_ef_53.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_53.txt",
+    "state": "am",
+    "word_count_original": 323
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_53.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_53.json"
+  },
+  "raw_response_text": "O Ensino Religioso se fundamenta nas seguintes legislações e normativas: na Constituição Federal (1988), na Lei de Diretrizes e Bases da Educação Nacional/LDBEN-nº 9394/96, na Lei 9475/1997, que dá nova redação ao artigo 33 da LDBEN, na Constituição Estadual/1989 e nas Leis Orgânicas Municipais. Foi contemplado como Área de Conhecimento a partir de 2010, assegurado na Resolução CNE/CEB nº 04, de 13 de Julho de 2010 e confirmado pela Resolução CNE/CEB nº 07, de 14 de dezembro de 2010, que estabelece as Diretrizes Curriculares Nacionais para o Ensino Fundamental de nove anos, alcançando o mesmo “status” acadêmico das demais áreas do currículo escolar.\n\nO Ensino Religioso integra a um conjunto orgânico/sistêmico/interdisciplinar com as demais Áreas do Conhecimento e Componentes Curriculares da Educação Básica, portanto, faz-se necessário ter as mesmas garantias dispensadas as demais Áreas do Conhecimento, considerando as peculiaridades de sua natureza e o sujeito a que se destina: o ser humano na sua essência. As competências do Componente Curricular do ensino Religioso foram elaboradas pelos redatores do Referencial Curricular Amazonense.\n\n1. Conhecer os aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida, a partir de pressupostos científicos, filosóficos, estéticos e éticos.\n\n2. Compreender, valorizar e respeitar as manifestações religiosas e filosofias de vida, suas experiências e saberes, em diferentes tempos, espaços e territórios.\n\n3. Reconhecer e cuidar de si, do outro, da coletividade e da natureza, enquanto expressão de valor da vida.\n\n4. Conviver com a diversidade de crenças, pensamentos, convicções, modos de ser e viver.\n\n5. Analisar as relações entre as tradições religiosas e os campos da cultura, da política, da economia, da saúde, da ciência, da tecnologia e do meio ambiente.\n\n6. Debater, problematizar e posicionar-se frente aos discursos e práticas de intolerância, discriminação e violência de cunho religioso, de modo a assegurar os direitos humanos no constante exercício da cidadania e da cultura de paz.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

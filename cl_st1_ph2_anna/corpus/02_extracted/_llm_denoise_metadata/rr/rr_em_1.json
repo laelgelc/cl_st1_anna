@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00cb60312fd49319006ab30d15970887d294112db05379f4bc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 336,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 314,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 650
+    }
+  },
+  "created_at": "2026-09-22T23:19:53Z",
+  "duration_seconds": 3.62,
+  "error": null,
+  "excerpt_id": "rr_em_1",
+  "filename": "rr_em_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ab777b5c8b9d70001609d81603fbef049e169c6d2e0b300a11505d958bb8e5f0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ca8c17c98b328e4cd1efb77fc1458b8833e74b3a4829d8d9358641ca4548626a",
+    "rendered_prompt_sha256": "83c47046fdc9beca5566dfabeca4d1985a5a84375ebf50f5f1b61e561fd9eae8",
+    "source_text_sha256": "84025b41e3d1feacaf120c1ac1b729e88bf976556d7a678efca7d66e86437539"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3441,
+    "filename": "rr_em_1.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_1.txt",
+    "state": "rr",
+    "word_count_original": 172
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_1.json"
+  },
+  "raw_response_text": "# APRESENTAÇÃO\n\nO Documento Curricular de Roraima – DCRR, para a etapa do Ensino Médio, tem como objetivo apontar caminhos de natureza pedagógica, formativa e apresentar princípios e concepções, de modo a assegurar os direitos de aprendizagem dos estudantes, fundamentado nos dispositivos legais e alinhado à Base Nacional Comum Curricular do Ensino Médio – BNCC, homologada em dezembro de 2018.\n\nO presente documento é de grande relevância educacional, visto que significa uma referência estadual norteadora para que as instituições educacionais públicas e privadas possam elaborar ou reelaborar suas propostas pedagógicas com foco no fortalecimento do protagonismo estudantil e na formação integral do indivíduo, possibilitando assim, à escola cumprir sua missão e função social de forma eficaz e eficiente no contexto do século XXI.\n\nNessa perspectiva, o DCRR – EM se constitui em um compromisso na oferta de uma educação de qualidade que atenda às exigências e anseios do mundo contemporâneo, contribuindo para a construção de uma sociedade mais justa, com qualidade de vida, equidade, comprometida com o meio ambiente sustentável e oportunidade no mercado de trabalho.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

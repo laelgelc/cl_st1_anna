@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0866fd77b47ba6be006ab3038e20d487d2860ed0e79d1bce24",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 860,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 866,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 1726
+    }
+  },
+  "created_at": "2026-09-22T22:39:16Z",
+  "duration_seconds": 6.78,
+  "error": null,
+  "excerpt_id": "mg_inf_intro",
+  "filename": "mg_inf_intro.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "27d980e25fd05ab1dc1a63e6b06071c5f7c7eb21e1493178f42f2984aa0df4c5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7364962a2bd05f5f629d4d92dee28fb72a206a7139109559e5046d12bd50b4e2",
+    "rendered_prompt_sha256": "1aa2b3bce7652b42d03fdd188543c544064c9b0e41cce8afd822b2da1b80fd6b",
+    "source_text_sha256": "8cfbbf48b0d3d75edc22f2792f1c6dde637e6d606f7bcd7cd5e35e6b683d792e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_intro.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1660,
+    "filename": "mg_inf_intro.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_intro.txt",
+    "state": "mg",
+    "word_count_original": 515
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_intro.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_intro.json"
+  },
+  "raw_response_text": "## 2.1 Apresentação\n\nAo elaborar um conjunto de conhecimentos comuns a todo território nacional, a Base Nacional Comum Curricular trouxe aos Estados e Municípios uma grande responsabilidade: a construção de um currículo referência, norteador das ações pedagógicas para todo o território estadual. Nesta perspectiva, considerando as especificidades do território mineiro, um dos grandes desafios, está centrado na operacionalização de uma prática pedagógica coerente, intencional e consistente norteada por esta proposta curricular para a Educação Infantil.\n\nDesse modo, este documento pretende:\n\n- Orientar a ação pedagógica das Instituições de Educação Infantil do Estado de Minas Gerais, assegurando os direitos de aprendizagem e desenvolvimento das crianças;\n- Apresentar o currículo referência para que as instituições de Educação Infantil possam revisitar os seus Projetos Políticos Pedagógicos, buscando organizar o trabalho de cuidar e educar crianças de 0 a 5 anos em creches e pré-escolas, complementando a ação da família e da comunidade;\n- Possibilitar ao docente o aperfeiçoamento profissional através da formação continuada com foco na adequação de sua prática pedagógica às necessidades específicas e às possibilidades de aprendizagem e desenvolvimento das crianças;\n- Superar a fragmentação dos processos escolares em favor de uma educação integral e contextualizada, por meio de uma organização curricular estruturada em campos de experiências, constituídos por saberes de distintas naturezas, que deverão ser vivenciados nas interações e brincadeiras;\n- Propor práticas inovadoras que definam com clareza os objetivos de aprendizagem e desenvolvimento possibilitando a criança produzir, transformar e se apropriar de saberes e conhecimentos da natureza e da cultura;\n- Refletir sobre o processo de inclusão a partir da diversidade humana presente nas diferenças sociais, culturais, étnicas, religiosas, de gênero, buscando desenvolver maneiras diferentes e adequadas de se trabalhar com a heterogeneidade dos aprendizes e compatível com os ideais democráticos de uma educação para todos.\n\n## 2.2 Introdução\n\nA construção do Currículo Referência de Minas Gerais para a Educação Infantil foi embasada em documentos oficiais, que apresentam os parâmetros de qualidade; nas Diretrizes Curriculares Nacionais para a Educação Infantil, aprovada pelo Conselho Nacional de Educação, por meio da Resolução nº 5 de 17 de dezembro de 2009 e publicada em 2010; em sistemas de ensino que têm atuado de forma significativa na educação de crianças; bem como, em pesquisas e em outros saberes fundamentais, construídos nas vivências cotidianas.\n\nFruto de um amplo processo de discussão coletiva entre diferentes representantes e setores da educação do Estado de Minas Gerais, a proposta curricular para a Educação Infantil de todo o território estadual destina-se a balizar as ações pedagógicas e intencionalidades educativas presentes na indissociável tarefa de educar e cuidar, assim como situar a realidade estadual no contexto atual da primeira etapa da educação básica.\n\nEspera-se que este documento seja uma referência segura para as instituições educacionais na (re) elaboração de seus Projetos Políticos Pedagógicos, como também, possibilite aos docentes refletir sobre sua prática cotidiana por meio da pesquisa e da formação continuada, favorecendo-lhes a (re) descoberta de novas possibilidades do fazer pedagógico da Educação Infantil, dando concretude a uma educação de qualidade culturalmente orientada e socialmente referenciada para todos os bebês, crianças bem pequenas e crianças pequenas.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

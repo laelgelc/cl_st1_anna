@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_089d0fa64fbbde69006ab30066c38087d2abb55af5b251ab19",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 630,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 564,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 1194
+    }
+  },
+  "created_at": "2026-09-22T22:25:47Z",
+  "duration_seconds": 4.92,
+  "error": null,
+  "excerpt_id": "df_inf_22",
+  "filename": "df_inf_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7b7c9aa6b7c72edeae00af5f86aea6fbd094638b9b25644543fcaf95e3b686fd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b16a608c23d6106c2bbe03d1c88a819c080a7b9faf4fcbe3283097a495e3e9cf",
+    "rendered_prompt_sha256": "fb055736fa7c9dbef8cba449715a0eb2a4351417c1a344bba3bc5ceace95c75d",
+    "source_text_sha256": "2d360a6754f32405cfdf5bf8761fd0ca3a7d5e369d31b202eae3d829097c430c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_inf_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 966,
+    "filename": "df_inf_22.txt",
+    "filepath": "corpus/00_source_per_state/df/df_inf_22.txt",
+    "state": "df",
+    "word_count_original": 376
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_inf_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_inf_22.json"
+  },
+  "raw_response_text": "## 16.1. O eu, o outro e o nós\n\nAutora: Aylla de Sousa Rodrigues\n\nEste campo de experiência propõe que as crianças descubram a si mesmas, aos grupos das quais fazem parte (família e/ou responsáveis, instituição de educação para a primeira infância, igreja, academia etc.) e a outros coletivos, no sentido de formar sua identidade e alteridade. Fomenta-se o fortalecimento das crianças nos seus grupos e o respeito aos demais que delas diferem, elementos fundamentais da beleza e riqueza da diversidade humana.\n\nA proposta perpassa a constituição da autonomia, da autorregulação, do autocuidado, bem como dos sentimentos de reciprocidade. A partir desse entendimento, o cuidado com os outros e com o meio ambiente, o pertencimento e responsabilidade com as pessoas, os animais, a natureza e o planeta também são reforçados.\n\nTendo em mente a interlocução entre as múltiplas linguagens da infância, as linguagens mais presentes neste campo de experiência são: cuidados consigo e com o outro e interações com a natureza e a sociedade.\n\nA constituição da identidade da criança está ligada ao conhecimento, controle e domínio do próprio corpo, bem como ao conhecimento de suas capacidades e limitações. De fato, esse conhecimento é o primeiro referencial da criança para se descobrir como pessoa e se inserir na vida de sua comunidade. O cotidiano do bebê e da criança é assinalado por sua inserção em diversas práticas sociais, processo fundamental para que conquistem conhecimentos sobre a vida social, ampliem suas experiências e estabeleçam novas formas de relação consigo, com o outro, com os instrumentos e com a natureza.\n\nA partir do que vivem e sabem sobre as crianças, os profissionais da educação devem proporcionar situações para que elas compreendam e internalizem a organização da sociedade, as diferenciações dos grupos sociais, as maneiras de viver e de trabalhar, o sentimento de pertencimento aos grupos sociais, dentre outros elementos que constituem a vida cultural humana.\n\nImporta abordar os acontecimentos, as manifestações culturais e as relações sociais em determinadas condições para elaborar as noções de tempo, de espaço e de consequências. Conhecer a própria história e a história da humanidade e constituir sua identidade coletiva também são prerrogativas dessa abordagem. Além disso, a criança, por ser um sujeito histórico-cultural, eminentemente social, também produz história e cultura.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

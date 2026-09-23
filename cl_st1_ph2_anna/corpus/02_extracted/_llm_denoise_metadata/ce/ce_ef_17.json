@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0107b5dfb8303d78006ab2ff2a2a9087d29063275fd9cc0428",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 551,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 544,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 1095
+    }
+  },
+  "created_at": "2026-09-22T22:20:33Z",
+  "duration_seconds": 7.178,
+  "error": null,
+  "excerpt_id": "ce_ef_17",
+  "filename": "ce_ef_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8f5615e02ebc544df094c6e2a0426ad38b5d3fdc65ac86f806c8a7efe6e026f8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8f04e873053d9be3cdf601512e6d0a478d59c4786d9bb03926f15909805c75f7",
+    "rendered_prompt_sha256": "a1a4262485d3a0538df26eebd5991696610f3f4bc2628557bf094b8cd1d42652",
+    "source_text_sha256": "ba1617925581e5b066073b0ad588bd2797b662f23ca70fdeae04eaa18fb45343"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 735,
+    "filename": "ce_ef_17.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_17.txt",
+    "state": "ce",
+    "word_count_original": 309
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_17.json"
+  },
+  "raw_response_text": "## COMPETÊNCIAS ESPECÍFICAS: LÍNGUA INGLESA\n\nA seguir, destacamos as competências que os aprendizes do idioma desenvolverão no ensino fundamental.\n\n1. Identificar o lugar de si e o do outro em um mundo plurilíngue e multicultural, refletindo, criticamente, sobre como a aprendizagem da língua inglesa contribui para a inserção dos sujeitos no mundo globalizado, inclusive no que concerne ao mundo do trabalho.\n2. Comunicar-se na língua inglesa, por meio do uso variado de linguagens em mídias impressas ou digitais, reconhecendo-a como ferramenta de acesso ao conhecimento, de ampliação das perspectivas e de possibilidades para a compreensão dos valores e interesses de outras culturas e para o exercício do protagonismo social.\n3. Identificar similaridades e diferenças entre a língua inglesa e a língua materna/outras línguas, articulando-as a aspectos sociais, culturais e identitários, em uma relação intrínseca entre língua, cultura e identidade.\n4. Elaborar repertórios linguístico-discursivos da língua inglesa, usados em diferentes países e por grupos sociais distintos dentro de um mesmo país, de modo a reconhecer a diversidade linguística como direito e valorizar os usos heterogêneos, híbridos e multimodais emergentes nas sociedades contemporâneas.\n5. Utilizar novas tecnologias, com novas linguagens e modos de interação, para pesquisar, selecionar, compartilhar, posicionar-se e produzir sentidos em práticas de letramento na língua inglesa, de forma ética, crítica e responsável.\n6. Conhecer diferentes patrimônios culturais, materiais e imateriais, difundidos na língua inglesa, com vistas ao exercício da fruição e da ampliação de perspectivas no contato com diferentes manifestações artístico-culturais.\n\nNo mais, é imprescindível mencionar que o ensino do inglês nos anos finais do ensino fundamental, poderá proporcionar aos seus aprendizes não apenas os desenvolvimentos das competências comunicativas, mas, sobretudo, o desenvolvimento da consciência linguística e da consciência crítica a respeito da construção social dos seus significados no contexto local em que o seu falante está inserido.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08a9502540bdccd3006ab3025ac72487d29ef8f7c76769ff5d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 615,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 617,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 1232
+    }
+  },
+  "created_at": "2026-09-22T22:34:07Z",
+  "duration_seconds": 4.638,
+  "error": null,
+  "excerpt_id": "ma_inf_7",
+  "filename": "ma_inf_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "599b0f8a5d02a9c50fc6eb4cfbfc9de13a5c2e2554174a67bbe13d7e6b6cc5d7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6086da2a2ec75053cc4626287097af9b3ca6262c465e8e227b9588be1834cba5",
+    "rendered_prompt_sha256": "44d18f6678b948c420967240a599a16b292d8c6696e3ba18b953142c3066eead",
+    "source_text_sha256": "c545797a75638f8663e9f0f7fce40e07961fdb2dd8d3a525495b07f3b1d46a8c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_inf_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1360,
+    "filename": "ma_inf_7.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_inf_7.txt",
+    "state": "ma",
+    "word_count_original": 354
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_inf_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_inf_7.json"
+  },
+  "raw_response_text": "### 5. Espaços, tempos, quantidades, relações e transformações\n\nO campo de experiências “espaços, tempos, quantidades, relações e transformações” integra vivências que proporcionam à criança, na sua relação com o meio ambiente, investigar, questionar, comunicar quantidades, explorar o espaço e os objetos, estabelecendo relações entre eles, transformando-os e ressignificando-os, a partir das brincadeiras, das interações e do estímulo com materiais e espaços variados. Nos termos da BNCC:\n\n> As crianças vivem inseridas em espaços e tempos de diferentes dimensões, em um mundo constituído de fenômenos naturais e socioculturais. Desde muito pequenas, elas procuram se situar em diversos espaços (rua, bairro, cidade etc.) e tempos (dia e noite; hoje, ontem e amanhã etc.). Demonstram também curiosidade sobre o mundo físico (seu próprio corpo, os fenômenos atmosféricos, os animais, as plantas, as transformações da natureza, os diferentes tipos de materiais e as possibilidades de sua manipulação etc.) e o mundo sociocultural (as relações de parentesco e sociais entre as pessoas que conhece; como vivem e em que trabalham essas pessoas; quais suas tradições e seus costumes; a diversidade entre elas etc.). Além disso, nessas experiências e em muitas outras, as crianças também se deparam, frequentemente, com conhecimentos matemáticos (contagem, ordenação, relações entre quantidades, dimensões, medidas, comparação de pesos e de comprimentos, avaliação de distâncias, reconhecimento de formas geométricas, conhecimento e reconhecimento de numerais cardinais e ordinais etc.) que igualmente aguçam a curiosidade. Portanto, a Educação Infantil precisa promover experiências nas quais as crianças possam fazer observações, manipular objetos, investigar e explorar seu entorno, levantar hipóteses e consultar fontes de informação para buscar respostas às suas curiosidades e indagações. Assim, a instituição escolar está criando oportunidades para que as crianças ampliem seus conhecimentos do mundo físico e sociocultural e possam utilizá-los em seu cotidiano (BRASIL, 2017:40).\n\nPor meio de práticas cotidianas permeadas de situações significativas e estruturadas de experiências em que as crianças são protagonistas, elas têm oportunidade de quantificar, medir, formular hipóteses, solucionar problemas, comparar e orientar-se no espaço e no tempo, com ricas possibilidades de conexão com o aparato científico e tecnológico, além de aprender a valorizar a vida no planeta.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

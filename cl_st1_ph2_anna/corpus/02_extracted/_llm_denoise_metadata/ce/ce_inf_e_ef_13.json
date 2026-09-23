@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09a55e0cbe341d92006ab2ffd727d887d2a61d5ea3a4586f10",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1068,
+      "input_tokens_details": {
+        "cache_write_tokens": 1065,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1226,
+      "output_tokens_details": {
+        "reasoning_tokens": 278
+      },
+      "total_tokens": 2294
+    }
+  },
+  "created_at": "2026-09-22T22:23:29Z",
+  "duration_seconds": 10.032,
+  "error": null,
+  "excerpt_id": "ce_inf_e_ef_13",
+  "filename": "ce_inf_e_ef_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1d3d8d6a0578daa53659fcb941bfc916d4cd5bafae88e3ef66f2f075d8bb446e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f6c3956b3cf808a55e5e177ab6f1d2b2f731d1221c368fa34c81d861e07d2c54",
+    "rendered_prompt_sha256": "38fe48f8585ce55e4439c85cc4e9f2c682e5d1e6f4cc94ceabf04b0f6d4896f1",
+    "source_text_sha256": "47916f55c3150fe046fd741bbdaa67cbe67afc161d1a48c1f4cbb36ad2fdddc5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_inf_e_ef_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 848,
+    "filename": "ce_inf_e_ef_13.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_inf_e_ef_13.txt",
+    "state": "ce",
+    "word_count_original": 681
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_inf_e_ef_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_inf_e_ef_13.json"
+  },
+  "raw_response_text": "## 2.5. Formação do(a) Professor(a)\n\nCompreendemos que a formação do(a) professor(a) é um dos “calcanhares de Aquiles” para o sucesso da implementação do DCRC, tendo em vista que o(a) docente foi, e ainda continua sendo formado(a) para “dar aulas”, “transmitir conhecimentos”, ser o “ator principal” do processo de ensino e aprendizagem.\n\nOs cursos de Licenciatura ainda apresentam ausência de articulação entre o objeto de conhecimento (conteúdo da área disciplina) e os conhecimentos didáticos. Há pouca ênfase nos saberes relacionados às tecnologias do ensino e nem sempre há a questão técnica associada a uma lógica com fundamentos didáticos, filosofia de ensino e, principalmente, vinculação entre elas, de modo que o fazer pedagógico contribua para que o(a) estudante seja agente na construção do conhecimento. Conforme Gatti (2010), é necessária a reformulação dos currículos e uma discussão de Didática nesses cursos de Licenciatura.\n\nCom a proposta pedagógica que apresentamos, de que a escola desenvolva no aluno as competências e habilidades do século XXI, faz-se necessário romper com o modelo predominante de ensino centralizado na docência. Esse rompimento permite avançar no sentido de um processo de ensino e aprendizagem interativo, em que professores(as) e estudantes sejam protagonistas e haja espaço privilegiado para o diálogo na construção do conhecimento. Entendemos que é muito difícil ensinar de forma diferente de como aprendemos ao longo de toda uma vida de estudante e, em seguida, na experiência de professor(a).\n\nÉ preciso considerar que a realidade atual exige professores(as) que deixem de ser apenas “ensinantes” e compreendam a importância de também aprenderem no diálogo com os(as) estudantes. É possível que, ao ingressar no mundo do trabalho, os(as) jovens enfrentem situações que envolvam conhecimentos e tecnologias que hoje ainda não existem, portanto, problemas que não se sabe quais serão. As pessoas precisam, então, ser preparadas para desincumbir-se, satisfatoriamente, diante desse desconhecido.\n\n1. Pesquisadores como Schön (2000), Sacristán (2000), Perrenoud (2001), Tardif (2002), Alarcão (2003) e Nóvoa (2009) discutem uma formação de professores com foco no trabalho docente, nas relações que se estabelecem dentro da escola e na importância da vinculação entre formação docente e práticas escolares como currículo, didática, avaliação e gestão da sala de aula, referenciada, sempre, no entrelaçamento entre teoria e prática.\n\nDesse modo, fica patente a urgência de reformulação da formação docente inicial. Os sistemas de ensino precisam receber profissionais não só habilitados na forma da lei, mas, principalmente, que estejam preparados para o desenvolvimento das concepções pedagógicas estabelecidas por esses sistemas, notadamente, para as concepções de educação, currículo, ensino, aprendizagem e avaliação de aprendizagem.\n\nDe outro modo, ressaltamos a necessidade de um processo formativo continuado, gerando competências, saberes e práticas capazes de concretizar a escola como um local em que não só se prepara a/o educanda/educando para a vida futura, mas onde este preparo é contextualizado e atende as exigências do mundo contemporâneo. Buscamos, por conseguinte, uma instituição educacional competente no cumprimento de sua função social, no qual inserimos o desenvolvimento de valores, habilidades e competências das diferentes áreas do conhecimento. Nessa perspectiva, é importante que esta formação continuada tenha parte da sua execução na própria escola, local de trabalho do(a) professor(a), cumprindo o que atualmente é denominado de formação em contexto. Esse tipo de formação inclui o coordenador pedagógico no exercício da sua função de formador, colaborando com o professor na reflexão da sua própria prática e na criação de estratégias de intervenção referentes a mudanças que venham ressignificar a atuação docente. Nóvoa (1992) destaca que “a formação deve estimular uma perspectiva crítico-reflexiva, que forneça aos professores os meios de um pensamento autônomo e que facilite as dinâmicas de autoformação participada” (NÓVOA, 1992, p. 25). Vale salientar que a formação docente para os projetos específicos dos sistemas de ensino deve se integrar à formação em contexto e contribuir para o fortalecimento do processo de formação continuada necessário.\n\nÉ interessante lembrar a valorização de paradigmas de formação continuada que promovam a preparação de professores reflexivos, que compreendam a importância do seu desenvolvimento profissional.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f955a3f387a29f2006ab307d122a087d2addc99c38c5ab07e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 391,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 367,
+      "output_tokens_details": {
+        "reasoning_tokens": 77
+      },
+      "total_tokens": 758
+    }
+  },
+  "created_at": "2026-09-22T22:57:24Z",
+  "duration_seconds": 3.404,
+  "error": null,
+  "excerpt_id": "pe_ef_34",
+  "filename": "pe_ef_34.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3570750e1a0af7020b46b3f67307117b914d0f9056def3b8bb2383a96eb8b82f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "805fe43ac1cf5e59da7b276068707105d8b0dfedcd9e86f06310ce5bd7922bc3",
+    "rendered_prompt_sha256": "dcaa0dfa2b14aab3d9ab0eab7b67cd4b0e69edf3261dbd4985a32647db047701",
+    "source_text_sha256": "d5e9dbc9af664269e7445e9621e55aa4c0a124e9a10e40a3c9dc5ffba99c7f3c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_34.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2412,
+    "filename": "pe_ef_34.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_34.txt",
+    "state": "pe",
+    "word_count_original": 197
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_34.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_34.json"
+  },
+  "raw_response_text": "### 3.5.3 EDUCAÇÃO INCLUSIVA – CONSIDERAÇÕES SOBRE O ENSINO DE LÍNGUA INGLESA\n\nA busca pela imersão dos estudantes no universo da LI ou no de qualquer outro componente curricular pede que se tenha, no horizonte de preocupações, a perspectiva inclusiva. Pensar o estudante em tal perspectiva é superar a ideia de que a educação inclusiva é voltada apenas para os que apresentam algum tipo de necessidade específica. Promover a inclusão exige, portanto, considerar que todos possuem suas especificidades e que, em virtude disso, poderão sofrer algum tipo de exclusão (FREITAS; ARRUDA, 2014).\n\nRealizar a inclusão demanda o aflorar do sentimento de pertença e o cuidado com ele. Ao despertar tal sentimento e preservá-lo, a escola se habilita a dar verdadeiramente conta de sua missão, independente da singularidade dos estudantes. Para isso, ela tem de realizar uma adequação curricular, buscando – por meio de estratégias diversificadas de ensino – atender a todos esses em suas particularidades. Educação inclusiva não é, pois, mero amparo e compensação de supostas deficiências, mas sim o acolhimento em condições metodológicas e estruturais adequadas. Assim, enseja-se o desenvolvimento das potencialidades do estudante, levando em conta aquilo que ele traz de profundamente pessoal.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

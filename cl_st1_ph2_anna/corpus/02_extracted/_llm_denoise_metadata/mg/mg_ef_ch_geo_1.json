@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ab2d143bc74e0f1006ab30272694c87d2b416736dae44e851",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 669,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 644,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 1313
+    }
+  },
+  "created_at": "2026-09-22T22:34:31Z",
+  "duration_seconds": 5.598,
+  "error": null,
+  "excerpt_id": "mg_ef_ch_geo_1",
+  "filename": "mg_ef_ch_geo_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b5b019927ab6b8713362ccdf7c31ab9cb8416745b7432df50bffd047edb591b8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "814ae18d8f8ee62225332175ea8303eb92e05baee94b4ab78b66cbf012dba1c0",
+    "rendered_prompt_sha256": "32b43739ad4fb39a73207b60350c3eb6204e15b0dd27e38c696c02de64fed94b",
+    "source_text_sha256": "6f175561f6d42b5bab17eb6458bdc2b6756e1f659e6a17aad000a34f7ecfb5ff"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ch_geo_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1379,
+    "filename": "mg_ef_ch_geo_1.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ch_geo_1.txt",
+    "state": "mg",
+    "word_count_original": 365
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ch_geo_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ch_geo_1.json"
+  },
+  "raw_response_text": "### 14.1 Componente Curricular: Geografia\n\nA natureza cambiante do mundo contemporâneo, e da intensidade da velocidade que o qualifica, impõe a necessária simultaneidade de novos olhares, novas técnicas e novas perspectivas sobre o objeto de estudo da geografia. Impõe, sobretudo, a abertura das mentes para se criar o novo, o diferente, aquele que superará o estágio de dificuldades e limitações de apreensão do real que tão marcadamente ainda caracteriza o presente.  \n(MENDONÇA, 2004)\n\nDesde a segunda metade do século XX, a intensidade e a velocidade das transformações socioespaciais têm modificado substancialmente o objeto de estudo da Geografia, com amplas repercussões na escolarização e na Geografia ensinada na escola básica, isto é, na Geografia Escolar.\n\nA Geografia Escolar tem estruturação e identidade próprias por se tratar de um corpo de conhecimentos produzido a partir das práticas escolares; das crenças e dos saberes pedagógicos dos professores; dos saberes dos estudantes; das orientações curriculares e dos livros didáticos. Contudo, é a ciência geográfica sua fonte alimentadora.\n\nTal qual a pesquisa geográfica acadêmica, a Geografia Escolar também passou a demandar princípios educativos flexíveis e adaptados à natureza mutante do real, ao exigir do educador uma revisão constante: em sua prática pedagógica; em suas crenças e saberes; na didática utilizada ao realçar as atividades crítico-reflexivas visando o desenvolvimento de competências e habilidades. A educação geográfica exige, sobretudo, a valorização das vivências cotidianas do estudante, desvelando suas práticas espaciais e as perspectivas de leituras do espaço geográfico, a partir da interpretação das paisagens e da apreensão das noções de lugar e território.\n\nNessa direção, o Currículo Referência de Geografia de Minas Gerais está alinhado aos princípios elucidados pela Base Nacional Comum Curricular – BNCC, que privilegia a formação integral do estudante e atribuiu ao professor o papel de mediador das aprendizagens cognitivas, emocionais, físicas e culturais dos estudantes. A Geografia, então proposta, está baseada na ampliação da capacidade dos estudantes para apreenderem a realidade, sob o ponto de vista da espacialidade complexa.\n\nEsperamos que o currículo referência, que ora colocamos nas mãos dos nossos colegas educadores, seja um instrumento de flexibilização, de abrangência de conhecimentos e uma possibilidade real de se experienciar alternativas inovadoras na educação geográfica dos nossos estudantes mineiros.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

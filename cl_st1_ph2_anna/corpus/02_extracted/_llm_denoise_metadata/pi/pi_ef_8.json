@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_029bb3d5920afbec006ab3087ce8f487d2ab92482cd3c9c13c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 521,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 1085
+    }
+  },
+  "created_at": "2026-09-22T23:00:18Z",
+  "duration_seconds": 5.78,
+  "error": null,
+  "excerpt_id": "pi_ef_8",
+  "filename": "pi_ef_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "87348aef761ed1238c2836b25949010a8b3060eeaf3de5851b37f968681418d1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c5e68e3e1fd93034e1e6c15a8d3c6de99c977fd65f67b6991f2d020844fa45d4",
+    "rendered_prompt_sha256": "b923ec6289304214915fb88850ffb08a573ae25188911a58c60513f859b54061",
+    "source_text_sha256": "c060bb139f31d4e5f1471e5d17f1935612bf4e913a742a385d38e997e5c97064"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_ef_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2583,
+    "filename": "pi_ef_8.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_ef_8.txt",
+    "state": "pi",
+    "word_count_original": 312
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_ef_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_ef_8.json"
+  },
+  "raw_response_text": "## OS PROCESSOS E PROCEDIMENTOS DE ENSINO  \n## E APRENDIZAGEM DA EDUCAÇÃO FÍSICA\n\nOs conteúdos abordados na perspectiva da cultura corporal do movimento e das práticas corporais a serem aprendidos na escola devem emergir da realidade dinâmica e concreta do mundo do aluno. O professor deve atentar-se às seguintes situações:\n\n- A dinâmica dos acontecimentos de uma aula é tal que, mesmo planejada, detalhada e consistente, dificilmente ocorre conforme o imaginado. Olhar, tom de voz, manifestação de afeto ou desafeto e diversas variáveis interferem diretamente na dinâmica anteriormente prevista, portanto o professor deve estar atento ao incentivo e empatia entre participantes.\n- A ênfase na autonomia com uma proposta de trabalho que considere a atividade do aluno na construção de seus próprios conhecimentos, valorize as suas experiências, seus conhecimentos prévios e a interação professor-aluno e aluno-aluno, buscando essencialmente a passagem progressiva de situações dirigidas por outrem a situações dirigidas pelo próprio aluno.\n- Planejar a realização de uma tarefa, identificar formas de resolver um problema, saber formular boas perguntas e respostas, levantar hipóteses e buscar meios de verificá-las, validar raciocínios, saber resolver conflitos e cuidar da própria saúde, dentre outras situações, são procedimentos e atitudes em que os alunos se tornam protagonistas da própria aprendizagem.\n- Instigar a curiosidade e o espírito de pesquisador de nossos alunos, em momentos do cotidiano da sala de aula, não respondendo de pronto as suas indagações e sim os incentivando a buscar as respostas com outros professores, livros, arquivos, retornando o debate e esclarecimentos no encontro seguinte.\n- A atuação coletivo-cooperativa na conquista da autonomia nas aulas de Educação Física da seguinte forma: proposição pelo professor de atividades de complexidade progressiva leva a uma necessidade de organização mental por parte dos alunos. Constantes desafios aos alunos provocam desequilíbrios que precisam ser resolvidos e é nessa necessidade de voltar ao equilíbrio que ocorre a construção do pensamento.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

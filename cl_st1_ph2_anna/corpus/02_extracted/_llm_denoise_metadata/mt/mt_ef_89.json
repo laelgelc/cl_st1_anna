@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01aeffd316b17b4e006ab304b0fe5087d29c5a11bfab404d65",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 732,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 684,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1416
+    }
+  },
+  "created_at": "2026-09-22T22:44:07Z",
+  "duration_seconds": 6.233,
+  "error": null,
+  "excerpt_id": "mt_ef_89",
+  "filename": "mt_ef_89.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3ad7f059866f2c7644ea667185f1bcec69e6d08d3a6c0cda56d0bde13e8fe017",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "862aca9ed79939d3af43726c00f53b364aa49b62dc5a479ad48684b04e4ed366",
+    "rendered_prompt_sha256": "6757809b026959775f7816ef1eb5236f58777d371f2a2f85d0db4ac384810c13",
+    "source_text_sha256": "38b597b715c20000780fd90510f1c721b4047b6037f19b65aeb761fab09db8d4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_89.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1887,
+    "filename": "mt_ef_89.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_89.txt",
+    "state": "mt",
+    "word_count_original": 425
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_89.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_89.json"
+  },
+  "raw_response_text": "### 4.1.5. Avaliações para as Aprendizagens\n\nA avaliação é essencial à educação e, como tal, inerente e indissociável a atividade pedagógica, ela deve ser compreendida como um processo permanente que ultrapassa o âmbito da sala de aula, abrangendo todo o cotidiano escolar. Esta interação merece estudos e reflexões, pois a avaliação das aprendizagens tem sido considerada como o domínio preponderante para medir os sucessos e fracassos dos estudantes, das unidades escolares e dos sistemas educativos em cenários locais, nacionais e internacionais.\n\nA construção de um currículo crítico e interdisciplinar que pretende promover aprendizagens significativas na vida dos estudantes tem sua ancoragem na avaliação diagnóstica, inclusiva, formativa e emancipatória, em contraponto à avaliação classificatória e seletiva.\n\nA avaliação do processo ensino e aprendizagem busca detectar as dificuldades dos estudantes, a fim de corrigi-las durante o processo. As informações reveladas pela avaliação formativa permitem ao professor planejar, ajustar e redirecionar sua prática pedagógica com a intencionalidade de possibilitar novas competências e habilidades na construção do conhecimento.\n\nÉ importante ressaltar que todo processo avaliativo depende a priori de um planejamento coerente, que permita ao professor delimitar as expectativas de aprendizagens de cada turma, estabelecendo um perfil de entrada e de saída, para que se possam mobilizar os esforços necessários.\n\nNo processo avaliativo, pode-se recorrer a diferentes mecanismos, considerando a intencionalidade dos objetos do conhecimento, fazendo uso de observações e registros contínuos e progressivos, respeitando o nível cognitivo dos estudantes para uma proposta gradativa de superação e avanço.\n\nO Componente Curricular de História, ao optar por uma avaliação diagnóstica e formativa, entende que esta não tem como objetivo classificar ou selecionar, mas conhecer melhor o estudante, suas capacidades, seus interesses e suas técnicas de trabalho. Nesta perspectiva, o ato de ensinar pressupõe intencionalidade do professor em auxiliar o estudante na construção de conhecimentos, conceitos, ideias e habilidades, considerando o desenvolvimento das diferentes atividades avaliativas: atividades realizadas em sala de aula; atividades que indiquem capacidades de síntese e produção de texto; atividades que expressem o domínio do objeto do conhecimento e atividades que explicitem procedimentos. Assim, propõe-se que estas sejam instrumentos do currículo com o objetivo de promover aprendizagem significativa, capaz de fazer com que o estudante tome consciência da evolução de sua aprendizagem e o professor perceba a eficiência do que “ensina”.\n\nPortanto, as dimensões que constituem o processo avaliativo devem possibilitar a aquisição de habilidades e capacidades cognitivas necessárias para assegurar o direito do estudante à aprendizagem, em uma perspectiva de formação do sujeito participativo, reflexivo e crítico no espaço que está inserido.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

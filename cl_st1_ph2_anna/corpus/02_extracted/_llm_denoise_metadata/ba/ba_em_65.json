@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0586e2c819ce7425006ab2fee44e8087d2ab1f965dd6206f94",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 797,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1009,
+      "output_tokens_details": {
+        "reasoning_tokens": 303
+      },
+      "total_tokens": 1806
+    }
+  },
+  "created_at": "2026-09-22T22:19:24Z",
+  "duration_seconds": 8.103,
+  "error": null,
+  "excerpt_id": "ba_em_65",
+  "filename": "ba_em_65.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "73090cd9c34cdaec57d74ae9921e9bfb9b4b756abe1d78d6ebbc7aa83046dafa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3b0ff24c419408a66c86875159888dec418c94f18240c348e9b1ba8103ee2557",
+    "rendered_prompt_sha256": "65fb8ddf859a074c37605a0dd08faca50c4a089acef22595485e4c716d3fdad4",
+    "source_text_sha256": "53519b139967b55ad099e90ba21bec1ecdb4fcca9f07027b4100958b198cb31f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_em_65.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 684,
+    "filename": "ba_em_65.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_em_65.txt",
+    "state": "ba",
+    "word_count_original": 510
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_em_65.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_em_65.json"
+  },
+  "raw_response_text": "## 15.2. ASPECTOS IMPORTANTES PARA A IMPLEMENTAÇÃO DE POLÍTICAS DE FORMAÇÃO\n\nPara a implementação de uma sólida política estadual de formação de profissionais da educação que garanta continuidade em diferentes governos, que tenha etapas evidenciadas de elaboração participativa, implantação, acompanhamento e avaliação em diferentes dimensões. Enfocamos alguns aspectos, enumerados a seguir.\n\n## 15.3. ANÁLISE DE DADOS E INFORMAÇÕES E INTERVENÇÃO SISTÊMICA\n\nSegundo o Censo da Educação Básica de 2020[2], atuaram no Ensino Médio brasileiro 505.782 professores/as. Destes, 30.593 estão na Bahia e 91,8% têm nível superior completo. Ou seja, há avanços na formação inicial e sabemos que isso é uma importante base à profissionalização, mas outros fatores influenciam para maiores avanços educacionais.\n\nA partir da análise desse cenário, constatamos a necessidade de políticas de incentivo aos estudos em pós-graduações (especialização, mestrado, doutorado), bem como de ampliar a oferta de formação continuada numa relação com conhecimentos construídos pela humanidade e as atuais necessidades sociais. Nesse sentido, podemos exemplificar sobre o atendimento aos estudantes com necessidades especiais na educação regular – isso constitui um avanço, mas somente a boa intenção do profissional não basta. São necessários objetivos, metas e estratégias formativas sistêmicas que atenuem os desafios ou obstáculos que são reais nas unidades escolares ao tempo em que se respeitem direitos assegurados à população brasileira. É importante salientar que o provimento para essa referência não se esgota na formação dos/as profissionais, mas engloba desde o apoio às famílias e estrutura das escolas a outras dimensões necessárias à qualidade educacional, que devem ser legalmente asseguradas.\n\nAlém do crescimento na formação em nível de graduação, é importante saber da constituição histórica do país e de cada Estado, especialmente na Bahia, no que tange ao indicador de adequação da formação docente. Ou seja, é imprescindível investigar formação e a correspondência com a atuação profissional dos sujeitos. No Brasil, a disciplina de Sociologia lidera na inadequação, com apenas 36,3% das turmas ministradas por professores/as com a formação adequada e, na Bahia,[3] esse dado cai para 11,2%. Em se tratando de adequação, no Brasil as disciplinas de Língua Portuguesa, Educação Física, Biologia, Matemática, História e Geografia lideram com percentuais acima de 75%. Na Bahia, o melhor resultado de adequação profissional se concentra na disciplina de Biologia, com percentual de 59,7%.\n\nAlém da necessária melhoria na qualificação da atuação dos/as profissionais da educação que já contribuem na gestão das aprendizagens, é fundamental o fomento aos estudos, pesquisas e incentivos à carreira e a análise interventiva das ofertas da formação inicial nas diferentes regiões do Brasil e na Bahia. Essa é uma dívida histórica que tem avanços, mas nacionalmente os desafios continuam.\n\nEsses indicadores guardam uma correlação direta com a proposta do Novo Ensino Médio e a necessidade de cumprir metas de formação inicial no Estado, evidenciando que não se pode discutir êxito em formação continuada sem aliar a discussão à formação inicial e, necessariamente, à produção de estudos, pesquisas e incentivos à carreira e análise interventiva das ofertas das licenciaturas nas diferentes regiões do Estado da Bahia.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

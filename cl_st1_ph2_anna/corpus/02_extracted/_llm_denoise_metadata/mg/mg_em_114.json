@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_098f99904364c29b006ab302ec066087d282b94c42b7d1e561",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 689,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 628,
+      "output_tokens_details": {
+        "reasoning_tokens": 76
+      },
+      "total_tokens": 1317
+    }
+  },
+  "created_at": "2026-09-22T22:36:32Z",
+  "duration_seconds": 5.057,
+  "error": null,
+  "excerpt_id": "mg_em_114",
+  "filename": "mg_em_114.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6accdc04863027951e103b8bb139787fed12b215e0d84dd5b42e2fe24850ef22",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7c25c9b5055e1819421e5a168a6f61b9d557bcdec1bb146b22c5a65e33f0c4be",
+    "rendered_prompt_sha256": "5f82b29734bbf7ffd974d4471cd30a5cf278c1aacfcc2f7ba532cbf7df1ab964",
+    "source_text_sha256": "429198cf73f201f0b19261f332b64e4cca1a1201715f00f5794c348246619607"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_114.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1502,
+    "filename": "mg_em_114.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_114.txt",
+    "state": "mg",
+    "word_count_original": 400
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_114.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_114.json"
+  },
+  "raw_response_text": "## 5.14 Práticas avaliativas no contexto da formação técnica e profissional\n\nConsiderando todos os pontos levantados anteriormente, referentes à necessária reorganização das práticas formativas e educativas, consideramos também urgente a revisão das práticas avaliativas. Historicamente elas foram construídas e consolidadas em instrumentos de medida e comparação frente a um resultado padronizado. Hoje, podemos encontrar diversas propostas que defendem a ampliação desse olhar, direcionado para a estruturação e validação de práticas avaliativas processuais e qualitativas que, mais do que gerar um valor referente ao conhecimento construído, apontem os caminhos para a sua consolidação e expansão.\n\nAo considerar a formação integral dos estudantes uma das premissas da oferta da Educação Profissional, de forma a contemplar as dimensões conceituais, procedimentais e atitudinais, a construção de saberes e fazeres e seus processos de acompanhamento e certificação precisam estar sustentados por metodologias capazes de mensurar com clareza, fidedignidade e assertividade o alcance dos objetivos de aprendizagem propostos e apontar as necessidades de novos planejamentos e intervenções pedagógicas. Assim, a escolha dos métodos e instrumentos de avaliação deve estar diretamente relacionada ao que se pretende avaliar: um conceito, uma tarefa manual, uma atitude, uma habilidade contextualizada, etc.\n\nO grande desafio é construir práticas avaliativas que se apresentem também como práticas formativas. Se se deseja oportunizar que os jovens sejam capazes de atuar, questionar, criticar e recriar a realidade, a partir da estruturação e do desenvolvimento de saberes, habilidades e competências relacionadas ao mundo do trabalho e suas interlocuções socioculturais, é preciso estruturar práticas pedagógicas, incluindo as práticas avaliativas, democráticas e participativas, pautadas na inclusão e na cooperação. Elas devem se materializar em oportunidades individuais e coletivas de observação constante das trajetórias formativas, indicando a necessidade de construção de novas ferramentas e estratégias para a garantia das aprendizagens e da formação desejada.\n\nPara isso, é necessário compreender que a avaliação da aprendizagem não pode se materializar em um processo seletivo e excludente, baseado em um resultado final idealizado. É preciso garantir a mensuração de conhecimentos e habilidades técnicas, essenciais à certificação, em harmonia com a valorização e o reconhecimento do desenvolvimento de atitudes e valores éticos, voltados para a garantia do bem comum. Para se atingir tais objetivos é imprescindível a reflexão sobre as práticas docentes cotidianas, no sentido de que os professores também sejam capazes de questioná-las e recriá-las constantemente à luz dos novos desafios impostos pelas rápidas e significativas transformações sociais e tecnológicas.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

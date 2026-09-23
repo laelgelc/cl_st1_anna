@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b7a41b7e304032b006ab30c8840a887d2a81fdde877b74d3d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 768,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 794,
+      "output_tokens_details": {
+        "reasoning_tokens": 121
+      },
+      "total_tokens": 1562
+    }
+  },
+  "created_at": "2026-09-22T23:17:32Z",
+  "duration_seconds": 4.304,
+  "error": null,
+  "excerpt_id": "ro_em_90",
+  "filename": "ro_em_90.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c329f193d2766d76872c51309c2eb8aea9c517ead0c5c47f76f067bfb345cc53",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "95c51c55d09796461f38fd7fdc844ca0a9dab289c313c1a8a4f49981500fbb65",
+    "rendered_prompt_sha256": "bf9e6f342310bf0154baa0079206b4fbb1c0225a43e9d9b9b74454368a086163",
+    "source_text_sha256": "f8abbd718840f0ba262a5bb5b890d21a3a6d85c15713bfe5062f8ba061dcdef4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_90.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3311,
+    "filename": "ro_em_90.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_90.txt",
+    "state": "ro",
+    "word_count_original": 489
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_90.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_90.json"
+  },
+  "raw_response_text": "### 3.3.7. Itinerário Formativo de Educação Profissional e Tecnológica\n\nNo Ensino Médio, a Educação Profissional e Tecnológica (EPT) se estrutura com uma proposta de superação do dualismo entre propedêutico e profissional e configura um modelo com propostas de desenvolvimento de uma identidade unitária para esta etapa, a partir da valorização de formas diversas e contextualizadas da realidade brasileira e do Estado de Rondônia.\n\nA EPT, integrada às diferentes formas de educação, ao trabalho, à ciência e à tecnologia, objetiva garantir aos cidadãos o direito à aquisição de competências profissionais que os tornem aptos para a inserção em setores profissionais nos quais haja utilização de tecnologias.\n\nNessa organização, conforme preconiza a Portaria nº 1.432/2018 (BRASIL, 2018), é assegurada a integração e o desenvolvimento dos quatro eixos estruturantes (Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo), e das habilidades a eles associadas, ainda que somadas a outras habilidades básicas requeridas indistintamente pelo mundo do trabalho e a habilidades específicas requeridas pelas distintas ocupações previstas no Catálogo Nacional de Cursos Técnicos (CNCT) e na Classificação Brasileira de Ocupações (CBO).\n\nA articulação do Ensino Médio com o itinerário de EPT representa um processo de articulação curricular que engloba diversas competências, temáticas e conceitos dos cursos técnicos e das áreas de conhecimento, de modo a permitir que todas as áreas de conhecimento se interliguem em torno dos Eixos Estruturantes da seguinte forma:\n\n- Investigação Científica - amplia a capacidade de investigação da realidade dos estudantes por meio de práticas e produção científica, inserindo-os na pesquisa e observação com olhar científico de seu meio, de suas necessidades e da necessidade de contribuir com o desenvolvimento do meio social do qual é parte integrante;\n- Processos Criativos - permitem que os estudantes elaborem projetos com criatividade e com fundamento nas teorias científicas inerentes, de modo a imprimir credibilidade às suas ações criativas;\n- Mediação e intervenção sociocultural – tem como foco o protagonismo que permitirá a intervenção dos estudantes nas soluções dos problemas da sociedade e do meio ambiente;\n- Empreendedorismo – propõe aos estudantes a ampliação dos conhecimentos em diferentes áreas, com a finalidade de intervir na sociedade e desenvolver a postura investigativa para encarar problemas e a capacidade de tomar decisões e de promover ações empreendedoras por meio de processos criativos e fundamentados na investigação científica.\n\nDesse modo a Educação Profissional constitui condição indispensável para o êxito num mundo pautado pela competição, inovação tecnológica e crescentes exigências de qualidade, produtividade e conhecimento. A busca de um padrão de qualidade, desejável e necessário para qualquer nível ou modalidade de educação, deve ser associada à equidade, como uma das metas da educação nacional.\n\nEspecificamente em relação aos pressupostos e fundamentos para a oferta de um Ensino Médio de qualidade e relevância social que inclui a Educação Profissional e Tecnológica, são apresentadas as dimensões da formação humana que devem ser consideradas de maneira integrada na organização curricular dos diversos cursos e programas educativos: trabalho, ciência, tecnologia e cultura.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b336b40c2f0d828006ab2fc38986087d2812c06c33a7087a3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 672,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 930,
+      "output_tokens_details": {
+        "reasoning_tokens": 413
+      },
+      "total_tokens": 1602
+    }
+  },
+  "created_at": "2026-09-22T22:07:59Z",
+  "duration_seconds": 7.438,
+  "error": null,
+  "excerpt_id": "al_ef_19",
+  "filename": "al_ef_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "db74aedde22103b3bc0384c4347eb56060a9c5f67fef4c5437173444af989f02",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "46948cd08c02dd7d32be16a4169f2bcb3826ffbaa077a90da0c67f1b5af95db3",
+    "rendered_prompt_sha256": "d456f5d9815e5da23179b0862798c367c42ce0c947214378bbb79b0f74dc9cd9",
+    "source_text_sha256": "1b2f5dcfc538b877f6ebf575e831254084457323b1af4cc4669d7756bb51b853"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 152,
+    "filename": "al_ef_19.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_19.txt",
+    "state": "al",
+    "word_count_original": 360
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_19.json"
+  },
+  "raw_response_text": "# As Práticas de linguagem\n\nPartindo do conjunto de princípios e pressupostos sobre as diversas formas de letramentos, os chamados multiletramentos, considerados estruturantes para o ensino do componente Língua Portuguesa, de acordo com a BNCC, embasamos este referencial a partir dos eixos estruturantes do ensino da língua, também presentes nos principais documentos curriculares nacionais, que correspondem às práticas de linguagem.\n\nAssim, as práticas de linguagem estão divididas em eixos para uma melhor compreensão desses processos, com vistas a atender todas as vertentes da língua em situações comunicativas. Dessa forma, o ensino da Língua Portuguesa vai compreender os aspectos apontados abaixo, já trazidos pela BNCC:\n\n- Oralidade;\n- Leitura/escuta;\n- Produção (escrita e multissemiótica);\n- Análise linguística/semiótica.\n\nDentre as práticas de linguagem, trazidas pela BNCC, abordaremos os eixos que as compõem:\n\nO Eixo Leitura enfoca as práticas de interação, abordando a leitura em seus vários modos de apresentação com gêneros orais, escritos, multissemióticos, enquanto práticas sociais, dentro e fora do espaço escolar. Assim, “um dos objetivos principais da escola é justamente possibilitar que seus estudantes possam participar das várias práticas sociais que se utilizam da leitura e da escrita na vida da cidade [e do sertão, ou seja, de onde se vive], de maneira ética, crítica e democrática” (ROJO, 2009, p. 107). Neste sentido, o trabalho, com gêneros na Língua Portuguesa, compreenderá, conforme preconiza a BNCC, as leituras para: “fruição estética de textos e obras literárias; pesquisa e embasamento de trabalhos escolares e acadêmicos; realização de procedimentos; conhecimento, discussão e debate sobre temas sociais relevantes; sustentar a reivindicação de algo no contexto de atuação da vida pública; ter mais conhecimento que permita o desenvolvimento de projetos pessoais, dentre outras possibilidades”.\n\nA leitura é vista a partir de um sentido mais amplo, englobando muito mais que o texto escrito, mas também imagens estáticas, (foto, pintura, desenho, esquema, gráfico, diagrama) ou em movimento (filmes, vídeos, etc.), assim como também o som (música) que acompanha muitos textos digitais.\n\nO tratamento das práticas leitoras compreende dimensões inter-relacionadas às práticas de uso e reflexão, tais como as apresentadas a seguir:",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

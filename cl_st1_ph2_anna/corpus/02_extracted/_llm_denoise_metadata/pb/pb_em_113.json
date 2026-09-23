@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f18344b0eac19c4006ab307056bc887d2a7bf30d513666bc9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 535,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 580,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 1115
+    }
+  },
+  "created_at": "2026-09-22T22:54:02Z",
+  "duration_seconds": 5.305,
+  "error": null,
+  "excerpt_id": "pb_em_113",
+  "filename": "pb_em_113.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "14f4e132ebe57fbb766e0846e0ef88652c408e8d365b4853b336a627ad51e637",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "70db3d985cbd7f0c5291743754e758354bfdfa457f50eaa2a6e4513e2c3d71ef",
+    "rendered_prompt_sha256": "74193c4f2847cbfbec96b454beba532bc7c0a6d581d24caed68cd83b29d8e44a",
+    "source_text_sha256": "05674f31bc6631188524a70f90d2fc76eba89125827ac704f22c8876dc17ce9c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_113.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2248,
+    "filename": "pb_em_113.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_113.txt",
+    "state": "pb",
+    "word_count_original": 343
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_113.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_113.json"
+  },
+  "raw_response_text": "### 4.2.4.1.1 Mentoria\n\nhá de enfrentar. Na escola, todos devem apoiá-lo no reconhecimento e na construção de valores que promovam atitudes de não indiferença em relação a si próprio, ao outro e ao seu entorno social.\n\nO professor deverá avaliar a participação e o desenvolvimento do estudante ao longo da disciplina por meio de avaliações dinâmicas e autoavaliações.\n\nA mentoria acontece na 3ª série, integrando e desenvolvendo o projeto de vida do estudante. São momentos que devem acontecer entre mentor e mentorado, nos quais acontecem trocas de experiência. Esses momentos podem ser divididos em: aprendizados, obstáculos, diferentes realidades de carreira e habilidades focadas na orientação do jovem ao mundo do trabalho.\n\nEssa mentoria é direcionada para os alunos da Educação profissional e tem como principais objetivos: melhoria no desenvolvimento da liderança, clareza na fala e espírito de equipe, compromisso com a qualidade e busca de excelência no trabalho.\n\nFocado no direcionamento do estudante que deseja entrar no mercado de trabalho, ser empreendedor ou focar no ensino superior. Cada experiência depende do projeto do aluno, retomando a importância da integração entre as áreas.\n\nA diferença entre ensino propedêutico e ensino técnico muda toda a lógica de pensar no percurso e no lifelong learning (formação contínua) dos estudantes. É necessário se pensar e mostrar que pensar o processo da saída da escola ou conclusão de ensino médio é um caminho para o encontro do seu futuro profissional qualificado.\n\nO antigo significado de ensino técnico no Brasil traz um conhecimento específico, a curto prazo, uma ideia de não aprofundamento. Hoje é significantemente necessário o ensino vocacional auxiliando o estudante a conduzir a sua carreira e também a ter um pensamento mais de itinerário sobre o seu aprendizado. Todo esse percurso formativo será trabalhado na mentoria do estudante.\n\nA palavra-chave é autoconhecimento para identificar suas próprias habilidades, os interesses que foi adquirindo ao longo da jornada como aluno e também aquilo que é valorizado pelo mercado. Uma forma de materializar o \"Projeto de vida\" incluindo possibilidades de onde pode atuar no futuro.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

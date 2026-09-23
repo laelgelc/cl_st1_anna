@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02d4db2759494442006ab30481fd2487d2ba8d78645c08e8eb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 787,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 751,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 1538
+    }
+  },
+  "created_at": "2026-09-22T22:43:20Z",
+  "duration_seconds": 6.425,
+  "error": null,
+  "excerpt_id": "mt_ef_60",
+  "filename": "mt_ef_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8c8403db4b839aec9c13fca3e8804602dded771ad07e997554f36b12acd91a87",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9a2210a7116ca9000f2c2edb28af90c1a6e21e4fd20ae621df37e691d838af5b",
+    "rendered_prompt_sha256": "0d504f465cd20e9a608660bd67c0f1d1d78784076aa20706f6ca82a9b056a6c4",
+    "source_text_sha256": "6e8506398eaa67dd5138e1f4f32405da88dd5b1a91d801ec734f4a30fcd240a2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1856,
+    "filename": "mt_ef_60.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_60.txt",
+    "state": "mt",
+    "word_count_original": 445
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_60.json"
+  },
+  "raw_response_text": "### 1.4.4. Unidades Temáticas/ Habilidades/ Objetos de Conhecimento\n\nA Educação Física no currículo do Mato Grosso será composta de seis unidades temáticas: Jogos e brincadeiras; Esportes; Ginásticas; Danças; Lutas e Práticas Corporais, Meio Ambiente e Saúde. Cada unidade temática será detalhada através de objetos de conhecimento e habilidades que devem ser abordados nas aulas ou sequências de aulas.\n\nComo se sabe, algumas unidades temáticas e práticas corporais nas aulas da Educação Física podem fazer emergir preconceitos de corpo, de gênero, de desempenho, de raça/etnia, entre os estudantes. Por isto, é importante que o/a professor/a problematize estes preconceitos e reforce os valores do respeito, da equidade e da dignidade humana nas aulas.\n\nA seguir serão apresentadas cada uma das unidades temáticas, seus objetos de conhecimento correspondentes e as habilidades a serem desenvolvidas. O trato destes objetos de conhecimento é obrigatório, mas, os tipos e modalidades das práticas corporais que compõem estes objetos de conhecimento é flexível, fica a cargo do professor e dos alunos elegerem aquelas mais adequadas para os seus contextos escolares. Porém, a título de ilustração serão oferecidos vários exemplos de práticas que podem ser desenvolvidas para cada objeto de conhecimento.\n\n### 1.4.4.1. Unidade Temática de Brincadeiras e Jogos\n\nO jogo é uma invenção humana, um ato em que em sua intencionalidade e curiosidade resultam num processo criativo para modificar, imaginariamente, a realidade e o presente. Ele satisfaz as necessidades dos praticantes, por isso, o professor deve conhecer as motivações, as tendências, os incentivos e os significados criados nos jogos pelos seus praticantes. Além disso, o jogo deve ser entendido como fator de desenvolvimento por estimular o exercício do pensamento (SOARES et al., 2012), da imaginação, da criatividade, das estratégias, da ludicidade e do prazer em brincar e jogar.\n\nSegundo a BNCC, a unidade temática Brincadeiras e jogos, explora as atividades voluntárias exercidas dentro de determinados limites de tempo e espaço, caracterizadas pela criação e alteração de regras, pelo respeito ao que foi combinado coletivamente, bem como pela apreciação do ato de brincar em si, que são recriados, constantemente, pelos diversos grupos culturais. Grande parte desses Jogos e brincadeiras é difundido através da socialização na infância e juventude na cultura popular.\n\nNos quadros a seguir serão apresentadas as unidades temáticas, as habilidades, os objetos de conhecimento e a progressão das aprendizagens em uma escala contínua de desenvolvimento: I = introduzir, no sentido de iniciar; A = aprofundar, entendendo o processo de ampliação e C = consolidar, compreendendo a sistematização e sedimentação do conhecimento. Vale notar que alguns objetos de conhecimento já foram introduzidos nos anos iniciais do Ensino Fundamental, portanto, cabe aprofundá-los (A) e consolidá-los (C) nos anos finais.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

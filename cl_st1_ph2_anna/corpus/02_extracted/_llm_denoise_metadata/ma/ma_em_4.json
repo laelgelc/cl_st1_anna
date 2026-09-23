@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08d82ce28a95d860006ab30226f5f087d2afe7501a39a0a35a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1334,
+      "input_tokens_details": {
+        "cache_write_tokens": 1331,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1445,
+      "output_tokens_details": {
+        "reasoning_tokens": 232
+      },
+      "total_tokens": 2779
+    }
+  },
+  "created_at": "2026-09-22T22:33:21Z",
+  "duration_seconds": 10.625,
+  "error": null,
+  "excerpt_id": "ma_em_4",
+  "filename": "ma_em_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "74b701f8304c208de872a07b48a8a6e053a0b19b8fa7f247fc51548d17ad947a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c2edbe511154814a29abf6c03861ad536452fde6d754b80132d49bca7302563d",
+    "rendered_prompt_sha256": "84f9417d52f2a9ec211d69d353fe07eeaf6859e2d5349561e968c06ea15156e7",
+    "source_text_sha256": "1b64cc64de55482da9b6da9d36684ad489aca39537d3c422a5cc3edf6f417657"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1328,
+    "filename": "ma_em_4.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_4.txt",
+    "state": "ma",
+    "word_count_original": 856
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_4.json"
+  },
+  "raw_response_text": "# O ensino médio no Maranhão e seus desafios\n\nO estado do Maranhão é a oitava unidade federativa de maior extensão territorial do país e tem a décima maior população, com pouco mais de 7 milhões de pessoas, tendo sua maior densidade populacional no meio urbano.\n\nO estado apresenta uma vasta riqueza natural, constituída pela biodiversidade na fauna e na flora, além dos seus ecossistemas costeiros e marinhos.\n\nA formação de seu povo carrega a origem nos índios e negros, com as influências de portugueses, holandeses, franceses, ingleses e espanhóis. Todos esses povos contribuíram para a diversidade da população maranhense e para o surgimento de várias manifestações culturais presentes até hoje, a exemplo do Bumba meu boi, Tambor de Mina, Cordão de Reis, Dança Portuguesa, Festa do Divino, Pastores, entre outras.\n\nEm meio a tanta beleza, encontram-se os desafios a serem superados, que, ao longo dos últimos anos, vêm apresentando resultados animadores, mas ainda permanecem grandes desafios.\n\nEm relação à qualidade da educação, dados do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) apontam que o Maranhão teve uma expressiva elevação nos seus indicadores educacionais do ensino médio. O Índice de Desenvolvimento da Educação Básica (Ideb) apresentou crescimento de 3,1, em 2015, para 3,4, em 2017, e, na sequência, para 3,7, em 2019. Ou seja, cresceu 0,6 pontos nas três últimas edições do Ideb, sendo um dos maiores crescimentos de uma rede pública estadual entre 2013 e 2019. Dando-se destaque às escolas de São Luís que superaram a meta prevista de 4,0 para 4,1, em 2019, colocando-se entre as seis melhores capitais do país.\n\nEssa melhoria no desempenho estendeu-se, também, às escolas de ensino médio do interior do estado, pois 62,25% dos municípios – o que representa cerca de 140 municípios – também atingiram a meta do Ideb com pontuação de 3,7. Desse modo, o Maranhão passa a figurar entre os três primeiros estados da região Nordeste com melhor desempenho educacional.\n\nA rede estadual maranhense, por sua complexidade territorial e o tardio investimento em programas de formação docente, possui atualmente em seu quadro docente, segundo dados do Censo Escolar (Inep, 2019), 53,2% de seus professores com formação superior de licenciatura (ou bacharelado com complementação pedagógica) na mesma área da disciplina que leciona; 2,3% com formação superior de bacharelado (sem complementação pedagógica) na mesma área da disciplina que leciona; 37,4% com formação superior de licenciatura (ou bacharelado com complementação pedagógica) em área diferente daquela que leciona; 5,5% dos professores com formação superior não considerada nas categorias anteriores; e, ainda, 4,3% dos professores sem formação superior.\n\nEm relação à oferta do ensino público, a rede estadual maranhense alcançou, no ano de 2020, o atendimento do ensino médio em instalações físicas próprias em todos os municípios maranhenses. Contudo, observa-se uma redução da procura pelo ensino público estadual de 288.291 estudantes matriculados em 2017 para 249.864 em 2020 (Censo Escolar 2021), involução correspondente a 13,3% no período.\n\nParalelo a esses avanços, muito se tem a superar em relação às altas taxas de abandono no ensino médio, queda na efetivação de matrículas do fundamental para o ensino médio e, de forma expressiva, a concentração desses dados nas escolas da zona rural, onde o estado apresenta grandes adversidades geográficas.\n\nConforme as tabelas abaixo, podemos observar que o estado apresenta um salto qualitativo em relação ao rendimento escolar no ensino médio, frente aos dados de 2016, comparando-os com os dados de 2019.\n\nRessalta-se que a elevação do rendimento escolar da rede estadual é fruto de várias ações do governo, como a implantação da sistemática de avaliação educacional, implantação do Programa Mais Ideb, da Política Educacional Escola Digna, incluindo a progressiva implantação da educação integral. Apesar dos investimentos para a melhoria da qualidade de ensino, alguns indicadores ainda são muito desafiadores.\n\nEm relação à população maranhense, que atualmente é de 7.000.887 pessoas, o estado apresenta uma taxa de escolarização na educação básica em torno de 90,4%, enquanto a média do Brasil é de 82,1%. Na educação superior, a taxa é de 32,9%, enquanto o país possui a taxa de 26,2%. Verifica-se, portanto, que os dados estaduais são muito positivos diante do cenário nacional.\n\nNo entanto, quando analisados de forma mais específica, considerando as faixas etárias, o estado apresenta a taxa de escolarização na faixa etária entre 15 e 17 anos de 86,4%, enquanto o Brasil apresenta uma taxa de 89,2%. Na faixa de 18 a 24 anos, a taxa de escolarização é de apenas 28%, enquanto a do Brasil é de 32,4%.\n\nA média de anos de estudos do maranhense é de 7,6 anos, enquanto a média brasileira é de 9,4 anos. Da população que não está estudando e também não se encontra trabalhando, o Maranhão tem 33,2%, e a taxa do Brasil é de 22,1%. O percentual da população do estado que está estudando e trabalhando é de apenas 9,4%, sendo a taxa nacional de 14,2%.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

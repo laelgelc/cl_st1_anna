@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ac4dc96cee23af2006ab307dcb99c87d28776079eeaf1b6ac",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 760,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 781,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 1541
+    }
+  },
+  "created_at": "2026-09-22T22:57:39Z",
+  "duration_seconds": 8.301,
+  "error": null,
+  "excerpt_id": "pe_ef_46",
+  "filename": "pe_ef_46.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7bc26775f34c619397089272fea615e5b0ff324a04513857e04770be1a961072",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "869096777e172b7569843505701a67319936ee8c5866c5bdb27a9f0d4f53d0cf",
+    "rendered_prompt_sha256": "d62487394a447c444e6a763c66a383bf2d6c9628389ec9f067ea27bee463eb43",
+    "source_text_sha256": "5ad3cee6e297ccfe161b7d84febfe373a31e4306a1079b133227cb7ca7c6a63c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_46.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2425,
+    "filename": "pe_ef_46.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_46.txt",
+    "state": "pe",
+    "word_count_original": 511
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_46.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_46.json"
+  },
+  "raw_response_text": "## 4.2 MATEMÁTICA\n\n### 4.2.1 A MATEMÁTICA NA ESCOLA\n\nNo contexto da Matemática escolar, para o acompanhamento do processo de ensino e aprendizagem e a garantia do seu sucesso, é fundamental que se reflita não apenas sobre os objetos de conhecimentos a serem ensinados, mas também sobre as habilidades básicas, as aprendizagens essenciais que devem ser asseguradas ao estudante na expectativa de que ele as desenvolva ao longo do seu percurso escolar.\n\nÉ indispensável fazer escolhas que promovam, no sujeito, as condições para que ele possa interpretar sua realidade e intervir nela. Para tanto, é necessário romper com um ensino de Matemática marcado pela concepção de que a aprendizagem de conteúdos matemáticos leva, de forma automática, à construção de competências. Por outro lado, é preciso reconhecer que o desenvolvimento de competências não prescinde da construção de saberes. No entanto, o trabalho com os saberes deve ser orientado para o desenvolvimento das competências que se deseja que o estudante construa, o que nos leva à necessidade de estabelecer as habilidades de aprendizagem a serem desenvolvidas por ano de escolaridade na etapa do ensino fundamental.\n\nDe acordo com a BNCC e outras orientações curriculares, o desenvolvimento dessas habilidades está intrinsecamente relacionado a algumas formas de organização da aprendizagem matemática, com base na análise de situações da vida cotidiana, de outras áreas do conhecimento e da própria Matemática.\n\nNa Matemática escolar, o processo de aprender uma noção em um contexto, abstrair e depois aplicá-la em outro contexto envolve capacidades essenciais, como formular, compreender, interpretar, analisar, avaliar e criar.\n\nOs números, suas representações e a necessidade de operar com quantidades estão presentes em muitas práticas sociais e cotidianas, pois constituem também o nosso modo de ver o mundo, de descrevê-lo, de analisá-lo e de agir nele e sobre ele. Por esta razão, impregnam grande parte das nossas práticas seja leitora ou escrita, contribuindo para que os estudantes se apropriem de práticas sociais de leitura e escrita do mundo, de diversos tipos de textos no contexto escolar e fora dele. Nesse sentido, é fácil perceber a influência de ideias matemáticas e mesmo a ocorrência de simbologias e termos típicos da linguagem matemática escolar na composição dos textos de grande circulação, em diversos campos das atividades humanas de adultos e também de crianças. É em função desse e de outros aspectos que, no ensino fundamental, deve-se dar ênfase ao desenvolvimento do letramento matemático, definido como as competências e habilidades de raciocinar, representar, comunicar e argumentar matematicamente, de modo a favorecer o estabelecimento de conjecturas, a formulação e a resolução de problemas, utilizando ferramentas matemáticas, em uma variedade de contextos. Desse modo, trabalhar na perspectiva do letramento permite assegurar aos estudantes o reconhecimento de que os conhecimentos matemáticos são fundamentais para a compreensão e a atuação no mundo e na comunidade local na qual estão inseridos.\n\nQuanto ao pensamento computacional, este envolve, por exemplo, processos de execução de algoritmos (instruções passo a passo) que auxiliam na resolução de problemas matemáticos que podem ser explorados por meio de propostas investigativas em sala de aula.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

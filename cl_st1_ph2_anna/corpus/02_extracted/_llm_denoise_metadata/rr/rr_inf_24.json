@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ac5b0e9f6ccbf10006ab30d74ae7c87d2bba78f9ce3869d60",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 645,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 833,
+      "output_tokens_details": {
+        "reasoning_tokens": 287
+      },
+      "total_tokens": 1478
+    }
+  },
+  "created_at": "2026-09-22T23:21:32Z",
+  "duration_seconds": 8.204,
+  "error": null,
+  "excerpt_id": "rr_inf_24",
+  "filename": "rr_inf_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "139916066033aaf5485e1964fa427071e2d63c5d8ebc31ae971d38811a0693b6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fcf81808ddeac3f4d724ae66913978c960030b9641ac2c8b4dcf65acf8d9f807",
+    "rendered_prompt_sha256": "22dc4e4fc09198527a1f88881cfd2062a05c14ceab3b04427068304c84e1f79f",
+    "source_text_sha256": "19e1feb547c794f9a4cef18ca393ca03e2e83929f25f4ed765e700376477b9db"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3523,
+    "filename": "rr_inf_24.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_24.txt",
+    "state": "rr",
+    "word_count_original": 374
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_24.json"
+  },
+  "raw_response_text": "### 3.13 AVALIAÇÃO NA EDUCAÇÃO INFANTIL\n\n#### 3.13.1 CONCEPÇÃO DE AVALIAÇÃO\n\nO processo de avaliação precisa considerar o percurso trilhado pelos pequenos, sem julgamentos, notas ou rótulos e fornecer elementos para a equipe repensar as práticas. As Diretrizes Curriculares Nacionais para a Educação Infantil (DCNEI) determinam, desde 2009, que as instituições que atuam nessa etapa de ensino criem procedimentos para a avaliação do desenvolvimento das crianças. Esse processo não deve ter como objetivo a seleção, a promoção ou a classificação dos pequenos e precisa considerar “a observação crítica e criativa das atividades, das brincadeiras e interações das crianças no cotidiano”. Múltiplos registros apontam que as crianças não se desenvolvem da mesma maneira e sofrem a influência da realidade cultural e social em que estão inseridas. Neste sentido, “A criança não pode se sentir integrada a uma escola que lhe proporciona uma situação constante de prova, de teste, onde a tensão se mantém e onde ela e sua família são prejulgadas e responsabilizadas pelo fracasso”, alerta Jussara Hoffmann, mestre em avaliação educacional pela Universidade Federal do Rio de Janeiro (UFRJ), no livro *Avaliação e Educação Infantil – Um Olhar Sensível e Reflexivo sobre a Criança*.\n\nA avaliação tem papel fundamental, permitindo que o professor conheça cada vez mais as crianças e a partir daí, pense em alternativas e caminhos possíveis do trabalho pedagógico.\n\nNa Educação Infantil do Território de Roraima, a avaliação deve assumir um caráter processual, uma vez que o objetivo é o desenvolvimento infantil e sabe-se que ele acontece de forma e em ritmos diferentes, considerando as singularidades e desenvolvimento de cada criança, sem criar comparações entre elas e respeitando as suas peculiaridades.\n\nPara tanto, é necessário lançarmos mão de “instrumentos” que fazem parte do “processo de acompanhamento” das crianças, tais como: pareceres descritivos, fichas, relatórios, dossiês, portfólios, registros e anotações. Lembrando que tais instrumentos integram o processo, mas não pode ser denominada de “avaliação” (HOFFMANN, 2012).\n\nPortanto, não podemos esquecer que o desenvolvimento da criança está relacionado às experiências que oportunizamos no espaço escolar e que implica diretamente no resultado. Desse modo, a avaliação não é julgamento, mas uma maneira de acompanhar as etapas vividas pelas crianças sem deixar de valorizar as múltiplas transformações que permeiam o seu pleno desenvolvimento.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

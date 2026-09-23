@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_002abc987764a66a006ab3076b74c887d2886854a5d85cc2fb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1791,
+      "input_tokens_details": {
+        "cache_write_tokens": 1788,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1933,
+      "output_tokens_details": {
+        "reasoning_tokens": 243
+      },
+      "total_tokens": 3724
+    }
+  },
+  "created_at": "2026-09-22T22:55:52Z",
+  "duration_seconds": 12.936,
+  "error": null,
+  "excerpt_id": "pb_em_75",
+  "filename": "pb_em_75.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c6b08d207fcfee442f9179bcd8d0ed2f5c81c79d6d356c51ec0a760b164fd87b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "47d8f74012d3ce88de5f4d0f9ae25f39f9307deaa566b44ce63c2ca9a6616316",
+    "rendered_prompt_sha256": "7f9c390578d50efe7409cafcfe2b2c89d09e1040493cc6fbac527ba10cf173cd",
+    "source_text_sha256": "ff350c2a20db276eb0dd43ba7701c5e591705fa2f2d17f7bc4bedb3215f2e94b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_75.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2325,
+    "filename": "pb_em_75.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_75.txt",
+    "state": "pb",
+    "word_count_original": 1287
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_75.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_75.json"
+  },
+  "raw_response_text": "## 2.3.11 POSSIBILIDADES AVALIATIVAS\n\nA avaliação da aprendizagem, conforme preconizada na Lei 9.394/96, deve ser cumulativa e considerar os aspectos qualitativos sobre os quantitativos, com foco no processo percorrido pelo estudante e não nos resultados finais tão somente.\n\nAssim sendo, a avaliação deve ser considerada como um processo em que se pretendem desenvolver no estudante as habilidades necessárias ao alcance das competências da área de conhecimento em discussão, de forma a considerar critérios de avaliação compatíveis com as atividades propostas pelo professor e seus objetivos de aprendizagem.\n\nDeve-se ressaltar que o ato de avaliar necessita ser pautado pelo compromisso ético, impessoalidade e imparcialidade. O compromisso do docente é com o processo cognitivo e, portanto, a avaliação deve servir como ferramenta diagnóstica do acompanhamento pedagógico. Luckesi (2011, p. 391) menciona que “é contraditório ser educador e não ser solidário aos estudantes” e defende o que chamou de “pactos éticos” na prática de avaliação.\n\nO autor lista, assim, três pactos: o profissional, o curricular e o pacto com a verdade. No que se refere ao pacto profissional, o autor defende que, no âmbito da educação escolar, todos “devem investir e reinvestir o melhor de si para que os resultados prometidos efetivamente se realizem” (op. cit. p. 392). Quanto ao pacto curricular, menciona que o compromisso do educador em sala de aula deve ser o cumprimento satisfatório do currículo, mas que se deve considerar o que o estudante deve aprender do ponto de vista “ponderável”, levando em conta a necessidade de assegurar as aprendizagens mínimas necessárias para sua vivência no mundo das relações e no mundo do trabalho, e que o educador “não pode contentar-se com o fato de os educandos terem um desempenho ‘médio’; eles precisam, sim, manifestar um desempenho ‘pleno’, e essa meta envolve muito investimento [...]” (op. cit. p. 394).\n\nQuanto ao terceiro pacto (o com a verdade), talvez este seja o mais desafiador do exercício da docência, pois visa coibir práticas de atribuição de juízo de valor em detrimento da verificação do ganho cognitivo. O autor reforça os cuidados e critérios que devem ser adotados ao se elaborar um instrumento de coleta de dados para a avaliação, de forma que “os educandos possam responder a eles sem ameaças e ansiedades psicológicas” (LUCKESI, 2011, p. 395).\n\nA avaliação deve ser vista como uma prática contínua e não pontual, deve-se mostrar ao discente o que ele alcançou em cada etapa do processo de aprendizagem e o que precisa aprimorar. Assim sendo, o professor pode utilizar os mais variados instrumentos de avaliação de forma a contemplar as diferentes formas de aprender e construir o conhecimento. Ressalta-se a necessidade de esclarecer que existem diferenças entre o ato de examinar e o ato de avaliar.\n\nOs exames aferem o que o estudante assimilou, muitas vezes, de forma passiva, até o momento, enquanto que a avaliação é processual, contínua e garante ao longo do trajeto escolar que o docente possa compreender de que forma pode atuar para conduzir melhor o ganho cognitivo dos estudantes. A avaliação corrige os equívocos do passado para lançar mão de novas estratégias que projetam no futuro o êxito escolar.\n\nAssim, como forma de atender às especificidades da área, pode-se fazer uso dos seguintes instrumentos de avaliação, dados aqui como propostas a serem escolhidas pelo docente de acordo com suas necessidades e realidades:\n\nI. Relatórios escritos das práticas experimentais;\nII. Apresentação oral individual ou por estações, do processo de execução de experimentos e seus resultados;\nIII. Aprendizagem Baseada em Projetos ou Aprendizagem Baseada em Problemas (ABP), com integração de projetos interdisciplinares, com critérios claros definidos pelo professor;\nIV. Utilização de recursos tecnológicos, quando disponíveis, como o uso de recurso audiovisual, formulário ou relatório eletrônico ou produção de um produto físico final ou protótipo;\nV. Elaboração de mapas mentais;\nVI. Produção de jogos de acordo com recursos disponíveis, como jogo de tabuleiro ou usando alguma plataforma digital.\n\nNesse sentido, os instrumentos de avaliação no ensino das Ciências da Natureza e suas Tecnologias precisam ser compreendidos como mecanismos para se coletarem evidências de que a construção do pensamento científico está ocorrendo durante o processo de aprendizagem dos estudantes. A avaliação é um instrumento que se obstina a nortear o trabalho docente nas suas escolhas pedagógicas e, sobretudo, no que tange a avaliar o ganho de aprendizagem quanto à compreensão dos conceitos e das linguagens próprias da ciência, não se pode esperar que transformações atitudinais e de criticidade ou mesmo que uma postura investigativa possa ser mensurada utilizando apenas um modelo de instrumento de avaliação de aprendizagem.\n\nAssim como é necessário que se utilize uma variedade de métodos na abordagem dos objetos de aprendizagens, em Ciências a variedade de instrumentos avaliativos também se faz necessária se a intenção for avaliar as múltiplas dimensões que a aprendizagem em ciências requer. Tão importante quanto a variedade de instrumentos, também é imprescindível que, ao longo do processo, seja dada autonomia para que o estudante compreenda que seu aprendizado é, em parte, de sua responsabilidade.\n\nO estudante precisa ter a clareza, por exemplo, da necessidade de efetuar o cálculo para a resolução de um problema em física, e o professor precisa também estar consciente de que a exigência do cálculo não é de natureza fiscalizatória para averiguar se o estudante de fato conseguiu chegar ao resultado. A maturidade em reconhecer que o cálculo é parte importante na jornada do aprendizado também é um ganho cognitivo do estudante e, por essa razão, a autonomia é fator que norteia os critérios de avaliação.\n\nNão se pretende aqui desconsiderar um ou outro instrumento. Testes e provas podem servir de avaliação formativa se vierem acompanhadas de critérios claros de avaliação e se houver a devolutiva do professor quando o estudante não obtiver êxito. Como mencionado por (SANTOS, p. 67, 2017), “o feedback é visto como fundamental, pois irá retomar com os alunos suas dificuldades com relação a determinados conteúdos que deverão ser revistos/retomados”. Coletar evidências e apontar onde ocorreu o erro é ofertar a chance para que os estudantes possam acompanhar a progressão no ganho cognitivo. Quando o instrumento se destina apenas à promoção ou retenção do estudante, sem ofertar subsídios para que o estudante não volte a incorrer no erro, a avaliação não atendeu ao que se propôs.\n\nOs instrumentos de avaliação em Ciências devem privilegiar recolher evidências da aprendizagem por intermédio do desenvolvimento de habilidades que deem condições ao estudante de recrutar esse conhecimento no momento em que este precisar resolver um problema prático do seu cotidiano. Os critérios de avaliação não podem ser subjetivos. Se uma atividade experimental está ocorrendo em aula, como avaliar o ganho de conhecimento? Estabelecendo critérios no momento posterior à execução da atividade e, sobretudo, apresentar os critérios aos estudantes. Eles precisam saber o que está sendo avaliado no momento da aula. Pode-se avaliar, por exemplo, a forma como o estudante instrumenta o experimento a partir da leitura de um roteiro, se consegue inferir hipóteses e se utiliza bons instrumentos de coleta de dados.\n\nO importante é que o professor tenha a clareza de que os critérios avaliados devem estar diretamente relacionados às competências e habilidades gerais e específicas descritas na BNCC e que também estão listadas neste documento. Ao realizar o planejamento das aulas, mais importante do que pensar nos conteúdos a serem “vencidos” de um livro didático, é compreender de que forma podem-se recolher as evidências para acompanhar o desenvolvimento de uma determinada habilidade. A mudança de perspectiva na forma de conduzir o processo de ensino e aprendizagem em Ciências é decerto a proposta mais inovadora na promoção de uma educação integral e com significado para uma atuação crítica, responsável e ética dos estudantes paraibanos enquanto cidadãos.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

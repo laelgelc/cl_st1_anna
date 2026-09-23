@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0884d0b4b3665d8e006ab30d65592887d2922e4d114bda5365",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 738,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 763,
+      "output_tokens_details": {
+        "reasoning_tokens": 120
+      },
+      "total_tokens": 1501
+    }
+  },
+  "created_at": "2026-09-22T23:21:14Z",
+  "duration_seconds": 5.513,
+  "error": null,
+  "excerpt_id": "rr_inf_11",
+  "filename": "rr_inf_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3c150f0dea1d8e108de6ae64a24029f5c83cbbaa7170e3ac3e3e2f37bb9e0556",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "231a1ceffabb63fde765dd3792b081ae34f8185efa4b74db1e86ace004e4a661",
+    "rendered_prompt_sha256": "1384d09ea738a3c6b600f59286eb98e43dd4eb8d4d98d55ae1ca7ff7029821f8",
+    "source_text_sha256": "1e20ea7bf16288a089aeacceddda520fd6cea654bd2587146df7454cccf5c872"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3509,
+    "filename": "rr_inf_11.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_11.txt",
+    "state": "rr",
+    "word_count_original": 448
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_11.json"
+  },
+  "raw_response_text": "### 3.4.4 ESCUTA, FALA, PENSAMENTO E IMAGINAÇÃO\n\nDesde o nascimento, as crianças participam de situações comunicativas cotidianas com as pessoas com as quais interagem. As primeiras formas de interação do bebê são os movimentos do seu corpo, o olhar, a postura corporal, o sorriso, o choro e outros recursos vocais, que ganham sentido com a interpretação do outro. Progressivamente, as crianças vão ampliando e enriquecendo seu vocabulário e demais recursos de expressão e de compreensão, apropriando-se da língua materna que se torna, pouco a pouco, seu veículo privilegiado de interação. Por meio da linguagem, nos fazemos presentes, interagimos, aprendemos, inventamos, participamos, argumentamos, narramos.\n\nA linguagem tem também papel fundamental na constituição do pensamento e, consequentemente, na formação das subjetividades, nos constituindo como seres humanos, participantes da cultura na qual estamos inseridos. Para Vygotsky (1996), a linguagem é matéria prima para o pensamento. Segundo ele, em suas origens, pensamento e linguagem possuem raízes diferenciadas e linhas diferentes de evolução. Num determinado momento do desenvolvimento humano, as linhas do pensamento e da linguagem se cruzam, possibilitando que a linguagem se torne intelectual e o pensamento verbal.\n\nNa Educação Infantil, uma vez que a linguagem é mediadora das diversas interações ocorridas, quer seja entre adultos e crianças, quer entre as próprias crianças, é fundamental propiciar experiências ricas e significativas de fala e escuta, desde os bebês.\n\nDesde cedo, a criança manifesta curiosidade com relação à cultura escrita: ao ouvir e acompanhar a leitura de textos, ao observar os muitos textos que circulam no contexto familiar, comunitário e escolar, ela vai construindo sua concepção de língua escrita, reconhecendo diferentes usos sociais da escrita, dos gêneros, suportes e portadores.\n\nNa Educação Infantil, a imersão na cultura escrita deve partir do que as crianças conhecem e das curiosidades que deixam transparecer. As experiências com a literatura infantil, propostas pelo educador, mediador entre os textos e as crianças, contribuem para o desenvolvimento do gosto pela leitura, do estímulo à imaginação e da ampliação do conhecimento de mundo. Além disso, o contato com histórias, contos, fábulas, poemas, cordéis etc. propicia a familiaridade com livros, com diferentes gêneros literários, a diferenciação entre ilustrações e escrita, a aprendizagem da direção da escrita e as formas corretas de manipulação de livros.\n\nNa pequena infância a aquisição e o domínio da linguagem verbal estão vinculados à constituição do pensamento, à fruição literária também é um instrumento de apropriação dos demais conhecimentos. Nesse convívio com textos escritos, as crianças vão construindo hipóteses sobre a escrita que se revelam, inicialmente, em rabiscos e garatujas e, à medida que vão conhecendo letras, em escritas espontâneas, não convencionais, mas já indicativas da compreensão da escrita como sistema de representação da língua.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

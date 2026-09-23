@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b30d20c45fbec0c006ab3037f8ac887d29b683beee57d9ec9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1700,
+      "input_tokens_details": {
+        "cache_write_tokens": 1697,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1785,
+      "output_tokens_details": {
+        "reasoning_tokens": 279
+      },
+      "total_tokens": 3485
+    }
+  },
+  "created_at": "2026-09-22T22:39:10Z",
+  "duration_seconds": 15.083,
+  "error": null,
+  "excerpt_id": "mg_inf_e_ef_intro_1",
+  "filename": "mg_inf_e_ef_intro_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9eb9e969356c319fe6b919eacdc31d463aee04739b12bad2045db24034472885",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4f6f646dcd3525f7971cf032ee79264da00efce6f505cf168c31be756bd3f3bf",
+    "rendered_prompt_sha256": "828ea41d1462ababd56a394727f1a09f35fdfe7568bb7b5da83f30c7335f1199",
+    "source_text_sha256": "2eeaa7f610de3a1a453ba01f2e59a6c82ce4820bc4ad5eaf4d6907ec57074302"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_e_ef_intro_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1645,
+    "filename": "mg_inf_e_ef_intro_1.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_e_ef_intro_1.txt",
+    "state": "mg",
+    "word_count_original": 1123
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_e_ef_intro_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_e_ef_intro_1.json"
+  },
+  "raw_response_text": "### 1.1 Apresentação\n\nCaro(a) Educador(a),\n\nÉ com grande satisfação que lhe apresentamos o Currículo Referência de Minas Gerais, documento elaborado a partir dos fundamentos educacionais expostos na nossa Constituição Federal (CF/1988), na Lei de Diretrizes e Bases da Educação Nacional (LDB 9394/96), no Plano Nacional de Educação (PNE/2014), na Base Nacional Comum Curricular (BNCC/2017), de acordo com as determinações e orientações do Conselho Nacional de Educação expressos por meio de pareceres/resoluções e a partir do reconhecimento e da valorização dos diferentes povos, culturas, crenças, territórios e tradições existentes em nosso Estado.\n\nConvidamos você para trilhar pelo histórico da construção do documento, pela concepção de currículo e sua prática em sala de aula até chegar aos eixos estruturadores que compõem o mesmo. É importante que você se sinta parte deste texto, uma vez que é você quem o colocará em prática na sala de aula.\n\nDestacamos que o presente documento é resultado do regime de colaboração estabelecido entre a Secretaria de Estado de Educação de Minas Gerais – SEE/MG e a União Nacional dos Dirigentes Municipais de Educação de Minas Gerais, seccional Minas Gerais - UNDIME/MG. Neste processo, foram considerados e estudados os documentos curriculares já presentes em diferentes redes (estadual e municipais) como fonte de inspiração para a elaboração de um currículo que possa ser referência em todo o Estado.\n\nA construção, portanto, do Currículo Referência de Minas Gerais de forma dialogada entre o Estado e os Municípios é uma oportunidade singular para o fortalecimento do regime de colaboração – previsto desde a Constituição Federal (1988) – e para avançarmos na consolidação de um Sistema Integrado de Educação Pública - SIEP, como vem sendo debatido em nosso Estado. A defesa de um sistema de educação único fundamenta-se no reconhecimento desse sistema como uma das formas de manter a integralidade do atendimento e a oferta de uma educação pública inclusiva, com qualidade e equidade. Em outras palavras, trata-se de não distinguir a qual rede um estudante se vincula ao longo da trajetória escolar. O que se deve garantir é a oferta de um ensino de qualidade e de oportunidades de formação e transformação social diversificadas, que zelem pelo direito à aprendizagem – como destacaremos ao longo de todo o documento. Compreendemos, assim, que é necessário “vencer as amarras” institucionais e culturais existentes e avançar no fortalecimento da democracia, na colaboração entre as redes e nas oportunidades aos nossos estudantes. Ter um currículo referência para o Estado materializa essa proposta e potencializa as relações entre as secretarias, escolas, professores e estudantes.\n\nEsperamos que deste documento, que ora lhe apresentamos e que orienta a elaboração dos planos e ações educacionais em Minas Gerais, surjam, da prática de cada educador e de cada escola, formas de implementação de uma educação inclusiva, igualitária e democrática.\n\nAo final, educador(a), você deverá reconhecer a relação deste documento com o seu dia a dia na escola, ter consciência e compreensão dos preceitos aqui tratados e a capacidade de trabalhá-los na sala de aula e na escola, a partir de sua autonomia, de forma dialogada com seus pares, com a gestão escolar e com os seus estudantes, fortalecendo os princípios do direito à aprendizagem de qualidade, da equidade, do reconhecimento e da valorização das diversidades, da inclusão e da gestão democrática e participativa, com vistas a promover a educação em sua integralidade.\n\n### 1.2 O processo de construção do Currículo Referência de Minas Gerais\n\nEm um momento histórico de definição de uma Base Nacional Comum Curricular e elaboração de um Currículo Referência que atenda a todo o Estado, o Regime de Colaboração passa a ser central no cenário educacional e um desafio para Minas Gerais, em razão da sua extensão, número de municípios e escolas. Mas em um esforço conjunto para reunir a imensa “Minas Gerais” e construir um documento coletivo, a seccional da União Nacional dos Dirigentes Municipais de Educação – UNDIME/MG, as escolas privadas de educação e a Secretaria de Estado de Educação – SEE/MG passam a colaborar lado a lado para redação deste documento, entendendo, fundamentalmente, que os estudantes transitam entre as redes ao longo da vida, ora em escolas municipais, ora em escolas estaduais, ora em escolas privadas, bem como, transitam entre os territórios, daí a importância de uma parte comum nos currículos. Se o documento curricular pretende garantir de fato os direitos de aprendizagem, torna-se impossível fragmentar a vida escolar de nossos estudantes. Portanto, pretendemos em colaboração, garantir trajetórias de sucesso acadêmico, somadas ao desenvolvimento integral das crianças, adolescentes, jovens e adultos que estão e estarão na educação pública, buscando, através de instâncias decisórias estabelecidas, o diálogo permanente entre União, Estado e Municípios.\n\nMinas Gerais é o Estado brasileiro com maior número de municípios (853), representando 15% do total do país (5570 municípios). O Estado é um retrato quase sempre fiel da realidade brasileira, com 10% (20.7 milhões) da população nacional (209.3 milhões), representando a grande diversidade regional, econômica, política e social. Em termos educacionais, nosso Estado conta com 16.151 escolas, das quais 3.622 são estaduais, 8.751 municipais e 3.778 privadas, distribuídas em 47 regionais de ensino (SRE), e 4.032.949 de estudantes matriculados, sendo que 86% deles estão na rede pública. Com a maioria das escolas e das matrículas pertencentes à rede pública, garantir uma educação de qualidade com equidade é princípio norteador das políticas públicas de educação nas redes municipais e estadual.\n\nLocalizado na região Sudeste, o Estado de Minas Gerais é o quarto em área territorial do país com uma área de 586.520,732 km². E com uma população estimada de 21.119.536 habitantes distribuídos em 853 municípios, é o segundo mais populoso do país, o que contribui significativamente para sua grande pluralidade regional.\n\nA diversidade regional do Estado de Minas Gerais é resultado de um processo histórico de ocupação do território marcado por diferentes fatores, desde aqueles de ordem socioeconômica até os naturais de clima e vegetação. Essa diversidade se traduz no que podemos entender como várias “Minas Gerais” dentro dos limites do Estado, exigindo, portanto, diferentes formas de abordagem e atuação sobre a realidade mineira. De fato, a efetividade de qualquer iniciativa parte necessariamente da compreensão da realidade para a qual se propõe.\n\nPara elaboração do novo currículo que atenda tamanha diversidade foi estabelecido um modelo de governança dinâmico, capaz de lidar com as particularidades de Minas Gerais e com as diversas entidades que atuam diretamente para melhoria da educação pública. E para isso, foi estabelecida uma Comissão Estadual, com representações políticas de órgãos e entidades, um Comitê Executivo para condução e tomada de decisão, uma Coordenação Técnica para encaminhamento dos trabalhos e Grupos de Trabalho de Currículo para redação do documento, conforme Figura 1.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

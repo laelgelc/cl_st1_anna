@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0657867adec905d6006ab30286f30487d2930fd6458a0d2729",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 665,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 571,
+      "output_tokens_details": {
+        "reasoning_tokens": 46
+      },
+      "total_tokens": 1236
+    }
+  },
+  "created_at": "2026-09-22T22:34:50Z",
+  "duration_seconds": 4.086,
+  "error": null,
+  "excerpt_id": "mg_ef_ciencias_2",
+  "filename": "mg_ef_ciencias_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0cab61212c4cc494bc8fcf976c789716660d6454315d087e2f1b99e55ab7c0ca",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "50d48c4f8682ed74762d0d051234bf1aabc160e142534f14680366f4c9afe11a",
+    "rendered_prompt_sha256": "0479e802c0079477382f1c9b5d948505bf89a5f6d56f49ef61cefc370d58d361",
+    "source_text_sha256": "db7a4411f9334a1f0c72abd2bd317e8bf76690226f0317bea5311338b02d79ca"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ciencias_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1398,
+    "filename": "mg_ef_ciencias_2.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ciencias_2.txt",
+    "state": "mg",
+    "word_count_original": 376
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ciencias_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ciencias_2.json"
+  },
+  "raw_response_text": "### 12.1.1 Competências Específicas da área de Ciências da Natureza para o Ensino Fundamental\n\nEm articulação com as competências gerais da Base Nacional Comum Curricular (BNCC), a área de Ciências da Natureza e, por consequência, o componente curricular de Ciências, deve garantir aos estudantes o desenvolvimento de oito competências específicas que deverão ser consolidadas ao longo do Ensino Fundamental.\n\n1. Compreender as Ciências da Natureza como empreendimento humano, e o conhecimento científico como provisório, cultural e histórico.\n2. Compreender conceitos fundamentais e estruturas explicativas das Ciências da Natureza, bem como dominar processos, práticas e procedimentos da investigação científica, de modo a sentir segurança no debate de questões científicas, tecnológicas, socioambientais e do mundo do trabalho, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.\n3. Analisar, compreender e explicar características, fenômenos e processos relativos ao mundo natural, social e tecnológico (incluindo o digital), como também as relações que se estabelecem entre eles, exercitando a curiosidade para fazer perguntas, buscar respostas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das Ciências da Natureza.\n4. Avaliar aplicações e implicações políticas, socioambientais e culturais da ciência e de suas tecnologias para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.\n5. Construir argumentos com base em dados, evidências e informações confiáveis e negociar e defender ideias e pontos de vista que promovam a consciência socioambiental e o respeito a si próprio e ao outro, acolhendo e valorizando a diversidade de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.\n6. Utilizar diferentes linguagens e tecnologias digitais de informação e comunicação para se comunicar, acessar e disseminar informações, produzir conhecimentos e resolver problemas das Ciências da Natureza de forma crítica, significativa, reflexiva e ética.\n7. Conhecer, apreciar e cuidar de si, do seu corpo e bem-estar, compreendendo-se na diversidade humana, fazendo-se respeitar e respeitando o outro, recorrendo aos conhecimentos das Ciências da Natureza e às suas tecnologias.\n8. Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, recorrendo aos conhecimentos das Ciências da Natureza para tomar decisões frente a questões científico-tecnológicas e socioambientais e a respeito da saúde individual e coletiva, com base em princípios éticos, democráticos, sustentáveis e solidários.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

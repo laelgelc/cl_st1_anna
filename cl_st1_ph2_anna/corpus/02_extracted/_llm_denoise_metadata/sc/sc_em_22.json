@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04e32db3dde8ecac006ab30e224c1c87d2bcea45ed2bdb7507",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1236,
+      "input_tokens_details": {
+        "cache_write_tokens": 1233,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1369,
+      "output_tokens_details": {
+        "reasoning_tokens": 294
+      },
+      "total_tokens": 2605
+    }
+  },
+  "created_at": "2026-09-22T23:24:28Z",
+  "duration_seconds": 10.178,
+  "error": null,
+  "excerpt_id": "sc_em_22",
+  "filename": "sc_em_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "30c700b3c7eb102e95c5dcc070148949763532501d1df9ecc4262e6a06565cbf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3861611d86e08f4ba1dc073c30cb04a16bd19d673f2e5c3d0cca7c7b4ca30b8d",
+    "rendered_prompt_sha256": "68e56c8a4900ac76203b504624a9dd573724592ee502ef1cafa16e0a920954d2",
+    "source_text_sha256": "372fb63e9307b2186e71a997b1461ec30a6e8376bf0093102530ef40b14f9b69"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sc/sc_em_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3693,
+    "filename": "sc_em_22.txt",
+    "filepath": "corpus/00_source_per_state/sc/sc_em_22.txt",
+    "state": "sc",
+    "word_count_original": 764
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sc/sc_em_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sc/sc_em_22.json"
+  },
+  "raw_response_text": "## 8 ORGANIZAÇÃO CURRICULAR DO NOVO ENSINO MÉDIO\n\nAs disposições constitucionais e legais, tanto nacionais como estaduais, configuram, claramente, uma ampliação gradual da carga horária no ensino médio e de escolas em tempo integral. Dentre os programas do governo federal aderidos por Santa Catarina, está o Programa Ensino Médio Inovador, instituído, a partir de 2009, pela Portaria MEC nº 971/2009, após a homologação do Parecer CNE/CEB nº 11/2009, que surgiu como uma possibilidade flexível e inovadora de planejar e ofertar o ensino médio com carga horária ampliada no estado.\n\nNo Plano Nacional da Educação (PNE), aprovado pela Lei nº 13.005/2014, dentre as vinte metas estabelecidas para a Educação até 2024, destaca-se a da Educação em Tempo Integral para, no mínimo, 50% das escolas públicas, com vista a atender pelo menos 25% dos alunos matriculados. Na mesma direção, o Plano Estadual de Educação de Santa Catarina (PEE-SC), aprovado pela Lei nº 16.794/2015, estabelece, na meta 6, a oferta de Educação em Tempo Integral nas escolas públicas, notando-se que, na Estratégia 6.10, refere-se explicitamente a políticas curriculares de Educação Integral e em Tempo Integral, visando à construção de uma proposta curricular da educação integral no estado.\n\nA Portaria nº 145/2016, que institui o Programa de Fomento à Implementação de Escolas em Tempo Integral, tendo sido substituída pela Portaria MEC nº 727/2017, que estabeleceu novas diretrizes, novos parâmetros e critérios para o programa, representa o primeiro passo para a garantia da qualidade e da equidade de educação no ensino médio e oportuniza, de maneira significativa, as possibilidades dos estados brasileiros de ampliarem o número de escolas que ofertam a Educação Integral em tempo integral.\n\nNessa esteira, a carga horária anual prevista em lei para o ensino médio deve ser ampliada de 800 para 1.000 horas até o ano de 2022, cinco anos após início da vigência da referida lei. Além disso, esta carga horária deverá ser ampliada, de forma progressiva, para uma carga horária anual de 1.400 horas, conforme preconiza o § 1º, inciso VII, Art. 24, da Lei nº 9.394/1996, alterada pela Lei nº 13.415/2017. Deste modo, em consonância com a lei que institui a Política de Fomento à Implementação de Escolas de Ensino Médio em Tempo Integral no âmbito do Ministério da Educação, as escolas devem, de maneira progressiva, passar a ofertar essa etapa de ensino segundo a nova modalidade.\n\nNa esfera do estado de Santa Catarina, sua Constituição prevê a garantia da implantação progressiva da jornada integral, nos termos da lei (Inciso X do Art. 163). Já a Lei Complementar nº 170/1998, que dispõe sobre o Sistema Estadual de Educação, reitera e amplia este fim, na perspectiva da Educação Integral, estabelecendo o pleno desenvolvimento do educando, seu preparo para o exercício da cidadania, a convivência social, seu engajamento nos movimentos da sociedade e sua qualificação para o trabalho, bem como a formação humanística, cultural, ética, política, técnica, científica, artística e democrática (Art. 4º).\n\nDiante desse cenário e em sintonia com a BNCC e as DCNem, a organização do Novo Ensino Médio no estado de Santa Catarina compreende o desdobramento do currículo em uma parte de Formação Geral Básica, com o conjunto de competências e habilidades das áreas de conhecimento previstas para a etapa do ensino médio, e que consolidam e aprofundam as aprendizagens essenciais do ensino fundamental, com a carga horária total máxima de 1.800 horas, e uma segunda parte, denominada Parte Flexível, com carga horária total mínima de 1.200 horas, consolidada via oferta de itinerários formativos, conforme infográfico que segue (Figura 8).\n\nPara as escolas da Rede Estadual de Ensino do Estado de Santa Catarina, optou-se pela seguinte distribuição da carga horária do Novo Ensino Médio, referindo-se, a primeira linha, à carga horária máxima de Formação Geral Básica e, a segunda, relacionada ao mínimo de horas para a Parte Flexível do currículo, de acordo com a matriz escolhida pela unidade escolar.\n\nFrisa-se, aqui, o fato de que a distribuição da Formação Geral Básica deve ser a mesma, obrigatoriamente, em todas as escolas da Rede Estadual de Ensino de Santa Catarina. De outra parte, é permitido aumentar a carga horária da Parte Flexível do currículo. Este aumento deve ocorrer de acordo com os desenhos de matrizes curriculares disponibilizados pela Secretaria de Estado da Educação de Santa Catarina. Frisa-se que cabe à unidade escolar a escolha, no leque disponibilizado de matrizes, por aquela que melhor corresponda às necessidades e demandas da unidade, a partir das escutas e da análise dos arranjos locais.",
+  "state": "sc",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07d3d6eebe44fe2d006ab2fd95961887d2a3c9f4d50c6af0e3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 904,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 870,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 1774
+    }
+  },
+  "created_at": "2026-09-22T22:13:48Z",
+  "duration_seconds": 6.743,
+  "error": null,
+  "excerpt_id": "am_inf_14",
+  "filename": "am_inf_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "42656a44ec2a7ced8d30a24db9274fb4c618934288a9a999ba78cbddf184d3de",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5f35e970cdc3e699b6c5683d128dd50fd374c4535f1fa5aea2f8b999e4a168b6",
+    "rendered_prompt_sha256": "98f6cd094175946e6a0ff4f9e13013f92fd783c5ee91fc83a80e74deaae33547",
+    "source_text_sha256": "6facf2ed5df5d6f4592619c170af9034ec9801942bcb8dd653047b2b2003d360"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 414,
+    "filename": "am_inf_14.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_14.txt",
+    "state": "am",
+    "word_count_original": 526
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_14.json"
+  },
+  "raw_response_text": "## 7. As múltiplas linguagens\n\nOs bebês e crianças estão mergulhados em contextos sociais diversos desde que nascem. Esses contextos lhes apresentam aromas, sons, cores, formas, texturas, gestos, variadas manifestações culturais e expressivas que, em profusão, anunciam o mundo. As brincadeiras individuais e coletivas possibilitam que as crianças experimentem e descubram a vida que pulsa em diferentes ritmos a partir das linguagens com as quais aprendem a se relacionar consigo e com os outros: trata-se da extraordinária capacidade em provar a vida de modo intenso, com tudo o que isso envolve – confrontos, tristezas, alegrias, tensões, amizades.\n\nEsses bebês e crianças capazes e desejosos de se expressarem utilizam diferentes linguagens. Contudo, não são raras as ocasiões em que encontram resistência às suas manifestações expressivas, nem sempre compreendidas pelas instituições de creche ou de pré-escola que frequentam.\n\nOs bebês e as crianças se expressam utilizando várias linguagens com as quais constroem a si mesmas e a cultura na qual estão inseridos, levando-as ao encontro de sons, palavras, movimentos e imagens, todos imbricados em ricas manifestações, mas que, por vezes, encontra-se enfraquecida no cotidiano infantil devido à ausência de propostas que procurem garantir processos de imaginação e criação em que os questionamentos, o uso de diferentes materiais e o respeito pelo trabalho individual e coletivo estejam presentes.\n\nCabe aos adultos criarem espaços no cotidiano de creches e pré-escolas em que as manifestações infantis estejam presentes, sendo compreendidas na sua inteireza, não se deixando conduzir apenas pela linguagem verbal ou escrita, desconsiderando as demais formas expressivas.\n\nCondicionados a pensar nas linguagens sempre relacionadas à fala e à escrita, deixa-se de pensar nelas associadas ao gesto, ao movimento, ao desenho, à dramatização, à brincadeira, à fotografia, à música, à dança, à literatura, entre outras. Os bebês e as crianças descobrem o mundo nas coisas do cotidiano e manifestam essas apreensões quando rabiscam, desenham, pintam os papéis e seus corpos, quando constroem, quando cantam e dançam, quando atentam para os insetos e formato da sombra no chão, para os sons produzidos pelos talheres no momento das refeições, quando dialogam com as histórias contadas pelos professores, entre muitas outras vivências. É preciso estar disposto a olhar e estar atento a esse universo rico de propósitos que reclama ser compreendido. É preciso dar sensibilidade aos sentidos.\n\nO trabalho que considera as diferentes linguagens dos bebês e das crianças implica, além de elaborar, para elas e com elas, ricos ambientes contendo materiais diversos, que se garanta também a aproximação da arte em suas formas: artes visuais, teatro, cinema, dança, música, escultura e literatura, ampliando e reivindicando o direito às manifestações artístico-culturais além do contexto escolar, tornando-as linguagens presentes no dia a dia dos espaços educativos.\n\nAs práticas pedagógicas que compõem o referencial curricular na educação dos bebês, crianças bem pequenas e crianças pequenas devem reconhecer e promover a imersão dos bebês e crianças em diferentes linguagens e favorecer o domínio gradual de vários gêneros e formas de expressão, bem como vivências éticas e estéticas, com outras crianças e grupos culturais, alargando seus padrões de referência, como asseguram as DCNEI (BRASIL, 2009b).",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bde785e4792ba66006ab30fdae7cc87d2a61ac151575e6117",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 766,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 878,
+      "output_tokens_details": {
+        "reasoning_tokens": 264
+      },
+      "total_tokens": 1644
+    }
+  },
+  "created_at": "2026-09-22T23:31:47Z",
+  "duration_seconds": 8.285,
+  "error": null,
+  "excerpt_id": "sp_inf_funcao_social",
+  "filename": "sp_inf_funcao_social.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1a595b1b07cae086802bced6940ff658b925d5b26ba9824bb1b5191e73bc152a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "76ed5fedc6745c2a26922c2f78ad796b8caebaa258da7bca1efbfea17eaf2789",
+    "rendered_prompt_sha256": "68379864a5fdaaa3b0c531f1dcd0d69297869e056a5f8a5ded4d9da7e298d0ca",
+    "source_text_sha256": "23c34e7b445fb9a81401228e02b61ae1cc7b4ceb9682bf2a0faa0ed7d2fe5078"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_inf_funcao_social.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3965,
+    "filename": "sp_inf_funcao_social.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_inf_funcao_social.txt",
+    "state": "sp",
+    "word_count_original": 466
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_inf_funcao_social.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_inf_funcao_social.json"
+  },
+  "raw_response_text": "## Função social da instituição de Educação Infantil\n\nA instituição de Educação Infantil, responsável pela primeira etapa de Educação Básica, visa a atender as especificidades da criança pequena sem, contudo, ser preparação para o Ensino Fundamental.\n\nAssim, contrapondo-se à ideia de preparatória, essa etapa exige priorizar as interações e as brincadeiras como eixos estruturantes para a organização de tempos e espaços, de modo a garantir experiências ricas para a aprendizagem, o que não combina com a proposição de atividades estanques, fragmentadas.\n\nUma instituição de Educação Infantil que prioriza as interações e a brincadeira tem a prática de ouvir as crianças, por exemplo, sobre como podem ser dispostos os brinquedos no parque, como deve ser organizada a biblioteca, os espaços, a adequação e disposição das mobílias. Assim, abre espaços e possibilidades para que as crianças participem nas diversas decisões, inclusive no planejamento da gestão da escola e das atividades propostas pelo educador (BRASIL, 2017).\n\nÉ importante destacar que a atenção ao que a criança fala não se encerra na linguagem verbal, mas esta deve considerar as sutilezas das formas de comunicação dos bebês e das crianças, como afirma Loris Malaguzzi, revelado no livro As cem linguagens da criança: “[...] A criança tem cem mãos, cem pensamentos, cem modos de pensar, de jogar e de falar [...]” (EDWARDS, et al, 1999, p.5). Deste modo, cabe ao professor ouvir não apenas com ouvidos, mas com olhar responsivo, observando as expressões de cada criança, acolhendo e inferindo as necessidades e interesses dela a partir do que observa.\n\nAs crianças precisam ser consideradas também quanto à disposição e às quantidades de mobiliário da sala, levando em conta suas especificidades e a necessidade de movimentar-se, explorar diferentes espaços, criar cenários, brincar junto com outras crianças.\n\nEm vista disso, a BNCC, como política pública, elege como núcleo da nova Educação Infantil as crianças e suas experiências, assegurando-lhes o direito de aprender e se desenvolver.\n\n## O diálogo da Educação Infantil com outros setores\n\nPensar o desenvolvimento integral da criança requer considerá-la nos diferentes contextos sociais. A indissociabilidade do cuidar e do educar demanda diversas ações das instituições públicas, de maneira especial, dos equipamentos públicos da comunidade onde a escola está inserida; e prevê uma articulação orquestrada, na qual diferentes agentes tecem, por meio das suas atuações, uma rede de proteção à infância. É desejável que a ação intersetorial esteja explicitada no projeto político pedagógico da escola considerando o contexto local, uma vez que, conforme afirmado nos Parâmetros Nacionais de Qualidade da Educação Infantil (PNQEI, 2006), “a proteção integral das crianças extrapola as funções educativas e de cuidado e deve ser articulada por meio de ações que integrem as políticas públicas intersetoriais”.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

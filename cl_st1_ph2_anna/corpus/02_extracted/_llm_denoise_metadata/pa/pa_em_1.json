@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0871048b335bc999006ab30576ba8887d296fcf3c6b3d63d0b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 495,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1105,
+      "output_tokens_details": {
+        "reasoning_tokens": 705
+      },
+      "total_tokens": 1600
+    }
+  },
+  "created_at": "2026-09-22T22:47:31Z",
+  "duration_seconds": 12.474,
+  "error": null,
+  "excerpt_id": "pa_em_1",
+  "filename": "pa_em_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d306feb19c767d025f1b0fb7e69c058d515e0a58cc37db949f56abfa475968df",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2b3a993b9697b6afdfb19da02e635711a445adeb3bca208c8b2a47daf1b6bcb7",
+    "rendered_prompt_sha256": "274bfb5300ba7f674be771f2f295b1627c9cd1bbcf7c029b12c3de6cda1a4a71",
+    "source_text_sha256": "2147de0beec86cd317bb95c75cfd47e3fb21dd5afba258d2917c60a7e475f095"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2030,
+    "filename": "pa_em_1.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_1.txt",
+    "state": "pa",
+    "word_count_original": 301
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_1.json"
+  },
+  "raw_response_text": "# Boas-vindas da Secretária de Educação do Pará\n\nEstamos vivenciando um momento histórico importante para o ensino médio brasileiro. Momento este de mudanças estruturais na etapa final da educação básica, requer o envolvimento com engajamento e compromisso de todas/os nós que acreditamos na educação como um instrumento de libertação e transformação da sociedade, sobretudo, da vida humana, com vistas à garantia constitucional aos direitos à educação de todos nós brasileiros/as.\n\nNeste sentido, desde a aprovação da Lei nº 13.415/2017, as Secretarias de Educação dos estados e do Distrito Federal vêm trabalhando para construir propostas pedagógicas consistentes aos desafios que o ensino médio é capaz de contribuir na formação de juventudes mais fortalecidas e participativas. No Pará, não está sendo diferente!\n\nFoi com esse compromisso com a sociedade paraense que a Secretaria de Estado de Educação do Pará (SEDUC/PA), como articuladora do Sistema de Ensino Estadual e por meio do Programa de Apoio à Implementação da Base Nacional Comum Curricular (ProBNCC), construiu uma proposta preliminar de Documento Curricular para o Estado do Pará, que está sendo disponibilizado à comunidade para debates e contribuições de todas/os as/os interessadas/os.\n\nAssim, espera-se que, a partir desta importante iniciativa, possamos juntos reescrever um capítulo diferenciado da história do ensino médio paraense, tendo como principal referência as nossas histórias, peculiaridades, culturas, entre tantos outros aspectos fundamentais que tornam o Pará um Estado de muitas Amazônias, cuja principal riqueza está na sua gente e na capacidade de sonhar e lutar por dias melhores.\n\nA SEDUC/PA convida a todas/os para participar dessa etapa de discussões e debates do Documento Curricular do ensino médio e juntos vamos fortalecer as redes de ensino paraenses.\n\nUm forte abraço!\n\nElieth de Fátima da Silva Braga  \nSecretária de Estado de Educação do Pará.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

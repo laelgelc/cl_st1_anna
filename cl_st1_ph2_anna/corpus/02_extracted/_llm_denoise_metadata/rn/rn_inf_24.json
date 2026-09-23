@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_098473088181cd54006ab30b48d6d487d2a8db89e40e719348",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 749,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 797,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 1546
+    }
+  },
+  "created_at": "2026-09-22T23:12:16Z",
+  "duration_seconds": 8.272,
+  "error": null,
+  "excerpt_id": "rn_inf_24",
+  "filename": "rn_inf_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f528116fe9d1f5a0620ae63f5946545175d1d4557ae3f9b6bb82893d3cc8e9b1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a69a896fabff37717b4bd8af83bbd7484d0bf73b4e6992ff602325ce20c8658c",
+    "rendered_prompt_sha256": "956d26d7f9f021a0a54c7f758f5f13089d4b7266bebd724297178e5343135c42",
+    "source_text_sha256": "fc3c3b6f9490d8f0d0cabb472884b7e04e2b922a957a66bff3034b2292bb91cf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3070,
+    "filename": "rn_inf_24.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_24.txt",
+    "state": "rn",
+    "word_count_original": 425
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_24.json"
+  },
+  "raw_response_text": "# CAMPO DE EXPERIÊNCIAS “CORPO, GESTOS E MOVIMENTOS”\n\n## Direitos de aprendizagem e desenvolvimento\n\nCONVIVER com crianças e adultos experimentando marcas da cultura corporal nos cuidados pessoais, na dança, música, teatro, artes circenses, escuta de histórias e brincadeiras.\n\nBRINCAR utilizando criativamente o repertório da cultura corporal e do movimento.\n\nEXPLORAR amplo repertório de movimentos, gestos, olhares, produção de sons e de mímicas, descobrindo modos de ocupação e de uso do espaço com o corpo.\n\nPARTICIPAR de atividades que envolvem práticas corporais, desenvolvendo autonomia para cuidar de si.\n\nEXPRESSAR corporalmente emoções e representações tanto nas relações cotidianas como nas brincadeiras, dramatizações, danças, músicas, contação de histórias.\n\nCONHECER-SE nas diversas oportunidades de interações e explorações com seu corpo.\n\n(BRASIL, 2018)\n\n## DIREITOS E OBJETIVOS\n\nPela linguagem corporal, as crianças se expressam, experimentam e interagem com o mundo. Através do corpo, elas produzem conhecimentos sobre as pessoas, sobre si mesmas, e sobre o universo social e cultural, ampliando progressivamente a consciência dos seus limites tanto para se proteger, quanto para proteger o corpo do outro, percebendo sua completude, bem como construindo sua autonomia e segurança emotiva.\n\nÉ com o corpo e suas potencialidades expressivas e comunicativas que as crianças também estabelecem relações, se expressam, se comunicam através da mímica e movimentos, brincando, transformando os espaços, os objetos e os elementos da natureza.\n\nAs experiências com os movimentos possibilitam a articulação entre as várias linguagens (gestual, verbal, plástica, dramática e musical), alternância das palavras e gestos (movimentos impulsivos ou intencionais, coordenados ou espontâneos), produção e apreciação da música e acompanhamento de narrações. Também, por meio da música, do teatro, da dança e das brincadeiras, as crianças envolvem o corpo, a emoção e a linguagem, conhecendo e reconhecendo as sensações e possibilidades de seu corpo.\n\nNa Educação Infantil, a centralidade do corpo ganha destaque através das atividades planejadas pelo professor, as quais possibilitam ricas e prazerosas situações em que as crianças, de forma lúdica, interagem com os pares, exploram e vivenciam experiências, ampliando o seu repertório de movimentos, gestos, olhares, sons e mímicas com o corpo, com vistas a identificar as várias maneiras de usá-lo.\n\nAs oportunidades dadas às crianças, nesse sentido, oportunizam a construção da autonomia e liberdade, de modo que consigam, com segurança, ocupar os espaços a elas apresentados. Para isso, o trabalho pedagógico precisa considerar as especificidades de cada criança, respeitando suas possibilidades, interações e modos de ver a si e ao mundo, assim, é necessário fugir de ações padronizadas ou mecânicas de gestos e movimentos, bem como a retração de suas maneiras de se expressar corporalmente.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

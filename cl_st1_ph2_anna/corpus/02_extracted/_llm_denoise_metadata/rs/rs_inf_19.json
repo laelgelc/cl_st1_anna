@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00c9246131a1fd14006ab30dff333487d295b78c11c7543c02",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 671,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 577,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 1248
+    }
+  },
+  "created_at": "2026-09-22T23:23:47Z",
+  "duration_seconds": 4.327,
+  "error": null,
+  "excerpt_id": "rs_inf_19",
+  "filename": "rs_inf_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b03b16d6cf30199a9dfe6a784d7a3655b69f158b8daa02fa7be8a7edee45d354",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "27decfca688a95abab7f503f3163e664971053f62366ec3f706c180a1647c3ac",
+    "rendered_prompt_sha256": "9a5b4e26648804f9565de2c674371362dee3abfff863e4bcd2363040d5acc6bb",
+    "source_text_sha256": "150decc2e62a5d5d258a126521cedab3a4816f1b1cceb5aaf2acb9e92db50327"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3651,
+    "filename": "rs_inf_19.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_19.txt",
+    "state": "rs",
+    "word_count_original": 393
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_19.json"
+  },
+  "raw_response_text": "## 13. CONSIDERAÇÕES FINAIS\n\nA construção de um currículo que considerasse as especificidades do nosso Estado é um desejo e uma reivindicação dos educadores gaúchos. Nesse documento de referência curricular, foi possível considerar os aspectos locais e regionais nos Objetivos de aprendizagem e desenvolvimento e a valorização da diversidade cultural do território, a partir das contribuições dos educadores de todo o Estado, via plataforma digital. Este documento curricular representa um marco histórico de reconhecimento da Educação Infantil como primeira etapa da Educação Básica, com identidade própria e com um currículo que afirma os direitos e as especificidades do desenvolvimento de bebês, crianças bem pequenas e crianças pequenas.\n\nAo finalizar esse documento, é importante destacar a necessidade da consolidação, em cada instituição, de um currículo brincante, relacional, capaz de produzir significado e acolher a ludicidade, a criatividade, a autoria e a curiosidade de crianças e adultos. Um currículo que coloque no centro do processo educativo as crianças, as interações e a brincadeira, e que promova possibilidades de desenvolvimento e aprendizagem por meio de múltiplas linguagens. Um currículo fundamentado na garantia dos direitos das crianças, articulados aos Campos de Experiências, organização curricular que parte da concepção de uma pedagogia relacional, em que o conhecimento é produzido na interação entre as crianças e o mundo, entre os adultos e as crianças, entre as crianças e outras crianças, aberto para a complexidade que é conhecer-se e conhecer o mundo. Um currículo que busca dar sentido à variedade de experiências que as crianças experimentam cotidianamente na escola. A complexidade de um currículo fortemente marcado pela intencionalidade educativa, pela presença atenta, sensível e interessada de um professor que, junto às crianças, se lança a experimentar e descobrir o mundo.\n\nNesse sentido, o grande desafio é o de promover uma educação que integre, nas práticas cotidianas, a atenção aos cuidados, à saúde, à proteção, assim como as aprendizagens dos repertórios culturais e da diversidade de linguagens a que as crianças têm direito. Trata-se de comprometer-se com escolhas discutidas, refletidas e definidas coletivamente, entre os educadores, em parceria com as famílias e a partir da escuta atenta das crianças, para fundamentar a construção de um projeto educacional planejado e desenvolvido pelos envolvidos no objetivo comum que é oferecer educação de qualidade aos bebês, às crianças bem pequenas e às crianças pequenas, ao encontro de aprendizagens significativas na Educação Infantil.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_097defde7bc9a0c9006ab3020ecd6c87d284443d4f33596799",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1011,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1204,
+      "output_tokens_details": {
+        "reasoning_tokens": 323
+      },
+      "total_tokens": 2215
+    }
+  },
+  "created_at": "2026-09-22T22:32:57Z",
+  "duration_seconds": 10.779,
+  "error": null,
+  "excerpt_id": "ma_em_22",
+  "filename": "ma_em_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1eedb02bfd53e0c876efd95e6cfc5fbe064a279f5aaf02325ada64c02117f156",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0ceffdee88874c31e23f51cfa2b6680d73e22ac354c79961439131120654cb21",
+    "rendered_prompt_sha256": "194e42cf0ee9ad991e889f99b0cbf88c44576bca89c8b88b9cd6e52844d83ba9",
+    "source_text_sha256": "2c12d184aa4320944ab411754eac9697690d49c534958b2866067abca592dadd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1309,
+    "filename": "ma_em_22.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_22.txt",
+    "state": "ma",
+    "word_count_original": 674
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_22.json"
+  },
+  "raw_response_text": "## Planejamento e avaliação – reflexões e práticas\n\nO planejamento educacional e a avaliação devem romper os limites e estar numa perspectiva pedagógica totalmente nova. Só assim estarão a serviço das aprendizagens significativas. Tratando da avaliação, esta precisa deixar de ser utilizada como um “recurso de autoridade” e cumprir seu papel genuíno no processo de aprender. Em 1999, Luckesi já afirmava:\n\n> A avaliação da aprendizagem necessita, para cumprir seu verdadeiro significado, assumir a função de subsidiar a construção da aprendizagem bem-sucedida. A condição necessária para que isso aconteça é de que a avaliação deixe de ser utilizada como recurso de autoridade, que decide sobre os destinos do educando, e assuma o papel de auxiliar o crescimento (LUCKESI, 1999, p. 166).\n\nAs práticas pedagógicas devem mudar para que isto aconteça. Só assim a avaliação não decidirá destinos, mas construirá itinerários, caminhos, recursos.\n\nTemos que nos “entregar” a essa nova forma de ver o mundo pela lente da escola proposta para o ensino médio. O planejamento e a avaliação são partes do mesmo processo e devem ser “nossos”, devem ser cheios de vida e desejos, de experiências e construção, de possibilidades e responsabilidade. Resistir a essa partilha é entravar o processo na construção de competências para que se possa viver bem com a nossa história sempre em ebulição.\n\nConsiderando o planejamento escolar, a avaliação não pode ser pensada no final do processo pedagógico, utilizando uma prova como único instrumento. A avaliação está presente em todo o caminho rumo à aprendizagem, por isso é preciso que, no planejamento escolar, a investigação de evidências de aprendizagem seja uma ideia permanente e natural para que a aprendizagem se efetive satisfatoriamente.\n\nO ato de planejar é característica humana e, na escola, o planejamento é o que expressa as intencionalidades pedagógicas. Contudo, a forma do planejamento muda de escola para escola, de professor para professor. O importante é materializar uma intenção de trabalho curricular que considere uma execução apropriada, os recursos disponíveis e, principalmente, as aprendizagens que queremos que os estudantes desenvolvam que, em última instância, formarão competências para a vida.\n\nA avaliação permeia todo o processo de planejamento, acompanha cada passo definido ou inusitado e, em um tempo determinado, gera uma síntese reflexiva com resultados parciais de aprendizagem. Essa síntese é retomada para o próximo passo pedagógico e, assim, compõe um ciclo saudável de aprendizagens que se desenvolvem, transformando-se em algo novo, alcançando patamares mais complexos de atividade mental e relações sociais.\n\nA prática reflexiva que envolve o currículo escolar, expressa no planejamento e avaliação da aprendizagem, não pode perder de vista a ação educativa mais global que se reflete no cotidiano escolar e retorna ao contexto como uma versão mais elaborada cientificamente. Um planejamento e avaliação de qualidade devem estar pautados no processo mais amplo de formação humana, assumindo um caráter não só informativo, mas, sobretudo, formativo.\n\nObservemos um caso prático: se uma área de conhecimento planeja uma ação conjunta envolvendo componentes curriculares obrigatórios e eletivas em torno de um tema integrador, como “a proteção do meio ambiente”, é importante observar que o repertório avaliativo deve ser pensado de acordo com as expectativas de aprendizagem oriundas do tema integrador, das habilidades de cada componente e eletiva, e das competências gerais que se reportam à interação social, postura ética, empatia, uso de linguagem formal e/ou digital, que, dependendo do contexto e metodologias utilizadas, podem se ampliar.\n\nComo a avaliação pressupõe registros, é importante conferir qualidade a estes que podem ser coletados a partir da observação em várias atividades e instrumentos avaliativos definidos no planejamento docente. Algumas perguntas básicas podem provocar reflexões sobre os meios utilizados:\n\nOs aspectos qualitativos da avaliação referem-se à qualidade inerente aos processos avaliativos, bem como ao detalhamento dos seus registros para a tomada de decisões pedagógicas sobre as aprendizagens. Toda prática avaliativa deve partir da garantia da equidade social, em consonância com diferenças individuais e seus tempos de aprendizagem, sob a premissa da efetividade do acesso, permanência e sucesso escolar.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

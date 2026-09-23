@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e88279221bbea22006ab3069150e887d285a31deefdadaf8b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 767,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 968,
+      "output_tokens_details": {
+        "reasoning_tokens": 292
+      },
+      "total_tokens": 1735
+    }
+  },
+  "created_at": "2026-09-22T22:52:12Z",
+  "duration_seconds": 11.272,
+  "error": null,
+  "excerpt_id": "pa_inf_5",
+  "filename": "pa_inf_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8eef689bd1a28c8ee96d33023f5cfae7da2c29181ba5bddfaa70a7466ad388c5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b05cb4e685e24b50dfbd92f048bcee4f7b735706a4d9a406eda0ddf0a8657880",
+    "rendered_prompt_sha256": "5640cbfaa3e51ae860021badb9d74e0c85e88d1ee40ca662931659b6ece887b4",
+    "source_text_sha256": "18dd69b9f8111726cd4b577a8d2c81b250054fe870145bff4c963e6074c60e09"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_inf_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2166,
+    "filename": "pa_inf_5.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_inf_5.txt",
+    "state": "pa",
+    "word_count_original": 478
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_inf_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_inf_5.json"
+  },
+  "raw_response_text": "### 3.1.2.2 A Educação Infantil: importante etapa do processo de aprendizagem da criança\n\nConstituindo-se como a primeira etapa da Educação Básica, a Educação Infantil deve ser garantida em creches, para crianças de 0 a 3 anos, e em pré-escolas, para crianças de 4 e 5 anos, sob a responsabilidade prioritariamente dos poderes públicos municipais, integrando o Sistema Municipal de Ensino junto com Ensino Fundamental (BRASIL, 1996)[^12].\n\nDessa forma, com base na concepção de infância assumida neste documento curricular, reafirmamos o direito da criança ao atendimento educacional em consonância com a LDB n° 9.394/1996. A lei determina que a Educação Infantil tem como finalidade o desenvolvimento integral da criança até cinco anos de idade, em seus aspectos físicos, psicológicos, intelectuais e sociais, complementando a ação da família e da comunidade (BRANDÃO, 2008).\n\nNo que se refere às duas formas de atendimento da Educação Infantil, é preciso analisar separadamente as faixas etárias de 0 a 3 anos e de 4 a 5 anos porque foram grupos tratados diferentemente, quer nos objetivos, quer nas demandas, quer nas instituições que atuam com essa etapa, sejam públicas ou privadas.\n\nAs preocupações com o atendimento de crianças da Educação Infantil devem se pautar na qualificação dos profissionais que atuam nessa etapa, além de se preocupar com o desenvolvimento dos programas e currículos, com a disponibilidade de mobiliário, equipamentos lúdicos e outros materiais pedagógicos adequados e necessários para os espaços.\n\nÉ imperiosa a garantia de escolas de Educação Infantil às populações do campo, dos povos da floresta e dos rios, indígenas, quilombolas respeitando e garantindo assim essa etapa de ensino nos diferentes contextos amazônicos, privilegiando a constituição diversificada das crianças que neles habitam, respeitando, portanto, suas identidades, os seus aspectos socioculturais, étnico-raciais, de gênero, corporal, entre outros.\n\nApesar de a Educação Infantil e de o Ensino Fundamental serem etapas de escolarização diferentes, do ponto de vista da criança e da sua experiência não há fragmentação. Nesse sentido, os professores e as instituições são os que muitas vezes se opõem e/ou fazem distinção desnecessária entre esses níveis de ensino, desconsiderando a criança e, consequentemente, negligenciado sua construção sócio-histórica e, sobretudo, sua experiência como sujeito cultural.\n\nQuestões relacionadas à alfabetização ou não na Educação Infantil ou no Ensino Fundamental ou como integrar esses dois níveis da Educação Básica, continuam recorrentes. O importante é perceber que as crianças permanecem crianças, sejam na Educação Infantil ou no Ensino Fundamental e ainda, que esses níveis sejam indissociáveis, ou seja, que as crianças sejam oportunizadas de conhecimentos e afetos, saberes e valores, cuidados e atenção, seriedade e riso e, acima de tudo, ludicidade.\n\n[^12]: A Constituição Federal de 1988, no capítulo VIII, Art. 227, estabelece o direito dos trabalhadores, pais e responsáveis, à educação de seus filhos e dependentes de 0 a 6 anos, além de considerar direito da própria criança.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

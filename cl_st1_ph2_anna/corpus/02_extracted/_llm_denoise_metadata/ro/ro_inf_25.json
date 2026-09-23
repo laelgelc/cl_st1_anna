@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0351841cf44c9d82006ab30ca4632087d2a18f46307d401ca2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1159,
+      "input_tokens_details": {
+        "cache_write_tokens": 1156,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1072,
+      "output_tokens_details": {
+        "reasoning_tokens": 300
+      },
+      "total_tokens": 2231
+    }
+  },
+  "created_at": "2026-09-22T23:18:05Z",
+  "duration_seconds": 9.673,
+  "error": null,
+  "excerpt_id": "ro_inf_25",
+  "filename": "ro_inf_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dfd48e033a262718404f80634dad451e2906105c782adc99575ab97ccec8a334",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8d10dcb7d23547f9b9a98cdd9f4e81ccbaf94493b41d62f212e6c57f8b373e3f",
+    "rendered_prompt_sha256": "d034db796d9d88f35146fdb2833188c2ef81bc3066f1bf9114164f668482a3e7",
+    "source_text_sha256": "651a89cf89f0fd26c3eccd3f714047e637303e86566c803cb09d84dcf61b18e5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3338,
+    "filename": "ro_inf_25.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_25.txt",
+    "state": "ro",
+    "word_count_original": 682
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_25.json"
+  },
+  "raw_response_text": "### Crianças pequenas (4 anos a 5 anos e 11 meses)\n\n- Interagem com outras crianças em brincadeiras de faz-de-conta, atividades de culinária, de manipulação de argila ou de manutenção de uma horta, de reconto coletivo de história, de construção com sucata, de pintura coletiva de um cartaz.\n- Participem de jogos de regras e aprendem a construir estratégias de jogo.\n- Arrumem a mesa para um almoço com os amigos, e manter a organização de seus pertences.\n- Ouvem e recontam histórias dos povos indígenas, africanos, asiáticos, europeus, de diferentes regiões do Brasil e de outros países da América.\n- Localizem em um mapa, com apoio do/a professor/a, sua cidade, ou aldeia, ou assentamento, e o local do Brasil no mapa mundial.\n- Participem de rodas de conversa para falar de situações pessoais ou narrar histórias familiares no grupo e ser ouvido por todos.\n- Discutem em grupo situações-problemas ou formas de planejar um evento.\n- Preparem uma exposição de objetos relativos às atividades e profissões dos familiares e dos adultos da unidade de Educação Infantil.\n- Pesquisem em casa suas tradições familiares, de modo a reconhecer elementos da sua identidade cultural.\n- Estabelecem relações entre o modo de vida característico de seu grupo social e o de outros grupos. Conhecem costumes e brincadeiras de outras épocas e de outras civilizações.\n- Explorem brincadeiras, tipos de alimentação e de organização social característicos de diferentes culturas.\n- Explorem fotografias do seu grupo de crianças em diversas situações.\n- Experimentem sabores, percebem cheiros dos alimentos e escolhem o que querem comer.\n- Observem o ambiente e percebem aromas, texturas, sonoridades na companhia de outras crianças.\n- Comentem em diferentes linguagens com a professora sobre suas fotos e as de seus familiares.\n- Ouvem histórias lidas ou contadas pela professora e cantam com ela e as demais crianças.\n- Brinquem diante do espelho, observando os próprios gestos ou imitando outras crianças.\n- Participem junto com outras crianças de refeições gostosas e cheirosas, de momentos de descanso diário em ambiente aconchegante e silencioso, de momentos de banho refrescante.\n- Brinquem de esconder-se, de cuidar de animais domésticos, de ouvir e contar histórias, observam aspectos do ambiente, colecionam objetos, participam de brincadeiras de roda, brincam de faz-de-conta, dentre outras experiências realizadas com diferentes parceiros.\n- Vestem fantasias, experimentando ser outras pessoas, ou personagens de histórias que lhes são contadas ou lidas.\n- Torcem a favor de um grupo: um time esportivo, uma equipe musical, um grupo de gincana.\n- Cantem, respeitando sua vez de cantar e ouvindo os companheiros.\n- Decidem com os companheiros o tema de uma história a ser por todos dramatizada, usando esclarecimentos, justificativas e argumentos, que são muito ligados a seus sentimentos.\n- Apoiem parceiros em dificuldade, sem discriminá-los por suas características.\n- Realizem com maior autonomia ações de escovar os dentes, calçar sapatos ou o agasalho, pentear os cabelos, servir-se sozinha nas refeições, utilizar talheres adequados, lavar as mãos antes das refeições e depois de usar tinta ou brincar com terra ou areia.\n- Brinquem no pátio, praça ou jardim, em constante contato com a natureza.\n\nFonte: MEC. *Campos de experiências: efetivando direitos e aprendizagens na educação infantil*; texto final Zilma de Moraes Ramos de Oliveira, 2018.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

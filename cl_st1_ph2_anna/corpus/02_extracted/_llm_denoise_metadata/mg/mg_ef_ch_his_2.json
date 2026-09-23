@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08032f3f1a7804f3006ab30282c7b087d2840d87cfd6c4498e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 450,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 406,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 856
+    }
+  },
+  "created_at": "2026-09-22T22:34:46Z",
+  "duration_seconds": 4.13,
+  "error": null,
+  "excerpt_id": "mg_ef_ch_his_2",
+  "filename": "mg_ef_ch_his_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f898c4d48cbcf608b954de16d2adf88339d7d98aa28ba6890a69a8ea0015f519",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "25ae1f779e0055590c9f4505a509af5b88eb0de9e59ddce4f57d7f2d747d9b27",
+    "rendered_prompt_sha256": "699a0ed43f1baa1875f581d80a1646402cb7b9dabdfd493782bd9d9d7100e3be",
+    "source_text_sha256": "f534625d2f94a212285d1e6b84e36dd8fdd8ac22e1bdf8ac443c7eccf8716337"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ch_his_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1391,
+    "filename": "mg_ef_ch_his_2.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ch_his_2.txt",
+    "state": "mg",
+    "word_count_original": 221
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ch_his_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ch_his_2.json"
+  },
+  "raw_response_text": "### 15.1.1 Competências Específicas do Componente Curricular História\n\n1. Compreender acontecimentos históricos, relações de poder e processos e mecanismos de transformação e manutenção das estruturas sociais, políticas, econômicas e culturais ao longo do tempo e em diferentes espaços para analisar, posicionar-se e intervir no mundo contemporâneo.\n2. Compreender a historicidade no tempo e no espaço, relacionando acontecimentos e processos de transformação e manutenção das estruturas sociais, políticas, econômicas e culturais, bem como problematizar os significados das lógicas de organização cronológica.\n3. Elaborar questionamentos, hipóteses, argumentos e proposições em relação a documentos, interpretações e contextos históricos específicos, recorrendo a diferentes linguagens e mídias, exercitando a empatia, o diálogo, a resolução de conflitos, a cooperação e o respeito.\n4. Identificar interpretações que expressam visões de diferentes sujeitos, culturas e povos com relação a um mesmo contexto histórico, e posicionar-se criticamente com base em princípios éticos, democráticos, inclusivos, sustentáveis e solidários.\n5. Analisar e compreender o movimento de populações e mercadorias no tempo e no espaço e seus significados históricos, levando em conta o respeito e a solidariedade com as diferentes populações.\n6. Compreender e problematizar os conceitos e procedimentos norteadores da produção historiográfica.\n7. Produzir, avaliar e utilizar tecnologias digitais de informação e comunicação de modo crítico, ético e responsável, compreendendo seus significados para os diferentes grupos ou estratos sociais.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

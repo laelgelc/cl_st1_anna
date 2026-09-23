@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04f5124058e458b3006ab307e427e487d2b31e6940aab07a98",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 631,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 638,
+      "output_tokens_details": {
+        "reasoning_tokens": 102
+      },
+      "total_tokens": 1269
+    }
+  },
+  "created_at": "2026-09-22T22:57:46Z",
+  "duration_seconds": 6.185,
+  "error": null,
+  "excerpt_id": "pe_ef_55",
+  "filename": "pe_ef_55.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2714850a9b7ecfe941d5e0a20510ce8f7c13ead499eae555324a12eab076a6e5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b6757b13449eb5fa83dc6a55fead63f8c729c7fdceb98eeedbd3ff4fa964cf5d",
+    "rendered_prompt_sha256": "fcb97af22e0b705478368c41f837f295d92557741deb952a6d3107e4bab52802",
+    "source_text_sha256": "5aae391e3762054debb346839315484f6cb8a8eb20ca46deab203b48516f32dd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_55.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2435,
+    "filename": "pe_ef_55.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_55.txt",
+    "state": "pe",
+    "word_count_original": 381
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_55.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_55.json"
+  },
+  "raw_response_text": "## Geometria\n\nO trabalho com a localização no plano e no espaço, iniciado na etapa anterior de escolaridade, deve ser ampliado com as noções de direção e sentido, de ângulo, de paralelismo e perpendicularismo etc. A introdução da ideia de coordenadas cartesianas pode ser feita com significado articulada a outros campos do conhecimento (plantas, mapas, coordenadas geográficas etc.).\n\nA distinção entre as diferentes figuras geométricas planas e espaciais deve ser aprofundada nessa etapa com o estudo de suas propriedades. É importante ressaltar que o estudante começa a mudar seu ponto de vista sobre os objetos geométricos. Se, nos anos iniciais do ensino fundamental, a ênfase aparece no aspecto global das figuras; nos anos finais, as atividades propostas pelo professor devem levar o estudante à percepção de que as figuras geométricas são caracterizadas por suas propriedades. Dessa forma, na etapa posterior, o ensino médio, o estudante deverá ter condições para aprofundar essas propriedades e desenvolver o pensamento dedutivo (PERNAMBUCO, 2012).\n\nConstruções, planificações e representações das diferentes vistas de figuras espaciais, particularmente de prismas, pirâmides, cilindros e cones são fundamentais para o estabelecimento de suas propriedades. Este momento também oferece boas possibilidades de realização de um rico trabalho de construções com instrumentos.\n\nEm relação às figuras planas, o estudo das propriedades dos triângulos e dos quadriláteros abre possibilidades de desenvolvimento da percepção espacial, mas é importante salientar que a ênfase não deve recair na memorização dessas propriedades e de nomenclatura. As atividades de composição e decomposição de figuras complexas, a partir de figuras geométricas simples, podem auxiliar tanto na articulação dessas propriedades como na compreensão dos conceitos relativos às grandezas geométricas.\n\nAs atividades explorando as transformações isométricas de figuras planas (reflexão, translação e rotação) são importantes para que o estudante desenvolva habilidades de percepção espacial e favorecem também a construção da noção de congruência de figuras planas.\n\nAs atividades de ampliação e de redução de figuras vão permitir consolidar a ideia de semelhança, iniciada na etapa anterior. O estudante já deverá ser capaz de identificar os elementos que não se alteram e aqueles que se modificam em atividades de ampliação e redução. A consolidação dessas ideias irá permitir, nos últimos anos dessa etapa, a compreensão dos Teoremas de Tales e de Pitágoras, bem como suas aplicações em problemas relacionados ao contexto social do estudante.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

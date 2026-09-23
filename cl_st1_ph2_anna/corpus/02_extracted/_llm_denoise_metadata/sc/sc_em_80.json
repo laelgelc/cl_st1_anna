@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0479e50856dbcd9c006ab30eb8ccc087d295e7eddd34963a58",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 431,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 381,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 812
+    }
+  },
+  "created_at": "2026-09-22T23:26:53Z",
+  "duration_seconds": 4.938,
+  "error": null,
+  "excerpt_id": "sc_em_80",
+  "filename": "sc_em_80.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "86db5a181ff10d03c6f2a562bda9e557af3b04cba2d1caea4ce1f49b157e153d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6afd1f32a36a9785a3ca685f07198c8e8f098ce738fad35acf672fac91b04597",
+    "rendered_prompt_sha256": "c7ce589254052e0df9648d666bfebbe8944a15492daeba78ef011c298956f0b1",
+    "source_text_sha256": "de90f5ad2bdcdb772ad2181fbd2581365bbab7cc1c0ce5a0a18510767dedfc45"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sc/sc_em_80.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3757,
+    "filename": "sc_em_80.txt",
+    "filepath": "corpus/00_source_per_state/sc/sc_em_80.txt",
+    "state": "sc",
+    "word_count_original": 174
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sc/sc_em_80.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sc/sc_em_80.json"
+  },
+  "raw_response_text": "# 6 TRILHAS DE APROFUNDAMENTO DA EDUCAÇÃO TÉCNICA E PROFISSIONAL\n\nPara a oferta de trilhas de aprofundamento da educação profissional e técnica, observem-se as orientações do Caderno 1 e a infraestrutura escolar disponível, em âmbito físico, tecnológico e de pessoal.\n\nFicam disponíveis à escolha dos(as) estudantes os Eixos Tecnológicos do Catálogo Nacional de Cursos Técnicos, versão 2016, ou atualizada de acordo com a viabilidade verificada pela equipe escolar.\n\nA Secretaria de Estado da Educação do Estado de Santa Catarina (SED/SC), por meio de comissão deliberativa de Educação Profissional e Técnica, encaminhará o projeto para trâmites junto ao Conselho Estadual de Educação de Santa Catarina (CEE/SC), viabilizando os procedimentos de regulamentação.\n\nAbaixo, encontram-se listados os Eixos Tecnológicos do Catálogo Nacional de Cursos Técnicos disponíveis:\n\n1. AMBIENTE E SAÚDE\n2. CONTROLE E PROCESSOS INDUSTRIAIS\n3. DESENVOLVIMENTO EDUCACIONAL E SOCIAL\n4. GESTÃO E NEGÓCIOS\n5. INFORMAÇÃO E COMUNICAÇÃO\n6. INFRAESTRUTURA\n7. MILITAR\n8. PRODUÇÃO ALIMENTÍCIA\n9. PRODUÇÃO CULTURAL E DESIGN\n10. PRODUÇÃO INDUSTRIAL\n11. RECURSOS NATURAIS\n12. SEGURANÇA\n13. TURISMO, HOSPITALIDADE E LAZER",
+  "state": "sc",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

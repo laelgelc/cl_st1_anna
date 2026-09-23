@@ -1,0 +1,19 @@
+## Transições
+
+Por vezes, a primeira transição da Educação Infantil acontece no momento em que a criança deixa sua família e ingressa na instituição. Para que esta transição ocorra de modo tranquilo, é imprescindível que os profissionais da escola possibilitem o acolhimento no ato da matrícula e viabilizem um atendimento que permita à família e à escola compartilharem suas especificidades, suas expectativas e suas necessidades. Assim, uma instituição segura em relação à criança favorece o processo de acolhimento da família, do mesmo modo que uma família segura proporciona segurança à criança.
+
+Neste sentido, faz-se necessário que a família e a escola se conheçam. Para tanto, pode-se recorrer às reuniões específicas com novos pais/responsáveis e/ou entrevistas individuais. Saber gostos e comportamentos típicos de cada criança pode, efetivamente, amenizar inseguranças, angústias, ansiedades de ambas as instituições, em prol da garantia do bem-estar da criança.
+
+Após esse processo de acolhimento, a criança, gradativamente, é inserida na creche ou na pré-escola, às vezes acompanhada por um adulto de sua família, vivenciando horários que se adequem às suas necessidades, de forma a respeitar seus ritmos e tempos, até que esteja familiarizada com o novo ambiente.
+
+A criança passa, continuamente, por processos de transição, que vão desde as mudanças dos espaços físicos, trocas ou substituições de professores, ou mesmo entradas e saídas de colegas do grupo. Cabe à instituição minimizar os impactos dessas mudanças a partir de propostas que ampliem as situações de interação da criança com os diversos espaços e pessoas.
+
+Nas situações em que o estabelecimento de creche é separado fisicamente da pré-escola, pode-se planejar ações que aproximem as crianças por meio de visitas, trocas de desenhos, fotos, vídeos, fusão de atividades e festividades; pode-se, ainda, viabilizar esta proximidade fazendo uso dos recursos tecnológicos, como a ferramenta do google maps, hangouts, videoconferências, que contam do espaço e das pessoas, crianças e adultos que o ocupam. Essas mesmas estratégias, dentre muitas outras, podem favorecer a transição da Educação Infantil para o Ensino Fundamental, assegurando a continuidade dos processos de aprendizagem e o desenvolvimento da criança.
+
+O último ano da pré-escola deve ser marcado pela parceria entre instituição de Educação Infantil e escolas de Ensino Fundamental a fim de que, juntas, pensem ações que favoreçam este processo de transição. Salvaguardando o que têm em comum, a criança pequena terá a garantia dos direitos de aprendizagem e desenvolvimento por ocasião de ingresso no Ensino Fundamental. Nesse sentido, preservar e considerar os direitos de conviver, brincar, interagir, explorar, participar e conhecer-se são ações que podem contribuir, e muito, com a inserção da criança na etapa seguinte da Educação Básica.
+
+## Relação com as famílias e/ou responsáveis
+
+A boa relação entre as famílias e/ou responsáveis e as instituições de Educação Infantil é essencial para potencializar a aprendizagem e o desenvolvimento das crianças, bem como a prática do diálogo e o compartilhamento de responsabilidades. Além disso, a instituição precisa conhecer e trabalhar com as culturas plurais, dialogando com a riqueza/diversidade das famílias e da comunidade.
+
+Sendo assim, a participação da família na escola colabora para a efetivação da gestão democrática participativa, e isto pressupõe o seu envolvimento nas diversas situações da instituição, inclusive quando da elaboração, execução e avaliação da Proposta Pedagógica. Uma escuta atenta e ativa da família a integra neste processo, fomentando uma ação responsiva frente às demandas educativas cujo foco é enriquecer as experiências cotidianas das crianças.

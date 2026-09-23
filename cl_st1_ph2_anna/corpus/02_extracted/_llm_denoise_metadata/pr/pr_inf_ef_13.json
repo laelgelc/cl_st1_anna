@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_063eeb2cd5f8415a006ab30a48304c87d28d777ce2309e8c1e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1145,
+      "input_tokens_details": {
+        "cache_write_tokens": 1142,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1118,
+      "output_tokens_details": {
+        "reasoning_tokens": 190
+      },
+      "total_tokens": 2263
+    }
+  },
+  "created_at": "2026-09-22T23:08:01Z",
+  "duration_seconds": 9.444,
+  "error": null,
+  "excerpt_id": "pr_inf_ef_13",
+  "filename": "pr_inf_ef_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fa20b4e27232a3dead26dbb271759176f86bcb619d51206dd6e2319fe5604edb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "69e491e118a813873ad6b94100b39beaccee1e3a48c4a3d3421d427ad7f7f712",
+    "rendered_prompt_sha256": "0f08cea7d7dfbd6c279d014ef45aa5b9e7a1751006170c3a0748b5aa954c9ed5",
+    "source_text_sha256": "d3578825bf089a8f3681f3627a4fc002e0ca97f24f79064806e411e75052c584"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_inf_ef_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2835,
+    "filename": "pr_inf_ef_13.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_inf_ef_13.txt",
+    "state": "pr",
+    "word_count_original": 666
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_inf_ef_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_inf_ef_13.json"
+  },
+  "raw_response_text": "# Educação digital\n\nA Base Nacional Comum Curricular (BNCC) é um documento normativo que estabelece as aprendizagens essenciais a serem desenvolvidas por todos os estudantes ao longo das etapas e modalidades da Educação Básica, a qual apresenta uma organização progressiva e articulada e visa assegurar os direitos de aprendizagem e desenvolvimento. Destinada exclusivamente à educação escolar, conforme definição do § 1º do Art. 1º da Lei de Diretrizes e Bases da Educação Nacional (Lei n.º 9.394/1996), a BNCC orienta-se por princípios éticos, políticos e estéticos que visam à formação integral do estudante.\n\nNo âmbito da Educação Infantil e do Ensino Fundamental, a implantação da BNCC foi instituída pela Resolução CNE/CP n.º 2, de 22 de dezembro de 2017, com base no Parecer CNE/CP n.º 15, de 15 de dezembro do mesmo ano. Essa resolução já indicava, em seu artigo 22, a necessidade de elaboração de normas específicas sobre Computação, sinalizando a importância de incluir conteúdos e processos de aprendizagem relacionados a esta área na Educação Básica.\n\nTal percurso culminou na publicação da Resolução CNE/CEB n.º 1, de 4 de outubro de 2022, que estabelece normas específicas para a Computação na Educação Básica, atuando como um complemento à BNCC, bem como o Parecer CNE/CEB nº 2/2022, de 17 de fevereiro de 2022, que institui as normas para o ensino de Computação na Educação Básica como complemento à BNCC, destacando-se o seu Anexo, que reúne tabelas de competências e habilidades organizadas por eixos (Pensamento Computacional, Mundo Digital e Cultura Digital) para orientar o trabalho curricular em todas as etapas da Educação Básica. Conforme disposto no Art. 2º, cabe aos sistemas de ensino a definição de parâmetros e abordagens pedagógicas para a implementação da Computação e a necessidade de normatização nos respectivos referenciais curriculares.\n\nO reconhecimento e a relevância da Computação foram ampliados com a Lei n.º 14.533, de 11 de janeiro de 2023, que institui a Política Nacional de Educação Digital (PNED), a qual define como um de seus Eixos Estruturantes a formação em Computação, assim como a inclusão digital, a educação escolar digital, a capacitação profissional e a pesquisa em tecnologias digitais. Ao tratar da educação escolar digital, a lei explicita que as instituições de ensino devem garantir, não apenas o acesso a dispositivos e conectividade, mas também a inserção curricular de conteúdos ligados à Computação, ao pensamento computacional, à cultura digital e à inovação.\n\nSeguindo essa mesma lógica, no âmbito estadual, o Conselho Estadual de Educação do Paraná - CEE/PR, como órgão normatizador, aprovou a Deliberação nº 04/2025, que regulamenta a Educação Digital e Computação no Sistema Estadual de Ensino. Em seu texto, a normativa estabelece, entre outros dispositivos, nos Artigos 6º e 7º, que a Educação Digital e Computação será ofertada como componente curricular no Ensino Fundamental e Médio, enquanto que na Educação Infantil a oferta deve respeitar a finalidade de proporcionar condições adequadas para promover o bem-estar das crianças, seu desenvolvimento físico, cognitivo, intelectual, afetivo e social, ampliando experiências de interação e convivência na sociedade, marcadas pelos valores de solidariedade, liberdade, cooperação e respeito.\n\nFundamentada no Art. 8º da Deliberação CEE/PR nº 04/2025, que dispõe sobre a obrigatoriedade da oferta como componente curricular no Ensino Fundamental e no Ensino Médio, ressalta-se que tal obrigatoriedade não afasta a possibilidade de desenvolvimento transversal das competências e habilidades da Educação Digital e Computação na Educação Básica, por meio das diferentes áreas do conhecimento/componentes curriculares e/ou projetos.\n\nDiante disso, entende-se que a inserção da Educação Digital e Computação nos currículos escolares visa a alinhar a educação aos desafios do mundo digital. A convergência entre os dispositivos normativos demonstra um esforço conjunto para garantir que os estudantes desenvolvam competências essenciais. Trata-se, portanto, de promover a formação integral, que valorize tanto o aprofundamento no componente curricular específico quanto a aplicação do pensamento computacional e da cultura digital em diferentes contextos, preparando os estudantes para a vida em sociedade.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

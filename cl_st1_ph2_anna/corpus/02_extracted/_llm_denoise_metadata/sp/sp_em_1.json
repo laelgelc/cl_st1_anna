@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0258f647b67e5e22006ab30f96059c87d2b06212659cc66444",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 650,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 828,
+      "output_tokens_details": {
+        "reasoning_tokens": 334
+      },
+      "total_tokens": 1478
+    }
+  },
+  "created_at": "2026-09-22T23:30:36Z",
+  "duration_seconds": 6.882,
+  "error": null,
+  "excerpt_id": "sp_em_1",
+  "filename": "sp_em_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e5eda4946c36ac2bc1b71b0aa1ea93f9ef0226382d25a12856a2aeaf2198c2f7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ed1660bd73644c5a8f66781f4cd42a48fe134f318ab199a53ad1a7114985ce11",
+    "rendered_prompt_sha256": "66a37e567f672a9ade3b7c59181254d27a912f3d71d5a6de6a34ac87d45fb0c2",
+    "source_text_sha256": "13aeb0c8e4bc762ee47d3dedc8cd445768b61bc54cfe9709111176d66b427440"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3902,
+    "filename": "sp_em_1.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_1.txt",
+    "state": "sp",
+    "word_count_original": 392
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_1.json"
+  },
+  "raw_response_text": "# Apresentação\n\nO Currículo Paulista para a etapa final da Educação Básica, apresentado neste documento, foi elaborado por meio da soma dos esforços dos representantes das redes estadual, municipais e privadas de ensino, da Secretaria de Desenvolvimento Econômico, do Centro Paula Souza, das universidades estaduais e de entidades não governamentais. Atuando de modo colaborativo, esses representantes associaram saberes, procedimentos, reflexões e experiências a respeito da prática docente nas diferentes áreas de conhecimento do Ensino Médio.\n\nEm continuidade às definições expressas no Currículo Paulista das etapas da Educação Infantil e do Ensino Fundamental — elaborado também em sistema de colaboração —, pretende-se ainda responder às especificidades sociais, econômicas, regionais, culturais e históricas dos 645 municípios que compõem o Estado de São Paulo, agora em relação às especificidades da etapa do Ensino Médio.\n\nEste segundo volume do Currículo Paulista define e explicita, a todos os profissionais da educação que atuam no Estado, as competências e as habilidades essenciais para o desenvolvimento cognitivo, social e emocional do estudante paulistas do Ensino Médio, com foco em sua formação integral na perspectiva do desenvolvimento humano.\n\nEsperamos que essas definições orientem a (re)elaboração da Proposta Pedagógica de cada escola do território estadual, de maneira a promover, a necessária organização dos tempos e espaços, bem como práticas pedagógicas e de gestão compatíveis com as aprendizagens essenciais que se pretende garantir a todos os estudantes.\n\nDessa maneira, o Currículo Paulista da Educação Básica, representa um passo decisivo no processo de melhoria da qualidade de educação no Estado de São Paulo, no que se refere às aprendizagens do estudante, à formação inicial e continuada dos educadores, à produção de materiais de apoio, às matrizes de avaliação e ao estabelecimento de critérios para a oferta de infraestrutura adequada ao pleno desenvolvimento da educação.\n\nÉ necessário destacar a importância do sistema de colaboração entre as diferentes redes na implementação do Currículo Paulista, a exemplo do que já ocorreu no processo de sua elaboração. Dessa maneira, investe-se na sinergia necessária para que o Estado de São Paulo se firme no cenário da educação brasileira como referência quanto à garantia do conjunto dessas aprendizagens essenciais ao estudante, de seu desenvolvimento integral por meio das dez competências gerais propostas para a Educação Básica e do apoio às escolhas dos jovens e adolescentes visando à concretização dos seus projetos de vida e à continuidade dos seus estudos.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

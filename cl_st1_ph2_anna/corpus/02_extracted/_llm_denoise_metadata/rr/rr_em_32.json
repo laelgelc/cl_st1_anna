@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b1e0322cdd65bce006ab30d2cd42c87d2a5ebea0473b8bf4f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 307,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 312,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 619
+    }
+  },
+  "created_at": "2026-09-22T23:20:16Z",
+  "duration_seconds": 4.252,
+  "error": null,
+  "excerpt_id": "rr_em_32",
+  "filename": "rr_em_32.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "354ce8f6f44726bd64ceef55c4dc963a44234927f4991e9718bfc39605f732a1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "85a54d0bf9c9269653f077c865ab817d04c109fd04d0dc3690762e40e68a2acc",
+    "rendered_prompt_sha256": "7fa8f3db26ffdf99be0e0ac8fb2325f78b395b212f76244a41a7892988796d0c",
+    "source_text_sha256": "628c0c1cb8240d59efaba4399316cf83ac8e275288dc18e0c1064e31e906c514"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_32.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3466,
+    "filename": "rr_em_32.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_32.txt",
+    "state": "rr",
+    "word_count_original": 138
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_32.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_32.json"
+  },
+  "raw_response_text": "### 4.3.4. Eixo de integração\n\nSegundo a BNCC (2018a, p. 492), os eixos de integração propostos para o Ensino Médio envolvem a consolidação e a complexidade das práticas de linguagens situadas nos campos da vida pessoal, jornalístico/midiático, práticas de estudo e pesquisa, atuação na vida pública e artístico/literário, que estão articulados com os seguintes eixos de ensino: leitura/escuta, produção de textos, oralidade (escuta e produção oral) e análise linguística/semiótica. Esse último eixo envolve conhecimentos linguísticos, textuais, discursivos, além dos modos de organização e elementos de outras semioses.\n\nTais práticas deverão ser consolidadas por meio de habilidades relativas à análise, síntese, compreensão dos efeitos de sentido, apreciação e réplica, oportunizando ao jovem do Ensino Médio posicionar-se de maneira responsável, crítica e ética em relação aos temas e efeitos de sentido dos textos.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

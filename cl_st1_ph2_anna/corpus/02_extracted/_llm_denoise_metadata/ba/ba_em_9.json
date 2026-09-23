@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01a9b768a9f684fd006ab2feea73c887d2a57bc41079ff6651",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1445,
+      "input_tokens_details": {
+        "cache_write_tokens": 1442,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1758,
+      "output_tokens_details": {
+        "reasoning_tokens": 407
+      },
+      "total_tokens": 3203
+    }
+  },
+  "created_at": "2026-09-22T22:19:36Z",
+  "duration_seconds": 13.853,
+  "error": null,
+  "excerpt_id": "ba_em_9",
+  "filename": "ba_em_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "df65437dd5f3e76865ddebe9485745219fd7ed6f9aafcc1cba2f986d73eae58c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b04475075221bff947e01ca9a6ca525aaa9856a4747d48fb296df0e9e998cdf4",
+    "rendered_prompt_sha256": "6fa2f24d2fa17a9753d9e9a3246bbd65f6b8d334b5adb6b6de5f69dd5d86a4ad",
+    "source_text_sha256": "5f4cd243468a26526a603891cfad8e5558fc969c77f65621ca6f378ab9512c37"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_em_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 690,
+    "filename": "ba_em_9.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_em_9.txt",
+    "state": "ba",
+    "word_count_original": 981
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_em_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_em_9.json"
+  },
+  "raw_response_text": "## 5.4. TRABALHO, CIÊNCIA, TECNOLOGIA E CULTURA: AS DIRETRIZES NACIONAIS PARA O CURRÍCULO DO ENSINO MÉDIO BRASILEIRO\n\nÉ na etapa do Ensino Médio que os/as jovens são inseridos, de uma forma mais contundente, no mundo do trabalho para estarem inseridos na sociedade de consumo, sendo instados pelo modo de produção capitalista a trocar a sua força de trabalho por remuneração. É dessa necessidade latente por sobrevivência que uma parcela considerável de estudantes do Ensino Médio, da rede pública, abandona os estudos para serem absorvidos pelo mundo do trabalho, quase sempre o informal.\n\nNo capitalismo, o trabalho se manifesta histórica e concretamente como produtor de mercadorias que geram riqueza para o capital, enquanto o trabalhador troca a sua força de trabalho por alguma forma de retribuição financeira, que é a condição necessária para lhes assegurar alguma condição de vida e cidadania (KUENZER, 2007).\n\nTratar dessa realidade em uma sociedade dividida em classes, de forma crítica e consciente, é também papel político-pedagógico da educação formal, iniciando na educação básica, em todas as suas ofertas e modalidades, até o ensino superior, sobretudo na educação pública, que atende majoritariamente à classe trabalhadora e seus/as filhos/as.\n\nAssim, a organização do currículo, do prescritivo ao vivencial, desenvolvida a partir da centralidade da categoria trabalho, nos sentidos ontológico e histórico, é crucial no processo de formação da classe trabalhadora presente nas escolas públicas. Desvelar o que está por trás das engrenagens que estruturam a sociedade capitalista de consumo, suas matizes e estratégias de permanência no poder, se faz imperativo. Além disso, é importante promover reflexões e estratégias nas escolas para incentivar o desenvolvimento de atitudes e ações dos/as estudantes, sejam elas individuais ou coletivas, visando à superação dessa lógica.\n\nAcácia Kuenzer, no livro “Ensino Médio – Construindo uma proposta para os que vivem do Trabalho”, conceitua trabalho como:\n\n> práxis humana, ou seja, como o conjunto de ações, materiais e espirituais, que o homem, enquanto indivíduo e humanidade, desenvolve para transformar a natureza, a sociedade, os outros homens e a si próprio com a finalidade de produzir as condições necessárias à sua existência. Desse ponto de vista, toda e qualquer educação sempre será educação para trabalho. (KUENZER, 2007)\n\nNeste sentido, Kuenzer considera que a educação escolar, por si só, já se caracteriza como educação para o trabalho, em todos os níveis e etapas de ensino, à medida que promove a apropriação dos conhecimentos sistematizados para os/as estudantes, mas alerta que:\n\n> no atual estágio de desenvolvimento da sociedade capitalista, apenas o conhecimento prático e o bom senso, embora continuem a ser importantes, não são mais suficientes para enfrentar os desafios postos por um modelo de desenvolvimento que cada vez mais usa a ciência como força produtiva, para o bem e para o mal, ao mesmo tempo melhorando e destruindo a qualidade de vida individual e coletiva (KUENZER, 2007).\n\nDessa forma, garantir apenas a apropriação dos conhecimentos sistematizados, na organização curricular e nas práticas docentes escolares, não são mais suficientes. Faz-se necessário viabilizar novas pedagogias, pautadas em análises da conjuntura social e nos contextos de vida dos/as estudantes para subsidiar práticas sociais e formas de organização social mais equânime, livre e emancipada. Entretanto, para que tais mudanças ocorram, as equipes pedagógicas necessitam, primeiro, ter clareza da sua função social para propor rompimentos com as tendências educacionais conservadoras promotoras da reprodução social hegemônica, geradora de desigualdades sociais perversas e históricas.\n\nFormar estudantes numa perspectiva insurgente ao status quo social e indutora de mudanças individuais e coletivas é apresentá-los/as, dentro da organização curricular do ensino médio, em todas as áreas de conhecimento, às relações existentes entre trabalho, ciência, cultura e tecnologia. Além disso, ajudá-los/as a compreenderem os avanços da ciência e das tecnologias é imprescindível para suprir às necessidades humanas de forma sustentável e ética.\n\nO inciso VIII do Art. 5º da Resolução CNE nº 03/2018 dispõe sobre a articulação dos saberes histórico, econômico, social, ambiental, cultura local e do mundo do trabalho às dimensões do trabalho, da ciência, da tecnologia e da cultura como base para o desenvolvimento curricular do Ensino Médio e conceitua:\n\na) o trabalho é conceituado na sua perspectiva ontológica de transformação da natureza, ampliada como impulsionador do desenvolvimento cognitivo, como realização inerente ao ser humano e como mediação no processo de produção da sua existência;\n\nb) a ciência é conceituada como o conjunto de conhecimentos sistematizados, produzidos socialmente ao longo da história, na busca da compreensão e transformação da natureza e da sociedade;\n\nc) a tecnologia é conceituada como a transformação da ciência em força produtiva ou mediação do conhecimento científico e a produção, marcada, desde sua origem, pelas relações sociais que a levaram a ser produzida;\n\nd) a cultura é conceituada como o processo de produção de expressões materiais, símbolos, representações e significados que correspondem a valores éticos, políticos e estéticos que orientam as normas de conduta de uma sociedade (BRASIL, 2018).\n\nPor um lado, os insumos gerados pela ciência e tecnologia são reproduzidos, em larga escala, às custas da força do trabalho de homens e mulheres, que nem sempre usufruem das produções e benefícios gerados pelo desenvolvimento científico e tecnológico. Do outro lado, se encontra a classe burguesa, dona dos meios de produção, que lucra e tem acesso aos bens produzidos pelos/as trabalhadores/as e que se perpetua durante gerações no poder, pois ocupa os espaços sociais que criam a lógica da produção e reprodução do capital.\n\nLevar a apropriação dos conhecimentos científicos produzidos pela humanidade à classe trabalhadora e aos/às seus/as filhos/as, estudantes do Ensino Médio baiano, de todas as ofertas e modalidades de ensino, no nível básico e superior, bem como os mecanismos postos pelas relações produtivas do trabalho, é municiá-los/as com os elementos necessários para construírem estratégias de atuação em sociedade de forma organizada, politizada e propositiva das próprias vidas e das suas comunidades.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

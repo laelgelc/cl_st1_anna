@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_049d4fa1051a12bb006ab302e6e85c87d2abacf1e22aef68d7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 576,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 513,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 1089
+    }
+  },
+  "created_at": "2026-09-22T22:36:27Z",
+  "duration_seconds": 4.64,
+  "error": null,
+  "excerpt_id": "mg_em_109",
+  "filename": "mg_em_109.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ff7d3403e336eb22f9b0f9ccb58949cf60655d8dda57829589dcb868d3c3be22",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cd5cef3de66957fffcb94af6b9c66f01f778d0cd72cccf90292628180694079c",
+    "rendered_prompt_sha256": "cef9bcb55ed99aba687ff86dfa8e012ca3e8096d3b57357ad894006ca9369000",
+    "source_text_sha256": "e5a7a4465c44f07722aa0999f55c321f71c93122c17f33966f0db13477553def"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_109.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1496,
+    "filename": "mg_em_109.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_109.txt",
+    "state": "mg",
+    "word_count_original": 325
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_109.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_109.json"
+  },
+  "raw_response_text": "### 5.7 Diretrizes para a oferta do 5º itinerário formativo: formação técnica e profissional\n\nA oferta de itinerários formativos que estabeleçam diálogo com os saberes e fazeres do mundo do trabalho, através da oferta de cursos técnicos ou de cursos de qualificação profissional – Cursos de Formação inicial e Continuada – ou ainda por meio de itinerários formativos organizados a partir de um Programa de aprendizagem devem contemplar os seguintes objetivos:\n\n- Construir e aprofundar aprendizagens relacionadas às 10 competências gerais, às competências relacionadas ao mundo do trabalho e ao empreendedorismo e às competências específicas relacionadas à Formação Técnica e Profissional, ocupação ou qualificação;\n- Promover e consolidar a formação integral dos estudantes, estimulando o protagonismo, a solidariedade, a cooperação e a autonomia, assim como os saberes e fazeres necessários para que possam estruturar e realizar seus projetos de vida;\n- Estimular e promover situações para experienciar atitudes sustentáveis e valores universais, como ética, liberdade, democracia, justiça, pluralidade, respeito, cooperação e solidariedade;\n- Construir conhecimentos e desenvolver habilidades que permitam aos estudantes ter uma visão de mundo ampla e heterogênea, selecionar e processar informações, tomar decisões, resolver problemas, trabalhar em equipe, lidar com as emoções, sendo capazes de atuar nas mais diversas situações, seja na escola, no trabalho ou na vida.\n\nAlém dessas diretrizes básicas e norteadoras para a estruturação das diversas possibilidades de configuração do 5º itinerário, é importante ressaltar a necessária integração entre os conhecimentos do currículo, de modo que todos os saberes construídos por meio das mediações escolares se coadunem para a formação contextualizada e significativa que buscamos promover.\n\nDesse modo, o conhecimento não deve ser tratado de forma compartimentada ou estática. Todos os saberes e componentes curriculares devem contribuir para que os jovens mineiros estejam cada vez mais preparados e sensíveis para atuar nos diversos contextos da vida adulta que se anuncia, realizando-se como ser humano íntegro e responsável, contribuindo para o desenvolvimento econômico sustentável e para o desenvolvimento social de forma local, regional e global.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

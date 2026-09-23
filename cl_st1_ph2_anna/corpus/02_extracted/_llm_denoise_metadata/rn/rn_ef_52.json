@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fc2df80223f1e92006ab30af2ad4087d28ce9ff9996e96ea4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 458,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 466,
+      "output_tokens_details": {
+        "reasoning_tokens": 102
+      },
+      "total_tokens": 924
+    }
+  },
+  "created_at": "2026-09-22T23:10:46Z",
+  "duration_seconds": 3.937,
+  "error": null,
+  "excerpt_id": "rn_ef_52",
+  "filename": "rn_ef_52.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4a18b9724f21668340fa061997d412e5c0baca329a048ab40974900d263ee588",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a17792c31ebabba25c3cdbe745ff8a9d57022a5d6a183cc41bcd81a503fa8e9f",
+    "rendered_prompt_sha256": "ca7524f4ef9795cfc448442b6ae07d70909aef7278c5be58fc872019b3ae6afe",
+    "source_text_sha256": "3fdbecb6e2728e19c9eccb4ce5099ec44a8d05534ca8d2e317c3c2997ac34f62"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_52.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2993,
+    "filename": "rn_ef_52.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_52.txt",
+    "state": "rn",
+    "word_count_original": 209
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_52.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_52.json"
+  },
+  "raw_response_text": "# INSTRUMENTOS E PROCEDIMENTOS DE AVALIAÇÃO - ANOS FINAIS\n\n- Produção e interpretação de textos.\n- Produção de portfólios.\n- Produção de mapas, croquis e outras representações geográficas.\n- Leituras cartográficas de diferentes escalas de análise.\n- Construção de maquetes.\n- Investigação de campo sobre as características do espaço geográfico.\n- Relatórios sobre as aulas de campo realizadas.\n- Reconhecimento da diferenciação entre os espaços geográficos como resultado da interação entre o homem e o ambiente.\n- Produção de mapas demográficos e de pirâmides etárias.\n- Comparação de mapas de diferentes épocas e das modificações na divisão política do Estado-Nação.\n- Leitura de imagens, mapas, tabelas e gráficos.\n- Organizar leitura de diferentes recursos imagéticos digitais.\n- Investigação, com auxílio de mapas e recursos audiovisuais, da distribuição dos componentes físico-naturais no território brasileiro.\n- Interpretação de pirâmides etárias, tabelas e dados sobre as características da população mundial.\n- Discussão, com autonomia, sobre os conceitos de Estado, nação, território, governo e país.\n- Discussões com base em textos, documentários, filmes e canções que tratem sobre os assuntos estudados.\n- Compreensão dos padrões espaciais do mundo e comparação com outros padrões.\n- Análise dos problemas concretos do mundo para refletir sobre possíveis soluções.\n- Participação em debates promovidos em sala de aula sobre os assuntos estudados.\n- Apresentação de júri simulado.\n- Apresentação de seminários.\n- Cumprimento das atividades extraclasse.\n- Assiduidade.\n- Avaliação escrita.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

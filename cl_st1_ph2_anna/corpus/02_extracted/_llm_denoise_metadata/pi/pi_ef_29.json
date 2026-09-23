@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_028ffee18727558e006ab308664ac487d28218ca46889f061e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 518,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1031,
+      "output_tokens_details": {
+        "reasoning_tokens": 652
+      },
+      "total_tokens": 1549
+    }
+  },
+  "created_at": "2026-09-22T22:59:58Z",
+  "duration_seconds": 9.129,
+  "error": null,
+  "excerpt_id": "pi_ef_29",
+  "filename": "pi_ef_29.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "48e3386b9b44d2e2c290e1711f909f9b676419a68aa7ec2a26783c70035feb06",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1dc7b8be4d50127c049bd9563d9e526b6b5146ccc869dba54108b0ed40a4cca7",
+    "rendered_prompt_sha256": "f4d39185577bf36bd7fc2813ce8d4889a6e798b04f58a9103818f49211e8f300",
+    "source_text_sha256": "d78caadc22601032526070796588284c7138e0905149f0c1c48dfd36fa007102"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_ef_29.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2564,
+    "filename": "pi_ef_29.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_ef_29.txt",
+    "state": "pi",
+    "word_count_original": 206
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_ef_29.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_ef_29.json"
+  },
+  "raw_response_text": "# SITUAÇÕES DIDÁTICAS\n\n## SITUAÇÕES DE APRENDIZAGEM\n\n### Definição de problemas\n\n* Observar o mundo a sua volta e fazer perguntas.\n* Analisar demandas, delinear problemas e planejar investigações.\n* Propor hipóteses.\n\n### Levantamento, análise e representação\n\n* Planejar e realizar atividades de campo (experimentos, observações, leituras, visitas, ambientes virtuais etc.).\n* Desenvolver e utilizar ferramentas, inclusive digitais, para coleta, análise e representação de dados (imagens, esquemas, tabelas, gráficos, quadros, diagramas, mapas, modelos, representações de sistemas, fluxogramas, mapas conceituais, simulações, aplicativos etc.).\n* Avaliar informação (validade, coerência e adequação ao problema formulado).\n* Elaborar explicações e/ou modelos.\n* Associar explicações e/ou modelos à evolução histórica dos conhecimentos científicos envolvidos.\n* Selecionar e construir argumentos com base em evidências, modelos e/ou conhecimentos científicos.\n* Aprimorar seus saberes e incorporar, gradualmente, e de modo significativo, o conhecimento científico.\n* Desenvolver soluções para problemas cotidianos usando diferentes ferramentas, inclusive digitais.\n\n### Comunicação\n\n* Organizar e/ou extrapolar conclusões.\n* Relatar informações de forma oral, escrita ou multimodal.\n* Apresentar, de forma sistemática, dados e resultados de investigações.\n* Participar de discussões de caráter científico com colegas, professores, familiares e comunidade em geral.\n* Considerar contra-argumentos para rever processos.\n\n### Intervenção\n\n* Implementar soluções e avaliar sua eficácia para resolver problemas cotidianos.\n* Desenvolver ações de intervenção para melhorar a qualidade de vida individual, coletiva e socioambiental.\n\nFonte: BNCC, 2017",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

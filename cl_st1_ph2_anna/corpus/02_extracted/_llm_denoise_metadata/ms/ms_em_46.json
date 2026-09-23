@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_094a7a8cebfde7fd006ab303c48cf887d2b43940c1b3ec1cbb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 633,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 553,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 1186
+    }
+  },
+  "created_at": "2026-09-22T22:40:10Z",
+  "duration_seconds": 6.193,
+  "error": null,
+  "excerpt_id": "ms_em_46",
+  "filename": "ms_em_46.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "281cd3e562169523b9f688b17d342738ac0b1f1b5d5c22f2923856e63056b512",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "70916ccf1051f82982d59b76570fe7d48b1147ff85c2e791e48357f4b1584746",
+    "rendered_prompt_sha256": "d9231ec2bad29a29f796105d6126da95d216b43c30007fa21f688179dcf3ac31",
+    "source_text_sha256": "fa44067d31a993fe26cd1e6eb3e54b5ac75d99892c51fbbf6976ecd0d52fe792"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_46.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1712,
+    "filename": "ms_em_46.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_46.txt",
+    "state": "ms",
+    "word_count_original": 334
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_46.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_46.json"
+  },
+  "raw_response_text": "IV. Avaliação:\n\nA avaliação é processual e supõe o desenvolvimento de todas as etapas desta atividade de aprendizagem.\n\nO produto final desta avaliação é a entrega de um ensaio e um banner, seguindo o formato estabelecido pela comunidade científica.\n\nAlém da avaliação pelo professor, sugere-se que os colegas da turma também possam avaliar de forma colaborativa o material produzido pela turma.\n\nAo avaliar, o professor deve verificar se os produtos finais (ensaio e banner):\n\na) atendem ao tema delimitado;  \nb) expressam de forma adequada as informações e a contextualização;  \nc) apresentam justificativas e argumentos que sustentam a conclusão;  \nd) pautam informações pertinentes e diversificadas;  \ne) têm caráter autoral, ou seja, que não sejam cópias (plágios).\n\nV. Observações:\n\nA arquitetura desta unidade curricular envolve desafios pedagógicos específicos, perante os quais estudantes e professor precisam ter em conta o seguinte:\n\na) essa unidade trata de questões filosófico-científicas complexas sob a perspectiva de uma abordagem multidisciplinar (direito, filosofia, biologia, dentre outras), na medida em que tematiza problemas, controvérsias e soluções postos nos campos da bioética e biotecnologias. Em tese, essa abordagem induz uma experiência de aprendizagem multifocal, que implica o efetivo comprometimento por parte dos estudantes e professor, nas atividades de estudos, pesquisa e produção autoral, sob pena de margear apenas divulgações panfletárias da ciência;\n\nb) a sugestão didática de um estudo de caso procura enlaçar, no conjunto das atividades de construção do conhecimento, objetos de conhecimento, técnicas de metodologia científica e estratégias didáticas. As etapas da sugestão didática marcadas em negrito indicam as ênfases correspondentes, porém não exclusivas, a cada eixo estruturante, sendo: a) as etapas de 1 a 6 enfatizam o eixo de investigação científica; b) as etapas de 7 a 9, o eixo mediação e intervenção sociocultural. De todo modo, importa oferecer ao estudante um roteiro lógico e orgânico de aprendizagem de competências, habilidades, processos, conceitos e práticas, que lhe faculte a experiência de minimizar a construção fragmentária do conhecimento e desenvolver ações possíveis ou adequadas em sua realidade escolar e local.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

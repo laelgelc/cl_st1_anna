@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08adef19b5a42276006ab308215a1087d298d5e9ccecfb2a2c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 347,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 292,
+      "output_tokens_details": {
+        "reasoning_tokens": 40
+      },
+      "total_tokens": 639
+    }
+  },
+  "created_at": "2026-09-22T22:58:44Z",
+  "duration_seconds": 3.46,
+  "error": null,
+  "excerpt_id": "pe_em_37",
+  "filename": "pe_em_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b07a99a5c79d759f71cdca28608357216917a1bacd9335c8c8bd01051fe61c84",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3423d3208995f6eb68136b5f286d80f14ceb9eb2d2603a710b44df47842c9e4e",
+    "rendered_prompt_sha256": "a5a726bdad1334626eff31bb9a9f344f8e29f06d604590aae75190abd65c1d80",
+    "source_text_sha256": "4b76529fe6c0d3be41c6da772940596b9cc6f91fd624f8f89ee1a8999315727b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2493,
+    "filename": "pe_em_37.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_37.txt",
+    "state": "pe",
+    "word_count_original": 179
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_37.json"
+  },
+  "raw_response_text": "O estudante, portanto, deve terminar o ciclo básico dominando um repertório linguístico que seja suficiente para a elaboração de diferentes tipos de texto coesos e coerentes com uma leitura de mundo que respeite e defenda a equidade e a excelência; deve perceber, ou melhor, aprender a identificar os arranjos linguísticos, seus efeitos semânticos e pragmáticos.\n\nJuntas, as experiências com diferentes linguagens, representadas pelos componentes da área devem possibilitar ao jovem estudante a consciência de que as leituras e as produções textuais devem estar marcadas por engajamento e aplicação do conhecimento na vida, perspectiva que se mostra presente nos Campos de Atuação ora citados, levando os estudantes a refletirem cotidianamente sobre como, quando e, principalmente, para que servem as ações com a linguagem, que sentido elas carregam.\n\nA intenção é prepará-los, enfim, para intervirem na realidade, defenderem ideias, criando sentidos, permitindo a apreciação enquanto compreensão em um contexto crítico e a réplica como capacidade de posicionar-se. Orienta-se, então, um trabalho que explore mecanismos de construção de conhecimentos em cada componente e proponha sua manifestação nas diferentes linguagens.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_080f8de9261620ba006ab303c1558487d2a1ac332b5a2ca6c6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 663,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 637,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 1300
+    }
+  },
+  "created_at": "2026-09-22T22:40:06Z",
+  "duration_seconds": 5.21,
+  "error": null,
+  "excerpt_id": "ms_em_42",
+  "filename": "ms_em_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "072ecee73891bf5cda0f3fd6de8936165a34b9e15892f5c49b6243a830a63855",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4ea1fbeae37c23ce2735a770027ed8c7dc7b9f22af37205ac397c4282bf0cf15",
+    "rendered_prompt_sha256": "86af829c4edb1bdf76e68096b661aac29e4d4bd8cecadb377c54c669dc55e71c",
+    "source_text_sha256": "787b09ab959307c757dc2790ce37aff82e099205fed965b5a083193dac57e445"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1708,
+    "filename": "ms_em_42.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_42.txt",
+    "state": "ms",
+    "word_count_original": 297
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_42.json"
+  },
+  "raw_response_text": "## 4.5.6.1. Exemplo de Unidade Curricular da Área de Matemática e suas Tecnologias\n\n**Unidade Curricular: DESVENDANDO PROBLEMAS**\n\n### I. Apresentação da Unidade Curricular\n\n#### 1.1. Carga horária\n\n40 horas-aulas (Semestral), sendo 2 horas-aulas por semana.\n\n#### 1.2. Descrição\n\nEsta unidade curricular é direcionada à resolução de problemas envolvendo Matemática. O foco é estimular estratégias, criatividade, pensamento crítico, insight, dentre outros aspectos, como forma de o estudante adquirir autonomia para resolver problemas que, nesse caso, tendem a ser desafiadores, tanto em aplicações no mundo real quanto de olimpíadas, abrindo portas para pesquisas mais aprofundadas sobre os assuntos abordados. Por se tratar de um total de 40 aulas, serão priorizados problemas sobre aritmética, contagem e geometria.\n\n#### 1.3. Competências\n\nCompetência Específica da Área de Matemática e suas Tecnologias:\n\n1. Utilizar estratégias, conceitos, definições e procedimentos matemáticos para interpretar, construir modelos e resolver problemas em diversos contextos, analisando a plausibilidade dos resultados e a adequação das soluções propostas, de modo a construir argumentação consistente.\n\n#### 1.4. Eixos estruturantes relacionados\n\n- Investigação Científica.\n- Processos Criativos.\n\n#### 1.5. Componentes curriculares e conhecimentos gerais articulados\n\nMatemática (Aritmética, Análise Combinatória e Geometria).\n\n#### 1.6. Objetivos\n\n- Estimular o prazer pela Matemática por meio de problemas intrigantes.\n- Desenvolver a capacidade de resolver problemas;\n- Investigar, analisar e resolver problemas que envolvem:\n  - Aritmética;\n  - Métodos de contagem;\n  - Geométrica Plana e Espacial.\n\n#### 1.7. Relação com outras unidades\n\nVer lista de Unidades Curriculares do Catálogo que se correlacionam a esta Unidade.\n\n#### 1.8. Perfil docente\n\n- Possuir licenciatura em Matemática;\n- Experiências e/ou interesse do professor no campo de pesquisa;\n- Conhecimento e/ou disposição para o uso de metodologias ativas e Tecnologias Digitais de Informação e Comunicação (TDIC).\n\n#### 1.9. Recursos\n\n- Acervo impresso ou digital de material de pesquisa.\n- Lousa física ou digital.\n\n### II. Organizador curricular:",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

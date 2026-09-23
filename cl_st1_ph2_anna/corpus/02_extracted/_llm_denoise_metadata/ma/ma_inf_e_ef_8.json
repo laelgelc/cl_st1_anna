@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dacb8a9558e09af006ab3026efc8487d2a94c57e513a62347",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1635,
+      "input_tokens_details": {
+        "cache_write_tokens": 1632,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1801,
+      "output_tokens_details": {
+        "reasoning_tokens": 275
+      },
+      "total_tokens": 3436
+    }
+  },
+  "created_at": "2026-09-22T22:34:35Z",
+  "duration_seconds": 12.308,
+  "error": null,
+  "excerpt_id": "ma_inf_e_ef_8",
+  "filename": "ma_inf_e_ef_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "965dd535154185f18b3958ef2fd6e164ed7f89008e85242d5c3f0ea4ecbcf628",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e53bd4d88e959dcfe03708d845719b0674137b891cc253a848740258f5171a83",
+    "rendered_prompt_sha256": "f54f209c6f2d8aeec6078a02f23d4b613e4359439dcf99bbd133cf09aec43558",
+    "source_text_sha256": "3ebafbb301dda3603db36e827e9b1e345bca33964a7f0ed81ca81a616282fe58"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_inf_e_ef_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1377,
+    "filename": "ma_inf_e_ef_8.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_inf_e_ef_8.txt",
+    "state": "ma",
+    "word_count_original": 1156
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_inf_e_ef_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_inf_e_ef_8.json"
+  },
+  "raw_response_text": "## 4. Avaliação de aprendizagem\n\nA avaliação tem por objetivo diagnosticar, registrar e redimensionar a aprendizagem dos estudantes, respeitando suas especificidades e níveis de desenvolvimento, o que possibilitará a autoavaliação dos envolvidos no processo educativo, levando-os à reflexão quanto aos procedimentos necessários para a efetivação das aprendizagens.\n\nA avaliação deve ser realizada mediante o compromisso da escola e de seus profissionais com a aprendizagem dos estudantes como sujeitos do processo educativo. Também deve ser concebida numa perspectiva democrática e de autonomia da unidade de ensino, a partir das normas já instituídas e com foco em uma vivência marcada pela lógica da inclusão, do diálogo, da responsabilidade com o coletivo, da mediação e da participação.\n\nConsiderando a perspectiva acima, as práticas docentes nas escolas precisam, efetivamente, superar as formas das avaliações tradicionais e positivistas, em que a nota é o mais importante no processo de avaliar, sendo, por vezes, “moeda” de troca, em que tudo vale “ponto”, como exposto por Bastos (2015:41):\n\n> A prática avaliativa fundamenta-se na visão de mundo daquele que avalia e no conhecimento dos educadores que definem e executam uma proposta educacional num dado momento histórico. O modo específico de conceber o conhecimento está intrinsecamente ligado à forma de condução da vida, das atividades profissionais e na forma de avaliar e conduzir o processo educativo.\n\nPara mudar a avaliação na escola é necessário primeiramente que seja realizada em um contexto de desenvolvimento curricular, pois é a avaliação que possibilita a apreciação sistemática e permanente das aprendizagens dos estudantes. É a avaliação que possibilita a revisão do planejamento das aulas e embasa as decisões sobre o desenvolvimento do trabalho pedagógico.\n\nConsiderando a compreensão vigotskyana de que há fatores mediadores da aprendizagem, a avaliação no processo pedagógico representa um agente mediador para a consolidação das aprendizagens por seu caráter diagnóstico e interventivo. Deve oportunizar os vários olhares sobre o desempenho discente, o que implica que os instrumentos avaliativos sejam diversificados e estejam em articulação com as competências e habilidades propostas pelos componentes curriculares, prevalecendo os aspectos qualitativos sobre os quantitativos.\n\nConsiderando tal perspectiva, a avaliação da aprendizagem no território maranhense deve levar em conta certas premissas:\n\n- é diagnóstica das aprendizagens – para tomar decisões é preciso entender as aprendizagens anteriores que ancoram os novos conhecimentos, o que envolve um processo de mapeamento do que o estudante já sabe e do que é possível agregar de novos conhecimentos. A avaliação é um processo de investigação importante, pois possibilita a identificação das etapas de aprendizagem.\n- é contínua e cumulativa – pois agrega saberes no trabalho pedagógico, acompanhando a dinâmica curricular de desenvolvimento por parte dos estudantes. Para tanto é preciso observar, durante as aulas e nas práticas avaliativas, o uso de instrumentos que possibilitem a identificação das aprendizagens de forma progressiva. Um conhecimento curricular dá suporte para outro e, numa evolução de complexidade, avança num mesmo ano letivo, durante as séries da Educação Básica e de uma etapa para outra. Logo, a avaliação deve identificar as dificuldades e os progressos de aprendizagem, relacionando-os com o conhecimento que se quer desenvolver. Ao mesmo tempo, deve ainda diagnosticar o que não foi consolidado e as “lacunas de aprendizagem” que dificultam o desenvolvimento do educando.\n- é sistemática – por seu caráter sistemático, são necessários registros periódicos sobre os avanços e/ou dificuldades relativos às aprendizagens. Mesmo sabendo dos “tempos de aprendizagens” diferenciados entre os sujeitos, a avaliação, como parte do planejamento docente, gera sínteses avaliativas ao término dos períodos letivos e do ano para progressão. Utilizar instrumentos factíveis e próprios para cada aprendizagem a ser observada e diagnosticada no trabalho curricular é essencial em uma relação afinada com as estratégias definidas para as aulas, segundo a natureza dos saberes que estão sendo trabalhados com os estudantes.\n- é formativa – os processos avaliativos contribuem para um projeto de formação humana integral, uma vez que cada instrumento avaliativo é orientado por valores, procedimentos e regras que precisam ser compartilhados, acordados e seguidos democraticamente, a fim de cumprir não só uma função pedagógica, mas também social e relacional.\n- é qualitativa – os aspectos qualitativos referem-se à qualidade inerente aos processos avaliativos, bem como ao detalhamento dos seus registros para a tomada de decisões pedagógicas no trabalho docente. Toda prática avaliativa deve partir da garantia da equidade social em consonância com diferenças individuais e seus tempos de aprendizagem. A parte quantitativa deve levar em conta os pontos de partida de cada estudante e seu desenvolvimento em paralelo com o coletivo de sua turma, pois quanto mais próximos a escola e os professores estiverem nessa direção, melhor qualidade terão os processos de avaliação.\n\nA avaliação da aprendizagem deve estar inserida num contexto de aprendizagem significativa em que a prática social dos estudantes seja referência para a ampliação dos saberes, pois tem característica investigativa e mediadora de novas aprendizagens pelos estudantes.\n\nA ação reflexiva no processo de ensino e aprendizagem é claramente notada quando se identificam os desafios que surgem na prática em relação com o que foi planejado. Isso é absolutamente natural, o que é planejado nem sempre se concretiza, surgem novidades e imprevistos que mudam os caminhos e provocam novos encaminhamentos. Logo, a reflexão deve estar presente em todo o processo pedagógico, incluindo a avaliação da aprendizagem.\n\nAs respostas a esses desafios fazem parte do dia a dia, culminando num vasto repertório curricular e de práticas avaliativas que sintetizam explicações sobre o que realmente aconteceu no processo e no resultado da ação que seria a aprendizagem discente, pois, segundo Bastos (2015:89).\n\n> Como educadores, nosso “lugar” na sociedade facilita o trabalho reflexivo e, ainda, nossa posição nos constrange à reflexão, sob pena de perpetuarmos o que já existe indefinitivamente. O que nos difere dos demais é justamente a possibilidade de pensar novas lógicas, estabelecer coerências sistemáticas, relacionar o que vivemos com a própria história do pensamento e transformar tudo isso em “ação-reflexão-ação”.\n\nIdentificar desafios pressupõe a definição de estratégias, superação de limites, conquistas pessoais, relação entre conhecimentos, autonomia investigativa, pesquisa científica investigativa e uma infinidade de aprendizagens que atendam bem às expectativas da atualidade.\n\nA prática reflexiva que envolve o currículo escolar e, consequentemente, a avaliação da aprendizagem não pode perder de vista a ação educativa mais global que se reflete no cotidiano escolar e retorna ao contexto como uma versão mais elaborada cientificamente. Avaliar é sempre demarcar referências num processo mais amplo de formação humana. Nesse sentido, avaliar assume um caráter informativo e formativo, que traduz seu aspecto qualitativo.\n\nO currículo e a avaliação precisam ser concebidos numa dimensão indissociável, pois as aprendizagens a serem desenvolvidas são as que devem ser avaliadas. Numa primeira abordagem, a avaliação seria mediadora do processo de ensino e de aprendizagem e teria como papel fundamental saber em que medida os objetivos de aprendizagem estão sendo alcançados, por meio do desenvolvimento de competências e habilidades. Conforme registrado neste documento, a BNCC trata de competências a considerar no desenvolvimento curricular das escolas maranhenses.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

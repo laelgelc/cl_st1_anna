@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07532545e1d73a15006ab304db9f7487d2bb975dd2282f2da2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 945,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 903,
+      "output_tokens_details": {
+        "reasoning_tokens": 141
+      },
+      "total_tokens": 1848
+    }
+  },
+  "created_at": "2026-09-22T22:44:50Z",
+  "duration_seconds": 7.469,
+  "error": null,
+  "excerpt_id": "mt_em_33",
+  "filename": "mt_em_33.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e546e994d3612e00563b27fb45f050b63125c0c4e06eb921c37f40e88f1028f2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "80807cdd9d62f3b8e176c39e9344a83a3ce7f55e8d2bef411a461f4384efe999",
+    "rendered_prompt_sha256": "5d857f1bad4e220d931154c717c1f85c3d8d528e84536d046239d520bb525d4d",
+    "source_text_sha256": "1542df15e112d193beb5df7ee212bc7bcefd3a9fe608f661ca5870021dcfb85b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_33.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1925,
+    "filename": "mt_em_33.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_33.txt",
+    "state": "mt",
+    "word_count_original": 543
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_33.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_33.json"
+  },
+  "raw_response_text": "### 6.7 Oportunidades acerca da Avaliação por meio de competências e habilidades\n\nA avaliação da aprendizagem é uma categoria didática-pedagógica de suma importância no escopo do currículo das Ciências da Natureza e suas Tecnologias, visto que por meio desta, os professores poderão analisar o processo de desenvolvimento das habilidades e das competências pelos estudantes.\n\nAlém disso, o processo avaliativo possibilita ao professor instigar a criatividade dos estudantes e a percepção da necessidade de exercer seu protagonismo na sociedade. Assim, para que a avaliação desempenhe as funções, supracitadas, é relevante que os instrumentos tradicionalmente utilizados no processo avaliativo como provas padronizadas, chamada oral ou exercícios de múltipla escolha, os quais consideram como correta uma única resposta a determinada questão, sejam complementados, por processos em que os estudantes sejam estimulados a debater ideias, mobilizando os conhecimentos de Física, Química e Biologia para estruturar a argumentação ou propor soluções para problemas locais, regionais ou globais.\n\nNessa perspectiva, o processo avaliativo, precisa gerar inquietações nos estudantes, visando desencadear um processo reflexivo em que os conhecimentos sejam organizados, não a partir de conceitos ou fórmulas memorizadas, mas por meio de conhecimentos que possuem significados para o estudante. Nessa vertente, Fazenda et al (2010, p. 32) destaca que:\n\n> Os cinco princípios, que formam a base da teoria interdisciplinar: humildade, coerência, espera, respeito e desapego, também devem permear a avaliação. Humildade para perceber e aceitar o erro na hora de avaliar e sabedoria para trabalhar o erro do estudante; coerência entre aquilo que se ensina com o que e para que se avalia; espera, porque os resultados não devem ser vistos como fim, mas como processo; respeito às novas formas de conhecimento e às individualidades do estudante e desapego da forma tradicional de avaliação, tão arraigada na cultura (FAZENDA, 2010, p.32).\n\nÉ relevante frisar que ao avaliar, o professor deve ficar atento à sequência das habilidades que os estudantes desenvolveram no Ensino Fundamental.\n\nComplementarmente, o processo avaliativo precisa considerar as práticas de cooperação, comunicação dos estudantes durante as aulas, além dos processos de investigação científica organizados em atividades articuladas por meio de situações-problema. (GLASGOW, 1996; DELISLE, 1997; TORP e SAGE, 2002).\n\nNo contexto do currículo de referência para as Ciências da Natureza e suas Tecnologias a avaliação precisa ser considerada como um “instrumento” que auxiliará o professor a reconhecer obstáculos, priorizar objetivos e planejar novas ações ao longo da trajetória escolar, de forma prática e efetiva, sendo importante para a formação integral do estudante.\n\nEm suma, o processo de autoavaliação pode ser mais uma estratégia de avaliação importante nos processos de mediação dos conhecimentos por meio de metodologias ativas. Assim o estudante poderá desenvolver a capacidade de observar seus próprios atos e respeitar as limitações dos colegas, de forma consciente.\n\nSendo assim, no âmbito do presente texto, o processo avaliativo dos conhecimentos das Ciências da Natureza e Suas Tecnologias necessitará avaliar o processo de desenvolvimento do conhecimento científico, por meio da reflexão dos erros e do incentivo na busca de soluções para problemas socialmente relevantes, e, além disso, respeitando as particularidades de cada estudante em um processo formativo e somativo que estabeleça uma relação indissociável com processos interventivos, visando, portanto, auxiliar os estudantes no processo de Letramento científico e no desenvolvimento das dez competências gerais da BNCC.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

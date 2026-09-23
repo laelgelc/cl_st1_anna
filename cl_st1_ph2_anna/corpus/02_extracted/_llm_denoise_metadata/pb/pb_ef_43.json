@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09c0472146ad68f6006ab306cedd1087d292bd09dd89681c42",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1320,
+      "input_tokens_details": {
+        "cache_write_tokens": 1317,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1845,
+      "output_tokens_details": {
+        "reasoning_tokens": 684
+      },
+      "total_tokens": 3165
+    }
+  },
+  "created_at": "2026-09-22T22:53:18Z",
+  "duration_seconds": 15.529,
+  "error": null,
+  "excerpt_id": "pb_ef_43",
+  "filename": "pb_ef_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a951162e7778177e02bc777e3e93d01971d7ba87a1df685b0d69cd216358c034",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "415236e276e044c9bce592852f23eb183233b30f610a11f32aa334a9d3f3364f",
+    "rendered_prompt_sha256": "f5992e69a028c219850da1a29b9c55ddc0fb41627f89723f8d998d117f3f8011",
+    "source_text_sha256": "c88792917af6441171939298f80d6a9f2fafbcdb39c78ed25c97dc4f0b998282"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2213,
+    "filename": "pb_ef_43.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_43.txt",
+    "state": "pb",
+    "word_count_original": 851
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_43.json"
+  },
+  "raw_response_text": "## 7.1.7 Avaliação\n\nA avaliação exerce um papel indispensável no ensino e na aprendizagem ao permitir investigar, regular, refletir e fortalecer o processo. Entretanto, esse papel só é alcançado quando a avaliação é concebida de forma intencional e bem articulada com os princípios formativos de apropriação e construção de conhecimentos. Num sentido direto, em sala de aula, o professor deve estar ciente das intencionalidades e finalidades do processo avaliativo, assim como fazer escolhas de instrumentos avaliativos adequados, e reconhecer esse processo como norteador de possíveis ajustes, escolhas metodológicas, intervenções didáticas e nivelamentos que contemplem o aprendizado de seus estudantes.\n\n> “Art. 24. A educação básica, nos níveis fundamental e médio, será organizada de acordo com as seguintes regras comuns: (...)\n>\n> V - a verificação do rendimento escolar observará os seguintes critérios:\n>\n> a. avaliação contínua e cumulativa do desempenho do aluno, com prevalência dos aspectos qualitativos sobre os quantitativos e dos resultados ao longo do período sobre os de eventuais provas finais; (...) e. obrigatoriedade de estudos de recuperação, de preferência paralelos ao período letivo, para os casos de baixo rendimento escolar, a serem disciplinados pelas instituições de ensino em seus regimentos;” (BRASIL, 1996).\n\n> “Em Ciências, também são muitas as formas de avaliação possíveis: individual e coletiva, oral e escrita. Os instrumentos de avaliação comportam, por um lado, a observação sistemática durante as aulas sobre as perguntas feitas pelos estudantes, as respostas dadas, os registros de debates, de entrevistas, de pesquisas, de filmes, de experimentos, os desenhos de observação etc.; por outro lado, as atividades específicas de avaliação, como comunicações de pesquisa, participação em debates, relatórios de leitura, de experimentos e provas dissertativas ou de múltipla escolha.” (BRASIL, 1998, p. 324)\n\nDevemos reconhecer a avaliação não como apenas ponto final do processo de ensino e aprendizagem dos estudantes, mas como essencial antes, durante e ao fim do processo. A depender do momento, a natureza avaliativa exerce papéis específicos:\n\n**a. Avaliação diagnóstica:** visa sondar os conhecimentos adquiridos no decorrer de um processo, situar o contexto de um ou mais estudantes, para que as escolhas metodológicas busquem suprir as possíveis defasagens, aprimorar competências e habilidades já dominadas. Além disso, é possível conhecer interesses, necessidades e interesses dos estudantes. No ensino de ciências, a realização de diagnoses é indispensável para que o progresso no trabalho do desenvolvimento de competências ocorra de forma harmônica com os objetivos estabelecidos. Nela, é possível diagnosticar pontos de interesse para a realização de ações referentes a nivelamento de defasagens não apenas em ciências, mas no processo de alfabetização e letramento em língua materna e até mesmo o matemático.\n\n**b. Avaliação formativa (processual):** visa aprimorar a qualidade do aprendizado e não deve ser compreendida como engessada, fixa, ou que ocorra pontualmente, mas como um processo que ocorre continuamente por meio da adoção de múltiplos instrumentos de avaliação, servindo ainda como sinalizador de possíveis ajustes no planejamento.\n\n**c. Avaliação somativa:** a forma mais frequente de avaliação praticada pelos docentes, que consiste em atribuir uma classificação e/ou certificação acerca da aprendizagem realizada pelos estudantes. Precisa ser coerente e não apenas desempenhar a função de aprovar ou reprovar.\n\nCom relação aos instrumentos avaliativos, é preciso discutir aqui que a avaliação escrita – na forma de testes, provas, simulados, ainda é entendida como única forma de avaliação possível e de maior valor, geralmente planejada para o “final” do processo. Quando confiamos unicamente às “provas escritas” o papel de avaliar, reduzimos seu papel no processo, assim como limitamos a possibilidade de observar outros processos cognitivos dos estudantes, como, por exemplo, os expressos através da observação, percepção, descrição, argumentação oral e textual, análise crítica, interpretação, criatividade, formulação de hipóteses, entre outros.\n\nReduzir a avaliação escrita a um momento de devolução de conceitos estudados na forma fiel ao apresentado, e até mesmo de classificar os estudantes, é empobrecer as possibilidades que o instrumento apresenta. Enquanto instrumento popular no meio da educação, presente dentro e fora da escola, é preciso entender que quando bem estruturada e planejada as avaliações escritas podem nos dá indicadores importantes da aprendizagem dos estudantes. É necessária a contextualização dos enunciados das questões, assim como buscar avaliar nos estudantes a capacidade de fazer uso do conhecimento adquirido, por meio da interpretação de situações, aplicação e/ou identificação de conceitos básicos, resolução de problemas, realização de procedimentos, dentre outros.\n\nPrecisamos salientar aqui a importância de se valorizar as produções elaboradas pelos estudantes, principalmente nos anos iniciais do Ensino Fundamental nas avaliações (independente do instrumento). Muitas vezes, o desvio do esperado como resposta, que comumente chamamos de erro, é desprezado e não aproveitado para se refletir sobre o motivo do erro.\n\nAproveitar do erro deve ser pontuado aqui como meio para a realização de reflexões sobre as escolhas metodológicas feitas, concepções prévias que os estudantes possuem, promoção de diálogo entre senso comum e científico. O erro compõe parte importante no processo de aprendizagem dos estudantes e da avaliação processual, servindo como bússola para possíveis caminhos que levem a necessários ajustes.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

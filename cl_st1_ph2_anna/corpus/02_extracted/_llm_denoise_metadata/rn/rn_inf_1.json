@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07311f35d665fde2006ab30b361c5087d2ae189a6f4309acae",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 823,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 779,
+      "output_tokens_details": {
+        "reasoning_tokens": 54
+      },
+      "total_tokens": 1602
+    }
+  },
+  "created_at": "2026-09-22T23:11:55Z",
+  "duration_seconds": 5.891,
+  "error": null,
+  "excerpt_id": "rn_inf_1",
+  "filename": "rn_inf_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1e6ada81902bf84a484c4683b93a849f0fb095e4e2613e8851c9ead734b25e35",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a446c311df45b749d364341a4ac8d785c9ddeb49bb8647b39f75def668667424",
+    "rendered_prompt_sha256": "40f87534a3bff75f99c18319cfc4d1f4957f0fa5e25cf5c74cbb245489f4d259",
+    "source_text_sha256": "111d2a3e76d7af5edf2ec98abe611387a13e36e807a8bc18f4673bf5c2ee4887"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3054,
+    "filename": "rn_inf_1.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_1.txt",
+    "state": "rn",
+    "word_count_original": 548
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_1.json"
+  },
+  "raw_response_text": "Prezados professores e professoras,\n\nAs redes de ensino do Rio Grande do Norte tiveram, ao longo de 2018, o desafio de consolidar, em regime de colaboração Estado-Municípios, um documento curricular de referência para as escolas do Rio Grande do Norte em consonância com a Base Nacional Comum Curricular (BNCC), documento normativo aprovado pelo Conselho Nacional de Educação (CNE) e que institui e orienta um “conjunto orgânico e progressivo de aprendizagens essenciais que todos os estudantes da Educação Básica devem desenvolver” ao longo de suas etapas – Educação Infantil, Ensino Fundamental e respectivas modalidades, estando o Ensino Médio em processo de homologação (BRASIL, 2017b).\n\nNesse sentido, o Estado e os Municípios se uniram para a melhoria da aprendizagem dos estudantes do Rio Grande do Norte, na construção de um documento curricular que estabelecesse aquilo que o estudante deve aprender para se desenvolver, bem como possibilitasse condições de igualdade e equidade quanto ao desenvolvimento humano integral de crianças, adolescentes e jovens de todas as redes de ensino do Estado.\n\nPara tanto, instituiu-se a Comissão Estadual destinada à implementação da Base Nacional Comum Curricular no Estado do Rio Grande do Norte (BNCC/RN) em relação à Educação Infantil e ao Ensino Fundamental, por meio da Portaria SEEC/GS n. 141/2018, sob presidência da Secretária de Estado da Educação e da Cultura do Rio Grande do Norte e representações da União Nacional dos Dirigentes Municipais de Educação (Undime) e da União Nacional dos Conselhos Municipais de Educação (UNCME), com o compromisso de estabelecer e cumprir as premissas do regime de colaboração. O Termo de Intenção de Colaboração para construção do Documento Curricular do Estado obteve a adesão total dos 167 municípios e firmou, entre o Estado e os Municípios, o compromisso com a garantia das aprendizagens dos estudantes de todas as redes de ensino do território potiguar.\n\nO Documento Curricular do Estado do Rio Grande do Norte para a Educação Infantil e o Ensino Fundamental é fruto de um trabalho colaborativo, que envolveu articuladores dos diversos segmentos das redes estadual, municipais e privada e os Conselhos Estadual e Municipais de Educação, entre outros colaboradores. Configurou-se como um processo democrático na medida em que as escolas se mobilizaram e puderam contribuir significativamente na sua construção. As observações e sugestões apresentadas por meio da consulta pública foram categorizadas e sistematizadas, aperfeiçoando-se o texto original. A elaboração deste Documento Curricular contou com a participação de professores e agentes da sociedade civil, por meio de mais de 15 mil acessos a consulta pública on-line.\n\nNo caso do Ensino Médio, ela decorreu da articulação da Subcoordenadoria de Ensino Médio (SUEM) da SEEC/RN com as Diretorias Regionais de Educação e Cultura (Direcs) na promoção de seminários de discussão e aprimoramento do Documento Curricular, entre outras medidas para a escuta de professores e outros profissionais da rede estadual, bem como de especialistas contratados.\n\nAssim o Rio Grande do Norte vive um momento histórico, nunca antes visto, por ser um esforço coletivo de produção de um documento inédito de referência para todas as redes de ensino, que disponibiliza para as escolas e professores um currículo crítico, reflexivo e contextualizado, alinhado com a diversidade regional norte-rio-grandense e com o propósito de melhoria da aprendizagem e do desenvolvimento dos nossos estudantes.\n\nBom trabalho!",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

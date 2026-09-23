@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07cb7506f401ff6a006ab30a90d7f087d2bc79cbf1a7289958",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 582,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 590,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "total_tokens": 1172
+    }
+  },
+  "created_at": "2026-09-22T23:09:09Z",
+  "duration_seconds": 5.192,
+  "error": null,
+  "excerpt_id": "rj_inf_alfabetizar_1",
+  "filename": "rj_inf_alfabetizar_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4a23b701a1523af34df7424e0ae732a2600924d5531a417c8e27008d2541f3e7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b045536184a4e6272b5907975831f3a1d17dafd5df869d11bfb5204158e59f9d",
+    "rendered_prompt_sha256": "0922556be86905251a65f73595f412466c8fad79ef86877acff0f6d433113fdb",
+    "source_text_sha256": "40089dc290522fdd547e887b1ff09b14edba764b043908e36884336f86a6dd8b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_alfabetizar_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2892,
+    "filename": "rj_inf_alfabetizar_1.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_alfabetizar_1.txt",
+    "state": "rj",
+    "word_count_original": 336
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_alfabetizar_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_alfabetizar_1.json"
+  },
+  "raw_response_text": "### Alfabetizar ou Não? É Proibido Alfabetizar na Educação Infantil?\n\nÉ necessário lembrar que o objetivo da Educação Infantil não é a alfabetização *stricto sensu*.\n\nEmbora crianças da pré-escola possam se alfabetizar por interesse particular a partir das interações e da brincadeira com a linguagem escrita, não cabe à pré-escola ter a alfabetização da turma como proposta.\n\nNa Educação Infantil, por exemplo, mais importante que ensinar as letras do alfabeto, o qual é familiar às crianças desde bebês, é preciso desenvolver práticas sociais em que a leitura e a escrita estejam presentes, exercendo funções diversas nas interações sociais.\n\nAté agora, a escrita ocupou um lugar muito estreito na prática escolar, em relação ao papel fundamental que ela desempenha no desenvolvimento cultural da criança. Ensinam-se as crianças a desenhar letras e construir palavras com elas, mas não se ensina a linguagem escrita. Enfatiza-se de tal modo a mecânica de ler o que está escrito que se acaba obscurecendo a linguagem escrita como tal (VYGOTSKY, 1991, p. 139).\n\nA concepção de aprendizagem da linguagem escrita, a partir dos estudos sobre a psicogênese da língua escrita, tem como base as ideias e hipóteses de que as crianças constroem essa aprendizagem ao tentar compreender a linguagem escrita. Essas pesquisas foram desenvolvidas a partir da década de 1970, por Emília Ferreiro e Ana Teberosky (1999, 2000). Os resultados encontram-se publicados, no Brasil, no livro *A Psicogênese da Língua Escrita*, que consta da bibliografia deste documento, e em outras obras das mesmas autoras.\n\nAs crianças não começam a aprender a linguagem escrita (ler e escrever) quando os adultos determinam qual seria a idade certa de realizar esse aprendizado. Elas já carregam muitos conhecimentos antes mesmo de ingressarem na Educação Infantil e utilizam seus conhecimentos para a solução de problemas do cotidiano e para a efetivação de sua comunicação e interação com o mundo e com outros indivíduos. Desde muito pequenas, as crianças aprendem da sua maneira e em tempo singular, formulando suas hipóteses, resolvendo problemas e elaborando conceitos.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0361cd2686e18c9b006ab30d20113c87d2aa7a5322c8fc81a1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1230,
+      "input_tokens_details": {
+        "cache_write_tokens": 1227,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1349,
+      "output_tokens_details": {
+        "reasoning_tokens": 219
+      },
+      "total_tokens": 2579
+    }
+  },
+  "created_at": "2026-09-22T23:20:08Z",
+  "duration_seconds": 8.604,
+  "error": null,
+  "excerpt_id": "rr_em_19",
+  "filename": "rr_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "da0abe576b13939ccfc3c9ce28f8b60247082a93c7140afb8dc0337e271c6236",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c2de53bd8b246fffe6d74a3d4ba41d15e3ac76e7ad6b6b90b7ccd1cdf831955f",
+    "rendered_prompt_sha256": "6426c2f032f0e614c1fb6f83a37578490e04bb2220ef2f5aa4eb5d6a7ca2c075",
+    "source_text_sha256": "9d228d259d8c54dfef949eccdba905d5460ffb5c2dc62c1e79304cfd4ce79784"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3451,
+    "filename": "rr_em_19.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_19.txt",
+    "state": "rr",
+    "word_count_original": 795
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_19.json"
+  },
+  "raw_response_text": "# ARQUITETURA GERAL\n\nA reforma pela qual o Ensino Médio está passando traz desafios a todos envolvidos no processo educacional. As transformações de caráter social e emocional enfrentadas pelos jovens, associadas às mudanças relativas à ampliação e disseminação das novas tecnologias fazem com que o modelo de Ensino Médio vigente não corresponda às necessidades dos estudantes.\n\nEssa desconexão entre os anseios da juventude e as exigências do modelo de Ensino Médio, contribuiu para a desmotivação e desinteresse dos estudantes pela escola, pois, há um descompasso entre a formação escolar oferecida, os interesses dos estudantes e as exigências do mundo contemporâneo, que evidenciam a necessidade de mudanças na estrutura e organização dessa etapa da Educação Básica.\n\nNa perspectiva de superar este impasse, a BNCC assegura um processo de ensino e aprendizagem focado no desenvolvimento integral, acolhendo as diversidades, garantindo o protagonismo dos estudantes e uma formação em sintonia com seus percursos e histórias de vida (BRASIL, 2018a). Portanto, para atender essa proposta de formação, foi necessário a proposição de um modelo de organização curricular diversificado e flexível.\n\nNesse contexto, o processo de elaboração do currículo em Roraima, se deteve primordialmente a incorporar a BNCC em seus diferentes aspectos e abrir diversas possibilidades de organização e oferta dos itinerários formativos pelas redes e instituições de ensino, considerando as especificidades e dinâmicas sociais existentes no Estado. Dessa forma, o Documento Curricular de Roraima – DCRR, enquanto constructo histórico e social, pretende ser uma importante ferramenta de transformação social na medida que oportuniza o acesso dos estudantes à múltiplas aprendizagens de acordo com seu interesse e a realidade em que vive.\n\nAssim, a definição da arquitetura do DCRR se deu a partir das demandas apresentadas pelas escolas, em diversos momentos promovidos em grande medida pela Secretaria de Estado da Educação e Desporto de Roraima, onde foram realizados debates, formações, consulta pública, levantamentos direcionados para implementação do Novo Ensino Médio e por um longo processo de planejamento e escrita do documento curricular.\n\nNesse percurso, o estudante sempre foi considerado como ator principal do processo de aprendizagem, de modo que seus anseios fossem contemplados na estrutura curricular. Porém, não sem desconsiderar as capacidades físicas, operacionais e organizacionais das redes e instituições de ensino, bem como a análise de sua dinâmica territorial, econômica e capacidade de articulação e mobilização, na definição de uma arquitetura mais adequada à realidade local. Portanto, o DCRR estabelece uma estrutura curricular flexível e alinhada com as DCNEM (BRASIL, 2018d) e BNCC (BRASIL, 2018a), composta pela Formação Geral Básica - FGB, com carga horária máxima de 1.800 horas, e por Itinerários Formativos - IF, com carga horária mínima de 1.200 horas.\n\nDesta forma, a Formação Geral Básica está organizada a fim de possibilitar o desenvolvimento das competências e habilidades expressas na BNCC, sendo ofertada por áreas de conhecimento e considerando a premissa do planejamento interdisciplinar e transdisciplinar, essencialmente, entre as unidades curriculares da mesma área, conforme estabelecido no artigo 35-A da LDBEN (BRASIL, 1996).\n\nA Base Nacional Comum Curricular definirá direitos e objetivos de aprendizagem do ensino médio, conforme diretrizes do Conselho Nacional de Educação, nas seguintes áreas do conhecimento:\n\nI - linguagens e suas tecnologias;  \nII - matemática e suas tecnologias;  \nIII - ciências da natureza e suas tecnologias;  \nIV - ciências humanas e sociais aplicadas.\n\nDe modo indissociável da Formação Geral Básica, os Itinerários Formativos devem aprofundar e ampliar as aprendizagens dos estudantes, por meio da oferta de Trilhas de Aprendizagem³ que favoreçam a sua autonomia e protagonismo, considerando os aspectos físicos, cognitivos e socioemocionais. Então, considerando o art. 36 da Lei No 13.415 (BRASIL, 2017a), a oferta dos IF deve observar alguns critérios:\n\nO currículo do ensino médio será composto pela Base Nacional Comum Curricular e por itinerários formativos, que deverão ser organizados por meio da oferta de diferentes arranjos curriculares, conforme a relevância para o contexto local e a possibilidade dos sistemas de ensino, a saber:\n\nI - linguagens e suas tecnologias;  \nII - matemática e suas tecnologias;  \nIII - ciências da natureza e suas tecnologias;  \nIV - ciências humanas e sociais aplicadas;  \nV - formação técnica e profissional.\n\nNesse processo, o DCRR estabelece que os itinerários formativos serão desenvolvidos por meio das unidades curriculares, Projeto de Vida, Eletivas e Aprofundamento. Nesta configuração, os itinerários formativos se apresentam como a parte mais desafiadora da nova arquitetura curricular, pois requerem criatividade e inovação no que diz respeito à elaboração de arranjos curriculares que oportunizem mudanças significativas na organização de tempos, espaços e práticas escolares, de forma que façam mais sentido e gerem mais aprendizagem e desenvolvimento para os jovens de Roraima.\n\n³ A noção de trilhas de aprendizagem surge como estratégia para promover o desenvolvimento de competências e habilidades, tomando-se como referência não só as expectativas das redes e instituições de ensino, mas também os anseios e aspirações pessoais dos estudantes.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

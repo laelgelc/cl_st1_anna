@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_077b1fe3bf7c7b89006ab302aae3d487d2b77d1094206e6f8d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 600,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 561,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 1161
+    }
+  },
+  "created_at": "2026-09-22T22:35:29Z",
+  "duration_seconds": 6.696,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_ed_fis_13",
+  "filename": "mg_ef_linguagens_ed_fis_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "38ff43ec1d3250dc3cf15956d094db0e7971a5acbd3d42324d694c629e88eff2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5f64932c1632c8d4d530fbafe35e5abcf9202558b072aa7927be95000d115e6c",
+    "rendered_prompt_sha256": "f22cbd1827da223b248344588f744a8ba0da2d81dd5073eecb3454398fe815e1",
+    "source_text_sha256": "0b7a043efcb34cd29ff41f93dd946465c4b0ff28d1a8e32cafe3cde9673df4f7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_ed_fis_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1437,
+    "filename": "mg_ef_linguagens_ed_fis_13.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_ed_fis_13.txt",
+    "state": "mg",
+    "word_count_original": 331
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_ed_fis_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_ed_fis_13.json"
+  },
+  "raw_response_text": "## 7.6 Avaliação\n\nAs práticas avaliativas são um desafio antigo do espaço escolar. Historicamente elas foram utilizadas de forma classificatória, punitiva, excludente, entre outras. Precisamos nos mobilizar para o desenvolvimento de recursos e estratégias que garantam a finalidade legítima dos processos avaliativos: nortear as práticas pedagógicas, oferecendo aos professores devolutivas claras sobre o desenvolvimento e a apropriação dos saberes trabalhados pelos estudantes. Conforme nos apresenta o CBC:\n\n> Historicamente, o fato de a Educação Física ser concebida como atividade e a avaliação escolar estar atrelada à ideia de atribuir nota, na perspectiva de aprovação ou reprovação, tem contribuído para que os professores dessa área não avaliem o processo ensino-aprendizagem de forma sistemática. A avaliação, segundo Sacristán (1998), é o meio pelo qual alguma ou várias características do aluno, de um grupo de estudantes, de um ambiente, ou dos materiais educativos, professores, programas, são analisadas por alguém, na perspectiva de conhecer suas características e condições, seus limites e potencialidades, em razão de alguns critérios ou pontos de referência, para emitir um julgamento que seja relevante em termos educacionais.\n>\n> Assim, a avaliação merece atenção especial, uma vez que desempenha diversas funções e serve a vários objetivos, não só para os alunos como para os professores, para a instituição escolar, a família e o sistema social. Possibilita a criação de uma cultura de responsabilidade pelos resultados, utilizando-os em ações de realimentação e ressignificação das práticas educativas escolares e políticas educacionais. (CBC, Educação Física SEE/MG, 2008).\n\nChamada a atenção para os limites a serem superados, ressaltamos a importância da construção de práticas avaliativas na Educação Física escolar baseadas em múltiplas estratégias, procedimentos, instrumentos e recursos que possam nortear a adoção e revisão de metodologias e ações pedagógicas que garantam o desenvolvimento das habilidades e competências propostas para a etapa do ensino fundamental. Nesse sentido, mensurações quantitativas e qualitativas têm espaço e valor, desde que contextualizadas e vinculadas aos objetivos almejados, sempre em prol dos princípios aqui propostos: cooperação, inclusão, solidariedade, respeito e empatia.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

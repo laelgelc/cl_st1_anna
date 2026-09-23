@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0637d437de7a597c006ab307016ec887d2bddd36e18b660733",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 814,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 789,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 1603
+    }
+  },
+  "created_at": "2026-09-22T22:53:58Z",
+  "duration_seconds": 5.637,
+  "error": null,
+  "excerpt_id": "pb_em_109",
+  "filename": "pb_em_109.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "86f515fe7f88be9ba6264dd925c66be52ea7fa7f741173d3c1196cd198ea3db5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "74283faef1740128a916234d45abcf74dc34f6ed0671272ab7bc5a44e783031a",
+    "rendered_prompt_sha256": "d48f9b61b68ddfe5a65dedc8123691564422afbbd1674bdda222c811dd6e243b",
+    "source_text_sha256": "6268ae3e1da8d414e02aae8b3eb02591c0ccc9b99b1c707a602196c38399d76c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_109.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2243,
+    "filename": "pb_em_109.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_109.txt",
+    "state": "pb",
+    "word_count_original": 554
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_109.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_109.json"
+  },
+  "raw_response_text": "### 4.2.1 ARTICULAÇÃO CURRICULAR\n\nDurante muitos anos, as metodologias de ensino vêm se pautando em memorização. Muitas vezes os conteúdos são ministrados sem estratégias de aprendizagem, com pouca ou nenhuma participação dos estudantes, além de não haver o trabalho de interação entre as áreas de conhecimento, que é um dos principais fatores para desenvolver uma metodologia de ensino para a vida.\n\nAs escolas que possuem no currículo o ensino propedêutico e o técnico devem compreender que a articulação curricular e o ensino pautados em competências são pontos-chaves. Mas esses pontos não podem ficar no papel. Eles precisam fazer parte da vivência prática e diária da instituição. Assim, como as áreas de conhecimento da Formação Geral Básica devem se integrar, a formação profissional também precisa realizar e fazer parte dessa interação, afinal, para que o indivíduo se desenvolva no trabalho e na vida, é preciso reunir os conhecimentos básicos e técnicos adquiridos durante o período escolar.\n\nAlém da integração entre a Formação Geral Básica e a Formação Profissional, a articulação curricular acontece efetivamente quando se muda o pensamento da visão segmentada para a visão da totalidade. Assim, deve ser realizada a articulação das diferentes perspectivas que se encontram no contexto educacional e que perpassam o processo de implementação de um currículo:\n\nFormação Geral Básica + Formação Profissional + Setor produtivo + Comunidade\n\nTrabalhar um currículo pautado em Competências e Habilidades é o marco inicial para formar um caminho de articulação, mas, para isso, é primordial a capacitação do corpo docente para montar e trilhar esse caminho.\n\nDiante desse contexto, implementar uma cultura de articulação curricular, de interdisciplinaridade e de troca de conhecimentos implica refletir sobre o papel específico da escola e realizar uma organização em todos os campos curriculares, para que sejam alicerçados no trabalho colaborativo e possibilite a construção de uma escola mais ativa, mais coesa e que nunca perca a função de emancipadora social e de proporcionadora da transformação.\n\nO conceito de currículo implica pensar a educação e o trabalho nas escolas numa perspectiva de envolvência realizada por intermédio de uma ação coletiva e no trabalho de colaboração entre os professores, acarretando um trabalho integrado em que a articulação aparece de forma sequencial e com coerência. Para adequar o currículo às necessidades dos estudantes e ao seu contexto, faz-se mister uma tomada de decisões por parte da escola quanto a diversos aspetos, designadamente no que concerne ao desenvolvimento e gestão dos diferentes componentes do currículo e à articulação que se pretende estabelecer entre elas.\n\nEssa ação significa ligar, associar, juntar elementos distintos para o funcionamento eficaz de um conjunto. Nesse contexto, a articulação entre professores da Formação Geral Básica e da Formação profissional, que trabalham com o mesmo estudante, necessitam de práticas colaborativas facilitadoras do processo de ensino-aprendizagem, para promover a construção e o planejamento conjunto das atividades futuras e integradas aos saberes e competências, transformando a aprendizagem do aluno significativa.\n\nPara esse momento de articulação colaborativa, foi estabelecido na matriz um turno semanal para capacitação e formação continuada da equipe escolar, bem como o trabalho da articulação curricular sem comprometer o fluxo da rotina escolar e sobrecarregar os profissionais. Dentro da proposta, além da carga horária da Formação Geral Básica de 1800h, também será possível ofertar trilhas de aprofundamento das áreas de conhecimentos e trabalhar o nivelamento com os estudantes.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

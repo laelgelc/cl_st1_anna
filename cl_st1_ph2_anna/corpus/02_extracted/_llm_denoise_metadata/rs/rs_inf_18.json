@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e9009ab8c8a7168006ab30dfecf8c87d28ce6c848c0275119",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 347,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 311,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 658
+    }
+  },
+  "created_at": "2026-09-22T23:23:46Z",
+  "duration_seconds": 3.316,
+  "error": null,
+  "excerpt_id": "rs_inf_18",
+  "filename": "rs_inf_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b75efed569832d010c8d06b332c18f876e410729a41b61dad3137236a24391f9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "db5fbed2ded9ca8db16e2cdf48cd71f87c59018f478b6adb0b47206d42680b47",
+    "rendered_prompt_sha256": "91f80cdddeba2cef7572260dd19f68d8016adf05dbac9420d8079394a4da1b17",
+    "source_text_sha256": "bdffd301c853e4de01cce82097446819172d719b6f5b984cfb794883b45e96b4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3650,
+    "filename": "rs_inf_18.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_18.txt",
+    "state": "rs",
+    "word_count_original": 158
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_18.json"
+  },
+  "raw_response_text": "## 12. SÍNTESE DAS APRENDIZAGENS E DESENVOLVIMENTO DAS CRIANÇAS NO PERCURSO DA EDUCAÇÃO INFANTIL\n\nConsiderando os Direitos e os Objetivos de aprendizagem e desenvolvimento elencados pela BNCC (2017), apresenta-se o quadro síntese das aprendizagens esperadas em cada Campo de Experiências. Essa síntese deve ser compreendida como um elemento balizador e indicativo de objetivos a serem explorados ao longo de toda a etapa da Educação Infantil e que serão ampliados e aprofundados no Ensino Fundamental, não constituindo condição ou requisito para o acesso a esta etapa.\n\nPortanto, a síntese oferece uma referência para o planejamento das ações didáticas, da composição dos espaços, da definição dos tempos, da seleção e oferta de materiais, das diversas formas de agrupamentos de crianças, das intervenções do professor, das relações e interações, da multiplicidade de experiências e possibilidades de aprendizagem e desenvolvimento que a escola deve organizar para garantir os direitos e as especificidades do percurso educativo de todas as crianças na Educação Infantil.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

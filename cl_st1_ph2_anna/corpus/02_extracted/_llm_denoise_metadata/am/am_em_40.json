@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0716877786b6c83e006ab2fd8b63ec87d2ab9552e55d93fe5c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 726,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 662,
+      "output_tokens_details": {
+        "reasoning_tokens": 96
+      },
+      "total_tokens": 1388
+    }
+  },
+  "created_at": "2026-09-22T22:13:36Z",
+  "duration_seconds": 5.299,
+  "error": null,
+  "excerpt_id": "am_em_40",
+  "filename": "am_em_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4fbf21018cbff5d1045dcf895582e0a64bcb904352ab28fa988a76dbe701a7bb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f7cff52b53b0d3431190c704e0049d6dc1f9d11713d55d4b4316fbb4bfd1bcba",
+    "rendered_prompt_sha256": "3087941e1a8231b03db2de15ff1dc70f477ab80984c9cd722c9a03699d6da33f",
+    "source_text_sha256": "66c57e2379aa7948dbc103d1bde042e386b70ebc9f90d1041b4ce16c60c92abe"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 401,
+    "filename": "am_em_40.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_40.txt",
+    "state": "am",
+    "word_count_original": 416
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_40.json"
+  },
+  "raw_response_text": "## 5.2 Concepções sobre avaliação com foco no desenvolvimento integral\n\nO conceito de avaliação acompanha as mudanças históricas da sociedade.\n\nNestas duas últimas décadas, o conceito vem evoluindo de modo acelerado, e isto tem se tornado um grande desafio a todos os envolvidos com a educação básica, uma vez que inovações teórico-metodológicas vêm surgindo e assim, gerando um descompasso com a prática educacional. Tal desafio recai na capacidade de se reconhecer o que é importante saber e, de fato, utilizar das informações que se recebe.\n\nA Educação Básica passa por um processo de inovação em todos os aspectos e, principalmente, no Ensino Médio, requer ressignificar-se, para conduzir as modificações que serão necessárias ocorrerem nas rotinas educacionais e nas práticas exercidas em sala de aula.\n\nSó assim, será possível compreender as exigências da BNCC nos mais diferentes âmbitos das escolas, uma vez que o seu comprometimento está voltado para uma educação integral que, segundo a BNCC, se comprometa com a “[...] construção intencional de processos educativos que promovam aprendizagens sintonizadas com as necessidades, as possibilidades e os interesses dos estudantes” (BRASIL, 2018, p. 14).\n\nE, para este contexto, as escolas são desafiadas a desenvolverem as competências nos estudantes, para participarem e interagirem no mundo global, levando-se em consideração o ser flexível, criativo com capacidade de encontrar soluções, para problemas que afetam a sociedade e/ou que possam vir a afetá-la no futuro.\n\nPensar em avaliação é pensar em quais conhecimentos que ultrapassam a simples transmissão e aprendizagem de conteúdos, como agregá-los ao desenvolvimento pessoal e preparar os estudantes para a vivência em sociedade e com capacidade de inventar e inovar diante de quaisquer riscos mediante seus próprios atos.\n\nCompete ainda, o que propõe a BNCC, “[...] a superação da fragmentação radicalmente disciplinar do conhecimento, o estímulo à sua aplicação na vida real, à importância do contexto para dar sentido ao que se aprende e o protagonismo do estudante em sua aprendizagem e na construção de seu Projeto de Vida” (BRASIL, 2018, p. 15).\n\nDiante deste cenário, todos os envolvidos com a educação têm que iniciar o processo de mudanças em suas práticas, pensar em formas alternativas que contribuam para a formação de cidadãos responsáveis, capazes e ativos.\n\nO que significa dizer é que a prática de avaliar deve apontar para o melhor dos estudantes, devendo ser inclusiva, orientando-o em seu desenvolvimento integral, e é pensando nesta condução, que são apontadas algumas sugestões de tipos de avaliação e instrumentos avaliativos que possibilitam esse caminho.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

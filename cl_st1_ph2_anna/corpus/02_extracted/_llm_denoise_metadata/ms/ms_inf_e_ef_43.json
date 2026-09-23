@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08dbc18882992940006ab303fc7a9487d2b314a93c55f52361",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1534,
+      "input_tokens_details": {
+        "cache_write_tokens": 1531,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1436,
+      "output_tokens_details": {
+        "reasoning_tokens": 115
+      },
+      "total_tokens": 2970
+    }
+  },
+  "created_at": "2026-09-22T22:41:10Z",
+  "duration_seconds": 9.639,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_43",
+  "filename": "ms_inf_e_ef_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4f5aea4cf0ed5b0d416e33f243dd7a056a460797e5961476d1e5b68a9d24e0c2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f9488d7cdaa9cdb872b3160df62b846237706b28bb30649db3b8bc24ea7914fd",
+    "rendered_prompt_sha256": "251aefec0fa340636a1f4a8938f8c101afc2476ff85c0eb5787060277031cbfa",
+    "source_text_sha256": "640be283ab774a5ee27155c3d453be94c79ac13ac962ff748dd6edf3fdd77cd9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1764,
+    "filename": "ms_inf_e_ef_43.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_43.txt",
+    "state": "ms",
+    "word_count_original": 932
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_43.json"
+  },
+  "raw_response_text": "## 8.5 Área de Ciências da Natureza – Componente Curricular Ciências\n\n> Todo grande progresso da ciência resultou de uma nova audácia da imaginação.  \n> (John Dewey)\n\nA construção do conhecimento científico está relacionada às questões sociais, uma vez que possui implicações diretas e indiretas no que tange aos aspectos econômicos, culturais, tecnológicos e históricos. Além disso, a compreensão do saber científico favorece a cidadania, proporcionando previsões, explicações e tomadas de decisão acerca das intervenções sobre o meio e seus impactos no mundo contemporâneo.\n\nNessa perspectiva, a ciência representada como empreendimento humano colabora coletivamente para a compreensão dos fenômenos naturais, da percepção do homem como indivíduo integrante e participativo na sociedade e, em função das demandas sociais, além das políticas, econômicas e tecnológicas, principalmente, devido ao processo de industrialização fortemente influenciado pelos efeitos da Segunda Guerra Mundial, o ensino de Ciências foi incorporado ao currículo nacional.\n\nDiante disso, em 1961, a Lei n. 4.024 (Lei de Diretrizes e Bases da Educação - LDB) torna obrigatória a disciplina de Ciências da Natureza (Programas de Saúde) no currículo do curso ginasial (anos finais do Ensino Fundamental) e uma década depois passou a ser obrigatória nos currículos de primeiro e segundo graus, atualmente denominados Ensino Fundamental e Ensino Médio (LDB 5.692/71).\n\nEm 1996, foi aprovada uma nova Lei de Diretrizes e Bases da Educação Nacional, a Lei n. 9.394, a qual preconiza a educação escolar vinculada ao mundo do trabalho e à prática social, além de estabelecer nos currículos do Ensino Fundamental e do Ensino Médio uma base nacional comum curricular.\n\nAinda no ano 1996, surgiram os Parâmetros Curriculares Nacionais (PCNs), documento orientador que tem por “objetivo auxiliar o professor na execução de seu trabalho, compartilhando seu esforço diário de fazer com que as crianças dominem os conhecimentos de que necessitam para crescerem como cidadãos plenamente reconhecidos e conscientes de seu papel em nossa sociedade” (BRASIL, 1997). O documento propõe a integração das áreas de conhecimento em uma perspectiva interdisciplinar, fomentando discussões e reflexões acerca do currículo de Ciências da Natureza.\n\nCom o advento da Base Nacional Comum Curricular – BNCC, 2017, o ensino de Ciências, neste documento, orienta a formação de cidadão crítico, consciente e participativo e preconiza o ensino contextualizado e problematizador, com o objetivo de proporcionar a compreensão e a reflexão individual e coletiva sobre o cotidiano da sociedade. Assim, considerando a importância das abordagens conceituais, procedimentais e as implicações sociais e históricas associadas aos eixos estruturantes do Ensino de Ciências, constata-se que os conteúdos, em suas múltiplas dimensões, representam um meio e não, necessariamente, o fim no processo de ensino e de aprendizagem, haja vista a formação integral do estudante.\n\nNesse cenário, a diversidade de recursos didático-pedagógicos pode contribuir com o processo contínuo de reorganização e reconstrução do conhecimento dos estudantes. Dessa forma, a proposta de atividades pautadas em problematizações, por meio do ensino investigativo, possibilita a iniciação à educação científica, pois permite ao estudante a ampliação de suas concepções sobre a Ciência, seus avanços sociais, científicos e tecnológicos, os quais influenciam o contexto escolar e a vida cotidiana.\n\nEm termos gerais, o ensino por investigação, conforme proposto pela BNCC, pode ser uma estratégia para alcançar o letramento científico, visto que considera os estudantes como participantes no processo de construção do conhecimento, capazes de reorganizá-lo a partir de observações, questionamentos, elaborações de hipóteses, experimentações, análise, representação de resultados e proposta de intervenção, bem como possíveis explicações para os diversos fenômenos cotidianos.\n\nAssim, essa proposta pretende promover o acesso ao letramento científico de maneira igualitária, contribuindo com a construção do conhecimento, o estímulo ao protagonismo e a autonomia dos estudantes.\n\n### 8.5.1 Competências específicas de Ciências da Natureza de acordo com a BNCC (2017):\n\n1. Compreender as Ciências da Natureza como empreendimento humano e o conhecimento científico como provisório, cultural e histórico.\n2. Compreender conceitos fundamentais e estruturas explicativas das Ciências da Natureza, bem como dominar processos, práticas e procedimentos da investigação científica, de modo a sentir segurança no debate de questões científicas, tecnológicas, socioambientais e do mundo do trabalho, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.\n3. Analisar, compreender e explicar características, fenômenos e processos relativos ao mundo natural, social e tecnológico (incluindo o digital), como também as relações que se estabelecem entre eles, exercitando a curiosidade para fazer perguntas, buscar respostas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das Ciências da Natureza.\n4. Avaliar aplicações e implicações políticas, socioambientais e culturais da ciência e de suas tecnologias para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.\n5. Construir argumentos com base em dados, evidências e informações confiáveis, negociar e defender ideias e pontos de vista que promovam a consciência socioambiental e o respeito a si próprio e ao outro, acolhendo e valorizando a diversidade de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.\n6. Utilizar diferentes linguagens e tecnologias digitais de informação e comunicação para se comunicar, acessar e disseminar informações, produzir conhecimentos e resolver problemas das Ciências da Natureza de forma crítica, significativa, reflexiva e ética.\n7. Conhecer, apreciar e cuidar de si, do seu corpo e bem-estar, compreendendo-se na diversidade humana, fazendo-se respeitar e respeitando o outro, recorrendo aos conhecimentos das Ciências da Natureza e as suas tecnologias.\n8. Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, recorrendo aos conhecimentos das Ciências da Natureza para tomar decisões frente a questões científico-tecnológicas e socioambientais e a respeito da saúde individual e coletiva, com base em princípios éticos, democráticos, sustentáveis e solidários.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

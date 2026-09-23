@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_047978e82b088a80006ab30433950c87d296963598f8540571",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 929,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 868,
+      "output_tokens_details": {
+        "reasoning_tokens": 104
+      },
+      "total_tokens": 1797
+    }
+  },
+  "created_at": "2026-09-22T22:42:04Z",
+  "duration_seconds": 8.557,
+  "error": null,
+  "excerpt_id": "mt_ef_101",
+  "filename": "mt_ef_101.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b147e5b65858fce2460343e5183977f0e262a3ee84a640a77c29adb9865f223c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "358fc5eae8d4773a20150926c493baebb0c972976c97ffcd7d891eddf11b6340",
+    "rendered_prompt_sha256": "e037f6f9d4554b60351d5684ac349bda9e3b331b44a29122af0bfc99fb0e4e13",
+    "source_text_sha256": "badfe6b0d3cfb1a0064835dde3b336294c75bb3ffd0c98c59fc8caf7e3625f62"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_101.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1801,
+    "filename": "mt_ef_101.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_101.txt",
+    "state": "mt",
+    "word_count_original": 537
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_101.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_101.json"
+  },
+  "raw_response_text": "### 4.3.6. Avaliação para as Aprendizagens\n\nA avaliação em Ensino Religioso deve fazer parte de todo o processo de aprendizagem do estudante, pois os conhecimentos pertinentes ao Componente Curricular fortalecem a identidade, a autonomia, a confiança, o respeito e a valorização de si e do outro. Assim, a avaliação é uma questão que merece a reflexão dos professores, coordenadores pedagógicos e gestores sobre os instrumentos utilizados, sua produção, a frequência em que ocorrem, critérios e suas habilidades.\n\nSegundo Gomes (2003, p.126), o\n\n> Ensino Religioso como componente curricular integrante e integrador do currículo necessita do processo de avaliação que deve ser entendido como um instrumento contínuo para aperfeiçoamento da prática pedagógica, colaborando na crescente busca do ser.\n\nNessa perspectiva, a avaliação deve ser diagnóstica, processual, formativa e somativa, levando em consideração a diversidade e as vivências culturais, respeitando os Direitos Humanos, responsabilidade social, ambiental, com posicionamento ético e comprometimento com o outro, o mundo e o meio ao qual pertence.\n\nDestaca-se Perrenoud (1999, p.54) ao afirmar que:\n\n> Na avaliação da aprendizagem, o professor não deve permitir que os resultados das provas periódicas, geralmente de caráter classificatório, sejam supervalorizados em detrimento de suas observações diárias, de caráter diagnóstico. A avaliação é um processo que deve estar a serviço das individualizações da aprendizagem.\n\nA avaliação de aprendizagem em ensino religioso, parte do princípio da autorreflexão, da superação das intransigências e intolerâncias, auxiliando o trabalho pedagógico do rever, analisar, ressignificar e reformular a própria prática avaliativa que tem o propósito de acompanhar os avanços e superação dos objetos de conhecimento do Componente Curricular.\n\nDessa forma, a natureza da diversidade cultural religiosa tem o objetivo de:\n\na) Conduzir o estudante a uma síntese das experiências realizadas durante certo período, situando-o em um conjunto que lhe permita a compreensão cada vez mais completa do homem, da cultura e das organizações sociais e religiosas;\n\nb) Proporcionar uma visão global, com maior clareza e aprofundamento na formação do pensamento crítico, com fundamento no sincretismo religioso, problematizando e posicionando frente aos discursos e práticas de intolerância, discriminação e violência de cunho religioso, de modo que se assegurem assim, os Direitos Humanos no constante exercício da cidadania e da cultura da paz;\n\nc) Levar o estudante a assumir a dinâmica do processo educativo, do qual ele próprio é o agente questionador do pensamento religioso, respeitando a diversidade de identidades, crenças, convicções e modos de viver;\n\nd) Possibilitar ao professor o controle dos resultados do processo de aprendizagem e a responsabilidade de diminuir o preconceito religioso. Conhecendo diferentes aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida, a partir de pressupostos científicos, filosóficos, estéticos e éticos.\n\nEnfim, a avaliação da aprendizagem deve acompanhar o processo educativo e repensar estratégias didático-metodológicas e intervir, buscando a garantia da assimilação dos objetos de conhecimentos elaborados pedagogicamente para determinadas habilidades.\n\nPortanto, o professor com a participação do estudante construirá os caminhos pedagógicos, com o fim de consolidar o protagonismo do estudante. O planejar, o organizar instrumentos e as técnicas de avaliação, que subsidiam o processo avaliativo, voltado para o compromisso com a aprendizagem e reflexões dos objetos de conhecimentos do Componente Curricular Ensino Religioso, além de trabalhar o respeito, a autorreflexão e a alteridade.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

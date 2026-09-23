@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f7875a106bb0434006ab30f43860487d291c67144ec4f28ed",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1265,
+      "input_tokens_details": {
+        "cache_write_tokens": 1262,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1575,
+      "output_tokens_details": {
+        "reasoning_tokens": 498
+      },
+      "total_tokens": 2840
+    }
+  },
+  "created_at": "2026-09-22T23:29:18Z",
+  "duration_seconds": 11.416,
+  "error": null,
+  "excerpt_id": "se_em_25",
+  "filename": "se_em_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "854bfffd1ade54a07c055e8809e6dfa4ab2c0b258bdad168370ba0a898d0be4e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "55535b99d4cfbfdf8f0e0ae3737c6ce234399c054966779bf060315f2a503dce",
+    "rendered_prompt_sha256": "8f58e6a555f0eea6e8b3b8726bb5ff0fecd764b95ae5a839d194e8abb851b1c4",
+    "source_text_sha256": "b1e1b38fa3da12469e8f96fc1fa695d823025b992c8f2340a522b4d29543b78d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_em_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3838,
+    "filename": "se_em_25.txt",
+    "filepath": "corpus/00_source_per_state/se/se_em_25.txt",
+    "state": "se",
+    "word_count_original": 753
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_em_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_em_25.json"
+  },
+  "raw_response_text": "## 5.2 Princípios da EPT\n\nOs Referenciais Curriculares para a Elaboração de Itinerários Formativos – definidos na Portaria nº 1.432, de 28/12/2018 trazem os eixos estruturantes e as habilidades associadas que devem orientar os Itinerários Formativos, baseado nos seguintes princípios:\n\nSão princípios da Educação Profissional Tecnológica:\n\nI - Articulação com o setor produtivo para a construção coerente de Itinerários Formativos, com vista ao preparo para o exercício das profissões operacionais, técnicas e tecnológicas, na perspectiva da inserção laboral dos estudantes;\n\nII - Respeito ao princípio constitucional do pluralismo de ideias e de concepções pedagógicas;\n\nIII - Respeito aos valores estéticos, políticos e éticos da educação nacional, na perspectiva do pleno desenvolvimento da pessoa, seu preparo para o exercício da cidadania e sua qualificação para o trabalho;\n\nIV - Centralidade do trabalho assumido como princípio educativo e base para a organização curricular, visando à construção de competências profissionais, em seus objetivos, conteúdos e estratégias de ensino e aprendizagem, na perspectiva de sua integração com a ciência, a cultura e a tecnologia;\n\nV - Estímulo à adoção da pesquisa como princípio pedagógico presente em um processo formativo voltado para um mundo permanentemente em transformação, integrando saberes cognitivos e socioemocionais, tanto para a produção do conhecimento, da cultura e da tecnologia, quanto para o desenvolvimento do trabalho e da intervenção que promova impacto social;\n\nVI - A tecnologia, enquanto expressão das distintas formas de aplicação das bases científicas, como fio condutor dos saberes essenciais para o desempenho de diferentes funções no setor produtivo;\n\nVII - Indissociabilidade entre educação e prática social, bem como entre saberes e fazeres no processo de ensino e aprendizagem, considerando-se a historicidade do conhecimento, valorizando os sujeitos do processo e as metodologias ativas e inovadoras de aprendizagem centradas nos estudantes;\n\nVIII - Interdisciplinaridade assegurada no planejamento curricular e na prática pedagógica, visando à superação da fragmentação de conhecimentos e da segmentação e descontextualização curricular;\n\nIX - Utilização de estratégias educacionais que permitam a contextualização, a flexibilização e a interdisciplinaridade, favoráveis à compreensão de significados, garantindo a indissociabilidade entre a teoria e a prática profissional em todo o processo de ensino e aprendizagem;\n\nX - Articulação com o desenvolvimento socioeconômico e os arranjos produtivos locais;\n\nXI - Observância às necessidades específicas das pessoas com deficiência, Transtorno do Espectro Autista (TEA) e altas habilidades ou superdotação, gerando oportunidade de participação plena e efetiva em igualdade de condições no processo educacional e na sociedade;\n\nXII - Observância da condição das pessoas em regime de acolhimento ou internação e em regime de privação de liberdade, de maneira que possam ter acesso às ofertas educacionais; para o desenvolvimento de competências profissionais para o trabalho;\n\nXIII - Reconhecimento das identidades de gênero e étnico-raciais, assim como dos povos indígenas, quilombolas, populações do campo, imigrantes e itinerantes;\n\nXIV - Reconhecimento das diferentes formas de produção, dos processos de trabalho e das culturas a elas subjacentes, requerendo formas de ação diferenciadas;\n\nXV - Autonomia e flexibilidade na construção de Itinerários Formativos profissionais diversificados e atualizados, segundo interesses dos sujeitos, a relevância para o contexto local e as possibilidades de oferta das instituições e redes que oferecem Educação Profissional e Tecnológica, em consonância com seus respectivos projetos pedagógicos;\n\nXVI - Identidade dos perfis profissionais de conclusão de curso, que contemplem as competências profissionais requeridas pela natureza do trabalho, pelo desenvolvimento tecnológico e pelas demandas sociais, econômicas e ambientais;\n\nXVII - Autonomia da instituição educacional na concepção, elaboração, execução, avaliação e revisão do seu Projeto Político Pedagógico (PPP), construído como instrumento de referência de trabalho da comunidade escolar, respeitadas a legislação e as normas educacionais, estas Diretrizes Curriculares Nacionais e as Diretrizes complementares de cada sistema de ensino;\n\nXVIII - Fortalecimento das estratégias de colaboração entre os ofertantes de Educação Profissional e Tecnológica, visando ao maior alcance e à efetividade dos processos de ensino aprendizagem, contribuindo para a empregabilidade dos egressos; e promoção da inovação em todas as suas vertentes, especialmente a tecnológica, a social e a de processos, de maneira incremental e operativa.\n\nNessa perspectiva, entende-se que a formação profissional estará contribuindo para a elevação da qualidade dos serviços prestados à sociedade, formando técnicos, por meio de um processo de apropriação e de produção de conhecimentos científicos e tecnológicos, impulsionando a formação humana e o desenvolvimento econômico do estado, articulado aos processos de democratização e justiça social.\n\nA implantação do itinerário Formação Técnica e Profissional requer da educação profissional um modelo de formação amplo, capaz de articular conhecimentos, habilidades, atitudes e valores para o desenvolvimento de competências que possam ser mobilizadas e aprimoradas ao longo de toda a vida.",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c5107dbe55e0818006ab30f9a8d4087d29e1e7a2c8a1cc666",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1114,
+      "input_tokens_details": {
+        "cache_write_tokens": 1111,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1095,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 2209
+    }
+  },
+  "created_at": "2026-09-22T23:30:41Z",
+  "duration_seconds": 6.881,
+  "error": null,
+  "excerpt_id": "sp_em_13",
+  "filename": "sp_em_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0eaddf8f4a855d99159a4392fb39e230ba9075997d42d3f262173141d8d62e25",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "78ffe0106b58d579240a90f055ef155df55987890530c3b809bd7244dff27550",
+    "rendered_prompt_sha256": "6f529cc5dcc8ada777f5d01f5a95eb94395205bd89d5d123f0fd1483dd48d696",
+    "source_text_sha256": "a2c7e3b9329a6691aabccef5ec45fd54dd14ab97bd4156e292039338e02e36a8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3906,
+    "filename": "sp_em_13.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_13.txt",
+    "state": "sp",
+    "word_count_original": 678
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_13.json"
+  },
+  "raw_response_text": "# A ORGANIZAÇÃO CURRICULAR NO ENSINO MÉDIO\n\nA principal característica da etapa final da Educação Básica é a flexibilização curricular, tendo como objetivo consolidar, aprofundar e ampliar a formação integral do estudante. A finalidade é desenvolver o conjunto de competências e habilidades, propiciando protagonismo ao jovem e maior autonomia e assertividade nas suas escolhas, por meio do desenvolvimento do projeto de vida em consonância com os princípios da justiça, da ética e da cidadania.\n\nA Lei Federal nº 13.415/2017 substitui o modelo único de currículo para etapa do Ensino Médio por um modelo diversificado e flexível. Assim, esta etapa será composta pela formação geral básica (comum a todos os estudantes), com carga horária máxima de 1.800 horas, e por itinerários formativos (parte diversificada e flexível), com carga mínima de 1.200 horas.\n\n## Formação Geral Básica\n\nA formação geral básica deverá garantir a todos os estudantes desta etapa de escolarização as aprendizagens essenciais definidas pela BNCC, organizadas por áreas do conhecimento, conforme estabelecido no artigo 35-A da LDB. Para cada área são definidas competências específicas, articuladas às competências das áreas da etapa do Ensino Fundamental com adequações às especificidades do Ensino Médio.\n\n## Áreas do Conhecimento\n\nProcurando atender à juventude atual e futura e a todas as demandas de formação na etapa do Ensino Médio, existe a necessidade de reorganizar o currículo vigente para essa etapa da Educação Básica. A nova estrutura do Ensino Médio organiza os componentes curriculares por áreas do conhecimento, sem desconsiderar, mas também sem fazer referência direta a todos eles.\n\nComo consta no Parecer CNE/CP nº 11/2009, essa organização não exclui os componentes e suas especificidades e saberes próprios, e sim fortalece as relações, a contextualização, a apreensão e a intervenção na realidade por meio do trabalho em conjunto dos professores, que planejam e executam os planos de ensino.\n\nSegundo esses termos, as áreas do conhecimento têm por finalidade integrar os componentes curriculares, com o objetivo de contribuir para a compreensão da complexa realidade e para que o estudante possa atuar sobre ela, com a garantia dos conhecimentos básicos desses mesmos componentes.\n\nAs áreas do conhecimento e seus respectivos componentes curriculares são os seguintes:\n\n- Área de Linguagens e suas Tecnologias: Arte, Educação Física, Língua Inglesa e Língua Portuguesa.\n- Área de Matemática e suas Tecnologias: Matemática.\n- Área de Ciências da Natureza e suas Tecnologias: Biologia, Física e Química.\n- Área de Ciências Humanas e Sociais Aplicadas: Filosofia, Geografia, História e Sociologia.\n\nO Currículo Paulista define competências específicas para cada área do conhecimento, conforme a BNCC apresenta em seu documento normativo, atendendo às especificidades de formação do estudante desta etapa da Educação Básica. Relacionadas às competências específicas de cada área do conhecimento, são descritas as respectivas habilidades a serem desenvolvidas ao longo dos três anos, além das habilidades específicas de Língua Portuguesa e Matemática – componentes obrigatórios nos três anos do Ensino Médio (LDB, Art. 35-A, § 3º). Tais competências e habilidades procuram garantir as aprendizagens essenciais que constituem a formação geral básica.\n\nÉ importante destacar que, por ser um referencial para todas as redes e escolas do território do Estado de São Paulo, o Currículo Paulista apresenta seus organizadores curriculares estruturados por área do conhecimento, contemplando suas competências específicas, habilidades, campos de atuação/unidade temática/categoria, bem como os objetos de conhecimento que, entre outros, deverão ser trabalhados ao longo dos três anos da etapa do Ensino Médio. Cada habilidade é identificada por um código alfanumérico (imagem 1), cuja composição é a seguinte:\n\nSegundo esse critério, o código EM13LGG103, por exemplo, refere-se à terceira habilidade proposta na área de Linguagens e suas Tecnologias relacionada à competência específica 1, que pode ser desenvolvida em qualquer série do Ensino Médio, conforme definições curriculares. Para as habilidades que foram desmembradas inclui-se uma letra no final do código, por exemplo, EM13LGG103A e EM13LGG103B, o que significa que a habilidade 3, da competência 1, foi desmembrada em duas habilidades (A e B).\n\nA organização das habilidades vinculadas às competências específicas da área tem como objetivo definir claramente as aprendizagens essenciais a serem garantidas a todos os estudantes.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

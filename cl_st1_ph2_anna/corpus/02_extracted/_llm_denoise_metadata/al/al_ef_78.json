@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03f8d0c69ebb1351006ab2fc837b7c87d2ae7fede58355ad75",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 791,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1135,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 1926
+    }
+  },
+  "created_at": "2026-09-22T22:09:16Z",
+  "duration_seconds": 9.298,
+  "error": null,
+  "excerpt_id": "al_ef_78",
+  "filename": "al_ef_78.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "24261f1473be626bc5e58a2d0957993a93b9b92cab8309974b43cfecce980be1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4ff3aeb70bc215eeff23e823ff26c47fb04cf3be91aa41a62994e8d873722c6b",
+    "rendered_prompt_sha256": "ada46cab7f10663689ef40dd70a26deea4fe862f6a63383554097ca2cb8dc245",
+    "source_text_sha256": "9a713a521b2bdeeaf32792484407bb8cb9a97d41d4dd7c41d79633c3327e8434"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_78.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 217,
+    "filename": "al_ef_78.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_78.txt",
+    "state": "al",
+    "word_count_original": 497
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_78.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_78.json"
+  },
+  "raw_response_text": "### 9.1 O Currículo de Geografia e Alfabetização Cartográfica\n\nA 4ª Competência Específica do Componente Curricular de Geografia menciona que o estudante deverá “desenvolver o pensamento espacial, fazendo uso das linguagens cartográficas e iconográficas, de diferentes gêneros textuais e das geotecnologias para a resolução de problemas que envolvam informações geográficas”. Para isso, a Cartografia deve ser posta como uma ferramenta para os estudos geográficos, cujo conhecimentos devem fazer uso da leitura e análise do espaço e da sua organização.\n\nRecomenda a BNCC que, ao longo do Ensino Fundamental, os estudantes deverão dominar a leitura de mapas, gráficos e ao mesmo tempo elaborá-los, iniciando, assim, sua alfabetização cartográfica. A alfabetização cartográfica tem início no ensino fundamental Anos Iniciais com o desenvolvimento de noção de orientação e localização no espaço. Para desenvolver essa percepção, a BNCC orienta que tomemos como ponto de partida o “próprio corpo do estudante”.\n\nO sujeito que não sabe fazer uso de um mapa, não consegue pensar sobre as várias características do território, ou seja, está limitado apenas aos registros de imagens do espaço vivido, o que o impossibilita de realizar a operação elementar de situar localidades desconhecidas.\n\n### 9.2 O Currículo de Geografia e as expectativas de aprendizagens X compromisso com a Educação Integral\n\nAbordar o currículo de Geografia ou da estrutura curricular dessa disciplina requer mais do que simplesmente compreender listas de conteúdos a serem trabalhados pelo professor em sala de aula. Trata-se de compreender tanto as evoluções do pensamento geográfico e a influência deste sobre o ensino de Geografia, como as transformações das diferentes teorias curriculares ao longo do tempo.\n\nPensar em currículo para a Geografia voltada para atender os estudantes da era digital, faz-se necessário pensar em uma educação voltada para o ser integral, ou seja, uma educação integral. Partindo dessa premissa, a formação integral é uma proposta desafiadora para toda comunidade escolar, isto porque cabe a ela preparar o estudante para enfrentar os desafios, de forma a contribuir para que este desenvolva habilidades e competências exigidas no tempo atual e outras para tempos futuros.\n\nE isso nos remete algumas indagações como, por exemplo, como a escola pode contribuir para a formação dos estudantes mediante essa perspectiva? Como organizar as instituições de ensino seja públicas ou privadas e os professores para desenvolverem em seu fazer pedagógico a educação integral?\n\nPartindo desse princípio, faz-se necessário uma ruptura com as estruturas curriculares que isolam as disciplinas em si e possibilitar a integração dos conhecimentos de forma articulada e dinâmica, incorporando as diversas áreas dos componentes curriculares. A pedra de toque, nesse caso, reside em fazer com que os docentes compreendam que não há ciência ou conhecimento que se desenvolva de forma isolada e independente. O professor que tem essa percepção sabe que ela é o caminho para a construção de uma nova forma de",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

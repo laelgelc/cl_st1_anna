@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0778dbac1912fbe9006ab307971bb887d283e0723709ea0268",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 554,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 653,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 1207
+    }
+  },
+  "created_at": "2026-09-22T22:56:29Z",
+  "duration_seconds": 6.133,
+  "error": null,
+  "excerpt_id": "pb_inf_19",
+  "filename": "pb_inf_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cd42bbdf5a31abf52316c6c1ad94ef72cf9a608bb44b1453bca2b50d21967c42",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "420a48b1db7698ef42e81c392ff503b01e72c327db01d03f76774952aded47bc",
+    "rendered_prompt_sha256": "f84a887e0d6eb56d6dfd63ec1ee8a624ccb7c9569b7b91923bfb7418b30d874b",
+    "source_text_sha256": "3d6d8fb0717e8da9c7364edb057fb1c9ce99bf67a39471f4584dd4d2aa1bf609"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2362,
+    "filename": "pb_inf_19.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_19.txt",
+    "state": "pb",
+    "word_count_original": 270
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_19.json"
+  },
+  "raw_response_text": "**Campo de experiências: “CORPO, GESTOS E MOVIMENTOS”**\n\n**OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO**\n\nApropriar-se de gestos e movimentos de sua cultura no cuidado de si e nos jogos e brincadeiras.\n\nDeslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes naturezas.\n\nExplorar formas de deslocamento no espaço (pular, saltar, dançar), combinando movimentos e seguindo orientações.\n\nDemonstrar progressiva independência no cuidado do seu corpo.\n\nDesenvolver progressivamente as habilidades, artísticas e manuais, adquirindo controle para desenhar, pintar, rasgar, folhear, entre outros;\n\n(BNCC, 2017)\n\nPraticar suas possibilidades corporais, ao se envolver em brincadeiras tradicionais e de faz de conta.\n\n**SUGESTÕES DE VIVÊNCIAS QUE FAVORECEM A CONSTRUÇÃO DE EXPERIÊNCIAS PELAS CRIANÇAS BEM PEQUENAS NESTE CAMPO**\n\nAs práticas realizadas na Instituição de Educação Infantil devem possibilitar:\n\n- Movimentos diversos com seu corpo relacionados à práticas de sua cultura;\n- Exploração de movimentos corporais individuais e coletivos, com e sem objetos e em diferentes espaços;\n- Participação em diferentes atividades que envolvam desafios e potencializem a superação dos seus limites;\n- Apropriação das linguagens da dança, do teatro, das artes em geral, experimentando ritmos e movimentos;\n- Momentos de autocuidado e exploração do próprio corpo no cotidiano;\n- Manipulação e construção de materiais diversos que favoreçam vivências com o corpo;\n- Vivências de brincadeiras e uso de brinquedos estruturados e não estruturados que se relacionem ao corpo, aos gestos e movimentos das crianças pequenas;\n- Exploração das linguagens Cênicas (Teatro, dança, música e circo);\n- Participação em brincadeiras de faz de conta que façam uso do movimento, dos gestos e do corpo, de um modo geral.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d3ba5f203023d45006ab301a8d4f087d2801a580beaee7680",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1208,
+      "input_tokens_details": {
+        "cache_write_tokens": 1205,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1105,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 2313
+    }
+  },
+  "created_at": "2026-09-22T22:31:12Z",
+  "duration_seconds": 8.033,
+  "error": null,
+  "excerpt_id": "go_inf_e_ef_7",
+  "filename": "go_inf_e_ef_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3a4613c69f71e73388eb24a8851323e33fa0a2426b5fe4e500ec16654ed72e40",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cdb957cb6909d79016cb4d3ab3e45b65481dca72718b145d682cfa340641dc82",
+    "rendered_prompt_sha256": "b16bce87bf8d97967642a222e48a03102e3c68e4cb330e17300b4e0dccdce965",
+    "source_text_sha256": "08b281b4f5d1b172e4df39ecae42547733f71c79ac82bc7f5eac09e1daef93b1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_inf_e_ef_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1232,
+    "filename": "go_inf_e_ef_7.txt",
+    "filepath": "corpus/00_source_per_state/go/go_inf_e_ef_7.txt",
+    "state": "go",
+    "word_count_original": 744
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_inf_e_ef_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_inf_e_ef_7.json"
+  },
+  "raw_response_text": "Terminada a análise das contribuições, uma nova versão do DC-GO foi escrita e submetida, em 19 de outubro de 2018, ao CEE para análise e aprovação. No CEE, o DC-GO foi submetido à análise da sociedade, ao ser disponibilizado, por meio digital, na página do CEE e em duas audiências públicas. Uma realizada em 14 de novembro com a participação dos profissionais da educação da Seduc e das escolas particulares, e outra no dia 29 de novembro com a participação das Secretarias Municipais de Educação de Goiás, Conselhos Municipais de Educação de Goiás, da Undime Goiás e UNCME Goiás. A plenária para votação aconteceu em 06 de dezembro de 2018, sendo o Documento Curricular para Goiás, após incluídas as sugestões de mudanças obtidas neste período de análise no CEE, aprovado por unanimidade pelos conselheiros.\n\nEm 2019, em continuidade ao trabalho articulado e em parceria entre Consed/Seduc e Undime, no dia 21 de agosto, foi pactuado o Regime de Colaboração Pleno. Suas ações iniciaram ainda no primeiro semestre, com a proposição pela Coordenação Estadual da Equipe do ProBNCC de realizar um encontro em maio com as equipes técnicas das redes estadual e algumas municipais, para socializar os desdobramentos do DC-GO, que estavam sendo realizados por elas, a fim de efetivá-lo no cotidiano das instituições escolares que atendem a Educação Infantil e o Ensino Fundamental.\n\nCom a apresentação das equipes técnicas das secretarias foi possível identificar que havia movimentos diferentes nas redes estadual e municipais. Quanto à Educação Infantil, foi pontuado por alguns municípios que o DC-GO atende as necessidades das redes. Como essa etapa da Educação Básica só é obrigatória para crianças de 04 e 05 anos e pela sua própria especificidade, não é possível e nem necessário ordenar os objetivos de aprendizagens e desenvolvimento em meses, bimestres ou trimestres, porque eles estão organizados por grupos e por faixa etária (bebês – 0 a 1 anos e 6 meses, crianças bem pequenas – 1 ano e 7 meses a 3 anos e 11 meses e crianças pequenas – 4 anos a 5 anos e 11 meses) numa perspectiva de intercampos. Outros apresentaram que serão acrescentados aspectos que são peculiares dos municípios, respeitando o que está proposto no Volume I do DC-GO. Quanto ao Ensino Fundamental, algumas redes promoveram cursos de formação continuada de acordo com o Documento, outras estavam elencando conteúdos de forma articulada aos objetos de conhecimento e às habilidades, bem como ordenando os objetos de conhecimento e as habilidades em meses, bimestres ou trimestres. Ainda, foi apresentada a dificuldade de detalhar ou contextualizar para a realidade do município os componentes curriculares de Arte e de Educação Física, por não terem esses profissionais no quadro de servidores das secretarias.\n\nDiante desse diagnóstico, a Coordenação Estadual do ProBNCC Goiás percebeu a necessidade e a importância de propor que os desdobramentos do DC-GO iniciados pelas redes de ensino estadual e municipais fossem elaborados em conjunto para o território goiano, com o intuito de desenvolver políticas públicas integradas, no que se refere à formação continuada, à produção de materiais, ao acompanhamento dos processos de aprendizagem e à avaliação. Para tanto, foi deliberado que seria organizada uma Equipe Ampliada de Currículo para a etapa do Ensino Fundamental, com os redatores/formadores da Equipe do ProBNCC e com outros profissionais das redes estadual e municipais, para produzirem os seguintes desdobramentos do DC-GO:\n\n- Escrita de habilidades por ano para os componentes curriculares de Arte e de Educação Física, uma vez que no DC-GO, Arte está organizada em três blocos de 3 anos e Educação Física em quatro blocos, sendo o primeiro para o 1º e 2º anos, o segundo para o 3º, 4º e 5º anos, o terceiro para o 6º e o 7º anos e o quarto para o 8º e 9º anos;\n- Elenco de conteúdos articulados aos objetos de conhecimento e às habilidades;\n- Ordenamento das habilidades por ano, da primeira à última, observando a progressão e a integração dos conhecimentos.\n\nComo forma de viabilizar esse processo e alinhar as concepções de currículo, competências e habilidades entre os participantes, foi realizado o II Encontro com a Equipe Ampliada de Currículo no mês de junho, para dar continuidade aos trabalhos. Os desdobramentos mencionados foram elaborados por essa equipe nos meses de junho, agosto e setembro.\n\nDesta forma e com o envolvimento máximo possível dos profissionais da educação é certo dizer que o Documento Curricular para Goiás - Ampliado é uma escrita coletiva!",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

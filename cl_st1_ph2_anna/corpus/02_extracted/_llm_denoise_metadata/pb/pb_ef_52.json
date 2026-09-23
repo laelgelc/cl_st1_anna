@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04440851030c9b7b006ab306def8fc87d2975a323c4ec9420b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 537,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 730,
+      "output_tokens_details": {
+        "reasoning_tokens": 322
+      },
+      "total_tokens": 1267
+    }
+  },
+  "created_at": "2026-09-22T22:53:26Z",
+  "duration_seconds": 7.276,
+  "error": null,
+  "excerpt_id": "pb_ef_52",
+  "filename": "pb_ef_52.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "21de268445c5985084dd82c1f1e5c13e79f8c8f81cfa29a092335b9271429957",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e1afec8f23f31f60d649a7f71d3a0b0552a89634c66dd23fc63f1417733d9917",
+    "rendered_prompt_sha256": "8643862ce2649e2b3157ffa3919f023ed9af4dfe9267e4f330cd7482cff84b65",
+    "source_text_sha256": "f3d1c90437f867b7c26ce3f8238f79abb6e3e8a5518bbcc525ef8fb749f3be0b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_52.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2223,
+    "filename": "pb_ef_52.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_52.txt",
+    "state": "pb",
+    "word_count_original": 334
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_52.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_52.json"
+  },
+  "raw_response_text": "### 8.2.5 Avaliação\n\nO ato de avaliar é realizado com certa regularidade por todos e todas. No nosso cotidiano, é comum, por exemplo, pensarmos sobre a quantidade das coisas que observamos ou até mesmo sobre o valor que elas têm. Existe, em certo sentido, um movimento espontâneo na análise que realizamos e nem sempre pensamos sobre os critérios que adotamos. O ato de avaliar algo, comum no cotidiano, não pode ser feito à revelia de uma boa reflexão. Porque avaliamos? Como avaliamos? Qual o papel da avaliação na educação? Essa são perguntas pertinentes a todos e todas que pretendem tornar o processo avaliativo uma oportunidade de acolhimento e não, de exclusão.\n\nA avaliação é parte fundamental no processo de ensino e aprendizagem, pois através dela podemos constatar o desenvolvimento dos nossos alunos e, ao mesmo tempo, refletir sobre os nossos métodos de ensino. O processo avaliativo é fundamental para verificarmos se estamos ou não no caminho certo. Salientamos que avaliar não é aplicar prova, nem tão pouco corrigir exercícios ou tecer comentários sobre um seminário que acabou de ser apresentado. Essas ações, atreladas a esses eventos, têm sua importância no processo, contudo não podemos reduzir o todo às partes. Cada um desses instrumentos tem seu tempo e critérios específicos, mas não podem ser compreendidos como avaliação, uma vez que avaliar para a educação diz respeito ao processo e não apenas a eventos pontuais.\n\nPara aceitarmos a avaliação enquanto processo, devemos, antes de tudo, compreender a importância da caminhada do sujeito até o objeto do conhecimento. A distância, a forma como se percorre, o ritmo e o objetivo são aspectos fundamentais nessa análise. Por isso, essa caminhada deve ser observada atentamente e acolhida em sua completude. Precisamos lançar nosso olhar para todo o caminho e dedicar uma atenção especial às diferentes etapas do processo. Nesse sentido, devemos compreender que o meio é tão importante quanto o início e o fim.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

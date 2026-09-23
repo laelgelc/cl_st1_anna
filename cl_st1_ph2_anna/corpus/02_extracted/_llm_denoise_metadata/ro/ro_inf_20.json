@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_035dc67d63e61341006ab30c9e640087d2a1e5d12940cec440",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 542,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 574,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "total_tokens": 1116
+    }
+  },
+  "created_at": "2026-09-22T23:17:55Z",
+  "duration_seconds": 4.969,
+  "error": null,
+  "excerpt_id": "ro_inf_20",
+  "filename": "ro_inf_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "37f99fe9f286977cd2b732f6417f1c4f805c40556b082159dd837908f78f8b3d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "56d9d4124bcd2bd27bba8ad293b8c023d5207c4510b74340f32168e2acd3ad97",
+    "rendered_prompt_sha256": "bd39c08163b35ffebd3a97e37b55461be60e16979f68a9155858e30e094182b2",
+    "source_text_sha256": "e98372887d2938706592a6d550107e5a37dede4a91115821674f30b5c8973821"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3333,
+    "filename": "ro_inf_20.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_20.txt",
+    "state": "ro",
+    "word_count_original": 305
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_20.json"
+  },
+  "raw_response_text": "A organização curricular por Campos de Experiências implica em ruptura com uma estrutura tradicional, bem como preparatória para a etapa seguinte, transferindo o foco da perspectiva do docente para a centralidade na criança, oportunizando as experiências e protagonismo infantil.\n\nO arranjo por Campos de Experiências exige nova organização que acolhe as situações e as experiências concretas da vida cotidiana das crianças e seus saberes, entrelaçando-os aos conhecimentos que fazem parte de patrimônio cultural (BRASIL, 2017, p.36), que se dá no entrelaçamento entre os campos, ou seja, intercampos, compreendendo que as vivências nos contextos de aprendizagens e desenvolvimento acontecem integrando e entrelaçando todos os campos de experiências a partir dos direitos de aprendizagem e desenvolvimento.\n\nDestacamos como exemplo desse entrelaçamento experiências nas quais as crianças investigam como nascem as plantas, como preparar a terra, decidindo coletivamente sobre o que o grupo irá cultivar, como plantar, os cuidados diários com o plantio, acompanhamento do crescimento, os registros das investigações (por meio de desenho e escrita não convencional), a colheita, o preparo do alimento e a decisão sobre como poderão continuar cultivando a plantação, essas experiências evidenciam como os campos de experiências se integram na organização da prática docente.\n\nAs aprendizagens e desenvolvimento da criança têm como eixos estruturantes as Interações e Brincadeira que assegurarão os direitos de conviver, participar, conhecer-se, brincar, explorar e expressar-se.\n\nÉ na observância e escuta das crianças que a ressignificação da prática pedagógica irá se constituir, revelando como as crianças pensam, questionam, investigam e interpretam a realidade.\n\nComo enfatiza Edwards et al. (2016, p. 235), as crianças são “seres ativos, competentes e fortes, explorando e encontrando significado, e não como predeterminadas, frágeis, carentes e incapazes”. Essa organização demanda uma visão da integralidade do desenvolvimento infantil, de compreensão do processo de ampliação dos saberes infantis ao longo da primeira infância.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

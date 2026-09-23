@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_082b65646db9f607006ab302dfa15087d292adf4a447431281",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1999,
+      "input_tokens_details": {
+        "cache_write_tokens": 1996,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1986,
+      "output_tokens_details": {
+        "reasoning_tokens": 192
+      },
+      "total_tokens": 3985
+    }
+  },
+  "created_at": "2026-09-22T22:36:27Z",
+  "duration_seconds": 11.756,
+  "error": null,
+  "excerpt_id": "mg_em_103",
+  "filename": "mg_em_103.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a74a43d00294722a854f9a8697f98d6977c4357c9a449cb95eee2875d0583dc1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e8213e3f57e84cf9be9eaab06c916d12e203c986fa941536e2f13e6dd237f99a",
+    "rendered_prompt_sha256": "66b5e1485e5fe4f8425c9dd9c903806d969549b2d25e9c810ac4d3839c3572a1",
+    "source_text_sha256": "f4a3fa02306819bbe539d7dc58f4a441011b3a196a4bcbef8a833a69e40b5a1f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_103.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1490,
+    "filename": "mg_em_103.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_103.txt",
+    "state": "mg",
+    "word_count_original": 1265
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_103.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_103.json"
+  },
+  "raw_response_text": "## 5.1 Apresentação\n\nA educação profissional e tecnológica é uma modalidade de ensino que busca preparar o estudante para o exercício do trabalho e sua inserção no mercado. As grandes mudanças nessa oferta estão presentes de forma mais intensa no Brasil a partir da metade do século XX em diante, quando a indústria se potencializa e se torna um forte pilar para a economia brasileira.\n\nA primeira Lei de Diretrizes e Base da Educação Nacional, Lei nº 4.024, de 20 de dezembro de 1961, foi debatida e elaborada no contexto de redemocratização do país, porém só foi promulgada como Lei nº 4.024 em 20 de dezembro de 1961. O sistema de ensino continuou a ser organizado segundo as legislações anteriores, mantendo a divisão dos cursos secundário, técnico e curso normal.\n\nA partir da promulgação da Lei nº 5.692, de 11 de agosto de 1971, o ensino técnico-profissional passou a integrar, de forma compulsória, o currículo do segundo grau. Essa reforma de ensino decorreu da política governamental voltada para a contenção da demanda do ensino superior, considerada incompatível com as necessidades nacionais.\n\nA formação técnica obrigatória impulsionou o número de matrículas nas redes públicas e privadas, e também a implantação de novos cursos técnicos.\n\nAs disposições legais da profissionalização do ensino de 2º Grau foram disciplinadas por meio do Parecer nº 45/1972 e da Resolução nº 08/1972, do Conselho Federal de Educação, que estabeleceram o currículo mínimo e classificaram a qualificação para o trabalho como um componente básico do processo de formação integral do estudante nos ensinos de 1º e 2º graus. Nesse processo ficou determinado que, no Ensino de 1º grau, ela tomasse a forma de sondagem de aptidões e iniciação para o trabalho, enquanto no Ensino de 2º Grau tivesse papel preponderante para a habilitação profissional. Deveria ser oferecida em cursos profissionalizantes de 2º Grau com duração de três ou quatro séries.\n\nNo entanto, as dificuldades materiais de implantação do ensino profissionalizante nas escolas de segundo grau, tanto públicas quanto particulares, somadas às resistências de vários segmentos, fizeram com que a Lei nº 5.692/1971 fosse reinterpretada pelo Parecer nº 76/1975, do Conselho Federal de Educação, que manteve como objetivo do segundo grau o ensino profissionalizante, mas mudou seu conteúdo. A habilitação profissional passou a chamar-se específica, isto é, passou a voltar-se para diferentes especialidades técnicas, sendo entendida como meio de tornar o jovem consciente do domínio que deveria ter das bases científicas de uma profissão, além de se tornar apto à aplicação da tecnologia adequada.\n\nA Lei nº 7.044, de 23 de agosto de 1982, alterou dispositivos da Lei 5.692/1971, resgatando a ênfase da formação geral e dispensando a obrigatoriedade da profissionalização. Assim, a formação profissional, em nível de segundo grau, ficou a cargo de escolas técnicas, tal como antes, sendo oferecida com cursos longos ou compactos para aqueles que concluíssem alguma habilitação básica ou, ainda, por treinamento em serviço.\n\nNos anos 1990, o Brasil foi marcado pela mobilização social por reformas no setor educacional que culminaram com a elaboração da atual Lei de Diretrizes e Bases da Educação Nacional, Lei nº 9.394, de 20 de novembro de 1996. A partir de então, o segundo grau é instituído como ensino médio e são incluídas disposições específicas para o desenvolvimento da Educação Profissional em um capítulo à parte da Educação Básica.\n\nAcompanhando os princípios da Constituição Federal de 1988, a LDB 9.394/1996 reconhece que a educação abrange os processos formativos que se desenvolvem nas distintas esferas de convivência social e esclarece que a legislação disciplina apenas a educação escolar, desenvolvida em instituições próprias, e que a educação deve vincular-se ao mundo do trabalho e à prática social.\n\nAs finalidades da educação nacional são reafirmadas no artigo 2º, isto é, o pleno desenvolvimento do educando, seu preparo para o exercício da cidadania e sua qualificação para o trabalho. Nessa perspectiva, articula formação geral e profissional, de modo flexível – podendo ser obtida a formação profissional a partir de diferentes níveis e instituições de ensino.\n\nEm 2008, a Lei nº 11.741, de 16 de julho de 2008, alterou dispositivos da Lei no 9.394/1996 quanto à educação profissional. Destaca-se:\n\n- A integração da educação profissional e tecnológica aos diferentes níveis e modalidades de educação e às dimensões do trabalho, da ciência e da tecnologia.\n- A organização dos cursos de educação profissional e tecnológica por eixos tecnológicos, possibilitando a construção de diferentes itinerários formativos.\n- A configuração e abrangência dos cursos de educação profissional e tecnológica: I) formação inicial e continuada ou qualificação profissional; II) técnica de nível médio; III) tecnológica de graduação e pós-graduação.\n- O conhecimento adquirido na educação profissional e tecnológica, inclusive no trabalho, poderá ser objeto de avaliação, reconhecimento e certificação para prosseguimento ou conclusão de estudos.\n- A preparação geral para o trabalho e, facultativamente, a habilitação profissional, poderão ser desenvolvidas nos próprios estabelecimentos de ensino médio ou em cooperação com instituições especializadas em educação profissional.\n- A educação profissional técnica de nível médio será desenvolvida nas formas articuladas com o ensino médio (integrado ou concomitante) ou para quem já tenha concluído o ensino médio (subsequente).\n- Os diplomas de cursos de educação profissional técnica de nível médio, quando registrados, têm validade nacional e habilitam ao prosseguimento de estudos na educação superior.\n- Os cursos técnicos, nas formas articulada, concomitante e subsequente, quando estruturados e organizados em etapas com terminalidade possibilitarão a obtenção de certificados de qualificação para o trabalho após a conclusão (certificações intermediárias).\n\nEm 2006, o Decreto nº 5.840, de 13 de julho de 2006, institui, no âmbito federal, o Programa Nacional de Integração da Educação Profissional com a Educação Básica na Modalidade – PROEJA, abrangendo o ensino fundamental, médio e a educação indígena.\n\nA fim de regulamentar a oferta de cursos técnicos de nível médio, o Catálogo Nacional dos Cursos Técnicos - CNCT, elaborado durante o ano de 2007, esteve em consulta pública por seis meses. Instituído pela Portaria MEC nº 870, de 16 de julho de 2008, com base no Parecer CNE/CEB nº 11/2008 e na Resolução CNE/CEB nº 3/2008, é atualizado periodicamente para contemplar novas demandas socioeducacionais. A quarta versão do CNCT está prevista para consulta e publicação em 2020.\n\nOutro marco legal importante para a Educação Profissional no país foi a Resolução nº 06, de 20 de setembro de 2012, que definiu as Diretrizes Curriculares Nacionais para a Educação Profissional Técnica de Nível Médio. Nessa normativa estão definidos os princípios norteadores da Educação Profissional Técnica de Nível Médio; a organização curricular e formas de oferta; duração dos cursos; avaliação, aproveitamento e certificação; e, ainda, diretrizes para a formação docente. Assim como o CNCT, a Resolução nº 06/2012 foi revista e atualizada pela Secretaria de Educação Profissional e Tecnológica – SETEC do Ministério da Educação em 2020. A Resolução CNE/CP nº 1, de 05 de janeiro de 2021, atualizou e definiu as Diretrizes Curriculares Nacionais Gerais para a Educação Profissional e Tecnológica.\n\nParalelamente aos avanços legais da Educação Profissional e Tecnológica no âmbito da Educação Nacional, o Ministério do Trabalho e Emprego implementou nas últimas décadas uma série de propostas que alcançam instituições e agentes da Educação Profissional de todo o país (universidades, redes de ensino técnico público e privado, instituições de formação profissional, escolas livres, sindicatos, empresas, ONGs). Dentre eles estão o Plano Nacional de Educação Profissional – PLANFOR; o Fundo de Amparo ao Trabalhador – FAT, os Planos Estaduais de Qualificação – PEQ; protocolos e acordos de cooperação técnica e financeira; avanço metodológico, conceitual e operacional em ações de qualificação profissional.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

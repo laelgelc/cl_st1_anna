@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0830c3d5320e3042006ab30cc1800087d2aad47280f70cc0b2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 633,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 884,
+      "output_tokens_details": {
+        "reasoning_tokens": 327
+      },
+      "total_tokens": 1517
+    }
+  },
+  "created_at": "2026-09-22T23:18:33Z",
+  "duration_seconds": 8.407,
+  "error": null,
+  "excerpt_id": "ro_inf_53",
+  "filename": "ro_inf_53.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "25200eb84e75a0931cc8fe4530f04aaffc7eb09f67397c5d3bff66d2dedbd19e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f0a87ba172fdc61299a98aa865b89d43eb46ad96328d993727b679a930584ebb",
+    "rendered_prompt_sha256": "bf76178a2efa0c50ec2128c61c9dadf97bb3653be2d7badb4be597b06eea0a05",
+    "source_text_sha256": "1f6465dc9a18b92839c41aae8ee03dee2fbe7e66f69ba4c9cf4ca0894d5de70f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_53.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3369,
+    "filename": "ro_inf_53.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_53.txt",
+    "state": "ro",
+    "word_count_original": 355
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_53.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_53.json"
+  },
+  "raw_response_text": "### O eu, o outro e o nós\n\n- Respeitar e expressar sentimentos e emoções.\n- Atuar em grupo e demonstrar interesse em construir novas relações, respeitando a diversidade e solidarizando-se com os outros.\n- Conhecer e respeitar regras de convívio social, manifestando respeito pelo outro.\n\n### Corpo, gestos e movimentos\n\n- Reconhecer a importância de ações e situações do cotidiano que contribuem para o cuidado de sua saúde e a manutenção de ambientes saudáveis.\n- Apresentar autonomia nas práticas de higiene, alimentação, vestir-se e no cuidado com seu bem-estar, valorizando o próprio corpo.\n- Utilizar o corpo intencionalmente (com criatividade, controle e adequação) como instrumento de interação com o outro e com o meio.\n- Coordenar suas habilidades manuais.\n\n### Traços, sons, cores e formas\n\n- Discriminar os diferentes tipos de sons e ritmos e interagir com a música, percebendo-a como forma de expressão individual e coletiva.\n- Expressar-se por meio das artes visuais, utilizando diferentes materiais.\n- Relacionar-se com o outro empregando gestos, palavras, brincadeiras, jogos, imitações, observações e expressão corporal.\n\n### Escuta, fala, pensamento e imaginação\n\n- Expressar ideias, desejos e sentimentos em distintas situações de interação, por diferentes meios.\n- Argumentar e relatar fatos oralmente, em sequência temporal e causal, organizando e adequando sua fala ao contexto em que é produzida.\n- Ouvir, compreender, contar, recontar e criar narrativas.\n- Conhecer diferentes gêneros e portadores textuais, demonstrando compreensão da função social da escrita e reconhecendo a leitura como fonte de prazer e informação.\n\n### Espaços, tempos, quantidades, relações e transformações\n\n- Identificar, nomear adequadamente e comparar as propriedades dos objetos, estabelecendo relações entre eles.\n- Interagir com o meio ambiente e com fenômenos naturais ou artificiais, demonstrando curiosidade e cuidado com relação a eles.\n- Utilizar vocabulário relativo às noções de grandeza (maior, menor, igual etc.), espaço (dentro e fora) e medidas (comprido, curto, grosso, fino) como meio de comunicação de suas experiências.\n- Utilizar unidades de medida (dia e noite; dias, semanas, meses e ano) e noções de tempo (presente, passado e futuro; antes, agora e depois), para responder a necessidades e questões do cotidiano.\n- Identificar e registrar quantidades por meio de diferentes formas de representação (contagens, desenhos, símbolos, escrita de números, organização de gráficos básicos etc.).",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

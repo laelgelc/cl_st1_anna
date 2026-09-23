@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ac50df908062fb6006ab2ff548d6087d287c342c2532162f1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 696,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 770,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 1466
+    }
+  },
+  "created_at": "2026-09-22T22:21:26Z",
+  "duration_seconds": 18.355,
+  "error": null,
+  "excerpt_id": "ce_em_13",
+  "filename": "ce_em_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "aa4ef6794366329a3fa8d1b94fd7d824d7ca9ffe8adf16e56eb56fb2b7443a11",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d1a3396481592921c32a00fdc37406bfa59336bb1baf62c007f41a12d859c7e9",
+    "rendered_prompt_sha256": "f66f1069e3175c9962ba9d2885d1dac78f79f8dfb1ca6ea2103c104720bc1b5f",
+    "source_text_sha256": "85bdfd63808add45f0afaed2bb887e4618ce7037280b23218922232d75e99abf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 767,
+    "filename": "ce_em_13.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_13.txt",
+    "state": "ce",
+    "word_count_original": 395
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_13.json"
+  },
+  "raw_response_text": "### 3.4 Educação Escolar Quilombola\n\nA Educação Escolar Quilombola é uma modalidade de ensino que tem suas fundamentações na Resolução CNE/CEB n° 8, 20 de novembro de 2012, a qual define as Diretrizes Curriculares Nacionais para essa categoria. Essa modalidade tem como objetivo garantir o direito à educação diferenciada às/aos quilombolas de modo a valorizar e enaltecer sua cultura, seus conhecimentos ancestrais e a vida plena em seus territórios. Em seu início, as DCN, para esse formato de educação, apresentam que o ensino nessas escolas deve fundamentar-se, informar-se e alimentar-se:\n\na) da memória coletiva;\nb) das línguas reminiscentes;\nc) dos marcos civilizatórios;\nd) das práticas culturais;\ne) das tecnologias e formas de produção do trabalho;\nf) dos acervos e repertórios orais;\ng) dos festejos, usos, tradições e demais elementos que conformam o patrimônio cultural das comunidades quilombolas de todo o país;\nh) da territorialidade.\n\nNo art. 41 desta Resolução, dispõe-se que a Educação Escolar Quilombola é desenvolvida em unidades educacionais inscritas em suas terras e cultura, requerendo pedagogia própria em respeito à especificidade étnico-cultural de cada comunidade e formação específica de seu quadro docente, observados os princípios constitucionais, a base nacional comum e os princípios que orientam a Educação Básica Brasileira. A partir do que dispõe a referida resolução, a Seduc publicará um documento orientador do Projeto Político-Pedagógico das escolas quilombolas, que propõe a orientação das ações, projetos e práticas pedagógicas das escolas quilombolas a partir da Pedagogia de Quilombo. Um referencial norteado por eixos fundamentais que orientam, ao ver dos quilombos cearenses, as lutas e fazeres educativos: Memória, Oralidade, Comunidade, Territorialidade, Ancestralidade, Tecnologias, Mulher Quilombola e Saúde da População Quilombola. A partir dessas diretrizes/orientações e princípios formativos e do presente DCRC, as escolas quilombolas poderão construir suas propostas pedagógicas diferenciadas.\n\nPara se fazer educação escolar respeitando a diversidade é preciso ter uma escola adequada às demandas da territorialidade, como no caso das unidades localizadas em território (comunidade) quilombola. Importantes no processo de construção da identidade do povo que habita o quilombo, os currículos dessas escolas se caracterizam pelo reconhecimento da história e cultura africana e afrobrasileira, o que deve também orientar suas práticas pedagógicas e curriculares. Assim, todo o processo de seleção de objetos de conhecimento e preparação das atividades devem partir da realidade dessas comunidades e de seus sujeitos.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

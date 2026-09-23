@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_056e369242a8bfee006ab30e1d8c0087d2ab93fa97bc039352",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1215,
+      "input_tokens_details": {
+        "cache_write_tokens": 1212,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1148,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 2363
+    }
+  },
+  "created_at": "2026-09-22T23:24:21Z",
+  "duration_seconds": 7.77,
+  "error": null,
+  "excerpt_id": "sc_em_18",
+  "filename": "sc_em_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ff6b2b01628e1c1774f0d21b5526a16e973c444e4c5fc7d5d5c8840f396318a7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "064c036e680ee14d75009076f0fe50c7c31c59f111b910f5b748500d5736d7f7",
+    "rendered_prompt_sha256": "1adf304c2945beafba4fad1d48b038625757b59bd0d67739e92851c06920ed40",
+    "source_text_sha256": "9c5d18867d4b3d7bc23946f7f6061ae7ff9e8fc38736133e9ea63602c632c05b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sc/sc_em_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3688,
+    "filename": "sc_em_18.txt",
+    "filepath": "corpus/00_source_per_state/sc/sc_em_18.txt",
+    "state": "sc",
+    "word_count_original": 715
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sc/sc_em_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sc/sc_em_18.json"
+  },
+  "raw_response_text": "## 5.6 OBRIGATORIEDADE DA OFERTA DE ITINERÁRIOS FORMATIVOS\n\nEm consonância com o disposto nas DCNem (2018):\n\n> Art. 12 [...] IV § 6º Os sistemas de ensino devem garantir a oferta de mais de um itinerário formativo em cada município, em áreas distintas, permitindo-lhes a escolha, dentre diferentes arranjos curriculares, atendendo, assim, a heterogeneidade e pluralidade de condições, interesses e aspirações.\n\nTendo em vista que o itinerário formativo é constituído no Currículo Base do Ensino Médio do Território Catarinense, que compreende Projeto de Vida, Segunda Língua Estrangeira, os Componentes Curriculares Eletivos (CCE) e as Trilhas de Aprofundamento, as escolas são orientadas a compor suas ofertas de itinerários formativos de forma a contemplar uma multiplicidade de CCEs e trilhas de aprofundamento, em áreas do conhecimento distintas, favorecendo o cumprimento dos critérios de escolha compatíveis com os projetos de vida dos estudantes.\n\nDestaca-se, dentre os 295 municípios de Santa Catarina, que 57%, ou seja, 168 municípios, possuem apenas uma escola de ensino médio em sua área de abrangência. Assim sendo, orienta-se a oferta de itinerários formativos integrados entre áreas do conhecimento nas escolas da rede estadual de ensino em municípios com apenas uma escola de ensino médio, destacando-se que ao longo do ano serão ofertadas duas trilhas de aprofundamento, dado o caráter de semestralidade de cada uma delas.\n\n## 5.7 ESCOLHAS POR PARTE DOS ESTUDANTES: COMPONENTES CURRICULARES ELETIVOS, SEGUNDA LÍNGUA ESTRANGEIRA E TRILHAS DE APROFUNDAMENTO\n\nComo ponto de partida para a oferta dos itinerários formativos nas unidades escolares de ensino médio do território catarinense, disponibilizaram-se dois documentos de referência. O primeiro é o de um portfólio de componentes curriculares eletivos. O segundo consiste num portfólio de trilhas de aprofundamento, contendo tanto trilhas de aprofundamento em uma única área do conhecimento, quanto trilhas de aprofundamento integradas entre áreas, assim como possibilidades de oferta da formação profissional e técnica.\n\nEstes documentos serão atualizados periodicamente pela Secretaria de Estado da Educação, com o apoio das unidades escolares e das coordenadorias regionais de educação, pela necessidade de constante renovação das possibilidades de aprofundamento e de correspondência com a realidade dos estudantes.\n\nDito isso, acentua-se a centralidade do componente curricular Projeto de Vida, na condição de espaço de diálogo e orientação dos estudantes para a escolha dos itinerários formativos. Este componente, além de favorecer o desenvolvimento integral, na medida em que desenvolve situações de aprendizagem que contemplam a dimensão pessoal, a cidadã e a profissional, cumpre também o papel de auxiliar no processo de tomada de decisão em relação à escolha dos itinerários formativos (componentes curriculares eletivos e trilhas de aprofundamento), de maneira que estas escolhas estejam mais próximas de seus projetos de vida. É, portanto, objeto do Projeto de Vida o trabalho sistemático e aprofundado em torno dos portfólios disponibilizados para o território catarinense.\n\nAlém das possibilidades que se colocam a partir desse componente curricular, cabe às unidades escolares a manutenção de espaços de diálogo com os estudantes, mostrando suas possibilidades, avaliando seus interesses, orientando-os, consequentemente, para escolhas responsáveis e conscientes, em diálogo contínuo com seus anseios. Esse direcionamento possibilitará o fortalecimento do protagonismo juvenil no que se refere à escolha do percurso de aprendizagem e também à ampliação das ações voltadas à construção de seus projetos de vida, de modo a promover uma aprendizagem com maior profundidade e que estimule o desenvolvimento integral, pelo incentivo à autonomia e à responsabilidade do estudante por suas escolhas e seu futuro.\n\nCaberá às unidades escolares, quando do planejamento de cada ano letivo, realizar um processo de escuta diagnóstica que viabilize a coleta dos indicativos sobre os componentes curriculares eletivos e as trilhas de aprofundamento que os estudantes desejam cursar. Registra-se, aqui, o papel central da escola no sentido de ofertar um rol de CCEs e trilhas de aprofundamento que permitam atender a anseios, expectativas, interesses e aspirações daqueles que integram o seu público, aproximando-se, assim, de sua realidade.\n\n### 5.7.1 Troca de trilha de aprofundamento por área ou integração entre áreas\n\nConsiderando o fato de que os componentes curriculares eletivos e as trilhas de aprofundamento possuem periodicidade semestral, o trânsito dos estudantes em diferentes áreas é, por si só, favorecido. Ou seja, ao longo do ensino médio, o estudante pode optar pelo aprofundamento em trilhas e componentes eletivos diversos, consolidando um percurso diversificado em sua formação.",
+  "state": "sc",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b52b1a9cd4cf131006ab303373ebc87d2ad31a48288420245",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 799,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 976,
+      "output_tokens_details": {
+        "reasoning_tokens": 320
+      },
+      "total_tokens": 1775
+    }
+  },
+  "created_at": "2026-09-22T22:37:51Z",
+  "duration_seconds": 8.532,
+  "error": null,
+  "excerpt_id": "mg_em_37",
+  "filename": "mg_em_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e0759e6a9e441f43a54900a6a54bbf32b0036663cfe3a20fcfa49e66868f16fd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "28447890896e186f9567c3a10d5c3eb785171bc446033ed9bd5368ea10ad1ac7",
+    "rendered_prompt_sha256": "42cbc4f649b9c776af2183fbe355c8cb67fcc7f123b4003c9807db85fd72e8fb",
+    "source_text_sha256": "d7afb525e5c4d895abc3c162a754b5a377a0b185775e7751ba19ea72ae10e7d6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1567,
+    "filename": "mg_em_37.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_37.txt",
+    "state": "mg",
+    "word_count_original": 465
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_37.json"
+  },
+  "raw_response_text": "A educação no Brasil teve, durante seu desenvolvimento, três Leis de Diretrizes e Bases da Educação Nacional (LDB). A primeira, em 1961, a LDB de 1971, que reformulava a primeira, e a atual LDB, promulgada em 1996. Com a reforma educacional de 1971, ocorreram mudanças em relação ao papel da Educação Física, tornando-a obrigatória em todos os níveis de escolarização, sendo facultativa ao aluno a participação caso ele estudasse em período noturno e trabalhasse mais de 6 horas diárias, ou se tivesse mais de 30 anos de idade, estivesse prestando Serviço Militar ou se estivesse fisicamente incapacitado.\n\nAssim, a Educação Física passou a ser um componente curricular como qualquer outro, abarcando uma série de mudanças relacionadas à estrutura didático-pedagógica e à autonomia dada às escolas e sistemas de ensino, focando suas habilidades na formação do cidadão. Com relação à Educação Física no Ensino Médio, os PCNs, indicam algumas propostas para o seu desenvolvimento, orientando o professor a trabalhar de forma lúdica e educativa, permitindo que o estudante aprenda diferentes conteúdos, tornando-se um cidadão capaz de resolver diferentes situações da vida cotidiana.\n\nJá no Currículo Referência para o Ensino Médio, a Educação Física, como parte integrante da Área de Linguagens e Suas Tecnologias, tem a sua contribuição como uma forma específica de linguagem, no desenvolvimento integral do estudante, por meio de seus conteúdos, atividades desenvolvidas e interdisciplinaridade, atuando na formação da personalidade e de sua participação ativa na sociedade.\n\nO ensino de Arte, de acordo com a Lei Federal nº 13.415, de 16 de fevereiro de 2017, especialmente em suas expressões regionais, constituirá componente curricular obrigatório da Educação Básica. As artes visuais, a dança, a música e o teatro são as linguagens que constituem esse componente curricular e, na etapa do ensino médio. O audiovisual e as artes circenses são, também, objetos de estudo e conhecimento para o desenvolvimento das competências e habilidades da Área de Linguagens e Suas Tecnologias.\n\nNesse sentido, a partir dessa inclusão, a arte pôde se afirmar enquanto campo de conhecimento, proporcionando a vivência e a reflexão crítica, afastando-se de concepções restritas à ludicidade, à recreação ou ao entretenimento. No Currículo Referência, o componente é reconhecido e afirmado em suas epistemologias e metodologias específicas, contribuindo na formação integral dos jovens da rede. A Arte na escola deve abarcar, também, a preservação e salvaguarda histórica e memorial das ancestralidades, tradições, costumes, saberes, meios, modos e perspectivas da vida diária. Com isso, valorizando e reconhecendo os conhecimentos inerentes dos bens culturais materiais e imateriais, das culturas indígenas, africanas, quilombolas, camponesas, tradicionais e urbanas que integram a identidade cultural de Minas Gerais.\n\nPara garantir o diálogo entre os componentes curriculares que integram a Área de Linguagens e suas Tecnologias, a BNCC estabelece suas competências específicas, que serão apresentadas a seguir.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

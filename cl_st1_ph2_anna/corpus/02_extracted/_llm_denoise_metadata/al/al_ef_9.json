@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_025cbb17d8e4966c006ab2fc93a1e087d2b036ca304e43b446",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 716,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 777,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 1493
+    }
+  },
+  "created_at": "2026-09-22T22:09:30Z",
+  "duration_seconds": 6.76,
+  "error": null,
+  "excerpt_id": "al_ef_9",
+  "filename": "al_ef_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5c665062c2d9bc4d5b9bf813cd2c175c4336dd962ceb87c5b35fb154483a90f1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "10cddba951d11b5bfae0f5c3baa84c9f4d2cccb071fd7fcef76ccc0cead24edb",
+    "rendered_prompt_sha256": "b7c90277587f11ac5807add63aad55c4a9a3104aa1634c9d9d7592f8dd3e7361",
+    "source_text_sha256": "b09dffca01ba1d6eb81b9a223d43b368e7e46d00a748e729a742362c221748db"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 230,
+    "filename": "al_ef_9.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_9.txt",
+    "state": "al",
+    "word_count_original": 419
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_9.json"
+  },
+  "raw_response_text": "# APRESENTAÇÃO DA ETAPA ENSINO FUNDAMENTAL\n\nÉ com grande satisfação que apresentamos à comunidade escolar e toda sociedade alagoana, o Referencial Curricular de Alagoas para o Ensino Fundamental. Neste documento, são apresentadas especificidades da prática pedagógica que se traduzirão no currículo, compondo um conjunto de reflexões e orientações didáticas para os educadores que atuam nas áreas do conhecimento dos Anos Iniciais e Finais.\n\nAo propor este documento curricular, a partir do texto introdutório, busca-se garantir uma abordagem do conhecimento científico e escolar, contemplando questões como diversidade, preservação ambiental, desenvolvimento sustentável, relações afetivas, inovação e o uso das tecnologias.\n\nA necessidade do nosso Estado em reelaborar o Referencial Curricular para o Ensino Fundamental se deu pela relevante aproximação da prática educacional às orientações expressas na Base Nacional Comum Curricular. Para tanto, são apresentados elementos estruturantes que devem ser adotados nos currículos e na prática como forma de garantir um ensino fundamental enquanto direito do estudante, a partir de suas especificidades com foco em seu desenvolvimento integral, considerando as particularidades regionais e locais com a participação de todos os interessados e responsáveis.\n\nO Referencial do Ensino Fundamental está fundamentado nas dez competências gerais da BNCC, desdobrando-se nas áreas do conhecimento: Linguagem (Língua Portuguesa, Arte, Educação Física e Língua Inglesa), Matemática, Ciências Humanas (Geografia e História) e Ciências da Natureza. As competências específicas de cada área estão apresentadas nos componentes curriculares, a fim de preparar o leitor para compreender as competências do componente curricular.\n\nA construção do referencial para o Ensino Fundamental foi organizado em 04 etapas: (i) reunião de organização e rotina da equipe; (ii) composição e reuniões com grupos de trabalho (GT) com professores e especialistas para discussão e troca de conhecimentos entre os membros sob a coordenação dos redatores; (iii) estudo comparativo dos referenciais curriculares da rede estadual de Alagoas e dos municípios de Maceió, Penedo e Teotônio Vilela; (iv) encontros e imersão em comunidades indígenas e tradicionais de Alagoas, a fim de subsidiar e garantir a contextualização dos territórios alagoanos no texto.\n\nO Referencial Curricular de Alagoas, para os Anos Iniciais e Finais do Ensino Fundamental, traz a discussão dos sujeitos que queremos formar, do processo de transição e progressão entre as etapas, além de sugestões e possibilidades com o objetivo de subsidiar os professores em suas atividades pedagógicas levando-se, em consideração, os elementos dos territórios alagoanos.\n\nAssim, convidamos todos a interagir neste território de possibilidades. Vamos lá?!",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

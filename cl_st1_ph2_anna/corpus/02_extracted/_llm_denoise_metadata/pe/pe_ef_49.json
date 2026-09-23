@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03e2cd25952da4f9006ab307dd90d487d2ae4f4d76a0ff9c42",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 779,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 764,
+      "output_tokens_details": {
+        "reasoning_tokens": 84
+      },
+      "total_tokens": 1543
+    }
+  },
+  "created_at": "2026-09-22T22:57:40Z",
+  "duration_seconds": 6.581,
+  "error": null,
+  "excerpt_id": "pe_ef_49",
+  "filename": "pe_ef_49.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ace39458ac212f260ce40c17e9fdcacf416308f4d24ff5fb5880920f28e47547",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4405cbf20361a460f64f6e6586efa9abfc059ec2ee07364e73ccffc8672f6d77",
+    "rendered_prompt_sha256": "d0c4288f253163fdf07ace2605f0e95cffd7881a4cd8c10e3f61b2bd22e5b414",
+    "source_text_sha256": "db45849bab6b4aa2583271a438071acab050bc9d3f83b4ad6e4b98c9898beddc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_49.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2428,
+    "filename": "pe_ef_49.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_49.txt",
+    "state": "pe",
+    "word_count_original": 499
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_49.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_49.json"
+  },
+  "raw_response_text": "## Álgebra\n\nAs tendências atuais em Educação Matemática encaram a álgebra não mais como um bloco de conteúdo, mas como uma forma de pensar matematicamente, caracterizada, entre outros aspectos, pela busca de generalizações e de regularidades. Com base nesse ponto de vista, é recomendável que o ensino de álgebra seja desenvolvido desde os anos iniciais do ensino fundamental com o cuidado de não o reduzir a simples manipulação simbólica, mas estimulando o desenvolvimento do pensamento algébrico.\n\nDestaca-se, com relação à formação em álgebra, não o trabalho com símbolos, mas a busca, por parte do estudante, de identificar regularidades em sequências, sejam elas numéricas, de figuras ou de outro tipo. As atividades propostas pelo professor devem, entre outros aspectos, procurar levar o estudante a identificar os elementos e as regras de formação dessas sequências. Neste caso, espera-se, entre outras habilidades, que a criança descreva o padrão em uma sequência recursiva ou não recursiva (como por exemplo: a sequência dos divisores de um número). Tal trabalho pode ser muito bem articulado com o estudo dos números, em especial com o emprego da reta numérica.\n\nOutra articulação importante com os números e suas operações pode ser efetivada em situações nas quais o estudante seja levado à determinação do elemento desconhecido em uma igualdade matemática. Nesta etapa de ensino, tais situações podem ser exploradas por meio da ideia de operações inversas, como, por exemplo, “determinar o número que, multiplicado por quatro, é igual a vinte”. Porém, é preciso cautela na utilização da linguagem simbólica convencional na Matemática, pois as representações próprias dos estudantes merecem muita atenção. A familiaridade deles com as operações inversas será uma das bases para o progressivo emprego da simbologia convencional da álgebra. Em geral, o efetivo trabalho com “letras” somente será realizado na etapa posterior de escolaridade, ou seja, nos anos finais.\n\nO pensamento funcional também deve ser valorizado nesta etapa de escolaridade. Em particular, a noção de proporcionalidade pode ser introduzida por meio de situações ligadas ao cotidiano do estudante. Por exemplo, “se um doce custa dois reais, três doces custam seis reais”. Nesse sentido, as situações e problemas devem ser elaborados de forma a permitir que o estudante desenvolva estratégias próprias de resolução, sendo desaconselhável a apresentação de regras fixas ou algoritmos únicos. Essas situações podem ser uma ótima ocasião de promover a articulação com o bloco da probabilidade e estatística (tratamento da informação) nas atividades com gráficos de segmentos. O estudante poderá, então, construir a associação da proporcionalidade entre grandezas com o gráfico linear.\n\nEstudos em Educação Matemática também têm demonstrado que, nos anos iniciais desta etapa de escolaridade, os estudantes apresentam a competência de resolver, utilizando estratégias próprias, situações simples envolvendo a proporcionalidade inversa entre grandezas. Por exemplo, se ele gasta certo tempo para se deslocar de sua casa até a escola, dobrando seu ritmo (sua velocidade) ele gastará, aproximadamente, a metade do tempo para cumprir o mesmo percurso, triplicando o ritmo o tempo cai para a terça parte e assim sucessivamente (PERNAMBUCO, 2012).",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

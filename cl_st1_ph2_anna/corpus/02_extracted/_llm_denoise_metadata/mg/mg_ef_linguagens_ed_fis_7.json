@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0499dc4d1cbb4797006ab302b12eac87d295f514720f504705",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 777,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 738,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1515
+    }
+  },
+  "created_at": "2026-09-22T22:35:34Z",
+  "duration_seconds": 5.688,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_ed_fis_7",
+  "filename": "mg_ef_linguagens_ed_fis_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0c0f4390279b248a732fa09e3581fc57f78930b6c2b1f7eec349216290da4d6c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "893e4bb29aa84a57f0f8fd4b146edeb3cab78890333128d29e00e916ee21ea01",
+    "rendered_prompt_sha256": "e343e1e22a5b3950898d75832403a2550a9964710cbb143f54f5c0b9c6c052bb",
+    "source_text_sha256": "013ceaea48355003e2a82bd409e5717e5fc9e8b04c73fd015b56d6048840b63f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_ed_fis_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1443,
+    "filename": "mg_ef_linguagens_ed_fis_7.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_ed_fis_7.txt",
+    "state": "mg",
+    "word_count_original": 441
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_ed_fis_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_ed_fis_7.json"
+  },
+  "raw_response_text": "## A democracia como fundamento do exercício da cidadania\n\nA democracia, no âmbito da formação educacional, fundamenta-se no reconhecimento dos direitos humanos e no exercício dos direitos e deveres da cidadania. Comprometida com a busca da equidade no acesso a todos os benefícios sociais relativos à promoção da qualidade de vida dos sujeitos, a democracia se expressa também no combate a todas as formas de preconceito e discriminação. Assim, no contexto do processo ensino-aprendizagem²⁴ da Educação Física, esse princípio deve ter como premissa básica a garantia de igualdade de oportunidades e de diversidade de tratamentos dos estudantes.\n\n> ²⁴ Leia-se em todos os casos que ocorrer: de ensino e de aprendizagem.\n\nO ensino da Educação Física não pode, portanto, perder de vista a perspectiva de uma prática pedagógica inclusiva, não discriminatória entre homens e mulheres de todas as idades, classes sociais, etnias, independentemente de suas habilidades e performances nas práticas corporais.\n\n## A ética e a estética como princípios norteadores da formação humana\n\nO fundamento ético da humanidade, na opinião de Rodrigues (2001), assenta-se no tripé constituído “pelo permanente reconhecimento da identidade própria e do outro, pela autonomia e pelo exercício da liberdade com responsabilidade”. Na opinião desse autor, o sujeito se torna autônomo e responsável quando é capaz de gerenciar, de forma independente, sua própria vida, estabelecendo juízos de valor e assumindo responsabilidade pelas escolhas. Em outras palavras, o sujeito autônomo é aquele que:\n\n- Vive sua corporeidade, assumindo a responsabilidade de cuidar de seu corpo, estabelecendo uma relação saudável consigo mesmo, com o outro e com o mundo natural.\n- Controla sua vontade, articulando, de forma racional e equilibrada, suas necessidades, paixões e emoções.\n- Escolhe livremente os meios e os objetivos de seu crescimento intelectual, bem como as formas de sua conduta na vida social.\n\nNa perspectiva da educação cidadã, é importante observar que esses princípios devem nortear a formação humana dos educandos, de maneira que eles compreendam o significado e a importância de outros valores, como a justiça, a cooperação, a solidariedade, a humildade, o respeito mútuo, a tolerância, dentre outros. Sem esses valores, a vida social se deteriora.\n\nO fundamento estético, por sua vez, alicerça-se, sobretudo, na sensibilidade humana. Nessa perspectiva, a estética, valorizando a afetividade e o prazer, estimula a criatividade, o espírito inventivo, a curiosidade pelo inusitado, elementos essenciais para nossa convivência com a incerteza, o imprevisível e o diferente. Auxilia os sujeitos a reconhecer e a valorizar a diversidade cultural, a qualidade das produções humanas, seja em serviços, bens ou conhecimentos, e a buscar o aprimoramento permanente. A estética também promove a crítica a qualquer forma estereotipada e reducionista de expressão humana. (MELLO, 1998).",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

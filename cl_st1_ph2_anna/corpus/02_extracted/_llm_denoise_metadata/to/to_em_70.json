@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f376aab312867ca006ab3105bc9e087d2a716f167b81bb4b9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1543,
+      "input_tokens_details": {
+        "cache_write_tokens": 1540,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2136,
+      "output_tokens_details": {
+        "reasoning_tokens": 678
+      },
+      "total_tokens": 3679
+    }
+  },
+  "created_at": "2026-09-22T23:34:04Z",
+  "duration_seconds": 16.867,
+  "error": null,
+  "excerpt_id": "to_em_70",
+  "filename": "to_em_70.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e0f06c32b90aaebd8815ededc9b353207d0582cef344665ece311348e07a5ec0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c2a12222e3dd428814f1117d0498674932b1e5dedac882c1b0cd885cd1e547ec",
+    "rendered_prompt_sha256": "ac9fdf9cb9555ac3a394a21aba1edda3678412611c5402bd40f5521851a632d5",
+    "source_text_sha256": "aee1f5a0a3247cde8ea625fbe989c7529529e6b0e0dadb6886b0311bae81ed97"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_70.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4074,
+    "filename": "to_em_70.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_70.txt",
+    "state": "to",
+    "word_count_original": 939
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_70.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_70.json"
+  },
+  "raw_response_text": "## 11.2 Formação Geral Básica\n\nA organização curricular da Formação Geral Básica será anual, organizada por área de conhecimento com distribuição de carga horária por componente curricular, conforme exemplo de Estrutura Curricular do Ensino Médio – Tempo Parcial, que segue. No caso da modalidade indígena, é assegurada estrutura curricular específica, em atendimento à Resolução CEB 3 de 10/11/1999, no inciso III – ensino ministrado nas línguas maternas das comunidades atendidas, como uma das formas de preservação da realidade sociolinguística de cada povo.\n\n### Etapa Ensino Médio\n\n- 2022 – Implementação do Documento Curricular, na 1ª série do Ensino Médio.\n- 2023 – Implementação do Documento Curricular, nas 1ª e 2ª séries do Ensino Médio.\n- 2024 – Implementação do Documento Curricular, na 3ª série do Ensino Médio. O cronograma contempla também o monitoramento da implementação do Documento Curricular do Território do Tocantins e formação continuada dos\n\n## 11.3 Organização Curricular do Ensino Médio – Tempo Parcial, Tempo Integral e Educação de Jovens e Adultos (EJA)\n\nNa Arquitetura do Ensino Médio ofertado no território do Tocantins, a Formação Geral Básica (1.800 horas conforme BNCC) e os Itinerários Formativos (1.200 horas) integralizam 3.000 horas-relógio, sendo ofertadas 25 horas semanais (relógio) que, convertidas em horas/aula, correspondem a 30 h/a semanais (de 50 minutos cada) na rede estadual do Tocantins, totalizando 3.600 horas/aula – regime parcial e 5.400 horas/aula – regime integral.\n\nNa prática, o estudante no regime parcial permanece em média 4 horas e 15 minutos na escola, sendo ofertadas 5 horas/aula na forma Presencial (P) e o sexto horário é ofertado na forma Não Presencial (NP).\n\nDe acordo com as Diretrizes Curriculares Nacionais para o Ensino Médio – DCNEM (2018), é assegurado até 20% das aulas do turno diurno e 30% das aulas do noturno poderão ser oferecidas na modalidade de educação a distância (EaD). Destaca-se que há diferença entre ensino a distância e ensino mediado por tecnologias. O primeiro está baseado em uma aprendizagem em que o professor e o estudante não estão, necessariamente, conectados ao mesmo tempo. O segundo estrutura-se em uma aprendizagem em que o professor e o estudante estão conectados num mesmo momento, embora ocupando diferentes espaços, próximos ou longínquos.\n\nNa Arquitetura Curricular para as escolas estaduais do Tocantins, 17% da carga horária, no diurno, será ofertada na forma Não Presencial (NP), totalizando 5 horas/aula de forma NP, por semana, em cada série. No turno noturno serão 9 h/a de forma NP, por semana, em cada série, totalizando 30% Não Presencial (NP), conforme possibilita a legislação. As aulas não presenciais (NP) visam o efetivo cumprimento da carga horária anual prevista nas DCNEM (2018).\n\nAssim, é necessário que as equipes gestoras e pedagógicas das escolas de ensino médio da rede compreendam que, para o desenvolvimento de Atividades Não Presenciais (NP), a escola deve garantir e favorecer a aprendizagem dos jovens por meio de aulas e atividades com intencionalidade pedagógica, ofertando atividades bem estruturadas, orientadas, contextualizadas e significativas para os estudantes de forma síncrona ou assíncrona.\n\nNa execução das aulas não presenciais, os professores poderão utilizar recursos tecnológicos e não tecnológicos, a depender da realidade e condições de cada escola. Neste contexto, vale destacar que a metodologia ativa vinculada ao ensino híbrido, como sala de aula invertida, rotação por estações, metodologias baseadas em projetos, clubes temáticos, entre outras possibilidades, são técnicas metodológicas úteis para desenvolver na Formação Geral Básica e nos Itinerários Formativos: Unidades Curriculares Eletivas, Trilhas de Aprofundamento e Projeto de Vida.\n\nNa oferta de Aulas Não Presenciais, a escola tem diferentes possibilidades de usos de recursos educacionais tecnológicos no processo de ensino e aprendizagem do estudante, como fóruns online, quiz, infográfico, videoaulas, e-book, template, webinário, lives em redes sociais como YouTube, Facebook e Instagram, blog, podcast, Hangout, dentre outros. Ou seja, há inúmeras possibilidades de propostas metodológicas para que, no ensino não presencial, os professores possam ministrar aulas dinâmicas e significativas aos estudantes.\n\nOutra possibilidade de proporcionar contextualização, interdisciplinaridade e/ou transdisciplinaridade ao currículo por meio dos Projetos Integradores, que podem ser utilizados para compor a carga horária das Aulas Presenciais e Não Presenciais dos componentes curriculares das 4 áreas de conhecimento. Por se tratar de Temáticas Contemporâneas Transversais, dependendo da intencionalidade pedagógica da escola, podem ser ofertados pela periodicidade que atende aos objetivos e metas (semanal, mensal, bimestralmente ou por mais períodos letivos), podendo envolver uma ou mais turmas ou até toda a comunidade escolar nas atividades propostas.\n\nAssim, para imprimir dinamismo e significado ao currículo, a criatividade do professor é o principal fio condutor dessa versatilidade metodológica, tão apreciada pelas juventudes do século XXI.\n\nSeguem abaixo as opções de oferta do Tempo Parcial de Ensino Regular, do Tempo Integral de Ensino e da Educação de Jovens e Adultos/3º Segmento na rede estadual de ensino do Tocantins.\n\n### Tempo Parcial de Ensino – 3.600 horas/aula\n\nO percurso formativo do Tempo Parcial (1ª a 3ª séries) do Ensino Médio de Tempo Parcial na rede estadual do Tocantins terá 3.000 horas/relógio que, convertidas em horas/aula de 50 minutos, integralizam 3.600 horas/aula. Assim, o estudante de Tempo Parcial cursará na Formação Geral Básica (Parte Obrigatória/BNCC) 2.160 horas/aula e nos Itinerários Formativos (Parte Flexível) 1.440 horas/aula.\n\nPara o atendimento às especificidades do território e dos estudantes das 2ª e 3ª séries que iniciaram a Flexibilização Curricular nas Escolas-Piloto em 2019, seguem as opções 03, 04, 05 e 06.\n\nAs opções 7, 8, 9 e 10 serão ofertadas até a conclusão do processo formativo dos estudantes que iniciaram o Ensino Médio conforme Estruturas Curriculares aprovadas pela Res. CEE/TO nº 160/2017, vigência: 2022 e 2023.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

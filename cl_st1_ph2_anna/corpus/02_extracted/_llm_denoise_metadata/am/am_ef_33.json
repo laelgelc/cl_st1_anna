@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_053ef05edbd7b2ac006ab2fd2cefd887d2ba75ed68154702c7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 713,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 720,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 1433
+    }
+  },
+  "created_at": "2026-09-22T22:12:02Z",
+  "duration_seconds": 5.772,
+  "error": null,
+  "excerpt_id": "am_ef_33",
+  "filename": "am_ef_33.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1971cc129f8dfda2fe7cbbf9030d156453b74b74b1dbb9416a668685570bfc3f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7e28a3aedca700de28f0294b11492662d88040b1493b3a725aabf88bace72c10",
+    "rendered_prompt_sha256": "0e9630e77fdfa14e3fd6327c209caac252ccefd10af5ce53b36471e49dc27650",
+    "source_text_sha256": "9ed6dd1364fc59af3b595a42e6e1ca41661fa4015d2075945092f9038b61e0d0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_33.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 336,
+    "filename": "am_ef_33.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_33.txt",
+    "state": "am",
+    "word_count_original": 384
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_33.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_33.json"
+  },
+  "raw_response_text": "A referência a essas dimensões (MEC, 2017, p. 190-191) busca facilitar o processo de ensino e aprendizagem em Arte, integrando os conhecimentos do componente curricular. Uma vez que os conhecimentos e as experiências artísticas são constituídos por materialidades verbais e não verbais, sensíveis, corporais, visuais, plásticas e sonoras, é importante levar em conta sua natureza vivencial, experiencial e subjetiva.\n\n**Criação:** refere-se ao fazer artístico, quando os sujeitos criam, produzem e constroem. Trata-se de uma atitude intencional e investigativa que confere materialidade estética a sentimentos, ideias, desejos e representações em processos, acontecimentos e produções artísticas individuais ou coletivas. Essa dimensão trata do apreender o que está em jogo durante o fazer artístico, processo permeado por tomadas de decisão, entraves, desafios, conflitos, negociações e inquietações.\n\n**Crítica:** refere-se às impressões que impulsionam os sujeitos em direção a novas compreensões do espaço em que vivem, com base no estabelecimento de relações, por meio do estudo e da pesquisa, entre as diversas experiências e manifestações artísticas e culturais vividas e conhecidas. Essa dimensão articula ação e pensamento propositivos, envolvendo aspectos estéticos, políticos, históricos, filosóficos, sociais, econômicos e culturais.\n\n**Estesia:** refere-se à experiência sensível dos sujeitos em relação ao espaço, ao tempo, ao som, à ação, às imagens, ao próprio corpo e aos diferentes materiais. Essa dimensão articula a sensibilidade e a percepção, tomadas como forma de conhecer a si mesmo, o outro e o mundo. Nela, o corpo em sua totalidade (emoção, percepção, intuição, sensibilidade e intelecto) é o protagonista da experiência.\n\n**Expressão:** refere-se às possibilidades de exteriorizar e manifestar as criações subjetivas por meio de procedimentos artísticos, tanto em âmbito individual quanto coletivo. Essa dimensão emerge da experiência artística com os elementos constitutivos de cada linguagem, dos seus vocabulários específicos e das suas materialidades.\n\n**Fruição:** refere-se ao deleite, ao prazer, ao estranhamento e à abertura para se sensibilizar durante a participação em práticas artísticas e culturais. Essa dimensão implica disponibilidade dos sujeitos para a relação continuada com produções artísticas e culturais oriundas das mais diversas épocas, lugares e grupos sociais.\n\n**Reflexão:** refere-se ao processo de construir argumentos e ponderações sobre as fruições, as experiências e os processos criativos, artísticos e culturais. É a atitude de perceber, analisar e interpretar as manifestações artísticas e culturais, seja como criador, seja como leitor.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07a03eb33ca778af006ab307f53a3487d2842ad8d2b8581c7a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1378,
+      "input_tokens_details": {
+        "cache_write_tokens": 1375,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1425,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 2803
+    }
+  },
+  "created_at": "2026-09-22T22:58:08Z",
+  "duration_seconds": 11.56,
+  "error": null,
+  "excerpt_id": "pe_ef_72",
+  "filename": "pe_ef_72.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e7a4a976435cf98c813e89c8d52b6bf4123b08fd7c98d69f3c6f3e4154cbafea",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ae8ff2fcc88d8ec75329960557e2baba354f2eecc458f3b0e0c77d3f0100a697",
+    "rendered_prompt_sha256": "848e0d19e1160749bf269f329c97b308b172e41c726a367517349d65d7b707ec",
+    "source_text_sha256": "16cc9fe59a4bcdb069271dc5aa3cc8da0516032e893bb1b7eebe92e3d801da97"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_72.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2454,
+    "filename": "pe_ef_72.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_72.txt",
+    "state": "pe",
+    "word_count_original": 935
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_72.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_72.json"
+  },
+  "raw_response_text": "### 6.4.1 HISTÓRIA\n\n#### NO ENSINO FUNDAMENTAL – ANOS INICIAIS:  \n#### UNIDADES TEMÁTICAS, OBJETOS DE CONHECIMENTO E HABILIDADES\n\nOs professores Marcos Silva e Selva Guimarães (2010) afirmam que “em diferentes contextos da história do Brasil, é possível dimensionar a preocupação do Estado com a institucionalização de currículos e programas de História para a educação básica.” (SILVA e GUIMARÃES, 2010, p. 15). Mais uma vez, vivemos um desses momentos, agora com a promulgação de uma Base Nacional Comum Curricular que estabelece conteúdos mínimos que os estudantes de todo o Brasil têm direito de aprender ao longo do percurso escolar da educação básica.\n\nNesse sentido, a BNCC estabelece as competências e habilidades que devem ser desenvolvidas pelo alunado da rede pública e privada de todo Brasil para cada etapa de ensino. Isso significa estabelecer “De quais formas os currículos de História, ‘prescritos e vividos’ operam no sentido de selecionar o para quê, o quê e como ensinar em História” (IDEM, p. 16).\n\nO ensino de História nos Anos Iniciais do ensino fundamental (1º ao 5º ano) se reveste de características peculiares, sobretudo do ponto de vista daquele que medeia a relação ensino-aprendizagem: o professor. Nessa etapa de ensino, é um único profissional que assume a tarefa de mediador dos vários componentes curriculares para com seus estudantes; geralmente, é alguém sem formação em História, seja de graduação ou pós-graduação e, muitas vezes, é um professor apenas com o magistério, sem a devida formação superior em Pedagogia ou áreas afins. Esse panorama coloca algumas questões quando da elaboração de uma proposta curricular de História para os Anos Iniciais, em especial se pensarmos com Silva e Guimarães que:\n\n> Um currículo de História é, sempre, produto de escolhas, visões, interpretações, concepções de alguém ou de algum grupo que, em determinados espaços e tempos, detém o poder de dizer e fazer. Os currículos de História – sejam aqueles produtos das políticas públicas ou da indústria editorial, sejam os currículos construídos pelos professores na experiência cotidiana da sala de aula – expressam visões e escolhas, revelam tensões, conflitos, acordos, consensos, aproximações e distanciamentos (SILVA e GUIMARÃES, 2010, p. 16-17).\n\nNesse sentido, pensar um currículo de História para os Anos Iniciais supõe escolher e recortar conteúdos que serão trabalhados em sala de aula por professores, em sua maioria, leigos. Isso implica um cuidado maior sobre o que escolher e, sobretudo, de como aquilo que foi escolhido será ensinado de forma que as competências e habilidades requeridas pela BNCC não sejam convertidas em generalidades e resumidas apenas ao expediente de mais uma atividade para o letramento dos estudantes.\n\nO currículo de História nos Anos Iniciais deve contemplar as competências gerais e as habilidades estabelecidas pela BNCC e, ao mesmo tempo, possibilitar um ensino do componente que privilegie as especificidades desse saber, sobretudo no que diz respeito a desenvolver nos estudantes a capacidade de pensar-se como sujeitos (eu) no tempo, como produtos e produtores de uma sociedade (nós) em que devem agir e atuar como cidadãos e da qual sofrem os constrangimentos do outro que se apresenta como seu diferente.\n\nDessa forma, torna-se premente desenvolver no estudante a noção de sujeito produtor de sua própria história, mas, ao mesmo tempo, que possa se ver como produto de uma comunidade ou sociedade da qual faz parte sem, no entanto, se anular totalmente a seus aspectos formadores. Isso significa apontar para o fato de que todo sujeito é produto de uma dada historicidade, ou seja, de uma dada relação com o tempo e que, a partir dela, constrói laços de pertencimento, de identidade, de solidariedade, de cidadania com dados territórios e lugares existenciais, geográficos, etc.\n\nÉ essa particularidade do saber histórico que precisa ser marcada no percurso formativo do estudante ao longo dos Anos Iniciais. É ela que diferencia, nessa etapa de ensino, o componente curricular História dos demais. É o estudo dos homens no tempo e em um dado espaço no sentido de destacar também que cada tempo e espaço produzem sujeitos diferentes, e essa diferença se expressa, sobretudo, na relação do presente com o passado.\n\nAssim, os professores dos Anos Iniciais, ao trabalharem e ensinarem História, não podem perder de vista essa dimensão que particulariza esse saber, qual seja: que ele trabalha com um sujeito que é histórico, que essa historicidade se refere a um dado modo de relação com o tempo e com o espaço, variável de sociedade pra sociedade e de período para período; e que só pode ser acessada através do estabelecimento de uma mediação pelos indícios (rastros, fontes, documentos, etc.) deixados por estes homens e sociedades, ou seja, que não há história sem fontes.\n\nTer tudo isso em mente significa dizer que o conhecimento histórico, nos Anos Iniciais, não pode ser visto apenas como ornamento, como detalhe, mas sim como parte constitutiva inerente à própria formação do sujeito em sua historicidade. Esse é um elemento fundamental para pensar o currículo de História de Pernambuco nessa etapa de ensino, em especial pelo fato de termos uma História que nos singulariza, distingue-nos e - ao mesmo tempo - integra-nos, de forma diferencial, àquilo que chamamos de sociedade brasileira.\n\nDesse modo, o currículo de História dos Anos Iniciais, em Pernambuco, deve permitir esse processo permanente de construção e desconstrução de identidades e pertencimentos, sem perder de vista a relação do local com o regional e com o nacional. E nada melhor para isso que colocar a produção dessas identidades, da construção do eu, do nós e do outro que nos interpela em perspectiva histórica, sem perder de vista o que nos particulariza a partir deste lugar que ocupamos no território brasileiro e no mundo.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fbc78a20a3290de006ab3039234c887d29ec203ff4555e689",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 706,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 706,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 1412
+    }
+  },
+  "created_at": "2026-09-22T22:39:20Z",
+  "duration_seconds": 6.075,
+  "error": null,
+  "excerpt_id": "mg_inf_organizacao_2",
+  "filename": "mg_inf_organizacao_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "382e6dfcf1dc845deedffed2d32f69e6e2f5a5231628aff40e4f6065e6d23294",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d2952f7e385fe3a4ef6afa56165d8624ff705a5fe0779adfd6c94d2add3c7e1a",
+    "rendered_prompt_sha256": "8e10fdef612ecd0fad6a078efbe47e9858ec944db30e1b325697981344fa7d76",
+    "source_text_sha256": "1aa3828c1dbbfc442281e43bb6d2e22c13e17c5899dd61b9688b9c140e3132ff"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_organizacao_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1663,
+    "filename": "mg_inf_organizacao_2.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_organizacao_2.txt",
+    "state": "mg",
+    "word_count_original": 380
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_organizacao_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_organizacao_2.json"
+  },
+  "raw_response_text": "### 2.5.1 Direitos de Aprendizagem\n\nA BNCC (2017) preconiza seis direitos de aprendizagem que devem ser garantidos na Educação Infantil, considerando as diferentes maneiras pelas quais bebês e crianças aprendem e constroem sentidos sobre si, os outros e o mundo; as especificidades e as características da vida contemporânea e a incorporação da Educação Infantil no sistema educacional. Esses direitos são:\n\n- **CONVIVER** com outras crianças e adultos, em pequenos e grandes grupos, utilizando diferentes linguagens, ampliando o conhecimento de si e do outro, o respeito em relação à cultura e às diferenças entre as pessoas.\n- **BRINCAR** de diversas formas, em diferentes espaços e tempos, com diferentes parceiros (crianças e adultos), de forma a ampliar e diversificar suas possibilidades de acesso a produções culturais. A participação e as transformações introduzidas pelas crianças nas brincadeiras devem ser valorizadas, tendo em vista o estímulo ao desenvolvimento de seus conhecimentos, sua imaginação, criatividade, experiências emocionais, corporais, sensoriais, expressivas, cognitivas, sociais e relacionais.\n- **PARTICIPAR** ativamente, com adultos e outras crianças, tanto do planejamento da gestão da escola e das atividades propostas pelo educador quanto da realização das atividades da vida cotidiana, tais como a escolha das brincadeiras, dos materiais e dos ambientes, desenvolvendo diferentes linguagens e elaborando conhecimentos, decidindo e se posicionando.\n- **EXPLORAR** movimentos, gestos, sons, formas, texturas, cores, palavras, emoções, transformações, relacionamentos, histórias, objetos, elementos da natureza, na escola e fora dela, ampliando seus saberes sobre a cultura, em suas diversas modalidades: as artes, a escrita, a ciência e a tecnologia.\n- **EXPRESSAR**, como sujeito dialógico, criativo e sensível, suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, questionamentos, por meio de diferentes linguagens.\n- **CONHECER-SE** e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações, brincadeiras, linguagens vivenciadas na instituição escolar, em seu contexto familiar e comunitário.\n\nPara que estes direitos sejam contemplados, a BNCC estruturou as aprendizagens a serem alcançadas em toda etapa da Educação Infantil entrelaçando as situações e as experiências cotidianas da criança e seus saberes, aos conhecimentos que fazem parte do patrimônio cultural, artístico, científico e tecnológico, por meio dos campos de experiências.\n\nEm cada campo de experiências os direitos de aprendizagem ganham especificidades, dessa forma, foram reelaborados, traduzindo aspectos peculiares, conforme estes se apresentam.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

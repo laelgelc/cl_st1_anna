@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06bd059f37047f86006ab30afd210887d29ce8b24bec450f34",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 861,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 847,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 1708
+    }
+  },
+  "created_at": "2026-09-22T23:11:00Z",
+  "duration_seconds": 7.886,
+  "error": null,
+  "excerpt_id": "rn_ef_9",
+  "filename": "rn_ef_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "376d9b8554dba6f9e71ec81788dfaa991c23cdfacb77f1946e8c2871e82fa1ac",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1e8fe0ed95b6c06c68a1d0fd1701598f6f4b31aaba7aafd3e3bced9e44796ccc",
+    "rendered_prompt_sha256": "678ca9b1f602c47402cf55ec61d856a91e89573aef93797bce8dea2700b73fe3",
+    "source_text_sha256": "723f6a729312f361f4d47785c5730f689cd8d44d8efb60da5c97410360c2afbf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3006,
+    "filename": "rn_ef_9.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_9.txt",
+    "state": "rn",
+    "word_count_original": 555
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_9.json"
+  },
+  "raw_response_text": "## 7. ORIENTAÇÕES BÁSICAS EM RELAÇÃO ÀS MODALIDADES\n\nO currículo e o trabalho pedagógico das diversas modalidades de atendimento educacional nas redes de ensino devem atender à legislação educacional vigente, em especial a LDB, as Diretrizes Curriculares Nacionais para a Educação Básica, as diretrizes curriculares que orientam o trabalho em cada modalidade e, em tudo o que couber, o que está disposto na BNCC.\n\n### 7.1 Educação de Jovens e Adultos\n\nA Educação de Jovens e Adultos (EJA) busca garantir oportunidades educacionais aos estudantes que não tiveram acesso à escolaridade básica na idade própria, em observância à Constituição Federal de 1988 e à LDB. Considerando as demandas e especificidades observadas na EJA – as situações, os perfis e as faixas etárias dos estudantes –, há necessidade de garantir uma educação de qualidade, diferenciada e contextualizada, que desenvolva as potencialidades dos alunos diante dos desafios da sociedade atual, que seja elaborada a partir das diretrizes curriculares nacionais para a modalidade e que proponha um modelo pedagógico próprio a partir deste Documento Curricular.\n\nEntre as realidades e vivências do público da EJA, insere-se a educação para pessoa privada de liberdade, organizada de modo a atender às peculiaridades de tempo, espaço e rotatividade da população carcerária, considerando a flexibilidade prevista no Artigo 23 da LDB. Os projetos e programas a serem desenvolvidos nas prisões devem despertar a conscientização, as potencialidades de cada um e o desenvolvimento da autovalorização, fundamental para o processo de reinserção e ressocialização da pessoa privada de liberdade.\n\nJá as atividades destinadas ao adolescente em conflito com a lei e desenvolvidas em ambiente socioeducativo devem considerar não apenas as sanções punitivas, mas também os aspectos educativos, promovendo a proteção integral dos adolescentes por meio de um conjunto de ações intersetoriais e de garantia de direitos, que devem auxiliar o adolescente a retomar e desenvolver, por meio das atividades educacionais, aspectos disciplinares, postura corporal, capacidade de atenção, concentração e de expressão oral, bem como habilidades e competências sociais da educação formal e profissionalizante. A possibilidade de o adolescente em conflito com a lei superar sua condição de exclusão é criada quando se proporciona a ele uma formação voltada a valores positivos de participação na vida social, com envolvimento familiar e comunitário, uma educação que desperte a produção de novos pensamentos, com autonomia, criticidade e evolução do conhecimento científico, bem como perspectiva de continuidade dos estudos em outros níveis de ensino.\n\nO currículo das turmas de EJA deve:\n\n- envolver os elementos da materialidade geográfica e social e os saberes relacionados aos elementos da vivência e cultura dos estudantes;\n- trabalhar oportunidades educacionais apropriadas, considerando suas características, interesses, condições de vida, trabalho e, principalmente, projetos de vida, bem como o uso competente de suas habilidades, o que tem ressonância na vida pessoal, profissional e social dos estudantes;\n- integrar-se com programas de educação profissional;\n- incluir temas emergentes da realidade dos estudantes, tais como ética e cidadania, inclusão, direitos humanos, diversidade, saúde, meio ambiente, mundo do trabalho com ênfase no empreendedorismo, gestão financeira e segurança no trabalho, proporcionando o desenvolvimento das competências necessárias ao aprendizado permanente;\n- pautar-se pela efetivação de atividades diversificadas e vivências socializadoras, culturais, recreativas e esportivas, que enriqueçam o processo formativo dos estudantes e lhes agreguem o gosto pelo estudo, a busca permanente pela produção de novos conhecimentos para compreender e agir sobre a realidade.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

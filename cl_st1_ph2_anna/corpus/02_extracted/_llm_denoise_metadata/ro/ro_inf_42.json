@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02fcef3e09b65e5e006ab30cb5b85c87d2ad9b155b9c2e9567",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 436,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 511,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 947
+    }
+  },
+  "created_at": "2026-09-22T23:18:19Z",
+  "duration_seconds": 5.369,
+  "error": null,
+  "excerpt_id": "ro_inf_42",
+  "filename": "ro_inf_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d71ddd966cb21498cf842ff92b6d9b7e918aa23f1948acfaa67456f753d4b092",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1a233271fad4044af0caa9cd9a020164b864f0aee63f0b08aa136c36df7f0c45",
+    "rendered_prompt_sha256": "72dcc8c75bc342905f0041d997d7f7fe88bbb64406ae5626053fb1c77388e642",
+    "source_text_sha256": "fdb8d7c4f584eca6c1c70715c84bc916784f5e44992b0f2e583a559e4aef0408"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3357,
+    "filename": "ro_inf_42.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_42.txt",
+    "state": "ro",
+    "word_count_original": 254
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_42.json"
+  },
+  "raw_response_text": "## A rotina\n\nA rotina da educação infantil, a partir do que propõe BRASIL (2001), é um instrumento para concretizar as intenções educativas. Ela se revela na forma pela qual são organizados os espaços, os tempos, os materiais, as propostas e as intervenções do professor.\n\nA organização de uma rotina produtiva precisa garantir a necessária flexibilidade e precisa considerar as necessidades de aprendizagem e desenvolvimento das crianças e as melhores formas de atendê-las, bem como buscar formas de organização do espaço e das vivências, de maneira a favorecer:\n\n- Interações entre as crianças;\n- Observação de seus processos de desenvolvimento e aprendizagem e organizar intervenções pedagógicas a partir dessas observações;\n- Adequação das propostas didáticas às possibilidades e necessidades reais de desenvolvimento e aprendizagem das crianças;\n- A organização das crianças no tempo e no espaço se preparando para vivências posteriores.\n\nUma rotina bem estruturada, flexível, pensada a partir das necessidades das crianças, proporciona a elas maior facilidade de organização espaço-temporal, e as liberta do sentimento de estresse de um cotidiano desconhecido. Neste sentido a rotina garante o conhecimento da ordem dos acontecimentos, da estabilidade do cotidiano. Deve ser rica em experiências, alegre e prazerosa, garantindo os momentos de brincar nos espaços diversos e distintos, o tempo de comunicar-se com os outros nas rodas de conversa, o tempo de alimentar-se, de cuidar da higiene, o tempo da individualidade, ou em pequenos ou grandes grupos, etc. Uma rotina adequada é um instrumento construtivo para a criança, pois permite que ela estruture sua independência e autonomia.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

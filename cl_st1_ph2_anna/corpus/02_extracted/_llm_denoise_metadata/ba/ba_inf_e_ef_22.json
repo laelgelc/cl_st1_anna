@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08bbff35b0253ba6006ab2ff0afdb087d2bd2314c76acce6ef",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 603,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 665,
+      "output_tokens_details": {
+        "reasoning_tokens": 190
+      },
+      "total_tokens": 1268
+    }
+  },
+  "created_at": "2026-09-22T22:20:01Z",
+  "duration_seconds": 6.573,
+  "error": null,
+  "excerpt_id": "ba_inf_e_ef_22",
+  "filename": "ba_inf_e_ef_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2e6f3f46ef7f247e45f6096513e0858e55778d509c7613c5b208a76b2fbe1a5e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3b4ab7eda0af1ed3a9242373a7ee9af66adae43f7daa732d9d2151eb272beafd",
+    "rendered_prompt_sha256": "9dc5eb0a77334fedebf43a04bb8576670465913ce0a2743533f78908d723b91f",
+    "source_text_sha256": "1aaf632afae449dbe2b1520d4aea8e0cbc1c63612dcae42438512ea9d1c10612"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_inf_e_ef_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 716,
+    "filename": "ba_inf_e_ef_22.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_inf_e_ef_22.txt",
+    "state": "ba",
+    "word_count_original": 374
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_inf_e_ef_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_inf_e_ef_22.json"
+  },
+  "raw_response_text": "## 5.6. Educação Financeira e para o Consumo\n\nA sociedade contemporânea vive um momento de crise, em que se faz necessária a mudança do paradigma antropocêntrico. Os padrões de consumo impostos pela “sociedade”, por meio do sistema econômico predominante, devem ser revistos, sob pena de inviabilizar a continuidade da vida no planeta. A educação possui papel fundamental na formulação de uma nova mentalidade, e a Educação Financeira e para o Consumo é elemento-chave na formação de uma consciência em relação à responsabilidade social na busca da qualidade de vida das pessoas e do planeta.\n\nEm uma sociedade em que é mais importante o TER do que o SER, abrem-se as portas para a discussão sobre o consumo consciente e sobre o que, como e por que consumimos. Neste contexto, o Tema Integrador Educação Financeira e para o Consumo visa a construção e o desenvolvimento de comportamentos financeiros consistentes, autônomos e saudáveis, para que os estudantes possam, como protagonistas de suas histórias, planejar e executar os seus projetos de vida.\n\nFerreira (2017), em seu artigo intitulado “A importância da educação financeira pessoal para a qualidade de vida”, apresenta argumentos e relaciona os índices de qualidade de vida com os conhecimentos e práticas da educação financeira pessoal, destacando que não há intenção de:\n\n> “[...] expor que qualidade de vida é parar de gastar ou poupar apenas para item específico, e sim mostrar que gastando de forma consciente e inteligente o indivíduo tem mais possibilidade de conquistar o que para ele é importante, assim como proporcionar uma vida mais tranquila e estável sem um endividamento constante que acaba por tirar a tranquilidade do indivíduo.”\n\nAs unidades escolares devem promover a inserção de conteúdos que estimulem a capacidade de escolha consciente e responsável nas discussões em sala de aula, apontando para a formação de indivíduos que possam gerir/mediar os recursos, transcendendo a questão restrita ao dinheiro, ou seja, não versado na aquisição de bens associados, tão somente, ao lucro imediato, mas para a constituição de cidadãos que reconheçam o caráter finito dos recursos e, portanto, capazes de agregar bens sem desconsiderar o desperdício e o descarte irresponsável destes no ambiente e, principalmente, o consumismo desenfreado.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0df07c276928256c006ab3087bcb7c87d29e0bcdf3f82fbb28",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 656,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 622,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 1278
+    }
+  },
+  "created_at": "2026-09-22T23:00:17Z",
+  "duration_seconds": 5.479,
+  "error": null,
+  "excerpt_id": "pi_ef_7",
+  "filename": "pi_ef_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e6bd3701caae3efcb8d99a3038eaa97e0de46e2f2d82a391bab6ef48a10d41f8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "634ec1c2908ae1b2fbed288eea26d6cac0e420e06c84269acd292233b570140c",
+    "rendered_prompt_sha256": "24ab60cbf355f62fa89770368db88e90ecc2db4eb774ebacf2de0efa14308704",
+    "source_text_sha256": "5bfcbbc12721642297d779d6882d9b866412b12787109290c29c655deb531038"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_ef_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2582,
+    "filename": "pi_ef_7.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_ef_7.txt",
+    "state": "pi",
+    "word_count_original": 383
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_ef_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_ef_7.json"
+  },
+  "raw_response_text": "# AS ETAPAS DE ENSINO E A PROGRESSÃO DA APRENDIZAGEM\n\nUma nova compreensão da Educação Física implica considerar certos critérios pelos quais o objeto do conhecimento (conteúdos) e habilidades devem ser organizados, sistematizados e distribuídos no tempo pedagogicamente necessário para a sua assimilação.\n\nNa organização do conhecimento, deve-se levar em consideração que as formas de expressão corporal dos alunos refletem os condicionantes impostos pelas relações de poder com as classes dominantes no âmbito de sua vida particular, de seu trabalho e de seu lazer.\n\nNo Ciclo de Alfabetização, a Educação Física, face às exigências da Educação Básica, deve priorizar processos capazes de gerar sujeitos inventivos, participativos, cooperativos, preparados para diversificadas inserções sociais, políticas, culturais e, ao mesmo tempo, capazes de intervir e problematizar as formas.\n\nOs alunos do Ensino Fundamental – Anos Iniciais possuem modos próprios de vida e múltiplas experiências pessoais e sociais, o que torna necessário reconhecer a existência de infâncias no plural e, consequentemente, a singularidade de qualquer processo escolar e sua interdependência com as características da comunidade local. É importante reconhecer, também, a necessária continuidade às experiências em torno do brincar, desenvolvidas na Educação Infantil. As crianças possuem conhecimentos que precisam ser, por um lado, reconhecidos e problematizados nas vivências escolares com vistas a proporcionar a compreensão do mundo e, por outro, ampliados de maneira a potencializar a inserção e o trânsito dessas crianças nas várias esferas da vida social de produção e de vida, coletivamente.\n\nDiante do compromisso com a formação estética, sensível e ética, a Educação Física, aliada aos demais componentes curriculares, assume compromisso claro com a qualificação para a leitura do mundo, a produção cultural e da vivência das práticas corporais.\n\nNo Ensino Fundamental – Anos Finais, os estudantes se deparam com diversos docentes, o que torna mais complexas as interações e a sistemática de estudos. Ainda assim, os alunos nessa fase de escolarização têm maior capacidade de abstração e de acessar diferentes fontes de informação. Essas características permitem aos estudantes maior aprofundamento nos estudos das práticas corporais na escola.\n\nPara tanto, é essencial que a aprendizagem seja fruto de vivências e experiências atrativas, imaginativas e sensoriais que mobilizem os diferentes saberes, em um contexto de respeito às diversidades e valorização dos conhecimentos prévios, da história pessoal e do repertório cultural de cada um.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

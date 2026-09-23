@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_038ad345c6cb2e3d006ab2fdc03e2887d2a0bc5d16de91e690",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1018,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1083,
+      "output_tokens_details": {
+        "reasoning_tokens": 249
+      },
+      "total_tokens": 2101
+    }
+  },
+  "created_at": "2026-09-22T22:14:33Z",
+  "duration_seconds": 8.872,
+  "error": null,
+  "excerpt_id": "am_inf_47",
+  "filename": "am_inf_47.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5b12978a899259f874d3aa77e1a2d4d7152da761a658ec86e80514a04437b160",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8a098d22abb52b669949bde2e879ef49ff0a9e96b530ac78386a443ba6595b29",
+    "rendered_prompt_sha256": "5292c9797297ac56e34228edf20e49eb1df6628941f4406b58e197927cd5e5f2",
+    "source_text_sha256": "54cb585371458f793c3e715e30f32d9f01fae0aef9f84ee2144a81419191e260"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_47.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 450,
+    "filename": "am_inf_47.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_47.txt",
+    "state": "am",
+    "word_count_original": 584
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_47.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_47.json"
+  },
+  "raw_response_text": "### 21.2 Estruturas organizacional dos profissionais na Educação Infantil fase pré-escola\n\nA organização pedagógica e administrativa da pré-escola é composta dos seguintes profissionais: diretora/diretor, pedagoga/pedagogo, professora/professor, assistente de administração, auxiliar de serviços gerais, manipuladora de alimentos, porteira/porteiro e vigia.\n\nCompete à/ao Diretora/Diretor: planejar, administrar, coordenar e supervisionar o pessoal, os serviços e os materiais, em conjunto com a equipe técnica, bem como participar do atendimento global as crianças e às famílias, atentando para o cumprimento das políticas e diretrizes das redes de ensino. Deve ter titulação, preferencialmente, em licenciatura em Pedagogia e/ou Normal Superior, ou ainda, outra licenciatura plena, bem como pós-graduação em Gestão Escolar e disponibilidade para dedicação exclusiva à função.\n\nCompete à/ao Pedagoga/Pedagogo: garantir a execução da Proposta Pedagógico-Curricular da Educação Infantil, visando promover o desenvolvimento das crianças em cada uma das faixas etárias e a adequação do trabalho pedagógico aos recursos disponíveis na comunidade. Também deve promover a integração entre família e escola, visando coerência na ação pedagógica junto à criança pequena. Ter titulação em licenciatura em Pedagogia e/ou Normal Superior e, preferencialmente, título de especialista em Educação Infantil.\n\nCompete à/ao Professora/Professor: planejar, executar e avaliar com os demais profissionais docentes, equipe gestora e técnica, as atividades da unidade de Educação Infantil, propiciando condições para a convivência entre pares, a segurança, o desenvolvimento cognitivo, físico e emocional das crianças, observando as políticas e diretrizes educacionais de cada rede de ensino e o Projeto Político Pedagógico e/ou Proposta Pedagógico da Unidade de ensino. Ter titulação em licenciatura em Pedagogia e/ou Normal Superior, admitindo, no mínimo, ensino médio na modalidade Normal para o exercício do magistério.\n\nCompete à/ao Assistente de Administração: executar, sob avaliação e supervisão, serviços de apoio à administração no que diz respeito à documentação escolar da criança e da unidade, organização e manutenção de arquivos ativos e inativos, documentos e correspondências da unidade, zelando pelo sigilo de informações pessoais das crianças, das famílias, professores e funcionários. Executar outras atividades correlatas da área.\n\nCompete à/ao nutricionista: atuar nas ações pertinentes ao Programa Nacional de Alimentação Escolar (PNAE); elaborar cardápios e testes de aceitabilidade para a alimentação escolar da rede municipal de ensino; acompanhar e avaliar o cardápio da alimentação escolar, com base no diagnóstico e nas referências nutricionais estabelecidas nos parâmetros e normativas do FNDE, bem como acompanhar as crianças, orientar os professores e prestar atendimento individualizado aos pais e/ou responsáveis, estando alerta a restrições alimentares e outras demandas que possam ocorrer no cotidiano.\n\nCompete à/ao Auxiliar de Serviços Gerais: executar atividades de manutenção e limpeza do prédio e de suas instalações, equipamentos e materiais, zelando pelo ambiente escolar, preservando, valorizando e integrando o ambiente físico da escola às necessidades básicas de higiene e cuidado das crianças. Executar outras atividades correlatas da área.\n\nCompete à/ao Manipuladora/Manipulador de Alimentos: executar atividades de preparação de refeições seguindo orientações e procedimentos normativos de nutrição e higiene, a fim de atender às exigências de cardápios estipulados pelo nutricionista responsável, mantendo rigorosa higiene pessoal. Executar outras atividades correlatas da área.\n\nCompete à/ao Porteira/Porteiro: Executar serviços de recepção guarda, vigilância e controle de fluxo de bebês, crianças e demais frequentadores da unidade.\n\nCompete à/ao Vigia: zelar pela segurança das pessoas e do patrimônio, realizando rondas nas dependências da unidade, atentando para eventuais anormalidades, bem como identificando avarias nas instalações.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

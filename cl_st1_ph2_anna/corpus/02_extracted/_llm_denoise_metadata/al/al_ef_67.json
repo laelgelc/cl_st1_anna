@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07570e0e314f17bf006ab2fc76664887d286eacabb193674b9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 907,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1235,
+      "output_tokens_details": {
+        "reasoning_tokens": 484
+      },
+      "total_tokens": 2142
+    }
+  },
+  "created_at": "2026-09-22T22:09:03Z",
+  "duration_seconds": 9.124,
+  "error": null,
+  "excerpt_id": "al_ef_67",
+  "filename": "al_ef_67.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5c9a1aa6d61f5f5704edbb6b0b2ac89b55010b39666079bf16ed0a2df7d890cb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "547ef3e2866dd72f3b867d08aba685d29531803f0098ea8ad663a3e0b3094188",
+    "rendered_prompt_sha256": "a3fb8e637bbef7614ebea6892c0f4f20d2798387e567446c481f018b713c6750",
+    "source_text_sha256": "96b86426cd4746171ff958123cdede6c7aaf49b4e9e189c47a04e1d67a5e4b20"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_67.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 205,
+    "filename": "al_ef_67.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_67.txt",
+    "state": "al",
+    "word_count_original": 560
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_67.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_67.json"
+  },
+  "raw_response_text": "### 3.2 Matemática Financeira\n\nA matemática financeira está vinculada à unidade temática número e representa, de acordo com a BNCC, o estudo de conceitos básicos de economia e finanças, visando à educação financeira dos estudantes. Assim, podem ser discutidos assuntos como taxas de juros, inflação, aplicações financeiras (rentabilidade e liquidez de um investimento) e impostos. Essa unidade temática favorece um estudo interdisciplinar envolvendo as dimensões culturais, sociais, políticas e psicológicas, além da econômica, sobre as questões do consumo, trabalho e dinheiro. Essas questões, além de promover o desenvolvimento de competências pessoais e sociais dos estudantes, podem se constituir em excelentes contextos para as aplicações dos conceitos da Matemática Financeira e também proporcionar contextos para ampliar e aprofundar esses conceitos.\n\nA Matemática Financeira possui diversas aplicações no atual sistema econômico e tem como finalidade relacionar os conceitos de finanças e educação financeira com o intuito de conscientizar para a construção dos comportamentos de pessoas autônomas financeiramente.\n\n**Quadro 7: Organizador Curricular na unidade temática números - 9º ano**\n\nFonte: os autores\n\n### 3.3 Pensamento Computacional\n\nDe acordo com Barcelos (2012), a influência da tecnologia na sociedade e a consequente necessidade de contextualizá-la no ensino básico são observações presentes nas diretrizes dos Parâmetros Curriculares Nacionais para o ensino de Matemática:\n\n> “O impacto da tecnologia na vida de cada indivíduo vai exigir competências que estão além do simples lidar com as máquinas” (PCN, 1999, p. 41).\n\nAinda segundo os PCNs, o impacto da tecnologia exige um redirecionamento do ensino de Matemática, a partir do qual “o indivíduo possa se reconhecer e se orientar nesse mundo do conhecimento em constante movimento” (PCN, 1999, p. 41).\n\nSegundo a BNCC, a aprendizagem de Álgebra, como também das outras unidades temáticas, podem contribuir para o desenvolvimento do pensamento computacional dos estudantes, tendo em vista que eles precisam ser capazes de traduzir uma situação dada em outras linguagens, como transformar situações-problema, apresentadas em língua materna, em fórmulas, tabelas e gráficos e vice-versa.\n\nBarcelos afirma que:\n\n> “A leitura e interpretação dos símbolos, códigos e nomenclaturas da linguagem matemática fazem parte das competências esperadas dos estudantes. Em particular, espera-se que o estudante seja capaz de traduzir uma situação dada em uma linguagem em outra; por exemplo, transformar situações dadas em linguagem discursiva em gráficos, tabelas, fórmulas e outras representações, e vice-versa. Dentro do domínio das diferentes representações permitidas pela linguagem matemática, também se espera que o estudante seja capaz de ‘traduzir’ uma representação em outra como, por exemplo, converter os dados de uma tabela em um gráfico.”\n\nAinda de acordo com a BNCC, associado ao pensamento computacional, cumpre salientar a importância dos algoritmos e de seus fluxogramas, que podem ser objetos de estudo nas aulas de Matemática. Um algoritmo é uma sequência finita de procedimentos que permite resolver um determinado problema. Assim, o algoritmo é a decomposição de um procedimento complexo em suas partes mais simples, relacionando-as e ordenando-as, e pode ser representado graficamente por um fluxograma. A linguagem algorítmica tem pontos em comum com a linguagem algébrica, sobretudo em relação ao conceito de variável. Outra habilidade relativa à álgebra que mantém estreita relação com o pensamento computacional é a identificação de padrões para se estabelecer generalizações, propriedades e algoritmos.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

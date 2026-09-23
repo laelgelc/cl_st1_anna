@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_016ccbdaca08a6d2006ab30ba0e44c87d28551cba2ac12cd23",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 600,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 687,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 1287
+    }
+  },
+  "created_at": "2026-09-22T23:13:43Z",
+  "duration_seconds": 6.749,
+  "error": null,
+  "excerpt_id": "ro_ef_49",
+  "filename": "ro_ef_49.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a86b8f869174f3b8ee6ea53ba72d36179cf843b0694a12cc7fd1dc577b68c98a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "008971a1018bfde5ba4ebc41646c7bb8c925a219759f1238caf49d7f73b0fab2",
+    "rendered_prompt_sha256": "e6c0886c5038406b67d34f55378151bc0f08e5b1947f47abc8b52048fba76aa6",
+    "source_text_sha256": "b36d97cb72352e9cc235fe094898d0508896d44d25d2096c6d28bcec0980a3a8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_49.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3149,
+    "filename": "ro_ef_49.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_49.txt",
+    "state": "ro",
+    "word_count_original": 327
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_49.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_49.json"
+  },
+  "raw_response_text": "## 9.1 LINGUAGENS\n\n### 9.1.1 Conceituação Específica da Área\n\nO Ministério da Educação, através da Lei 9.394/96, propôs dispositivos legais, que perpassam a construção dos Parâmetros Curriculares Nacionais e das Diretrizes Curriculares Nacionais de 1998 e culminam, na legislação mais recente, na Resolução n.o 04, de 13/07/2010 da Câmara de Educação Básica do Conselho Nacional de Educação - órgão vinculado ao Ministério da Educação.\n\nBaseando-se na legislação vigente, sugere os agrupamentos de conteúdos curriculares em áreas de conhecimento para tentar desenvolver e construir saberes, produzir conhecimentos, atitudes, valores, competências e habilidades, mas acima de tudo, proporcionar uma formação para a cidadania. De acordo com a BNCC, 2017\n\nA área de Linguagens é composta pelos seguintes componentes curriculares: Língua Portuguesa, Arte, Educação Física e, no Ensino Fundamental – Anos Finais, Língua Inglesa e Língua Espanhola. A finalidade é possibilitar aos estudantes participar de práticas de linguagem diversificadas, que lhes permitam ampliar suas capacidades expressivas em manifestações artísticas, corporais e linguísticas, como também seus conhecimentos sobre essas linguagens, em continuidade às experiências vividas na Educação Infantil (BNCC, 2017, P.61).\n\nAssim, oferecer a possibilidade ao educando para que ele viva a linguagem escrita, oral, gestual, simbólica, ritualística, onírica, cibernética, eletrônica, muscular, facial, pictórica e musical, é assegurar-lhe o direito de exercer o soberano direito de escolher como viver, nas relações com as condições materiais de sua existência (condições econômicas, sociais, culturais, afetivas e valorativas). E quando fazemos isso, estamos nos referindo a um todo único e cheio de matizes e diversidades: a linguagem repleta de linguagens, de registros diversos, com códigos variados e sensações heterogêneas. Estamos nos referindo ao trabalho de colocar um ser complexo e heterogêneo, plural, multifacetado e inteiro, o educando real e contraditório, em contato com as práticas sociais de leitura e escrita, ao mesmo tempo em que lhe deve ser dado o direito de escolher as práticas de linguagem com as quais quer conviver mais assídua e intensamente.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0144de5883df4579006ab30172636487d2964d0d47468c184e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 795,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 857,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 1652
+    }
+  },
+  "created_at": "2026-09-22T22:30:16Z",
+  "duration_seconds": 6.19,
+  "error": null,
+  "excerpt_id": "go_inf_12",
+  "filename": "go_inf_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3d39fab8a817dd54f1dd093cae23b8351c4694f99c572801dce287efadb1dd6e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4de380389f2d9cdcd5d8d6d32f02ac219eb08785508bbb84cc7f6187e546edf4",
+    "rendered_prompt_sha256": "c710a9080924bcccbc0dcf8c9eca0a6ef76b7d50896b8dceee1d625e726f2f5c",
+    "source_text_sha256": "7af0f86795ba03b4033cb0f1687f78bc7ab10f6f1a8ccc55fd2697906ca236b7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_inf_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1200,
+    "filename": "go_inf_12.txt",
+    "filepath": "corpus/00_source_per_state/go/go_inf_12.txt",
+    "state": "go",
+    "word_count_original": 447
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_inf_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_inf_12.json"
+  },
+  "raw_response_text": "### 3.1.1. Sentidos, Saberes e Conhecimentos\n\nAs instituições de Educação Infantil, a partir do planejamento de contextos de aprendizagens, no que se refere a esse campo, podem promover, de acordo com o artigo 9º das DCNEI (BRASIL, 2009), experiências que:\n\nI – promovam o conhecimento de si e do mundo por meio da ampliação de experiências sensoriais, expressivas, corporais que possibilitem movimentação ampla, expressão da individualidade e respeito pelos ritmos e desejos da criança;  \nV – ampliem a confiança e a participação das crianças nas atividades individuais e coletivas;  \nVI – possibilitem situações de aprendizagem mediadas para a elaboração da autonomia das crianças nas ações de cuidado pessoal, auto-organização, saúde e bem-estar;  \nVII – possibilitem vivências éticas e estéticas com outras crianças e grupos culturais, que alarguem seus padrões de referência e de identidades no diálogo e reconhecimento da diversidade;  \nXI – propiciem a interação e o conhecimento pelas crianças das manifestações e tradições culturais brasileiras;\n\nFonte: Diretrizes Curriculares Nacionais para a Educação Infantil. Resolução nº 05, de 17 de dezembro de 2009.\n\nNesses contextos, a criança precisa vivenciar situações cotidianas que favoreçam a construção de sentidos, saberes e conhecimentos que desenvolvam o interesse em conhecer o mundo e a si própria, estabelecendo amizades e atitudes de cuidado de si e do outro.\n\nEsse campo de experiência propõe que a Educação Infantil seja um ambiente de vida, em que se aprende de forma inteira, pensando, agindo, observando, experimentando, sentindo; em que as histórias de cada criança e profissional sejam contadas e experenciadas por todos.\n\nAssim o Eu, o Outro e o Nós serão constituídos nas ações cotidianas, em que perpassam todas as relações humanas da instituição de Educação Infantil, interligando-se às experiências proporcionadas pelos outros campos:\n\n- Corpo, Gesto e Movimentos;\n- Traços, Sons, Cores e Formas;\n- Escuta, Fala, Pensamento e Imaginação;\n- Espaços, Tempos, Quantidades, Relações e Transformações.\n\nAs situações de aprendizagens, promovidas pelas instituições de Educação Infantil, possibilitam à criança se apropriar e produzir conhecimentos de diferentes naturezas – culturais, artísticos, científicos, tecnológicos e ambientais – desenvolver habilidades e atitudes, assim como reafirmar valores. Na BNCC (BRASIL, 2017) e no Documento Curricular para Goiás - Ampliado elas foram observadas nos campos de experiências e nos seus respectivos objetivos de aprendizagens e desenvolvimento fundamentados nos 6 (seis) direitos. Os objetivos de aprendizagens e desenvolvimento do campo de experiências O Eu, o Outro e o Nós foram organizados em torno de três conceitos centrais: Interações, Autonomia e Identidade. O conceito Autocuidado envolve a construção da autoconfiança, da autonomia, da capacidade de escolha, de comunicação e de autoconhecimento, portanto se faz presente nos objetivos de aprendizagens e desenvolvimento dos demais conceitos, não sendo necessário acrescentá-lo à coluna Sentidos, Saberes e Conhecimentos, conforme segue abaixo:",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

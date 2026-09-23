@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08a8b32c070aaadb006ab3038d413487d298b3ce97e9576773",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 796,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 771,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 1567
+    }
+  },
+  "created_at": "2026-09-22T22:39:15Z",
+  "duration_seconds": 6.258,
+  "error": null,
+  "excerpt_id": "mg_inf_inclusao_5",
+  "filename": "mg_inf_inclusao_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a6df32ab3d7a5433b60103813cfed8140914f98dc6e7ed1ab44c5ac6bf6af25a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ae73d1544f451fd934e22214961d37944762444d1776291503b7b874e3399ba9",
+    "rendered_prompt_sha256": "94fd7f4b3951efe22c6017044b1448f90d64e17f4d460940228d409b4e6dfaa3",
+    "source_text_sha256": "6d3af4b2d1a490a6fa7fd919d954a8b7201d0a6dc42e4341fdeb47f2bf21bb19"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_inclusao_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1657,
+    "filename": "mg_inf_inclusao_5.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_inclusao_5.txt",
+    "state": "mg",
+    "word_count_original": 463
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_inclusao_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_inclusao_5.json"
+  },
+  "raw_response_text": "### 2.11.3 Educação Infantil Indígena\n\nPensar as crianças indígenas, sujeito da Educação Infantil Indígena, é pensar em equidade.\n\nA Educação Infantil indígena será ofertada quando houver demanda e interesse da comunidade indígena.\n\nAnunciados no Parecer CNE/CEB nº 20/2009, alguns princípios regem a elaboração das propostas pedagógicas dos povos que optarem pela Educação Infantil:\n\n- Proporcionar uma relação viva com os conhecimentos, crenças, valores, concepções de mundo e as memórias de seu povo;\n- Reafirmar a identidade étnica e a língua materna como elementos de constituição das crianças;\n- Dar continuidade à educação tradicional oferecida na família e articular-se às práticas socioculturais de educação e aos cuidados coletivos da comunidade;\n- Adequar calendário, agrupamentos etários e organização de tempos, atividades e ambientes de modo a atender às demandas de cada povo indígena.\n\nNa oferta da Educação Infantil, as escolas indígenas possuem autonomia para organizar suas práticas pedagógicas de forma específica e diferenciada, de acordo com a identidade de cada comunidade.\n\nConforme a Resolução nº 5, de 22 de junho de 2012, que define Diretrizes Curriculares Nacionais para a Educação Escolar Indígena na Educação Básica, a Educação Infantil, etapa educativa e de cuidados, pode ser uma opção de cada comunidade indígena que tem a prerrogativa de, ao avaliar suas funções e objetivos a partir de suas referências culturais, decidir sobre a implantação ou não da mesma, bem como sobre a idade de matrícula de suas crianças na escola.\n\nO compromisso com a garantia dos direitos pressupõe que o atendimento da Educação Infantil para os povos indígenas dar-se-á de acordo com suas especificidades socioculturais e linguísticas. Há necessidade de observância da relação da comunidade com o seu território, quanto às peculiaridades socioculturais das comunidades e às especificidades pedagógicas da educação indígena.\n\nDeve ser garantida a participação de lideranças tradicionais das comunidades indígenas na definição e na elaboração da proposta curricular e do projeto político-pedagógico, devendo os sistemas de ensino promoverem consulta livre e prévia aos pais, mães, avós, lideranças indígenas das comunidades, professores e gestores das escolas, acerca da oferta da Educação Infantil, em todas as fases de sua implantação e desenvolvimento.\n\nNa construção do projeto político-pedagógico, a escola indígena deve ofertar um ensino intercultural de qualidade, fortalecendo e valorizando a língua materna de cada povo indígena, podendo o ensino ser bilíngue ou multilíngue.\n\nAs atividades socioculturais da Educação Infantil indígena podem ser desenvolvidas como atividades letivas, definidas nos projetos políticos-pedagógicos e nos calendários escolares, nos diversos espaços institucionais de convivência e sociabilidade de cada comunidade indígena, bem como em outros espaços tradicionais de formação.\n\nAs escolas indígenas devem elaborar material didático de apoio pedagógico específico e diferenciado para a Educação Infantil, garantindo a incorporação de aspectos socioculturais indígenas significativos, de acordo com o contexto e vivências de cada comunidade indígena.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

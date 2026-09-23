@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07c7507fce0b22cd006ab30b7c58ec87d2af92829e64558433",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 869,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 943,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 1812
+    }
+  },
+  "created_at": "2026-09-22T23:13:06Z",
+  "duration_seconds": 6.563,
+  "error": null,
+  "excerpt_id": "ro_ef_18",
+  "filename": "ro_ef_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "74269a3177e89e1c15cfe5c5b32c7099876993ca42120c14dd693771977cce1a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c7b1e925d5e6d01f345b4506be431a2a1473ad92a5d56a0f3055392b525f4c93",
+    "rendered_prompt_sha256": "245aada8a1d6587ba2e949bf631dce990425eca9a09499d122ef5a60c45dcee1",
+    "source_text_sha256": "eda41c5835717154abbde162cbdf34d0d36e72181309f87a2e4cdebd14410438"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3115,
+    "filename": "ro_ef_18.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_18.txt",
+    "state": "ro",
+    "word_count_original": 570
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_18.json"
+  },
+  "raw_response_text": "## 6.3 ORIENTAÇÕES PEDAGÓGICAS\n\nAs orientações pedagógicas desse currículo assentam-se no compromisso com a educação integral, considerando o desenvolvimento pleno do estudante, na perspectiva de que os processos de aprendizagem aconteçam de forma multidimensional, abrangendo os aspectos físicos, afetivos, cognitivos, éticos, políticos e estéticos.\n\nOrienta-se que o ponto de partida para o trabalho pedagógico sejam as concepções pertinentes ao sujeito que aprende e se desenvolve e as formas específicas de aprendizagem atreladas a cada momento do desenvolvimento humano e que não sejam negligenciados os direitos das crianças de viverem a infância e se desenvolverem em sua integralidade e, concomitantemente, aos estudantes de receberem uma educação de qualidade que considere as especificidades de sua cultura e sociedade.\n\nSalienta-se que as propostas pedagógicas devem enfocar os meios didáticos, incidir nos propósitos contidos nos textos introdutórios de cada etapa de ensino - Educação Infantil e Ensino Fundamental - considerando o desenvolvimento das dez competências básicas, os direitos de aprendizagem e desenvolvimento das crianças de Educação Infantil e as habilidades para os alunos do Ensino Fundamental, nas respectivas Áreas de Conhecimentos, em cada Componente Curricular e Campos de Experiências, definidos pela BNCC, pertinentes aos quadros organizadores apresentados neste Documento Curricular.\n\nNesse contexto, orienta-se que o trabalho pedagógico seja planejado através de modalidades organizativas que favoreçam o protagonismo dos estudantes contribuindo para que as práticas pedagógicas sejam ressignificadas pelos docentes e constituam-se em aprendizagens significativas, propiciando a consecução dos objetivos e direitos de aprendizagem e desenvolvimento de modo a atender à necessária superação da fragmentação da disseminação do conhecimento. Segundo autores como Délia Lerner, o uso das modalidades organizativas para o trabalho didático ajuda aos estudantes a articular saberes, faz com que as crianças construam e consolidem unidades maiores de conhecimento a partir de conhecimentos menores, prévios que se tem do objeto de pesquisa. Nesse sentido, o enfoque que se dá é na utilização dos projetos educacionais e das sequências didáticas, tendo como pressuposto orientador vigorante a transversalidade e a interrelação entre os campos de experiências e os componentes curriculares.\n\nPortanto, deve-se considerar que cada uma das dez competências gerais perpassa por todas as competências específicas das Áreas de Conhecimentos, dos Componentes Curriculares, dos Direitos de Aprendizagem e Desenvolvimento e dos Campos de Experiências, mobilizando diversos conhecimentos, como: habilidade, atitudes e valores para serem aplicados na vida cotidiana, na prática cidadã diária do estudante e na descoberta do mundo pelas crianças. Dessa forma, cabe aos docentes planejar sua prática pedagógica de forma dinâmica e atrativa, que considere as especificidades etárias e às formas próprias que os estudantes e crianças possuem de aprender e se desenvolver, oportunizando o desenvolvimento de habilidades e competências, oferecendo meios para que tenham capacidade de colocar em prática as aprendizagens decorridas de um processo de experienciação e exploração do objeto de conhecimento e evoluam no processo de interações que estabelecem com o outro.\n\nNa estruturação das atividades escolares e experiências de aprendizagem devem ser utilizadas diversas ferramentas tecnológicas, jogos e pesquisas voltadas e intencionadas à formação do sujeito na sua integralidade com fins à construção de uma sociedade justa, democrática e inclusiva. Nesse sentido, deve-se ter especial atenção quanto a todos os aspectos integrantes do trabalho pedagógico - o espaço e ambientes, os tempos, objetos e materiais - eles devem ser cuidadosamente pensados e igualmente planejados para que sejam garantidos às crianças e aos estudantes os direitos que lhes competem em cada etapa do Ensino Básico.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

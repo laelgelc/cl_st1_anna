@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09aec7725dc1c9ce006ab307b1e8b887d2901fb7c25d82ef1d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 566,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 757,
+      "output_tokens_details": {
+        "reasoning_tokens": 280
+      },
+      "total_tokens": 1323
+    }
+  },
+  "created_at": "2026-09-22T22:56:56Z",
+  "duration_seconds": 6.846,
+  "error": null,
+  "excerpt_id": "pe_ef_13",
+  "filename": "pe_ef_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "78efce8237495e7f715df662ca91081e73c591142fa4abda1bb463ae921ee7b9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "49b9d2247ecf5544586203bde6f11b7a0799433b47d08ce5c55374d79eec99b7",
+    "rendered_prompt_sha256": "5cc05efd45a54c42a8c5ce64c4f53e281cf3bc88bfd3bdc9e17597e32dde765d",
+    "source_text_sha256": "ac74d4c6d0cb9b2f967877f4ef77e07a70c606671f9353dcff9b5543ad1634da"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2389,
+    "filename": "pe_ef_13.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_13.txt",
+    "state": "pe",
+    "word_count_original": 340
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_13.json"
+  },
+  "raw_response_text": "## 1.10 O DOCUMENTO E SUA ORGANIZAÇÃO\n\nO currículo de Pernambuco tem por objetivo nortear as propostas pedagógicas dos municípios, os projetos políticos pedagógicos das escolas e as práticas pedagógicas vivenciadas em sala de aula. Está em consonância com a Base Nacional Comum Curricular e com as Diretrizes Curriculares Nacionais Gerais para a Educação Básica, considerando a formação cidadã dos estudantes pernambucanos.\n\nConstitui-se em documento orientador para a rede estadual, redes municipais e escolas privadas. Também é inspirador para as modalidades da educação básica, embora não contempladas diretamente nele. Essas, por suas especificidades e singularidades, deverão ter documentos curriculares específicos construídos em âmbito estadual e municipal.\n\nEste volume, referente ao ensino fundamental, é formado pelos pressupostos teóricos, a apresentação da etapa e suas fases, introdução de cada área e seus componentes curriculares. Após a abordagem sobre cada componente, vem o seu respectivo organizador curricular que traz, na sua estrutura, os campos de atuação (para o componente Língua Portuguesa), a descrição das unidades temáticas (para os componentes de Educação Física, Língua Inglesa e Arte) e das práticas de linguagem (para os componentes Língua Portuguesa e Língua Inglesa), os objetos de conhecimento, os códigos e, por fim, as habilidades do Currículo de Pernambuco. Ao final de cada componente, encontram-se as referências bibliográficas.\n\nNo organizador curricular dos componentes do Currículo de Pernambuco, um código pode ser observado antes da descrição de cada habilidade. Foram utilizados os mesmos códigos da BNCC, entretanto, acrescentou-se PE ao final de cada código, indicando que a habilidade recebeu contribuição das redes públicas e/ou escolas privadas ou foi validada pelas mesmas. Assim, o código EF01LP01PE representa:\n\n- EF – Ensino Fundamental.\n- 01 – 1º ano do ensino fundamental.\n- LP – Língua Portuguesa.\n- 01 – Numeração da habilidade – primeira habilidade. Se tiver uma letra (X, Y, Z, por exemplo) em vez de números, indica que esta habilidade não está presente na BNCC, sendo, portanto, exclusiva do Currículo de Pernambuco.\n- PE – As redes de ensino de Pernambuco realizaram alguma modificação nesta habilidade da BNCC ou validaram a mesma.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

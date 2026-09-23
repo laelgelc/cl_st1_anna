@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07468c79d055557e006ab30c8baa5c87d28262af00dbb527f4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 550,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 732,
+      "output_tokens_details": {
+        "reasoning_tokens": 281
+      },
+      "total_tokens": 1282
+    }
+  },
+  "created_at": "2026-09-22T23:17:37Z",
+  "duration_seconds": 5.517,
+  "error": null,
+  "excerpt_id": "ro_em_93",
+  "filename": "ro_em_93.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fafe6a385199ce41cf917e8e28c452eafb00c544cd51d9eb29386a554223bf73",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fc820869c20252a4bcd220e5ca36015ed72b3eaa5bb9f6f29e7807a2cbc627e9",
+    "rendered_prompt_sha256": "84665290445edecd8c3804f1a7615bf6e8a652cf4d9e461664ed4b554c876afe",
+    "source_text_sha256": "7b1b87038c997e04c34f78a0ff2266a615c3c951d34cc91c68cec77ace52b4a6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_93.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3314,
+    "filename": "ro_em_93.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_93.txt",
+    "state": "ro",
+    "word_count_original": 298
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_93.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_93.json"
+  },
+  "raw_response_text": "### 3.3.7.3. Objetivos de Aprendizagem da Educação Profissional e Tecnológica em Rondônia\n\nO quadro 1, denominado “Organização dos objetivos de aprendizagem do Itinerário Formativo da Educação Profissional e Tecnológica integrado às demais áreas de conhecimento no Ensino Médio de Rondônia”, foi desenvolvido com o fim de apresentar sinteticamente, na segunda coluna, os “Objetivos de Aprendizagem da Educação Profissional e Tecnológica” e, na terceira coluna, os “Objetivos de Aprendizagem da EPT integrados às Áreas de Conhecimento”, estabelecendo-se relação com os Eixos Estruturantes aportados na primeira coluna, considerando o fato de que, no Sistema Estadual de Ensino de Rondônia, o itinerário EPT está estruturada a partir da capacidade, das possibilidades e das características e singularidades do território, que determinam o contexto local em que a escola está inserida, considerando, também, os indicadores de demanda dos setores produtivos regionais e empregabilidade.\n\nO Quadro 1 está organizado em quatro colunas, a saber:\n\n- 1ª coluna — Eixo Estruturante, no qual estão apresentados os quatro eixos estruturantes do Novo Ensino Médio, de acordo com a Portaria n. 1.432/MEC, de 28 de dezembro de 2018;\n- 2ª coluna — Objetivos de Aprendizagem da Educação Profissional e Tecnológica, na qual são representados os objetivos de aprendizagem por eixo estruturante;\n- 3ª coluna — Objetivos de Aprendizagem da EPT integrados às Áreas de Conhecimento, na qual são os objetivos de aprendizagem integrados às áreas de conhecimento por eixo estruturante.\n\nComo resultados desse processo, serão formados sujeitos capazes de identificar demandas e problemas individuais, locais e globais, a partir de objetivos bem definidos e relacionados aos eixos estruturantes, de modo a contribuir para o constructo de egressos com o aporte de conhecimentos necessários para o enfrentamento dos problemas do cotidiano e para a apresentação das correspondentes soluções, sempre fundamentadas em princípios éticos, justos, sustentáveis, solidários e colaborativos.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

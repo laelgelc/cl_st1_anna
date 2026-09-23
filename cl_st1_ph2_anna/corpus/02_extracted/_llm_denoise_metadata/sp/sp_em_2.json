@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d0f3da2fc3e7635006ab30f9eaea887d28a8faa4bd7701bdf",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 617,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 772,
+      "output_tokens_details": {
+        "reasoning_tokens": 278
+      },
+      "total_tokens": 1389
+    }
+  },
+  "created_at": "2026-09-22T23:30:44Z",
+  "duration_seconds": 6.289,
+  "error": null,
+  "excerpt_id": "sp_em_2",
+  "filename": "sp_em_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "307c2a467f995d2eac2dba1c6ce5d28617462249646f8000b39fa8bb9d74611e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e1ef5028abf00fd3fda44b5edea81a4aaf2f22a367be6a46f221c33a32265151",
+    "rendered_prompt_sha256": "9db3eb4aa8ecd02099b8461302c5a32b50242447a6688bd689ef0af658cee7f1",
+    "source_text_sha256": "a0746c51ac98706801495fd6ba98e9cc3371c30ea3462e073b9578d72d9dffdf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3913,
+    "filename": "sp_em_2.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_2.txt",
+    "state": "sp",
+    "word_count_original": 333
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_2.json"
+  },
+  "raw_response_text": "# INTRODUÇÃO\n\n## O Estado de São Paulo: números que impressionam!\n\nO Estado de São Paulo é dividido atualmente em 645 municípios que ocupam um total de pouco mais de 248.000 km² de território, o que representa apenas 2,9% da superfície terrestre brasileira. No entanto, os municípios paulistas contam, juntos, com aproximadamente 45 milhões de habitantes, de acordo com as estimativas populacionais do Instituto Brasileiro de Geografia Estatística (IBGE) de março de 2019. Esse montante corresponde a mais de 22% do total da população do nosso país. A população paulista é superior à de países como Canadá (35.881.659), Peru (31.331.228) e Ucrânia (43.952.299) e muito próxima à da Argentina (44.694.198), de acordo com o atlas *The World Fact Book*, da Agência Central de Inteligência dos Estados Unidos — CIA (2018).[^1]\n\nA população paulista é uma das mais diversificadas e descende principalmente de africanos, indígenas, italianos, portugueses e migrantes de outras regiões do país. Outras grandes correntes imigratórias, como a de árabes, alemães, espanhóis, japoneses e chineses, tiveram presença significativa na composição étnica e cultural da população do Estado. Esses dados mostram quão diversa é a população paulista, assim como a enormidade do quantitativo de pessoas que habitam um espaço tão pequeno, quando comparado às dimensões continentais do país.\n\nNa Educação Básica, as diferentes redes atingem o total de 9.164.216 matrículas, segundo dados coletados no Cadastro de Alunos em maio de 2020. As tabelas 1 a 5 apresentam a distribuição dessas matrículas, permitindo mais acurada avaliação da dimensão das redes e da quantidade de crianças e estudantes atendidos.\n\nTais dados ressaltam, por um lado, o desafio enfrentado pelo Estado de São Paulo para assegurar educação de qualidade a todos os estudantes matriculados nas escolas paulistas; por outro, a importância que o Currículo Paulista representa para a garantia de um patamar comum de aprendizagens.\n\n[^1]: Informações disponíveis em: https://www.cia.gov/library/publications/resources/the-worldfactbook/fields/335rank.html. Acesso em: 03 jun. 2019.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0142c70bd8ff8c76006ab30daf9b8487d28d38d4a39c777898",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 730,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 650,
+      "output_tokens_details": {
+        "reasoning_tokens": 60
+      },
+      "total_tokens": 1380
+    }
+  },
+  "created_at": "2026-09-22T23:22:28Z",
+  "duration_seconds": 4.657,
+  "error": null,
+  "excerpt_id": "rs_em_33",
+  "filename": "rs_em_33.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "983811e1beb2930fcc40074785f7dfea6c6b8281fc3804411d731a9c55ff4346",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "148a66f79cf8a5a4d8e2f5e7ec063c8d36974ea5ab3de6de47f4d35cafe468b6",
+    "rendered_prompt_sha256": "644d6cc4e3391a7780d461feedc2b21342d4547c9e3a3f91e2965a5ce935405e",
+    "source_text_sha256": "2bd0e19633d2d5bf777ab499e541bb52bbd70cfa12d40eed4a0adb564c4c2f3a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_33.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3576,
+    "filename": "rs_em_33.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_33.txt",
+    "state": "rs",
+    "word_count_original": 427
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_33.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_33.json"
+  },
+  "raw_response_text": "### 2.4.10 Saúde, Sexualidade e Gênero\n\nA escola é um espaço de socialização educativo para as crianças, adolescentes e jovens em pleno desenvolvimento e crescimento. Nesse espaço, é possível vivenciar e experienciar situações de relacionamentos interpessoais com repercussões sociais e constituintes da personalidade. As amplitudes e intensidades, os reconhecimentos e as atitudes de respeito vivenciadas e desenvolvidas no ambiente escolar podem também repercutir na sociedade. Desse modo, a escola é um dos primeiros espaços onde são descobertas e vivenciadas diferenças e promovidas interações. No cotidiano da vida escolar, meninos e meninas compartilham espaços, dividem ideias, entram em conflitos e reproduzem/recriam/superam valores e instituem novos. Por isso, a escola não deve ser o espaço de reproduções dos padrões de comportamento sociais de representações estereotipadas de sexualidade. A sexualidade deve ser um assunto tratado sem tabus e preconceitos, acompanhando o processo de desenvolvimento das crianças, adolescentes e jovens dentro do espaço escolar e para além dele, tanto no viés da saúde, da sexualidade quanto da compreensão e do funcionamento do corpo.\n\nPara além disso, a cultura, os saberes e a educação que as crianças, adolescentes e jovens recebem da família e de outros espaços sociais, fornecem elementos para a compreensão das questões de sexualidade e de gênero. O que a escola deve evitar é a reprodução ou a criação de estereótipos quanto ao masculino e ao feminino. Ao educar nessa perspectiva, a escola contribui para a promoção da saúde, entendida pela Organização Mundial da Saúde (OMS) como o completo bem-estar físico, mental, emocional e social, e não somente pela ausência de doenças. Essa transversalidade contribui para as vivências e expressões das subjetividades e potencializa a realização individual.\n\nHistoricamente, nos processos educativos, os currículos escolares têm abordado questões de saúde física que revelam preocupações com as condições do corpo em relação a doenças e ao vigor físico. Porém, na perspectiva de uma formação humana integral, as escolas e as redes de ensino ampliam os diálogos de saúde, o que significa favorecer a saúde mental que se relaciona à qualidade de vida emocional e cognitiva dos sujeitos e à saúde social que se refere às capacidades do sujeito interagir com outros/as e conviver socialmente em harmonia e estabelecer consensualidades democráticas e éticas. Nesse horizonte, a escola, por essa transversalidade, pode contribuir para superar introjeções culturalmente instaladas na sociedade desde a violência sexual, o respeito ao corpo, às vontades e às necessidades individuais, até as superações das discriminações de gênero e das linguagens hegemonizamente masculinizadas que reproduzem violências e discriminalizam ações contra a vida e as individualidades.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

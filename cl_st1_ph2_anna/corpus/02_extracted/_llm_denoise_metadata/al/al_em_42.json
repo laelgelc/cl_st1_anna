@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_005ed4dc6b782238006ab2fcd7668487d2bd07acfefa2b9e03",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1170,
+      "input_tokens_details": {
+        "cache_write_tokens": 1167,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1268,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 2438
+    }
+  },
+  "created_at": "2026-09-22T22:10:41Z",
+  "duration_seconds": 10.285,
+  "error": null,
+  "excerpt_id": "al_em_42",
+  "filename": "al_em_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b34c4b9412d1eb0523aa4b1c3be191d113cae49b1fe02c7a312cfb004183fdd6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "00fcfb03dac48d5fdd14d5b68ef70a245bff60e5ae7627d2ae293061dd52ed1e",
+    "rendered_prompt_sha256": "5511923dc8ca7a9eb488288096a754d38ce3bf029b4b7b3c2c38686b62d7c750",
+    "source_text_sha256": "77070876379e9eaca7d283155a291ceace127efabc4b27f30985b54e47b1839f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_em_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 277,
+    "filename": "al_em_42.txt",
+    "filepath": "corpus/00_source_per_state/al/al_em_42.txt",
+    "state": "al",
+    "word_count_original": 691
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_em_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_em_42.json"
+  },
+  "raw_response_text": "# ITINERÁRIOS FORMATIVOS\n\n## ITINERÁRIOS FORMATIVOS DO ENSINO MÉDIO: Possibilidades para o sistema estadual de ensino\n\nA arquitetura do Ensino Médio é constituída por dois blocos articulados e indissociáveis, que são Formação Geral Básica - FBG (a parte comum) e os Itinerários Formativos - IF (a parte diversificada). A formação geral básica, com duração máxima de 1.800 horas, é comum para todos os estudantes e é composta por competências e habilidades previstas na Base Nacional Comum Curricular (BNCC). Já os Itinerários Formativos, com duração mínima de 1.200 horas, são um conjunto de unidades curriculares que são ofertadas pelas instituições de ensino que possibilitam ao estudante escolher conforme seu interesse, para aprofundar e ampliar seus conhecimentos em uma das Área do Conhecimento: Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias ou Ciências Humanas e Sociais Aplicadas, em um percurso com começo, meio e fim. O estudante também pode escolher Itinerários voltados à sua Formação Técnica e Profissional ou cursar Itinerários Integrados, que combinam diferentes opções, como duas ou mais Áreas do Conhecimento ou delas com a Formação Técnica e Profissional.\n\nOs Itinerários Formativos do Ensino Médio têm o objetivo de aprofundar as aprendizagens, consolidar a formação integral dos estudantes, promover a incorporação de valores universais, como a ética, e desenvolver habilidades que permitam que os estudantes tenham uma visão ampla de mundo e sejam capazes de tomar decisões dentro e fora da escola. Entre os impactos esperados no estudante estão a continuidade dos estudos, um melhor preparo para a atuação no mundo do trabalho, a habilidade de resolver demandas complexas da vida cotidiana e o exercício da cidadania.\n\nA configuração do Ensino Médio, por meio de sua arquitetura, traz:\n\na) Formação Geral, que compreende conhecimentos essenciais da trajetória, definidos pela BNCC;  \nb) Itinerário Formativo, consoante à perspectiva de flexibilização na trajetória do Ensino Médio, abrange a ênfase e aprofundamentos nas áreas do conhecimento, projeto de vida e ofertas eletivas.\n\nSalienta-se a importância de revisar os seguintes marcos legais e de referência do Ensino Médio:\n\n| Legislação e Orientações | Descrição |\n|---|---|\n| LEI No 13.415, DE 16 DE FEVEREIRO DE 2017<br>https://tinyurl.com/RecAL13415 | Altera a LDB e estabelece uma mudança na estrutura do ensino médio, ampliando o tempo mínimo do estudante na escola e definindo uma nova organização curricular. |\n| RESOLUÇÃO No 3, DE 21 DE NOVEMBRO DE 2018<br>https://tinyurl.com/RecALRN3 | Atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio. |\n| RESOLUÇÃO No 4, DE 17 DE DEZEMBRO DE 2018 (*)<br>https://tinyurl.com/RecALRN4 | Institui a Base Nacional Comum Curricular na Etapa do Ensino Médio (BNCC-EM), como etapa final da Educação Básica, nos termos do artigo 35 da LDB, completando o conjunto constituído pela BNCC da Educação Infantil e do Ensino Fundamental, com base na Resolução CNE/CP no 2/2017, fundamentada no Parecer CNE/CP no 15/2017. |\n| PORTARIA No 1.432, DE 28 DE DEZEMBRO DE 2018<br>https://tinyurl.com/RecAL1432 | Estabelece os referenciais para elaboração dos itinerários formativos conforme preveem as Diretrizes Nacionais do Ensino Médio. |\n| RESOLUÇÃO CNE/CP No 1, DE 5 DE JANEIRO DE 2021<br>https://tinyurl.com/RecALCNE1 | Define as Diretrizes Curriculares Nacionais Gerais para a Educação Profissional e Tecnológica. |\n| Coletânea do Novo Ensino Médio - CONSED<br>https://tinyurl.com/RecALCNEM | Compilado dos principais documentos produzidos no âmbito da Frente Currículo e Novo Ensino Médio do Consed |\n| Guia de implementação CONSED<br>https://tinyurl.com/RecALGI | Explicação das novas possibilidades, em especial dos itinerários formativos, orientações para o planejamento e diagnóstico das capacidades atuais das redes, além de uma sugestão de passo a passo para a (re)elaboração dos currículos e efetiva implementação de um Novo Ensino Médio |\n\nO Referencial Curricular de Alagoas, etapa Ensino Médio, enquanto ferramenta de planejamento e implementação do novo ensino médio e BNCC, apresenta possibilidades para as redes e escolas do sistema de ensino estadual, consoante as diversas arquiteturas para o ensino médio, conforme a proposta dos tipos de Itinerários Formativos. Nesta direção, considera-se cinco possibilidades de Itinerários Formativos simples, que combinados entre si, apresentam também, seis possibilidades de Itinerários Formativos integrados, num total de onze possibilidades de Itinerários Formativos, pelo menos, orientados no quadro a seguir:",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

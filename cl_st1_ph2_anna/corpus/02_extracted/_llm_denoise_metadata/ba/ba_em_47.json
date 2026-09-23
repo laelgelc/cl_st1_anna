@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07a6facd8592337b006ab2fecd6a6087d2983086a3bc99283d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 887,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1128,
+      "output_tokens_details": {
+        "reasoning_tokens": 339
+      },
+      "total_tokens": 2015
+    }
+  },
+  "created_at": "2026-09-22T22:19:03Z",
+  "duration_seconds": 10.038,
+  "error": null,
+  "excerpt_id": "ba_em_47",
+  "filename": "ba_em_47.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "922afa63b6fa5f42f0059a3c93234e97d829a31260060f63191dfc5bc2b01745",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f4d7e05dfe0595d042b256cb439f6734ea47f19fc9279759d7784b4515269bcb",
+    "rendered_prompt_sha256": "632bb57fd045bdcda4b82e24468b86faa571fb15e0e37d856a0da44119dd00b8",
+    "source_text_sha256": "0422d20b2cd3833304c1f3d55e0d6150ac559aa205e48eb852092a9e641d8cc4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_em_47.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 664,
+    "filename": "ba_em_47.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_em_47.txt",
+    "state": "ba",
+    "word_count_original": 555
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_em_47.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_em_47.json"
+  },
+  "raw_response_text": "## 11.2.4. Ciências Humanas e Sociais Aplicadas\n\n### Itinerário Formativo — Humanizar\n\nO itinerário formativo de Ciências Humanas e Sociais Aplicadas visa a redução de um fosso entre a investigação científica e o conteúdo didático escolar, disponibilizando, de maneira qualificada, acessível e dinâmica, um contato com os métodos de pesquisa e com os processos criativos no mundo específico das humanidades. Cabe também, para além do saber acadêmico, refletir sobre as nossas ações, considerar as mais diversas sociedades em processos diferenciados, em uma relação de respeito, tolerância e promoção de paz.\n\nBuscamos dividir o percurso comum em duas etapas: na 2ª série, constam três componentes que ampliam as discussões da BNCC e integram as disciplinas de História, Geografia, Filosofia e Sociologia, voltados para a cultura, a regionalidade e as organizações sociais. Já na 3ª série, dois componentes condensam e sintetizam objetos de conhecimento da área sobre o papel, hoje, de um indivíduo implicado em um sentido de humanidade, no mundo tal como se apresenta. Assim, todo/a estudante inserido nas Humanidades se coloca no centro das problemáticas em comum à área e compreende a relação entre o todo e a parte, pelas estruturas conceituais sobre a sociedade, tal como foi e como pode ser.\n\nNa 2ª série, em História dos meus ancestrais, examina-se a relação desigual de construção do Brasil em várias práticas culturais, saberes e ofícios, que foram silenciados, marginalizados e estereotipados, buscando, assim, refletir sobre como as visões de mundo indígenas, africanas e afro-brasileiras contribuem para a contemporaneidade. Em A Bahia e Seus Recantos, busca-se proporcionar aos/às estudantes a análise e pesquisa de temas variados de sua comunidade, município, território e região, tendo em vista a necessidade de aproximá-los/as à sua realidade geográfica e histórica. Em Trabalhar Por Quê?, pretende-se promover uma análise das relações de trabalho na formação social capitalista, considerando as consequências políticas do contraditório embate de interesses das classes sociais, no Brasil e no mundo.\n\nNa 3ª série, em Democracia e Direitos Humanos, entende-se a necessidade de investigar a história dos direitos humanos em sua Declaração Universal e os impactos sobre as democracias em todo o mundo. Em Também Sou Cultura, trata-se de compreender o mundo a partir de suas formações culturais, em relação às suas organizações, costumes e concepções de mundo, tal como os conceitos de cultura e de intervenção cultural de pensadores da contemporaneidade. Com mais tempo de estudos e práticas, os dois componentes poderão apresentar uma realidade ainda mais abrangente e global, a partir de noções de pensadores de destaque.\n\nEm Aprofundamento, o estudante do Itinerário Formativo de Ciências Humanas poderá optar por dois tipos de estudos, Tempo e Território ou Sociedade e Pensamento. Em ambos os blocos, os quatro componentes estarão imbricados, apenas com uma preponderância maior para História e Geografia, no primeiro, e para Filosofia e Sociologia, no segundo. Em Tempo e Território, com os componentes Retratos do meu país e Geopolítica: o que eu tenho com isso?, destacam-se os fenômenos políticos pelo viés histórico-crítico, com eixos temáticos relacionados ao espaço e à formação do povo brasileiro. Em Sociedade e Pensamento, com Pensar Empodera! e Horizontes do Pensamento, a questão política é frisada mais em seus aspectos de cultura e de identidade, com ênfase em leituras de construções teóricas elaboradas na atualidade por pensadores e pensadoras.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

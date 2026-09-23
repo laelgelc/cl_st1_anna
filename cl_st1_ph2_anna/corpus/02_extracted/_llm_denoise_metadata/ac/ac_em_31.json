@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00c12e5121bbdd37006ab2fbd5d3cc87d294dbe48b1dd6c00d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 639,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 614,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 1253
+    }
+  },
+  "created_at": "2026-09-22T22:06:18Z",
+  "duration_seconds": 4.718,
+  "error": null,
+  "excerpt_id": "ac_em_31",
+  "filename": "ac_em_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5b78cda6deeffb350219bc955b9dfa219591f748b7335a057c160f1b96df2420",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "996d18bebcc511d99dff323a58dc7ac4eb31cc65f9d8ac50d849d4f45305db8a",
+    "rendered_prompt_sha256": "a1f8f856119512cd2b1c89c0bd4fef7ec78a3508c6ff4338ad596dad4a52909b",
+    "source_text_sha256": "2be0736aed07775b7daf30cf68e3c87e549326c6a55be5314ecd154385166350"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 71,
+    "filename": "ac_em_31.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_31.txt",
+    "state": "ac",
+    "word_count_original": 297
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_31.json"
+  },
+  "raw_response_text": "No estado do Acre, a organização de oferta das Rotas de Aprofundamento se dá de modo a garantir um percurso com começo, meio e fim, cujo fluxo atravessa, obrigatoriamente, os quatro eixos estruturantes, permitindo aos estudantes o desenvolvimento integral, orgânico e progressivo, lidando com desafios cada vez mais complexos.\n\nDesse modo, ao fazer a escolha por uma rota de aprofundamento, o estudante escolherá um conjunto de unidades curriculares de duração semestral, com carga horária e objetos de conhecimentos diferenciados. Entretanto, todas as unidades são ligadas por uma temática ampla, que abriga os objetos de conhecimento e habilidades a serem desenvolvidas, ao longo da Rota de Aprofundamento.\n\nAssim, como anteriormente exposto, o estudante começará a cursar a Rota de Aprofundamento na 2ª série do Ensino Médio, perpassando toda a 3ª série. Entretanto, a cada semestre estarão sendo desenvolvidas habilidades de dois eixos estruturantes, da seguinte maneira:\n\n**QUADRO 9 | EIXOS ESTRUTURANTES POR SÉRIE E SEMESTRE**\n\n| Série | Semestre | Eixo estruturante |\n|---|---|---|\n| 2ª série | 1º semestre | • Investigação científica<br>• Processos Criativos |\n| 2ª série | 2º semestre | • Mediação e Intervenção Sociocultural<br>• Empreendedorismo |\n| 3ª série | 1º semestre | • Investigação científica<br>• Processos Criativos |\n| 3ª série | 2º semestre | • Mediação e Intervenção Sociocultural<br>• Empreendedorismo |\n\nPor fim, devido à diversidade de objetos de conhecimento das áreas, priorizou-se, para garantir a equidade na aprendizagem, mas respeitando o direito de escolha do estudante, o desenvolvimento padronizado de habilidades dos eixos estruturantes, distribuídas da mesma maneira, independente da área de conhecimento escolhida pelo estudante, uma vez que os únicos elementos comuns a todas as Rotas de Aprofundamento são os eixos estruturantes. Desta maneira, garante-se com as Rotas de Aprofundamento a ampliação e aprofundamento das competências e habilidades definidas pela BNCC, além da articulação com os temas contemporâneos.\n\nAs Rotas de Aprofundamento Propedêuticas desenvolvidas para serem ofertadas na rede podem ser visualizadas no anexo 2 deste documento.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

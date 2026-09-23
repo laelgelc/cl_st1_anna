@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_040a16aa0015d989006ab303da787087d2bedabd4cb4a78964",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 826,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 769,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "total_tokens": 1595
+    }
+  },
+  "created_at": "2026-09-22T22:40:33Z",
+  "duration_seconds": 7.314,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_13",
+  "filename": "ms_inf_e_ef_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4a984c1071c9538b1edc535cf355215c8169a57d1208057e018cb809042ee3c9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ea171fa3bde4c6af383b7d2a918fe3dd9640509aeb9d371c350bdf0ed33ddccf",
+    "rendered_prompt_sha256": "07a6c586dff5edf3bd1ecda99960463485c613f60879482d76c40cc76fc46784",
+    "source_text_sha256": "bfff9ad3cc04a057a55d5e4a8144cc1910eb8a711ce2eddbe3958cebd74737d1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1731,
+    "filename": "ms_inf_e_ef_13.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_13.txt",
+    "state": "ms",
+    "word_count_original": 495
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_13.json"
+  },
+  "raw_response_text": "### 3.6 Educação Alimentar e Nutricional\n\nA temática da Educação Alimentar e Nutricional foi inserida no artigo n. 26 da Lei de Diretrizes e Bases da Educação Nacional por meio da Lei n. 13.666, de 16 de maio de 2018. Além disso, há a Política Nacional de Alimentação e Nutrição (PNAN), que foi atualizada pela Portaria n. 2.715, de 17 de novembro de 2011, e visa à “melhoria das condições de alimentação, nutrição e saúde da população brasileira, mediante a promoção de práticas alimentares adequadas e saudáveis, a vigilância alimentar e nutricional, a prevenção e o cuidado integral dos agravos relacionados à alimentação e nutrição” (BRASIL, 2013, p. 21).\n\nEntende-se que os momentos de alimentação escolar fazem parte de uma proposta pedagógica pautada no desenvolvimento pleno dos sujeitos. Por isso, ao tratar a temática transversalmente, torna-se possível orientar os aprendizes a respeito de hábitos alimentares saudáveis. Nesse sentido, a prática educativa para a formação de hábitos alimentares saudáveis deve respeitar os valores culturais, sociais, afetivos e comportamentais, assim como promover a reflexão acerca da cadeia produtiva dos alimentos, com destaque para as questões de meio ambiente e saúde pública.\n\n### 3.7 Educação Fiscal\n\nA Educação Fiscal, de acordo com o Documento-Base do Programa Nacional de Educação Fiscal, é entendida como um processo educativo que visa à construção de uma consciência voltada ao exercício da cidadania, objetivando e propiciando a participação do cidadão no funcionamento e aperfeiçoamento dos instrumentos de controle social e fiscal do Estado. O desenvolvimento desse tema pauta-se na conscientização acerca do pagamento de tributos e no fomento aos cidadãos para monitorarem a aplicação desses tributos, visando à melhoria de vida da população.\n\nO trabalho com esse tema permite a formação de cidadãos atuantes, que compreendam as manobras de consumo de massa, a estrutura e o funcionamento da administração pública, a função socioeconômica dos tributos e as estratégias de aplicação dos recursos públicos. Esses poderão desenvolver valores e atitudes, por meio de competências e habilidades necessárias ao exercício dos direitos e deveres do consumidor, no que tange aos aumentos de impostos e insumos fiscais, por exemplo, posicionando-se junto aos órgãos competentes, quando necessário.\n\nAdemais, entende-se que a Educação Fiscal é uma temática a ser desenvolvida transversalmente, pois estimula a cidadania participativa e extrapola os muros da escola, ao passo que proporciona aos sujeitos aprendizes a compreensão de que os recursos públicos são provenientes do pagamento de tributos realizados por todos que habitam este país. Assim, faz-se necessário possibilitar às crianças, aos adolescentes e jovens, em todas as etapas de ensino e modalidades, a apropriação dos fundamentos das finanças públicas, por meio de linguagem lúdica e clara, possibilitando-lhes a compreensão de caminhos possíveis para saberem intervir. Dessa maneira, pretende-se que as crianças, adolescentes e jovens compreendam que as práticas educativas de Educação Fiscal vinculam-se também à preservação do patrimônio público e aos direitos individuais e coletivos observados na Constituição Federal de 1988.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

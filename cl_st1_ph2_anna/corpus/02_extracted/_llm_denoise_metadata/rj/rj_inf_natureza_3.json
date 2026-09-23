@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05e0c0c903244187006ab30abd6e0887d2b7448698664ce2d0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 937,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1090,
+      "output_tokens_details": {
+        "reasoning_tokens": 300
+      },
+      "total_tokens": 2027
+    }
+  },
+  "created_at": "2026-09-22T23:09:58Z",
+  "duration_seconds": 9.02,
+  "error": null,
+  "excerpt_id": "rj_inf_natureza_3",
+  "filename": "rj_inf_natureza_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bbbde788889d6210c17bc4f4d8688f3cf19563c9dfb117e6c836f4c60ac4dbac",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "67f355ee6893835ec0c72f4e89e4d1b6ded3ef340bf9cb6322b6c6ec16ff2694",
+    "rendered_prompt_sha256": "5bb16ab29ed996c74be090b03c3525b7fcab487d6db86ffe8d621f56920cae37",
+    "source_text_sha256": "05b10765630ad1f2f6084a2558a7337035858539320bafbf488aa09fd3d32e62"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_natureza_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2941,
+    "filename": "rj_inf_natureza_3.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_natureza_3.txt",
+    "state": "rj",
+    "word_count_original": 553
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_natureza_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_natureza_3.json"
+  },
+  "raw_response_text": "### C - Dizer não ao consumismo e ao desperdício\n\nO movimento de dizer não à destruição da vida na Terra implica práticas pedagógicas que assumam a educação como prática da liberdade (FREIRE, 1976), apostem nas interações afetivas e criativas e, ao mesmo tempo, tenham intencionalidade política, transformadora: são estes os caminhos que nos levarão a dizer não ao consumismo e ao desperdício de recursos naturais, renováveis e não renováveis.\n\nVivemos um tempo em que “a cidade se oferece em forma de vitrine e ser cidadão é habitar esse mundo com o desprendimento de quem vai às compras” (PEREIRA, 2003, p. 79). As crianças, desde bebês, são seduzidas pelos milhares de objetos, brinquedos, produtos culturais que a mídia leva para dentro de suas casas. Entretanto, não é de objetos que elas mais necessitam, mas de proximidade afetiva. Numa sociedade em que o trabalho passa a ocupar um tempo muito maior na vida das pessoas, as interações entre adultos e crianças perdem em tempo e qualidade. O consumo, então, funciona como compensação para as insatisfações e frustrações geradas pela insuficiência de proximidade afetiva, por um estilo de vida que valoriza o ter, em detrimento do ser (BOFF, 1999).\n\nNa contramão dessa perspectiva, podemos ensinar as crianças a consumir de forma equilibrada, o que exige uma reflexão permanente sobre o que é supérfluo e o que é realmente necessário, considerando que é desigual a distribuição dos bens que são produzidos. Podemos convidar as famílias e a comunidade a participarem de oficinas de produção e/ou conserto de brinquedos, feiras de troca de objetos, livros, revistas, brinquedos.\n\nAs escolas de Educação Infantil podem exercer um papel importante na difusão de informações e na mobilização de crianças, famílias e comunidades em relação à preservação da Terra. Ao abrirmos espaço e tempo para encontros entre todos os sujeitos que, cotidianamente, circulam nas creches e pré-escolas, descobrimos infinitas formas de contribuir para a redução de consumo e o reaproveitamento de materiais: projeção de filmes e documentários, debates, mutirões de limpeza, oficinas, parcerias com outras instituições e grupos na elaboração e difusão de documentos e manifestos, na organização de atos públicos...\n\nMas isso não é suficiente! Para que se constitua como espaço educador sustentável, é necessário que o prédio também seja referência para a comunidade em termos de ecoeficiência energética e de água, isto é, que os responsáveis pelo prédio assumam compromissos com a redução do consumo e o desperdício, revendo instalações elétricas e hidráulicas; refazendo listas de material pedagógico e de consumo; realizando o controle da fumaça negra dos carros que fazem o transporte escolar, pois não basta o discurso, é preciso modificar hábitos cotidianos, é preciso dar o exemplo.\n\nNeste novo momento da história da humanidade, quando, finalmente, entendemos que é preciso pensar em termos globais e agir localmente, nossas creches e pré-escolas podem se constituir como instituições formadoras de inteligências, valores e sentimentos generosos em relação à vida; como campos de intervenção que nos possibilitem desmontar filosofias e ideologias antropocêntricas e consumistas que norteiam as práticas sociais atuais. Nesta linha, professores e professoras se voltarão para resgatar, no melhor de nossas tradições culturais – negra, indígena e de outras etnias que compõem a nação brasileira – valores distintos daqueles que moldaram uma história de apropriação privada, dominação e controle sobre a natureza, produzindo desequilíbrio ambiental, desigualdade social e sofrimento psíquico.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

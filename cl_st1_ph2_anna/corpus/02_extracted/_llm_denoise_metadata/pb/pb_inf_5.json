@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_028187cd407c081a006ab307a0c89087d2a5e907aaa57d1b98",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 822,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 831,
+      "output_tokens_details": {
+        "reasoning_tokens": 175
+      },
+      "total_tokens": 1653
+    }
+  },
+  "created_at": "2026-09-22T22:56:39Z",
+  "duration_seconds": 7.154,
+  "error": null,
+  "excerpt_id": "pb_inf_5",
+  "filename": "pb_inf_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "72782290f155ef018e8abc74ea8462b71ad908ff2b5780332474fd1f89a7396b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9f9d39ae716c01713da12373d995222e2da3e44da5f7f87d7190e1d17c7a7e99",
+    "rendered_prompt_sha256": "6dd303c1328ac65bee5b17e1b24c070010e059f0be51dcca45ab77b7024df39e",
+    "source_text_sha256": "6d050bc02c50b9bba50969b7536e6401bed4fc6f35b444fde3d72b8a83ab9c18"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2375,
+    "filename": "pb_inf_5.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_5.txt",
+    "state": "pb",
+    "word_count_original": 528
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_5.json"
+  },
+  "raw_response_text": "### 3.4 Os Direitos de Aprendizagem e a BNCC da Educação Infantil\n\nA Educação Infantil vem se colocando no campo das políticas e das práticas educativas como uma etapa que pensa o seu próprio campo e tem concepções acerca de criança, do currículo e das práticas pedagógicas relacionadas a este sujeito, seus pertencimentos culturais, sociais, geracionais e intergeracionais, dentre outros aspectos.\n\nDo ponto de vista do direito, a criança é pensada como sujeito que tem direito à proteção, provisão e participação (SARMENTO e PINTO, 1997). Ter direito a ter um nome, uma identidade, uma nacionalidade (proteção), a se alimentar, ter condições de saúde e assistência, educação (provisão), a ter direito sobre sua própria vida e de se posicionar nas instituições nas quais interage (participação) são avanços que colocam a criança e a infância num patamar de reconhecimento social e visibilidade e atividade na relação com os adultos.\n\nNo entanto, muito há ainda a se avançar quando se pensa que, dentre esses “três direitos”, o direito à participação é aquele que menos se materializa nas relações que ocorrem entre crianças e adultos, apontando para a predominância dos direitos ligados à assistência (proteção e provisão) em detrimento daquele (participação) mais vinculado à cidadania e à educação.\n\nNa BNCC da Educação Infantil, seis direitos estão indicados como necessários para o reconhecimento da relação entre a criança com os sujeitos, as situações e ações que lhes convidam a interagir.\n\nEsses direitos são fundamentos para os campos de experiências a serem vivenciados pelas crianças, que só se realizam em sua plenitude na relação com a garantia deles.\n\nPensar a criança como sujeito de direitos no âmbito da Educação Infantil é romper com a concepção assistencialista e escolarizante que durante muito tempo caracterizou as práticas educativas relacionadas aos bebês, crianças bem pequenas e crianças pequenas. Embora essas concepções ainda estejam presentes no cotidiano das instituições de Educação Infantil, o paradigma que concebe a criança como sujeito histórico, de direitos e que produz cultura na relação com os pares, os adultos, consigo mesma e com o mundo, vem contribuindo para pensá-la como sujeito ativo, potente e que tem muito a produzir nas interações que realiza e para as quais é convocada a realizar.\n\nNesse sentido, a Educação Infantil passou por grandes transformações, relativas, sobretudo, às concepções que atualmente lhe permeiam, à legislação vigente e à contribuição de diversas áreas do conhecimento.\n\nOs direitos de aprendizagem apresentados na BNCC da Educação Infantil são os direitos de conviver, brincar, participar, explorar, expressar e conhecer-se. Nas duas primeiras versões do processo de construção da BNCC da Educação Infantil (2015 e 2016), o direito de conviver era pensado à luz da democracia. Na versão final, a que foi homologada em dezembro de 2017, a perspectiva da democracia foi suprimida, mas ela retorna neste documento não apenas vinculada a este direito específico, mas a todos os demais, uma vez que a baliza da democracia é aquela que fornece a condição necessária ao respeito a todos os sujeitos.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

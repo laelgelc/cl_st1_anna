@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f1d4bf176b50958006ab3081cb79487d2a740adbb974125e8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 413,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 553,
+      "output_tokens_details": {
+        "reasoning_tokens": 234
+      },
+      "total_tokens": 966
+    }
+  },
+  "created_at": "2026-09-22T22:58:42Z",
+  "duration_seconds": 6.235,
+  "error": null,
+  "excerpt_id": "pe_em_30",
+  "filename": "pe_em_30.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "78f947208998460f074ef7c871672e49a44d2292afef477fe7f3fc9c616cf46d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "656d0a4edb26be7852bdf951ac16efc6c105e94c6efdec7bb7bed79ce2c1cc99",
+    "rendered_prompt_sha256": "872ce4e218de5c187edf240026dacb898735c7253e85350e151102f6de631519",
+    "source_text_sha256": "175f4c9ec9e4c17858b96a2b1ffb5659ed6db3de1910e587b8393cabcb5662d5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_30.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2487,
+    "filename": "pe_em_30.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_30.txt",
+    "state": "pe",
+    "word_count_original": 186
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_30.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_30.json"
+  },
+  "raw_response_text": "### 3.6 – HABILIDADES DOS ITINERÁRIOS FORMATIVOS ASSOCIADAS ÀS COMPETÊNCIAS DA FORMAÇÃO GERAL DA BNCC\n\n[...] a educação deve afirmar valores e estimular ações que contribuam para a transformação da sociedade, tornando-a mais humana, socialmente justa e, também, voltada para a preservação da natureza” (BRASIL, 2013).\n\nNesta seção, estão descritas as habilidades relacionadas às competências gerais da BNCC (2018) que fundamentam as proposições dos Itinerários Formativos no DCEIF (2020) e norteiam os IF propostos na Educação Básica e Profissional e Técnica.\n\nAo longo da Educação Básica, as aprendizagens essenciais definidas na BNCC devem concorrer para assegurar aos estudantes o desenvolvimento de dez competências gerais, que consubstanciam, no âmbito pedagógico, os direitos de aprendizagem e desenvolvimento. (Brasil, 2018, p. 8).\n\nAs habilidades abaixo listadas encontram-se nos Referenciais Curriculares para Elaboração de Itinerários Formativos (DCEIF), ora citado, documento elaborado em consonância com o que propõem a DCNEM e a BNCC, documentos “orientados pelos princípios éticos, políticos e estéticos que visam à formação humana integral e à construção de uma sociedade justa, democrática e inclusiva, como fundamentado nas Diretrizes Curriculares Nacionais da Educação Básica (DCN)” (BNCC, 2018, p. 07).",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

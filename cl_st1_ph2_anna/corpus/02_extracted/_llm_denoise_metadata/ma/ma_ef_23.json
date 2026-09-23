@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a073ce496d81c69006ab301bdd29c87d2aa54485d2e9c1eb1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 693,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 960,
+      "output_tokens_details": {
+        "reasoning_tokens": 384
+      },
+      "total_tokens": 1653
+    }
+  },
+  "created_at": "2026-09-22T22:31:33Z",
+  "duration_seconds": 8.197,
+  "error": null,
+  "excerpt_id": "ma_ef_23",
+  "filename": "ma_ef_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8516f88382bb73928110c40199ad8698f1309efd20933f164a42427e17155538",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9c0f744b200f2b1b487dacebf50835d3e4ee390a5495a29b801c2177a1e4c43f",
+    "rendered_prompt_sha256": "02141bc12171fc92c7ffd98eb170d3050fa5ff9e913cddaee643067c4d6517eb",
+    "source_text_sha256": "ff0f470695ba114ca3fd0634fc876cb558479292447631b71ee3d508400639a0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_ef_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1248,
+    "filename": "ma_ef_23.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_ef_23.txt",
+    "state": "ma",
+    "word_count_original": 408
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_ef_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_ef_23.json"
+  },
+  "raw_response_text": "## Avaliação\n\nAvaliar em Educação Física implica considerar as peculiaridades metodológicas do espaço dialético em que o professor, de forma planejada, produz saberes resultantes da interação dos aspectos pedagógicos, técnicos e científicos que favoreçam a efetivação do processo ensino-aprendizagem que contemple as vertentes do desenvolvimento dos educandos.\n\nDessa forma, a sistematização da avaliação promoverá, a partir das competências e objetos do conhecimento/conteúdos de forma gradativa, as habilidades propostas pelo componente curricular em que possibilitem uma convergência entre teoria e prática por meio das experiências, vivências, discussões, pesquisas, resoluções de situações-problema, trabalhos em grupos, seminários e outros métodos.\n\nDe acordo com Libâneo (1994), a avaliação no processo de ensino é responsável pela verificação (coleta de dados sobre o aproveitamento dos alunos), qualificação, comprovação dos resultados em relação aos objetivos e apreciação qualitativa (avaliação dos resultados em si referindo-se a padrões de desempenho esperados).\n\nAinda para o mesmo autor, a avaliação cumpre pelo menos três funções que atuam de forma interdependente:\n\n1. **Pedagógico-didática:** diretamente relacionada aos objetivos gerais e específicos da educação escolar, contribuindo para a assimilação e fixação, uma vez que a correção dos erros possibilita o aprimoramento, a ampliação e o aprofundamento dos conhecimentos e habilidades, ou seja, o desenvolvimento das capacidades cognoscitivas.\n2. **Diagnóstica:** ocorre antes, durante e no final do desenvolvimento das aulas e possibilita identificar progressos e dificuldades de ensino dos alunos, bem como a atuação do docente modificando o processo do ensino para melhor cumprir as exigências dos objetivos.\n3. **Controle:** refere-se aos meios e à frequência das verificações e de qualificação dos resultados, possibilitando o diagnóstico das situações didáticas.\n\nA fim de que essas funções sejam acertadas, o planejamento é de suma importância. O projeto político pedagógico de cada escola deverá sugerir instrumentos avaliativos com possibilidades amplas de adaptação ao contexto em que as vivências corporais sejam propostas e viáveis de alcançar as habilidades e competências esperadas. Para tanto, a apropriação desse conhecimento pelo aluno resultará das práxis pedagógicas, ou seja, da vivência, da reflexão e da ressignificação dos objetos de conhecimento advindos da cultura corporal, mediada pelo professor.\n\nCom relação à proposta de currículo apresentada neste documento para o território maranhense, está fundamentado na BNCC (BRASIL, 2017), que propõe as abordagens baseadas nos saberes das práticas corporais para apropriação do conhecimento dos educandos e utilização em diferentes situações enquanto sociedade de maneira consciente e como protagonistas.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

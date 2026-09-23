@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01e2a5c93b71ea98006ab3056ab6fc87d291c61526ae235be6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 562,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 735,
+      "output_tokens_details": {
+        "reasoning_tokens": 267
+      },
+      "total_tokens": 1297
+    }
+  },
+  "created_at": "2026-09-22T22:47:15Z",
+  "duration_seconds": 8.576,
+  "error": null,
+  "excerpt_id": "pa_ef_27",
+  "filename": "pa_ef_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6d5c9bae59a4753f4e01dc15036b557a6979efdfe4ddb817958147974e3fe53a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9db50c18af0e884f12cfc7d8a65326f55545651a6fa5e1f3f42fe78369cdc637",
+    "rendered_prompt_sha256": "75cb312036f47bd2a560e1f7f381f7334b6cf292f1ac4241f8a1397d88a11ad5",
+    "source_text_sha256": "542a7c3c5a95616f08b1d58c5caf95a9e1a3aee184c3f9262eac33545ecda678"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_ef_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2020,
+    "filename": "pa_ef_27.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_ef_27.txt",
+    "state": "pa",
+    "word_count_original": 335
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_ef_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_ef_27.json"
+  },
+  "raw_response_text": "## 5.4 EDUCAÇÃO INDÍGENA\n\nA educação escolar indígena, no âmbito do estado do Pará, é uma modalidade de ensino em conformidade com as DCNGEB (BRASIL, 2013) e fundamentada nos princípios democráticos que asseguram o desenvolvimento do processo educacional pautado na interculturalidade, no multilinguismo e da etnicidade.\n\nO reconhecimento da singularidade dos povos indígenas vislumbra a educação em sua forma abrangente com o envolvimento de toda a comunidade na construção do fazer pedagógico articulado à realidade dos diversos tempos e espaços vivenciados no cotidiano de cada grupo; nesse contexto, busca-se reconhecer e assegurar o valor das pedagogias construídas historicamente resultante das experiências transmitidas de geração a geração.\n\nÉ por meio da educação do convívio entre os pares, seu contexto, suas relações que os povos indígenas reproduzem e recriam suas identidades, suas tradições, seus valores, padrões de comportamento e de formas próprias de relacionamento, segundo a dinâmica de cada contexto cultural, assim, o currículo das escolas indígenas orienta-se segundo o modo de viver dos sujeitos.\n\nDe acordo com os encaminhamentos previstos nas políticas emanadas do MEC, a educação escolar indígena no estado do Pará atende aos preceitos contidos no Referencial Curricular Nacional Para as Escolas Indígenas – RCNEI – e da Resolução CEB nº 3/CNE/1999 (BRASIL, 1999), com o objetivo de assegurar e garantir o direito à diferença étnico-cultural das comunidades indígenas.\n\nA relação estabelecida entre a educação e a comunidade compreende o currículo como um elemento catalizador das diferenças, das identidades, manifestas ou ocultas no cotidiano das relações sociais dos sujeitos, as quais estão sistematizadas na organização das escolas indígenas do Pará.\n\nDessa forma, o currículo das escolas indígenas comporta os elementos simbólicos e representativos da cultura produzida pelos diferentes grupos com a garantia do reconhecimento da ação educativa vinculada aos tempos e espaços definidos na dinâmica de vida de cada um deles.\n\nFrente a essa realidade, busca-se assegurar a interação e integração dos conhecimentos e das práticas, saberes e experiências, vinculados à vida social dos grupos indígenas do estado do Pará.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

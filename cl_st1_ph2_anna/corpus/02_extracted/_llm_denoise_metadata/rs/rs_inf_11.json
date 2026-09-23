@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a2d5932496abe2b006ab30df6f8b487d28d7fc81f4c60dc1d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 855,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1103,
+      "output_tokens_details": {
+        "reasoning_tokens": 401
+      },
+      "total_tokens": 1958
+    }
+  },
+  "created_at": "2026-09-22T23:23:44Z",
+  "duration_seconds": 9.157,
+  "error": null,
+  "excerpt_id": "rs_inf_11",
+  "filename": "rs_inf_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "aa52d45f0053564b9647e14e2019167ebebab7ae5a3619a54bd31e47117c8d80",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c06649227b077b8b4cd45c78752b871a6faabae8edb10ed969adaaa810ff9e34",
+    "rendered_prompt_sha256": "de32e07528250ec4c4f3b411946a0b13bc47369bd598799228cf15f2a9a79a82",
+    "source_text_sha256": "9e1c56def201b132c147cdc3873c03c4a718948361814d16a2b7450598fc5ea6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3643,
+    "filename": "rs_inf_11.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_11.txt",
+    "state": "rs",
+    "word_count_original": 517
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_11.json"
+  },
+  "raw_response_text": "## 11. CAMPO DE EXPERIÊNCIAS: O EU, O OUTRO E O NÓS (EO)\n\nEste Campo destaca experiências que possibilitam às crianças, nas experiências com outras crianças e adultos, viverem situações de atenção social e outras práticas sociais. Por meio dessas práticas, elas aprendem a se perceber como um EU, alguém que tem características e desejos, e a considerar seus parceiros como outros que também têm seus desejos e interesses próprios e, assim, tomar consciência de um nós. Interações positivas ajudam as crianças a estabelecer atitudes de confiança e amizade.\n\nÉ necessário perceber que a constituição da criança, como um sujeito social, se dá pela sua interação e/ou vivência coletiva, ampliando o modo como a criança percebe a si e aos outros, compreendendo-se inserida em um grupo que reconhece e respeita as singularidades e diferenças que constituem cada um de nós como um sujeito único, mas, ao mesmo tempo, pertencente a um grupo social.\n\nNa definição do Campo de Experiências, O Eu, o Outro e o Nós (EO), o Referencial Curricular Gaúcho, de acordo com a BNCC (2017)[^5], compreende que os direitos da criança precisam ser assegurados desde a organização dos ambientes educativos, do espaço e do tempo, de modo a promover oportunidades de se conhecer e se relacionar, autonomamente. Diante disso, a construção de identidade - O Eu - pela criança é fundamental para o seu desenvolvimento e acontece durante toda a vida, devendo ser priorizado na Educação Infantil e demanda uma atenção especial no processo educacional. O Campo O Eu, o Outro e o Nós possibilita à criança se relacionar - O Outro - com outras crianças e com adultos e nessa convivência desenvolver formas amorosas, afetivas, cooperativas, democráticas ampliando a confiança e a participação da criança nas atividades individuais e coletivas - O Nós.\n\nEsses conceitos ampliam a percepção das crianças para a existência de outros ambientes sociais, outras culturas, lugares, costumes diferentes dos seus, envolvendo noções de equidade, de não discriminação de outros seres humanos e de preservação do nosso planeta.\n\n[^5]: O Eu, o Outro e o Nós - É na interação com os pares e com adultos que as crianças vão constituindo um modo próprio de agir, sentir e pensar e vão descobrindo que existem outros modos de vida, pessoas diferentes, com outros pontos de vista. Conforme vivem suas primeiras experiências sociais (na família, na instituição escolar, na coletividade), constroem percepções e questionamentos sobre si e sobre os outros, diferenciando-se e, simultaneamente, identificando-se como seres individuais e sociais. Ao mesmo tempo que participam de relações sociais e de cuidados pessoais, as crianças constroem sua autonomia e senso de autocuidado, de reciprocidade e de interdependência com o meio. Por sua vez, na Educação Infantil, é preciso criar oportunidades para que as crianças entrem em contato com outros grupos sociais e culturais, outros modos de vida, diferentes atitudes, técnicas e rituais de cuidados pessoais e do grupo, costumes, celebrações e narrativas. Nessas experiências, elas podem ampliar o modo de perceber a si mesmas e ao outro, valorizar sua identidade, respeitar os outros e reconhecer as diferenças que nos constituem como seres humanos. (BNCC, 2017, p. 38)",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fe33e8e888527aa006ab30ce29ad087d291b745e3f8739d67",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 600,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 545,
+      "output_tokens_details": {
+        "reasoning_tokens": 40
+      },
+      "total_tokens": 1145
+    }
+  },
+  "created_at": "2026-09-22T23:19:02Z",
+  "duration_seconds": 3.882,
+  "error": null,
+  "excerpt_id": "rr_ef_4",
+  "filename": "rr_ef_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "600793c0060097f0492cacefc4b0fa4db4b2a4c653e5bd67fe394ca6ff29cbce",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4f16c36382d0475ba81fc6f6a008416831ec4d5e3e9ea8a323bdec8082809bf2",
+    "rendered_prompt_sha256": "d7fce7d59149ab28f9ef1be7450818c7f598e6380431da84a8314519e202ae82",
+    "source_text_sha256": "9ebcbc6f55719ab33798cade734191f6ecb9e5a260a9b4ef664168935cca447e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3407,
+    "filename": "rr_ef_4.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_4.txt",
+    "state": "rr",
+    "word_count_original": 333
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_4.json"
+  },
+  "raw_response_text": "### 4.1.4 COMPETÊNCIAS ESPECÍFICAS DE LÍNGUA PORTUGUESA PARA O ENSINO FUNDAMENTAL\n\n1. Compreender a língua como fenômeno cultural, histórico, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo-a como meio de construção de identidades de seus usuários e da comunidade a que pertencem.\n2. Apropriar-se da linguagem escrita, reconhecendo-a como forma de interação nos diferentes campos de atuação da vida social e utilizando-a para ampliar suas possibilidades de participar da cultura letrada, de construir conhecimentos (inclusive escolares) e de se envolver com maior autonomia e protagonismo na vida social.\n3. Ler, escutar e produzir textos orais, escritos e multissemióticos que circulam em diferentes campos de atuação e mídias, com compreensão, autonomia, fluência e criticidade, de modo a se expressar e partilhar informações, experiências, ideias e sentimentos, e continuar aprendendo.\n4. Compreender o fenômeno da variação linguística, demonstrando atitude respeitosa diante de variedades linguísticas e rejeitando preconceitos linguísticos.\n5. Empregar, nas interações sociais, a variedade e o estilo de linguagem adequados à situação comunicativa, ao(s) interlocutor(es) e ao gênero do discurso/gênero textual.\n6. Analisar informações, argumentos e opiniões manifestados em interações sociais e nos meios de comunicação, posicionando-se ética e criticamente em relação a conteúdos discriminatórios que ferem direitos humanos e ambientais.\n7. Reconhecer o texto como lugar de manifestação e negociação de sentidos, valores e ideologias.\n8. Selecionar textos e livros para leitura integral, de acordo com objetivos, interesses e projetos pessoais (estudo, formação pessoal, entretenimento, pesquisa, trabalho etc.).\n9. Envolver-se em práticas de leitura literária que possibilitem o desenvolvimento do senso estético para fruição, valorizando a literatura e outras manifestações artístico-culturais como formas de acesso às dimensões lúdicas, de imaginário e encantamento, reconhecendo o potencial transformador e humanizador da experiência com a literatura.\n10. Mobilizar práticas da cultura digital, diferentes linguagens, mídias e ferramentas digitais para expandir as formas de produzir sentidos (nos processos de compreensão e produção), aprender e refletir sobre o mundo e realizar diferentes projetos autorais.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

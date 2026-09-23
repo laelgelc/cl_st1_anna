@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03e70d34afc655c7006ab306cf0c7487d284ae1dcee3a93218",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 765,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 780,
+      "output_tokens_details": {
+        "reasoning_tokens": 161
+      },
+      "total_tokens": 1545
+    }
+  },
+  "created_at": "2026-09-22T22:53:11Z",
+  "duration_seconds": 8.501,
+  "error": null,
+  "excerpt_id": "pb_ef_44",
+  "filename": "pb_ef_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4d35a87f6f49c68c5e73a7fd509d1a2ca126ae93efa8bf7b3175af2f8b15efb4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4c7fed975625fa30c8d0532f9d8c24ef5fb2dc79f693413734344283ac76a482",
+    "rendered_prompt_sha256": "0b6264b9e06e98a10d03acfd8d2d524d45330001c7047af1769b63eca2bf7ea8",
+    "source_text_sha256": "6ce98eb4638c51e50f5d6fdb04ee6b5dcf42fd551b8f9c98c8d3a55340b7c57e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2214,
+    "filename": "pb_ef_44.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_44.txt",
+    "state": "pb",
+    "word_count_original": 454
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_44.json"
+  },
+  "raw_response_text": "## Ciências humanas\n\nOs conhecimentos específicos na área de Ciências Humanas/Sociais, alvos dos componentes curriculares Geografia e História, estão contemplados em um conjunto de objetos de conhecimento que favoreçam o desenvolvimento da capacidade de os alunos pensarem sobre diferentes culturas e sociedades, em seus tempos históricos, territórios e paisagens (compreendendo melhor o Brasil, sua diversidade regional e territorial) (BRASIL, 2017, p. 357). Portanto, é fundamental que o trabalho com tais conhecimentos leve à reflexão sobre sua inserção singular e autônoma na história da sua família, comunidade, nação e mundo.\n\nNo Ensino Fundamental, o ensino desses componentes deve propiciar aos alunos experiências sociocognitivas, afetivas e lúdicas, capazes de potencializar sentidos e saberes sobre o indivíduo, o mundo social e a natureza. Desse modo, esse trabalho pode contribuir para a ampliação progressiva de conhecimentos sobre a sua participação no mundo social e para a reflexão sobre questões sociais, éticas e políticas, aspectos essenciais à formação dos alunos como cidadãos em uma sociedade democrática.\n\n### 8.1 Geografia\n\n#### 8.1.1 Introdução\n\nEste currículo de Geografia parte do pressuposto de que, para interpretar/analisar o mundo, os alunos precisam ser estimulados a pensar espacialmente, desenvolvendo o raciocínio geográfico.\n\nDessa forma, o pensamento espacial está associado ao desenvolvimento cognitivo que integra a compreensão de várias áreas do conhecimento de maneira interdisciplinar. Essa interação visa à resolução de problemas que envolvam mudanças de escala, orientação e direção de objetos localizados na superfície terrestre, efeitos de distância, relações hierárquicas, tendências à centralização e à dispersão, efeitos de vizinhança, entre outros (BNCC, 2017).\n\nDiante disso, a Geografia deve centralizar-se num ensino que contemple as experiências vividas pelos alunos, forme estudantes com habilidades e capacidades espaciais, facilitando o desenvolvimento geral do aluno que deverá compreender: os fenômenos econômicos, os conflitos de classe, as alterações das paisagens e a complexidade da dinâmica socioambiental, nas diversas escalas geográficas: local, regional, nacional e global.\n\nCom isso, o ensino de Geografia, ao estimular os estudantes a desenvolverem uma melhor compreensão do mundo, favorece o desenvolvimento autônomo de cada indivíduo e os torna aptos a uma intervenção mais responsável no ambiente em que vivem.\n\nNeste contexto, a proposta curricular de Geografia nesse documento está pautada no desenvolvimento do raciocínio geográfico, alicerçado em uma educação geográfica que tem por finalidade a emergência de um cidadão crítico, participativo, democrático e eticamente responsável por um modo de vida voltado ao bem-estar social e preocupado com qualidade do meio ambiente local e global.\n\nPara tanto, é necessário que haja diálogo e construção de saberes para que nossos estudantes sejam sujeitos críticos, reflexivos e, acima de tudo, cidadãos (FREIRE, 2005).",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

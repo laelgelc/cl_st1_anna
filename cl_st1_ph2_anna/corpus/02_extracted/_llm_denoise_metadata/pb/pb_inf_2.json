@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0922b04c168e4c97006ab30798ea3087d292af9e8aeef0d148",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 709,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 794,
+      "output_tokens_details": {
+        "reasoning_tokens": 221
+      },
+      "total_tokens": 1503
+    }
+  },
+  "created_at": "2026-09-22T22:56:32Z",
+  "duration_seconds": 7.848,
+  "error": null,
+  "excerpt_id": "pb_inf_2",
+  "filename": "pb_inf_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "87ae604f17dd0308ba5204a58ddc8bcecba63a7265ea5470eeafc8b148f37d67",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7712285cda5c63267a72792624e0940d2ee220f324f25de3d82661b544225649",
+    "rendered_prompt_sha256": "119b49bcfb9d95db83d981cb08dc4148ec5193ae66d9685aef0d4f59b82ad955",
+    "source_text_sha256": "7245e534f23066fc705f14c08f1de4aa5eb3bd93d5f117e9edc3b899af641e4e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2363,
+    "filename": "pb_inf_2.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_2.txt",
+    "state": "pb",
+    "word_count_original": 430
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_2.json"
+  },
+  "raw_response_text": "### 3.2 Marco regulatório: avanços na Educação Infantil\n\nA Educação Infantil tem na Constituição de 1988, no Brasil, um importante avanço em seu marco regulatório quanto ao reconhecimento do seu papel na educação das crianças de 0 até 6 anos. No artigo 208 desta Constituição, observa-se que é dever do Estado garantir Educação Infantil em creche e pré-escola às crianças até 5 anos de idade. Importante pontuar que a recente decisão do Supremo Tribunal Federal, tomada no segundo semestre de 2018, manteve o corte etário de 31 de março como marco para a matrícula das crianças na Educação Infantil ou no Ensino Fundamental. Ou seja, as crianças que fazem 6 anos após 31 de março devem ser matriculadas na Educação Infantil. Assim, também as crianças de 6 anos podem ser atendidas na Educação Infantil.\n\nEm 1990, em diálogo com a Constituição Federal, é promulgado o Estatuto da Criança e do Adolescente que, em seu Artigo 55, trata sobre as atribuições dos pais ou responsáveis junto à educação escolar, afirmando que estes são obrigados a matricular seus filhos ou pupilos na rede regular de ensino.\n\nA Lei de Diretrizes e Bases da Educação Nacional, de 1996, e em suas posteriores redações, reconhece a Educação Infantil como primeira etapa da Educação Básica e afirma que a matrícula das crianças de 0 a 3 anos deve ser feita em creche, devendo ser matriculadas na pré-escola as crianças de 4 e 5 anos.\n\nAs Diretrizes Curriculares Nacionais para o Curso de Graduação em Pedagogia, licenciatura, aprovadas em 2006, também contribuíram na direção de garantir a formação do/a professor/a que atua na Educação Infantil em Pedagogia.\n\nAs Diretrizes Curriculares Nacionais para a Educação Infantil, aprovadas em 2009, contribuem, dentre outros aspectos, para a reafirmação da Educação Infantil como primeira etapa da Educação Básica, oferecida em creches e pré-escolas, em espaços institucionais não domésticos, públicos ou privados, que cuidam e educam crianças em período diurno, em jornada parcial ou integral, que devem ser regulados e supervisionados por ordem competente, definindo ainda o conceito de criança, currículo e proposta pedagógica, conforme apresentado na Introdução.\n\nAs Diretrizes Curriculares Nacionais para a Educação Infantil se constituem em fundamento para a construção da Base Nacional Comum Curricular da Educação Infantil e toda construção teórica ou legal que se proponha a refletir sobre o currículo da Educação Infantil deve, portanto, basear-se nas referidas Diretrizes, tal como foi feito na BNCC da Educação Infantil e poderá ser observado neste documento.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

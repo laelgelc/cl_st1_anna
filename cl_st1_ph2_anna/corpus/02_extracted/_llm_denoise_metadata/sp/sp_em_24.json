@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04f65fa20506677d006ab30fa4e61487d2b648a6eb24b55f9a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 572,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 586,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 1158
+    }
+  },
+  "created_at": "2026-09-22T23:30:50Z",
+  "duration_seconds": 5.64,
+  "error": null,
+  "excerpt_id": "sp_em_24",
+  "filename": "sp_em_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "811f0ec9739eab39d1e2ecf8e6387130cea26f70a89cf47ff8238cdf78b9e65f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "87f4526de0c7d0d32730e2293440643ebd841f0a9264391625fffe1747556a79",
+    "rendered_prompt_sha256": "693a676780cfd5ffda8b7a68d74cdc31aa510edbc193feb047a9aeb0a7149ce8",
+    "source_text_sha256": "e0bb32571ba9718774f409bace479fb39b48c81db5bb92a120847893eddcbadf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3918,
+    "filename": "sp_em_24.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_24.txt",
+    "state": "sp",
+    "word_count_original": 313
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_24.json"
+  },
+  "raw_response_text": "# O Currículo de Matemática para a etapa do Ensino Médio\n\nNeste assunto, é necessário fazer uma breve reflexão a respeito de competências e habilidades, pois são elas que regem as normatizações propostas pela BNCC.\n\nO sistema educativo, geralmente, integra-se nesse processo como mediador na transmissão dos conhecimentos já produzidos. A garantia dessa integração se fará pela mobilização de competências já construídas, por sua ampliação e pela construção de novas competências.\n\nNesse sentido a BNCC define:\n\n> Competência é a mobilização de conhecimentos (conceitos e procedimentos), habilidades (práticas, cognitivas e socioemocionais), atitudes e valores para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho. (BRASIL, 2018, p.8)\n\nNesse ponto de vista, aliadas aos processos matemáticos de resolução de problemas, de investigação e da modelagem matemática, as competências e habilidades são ao mesmo tempo objetos e estratégias para a aprendizagem da Matemática. Segundo a BNCC, tais processos potencializam o desenvolvimento de competências fundamentais para o letramento matemático (raciocínio, representação, comunicação e argumentação) e para o desenvolvimento computacional. Considerando esses pressupostos, e em articulação com as competências gerais da Educação Básica, a área de Matemática e, por conseguinte, o componente curricular de Matemática deve garantir ao estudante o desenvolvimento das competências específicas.\n\nEm continuidade a essas aprendizagens, no Ensino Médio o foco é a construção de uma visão integrada da Matemática, aplicada à realidade, em diferentes contextos. Consequentemente, quando a realidade é a referência, é preciso levar em conta as vivências cotidianas do estudante do Ensino Médio – impactado de diferentes maneiras pelos avanços tecnológicos, pelas exigências do mercado de trabalho, pelos projetos de bem viver dos seus povos, pela potencialidade das mídias sociais, entre outros fatores. Nesse contexto, destaca-se ainda a importância do recurso às tecnologias digitais e aplicativos tanto para a investigação matemática como para dar continuidade ao desenvolvimento do pensamento computacional, iniciado na etapa anterior.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

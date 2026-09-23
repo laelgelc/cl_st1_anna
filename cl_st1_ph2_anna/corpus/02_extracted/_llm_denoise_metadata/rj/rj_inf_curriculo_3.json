@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a2d26d33665e573006ab30aa40d4887d290a73d39834a182e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 796,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 756,
+      "output_tokens_details": {
+        "reasoning_tokens": 56
+      },
+      "total_tokens": 1552
+    }
+  },
+  "created_at": "2026-09-22T23:09:29Z",
+  "duration_seconds": 5.648,
+  "error": null,
+  "excerpt_id": "rj_inf_curriculo_3",
+  "filename": "rj_inf_curriculo_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bbd6da6348a5496964bb5d4a349fb50d16f7a2d63191b7942b2b74365e5b93d2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3cc460621f7dab776cb9ea3137739fda7716599307488aaa9a0abeb54992696d",
+    "rendered_prompt_sha256": "124eeb08e0c9c5f27ac25c941b743d7b4a2a22e709f4d6a39c89c192529d01e2",
+    "source_text_sha256": "586f41770c4fda1a87656b0a8536642b0fa02bc5479195aae58bad0b1f8474c8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_curriculo_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2915,
+    "filename": "rj_inf_curriculo_3.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_curriculo_3.txt",
+    "state": "rj",
+    "word_count_original": 525
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_curriculo_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_curriculo_3.json"
+  },
+  "raw_response_text": "Essa definição de currículo foge de versões já superadas, tais como conceber listas de conteúdos obrigatórios, ou disciplinas estanques; ou pensar que na Educação Infantil não há necessidade de qualquer planejamento de atividades, pois esta seria regida por um calendário voltado para a comemoração de determinadas datas, sem uma avaliação do sentido e do valor formativo destas; e se basear na ideia de que o saber do senso comum é o que será tratado com as crianças pequenas.\n\nO Brasil possui uma pluralidade de valores culturais, religiosos e econômicos, e isso se reflete no calendário nacional, que possui uma série de datas comemorativas como homenagens. Antes de incluir qualquer atividade que aborde uma dessas datas, sejam elas cívicas, religiosas ou comerciais, além da reflexão sobre a relevância da atividade para o desenvolvimento infantil, é necessário que haja a preocupação com o respeito às diversidades culturais e religiosas das crianças.\n\nDependendo da forma como uma data é celebrada, ela pode ser pejorativa e discriminatória. Um exemplo é o Dia do Índio. Infelizmente, o que mais se vê é a reprodução automática de atividades que não condizem com a realidade e diversidade dos povos indígenas no Brasil, deixando-se de lado os verdadeiros valores dessas culturas para se confeccionar cocares e pinturas sem sentido.\n\nPara que as crianças possam participar desses eventos conferindo-lhes significado, a escola (creche e pré-escola) poderá promover encontros ou festividades, desde que com muita reflexão e criticidade, para que as crianças não sejam objeto de manipulação social. Dessa forma, a escola contribui para a afirmação de uma perspectiva cultural e permite a experiência das crianças na sua formação e identidade, compreendendo a sua forma de estar no mundo.\n\nDe acordo com Oliveira (2010), o debate sobre o currículo na Educação Infantil tem gerado muitas controvérsias entre os professores de creches e pré-escolas e outros educadores e profissionais afins. Além de tal debate incluir diferentes visões de criança, de família, e de funções da creche e da pré-escola, para muitos educadores e especialistas que trabalham na área, a Educação Infantil não deveria envolver-se com a questão de currículo. Esse termo, em geral, está associado à escolarização tal qual vivida no Ensino Fundamental e Médio e à ideia de disciplinas, de matérias escolares.\n\nNa Educação Infantil é de grande relevância oportunizar às crianças a criação e construção de seus próprios conhecimentos através de experiências, evitando-se atividades estéreis, estereotipadas, prontas, mecânicas e não reflexivas. Entretanto, isso não pode significar o desenvolvimento de práticas pedagógicas espontaneístas, sem intencionalidade. O cotidiano dessas unidades, enquanto contextos de vivência, experiências, aprendizagens e desenvolvimento, requer a organização de diversos aspectos: os tempos de realização das atividades (ocasião, frequência, duração); os espaços em que essas atividades transcorrem (o que inclui a estruturação dos espaços internos e externos, de modo a favorecer as interações infantis na exploração que fazem do mundo); os materiais disponíveis; e, em especial, as maneiras como o professor exerce seu papel (organizando o ambiente, ouvindo as crianças, respondendo-lhes de determinada maneira, oferecendo-lhes materiais, sugestões, apoio emocional ou promovendo condições para a ocorrência de valiosas interações e brincadeiras criadas pelas crianças, etc.).",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

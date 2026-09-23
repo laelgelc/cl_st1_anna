@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_084c6157f723bb13006ab2fdc3785487d297752874315095d0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1529,
+      "input_tokens_details": {
+        "cache_write_tokens": 1526,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1466,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 2995
+    }
+  },
+  "created_at": "2026-09-22T22:14:37Z",
+  "duration_seconds": 10.182,
+  "error": null,
+  "excerpt_id": "am_inf_8",
+  "filename": "am_inf_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9271ed1335a85f61c308ed6338cba2f6ed83d48a772195da451d300532015565",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e0b64b410bed8aff6d4b35b8e877c5c22f05cb8b3f953f4b1243faaed6388839",
+    "rendered_prompt_sha256": "e75d63c2a7304fc78e7724c5fcfe21d11f2884ffe70124b30cca7aab1ff96ad7",
+    "source_text_sha256": "812e80913533ea92e2f05b470ab75f977a90d64ea407b9e1d39a2badad69162d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 456,
+    "filename": "am_inf_8.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_8.txt",
+    "state": "am",
+    "word_count_original": 952
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_8.json"
+  },
+  "raw_response_text": "## 4. Princípios éticos, políticos e estéticos na Educação Infantil\n\nRatificando o princípio da integralidade na primeira etapa da Educação Básica previsto na LDBEN n.º 9.396/94, as DCNEI (BRASIL, 2009b) estabelecem que a proposta pedagógica das instituições de Educação Infantil deve ter como objetivo principal promover o desenvolvimento integral das crianças de zero a cinco anos de idade, garantindo a cada uma delas o acesso a processos de construção de conhecimentos e a aprendizagem de diferentes linguagens, assim como o direito à proteção, à saúde, à liberdade, ao respeito, à dignidade, à brincadeira, à convivência e interação com outras crianças.\n\nPara a garantia da construção desses conhecimentos e aprendizagens, as DCNEI (BRASIL, 2009) estabelecem no Art. 6.º que a Educação Infantil deve embasar-se nos três princípios que devem guiar o projeto pedagógico da unidade de Educação Infantil:\n\n- Éticos (autonomia, responsabilidade, solidariedade, respeito ao bem-comum, ao meio ambiente e às diferentes culturas, identidades e singularidades);\n- Políticos (direitos de cidadania, exercício da criticidade, respeito à ordem democrática);\n- Estéticos (sensibilidade, criatividade, ludicidade, liberdade de expressão nas diferentes manifestações artísticas e culturais).\n\nFrente ao que institui a legislação, a Educação Infantil assume um importante papel na formação humana. Isto se concretiza nas experiências que a criança vivencia desde os primeiros momentos em que acessa a instituição. Os professores desempenham uma função ativa na formação da criança, pois tais conhecimentos se incidem sobre as vivências, costumes e regras sociais, vividas pelas crianças nas relações diárias por meio das atividades, ações, posturas, atitudes e valores aos quais a escola acredita e constrói coletivamente em suas práticas educativas. O documento Currículo em Movimento, produzido em parceria por pesquisadores e Ministério da Educação, que tratou especificamente sobre o currículo a partir das DCNEI e discutido por Oliveira (2010), aponta que, de acordo com os princípios éticos, cabe às instituições de Educação Infantil:\n\n- Valorizar suas produções, individuais e coletivas;\n- Apoiar a conquista pelas crianças de autonomia na escolha de brincadeiras e de atividades e para a realização de cuidados pessoais diários;\n- Proporcionar às crianças oportunidades para:\n  - ampliar as possibilidades de aprendizado e de compreensão de mundo e de si próprias trazidas por diferentes tradições culturais;\n  - construir atitudes de respeito e solidariedade, fortalecendo a autoestima e os vínculos afetivos de todas as crianças, combatendo preconceitos e discriminação que incidem sobre as diferentes formas dos seres humanos se constituírem como pessoas;\n  - aprender sobre o valor de cada pessoa e dos diferentes grupos culturais;\n  - adquirir valores como os da inviolabilidade da vida humana, a liberdade e a integridade individuais, a igualdade de direitos de todas as pessoas, assim como a solidariedade com grupos enfraquecidos e vulneráveis política e economicamente;\n  - o respeito à diversidade religiosa e cultural;\n  - respeitar todas as formas de vida, o cuidado de seres vivos e a preservação dos recursos naturais.\n\nPara tanto, educar as crianças para a cidadania, promovendo a compreensão dos direitos e deveres para que a convivência em sociedade seja democrática e vivenciada desde os primeiros contatos com o outro é o caminho que as instituições de Educação Infantil devem trilhar. Oliveira (2010) destaca que, para a concretização dos princípios políticos apontados para a área, a instituição deve analisar suas práticas educativas de modo a:\n\n- promover a formação participativa e crítica das crianças;\n- criar contextos que permitam às crianças a expressão de sentimentos, ideias, questionamentos, comprometidos com a busca do bem-estar coletivo e individual, com a preocupação com o outro e com a coletividade;\n- criar condições para que a criança aprenda a opinar e a considerar os sentimentos e a opinião dos outros sobre um acontecimento, uma reação afetiva, uma ideia, um conflito;\n- garantir uma experiência bem-sucedida de aprendizagem a todas as crianças, sem discriminação, e lhes proporcionar oportunidades para o alcance de conhecimentos básicos que são considerados aquisições valiosas para elas;\n\nA criança aprende nas interações e brincadeiras a partir de seus sentidos. Em tais atividades, a sensibilidade humana é desenvolvida por meio das experiências de fruição partilhadas pelas vivências com a cultura, que alimenta a imaginação e, por sua vez, constitui a base do ato criador. A respeito dos princípios estéticos, Oliveira (2010) destaca que o trabalho pedagógico na unidade de Educação Infantil, deve voltar-se para valorizar o ato criador e a construção pelas crianças de respostas singulares, garantindo-lhes a participação em diversificadas experiências. Para isso, é importante:\n\n- organizar um cotidiano de situações agradáveis, estimulantes, que desafiem o que cada criança e seu grupo de crianças já sabem, sem ameaçar sua autoestima nem promover competitividade;\n- ampliar as possibilidades da criança de cuidar e ser cuidada, de se expressar, comunicar e criar, de organizar pensamentos e ideias, de conviver, brincar e trabalhar em grupo, de ter iniciativa e buscar soluções para os problemas e conflitos que se apresentam às mais diferentes idades;\n- a oportunidade de apreciação de suas próprias produções e a exposição a adultos e outras crianças;\n- possibilitar às crianças apropriar-se de diferentes linguagens e saberes que circulam em nossa sociedade, selecionados pelo valor formativo que possuem em relação aos objetivos definidos em seu projeto político pedagógico.\n\nÀ medida que a criança é oportunizada a expressar-se por meio das múltiplas linguagens – gestual, corporal, plástica, verbal, musical, escrita, midiática, entre outras, os princípios éticos, políticos e estéticos são garantidos. A garantia destes princípios se efetiva pelo garantia dos direitos de aprendizagem e desenvolvimento. Práticas pensadas para a criança conviver, brincar, participar, explorar, expressar e conhecer-se oferece à criança a garantia do direito de ser, de desenvolver sua imaginação, de ser cuidada, de criar e observar, apropriando-se daquilo de mais elaborado que a humanidade já produziu.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

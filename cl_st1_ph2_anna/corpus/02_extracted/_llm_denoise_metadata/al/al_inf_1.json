@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_037d614831ba5913006ab2fce767a087d2b03c4221d7538f31",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 557,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 613,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 1170
+    }
+  },
+  "created_at": "2026-09-22T22:10:52Z",
+  "duration_seconds": 5.262,
+  "error": null,
+  "excerpt_id": "al_inf_1",
+  "filename": "al_inf_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7fad89d65c6fc5c5ad5359ef6313144ed30a9a199259073f50232da411021699",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3e0e76a42b1ed53dc3e4cc0e4ee272d6df26f44b5a18ecf81f25178a16a26784",
+    "rendered_prompt_sha256": "013a2a02dfe44e28d2507e355b3500bd7dee71b3f28537568309ed50d8d0304c",
+    "source_text_sha256": "58caec44c2b66671893274a67f2faf386df22b92eb2878cf31e0ac4e642558cf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_inf_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 287,
+    "filename": "al_inf_1.txt",
+    "filepath": "corpus/00_source_per_state/al/al_inf_1.txt",
+    "state": "al",
+    "word_count_original": 288
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_inf_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_inf_1.json"
+  },
+  "raw_response_text": "À COMUNIDADE ESCOLAR\n\nA Secretaria de Estado da Educação apresenta às Comunidades Escolares das 13 Regionais de Educação de Alagoas e seus 102 municípios, o REFERENCIAL CURRICULAR DE ALAGOAS.\n\nO Referencial Curricular de Alagoas é um documento para todo território alagoano, construído democraticamente, com participação dos alagoanos, mas principalmente, professores e instituições de ensino de Alagoas.\n\nO Referencial Curricular de Alagoas nasceu de um processo com inúmeras intervenções e contribuições dos mais variados colaboradores, BNCC e os referenciais estadual e municipais, além de pesquisas, consultas públicas, seminários, grupos de trabalhos, visitas técnicas, leituras críticas por especialistas, oficinas, debates, audiências públicas etc.\n\nTodo o trabalho de (re)elaboração do Referencial Curricular de Alagoas contou com uma equipe de técnicos e especialistas: coordenadores, redatores, articuladores da SEDUC, da UNDIME, UNCME e CEE.\n\nEste documento contempla competências e habilidades essenciais em todo território brasileiro, por meio da Base Nacional Comum Curricular da Educação Infantil e Ensino Fundamental, bem como as experiências das pessoas que vivem, aprendem e ensinam no território alagoano.\n\nO Referencial Curricular de Alagoas propõe que a educação escolar alagoana deva organizar a formação e desenvolver as potencialidades de todos os envolvidos nos processos de ensino e de aprendizagem.\n\nCrianças e estudantes, em suas diversidades, valorizadas em seu território, aprenderão e ampliarão os saberes historicamente construídos pela humanidade e pelo povo alagoano.\n\nA Escola, em seu papel transformador, precisa promover uma Aprendizagem Significativa, considerando a variedade de interfaces que o Ensino do conhecimento escolar realiza, por meio da inovação, da contextualização, da interdisciplinaridade, da pesquisa e dos letramentos.\n\nProfa. Dra. Laura Cristiane de Souza  \nSecretária de Estado da Educação de",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

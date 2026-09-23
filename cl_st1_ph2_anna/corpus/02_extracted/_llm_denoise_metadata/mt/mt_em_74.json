@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0822c207afd10e13006ab3051fe97887d2bc5a9547dda2dc91",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 931,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1291,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2222
+    }
+  },
+  "created_at": "2026-09-22T22:46:02Z",
+  "duration_seconds": 10.981,
+  "error": null,
+  "excerpt_id": "mt_em_74",
+  "filename": "mt_em_74.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e821a6f0c2cf2054a2413502170a1dd5067edfece88593f84cd37d02dd509b9c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e3116fe2bb33d694be932cc2a62ca825c71ec66f366935fbe58aa879084593be",
+    "rendered_prompt_sha256": "8f3a9ec2bfae57b7843cb8ac9a777221610b2a59118a60a377589ad31cdc3ee0",
+    "source_text_sha256": "43194ed4c2209de4287bf05c9ef8aac0a0f834bc194da1215c9333d43e0f81f1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_74.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1970,
+    "filename": "mt_em_74.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_74.txt",
+    "state": "mt",
+    "word_count_original": 490
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_74.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_74.json"
+  },
+  "raw_response_text": "## 10.5 Arquitetura Ensino Médio de Tempo Integral\n\nA oferta de Educação em Tempo Integral no Estado de Mato Grosso, de acordo com as Políticas Públicas de Educação Básica e, em especial, com a aprovação do Plano Nacional de Educação 2014–2024 – PNE, tem como objetivo repensar a prática pedagógica, a organização curricular e redimensionar o tempo e os espaços escolares no sentido de estabelecer uma Política Educacional voltada à ampliação de oportunidades de aprendizagens, em consonância com a Lei nº 13.415/2017, que estabelece mudanças na estrutura curricular, que deverão contemplar a Base Nacional Comum Curricular (BNCC) e os Itinerários Formativos, buscando fortalecer o protagonismo estudantil e o projeto de vida dos estudantes.\n\nA oferta do Ensino Médio em Tempo Integral no Estado, antes da reforma do Ensino Médio, desempenhava carga horária anual de mil e seiscentas horas (1.600 h), totalizando ao final dos três anos quatro mil e oitocentas horas (4.800 h), conforme demonstrado no quadro abaixo.\n\n## 10.6 Ementa para Trilhas de Aprofundamento e Eletivas\n\nConsiderando a autonomia da unidade escolar em realizar, de acordo com seu contexto, proposições de Trilhas de Aprofundamento e de Eletivas, apresentamos, a seguir, ementa para a sua composição.\n\nVale ressaltar que, para a elaboração das propostas de Trilhas de Aprofundamento e/ou Eletivas, devem-se considerar a arquitetura curricular e os conceitos apresentados nesse documento, além dos aspectos relacionados aos eixos estruturantes.\n\n### Ementa⁵⁰ para Trilha de Aprofundamento em Área do Conhecimento\n\n1. **Nome da Trilha de Aprofundamento:** escolham um nome que motive a escolha dos estudantes.\n2. **Área(s) do Conhecimento:** indiquem se o Itinerário Formativo terá como foco uma única área ou se será um Itinerário Integrado.\n3. **Habilidades:** registrem as habilidades gerais e específicas que serão desenvolvidas, conforme determinado pelo MEC nos Referenciais Curriculares para Elaboração de Itinerários Formativos.\n4. **Unidade curricular:** nesse tópico, deve ser explanado o que será contemplado na trilha e quais serão as unidades curriculares.\n5.\n\n| Eixo estruturante | Habilidades específicas do eixo | Objetos de conhecimentos que serão mobilizados | Práticas sugeridas |\n|---|---|---|---|\n|  |  | Indiquem os principais conhecimentos a serem ampliados e/ou aprofundados no Itinerário. | Construam a sequência das situações ou atividades educativas a serem realizadas. |\n\n50. Elaborada coletivamente pelos Articuladores de Itinerários Formativos das 27 Secretarias de Educação presentes no 1º Encontro de Formação da Frente de Currículo e Novo Ensino Médio do Consed, realizado em junho de 2019, adequada pela equipe do ProBNCC- etapa Ensino Médio-MT.\n\n51. Elaborada coletivamente por representantes dos 27 Secretarias de Educação presentes em Encontro de Formação da Frente de Currículo e Novo Ensino Médio do Consed, adequada pela equipe do ProBNCC- etapa Ensino Médio-MT.\n\n**Nome da Eletiva:** escolham um nome que motive a escolha dos estudantes.\n\n**Área do conhecimento:** indiquem se a Eletiva terá como foco uma única área ou se será integrada.\n\n**Turmas:** indiquem as turmas envolvidas.\n\n**Professores:** indiquem quais professores devem participar.\n\n**Introdução:** definam a proposta.\n\n**Justificativa:** discorram sobre as possibilidades da proposta.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

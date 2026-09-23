@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ff58b699cf1481d006ab3070ab8e487d2a0a12d1843013a04",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1822,
+      "input_tokens_details": {
+        "cache_write_tokens": 1819,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2027,
+      "output_tokens_details": {
+        "reasoning_tokens": 303
+      },
+      "total_tokens": 3849
+    }
+  },
+  "created_at": "2026-09-22T22:54:20Z",
+  "duration_seconds": 17.652,
+  "error": null,
+  "excerpt_id": "pb_em_119",
+  "filename": "pb_em_119.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "230ee8ae4878a10912ef1f7a356dc39e2db4ecc7af31d14dc365c3ad569fc1b8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fcd588fd9789855da0b340fb67d39b7f617a77974782838bb38608b62cf5935d",
+    "rendered_prompt_sha256": "a1b1393beef06b37bcae4218fc2b55648731ccaf0810f8755d7737ddd475e9b0",
+    "source_text_sha256": "6db92d5bf3b0f478c7fc784aa238ab1cffd733020c2d2fb8ee4f7818db7292c6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_119.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2254,
+    "filename": "pb_em_119.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_119.txt",
+    "state": "pb",
+    "word_count_original": 1253
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_119.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_119.json"
+  },
+  "raw_response_text": "### 4.3.2 EXPERIÊNCIAS INTERNACIONAIS\n\nNo antigo contexto, existia uma percepção de que o curso técnico era uma etapa que não estimulava a continuidade, diferentemente do objetivo e da proposta deste currículo do Novo Ensino Médio, que apresenta várias formas de ingresso, desenvolvimento e continuidade, fortalecendo e promovendo a formação integrada ao curso técnico.\n\nHoje, no Brasil, o Ensino Médio Técnico é visto como uma alternativa à faculdade, ao ingresso no mercado de trabalho com mão de obra qualificada e ao empreendedorismo. Todas essas opções vêm sendo trabalhadas recentemente nas modalidades de educação técnica.\n\nApós estudos e busca de referências em todo o mundo, estão ampliando o conceito de formação profissional e criando caminhos que viabilizem a continuidade dos estudos de forma flexível, modular e que contemplem os aprendizados e experiências anteriores do estudante. Foram analisadas boas práticas de alguns países referência em educação profissional e, em alguns casos, serão apresentadas, levando em consideração critérios de inovação e representatividade.\n\nNa Alemanha, o estudante de ensino técnico inicia sua jornada escolhendo a empresa em que gostaria de estagiar, e o país compartilha com orgulho o engajamento das principais empresas do país em programas de ensino técnico. A conexão com o setor produtivo é muito importante para o aluno experimentar a prática do mercado in loco. Em alguns casos, as empresas parceiras são apresentadas junto ao currículo do curso.\n\nNa Coreia do Sul, as escolas técnicas são atualmente chamadas de “escolas especializadas”. O ensino secundário profissional prepara os estudantes para ingressarem no mercado de trabalho como trabalhadores qualificados, bem como para a educação continuada. O currículo é dividido em um componente de educação geral de cerca de 32%. Cerca de 42% são estudos vocacionais, com o restante dedicado a outras atividades de aprendizado, que podem incluir estágios industriais. O governo da Coreia do Sul tomou iniciativas para melhorar a percepção da formação profissional e combater o estigma negativo associado ao trabalho manual e técnico. Além disso, os cursos vocacionais foram integrados a fluxos acadêmicos para permitir uma transição perfeita para as universidades, a fim de permitir um maior avanço se um jovem sul-coreano optar por seguir o ensino superior.\n\n### 4.4 CONDIÇÕES NECESSÁRIAS PARA A IMPLEMENTAÇÃO\n\n#### 4.4.1 ESTUDO DE VIABILIDADE LOCAL\n\nO estudo e levantamento dos Arranjos Produtivos Locais (APL) têm por objetivo propor uma articulação e diálogo entre escolas e setor produtivo no processo de ensino e aprendizagem na educação profissional, oportunizando à comunidade escolar conhecer e entender o funcionamento da cadeia produtiva de sua região, aproximando os estudantes de sua realidade.\n\nHaja vista que o conceito de currículo vai além das aulas tradicionais, o contexto dos arranjos produtivos se agrega com as vocações sociais, culturais e econômicas locais, tendo como referencial o reconhecimento das competências adquiridas nas diferentes situações.\n\nDiferentes variáveis são necessárias para o estudo da viabilidade local, entre elas estão: levantamento da demanda estudantil; infraestrutura escolar; levantamento de movimentação do setor produtivo e demandas de empregabilidade; levantamento de profissionais capacitados para sala de aula técnica e laboratórios.\n\nPara que uma escola técnica atenda aos princípios educacionais gerais e específicos, ela deve estar em sintonia com as demandas da sociedade em geral e, em especial, do mercado de trabalho, que é dinâmico quanto às exigências do perfil desejado dos seus egressos. Isso é possível com a realização de pesquisas periódicas, elaboradas pela própria escola, que possam identificar os atributos valorizados pelos setores produtivos afins aos cursos oferecidos.\n\nCabe destacar que a legislação referente à educação profissional é uma importante inovação, com a presença de princípios específicos que permitem flexibilizar e atualizar a organização de currículos, concedendo às escolas autonomia inclusive para propor novos cursos ao se levar em conta as demandas locais e regionais. Daí a necessidade de se implantarem mecanismos permanentes de consulta a fim de avaliar os atributos valorizados pelo mercado de trabalho, por isso a importância do diálogo com a comunidade e o contexto local.\n\n#### 4.4.2 ANÁLISE DA VIABILIDADE DE PARCERIAS\n\nAs redes de ensino, considerando suas autonomias, poderão implementar os Itinerários de Formação Profissional e Técnica a partir de parcerias com outras instituições de formação profissional. Para a implementação dessas parcerias, faz-se imprescindível que a escola estabeleça um diálogo e que sejam analisadas as competências e habilidades a serem integradas no plano formativo do parceiro, uma vez que deverá estar integrado ao processo de formação previsto no contexto do Novo Ensino Médio, considerando os componentes curriculares de Projeto de Vida e de Formação para o Mundo do Trabalho.\n\n#### 4.4.3 FORMAÇÃO INICIAL E CONTINUADA COM A EQUIPE ESCOLAR\n\nA Formação Profissional e Técnica tem o propósito de formar cidadãos mais críticos, reflexivos, com o objetivo de uma formação multidimensional para o mundo do trabalho. Diante da complexidade dessa formação, pressupõe-se a necessidade do desenvolvimento de Formação Inicial e Continuada para os profissionais com o interesse de ampliar e potencializar os conhecimentos.\n\nDevem-se fortalecer, na Formação Inicial, implementada pelas instituições de ensino superior, os desdobramentos do que diz respeito ao Novo Ensino Médio, focado no desenvolvimento e na aplicação dos Itinerários Formativos com ênfase no Itinerário de Educação Profissional e Técnica.\n\nEm sequência, a Formação Continuada, desenvolvida pelas redes de ensino, irá ancorar os conhecimentos acerca dos processos de implementação do itinerário formativo de Educação Profissional e Técnica à luz da Base Nacional Comum Curricular do Ensino Médio, apoiada nos documentos legais e orientadores. Além da construção de possibilidades de trajetórias, levantando os próximos passos para o processo de arquitetura de oferta e desenvolvimento da Educação Profissional.\n\nA Formação para o Mundo do Trabalho também deverá ser contemplada nesse processo de Formação Continuada, visando ao fortalecimento das Disciplinas Empreendedoras e dos outros componentes curriculares, com o objetivo de nivelar os processos de ensino-aprendizagem dentro das Redes. O foco das formações continuadas é o aprofundamento de avaliação, de novas metodologias e de trabalho pautados em competências e habilidades, trabalhando esses pontos principalmente dentro da articulação curricular entre formação geral básica e formação técnica.\n\nAs formações devem ser bem estruturadas, permitir que os participantes vivenciem o processo e coloquem a “mão na massa”. Essa metodologia facilita a aplicabilidade e o entendimento do processo. Para isso, devem ser realizadas formações gerais e formações específicas. Nas formações gerais, é importante que estejam presentes todos os atores do processo de ensino (coordenações, Base Comum e Área Técnica), visto que o passo a passo da implantação e do funcionamento precisa estar claro para todos os envolvidos.\n\nDessa forma, devem-se trabalhar a apresentação e a apropriação do novo modelo de currículo por parte da equipe. Seguem sugestões de conteúdos e temáticas importantes para as formações gerais e continuadas:\n\n- Desenho da formação: o porquê da formação, apresentação geral dos parâmetros, quais objetivos, prazos;\n- Novo Ensino Médio;\n- BNCC: o que é, importância, onde encontrar;\n- Novo Currículo (relevância, objetivos, arquitetura);\n- Itinerários Formativos (Eixos Estruturantes + Disciplinas Empreendedoras);\n- Compreensão de contexto/indicadores sociais e econômicos;\n- Resolução de problemas reais;\n- Educação Financeira;\n- Metodologias Ativas na Educação;\n- Competências gerais para o mundo do trabalho;\n- Competências e Habilidades: conceito e construção;\n- Articulação Curricular (planejamento, instrumentos de articulação, indicadores de monitoramento);\n- Ferramentas digitais para o ensino e aprendizagem;\n- Práticas experimentais das disciplinas empreendedoras (ISC, IC e EP);\n- Avaliação (novas perspectivas).\n\nNas formações específicas dos módulos, é importante trabalhar a parte de planejamento do componente, instrumentos de aplicação, avaliação, instrumentos e indicadores de monitoramento, ferramentas digitais e metodologias ativas para auxiliar no processo de ensino e aprendizagem.\n\nDurante todo esse processo formativo, a Secretaria de Educação do Estado estará disponível para apoiar e auxiliar no entendimento e elaboração dos procedimentos de implantação.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

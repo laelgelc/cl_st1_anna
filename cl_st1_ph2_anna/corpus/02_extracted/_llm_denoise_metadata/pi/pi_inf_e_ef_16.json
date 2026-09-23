@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e3b00c55adf6c50006ab30904591087d29c74ddd4b17e6bbf",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 554,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 485,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 1039
+    }
+  },
+  "created_at": "2026-09-22T23:02:32Z",
+  "duration_seconds": 4.408,
+  "error": null,
+  "excerpt_id": "pi_inf_e_ef_16",
+  "filename": "pi_inf_e_ef_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "38872120df795b9eb29f5acde485b2fb0f28f81f9d78e4ddd20e1f37c4a4aec5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "64091b80083329df0cc85794b86d26805767f28a29c125099aa03243695853e0",
+    "rendered_prompt_sha256": "627be3a9e7c8e4c07e24e19ea42ae8f7e5ce344346b92ef0a79da774df2c4906",
+    "source_text_sha256": "f734bfeaab67c6b00dbf7780aedc9a2f40a7b0050f6680f70d2c100859dae119"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_inf_e_ef_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2660,
+    "filename": "pi_inf_e_ef_16.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_inf_e_ef_16.txt",
+    "state": "pi",
+    "word_count_original": 327
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_inf_e_ef_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_inf_e_ef_16.json"
+  },
+  "raw_response_text": "### 3.3 Regime de colaboração\n\nConsiderando a necessidade de aprimorar a articulação entre as redes de ensino, no que se refere ao fortalecimento das políticas de formação e um regime de colaboração no âmbito da formação continuada de professores, deve-se considerar:\n\n- A elaboração de diagnósticos frequentes das necessidades de formação dos professores de todas as redes de ensino, com levantamento de indicadores e mapeamento das demandas dos docentes;\n- A definição de diretrizes e temáticas importantes para programas/projetos de formação continuada em todo o Piauí.\n\n### 3.4 Monitoramento e avaliação\n\nPara que se obtenham os resultados esperados, é importante que haja um constante monitoramento e avaliação da formação, devendo considerar:\n\n- A construção de um plano de monitoramento e avaliação da política como pilar estruturante dos programas de formação continuada, e não como uma ação a ser pensada apenas após a implementação desses programas;\n- A importância de se reconhecer os mecanismos de monitoramento e avaliação como ferramenta de análise dos resultados durante o processo de implementação de uma política de formação, possibilitando, assim, ajustes contínuos desses mecanismos.\n\nDiante do exposto, é válido salientar que a Secretaria de Educação já adota uma política de formação de professores que contempla os pilares descritos acima, o que implica em dizer que, seja de forma presencial em um Centro de formação, no “chão” da escola de atuação dos professores e/ou por meio da modalidade EAD, a formação de professores já é uma realidade do território piauiense, o que muito facilitará o processo de implantação deste Currículo.\n\nMediante essa realidade, reitera-se que o currículo não se finaliza neste documento, pois os sistemas de ensino, redes e escolas irão discutir e elaborar suas propostas pedagógicas e seus currículos. Lembrando que a proposta pedagógica tem papel complementar que assegura a autonomia das instituições de ensino e garante que as aprendizagens essenciais se consolidem mediante de um conjunto de ações pedagógicas que serão utilizadas para adequação destas orientações à realidade local.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

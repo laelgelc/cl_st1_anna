@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d060fa35a87312a006ab30770881887d292075ed5276ca5c4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 743,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 849,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 1592
+    }
+  },
+  "created_at": "2026-09-22T22:55:51Z",
+  "duration_seconds": 6.957,
+  "error": null,
+  "excerpt_id": "pb_em_78",
+  "filename": "pb_em_78.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "40b1c82148f547fa4cd008d15001475c4e92d6b3d17223f581badc56dcd917ad",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "22da9d31eb4406fc570e60b90be015450f98b73f5d9c2bcb4d529261b2eecedd",
+    "rendered_prompt_sha256": "7a77fdffb2c2ca750ba610d5eed934a6da92a289c0c4635d6bddf045c464fc49",
+    "source_text_sha256": "c06f0b14419251176e0f8236307019306a45804e1a4c3b8a934728468abad7b4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_78.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2328,
+    "filename": "pb_em_78.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_78.txt",
+    "state": "pb",
+    "word_count_original": 445
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_78.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_78.json"
+  },
+  "raw_response_text": "## 2.4.3 COMPETÊNCIAS ESPECÍFICAS POR ÁREA[^27]\n\nÉ importante destacar que a BNCC indica que o ensino seja voltado para as competências a serem desenvolvidas e que geram algumas habilidades essenciais para uma aprendizagem de forma significativa, mas que mesmo sendo um documento normativo, fica a critério do professor, da escola e dos sistemas de ensino, ampliar os objetivos de aprendizagem a modo que possam adequar melhor a sua realidade. As competências por área, também estão estritamente relacionadas com as dez competências gerais para toda a educação básica orientadas na BNCC. Lembrando que essas competências devem promover também diversas possibilidades de escolhas para os estudantes para além do Ensino Médio.\n\nNa área de Ciências Humanas e Sociais Aplicadas, a BNCC lista seis competências específicas, são elas:\n\n**Competência 1:** Analisar processos políticos, econômicos, sociais, ambientais e culturais nos âmbitos local, regional, nacional e mundial em diferentes tempos, a partir da pluralidade de procedimentos epistemológicos, científicos e tecnológicos, de modo a compreender e posicionar-se criticamente em relação a eles, considerando diferentes pontos de vista e tomando decisões baseadas em argumentos e fontes de natureza científica.\n\n**Competência 2:** Analisar a formação de territórios e fronteiras em diferentes tempos e espaços, mediante a compreensão das relações de poder que determinam as territorialidades e o papel geopolítico dos Estados-nações.\n\n**Competência 3:** Analisar e avaliar criticamente as relações de diferentes grupos, povos e sociedades com a natureza (produção, distribuição e consumo) e seus impactos econômicos e socioambientais, com vistas à proposição de alternativas que respeitem e promovam a consciência, a ética socioambiental e o consumo responsável em âmbito local, regional, nacional e global.\n\n**Competência 4:** Analisar as relações de produção, capital e trabalho em diferentes territórios, contextos e culturas, discutindo o papel dessas relações na construção, consolidação e transformação das sociedades.\n\n**Competência 5:** Identificar e posicionar-se sobre as diversas formas de injustiça, preconceito e violência, fundamentado em princípios éticos, democráticos, inclusivos e solidários, e respeitando os Direitos Humanos.\n\n**Competência 6:** Participar do debate público de forma crítica, respeitando diferentes posições e fazendo escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.\n\n## 2.4.4 HABILIDADES ESPECÍFICAS POR ÁREA\n\nDiante das competências já mencionadas acima, destacamos as habilidades correspondentes à área de Ciências Humanas e Sociais Aplicadas. Sabe-se que essas habilidades estimulam os estudantes a desenvolver soluções críticas e criativas para as demandas do dia a dia. Para cada competência, há diversas habilidades que seguem:\n\n[^27]: Para todas as competências e habilidades dos componentes da Área de Ciência Humanas e Sociais Aplicadas, utilizamos: BRASIL. MINISTÉRIO DA EDUCAÇÃO. Base Nacional Curricular Comum (BNCC) de dezembro de 2018.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

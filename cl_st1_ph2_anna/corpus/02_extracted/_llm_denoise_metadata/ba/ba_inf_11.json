@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f901f5e31f06877006ab2feeec59c87d2ae31a58eb4794dcc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 579,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 632,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 1211
+    }
+  },
+  "created_at": "2026-09-22T22:19:32Z",
+  "duration_seconds": 5.348,
+  "error": null,
+  "excerpt_id": "ba_inf_11",
+  "filename": "ba_inf_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a6be11e7b63e8d359fd0b708fe281c80a3913f6a15af1770cf9432664dfa14e1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "019006ad4465412ad37b16295f4dad382365d57abd613d4c9493d5451a57ee2d",
+    "rendered_prompt_sha256": "5d772063aac2d0a607fee5a738179feec7fb26dd3643496ea4bd832450fa2768",
+    "source_text_sha256": "661362d006f6c2494062d385939f4648da3d50fbf2376f6091eb78ad410ed86d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_inf_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 693,
+    "filename": "ba_inf_11.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_inf_11.txt",
+    "state": "ba",
+    "word_count_original": 343
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_inf_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_inf_11.json"
+  },
+  "raw_response_text": "### 7.11. Organizador Curricular\n\nNo âmbito da organização curricular, a partir da lógica de uma Base Curricular Nacional, é importante destacar que seu objetivo não visa definir o currículo da escola, tem como premissa subsidiar propostas pedagógicas da escola sob a condição de estas serem frutos de uma construção coletiva que considere a participação da comunidade educacional e, nesse contexto, possa articular participação das famílias e da comunidade no sentido de garantia dos direitos da criança. Na Educação Infantil, primeira etapa da Educação Básica, o Organizador Curricular tem como pressuposto articular os princípios preconizados pelas Diretrizes Curriculares Nacionais da Educação Infantil aos Campos de Experiências, ao processo de desenvolvimento da aprendizagem e à formação integral da criança.\n\nRespeitando e considerando a organização do trabalho pedagógico na realidade das escolas nos diversos territórios do Estado da Bahia, planejamentos e propostas pedagógicas desenvolvidas nas unidades escolares de Educação Infantil, o organizador curricular apresentado neste documento segue a periodização por faixa etária: 0-1 a 6m/ 1a7m a 3a11m/ 4a a 5a11m. Contudo, essa divisão não representa uma estrutura fixa e estática do desenvolvimento da criança; é uma divisão que se aproxima das atividades pedagógicas no contexto do cotidiano escolar.\n\nO organizador curricular é um dispositivo de referência que permite enxergar a criança enquanto sujeito histórico que, por meio dos campos de experiências, cria e recria suas vivências, desenvolve suas competências e constrói sentidos sobre o mundo à sua volta. Nesse sentido, o projeto pedagógico da escola deve ser construído por meio de um processo democrático que privilegie a participação dos professores, auxiliares, coordenadores, família e toda a comunidade escolar, que cuida dos meninos e meninas da Educação Infantil, educando-os. Nesse processo, é fundamental criar vínculos entre o conhecimento que os alunos já trazem de suas realidades com os conteúdos/saberes que ele deseja desenvolver. Importa compreender o organizador curricular como dispositivo de referência para construção de expectativas de aprendizagem e desenvolvimento da criança e para a ampliação do campo das orientações metodológicas.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

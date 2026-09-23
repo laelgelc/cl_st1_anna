@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00055731d2275a03006ab30fa37b3c87d28a292c9dc32d82c3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 774,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 789,
+      "output_tokens_details": {
+        "reasoning_tokens": 168
+      },
+      "total_tokens": 1563
+    }
+  },
+  "created_at": "2026-09-22T23:30:52Z",
+  "duration_seconds": 8.771,
+  "error": null,
+  "excerpt_id": "sp_em_23",
+  "filename": "sp_em_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "60543456a85ab6f87093e588375ad9198d9dc4b784c8bc1cc0a75f9bc49a8476",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f5a6fe564059d0ea9b871e9d38c98695c1f5bd09d361d2a381a686d37976422b",
+    "rendered_prompt_sha256": "e73b8c6eddf5fb8e45c0ee407cc23f8a9f99ed21092ea131a37fe7f1f454574b",
+    "source_text_sha256": "ace08b573ec9c9c2a6d905197ce21fa1d288b386bcb1373def8736e83ea14008"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3917,
+    "filename": "sp_em_23.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_23.txt",
+    "state": "sp",
+    "word_count_original": 445
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_23.json"
+  },
+  "raw_response_text": "# A transição da etapa do Ensino Fundamental para a etapa do Ensino Médio\n\nA continuidade dos estudos/aprendizagens é considerada o propulsor do desenvolvimento das competências necessárias para que o estudante se torne um cidadão pleno. Nesse sentido, não só os conhecimentos com os quais a escola trabalha podem mudar, como a vida de cada um apresentará novas ênfases e necessidades, que precisarão ser continuamente supridas. Preparar-se para acompanhar esse movimento torna-se o grande desafio das novas gerações.\n\nNa etapa referente ao Ensino Fundamental, especificamente para a área de Matemática, a BNCC propõe que:\n\n> O Ensino Fundamental deve ter compromisso com o desenvolvimento do letramento matemático, definido como as competências e habilidades de raciocinar, representar, comunicar e argumentar matematicamente, de modo a favorecer o estabelecimento de conjecturas, a formulação e a resolução de problemas em uma variedade de contextos, utilizando conceitos, procedimentos, fatos e ferramentas matemáticas. É também o letramento matemático que assegura aos estudantes reconhecer que os conhecimentos matemáticos são fundamentais para a compreensão e a atuação no mundo e perceber o caráter de jogo intelectual da matemática, como aspecto que favorece o desenvolvimento do raciocínio lógico e crítico, estimula a investigação e pode ser prazeroso (fruição). (BRASIL, 2017, p.266)\n\nO documento reitera ainda que o desenvolvimento das habilidades propostas para o letramento matemático enfatiza a importância dos processos matemáticos, tais como: a resolução de problemas, a investigação, o desenvolvimento de projetos e a modelagem, os quais podem ser considerados formas privilegiadas da atividade matemática.\n\nUm fator primordial que vale enfatizar é a parceria da Matemática com a língua materna, condição indispensável para uma expressão adequada e compreensiva, associadas à argumentação apropriada e ao contexto significativo dos objetos estudados para a elaboração e solução de situações-problema.\n\nCabe ressaltar que, segundo o Currículo do Estado de São Paulo (2012), quando não se dá a devida atenção a contextos, os conteúdos estudados desarticulam-se da condição de meios e passam a ser os fins das ações docentes. O documento acrescenta:\n\n> É fundamental, no entanto, que a valorização da contextualização seja equilibrada com o desenvolvimento de outra competência, igualmente valiosa: a capacidade de abstrair, de aprender relações que são válidas em múltiplos contextos e, sobretudo, a capacidade de imaginar situações fictícias, que não existem concretamente, ainda que possam vir a ser realizadas. (SÃO PAULO, 2012, p.30)\n\nPara que os propósitos sejam alcançados, é necessário que o estudante desenvolva habilidades relativas aos processos de investigação, construção de modelos e resolução de problemas, mobilizando o seu próprio modelo de raciocinar, representar, comunicar, argumentar e, com base em discussões e validações, entre seus pares, aprender conceitos e desenvolver representações e procedimentos cada vez mais sofisticados.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

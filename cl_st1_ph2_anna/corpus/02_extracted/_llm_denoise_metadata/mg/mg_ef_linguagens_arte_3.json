@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0189a391a2ea07dd006ab3029f6bb887d296d1d44c58a13477",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 620,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 593,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1213
+    }
+  },
+  "created_at": "2026-09-22T22:35:17Z",
+  "duration_seconds": 5.969,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_arte_3",
+  "filename": "mg_ef_linguagens_arte_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b47b5c79011e99004391d6bfbd3b1e89cac6cacade65d4017c05bac2312d5f68",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6f206659f72929cb12e292ef9bf3ab840e84e790968670fb66e06bcbe060ae22",
+    "rendered_prompt_sha256": "3103cfe66dc1cdc0a8efdc13402a542087d714ea75ca359dd203291c70b5541d",
+    "source_text_sha256": "4c346974b7a6869913d877abac1b1624c29e1dc626ff37fea69d0128c8415d03"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_arte_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1426,
+    "filename": "mg_ef_linguagens_arte_3.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_arte_3.txt",
+    "state": "mg",
+    "word_count_original": 390
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_arte_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_arte_3.json"
+  },
+  "raw_response_text": "### 6.2 Relação do componente curricular Arte com as concepções do Currículo Referência de Minas Gerais\n\nO ensino de arte deve levar em conta não apenas as dimensões específicas desse componente, mas a formação Integral e Integrada dos sujeitos. Essa formação leva em conta o desenvolvimento dos sujeitos em todas as dimensões porque reconhece as especificidades e abarca a diversidade. Os estudantes são reconhecidos como sujeitos de direito e por isso devemos garantir que todos tenham acesso às linguagens artísticas previstas na BNCC e pelo Currículo Referência de Minas Gerais.\n\nÉ preciso reconhecer a multidimensionalidade dos sujeitos e garantir uma educação de qualidade para todos. É necessário estar ciente que a área artística tem sua complexidade nas questões subjetivas e os estudantes se expressam de forma simbólica, por isso deve-se acolher e reconhecer os diversos saberes.\n\nÉ importante rever as trajetórias e criar estratégias para que os estudantes se sintam acolhidos e tenham a possibilidade de trilhar caminhos que dialoguem com as suas realidades e que seja possível experienciar atividades artísticas diversificadas.\n\nA educação Integral e Integrada defende a imersão no território em que a escola está inserida. É preciso identificar as várias manifestações culturais existentes e dialogar com os atores e agentes culturais desse território com as atividades desenvolvidas dentro e fora da sala de aula. As escolas devem valorizar tais manifestações, pois o território é considerado educativo.\n\nOutro aspecto relevante para a Educação Integral é a ampliação dos espaços escolares levando em conta o que a cidade tem para oferecer e contribuir, para construção do conhecimento dos sujeitos. O trabalho de campo, deve ser levado em conta também no componente curricular Arte e o professor deve ficar sempre atento ao que a sua comunidade tem para oferecer no universo das linguagens artísticas.\n\nO ensino não deve ser fragmentado. É necessária a construção de uma metodologia onde as habilidades sejam abordadas de forma integrada e interdisciplinar. É necessário um diálogo constante com o grupo de professores no objetivo de integrar os objetos de conhecimento da área artística e as demais áreas do conhecimento. O Projeto Político Pedagógico (PPP) da escola deve considerar e respeitar as competências do componente curricular Arte.\n\nFaz-se necessário ter clareza que os estudantes são produtores e consumidores artístico culturais e com isso devemos criar oportunidades, para que seja possível a realização dessas manifestações.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

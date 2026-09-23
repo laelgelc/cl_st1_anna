@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_028d327f7d8ac498006ab2ff31975c87d2923d51bccd742e61",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 768,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 799,
+      "output_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "total_tokens": 1567
+    }
+  },
+  "created_at": "2026-09-22T22:20:40Z",
+  "duration_seconds": 6.66,
+  "error": null,
+  "excerpt_id": "ce_ef_23",
+  "filename": "ce_ef_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1062cce42f946191510eb1636260df8a562bb04e182507b7ed8aab1d85d31597",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c5617a12fdfab22ccab9bf2915c74efc93380dc3176059d74457296f61f95322",
+    "rendered_prompt_sha256": "6977807cbf52b43c5708ee291aa4b1cbcc52eca737cae3edd2c93c6df26f7bbb",
+    "source_text_sha256": "801fe49ca14e8fc8143e9cfe9d82ca91e15a8a7109b67c5eb1e322807db7f942"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 742,
+    "filename": "ce_ef_23.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_23.txt",
+    "state": "ce",
+    "word_count_original": 512
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_23.json"
+  },
+  "raw_response_text": "A transição para os anos finais deve ser caracterizada por um aumento progressivo na habilidade de abstrair conceitos, analisar os fenômenos e identificar as transformações biológicas e sociais, além da habilidade de prever o impacto das decisões e atitudes tomadas pelo jovem que adentrará o Ensino Médio.\n\nNessa perspectiva, o componente curricular de Ciências foi organizado em três unidades temáticas que se repetem ao longo do Ensino Fundamental. Elas pretendem levar às/os estudantes a, continuamente, revisitar os saberes adquiridos durante o processo de educação formal: Matéria e Energia; Vida e Evolução, Terra e Universo.\n\nA unidade temática Matéria e Energia volta-se ao uso sustentável de diferentes formas de recursos materiais e energéticos, bem como à análise dos diferentes materiais e tipos de energia utilizados na vida moderna e suas transformações, com vistas à manutenção dos recursos naturais e ao equilíbrio ambiental.\n\nNos anos iniciais, esta unidade temática convida a estudante e o estudante a conhecer o meio no qual está inserido (casa, escola, cidade), a partir da interação com objetos específicos de aprendizagem relacionados aos recursos ambientais, tais como água, ar, solo e luz. Da mesma forma, apresenta a importância destes recursos, na produção de alimentos e de energia, e na manutenção da saúde em seu sentido amplo. Nos anos finais, às/os estudantes são convidados (as) a ampliar o olhar, traçando propostas e realizando intervenções para o uso sustentável dos recursos naturais em uma sociedade tecnológica.\n\nNa unidade temática Vida e Evolução, buscamos levar às/os estudantes a compreenderem-se integrantes da biosfera, a partir do estudo dos seres vivos e suas relações com o meio. Nesse sentido, são chamados a construir, ao longo do Ensino Fundamental, o conceito natural e social de saúde e bem-estar, considerando os processos evolutivos de diversificação da vida. Neste aspecto, os objetos curriculares apresentados às/os estudantes dos anos iniciais partem da percepção do corpo, da diversidade e da compreensão do entorno, para consolidar nos anos finais o entendimento do potencial antrópico para imprimir modificações ambientais, fomentando a tomada de decisões voltadas ao equilíbrio ambiental e à manutenção da saúde.\n\nEm Terra e Universo, ampliamos o estudo da Astronomia e dos processos de formação do universo, do Sistema Solar e da Terra, mediado pela construção de modelos e pela observação dos astros celestes. Nessa unidade temática, a experimentação permeia todo o Ensino Fundamental, buscando desenvolver o pensamento espacial, a partir da sistematização das percepções estudantis. Nos anos iniciais do Ensino Fundamental, os processos de aprendizagem estão centrados na investigação dos fenômenos celestes e, nos anos finais, enfatizam-se os processos que ocorrem na esfera terrestre com vistas ao desenvolvimento socioambiental sustentável.\n\nDestacamos que os objetos curriculares específicos do eixo de Ciências da Natureza propostos pelo DRCC, para cada etapa do Ensino Fundamental, se avolumam à medida em que às/os estudantes transitam nesta etapa da educação básica, de tal forma que nos anos finais, 249 objetos curriculares específicos mediam a consolidação das competências e habilidades nos estudantes e nas estudantes, tal como demonstra o Gráfico 01.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

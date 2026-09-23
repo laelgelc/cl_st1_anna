@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b69fbc6dc8851e9006ab3035a6c4c87d2a08f66270b1f4050",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 885,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 996,
+      "output_tokens_details": {
+        "reasoning_tokens": 267
+      },
+      "total_tokens": 1881
+    }
+  },
+  "created_at": "2026-09-22T22:38:40Z",
+  "duration_seconds": 22.3,
+  "error": null,
+  "excerpt_id": "mg_em_75",
+  "filename": "mg_em_75.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a598126a2b8da765e01ab00ac191adc8933b82ccfd70ecf96f65b734e17427fa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fb0e98f92bf566c1aef2ecc6bc863373d73737708d02076c7474957dc2f94b90",
+    "rendered_prompt_sha256": "0b5681058d75c1c9c00aeee8a24c55f8e107a265d836c4c78801081d2c5545d6",
+    "source_text_sha256": "8fbf2d32398c4d6dabcbc41c0aeecf92a9fc95b09f12064a5ec714432e0c679e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_75.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1609,
+    "filename": "mg_em_75.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_75.txt",
+    "state": "mg",
+    "word_count_original": 553
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_75.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_75.json"
+  },
+  "raw_response_text": "### 3.4.4 O Componente curricular da História\n\nA disciplina História se configura como componente curricular no Brasil durante o Período Imperial e início da República. Nesse contexto seus objetivos eram privilegiar os feitos e os heróis nacionais, além de formar culturalmente as elites. Os conteúdos estudados eram o culto aos símbolos da Pátria e o civismo. As transformações sociais, econômicas e políticas pelas quais passou o Brasil influenciaram a educação a partir do movimento Escola Nova iniciado na década de 1920. Ele trouxe ao componente curricular uma nova metodologia pautada na investigação, na crítica e no raciocínio lógico, que pretendia formar o estudante para ser um agente de seu conhecimento.\n\nSegundo Schmidt (2012)20, tratava-se de “um movimento inserido na dinâmica das articulações entre as instituições escolares e determinados projetos e propostas políticas”. Muitos historiadores tradicionais e positivistas acreditavam que a metodologia utilizada pelas Ciências Naturais deveria ser a mesma aplicada às Ciências Humanas. Entendiam que a História podia ter uma interpretação científica dos fatos, por este motivo seria “verdadeira” e totalmente isenta de abstrações. Desse modo as pesquisas nos documentos oficiais deveriam ser realizadas apenas dentro do campo da descrição, pois eles não podiam ser discutidos e muito menos analisados. Nessa lógica a História é contada a partir de uma estrutura política, privilegiando governos e governantes. Acreditavam que sociedade, assim como a natureza, era regida por leis naturais e não variáveis, de modo que a ação humana não seria capaz de modificá-la. O resultado dessa forma de pensar reacendeu o debate historiográfico, o que fez surgir novas tendências historiográficas buscando perceber possíveis transformações dentro das sociedades.\n\nEstas novas tendências acabaram por influenciar, a partir da década de 1980, a elaboração dos Parâmetros Curriculares Nacionais (BRASIL, 1998)21 em que apareceu uma nova concepção de ensino e aprendizagem que propiciasse maior interação dos estudantes com a realidade, ou seja, fazer com que os docentes pudessem associar conhecimento histórico com convívio social e familiar, festejos de caráter local, regional, nacional e mundial e os meios de comunicação, como a televisão, além de sua participação no mundo do trabalho e da memória que recria e interpreta o tempo e a História e agregam às suas vivências, informações, explicações e valores oferecidos na sala de aula. Em linhas gerais o “cotidiano” do estudante passou a ser como algo integrante do processo de ensino e aprendizagem, no que chamamos de contexto ou contextualização. Embora houvesse duas linhas de projetos reformistas na década de 1980 e 1990, – uma que priorizava uma perspectiva teórica e metodológica ligada à história dos movimentos sociais e do trabalho e outra, pautada nas inovações metodológicas como a história temática mais articulada a alguns autores da Escola dos Annales – o resultado foi a construção democrática, com participação de pesquisadores e historiadores.\n\nPode-se perceber que a história do Ensino de História é um constante processo em movimento, em contínua transformação e adaptação aos novos tempos. Este movimento contínuo torna indispensável a formação continuada dos professores não mais como agentes passivos desse processo, mas também como protagonistas da necessidade de adaptar e adequar às novas demandas do ensino. Não há como ensinar o estudante a ser protagonista, a ter autonomia e a construir seu projeto de vida, se o professor não for protagonista da construção do processo do Ensino do Componente Curricular.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

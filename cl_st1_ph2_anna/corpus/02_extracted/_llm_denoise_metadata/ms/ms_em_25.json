@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_062c1bc51ae32dad006ab303a630e087d2aebe1e7748833d14",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 736,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 597,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1333
+    }
+  },
+  "created_at": "2026-09-22T22:39:38Z",
+  "duration_seconds": 4.193,
+  "error": null,
+  "excerpt_id": "ms_em_25",
+  "filename": "ms_em_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b840f5d5eeb42c1b47c4c7c8a16b4392d380103e4470211f58a3c6cf2e053631",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7a6e97747d9b24c576beade135d51e357d2868212972bb868565785aacd28f16",
+    "rendered_prompt_sha256": "fbd52ef6b0bd101db76a571e0455fa68cf9a3f0d727a8a18ea30ab7916a04ac9",
+    "source_text_sha256": "001d1fc9692e9fa762da58c6d78b634926701fa553c234a5e418e91a61d7a849"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1689,
+    "filename": "ms_em_25.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_25.txt",
+    "state": "ms",
+    "word_count_original": 442
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_25.json"
+  },
+  "raw_response_text": "## 2.7.2 Avaliação Institucional\n\nA Avaliação Institucional é um instrumento de conhecimento do contexto e das necessidades da instituição escolar. É uma ferramenta de acompanhamento das atividades desenvolvidas em instituições de ensino, dentro de uma abordagem construtiva e dialógica. Deve ter sempre por princípio a melhoria contínua dos processos acadêmicos, a fim de instigar a instituição no seu percurso de crescimento e/ou consolidação. O exercício reflexivo de Avaliação Institucional tem o propósito de revelar as diferentes visões dos segmentos da escola e fomentar as ações desenvolvidas, as políticas que fundamentam as práticas gestoras e educativas e as inter-relações existentes para que sejam democráticas.\n\nNesse sentido, Afonso (2005) defende a Avaliação Institucional como uma forma de as instituições se conhecerem profundamente, pois as especificidades do contexto escolar tornam difícil conhecer sua organização apenas por informações advindas de avaliações padronizadas. A Avaliação Institucional é um processo planejado e, necessariamente, possui uma coerência interna que possibilita a articulação das informações levantadas, por meio de metodologias que permitam a cada instituição conhecer e avaliar o seu desempenho quantitativo e qualitativo. Essa avaliação ocorre de duas formas:\n\n- **Avaliação Institucional Interna:** é o momento em que a própria instituição volta-se para o levantamento da sua realidade, utilizando metodologias e instrumentos que possibilitem uma análise abrangente e profunda sobre a sua estrutura institucional; e\n- **Avaliação Institucional Externa:** é o processo realizado pela mantenedora, com olhar externo para a organização, ações e condições das unidades escolares.\n\nEm Mato Grosso do Sul, a Secretaria de Estado de Educação – SED implantou em 2001 a Avaliação Institucional Externa de Mato Grosso do Sul – AIEMS, em parceria com o Conselho Estadual de Educação, com base nas legislações nacional (a Constituição Federal, de 1988 e a Lei de Diretrizes e Bases da Educação, de 1996) e estadual (Lei de Sistema Estadual de Ensino de Mato Grosso do Sul, de 2003 e Deliberações do Conselho Estadual de Educação de MS).\n\nA AIEMS compreende um amplo diagnóstico da escola a partir da percepção dos representantes da comunidade escolar, que avaliam a gestão administrativa, os processos pedagógicos e organizacionais e as condições estruturais da instituição, com o objetivo de gerar informações confiáveis, primando pela transparência dos trabalhos desenvolvidos.\n\nOs resultados gerados propiciam à SED/MS e ao Conselho Estadual de Educação suporte nas tomadas de decisão dos gestores e implantação e/ou implementação de ações voltadas à qualidade da educação das unidades escolares pertencentes ao Sistema Estadual de Ensino de Mato Grosso do Sul, de forma que os resultados não devem ser utilizados para o ranqueamento de escolas, posto que cada unidade escolar está inserida em contextos social, histórico, cultural, econômico e político específicos.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bc00474449560c0006ab2fcece9cc87d2b6981d902788a170",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 926,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1062,
+      "output_tokens_details": {
+        "reasoning_tokens": 288
+      },
+      "total_tokens": 1988
+    }
+  },
+  "created_at": "2026-09-22T22:11:09Z",
+  "duration_seconds": 16.465,
+  "error": null,
+  "excerpt_id": "al_inf_14",
+  "filename": "al_inf_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5805ca8bd9623a982d3a612d7c92f95dc4ae2d230f066bb1183cd4479ba5ba02",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4627352ea9c9f8cb083ea4c50ec63280e5fecb2545259ff4803d1be80ea30d4d",
+    "rendered_prompt_sha256": "5eba67b96630634fca9045b7851bc7cd26fc1af559dbf578a59583fedb2aa817",
+    "source_text_sha256": "e2f7cda6b40fcac46855e83c9fcbc4e8a0f13006bbc2a8a11ab21caab7998f6e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_inf_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 292,
+    "filename": "al_inf_14.txt",
+    "filepath": "corpus/00_source_per_state/al/al_inf_14.txt",
+    "state": "al",
+    "word_count_original": 661
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_inf_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_inf_14.json"
+  },
+  "raw_response_text": "## Parceria entre Escola, Família e Comunidade\n\nA relação entre a escola e família favorece aprendizagens mútuas, nas quais cada pessoa pode trazer uma experiência, um saber, uma maneira de pensar/fazer diferente. Para tanto, esta relação deve estar pautada na confiança, na colaboração, no conhecimento para que os pais e os professores possam compartilhar critérios educativos que facilitem o crescimento harmônico das crianças.\n\nNo entanto, é preciso considerar que cada família possui uma dinâmica própria. Somente a partir do respeito e da valorização da família pela escola e vice versa é que será possível desempenhar a difícil tarefa de tomar decisões comuns sobre alguns aspectos relacionados à educação das crianças. Para isso acontecer é preciso dialogar, explicar as razões que movem uma e outra opinião, escutar, saber pedir e saber ceder e, principalmente assumir de forma compartilhada e responsável a educação das crianças.\n\nPor isso, é fundamental que os profissionais da escola não ocupem o lugar de detentores do saber, que podem dar lições aos familiares ou desprezar as formas que os pais adotam para educar seu filho, considerando que sua visão sobre quaisquer aspectos da educação infantil é melhor e mais adequada do que a da família. Ao contrário, é preciso respeitar as diferentes formas de educar e de organização familiar, considerar a diversidade, desenvolver a capacidade de ouvir, observar e aprender com as famílias – compreender o que acontece com elas, entender seus valores, as formas como educam as crianças, seus hábitos domésticos, suas expectativas em relação à escola e à educação dos filhos. O trabalho com essa diversidade possibilita a ampliação de horizontes tanto para o professor quanto para a criança, porque permite compreender que a realidade de cada um é apenas parte de um universo maior.\n\nNem sempre a importância dessa parceria em favor da educação das crianças está muito clara para a escola e para as famílias. Ela vai muito mais além de tratamento de questões de comportamento e desempenho nas atividades ou da colaboração em festas ocasionais. O processo de interação com os pais deve ocorrer desde o ingresso das crianças na escola como resultado de uma ação planejada pela equipe escolar. A troca de informações pode ter início já no momento da matrícula: essa é uma ótima oportunidade para estabelecer um primeiro contato com as famílias e também para conhecer alguns hábitos das crianças. O apoio mútuo deve ser a tônica desse tipo de relacionamento, em que cabe à equipe da escola compartilhar com os pais ou responsáveis, conhecimentos sobre desenvolvimento infantil e informação relevante sobre as crianças, utilizando uma sistemática de comunicação regular.\n\nNo que se refere ao trabalho educativo propriamente, é possível e desejável integrar o conhecimento das famílias por meio da participação de pais, responsáveis e outros familiares, nos projetos e demais atividades pedagógicas, convidando-os a ensinar coisas que sabem, a socializar experiências, a contar suas histórias. As questões culturais e regionais dentre outras, devem ser inseridas nas programações por meio da participação dos pais e demais familiares enriquecendo o trabalho que é realizado. E este processo por sua vez, deve ser impulsionado pelo coletivo de educadores e pela participação da família por meio de situações que garantam que a escola seja um organismo social vivo, gerador de experiências significativas para o desenvolvimento de todos que dela participam.\n\nCom relação à participação da comunidade na escola dependerá fundamentalmente do empenho da instituição em abrir as portas à sua participação e da equipe de professores em contar de fato com sua presença no cotidiano escolar, reconhecendo-a como importante para contribuir com a qualidade do ensino e da aprendizagem, a partir do que pode oferecer para o enriquecimento do currículo e do projeto educativo como um todo.\n\nConsolidar a parceria escola-família-comunidade é possível e indispensável, considerando que é responsabilidade coletiva a construção de uma educação de qualidade para todas as crianças.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

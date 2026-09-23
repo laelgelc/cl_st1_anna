@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0079ceb480b9cdcb006ab30182cdfc87d28b912afb50be2949",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 522,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 664,
+      "output_tokens_details": {
+        "reasoning_tokens": 248
+      },
+      "total_tokens": 1186
+    }
+  },
+  "created_at": "2026-09-22T22:30:32Z",
+  "duration_seconds": 6.251,
+  "error": null,
+  "excerpt_id": "go_inf_21",
+  "filename": "go_inf_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9ea932f758aebdb4c50b8390fa81de14b91ae0a0690a16ed9fdc2d7d1c7cda5c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8223b6228634618d4780c2bad5a000baf930e896f1ea0c5b526fde81c5826029",
+    "rendered_prompt_sha256": "2f7e02fbc394003d9df60c5644854d4eb3b79ed237b08e6eda6f2fbfee4d6917",
+    "source_text_sha256": "a94c0cf7caa004ca95b46ebeae12b89741a4b3596280f049e9b8a4a6b9f0667f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_inf_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1210,
+    "filename": "go_inf_21.txt",
+    "filepath": "corpus/00_source_per_state/go/go_inf_21.txt",
+    "state": "go",
+    "word_count_original": 262
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_inf_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_inf_21.json"
+  },
+  "raw_response_text": "### 3.4.1. Sentidos, Saberes e Conhecimentos\n\nAs instituições de Educação Infantil, a partir do planejamento de contextos de aprendizagens, no que se refere a esse campo, podem promover, de acordo com o artigo 9º das DCNEI (BRASIL, 2009), experiências que:\n\nII – favoreçam a imersão das crianças nas diferentes linguagens e o progressivo domínio por elas de vários gêneros e formas de expressão: gestual, verbal, plástica, dramática e musical;\n\nIII – possibilitem às crianças experiências de narrativas, de apreciação e interação com a linguagem oral e escrita, e convívio com diferentes suportes e gêneros textuais orais e escritos;\n\nXII – possibilitem a utilização de gravadores, projetores, computadores, máquinas fotográficas e outros recursos tecnológicos e midiáticos.\n\nFonte: Diretrizes Curriculares Nacionais para a Educação Infantil. Resolução nº 05, de 17 de dezembro de 2009.\n\nA promoção dessas experiências, pelas instituições de Educação Infantil, possibilita à criança se apropriar e produzir conhecimentos de diferentes naturezas – culturais, artísticos, científicos, tecnológicos e ambientais –, desenvolver habilidades e atitudes, assim como reafirmar valores. Na BNCC (BRASIL, 2017) e no Documento Curricular para Goiás - Ampliado, elas foram observadas nos campos de experiências e nos seus respectivos objetivos de aprendizagens e desenvolvimento fundamentados nos 6 (seis) direitos.\n\nOs objetivos de aprendizagens e desenvolvimento do campo de experiências Escuta, Fala, Pensamento e Imaginação foram organizados em torno de dois conceitos centrais: Culturas Orais e Culturas Escritas. Entende-se que os demais conceitos – Escuta, Fala e Pensamento; Imaginação e Literatura – perpassam os objetivos de aprendizagens e desenvolvimento desse campo, não sendo necessário acrescentá-los à coluna Sentidos, Saberes e Conhecimentos, conforme o quadro a seguir:",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

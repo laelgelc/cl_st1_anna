@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0af7681cd9e72ec6006ab300df164887d28ccc102e7ef722e7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 941,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1032,
+      "output_tokens_details": {
+        "reasoning_tokens": 241
+      },
+      "total_tokens": 1973
+    }
+  },
+  "created_at": "2026-09-22T22:27:52Z",
+  "duration_seconds": 9.123,
+  "error": null,
+  "excerpt_id": "es_inf_intro_9",
+  "filename": "es_inf_intro_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4c11083f1dc4468d7a01dc8ca80fbb7918bac17abdd4c35a232994f3f06d6baf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "69287ef1c37bcc354b8aba2410505071e53cc0d6b8d51755b6750d80497bd8d5",
+    "rendered_prompt_sha256": "38f46abbe07d6a051287c8101be76acce646e59b16f014250b61addfffe9fac4",
+    "source_text_sha256": "5a41ca7be144ebf85dc203bc8859492bb74cff7368772b8161041f0137535af5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_intro_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1082,
+    "filename": "es_inf_intro_9.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_intro_9.txt",
+    "state": "es",
+    "word_count_original": 567
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_intro_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_intro_9.json"
+  },
+  "raw_response_text": "## Educação e as Diversidades\n\nGuiando-se pelas concepções que regem o Currículo do Espírito Santo, especialmente no que se refere à Educação Inclusiva e à Equidade, faz-se necessário abordar as diversas modalidades de ensino que também são contempladas neste documento. Trata-se de um olhar para o diverso, não excludente e nem puramente isolado. No dia a dia das nossas escolas, sejam elas de atendimento regular, especializado ou misto das modalidades, estão postas as diferentes realidades de nossos estudantes, que se entrecruzam e nos desafiam a ressignificar práticas educativas visando garantir o direito de todos à educação, como preconiza a Constituição Federal Brasileira (BRASIL, 1988).\n\nQuando a escola regular, indígena ou quilombola tem em seu público estudantes da educação especial, quando a EJA recebe também o jovem em privação de liberdade na escola, quando crianças e jovens do campo, indígenas e quilombolas são atendidos em escolas fora de suas comunidades, entre tantas outras possibilidades de entrecruzamentos, os desafios do fazer escolar se ampliam e reforçam ainda mais a necessidade de uma postura acolhedora e inclusiva, de formação continuada docente e de políticas públicas que deem sustentação à melhoria das condições de atendimento escolar.\n\nAo mesmo tempo, há que se considerar a luta política pelo reconhecimento e fortalecimento das modalidades específicas da Educação Básica, historicamente relegadas a segundo plano, haja vista o posicionamento recente na história da educação brasileira para a definição de suas diretrizes, que são hoje conquistas que precisam ser preservadas e receber aportes para avançarem em quantidade e qualidade de atendimento.\n\n- Educação de Jovens e Adultos\n- Educação do Campo\n- Educação Especial\n- Educação de Jovens e Adultos para Pessoas em Privação de Liberdade\n- Educação Escolar para Pessoas em Situação de Itinerância\n- Educação Escolar Indígena\n- Educação Escolar Quilombola\n\n*Figura 4 – Modalidades da Educação Básica que já possuem legislação específica.*\n\nNesse sentido, o Currículo do Espírito Santo aponta para uma proposta que atenda a essa universalidade, mas que reconhece, respeita e valoriza as diversidades e singularidades que são próprias de cada modalidade, visando contribuir para a garantia do direito fundamental à educação de qualidade para todos os estudantes de nosso território, indo ao encontro das perspectivas trazidas pelas Diretrizes Nacionais para a Educação Básica: Diversidade e Inclusão (BRASIL, 2013).\n\n> [...] torna-se inadiável trazer para o debate os princípios e as práticas de um processo de inclusão social, que garanta o acesso à educação e considere a diversidade humana, social, cultural, econômica dos grupos historicamente excluídos. Trata-se das questões de classe, gênero, raça, etnia, geração, constituídas por categorias que se entrelaçam na vida social, mulheres, afrodescendentes, indígenas, pessoas com deficiência, populações do campo, de diferentes orientações sexuais, sujeitos albergados, em situação de rua, em privação de liberdade, de todos que compõem a diversidade que é a sociedade brasileira e que começam a ser contemplados pelas políticas públicas (BRASIL, 2013, p. 07).\n\nDesenvolver um trabalho educacional na perspectiva da inclusão social implica assumir um currículo que proporcione o fazer e o pensar práticas pedagógicas comprometidas com a valorização e o respeito à diversidade, com o desenvolvimento integral dos estudantes e com os princípios constitucionais de respeito à liberdade e à dignidade humana. Destacamos a seguir algumas das especificidades, especialmente pedagógicas e de contextualização, referentes às diferentes modalidades da educação básica no país a serem consideradas e aprofundadas em seus projetos pedagógicos, bem como nas políticas de formação docente para o atendimento adequado aos estudantes as quais se destinam.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

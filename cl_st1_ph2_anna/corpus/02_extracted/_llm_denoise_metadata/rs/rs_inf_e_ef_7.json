@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04bb147c2674f99a006ab30e13ad5c87d2b3600b82bfac0cfb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 954,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 891,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 1845
+    }
+  },
+  "created_at": "2026-09-22T23:24:10Z",
+  "duration_seconds": 7.105,
+  "error": null,
+  "excerpt_id": "rs_inf_e_ef_7",
+  "filename": "rs_inf_e_ef_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "25ce077ca8584fdf121b27b9826fb1a9afb552258d2d2266aea0dc1b218f2b23",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a8a55b99c3be25f350daf355ca2214e0cf9da28b3db1880e841ff462fd573aba",
+    "rendered_prompt_sha256": "6c79f9dbfa396b060469b7536a2bdd12429a052fc7cda3261002d04ffa288ec1",
+    "source_text_sha256": "5178b4343227a04706b4d5f286630dee2d00ac29007b90a1756f0326c1040754"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_e_ef_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3676,
+    "filename": "rs_inf_e_ef_7.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_e_ef_7.txt",
+    "state": "rs",
+    "word_count_original": 576
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_e_ef_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_e_ef_7.json"
+  },
+  "raw_response_text": "### 1.4 Currículo\n\nAs discussões sobre o currículo têm incorporado questões sobre os conhecimentos escolares, sobre os procedimentos e as relações sociais que constituem o cenário em que os conhecimentos circulam, sobre as transformações que formam os estudantes, sobre os valores que inculcam e as identidades que constroem. Tais discussões são fortemente marcadas por questões pertinentes ao conhecimento, verdade, poder e identidade.\n\nAs reflexões sobre o currículo são muito amplas e, por uma questão de delimitação teórica, faremos um recorte e assumiremos neste texto o currículo como as experiências escolares que se desdobram em torno do conhecimento, em meio a relações sociais, e que contribuem para a construção das identidades dos estudantes. Currículo associa-se, assim, ao conjunto de esforços pedagógicos desenvolvidos com intenções educativas.\n\nNo currículo se sistematizam esforços pedagógicos. O currículo, em outras palavras, engendra o espaço central em que todos atuam, nos diferentes níveis do processo educacional, conferindo autoria na sua elaboração. O papel do professor neste processo de constituição curricular é, assim, fundamental, sendo ele um dos grandes artífices na construção dos currículos que se materializam nas escolas e nas salas de aula. Dessa forma, sinaliza a necessidade de constantes discussões e reflexões, na escola, sobre o currículo, tanto o currículo formalmente planejado e desenvolvido quanto o currículo que não tem visibilidade, oculto, porém presente. E, como profissionais da educação, temos o compromisso de participar crítica e criativamente na elaboração de currículos mais atraentes, mais democráticos, mais fecundos.\n\nNesse sentido, cabe deslocar a discussão das relações entre currículo e conhecimento escolar para as relações entre currículo e cultura. A pluralidade cultural do mundo em que vivemos se manifesta de forma impetuosa em todos os espaços sociais, inclusive nas escolas e nas salas de aula. Tal pluralidade frequentemente acarreta confrontos e conflitos, tornando cada vez mais agudos os desafios a serem enfrentados pelos profissionais da educação. No entanto, essa mesma pluralidade pode propiciar o enriquecimento e a renovação das possibilidades de atuação pedagógica.\n\nO conhecimento escolar é um dos elementos centrais do currículo e sua aprendizagem constitui condição indispensável para que os conhecimentos socialmente produzidos possam ser apreendidos, criticados e reconstruídos por todos os estudantes do país. Assim, justifica-se a importância de selecionarmos, para inclusão no currículo, conhecimentos relevantes e significativos.\n\nAssumimos a concepção de relevância, como o potencial que o currículo possui de tornar as pessoas capazes de compreender o papel que devem ter na mudança de seus contextos imediatos e da sociedade em geral. Relevância, nesse sentido, sugere conhecimentos e experiências que corroborem na formação de sujeitos sensíveis, autônomos, críticos e criativos que se sintam capazes de analisar como as coisas passaram a ser o que são e como fazer para mudá-las.\n\nNessa perspectiva, o currículo constitui um dispositivo em que se concentram as relações entre a sociedade e a escola, entre os saberes e as práticas socialmente construídos e os conhecimentos escolares.\n\nPor fim, o currículo e seus componentes constituem um conjunto articulado e normalizado de saberes, definido por uma determinada ordem, onde se produzem significados sobre o mundo. Dessa forma, torna-se fundante, além das discussões sobre o currículo, que os profissionais da educação se debrucem sobre as discussões e reflexões de uma política cultural.\n\nCaberá às escolas, à luz da BNCC, do Referencial Curricular Gaúcho e do Documento Orientador dos sistemas e redes de ensino público e privado, construir o seu currículo considerando as especificidades locais e a trajetória pedagógica, referendado no seu Projeto Político-Pedagógico",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

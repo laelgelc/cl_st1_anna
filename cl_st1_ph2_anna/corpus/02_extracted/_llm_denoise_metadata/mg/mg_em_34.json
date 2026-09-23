@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01d0d3e4a6d9ef87006ab30332a6f487d2bda79df3d5bc5968",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 928,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 959,
+      "output_tokens_details": {
+        "reasoning_tokens": 178
+      },
+      "total_tokens": 1887
+    }
+  },
+  "created_at": "2026-09-22T22:37:45Z",
+  "duration_seconds": 7.023,
+  "error": null,
+  "excerpt_id": "mg_em_34",
+  "filename": "mg_em_34.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "993efc87bc11611b58596d82d4221230385afb09a28ca1fceed98407ec8ee64e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a3b32769af42eaf5e874b26670e56a4a6368aa88c3ba2cf4214be320c305947e",
+    "rendered_prompt_sha256": "42306150d0c736882cfe0e0a27dc293bcbfe2c947783d5b82d2746739065835b",
+    "source_text_sha256": "9d344f5c5852160e49f10e311cbbfe0dc6d5408df88bebd382ce6436244957e5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_34.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1564,
+    "filename": "mg_em_34.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_34.txt",
+    "state": "mg",
+    "word_count_original": 557
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_34.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_34.json"
+  },
+  "raw_response_text": "## 3. Formação geral básica\n\n### 3.1 A Área de Linguagens e suas Tecnologias\n\n#### 3.1.1 Apresentação\n\nA Base Nacional Comum Curricular (BNCC) propõe a unificação dos estudos por áreas do conhecimento, afastando-se da fragmentação por componente curricular, uma vez que esse novo formato para o Ensino Médio pode ampliar as indissociáveis contribuições em vários aspectos da aprendizagem e da vida social. Apoiada nesse documento normativo e nas orientações trazidas pela Resolução nº 3, de 21 de novembro de 2018, que atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio, a organização do Currículo Referência, por áreas do conhecimento, não busca valorizar ou excluir componentes curriculares, mas, sim, fortalecer as relações entre eles e a contextualização para intervenção na realidade, bem como proporcionar um trabalho integrado e cooperativo dos professores. Na busca de um ensino mais dialógico, cujos componentes se complementam, a Área de Linguagens e Suas Tecnologias é composta por: Arte, Educação Física, Língua Inglesa e Língua Portuguesa.\n\nA Área Linguagens e Suas Tecnologias tem por objetivos propiciar aos estudantes condições para que se tornem capazes de: dialogar e criar entendimento mútuo; compreender o outro; se expressar; debater ideias de maneira crítica, baseando-se no respeito e na ética, com consideração de diferentes perspectivas e valores culturais; de valer-se de diferentes linguagens e mídias, em diferentes processos de interação, com uso crítico de ferramentas digitais. Além disso, busca aperfeiçoar a capacidade dos estudantes de elaborar e avaliar metas e construir seus projetos de vida e de profissões, para exercer proativamente seus variados papéis sociais, conhecendo seus direitos e deveres como cidadão, e agindo por meio das linguagens em favor deles e da transformação social.\n\nNo Currículo Referência, o estudante é o centro do processo de ensino e aprendizagem. Dessa forma, é fundamental pensar na formação desse sujeito em todos os aspectos, não apenas considerá-lo como mão-de-obra a ser inserida no mercado de trabalho, no mundo tecnológico, nem como ser humano incompleto ou em formação. É preciso que ele desenvolva competências e habilidades que lhe permitam articular e mobilizar conhecimentos dos componentes curriculares, em momentos de aprendizagem que sejam relevantes e significativos para sua formação integral, de forma simultânea ao desenvolvimento socioemocional. Segundo os Parâmetros Curriculares Nacionais:\n\n> para viver democraticamente em uma sociedade plural é preciso respeitar os diferentes grupos e culturas que a constituem. A sociedade brasileira é formada não só por diferentes etnias, como por imigrantes de diferentes países. Além disso, as migrações colocam em contato grupos diferenciados. Sabe-se que as regiões brasileiras têm características culturais bastante diversas e a convivência entre grupos diferenciados nos planos social e cultural muitas vezes é marcada pelo preconceito e pela discriminação (BRASIL, 1997, p. 117).\n\nComo a legislação define que os currículos devem basear-se nas exigências das características regionais e locais da sociedade, da cultura, da economia e dos estudantes, os objetos de conhecimento devem ser desenvolvidos de acordo com as diferentes modalidades de ensino (Educação Especial, Educação de Jovens e Adultos, Educação do Campo, Educação Escolar Indígena, Educação Escolar Quilombola, Educação a Distância), assim como as peculiaridades de cada região e tipo de estudantes, respeitando as suas variantes linguísticas nacionais. Nessa perspectiva, é importante que cada escola selecione e aplique metodologias e estratégias didático-pedagógicas diversificadas, de acordo com os recursos disponíveis, o nível de conhecimento e interesse de seus estudantes.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

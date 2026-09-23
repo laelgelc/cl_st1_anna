@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02ed46dd2990b2b2006ab30fb28b5c87d29cda046c6e35f521",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1283,
+      "input_tokens_details": {
+        "cache_write_tokens": 1280,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1355,
+      "output_tokens_details": {
+        "reasoning_tokens": 243
+      },
+      "total_tokens": 2638
+    }
+  },
+  "created_at": "2026-09-22T23:31:07Z",
+  "duration_seconds": 8.614,
+  "error": null,
+  "excerpt_id": "sp_em_36",
+  "filename": "sp_em_36.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cebe0fcd26f6d7606eda173109423d907f4a03f47191c59e59f7ae522b727b30",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d637115e666e6753cd16a44e3629718fcb1db802c8a56e3a200e5c55ddf0dc6b",
+    "rendered_prompt_sha256": "27d79a130379c8f43ae2f0b3c3fce1ac9be65874fd4e40884bf9cf0ac000f635",
+    "source_text_sha256": "a2745ac56ee8071f4c246720f6bb49915d1aed33a3fbc8aeadfa0185f2bfcdb9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_36.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3931,
+    "filename": "sp_em_36.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_36.txt",
+    "state": "sp",
+    "word_count_original": 741
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_36.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_36.json"
+  },
+  "raw_response_text": "# A transição da etapa do Ensino Fundamental para a etapa do Ensino Médio\n\nA transição do Ensino Fundamental para o Ensino Médio está garantida na observação e realização das dez competências da Educação Básica. Essas competências orientam para uma educação envolvida com o seu tempo e com os desafios do mundo contemporâneo. Dessa forma, a articulação do Ensino Médio com o Ensino Fundamental está ancorada no desenvolvimento de competências e habilidades a partir da aprendizagem contextualizada, integrada e articulada de conteúdos, conceitos e processos. Nesse sentido, parece fundamental certa clareza acerca desses conceitos, uma vez que eles nos encaminham para determinado percurso do trabalho pedagógico:\n\n- **Competências:** a competência refere-se ao processo de mobilização de conhecimentos, habilidades, atitudes e valores para resolver questões e problemas referentes à vida cotidiana, assim como para o exercício da cidadania.\n- **Habilidades:** trata-se de práticas cognitivas e socioemocionais, atitudes e valores que devem ser desenvolvidos e mobilizados para viver e conviver no mundo contemporâneo. São aprendizagens essenciais que devem ser garantidas para todos os estudantes em diferentes contextos do Ensino Médio.\n- **Objetos de conhecimento:** trata-se de conteúdos, conceitos e processos que são apreendidos por meio do desenvolvimento das habilidades.\n- **Área do conhecimento:** explicita as particularidades no tratamento dos objetos de conhecimento e deve garantir a formação integrada do estudante.\n\n[^8]: Conforme a Base Nacional Comum Curricular, com referência ao Parecer CNE/CP nº 11, 2019, que implica o fortalecimento da relação entre os componentes, que requer o trabalho conjugado e cooperativo dos professores. (BRASIL, 2018, p. 469)\n\nAo oportunizar o desenvolvimento de habilidades e competências, de forma progressiva, os conceitos e temas devem ser desenvolvidos e articulados por meio de processos que foram iniciados no Ensino Fundamental, mediante comandas de identificação, análise, comparação e interpretação de ideias, pensamentos, fenômenos e processos históricos, geográficos, sociais, econômicos, políticos e culturais que no Ensino Médio devem encontrar condições para o “aprofundamento e a ampliação da base conceitual e dos modos de construção da argumentação e sistematização do raciocínio, operacionalizados com base em procedimentos analíticos e interpretativos” (BNCC, 2018, p. 472).\n\nDestacamos, ainda que a interconexão com o Ensino Fundamental pode ser observada a partir de abordagens indicadas nos objetos de aprendizagem, que, de forma geral, abordam os “temas contemporâneos transversais”. Ou seja, os temas contemporâneos, presentes desde o Ensino Fundamental, são contemplados nos objetos de aprendizagem na área de Ciências Humanas e Sociais Aplicadas, conforme orientação da BNCC:\n\n> (...) cabe aos sistemas e redes de ensino, assim como às escolas, em suas respectivas esferas de autonomia e competência, incorporar aos currículos e às propostas pedagógicas a abordagem de temas contemporâneos que afetam a vida humana em escala local, regional e global, preferencialmente de forma transversal e integradora. Entre esses temas, destacam-se: direitos da criança e do adolescente (Lei nº 8.069/1990), educação para o trânsito (Lei nº 9.503/1997), educação ambiental (Lei nº 9.795/1999, Parecer CNE/CP nº 14/2012 e Resolução CNE/CP nº 2/2012), educação alimentar e nutricional (Lei nº 11.947/2009), processo de envelhecimento, respeito e valorização do idoso (Lei nº 10.741/2003), educação em direitos humanos (Decreto nº 7.037/2009, Parecer CNE/CP nº 8/2012 e Resolução CNE/CP nº 1/2012), educação das relações étnico-raciais e ensino de história e cultura afrobrasileira, africana e indígena (Leis nº 10.639/2003 e 11.645/2008, Parecer CNE/CP nº 3/2004 e Resolução CNE/CP nº 1/2004), bem como saúde, vida familiar e social, educação para o consumo, educação financeira e fiscal, trabalho, ciência e tecnologia e diversidade cultural (Parecer CNE/CEB nº 11/2010 e Resolução CNE/CEB nº 7/2010). (BRASIL, 2018, p. 19)\n\nNo contexto da área de Ciências Humanas e Sociais Aplicadas, alguns temas apresentam destaque nos objetos de conhecimento, como: ciência e tecnologia; direitos da criança e do adolescente; diversidade cultural; educação ambiental; educação para valorização do multiculturalismo nas matrizes históricas e culturais brasileiras; educação em direitos humanos; educação para o consumo; processo de envelhecimento, respeito e valorização do idoso; trabalho e vida familiar e social. Destacamos ainda a relevância do trabalho da educação para redução de riscos e desastres.\n\nÉ importante destacar que os TCTs encontram sua demanda e sua ênfase nas questões da vida social, política, econômica e cultural que repercutem necessariamente no desenvolvimento pessoal. Dessa forma, há que se reconhecer o potencial desses temas para a efetivação da educação contextualizada e integral.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

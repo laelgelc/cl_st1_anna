@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06719435a4c15755006ab2fbf021d887d2964c3eb140508e88",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 846,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 783,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 1629
+    }
+  },
+  "created_at": "2026-09-22T22:06:46Z",
+  "duration_seconds": 5.975,
+  "error": null,
+  "excerpt_id": "ac_em_52",
+  "filename": "ac_em_52.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "29553452391e285bc48ba7db2c71a710ff6eaa3ebd889ae0f71687de967357c6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f52e23c373d9cc3c6e313dfa9d1a5639cdf48f01d721a580e3f4ea0c382ce632",
+    "rendered_prompt_sha256": "0aa5875d8e811be6b2be17b19898ca3705fb5c66623b82ce6e6566c9a67a7b8f",
+    "source_text_sha256": "26289e3222e82255100d56a504116fa3d793645f7f547a9ed12e7db8a8257298"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_52.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 94,
+    "filename": "ac_em_52.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_52.txt",
+    "state": "ac",
+    "word_count_original": 477
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_52.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_52.json"
+  },
+  "raw_response_text": "# História\n\nA História como componente curricular vem sendo gradativamente repensada e redefinida nos últimos anos. A concepção da obtenção de conhecimento histórico por meio da memorização de informações vinculadas a fatos com destaque a personalidades, acontecimentos e datas, estudados desassociados da atualidade, foram amplamente disseminados.\n\nNo Ensino de História, novas abordagens estão sendo evidenciadas nas ações dos educadores, nas novas políticas educacionais e nos enfoques presentes em boa parte dos novos livros didáticos. Essas abordagens diferenciadas têm possibilitado a incorporação de novos conteúdos, temáticas, sujeitos e valores históricos, tornando o componente mais atualizado, dinâmico e relacionado com a vivência dos estudantes.\n\nNesse novo contexto, o professor torna-se articulador do conhecimento e não mais o detentor, desenvolvendo uma prática docente que se apropria das novas tecnologias de ensino, oportunizando aos alunos uma aprendizagem autônoma, focada no conhecer, analisar, criticar, relacionar, opinar e reaprender. Nessa nova perspectiva, o professor parte da premissa de que o ensino de História deve contribuir para a formação da consciência histórica dos alunos, possibilitando a construção das suas identidades sociais.\n\nNa construção do novo currículo do Ensino Médio, a elaboração de seus objetos de conhecimento está intrinsecamente ligada às dez competências gerais da Base Nacional Comum Curricular - BNCC. A abordagem foi realizada a partir de estudos que problematizam questões do presente, relacionando-as com questões do passado, sob o entendimento de que “ser membro da comunidade humana é situar-se com relação a seu passado” (Hobsbawm, 1998).\n\nVale destacar, também, que o processo de construção deste documento leva em conta a utilização de metodologias ativas que possibilitem a compreensão das comparações, percepções, mudanças, permanências, rupturas, semelhanças, diferenças e transformações sociais nos processos históricos. Vale dizer, ainda, que a valorização desses procedimentos, assim como as vivências dos alunos, não significa, a priori, abandonar os fatos, acontecimentos e as medidas cronológicas, que servem de suporte para a compreensão da evolução humana em todos os seus aspectos.\n\nO componente de História deverá auxiliar no desenvolvimento da consciência histórica, possibilitando, assim, a leitura mais crítica do presente e inserindo o aluno na sua realidade espacial e temporal. A proposta é possibilitar referências temporais para que se especifiquem os acontecimentos históricos estudados em seus contextos, comparando-os e distinguindo-os entre si. A premissa é possibilitar a apreensão da temporalidade e da historicidade do presente, dos acontecimentos e contextos que se estendem em suas relações no tempo.\n\nNesse novo “formato”, a História, como componente curricular da área de Ciências Humanas e Sociais Aplicadas, será abordada de forma interativa e correlacionada à realidade atual e local, combatendo toda e qualquer visão etnocêntrica. O texto da BNCC explicita que o “saber sobre” deve estar a serviço do “saber para”, levando o aluno à compreensão do “aqui” e do “agora”; com isso, espera-se que este movimento de reflexão instigue a curiosidade histórica, humanize as relações e gere a intervenção social.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,7 @@
+## 4. LÍNGUA INGLESA NOS ANOS INICIAIS
+
+Para os Anos Iniciais (1º ao 5º), o Referencial Curricular de Alagoas parte da organização proposta pela BNCC, que permite que determinadas habilidades possam ser (re)trabalhadas em outros anos, de forma conveniente e significativa para estudantes e professores, na perspectiva de um currículo espiralado, fundamentando as escolas na (re)construção de seus currículos e projetos político-pedagógicos para os próximos anos.
+
+## 5. ORGANIZADOR CURRICULAR DO COMPONENTE
+
+O Organizador Curricular da Língua Inglesa segue a proposta de organização da BNCC. Entretanto, como estratégia para contemplar a parte diversificada, foi acrescida uma quarta coluna onde se encontram os Desdobramentos Didático-Pedagógicos - DesDP, cujo objetivo é o de contribuir para tornar as habilidades mais detalhadas visando a uma aproximação com o contexto de nós estudantes, bem como, os aspectos socioculturais do território alagoano. A referida coluna sugere, ainda, um olhar crítico sobre outros países onde o idioma é usado como primeira e/ou segunda língua(s). Esses acréscimos podem ser melhor visualizados nos anexos.

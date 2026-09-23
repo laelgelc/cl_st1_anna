@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0059dfecd087ec93006ab3073b1b0487d2b6df0cfbe0cc36e7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 903,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 924,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 1827
+    }
+  },
+  "created_at": "2026-09-22T22:54:58Z",
+  "duration_seconds": 7.075,
+  "error": null,
+  "excerpt_id": "pb_em_39",
+  "filename": "pb_em_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "87f4e04932dca4929ddca41e758d07043173df7252b24bcf4c09be88ef368025",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5e0236fb776e1fd442bdf597e91f8d5d2bf26f544e1d16bfe0620debe2ca48b9",
+    "rendered_prompt_sha256": "00504a6a9fe7287d95d725a2e592f91dab2d5dec04ab640a0c2679e03c0a0f9b",
+    "source_text_sha256": "dd3cb9e66acb6bdac78899fcd7746853892edde038a1ebc1b2dea439d1840c1e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2285,
+    "filename": "pb_em_39.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_39.txt",
+    "state": "pb",
+    "word_count_original": 577
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_39.json"
+  },
+  "raw_response_text": "### 2.1.6.3.5 Possibilidades avaliativas para a Música\n\nEm se tratando de Arte, em todas as suas linguagens, há ainda uma prática que precisa ser imediatamente abolida, aquela que considera pura e simplesmente, a avaliação de um produto artístico, ou seja, a ênfase na Avaliação Somativa. Desde a década de 1990, nos Parâmetros Curriculares Nacionais de Arte (PCNARTE), já havia a sinalização dessa conduta, afirmando que “ainda existem concepções redutoras do procedimento avaliador direcionado apenas aos produtos artísticos.” (BRASIL, p.199. 1997)\n\nAssim como propõe este documento, na sua introdução, em 4.3. Avaliação de Aprendizagem, a escola deve priorizar a Avaliação Formativa, aquela que tem no processo o seu objeto de avaliação. Portanto, para o ensino de Música, necessita-se de uma Avaliação Diagnóstica no início do ano letivo para a captação de informações culturais, sociais e musicais propriamente ditas, como materiais de trabalho fornecidos pelos próprios alunos. Mas é na Avaliação mediadora ou Formativa, que deve estar presente a todo o momento, num processo contínuo e ininterrupto, bem organizado e planejado pelo/a professor/a em consonância com as propostas metodológicas selecionadas para o trabalho.\n\nNesse contexto, a Avaliação Diagnóstica é essencial para o reconhecimento do terreno em que será plantado o ensino da música. Inclusive o próprio Planejamento Anual deve ser repensado pela escola em seu PPP (Projeto Político Pedagógico), uma vez que, para planejar, não basta que o professor domine os conteúdos e as mais variadas metodologias de ensino. Ele precisa ter acesso ao público-alvo de seu trabalho: os seus estudantes. Esse reconhecimento pode ser realizado de várias maneiras, como rodas de conversa, preenchimento de formulários, jogos musicais, apresentações de habilidades (substituindo o nome talentos aqui por habilidades para não alimentar o vício discriminatório daqueles que forem julgados como não ‘talentosos’) e uma série de outras práticas.\n\nNa Avaliação Formativa, portanto, o professor precisa se organizar para mapear o desenvolvimento individual e coletivo da turma. Lembrando que, no aspecto individual, cada estudante deve ser avaliado pelos seus próprios estágios de evolução, isto é, o que o/a estudante atingiu em cada uma das etapas propostas, sem compará-lo aos demais. Nesse sentido, não é prudente comparar o estudante com os outros, pois cada um tem uma forma particular de aprender assim como um tempo particular de aprendizagem. Propomos, dessa maneira, o aprendizado do companheirismo e não da competitividade.\n\nE, mesmo que haja jogos musicais, festivais, quaisquer concursos que sejam, não é o produto final o que mais importa, uma vez que a apresentação final de uma etapa não tem o maior peso de ensino e, sim, toda a participação do conjunto da obra, de um ano letivo inteiro. Porque, se assim o fosse, imagine: qual seria a avaliação daquele que deu tudo de si, se esforçou ao máximo e adoeceu exatamente no dia da apresentação, não podendo comparecer?\n\nEntretanto, a apresentação do que foi construído é uma excelente forma de valorizar todo o trabalho do/a estudante. Mesmo a escola não tendo o objetivo de formar músicos/as, a Arte precisa ser exposta. A apresentação também faz parte do processo e precisa ser avaliada como parte desse processo, com todo o cuidado para não incentivar o caráter classificatório e desclassificatório. Inclusive, na culminância de uma produção que é tão esperada pela comunidade escolar, seja o ‘show’, o ‘espetáculo’, a audição, o festival ou qualquer forma de apresentação em público, o processo precisa ser, mesmo que brevemente, explicado aos espectadores.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03d1169ac6f01bb8006ab3079a536c87d287415f4307885702",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 778,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 973,
+      "output_tokens_details": {
+        "reasoning_tokens": 297
+      },
+      "total_tokens": 1751
+    }
+  },
+  "created_at": "2026-09-22T22:56:35Z",
+  "duration_seconds": 9.736,
+  "error": null,
+  "excerpt_id": "pb_inf_22",
+  "filename": "pb_inf_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6909737c8d526fe8e129319fe3fede05195bda930ff5611fb72dc12cfde44b9b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a7468291727c62d85b198d6da3893ba44f9c755f76113e0c8a3dc7195caf8775",
+    "rendered_prompt_sha256": "5cc381150afd07e4651557cd07ff3e91010862572ff863d273807201b060c0f9",
+    "source_text_sha256": "9d5f627e9e11d01f5e2b5310aa7643bb80d9348c051babbb5507d10b1518eb46"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2366,
+    "filename": "pb_inf_22.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_22.txt",
+    "state": "pb",
+    "word_count_original": 401
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_22.json"
+  },
+  "raw_response_text": "Campo de experiências: “ESPAÇOS, TEMPOS, QUANTIDADES, RELAÇÕES E TRANSFORMAÇÕES”\n\n**OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO**\n\nExplorar e descrever semelhanças e diferenças entre as características e propriedades dos objetos (textura, massa, tamanho).\n\nObservar, relatar e descrever incidentes do cotidiano e fenômenos naturais (luz solar, vento, chuva etc.). Compartilhar, com outras crianças, situações de cuidado de plantas e animais nos espaços da instituição e fora dela.\n\nIdentificar relações espaciais (dentro e fora, em cima, embaixo, acima, abaixo, entre e do lado) e temporais (antes, durante e depois).\n\nClassificar objetos, considerando determinado atributo (tamanho, peso, cor, forma etc.).\n\nUtilizar conceitos básicos de tempo (agora, antes, durante, depois, ontem, hoje, amanhã, lento, rápido, depressa, devagar).\n\n(BNCC, 2017)\n\nContar oralmente objetos, pessoas, livros etc., em contextos diversos.\n\nRelatar transformações observadas em materiais, animais, pessoas ou no ambiente.\n\n- Situações que favoreçam a reflexão, percepção visual e a oralidade, de forma dinâmica e criativa;\n- Condições para escolha e manuseio de diferentes materiais gráficos e suportes para brincar e exercitar, de forma lúdica, traços, desenhos e outros sinais gráficos;\n- Socialização dos desenhos, sinais gráficos e traços, partilhando o seu sentido e vendo valorizadas suas produções e experiências.\n\n**SUGESTÕES DE VIVÊNCIAS QUE FAVORECEM A CONSTRUÇÃO DE EXPERIÊNCIAS PELAS CRIANÇAS BEM PEQUENAS NESTE CAMPO**\n\nAs práticas realizadas na Instituição de Educação Infantil devem possibilitar:\n\n- Ampliação da percepção dos objetos e espaços cotidianos, estabelecendo relações no que diz respeito à cor, ao tamanho, à textura, ao volume, peso e à forma;\n- Contato com os fenômenos da natureza através da observação, registro e relatos orais;\n- Vivências relacionadas aos elementos da natureza, observando suas formas, cores, densidades e cheiros;\n- Exploração do meio ambiente, percebendo-se como ser integrante, dependente, transformador e, acima de tudo, responsável pela sua conservação;\n- Momentos de sensibilização acerca do cultivo de plantas, hortaliças e árvores nas unidades e em seu entorno, possibilitando o convívio cotidiano com essas iniciativas ecológicas;\n- Observação, descrição e registros das sequências temporais (antes, agora, depois);\n- Participação em atividades lúdicas explorando noções espaciais e temporais;\n- Situações que explorem a diferenciação e apropriação dos conceitos básicos de tempo;\n- Resolução de problemas que envolvam a identificação e o reconhecimento de padrões numéricos e de cores em sequências;\n- Resolução de problemas que envolvam ideias de exploração de procedimentos de contagem e comparação de quantidades;\n- Observação do ambiente para percepção das transformações ocorridas nos elementos da natureza;\n- Manipulação de objetos para que construam conceitos matemáticos de maneira prática.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

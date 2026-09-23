@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_085365d5a4cd5ff4006ab2fc60c74487d2802c8839f4c27acf",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 636,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 996,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 1632
+    }
+  },
+  "created_at": "2026-09-22T22:08:40Z",
+  "duration_seconds": 8.041,
+  "error": null,
+  "excerpt_id": "al_ef_54",
+  "filename": "al_ef_54.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ce90d1eb2c7c4ba5c0cd3174b74c210ee2473b059fe60b4cd86f9c3d9ab5cabd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "114a6654d05ec4cc1823a43b357e54a720046cc67b544cdcfe65d017903cba14",
+    "rendered_prompt_sha256": "5c764bef71954654a3578ed9448e081671f9c7d6708291b1b7277d3b6cda387c",
+    "source_text_sha256": "04fa5155d15a12df8eb02460ae169e6ce56e5adab20754c64d72839c864421b7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_54.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 191,
+    "filename": "al_ef_54.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_54.txt",
+    "state": "al",
+    "word_count_original": 378
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_54.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_54.json"
+  },
+  "raw_response_text": "## Língua Inglesa\n\nNum mundo globalizado e em constante transformação nos questionamos: Que cidadão queremos formar? Outras questões que nos parecem de fundamental relevância são: Quem é o nosso estudante? Como ele chega ao 6º ano do Ensino Fundamental? Como ele chega ao Ensino Médio? Dentro destas perspectivas nos indagamos, enquanto educadores, em uma sociedade plural, qual o papel da língua, em especial a língua inglesa, nesse contexto educacional.\n\nDe acordo com as DCNs (Diretrizes Curriculares Nacionais), os estudantes do Ensino Fundamental regular são crianças e adolescentes de faixas etárias cujo desenvolvimento está marcado por interesses próprios, relacionado aos seus aspectos físico, emocional, social e cognitivo, em constante interação. Como sujeitos históricos que são, os estudantes apresentam características de desenvolvimento relacionadas com seus modos próprios de vida e suas múltiplas experiências culturais e sociais, [...] (DCN, p. 110).\n\nQuando pensamos em língua estrangeira, sempre nos lembramos do seu valor econômico e social na formação de todo e qualquer profissional. Relacionamos o conhecimento de uma língua estrangeira com a possibilidade de ascensão no trabalho, valorização salarial e oportunidade de viagens para turismo ou a negócios.\n\nHá, porém, outra especificidade da língua estrangeira que sempre se releva, mas que nos parece muito mais importante. Trata-se da possibilidade de acesso e uso com qualidade e ética que a língua estrangeira propicia ao mundo em que vivemos, facilitado pelas interfaces virtuais disponíveis por meio das Tecnologias Digitais da Comunicação e Informação (TDCI) ao nosso alcance, necessário também para o mundo do trabalho, para estudar, para a vida cotidiana etc.\n\nEntre as línguas estrangeiras, a Língua Inglesa aparece como aquela mais utilizada na facilitação do acesso de falantes de várias origens e de diferentes línguas e nacionalidades às manifestações culturais, políticas, sociais, históricas de povos espalhados ao redor do mundo, tornando-se, dessa maneira, uma espécie de moeda de troca agregadora de pessoas distanciadas física e culturalmente.\n\nSem uma língua comum e sem os meios de comunicação virtuais, o contato entre nós e os outros e vice-versa ficaria muito mais difícil e, às vezes, até impossível, daí a relevância do caráter social que essa língua possui no mundo contemporâneo.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dc2bfe2bd27b1d6006ab30e09522087d2b0fff503c75be3ed",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 579,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 625,
+      "output_tokens_details": {
+        "reasoning_tokens": 180
+      },
+      "total_tokens": 1204
+    }
+  },
+  "created_at": "2026-09-22T23:23:57Z",
+  "duration_seconds": 4.635,
+  "error": null,
+  "excerpt_id": "rs_inf_e_ef_10",
+  "filename": "rs_inf_e_ef_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a398df5a6d772596827fca3040dfe4aa6f7dec14af8b0edb98a605644406e783",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c1b871e39c4c1b549fb380c40f000edc2843c2514f14d141a4a06da7ce73ca12",
+    "rendered_prompt_sha256": "7c863396e9f2becb11447605cabdae23c68bca22afbee0bc51eb64ba624ce43f",
+    "source_text_sha256": "ddeb02ad376f4ab7c6f684cf9a514c9b2d57c9bd5ebdcb50f18e80efb5ca8f9e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_e_ef_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3661,
+    "filename": "rs_inf_e_ef_10.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_e_ef_10.txt",
+    "state": "rs",
+    "word_count_original": 322
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_e_ef_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_e_ef_10.json"
+  },
+  "raw_response_text": "## 1.7 Educação Integral\n\nA BNCC afirma o comprometimento com a educação integral dos sujeitos. Desta forma, o Referencial Curricular Gaúcho ratifica que esta perspectiva se constitui como um dos princípios norteadores na construção deste momento educacional.\n\nA educação integral vem sendo discutida, no Brasil, desde o Manifesto dos Pioneiros, em 1930. Diferentes propostas multifacetadas sobre esta temática desenharam alguns projetos em todo território brasileiro.\n\nNesse sentido a percepção dos sujeitos na sua integralidade humana, como sujeitos sociais, culturais, éticos e cognitivos, permite compreender e aceitar que todos os estudantes são iguais em capacidades, sendo as desigualdades reflexo dos diferentes contextos. E é nessa perspectiva que este documento assume o propósito de garantir a todos os envolvidos na seara educativa o direito de aprender. Este direito fundamental inscrito na Constituição Federal do Brasil e em tantos outros dispositivos legais e normativos precisa estar presente nos projetos educativos, considerando as experiências significativas em todos os âmbitos da formação humana, as descobertas e aprendizagens que dão sentido às trilhas curriculares.\n\nImporta alinhar conceitos ao considerar o Referencial Currículo Gaúcho - Educação Integral e Escola em Tempo Integral: a) Escola em Tempo Integral pressupõe ampliação da jornada escolar em no mínimo 7 horas, e uma proposta pedagógica que pense o Currículo de forma a atender o estudante neste espaço de tempo; b) Educação Integral não é o mesmo que Escola em Tempo Integral, ou seja, não está relacionada, diretamente com jornada escolar. É entender o estudante em seu desenvolvimento global.\n\nComo a própria BNCC trazem seu texto introdutório, implica “compreender a complexidade e a não linearidade desse desenvolvimento, rompendo com visões reducionistas que privilegiam ou a dimensão intelectual (cognitiva) ou a dimensão afetiva”. Exige uma visão plural, singular e integral da criança, do adolescente, do jovem e do adulto e suas capacidades de aprendizagem.\n\nCabe agora, aos educadores, assumir a intenção pedagógica de elaborar o currículo, considerando a Educação Integral como eixo central deste processo construído coletivamente.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

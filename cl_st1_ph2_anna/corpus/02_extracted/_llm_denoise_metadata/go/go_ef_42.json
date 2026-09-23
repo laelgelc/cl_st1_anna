@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a90a7d87f581f07006ab30109b4fc87d296af6525bb62ed23",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 853,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 829,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 1682
+    }
+  },
+  "created_at": "2026-09-22T22:28:31Z",
+  "duration_seconds": 6.056,
+  "error": null,
+  "excerpt_id": "go_ef_42",
+  "filename": "go_ef_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7aac7ef9db7e4a7aa078af6bedaaceae99c4d90d92f7a4595b6651420d4f37c4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9c8089b82b34d0490f722c5575d4ad394669ea55880482f3bd372976380782c8",
+    "rendered_prompt_sha256": "841f649755fc334e9c9c818c4d40fb5ee0db12a1452d5dec69abdbdcce5c5813",
+    "source_text_sha256": "dfcd645d48605adb1082c9c962de8018ecfbc64cf585071305ac8bfba79115b1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_ef_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1119,
+    "filename": "go_ef_42.txt",
+    "filepath": "corpus/00_source_per_state/go/go_ef_42.txt",
+    "state": "go",
+    "word_count_original": 494
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_ef_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_ef_42.json"
+  },
+  "raw_response_text": "## Educação Escolar Indígena\n\nComo em todo o território brasileiro, o estado de Goiás também tem povos indígenas, escolas indígenas e muitos estudantes indígenas em situação de itinerância. Para abarcar todos esses estudantes, em especial os de origem Avá Canoeiros, Tapuia, Xavante, Chiquitano e Jagañu, que são a maioria em Goiás, há professores intérpretes que podem ser das etnias ou não, e passam por formações especiais, a fim de manter as tradições e propiciar o processo educacional.\n\nPara a FUNAI – Fundação Nacional do Índio (2009), os povos indígenas têm direito a uma educação escolar específica, diferenciada, intercultural, bilíngue/multilíngue e comunitária, conforme define a legislação nacional que fundamenta a Educação Escolar Indígena. A política educacional guarda relações inerentes com outras políticas e ações, desenvolvidas pela FUNAI e por outros órgãos de governo, voltadas aos povos indígenas, como políticas voltadas à gestão territorial, à sustentabilidade, à saúde, etc. Por isso, a harmonização dessas ações convergentes é fundamental para o estabelecimento de relações do estado com povos indígenas, reconhecendo e respeitando a autonomia destes e suas formas próprias de organização, inclusive as educacionais, com línguas orais, bem como diferenciadas metodologias de ensino e aprendizagem. Nessa perspectiva, o DC-GO, em suas habilidades, reforça a necessidade do estudo sobre os povos indígenas do estado, visando a que nossos estudantes possam se reconhecer, enquanto indígenas, ou conhecer a importância deles na formação territorial, socioeconômica e cultural brasileira, em especial do estado de Goiás.\n\n## Educação de Crianças e Adolescentes com Distorção de Idade-Ano\n\nPara o MEC (1996), a distorção idade-ano é a proporção de estudantes com mais de 2 anos de atraso escolar. Diversos são os motivos desse atraso, cabe à instituição de ensino verificar e propor a melhor forma de resolver essa distorção, além de garantir o desenvolvimento das habilidades essenciais, demonstradas nesse documento, para cada ano escolar.\n\nAs principais causas da distorção em Goiás, apontadas em pesquisas, como as do IBGE (2010), são a evasão e o abandono escolar, todavia existem causas primárias que contribuem para estas, e apesar de muitas vezes estarem intimamente ligadas à situação socioeconômica do estudante (trabalho infantil e adolescente), isso nem sempre é fator determinante. Uma das principais consequências da distorção idade-ano é o baixo desempenho dos estudantes em atraso escolar e a relação leitura/escrita/interpretação, quando comparados aos estudantes regulares e a reprovação, o que pode ser evidenciado pelos resultados inferiores aos esperados nas avaliações nacionais e estaduais do Ensino Fundamental.\n\nTurmas especiais, avaliações específicas, horários diferenciados e estratégias próprias para esses estudantes são ações de extrema importância para a correção da distorção e para a garantia do aprendizado real. O estado de Goiás possui políticas educacionais nesse sentido (estaduais e municipais) e incentiva todas as instituições a procurarem os órgãos responsáveis para realizarem essas correções, tão importantes para os estudantes goianos. O DC-GO chama a atenção de professores e instituições de ensino para estarem sempre em acordo com o Estatuto da Criança e do Adolescente (1990).",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

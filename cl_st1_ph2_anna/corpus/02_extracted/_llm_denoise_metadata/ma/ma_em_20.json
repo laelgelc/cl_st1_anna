@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03afe17dec4f04c3006ab3020a9ce487d29e191b7654bdbd3a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1664,
+      "input_tokens_details": {
+        "cache_write_tokens": 1661,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1937,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3601
+    }
+  },
+  "created_at": "2026-09-22T22:32:56Z",
+  "duration_seconds": 14.802,
+  "error": null,
+  "excerpt_id": "ma_em_20",
+  "filename": "ma_em_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3c097425b422115d3f6c6318905dbaa3cf709f58098f6fdd11000d1bbb82025a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f836403c93a03290d7dbbc541b5d86a1d247e2f116c82293a7babbcc488e1a77",
+    "rendered_prompt_sha256": "ef167903a99a9c15286156e7c89205a009e8d4f79d7cdaa8946395e893ac3336",
+    "source_text_sha256": "7cc90cb4ffc2462e4e27090d491d15589fa77026d09cd1413e185b2f2c06531b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1307,
+    "filename": "ma_em_20.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_20.txt",
+    "state": "ma",
+    "word_count_original": 812
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_20.json"
+  },
+  "raw_response_text": "# A avaliação de competências\n\nQuando olhamos a avaliação pelo prisma das competências, não há possibilidade das práticas antigas de avaliação, baseadas na punição ou recompensa, seleção ou classificação, persistirem na escola. O foco nas competências eleva as práticas pedagógicas e, consequentemente, as práticas avaliativas a um nível de equidade em que todos podem ter a possibilidade de andar juntos e crescer na coletividade.\n\nEstas competências ao longo da escolaridade estarão refletidas nos interesses, habilidades e escolhas dos estudantes, possibilitando que eles se desenvolvam na vida e em qualquer circunstância compreendendo os fenômenos sociais, culturais, políticos e econômicos, posicionando-se com ética, criticidade e participação.\n\nMas o que são essas “competências”? Segundo a BNCC, pode-se entender por competência\n\n> a mobilização de conhecimentos, habilidades, atitudes e valores para resolver demandas da vida cotidiana, do exercício da cidadania e do mundo do trabalho. Isso significa que competência é aquilo que permite aos estudantes desenvolverem plenamente cada uma das habilidades e aprendizagens essenciais estipuladas pela Base (BNCC).\n\nAs competências gerais devem nortear todas as ações pedagógicas da escola, e se desdobram em habilidades e/ou capacidades em cada área de conhecimento, componentes curriculares, unidades de ensino, eletivas ou o que mais compuser a trajetória formativa. As competências implicam a formação do estudante para o mundo a partir de sua realidade, para que, por meio da investigação e intervenção, possa assumir responsabilidades, respeitando e valorizando o que já foi construído historicamente pela humanidade, e indo mais além, no sentido de construir o futuro.\n\n## Competências gerais: como avaliar?\n\nO trabalho curricular que envolve conteúdos isolados não cabe mais na perspectiva de desenvolver competências para a vida, considerando o passado a caminho do futuro de forma interventiva, consciente e responsável. Um desafio para os educadores, mas um desafio possível e plausível diante da grande revolução que estamos vivendo na atualidade. A seguir, uma orientação, que pode ser ampliada por cada professor, a partir de sua área de conhecimento, em um exercício de traçar capacidades que estão relacionadas diretamente com as competências gerais da BNCC, importante para ajudar na definição das práticas avaliativas e no processo decisório de ajuizamento de valores sobre o desenvolvimento estudantil.\n\n## Avaliação da aprendizagem e as competências\n\n### Competências gerais da BNCC\n\n**AVALIAR – coletar evidências de aprendizagem que demonstrem as capacidades de:**\n\n1. **Conhecimento**\n   - dominar e empregar conhecimento aprendido nas atividades escolares e na vida prática;\n   - articular conhecimentos em uma mesma área ou em áreas curriculares diferentes;\n   - orientar ou reorientar suas escolhas a partir do conhecimento apreendido.\n\n2. **Pensamento científico, crítico e criativo**\n   - resolver situações-problema, refletir e investigar um assunto e apresentar soluções;\n   - desenvolver pensamento crítico e apresentar ideias inovadoras;\n   - apresentar desenvolvimento cognitivo, como atenção, memória, percepção e raciocínio.\n\n3. **Repertório cultural**\n   - desenvolver consciência multicultural, curiosidade e experimentação;\n   - ampliar a visão de mundo a partir de culturas distintas.\n\n4. **Comunicação**\n   - dominar repertórios da comunicação e multiletramento como acesso a diferentes plataformas e linguagens;\n   - possibilitar interação social.\n\n5. **Cultura digital**\n   - ampliar o contato com ferramentas digitais, multimídia e linguagem digital;\n   - usar, com qualidade social e ética, os elementos constitutivos da cultura digital.\n\n6. **Trabalho e projeto de vida**\n   - compreender suas capacidades e aptidões por meio da ampliação de possibilidades, a partir do conhecimento escolar;\n   - exercitar a determinação com esforço próprio e coletivo;\n   - aplicar, com coerência, a autoavaliação.\n\n7. **Argumentação**\n   - domínio de conhecimentos necessários à construção de teses;\n   - consciência sobre modos de expressão e domínio da linguagem;\n   - respeito às diferentes opiniões e formação de argumentos próprios.\n\n8. **Autoconhecimento e autocuidado**\n   - reconhecimento de emoções e sentimentos que interferem em suas decisões e escolhas;\n   - analisar suas atitudes e o impacto coletivo das mesmas;\n   - zelar pela escola, professores, colegas, parceiros e por si mesmo.\n\n9. **Empatia e cooperação**\n   - estabelecer diálogo com o mediador de conflitos;\n   - acolher o outro quando necessário;\n   - firmar parcerias.\n\n10. **Responsabilidade e cidadania**\n    - participar ativamente do próprio processo de aprendizagem;\n    - enfrentar desafios com autoconfiança e responsabilidade;\n    - identificar os problemas atuais ao seu redor e interessar-se pela melhoria da vida social;\n    - demonstrar valores humanitários em sua vida escolar e social.\n\nAo observarmos as competências, podemos entender a dimensão do processo formativo que está proposto para os educadores, escolas e redes. Não se trata de avaliar conteúdo, mas de coletar evidências sobre a aprendizagem, e isso implica total mudança de direção das práticas avaliativas. Será bem difícil, para não afirmar a impossibilidade, que apenas um instrumento avaliativo seja capaz de investigar o desenvolvimento das dez competências propostas; será preciso o uso articulado de instrumentos para um levantamento mais qualitativo das aprendizagens e a definição de tempos para realização das sínteses avaliativas.\n\nAo avaliar, por exemplo, se o estudante consegue realizar um cálculo abstrato que envolve fórmulas e probabilidades, a situação de avaliação na perspectiva das competências poderá ser ampliada para a observação do desenvolvimento de articulação de conhecimentos (competência 1), nas resoluções de situações-problema apresentando soluções (competência 2) ou mesmo no uso de linguagem apropriada (competência 4) na escrita da argumentação e resposta. Se a metodologia aplicada envolver interação entre os estudantes em grupos e exposição das respostas, as capacidades se ampliam e podem ser identificadas questões relativas a outras competências que envolvem ética, técnicas de exposição de trabalho, uso da linguagem oral e interação social (competências 5, 7 e 10).\n\nDe fato, não é necessário mapear todas as competências a cada instrumento avaliativo aplicado. Contudo, na perspectiva das competências, a visão do professor deve ampliar-se para a eleição de um repertório avaliativo que possibilite a análise de fatores que são constitutivos das mesmas, até para que a avaliação seja mais uma oportunidade de desenvolvimento das competências que permeiam todo trabalho pedagógico.\n\nNesse entendimento, a avaliação é também momento de aprendizagem e está a serviço de construções de significados e de trajetórias. Os instrumentos avaliativos devem sempre levar à reflexão. Pensar, agir, refletir, são operações mentais que devemos priorizar. A memorização está inclusa neste processo, sendo um dos subsídios para a reflexão num ambiente escolarizado, mas outras competências também devem ser desenvolvidas.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

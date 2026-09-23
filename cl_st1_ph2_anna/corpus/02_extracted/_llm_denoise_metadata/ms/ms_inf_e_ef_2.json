@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d741d503dc2fed1006ab303e1108087d29ff8e41109dd7868",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1885,
+      "input_tokens_details": {
+        "cache_write_tokens": 1882,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1840,
+      "output_tokens_details": {
+        "reasoning_tokens": 206
+      },
+      "total_tokens": 3725
+    }
+  },
+  "created_at": "2026-09-22T22:40:45Z",
+  "duration_seconds": 13.002,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_2",
+  "filename": "ms_inf_e_ef_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "961cdbf286a8e6fea77a5554c5a07864f2318c734e8cac38fef6cae8026569fb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "433b19374f1c276952a10eb59695d80dcb9f03db302693189d3d0ee2bbab764f",
+    "rendered_prompt_sha256": "ff75c44ece7fd4ff456e068474be47202257508799d848a976db6c6c40eea7e3",
+    "source_text_sha256": "c561876c2693daf3f7ce5a4412bbd528cd41bdbb19e1200b7e7105c8e95c8f8e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1738,
+    "filename": "ms_inf_e_ef_2.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_2.txt",
+    "state": "ms",
+    "word_count_original": 1171
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_2.json"
+  },
+  "raw_response_text": "# 1. INTRODUÇÃO\n\nA escola, enquanto instituição social cuja função é garantir acesso à educação formal, é o espaço em que profissionais da Educação Básica e seu público – constituído por crianças, adolescentes e jovens – promovem a socialização de informações, tradições e valores histórica e culturalmente constituídos com a finalidade de promover a construção de conhecimentos.\n\nAo longo do tempo, políticas públicas, orientações ideológicas e cenários econômicos específicos e as diversas transformações nas dinâmicas sociais determinaram que as práticas educacionais extrapolassem os aspectos meramente cognitivos. Atualmente, a escola se apresenta como ambiente de formação integral, inclusiva e interativa dos estudantes, refletindo as características da sociedade do século XXI.\n\nEssa formação implica, necessariamente, a adoção de práticas pedagógicas que explorem aspectos cognitivos, socioemocionais, culturais e políticos, proporcionando situações por meio das quais se estabeleçam e se fortaleçam as relações interpessoais, a cidadania e a democracia, com respeito e valorização da pluralidade de ideias. A ênfase desse trabalho recai no estímulo ao posicionamento crítico-reflexivo frente a fatos e informações, assim como em ações construtivas que favoreçam o desenvolvimento de competências para a vida em sociedade e o mundo do trabalho.\n\nPara isso, a escola precisa ser compreendida como espaço de produção e circulação do conhecimento, o que ocorre por meio de vivências que permitem compreender suas dimensões e seus impactos na sociedade. Para Libâneo (2014), a escola comprometida com a educação integral deve proporcionar ações pedagógicas, culturais e científicas, pois assim promoverá o desenvolvimento cognitivo, afetivo e moral.\n\nEm contraposição à tradição de práticas impositivas e reducionistas de repetição e memorização de conteúdos, a Base Nacional Comum Curricular visa à educação integral, adotando a premissa do “desenvolvimento humano global” (BNCC, 2017, p. 14). Assim, ao considerar crianças, adolescentes e jovens como agentes de seu aprendizado, abre-se a oportunidade para que eles se empoderem como cidadãos, como autores e construtores de conhecimentos.\n\nNesse contexto, o Currículo de Referência de Mato Grosso do Sul também reafirma o compromisso com a educação integral, a fim de assegurar a aprendizagem dos estudantes e promover o desenvolvimento das dez competências gerais da BNCC.\n\nA BNCC apresenta a definição de competência como “a mobilização de conhecimentos (conceitos e procedimentos), habilidades (práticas cognitivas e socioemocionais), atitudes e valores para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho” (2017, p. 8). Destaca-se que as competências exigidas para o século XXI visam à articulação de conhecimentos, atitudes e valores no que se refere às emoções e à autonomia, auxiliando no desenvolvimento pleno dos sujeitos, despertando para a colaboração, criatividade, autoconhecimento, comunicação, responsabilidade, pensamento crítico, resolução de problemas e abertura para o novo. A prática do professor, portanto, deverá estar pautada no desenvolvimento de habilidades, no conhecimento científico e na promoção de atitudes e valores para a convivência no século XXI.\n\nCorroborando o que acima se expõe, elencam-se as dez competências gerais da BNCC:\n\n1. Valorizar e utilizar os conhecimentos historicamente construídos sobre o mundo físico, social, cultural e digital para entender e explicar a realidade, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.\n2. Exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências, incluindo a investigação, a reflexão, a análise crítica, a imaginação e a criatividade, para investigar causas, elaborar e testar hipóteses, formular e resolver problemas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das diferentes áreas.\n3. Valorizar e fruir as diversas manifestações artísticas e culturais, das locais às mundiais, e também participar de práticas diversificadas da produção artístico-cultural.\n4. Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e digital –, bem como conhecimentos das linguagens artística, matemática e científica, para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao entendimento mútuo.\n5. Compreender, utilizar e criar Tecnologias Digitais de Informação e Comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares) para se comunicar, acessar e disseminar informações, produzir conhecimentos, resolver problemas e exercer protagonismo e autoria na vida pessoal e coletiva.\n6. Valorizar a diversidade de saberes e vivências culturais e apropriar-se de conhecimentos e experiências que lhe possibilitem entender as relações próprias do mundo do trabalho e fazer escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.\n7. Argumentar com base em fatos, dados e informações confiáveis, para formular, negociar e defender ideias, pontos de vista e decisões comuns que respeitem e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, com posicionamento ético em relação ao cuidado de si mesmo, dos outros e do planeta.\n8. Conhecer-se, apreciar-se e cuidar de sua saúde física e emocional, compreendendo-se na diversidade humana e reconhecendo suas emoções e as dos outros, com autocrítica e capacidade para lidar com elas.\n9. Exercitar a empatia, o diálogo, a resolução de conflitos e a cooperação, fazendo-se respeitar e promovendo o respeito ao outro e aos direitos humanos, com acolhimento e valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de qualquer natureza.\n10. Agir pessoal e coletivamente com autonomia, responsabilidade, flexibilidade, resiliência e determinação, tomando decisões com base em princípios éticos, democráticos, inclusivos, sustentáveis e solidários (BNCC, 2017, p. 9-10).\n\nAo transpor as competências e habilidades do currículo para a prática pedagógica, é necessário garantir os princípios da igualdade e da equidade constantes das Diretrizes Curriculares Nacionais Gerais para a Educação Básica – LDB (Lei 9394/96). Assim, além dos conteúdos compartilhados em todo o território nacional apresentados na BNCC, o Currículo de Referência de Mato Grosso do Sul aborda conteúdos locais, com suas especificidades humanas, culturais, históricas, geográficas, linguísticas, artísticas e biológicas.\n\nSalienta-se que o Currículo de Referência de Mato Grosso do Sul é instrumento basilar para a Secretaria de Estado de Educação, as Secretarias Municipais de Educação e as Instituições Privadas de Ensino elaborarem orientações curriculares e auxiliarem nos processos de revisão dos projetos pedagógicos das escolas a partir de suas próprias necessidades, sempre em regime de colaboração, com orientações aos envolvidos na gestão administrativa, formativa e pedagógica de todo o processo educativo.\n\nEste documento traz para os leitores, ao longo de suas páginas, a descrição do panorama histórico da educação de Mato Grosso do Sul, assim como um conjunto de temas contemporâneos – temáticas que podem ser articuladas de forma transversal em sala de aula, buscando uma abordagem integradora de acordo com a realidade local, permeando os diversos componentes curriculares. Além disso, apresentam-se a proposta de educação integral, suas estratégias de implementação e suas práticas. Abordam-se, ainda, aspectos relativos à avaliação – conceitos, características e modalidades – e à formação continuada, reiterando sua importância, suas propostas e sua finalidade. Por fim, são apresentadas as propostas do Referencial Curricular para a Educação Infantil e para o Ensino Fundamental ofertados nas escolas públicas e privadas de Mato Grosso do Sul.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

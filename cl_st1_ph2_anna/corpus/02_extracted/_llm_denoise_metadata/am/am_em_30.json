@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a94428cbcaeb7f4006ab2fd7eab0087d293597192b82ae4fd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 428,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 420,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 848
+    }
+  },
+  "created_at": "2026-09-22T22:13:22Z",
+  "duration_seconds": 4.467,
+  "error": null,
+  "excerpt_id": "am_em_30",
+  "filename": "am_em_30.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "902cd2145b5ad0d7e9ad3339ad6035b194a16cb409762eed29bb8ae05a4ba74b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c4f0b14c19fa22f5eb6132d357658e0291982ffb58dc584e66aeda542582e728",
+    "rendered_prompt_sha256": "0f3691cec398e5e92c50dfc0e316437321b9aaa8294015d6d096cba543d7f01d",
+    "source_text_sha256": "944652cec1a382a307fc2cd58fc7a75c48dca133b42a362a238fdc6b0f02ebaf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_30.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 390,
+    "filename": "am_em_30.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_30.txt",
+    "state": "am",
+    "word_count_original": 207
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_30.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_30.json"
+  },
+  "raw_response_text": "### 3.5 Recomendações para Elaboração de Itinerários Formativos\n\nCom objetivo de apoiar as redes e sistemas de ensino na proposição de itinerários formativos, apresentam-se a seguir, com base no guia Recomendações e Orientações para a Elaboração e Arquitetura Curricular dos Itinerários Formativos (2019), os aspectos que devem ser levados em consideração na construção e oferta dos Aprofundamentos de IF.\n\nIndependente do tipo de IF (Área de Conhecimento ou Formação Técnica e Profissional), a construção do itinerário formativo deve considerar:\n\n- Perfil dos estudantes, seus interesses e necessidades;\n- Quantidade de estudantes (a recomendação de que escolas com um número maior de estudantes ofereçam maior quantidade e variedade de Aprofundamentos para atender a sua demanda);\n- Equipe docente (disponibilidade de tempo, conhecimentos, as habilidades e as vocações dos professores);\n- Infraestrutura (estrutura e a quantidade de espaços físicos, equipamentos e materiais existentes ou possíveis de serem adaptados/adquiridos pela escola ou oferecidos por meio de parcerias com outras instituições ofertantes);\n- Potencialidades locais (potenciais, demandas e especificidades do território em que a unidade de ensino se localiza); e\n- No caso específico da Formação Técnica e Profissional, o potencial socioeconômico e ambiental e as demandas tanto do mercado do trabalho regional como as novas exigências ocupacionais geradas pelas transformações do mundo do trabalho.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

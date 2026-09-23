@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04eb40ad19757545006ab300c1053087d2be78966e268e43f0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 978,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1011,
+      "output_tokens_details": {
+        "reasoning_tokens": 210
+      },
+      "total_tokens": 1989
+    }
+  },
+  "created_at": "2026-09-22T22:27:20Z",
+  "duration_seconds": 7.508,
+  "error": null,
+  "excerpt_id": "es_inf_1_concepces",
+  "filename": "es_inf_1_concepces.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "61798683007fc16f76ce50ccbdaa18fdfffaecd8f28c7e09a3aaf5d7027c1153",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2aa12bda52d4147afe6e06015359102f8d2fc1166fb6740c589fbf509717517d",
+    "rendered_prompt_sha256": "1cd38369d8a112eec1ffdfa60e0691358df4c36b9d699d6c98e3ae163aacd217",
+    "source_text_sha256": "d410a6e2bd59760092cffd039cca61b0ed81b578e89b27e350e101164700fd6a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_1_concepces.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1051,
+    "filename": "es_inf_1_concepces.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_1_concepces.txt",
+    "state": "es",
+    "word_count_original": 556
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_1_concepces.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_1_concepces.json"
+  },
+  "raw_response_text": "# REFERENCIAL CURRICULAR DO ESPÍRITO SANTO – EDUCAÇÃO INFANTIL: CONCEPÇÕES E DESAFIOS\n\nO documento em pauta referencia-se na Base Nacional Comum Curricular – BNCC, aprovada pelo Conselho Nacional de Educação para esta etapa da Educação Básica (Resolução CNE/CP nº02/17), que define o conjunto de aprendizagens essenciais a que todos os estudantes têm direito. Isso significa que este documento busca contribuir com o trabalho do/a professor/a com os diferentes grupos etários - bebês, crianças bem pequenas e crianças pequenas, apresentados na BNCCEI.\n\nConforme a sociedade evolui a concepção de infância, também vai sendo transformada, tornando necessário que os professores/as, de igual modo, tenham um olhar sensível que garanta a especificidade da educação e do cuidado, vendo e percebendo a criança como um indivíduo que pertence à sociedade, que está inserido em sua cultura e dela aprende, tem sua forma de vivê-la e de expressá-la, por ela é influenciado e também a influencia. A inserção da criança de 0 a 5 anos de idade, no ambiente institucional possibilita mudanças significativas na sua identidade, ampliando suas maneiras de ver o mundo, repercutindo nas relações com seus pares.\n\nA Educação Infantil, primeiro segmento da Educação Básica, representa o fundamento do processo educacional das crianças. Ao ingressar nessa primeira etapa do processo de aprendizagem formal, muitas vezes, elas sofrem o impacto da separação do grupo social em que nasceram – a família, para se integrarem em uma nova situação de socialização estruturada - a escola. Esta, por sua vez, tem por objetivo ampliar o universo de experiências, conhecimentos e habilidades das crianças, diversificando e consolidando novas aprendizagens, favorecendo a socialização, a autonomia e a comunicação (BRASIL, 2017, p. 32).\n\nÉ crucial para o trabalho pedagógico do profissional da Educação Infantil, o entendimento da forma relacional e afetiva, ligada à vivência pessoal, que caracteriza o desenvolvimento das crianças nessa etapa. Nesse período de desenvolvimento as crianças reagem ao meio, guiadas pelas suas emoções, referenciando-se nas pessoas, com as quais estabelecem vínculo afetivo. Para entender o modo como a criança pensa, é essencial, portanto, que o/a professor/a a acolha, exercite uma escuta ativa, valorizando seus interesses, suas características individuais e suas primeiras experiências de interação nos grupos.\n\nEste Referencial corrobora o entendimento das DCNEI, que definem essa criança como:\n\n> Sujeito histórico e de direitos, que, nas interações, relações e práticas cotidianas que vivencia, constrói sua identidade pessoal e coletiva, brinca, imagina, fantasia, deseja, aprende, observa, experimenta, narra, questiona e constrói sentidos sobre a natureza e a sociedade, produzindo cultura (BRASIL, 2010).\n\nPortanto, no cotidiano das unidades de ensino enquanto espaço coletivo de cuidado e de aprendizagem, a criança é vista na sua constituição enquanto sujeito de direitos, que se desenvolve nas interações com o outro ao experienciar o ambiente coletivo que vivencia.\n\nO Referencial Curricular do Espírito Santo – etapa da Educação Infantil, com base nos conceitos e nas normativas da BNCC, reconhece os/as professores/as como sujeitos ativos e principais mediadores das aprendizagens da criança. Considera, de acordo com as DCNEI, os eixos norteadores interações e brincadeiras como o centro das práticas pedagógicas da Educação Infantil. Isso quer dizer que as interações e a brincadeira são a base na construção de cada criança como um ser único, sendo formas privilegiadas para ela ampliar seus afetos, suas sensações, percepções, memória, linguagem e sua identidade (OLIVEIRA et al, 2012).",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

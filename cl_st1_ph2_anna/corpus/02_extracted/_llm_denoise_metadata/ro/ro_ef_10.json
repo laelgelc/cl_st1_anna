@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00abf07c1a10b84d006ab30b61809487d2be57c8b68484c316",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 645,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 700,
+      "output_tokens_details": {
+        "reasoning_tokens": 199
+      },
+      "total_tokens": 1345
+    }
+  },
+  "created_at": "2026-09-22T23:12:39Z",
+  "duration_seconds": 5.828,
+  "error": null,
+  "excerpt_id": "ro_ef_10",
+  "filename": "ro_ef_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cb40cc2e100da1986eddec4e79bf5aa72907343fe742a76f03252cf11e7549c5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9a3e2372efee57031f91c53f40d54e7487b5c3c9a892b78241624aaafdd1eec9",
+    "rendered_prompt_sha256": "4fa01581a9799c2cd2be476ad156ae6b4a5bebccc2ed581d6e666843a209a6f8",
+    "source_text_sha256": "a964ea9fead05fa138923afd07aa06f80091c98b2530b587399d30e8e54bdf8a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3096,
+    "filename": "ro_ef_10.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_10.txt",
+    "state": "ro",
+    "word_count_original": 365
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_10.json"
+  },
+  "raw_response_text": "As Competências Gerais para o desenvolvimento humano devem sempre estar conectadas às habilidades de aprendizagem dos conteúdos em cada componente curricular e, devem considerar sempre, as faculdades cognitivas, emocionais, sociais e éticas do estudante.\n\nNas explicações de Penido (2018)[1], as 10 Competências Gerais, tratam: 1- dos conhecimentos, de como se desenvolve um conhecimento físico, digital, das Ciências Humanas, da matemática, como fazer para o estudante de apropriar dos mesmos; 2 - do pensamento científico, crítico para argumentar, problematizar o conhecimento adquirido e, ainda, o pensamento criativo; 3 - conhecimentos dos repertórios culturais (dança, músicas, artes, exposições); 4 - capacidade de comunicação (capacidade de escutar, compreender o que ouve, argumentar sobre, expressar ideias, ressentimentos, opiniões, e não somente a linguagem escrita, verbal, gestual, mais se utilizar de múltiplos meios de comunicação - mídias – blogs, vídeos, rádios; 5 - desenvolvimentos da cultura digital, conhecer o mundo tecnológico e saber lidar com estas ferramentas, de maneira crítica, ética, reflexiva); 6 - ter capacidade de argumentação com opiniões fundamentadas em elementos, evidências e dados necessários para criar e defender um bom argumento com convicção e sempre respeitando os direitos humanos e de inclusão a diversidade; 7 - capacidade de gerir a própria vida nos aspectos profissional, pessoal, acadêmica, estabelecendo metas, tendo disciplina e resiliência, persistência e desenvolver sonhos; 8 - esta é de caráter mais íntimo, promove o desenvolvimento pessoal do estudante, capacidade de autoconhecimento e cuidado, capacidade de conhecerem seus corpos, suas emoções e saber gerenciar-se, defenderem-se de situações de riscos, cuidar de sua alimentação, qualidade de vida; 9 - desenvolvimento social, capacidade de conhecer o mundo em que vivem e poderem ser agentes de transformação dessa realidade, conhecer seus direitos e deveres, exercer sua cidadania, com respeito, solidariedade, preocupados com a sustentabilidade, solidariedade, colaborativos e de cooperação com os demais; 10 - focada no desenvolvimento da autonomia, determinação de realizar todo o potencial das competências gerais.\n\nAs referidas Competências Gerais dialogam com as competências específicas dos diversos componentes curriculares e as habilidades contêm todos os subelementos dessas Competências Gerais.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d4ef284d0d3f0bf006ab30bcc5b9087d29e7d5759506937fa",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 640,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 645,
+      "output_tokens_details": {
+        "reasoning_tokens": 119
+      },
+      "total_tokens": 1285
+    }
+  },
+  "created_at": "2026-09-22T23:14:26Z",
+  "duration_seconds": 6.626,
+  "error": null,
+  "excerpt_id": "ro_ef_81",
+  "filename": "ro_ef_81.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dfe70322c25b7f642e26bafb962e20671cf27c4888dfc971bafa3a194110c9b8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "91dc0f8d0516a3d4300f738ca2d1990302c4d0fc9ea1ed87847f4a751688c426",
+    "rendered_prompt_sha256": "da76aba0cfb26c7a03424dc855dcb7c4f260234b1d42f2a887c5e6e7898e2be4",
+    "source_text_sha256": "d5a9d978ac20b27a30db4b40bf6c281ecda16db743118d7ebaf38bd4b7f4a987"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_81.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3185,
+    "filename": "ro_ef_81.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_81.txt",
+    "state": "ro",
+    "word_count_original": 397
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_81.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_81.json"
+  },
+  "raw_response_text": "### 9.6 ÁREA DE CONHECIMENTO: MATEMÁTICA\n\nO conhecimento matemático é necessário para todos os alunos da Educação Básica, seja por sua grande aplicação na sociedade contemporânea, seja pelas suas potencialidades na formação de cidadãos críticos, cientes de suas responsabilidades sociais.\n\nDiferentemente das demais ciências, a matemática, possui em seus pressupostos a inserção de saberes através de uma linguagem própria e única. É uma ciência que está presente nas atividades do cotidiano humano, nessa interface temos como exemplo: a receita de um bolo. Os conhecimentos matemáticos são utilizados desde o momento em que nascemos, mas muitas vezes, sem nos darmos conta dessa aplicabilidade.\n\nNesse sentido cabe à escola cumprir um papel essencial nesse processo de buscar uma compreensão profunda da importância desta ciência e levar o aluno a perceber de forma clara e objetiva, capacitando-o a unir o raciocínio lógico à sua vida diária. Faz-se necessário que o estudante elabore os seus próprios questionamentos e após a racionalização encontre as respostas. Sendo assim, os estudantes terão autonomia e serão capazes de criar, visto que, não é uma tarefa fácil neste mundo contemporâneo, onde os hábitos foram permeados para receber tudo pronto e acabado, sem grandes esforços.\n\nO Ensino da Matemática deve ter como compromisso o desenvolvimento do letramento matemático, definido como as competências e habilidades de raciocinar, representar, comunicar e argumentar matematicamente, de modo a favorecer o estabelecimento de conjecturas, a formulação e a resolução de problemas em uma variedade de contextos, utilizando conceitos, procedimentos, fatos e ferramentas matemáticas. O desenvolvimento dessas habilidades estão intrinsecamente relacionados a algumas formas de organização da aprendizagem matemática, com base na análise das situações da vida cotidiana, bem como de outras áreas do conhecimento de forma interdisciplinar. Os procedimentos matemáticos de resolução de problemas, de investigação, de desenvolvimento de projetos e da modelagem podem ser citados como formas privilegiadas da atividade dessa ciência, motivo pelo qual são, ao mesmo tempo, objeto e estratégia para a aprendizagem ao longo de todo ensino.\n\nAs competências especificadas possibilitam a articulação horizontal entre as áreas, perpassando por todos os componentes curriculares, e também mediante a articulação vertical, ou seja, a progressão entre o Ensino Fundamental dos Anos Iniciais para os Anos Finais e a continuidade das experiências dos alunos, considerando seus conhecimentos. Essa sistematização foi desenvolvida para se complementarem formando uma progressão na aprendizagem do aluno, perpassando por todas as etapas.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

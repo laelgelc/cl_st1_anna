@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d42d5f14a6b6d61006ab303ca820487d295a8364e0247f2d6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 733,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 757,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 1490
+    }
+  },
+  "created_at": "2026-09-22T22:40:16Z",
+  "duration_seconds": 6.158,
+  "error": null,
+  "excerpt_id": "ms_em_50",
+  "filename": "ms_em_50.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4b00aaf9b28ecd06d8485d3cd16fc7ffb75a085837e52c87e2bb12e9e8359ec6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bdc622292102230aec0c6b9cfeca37e55f4a70f2ccb5ee5f8ac2b114393d0d3a",
+    "rendered_prompt_sha256": "3d13020d6295268c148e219012a17466bf4953669c7c345f6ded864551c45c5a",
+    "source_text_sha256": "92781f9ac79ec808abd8029c6d1858707373c44cb2d9f531ba4e1866376929dc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_50.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1717,
+    "filename": "ms_em_50.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_50.txt",
+    "state": "ms",
+    "word_count_original": 371
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_50.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_50.json"
+  },
+  "raw_response_text": "**Avaliação:**\n\nA avaliação, processual e formativa, supõe o desenvolvimento de todas as etapas desta atividade de aprendizagem, de modo a contemplar os eixos estruturantes programados ao longo da unidade curricular. Assim, devem ser considerados tanto as discussões, o curta-metragem, a produção do artigo científico e a revista, utilizados para apresentação em eventos de culminância na escola, como as produções multimodais, em especial a produção de gêneros digitais.\n\nAlém da avaliação pelo professor, sugere-se que os colegas também possam avaliar, de forma colaborativa, o material produzido pela sua turma.\n\nAo avaliar, o professor deve verificar se as produções:\n\na) atendem ao tema, à estrutura textual;  \nb) expressam de forma adequada as informações e a contextualização;  \nc) apresentam justificativas e argumentos sólidos;  \nd) pautam informações pertinentes e diversificadas;  \ne) têm caráter autoral, ou seja, que não sejam cópias (plágios).\n\n**Observações:**\n\n- As versões em PDF das obras literárias sugeridas podem ser acessadas no site: http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=1843.\n- Sugestão de trechos da obra disparadora:\n\n> “Para dizer de forma simples: não importa quão diferentes seus membros possam ser em termos de classe, gênero ou raça, uma cultura nacional busca unificá-los numa identidade cultural, para representá-los todos como pertencendo à mesma e grande família nacional. Mas seria a identidade nacional uma identidade unificadora desse tipo, uma identidade que anula e subordina a diferença cultural?” (HALL, 2006. P. 59).\n\n> “Enfrentamos, de forma crescente, um racismo que evita ser reconhecido como tal, porque é capaz de alinhar \"raça\" com nacionalidade, patriotismo e nacionalismo. Um racismo que tomou uma distância necessária das grosseiras ideias de inferioridade e superioridade biológica busca, agora, apresentar uma definição imaginária da nação como uma comunidade cultural unificada” (HALL, 2006. P. 64).\n\n> “Quanto mais a vida social se torna mediada pelo mercado global de estilos, lugares e imagens, pelas viagens internacionais, pelas imagens da mídia e pelos sistemas de comunicação globalmente interligados, mais as identidades se tornam desvinculadas – desalojadas – de tempos, lugares, histórias e tradições específicos e parecem ‘flutuar livremente’\". (HALL, 2006. P. 75).\n\nComo se trata de discussões sobre a Identidade Cultural e a Pós-modernidade, é possível relacionar esta Unidade Curricular com as de outras áreas, como Ciências Humanas e Sociais Aplicadas.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

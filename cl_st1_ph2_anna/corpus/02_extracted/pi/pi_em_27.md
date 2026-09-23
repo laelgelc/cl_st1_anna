@@ -1,0 +1,51 @@
+# Área de Linguagens e suas Tecnologias
+
+## Parte Comum do Currículo Alinhado à BNCC e às DCN do Ensino Médio
+
+As áreas do conhecimento, compreendidas como um conjunto de conhecimentos inter-relacionados, coletivamente construídos e reunidos segundo a natureza do objeto de investigação, tem a finalidade de ensino, pesquisa e aplicações práticas. Nesse contexto, os componentes curriculares são agrupados em função das relações e afinidade entre eles, numa perspectiva interdisciplinar. As áreas são definidas em conformidade com a proposta de diferentes documentos oficiais, dentre os quais os PCNs, a Matriz do ENEM, as Diretrizes Curriculares Nacionais para o Ensino Médio e, atualmente, a Base Nacional Comum Curricular que estabelece:
+
+> Cada área do conhecimento estabelece competências específicas de área, cujo desenvolvimento deve ser promovido ao longo dessa etapa, tanto no âmbito da BNCC como dos itinerários formativos das diferentes áreas. Essas competências explicitam como as competências gerais da Educação Básica se expressam nas áreas. Elas estão articuladas às competências específicas de área para o Ensino Fundamental, com as adequações necessárias ao atendimento das especificidades de formação dos estudantes do Ensino Médio (BRASIL, 2018).
+
+Dentre as áreas do conhecimento, a área de Linguagens e suas Tecnologias, composta pelos quatro componentes curriculares (Língua Portuguesa; Língua Estrangeira – Inglês e Espanhol; Arte e Educação Física), trata os conhecimentos relativos à atuação dos sujeitos em práticas de linguagem. Mais do que objetos de conhecimento, são meios que possibilitam mobilizar e ampliar recursos expressivos para construir sentidos com o outro em diferentes campos de atuação e agir no mundo social em interações mediadas por palavras, imagens, sons, gestos e movimentos.
+
+Ao examinar a Base Nacional Comum Curricular para o Ensino Médio, considerando os aspectos sociais e contemporâneos cambiados pelas rápidas transformações decorrentes do desenvolvimento tecnológico, tem-se a clareza de que:
+
+> […] o foco esteja na ampliação da autonomia, do protagonismo e da autoria nas práticas de diferentes linguagens; na identificação e na crítica aos diferentes usos das linguagens, explicitando seu poder no estabelecimento de relações; na apreciação e na participação em diversas manifestações artísticas e culturais e no uso criativo das diversas mídias (BRASIL, 2018. p 46).
+
+Para isso, devem-se promover situações de aprendizagem significativas e relevantes para a formação integral dos estudantes, tendo em vista que é nessa etapa que se consolida o projeto de vida iniciado no Ensino Fundamental. Esses princípios estão explícitos no parágrafo 2º do artigo 7º das DCNEM:
+
+> […] o currículo deve contemplar tratamento metodológico que evidencie a contextualização, a diversificação e a transdisciplinaridade ou formas de interação e articulação entre diferentes campos de saberes específicos, contemplando vivências práticas e vinculando a educação escolar ao mundo do trabalho e à prática social (BRASIL, 2018).
+
+Nesse contexto, o trabalho de construção da proposta curricular piauiense está organizado considerando as competências e habilidades presentes na BNCC, respeitando o princípio da progressão da aprendizagem e a interdisciplinaridade. Espera-se, assim, que o ensino contribua para que o estudante ganhe autonomia e poder de decisão, mesmo diante de situações adversas. E que, empoderados desses seus conhecimentos, crenças, valores, e da consciência de seu potencial prossigam motivados, capacitados para agir, para a execução do seu projeto de vida e o exercício da cidadania.
+
+## Interface com o Ensino Fundamental
+
+A finalidade da área de linguagem na Educação Básica é ampliar a compreensão das práticas de linguagem de tal modo que os estudantes utilizem-nas em diferentes manifestações artísticas, corporais e linguísticas, continuando a aprender ao vivenciá-las. Percebe-se que práticas mais complexas e que apresentam padrões linguísticos e textuais, exigem um grau mais elevado de conhecimento e uma prática de reflexão mais aprofundada sobre o funcionamento da linguagem em uso e sobre suas propriedades.
+
+No Ensino Fundamental, é esperado que o estudante tenha se apropriado, pelo menos parcialmente, de práticas letradas de uso da linguagem mais complexas e menos cotidianas, em leitura e compreensão de textos orais, escritos, multissemióticos, assim como em sua produção de textos. Importante também que tenham tido contato com as línguas estrangeiras modernas, sobretudo o inglês. Assim compreendida, a área de Linguagens no Ensino Médio deverá propor o aprofundamento da reflexão crítica da realidade e dos diferentes modos de se expressar, criar, questionar, organizar, analisar, apresentar conclusões e produzir linguagens.
+
+Neste sentido, e dado o momento vivenciado (um momento no qual a informação e a comunicação são cada vez mais valorizadas), essa interface entre as duas etapas de ensino deve ocorrer na perspectiva de que o estudante consiga desenvolver a capacidade de se expressar tanto oralmente como de forma escrita, e também a de ler e entender textos e contextos.
+
+Assim, a articulação do Ensino Médio com o Ensino Fundamental está ancorada no desenvolvimento de competências e habilidades, a partir da aprendizagem contextualizada, integrada e articulada de conteúdos, conceitos e processos. O encaminhamento das práticas pedagógicas envolvidas no contexto escolar depende da efetiva compreensão desse percurso. A definição de competências engloba a mobilização de conhecimentos, habilidades, atitudes e valores para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho.
+
+As habilidades mencionadas nesta descrição dizem respeito às aprendizagens essenciais para cada disciplina e série. Iniciam-se sempre por um verbo que explicita o processo cognitivo envolvido que se deseja construir ou consolidar.
+
+Os objetos de conhecimento referem-se aos conteúdos, conceitos e processos abordados nas habilidades e podem ser identificados como complemento do verbo relacionado ao processo cognitivo em questão. Essa sistematização fica clara no quadro organizador curricular da área.
+
+## A Área de Linguagens e seus Componentes
+
+O desenvolvimento do ser humano está marcado historicamente pelo uso prático da linguagem, constituída a partir das interações sociais. Sobre esse tema, Bakhtin (1997) advoga que todos os domínios da atividade humana estão sempre relacionados com a utilização da linguagem. Essa prática se efetiva em forma de “enunciados” que surgem a partir das diversas formas de interações humanas. Este processo torna possível que o homem se torne sujeito de sua própria história como um ser histórico e social
+
+Neste contexto, pode-se inferir que a linguagem ultrapassa a dimensão meramente comunicativa no sentido de que os sujeitos se constituem por meio das interações sociais mediadas por ela. Bakhtin (1997) ressalta ainda que não falamos no vazio, os nossos enunciados (expressos de forma oral, escrita, através de gestos, manifestações artísticas) terão sempre um conteúdo temático, uma organização composicional e estilos próprios, que estarão ligados às condições de realização e às finalidades específicas de cada esfera de atividade.
+
+O ensinar, o aprender e o empregar a linguagem, nessa perspectiva, passa necessariamente pelos sujeitos, num processo intencional de expressar suas experiências, necessidades, inferências, vontades, de forma nunca acabada, sempre aberto, algo que está presente como aquilo que está por ser alcançado.
+
+Para Bakhtin (1997, p. 293), a vida humana é por sua própria natureza dialógica. Nesse sentido, destaca:
+
+> Significa tomar parte do diálogo: fazer perguntas, dar respostas, dar atenção, responder, estar de acordo e assim por diante. Desse diálogo, uma pessoa participa integralmente e no decorrer de toda sua vida: com seus olhos, lábios, mãos, alma, espírito, com seu corpo todo e com todos os seus feitos. Ela investe seu ser inteiro no discurso e esse discurso penetra no tecido dialógico da vida humana, o simpósio universal.
+
+A propósito do tema, os Parâmetros Curriculares Nacionais (BRASIL, 1997, p. 126) defendem a importância e o valor dos usos da linguagem como determinados historicamente segundo as demandas de cada momento como está descrito: “A organização do espaço social, as ações dos agentes coletivos, normas, os costumes, rituais e comportamentos institucionais influem e são influenciados na e pela linguagem, que se mostra produto e produtora da cultura e da comunicação”.
+
+Portanto, incorporada em uma sociedade complexa, a escola precisa oferecer aos estudantes condições de melhoria e ampliação na capacidade discursiva do sujeito, para que possam desempenhar as atribuições que lhe são impostas na contemporaneidade visto que as exigências dos níveis de leitura e de escrita são diferentes e muito superiores aos que satisfaziam as demandas sociais em tempo atrás. Isso porque, as linguagens nas diversas formas de expressão são carregadas por visões de mundo, que suscitam um conjunto de significados e significações que vão além do seu aspecto formal. As diversas representações contribuem para a formação geral do aluno, oferecendo possibilidades de escolhas, mesmo que restritas por princípios sociais, podendo conservar/e/ou transformá-la.
+
+Dessa forma, compete à escola possibilitar as condições dos seus membros fazerem uso dos diferentes discursos, nas diferentes modalidades (oral, escrita, artística, corporal), considerando suas necessidades pessoais e sociais. Os processos de concretização das intencionalidades da linguagem devem estar relacionados às ações efetivas do cotidiano, à transmissão e busca de informação, ao exercício da reflexão e da criatividade humana como produtora de cultura. Assim, a linguagem assume papel fundamental nessa concepção de cultura, porque é vista como termo geral para práticas de representação ocupando posição privilegiada na produção e circulação dos significados.

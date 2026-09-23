@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03864df9c0e0042f006ab30ae289f087d2accd23eaadcdb506",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 691,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 654,
+      "output_tokens_details": {
+        "reasoning_tokens": 63
+      },
+      "total_tokens": 1345
+    }
+  },
+  "created_at": "2026-09-22T23:10:31Z",
+  "duration_seconds": 4.731,
+  "error": null,
+  "excerpt_id": "rn_ef_33",
+  "filename": "rn_ef_33.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f9ebbf7182fa21b3a9d41789b5e828a50beaab880adee44a404b25813d9a40a2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b921b5eb2ad8bee5fced34cb0ecbe8c0c8bf2d54471dda63e3cf4374a6d01198",
+    "rendered_prompt_sha256": "7d6712b33a944c1800fc06bcfaa5e8c08309132511c2fdfe3d413b5ee36bce6a",
+    "source_text_sha256": "045447f7c7a7375b005644508c6c6f397b446088459f805bfc5438c1e8adbe63"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_33.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2972,
+    "filename": "rn_ef_33.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_33.txt",
+    "state": "rn",
+    "word_count_original": 419
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_33.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_33.json"
+  },
+  "raw_response_text": "## Lutas\n\nEssa unidade trata de uma modalidade cujo termo é utilizado em vários contextos. Aqui, nós nos ateremos especificamente às lutas corporais, caracterizadas pelo enfrentamento físico direto entre pessoas e regido por regras preestabelecidas. Nas lutas, as ações são simultâneas e imprevisíveis, com o foco no corpo do oponente, e o modo e a intensidade do contato variam conforme a modalidade da luta. Suas regras servem para manter a segurança de todos. Para acontecer o enfrentamento, ocorrem ações de ataque e de defesa, sendo necessário que os praticantes mantenham sempre a atenção. As lutas preservam questões históricas e filosóficas, por meio dos trajes, das saudações, entre outras características. Existem alguns fatores que dificultam as práticas das lutas na escola, como o preconceito com relação a elas, a falta de materiais e de condições de infraestrutura e a formação insuficiente – observa-se que as escolas que desenvolvem mais as lutas em seu currículo são, em geral, as que possuem um ou mais professores que já foram atletas de luta. No entanto, não é objetivo da aula de Educação Física formar atletas, não necessitando, portanto, que o professor seja um especialista. Do profissional que vai atuar no segmento, exige-se apenas o domínio de conhecimentos que subsidiem suas intervenções (RUFINO, 2015).\n\nPrecisamos pensar em como democratizar o ensino das lutas nas escolas, respeitando as individualidades e buscando o desenvolvimento humano, a aprendizagem de conceitos, os procedimentos e as atitudes das mais diversas práticas da cultura de movimento. Assim, os jogos surgem como possibilidade para o ensino das lutas, que são transformadas em estratégias lúdicas, mas sem perder de vista suas características originais. Um exemplo é o pega-pega em dupla com prendedores, brincadeira que permite algumas ações vinculadas às lutas.\n\nSegundo Rufino (2015), há algumas classificações que agrupam as lutas de acordo com suas especificidades, podendo ser quanto à imprevisibilidade das ações: ações de forma e demonstração (Katas) e ações de enfrentamento físico direto (lutas esportivizadas); ou quanto às distâncias: curta (judô), média (boxe) e longa (esgrima). Outros aspectos essenciais a ser ensinados são: história das lutas (contexto e transformações), lutas versus brigas, práticas previsíveis e imprevisíveis, aspectos gerais sobre as lutas, noções de distância entre as lutas e entendimento de algumas modalidades.\n\nPor sua vez, ao ensinar as lutas, o professor precisa ter alguns cuidados com relação às formas de apresentação das informações, à questão de gênero, à segurança, à inclusão e ao método de avaliação, que deve ser contínua e não só ao final de cada bimestre.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_088313430a8320b9006ab30ddf2fd887d2bd780fc5fe5d8158",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 994,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1155,
+      "output_tokens_details": {
+        "reasoning_tokens": 304
+      },
+      "total_tokens": 2149
+    }
+  },
+  "created_at": "2026-09-22T23:23:18Z",
+  "duration_seconds": 7.76,
+  "error": null,
+  "excerpt_id": "rs_em_76",
+  "filename": "rs_em_76.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d0aa253032d7f223bf901298626c34773c0f9be6cd1f76d904340e3ae2466df2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c024b391f11eacc0e0e023145a7394bf7264fe52e8660a0e0361a081e669ecb8",
+    "rendered_prompt_sha256": "74b3edafdbc1f7475d921eaa9a76637e97a34550764f1507c7c3fc3355057077",
+    "source_text_sha256": "fa67d56959f0e150ef11909c65aa050bb1b8cfb4bc061bdd72d867afad4b7c87"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_76.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3623,
+    "filename": "rs_em_76.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_76.txt",
+    "state": "rs",
+    "word_count_original": 529
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_76.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_76.json"
+  },
+  "raw_response_text": "### 4.3 AVALIAÇÃO DA APRENDIZAGEM\n\nAs redes de ensino e suas mantenedoras, em conjunto com as escolas e as especificidades dos territórios, constroem com a autonomia prevista na legislação vigente e em gestão democrática, respeitadas as prerrogativas, a pluralidade da natureza e as instâncias que ofertam ensino no Rio Grande do Sul, a proposta pedagógica para cada escola ou para as redes.\n\nA avaliação da aprendizagem é ação pedagógica contínua e emancipatória, momento igualmente de aprendizado, integrado ao conjunto das previsões filosófico-pedagógicas construídas pelas redes e escolas, preferencialmente, em parceria entre as instituições de ensino dos territórios e observando as políticas educacionais previstas neste RCGEM.\n\nA LDBEN preconiza que os professores devem superar a ideia de avaliação somente por notas e resultados, enfatizando a aprendizagem dos estudantes, como também verificando seu rendimento escolar, realizando avaliações contínuas e cumulativas do desempenho do estudante, com prevalência dos aspectos qualitativos sobre os quantitativos.\n\nPortanto, indica-se que a avaliação da aprendizagem nas determinações deste RCGEM siga as normas estabelecidas pela legislação vigente e desenvolve-se em consonância com a LDBEN, art. 9º, inciso VI; art. 13, inciso V; art. 24, inciso III alínea c, inciso I alínea a; art. 35A, § 6º e § 8º; art. 36, § 14; art. 47, § 2º; art. 80, § 3º; art. 87, 3º inciso IV –, com o PNE – art. 11 § 5º da Lei nº. 13.005/2014; Meta 3, Estratégia 3.6; Meta 4, Estratégia 4.4; Meta 7, Estratégia 7.3, 7.4, 7.7, 7.11; Meta 9, Estratégia 9.6; Meta 19, Estratégia 19.6 –, com o PEE-RS (Lei nº. 14.705/2015) – Meta 2, Estratégias 2.5 e 2.11; Meta 3, Estratégias 3.11 e 3.14; Meta 4, Estratégias 4.7 e 4.31; Meta 7, Estratégia 7.9 –, com as normativas do CEEd-RS – Parecer nº. 03/2019 – respeitando-se as particularidades e identidades de cada rede com o objetivo precípuo de promover o conhecimento científico, aprimorar – através da FGB, dos IFs, das Eletivas, das Transversalidades e do Projeto de Vida – o protagonismo juvenil, o crescimento integral dos indivíduos, as competências e habilidades individuais para realização pessoal e profissional e o desenvolvimento coletivo.\n\nA avaliação da aprendizagem deve transitar pela ideia de encontro, de abertura ao diálogo e de interação. A interação é a condição básica para o sucesso da avaliação que precisa estar ligada a uma concepção de educação com condições de apontar rumos, seduzir os estudantes e despertar curiosidades, pelas posturas pedagógicas de mediação. Este RCGEM assume a conceitualidade de Jussara Hoffman para pensar a avaliação da aprendizagem e defende que a qualidade da aprendizagem, o tempo e o ritmo com que cada estudante aprende são fundamentais para que a avaliação, ao olhar as individualidades e as processualidades construtivas do conhecimento compreenda e considere a heterogeneidade das juventudes e foque na integralidade como avaliação do conjunto de elementos envolvidos na prática pedagógica. Parece ser nessa perspectiva que Hoffmann (2001, p. 45) compreende a avaliação mediadora como uma ação sistematizada e intuitiva que se constitui no cotidiano da sala de aula e toma uma forma provocadora de situações importantes e decisórias, coletivas e integrais, em prol da qualificação da educação.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

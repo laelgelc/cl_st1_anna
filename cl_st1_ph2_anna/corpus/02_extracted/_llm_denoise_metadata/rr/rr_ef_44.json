@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b0f19fc4e23358b006ab30ce701d887d2b0fde6c0b803079d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 340,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 514,
+      "output_tokens_details": {
+        "reasoning_tokens": 266
+      },
+      "total_tokens": 854
+    }
+  },
+  "created_at": "2026-09-22T23:19:08Z",
+  "duration_seconds": 5.097,
+  "error": null,
+  "excerpt_id": "rr_ef_44",
+  "filename": "rr_ef_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "12bbe465604e308efcc9197c9b3363dd21bfd30a618f1e31b6d16bdad978ee49",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3e25f5be26d4ac549dfeffba966cb85eb2120c48d89c20d165b586c4a7b2a96e",
+    "rendered_prompt_sha256": "a891b772cfd7759a11c00d07a489ccfb98513143cfd2cbb830c34e19ca3b6d9b",
+    "source_text_sha256": "2717ba4f86273dcf90073a6ded44900cd24d3ea0ab1775d58b03c17f79ba4917"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3412,
+    "filename": "rr_ef_44.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_44.txt",
+    "state": "rr",
+    "word_count_original": 188
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_44.json"
+  },
+  "raw_response_text": "### 4.10.3 AVALIAÇÃO\n\nA avaliação do componente curricular de História não deve ser vista como algo engessado, preso somente à ideia de “prova”, mas observado no conjunto e de forma contínua. Desse modo, consideramos que avaliar os conhecimentos dos alunos relacionados às aprendizagens da componente curricular de História é observar como se posicionam a respeito dos temas, se entendem os conceitos e de que forma podem aplicar esses conhecimentos em seu cotidiano. O processo avaliativo para identificar a aprendizagem dos alunos resulta de atividades associadas a leituras de diversas fontes, tais como textos, objetos, pesquisas de campo, entre outras possibilidades de consulta.\n\nA participação coletiva de leitura e interpretação e, nessas atividades, fazer suas avaliações, assim como avaliar seminários, projetos de pesquisa de campo, trabalhos em áudio e vídeo, entre outras formas de provocar aprendizagens sobre história. Trabalhos em grupo ou duplas são bem recebidos pelos alunos e, nessa interação de uns com os outros, as aprendizagens podem se potencializar, contribuindo para que os alunos percebam a importância do componente curricular no contexto social, assim como a contribuição de cada um na construção do conhecimento histórico escolar.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

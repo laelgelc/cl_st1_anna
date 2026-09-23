@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_068a28f60e30d996006ab3070dc00487d2b764e09d05401f76",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 896,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1057,
+      "output_tokens_details": {
+        "reasoning_tokens": 251
+      },
+      "total_tokens": 1953
+    }
+  },
+  "created_at": "2026-09-22T22:54:14Z",
+  "duration_seconds": 8.629,
+  "error": null,
+  "excerpt_id": "pb_em_120",
+  "filename": "pb_em_120.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "595159c6fe402a6849309ea113b9ef3e1c62a89f497fcd48c7bf009a2ab969d2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b402fd00b6589fe1d38c50c3d836588da97de83807a33b6ab47b8f48603f8106",
+    "rendered_prompt_sha256": "c68d8d3d6ece45fa94e8d6baf8360f4a855bc338819a03587d6e594e64d873ac",
+    "source_text_sha256": "40394f779b161c3ef01a78ee749f13a06d55352c2f264ae955839494eb128ccd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_120.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2256,
+    "filename": "pb_em_120.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_120.txt",
+    "state": "pb",
+    "word_count_original": 569
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_120.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_120.json"
+  },
+  "raw_response_text": "### 4.4.4. COORDENADOR DE ÁREA TÉCNICA\n\nO coordenador de área técnica é uma peça importante para o desenvolvimento das atividades em um contexto de ensino profissionalizante, visto que esse cargo é o responsável pelo acompanhamento das atividades relacionadas à sua área de ensino, a partir das Normativas Institucionais, das Normas Internas e do Projeto Pedagógico da Modalidade de Ensino a que está conectado.\n\nPara o desenvolvimento de suas atribuições, o coordenador de área deve organizar o trabalho dos professores e acompanhar os seus desempenhos, promovendo reuniões e momentos de planejamento pedagógico coletivo, orientando as ações específicas de cada área para garantir que a área técnica funcione com eficiência.\n\nPara além da atuação próximo aos professores técnicos da Instituição, o coordenador de área técnica é a ponte para a Gestão e os demais envolvidos, sendo a representação das decisões e encaminhamentos da área. Assim, o papel do coordenador de área contribui com o alcance de metas e atividades que a Instituição queira desenvolver a partir da área técnica, facilitando a execução de ações junto aos membros da área.\n\n### 4.4.5. COORDENADOR DE ESTÁGIO (ANÁLISE DO SETOR PRODUTIVO)\n\nO coordenador de estágio tem como principal objetivo e papel consolidar e ampliar os conhecimentos dos estudantes, por intermédio de uma articulação entre teoria e prática, no contato direto com o campo de trabalho. Desse modo, suas atribuições são de extrema importância para a realização dos estágios externos dos estudantes.\n\nAs parcerias com o setor produtivo, captação de empresas, orientação e acompanhamento dos estudantes são suas competências. Ele também deve estar atendo às leis de estágio, para esse acompanhamento do estudante, e acompanhar seu desempenho durante suas atividades. Ainda, além das atribuições, o coordenador de estágio deve fazer a ponte para a Gestão, estudantes e empresas, sendo a representação das decisões e encaminhamentos da área, e contribuir com o alcance de metas e atividades que a Instituição queira desenvolver a partir da área técnica.\n\n### 4.4.6. FLUXO DE IMPLANTAÇÃO\n\nFigura 11: Infográfico: Percurso de Implementação\n\nFonte: Elaboração Própria\n\n### 4.5. ORIENTAÇÕES COMPLEMENTARES\n\n### 4.5.1. RECONHECIMENTO DOS CURSOS/ESTUDANTES PELOS SISTEMAS DE ENSINO\n\nA certificação da formação implementada a partir do Itinerário Formativo de Formação Profissional e Técnica deve seguir as normas do Conselho Estadual de Educação. Uma vez normalizado e autorizado pela Conselho Estadual de Educação, o certificado ou diploma deve ser emitido pela escola de origem do estudante e conter a descrição personalizada dos percursos vivenciados.\n\nO certificado de conclusão do Ensino Médio e o diploma de conclusão de técnico nível médio serão gerados somente no caso de o estudante ter cursado a Formação Geral Básica e o Itinerário Formativo de Formação Profissional e Técnica completo. Os diplomas de técnico e nível médio devem explicar o correspondente título de técnico na respectiva habilitação profissional, indicando o eixo tecnológico, segundo o Catálogo Nacional dos Cursos Técnicos (CNCT).\n\nCom relação à formação implementada no contexto dos cursos FICs, poderão ser gerados certificados que correspondam a cada curso finalizado. Sendo assim, o estudante poderá, ao final do Ensino Médio, compor a formação do Itinerário Formativo de Educação Profissional e Técnica a partir do conjunto de FICs articulados. Nos certificados correspondentes aos cursos FICs, deverá constar a correspondência ao Catálogo Brasileiro de Ocupações (CBO). Os históricos escolares que acompanham os certificados e diplomas devem explicar o perfil profissional de conclusão, competências e habilidades desenvolvidas, as unidades curriculares, cargas horárias, frequência e horas de estágio.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

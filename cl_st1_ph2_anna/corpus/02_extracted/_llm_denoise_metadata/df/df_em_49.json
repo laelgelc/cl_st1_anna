@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_071020d0af7214b7006ab300511fdc87d2914c5493301b0f95",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1824,
+      "input_tokens_details": {
+        "cache_write_tokens": 1821,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1981,
+      "output_tokens_details": {
+        "reasoning_tokens": 319
+      },
+      "total_tokens": 3805
+    }
+  },
+  "created_at": "2026-09-22T22:25:35Z",
+  "duration_seconds": 14.685,
+  "error": null,
+  "excerpt_id": "df_em_49",
+  "filename": "df_em_49.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "415422ae7f83e94ea4575268deba135a5f130b0f22caf4d95c721316180f69fe",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f801c54f6c3e824721e9b25ae99de2a56a499d82cca9e855b0baf1f0aacf994d",
+    "rendered_prompt_sha256": "d3cfe29e1625ac080237b8a5c9ba56fc1e45016a9a211d6da564f530020bdba6",
+    "source_text_sha256": "bcb5f1d5e54a26d647a890e3bc8198e33be4fa87394342f66ac9d2bbad1779b3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_49.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 938,
+    "filename": "df_em_49.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_49.txt",
+    "state": "df",
+    "word_count_original": 1070
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_49.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_49.json"
+  },
+  "raw_response_text": "## 6.4 ITINERÁRIOS FORMATIVOS APLICADOS ÀS CIÊNCIAS HUMANAS E SOCIAIS APLICADAS\n\nÉ no contexto dos Itinerários Formativos que os estudantes encontram as Eletivas Orientadas e as Trilhas de Aprendizagem, procedendo com a escolha e com o aprofundamento das aprendizagens. Elas devem contemplar, inclusive na Educação Profissional e Tecnológica, as prerrogativas das novas orientações educacionais da Base Nacional Comum Curricular (BNCC) e das Diretrizes Curriculares Nacionais do Ensino Médio (DCNEM), com vistas a “[…] garantir o protagonismo dos estudantes em sua aprendizagem e o desenvolvimento de suas capacidades de abstração, reflexão, interpretação, proposição e ação, essenciais à sua autonomia pessoal, profissional, intelectual e política” (BRASIL, 2018a, p. 465). Assim, por meio das competências e dos objetivos de aprendizagem expressos na BNCC, como princípios da Educação Básica, os jovens precisam ter contato com uma educação integral como via de acesso a uma formação ressignificada:\n\nArt. 5º O ensino médio, em todas as suas modalidades de ensino e as suas formas de organização e oferta, além dos princípios gerais estabelecidos para a educação nacional no art. 206 da Constituição Federal e no art. 3º da LDB, será orientado pelos seguintes princípios específicos:\n\nI - formação integral do estudante, expressa por valores, aspectos físicos, cognitivos e socioemocionais;  \nII - projeto de vida como estratégia de reflexão sobre trajetória escolar na construção das dimensões pessoal, cidadã e profissional do estudante;  \nIII - pesquisa como prática pedagógica para inovação, criação e construção de novos conhecimentos;  \nIV - respeito aos direitos humanos como direito universal;  \nV - compreensão da diversidade e realidade dos sujeitos, das formas de produção e de trabalho e das culturas;  \nVI - sustentabilidade ambiental;  \nVII - diversificação da oferta de forma a possibilitar múltiplas trajetórias por parte dos estudantes e a articulação dos saberes com o contexto histórico, econômico, social, científico, ambiental, cultural local e do mundo do trabalho;  \nVIII - indissociabilidade entre educação e prática social, considerando-se a historicidade dos conhecimentos e dos protagonistas do processo educativo;  \nIX - indissociabilidade entre teoria e prática no processo de ensino-aprendizagem (BRASIL, 2018a).\n\nIsto posto, o Itinerário Formativo das Ciências Humanas e Sociais Aplicadas propõe ressignificar a formação dos estudantes a partir da multiplicidade e da singularidade de suas experiências. Uma vez que os diferentes percursos ao longo do Ensino Médio poderão ser delineados por eles, torna-se fundamental reconhecer suas perspectivas, expectativas e demandas para, em articulação com as famílias, o mundo do trabalho, a universidade e outras instâncias sociais de acompanhamento, orientação e apoio, catalisar os seus projetos de vida.\n\nNa Formação Geral Básica, a interdisciplinaridade deve nortear as aprendizagens a fim de abrir vias de trocas de saberes que compõem o percurso formativo da etapa. Por sua vez, há nos Itinerários Formativos um grande potencial para práticas pedagógicas transdisciplinares e transversais às áreas do conhecimento, enquanto possibilidade de uma educação não-disciplinar que desterritorializa e reterritorializa os conhecimentos e seus processos de construção nos vários campos de saberes, assim como sugere Gallo (1999), ao analisar a metáfora do rizoma em contraposição ao paradigma arbóreo do saber:\n\nO paradigma rizomático é regido por seis princípios básicos:\n\na) PRINCÍPIO DE CONEXÃO - Qualquer ponto de um rizoma pode ser/estar conectado a qualquer outro; no paradigma arbóreo, as relações entre pontos precisam ser sempre mediatizadas obedecendo a uma determinada hierarquia e seguindo uma ordem intrínseca.  \nb) PRINCÍPIO DE HETEROGENEIDADE - Dado que qualquer conexão é possível, o rizoma rege-se pela heterogeneidade; enquanto que na árvore a hierarquia das relações leva a uma homogeneização das mesmas, no rizoma isso não acontece.  \nc) PRINCÍPIO DE MULTIPLICIDADE - O rizoma é sempre multiplicidade que não pode ser reduzida à unidade; uma árvore é uma multiplicidade de elementos que pode ser \"reduzida\" ao ser completo e único da árvore. O mesmo não acontece com o rizoma, que não possui uma unidade que sirva de pivô para uma objetivação/subjetivação: o rizoma não é sujeito nem objeto, mas múltiplo.  \nd) PRINCÍPIO DE RUPTURA A-SIGNIFICANTE - O rizoma não pressupõe qualquer processo de significação, de hierarquização. Embora seja estratificado por linhas, sendo, assim, territorializado, organizado etc., está sempre sujeito às linhas de fuga que apontam para novas e insuspeitas direções. [...] o rizoma é sempre um rascunho, um devir, uma cartografia a ser traçada sempre e novamente, a cada instante.  \ne) PRINCÍPIO DE CARTOGRAFIA - O rizoma pode ser mapeado, cartografado e tal cartografia nos mostra que ele possui entradas múltiplas; isto é, o rizoma pode ser acessado de infinitos pontos e pode daí remeter a quaisquer outros em seu território.  \nf) PRINCÍPIO DE DECALCOMANIA - Os mapas podem, no entanto, ser copiados, reproduzidos; colocar uma cópia sobre o mapa nem sempre garante, porém, uma sobreposição perfeita. O inverso é a novidade: colocar o mapa sobre as cópias, os rizomas sobre as árvores, possibilitando o surgimento de novos territórios, novas multiplicidades (GALLO, 1999, p. 31-32).\n\nSendo assim, o reconhecimento do paradigma rizomático nos Itinerários Formativos significa instrumentalizar mais perspectivas para a práxis dos professores que passam a considerar a importância da pluralidade e da circulação dos saberes, buscando ‘traçar linhas de fuga’ a fim de se conseguir múltiplas possibilidades para a efetivação da transversalidade. Nessa direção, o Itinerário Formativo de Ciências Humanas não precisa limitar-se aos problemas específicos da área, podendo abarcar outras complexidades (FAZENDA, 1979; GALLO, 1999; 2007; SANTOMÉ, 1998; MORIN, 2002a; 2002b; WELSCH, 2007). A construção de Unidades Curriculares Eletivas e Trilhas de Aprendizagem deve ser realizada considerando os saberes e as competências profissionais dos professores e, também, a partir da escuta sensível dos estudantes, pela qual estejam contemplados em suas especificidades, singularidades e diversidades. Pois, conforme a BNCC, deve ser considerado que:\n\n[...] há muitas juventudes [o que] implica organizar uma escola que acolha as diversidades, promovendo, de modo intencional e permanente, o respeito à pessoa humana e aos seus direitos. E mais, que garanta aos estudantes ser protagonistas de seu próprio processo de escolarização, reconhecendo-os como interlocutores legítimos sobre currículo, ensino e aprendizagem (BRASIL, 2018a, p. 263).\n\nÉ necessário assegurar ao estudante uma formação plural que lhe permita desenvolver seu projeto de vida em sintonia com seu percurso histórico-cultural, tanto no que diz respeito “ao estudo e ao trabalho como também no que concerne às escolhas de estilos de vida saudáveis, sustentáveis e éticos” (BRASIL, 2018a, p. 463). Para isso, se faz decisiva a proposição de Eixos Estruturantes para definir as linhas de articulação entre os componentes curriculares e das quais devem derivar os objetivos de aprendizagem do Itinerário Formativo de Ciências Humanas e Sociais Aplicadas.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

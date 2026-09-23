@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_090849f371b99045006ab30a3d096c87d29a66498100b41b34",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 915,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 849,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 1764
+    }
+  },
+  "created_at": "2026-09-22T23:07:48Z",
+  "duration_seconds": 7.659,
+  "error": null,
+  "excerpt_id": "pr_inf_4",
+  "filename": "pr_inf_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2f952afadfaea223acb93d4651eb4d38e5073099c00ed7f13bbe8b7cf0c1f8ea",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d50772293dd54916f8c9b4b32fd28dee1129872e82c95eb04d7c5ef13c4a64c2",
+    "rendered_prompt_sha256": "b34e3792494c71c9e4c84f7005ffa06e7ee87cee5ba4c65a3a88dae6088b101a",
+    "source_text_sha256": "9f0063285dd7c0df4d1976c2d59d2c1f03d17fce999f30cf6b64a9179c3f941c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_inf_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2826,
+    "filename": "pr_inf_4.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_inf_4.txt",
+    "state": "pr",
+    "word_count_original": 525
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_inf_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_inf_4.json"
+  },
+  "raw_response_text": "A compreensão da relevância da função pedagógica na Educação Infantil é recente. Durante grande parte da história da infância, a prática de atender as crianças era despretensiosa, ou seja, bastava um local onde a criança pudesse estar sob os olhares de um adulto.\n\nÀ medida que a Educação Infantil passa a ser objeto de pesquisas e avança na constituição de um arcabouço teórico, é respaldada pela obrigatoriedade de formação específica de professor para efetivar uma prática intencionalmente pedagógica.\n\nA BNCC reafirma a intencionalidade educativa que direciona o trabalho pedagógico na Educação Infantil, ou seja, a reflexão que embasa a intenção do professor e a sua concretização na prática planejada. Essa intencionalidade se pauta nos pressupostos próprios desta etapa e, principalmente, na ciência de que a criança é partícipe da sua educação. Como cita a BNCC:\n\n> Essa intencionalidade consiste na organização e proposição, pelo educador, de experiências que permitam às crianças conhecer a si e ao outro e de conhecer e compreender as relações com a natureza, com a cultura e com a produção científica, que se traduzem nas práticas de cuidados pessoais (alimentar-se, vestir-se, higienizar-se), nas brincadeiras, nas experimentações com materiais variados, na aproximação com a literatura e no encontro com as pessoas (BRASIL, 2017, p. 36).\n\nUm dos princípios postos na legislação para a Educação Infantil é o cuidar e o educar, e o brincar em um processo de interação. Essa relação que é indissociável, exige atenção aos momentos que permeiam o cotidiano da Educação Infantil, ricos de vivências e experiências. O professor precisa, nesse contexto, “refletir, selecionar, organizar, planejar, mediar e monitorar o conjunto das práticas e interações, garantindo a pluralidade de situações que promovam o desenvolvimento pleno das crianças” (BRASIL, 2017, p. 36).\n\nAs transformações que ocorrem na vida das crianças durante a Educação Infantil são intensas e rápidas. Ao planejar, o professor precisa dedicar especial atenção à sua mediação nas aprendizagens e desenvolvimento, observando que as transformações podem ocorrer de diferentes formas e tempos.\n\nA criança conhece e expressa seu “mundo” por meio das interações e brincadeiras. Ela organiza seu pensamento e se comunica, o que aponta a importância da atenção a essa expressão própria da infância, pois, ao mesmo tempo em que o professor é um observador atento e conhece sua criança acompanhando e analisando o processo de desenvolvimento, também pode direcionar sua ação por meio de novas brincadeiras, que oportunizem situações de desenvolvimento e aprendizagem (OLIVEIRA, 2010).\n\nHá muitas situações que merecem atenção do professor no planejamento de suas ações na educação infantil, como: a organização dos espaços e do tempo, a igualdade nas relações e o respeito às diferenças, a relação e parceria com as famílias e o direito da criança à infância, entre outras.\n\nNesse sentido, o Referencial Curricular do Paraná: princípios, direitos e orientações traz uma breve discussão sobre a concepção de criança, os eixos norteadores da Educação Infantil (as Interações e a Brincadeira) e os Campos de Experiências, como orientação para a organização dos currículos nessa etapa da Educação Básica, considerando nesta organização a educação inclusiva, assim como a flexibilização do currículo para as adaptações que atentem às especificidades de cada educando.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

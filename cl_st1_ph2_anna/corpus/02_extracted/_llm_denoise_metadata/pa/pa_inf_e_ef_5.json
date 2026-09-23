@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e0d89fd40b9034b006ab3069f725087d29ac563665200dbd0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 507,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 479,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 986
+    }
+  },
+  "created_at": "2026-09-22T22:52:19Z",
+  "duration_seconds": 4.262,
+  "error": null,
+  "excerpt_id": "pa_inf_e_ef_5",
+  "filename": "pa_inf_e_ef_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8774ec90547118a119716ea94d28ed1f875b6e2ca541aec82607285b2716c638",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7e18238a5cec35ed7a6d50e81846c432a1c7da1411f7fe48b62e64f2882e3819",
+    "rendered_prompt_sha256": "774250860d4d2b86474aad52809b43c5b0d071173f0058ab4e3c70a32067bfe5",
+    "source_text_sha256": "c8333364fa58bc7c2ec8da25d41ac7749f6bdf04777364630b12f07bc0d369e8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_inf_e_ef_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2175,
+    "filename": "pa_inf_e_ef_5.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_inf_e_ef_5.txt",
+    "state": "pa",
+    "word_count_original": 290
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_inf_e_ef_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_inf_e_ef_5.json"
+  },
+  "raw_response_text": "### 2.1.3 A Interdisciplinaridade no Processo Ensino-Aprendizagem\n\nNo campo da Ciência, a interdisciplinaridade corresponde a uma possibilidade de superar a visão fragmentadora de produção de conhecimento, historicamente produzida pela escola, como também de articular e produzir coerência entre os múltiplos saberes que estão postos no acervo de conhecimento da humanidade (LUCK, 1995).\n\nA construção do conhecimento interdisciplinar pressupõe algumas orientações:\n\n- A realidade do aluno é o campo e horizonte de toda aprendizagem significativa, àquela que tem sentido para a vida;\n- A realidade é sempre dinâmica e construída socialmente;\n- A verdade é relativa, pois o conhecimento depende diretamente da ótica do sujeito que aprende.\n\nAssim, a vivência da interdisciplinaridade em sala de aula se dará por meio de espírito de parceria, de integração entre teoria e prática, conteúdo e realidade, objetividade e subjetividade, ensino e avaliação, meios e fins, tempo e espaço, professor e aluno, reflexão e ação e outros fatores integrantes do processo pedagógico.\n\nNesse sentido, a perspectiva interdisciplinar deve ser a pauta de toda discussão acerca do currículo, significa estudar o mundo, com seus objetos, coisas e seres, de uma forma integrada e holística, relacionando com suas múltiplas facetas. Numa prática pedagógica interdisciplinar o que é valorizado é a busca, a investigação e a atitude em romper com as fronteiras existentes nas diversas áreas de conhecimento.\n\nAssim, um currículo interdisciplinar pressupõe o desenvolvimento de práticas pedagógicas que permitam a interação de conceitos, objetos, conteúdos entre as diversas áreas do conhecimento e promovam atitudes de cooperação entre os demais segmentos no âmbito escolar.\n\nEssas práticas pedagógicas indicam a necessidade de utilização de diferentes formas de organização do currículo que podem ser por intermédio de metodologias ativas como: a pedagogia de projetos, tema gerador, eixos temáticos, sequência didática, etc.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0535adce67494f6f006ab30db25a1c87d2a299543bce07ac39",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 624,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 574,
+      "output_tokens_details": {
+        "reasoning_tokens": 77
+      },
+      "total_tokens": 1198
+    }
+  },
+  "created_at": "2026-09-22T23:22:31Z",
+  "duration_seconds": 4.956,
+  "error": null,
+  "excerpt_id": "rs_em_37",
+  "filename": "rs_em_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "edcafd950aaad2838a37cf11d567aba3fb93221b233034ca0c8c7780b225c9cc",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4826e48cd9327af4046a5bc5ba5d48955f77f143eb3ced6c81a4680ed21c3a90",
+    "rendered_prompt_sha256": "936431fbe6b54f3828f6e81a18832a94c45b7f19f5686640fe45208ada1c6458",
+    "source_text_sha256": "37b47fc6e859cd99fd71e52f153e7ceb4fa0c5d50547d4eceb5bda3a13a29c3a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3580,
+    "filename": "rs_em_37.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_37.txt",
+    "state": "rs",
+    "word_count_original": 362
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_37.json"
+  },
+  "raw_response_text": "## 2.4.15 Processo de Envelhecimento, respeito e valorização do Idoso\n\nAs recentes descobertas e avanços, sobretudo das ciências da saúde, têm possibilitado cada vez mais longevidade e vitalidade à população brasileira. Dessa forma, o número de pessoas com 60 anos ou mais vem aumentando significativamente nos últimos anos. Em outras palavras, pode-se dizer que, neste país, há – e haverá – cada vez mais idosos, caracterizados, não somente pela idade, mas pela manutenção das atividades produtivas e de consumo. São os novos idosos, que estão envelhecendo de uma maneira bem diferente em comparação aos seus antepassados.\n\nAtenta a essa nova realidade, a educação escolar, ao pautar nos seus currículos temáticas que abordem o processo de envelhecimento, respeito e valorização do idoso, estará cumprindo seu papel social, uma vez que possibilitará à comunidade escolar momentos de aprendizagem e reflexão sobre aqueles que já fizeram – e alguns ainda fazem – muito pelo crescimento e desenvolvimento do nosso país. Essa perspectiva pode ser entendida como uma das nuances do Estatuto do Idoso, estabelecido pela Lei nº. 10.741/2003, que regula e assegura os direitos das pessoas desta faixa etária.\n\nUm outro aspecto a ser destacado é oportunizar ao idoso o acesso à educação, inclusive com a adequação dos currículos, metodologias e materiais didáticos, com programas educacionais voltados a esse grupo específico, com a realização de cursos especiais, que busquem inserir saberes voltados ao próprio processo de envelhecimento, respeito e valorização do idoso, preservando suas memórias e sua identidade cultural.\n\nAssim, nessas temáticas, incluem-se ações que vão além do mero conhecimento e estudo do Estatuto do Idoso, por exemplo. Tem-se, nessa perspectiva, a possibilidade de enriquecimento das práticas pedagógicas, a partir de ações que aproximem escola e idosos, uma vez que cada uma dessas pessoas traz consigo não somente a história da sua força produtiva, mas a sua trajetória como indivíduo, portador da sabedoria e da cultura decorrentes das muitas vivências cotidianas. Cada idoso é uma fonte de informação e conhecimento vivos, com um excelente potencial para contribuir com as ações desenvolvidas na escola que, ao mesmo tempo, deve garantir o acesso à educação do idoso, de acordo com as necessidades e expectativas.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

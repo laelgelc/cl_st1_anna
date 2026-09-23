@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01f86b476bf061d1006ab2fd93d9a087d281ed19ea5552f63e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1018,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 936,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 1954
+    }
+  },
+  "created_at": "2026-09-22T22:13:46Z",
+  "duration_seconds": 6.537,
+  "error": null,
+  "excerpt_id": "am_inf_11",
+  "filename": "am_inf_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "50b448b7dc7d649110d148c4a02cdefb11b87cedfcd213a180021c3e017576ec",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "18a9063edc84868f5d258e10ca55200a04eeb4d533e9ab0d43b16ceb7b59fca3",
+    "rendered_prompt_sha256": "7f87a84b3e8a93f3b0dfaa6b642540f06cf6dc4d60ce856519fc76cd32e8b7f0",
+    "source_text_sha256": "18144d043df0310ff750ede77b6dabeb04bbb973941eca7b18bbe484865b1ccf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 411,
+    "filename": "am_inf_11.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_11.txt",
+    "state": "am",
+    "word_count_original": 642
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_11.json"
+  },
+  "raw_response_text": "### 6.1 Interação entre bebês, crianças e professores\n\nAs interações devem ser afetuosas, empáticas, respeitosas e agradáveis. Os adultos devem interagir com os bebês e as crianças por meio de conversas, afagos e contato visual. O papel do adulto como parceiro mais experiente, no alcance das conquistas dos bebês e crianças, é fundamental nos primeiros anos de vida, fase de reconhecimento e exploração do ambiente pelo qual os bebês e as crianças passam. Ele deve procurar conhecer a dinâmica das relações que estão sendo construídas e contribuir para que elas se deem da melhor maneira possível, sugerindo trocas ou empréstimos no caso do uso dos brinquedos, ajudando os bebês e crianças a enfrentar desafios e ampliando as referências culturais dos pequenos.\n\nA/o professora/professor deve construir uma relação com o grupo. Nesse grupo, ela/ele também constrói uma relação com cada bebê e criança em particular. Cada ação do adulto para com o bebê ou a criança gera uma reação; a mesma ação para com outra pode gerar uma reação diferente. Isso leva a notar que o choro de uma não se tranquiliza da mesma forma que de outra. Uma estratégia de conquista que foi eficiente no caso de uma criança pode não ser com outra. Assim, o adulto, o bebê e/ou a criança passam a estabelecer uma relação que é única, embora tenha a presença e a influência de outras relações.\n\nNa convivência diária, o adulto deve ser uma pessoa que transmite segurança para o bebê e a criança. Alguém capaz de parar para ouvi-la, valorizar suas perguntas, suas produções, seus saberes; alguém que seja sincero, autêntico e que respeite suas opiniões. Dessa maneira, ele se torna um parceiro com o qual ela pode contar na busca do conhecimento amplo, novo e interessante.\n\nConforme o tempo passa, a relação que esse bebê e a criança construiu com o adulto, com outras crianças e com o ambiente, certamente contribuirá para a construção de sua autonomia, para que o bebê e a criança, enfrentem situações que antes lhe causavam insegurança e para que tomem decisões e iniciativas, podendo expressar sem medo aquilo que eles são ou pensam. Como parceiro mais experiente, o adulto promove a ampliação do contato entre o bebê, a criança e os conhecimentos universais, organizando o espaço, tempo e materiais para que eles se apropriem e produzam cultura.\n\n### 6.2 Interação entre bebês, crianças e seus pares\n\nInteração é o processo pelo qual os bebês e as crianças constroem suas experiências. Bebês e crianças são seres sociais que possuem capacidades afetivas, emocionais e cognitivas. Têm o desejo de estar próximos de pessoas e são capazes de interagir e aprender com elas, de forma que possam compreender e influenciar seu ambiente, ampliando suas relações sociais, interações e formas de comunicação, sentindo-se cada vez mais seguros para se expressarem, podendo aprender com outros bebês, crianças e adultos, cujas percepções e compreensões da realidade também sejam diversas.\n\nA interação entre os bebês, as crianças e seus pares é fundamental na construção de aprendizagens. Por meio da interação, elas trocam conhecimentos, aprendem sobre as relações, constroem valores de cooperação, solidariedade e respeito ao outro. Devem-se propor momentos diferentes de rotina com as crianças e promover situações coletivas nas quais sejam propostas atividades em que elas troquem conhecimentos. Bebês e crianças de idades diferentes aprendem muito umas com as outras e atividades conjuntas devem ser não apenas valorizadas, como também programadas sistematicamente.\n\nAs instituições de Educação Infantil devem valorizar as brincadeiras com brinquedos estruturados, não estruturados e faz de conta, pois são importantes nesse momento, uma vez que possibilitam aos bebês e crianças a socialização com as maiores, havendo trocas de experiências. Quando necessário, há a intervenção do adulto para mediar os conflitos que surgem nessas relações ou para ampliar as possibilidades do brincar.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

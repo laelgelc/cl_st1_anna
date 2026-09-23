@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_066eff36cf5345ed006ab303b496f087d2ac0e3d81d501c7da",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 992,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 863,
+      "output_tokens_details": {
+        "reasoning_tokens": 41
+      },
+      "total_tokens": 1855
+    }
+  },
+  "created_at": "2026-09-22T22:39:55Z",
+  "duration_seconds": 6.734,
+  "error": null,
+  "excerpt_id": "ms_em_36",
+  "filename": "ms_em_36.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8b3aa07dd476c82b3ed8ef74dd5b7ba57c861311153be1d1d49a52c58c1f24a8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b7b83feb0c00402e6783fa70bd813816768c63e012ba5bb3105eeeaa8edec790",
+    "rendered_prompt_sha256": "13d85541f0ce2096ccf7529d5fd19417cc4ba8042854c0fce295b847631aed17",
+    "source_text_sha256": "e676d6ca6fcd39b3b253769ac839d595fa667317ca5ba8c81f7be12193b3e7a1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_36.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1701,
+    "filename": "ms_em_36.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_36.txt",
+    "state": "ms",
+    "word_count_original": 564
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_36.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_36.json"
+  },
+  "raw_response_text": "### 4.3. Composição da Flexibilização Curricular\n\nO Novo Ensino Médio tem a proposta de oferecer maior dinamismo a esta etapa da formação escolar, com vistas a aproximar o curso conforme as demandas atuais e complexidades da sociedade, principalmente com relação às perspectivas do mundo do trabalho.\n\nNeste documento, a flexibilização do currículo do Ensino Médio ocorre por meio dos Itinerários Formativos organizados em: Itinerários Formativos Propedêuticos, que objetivam expandir as aprendizagens promovidas pelas Áreas de Conhecimento, e Itinerários Formativos da Formação Técnica e Profissional.\n\nA flexibilização do currículo do Ensino Médio ocorre por meio dos Itinerários Formativos, e está estruturada de forma a contemplar carga horária específica para os componentes curriculares: Núcleo Integrador e Aprofundamento nas Áreas de Conhecimento (Unidades Curriculares Específicas e Unidade Curricular Eletiva).\n\n### 4.3.1. Aprofundamento nas Áreas de Conhecimento\n\nO Currículo do Ensino Médio, a partir da alteração da LDB, passou a ser composto por uma parte comum e outra que varia conforme a escolha dos estudantes. A parte comum, denominada Formação Geral Básica (FGB), propõe o desenvolvimento das competências e habilidades definidas pela BNCC na etapa do Ensino Médio “articuladas como um todo indissociável, enriquecidas pelo contexto histórico, econômico, social, ambiental, cultural local, do mundo do trabalho e da prática social” (BRASIL, 2018a).\n\nA outra parte, chamada de Itinerários Formativos, compreende arranjos curriculares que os estudantes escolhem a partir de seu interesse para aprofundar e ampliar aprendizagens em uma ou mais Áreas de Conhecimento e/ou na Formação Técnica e Profissional.\n\nAlém das aprendizagens comuns e obrigatórias, definidas pela BNCC, os estudantes poderão escolher o aprofundamento que mais se relaciona com seus interesses e talentos. Essa realidade será proporcionada por meio dos Itinerários Formativos das Áreas de Conhecimento, que buscam ampliar e aprofundar as aprendizagens dos estudantes em: Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias ou Ciências Humanas e Sociais Aplicadas. O estudante também pode escolher Itinerários direcionados à Formação Técnica e Profissional ou cursar Itinerários Integrados que combinem diferentes opções, tais como duas ou mais Áreas de Conhecimento ou Áreas de Conhecimento com a Formação Técnica e Profissional.\n\nAssim, a oferta dos aprofundamentos deve considerar os seguintes aspectos:\n\n- perfil dos estudantes: o interesse e as necessidades dos jovens;\n- quantidade de estudantes: recomenda-se que as escolas com mais estudantes ofereçam maior quantidade e variedade de aprofundamentos para dar conta da demanda, além de disponibilizar diferentes trajetórias;\n- equipe docente: a disponibilidade de tempo, os conhecimentos, as habilidades e as vocações dos professores;\n- infraestrutura: a estrutura e a quantidade dos espaços físicos, equipamentos e materiais existentes ou possíveis de serem adaptados/adquiridos pela escola ou oferecidos por meio de parceria com outras instituições ofertantes;\n- potencialidades locais: demandas e especificidades do território em que a unidade de ensino se localiza. No caso específico da Formação Técnica e Profissional, deve-se considerar o potencial socioeconômico e ambiental, bem como as demandas tanto do mercado de trabalho regional como, também, as novas exigências ocupacionais geradas pelas transformações no mundo do trabalho.\n\nÉ importante destacar que o Aprofundamento nas Áreas de Conhecimento não se constitui reforço das habilidades já mobilizadas na parte do currículo referente à Formação Geral Básica, ou seja, não pode ser “mais do mesmo”, mas deve buscar expandir os aprendizados. Destaca-se, ainda, que a ampliação pode acontecer em articulação com temáticas contemporâneas em harmonia com o contexto e os interesses dos estudantes.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

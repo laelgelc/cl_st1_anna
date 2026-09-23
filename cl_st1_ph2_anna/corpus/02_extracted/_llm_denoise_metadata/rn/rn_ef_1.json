@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02fb9f375fdf3c71006ab30ac1cf7087d28ab5187d4b402ebc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 528,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 589,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 1117
+    }
+  },
+  "created_at": "2026-09-22T23:09:58Z",
+  "duration_seconds": 4.495,
+  "error": null,
+  "excerpt_id": "rn_ef_1",
+  "filename": "rn_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "81a430827323ced19adc94b5c92d97e91d57d02d06fc51693b562e1cc9ff5405",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d608237ca9070affa24efaa5c18beda1e34111e8a8193ad53e56f5d11ce73e20",
+    "rendered_prompt_sha256": "a254236d3f9f207f92bf0aafd19fa64fa580abb1b546163832536969a5817e99",
+    "source_text_sha256": "fe85d47cc83df2adcdf92a58cc9c69b2f3ed1bf70904ca692ea134264cdf2453"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2946,
+    "filename": "rn_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_1.txt",
+    "state": "rn",
+    "word_count_original": 337
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_1.json"
+  },
+  "raw_response_text": "## Introdução\n\nDocumento Curricular do Estado do Rio Grande do Norte é resultado de diagnósticos e análises realizados pela equipe curricular do Rio Grande do Norte¹ e da ampla participação e discussão com especialistas em educação e professores da Educação Básica das redes estadual, municipais e privada de ensino. Foram promovidos encontros e debates, estudos de aprofundamento, seminários de mobilização para consulta pública e oficinas de consolidação das contribuições, a fim de apresentar uma versão final consolidada do Documento Curricular do Estado do Rio Grande do Norte para a Educação Infantil e o Ensino Fundamental.\n\nO objetivo deste Documento Curricular é colocar à disposição dos professores das redes estadual, municipais e privada, um instrumento que oriente, de forma clara e objetiva, aspectos relativos ao processo de ensino e aprendizagem essenciais à qualidade pedagógica. Na Educação Infantil, os campos de experiências e objetivos de aprendizagem estruturam o currículo por faixa etária. No Ensino Fundamental e no Ensino Médio, as competências e habilidades agregam os diferentes objetos de conhecimento em cada componente curricular por ano de escolaridade. Espera-se contribuir assim para que cada unidade escolar do ensino regular e das modalidades de ensino tenha clareza sobre o que se deve ensinar na efetivação cotidiana da sua proposta pedagógica, de modo a garantir as aprendizagens às quais os estudantes têm direito.\n\nSão objetivos deste Documento Curricular para a Educação Básica:\n\n- sugerir estratégias didáticas que inspirem os projetos pedagógicos, os planejamentos e as práticas escolares, no sentido de valorizar situações mais dinâmicas, interativas, colaborativas e diversificadas na gestão do ensino e da aprendizagem;\n- provocar reflexões nos professores, no espaço da escola, que contribuam para o aprimoramento do currículo em movimento;\n- contribuir para que os profissionais de todas as redes de ensino compreendam a organização do trabalho pedagógico a partir do currículo por competências e o torne efetivo no planejamento escolar concretizado em uma prática pedagógica socialmente contextualizada que resulte em impactos positivos na aprendizagem dos estudantes e na melhoria da qualidade do ensino no Rio Grande do Norte.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

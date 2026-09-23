@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04ffbbd3cbecb696006ab30b67e96487d295f060904b56641b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 343,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 470,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 813
+    }
+  },
+  "created_at": "2026-09-22T23:12:44Z",
+  "duration_seconds": 4.654,
+  "error": null,
+  "excerpt_id": "ro_ef_104",
+  "filename": "ro_ef_104.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d19cc0f2acb62ab4d73da711f4f5bd4301ef9b3a8529bb4f2dd78eeec45980c7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e33e07690598625b8d546c7e65f0a194d636d04584d818f956970b8910aca77e",
+    "rendered_prompt_sha256": "13130708c0df01d705aed54bd21bf5809ee7941abfd23cb5a96c9f4da7b890ef",
+    "source_text_sha256": "8ea5f6b08099da14e73593ce9a57fa9d7481c495fc427a5ef5c12ef1592239ef"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_104.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3101,
+    "filename": "ro_ef_104.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_104.txt",
+    "state": "ro",
+    "word_count_original": 149
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_104.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_104.json"
+  },
+  "raw_response_text": "### 9.10.2 Competências Específicas da Área de Ensino Religioso\n\n**COMPETÊNCIAS ESPECÍFICAS DE ENSINO RELIGIOSO**\n\nConhecer os aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida, a partir de pressupostos científicos, filosóficos, estéticos e éticos.\n\nCompreender, valorizar e respeitar as manifestações religiosas e filosofias de vida, suas experiências e saberes, em diferentes tempos, espaços e territórios.\n\nReconhecer e cuidar de si, do outro, da coletividade e da natureza, enquanto expressão de valor da vida.\n\nConviver com a diversidade de crenças, pensamentos, convicções, modos de ser e viver.\n\nAnalisar as relações entre as tradições religiosas e os campos da cultura, da política, da economia, da saúde, da ciência, da tecnologia e do meio ambiente.\n\nDebater, problematizar e posicionar-se frente aos discursos e práticas de intolerância, discriminação e violência de cunho religioso, de modo a assegurar os direitos humanos no constante exercício da cidadania e da cultura de paz.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d7b7fb7bcad8294006ab301ba1db487d29b1a03275b5af225",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 509,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 476,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 985
+    }
+  },
+  "created_at": "2026-09-22T22:31:25Z",
+  "duration_seconds": 3.714,
+  "error": null,
+  "excerpt_id": "ma_ef_17",
+  "filename": "ma_ef_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f4960f2fe252e76bf8ed3e750456715eea52bd96657d4e4de3fb6185f80b7071",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "afc1227e510fbf435aa856f6c9fa3db6a871f6894b6a6a73edf55dcddeee3121",
+    "rendered_prompt_sha256": "70a8017587e67543eccd608268d2b3875910ba2a9fbffd6d3b30925e68dba199",
+    "source_text_sha256": "08aba3de2397f629199a95f22c69c24c1ad09ab7662056d9d668252721bbf50b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_ef_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1241,
+    "filename": "ma_ef_17.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_ef_17.txt",
+    "state": "ma",
+    "word_count_original": 282
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_ef_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_ef_17.json"
+  },
+  "raw_response_text": "## Os princípios que norteiam a Educação Física na BNCC\n\nPara relacionar as competências gerais da BNCC com as competências da área de Linguagens e as competências específicas da Educação Física, priorizando o cidadão que se quer formar, faz-se necessário atentarmos para os princípios que esse documento rege e que norteiam também a Educação Física, que são: a igualdade, a equidade e a diversidade.\n\nA Educação Física por meio da cultura corporal privilegia, em seus aspectos didático-pedagógicos, os princípios que se seguem:\n\n– **Princípio da igualdade:** A BNCC prioriza a igualdade, uma vez que ela expressa as aprendizagens essenciais para todos os educandos se desenvolverem; sobremaneira afirma que a igualdade educacional com suas particularidades deve ser valorizada. A igualdade deve prevalecer na Educação Básica para que o direito de aprender seja concretizado, aniquilando as desigualdades entre os estudantes, estabelecidas por questões raciais, sexuais e condições socioeconômicas.\n\n– **Princípio da equidade:** Na BNCC, esse princípio reconhece que as necessidades dos educandos são diferentes. Por serem diferentes, exigem um planejamento com foco na equidade, revertendo a situação de exclusão que historicamente prevalece em nossa sociedade, o desrespeito aos povos indígenas, comunidades remanescentes de quilombos e demais afrodescendentes, bem como aqueles que por algum motivo não puderam completar sua escolaridade na idade certa.\n\n– **Princípio da diversidade:** Esse princípio se coaduna com os princípios da equidade e igualdade, pois reflete sobre o encadeamento de um currículo comum para um país diversificado como é o Brasil. Para que haja um trabalho voltado à diversidade, faz-se necessário estarmos conectados à política de inclusão social e educacional. A escola precisa desenvolver, junto aos seus educandos e professores, projetos pedagógicos que façam parte do cotidiano escolar.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

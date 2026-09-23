@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e6baf1da0134726006ab30a4cfc3487d28fea57166f2429d0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1037,
+      "input_tokens_details": {
+        "cache_write_tokens": 1034,
+        "cached_tokens": 0
+      },
+      "output_tokens": 971,
+      "output_tokens_details": {
+        "reasoning_tokens": 132
+      },
+      "total_tokens": 2008
+    }
+  },
+  "created_at": "2026-09-22T23:08:02Z",
+  "duration_seconds": 5.912,
+  "error": null,
+  "excerpt_id": "pr_inf_ef_17",
+  "filename": "pr_inf_ef_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dc15591f656de57930a7cb7cb29f79962d463f567d5e54976aa300f1d6192ca8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a22ed63f36962cd65e4e15806c1f70fd07e7b9ad5292e284dfff16f319870cf2",
+    "rendered_prompt_sha256": "8f87d1a73b01c1707f7fe9b875b94861deea4ec73fedd2eeded65f3eba3f2482",
+    "source_text_sha256": "be5b1a9e18e10a6a7ee21c9953512310fc94a7e5124875552e53cce106aa7288"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_inf_ef_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2839,
+    "filename": "pr_inf_ef_17.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_inf_ef_17.txt",
+    "state": "pr",
+    "word_count_original": 592
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_inf_ef_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_inf_ef_17.json"
+  },
+  "raw_response_text": "A inserção da Educação Digital e Computação na Educação Infantil deve respeitar os princípios orientadores contemplados na Base Nacional Comum Curricular (BNCC) e fundamentais para essa etapa de ensino, pautando-se pelo brincar, pela interação e pela experimentação, com o objetivo de oferecer experiências significativas que estimulem o pensamento lógico, a criatividade e a resolução de problemas. Para isso, foram definidas as premissas que orientam a Computação na Educação Infantil:\n\n1. Desenvolver o reconhecimento e a identificação de padrões, construindo conjuntos de objetos com base em diferentes critérios como: quantidade, forma, tamanho, cor e comportamento.\n2. Vivenciar e identificar diferentes formas de interação mediadas por artefatos computacionais, compreendendo a tecnologia como parte do cotidiano e reconhecendo seu potencial para ampliar formas de expressão e comunicação.\n3. Criar e testar algoritmos, brincando com objetos do ambiente e com movimentos do corpo, de maneira individual ou em grupo, favorecendo a antecipação de ações e a organização de ideias.\n4. Solucionar problemas por meio da decomposição, identificando etapas, ciclos ou repetições que possam ser generalizados e reutilizados em novas situações, estimulando o raciocínio lógico e a criatividade.\n\nA organização curricular da área da Computação para o Ensino Fundamental visa garantir a progressão da aprendizagem e a formação integral dos estudantes, articulando competências e habilidades que estruturam os conhecimentos essenciais a serem desenvolvidos ao longo da escolaridade. Segundo a BNCC (BRASIL, 2018), competências são definidas como: “A mobilização de conhecimentos (conceitos e procedimentos), habilidades (práticas cognitivas e socioemocionais), atitudes e valores para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho.” Ou seja, as competências envolvem saber, saber fazer e saber ser, articulando conhecimentos, habilidades e valores para agir com autonomia, criticidade e responsabilidade. A seguir estão dispostas as competências da área de Computação a serem desenvolvidos nessa etapa de ensino:\n\n1. Compreender a Computação como uma área de conhecimento que contribui para explicar o mundo atual e ser um agente ativo e consciente de transformação, capaz de analisar criticamente seus impactos sociais, ambientais, culturais, econômicos, científicos, tecnológicos, legais e éticos.\n2. Reconhecer o impacto dos artefatos computacionais e os respectivos desafios para os indivíduos na sociedade, discutindo questões socioambientais, culturais, científicas, políticas e econômicas.\n3. Expressar e partilhar informações, ideias, sentimentos e soluções computacionais utilizando diferentes linguagens e tecnologias da Computação de forma criativa, crítica, significativa, reflexiva e ética.\n4. Aplicar os princípios e técnicas da Computação e suas tecnologias para identificar problemas e criar soluções computacionais, preferencialmente de forma cooperativa, bem como alicerçar descobertas em diversas áreas do conhecimento seguindo uma abordagem científica e inovadora, considerando os impactos sob diferentes contextos\n5. Avaliar as soluções e os processos envolvidos na resolução computacional de problemas de diversas áreas do conhecimento, sendo capaz de construir argumentações coerentes e consistentes, utilizando conhecimentos da Computação para argumentar em diferentes contextos com base em fatos e informações confiáveis com respeito à diversidade de opiniões, saberes, identidades e culturas.\n6. Desenvolver projetos, baseados em problemas, desafios e oportunidades que façam sentido ao contexto ou interesse do estudante, de maneira individual e/ou cooperativa, fazendo uso da Computação e suas tecnologias, utilizando conceitos, técnicas e ferramentas computacionais que possibilitem automatizar processos em diversas áreas do conhecimento com base em princípios éticos, democráticos, sustentáveis e solidários, valorizando a diversidade de indivíduos e de grupos sociais, de maneira inclusiva.\n7. Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, identificando e reconhecendo seus direitos e deveres, recorrendo aos conhecimentos da Computação e suas tecnologias para tomar decisões frente às questões de diferentes naturezas.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

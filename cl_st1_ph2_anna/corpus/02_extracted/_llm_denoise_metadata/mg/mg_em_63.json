@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f31531864351ba8006ab3034da77c87d2a3da281ad2ab02a1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 881,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 932,
+      "output_tokens_details": {
+        "reasoning_tokens": 196
+      },
+      "total_tokens": 1813
+    }
+  },
+  "created_at": "2026-09-22T22:38:12Z",
+  "duration_seconds": 6.805,
+  "error": null,
+  "excerpt_id": "mg_em_63",
+  "filename": "mg_em_63.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f8517b196281716f6ea580401fa1f3345463781fd49ea3c71ba8df542282248e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "12a444ba4844420beb533d134240814974f86d8d0c841422e5ed69c291b81764",
+    "rendered_prompt_sha256": "b9f3ff819aad065fa1327ffdf56b7b9ca43a0d8016e9da9f15381476b0fb16f6",
+    "source_text_sha256": "88eb8293da362371c8cb7c3a34fdf4747afbd4d20289e8f855659f7b3ed7021b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_63.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1596,
+    "filename": "mg_em_63.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_63.txt",
+    "state": "mg",
+    "word_count_original": 531
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_63.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_63.json"
+  },
+  "raw_response_text": "Nessa mesma perspectiva, destaca-se o Ensino de Ciências por Investigação enquanto abordagem que se baseia em uma problematização, tornando o processo mais dialógico em contextos argumentativos (SASSERON, 2015). Buscando preparar o estudante para os novos desafios da sociedade contemporânea, utilizando os recursos científicos aprendidos para solucionar problemas em seu dia a dia, tomando decisões pautadas na ética e na sustentabilidade.\n\nConforme Sá,\n\n> As propostas contemporâneas de ensino por investigação ocorrem no contexto de um discurso marcado pelo lema ciências para todos, a partir do qual se concebe um ensino de ciências voltado para a formação do cidadão comum, e que vai além da preparação inicial daqueles que se sentirão atraídos por carreiras científicas e tecnológicas na universidade (SÁ, 2009, p. 23).\n\nO estudante está imerso em uma sociedade que desfruta de sistemas tecnológicos em todos os lugares, contudo, ele não demonstra um envolvimento mais profundo com os conhecimentos, as técnicas e procedimentos desenvolvidos para exercer aquela função. Não é muito comum deparar com pessoas que têm o cuidado de ler um manual de um aparelho antes de começar a usá-lo ou interpretar as informações que são trazidas em embalagens de produtos das mais variadas origens.\n\nUm estudante que, ao longo de sua vida escolar, é levado a interagir com a ciência e a produzi-la, avaliando-a e refletindo sobre seu estatuto, tem mais chances de desenvolver competências e habilidades comunicativas e de reflexão para estabelecer sua posição frente ao conhecimento científico, apropriando-se dele como uma das evidências do letramento científico (MOTTA-ROTH & LOVATO, 2009).\n\nAs Ciências da Natureza se apropriam da grande responsabilidade de estruturar um ensino baseado no letramento científico que visa à construção de conceitos, atividades e práticas que buscam interagir com as questões envolvidas no dia a dia de forma indissociável e integral. Busca-se, assim, discutir relações possíveis entre os conceitos de letramento científico, definido como “apropriação” da escrita, em um primeiro momento, e, também, como o “estado ou a condição que adquire um grupo ou um indivíduo como consequência de ter-se apropriado da escrita” para poder interagir com o meio social (SOARES, 2009, p. 39).\n\nCom o objetivo de propiciar a integração dos componentes curriculares na área de Ciências da Natureza, a BNCC traz uma estrutura de organização composta por três competências específicas, que foram estruturadas no intuito de atingir os objetivos e propósitos inerentes ao Ensino Médio, como a compreensão dos fundamentos científico-tecnológicos, desenvolvimento de visão de cidadania e a preparação para a vida em sociedade como também para o mercado de trabalho. Esta etapa da educação não se dissocia dos conceitos apresentados no Ensino Fundamental, sendo, portanto, um aprofundamento de tudo visto anteriormente.\n\nNo Ensino Médio, a BNCC propõe para a área de Ciências da Natureza três competências específicas, divididas em 26 habilidades, que, por sua vez, estão inseridas nos antigos “eixos” temáticos: Matéria e Energia, Vida e Evolução e Terra e Universo, hoje contemplados no Ensino Fundamental. Todo o conhecimento conceitual atrelado a esses eixos possui a estrutura necessária para que sejam desenvolvidas pelo estudante habilidades de analisar situações-problema, interpretar leis e teorias científicas, investigar e levantar hipóteses, discutir qualquer problema de ordem sociocultural, tecnológica, histórica e ambiental.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01248457c6ba131a006ab30061f04887d28af4608e89bd1a24",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1480,
+      "input_tokens_details": {
+        "cache_write_tokens": 1477,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1512,
+      "output_tokens_details": {
+        "reasoning_tokens": 224
+      },
+      "total_tokens": 2992
+    }
+  },
+  "created_at": "2026-09-22T22:25:47Z",
+  "duration_seconds": 9.892,
+  "error": null,
+  "excerpt_id": "df_inf_17",
+  "filename": "df_inf_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "59c58130bc755441490cc39eac493946b29b07a9cec6605ac2c1fb168a7ec807",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e4c517e02ef02a864726724f367de8cd86e093201d3cc5c2f959b42a768c57fe",
+    "rendered_prompt_sha256": "fb33492426eb2bdffed7707c384d8962384a4e3df5b919b96ca9643d99648b13",
+    "source_text_sha256": "a0896fc048d2383dc08fcb2bf555580098a9abe8716e5c7eee18a6e76a45c54e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_inf_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 960,
+    "filename": "df_inf_17.txt",
+    "filepath": "corpus/00_source_per_state/df/df_inf_17.txt",
+    "state": "df",
+    "word_count_original": 885
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_inf_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_inf_17.json"
+  },
+  "raw_response_text": "## 12. POR UMA EDUCAÇÃO INFANTIL INCLUSIVA E ACOLHEDORA\n\nA Convenção sobre os Direitos das Pessoas com Deficiência (BRASIL, 2011), da qual o Brasil é signatário, estabeleceu o compromisso de os Estados-Parte assegurarem às pessoas com deficiência um sistema educacional inclusivo em todos os níveis e modalidades de educação. Assim, em 2008, o Brasil, para se adequar a esse compromisso, publicou a Política Nacional da Educação Especial na Perspectiva da Educação Inclusiva (BRASIL, 2010b).\n\nA partir dessa Política Nacional (BRASIL, 2010b, p. 9), a Educação Especial no Brasil passou a constituir “um paradigma educacional fundamentado na concepção de direitos humanos, que conjuga igualdade e diferença como valores indissociáveis, e que avança em relação à ideia de equidade formal ao contextualizar as circunstâncias históricas da produção da exclusão”.\n\nNa defesa pela educação inclusiva, Vigotski (2012b), no início do século XX, já defendia a ideia de que o desenvolvimento incompleto das pessoas com deficiência se deve ao fato não da sua deficiência, mas à exclusão da coletividade. Esse autor abordou a importância da colaboração entre pessoas com e sem deficiência, destacando que essa é benéfica para ambas.\n\nAinda na luta pela inclusão, Vigotski (2012b) defendeu que a Educação Especial deveria superar o estigma do assistencialismo, pois, por muito tempo, esteve associada mais ao cuidado do que à educação, sendo vista como uma ação de caridade, um favor prestado por algumas instituições. Entretanto, a educação é um direito de todas as pessoas, com e sem deficiência, e o ideal é que seja ofertada inclusivamente nas instituições de educação coletivas comuns, levando-se em conta a diversidade da humanidade.\n\nVigotski (2012b) também afirmou que compete aos profissionais que atuam na Educação Especial realizar um trabalho pedagógico com as crianças com deficiência, percebendo-as como seres de possibilidades e capazes de se desenvolverem. Para ele, a situação de deficiência não pode limitar o trabalho docente, e sim deve suscitar a superação de supostas limitações sociais. Nesse sentido, a educação deve ter como finalidade que as pessoas superem a deficiência e se desenvolvam das mais diversas maneiras. A proposta de trabalho com essas crianças precisa, a partir do reconhecimento da singularidade de cada um e da compreensão de que todo sujeito emprega caminhos específicos para aprender e se desenvolver, pautar-se em uma prática que valorize a diversidade, e não a homogeneidade nesses percursos, empregando ideias destemidas e criativas e, assim, possibilitando aprendizagem e desenvolvimento a todos os sujeitos.\n\nA Política Nacional da Educação Especial na Perspectiva da Educação Inclusiva (BRASIL, 2010b, p. 21) caracterizou a Educação Especial como uma\n\n> [...] modalidade de ensino que perpassa todos os níveis, etapas e modalidades, realiza o atendimento educacional especializado, disponibiliza os recursos e serviços e orienta quanto a sua utilização no processo de ensino e aprendizagem nas turmas comuns do ensino regular.\n\nAssim, no que diz respeito à Educação Infantil, todas as crianças devem ser matriculadas em instituições de educação coletiva e inclusiva e aquelas que têm necessidades específicas, como deficiências, transtornos do espectro autista⁴ ou altas habilidades/superdotação, têm direito a uma segunda matrícula no turno contrário, no Atendimento Educacional Especializado – AEE, que tem como público-alvo pessoas com deficiências (física/motora, intelectual, visual, auditiva, múltiplas), transtornos globais do desenvolvimento e altas habilidades/superdotação (BRASIL, 2010b).\n\nPensar no serviço da Educação Especial na Educação Infantil no âmbito do Distrito Federal nos remete à Educação Precoce, serviço de AEE ofertado pela SEEDF a bebês e crianças bem pequenas (de zero a três anos e onze meses de idade).\n\n⁴ Em 2013, o Manual Diagnóstico e Estatístico de Transtornos Mentais – DSM–V alterou a nomenclatura para Transtorno do Espectro Autista – TEA.\n\nAlém da Educação Precoce, há outros serviços de apoio pedagógico no contexto da instituição que oferta Educação Infantil:\n\n- Serviços itinerantes;\n- Salas de Recursos;\n- Centros de Ensino Especial;\n- Classes Hospitalares;\n- Atendimento domiciliar.\n\nA Educação Especial, como modalidade que perpassa a Educação Infantil entre as demais etapas da Educação Básica, requer discussões e ações conjuntas, essenciais para delinear um caminho mais adequado à diversidade existente entre nossas crianças. Portanto, é no compartilhamento de reflexões e experiências que se torna possível promover a percepção e elaboração de um conjunto de conhecimentos e práticas sobre a inclusão.\n\nA inclusão das crianças com necessidades específicas carece de interações, acolhida e escuta sensível, atenta e com intencionalidade educativa. Isso depende de profissionais da educação comprometidos em entender as necessidades e interesses infantis, suas formas de expressão e seu direito de se desenvolver e conhecer o mundo nas relações com outros sujeitos, com e sem necessidades específicas.\n\nA abordagem do tema da educação inclusiva remete à inclusão de pessoas com necessidades específicas, todavia, convém pensar na educação para incluir a diversidade humana. Dessa forma, a perspectiva de educação inclusiva deste Currículo engloba o acolhimento e respeito à diversidade humana em todos os seus aspectos: étnico-raciais, gênero, classe social, idade, credo, bem como o respeito às peculiaridades das diversas populações: do campo, quilombolas, indígenas, estrangeiras, assentadas e acampadas da reforma agrária, de povos tradicionais, entre outras.\n\nPortanto, trata-se de um projeto de educação para a emancipação humana, que conhece, respeita e acolhe a diversidade, entendendo que, de fato, todas as pessoas são diferentes (em características, necessidades, gostos, anseios, crenças, formas de pensar e se posicionar no mundo), e essas diferenças não se constituem em ameaça, mas em riqueza para a humanidade.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

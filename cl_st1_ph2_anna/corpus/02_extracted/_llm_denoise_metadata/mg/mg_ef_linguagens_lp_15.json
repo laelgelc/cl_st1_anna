@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_050af0ceed5164a4006ab302c62e2c87d28c77ed12f4ec2f0c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1943,
+      "input_tokens_details": {
+        "cache_write_tokens": 1940,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2346,
+      "output_tokens_details": {
+        "reasoning_tokens": 912
+      },
+      "total_tokens": 4289
+    }
+  },
+  "created_at": "2026-09-22T22:36:08Z",
+  "duration_seconds": 18.596,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_lp_15",
+  "filename": "mg_ef_linguagens_lp_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "27f30c22d96717fb867703c9c333d13bab3fa489805a8cb38bba98170bb6bbf4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4df56c710191dac82bf98ed27c454b9c644df2d5fd8f330342b0ec15653e1fe3",
+    "rendered_prompt_sha256": "0d14565a33ededc68a50706e46860b983ae00aebb5b09e2c3cf3c928cb6acf31",
+    "source_text_sha256": "b12d45062dba72e6ed53a76de55e8b729ac77506a1e98f933ab5497bb97a418b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_lp_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1467,
+    "filename": "mg_ef_linguagens_lp_15.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_lp_15.txt",
+    "state": "mg",
+    "word_count_original": 750
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_lp_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_lp_15.json"
+  },
+  "raw_response_text": "## 5.8.5 Quadros de possibilidades de gêneros discursivos a serem trabalhados do 6º ao 9º ano\n\nOs gêneros em negrito são aqueles considerados primordiais para a sistematização no ano de escolaridade, sendo os demais sugestões para complementação e ampliação de conhecimentos e conceitos, no decorrer do Ensino Fundamental.\n\n### 6º e 7º ano\n\n| Campos de atuação | Oralidade | Leitura | Produção de texto oral | Produção de texto escrito |\n|---|---|---|---|---|\n| Jornalístico/Midiático | Notícia, reportagem, entrevistas, reportagem multimidiática, fotorreportagem, foto-denúncia, artigo de opinião, editorial, resenha crítica, crônica, comentário, discussões orais, debate, vlog noticioso, vlog cultural, meme, charge, charge digital, political remix, anúncio publicitário, propaganda, jingle, spot. | Notícia, reportagem, entrevistas, reportagem multimidiática, fotorreportagem, foto-denúncia, artigo de opinião, editorial, resenha crítica, carta de leitor, crônica, comentário, debate, vlog noticioso, vlog cultural, meme, charge, charge digital, political remix, anúncio publicitário, propaganda, folhetos, cartazes, jingle, spot, textos multissemióticos (tirinhas, gifs). | Notícia, reportagem, entrevistas, reportagem multimidiática, fotorreportagem, foto-denúncia, artigo de opinião, editorial, resenha crítica, crônica, comentário, debate, discussões, vlog noticioso, vlog cultural, meme, charge, charge digital, political remix, anúncio publicitário, propaganda, jingle, spot, jornais radiofônicos e televisivos, podcasts. | Notícia, reportagem, entrevistas, reportagem multimidiática, fotorreportagem, foto-denúncia, carta de leitor, artigo de opinião, editorial, resenha crítica, crônica, comentário noticioso, vlog cultural, meme, charge, charge digital, political remix, cartazes, folhetos, banner, anúncio publicitário, propaganda. |\n| Da atuação na vida pública | Discussão oral, debate, palestra, apresentação oral, propaganda de campanhas, estatuto, regimento, carta aberta, carta de solicitação, carta de reclamação, abaixo-assinado, requerimento, edital, ata, parecer, enquete, relatório. | Discussão oral, debate, palestra, apresentação, cartaz, códigos, propaganda de campanhas, estatuto, regimento, carta aberta, carta de solicitação, carta de reclamação, abaixo-assinado, requerimento, edital, ata, parecer, enquete, relatório e leis. | Apresentação oral, debate, palestra, reportagem, cartaz, spot, propaganda de campanhas, estatuto, regimento, carta aberta, carta de solicitação, carta de reclamação, abaixo-assinado, requerimento, edital, ata, parecer, relatório. | Propaganda de campanhas, estatuto, regimento, carta aberta, carta de solicitação, carta de reclamação, abaixo-assinado, requerimento, edital, ata, parecer, relatório. |\n| Das Práticas de Estudo e Pesquisa | Conversação espontânea, apresentação oral, palestra, mesa-redonda, debate, artigo de divulgação científica, artigo científico, artigo de opinião, ensaio, entrevistas, reportagem de divulgação científica, texto didático, infográfico, esquemas, relatório, relato (multimidiático) de campo, documentário, cartografia animada, podcasts e vídeos. | Artigo de divulgação científica, artigo científico, verbete de enciclopédia, mapa conceitual, ensaio, verbete de enciclopédia, reportagem de divulgação científica, texto didático, infográfico, esquemas, tabelas, gráficos, relatório, relato (multimidiático) de campo, documentário, cartografia animada, podcasts e vídeos. | Apresentação oral, palestra, mesa-redonda, debate, artigo de divulgação científica, artigo científico, artigo de opinião, ensaio, entrevista, reportagem de divulgação científica, texto didático, infográfico, esquemas, relatório, relato (multimidiático) de campo, documentário, cartografia animada, podcasts e vídeos. | Apresentação oral, palestra, mesa-redonda, debate, artigo de divulgação científica, verbete de enciclopédia, artigo científico, artigo de opinião, ensaio, reportagem de divulgação científica, texto didático, infográfico, esquemas, relatório, resumo, relato (multimidiático) de campo, documentário, cartografia animada, podcasts e vídeos. |\n| Artístico-literário | Quarta capa, programas (de teatro, dança, exposição, etc.), sinopse, resenha crítica, comentários em blog/vlog cultural, playlists comentadas, vlogs e podcasts culturais (literatura, cinema, teatro, música), playlists comentadas, franzines, e-zines, trailer honesto, vídeo-minuto, peça teatral, textos narrativos ficcionais (conto/reconto), poema. | Quarta capa, programas (de teatro, dança, exposição, etc.), sinopse, resenha crítica, comentários em blog/vlog cultural e podcasts culturais (literatura, cinema, teatro, música), playlists comentadas, fanzines, e-zines, fanvídeos, fanclipes, posts, trailer honesto, vídeo-minuto, peça teatral, textos narrativos ficcionais (conto popular e de terror), lendas (brasileiras, indígenas e africana), romance infanto-juvenil, narrativas de enigmas, mito, crônicas, vídeo-poemas, poemas visuais, mangás, cordéis, histórias em quadrinhos. | Quarta capa, programas (de teatro, dança, exposição, etc.), sinopse, resenha crítica, comentários em blog/vlog cultural, playlists comentadas, vlogs e podcasts culturais (literatura, cinema, teatro, música), playlists comentadas, fanfics, fanzines, e-zines, fanvídeos, fanclipes, posts em fanpages, trailer honesto, vídeo-minuto, peça teatral, textos narrativos ficcionais (conto, crônica, fábula, lendas, etc.), poema. | Quarta capa, programas (de teatro, dança, exposição, etc.), sinopse, resenha crítica, comentários em blog/vlog cultural, playlists comentadas, vlogs e podcasts culturais (literatura, cinema, teatro, música), playlists comentadas, fanfics, fanzines, e-zines, fanvídeos, fanclipes, posts em fanpages, trailer honesto, vídeo-minuto, peça teatral, textos narrativos ficcionais (conto, crônica, narrativas de enigma, histórias em quadrinhos, fábula, lendas, etc.), poema e vídeo-poemas. |",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

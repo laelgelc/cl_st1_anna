@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e843dd17d14698b006ab30d1be25087d28e962d89627d69f0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 757,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 736,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 1493
+    }
+  },
+  "created_at": "2026-09-22T23:20:01Z",
+  "duration_seconds": 5.999,
+  "error": null,
+  "excerpt_id": "rr_em_14",
+  "filename": "rr_em_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ffeede56e2168c71af85fcfc9fe834292355090b9f74f7533c392abd7877fb06",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8911792edb9760b05a5381a95c1099e2d9d23e9f08e130d0c2e9c3cac715b412",
+    "rendered_prompt_sha256": "38d05a520fe137580c6e6b9efd886d7f4d72f0e5f9d702d5a312fefb001dbf32",
+    "source_text_sha256": "91d5b6ba5a5ac455e9bbb30d65c49dcc4ac71232cf56088025a2e36282af8309"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3446,
+    "filename": "rr_em_14.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_14.txt",
+    "state": "rr",
+    "word_count_original": 469
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_14.json"
+  },
+  "raw_response_text": "2.1.\n\nA LDBEN (BRASIL, 1996), em seu art. 37, contempla a EJA como modalidade da Educação Básica, enfatizando que é destinada “àqueles que não tiveram acesso ou continuidade de estudos no Ensino Fundamental e Médio na idade própria”. Embora exista essa garantia de oferta, cabe aos governos estaduais e municipais, a elaboração de diretrizes próprias nos seus Documentos Curriculares, com um olhar diferenciado ao contexto do educando e da população com perfil para EJA. Também, é necessário apontar caminhos que permitam ao aluno o reconhecimento de suas possibilidades escolares e de que os saberes podem se traduzir em qualidade de vida para ele e seus familiares.\n\nOs sujeitos estudantes da Educação de Jovens e Adultos em Roraima são indivíduos que estão fora da faixa etária, inclusive os que cumprem medidas socioeducativas e internos penitenciários. Muitos são jovens que abandonaram a escola, devido a necessidade de trabalhar para contribuir na renda familiar, devido às dificuldades que enfrentam dentro da própria família.\n\nEstes sujeitos conseguem conciliar trabalho e estudos graças à flexibilização que a EJA proporciona, com a intenção de buscar uma qualificação profissional, fazer um curso técnico ou mesmo ingressar em uma Universidade ou pelo sonho de aprender a ler e escrever, para ajudar os filhos nas lições de casa e idosos que buscam, a partir dessa modalidade, darem continuidade aos estudos.\n\nConsiderando esse público alvo, a oferta da EJA deve ser embasada nas suas especificidades e singularidades. Conforme os dados da Pesquisa Nacional por Amostra de Domicílios Contínua - PNAD Contínua, em 2018, em Roraima, 8,2% dos jovens e adultos de 15 anos ou mais são analfabetos. O índice cresceu em relação a 2017, quando 7,7% dos roraimenses desta faixa etária estavam nessa condição (BRASIL, 2018g).\n\nAinda de acordo com esse levantamento, cerca de 23 mil jovens são analfabetos no Estado, dos quais, 11 mil estão na capital. A maior parte dos analfabetos nessa idade é do sexo masculino, cerca de 52%. Somados a esses números, no Estado de Roraima, aproximadamente 25% dos estudantes do Ensino fundamental de 6° ao 9° ano estão em distorção idade-série.\n\nAinda como meta não somente de alfabetização, mas a continuidade da escolarização e formação de adultos e idosos, a EJA tem uma larga contribuição social para aqueles que não tiveram acesso à escola em idade própria e se encontram em situação de vulnerabilidade social.\n\nPortanto, os desafios são muitos, pois as redes e instituições de ensino precisam promover formação de professores, definição de um sistema de amplo de alcance para esse segmento, estabelecimento de modelos de avaliação, metodologias específicas a serem utilizadas e, ainda, a aproximação com os cursos técnicos, que demandam regulamentação. Além disso, as escolas que ofertam a EJA devem abarcar essa complexidade nos seus projetos pedagógicos, assegurando a esses sujeitos uma educação de qualidade e inclusiva.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

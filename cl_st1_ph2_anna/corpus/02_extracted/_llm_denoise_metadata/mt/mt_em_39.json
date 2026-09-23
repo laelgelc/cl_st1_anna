@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a65e21441f608d0006ab304e86c1c87d2bf57ea87cd740484",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1078,
+      "input_tokens_details": {
+        "cache_write_tokens": 1075,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1024,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 2102
+    }
+  },
+  "created_at": "2026-09-22T22:45:03Z",
+  "duration_seconds": 7.301,
+  "error": null,
+  "excerpt_id": "mt_em_39",
+  "filename": "mt_em_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "34c9caa1b4430d39076bd468b26d1cce28d4d127e1e86dd81cf91484c9adac9a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "33e7054e143f2a7ed28b51a4f6873ddaa771f12dbcf60c5f3474c370003688aa",
+    "rendered_prompt_sha256": "c7804c3dc1057b91904b95176fa59b603471d59d7716ce10781314a3f8c0701c",
+    "source_text_sha256": "f8c88b31253863f4a0645b1849d228c8855d8605e10e50f64d08c29e95cc716a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1931,
+    "filename": "mt_em_39.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_39.txt",
+    "state": "mt",
+    "word_count_original": 622
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_39.json"
+  },
+  "raw_response_text": "### 7.6 Considerações sobre aprendizagens em CHSA: O planejar, o ensinar e o avaliar\n\nA concepção curricular da Etapa Ensino Médio possibilita a correlação de saberes, os objetos de conhecimento da BNCC e da área de CHSA. O currículo, nesse sentido, é algo a ser edificado, a partir da relação entre os componentes curriculares e o dia a dia dos estudantes. Deve-se nesta perspectiva planejar atividades para desenvolver as habilidades e, ao mesmo tempo, relacionar essas atividades, com os aspectos reais da vida cotidiana. Sobre esse tema encontramos suporte em Masetto (1996) quando declara que planejar é produzir e planejar ações para a vida e para a consecução de qualquer projeto.\n\nA interdisciplinaridade e a contextualização devem ser o mecanismo para viabilizar a correlação de saberes. Conforme aponta Santomé (1998):\n\n> A cultura, mentalidade e expectativas de qualquer pessoa são fruto de uma história vivida no seio de uma ou várias famílias, resultado de sua participação ativa dentro de grupos sociais étnicos, de gênero, de condicionantes geográficos, históricos, sociológicos, políticos e biológicos etc. (SANTOMÉ, 1998, p. 45).\n\nDesta forma, acreditar na interdisciplinaridade, na relação intrínseca das diferentes áreas do conhecimento, inserindo-as às diversidades culturais, “significa defender um novo tipo de pessoa, mais aberta, flexível, solidária, democrática e crítica” (p. 45).\n\nAtravés das CHSA, podemos formar um estudante autônomo, crítico e autoral, que traz conhecimentos advindos de diferentes lugares, esses saberes devem ser contemplados na escola em uma dinâmica que envolva diferentes metodologias. É possível ampliar os saberes na construção de um currículo crítico e interdisciplinar que privilegie a promoção de aprendizagens significativas que expandam esses conhecimentos.\n\n### 7.7 Perspectivas de planejamento das aulas de CHSA utilizando Objetos de conhecimento, habilidades e competências\n\nO professor precisa pensar sobre sua prática pedagógica e verificar a função social dos objetos de conhecimento durante a elaboração do planejamento, bem como saber com clareza a função dos objetos de conhecimento na prática do cotidiano do estudante. Neste momento, cabe destacar a importância da pedagogia histórico-crítica, pensada por Saviani (1991), que propicia uma ação professor-estudante, na qual o professor não trabalha pelo estudante, mas com o estudante, esta ação pedagógica caracteriza o uso do método dialético, que é a prática-teoria-prática dos objetos de conhecimento.\n\nAssim, o planejamento/proposta pedagógica, que perpassa pela teoria dialética do conhecimento, deve propiciar atividades de investigação, reflexão crítica e participação ativa dos estudantes na articulação dos novos objetos de conhecimento com os que eles já trazem.\n\n> Uma pedagogia articulada com os interesses populares valorizará, pois, a escola; não será indiferente ao que ocorre em seu interior; estará empenhada em que a escola funcione bem; portanto, estará interessada em métodos de ensino eficazes. Tais métodos se situarão para além dos métodos tradicionais e novos, superando por incorporação as contribuições de uns e de outros. Portanto, serão métodos que estimularão a atividade e iniciativa dos estudantes sem abrir mão, porém, da iniciativa do professor; favorecerão o diálogo dos estudantes entre si e com o professor, mas sem deixar de valorizar o diálogo com a cultura acumulada historicamente; levarão em conta os interesses dos estudantes, os ritmos de aprendizagem e o desenvolvimento psicológico, mas sem perder de vista a sistematização lógica dos conhecimentos, sua ordenação e gradação para efeitos do processo de transmissão-assimilação dos conteúdos cognitivos. (SAVIANI, 1996, p. 79).\n\nAo pensarmos nas dimensões que constituem os processos cognitivos, entendemos que os mesmos devem possibilitar a aquisição de habilidades dentre as competências específicas da Área de CHSA articulados entre si dentre as suas especificidades, que estimulem as capacidades cognitivas necessárias e que assegurem o direito do estudante à aprendizagem, conectado e inserido nos diferentes setores da sociedade com perspectiva de sujeito sócio-histórico, participativo, reflexivo, autônomo, protagonista, criativo e produtivo.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

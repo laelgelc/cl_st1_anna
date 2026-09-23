@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09f509e0cdbc6e5f006ab30a6e5b4487d29946c6ff65d6d8b1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 830,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 912,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 1742
+    }
+  },
+  "created_at": "2026-09-22T23:08:40Z",
+  "duration_seconds": 10.718,
+  "error": null,
+  "excerpt_id": "rj_ef_intro_5",
+  "filename": "rj_ef_intro_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "43f076ea3296f090604dd435a1996c6520b4e02dfa6bfacee1c7772cd97b4a2d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "191ad0e38fc78a075a2c457bae4b772021c9f4f8388d40bf560ea63598aaf849",
+    "rendered_prompt_sha256": "c721091db3fd57f0a37555ddf87c5b39ee1741d7243469813377122e09dad3a8",
+    "source_text_sha256": "862e9066e8d8de9e33d95dcd6ea534ad102bb881f8bf28db78c9fb3288134184"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_ef_intro_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2863,
+    "filename": "rj_ef_intro_5.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_ef_intro_5.txt",
+    "state": "rj",
+    "word_count_original": 545
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_ef_intro_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_ef_intro_5.json"
+  },
+  "raw_response_text": "## Ensino Fundamental e a Construção do Currículo com Abrangência Estadual\n\nAs Diretrizes Curriculares Nacionais (CNE/CEB no 7/2010) para o Ensino Fundamental de nove anos apresentam desafios para elaboração de currículos para o Ensino Fundamental que requerem mudanças visando superar as rupturas que ocorrem não somente na transição entre uma etapa da Educação Básica, como também no âmbito da própria etapa entre Anos Iniciais e Anos Finais.\n\nSegundo a BNCC (BRASIL, 2017, p. 56):\n\n> Nesse período da vida, as crianças estão vivendo mudanças importantes em seu processo de desenvolvimento que repercutem em suas relações consigo mesmas, com os outros e com o mundo. [...] Ampliam-se também as experiências para o desenvolvimento da oralidade e dos processos de percepção, compreensão e representação, elementos importantes para a apropriação do sistema de escrita alfabética e de outros sistemas de representação, como os signos matemáticos, os registros artísticos, midiáticos e científicos e as formas de representação do tempo e do espaço. [...] O estímulo ao pensamento criativo, lógico e crítico, por meio da construção e do fortalecimento da capacidade de fazer perguntas e de avaliar respostas, de argumentar, de interagir com diversas produções culturais, de fazer uso de tecnologias de informação e comunicação, possibilita aos alunos ampliar sua compreensão de si mesmos, do mundo natural e social, das relações dos seres humanos entre si e com a natureza.\n\nOrienta-se que o trabalho pedagógico seja pautado no interesse dos estudantes, tendo como ponto de partida as experiências por elas vividas. Escutar suas opiniões, hipóteses e soluções no ambiente escolar abrem novas possibilidades de construção do conhecimento, permitindo que se vejam como sujeitos atuantes em suas aprendizagens.\n\nCiente de que a BNCC como normativa tem papel de assegurar o direito a um aprendizado de qualidade para todos, cabe ao estado do Rio de Janeiro seguir nesta mesma direção, na construção de cenários que fortaleçam os 92 municípios na participação desses processos formativos para a educação, seja ela pública ou privada. Portanto, o DOC-RJ tem o objetivo de apoiar as redes de ensino com direções que favoreçam a elaboração de propostas curriculares e projetos pedagógicos escolares, resultando o desenvolvimento de concepções pedagógicas, próprias de cada município, que favoreçam a construção de uma sociedade mais humana e socialmente justa, além de atendidas as especificidades regionais e locais. Uma escolha pessoal e autônoma. Quanto ao homem que temos ao que queremos: A definição na proposta pedagógica das escolas como fundamento, concepção e princípios norteadores. Ressaltamos que nas páginas iniciais deste documento orientador curricular tratamos dessa abordagem.\n\nNessa conjuntura local de elaboração de Proposta Pedagógica deve-se considerar que o currículo a ser implementado seja coerente com a garantia de igualdade, diversidade e equidade, abordadas em linhas iniciais deste documento. Entende-se que é importante que cada realidade estabeleça a concepção de currículo, de aprendizagem, de ensino, de sala de aula, de formação docente, de avaliação, de interação, que se caracterize o professor, seu protagonismo, o planejamento, além do estudante também enquanto protagonista com peculiaridades, mas que ocupa lugar central no processo de ensino-aprendizagem. Com isso, não cabe aqui dizer o que ocorrerá em cada realidade, pois a expectativa desenvolvida pelos docentes perpassa necessariamente pela sua capacidade de exercer com autonomia as atividades que julgar mais pertinente ao seu contexto pedagógico local.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09e5274db6b1ffe3006ab30af69fcc87d29851f39dee337521",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 327,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 282,
+      "output_tokens_details": {
+        "reasoning_tokens": 49
+      },
+      "total_tokens": 609
+    }
+  },
+  "created_at": "2026-09-22T23:10:49Z",
+  "duration_seconds": 3.226,
+  "error": null,
+  "excerpt_id": "rn_ef_55",
+  "filename": "rn_ef_55.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "734e3895911ed3ffb38bcc21d3743d09a22e3553d4f3142eb056515ebba30a31",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "626420b6f9e414d14a2263c6cfe99f63b6554a3dc3a70b7908a7f8a9e292c4bc",
+    "rendered_prompt_sha256": "fe716eca18a836427109f90d7bfceefd0a1f23a061f5e1206688ff19c778b741",
+    "source_text_sha256": "36aee95f24dddf689eba824ea846584ab6dee65331d77062e5e9e90b6d38d688"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_55.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2996,
+    "filename": "rn_ef_55.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_55.txt",
+    "state": "rn",
+    "word_count_original": 122
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_55.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_55.json"
+  },
+  "raw_response_text": "## INSTRUMENTOS E PROCEDIMENTOS DE AVALIAÇÃO - ANOS INICIAIS\n\n- Avaliação oral.\n- Avaliação dos registros escritos nas atividades propostas.\n- Avaliação escrita.\n- Avaliação por meio do diário de imagens.\n- Avaliação da participação e interação dos alunos em diferentes atividades propostas.\n- Portfólios.\n- Avaliação da oralidade dos alunos.\n- Avaliação do lúdico por meio de aspectos que evidenciem o uso das competências artísticas para exibição dos conteúdos interpretados.\n- Avaliação dos registros de atividades individuais e em grupos.\n- Produção textual (poesia).\n- Avaliação de atividades individuais e em grupo.\n- Produção de trabalhos escritos (pesquisa).\n- Seminários.\n- Debates (rodas de conversa).\n- Dramatização.\n- Exposição de trabalhos em evento na escola para visitação.\n- Produção de maquetes (com materiais recicláveis).\n- Produção de jornal informativo.\n- Montagem de mapas.\n- Apresentação em jograis.\n- Produção de murais, cartazes e projetos.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

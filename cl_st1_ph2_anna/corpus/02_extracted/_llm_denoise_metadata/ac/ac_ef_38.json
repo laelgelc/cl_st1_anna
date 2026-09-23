@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c3613b2d230e6b6006ab2fba729f487d28c6c3c40dcaf924e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 882,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1227,
+      "output_tokens_details": {
+        "reasoning_tokens": 439
+      },
+      "total_tokens": 2109
+    }
+  },
+  "created_at": "2026-09-22T22:05:37Z",
+  "duration_seconds": 10.349,
+  "error": null,
+  "excerpt_id": "ac_ef_38",
+  "filename": "ac_ef_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c724b0f83284a0c0bc7c0d5c785eed229924a9ac9d519eeee963b18b2de2072e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "229b7631e7bb9e0d84dd89860f53bbc93157f26ed9deaf4a91e72dda8adf7c46",
+    "rendered_prompt_sha256": "b17e651d8ffdbb0c0b38cd16cb6ea9f9e8c3cb93838cc28a5da8dd465d355c93",
+    "source_text_sha256": "073b891873c1646ac8aa37f5bdbde241421f67ddfff811a8be482584f681c420"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 32,
+    "filename": "ac_ef_38.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_38.txt",
+    "state": "ac",
+    "word_count_original": 552
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_38.json"
+  },
+  "raw_response_text": "## 2. CONCEITOS-CHAVE E ABORDAGEM METODOLÓGICA\n\nO Ensino Fundamental deve ter compromisso com o desenvolvimento do letramento matemático, definido como as competências e habilidades de raciocinar, representar, comunicar e argumentar matematicamente, de modo a favorecer o estabelecimento de conjecturas, a formulação e a resolução de problemas em uma variedade de contextos, utilizando conceitos, procedimentos, fatos e ferramentas matemáticas. É também o letramento matemático que assegura aos alunos reconhecer que os conhecimentos matemáticos são fundamentais para a compreensão e a atuação no mundo e perceber o caráter de jogo intelectual da Matemática, como aspecto que favorece o desenvolvimento do raciocínio lógico e crítico, estimula a investigação e pode ser prazeroso (fruição). O desenvolvimento dessas habilidades está intrinsecamente relacionado a algumas formas de organização da aprendizagem matemática, com base na análise de situações da vida cotidiana, de outras áreas do conhecimento e da própria Matemática. Os processos matemáticos de resolução de problemas, de investigação, de desenvolvimento de projetos e da modelagem podem ser citados como formas privilegiadas da atividade matemática, motivo pelo qual são, ao mesmo tempo, objeto e estratégia para a aprendizagem ao longo de todo o Ensino Fundamental. Esses processos de aprendizagem são potencialmente ricos para o desenvolvimento de competências fundamentais para o letramento matemático (raciocínio, representação, comunicação e argumentação) e para o desenvolvimento do pensamento computacional (BNCC, Brasil 2018, p. 266).\n\nEm todas as unidades temáticas, a delimitação dos conteúdos (habilidades) considera que as noções matemáticas são retomadas, ampliadas e aprofundadas ano a ano. No entanto, é fundamental considerar que a leitura dessas habilidades não seja feita de maneira fragmentada. A compreensão do papel que determinada habilidade representa no conjunto das aprendizagens demanda a compreensão de como ela se conecta com habilidades dos anos anteriores, o que leva à identificação das aprendizagens já consolidadas, e em que medida o trabalho para o desenvolvimento da habilidade em questão serve de base para as aprendizagens posteriores. Nesse sentido, é fundamental considerar, por exemplo, que a contagem até 100, proposta no 1º ano, não deve ser interpretada como restrição a ampliações possíveis em cada escola e em cada turma. Afinal, não se pode frear a curiosidade e o entusiasmo pela aprendizagem, tão comum nessa etapa da escolaridade, e muito menos os conhecimentos prévios dos alunos (BNCC, Brasil 2018, p. 276).\n\nNa Matemática escolar, o processo de aprender uma noção em um contexto, abstrair e depois aplicá-la em outro contexto envolve capacidades essenciais, como formular, empregar, interpretar e avaliar – criar, enfim –, e não somente a resolução de enunciados típicos que são, muitas vezes, meros exercícios e apenas simulam alguma aprendizagem. Assim, algumas das habilidades formuladas começam por: “resolver e elaborar problemas envolvendo...”. Nessa enunciação está implícito que se pretende não apenas a resolução do problema, mas também que os alunos reflitam e questionem o que ocorreria se algum dado do problema fosse alterado ou se alguma condição fosse acrescida ou retirada. Nessa perspectiva, pretende-se que os alunos também formulem problemas em outros contextos (BNCC, Brasil 2018, p. 277).\n\nNessa direção, este documento propõe cinco unidades temáticas – Números, Álgebra, Geometria, Grandezas e Medidas e Probabilidade e Estatística – correlacionadas, que orientam a formulação de conteúdos a serem desenvolvidos ao longo do Ensino Fundamental. Cada um deles pode receber ênfase diferente, a depender do ano de escolarização (BNCC, Brasil 2018, p. 268).",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

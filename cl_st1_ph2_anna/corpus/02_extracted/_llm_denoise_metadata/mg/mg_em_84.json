@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_040fb66699591299006ab30365402c87d2bf0038be5ee95994",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 819,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 956,
+      "output_tokens_details": {
+        "reasoning_tokens": 270
+      },
+      "total_tokens": 1775
+    }
+  },
+  "created_at": "2026-09-22T22:38:36Z",
+  "duration_seconds": 6.991,
+  "error": null,
+  "excerpt_id": "mg_em_84",
+  "filename": "mg_em_84.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f3e5a8143a75daf1af4177a6254bac918bb9531deaa2d74e43216f6ed1f41225",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6c595a6dc01ea3bc70f64ae6200d5be4e8dc09209a8d2e8cde87f78aa071c7e5",
+    "rendered_prompt_sha256": "07d1a70390b92fd8f858770db1838fad3c8c804c82bb5917bd303d63ee3d053a",
+    "source_text_sha256": "c901edfea8352b3ba43d8d21ca9d076a135d44eff7f8b33bbb54725d036e6e8c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_84.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1619,
+    "filename": "mg_em_84.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_84.txt",
+    "state": "mg",
+    "word_count_original": 465
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_84.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_84.json"
+  },
+  "raw_response_text": "### 4.1.3 O Itinerário de Formação Profissional e Técnica\n\nOs itinerários de Formação Profissional e Técnica tratam de componentes que preparam para o mundo do trabalho. Visam, portanto, a:\n\n- Qualificação profissional;\n- Habilitação profissional técnica de nível médio;\n- Formações experimentais.\n\nDiante da Resolução nº 3, de 21 de novembro de 2018, que atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio, o itinerário de Formação Profissional e Técnica compreende um conjunto de termos e conceitos próprios, tais como:\n\n- **Ambientes simulados:** são ambientes pedagógicos que possibilitam o desenvolvimento de atividades práticas da aprendizagem profissional quando não puderem ser elididos riscos que sujeitem os aprendizes à insalubridade ou à periculosidade nos ambientes reais de trabalho;\n- **Formações experimentais:** são formações autorizadas pelos respectivos sistemas de ensino, nos termos de sua regulamentação específica, que ainda não constam no Catálogo Nacional de Cursos Técnicos (CNCT);\n- **Aprendizagem profissional:** é a formação técnico-profissional compatível com o desenvolvimento físico, moral, psicológico e social do jovem, de 14 a 24 anos de idade, previsto no § 4º do art. 428 da Consolidação das Leis do Trabalho (CLT) e em legislação específica, caracterizada por atividades teóricas e práticas, metodicamente organizadas em tarefas de complexidade progressiva, conforme respectivo perfil profissional;\n- **Qualificação profissional:** é o processo ou resultado de formação e desenvolvimento de competências de determinado perfil profissional, definido no mercado de trabalho;\n- **Habilitação profissional técnica de nível médio:** é a qualificação profissional formalmente reconhecida por meio de diploma de conclusão de curso técnico, o qual, quando registrado, tem validade nacional.\n\n**Programa de aprendizagem:** compreende arranjos e combinações de cursos que, articulados e com os devidos aproveitamentos curriculares, possibilitam um itinerário de aprofundamento. A oferta de programas de aprendizagem tem por objetivo apoiar trajetórias formativas que tenham relevância para os jovens e favoreçam sua inserção futura no mercado de trabalho. Observadas as normas vigentes relacionadas à carga horária mínima e ao tempo máximo de duração do contrato de aprendizagem, os programas de aprendizagem podem compreender distintos arranjos: certificação intermediária é a possibilidade de emitir certificação de qualificação para o trabalho quando a formação foi estruturada e organizada em etapas com terminalidade; certificação profissional é o processo de avaliação, reconhecimento e certificação de saberes adquiridos na educação profissional, inclusive no trabalho, para fins de prosseguimento ou conclusão de estudos nos termos do art. 41 da LDB24.\n\nEm 05 de janeiro de 2021, o Conselho Nacional de Educação (CNE) publicou a Resolução CNE/CP nº 1, que define as Diretrizes Curriculares Nacionais Gerais para a Educação Profissional e Tecnológica. De acordo com Resolução, entende-se por Diretriz o conjunto articulado de princípios e critérios a serem observados pelos sistemas de ensino e pelas instituições e redes de ensino públicas e privadas, na organização, no planejamento, no desenvolvimento e na avaliação da Educação Profissional e Tecnológica, presencial e a distância.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

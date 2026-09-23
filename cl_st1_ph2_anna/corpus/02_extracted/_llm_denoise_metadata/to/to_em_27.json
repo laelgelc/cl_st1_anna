@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0913c10a92def58f006ab3102b6d4087d2bb9efdc3a2757629",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 732,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 805,
+      "output_tokens_details": {
+        "reasoning_tokens": 172
+      },
+      "total_tokens": 1537
+    }
+  },
+  "created_at": "2026-09-22T23:33:05Z",
+  "duration_seconds": 5.634,
+  "error": null,
+  "excerpt_id": "to_em_27",
+  "filename": "to_em_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cc68b871a3cf563906eccdc7945092f80f278cc8d9cb704c1cbf600c815145f7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "14f74a5dee6a74a1ccec11390990d1be34d3a5c696d712fdcf970f1c5a8b7e69",
+    "rendered_prompt_sha256": "89bcc2a329fe1a546836fbf926b8ff06d44f744f4784358efb39228f27be72a9",
+    "source_text_sha256": "783a8127bd7edd40b7db2122f577721e088b224eb535a171083c9a2a3bd62a88"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4026,
+    "filename": "to_em_27.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_27.txt",
+    "state": "to",
+    "word_count_original": 461
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_27.json"
+  },
+  "raw_response_text": "## 5. O papel do professor\n\nO papel do Professor na sala de aula das Eletivas é levar o estudante a analisar problemas, situações complexas e acontecimentos dentro de um contexto real, utilizando os conhecimentos presentes em diversas áreas. Ele desafia e estimula os jovens, mobiliza questionamentos e hipóteses, dúvidas e certezas temporárias, criando nos estudantes a necessidade pela busca de respostas, sendo eles os próprios protagonistas nessa busca. Assim, suas aulas devem prover formas criativas e estimulantes para criar novas estruturas conceituais. Para isso, deve considerar o respeito às individualidades cognitivas, afetivas e sociais, a importância do estímulo, a constante curiosidade, o favorecimento da vivência e da experimentação, o envolvimento, a autonomia e a criatividade na criação de soluções.\n\n### 5.1 O perfil do Professor\n\na) É curioso, idealista, criativo, pró-ativo, incentivador e mediador da construção de conhecimento e anseia por novidades;\n\nb) Gosta de inovações, de pesquisa, de colocar em prática ideias diferentes. Profissionalmente está sempre aberto a novas perspectivas e novas experiências, enxergando-se como um permanente aprendiz;\n\nc) É capaz de estimular a curiosidade dos estudantes, cria oportunidades de aprendizagens variadas, possibilitando descobertas e novas experiências a partir da identidade dos aprendizes;\n\nd) Entende que seu papel é de educar o estudante em todas as suas dimensões, estimulando o conhecimento teórico-prático, o pensamento crítico, analítico e propositivo, a iniciativa, o foco no futuro com garantia do desenvolvimento das habilidades socio emocionais;\n\ne) É sensível às necessidades variadas e as diferentes bagagens dos estudantes e está comprometido com o sucesso de todos;\n\nf) Acredita que a socialização de conhecimento entre professores, professores e estudantes e estudantes entre si é fundamental para o enriquecimento do processo de aprendizagem;\n\ng) Está ciente que a parceria com a família maximiza a aprendizagem do estudante;\n\nh) Tem uma visão otimista do mundo, tolera incertezas e ambiguidades;\n\ni) É entusiasta do trabalho em uma comunidade de aprendizagem colaborativa;\n\nj) Acredita que a escola deve utilizar novas tecnologias como ferramentas para melhorar a qualidade da aprendizagem;\n\nk) É capaz de planejar atividades de Itinerários Formativos que explorem elos e possibilidades de trocas entre diferentes componentes e unidades curriculares;\n\nl) Reconhece a importância de avaliações constantes do desempenho dos estudantes e professores com o objetivo de ajustar o processo de aprendizagem e de alcançar as metas estabelecidas;\n\nm) A partir de diferentes interpretações e críticas, se interessa por outras perspectivas além da sua e é capaz de rever e expandir sua própria visão;\n\nn) Proporciona a ampliação na visão de mundo dos estudantes, auxiliando-os no processo para se transformarem em indivíduos protagonistas;\n\no) É capaz de trabalhar de um modo integrado com os demais professores por meio do planejamento e da realização de atividades compartilhadas ou pela integração de objetos de conhecimento afins.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c91d080722d2676006ab2fe73d6b487d2b2fdb55a2393667f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 452,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 397,
+      "output_tokens_details": {
+        "reasoning_tokens": 60
+      },
+      "total_tokens": 849
+    }
+  },
+  "created_at": "2026-09-22T22:17:27Z",
+  "duration_seconds": 3.752,
+  "error": null,
+  "excerpt_id": "ba_ef_28",
+  "filename": "ba_ef_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ec992d6286933258d4f58856ca320b119c714cfb4e8b4aeb0459a42b3f319ad6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "034886cd83053dbb3add3ab5e113b697665fb55135f31211978a61a7f2c7764d",
+    "rendered_prompt_sha256": "c8544ac197f33101ae1d8de17b8787bef37c2c682cbee26673f53319ad1f9745",
+    "source_text_sha256": "a8f058f8d0db255b9d2704a4911838cfae16059f798089dd64592e0474adac7a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_ef_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 612,
+    "filename": "ba_ef_28.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_ef_28.txt",
+    "state": "ba",
+    "word_count_original": 239
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_ef_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_ef_28.json"
+  },
+  "raw_response_text": "### 8.6. Ensino religioso\n\nA área de Ensino Religioso no currículo reflete transformações socioculturais, fruto de mudanças paradigmáticas no campo educacional das últimas décadas, relacionadas às perspectivas do respeito à diversidade, inclusão social e Educação Integral. Tem como objeto o conhecimento religioso, o qual é produzido no âmbito das diferentes áreas do conhecimento científico das Ciências Humanas e Sociais, notadamente da(s) Ciência(s) da(s) Religião(ões). Essas Ciências investigam a manifestação dos fenômenos religiosos em diferentes culturas e sociedades como um dos bens simbólicos resultantes da busca humana por respostas aos enigmas do mundo, da vida e da morte.\n\nDe modo singular, complexo e diverso, esses fenômenos alicerçaram distintos sentidos e significados de vida e diversas ideias de divindade(s), em torno dos quais se organizaram cosmovisões, linguagens, saberes, crenças, mitologias, narrativas, textos, símbolos, ritos, doutrinas, tradições, movimentos, práticas e princípios éticos e morais. Os fenômenos religiosos em suas múltiplas manifestações são parte integrante do substrato cultural da humanidade e estão contemplados no presente Documento Curricular Referencial da Bahia para a Educação Infantil e Ensino Fundamental.\n\nAssim sendo, os conhecimentos religiosos devem ser trabalhados a partir de pressupostos éticos e científicos, sem privilégio de nenhuma crença ou convicção. Isso implica abordar esses conhecimentos com base nas diversas culturas e tradições religiosas, sem desconsiderar a existência de filosofias seculares de vida, de acordo com os próprios fundamentos da BNCC.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

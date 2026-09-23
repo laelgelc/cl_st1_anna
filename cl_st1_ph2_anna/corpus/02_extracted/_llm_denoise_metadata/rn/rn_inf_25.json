@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00453c102c29fdf1006ab30b49ec2c87d28a90b91edf7ac89d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 727,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 797,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 1524
+    }
+  },
+  "created_at": "2026-09-22T23:12:16Z",
+  "duration_seconds": 7.047,
+  "error": null,
+  "excerpt_id": "rn_inf_25",
+  "filename": "rn_inf_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c62c43436deb6462405349722d9748db5c270f9c7d12093fbb808a72205316aa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "caeedd4a3cb5904bcde1cb3b59dbb532f5e34554e3efe45d7d018fd11ce59025",
+    "rendered_prompt_sha256": "90fa8127c3e058889128df4cd55d76edda713c728ab8bb034c10e890c5b367c9",
+    "source_text_sha256": "e685b0b76e135e958ce49cfd6a4ba27d930d70f3898b7fe9df8cd7ce1b4259f5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3071,
+    "filename": "rn_inf_25.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_25.txt",
+    "state": "rn",
+    "word_count_original": 392
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_25.json"
+  },
+  "raw_response_text": "# CAMPO DE EXPERIÊNCIAS “TRAÇOS, SONS, CORES E FORMAS”\n\n## Direitos de aprendizagem e desenvolvimento\n\n**CONVIVER** e fruir com os colegas e professores manifestações artísticas e culturais da sua comunidade e de outras culturas – artes plásticas, música, dança, teatro, cinema, folguedos e festas populares.\n\n**BRINCAR** com diferentes sons, ritmos, formas, cores, texturas, objetos, materiais, construindo cenários e indumentárias para brincadeiras de faz de conta, encenações ou para festas tradicionais.\n\n**EXPLORAR** variadas possibilidades de usos e combinações de materiais, substâncias, objetos e recursos tecnológicos para criar desenhos, modelagens, músicas, danças, encenações teatrais e musicais.\n\n**PARTICIPAR** de decisões e ações relativas à organização do ambiente (tanto o cotidiano quanto o preparado para determinados eventos), à definição de temas e à escolha de materiais a serem usados em atividades lúdicas e artísticas.\n\n**EXPRESSAR** suas emoções, sentimentos, necessidades e ideias cantando, dançando, esculpindo, desenhando, encenando.\n\n**CONHECER-SE** no contato criativo com manifestações artísticas e culturais locais e de outras comunidades.\n\n(BRASIL, 2018)\n\nAs experiências com as múltiplas linguagens artísticas voltadas à expressividade através do desenho, pintura, escultura, música, dança, cinema e teatro são constitutivas das crianças, que, por sua vez, interagem e significam o mundo por meio delas. Cores, sons, imagens e traços se constituem em elementos que traduzem a visibilidade e as sonoridades das diferentes expressões artísticas.\n\nA ampliação de experiências com diferentes linguagens possibilita que as crianças possam sentir o mundo e a si próprias. Garantir experiências onde possam apropriar-se dessas linguagens permite às crianças desenvolverem cada vez mais suas possibilidades criativas. Isso significa que suas singularidades quanto aos modos de vivenciarem e expressarem seus sentimentos, sua criatividade e imaginação, as tornam sensíveis ao mundo ressignificado por cada uma delas.\n\nLogo, o trabalho pedagógico precisa ampliar o repertório de experiências das crianças com as múltiplas linguagens, com gêneros e formas de expressão diversas, onde experimentem materiais variados, e de maneira tal, em que o(a) professor(a) possa acompanhar o percurso de experiências vividas por elas, documentando esse processo de descobertas.\n\nÉ possível vivenciar com as crianças as dimensões da Abordagem Triangular (cf. BARBOSA; CUNHA, 2010) – apreciar, contextualizar e criar obras em artes visuais (imagens e objetos bidimensionais e tridimensionais) na Educação Infantil, com suas diferentes linguagens: desenho, pintura, artes plásticas, multimídias (animação, cinema, fotografia), entre outras. Bem como, expandir seu repertório musical com experiências de se encantar com diferentes gêneros e ritmos musicais.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

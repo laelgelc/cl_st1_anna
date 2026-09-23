@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_015199388eeab6cb006ab2fdc21e0c87d286c11b712fb3ee4a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1026,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1001,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 2027
+    }
+  },
+  "created_at": "2026-09-22T22:14:34Z",
+  "duration_seconds": 8.196,
+  "error": null,
+  "excerpt_id": "am_inf_6",
+  "filename": "am_inf_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2ebbfa24a9e8a70068a4ee477710a2828da5ade593cb18b15e843eb02e502a1d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0f0dd47afc6d58c849777bd2bf0b157108ee952d5b13356a8b8450580c9b896b",
+    "rendered_prompt_sha256": "be2e3155240e9ab7a81db603e1bf8cb2b8ea925371a554c1913fc1aa4200a91f",
+    "source_text_sha256": "95af3066cf587ab9fd83ceb6b1715618fd5875bcf0ab69e78fd42f5ee64dc48b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 454,
+    "filename": "am_inf_6.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_6.txt",
+    "state": "am",
+    "word_count_original": 623
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_6.json"
+  },
+  "raw_response_text": "### 3.1 Concepções de criança e infância\n\nA infância é uma construção histórica. Para compreender esse movimento, diversos elementos históricos e sociais estão relacionados, como a reorganização da sociedade e das famílias, o desenvolvimento econômico, as ideias acerca da educação e a preocupação com a infância como condição social da criança. Entender esse processo é parte importante para compreender as relações construídas no passado pelos adultos que por meio de suas óticas definiam o lugar social da criança.\n\nDurante as duas primeiras décadas do século XX, diferentemente da Europa, implantaram-se no Brasil primeiro as creches, para, posteriormente, se instalarem os jardins de infância. Nos congressos de assistência à infância, recomendava-se a criação de creches junto às indústrias, medida tomada por assistencialista de filantropos. A identidade do atendimento na Educação Infantil é marcada pela historicidade das políticas voltadas à infância, além de haver uma diferenciação no atendimento conforme a classe social familiar da criança: aos mais pobres, o atendimento se efetivava no caráter assistencialista, mais preocupada com o cuidado, enquanto que o grupo socialmente privilegiado recebia um atendimento voltado ao desenvolvimento educativo.\n\nAs leis de Diretrizes e Bases percorreram diferentes caminhos, reformulando estruturas do então Ensino Fundamental, Médio e Superior, alternando denominações e currículos, mas ficando a Educação Infantil sem a devida atenção. A Educação Pré-escolar ainda era proposta como educação compensatória de deficiências e/ou preparatória para o Ensino Fundamental, porém sua oferta não era garantida a todas as crianças. Foi somente na promulgação da LDBEN n.º 9.394/96 que, pela primeira vez, a Educação Infantil passa a integrar a formação da Educação Básica do sistema brasileiro de ensino. A garantia de oferta e matrícula compulsória na Pré-Escola se deu com a EC n.º 59/2009, alterando a redação da LDBEN n.o 9.394/96, por meio da lei n. 12.796 (BRASIL, 2013).\n\nÉ nas DCNEI (BRASIL, 2009b) que a concepção de criança é definida e a partir dela, a organização de práticas que devem pensar as peculiaridades da primeira infância. As diretrizes defendem uma concepção de criança em seu processo de humanização e produtora de cultura. Assim, a criança é vista como um\n\n> sujeito histórico e de direitos que, nas interações, relações e práticas cotidianas  \n> que vivencia, constrói sua identidade pessoal e coletiva, brinca, imagina, fantasia,  \n> deseja, aprende, observa, experimenta, narra, questiona e constrói sentidos sobre  \n> a natureza e a sociedade, produzindo cultura (BRASIL, 2009).\n\nKramer (1987) discute as relações sociais e culturais das crianças, afirmando que as mesmas não ocupam apenas um espaço geográfico, mas também de valor. A concepção de criança e infância na qual se pauta este documento é a de que ela é um ser histórico, social, político e produz cultura, que encontra nos outros, parâmetros e informações que lhe permitem formular, questionar, construir e reconstruir espaços que a cercam. Por isso é tão necessário que a organização do tempo, espaços e materiais ampliem as condições de aprendizagem e desenvolvimento.\n\nDefendemos uma concepção que não se fixa num único modelo de criança a ser alcançado, mas que está aberta à diversidade e à multiplicidade que são próprias do ser humano. Os bebês e crianças na Educação Infantil estão em uma faixa etária que compreende um ciclo de aprendizagem e desenvolvimento que ocorre em condições específicas e singulares, demandando uma proposta com exigências próprias, porque bebês e crianças vivem em diferentes e singulares contextos culturais, econômicos e étnicos. Por isso, devem ter a oportunidade de se sentirem acolhidas, amparadas e respeitadas pela instituição escolar e pelos profissionais, com base nos princípios de individualidade, igualdade, liberdade, diversidade e pluralidade, assim como deve ter garantido as condições necessárias ao seu desenvolvimento integral.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f27f65f122ed80a006ab2fe205b7087d2a45e6ef2fd7e3d8d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 598,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 671,
+      "output_tokens_details": {
+        "reasoning_tokens": 164
+      },
+      "total_tokens": 1269
+    }
+  },
+  "created_at": "2026-09-22T22:16:06Z",
+  "duration_seconds": 6.185,
+  "error": null,
+  "excerpt_id": "ap_em_40",
+  "filename": "ap_em_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "807b9737b12b020677d43363ecd616ad12abc67c4088b894c583a1deb9271ee6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "17341d5bc0acf02b0a0682d867a4ae689f915bba899f98dd9f9621e02ff4f924",
+    "rendered_prompt_sha256": "e6a8dc421412b088613c6d300778ba5f5e1284dfeb8f621d6a4f49fae311fd69",
+    "source_text_sha256": "2b68e533cc2f8ade3a14da827b13a4961df0c123008c1293a41b2e80a3df6570"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 536,
+    "filename": "ap_em_40.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_40.txt",
+    "state": "ap",
+    "word_count_original": 338
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_40.json"
+  },
+  "raw_response_text": "# CURSO TÉCNICO\n\nOs cursos técnicos têm a carga horária mínima de 800 horas, 1.000 horas e até 1.200 horas. Na rede, ele pode ser ofertado nas formas concomitante, subsequente e integrado — incluindo os da modalidade da Educação de Jovens e Adultos.\n\n## CURSO TÉCNICO\n\n### 800 H\n\n240h Formação básica para o trabalho (4 unidades de eixos estruturantes de 80h básica para qualquer habilitação ou eixo tecnológico) + formação específica + 1 ou mais eixos estruturantes de áreas de conhecimento ou unidades curriculares/eletivas.\n\n### 1000 H\n\n240h Formação básica para o trabalho (4 unidades de eixos estruturantes de 80h básica para qualquer habilitação ou eixo tecnológico) + formação específica + 1 ou mais eixos estruturantes de áreas de conhecimento ou unidades curriculares/eletivas.\n\n### 1200 H\n\n240h Formação básica para o trabalho (4 unidades de eixos estruturantes de 80h básica para qualquer habilitação ou eixo tecnológico) + formação específica\n\nA carga horária para o estágio profissional supervisionado, quando estipulado no projeto pedagógico do curso, será adicionado à carga horária mínima especificada. A forma do curso técnico integrado ao ensino médio é ofertada em uma matrícula única para estudantes que concluíram o ensino fundamental. Os estudantes da forma concomitante têm matrículas distintas para o curso técnico e o ensino médio.\n\nNo desenho dos Cursos Técnicos, os eixos estruturantes devem orientar, também, os componentes curriculares da parte de Preparação Básica para o Trabalho da matriz curricular do curso, identificando o foco pedagógico, competências e habilidades.\n\nOs itinerários foram elaborados para substituir a distribuição do conteúdo das 13 disciplinas tradicionais ensinadas ao longo dos três anos do ciclo.\n\nApós a homologação das Diretrizes Curriculares Nacionais do ensino médio e da Base Nacional Comum Curricular (BNCC) do Ensino Médio, os itinerários formativos ficaram divididos em cinco áreas de conhecimento: linguagens e suas tecnologias; matemática e suas tecnologias; ciências da natureza e suas tecnologias; ciências humanas e sociais aplicadas e formação técnica e profissional.\n\nCada um destes itinerários formativos deve se organizar a partir de quatro eixos estruturantes: Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

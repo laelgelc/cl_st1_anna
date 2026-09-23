@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_071afcee96021d82006ab30de70ad087d29018b0423601167a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1377,
+      "input_tokens_details": {
+        "cache_write_tokens": 1374,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1389,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 2766
+    }
+  },
+  "created_at": "2026-09-22T23:23:28Z",
+  "duration_seconds": 9.39,
+  "error": null,
+  "excerpt_id": "rs_em_83",
+  "filename": "rs_em_83.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d09a996b2e35de99c7b9b65af52d6305b3b559e40bd4bacf35aefc30482f0885",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "64552aa08b0f42dc8114f3c7e17853c93e7e98768137525028080c43a9794dd4",
+    "rendered_prompt_sha256": "fb6437af76183e80f0510f5dd65f61e206d8144466f1f53db535dda563384cc5",
+    "source_text_sha256": "17c36d6262732b6dea90345e76f0c1a9280c3c1a7038946fc10ba90180d0ffec"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_83.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3631,
+    "filename": "rs_em_83.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_83.txt",
+    "state": "rs",
+    "word_count_original": 823
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_83.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_83.json"
+  },
+  "raw_response_text": "# EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA\n\n## 6.1 INTRODUÇÃO\n\nO Itinerário de Formação Técnica e Profissional (FTP), juntamente com os Itinerários das Áreas do Conhecimento, tem como objetivo a flexibilização da etapa do Ensino Médio, conforme preconiza a Lei nº. 13.415/2017, do Ensino Médio. Busca proporcionar ao estudante o desenvolvimento e o fortalecimento de sua autonomia e, por meio do protagonismo em seu Projeto de Vida, oportunizar uma visão ampla do mundo e a tomada de decisões em sua vida pessoal, escolar e profissional, sendo empreendedor de seu próprio conhecimento.\n\nNesse sentido e a partir da promulgação da referida LDBEN, em 16 de fevereiro de 2017; da disposição das Diretrizes Curriculares Nacionais para o Ensino Médio, de 21 de novembro de 2018; da homologação da Base Nacional Comum Curricular, de 14 de dezembro de 2018; e da aprovação da Portaria nº. 1.432/2018, que estabelece os Referenciais Curriculares para elaboração dos Itinerários Formativos, o poder público do Rio Grande do Sul, por meio da Secretaria Estadual da Educação, traz a intencionalidade de construir seu RCGEM, que dialogue com as juventudes.\n\nDessa forma, iniciou em 2019, um processo de escuta com os gestores das instituições escolares, com os professores, com os estudantes e todos os componentes dos conselhos e das comunidades escolares gaúchas, a fim de conhecer suas necessidades e aspirações, para a elaboração de IFs e de uma FGB contextualizada com as realidades e com os desafios locais e dos novos tempos.\n\nOs instrumentos de escuta-pesquisa foram pensados e estruturados, a fim de objetivar o desenvolvimento da autonomia dos estudantes gaúchos e respondidos pelos participantes da pesquisa. As CREs aplicaram os instrumentos de pesquisa, mapeando as necessidades locais e regionais dos municípios. Nesse protagonismo, a pesquisa realizada no período de 10 de junho a 10 de julho, recebeu 62.747 contribuições entre os diferentes segmentos das comunidades escolares envolvidas, das quais 31,5% foram oriundas de estudantes do 8º e 9º anos do Ensino Fundamental, 49,5% de estudantes do Ensino Médio, 9,5% de professores, 7% de familiares e 2,4% da comunidade escolar.\n\nDurante a organização e a análise estatística das contribuições oriundas dos instrumentos de escuta, realizado pelos assessores da SEDUC-RS, foram identificadas e classificadas respostas dos estudantes. Destes, ao avaliarem a possibilidade de cursarem o Ensino Médio juntamente com uma formação profissional, 85% consideraram muito provável ou provavelmente a sua inserção nesse itinerário de FTP e 90% do segmento professores e da comunidade escolar concordaram total ou parcialmente com essa possibilidade. Tal constatação pode significar afirmativamente que a Formação Técnica e Profissional, é uma prerrogativa educacional evidenciada na manifestação dos respondentes que avaliaram a importância do Ensino Médio articulado à Educação Profissional e Tecnológica (EPT).\n\nNesse cenário, SEDUC-RS, por intermédio da Superintendência da Educação Profissional do Rio Grande do Sul (SUEPRO-RS), instituição criada pela Lei Estadual nº. 11.123/1998, com o objetivo de implementar políticas públicas educacionais e cumprir as diretrizes da Educação Profissional e Tecnológica no estado do Rio Grande do Sul, solicitou às Coordenadorias Regionais de Educação, pelo Memo. Circular DIPEG/SUEPRO nº. 08/2020, de 11 de novembro/2020, a indicação de professores para a redação da FTP do RCGEM. Essa indicação observava critérios, como: lotação em Escolas da Rede Estadual de Educação do Rio Grande do Sul e experiência docente nos cursos de Educação Profissional e Tecnológica com formação mínima em curso de pós-graduação Lato Sensu ou Stricto Sensu na área de atuação.\n\nEm atendimento ao solicitado, as trinta CREs indicaram professores vinculados à EP, dos quais vinte e quatro professores da rede pública estadual passaram a integrar o grupo de redatores do itinerário, tendo como objetivo a redação de referenciais para os Itinerários FTP. O processo foi conduzido por um consultor externo, do Conselho Nacional de Secretários de Educação, à luz das legislações vigentes e dos princípios da EPT referentes ao Ensino Médio. Durante a primeira quinzena de dezembro de 2020, os redatores foram convidados a refletir sobre as possibilidades de itinerários para a FTP e escrever propostas de itinerários que dialogassem, tanto com as expectativas dos estudantes gaúchos, quanto com uma educação dinâmica e flexível, atenta às demandas regionais e socioambientais.\n\nAssim, o documento aqui apresentado inicia-se por uma síntese da evolução dos marcos legais reguladores da oferta da EPT no Brasil, com um olhar atento também à LDBEN e às DCNEM. Destacam-se as diretrizes curriculares nacionais da EPT, definidas na Resolução CNE/CP nº. 01/2021.\n\nAo acolher a FTP, entendida como uma das possíveis escolhas dos estudantes, segue o documento apresentando detalhamentos referentes às formas de oferta de qualificações e habilitações profissionais, o reconhecimento de saberes e práticas, as sistemáticas de escolha, acompanhamento, avaliação e mobilidade no Itinerários. Consta ainda de orientações para elaboração de Ementas para a FTP, além de abordar os Eixos Estruturantes do Itinerário da FTP, finalizando ao abordar a questão da Certificação dos estudantes no Itinerário Formativo FTP.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

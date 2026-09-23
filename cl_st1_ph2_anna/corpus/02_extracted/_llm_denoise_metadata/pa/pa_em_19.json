@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e4bc02abe574b43006ab305bf292c87d2b584ba3bf7ef1244",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 670,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 950,
+      "output_tokens_details": {
+        "reasoning_tokens": 373
+      },
+      "total_tokens": 1620
+    }
+  },
+  "created_at": "2026-09-22T22:48:39Z",
+  "duration_seconds": 8.154,
+  "error": null,
+  "excerpt_id": "pa_em_19",
+  "filename": "pa_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a25a4ca7c10240f790720b8e111a80dad4eb25cf4f72a7bf7dee2ff36de6b6c2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3aa3cc2cc1296d97dc16e328e88bc6a5cc0d33fe7d90bacea959c6ceb6db1546",
+    "rendered_prompt_sha256": "205ece5670786a88b1e7825cc72103ef6388e2c624cf1d79d53d4d9f16adadf8",
+    "source_text_sha256": "4cbececff09c30d08e959ccf501faf04bec2599812cfe7af8920e3b92a61ab61"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2063,
+    "filename": "pa_em_19.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_19.txt",
+    "state": "pa",
+    "word_count_original": 397
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_19.json"
+  },
+  "raw_response_text": "### Quadro 6: Correlação entre as categorias de área de Linguagens e suas tecnologias e o campo de saberes e práticas do ensino de Língua Portuguesa e suas Literaturas\n\n| CATEGORIA DE ÁREA | CAMPO DE SABERES E PRÁTICAS DE LÍNGUA PORTUGUESA E SUAS LITERATURAS |\n|---|---|\n| Vida Pessoal | Nesta categoria, os professores, de modo interdisciplinar e contextualizado, devem possibilitar aos estudantes o desenvolvimento de competências e habilidades que fomentem a construção de suas identidades. Por exemplo, em Língua Portuguesa e suas Literaturas poderá ser trabalhada a análise crítica de poemas, a fim de despertar a sensibilidade estética e a percepção humanizada dos estudantes por meio dos textos literários e da estrutura e funcionamento do uso da língua materna. |\n| Práticas de estudo e pesquisa | Esta categoria propicia a aprendizagem colaborativa, integra teoria e prática ao levar o aluno à condição de pesquisador e construtor do próprio conhecimento. Para atuar nesta categoria, os (as) professores (as) podem, a partir de projetos ou práticas curriculares, por exemplo, em Língua Portuguesa e suas Literaturas, promover estudos e produção de textos (artigo de opinião, carta aberta, entre outros em diferentes suportes e semioses). |\n| Cultural-artístico-literário | Nesta categoria os (as) professores (as) poderão articular e proporcionar ao aluno a reflexão do raciocínio crítico e participativo no mundo, tanto para o exercício da cidadania (vida pública), quanto para o reconhecimento de sua identidade cultural. Nesse sentido, pode-se ampliar a interação do jovem ao mundo artístico possibilitando-lhe a reflexão crítica. As atividades propostas aos alunos devem promover experiências culturais, artísticas e literárias, integrando os campos de saberes e práticas em projetos que envolvam, em Língua Portuguesa e suas Literaturas, a leitura de obras de autores da literatura. |\n| Jornalístico-midiático | Esta categoria requer atenção devido à quantidade desenfreada de circulação de textos e discursos nas diversas mídias. Portanto, é relevante orientar o aluno para a recepção desses textos de modo que ele saiba discernir fatos, opiniões, fake news. |\n| Atuação na vida Pública | Esta categoria propõe práticas didático-pedagógicas que desenvolvam no aluno a proatividade e fomentem o exercício da cidadania por meio de atitudes de intervenção no contexto social, político e cultural para o exercício da democracia. Para tanto, é imprescindível serem trabalhadas as competências específicas da área da linguagem. Por exemplo, em Língua Portuguesa e suas Literaturas, pode-se realizar debates regrados baseados em leitura de diversos gêneros textuais. |\n\nFonte: ProBNCC – etapa ensino médio (2019).",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

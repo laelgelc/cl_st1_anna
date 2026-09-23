@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b25f5298276b967006ab2fdb4802887d2b718969b105c3365",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 682,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 689,
+      "output_tokens_details": {
+        "reasoning_tokens": 151
+      },
+      "total_tokens": 1371
+    }
+  },
+  "created_at": "2026-09-22T22:14:17Z",
+  "duration_seconds": 5.244,
+  "error": null,
+  "excerpt_id": "am_inf_38",
+  "filename": "am_inf_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9d1c4e9dc8946ee21f814651ac7ef7eac94faf7f3d8d995c915fb1802d8b6620",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bcc4e00b731e160364666a7cdee41cbe62477427ca338ea1071f9b319cca9701",
+    "rendered_prompt_sha256": "a2463f3a3209379931b5e32bb48b9c456234f400f094239f48f86a4769318930",
+    "source_text_sha256": "37b4cd5d6e8a623e063b140f058e8778b8f4d090dea5592102bc437aa9938f7c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 440,
+    "filename": "am_inf_38.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_38.txt",
+    "state": "am",
+    "word_count_original": 386
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_38.json"
+  },
+  "raw_response_text": "## 18.2 Seleção e cuidado com os brinquedos\n\nNa aquisição de brinquedos, é necessário selecionar aqueles que atendem a norma brasileira n.º 11.786 da ABNT, com o selo do Instituto Nacional de Metrologia (Inmetro) que já foram testados em sua qualidade com critérios apropriados às crianças. O brinquedo estruturado (brinquedo industrializado) deve ser durável e seguro. Deve-se também inserir no convívio os brinquedos não estruturados, alargando as experiências da criança com a diversidade de materiais e tipos: podem ser artesanais, produzido pelas crianças, professores e/ou pais, caixas de variadas formas, tamanhos, cores e texturas; embalagens de plástico e papelão, potes diversos etc. É possível colocar bolinhas de gude ou pedrinhas dentro de uma lata ou garrafa pet para que a criança experimente sons diversos, por exemplo. Não se pode descuidar da limpeza e do cuidado para que nenhum dos materiais ofertados ofereça riscos, como ter dimensões que caibam na boca da criança ou conter pequenas partes que podem ser engolidas ou introduzidas no nariz ou ouvido.\n\nEssas escolhas devem seguir alguns critérios, como atentar para a faixa etária da criança a que ele se destina, tipo de material usado, objetivos, função dos brinquedos, contemplação de aspectos da diversidade e regionalidade, características que contemplem os estímulos visuais de cores e formas variadas, sendo necessário atentar para a renovação periódica, a facilidade da limpeza e resistência. É importante que haja na sala de referência espelhos seguros e na altura das crianças, preferencialmente afixados na horizontal para que possam brincar e observar a própria imagem diariamente.\n\nOs brinquedos são considerados importantes aliados no processo de aprendizagem das crianças e merecem uma atenção especial durante a limpeza, pois quando inadequada servirá de fonte de transmissão de doenças. É importante que os brinquedos possuam selo do Inmetro, seja de material atóxico, inquebrável, sem pontas e de fácil limpeza e desinfecção.\n\nNo final das brincadeiras, devem ser colocados em local reservado para brinquedos sujos e somente após a higienização e que poderão ser utilizados novamente. A limpeza deve ser realizada com água e sabão neutro e escova de uso exclusivo para esse fim. Após serem lavados com a escova, devem ser expostos à secagem e acondicionados (quando bem seco) em local adequado, preferencialmente em caixas plásticas com tampa. Este procedimento deverá ser repetido diariamente.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

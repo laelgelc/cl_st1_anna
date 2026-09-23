@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00e797f34cfb31dd006ab30af91f3087d2ab483b1b85593e3c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 637,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 615,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 1252
+    }
+  },
+  "created_at": "2026-09-22T23:10:55Z",
+  "duration_seconds": 6.124,
+  "error": null,
+  "excerpt_id": "rn_ef_60",
+  "filename": "rn_ef_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "51e4f4494f44f2d3b1d171fb90e0b1d42d73ed880635d45b2b5fe51a04cdd81e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "01888c649ce9df39239949e31097411beb5dd9b88e889e399afe13795f2a35eb",
+    "rendered_prompt_sha256": "d23faea9eac37086a30e23fb1195fc91324e6fb3923732f19a2e2ac8dfe3d422",
+    "source_text_sha256": "c1c7c589a881e3e87c0d041f6313c2e522465a93d56906f0e0e7a675f8eb82be"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3002,
+    "filename": "rn_ef_60.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_60.txt",
+    "state": "rn",
+    "word_count_original": 314
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_60.json"
+  },
+  "raw_response_text": "# INSTRUMENTOS E PROCEDIMENTOS DE AVALIAÇÃO - ANOS INICIAIS\n\n- Reconhecer as semelhanças e diferenças entre o eu, o outro e o nós.\n- Valorizar a diversidade de formas de vida.\n- Reconhecer e observar diferentes características físicas.\n- Reconhecer os diferentes espaços de convivência.\n- Identificar costumes, crenças e formas diversas de viver em variados ambientes.\n- Transitar harmoniosamente nos variados espaços de convivência, identificando e valorizando a pluralidade destes.\n- Respeitar os símbolos, as tradições e as instituições religiosas.\n- Compreender espaços e territórios religiosos como locais de realização das práticas celebrativas.\n- Reconhecer as indumentárias (roupas, acessórios, símbolos, pinturas corporais) utilizadas em diferentes manifestações e tradições religiosas.\n- Conviver respeitosamente nos diferentes espaços e territórios religiosos, sem conflito interno.\n- Respeitar os diversos espaços e territórios religiosos de diferentes tradições e movimentos religiosos.\n- Respeitar práticas celebrativas (cerimônias, orações, festividades, peregrinações, entre outras) de diferentes tradições religiosas.\n- Identificar ritos e suas funções em diferentes manifestações e tradições religiosas.\n- Identificar as diversas formas de expressão da espiritualidade (orações, cultos, gestos, cantos, dança, meditação) nas diferentes tradições religiosas.\n- Identificar representações religiosas em diferentes expressões artísticas (pinturas, arquitetura, esculturas, ícones, símbolos, imagens), reconhecendo-as como parte da identidade de diferentes culturas e tradições religiosas.\n- Participar de ritos do cotidiano familiar, escolar e comunitário.\n- Caracterizar ritos de iniciação e de passagem em diversos grupos religiosos (nascimento, casamento e morte).\n- Respeitar as ideias de divindades de diferentes manifestações e tradições religiosas.\n- Respeitar os rituais das diferentes tradições religiosas.\n- Compreender as mensagens religiosas contidas nos mitos de criação.\n- Reconhecer a importância da tradição oral para preservar memórias e acontecimentos religiosos.\n- Entender o papel dos sábios e anciãos na comunicação e preservação da tradição oral.\n- Reconhecer, em textos orais, ensinamentos relacionados aos modos de ser e viver.\n- Incorporar em seu cotidiano os princípios e valores de sua tradição religiosa.\n- Valorizar e respeitar os ensinamentos contidos nos textos (orais e escritos) sagrados das diversas tradições religiosas.\n- Respeitar a memória sagrada das diferentes religiões",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

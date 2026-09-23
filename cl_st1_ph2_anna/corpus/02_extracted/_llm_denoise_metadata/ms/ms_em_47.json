@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dd719e1dbfc045c006ab303c5875887d280cbc749199e5a9f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 598,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 553,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 1151
+    }
+  },
+  "created_at": "2026-09-22T22:40:10Z",
+  "duration_seconds": 4.996,
+  "error": null,
+  "excerpt_id": "ms_em_47",
+  "filename": "ms_em_47.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "95cee99de64da2f3087723392798e95ebd3e4d912fd6b203969af24275267229",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "42f665d78dd04dbc2d78a2fe06a8a89302cb21ef14a8a6b2d1c698ce3e222995",
+    "rendered_prompt_sha256": "2cd64f85caf4ff10fa110a80f0ae98133fc7e26c29c01cfcd39421f8069f6e93",
+    "source_text_sha256": "7227c5d53eb10777c099b004b29753a43641f3d14aac95ac4052c241381c619d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_47.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1713,
+    "filename": "ms_em_47.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_47.txt",
+    "state": "ms",
+    "word_count_original": 337
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_47.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_47.json"
+  },
+  "raw_response_text": "### 4.5.8. Itinerário Formativo da Área de Linguagens e suas Tecnologias\n\nA área de Linguagens e suas Tecnologias objetiva aprofundar os conhecimentos sobre a aplicação de diferentes linguagens, nos mais diversos contextos, a partir de arranjos curriculares que contemplem o estudo de línguas, do texto literário, das artes, da corporeidade e das linguagens digitais, alinhados aos eixos estruturantes, conforme proposto pela BNCC - etapa do Ensino Médio e pela Resolução CNE/CEB n. 3/2018.\n\nNesse contexto, foram elaboradas unidades curriculares que partiram de um ou dois textos-base (figura, livro, artigo, filmes, dentre outros) a fim de que o Itinerário Formativo tivesse o mesmo foco, explorando novos conhecimentos em abordagens distintas ao dialogar com a realidade e seus conflitos.\n\nDessa forma, cada unidade curricular foi construída considerando a pluralidade cultural do Brasil e as necessidades das juventudes, colocando a escola como um ambiente acolhedor que proporciona o respeito às heterogeneidades. Ao pensar nos temas para a composição do Itinerário Formativo, a escola precisa considerar o interesse dos estudantes, sua equipe docente, infraestrutura e potencialidades locais, bem como as possibilidades de parceria com outras instituições.\n\nDestaca-se que a unidade curricular 5 será construída pela escola nos moldes daquelas que comporão o catálogo produzido pela Secretaria de Estado de Educação de Mato Grosso do Sul, respeitando o que determina a legislação e os documentos orientativos do MEC.\n\nCom relação à avaliação, recomenda-se verificar o desenvolvimento integral dos estudantes ao longo do semestre, tendo como foco o protagonismo e autoria de cada um. É importante, também, diversificar os instrumentos avaliativos, inclusive ter o feedback ou a autoavaliação daquele que está sendo avaliado, a observação compartilhada dos professores sobre a evolução do desempenho e atitudes do estudante em relação às competências e habilidades desenvolvidas ao longo do processo, bem como a análise dos produtos realizados. Estes resultados podem ser registrados em relatórios e/ou portfólios que traduzam o percurso e o desenvolvimento de cada estudante e até mesmo sirva de reflexão e aprimoramento de práticas pedagógicas do professor.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0871acf50b4b9090006ab2fc98610c87d29e53b5d07c744ff3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 649,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1174,
+      "output_tokens_details": {
+        "reasoning_tokens": 679
+      },
+      "total_tokens": 1823
+    }
+  },
+  "created_at": "2026-09-22T22:09:38Z",
+  "duration_seconds": 10.485,
+  "error": null,
+  "excerpt_id": "al_ef_92",
+  "filename": "al_ef_92.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4a4588cc2c3fd4b02414de4c65d8092709e9d780cc728150153c1ef32309343a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4330703b9b6849fa255c42311e2ff3acbcf237ffaba213b0dcf5c1d47430afca",
+    "rendered_prompt_sha256": "5bb97adf5bc8b0f76f489afeeb52796f9ba201b9df381445e4a7946029210168",
+    "source_text_sha256": "e8b7dd2da3d01a9cac1ad70fda710d12a00dec5683436d8b7aaee5f7c08c589c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_92.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 233,
+    "filename": "al_ef_92.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_92.txt",
+    "state": "al",
+    "word_count_original": 373
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_92.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_92.json"
+  },
+  "raw_response_text": "## Ciências da natureza\n\nO Referencial Curricular de Alagoas da área de Ciências da natureza baseia-se nos pressupostos da Educação e visa à formação integral do estudante numa perspectiva humanística, ética, social e política. Ele apresenta os pressupostos científicos que embasam o ensino de Ciências por investigação, aponta alguns exemplos de estratégias didáticas, denominado aqui de Desdobramentos Didático-Pedagógicos - DesDP, e, por fim, apresenta o Organizador Curricular de Ciências da Natureza para os Anos Iniciais e Anos Finais do Ensino Fundamental, com um olhar para as especificidades de Alagoas.\n\nEm conformidade com os pressupostos teóricos advindos da BNCC (2017), o ensino de Ciências da Natureza se materializa com os conhecimentos epistemológicos de Química, Biologia, Física e Geociências, desde o primeiro ao nono ano do Ensino Fundamental. Esses conhecimentos estão articulados com as dez competências gerais que se inter-relacionam com as competências específicas da área, e essa com as unidades temáticas, os objetos de conhecimentos e as habilidades descritas no documento.\n\nDesta forma, o conhecimento se encontra organizado em Unidades temáticas, que se repetem em todos os anos do ensino fundamental. Em cada Unidade temática têm-se os objetos de conhecimento e as habilidades. Os objetos de conhecimento se configuram nos conteúdos e as habilidades estão direcionadas ao que o estudante precisa desenvolver em cada ano. Logo, representa conteúdos, procedimentos e valores a serem desenvolvidos nos estudantes, conforme o processo cognitivo da criança e do adolescente.\n\nA BNCC (2017) tem como foco o desenvolvimento integral do ser, no entendimento que a integralidade envolve as dimensões físicas, biológicas, psicológicas, socioemocionais, químicas, históricas e culturais, concebidas como dimensões indissociáveis. Essa concepção de educação se configura no desenvolvimento das competências cognitivas, que contribuem para a formação de estudantes autônomos, colaborativos, éticos e políticos.\n\nDesse modo, o ensino está pautado numa perspectiva interdisciplinar e integradora, baseado no prosseguimento dos estudos a partir da integração de saberes por meio do domínio de procedimentos de investigação e de produção científica com vistas à construção do conhecimento na área de Ciências da Natureza, para a formação de um cidadão que pode intervir em seu contexto sócio ambiental.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_089945b14200720e006ab3004a9aa087d2b68755161b33f8c0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 840,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 929,
+      "output_tokens_details": {
+        "reasoning_tokens": 233
+      },
+      "total_tokens": 1769
+    }
+  },
+  "created_at": "2026-09-22T22:25:21Z",
+  "duration_seconds": 7.374,
+  "error": null,
+  "excerpt_id": "df_em_44",
+  "filename": "df_em_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9b0747cbb7fddc7fa91274ef09a23c9c9c0a3df47f1796184a3e5319c8a4c8e7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "70d3e3264e6b88c34bc72a946933d889168bffe1d41feef9d18991ef3dabe392",
+    "rendered_prompt_sha256": "5e852c217e80661b7853e56815f683b1565cd78167fefcdebdd635f879aea961",
+    "source_text_sha256": "c65253c69f54eece0c58052ec548f8a02aca0fd6fbdb4d3abbea0053cb45b763"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 933,
+    "filename": "df_em_44.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_44.txt",
+    "state": "df",
+    "word_count_original": 527
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_44.json"
+  },
+  "raw_response_text": "# INVESTIGAÇÃO CIENTÍFICA\n\nO conhecimento científico na área de Ciências da Natureza é, de uma maneira geral, produzido a partir de processos investigativos que integram diferentes etapas, como a formação dos pesquisadores, a observação e o registro de fenômenos, a elaboração e a testagem de hipóteses, a checagem por pares e a publicação de resultados, entre outras. A educação básica tem como característica colocar o estudante em contato com o desenvolvimento humano no campo do conhecimento científico, não apenas no entendimento contemporâneo sobre determinado fenômeno estudado, mas também, em relação à história do conhecimento acumulado acerca dos objetos de estudo e dos métodos de pesquisa utilizados.\n\nPodemos afirmar que é durante a educação básica que o futuro pesquisador dá os primeiros passos em sua formação como tal, mesmo que não tenha ainda feito da Ciência sua escolha profissional. Por outro lado, a maioria dos estudantes de ensino médio não seguirá a carreira científica, mas estará permanentemente em contato com avanços científicos e tecnológicos, alguns deles, provavelmente, com impacto direto em suas vidas (LEDERMAN, 2018). Para esses, a educação básica é a grande oportunidade de terem contato com os processos básicos de investigação científica de maneira organizada e consistente.\n\nUm desafio fundamental para o ensino de Ciências no mundo contemporâneo é que ao mesmo tempo em que a informação tornou-se acessível como em nenhum outro momento da história, a rigidez e a exatidão dessa informação são, muitas vezes, substituídas por narrativas que servem a interesses contrários à busca do conhecimento. Essas distorções incluem desde a negação de conhecimentos sedimentados, como a forma da Terra, sem maiores consequências práticas, até a negação do papel das vacinas na prevenção de doenças, com fortes impactos sociais e econômicos.\n\nOutro aspecto relevante e que deve ser explorado no ensino de Ciências diz respeito à pesquisa básica e à pesquisa aplicada. A alocação de recursos para pesquisas que não estejam voltadas para solução de questões de aplicação imediata é, frequentemente, motivo de debate. A educação básica deve contribuir para o desenvolvimento de uma visão não utilitarista da ciência pelos estudantes, na medida em que são abundantes os exemplos de desenvolvimento científico e tecnológico derivados de pesquisa básica.\n\nA pesquisa que está baseada em uma ou mais realizações científicas passadas foi denominada por Thomas Kuhn, em A Estrutura das Revoluções Científicas, como “ciência normal” (KUHN, 2003, p. 29). Isso leva ao conceito de “pesquisa normal”, sobre a qual o autor expressa-se da seguinte maneira:\n\n> A pesquisa normal, que é cumulativa, deve seu sucesso à habilidade dos cientistas para selecionar regularmente fenômenos que podem ser solucionados através de técnicas conceituais e instrumentais semelhantes às existentes. (É por isso que uma preocupação excessiva com problemas úteis, sem levar em consideração sua relação com os conhecimentos e técnicas existentes, pode facilmente inibir o desenvolvimento científico) (KUHN, 2003, p. 130).\n\nA Investigação Científica é uma das atividades humanas que mais exige capacidade de soluções criativas e inéditas, seja na observação, na análise, na interpretação ou nas demais etapas da pesquisa. Assim sendo, cabe também à educação básica expressar a investigação científica como um processo altamente criativo, ampliando os horizontes do estudante no entendimento do que é criatividade.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

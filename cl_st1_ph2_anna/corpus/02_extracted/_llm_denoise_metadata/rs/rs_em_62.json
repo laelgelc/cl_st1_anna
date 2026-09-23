@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ef248b20835f857006ab30dca436c87d2ae7464e402b2bc1c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 952,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 975,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 1927
+    }
+  },
+  "created_at": "2026-09-22T23:22:56Z",
+  "duration_seconds": 6.42,
+  "error": null,
+  "excerpt_id": "rs_em_62",
+  "filename": "rs_em_62.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ea7795edbc413a9b01dc8476981fe5f5274d9ab984c15c6f55b5f82f4093bd11",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4b459902924215445a4ed3a622e93bcea257e54261b00631fda6a45f6668e9fc",
+    "rendered_prompt_sha256": "0887566a27b80dfd5c461675610fe8520cff39fa32df2976b5d04a8fa3f1231d",
+    "source_text_sha256": "4a1667cd811887adfab677bc878ae6517a6bb3cdc463ceae372ed45d1443dc68"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_62.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3608,
+    "filename": "rs_em_62.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_62.txt",
+    "state": "rs",
+    "word_count_original": 547
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_62.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_62.json"
+  },
+  "raw_response_text": "### 3.4.4 Componentes Curriculares\n\nO Referencial Curricular Gaúcho para o Ensino Médio na área de Linguagens estrutura a matriz curricular de forma a manter, em termos operacionais e de gestão, os componentes curriculares da FGB, porém redimensionando-os por áreas do conhecimento à luz das competências/habilidades estabelecidas na BNCC e DCNEM. Nesse modelo, a formação se opera via áreas do conhecimento e se consubstancia mediante a constituição de competências e habilidades cognitivas e socioemocionais, equivalentes aos “direitos e objetivos de aprendizagem” (BRASIL, 2018j). Conforme a Resolução CNE/CEB nº. 3/2018, art. 6º, VI e VII, os conteúdos curriculares não comportam fins em si mesmos, mas meios básicos para tal constituição, que deve ser priorizada sobre as informações. Logo, a Figura 3, delineia esse panorama:\n\n**Figura 3 – LGG: Panorama dos conteúdos curriculares**\n\nFonte: Elaboração dos autores.\n\nSegundo as orientações da Base Nacional Comum Curricular para o Ensino Médio, a área de Linguagens e suas Tecnologias tem a responsabilidade de propiciar oportunidades para a consolidação e a ampliação das habilidades de uso e de reflexão sobre as linguagens – artísticas, corporais e verbais – que são objeto de diferentes componentes, a saber: Arte, Educação Física, Língua Inglesa, Língua Espanhola, Língua Portuguesa e Literatura, bem como a Libras. Enquanto as línguas faladas são de modalidade oral-auditiva, a Língua Brasileira de Sinais é uma língua de modalidade visual-espacial em sua forma de comunicação e tem sua gramática própria (QUADROS; KARNOPP, 2004). É reconhecida como língua dos surdos brasileiros por meio da Lei nº. 10.436/2002, regulamentada pelo Decreto nº. 5.626/2005 e pelo art. 18 da Lei nº. 10.098/2000.\n\nDessa forma, cabe mencionar que as linguagens passam a ter status próprio de objetos de conhecimento escolar. O importante assim é que os estudantes se apropriem das especificidades de cada linguagem, sem perder a visão do todo no qual estão inseridos. Mais do que isso, é relevante que compreendam que as linguagens são dinâmicas e que todos participam desse processo de constante transformação. Logo, é salutar que o professor identifique que habilidades e que conhecimentos são pertinentes para os estudantes quando da seleção de objetos de conhecimento.\n\nConforme a proposta de progressão que a BNCC traz para o Ensino Médio, nesta etapa da Educação Básica, o ensino deve privilegiar a pesquisa, o estudo de referenciais estéticos e poéticos e os processos criativos nas diversas linguagens, permitindo aos estudantes a exploração das relações, intersecções e conexões entre as diversas formas de manifestações artísticas. Os diversos meios de expressões artísticas precisam ser desenvolvidos de maneira articulada, favorecendo a conexão entre as diversas linguagens, sejam elas artísticas, corporais ou verbais. Atualmente, vive-se em um mundo globalizado em que a tecnologia permite a difusão das informações com rapidez, no qual as culturas digitais exercem grande influência na construção das identidades juvenis. Com a democratização do acesso às mídias digitais a imagem adquire certo domínio sobre a linguagem verbal, exigindo que a escola busque refletir criticamente sobre o efeito das mídias, explorando a alfabetização em linguagens. “Por ‘linguagem’ entende-se qualquer forma de expressão, seja ela oral, verbal, visual, gestual [...]. O sistema visual de linguagem se abre, assim, como um outro modo de ver, de pensar e aprender que precisa complementar a cultura da palavra” (TEIXEIRA, 2005, p. 194).",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

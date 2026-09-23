@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_035d4359f7c52950006ab308125d4887d296daecc3dd9f76ca",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 363,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 365,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 728
+    }
+  },
+  "created_at": "2026-09-22T22:58:30Z",
+  "duration_seconds": 4.476,
+  "error": null,
+  "excerpt_id": "pe_em_24",
+  "filename": "pe_em_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b51933fd15e8350a73033a9f4449c7a8270fb2a6250c147c1ee2f6af3533454c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0f2bf69750f280407e4cc3685b69b5395f6d133ee84249161df849a2de3ea194",
+    "rendered_prompt_sha256": "d7f7ad05d1146c5187a97d3c6e42ff547d0f6cfc9f8c539cc106642dd9c2ec3f",
+    "source_text_sha256": "c1d683c602da11c8439193e96c77034b6b6964cd17e59f02a200575c1f7cf632"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2480,
+    "filename": "pe_em_24.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_24.txt",
+    "state": "pe",
+    "word_count_original": 178
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_24.json"
+  },
+  "raw_response_text": "### 3.3 – ITINERÁRIOS FORMATIVOS DAS ÁREAS DO CONHECIMENTO\n\nOs Itinerários Formativos das áreas do conhecimento propostos por Pernambuco se organizam em unidades curriculares de Projeto de Vida e Eletivas, além das unidades curriculares que irão compor as Trilhas de Aprofundamento; estas últimas, responsáveis por promover o conhecimento dos estudantes em determinadas temáticas. Na organização do tempo pedagógico destinado aos Itinerários Formativos, os estudantes pernambucanos ampliam o quantitativo de unidades curriculares do aprofundamento a partir do segundo ano do Ensino Médio. No primeiro ano, cursam as Eletivas, Projeto de Vida e duas unidades curriculares do aprofundamento consideradas básicas, que vão alicerçar a formação dos estudantes até o final desta etapa de ensino: Investigação Científica e Tecnologia e Inovação. Estas unidades curriculares dialogam com todas as áreas do conhecimento, permitindo que, no primeiro ano do ensino médio, o estudante conheça melhor os IF oferecidos e possa fazer suas escolhas com maior segurança.\n\nA seguir, descreve-se a que se propõem Projeto de Vida, as Eletivas e as unidades curriculares de aprofundamento, que constituem os Itinerários Formativos por área do conhecimento.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0751071492369a26006ab30747470087d2a1c160a552419b16",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 405,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 436,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 841
+    }
+  },
+  "created_at": "2026-09-22T22:55:07Z",
+  "duration_seconds": 4.484,
+  "error": null,
+  "excerpt_id": "pb_em_47",
+  "filename": "pb_em_47.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "30830a2e44c81137f8e9bb761b5806cc2ee531bc8f655a23c402a2333081dee3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bfff2a2aa4f92e1b926ee3d80269b7dd283bf732f51e88b6dcd69705188d590d",
+    "rendered_prompt_sha256": "b5ad54dfe0ec4981e1818578c41bd44293fa7252d96f525351d44e0f2d18a75a",
+    "source_text_sha256": "4d451274f93779188da11f22e373ba6e1a1ddbd4cbd6e67bf71da98d262c92bd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_47.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2294,
+    "filename": "pb_em_47.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_47.txt",
+    "state": "pb",
+    "word_count_original": 191
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_47.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_47.json"
+  },
+  "raw_response_text": "### 2.1.7.5 Possibilidades avaliativas para Educação Física\n\nNeste documento, utilizamos a concepção de que o processo ensino-aprendizagem é um espiral entre sujeito e objeto: ora o sujeito estando próximo do objeto estudado, ora estando longe (LIMA, 2017; MORIN, 1997). Para uma avaliação individual do professor analisando o aluno, propomos o portfólio como ferramenta de sistematização do aprendido pelo aluno (VIEIRA, 2002). Nele, o estudante pode se debruçar de escrita/reescrita e melhoramento do texto durante um período pré-determinado.\n\nNão podemos deixar de lado a prova escrita (problematizar questão para o ENEM), a construção de jogos, maquetes, produção de texto e seminários. Outra possibilidade avaliativa seria a ficha de observação que contemple critérios procedimentais, atitudinais, e conceituais, abarcando as múltiplas dimensões de movimento do sujeito, podendo ser também aplicada como avaliação por pares e/ou autoavaliação, como lista de rubrica (BUSCHING, 1998). Neste método avaliativo é possível pactuar entre alunos e professores tudo aquilo que pode ou não pode ser objeto de avaliação. Os objetos de avaliação podem ser de natureza quantitativa e/ou qualitativa (DEPRESBITERIS, 1989). Contudo, os aspectos qualitativos devem se sobrepor aos aspectos quantitativos.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

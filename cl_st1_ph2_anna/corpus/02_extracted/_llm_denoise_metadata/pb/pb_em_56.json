@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c617dd2a1451e4f006ab3075129cc87d2bad5c931f86208e6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 439,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 437,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 876
+    }
+  },
+  "created_at": "2026-09-22T22:55:24Z",
+  "duration_seconds": 12.166,
+  "error": null,
+  "excerpt_id": "pb_em_56",
+  "filename": "pb_em_56.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7f2b054382822b48b18cdce8ffc050d80f5061d16867767464580c92d3b93d15",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "febe45285236307037e65aafdf9d44c7816ce2dae7a2c780a6903a8041ce680d",
+    "rendered_prompt_sha256": "db0c80d57863df81c1479adc279ea0fc934fbaf79d9a9740c9bd37083cf21db2",
+    "source_text_sha256": "cc12d5c045d9909cf771daeef05eb6878cfb1084a72eaa2bae7ac60b74532819"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_56.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2304,
+    "filename": "pb_em_56.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_56.txt",
+    "state": "pb",
+    "word_count_original": 240
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_56.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_56.json"
+  },
+  "raw_response_text": "### 2.2.6.5 História da Matemática\n\nEstudar a Matemática partindo de uma abordagem da História da Matemática, traz à tona o papel de contribuir para tornar a matemática escolar uma disciplina de caráter mais humanístico. Essa metodologia tem o potencial de contribuir na busca pela construção de significados para conceitos matemáticos, uma vez que permite ao(a) discente compreender quais foram as motivações sociais, culturais, políticas ou puramente pedagógicas que levaram determinadas civilizações a desenvolver o conhecimento matemático. Nesse sentido, os Parâmetros Curriculares Nacionais (BRASIL, 1997, p. 40) indicam que:\n\n> [...] a História da Matemática mostra que a Matemática foi construída como resposta a perguntas provenientes de diferentes origens e contextos, motivadas por problemas de ordem prática (divisão de terras, cálculo de créditos), por problemas vinculados a outras ciências (Física, Astronomia), bem como por problemas relacionados a investigações internas à própria Matemática.\n\nNessa perspectiva, grande parte dos conceitos matemáticos foi desenvolvida na busca pela solução de algum problema do cotidiano, relativo a uma determinada questão social ou cultural. Alguns autores e pesquisadores dessa área apontam para diferença entre a forma que escrevemos um texto matemático e a ordem cronológica da invenção/descoberta dos conceitos, porquanto a maneira como escrevemos o encadeamento das ideias em um texto matemático, tem nos preocupado desde muito cedo e existe uma divergência entre a maneira como um texto matemático é disposto e a ordem da invenção, dos resultados matemáticos em seu desenvolvimento (ROQUE, 2012).",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

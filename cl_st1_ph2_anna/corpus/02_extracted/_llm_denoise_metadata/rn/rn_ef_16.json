@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0cd8723f97933739006ab30acb1c0087d29872fe3b03264997",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 527,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 467,
+      "output_tokens_details": {
+        "reasoning_tokens": 37
+      },
+      "total_tokens": 994
+    }
+  },
+  "created_at": "2026-09-22T23:10:07Z",
+  "duration_seconds": 4.263,
+  "error": null,
+  "excerpt_id": "rn_ef_16",
+  "filename": "rn_ef_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d7197a4f90cdc9d7dbb6bca928896fd8d7dfa05cd62929d05024fa59472253d5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "79bc9e4062f6a1b2211efab42a91b6a50d40436e57c8f3c59e128f59fdb17e84",
+    "rendered_prompt_sha256": "f3de0bd106f8bb145507f0d92bf48f54b3fde519d09861a4b00249b3e8f32990",
+    "source_text_sha256": "dcdc8fc0fb35e576f89a95bf84252fb89967cee07319c15feab9c65a52289e5e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2953,
+    "filename": "rn_ef_16.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_16.txt",
+    "state": "rn",
+    "word_count_original": 321
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_16.json"
+  },
+  "raw_response_text": "LINGUAGENS\n\nA linguagem é uma atividade sociocultural, cuja estrutura serve às funções cognitivas e comunicativas. Caracteriza-se por uma dinamicidade constante, que resulta da criatividade em adaptar fala ou escrita a diferentes contextos de comunicação.\n\nNesse sentido, a linguagem é compreendida como um conjunto de padrões emergentes de mecanismos de ativação linguística e que tem como ponderação a variação e a descrição dos fenômenos da língua nas distintas atividades humanas realizadas pelas práticas sociais e mediadas por diferentes linguagens: verbal (oral ou visual-motora, como Língua Brasileira de Sinais [Libras] e escrita), corporal, visual, sonora e, contemporaneamente, digital.\n\nOs conhecimentos advindos da atuação de sujeitos envolvendo práticas da linguagem com as diversas formas de comunicação é o foco da área de Linguagens. Assim, faz-se necessário compreender que a sociedade atual nos convida a saber lidar com três grandes transformações: o amplo acesso à internet, a crescente velocidade de informação e as formas de comunicação que alteraram as relações sociais.\n\nOutrossim, clama por novas lentes que traduzam inovações, acolhimento e inclusão para as demandas pedagógicas.\n\nA área de Linguagens está voltada para a formação e o desenvolvimento integral dos sujeitos, em que são importantes a complexidade e o diálogo entre os componentes curriculares Arte, Educação Física, Língua Inglesa e Língua Portuguesa, o respeito às manifestações em suas singularidades e diversidades, a visão plural e, ao mesmo tempo, singular no desenvolvimento pleno de todos os estudantes.\n\nEm uma perspectiva de educação em que as habilidades adquiridas e as competências desenvolvidas são mais importantes que um conjunto de conteúdos a serem decorados, faz-se extremamente necessário ler e compreender o mundo, bem como saber recriá-lo e se expressar com responsabilidade e criticidade. Dessa forma, os quatro componentes curriculares da área de Linguagens dão aos estudantes a oportunidade de experimentar práticas diferentes e diversificadas e, assim, ampliar a capacidade de compreender a si mesmo, o outro e o mundo que o rodeia.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

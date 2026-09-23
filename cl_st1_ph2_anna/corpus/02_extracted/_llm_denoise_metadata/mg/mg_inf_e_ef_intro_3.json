@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a592535a114c363006ab30380d8fc87d296865ee1c364be94",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 2270,
+      "input_tokens_details": {
+        "cache_write_tokens": 2267,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2246,
+      "output_tokens_details": {
+        "reasoning_tokens": 278
+      },
+      "total_tokens": 4516
+    }
+  },
+  "created_at": "2026-09-22T22:39:13Z",
+  "duration_seconds": 16.38,
+  "error": null,
+  "excerpt_id": "mg_inf_e_ef_intro_3",
+  "filename": "mg_inf_e_ef_intro_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "270addfb1a4ab0344a92c4fa609c98f2ddfb188d71e377a9fc1d7636a3a1d004",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "163b3ba28bbc423ca03643fc05152097b072580712b2607c56e8d5fb968b4150",
+    "rendered_prompt_sha256": "6c31dd87dc8879752bd1a2914241d7958193c9a56c309cc95c2a4e847dc7ad24",
+    "source_text_sha256": "a854d43f945518de90239db0b4ad95b2b6439ac9726f01a5e9a06534ea3f159b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_e_ef_intro_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1647,
+    "filename": "mg_inf_e_ef_intro_3.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_e_ef_intro_3.txt",
+    "state": "mg",
+    "word_count_original": 1418
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_e_ef_intro_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_e_ef_intro_3.json"
+  },
+  "raw_response_text": "### 1.3 Currículo: Da BNCC à sala de aula\n\nPara avançarmos propriamente nos preceitos trabalhados ao longo de todo o documento, e destacados na Apresentação, precisamos compreender em que ponto o currículo afeta o trabalho dos educadores em sala de aula e a rotina da escola. É preciso que se compreenda a noção de Currículo, de Base Nacional Comum Curricular, de Projeto Político Pedagógico e de Plano de Aula, e como cada um desses conceitos se intersecciona para a transformação da realidade de nossos estudantes.\n\nA Base Nacional Curricular Comum – BNCC:\n\n> É um documento de caráter normativo que define o conjunto orgânico e progressivo de aprendizagens essenciais que todos os alunos devem desenvolver ao longo das etapas e modalidades da Educação Básica, de modo a que tenha assegurados seus direitos de aprendizagem e desenvolvimento, em conformidade com o que preceitua o Plano Nacional de Educação – PNE. (BRASIL, 2017).\n\nA BNCC torna-se referência nacional para a formulação dos currículos dos sistemas e das redes escolares dos Estados, do Distrito Federal e dos Municípios e das propostas pedagógicas das instituições escolares. (BRASIL, 2017).\n\nVale ressaltar que a Base Nacional Comum Curricular foi conduzida a partir dos preceitos legais que a instituíram – dentre os quais, o artigo 210 da Constituição Federal, o artigo 26 da LDB e o Plano Nacional de Educação – PNE/2014. É, portanto, o documento de caráter normativo que define as aprendizagens essenciais a serem promovidas pelas propostas curriculares mediadas pelas práticas pedagógicas dos educadores. Nesse sentido, a BNCC não se constitui como um currículo, mas, como uma referência que orientará as escolas brasileiras, com vistas à promoção de uma educação nacional embasada nos princípios éticos, políticos e estéticos e que assegure a formação humana integral, os direitos de aprendizagem de todos os estudantes ao longo de todas as etapas e modalidades da Educação Básica. Sua finalidade é orientar a construção dos referenciais curriculares de cada Estado/sistema de ensino e dos projetos político-pedagógicos das escolas, à medida que estabelece as competências e habilidades que serão desenvolvidas pelos estudantes ano a ano. De maneira simples, podemos dizer que a BNCC indica o ponto onde se quer chegar. O currículo traça o caminho até lá. (BRASIL, 2017).\n\nA Base Nacional Comum Curricular e os currículos elaborados a partir dela têm papéis complementares para a garantia do direito à aprendizagem, assegurando, assim, que os estudantes desenvolvam competências, que se definem como a mobilização de conhecimentos (conceitos e procedimentos), habilidades (práticas cognitivas e socioemocionais), atitudes e valores para resolver demandas complexas da vida cotidiana, com vistas ao pleno exercício da cidadania e do mundo do trabalho. Espera-se, portanto, conforme definem as 10 Competências Gerais, que ao final da trajetória escolar todos os estudantes sejam capazes de:\n\n1. Valorizar e utilizar os conhecimentos historicamente construídos sobre o mundo físico, social, cultural e digital para entender e explicar a realidade, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.\n2. Exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências, incluindo a investigação, a reflexão, a análise crítica, a imaginação e a criatividade, para investigar causas, elaborar e testar hipóteses, formular e resolver problemas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das diferentes áreas.\n3. Valorizar e fruir as diversas manifestações artísticas e culturais, das locais às mundiais, e também participar de práticas diversificadas da produção artístico-cultural.\n4. Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras³, e escrita), corporal, visual, sonora e digital –, bem como conhecimentos das linguagens artística, matemática e científica, para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao entendimento mútuo.\n5. Compreender, utilizar e criar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares) para se comunicar, acessar e disseminar informações, produzir conhecimentos, resolver problemas e exercer protagonismo e autoria na vida pessoal e coletiva.\n6. Valorizar a diversidade de saberes e vivências culturais e apropriar-se de conhecimentos e experiências que lhe possibilitem entender as relações próprias do mundo do trabalho e fazer escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.\n7. Argumentar com base em fatos, dados e informações confiáveis, para formular, negociar e defender ideias, pontos de vista e decisões comuns que respeitem e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, com posicionamento ético em relação ao cuidado de si mesmo, dos outros e do planeta.\n8. Conhecer-se, apreciar-se e cuidar de sua saúde física e emocional, compreendendo-se na diversidade humana e reconhecendo suas emoções e as dos outros, com autocrítica e capacidade para lidar com elas.\n9. Exercitar a empatia, o diálogo, a resolução de conflitos e a cooperação, fazendo-se respeitar e promovendo o respeito ao outro e aos direitos humanos, com acolhimento e valorização da diversidade de indivíduos e de grupos sociais, seus saberes, suas identidades, suas culturas e suas potencialidades, sem preconceitos de qualquer natureza;\n10. Agir pessoal e coletivamente com autonomia, responsabilidade, flexibilidade, resiliência e determinação, tomando decisões com base em princípios éticos, democráticos, inclusivos, sustentáveis e solidários.\n\nO currículo materializa o direito a aprender, uma vez que ele define o que ensinar, o porquê ensinar e o quando ensinar, conectando tudo isso às aspirações e às expectativas da sociedade e da cultura na qual a escola está inserida. O Currículo diz respeito à organização escolar. Dessa forma, currículo é uma construção social do conhecimento, pressupondo a sistematização dos meios para que esta construção se efetive; trata-se da seleção dos conhecimentos historicamente produzidos e construídos e as formas distintas de assimilá-los. Apresentamos, a seguir, os eixos estruturadores que embasaram a construção do Currículo Referência de Minas Gerais e, em seguida, as etapas de ensino – Educação Infantil e Ensino Fundamental – e como o Currículo Referência de Minas Gerais se apresenta em cada uma dessas etapas, definindo os melhores caminhos para que o processo de ensino e aprendizagem aconteça em todos os seus tempos: nas infâncias, nas adolescências e nas juventudes.\n\nAs reflexões sobre os eixos estruturadores devem permitir que escolas perguntem a seus estudantes, professores, servidores, e a toda a comunidade escolar:\n\nI. Por que estão ali? Qual a razão de cada um deles estar na escola?  \nII. Qual a finalidade desse espaço de aprendizagem?  \nIII. Como podem intervir solidariamente, transformando esse espaço de aprendizagem?\n\nO Projeto Político Pedagógico (PPP) da escola deverá abarcar as diretrizes e perspectivas da BNCC e do Currículo Referência de Minas Gerais, considerando tais aspectos na definição do perfil, no planejamento das atividades nas escolas e nas suas metas e ações. Assim, a efetivação do Currículo deverá perpassar a sua discussão no PPP da escola e a sua concreta revisão por parte das unidades escolares, de acordo com os preceitos trabalhados nas normativas municipais, estaduais e nacionais.\n\nDepreende-se assim que a fase de implementação do Currículo, no contexto das escolas, será efetivada à medida que seu PPP se consolide em um processo de ação-reflexão-ação, assumido pelo esforço coletivo e a vontade política dos atores sociais envolvidos.\n\nNo cerne desse processo está o compromisso coletivo de transformar as práticas pedagógicas e sociais cotidianas, alinhando-as com as diretrizes e princípios do Currículo. Portanto, é práxis na qual além da reflexão, ao desenvolvê-lo, criam-se as possibilidades de resgatar valores, rever teorias, ressignificar experiências e promover vivências e aprendizagens contextualizadas e significativas, enfim, construir um projeto que demonstre intencionalidade e convergência com o Currículo e a BNCC, bem como com a realidade do território, das escolas e dos estudantes.\n\nEsses três documentos (BNCC, Currículo, PPP) devem estar inseridos, direta e indiretamente, no Plano de Aula dos professores, permitindo que todo o arcabouço legal, conceitual e material discutido possa se efetivar em sala de aula, ou fora dela, no processo de ensino e aprendizagem com os estudantes.\n\nEnfim, espera-se que a BNCC, o Currículo Referência de Minas Gerais e o PPP de cada escola indiquem caminhos para que aulas sejam pensadas, planejadas e executadas a partir das premissas do trabalho em grupo, da convivência com as diferenças, da superação dos obstáculos e do exercício pleno da autonomia, garantindo como na imagem a seguir a correlação do currículo com o trabalho pedagógico da escola e seu corpo docente.\n\n³ Embora na Base Nacional Comum Curricular, Libras venha como linguagem, a sigla significa Língua Brasileira de Sinais.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

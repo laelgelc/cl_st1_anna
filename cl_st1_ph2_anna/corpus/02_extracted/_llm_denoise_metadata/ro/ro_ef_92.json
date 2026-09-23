@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b1cab89cbf66836006ab30bd8753087d29d4103ec3819b123",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 515,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 526,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 1041
+    }
+  },
+  "created_at": "2026-09-22T23:14:36Z",
+  "duration_seconds": 4.107,
+  "error": null,
+  "excerpt_id": "ro_ef_92",
+  "filename": "ro_ef_92.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b0caa24aa8cdaf61f4da10837ededc69f3f2b00106c1c91d04f0b2c743d6a124",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "18168b3a307c289d47dede85eaa47ab1e64d67406a6e29d5b3f68397afd5cff6",
+    "rendered_prompt_sha256": "ad7bd8d5abb8bdd771d41cd277d5ff59323d68ce1966e62f429f1b576ead1260",
+    "source_text_sha256": "a9f19db98a55ed127170e070a63c13b314fd8d19582840ce6fc38a09bda27a28"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_92.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3197,
+    "filename": "ro_ef_92.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_92.txt",
+    "state": "ro",
+    "word_count_original": 291
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_92.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_92.json"
+  },
+  "raw_response_text": "### 9.8.1 Competências Específicas da Área de Ciências Humanas\n\n**COMPETÊNCIAS ESPECÍFICAS**\n\n1. Compreender a si e ao outro como identidades diferentes, de forma a exercitar o respeito à diferença em uma sociedade plural e promover os direitos humanos.\n\n2. Analisar o mundo social, cultural e digital e o meio técnico-científico-informacional com base nos conhecimentos das Ciências Humanas, considerando suas variações de significado no tempo e no espaço, para intervir em situações do cotidiano e se posicionar diante de problemas do mundo contemporâneo.\n\n3. Identificar, comparar e explicar a intervenção do ser humano na natureza e na sociedade, exercitando a curiosidade e propondo ideias e ações que contribuam para a transformação espacial, social e cultural, de modo a participar efetivamente das dinâmicas da vida social.\n\n4. Interpretar e expressar sentimentos, crenças e dúvidas com relação a si mesmo, aos outros e às diferentes culturas, com base nos instrumentos de investigação das Ciências Humanas, promovendo o acolhimento e a valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de qualquer natureza.\n\n5. Comparar eventos ocorridos simultaneamente no mesmo espaço e em espaços variados, e eventos ocorridos em tempos diferentes no mesmo espaço e em espaços variados.\n\n6. Construir argumentos, com base nos conhecimentos das Ciências Humanas, para negociar e defender ideias e opiniões que respeitem e promovam os direitos humanos e a consciência socioambiental, exercitando a responsabilidade e o protagonismo voltados para o bem comum e a construção de uma sociedade justa, democrática e inclusiva.\n\n7. Utilizar as linguagens cartográfica, gráfica e iconográfica e diferentes gêneros textuais e tecnologias digitais de informação e comunicação no desenvolvimento do raciocínio espaço-temporal relacionado à localização, distância, direção, duração, simultaneidade, sucessão, ritmo e conexão.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

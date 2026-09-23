@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0581b7aaf94b39f7006ab3013646f887d299141996a4dec32f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 861,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1154,
+      "output_tokens_details": {
+        "reasoning_tokens": 394
+      },
+      "total_tokens": 2015
+    }
+  },
+  "created_at": "2026-09-22T22:29:19Z",
+  "duration_seconds": 9.36,
+  "error": null,
+  "excerpt_id": "go_em_33",
+  "filename": "go_em_33.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b8f26f6a34b1575872a37d65ac084faff317b55b655f19619ca7a3ab72fa4297",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9dcd0acac0f0a429eb63d9557651b19d99c97acf6b05a87010d08dd1d06819b7",
+    "rendered_prompt_sha256": "e99708b6ae002728a487c2a71e999d79b59f518132900f9962d893900dbc473d",
+    "source_text_sha256": "96ed99feeb5d5eb62e643918af6985b69214b0c234cd9af6174695ce8bdabac3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_33.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1156,
+    "filename": "go_em_33.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_33.txt",
+    "state": "go",
+    "word_count_original": 517
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_33.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_33.json"
+  },
+  "raw_response_text": "## 1.2 - Componentes Curriculares da Área de Linguagens e Suas Tecnologias\n\n### 1.2-1 Arte\n\n#### O contexto da Arte no Ensino Médio\n\nNa década de 1970, num momento de reformas políticas e educacionais, no campo da educação formal e, consequentemente, daquilo que veio se desenvolvendo e hoje pode ser compreendido como Ensino Médio, dada a reformulação da Lei de Diretrizes e Bases da Educação Nacional (LDBEN) nº 5692/71, o ensino de Arte foi legitimado com o nome de Educação Artística, o qual se redirecionava para uma prática polivalente em que um/a mesmo/a professor/a lecionava artes da cena¹⁹, artes visuais e música.\n\nA partir dos anos de 1980, em decorrência das mobilizações dos/as arte-educadores/as no Brasil, houve certo fortalecimento do ensino de Arte e a parte conceitual e epistemológica, advinda de debates, congressos, seminários e pesquisas no meio acadêmico-científico, apontou que uma concepção de ensino polivalente se fazia incipiente para o ensino desse componente curricular. A reformulação da LDBEN n° 9394/96 muda a nomenclatura: Educação Artística para Arte, direcionando para as especificidades das manifestações artísticas em Artes Visuais, Dança, Música e Teatro. Estabelece, ainda, que o ensino de Arte deveria ser ministrado em todos os níveis da educação básica, ficando a cargo das redes de ensino sua estrutura, organização e funcionamento.\n\nAtualmente, a Arte é incluída nas Diretrizes Nacionais Curriculares para o Ensino Médio e inserida na área de Linguagens e suas Tecnologias da BNCC. Conhecer as manifestações artísticas e suas hibridações nos diferentes grupos sociais, bem como os meios e os contextos que lhe conferem significados, torna possível a formação de competências para que os/as estudantes possam atuar como cidadãos/ãs sensíveis, criativos/as e investigativos/as. Garantir ainda que cada manifestação artística possa vir a ser trabalhada por professores/as especialistas e sua presença em todos os semestres e/ou anos escolares do Ensino Médio seria igualmente importante.\n\nEm sintonia com essas concepções, a definição de obra de arte amplia-se para artefatos, manifestações e/ou produtos culturais. Estes termos abrangem melhor o campo de estudos da área, pois incluem todas as produções artísticas já convencionais e ainda outras manifestações culturais sob esta mesma perspectiva. Segundo Martins,\n\n> A ausência de um olhar crítico e sem sentido de responsabilidade, pode deixar as pessoas vulneráveis a manipulação da crescente e inesgotável diversidade de imagens (músicas, representações cênicas) de arte, publicidade, ficção e informação que, de muitas maneiras nos interpelam, invadem e sitiam nosso cotidiano (BRASIL, 2008, p.24).\n\nDesse modo, é importante colocar os/as estudantes em contato com as diversas linguagens a fim de refletirem sobre seus contextos no cotidiano para que, na interação com os artefatos culturais, estes/as estudantes aprendam, na relação entre pensamento e linguagem, conhecimentos artísticos (conceituais e estéticos) sobre si mesmos, os outros e o mundo. A educação por meio da Arte propõe aprendizagens que dialogam com materiais, pensamentos e sentimentos interligados, permitindo que educação e estética se entrecruzam, promovendo diferentes configurações expressivas materializadas e refletidas nas Artes Visuais, Dança, Música e Teatro.\n\n¹⁹ O termo Artes Cênicas compreenderia Dança e Teatro.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c74642b966bfb68006ab2ff715f2487d2bfe9da37703cc895",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1058,
+      "input_tokens_details": {
+        "cache_write_tokens": 1055,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1052,
+      "output_tokens_details": {
+        "reasoning_tokens": 92
+      },
+      "total_tokens": 2110
+    }
+  },
+  "created_at": "2026-09-22T22:21:45Z",
+  "duration_seconds": 7.847,
+  "error": null,
+  "excerpt_id": "ce_em_31",
+  "filename": "ce_em_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "61847ec30602ed4feb5bb1bfd28e9e39de839852b0fcebcd25fe1139163f54b2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6cc0f1dbb951f324afbd1d494ad98e5f3f1f609d8c32c3c6b4459294c0a0cdcd",
+    "rendered_prompt_sha256": "c8d407efe1a64f993efa2d8b88f9054f8aba8787fdfef533dc354fa559860137",
+    "source_text_sha256": "a2f8cd8c0cd73cdf1bbf408270a9261f47205051cb67f0bae9da1647572eeecf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 787,
+    "filename": "ce_em_31.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_31.txt",
+    "state": "ce",
+    "word_count_original": 706
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_31.json"
+  },
+  "raw_response_text": "## 8.2.1 Ensino e Currículo de Matemática no Estado do Ceará\n\nAssim como em outros domínios sociais, a situação da Matemática no Brasil é marcada por um vívido contraste. De um lado, nossos sofríveis resultados em avaliações nacionais e internacionais do ensino fundamental repercutem ano por ano como evidências de um modelo falho de educação em Matemática. Em outro extremo, o Brasil goza da condição de excelência na pesquisa em Matemática, simbolizada de modo patente pela Medalha Fields concedida a Artur Avila em 2014, maior distinção científica já recebida por um brasileiro.\n\nA Matemática no Brasil conta, em 2018, com sete centros de pesquisa de excelência internacional, um dos quais na Universidade Federal do Ceará. Além disso, o Brasil integra o grupo de elite mundial na classificação da International Mathematical Union, ao lado de países como Estados Unidos, Alemanha, França, Reino Unido, Canadá e Japão. A existência de pólos tão opostos traz consigo, no entanto, parte da solução para o problema crônico do tíbio letramento matemático de nossa juventude. De fato, a comunidade matemática brasileira tem sistematicamente se esforçado em transpor a excelência pela qual é reconhecida mundialmente para os níveis básicos de ensino, ao apontar caminhos exequíveis rumo a alta qualidade educacional.\n\nO exemplo motivador a ser seguido, portanto, é o da própria Matemática brasileira que, no intervalo de seis décadas, evoluiu de tema de seminários de uns poucos diletantes para uma das mais robustas áreas científicas mundiais, com milhares de doutores e pós-graduandos que trabalham no mesmo nível de seus pares nas melhores instituições mundiais, a despeito das marcantes diferenças de financiamento, estrutura e reconhecimento pela sociedade.\n\nAo longo das últimas décadas, várias iniciativas demonstraram como é possível disseminar a excelência do ensino, ao aproximar a Matemática escolar do primado da originalidade, da criatividade e do pensamento aberto que moldam o trabalho de pesquisa. Exemplos patentes disso são a rede que se construiu em torno da OBMEP e dos programas de treinamento de professores, os quais tem resgatado milhares de alunas/os de uma situação crítica de aprendizado. O Estado do Ceará foi pioneiro em várias dessas ações tendo iniciado, já nos anos 2000, um ousado programa de olimpíadas públicas de Matemática, com o acompanhamento de alunas/os em fases pré e pós-olímpicas. Esse programa precursor, denominado Numeratizar e coordenado por professores de instituições como a Universidade Federal do Ceará, serviu de base para a OBMEP, o PICME e o PROFMAT, amplos programas replicados, hoje, em escala nacional. Projetos dessa natureza tiveram raízes na experiência de divulgação científica e da promoção de competições e olimpíadas científicas em que o Ceará destacou-se avant la lettre em termos nacionais. Instalou-se em nosso estado, inicialmente no âmbito das escolas privadas e, em seguida, em todas as redes públicas uma cultura de olimpíadas, representadas por esse ideal de curiosidade, desafio intelectual, deleite estético que encerram todas as competência sócio-emocionais tão sabidamente fundamentais para o sucesso do processo pedagógico. Fruto disso é que, a cada década, ampliamos a galeria de jovens que, ao se destacarem em competições, inspiram em seus ambientes escolares a ideia de que o êxito em Matemática é possível, desejável e areja a disciplina. Essas externalidades positivas, no jargão econômico, acabam direcionando os alunas/os para carreiras científicas, técnicas e tecnológicas indispensáveis para alicerçar a renovação de nossas estruturas sociais.\n\nDestarte, ao articular essa gama de experiências, a elaboração da presente proposta curricular constitui marco na história do ensino no Estado do Ceará, ao apresentar e fundamentar referências mínimas e comuns de currículo para todo o arco do Ensino Médio, apontando, de modo integrado e complementar, a elaboração subsequente de roteiros metodológicos e processos de formação e avaliação.\n\nDeve-se observar que tal proposta curricular não restringe a autonomia do trabalho docente das redes pública e privada, na medida em que oferece parâmetros mínimos e comuns relacionados à orientação nacional expressa nas BNCC, preservando os espaços para a diversificação e a ênfase conforme cada contexto e cada localidade. As diretrizes almejam favorecer a garantia aos direitos de aprendizagem dos alunas/os na direção do seu desenvolvimento em termos intelectuais, éticos e sociais, habilitando-os para que integrem-se e promovam transformações benéficas na sociedade.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

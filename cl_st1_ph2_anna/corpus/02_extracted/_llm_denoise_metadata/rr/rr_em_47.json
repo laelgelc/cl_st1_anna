@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_061a42625dd832db006ab30d3e642c87d291410863856ebb90",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 349,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 449,
+      "output_tokens_details": {
+        "reasoning_tokens": 198
+      },
+      "total_tokens": 798
+    }
+  },
+  "created_at": "2026-09-22T23:20:34Z",
+  "duration_seconds": 4.601,
+  "error": null,
+  "excerpt_id": "rr_em_47",
+  "filename": "rr_em_47.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d75b05fe6559d6f67f21968184b245bdf4954e599aa9537342222b7619a58539",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a9b0a12665de01ee304fa2f392f8500fbdea1cfec7c4f83776ae878d3f5a658e",
+    "rendered_prompt_sha256": "a2325302f60ae9e81c4028315c5d2713bcc500592174b6d12c282684008c5804",
+    "source_text_sha256": "65abd0ac566359b7c718ccfa3cc1b64c96bb8bc8cb6fd6843e3872995af75cf6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_47.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3482,
+    "filename": "rr_em_47.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_47.txt",
+    "state": "rr",
+    "word_count_original": 168
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_47.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_47.json"
+  },
+  "raw_response_text": "### 5.6. Unidades curriculares\n\nConforme o que preconiza a Resolução CNE nº 3 (BRASIL, 2018d), as unidades curriculares são elementos com carga horária pré-definida, com objetivo de desenvolver competências específicas, sendo formadas por um conjunto de estratégias. Podem ser organizadas de diversas formas, como por exemplo, módulos, projetos, oficinas, atividades e práticas contextualizadas, além da tradicional disciplina e outras formas de oferta.\n\nVale salientar que, um certo conjunto de unidades curriculares, que possibilitam ao estudante aprofundar seus conhecimentos e se preparar para o prosseguimento de estudos ou para o mundo do trabalho de forma a contribuir para a construção de soluções de problemas específicos da sociedade, é o que constitui um Itinerário Formativo. Esse conjunto de unidades curriculares deve desenvolver as habilidades de pelo menos um dos eixos estruturantes apresentados nos referenciais para a elaboração dos Itinerários Formativos.\n\nDesta forma, e considerando a estratégia das trilhas de aprendizagem, o DCRR estabelece que os Itinerários Formativos serão compostos pelas unidades curriculares: Projeto de Vida, Eletivas e Aprofundamentos.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

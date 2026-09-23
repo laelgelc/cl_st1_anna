@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_002077db71b04142006ab309b93ef887d289f809d19db4a514",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1139,
+      "input_tokens_details": {
+        "cache_write_tokens": 1136,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1119,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 2258
+    }
+  },
+  "created_at": "2026-09-22T23:05:37Z",
+  "duration_seconds": 8.493,
+  "error": null,
+  "excerpt_id": "pr_em_4",
+  "filename": "pr_em_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5b2658a700325714c6b1f0436f933397469f34b632ada05271b0fb99580f0046",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d25f624533c5503234490bf60e7b24413262f5cb782132504ca836755de3c74f",
+    "rendered_prompt_sha256": "dfa5d6aa4c2a36d29aad275e6130cf30a4e948d0e5dc6d89566369b781585535",
+    "source_text_sha256": "cafd4dd6046ebf14a30fcdf8ce7a948bee8ce649d8c546eee3a0f4058c7ba68d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2757,
+    "filename": "pr_em_4.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_4.txt",
+    "state": "pr",
+    "word_count_original": 676
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_4.json"
+  },
+  "raw_response_text": "## 2. O ENSINO MÉDIO NO ESTADO DO PARANÁ\n\nO processo de implementação de mudanças no Ensino Médio exige uma análise de como essa etapa de ensino tem sido desenvolvida e os principais impactos na formação dos estudantes. Por esse motivo, serão analisados os indicadores educacionais dos últimos anos e apresentados os resultados de uma pesquisa realizada no final de 2024, que permite compreender percepções e expectativas dos estudantes do Ensino Médio.\n\n### 2.1 Análise dos indicadores educacionais\n\nAs mudanças ocorridas em virtude da Lei n.º 13.415/2017 impactaram significativamente o percurso formativo dos estudantes que cursaram o Ensino Médio a partir de 2022. Voltado à formação integral do sujeito, é a etapa da Educação Básica que possibilita ao estudante fazer escolhas curriculares que colaborem na realização de seu projeto de vida.\n\nUma maneira de perceber como essas mudanças impactaram a vida dos estudantes é por meio da avaliação e do monitoramento de indicadores educacionais, como taxas de matrícula, aprovação, reprovação, abandono escolar e evasão, distorção idade-série e conclusão da etapa de ensino. Assim, apresenta-se a seguir uma análise de alguns indicadores educacionais, evidenciando-se algumas séries históricas de dados, a fim de compreender os impactos da implementação do Novo Ensino Médio no Sistema Estadual de Ensino do Paraná.\n\nTomando como referência os dados do Censo Escolar do ano de 2023 (BRASIL, 2024c), observa-se que as Redes e Instituições de Ensino do Sistema de Educação do Paraná foram responsáveis por 486.338 matrículas, sendo que, destas, 65,5% são do período diurno (manhã ou tarde), 21,7%, do noturno, 5,2% de Ensino Médio em tempo integral e 7,5%, outro turno⁴. Em relação à série histórica referente ao número de matrículas nesta etapa, podemos verificar, no Gráfico 01, que há, nos últimos 10 anos, uma tendência de redução do número de matrículas no estado.\n\nA redução no número de matrículas no Ensino Médio é um fenômeno observado em todo o país, de acordo com as séries históricas nacionais, chegando a uma redução de 8,2% entre 2016 e 2019 (CRISTALDO, 2021). Um dos motivos atribuídos a essa queda é a redução na taxa de natalidade no país. O Censo Demográfico de 2022 revelou que, em 12 anos, a população com 65 anos ou mais cresceu 57,4%, atingindo cerca de 22,2 milhões de pessoas, o equivalente a 10,9% da população total, frente aos 14 milhões (7,4%) registrados em 2010. Em sentido oposto, o número de crianças de até 14 anos apresentou queda de 12,6%, reduzindo-se de 45,9 milhões (24,1%) em 2010 para 40,1 milhões (19,8%) em 2022 (IBGE EDUCA, 2022). Esta variação pode ser observada no Gráfico 02.\n\nEm 2020, assim como ocorreu em todo o país, o estado do Paraná também registrou um leve crescimento (observado no Gráfico 01), que interrompeu a tendência de queda observada nos anos anteriores. Sobre esse dado de 2020, o diretor de Estatísticas Educacionais do Inep, Carlos Eduardo Moreno Sampaio, declarou que essa quebra na sequência de redução do número de matrículas indica que a tendência de decréscimo não pode ser justificada apenas pela diminuição da população. Embora a demografia tenha influência, segundo ele, a queda está associada principalmente à deficiência na trajetória escolar dos estudantes durante a educação básica, especialmente nos anos iniciais e finais do ensino fundamental (CRISTALDO, 2021).\n\nOutro dado que se destaca, observando-se o Gráfico 01, é a redução acentuada no número de matrículas no Ensino Médio, no estado, em 2021. Para além da tendência decrescente ao longo dos anos, esse fato ocorreu influenciado pela pandemia da COVID-19, sendo o ano com o menor número de matrículas registradas.\n\nQuando se observa a distribuição das matrículas por modalidade de ensino, verifica-se que a oferta do Ensino Médio Regular é a que possui maior número de matrículas. Entretanto, esse valor vem apresentando uma redução nos últimos 10 anos, como demonstra a Tabela 01.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

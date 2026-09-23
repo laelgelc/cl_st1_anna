@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_051c996c783e45f4006ab3003ce9cc87d29ab7b86d95dc6083",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 607,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 557,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 1164
+    }
+  },
+  "created_at": "2026-09-22T22:25:04Z",
+  "duration_seconds": 4.093,
+  "error": null,
+  "excerpt_id": "df_em_32",
+  "filename": "df_em_32.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "89a6c8fdd4edf7ec57fa4bbc56a52630ec98ecb959a688b60f0c37e33cfb48a5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0bcce81e5a61fc24264f4a8689f3c13ba485db10f700ae4c6dad07b11d345098",
+    "rendered_prompt_sha256": "8a4b15c04aed572c2f07a8fd55a5fcacd53d40cdd67cb33c79b920b423daa138",
+    "source_text_sha256": "59078e40e155db3c66c303a93ccf5f3df1f7bfcec5ded139911f0fc481bd1745"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_32.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 920,
+    "filename": "df_em_32.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_32.txt",
+    "state": "df",
+    "word_count_original": 333
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_32.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_32.json"
+  },
+  "raw_response_text": "## FORMAS DE OFERTAS DOS ITINERÁRIOS FORMATIVOS\n\nOs Itinerários Formativos têm como princípio a flexibilização curricular e são orientados para o aprofundamento, a ampliação das aprendizagens nas áreas do conhecimento e na Educação Técnica e Profissional. No contexto do Distrito Federal, devem garantir, também, a apropriação dos temas transversais (MARINHO-ARAUJO; ALMEIDA, 2016) e o uso de metodologias que favoreçam o protagonismo juvenil. Devem, ainda, promover estratégias pedagógicas diversificadas, dentre elas, projetos, oficinas, núcleos de estudo, unidades de acompanhamento, entre outras situações de trabalho que os estudantes poderão escolher, de forma orientada, a partir do plano individual de curso, da reflexão sobre seu Projeto de Vida, do diagnóstico das suas necessidades pedagógicas e dos seus interesses individuais e coletivos, de modo a aprofundar, ampliar e/ou acompanhar as aprendizagens em uma ou mais Áreas de Conhecimento e/ou na Formação Técnica e Profissional.\n\nA nova organização curricular do Ensino Médio, composta pela Formação Geral Básica e pelos Itinerários Formativos, deve permitir a cada estudante dirigir suas aprendizagens em diferentes ritmos, dentro dos arranjos escolhidos. Assim, por meio de avaliações formativas, as unidades curriculares devem proporcionar aos estudantes situações de reflexão, orientação, aprofundamento das aprendizagens e, conforme a necessidade, o acompanhamento das aprendizagens.\n\n## PARCERIAS PARA OFERTAS\n\nA oferta dos Itinerários Formativos no Novo Ensino Médio possibilita a articulação com instituições parceiras para o oferecimento de outros conhecimentos que são exigidos para a formação cidadã dos estudantes. As parcerias podem ser realizadas em parte ou no todo dos Itinerários Formativos, inclusive para cursos de qualificação profissional e técnicos de nível médio.\n\nA oferta pelas instituições parceiras, sejam educacionais ou não, pode acontecer na forma presencial ou na modalidade de Educação a Distância, podendo ser distinta da forma da oferta da Formação Geral Básica.\n\nEm relação à comprovação da realização, caberá às instituições parceiras emitir declarações ou outros documentos comprobatórios das atividades concluídas sob sua responsabilidade, sendo que os documentos comprobatórios deverão ser avaliados e incorporados pela instituição de educação de origem no Histórico Escolar do estudante.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

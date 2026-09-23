@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05f0a333dbf519c0006ab2fb1735d887d2a306177ac5c31f2b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 543,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 682,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 1225
+    }
+  },
+  "created_at": "2026-09-22T22:03:09Z",
+  "duration_seconds": 6.369,
+  "error": null,
+  "excerpt_id": "ac_ef_18",
+  "filename": "ac_ef_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b6cdb705ac28e41edc0a477357ec7d53330de8da70eb2d4acece5339c9d6a28a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "20a31e5f1179b5d8350ab2b96cc5bc231bd1cca0b54d0f3c071f09180d394679",
+    "rendered_prompt_sha256": "8ac7c6125968de19d57af631480c93e275a325d9c378d2926ac355a5560ee18a",
+    "source_text_sha256": "383d223ef3eb1231ad39d390e69442839322bd71a2814e0a1fe489bcb3ae560c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 10,
+    "filename": "ac_ef_18.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_18.txt",
+    "state": "ac",
+    "word_count_original": 335
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_18.json"
+  },
+  "raw_response_text": "## 3. PARTE DIVERSIFICADA E ESPECIFICIDADES DO ESTADO DO ACRE\n\nEste documento propõe, para cada ano, o desenvolvimento de uma ou duas temática(s) transversal(ais), como ferramentas que possibilitam a escola alcançar as competências gerais da Base Nacional Comum Curricular. São temas tratados de forma a permitir que os alunos percebam que a linguagem está impregnada de valores, pois, assim como aponta Almeida Filho: “Aprender uma nova língua na escola é uma experiência educacional que se realiza para e pelo aprendiz/aluno como reflexo de valores específicos do grupo social e/ou étnico que mantém essa escola” podendo assim, a língua ser um instrumento para uma ação mais efetiva e crítica no mundo. São indicados temas que abordam questões ambientais e indígenas, além de questões que são próprias do momento histórico atual e que perpassam tanto a região e/ou comunidade local quanto toda a sociedade brasileira e/ou global, afligindo-as e exigindo tomada de consciência e posicionamentos éticos em relação ao cuidado de si mesmo, dos outros e do planeta, como a questão do bullying, do respeito à diversidade e ao idoso, da violência, além de educação financeira.\n\nOs temas propostos estão distribuídos nos objetivos e nas orientações didáticas e devem ser trabalhados de forma integrada ao conteúdo das aulas. Outros temas, além dos que estão propostos neste documento, podem ser trabalhados, levando-se em conta a relevância social. O eixo da Dimensão Cultural permite ao professor e ao aluno desenvolverem projetos interdisciplinares com os diferentes componentes curriculares e está conectado a primeira competência específica de Língua Espanhola, que permite ao aluno identificar-se em um mundo multilíngue e multicultural, refletindo criticamente sobre seu processo de aprendizagem e sobre seu lugar em um mundo globalizado. Está em consonância também com a competência que recomenda ao aluno conhecer diferentes patrimônios culturais, a fim de ampliar sua perspectiva de mundo em contato com diferentes manifestações artístico-culturais, possibilitando um trabalho interdisciplinar com os componentes curriculares de Arte, Educação Física, História, Geografia e Linguagens.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

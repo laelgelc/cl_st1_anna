@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0994877bb9f25886006ab304d11f7487d2bf8b2208e61a336a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 499,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 493,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 992
+    }
+  },
+  "created_at": "2026-09-22T22:44:38Z",
+  "duration_seconds": 5.607,
+  "error": null,
+  "excerpt_id": "mt_em_24",
+  "filename": "mt_em_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "831c7f3e34ac5278b0ed0d50a36acf2e09e3327cfed85642836c035a3f04eae1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ea030af152794ff53faff1994d3841eca0c5af538ce02f1810b2001386cc9abd",
+    "rendered_prompt_sha256": "678e5cc17ffd0899f754ccf8b3e30afcc7594f55b2f812f702f2ee80c1d6527e",
+    "source_text_sha256": "f875c79843ea1d2b9f9a1fe821ea294c437551bd15d7baee14dbca1796758ef5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1915,
+    "filename": "mt_em_24.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_24.txt",
+    "state": "mt",
+    "word_count_original": 279
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_24.json"
+  },
+  "raw_response_text": "### 4.3.10 Os Profissionais da Educação Escolar Indígena, Identidade, Perfil e Formação\n\nA qualidade sociocultural da Educação Escolar Indígena necessita que sua proposta educativa seja conduzida por professores indígenas, tanto docentes quanto como gestores escolares devem pertencer as respectivas comunidades.\n\nO professor indígena tem um papel social e educativo vinculado aos projetos societários do seu povo. Dessa forma, como profissional, assume diversas funções que vão além da ação docente em sala de aula. Por ter acessado a formação e conhecimentos da sociedade envolvente, inclusive desenvolvido as competências de letramento, ele também é um mediador de todos os eventos educativos, políticos, econômicos, de saúde, que chegam à sua comunidade. Um dos principais aspectos dessa responsabilidade social começa pela sua indicação por parte da sua comunidade para ingressar na formação docente. Inclui-se nesse compromisso entre comunidade e professor, a responsabilidade sobre as futuras gerações.\n\nOs professores indígenas, no cenário político e pedagógico, são importantes interlocutores nos processos de construção do diálogo intercultural, mediando e articulando os interesses de suas comunidades com os da sociedade em geral e com os de outros grupos particulares, promovendo a sistematização e organização de novos saberes e práticas. Do ponto de vista didático-pedagógico assume a responsabilidade pela mediação didática entre os conhecimentos acadêmicos e as ciências e saberes indígenas. Também atua na valorização dos conhecimentos tradicionais no currículo escolar de forma a possibilitar ao estudante o fortalecimento da identidade indígena dentro do ambiente escolar.\n\nCompete aos professores indígenas a tarefa de refletir criticamente sobre as práticas políticas pedagógicas da Educação Escolar Indígena, buscando criar estratégias para promover a interação dos diversos tipos de conhecimentos que se apresentam e se entrelaçam no processo escolar.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

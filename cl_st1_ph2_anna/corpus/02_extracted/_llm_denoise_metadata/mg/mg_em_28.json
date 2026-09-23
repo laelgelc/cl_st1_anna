@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0746350ef4906600006ab3032fa23487d2982985d09fc16bb6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 392,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 331,
+      "output_tokens_details": {
+        "reasoning_tokens": 54
+      },
+      "total_tokens": 723
+    }
+  },
+  "created_at": "2026-09-22T22:37:38Z",
+  "duration_seconds": 2.998,
+  "error": null,
+  "excerpt_id": "mg_em_28",
+  "filename": "mg_em_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4e26de189844318623dfdac11715f17aef13afa1202be14b7abc6183eb521c32",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bad9148c24aef64093fcedf988b78ccb500c35238cfcd023af6e34ca314f8ee2",
+    "rendered_prompt_sha256": "4fef67c2fb44650b47159348dc23891dc579957c623f31c3ba02ad909924dbf2",
+    "source_text_sha256": "dc160dbe0632f4b82820271560010341feb3cfe68bb0061c7e0454508c76a3aa"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1557,
+    "filename": "mg_em_28.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_28.txt",
+    "state": "mg",
+    "word_count_original": 202
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_28.json"
+  },
+  "raw_response_text": "## 2.7.4 Considerações sobre a interdisciplinaridade/transdisciplinaridade\n\nPara que a interdisciplinaridade/transdisciplinaridade seja uma realidade no meio escolar, é indispensável que a prática e o planejamento estejam voltados para a interação e a troca entre os professores das diferentes áreas do conhecimento, num processo de comunicação de ideias, reciprocidade de conceitos, conteúdos, metodologias e objetivos. Essas ações contribuem para que o ensino seja mais atraente e possa formar os estudantes de forma integral, promovendo uma visão de mundo mais ampla e uma percepção mais complexa da realidade, ao mesmo tempo que os colocam na centralidade do ensino e da produção do conhecimento.\n\nCom a flexibilização do currículo, vislumbra-se uma articulação na estrutura de tempos e espaços, favorecendo a integração entre os professores, com mais planejamentos coletivos e a participação dos estudantes em metodologias pedagógicas e com o uso das tecnologias para que o processo de ensino e de aprendizagem valorize as potencialidades e participação dos estudantes. Nesse sentido, as propostas do Novo Ensino Médio visam a atender aos desafios da educação contemporânea, de forma a contribuir para a redução da evasão escolar, propiciando aos estudantes aprendizagens significativas e contextualizadas às demandas das juventudes, e a formação integral dos jovens estudantes.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

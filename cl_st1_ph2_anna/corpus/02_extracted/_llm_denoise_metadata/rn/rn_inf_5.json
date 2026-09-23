@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_081a67cbe221aaeb006ab30b5bea9c87d2b119a4385ea9591b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1397,
+      "input_tokens_details": {
+        "cache_write_tokens": 1394,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2133,
+      "output_tokens_details": {
+        "reasoning_tokens": 879
+      },
+      "total_tokens": 3530
+    }
+  },
+  "created_at": "2026-09-22T23:12:47Z",
+  "duration_seconds": 19.868,
+  "error": null,
+  "excerpt_id": "rn_inf_5",
+  "filename": "rn_inf_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "057fc469ae70b1ca5a1a2e38f68202d13a9dc9a8c35ab77a3c90d56421022e10",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9e015aee111afb503d751a2fcb62afb7b6198b9a9581cf123ce5beb0b102c448",
+    "rendered_prompt_sha256": "3eb7c48092f39c5a8c54036271dc73404da1edf610ca0cb25f0e61e718a9792f",
+    "source_text_sha256": "919b2aa5f5f66f331749b1f049f75ef84557e7e3e7dafa16f24e210a5832d07d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3090,
+    "filename": "rn_inf_5.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_5.txt",
+    "state": "rn",
+    "word_count_original": 872
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_5.json"
+  },
+  "raw_response_text": "# A Educação Infantil no Rio Grande do Norte\n\nO Estado do Rio Grande do Norte é composto por cento e sessenta e sete municípios, entes federados os quais têm, por meio de suas Redes de Ensino, a responsabilidade pela oferta da Educação Infantil na faixa etária de zero a cinco anos de idade, conforme legislação atual.\n\nApresenta-se aqui um panorama atual de indicadores qualitativos e quantitativos no que se refere ao atendimento da Educação Infantil no nosso estado. As informações a seguir, são resultados de um recente levantamento realizado pela UNDIME-RN, com objetivo de diagnosticar o perfil do estado, para que possamos conhecer a realidade e nos reconhecer como parte integrante deste cenário, considerando-o no processo de construção desse documento.\n\nOs dados levantados expressam números aproximados do real, considerando a participação, por meio do envio dos formulários respondidos, de 87% do total dos municípios. No entanto, vale salientar que foram identificadas algumas imprecisões nas respostas.\n\nO RN, conforme gráfico a seguir, atende na etapa da educação infantil um total de 119.413 (cento e dezenove mil quatrocentas e treze) crianças. Sendo, 96.797 (noventa e seis mil setecentas e noventa e sete) na rede pública e 22.616 (vinte e duas mil seiscentas e dezesseis) na rede privada.\n\n**Gráfico 1 – A demanda atendida nas Redes de Ensino do Estado do RN**\n\n| Categoria | Número de crianças |\n|---|---:|\n| Creche atendidas na Rede Privada | 9.122 |\n| Pré-Escola atendidas na Rede Privada | 13.494 |\n| Creche da Rede Municipal na Zona Urbana | 39.719 |\n| Pré-Escola da Rede Municipal na Zona Urbana | 31.052 |\n| Creche da Rede Municipal na Zona Rural | 16.840 |\n| Pré-Escola da Rede Municipal na Zona Rural | 9.186 |\n\nUm importante aspecto revelado no atendimento às crianças da Rede Municipal de ensino é o crescente e significativo número de turmas organizadas por faixa etária, embora ainda sejam encontradas turmas mistas em instituições da zona rural.\n\nComo nos mostra o gráfico abaixo, a jornada de atendimento às crianças da Educação Infantil nas redes municipais do RN, acontece em tempo integral em apenas 41 instituições educativas, enquanto que o atendimento em tempo parcial totaliza o número de 1.116 instituições.\n\n**Gráfico 2 – Jornada de atendimento em tempo Integral e Parcial**\n\n| Jornada | Número de instituições da Rede Municipal |\n|---|---:|\n| Parcial | 1.116 |\n| Integral | 41 |\n\n**Fonte:** UNDIME-RN\n\nContabilizou-se 9.579 (nove mil quinhentos e setenta nove) docentes que atuam em salas de educação infantil, que em sua grande maioria tem a formação mínima exigida para atuação na educação infantil, conforme gráfico abaixo:\n\n**Gráfico 3 – Formação dos docentes que atuam em salas de Educação Infantil**\n\n| Formação | Número de docentes |\n|---|---:|\n| Sem formação na área do magistério/educação | 82 |\n| Somente com curso de Magistério ou Ensino Médio na Modalidade Normal | 520 |\n| Graduação em áreas de Humanas (Letras, Geografia, História, outras) | 252 |\n| Especialistas em Educação Infantil ou outros cursos em Educação | 2.591 |\n| Mestrado | 70 |\n| Doutorado | 2 |\n| Graduação em Pedagogia | 4.532 |\n\n**Fonte:** UNDIME-RN\n\nDentro deste contexto, os dados do Censo Escolar 2017 nos apresentam, um quantitativo mais aproximado da realidade, com um total de 22.505 (vinte e dois mil quinhentos e cinco) professores da rede municipal de ensino, sendo 36 (trinta e seis) com formação no ensino fundamental, 1.674 (um mil seiscentos e setenta e quatro) com formação no magistério, 1.541 (um mil quinhentos e quarenta e um) com ensino médio, 19.254 (dezenove mil duzentos e cinquenta e quatro) com formação superior. Desse último total, 8.724 (oito mil setecentos e vinte quatro) professores são especialistas, 499 (quatrocentos e noventa nove) são professores com mestrado e 26 (vinte seis) professores têm doutorado.\n\nObserva-se também, no levantamento realizado pela UNDIME-RN, no que se refere ao ingresso dos docentes que atuam em salas de educação infantil da rede pública, que os educadores são admitidos por concurso público, porém, ainda se apresenta um percentual de 62% dos municípios onde os professores são convocados por contrato e 28% dos municípios, cujos professores são convocados por processo seletivo.\n\nOutro aspecto analisado refere-se à existência de proposta pedagógica e/ou curricular nas redes municipais. Concluímos a análise dos dados, verificando que apenas 12 munícipios possuem uma Proposta Curricular para a Educação Infantil. Entre estas, apenas 3 propostas já estão desenvolvidas tendo como base as DCNEI e o currículo por experiências. As demais ainda se organizam a partir do Referencial Curricular Nacional para Educação Infantil – RCNEI (BRASIL, 1998) ou outros aportes teóricos anteriores.\n\nAlguns municípios enviaram o Projeto Político-Pedagógico – PPP de uma Instituição de Educação Infantil que em alguns contextos, norteia o trabalho nas demais instituições e/ou turmas. Enquanto que os demais realizam o trabalho norteado por orientações e referências diversas, tais como: LDB, BNCC, DCNEI, RCNEI, Parâmetros Nacionais de Qualidade de Educação Infantil e em outros documentos oficiais do Ministério de Educação e Cultura - MEC, assim como, em livros e publicações da área.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

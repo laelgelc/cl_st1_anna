@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_061ebe8c83b2987d006ab3013256ec87d2b2448f4de2485e44",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 428,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 445,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 873
+    }
+  },
+  "created_at": "2026-09-22T22:29:10Z",
+  "duration_seconds": 3.893,
+  "error": null,
+  "excerpt_id": "go_em_28",
+  "filename": "go_em_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c68d5c3a70d299da37ea852c3e65bb5403869da6177d444aeafc95481ea423d2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0055d164b8a1957b12ce42fc6e43e67a0aca7535cf119f0f84531cfcb771a27d",
+    "rendered_prompt_sha256": "8295f0e64cd84b1bc0758b393b4c0020dd477048609c19154f7824acc7030d99",
+    "source_text_sha256": "32eceb48535b036c00d3b2f31c7b0b5ca9af62d5dddb7fd588e710aff0164cb9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1150,
+    "filename": "go_em_28.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_28.txt",
+    "state": "go",
+    "word_count_original": 240
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_28.json"
+  },
+  "raw_response_text": "## Introdução\n\nSejam bem-vindos/as ao capítulo dois do Documento Curricular para Goiás - Etapa Ensino Médio (DC-GOEM). Esse capítulo trabalha a Formação Geral Básica para o Novo Ensino Médio em Goiás.\n\nA Formação Geral Básica é composta pelas quatro áreas do conhecimento:\n\nNa estrutura das áreas do conhecimento encontraremos as aprendizagens essenciais para o/a estudante desenvolver ao longo do seu percurso formativo. Essas aprendizagens essenciais estão desenvolvidas a partir de habilidades e competências propostas pela Base Nacional Comum Curricular (BNCC).\n\nA Formação Geral Básica compreende as dez Competências Gerais da BNCC, bem como os Temas Contemporâneos Transversais, Protagonismo Juvenil, Formação Integral e a Interdisciplinaridade. Neste capítulo, são apresentadas as temáticas específicas de cada área do conhecimento, sempre tratadas de forma integrada e interdisciplinar. Outro ponto, a ser considerado, é a diversificação metodológica que os objetivos de aprendizagem trazem em suas estruturas formativas. Cada área do conhecimento apresenta sugestões metodológicas que podem ser discutidas ao longo de todo o Ensino Médio em Goiás. Vale ressaltar que o DC-GOEM utilizou-se da integração curricular como estratégia de desenvolvimento das aprendizagens essenciais evidenciadas no capítulo dois.\n\nAssim sendo, deseja-se uma ótima leitura com o olhar voltado para a nova estrutura curricular a partir da Formação Geral Básica, propondo novas temáticas, metodologias e novos desafios educacionais na composição de cada área do conhecimento. Em síntese, são novas oportunidades de aprendizagens para todos/as os/as estudantes do estado de Goiás.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

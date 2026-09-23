@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01c82fa35d9e0dc8006ab30aff35f487d2acba8679e64add63",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 657,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 726,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 1383
+    }
+  },
+  "created_at": "2026-09-22T23:11:00Z",
+  "duration_seconds": 5.475,
+  "error": null,
+  "excerpt_id": "rn_em_10",
+  "filename": "rn_em_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f853dda0ab978775f8e852a68096c189a57b084858f816e333ad3391b7656f8e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "38294f7020f8bb78efbd522eec49d62faaa2034bc83fc368010e52c4d1b0b26a",
+    "rendered_prompt_sha256": "a8efc64250f3dd4506ee53b06df1356b5e52b3e3be6ea2e880d25e53a3b79521",
+    "source_text_sha256": "38a623e6e52b14c304a5d437a7aa7d243e08008adff220ccc999af7559dc49f8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3008,
+    "filename": "rn_em_10.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_10.txt",
+    "state": "rn",
+    "word_count_original": 390
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_10.json"
+  },
+  "raw_response_text": "## 2.3 REFERENCIAL CURRICULAR: UM ORIENTADOR PARA O TRABALHO PEDAGÓGICO\n\nMaterializar o currículo nas práticas pedagógicas, independentemente da etapa, modalidade e oferta, demanda a abordagem com perspectiva didática interdisciplinar – definida no projeto pedagógico de cada instituição de ensino, aferindo os aspectos mais pertinentes e viáveis para o desenvolvimento das competências e habilidades. Para tanto, é essencial considerar os territórios vivenciados pelos estudantes e seus conhecimentos prévios, os quais inferem sentido à aprendizagem, uma vez que conectam os conceitos apreendidos com suas experiências pessoais.\n\nNesse sentido, há uma estreita relação entre este Referencial Curricular e o Projeto Político Pedagógico (PPP) da escola, posto que o primeiro estabelece diretrizes à práxis pedagógica das instituições de ensino, enquanto o segundo expressa a identidade da instituição escolar em seu sentido político e de tomada de decisão para o fazer pedagógico. O PPP, orientado a partir deste Referencial, rompe os muros da escola para cumprir o papel social, crítico, histórico, político e questionador. Em ambos, cada especificidade oriunda das juventudes não pode deixar de ser observada, sob pena de se produzir um atendimento exíguo quanto ao princípio da equidade.\n\nO currículo escolar deve ser compreendido como conjunto integrado e articulado de vivências e experiências. Estas, também, devem possibilitar aos estudantes mobilizar e ampliar seus saberes em torno dos objetos de conhecimento, considerados relevantes para o desenvolvimento de habilidades e competências, que são acionadas por eles na tomada de decisões, na resolução de problemas presentes na vida cotidiana, no mundo do trabalho e no exercício pleno da cidadania.\n\nEssa perspectiva contempla e dialoga com o entendimento de currículo proposto nas Diretrizes Curriculares Nacionais para a Educação Básica:\n\n> Art. 13. O currículo [...] configura-se como o conjunto de valores e práticas que proporcionam a produção, a socialização de significados no espaço social e contribuem intensamente para a construção de identidades socioculturais dos educandos. [...]\n>\n> § 2º Na organização da proposta curricular, deve-se assegurar o entendimento de currículo como experiências escolares que se desdobram em torno do conhecimento, permeadas pelas relações sociais, articulando vivências e saberes dos estudantes com os conhecimentos historicamente acumulados e contribuindo para construir as identidades dos educandos (BRASIL, 2010).\n\nAssim, esperamos que cada educador, dessa etapa de ensino, no exercício do magistério, reflita, experiencie e contribua para o aperfeiçoamento dessa proposta de educação democrática, integral e inclusiva, tornando-a, efetivamente, significativa para os estudantes.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dd34c6c80f050e8006ab30a04d88087d28ef5827e2833be15",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1515,
+      "input_tokens_details": {
+        "cache_write_tokens": 1512,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1555,
+      "output_tokens_details": {
+        "reasoning_tokens": 268
+      },
+      "total_tokens": 3070
+    }
+  },
+  "created_at": "2026-09-22T23:06:56Z",
+  "duration_seconds": 11.393,
+  "error": null,
+  "excerpt_id": "pr_em_72",
+  "filename": "pr_em_72.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9ba5b553f49121a7a9e81863542eff8ba3808ef7c202da2cdec5c06d5fd1aa19",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f10ff65f52f0ab16759f909a0496361dd5bd5a1a063a482e928451d40ae26540",
+    "rendered_prompt_sha256": "96a3d36dd06d3e716416becf75365e8004ac6ad84b8514a1957ed2aa1c0fc54e",
+    "source_text_sha256": "b801194db86066677a941f6ab917a4d02405ea308be333b9bed6bfaefd84d73b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_72.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2793,
+    "filename": "pr_em_72.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_72.txt",
+    "state": "pr",
+    "word_count_original": 948
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_72.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_72.json"
+  },
+  "raw_response_text": "# 1. A ÁREA DE CONHECIMENTO CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS E O SEU PAPEL FORMATIVO NO NOVO ENSINO MÉDIO\n\nO ensino de Ciências no Brasil passou por diversas transformações e reformas ao longo do tempo. Como marco inicial, em 1950, a ciência partia de uma atividade neutra, cujo objetivo de ensino era formar a elite com programas rígidos, voltados às aulas práticas. Já na década de 1970, o objetivo era a formação de um cidadão trabalhador, numa concepção de ciência voltada para a evolução histórica e pensamento lógico-crítico. Surge, portanto, a pedagogia dos projetos como modalidades didáticas recomendadas.\n\nEntre as décadas de 1990 e 2000, devido à abertura econômica brasileira e à globalização, o objetivo do ensino pautou-se na formação de cidadão-trabalhador-estudante como prioridade, tendo como documento norteador os Parâmetros Curriculares Nacionais. A ciência passou a ter uma concepção de atividades com implicações sociais, onde as modalidades didáticas recomendadas eram os jogos com exercícios no computador (Krasilchik, 2000).\n\nAtualmente, a ciência se encontra materializada em tecnologia, apresentando objetivos sociais validados por meio do desenvolvimento tecno-científico e da inserção de descobertas científicas no ensino de ciências. A orientação para organizar o currículo em áreas do conhecimento não foi aleatória, e sim buscou escopo equivalente para o Ensino Médio, propondo reagrupar em: Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias e Ciências Humanas e Sociais Aplicadas (Brasil, 2018). Deve-se ter a compreensão de que áreas do conhecimento são unidades epistemológicas cuja conexão pode manifestar um objeto comum que nem sempre seja compatível com as particularidades de cada componente curricular. No caso de Ciências da Natureza e suas Tecnologias, o objeto de estudo é a natureza seccionada de forma dinâmica e orgânica, respeitando a especificidade de cada um dos seus componentes curriculares, Biologia, Física e Química.\n\nNesta perspectiva, o papel fundamental da área de Ciências da Natureza e suas Tecnologias está relacionado com o aprendizado, a produção, o uso e a divulgação dos conhecimentos científicos, por meio de uma abordagem que valoriza a investigação e proporciona o protagonismo dos estudantes, de modo a despertar a responsabilidade e o senso ético, tornando-os sujeitos do próprio conhecimento, permitindo a crítica investigativa sobre a natureza da ciência, construindo e utilizando conhecimentos específicos para que seja possível vivenciar situações problema do cotidiano e, a partir destes conhecimentos adquiridos, debater possíveis soluções, valendo-se de argumentos mais sólidos, que possibilitem uma tomada de decisão referente ao meio ambiente e sobre as condições de vida em sociedade (Brasil, 2018).\n\nTal perspectiva objetiva que os estudantes, no decorrer de sua formação, desenvolvam as habilidades e competências específicas da área que vão ao encontro do letramento científico cidadão (Santos, 2007). Portanto, apropriar-se dos conhecimentos de ciências através da Biologia, da Física e da Química não deve ser apenas por meio de uma transposição de conteúdos, tampouco por uma visão puramente científica: deve ser por meio de uma perspectiva emancipadora na qual o estudante perceba nas aulas uma correlação entre os conteúdos escolares e sua vida fora da escola; uma educação científica, em que ele possa ser capaz de interpretar a natureza de maneira mais adequada, assim como ter um entendimento melhor sobre a tecnologia que nos rodeia, e a partir desses conhecimentos, participar da construção de uma sociedade de maior equidade para seus pares.\n\nO desenvolvimento cognitivo e cultural dos estudantes é pressuposto necessário para atender às necessidades formativas na sua atuação como cidadão, fazendo uso de modos de pensar e expressar da cultura científica, contextualizada a compreensão dos processos sociais, históricos, inclusive os que resultam na construção do conhecimento científico (Brasil, 2018).\n\nDurante os períodos de alternância no ensino de ciências no Brasil, os documentos norteadores foram sendo construídos e o processo educacional, se alinhando, até o momento em que estamos inseridos. A implementação de um novo currículo prevê uma mudança na característica do processo ensino-aprendizagem, trabalhando com habilidades e competências que convergem para um ensino voltado à valorização das ciências, explorando temas interdisciplinares, como, também, temas específicos de três componentes diferentes.\n\nNo Ensino Fundamental, o conhecimento escolar para o componente de Ciências está organizado nas seguintes unidades temáticas: Matéria e Energia, Vida e Evolução, Terra e Universo. Para a etapa do Ensino Médio, propõe-se o aprofundamento dessas temáticas já desenvolvidas no Ensino Fundamental, possibilitando aos estudantes o ensino por meio da investigação, da análise e da discussão de situações problema, com ênfase na aplicação dos conhecimentos científicos e tecnológicos, e em suas implicações éticas, sociais, econômicas e ambientais. Dessa forma, as Ciências da Natureza e suas Tecnologias ampliam, consolidam e aprofundam a formação iniciada no Ensino Fundamental, no componente curricular Ciências, que, naquela etapa de ensino, constitui-se como componente e área.\n\nA organização da área do conhecimento CNT ocorre por razões conceituais e históricas que refletem os conhecimentos tratados e a forma como são e foram produzidos. Para que ocorra um aprofundamento efetivo dentro da área é preciso que seja feita a divisão específica nos componentes curriculares de Biologia, Física e Química, sendo que cada um deles deve ocupar espaços e horários diferenciados dentro do currículo, além de garantir a existência de professores especialistas para cada componente.\n\nNesse contexto, o papel formativo da área CNT no Ensino Médio é de proporcionar ao estudante momentos de debate acerca dos conhecimentos científicos construídos ao longo da história — interpretando a ciência como não neutra, reforçando o caráter de evolução dos conceitos científicos como verdades momentâneas, respeitando as fontes de dados científicos vindos de experimentos, pesquisas e simulações — e, assim, possibilitar ao estudante a tomada de decisões com consciência sobre os processos que envolvem as relações entre a Ciência, a Tecnologia e a Sociedade.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0103d004e10eb05c006ab30ae7447c87d29f48d0e86269aaa9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 749,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 904,
+      "output_tokens_details": {
+        "reasoning_tokens": 260
+      },
+      "total_tokens": 1653
+    }
+  },
+  "created_at": "2026-09-22T23:10:38Z",
+  "duration_seconds": 7.181,
+  "error": null,
+  "excerpt_id": "rn_ef_4",
+  "filename": "rn_ef_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d64db79be5f2e0a227463d3afcd8b803a604b3a34accc9cbd0861efd8d79049a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3bd623e925938e45f1ac9d96b44847f20b6ced3f3bb5d73dc5bc27fd21879839",
+    "rendered_prompt_sha256": "9b16e43b06fea712d79d57eaf0622286880f90af669548e1c2f07bb5dd524a2e",
+    "source_text_sha256": "07d9ef4095f5191b1236c3d223aedd7715590ae0854d04d9189bd91a150e18df"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2979,
+    "filename": "rn_ef_4.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_4.txt",
+    "state": "rn",
+    "word_count_original": 456
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_4.json"
+  },
+  "raw_response_text": "## 3. COMPETÊNCIAS GERAIS DA BNCC E DO DOCUMENTO CURRICULAR DO ESTADO DO RIO GRANDE DO NORTE\n\nO CNE definiu a Base Nacional Comum Curricular para a Educação Infantil e o Ensino Fundamental em dezembro de 2017. Como conjunto articulado, a BNCC parte de princípios éticos, estéticos e políticos assegurados pelas Diretrizes Curriculares Nacionais para cada etapa da Educação Básica e dos conhecimentos, habilidades, atitudes e valores considerados essenciais para a vida no século XXI.\n\nA Resolução CNE/CP n. 2/2017, que institui a BNCC como documento de caráter normativo que define o conjunto orgânico e progressivo de aprendizagens essenciais como direito das crianças, jovens e adultos no âmbito da Educação Básica, estabelece que:\n\n> Art. 2º As aprendizagens essenciais são definidas como conhecimentos, habilidades, atitudes, valores e a capacidade de os mobilizar, articular e integrar, expressando-se em competências.\n>\n> Parágrafo único. As aprendizagens essenciais compõem o processo formativo de todos os educandos ao longo das etapas e modalidades de ensino no nível da Educação Básica, como direito de pleno desenvolvimento da pessoa, seu preparo para o exercício da cidadania e qualificação para o trabalho.\n>\n> Art. 3º No âmbito da BNCC, competência é definida como a mobilização de conhecimentos (conceitos e procedimentos), habilidades (práticas cognitivas e socioemocionais), atitudes e valores, para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho. (BRASIL, 2017a)\n\nO conceito de competências, segundo Gimeno Sacristán (2011a, p. 84),\n\n> é mais que conhecimentos e habilidades, é a capacidade de enfrentar demandas complexas em um contexto particular, um saber fazer complexo, resultado da integração, mobilização e adequação de capacidades, conhecimentos (conceitos, procedimentos/habilidades e atitudes) e valores utilizados de modo eficaz em situações reais.\n\nEssa definição de competência reconhece que se apropriar de novos conhecimentos e habilidades é importante, mas é preciso que o estudante faça uso deles diante de complexas demandas de determinado contexto. Não basta um estudante saber sobre como operar com porcentagem se ele não aplica esse conhecimento, por exemplo, para entender a dimensão da devastação de determinada floresta e posicionar-se a esse respeito. Dessa perspectiva, o estudo deve ir além do mero contato com conceitos, valores e habilidades e criar questões desafiadoras para os estudantes.\n\nDez competências gerais são apresentadas na BNCC, e cada competência engloba um amplo conjunto de condições para o seu alcance. No âmbito do Documento Curricular do Estado do Rio Grande do Norte, indica-se o acréscimo de duas outras competências, que se somam às demais. Cada competência elencada requer um tratamento didático que perpasse os diferentes componentes curriculares e anos de escolaridade de maneira detalhada e progressiva. As propostas didáticas precisam prever situações em que os estudantes sejam desafiados a alcançá-las.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

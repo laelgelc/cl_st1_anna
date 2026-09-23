@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a3116c931e28330006ab3023edf0c87d28972a6e5b6c6d10f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1444,
+      "input_tokens_details": {
+        "cache_write_tokens": 1441,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1473,
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "total_tokens": 2917
+    }
+  },
+  "created_at": "2026-09-22T22:33:47Z",
+  "duration_seconds": 12.741,
+  "error": null,
+  "excerpt_id": "ma_em_50",
+  "filename": "ma_em_50.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0529b9c340899ae6c6b741e359f74eb028e9100709158a8f49fdaf58723bbce7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8587f3bca79c22f1e8a74c6905e06a75398aa59ddcc26cb3ee21a402b008d7e4",
+    "rendered_prompt_sha256": "620bf88ab94e523c7bf40f24d78ae3c6c48af5f904b56ec1d05092a35b7c14cf",
+    "source_text_sha256": "6eb6efd9fe5f9fea417833bcf51391e1faa02ce906ee7d4c7c270376552dba13"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_50.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1340,
+    "filename": "ma_em_50.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_50.txt",
+    "state": "ma",
+    "word_count_original": 1009
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_50.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_50.json"
+  },
+  "raw_response_text": "### 4.5. Avaliação, certificação e mobilidade\n\nA presença de diferentes unidades curriculares, que vão além da lógica disciplinar, exige a elaboração de modelos avaliativos que deem conta das especificidades de cada metodologia e estratégia de ensino e aprendizagem. Assim, é importante frisar que as escolas não devem se limitar à aplicação de provas escritas ao final de um período, em especial quando o que está sendo avaliado não é apenas o aprendizado de conteúdo, mas o desenvolvimento de habilidades e competências. Propõe-se que a escola desenvolva diferentes métodos de avaliação com vistas a atender ao novo contexto, por meio da exploração, ao máximo, de atividades que envolvam o estudante e nas quais ele seja protagonista. São exemplos de estratégias a autoavaliação, experimentos, construção de portfólios, produções textuais, realização de seminários, incentivo à pesquisa e utilização de variadas linguagens para expressão do que foi aprendido.\n\nAs DCNEM definem que, para estudantes que realizarem o ensino médio em mais de uma instituição, a responsável pela emissão de certificados de conclusão será a instituição de ensino de origem. Caberá às instituições parceiras emitir certificados, diplomas ou outros documentos comprobatórios das atividades concluídas sob sua responsabilidade, que deverão ser incorporados, pela instituição de origem do estudante, para efeito de emissão de certificação de conclusão. Para a habilitação técnica, fica autorizada à organização parceira a emissão e o registro de diplomas de conclusão válidos apenas com apresentação do certificado de conclusão do ensino médio, sendo responsabilidade das redes de ensino instruir suas escolas para que se adequem a essa nova normativa.\n\nConsiderando que o projeto de vida dos estudantes estará em desenvolvimento ao longo do ensino médio, é essencial considerar a mobilidade entre itinerários sem que haja prejuízos para os estudantes e para as redes.\n\nVale ressaltar, ainda, o caso de estudantes que mudam para um município ou estado onde não há oferta do itinerário que estavam cursando, devendo estes casos estar devidamente regulamentados pelo Conselho Estadual de Educação na definição das regras de mobilidade entre itinerários, conforme art. 27 da Resolução CEE/MA 277/2021, em especial quando essa mudança envolver diferentes instituições e redes de ensino. Nestes casos, devem estar previstos parâmetros de equivalência que considerem a carga horária já cumprida pelo estudante e as competências da BNCC por ele desenvolvidas durante seu percurso formativo. O grau de protagonismo estudantil na escolha do itinerário depende do modelo de flexibilização adotado pela rede e deve considerar a complexidade do processo de matrícula.\n\nOs itinerários formativos serão avaliados e testados por meio do monitoramento dos indicadores, que são ferramentas utilizadas pelo sistema de gestão das secretarias e das unidades de ensino para analisar dados, de modo a quantificar e qualificar a performance das secretarias e escolas, que serão substanciais para corrigir possíveis erros ou falhas nos processos formativos. Monitorar a implementação dos itinerários formativos nas escolas e instituições parceiras e construir mecanismos para avaliar a qualidade e o impacto desses percursos, considerando a visão do próprio estudante sobre a experiência pedagógica vivenciada ao longo de seu aprendizado e desenvolvimento, será indispensável.\n\nTodo o processo de implementação na rede estadual de ensino será acompanhado pela Secretaria Estadual de Educação, por meio de reuniões periódicas das equipes técnicas, para análise das evidências coletadas e posterior tomada de decisão.\n\nPara a promoção do estudante ao ano subsequente e posterior finalização do curso de ensino médio, ele deverá completar a carga horária prevista e integrar as habilidades propostas para cada eixo estruturante e/ou unidade curricular dos itinerários formativos. Se o estudante não conseguir alcançar esses resultados, sugere-se que vivencie mais uma vez a unidade curricular norteada pelo eixo estruturante que não foi bem aproveitado, sendo de extrema importância que os indicadores de promoção nos itinerários formativos tenham como foco central a garantia do desenvolvimento das competências e habilidades esperadas.\n\nNo que concerne ao certificado, diploma ou histórico escolar, deve ser emitido pela escola de origem do estudante e conter a descrição personalizada dos diferentes percursos vivenciados pelo estudante, destacando as unidades curriculares e a carga horária cursadas ao longo dos itinerários formativos, incluindo todas as eletivas e o projeto de vida. Em relação aos componentes que devem ser avaliados e ter notas, que serão registradas para que fique evidente a aprovação ou não do estudante, sugere-se que todas as atividades e ações em que a participação ativa do estudante seja comprovada deverão receber um valor expresso por nota ou pontuações que irão se somar à sua nota, ao final de cada período avaliativo.\n\nRessalta-se, porém, que os componentes curriculares de projeto de vida, tutoria e pós-médio não se caracterizam como atividades ou conhecimentos passíveis de valoração expressa em notas quantitativas. No entanto, devem ser acompanhadas sistematicamente pelo professor condutor de cada uma dessas unidades curriculares e avaliadas de forma qualitativa, expressa por aspectos observáveis da participação de qualidade e de forma responsável na condução das atividades propostas.\n\nNo que concerne à formação técnica e profissional, existe a possibilidade de concessão de certificados intermediários de qualificação para o trabalho, quando a formação for estruturada e organizada em módulos com terminalidades específicas.\n\nNo que diz respeito às parcerias para oferta dos itinerários formativos, a organização parceira deve emitir certificados, diplomas ou outros documentos comprobatórios das atividades, porém, o certificado de conclusão do ensino médio será gerado somente no caso de o estudante ter cursado a formação geral e o itinerário formativo completo. Os históricos escolares que acompanham os certificados e diplomas devem explicitar o perfil profissional de conclusão, as unidades curriculares cursadas, registrando as respectivas cargas horárias, frequências e aproveitamento dos concluintes, e, quando for o caso, as horas de realização de estágio. Além de informações sobre o que foi cursado pelo estudante, sugere-se que o certificado, diploma ou histórico escolar descreva temas e projetos trabalhados, produtos realizados, habilidades desenvolvidas, além de participação em atividades relevantes para sua formação, como representação estudantil, olimpíadas de conhecimento, campeonatos esportivos, espetáculos artísticos e culturais, congressos, gincanas, ações comunitárias, entre outras.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

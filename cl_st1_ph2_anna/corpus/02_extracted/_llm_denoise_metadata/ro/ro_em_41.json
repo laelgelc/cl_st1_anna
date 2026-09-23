@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01dd81842b5eb280006ab30c30708487d2b51dd29be6b2d2ec",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 455,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 568,
+      "output_tokens_details": {
+        "reasoning_tokens": 206
+      },
+      "total_tokens": 1023
+    }
+  },
+  "created_at": "2026-09-22T23:16:06Z",
+  "duration_seconds": 5.695,
+  "error": null,
+  "excerpt_id": "ro_em_41",
+  "filename": "ro_em_41.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a24776613f041553034b144eb1e302ebfb0a565df28b369c7ced77da5edd85a2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1d3fe03e30b6b8b18d96b74e362576a3cc806669a72c83420788bb6b2b70242f",
+    "rendered_prompt_sha256": "e3d7dc57a7a38ce2142824ad5af199cdd6d869b35e2e19283cdea9ad211d6ceb",
+    "source_text_sha256": "8367ad014f1a7044031d517374e6dcc965cffafb921d230c965dc6a9270246d3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_41.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3257,
+    "filename": "ro_em_41.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_41.txt",
+    "state": "ro",
+    "word_count_original": 276
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_41.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_41.json"
+  },
+  "raw_response_text": "### 2.3.3. Competências, Habilidades e Objetos de Conhecimentos\n\nA área de Matemática e suas Tecnologias visa a consolidação e a ampliação das aprendizagens previstas na Formação Geral Básica para o Ensino Médio, de maneira que propicie a garantia dos direitos de aprendizagem. Dessa forma, para melhor compreensão do quadro organizador da área torna-se relevante a reflexão do docente em torno dos conceitos e aplicabilidade relacionados às competências, às habilidades e aos objetos de conhecimento, uma vez que são termos utilizados no referencial.\n\nO estudo por meio de competências auxilia na resolução de desafios complexos advindos das relações cotidianas, das atitudes cidadãs e da inserção ao mundo do trabalho. Nesse sentido, a BNCC conceitua competência mediante às diversas formas de aquisição do conhecimento, das habilidades, valores e atitudes importantes para mediação de conflitos do dia a dia. Com relação ao estudo por habilidades visa assegurar aos estudantes, aprendizagens em distintos contextos na escola. Portanto, o trabalho com competências e habilidades tem por escopo o desenvolvimento do estudante na sua formação integral, uma vez que os planejamentos devem considerar as possibilidades para mobilizar o conhecimento a fim de valorizar as peculiaridades de cada região.\n\nDiante dessa premissa, seguem as competências específicas, as habilidades relacionadas a cada competência e os objetos de conhecimento da área de Matemática e suas Tecnologias, conforme os objetivos estabelecidos para cada um e como devem ser utilizados nos planejamentos dos docentes a fim de contemplar a pluralidade dos conhecimentos. Somando-se a isso, busca-se possibilidades para a formação integral do estudante ao contemplar as dimensões cognitivas e sociais, relacionando-a com as demandas advindas dos diversos contextos em que estão inseridos.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

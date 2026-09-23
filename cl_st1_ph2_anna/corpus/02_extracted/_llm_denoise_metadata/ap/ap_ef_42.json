@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d83d5c364e25f9e006ab2fdedc8e887d28ee2bb919600c70d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 549,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 643,
+      "output_tokens_details": {
+        "reasoning_tokens": 188
+      },
+      "total_tokens": 1192
+    }
+  },
+  "created_at": "2026-09-22T22:15:15Z",
+  "duration_seconds": 6.042,
+  "error": null,
+  "excerpt_id": "ap_ef_42",
+  "filename": "ap_ef_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "51753ff4e830ca7f6d929f44475829cfed413587f6b7b42b2c8c1e68736f8c42",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e8e5c005045fde95a32cd29c5bbb8a42b81b9bb4b1030abdd7c10f15e5b214c2",
+    "rendered_prompt_sha256": "2cb517f79e68d291940e7bce60d2c0d7b777a96a346f5a8310c4832d428af40a",
+    "source_text_sha256": "1316ee4286e95aabc9eba3d4a1abc2f26a365cc1c3be234c55456414f4f44e2b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_ef_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 494,
+    "filename": "ap_ef_42.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_ef_42.txt",
+    "state": "ap",
+    "word_count_original": 355
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_ef_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_ef_42.json"
+  },
+  "raw_response_text": "### 4.6.2. Organização e Utilização do Espaço\n\nO jeito como o espaço é estruturado e a forma que os materiais são organizados nas escolas são tão importantes para a educação quanto os conteúdos de aprendizagem, sendo assim, a disposição dos materiais devem ser componentes do processo ativo educacional, uma vez que, se levado em conta que a organização dos espaços e materiais devem se constituir em um ambiente de aprendizagem para os alunos, pode-se observar uma intencionalidade clara em relação as experiências que iremos propiciar para os alunos, as “oportunidades de aprendizagem”. Os espaços então passam a ser um “elemento curricular”, ou seja, é de extrema importância que cada escola organize seus “cantos” para “atividades diversificadas”, pois os mesmos se tornam oportunidades de escolher e aprofundar preferencias e de estabelecer novas interações; já para os professores os “cantos” trazem a oportunidade de observar os alunos em situações espontâneas, de conhecer suas preferências e de poder organizar os materiais de modo que os alunos tenham acesso a novas interações de convivência e aprendizagem.\n\nA sala de aula precisa refletir a proposta pedagógica da escola, visto que, a concepção que os profissionais da educação têm sobre a construção do conhecimento é diferenciada com relação ao projeto pedagógico de cada escola, assim como a maneira que os espaços disponíveis são utilizados, pois a organização de um ambiente reflete a alma da instituição e o compromisso com os alunos.\n\nNo entanto, a organização e utilização do espaço não deve apenas dar prioridade a “sala de aula”, mas sim todas as áreas utilizáveis para iniciar reflexões, onde o aluno permaneça sendo sujeito ativo e o principal autor na produção e apropriação do conhecimento, pois o contrario disso direciona o educando a ser apenas um receptor passivo das informações.\n\nContudo, cabe a equipe de gestão justamente com a coordenação pedagógica firmarem parceria com os professores, e levarem em consideração os seguintes questionamentos: o que o espaço está comunicando? Esta sala de aula é do aluno e para ele? Ele é o sujeito deste local? Para que os mesmos estejam contemplados no projeto político pedagógico de cada instituição de ensino.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

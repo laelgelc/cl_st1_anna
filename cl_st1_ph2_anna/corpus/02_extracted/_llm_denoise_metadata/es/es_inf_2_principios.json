@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09b22446d073c59a006ab300c2a42c87d28139486d935405eb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 886,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 874,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 1760
+    }
+  },
+  "created_at": "2026-09-22T22:27:20Z",
+  "duration_seconds": 5.962,
+  "error": null,
+  "excerpt_id": "es_inf_2_principios",
+  "filename": "es_inf_2_principios.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c0b81913dc2ee8da7277ca1b4b66e8dee9f6af99994da4fe22afaecbcfcf1429",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e03b85fac672a581543dca555632e74f6e99cd5a99caaed047d31eb6f359b9be",
+    "rendered_prompt_sha256": "5061181edc06f179f6566f9c0194a8c808f1c6e803e856613bef8b9e61805767",
+    "source_text_sha256": "7fa9db53283670dcd056ae6b0dc3e534e207a0d5d5ffce6bcb3149cd962137f7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_2_principios.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1052,
+    "filename": "es_inf_2_principios.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_2_principios.txt",
+    "state": "es",
+    "word_count_original": 470
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_2_principios.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_2_principios.json"
+  },
+  "raw_response_text": "# PRINCÍPIOS SUSTENTADORES DO REFERENCIAL CURRICULAR DO ESPÍRITO SANTO  \n## ETAPA DA EDUCAÇÃO INFANTIL\n\nAs DCNEI estabelecem três princípios fundamentais para orientar o trabalho junto às crianças, de 0 a 5 anos de idades, nas unidades de Educação Infantil, e que são reafirmados neste documento: os princípios ÉTICOS, POLÍTICOS E ESTÉTICOS.\n\nCompreende-se que a educação deve responder às demandas de formação do sujeito histórico e que os princípios representam valores, referências e preceitos morais que orientam as condutas humanas (OLIVEIRA et al., 2012).\n\n**Princípios Éticos:** Valorização da autonomia, da responsabilidade, da solidariedade e do respeito ao bem comum, ao meio ambiente e às diferentes culturas, identidades e singularidades. Cabe às instituições de Educação Infantil assegurar que o professor garanta em seu trabalho educativo de:\n\n- Proporcionar à criança progressiva conquista de autonomia, de forma a ter liberdade de escolher brincadeiras, músicas, materiais, atividades, ampliando o sentimento de confiança nas atividades individuais e coletivas com diversos grupos.\n- Possibilitar o conhecimento de si e do mundo através de múltiplas interações experienciadas.\n- Promover progressivamente autonomia nos seus cuidados pessoais quanto à alimentação e higiene.\n- Possibilitar construção positiva da autoestima e os vínculos afetivos de todas as crianças, combatendo todo tipo de preconceitos.\n- Dar oportunidade à criança de ampliar o entendimento de valores como os da liberdade, igualdade e o respeito a todas as pessoas.\n- Incentivar o respeito a todas as formas de vida, promovendo a preservação e o conhecimento da biodiversidade e da sustentabilidade do mundo em que vivemos, incluindo toda diversidade humana.\n\n**Princípios Políticos:** Dos direitos de cidadania, do exercício da criticidade e do respeito à ordem democrática. Cabe às instituições de Educação Infantil assegurar que o professor lembre em seu trabalho educativo de:\n\n- Possibilitar tempos e espaços para as crianças se sentirem seguras para expressarem suas dúvidas, suas angústias, seus sentimentos de alegrias e tristezas, seus desejos, suas ideias, suas descobertas e seus questionamentos.\n- Favorecer e estimular a participação das crianças de ações que fazem parte do cotidiano da unidade de ensino.\n- Promover práticas educativas capazes de proporcionar participação e aprendizagem a todas as crianças, garantindo assim que as crianças que apresentam algum comprometimento físico, sensorial, intelectual ou as crianças com altas habilidades/superdotação tenham garantidos seus direitos de aprendizagem.\n\n**Princípios Estéticos:** Valorização da sensibilidade, da criatividade, da ludicidade e da diversidade de manifestações artísticas e culturais.\n\n- Possibilitar o ato criador de cada criança através de vivências éticas e estéticas com experiências diversificadas com outras crianças e grupos culturais.\n- Organizar tempos e espaços cotidianos de situações agradáveis e estimulantes de modo a possibilitar que todas as crianças possam apropriar-se de diferentes linguagens como a música, arte, cinema, dança, teatro, literatura, poesia.\n\nA partir dos princípios e objetivos já anunciados nas DCNEI, considera-se que seis grandes direitos de aprendizagem devem ser garantidos a todas as crianças, no cotidiano das instituições de educação infantil.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

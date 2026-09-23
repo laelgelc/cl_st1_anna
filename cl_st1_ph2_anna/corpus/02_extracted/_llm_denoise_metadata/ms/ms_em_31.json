@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a0ae4be64e949e3006ab303abdef487d2836e8b7d9042be3a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 2010,
+      "input_tokens_details": {
+        "cache_write_tokens": 2007,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1940,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 3950
+    }
+  },
+  "created_at": "2026-09-22T22:39:52Z",
+  "duration_seconds": 12.792,
+  "error": null,
+  "excerpt_id": "ms_em_31",
+  "filename": "ms_em_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e2053bd3aa5df099e9d11e05ab3b24241591de593c5ad5f902a1831844d71257",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "42f7908911c3aa2007e02bff3412cfac8a4d45a29780cb9c540286f5224d5fb6",
+    "rendered_prompt_sha256": "0eeb385fe950c240c8691badf5b94bb2667da500d462733ca0f1968fbf514b44",
+    "source_text_sha256": "5cc8c132c7ceddebbf23b69662cc2382c4e1f57264b5f385c6249f5447578308"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1696,
+    "filename": "ms_em_31.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_31.txt",
+    "state": "ms",
+    "word_count_original": 1248
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_31.json"
+  },
+  "raw_response_text": "### 3.2.1. Seriação da Área de Matemática e suas Tecnologias\n\nAs habilidades da área de Matemática e suas Tecnologias foram organizadas nos três anos do Ensino Médio, considerando o grau de complexidade e a carga horária necessária ao seu desenvolvimento.\n\n### 3.3. Área de Conhecimento: Ciências Humanas e Sociais Aplicadas\n\nNeste Currículo de Referência de Mato Grosso do Sul – Etapa do Ensino Médio, a área de Ciências Humanas e Sociais Aplicadas está organizada a partir de eixos temáticos, competências e habilidades que estabelecem relação com os objetos de conhecimento e sugestões didáticas, construídos coletivamente com a colaboração de educadores e da sociedade sul-mato-grossense.\n\nA área de Ciências Humanas e Sociais Aplicadas, dada a sua importância educacional na etapa do Ensino Médio, tem como base as “ideias de justiça, solidariedade, autonomia, liberdade de pensamento, e de escolha, ou seja, a compreensão e o reconhecimento das diferenças, o respeito aos direitos humanos e à interculturalidade, e o combate aos preconceitos de qualquer natureza” (BRASIL, 2018c, p. 561), integrando outros conhecimentos além do eurocêntrico, como indígenas e quilombolas.\n\nA proposta dessa área de conhecimento é consolidar e aprofundar as competências adquiridas no Ensino Fundamental, bem como compreender, analisar e aplicar conceitos e fundamentos próprios da etapa do Ensino Médio, como reitera o trecho a seguir da BNCC:\n\n> A área de Ciências Humanas, tanto no Ensino Fundamental como no Ensino Médio, define aprendizagens centradas no desenvolvimento das competências de identificação, análise, comparação e interpretação de ideias, pensamentos, fenômenos e processos históricos, geográficos, sociais, econômicos, políticos e culturais. Essas competências permitirão aos estudantes elaborar hipóteses, construir argumentos e atuar no mundo, recorrendo aos conceitos e fundamentos dos componentes da área. No Ensino Médio, com a incorporação da Filosofia e da Sociologia, a área de Ciências Humanas e Sociais Aplicadas propõe o aprofundamento e a ampliação da base conceitual e dos modos de construção da argumentação e sistematização do raciocínio, operacionalizados com base em procedimentos analíticos e interpretativos. Nessa etapa, como os estudantes e suas experiências como jovens cidadãos representam o foco do aprendizado, deve-se estimular uma leitura de mundo sustentada em uma visão crítica e contextualizada da realidade, no domínio conceitual e na elaboração e aplicação de interpretações sobre as relações, os processos e as múltiplas dimensões da existência humana (BRASIL, 2018a, p. 472).\n\nOs componentes curriculares Geografia, História, Filosofia e Sociologia têm como proposta desenvolver ações pedagógicas integradoras e articuladas, que valorizem o protagonismo juvenil, buscando alcançar a preparação básica para a pesquisa científica e desenvolvimento da cidadania e autonomia do estudante.\n\nOs eixos temáticos de Ciências Humanas e Sociais Aplicadas foram definidos por meio das categorias propostas no texto introdutório de área da BNCC, estão articulados com as competências específicas, e têm como função auxiliar a tematizar e problematizar as atividades pedagógicas. São eles: Tempo e Espaço, Território e Fronteira, Indivíduo, Sociedade e Natureza, Política e Trabalho, Sociedade, Cultura e Ética e Indivíduo, Cultura, Política e Ética.\n\nO componente curricular Geografia tem como ponto de partida a reflexão sobre a ocupação do homem e como esse transforma o espaço, trazendo discussões de conceitos fundamentais da geografia, tais como: paisagem, região, espaço, lugar e território. Tais conceitos procuram realizar o exercício da leitura do espaço, por meio de observação de realidades concretas, espontâneas e/ou dirigidas de registros, de pesquisa em várias fontes (locais e/ou globais), com a contextualização de questões sobre territorialidade e espacialidade, trazendo à tona o diálogo com outros para compreender culturas, identidades, crenças e valores e como esses processos geram e transformam os espaços nos quais estão inseridos.\n\nOutro ponto importante a destacar é como a Geografia está organizada, sem a fragmentação dos objetos de conhecimento e partindo do princípio da conectividade, tão frequente na contemporaneidade, para que o estudante possa desenvolver suas pluralidades quanto à criatividade, o senso crítico e autocrítico de forma a relacionar os conteúdos e conceitos abarcados e experimentados no Ensino Fundamental. Assim, o professor pode aprofundar as habilidades propostas, estabelecer relações com a realidade local do estudante e da sua comunidade e estimular a busca por premissas elaboradas ao longo do processo de (re)construção do conhecimento a fim de proporcionar um aprendizado autônomo baseado na autoria.\n\nO componente curricular História, no Ensino Médio, propõe aprofundar conceitos para o entendimento dos processos históricos, políticos, sociais, culturais, ambientais ao longo do tempo, percebendo o indivíduo em sua coletividade como sujeito histórico de acontecimentos, além de estabelecer relações de tempo e espaço por meio de diversas fontes: memórias, registros, documentos, jornais, livros e outras que contribuem para a produção histórica do desenvolvimento da humanidade.\n\nNesse cenário, o conhecimento da História contribui para a formação do estudante na contemporaneidade com uma trajetória de autoria e protagonismo nas ações como ser social, participativo e comprometido em ampliar conhecimentos, reconhecendo as contradições e problemáticas para atuar na sociedade. Dessa forma, a História consolida os estudos do passado e presente, como uma ciência que articula os vários componentes curriculares da área de Ciências Humanas e Sociais Aplicadas, e contribui para que os estudantes integrem diversos estudos críticos e reflexivos, expondo as permanências, as mudanças, as diferenças e as semelhanças das vivências coletivas entre o local, regional, nacional e mundial.\n\nEm Filosofia, propõe-se compreender as teorias filosóficas dos pensadores clássicos e modernos com conceitos reflexivos e racionais da atualidade dos estudantes do Ensino Médio. O currículo de Filosofia possibilita ao estudante a busca pelo conhecimento projetando-se para além do senso comum¹¹, com uma epistemologia concisa que possa ser muito mais próxima da realidade desse educando, como sugere a BNCC.\n\nNesse contexto, o saber filosófico justifica-se pela criticidade que proporciona ao fundamentar e dar significado ao conhecimento do estudante do Ensino Médio com base na pesquisa, aprofundamento e produção dos conhecimentos adquiridos que possam transformar sua situação de espectador para atuante e participante na sociedade.\n\nO Ensino Médio tem, dentre as suas finalidades, o aprimoramento do estudante como pessoa humana, formação ética, autonomia intelectual e pensamento crítico (BRASIL, 1996). A Sociologia contribui para a abordagem curricular da rede estadual, ao utilizar a prática social dos estudantes como ponto de partida e procurar estabelecer um olhar crítico sobre o contexto local, regional, nacional e global, para que esses educandos se reconheçam como cidadãos ativos e autocríticos no processo de transformação social por meio da educação.\n\nO componente curricular Sociologia, por meio de seus temas, conceitos, teorias e métodos, constitui um instrumento de compreensão da realidade, observando as estruturas e aspectos sociais, tais como: grupos étnicos, classes sociais, gênero, violência e meio ambiente, em um espaço de discussões que encaminhe o estudante para o desenvolvimento de uma abordagem reflexiva do seu papel dentro da sociedade, estabelecendo elos com sua realidade local e/ou regional.\n\nEm suma, este Currículo de Referência propõe uma abordagem interdisciplinar e transdisciplinar, a fim de despertar o estudante como protagonista, com o desenvolvimento do seu senso crítico e autocrítico. Assim, baseado nas premissas apresentadas, é importante considerar que os componentes curriculares convergem para as mesmas habilidades e competências, norteados pela busca de justiça social, autonomia, equidade e respeito às diferenças. Nesse cenário, a aprendizagem é democrática, pois favorece a ressignificação dos saberes de outras áreas e componentes.\n\n¹¹ Por isso é importante o trabalho da educação: se o senso comum é um conjunto de ideias e valores que servem de base à nossa primeira visão de mundo, trata-se no entanto de um saber não-crítico, fragmentado, incoerente, desarticulado, misturado a crenças arraigadas e, portanto, pré-reflexivo (BRASIL, 2002a, p. 44).",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

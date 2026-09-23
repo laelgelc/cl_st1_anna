@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_040c2e7f3a33486f006ab30264956087d2b5e8cd8c24b173c0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 698,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 742,
+      "output_tokens_details": {
+        "reasoning_tokens": 161
+      },
+      "total_tokens": 1440
+    }
+  },
+  "created_at": "2026-09-22T22:34:18Z",
+  "duration_seconds": 5.999,
+  "error": null,
+  "excerpt_id": "ma_inf_e_ef_14",
+  "filename": "ma_inf_e_ef_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "43d77206b36cacd0dcfc3af5cd49339916af928860e4534afb9a25ba467bcf9b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "73e6dd753ed1b4c405a008b432a0d6a9659669e87fc1b2f43bf44c74f35472ce",
+    "rendered_prompt_sha256": "f105fe1174781892e70445e9d738d7aa9bfbdc70896a9bcbef121aaf0ce8faa8",
+    "source_text_sha256": "25eabecbeba01545d12deb4ac66dcb1f1b5a8432fd6544d5f28f8a20b9954b2c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_inf_e_ef_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1368,
+    "filename": "ma_inf_e_ef_14.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_inf_e_ef_14.txt",
+    "state": "ma",
+    "word_count_original": 438
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_inf_e_ef_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_inf_e_ef_14.json"
+  },
+  "raw_response_text": "### 3. Educação do campo\n\nO Maranhão é demarcado por uma grande área rural que abriga as populações do campo, concentrando muitos desafios históricos a serem superados com eficácia, a exemplo de: desenvolvimento econômico precário, saúde pública insuficiente para a população e uma educação pública deficitária em atendimento e qualidade, entre outros.\n\nApesar de as regiões Norte e Nordeste possuírem o maior índice populacional em área rural, o Maranhão apresenta uma concentração maior que a média. Cerca de 40% dos maranhenses moram em área rural, e em muitas áreas consideradas urbanas ainda subsiste a cultura ruralesca dos povos do campo. O quadro a seguir demonstra as proporções de habitação populacional nas zonas urbana e rural.\n\nConsiderando o atendimento escolar na Educação Infantil e no Ensino Fundamental, dados do Censo Escolar 2017 demonstram que o ensino público agrega mais de 80% das matrículas nessas etapas da Educação Básica, e este ensino é prioritariamente das redes municipais de educação. O quadro a seguir, também com base no Censo de 2017, distribui a matrícula por atendimento creche/pré-escola e anos iniciais e finais do Ensino Fundamental.\n\nPode-se observar que apenas 36% da matrícula de creche estão na zona rural. Apesar do crescimento no atendimento, a expansão de matrículas para crianças de 0 a 3 anos ainda é um desafio. Em pré-escolas e nas salas de aula dos anos iniciais do Ensino Fundamental, a zona rural concentra 44% das matrículas; nos anos finais do Ensino Fundamental, por sua vez, o atendimento chega a 38% de matrículas.\n\nO atendimento educacional no campo apresenta desafios também em relação a outros aspectos, como a diversidade de seu público, que inclui indígenas, quilombolas, ciganos, trabalhadores da agricultura, ribeirinhos, entre outros. Outro aspecto a considerar é a dispersão territorial das famílias, o que inviabiliza construções de escolas perto das moradias, sendo necessário grande esforço no atendimento com transporte escolar adequado e zoneamento.\n\nPara o campo são necessárias medidas pedagógicas específicas voltadas para a lógica e a cultura do campo. A organização de tempo e espaços é necessária para o desenvolvimento de aprendizagens como a “pedagogia da alternância”, agrupamentos diversificados e multisseriados de estudantes e recursos didáticos específicos para a zona rural.\n\nNo campo concentram-se também os maiores índices de trabalho infantil. Educadores apontam que a ausência de políticas públicas, de oportunidades, falta de lazer, de espaços de cultura e de formação engrossam essas estatísticas de crianças que perdem sua infância e a possibilidade de um desenvolvimento integral. É necessária uma pedagogia que viabilize um currículo equânime para o campo, para que oportunidades estejam realmente disponíveis para todos.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

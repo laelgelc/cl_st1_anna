@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00e89e4a5cc80b83006ab30121d32087d2a1764d6ceaede17f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1434,
+      "input_tokens_details": {
+        "cache_write_tokens": 1431,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1670,
+      "output_tokens_details": {
+        "reasoning_tokens": 342
+      },
+      "total_tokens": 3104
+    }
+  },
+  "created_at": "2026-09-22T22:29:00Z",
+  "duration_seconds": 10.949,
+  "error": null,
+  "excerpt_id": "go_em_19",
+  "filename": "go_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dd4cb512adc6513191c11a56ce9ec8de0882cb156be4132fecfccd72a8bd75dc",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d19754b6b8a41a4c941ac44faff7202e3c8f2c38b60c33ec557e489cae5632fc",
+    "rendered_prompt_sha256": "e34334e207a27a14588026c618079fdb9e74a6b7967e4c2eb08d2519f613883c",
+    "source_text_sha256": "0ab6f03054fceee8f33614fa997d3a5d7f2602d1f3684e68a6e0415b8e22dd69"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1140,
+    "filename": "go_em_19.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_19.txt",
+    "state": "go",
+    "word_count_original": 1011
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_19.json"
+  },
+  "raw_response_text": "## Material Instrucional Específico às Propostas de Formação\n\nUm outro aspecto importante a ser considerado no processo de planejamento e implementação dos Itinerários de Formação Técnica e Profissional refere-se aos materiais didático-pedagógicos (materiais instrucionais) demandados pelos cursos. Para um bom êxito das propostas formativas então definidas, a rede e/ou a instituição de ensino devem providenciar os materiais instrucionais (livros, apostilas etc.) e os materiais de apoio (insumos, materiais de expediente, utensílios etc.) necessários ao(s) curso(s), destinados ao uso tanto dos/as professores/as quanto dos/as estudantes, para a viabilização das aulas.\n\nNo caso dos materiais instrucionais, como se trata de conteúdos especializados e específicos, referentes aos respectivos eixos tecnológicos e áreas profissionais afins às propostas de formação, nem sempre se encontram prontos e disponíveis de forma que atendam, a contento, a maior parte ou a totalidade dos componentes curriculares previstos na matriz. Embora já existam, no mercado editorial brasileiro, empresas que se dedicam à produção de materiais didáticos de nível médio para a Educação Profissional, elas podem não cobrir todo o universo de componentes curriculares definidos na proposta pedagógica da respectiva formação ou não atender aos conteúdos nela definidos, demandando ações de produção própria do material por parte da rede ou da instituição de ensino.\n\nAlém do material instrucional de base textual, muitos cursos demandam materiais de apoio de diferentes naturezas, como insumos, utensílios e objetos diversos necessários ao funcionamento dos laboratórios e à viabilização das aulas práticas nestes e em outros ambientes educacionais especiais, além das próprias salas de aula ou atividades de campo.\n\nAssim, a definição de qual formação técnica e profissional ofertar deve passar, também, pela preocupação e providências quanto aos materiais instrucionais necessários às aulas teóricas e práticas, com vistas ao bom desenvolvimento dos conhecimentos, competências e habilidades requeridas pelo perfil profissional de conclusão do curso.\n\n## Recursos Humanos: Pessoal Técnico e Docente Qualificado\n\nPara ministrar os componentes inerentes às formações de natureza técnico-profissionais, faz-se necessário que a instituição de ensino conte com um quadro docente qualificado nas respectivas áreas profissionais/eixos tecnológicos, bem como de técnicos/as administrativos/as e de laboratórios (quando necessário) que apoiem os/as professores/as e os/as estudantes nas atividades do curso.\n\nEntretanto, dependendo da área profissional ou curso, a composição de um quadro de docentes adequado pode ser um grande desafio, pois, em muitas delas, boa parte dos/as profissionais com conhecimentos específicos tem o título de bacharel e tecnólogo/a, sendo raras as titulações do tipo licenciatura, que confere aos/às seus/suas titulares, além da formação específica, o aporte teórico-prático necessário ao exercício do magistério.\n\nA dificuldade em conseguir profissionais para atuar como docentes em determinados campos do saber da EPT, sobretudo em instituições não especializadas nesta modalidade de educação, como é o caso das escolas das redes de ensino que se dedicam praticamente à oferta da educação básica propedêutica, é algo constatado em todo o território nacional e merece atenção e reflexão.\n\nA própria lei que propõe a Reforma do Ensino Médio (13.415/2017) atentou-se para a questão, introduzindo a possibilidade de admissão de profissionais para a função docente na Educação Profissional por meio do expediente do notório saber. Nesse sentido, o artigo 61 da LDBEN nº 9.394/96 foi alterado com a introdução do seguinte inciso:\n\nIV - profissionais com notório saber reconhecido pelos respectivos sistemas de ensino, para ministrar conteúdos de áreas afins à sua formação ou experiência profissional, atestados por titulação específica ou prática de ensino em unidades educacionais da rede pública ou privada ou das corporações privadas em que tenham atuado, exclusivamente para atender ao inciso V do caput do art. 36; (Grifo nosso).\n\nNota-se que este expediente não se estende aos demais itinerários formativos, das áreas propedêuticas, mas tão somente ao Itinerário da Formação Técnica e Profissional. Uma tentativa de equacionar a questão da dificuldade de se encontrar docentes para atuar em determinadas áreas da EPT ou mesmo a sua falta total, dependendo da região ou localidade sede da oferta. O notório saber, nos termos da lei, aplica-se não apenas aos casos de profissionais habilitados/as em cursos de nível superior cuja natureza não seja de licenciatura, mas também àqueles/as profissionais que detenham tão somente formação profissional prática (experiência profissional), devendo tais experiências serem reconhecidas pelos respectivos sistemas de ensino.\n\nA composição de quadro de profissionais para atuar na EPT poderá ser muito difícil em determinadas localidades em função de outras questões como a discrepância entre as remunerações dos/as profissionais, oriundos/as das engenharias e graduações tecnológicas e a dos/as profissionais da educação básica ou mesmo a simples inexistência de determinados/as profissionais numa dada localidade.\n\nAssim, este aspecto é de grande relevância no processo de definição do tipo de formação a ser ofertada, devendo-se, mesmo considerando o expediente do notório saber, proceder ao levantamento da existência de potenciais profissionais-docentes no cenário local/regional.\n\nDentro da discussão desse aspecto, é importante ressaltar um outro diretamente correlacionado a este, qual seja o aspecto da formação continuada de docentes e técnicos/as para a atuação nesta modalidade de educação.\n\nA formação do pessoal técnico e docente é uma necessidade referente a todos os níveis e modalidades de educação e, no caso da Educação Profissional, não é diferente e até mesmo mais urgente e constante, já que os conhecimentos e as tecnologias relacionadas aos processos produtivos sofrem as mais diversas transformações em decurso de tempo muito pequenos, ou seja, as mudanças acontecem de forma muito rápida e dinâmica. Tais mudanças impactam diretamente o mundo do trabalho, as profissões e os perfis dos/as trabalhadores/as, o que, por decorrência, impactam a educação geral e específica, necessárias aos/às cidadãos/ãs trabalhadores/as que precisam dar respostas a este cenário sociocultural e produtivo dinâmico e complexificado. É, então, dispensável dizer o quanto é importante a formação continuada daqueles/as que não só formam, mas educam os/as profissionais da educação, sendo esta uma demanda e, ao mesmo tempo, um grande desafio às redes e instituições de ensino do país.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

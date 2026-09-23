@@ -13,7 +13,7 @@ def main():
     # Ensure output directory exists.
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Step 1: Read the reference columns file to get file_id and group.
+    # Step 1: Read the reference columns file to get file_id and state.
     ref_file = COLUMNS_DIR / "000001.txt"
     if not ref_file.exists():
         raise FileNotFoundError(f"Reference file not found: {ref_file}")
@@ -25,7 +25,7 @@ def main():
         raise ValueError(f"Reference file is empty: {ref_file}")
 
     # Expected columns format:
-    #   file_id group presence
+    #   file_id state presence
     for line_number, cols in enumerate(ref_lines, start=1):
         if len(cols) != 3:
             raise ValueError(
@@ -33,7 +33,7 @@ def main():
                 f"expected 3 fields, found {len(cols)}"
             )
 
-    # Keep file_id and group; remove presence from the reference keyword column.
+    # Keep file_id and state; remove presence from the reference keyword column.
     initial_rows = [cols[:-1] for cols in ref_lines]
 
     # Step 2: Get sorted list of all clean column files.
@@ -78,7 +78,7 @@ def main():
 
     # Step 4: Write merged data to sas/counts.txt.
     # Output format:
-    #   file_id group kw000001 kw000002 ...
+    #   file_id state kw000001 kw000002 ...
     # No header; space-separated.
     with OUTPUT_FILE.open("w", encoding="utf-8") as out:
         for row in initial_rows:

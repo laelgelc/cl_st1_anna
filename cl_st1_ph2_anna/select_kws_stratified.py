@@ -2,26 +2,24 @@
 """
 select_kws_stratified.py
 
-Selects a balanced, group-stratified subset of positive keywords (POSKW)
+Selects a balanced, stratum-based subset of positive keywords (POSKW)
 from key-lemma tables produced by keylemmas.py.
 
-In this project, the strata are group folders/files such as:
+In this project, the strata are usually Brazilian state codes, such as:
 
-    global_north_2023_09
-    global_north_2023_10
+    ac
+    al
+    am
     ...
-    global_south_2025_06
-
-The strata are of the same nature, so each group receives the same maximum
-keyword quota.
+    sp
+    to
 
 What it does
 ------------
-1) Reads every group key-lemma file in corpus/06_keylemmas/.
-   Supported extensions: .tsv and .txt.
+1) Reads every stratum key-lemma file in corpus/08_keylemmas/.
+   Supported extensions: .txt and .tsv.
 
-2) Extracts lemmas whose final column is POSKW, applying lexical filters
-   aligned with the upstream key-lemma extraction stage:
+2) Extracts lemmas whose final column is POSKW, applying lexical filters:
    - keep alphabetic lemmas and valid hyphenated compounds;
    - allow Unicode alphabetic characters, including accented letters;
    - allow hyphens only internally, between alphabetic parts;
@@ -29,23 +27,25 @@ What it does
    - drop lemmas containing uppercase letters;
    - drop lemmas containing punctuation other than valid internal hyphens.
 
-3) Applies the same quota to every group:
-   - each group: at most --per-group lemmas.
+3) Applies the same quota to every stratum:
+   - each stratum: at most --per-group lemmas.
 
-4) Builds a consolidated list in deterministic group order.
+4) Builds a consolidated list in deterministic stratum order.
 
 5) Optionally truncates the consolidated list to --max-total before
    de-duplication.
 
-6) Writes outputs to corpus/07_kw_selected/:
-   - one file per group: <group>.txt
+6) Writes outputs to corpus/09_kw_selected/:
+   - one file per stratum: <stratum>.txt
    - one consolidated, de-duplicated list: keywords.txt
 
 Typical usage
 -------------
 python select_kws_stratified.py \
-    --per-group 250 \
-    --max-total 1200
+    --input corpus/08_keylemmas \
+    --output corpus/09_kw_selected \
+    --per-group 50 \
+    --max-total 20000
 """
 
 import argparse
@@ -54,11 +54,10 @@ import os
 import re
 
 
-INPUT_DIR = "corpus/06_keylemmas"
-OUTPUT_DIR = "corpus/07_kw_selected"
+INPUT_DIR = "corpus/08_keylemmas"
+OUTPUT_DIR = "corpus/09_kw_selected"
 
-GROUP_RE = re.compile(r"^global_(north|south)_\d{4}_\d{2}$")
-SUPPORTED_EXTENSIONS = (".tsv", ".txt")
+SUPPORTED_EXTENSIONS = (".txt", ".tsv")
 
 
 # -----------------------------------------------------------
@@ -71,6 +70,22 @@ def natural_sort_key(text):
     return [int(part) if part.isdigit() else part.lower() for part in parts]
 
 
+def is_valid_stratum_name(name):
+    """
+    Return True if name looks like a corpus stratum.
+
+    This accepts state-code files such as ac.txt, sp.txt, etc.,
+    and also remains permissive enough for longer future strata.
+    Hidden files, metadata files, and consolidated keyword files are skipped.
+    """
+    return (
+            name
+            and name != "keywords"
+            and not name.startswith("_")
+            and not name.startswith(".")
+    )
+
+
 def is_valid_lemma_shape(lemma):
     """
     Return True if a lemma has valid lexical shape.
@@ -81,36 +96,13 @@ def is_valid_lemma_shape(lemma):
     2. consist of one or more alphabetic parts;
     3. use hyphens only internally, between alphabetic parts.
 
-    This deliberately allows Unicode alphabetic characters, including accented
-    letters, because it relies on str.isalpha() rather than an ASCII-only regex.
-
-    Examples kept:
-        car
-        tv
-        built-in
-        black-and-white
-        close-up
-        café
-        prêt-à-porter
-
-    Examples rejected:
-        a
-        1
-        .
-        tvdays.com
-        display**
-        build-in.
-        built-
-        -built
-        1950s-style
+    Unicode alphabetic characters, including accented letters, are allowed.
     """
     parts = lemma.split("-")
 
-    # Reject empty string, leading hyphen, trailing hyphen, and repeated hyphens.
     if any(not part for part in parts):
         return False
 
-    # Reject digits, punctuation, spaces, underscores, apostrophes, etc.
     if any(not all(ch.isalpha() for ch in part) for part in parts):
         return False
 
@@ -118,13 +110,7 @@ def is_valid_lemma_shape(lemma):
 
 
 def is_clean_lemma(lemma):
-    """
-    Return True if lemma passes lexical filtering rules.
-
-    The filtering is aligned with the upstream key-lemma extraction stage:
-    lowercase alphabetic parts are allowed, valid internal hyphens are allowed,
-    and Unicode alphabetic characters are supported.
-    """
+    """Return True if lemma passes lexical filtering rules."""
     if any(ch.isupper() for ch in lemma):
         return False
 
@@ -132,7 +118,7 @@ def is_clean_lemma(lemma):
 
 
 def discover_keylemma_files(input_dir):
-    """Return group-named key-lemma files from the input directory."""
+    """Return stratum-named key-lemma files from the input directory."""
     if not os.path.isdir(input_dir):
         raise FileNotFoundError(f"Input directory does not exist: {input_dir}")
 
@@ -141,31 +127,31 @@ def discover_keylemma_files(input_dir):
     for extension in SUPPORTED_EXTENSIONS:
         files.extend(glob.glob(os.path.join(input_dir, f"*{extension}")))
 
-    group_files = {}
+    stratum_files = {}
 
     for filepath in files:
         stem = os.path.splitext(os.path.basename(filepath))[0]
 
-        if not GROUP_RE.match(stem):
+        if not is_valid_stratum_name(stem):
             continue
 
-        # Prefer .tsv if both .tsv and .txt exist for the same group.
-        existing = group_files.get(stem)
-        if existing is None:
-            group_files[stem] = filepath
-        elif filepath.endswith(".tsv") and existing.endswith(".txt"):
-            group_files[stem] = filepath
+        existing = stratum_files.get(stem)
 
-    if not group_files:
+        # Prefer .tsv if both .tsv and .txt exist for the same stratum.
+        if existing is None:
+            stratum_files[stem] = filepath
+        elif filepath.endswith(".tsv") and existing.endswith(".txt"):
+            stratum_files[stem] = filepath
+
+    if not stratum_files:
         raise FileNotFoundError(
-            f"No group key-lemma files found in {input_dir}. "
-            "Expected files such as global_north_2023_09.tsv "
-            "or global_south_2024_10.tsv."
+            f"No stratum key-lemma files found in {input_dir}. "
+            "Expected files such as ac.txt, es.txt, sp.txt, etc."
         )
 
     return [
-        (group, group_files[group])
-        for group in sorted(group_files, key=natural_sort_key)
+        (stratum, stratum_files[stratum])
+        for stratum in sorted(stratum_files, key=natural_sort_key)
     ]
 
 
@@ -185,7 +171,7 @@ def load_poskw(filepath):
     if not lines:
         return lemmas
 
-    for line in lines[1:]:  # skip header
+    for line in lines[1:]:
         line = line.strip()
 
         if not line:
@@ -226,15 +212,19 @@ def write_word_list(path, words):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Select balanced POSKW keyword lists across group strata."
+        description="Select balanced POSKW keyword lists across corpus strata."
     )
     parser.add_argument(
         "--input",
+        "--input-dir",
+        dest="input",
         default=INPUT_DIR,
-        help="Input directory containing group key-lemma files.",
+        help="Input directory containing stratum key-lemma files.",
     )
     parser.add_argument(
         "--output",
+        "--output-dir",
+        dest="output",
         default=OUTPUT_DIR,
         help="Output directory for selected keyword lists.",
     )
@@ -242,7 +232,7 @@ def main():
         "--per-group",
         type=int,
         required=True,
-        help="Maximum number of POSKW lemmas to select from each group.",
+        help="Maximum number of POSKW lemmas to select from each stratum.",
     )
     parser.add_argument(
         "--max-total",
@@ -266,37 +256,33 @@ def main():
 
     keylemma_files = discover_keylemma_files(args.input)
 
-    # Load all group strata.
     strata = {}
 
-    for group, filepath in keylemma_files:
-        strata[group] = load_poskw(filepath)
+    for stratum, filepath in keylemma_files:
+        strata[stratum] = load_poskw(filepath)
 
-    print("=== Group Keyword Quotas ===")
-    for group in sorted(strata, key=natural_sort_key):
-        print(f"{group:<22} → {args.per_group} keywords max")
-    print("============================\n")
+    print("=== Stratum Keyword Quotas ===")
+    for stratum in sorted(strata, key=natural_sort_key):
+        print(f"{stratum:<22} → {args.per_group} keywords max")
+    print("==============================\n")
 
-    # Per-group selection.
-    selected_by_group = {}
+    selected_by_stratum = {}
 
-    for group in sorted(strata, key=natural_sort_key):
-        lemmas = strata[group]
+    for stratum in sorted(strata, key=natural_sort_key):
+        lemmas = strata[stratum]
         chosen = lemmas[:args.per_group]
-        selected_by_group[group] = chosen
+        selected_by_stratum[stratum] = chosen
 
         print(
-            f"{group:<22} → selected {len(chosen)}/{args.per_group} "
+            f"{stratum:<22} → selected {len(chosen)}/{args.per_group} "
             f"from {len(lemmas)} available POSKW lemmas"
         )
 
-    # Build consolidated list in deterministic group order.
     consolidated = []
 
-    for group in sorted(selected_by_group, key=natural_sort_key):
-        consolidated.extend(selected_by_group[group])
+    for stratum in sorted(selected_by_stratum, key=natural_sort_key):
+        consolidated.extend(selected_by_stratum[stratum])
 
-    # Enforce optional max_total before de-duplication.
     if args.max_total and len(consolidated) > args.max_total:
         consolidated = consolidated[:args.max_total]
 
@@ -309,12 +295,10 @@ def main():
     print(f"Unique keywords after de-duplication: {unique_count}")
     print(f"Duplicates removed: {total_count - unique_count}")
 
-    # Write per-group outputs.
-    for group, words in selected_by_group.items():
-        outpath = os.path.join(args.output, f"{group}.txt")
+    for stratum, words in selected_by_stratum.items():
+        outpath = os.path.join(args.output, f"{stratum}.txt")
         write_word_list(outpath, words)
 
-    # Write consolidated deduplicated output.
     cons_path = os.path.join(args.output, "keywords.txt")
     write_word_list(cons_path, unique_lemmas)
 

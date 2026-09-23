@@ -146,6 +146,8 @@ Output: `corpus/08_keylemmas/<group>.tsv`
 
 ```shell
 python select_kws_stratified.py \
+    --input corpus/08_keylemmas \
+    --output corpus/09_kw_selected \
     --per-group 50 \
     --max-total 20000
 ```

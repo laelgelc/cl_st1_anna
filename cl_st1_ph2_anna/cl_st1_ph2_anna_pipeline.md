@@ -146,11 +146,11 @@ Output: `corpus/08_keylemmas/<group>.tsv`
 
 ```shell
 python select_kws_stratified.py \
-    --per-group 40 \
+    --per-group 50 \
     --max-total 20000
 ```
 
-Output: `corpus/07_kw_selected/keywords.txt
+Output: `corpus/09_kw_selected/keywords.txt
 
 ```shell
 === Group Keyword Quotas ===

@@ -15,6 +15,8 @@ from tqdm import tqdm
 # ---------------------------------------------------------
 INPUT_BASE = Path("corpus/02_extracted")
 OUTPUT_BASE = Path("corpus/07_tagged")
+INPUT_EXTENSION = ".md"
+OUTPUT_EXTENSION = ".txt"
 
 
 # ---------------------------------------------------------
@@ -46,8 +48,8 @@ def gather_tasks(input_base: Path, output_base: Path) -> list[tuple[str, str]]:
     for folder in folders:
         out_subfolder = output_base / folder.name
 
-        for infile in sorted(folder.glob("*.txt")):
-            outfile = out_subfolder / infile.name
+        for infile in sorted(folder.glob(f"*{INPUT_EXTENSION}")):
+            outfile = out_subfolder / f"{infile.stem}{OUTPUT_EXTENSION}"
             tasks.append((str(infile), str(outfile)))
 
     return tasks
@@ -88,14 +90,16 @@ def main() -> None:
     total = len(tasks)
     if total == 0:
         print(
-            "No text files to tag under corpus/02_extracted corpus folders. "
+            f"No Markdown files to tag under {INPUT_BASE} corpus folders. "
             "Exiting."
         )
         return
 
     print(f"Total files to tag: {total}\n")
     print(f"Input root directory: {INPUT_BASE}")
-    print(f"Output root directory: {OUTPUT_BASE}\n")
+    print(f"Input extension: {INPUT_EXTENSION}")
+    print(f"Output root directory: {OUTPUT_BASE}")
+    print(f"Output extension: {OUTPUT_EXTENSION}\n")
 
     n_workers = max(1, multiprocessing.cpu_count() - 1)
     print(f"Using {n_workers} workers...\n")

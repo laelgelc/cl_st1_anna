@@ -138,7 +138,7 @@ python keylemmas.py \
   --cutoff 3
 ```
 
-Output: `corpus/06_keylemmas/<group>.tsv`
+Output: `corpus/08_keylemmas/<group>.tsv`
 
 ## 4. Select a stratified keyword set
 

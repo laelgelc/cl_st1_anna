@@ -235,15 +235,27 @@ def model_supports_temperature(model: str) -> bool:
     """
     Return whether the selected model should receive the temperature parameter.
 
-    In this project, GPT-5-family models are treated as not supporting
-    the Responses API temperature parameter.
+    Newer GPT reasoning/solution models may reject the Responses API
+    temperature parameter. For safety, omit temperature for GPT-5 and later
+    families, including names such as:
+
+        gpt-5
+        gpt-5.6-sol
+        gpt-6-sol
+
+    Older GPT-4-family models are still treated as supporting temperature.
     """
     normalized = model.strip().lower()
 
-    if normalized.startswith("gpt-5"):
-        return False
+    no_temperature_prefixes = (
+        "gpt-5",
+        "gpt-6",
+        "o1",
+        "o3",
+        "o4",
+    )
 
-    return True
+    return not normalized.startswith(no_temperature_prefixes)
 
 
 def is_transient_error(exc: Exception) -> bool:

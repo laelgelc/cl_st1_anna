@@ -76,3 +76,17 @@ bash run_python_ec2.sh \
     --max-output-tokens 10000 \
     --max-retries 5
 ```
+
+
+```shell
+python llm_denoise.py \
+    --manifest corpus/brazilian_educational_guidelines.ndjson \
+    --output corpus/02_extracted \
+    --prompt denoising_prompts/denoising_v2.md \
+    --model gpt-6-luna \
+    --resume \
+    --max-output-tokens 10000 \
+    --max-retries 5 \
+    --only-filename ms_inf_e_ef_45.txt \
+    --reprocess
+```

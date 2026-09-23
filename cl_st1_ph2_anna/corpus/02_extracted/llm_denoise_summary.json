@@ -1,11 +1,11 @@
 {
   "counts": {
     "excerpts_dry_run": 0,
-    "excerpts_failed": 1,
+    "excerpts_failed": 0,
     "excerpts_invalid_response": 1,
     "excerpts_planned": 4112,
-    "excerpts_skipped_existing": 10,
-    "excerpts_succeeded": 4100,
+    "excerpts_skipped_existing": 4110,
+    "excerpts_succeeded": 1,
     "manifest_rows_total": 4112
   },
   "denoised_ndjson": "corpus/02_extracted/llm_denoised_guidelines.ndjson",
@@ -14,10 +14,10 @@
   "output": "corpus/02_extracted",
   "programme": "llm_denoise.py",
   "prompt": "denoising_prompts/denoising_v2.md",
-  "run_id": "20260922T220513Z_50c37333",
+  "run_id": "20260923T132313Z_040d20fe",
   "usage_totals": {
     "input_tokens": 6408735,
-    "output_tokens": 6939598,
-    "total_tokens": 13348333
+    "output_tokens": 6939692,
+    "total_tokens": 13348427
   }
 }

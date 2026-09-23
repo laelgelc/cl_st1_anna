@@ -1,23 +1,26 @@
 #!/usr/bin/env python3
 """
-Generate example text extracts based on highest factor scores by decade.
+Generate LaTeX example text extracts based on factor scores by group.
+
+By default, examples are selected by state.
 
 For each factor:
-    - positive pole: decades ranked by descending mean factor score
-    - negative pole: decades ranked by ascending mean factor score
-    - top decade: 20 examples
-    - all other decades: 10 examples each
+    - positive pole: groups ranked by descending mean factor score
+    - negative pole: groups ranked by ascending mean factor score
+    - top-ranked group: 20 examples
+    - all other groups: 10 examples each
     - skip any file where the factor score == 0
 
-The project name is inferred from the current working directory.
+The project name is inferred from the current working directory unless supplied
+explicitly with --project.
 
-Expected inputs:
-    sas/output_<project>/means_decade_f<n>.tsv
+Default expected inputs:
+    sas/output_<project>/means_state_f<n>.tsv
     sas/output_<project>/<project>_scores_only.tsv
     factors/f<n>_pos.txt
     factors/f<n>_neg.txt
     file_ids.txt
-    corpus/07_tagged/<Decade>/<Commercial ID>.txt
+    corpus/07_tagged/<state>/<filename>.txt
 
 Expected file_ids.txt format:
     No header
@@ -26,7 +29,7 @@ Expected file_ids.txt format:
         file_id path
 
 Example:
-    t000001 1950/tv_com_1950_1.txt
+    t000001 al/al_inf_15.txt
 
 Outputs:
     examples/f<n>_pos/*.tex
@@ -49,6 +52,7 @@ import pandas as pd
 # =============================================================================
 
 DEFAULT_PROJECT = Path.cwd().name
+DEFAULT_GROUP = "state"
 DEFAULT_BASE = Path("corpus/07_tagged")
 DEFAULT_FACTOR_FOLDER = Path("factors")
 DEFAULT_EXAMPLES_DIR = Path("examples")
@@ -59,17 +63,8 @@ DEFAULT_FILE_IDS_PATH = Path("file_ids.txt")
 # CONFIGURATION
 # =============================================================================
 
-#STOPLIST = {
-#    "edith",
-#    "doorbell",
-#    "michael",
-#    "recorded",
-#    "attempt",
-#    "request",
-#}
+STOPLIST: set[str] = set()
 
-STOPLIST = {
-}
 
 # =============================================================================
 # ARGUMENTS
@@ -78,15 +73,23 @@ STOPLIST = {
 def parse_args() -> argparse.Namespace:
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(
-        description="Generate LaTeX example extracts for factor poles by decade."
+        description="Generate LaTeX example extracts for factor poles by group."
     )
 
     parser.add_argument(
         "--project",
         default=DEFAULT_PROJECT,
         help=(
-            "Project name, e.g. cl_st1_ph2_andrea or cl_st1_ph3_andrea. "
+            "Project name, e.g. cl_st1_ph2_anna. "
             "Default: current directory name."
+        ),
+    )
+    parser.add_argument(
+        "--group",
+        default=DEFAULT_GROUP,
+        help=(
+            "Grouping column and means-file suffix, e.g. state or decade. "
+            "Default: state."
         ),
     )
     parser.add_argument(
@@ -118,19 +121,56 @@ def parse_args() -> argparse.Namespace:
         help="Path to file_ids.txt. Default: file_ids.txt.",
     )
     parser.add_argument(
-        "--top-decade-examples",
+        "--top-group-examples",
         type=int,
         default=20,
-        help="Number of examples for the top-ranked decade.",
+        help="Number of examples for the top-ranked group.",
+    )
+    parser.add_argument(
+        "--other-group-examples",
+        type=int,
+        default=10,
+        help="Number of examples for each other group.",
+    )
+
+    # Backwards-compatible aliases.
+    parser.add_argument(
+        "--top-decade-examples",
+        type=int,
+        default=None,
+        help=argparse.SUPPRESS,
     )
     parser.add_argument(
         "--other-decade-examples",
         type=int,
-        default=10,
-        help="Number of examples for each other decade.",
+        default=None,
+        help=argparse.SUPPRESS,
     )
 
-    return parser.parse_args()
+    args = parser.parse_args()
+
+    if args.top_decade_examples is not None:
+        args.top_group_examples = args.top_decade_examples
+
+    if args.other_decade_examples is not None:
+        args.other_group_examples = args.other_decade_examples
+
+    return args
+
+
+def normalize_group(group: str) -> str:
+    """Normalize group name for filenames and column lookup."""
+    normalized = str(group).strip().lower()
+
+    if not normalized:
+        raise ValueError("--group must not be empty")
+
+    if not re.fullmatch(r"[a-zA-Z0-9_]+", normalized):
+        raise ValueError(
+            "--group may contain only letters, numbers, and underscores"
+        )
+
+    return normalized
 
 
 def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path:
@@ -175,7 +215,7 @@ def load_file_id_map(file_ids_path: Path) -> dict[str, str]:
     Load file_id -> relative path mapping.
 
     Expected format:
-        t000001 1950/tv_com_1950_1.txt
+        t000001 al/al_inf_15.txt
     """
     if not file_ids_path.exists():
         raise FileNotFoundError(f"File ID map not found: {file_ids_path}")
@@ -292,7 +332,7 @@ def annotate_text(text_path: Path, primary_lemmas: set[str]) -> tuple[list[str],
         if len(parts) < 3:
             continue
 
-        wordform, tag, lemma = parts[0], parts[1], parts[2]
+        wordform, _tag, lemma = parts[0], parts[1], parts[2]
 
         if lemma in primary_lemmas and lemma not in STOPLIST:
             wordform = r"\textbf{" + latex_escape(wordform) + "}"
@@ -311,7 +351,7 @@ def annotate_text(text_path: Path, primary_lemmas: set[str]) -> tuple[list[str],
     text = re.sub(r'"\s+', '"', text)
 
     # Break sentences into paragraphs.
-    paragraphs = re.split(r"([.!?])\s+(?=[A-Z])", text)
+    paragraphs = re.split(r"([.!?])\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])", text)
     paragraphs = [
         "".join(paragraphs[i:i + 2]).strip()
         for i in range(0, len(paragraphs), 2)
@@ -323,23 +363,65 @@ def annotate_text(text_path: Path, primary_lemmas: set[str]) -> tuple[list[str],
     return paragraphs, matched
 
 
-def locate_text(row: pd.Series, id_map: dict[str, str], tagged_base: Path) -> Path | None:
+def candidate_tagged_paths(
+        row: pd.Series,
+        id_map: dict[str, str],
+        tagged_base: Path,
+        group: str,
+) -> list[Path]:
+    """Return possible tagged text paths for a score row."""
+    filename = str(row["filename"]).strip()
+    group_value = str(row[group]).strip()
+
+    candidates: list[Path] = []
+
+    mapped_path = id_map.get(filename)
+    if mapped_path:
+        candidates.append(tagged_base / mapped_path)
+
+    candidates.append(tagged_base / group_value / filename)
+
+    filename_path = Path(filename)
+    if filename_path.suffix:
+        candidates.append(tagged_base / group_value / f"{filename_path.stem}.txt")
+        candidates.append(tagged_base / group_value / f"{filename_path.stem}.md")
+    else:
+        candidates.append(tagged_base / group_value / f"{filename}.txt")
+        candidates.append(tagged_base / group_value / f"{filename}.md")
+
+    # De-duplicate while preserving order.
+    unique_candidates = []
+    seen = set()
+
+    for path in candidates:
+        key = str(path)
+        if key not in seen:
+            unique_candidates.append(path)
+            seen.add(key)
+
+    return unique_candidates
+
+
+def locate_text(
+        row: pd.Series,
+        id_map: dict[str, str],
+        tagged_base: Path,
+        group: str,
+) -> Path | None:
     """Locate the tagged text file for a row in the scores table."""
-    relative_path = id_map.get(row["filename"])
-
-    if not relative_path:
-        return None
-
-    path = tagged_base / relative_path
-
-    if path.exists():
-        return path
+    for path in candidate_tagged_paths(row, id_map, tagged_base, group):
+        if path.exists():
+            return path
 
     return None
 
 
-def read_means_file(means_file: Path, factor_number: int) -> dict[str, float]:
-    """Read decade means for one factor."""
+def read_means_file(
+        means_file: Path,
+        factor_number: int,
+        group: str,
+) -> dict[str, float]:
+    """Read group means for one factor."""
     if not means_file.exists():
         raise FileNotFoundError(f"Means file not found: {means_file}")
 
@@ -347,14 +429,14 @@ def read_means_file(means_file: Path, factor_number: int) -> dict[str, float]:
 
     mean_column = f"Mean fac{factor_number}"
 
-    if "decade" not in means_df.columns:
-        raise ValueError(f"Column 'decade' not found in {means_file}")
+    if group not in means_df.columns:
+        raise ValueError(f"Column '{group}' not found in {means_file}")
 
     if mean_column not in means_df.columns:
         raise ValueError(f"Column '{mean_column}' not found in {means_file}")
 
     return dict(zip(
-        means_df["decade"].astype(str).str.strip(),
+        means_df[group].astype(str).str.strip(),
         means_df[mean_column],
     ))
 
@@ -375,6 +457,50 @@ def write_example_file(
         f.write(r"\end{textsample}" + "\n")
 
 
+def write_master_tex(
+        examples_dir: Path,
+        num_factors: int,
+) -> None:
+    """Write the master examples.tex file if examples/top_header exists."""
+    top_header_path = examples_dir / "top_header"
+
+    if not top_header_path.exists():
+        print(
+            "\n⚠ top_header missing. "
+            "Create examples/top_header before compiling LaTeX.\n"
+        )
+        return
+
+    master = examples_dir / "examples.tex"
+    preamble = top_header_path.read_text(encoding="utf-8")
+
+    with master.open("w", encoding="utf-8") as out:
+        out.write(preamble + "\n\n")
+        out.write(r"\begin{document}" + "\n\n")
+        out.write(r"\maketitle" + "\n\n")
+        out.write(r"\tableofcontents" + "\n\n")
+
+        for factor_number in range(1, num_factors + 1):
+            for pole in ("pos", "neg"):
+                label = f"f{factor_number}_{pole}"
+                out.write(r"\section{" + f"{pole.upper()} Dim {factor_number}" + "}\n\n")
+
+                label_dir = examples_dir / label
+
+                if not label_dir.exists():
+                    continue
+
+                for tex_file in sorted(
+                        label_dir.glob("*.tex"),
+                        key=lambda p: natural_sort_key(p.name),
+                ):
+                    out.write(r"\input{" + str(tex_file.resolve()) + "}\n")
+
+        out.write("\n" + r"\end{document}" + "\n")
+
+    print(f"✓ Created {master}")
+
+
 # =============================================================================
 # MAIN
 # =============================================================================
@@ -384,6 +510,8 @@ def main() -> None:
     args = parse_args()
 
     project = args.project
+    group = normalize_group(args.group)
+
     sas_output_dir = resolve_sas_output_dir(project, args.sas_output_dir)
     tagged_base = Path(args.tagged_base)
     factor_folder = Path(args.factor_folder)
@@ -404,11 +532,9 @@ def main() -> None:
         raise FileNotFoundError(f"Factor folder not found: {factor_folder}")
 
     id_map = load_file_id_map(file_ids_path)
-
     scores_df = pd.read_csv(scores_file, sep="\t")
 
-    required_columns = {"filename", "decade"}
-
+    required_columns = {"filename", group}
     missing_columns = required_columns - set(scores_df.columns)
 
     if missing_columns:
@@ -418,12 +544,13 @@ def main() -> None:
         )
 
     scores_df["filename"] = scores_df["filename"].astype(str).str.strip()
-    scores_df["decade"] = scores_df["decade"].astype(str).str.strip()
+    scores_df[group] = scores_df[group].astype(str).str.strip()
 
     factor_columns = detect_factor_columns(scores_df)
     num_factors = len(factor_columns)
 
     print(f"Project: {project}")
+    print(f"Group: {group}")
     print(f"Scores file: {scores_file}")
     print(f"Detected {num_factors} factors.\n")
 
@@ -432,32 +559,31 @@ def main() -> None:
     for factor_number in range(1, num_factors + 1):
         factor_column = f"fac{factor_number}"
 
-        means_file = sas_output_dir / f"means_decade_f{factor_number}.tsv"
-        decade_means = read_means_file(means_file, factor_number)
+        means_file = sas_output_dir / f"means_{group}_f{factor_number}.tsv"
+        group_means = read_means_file(means_file, factor_number, group)
 
         for pole, ascending in (("pos", False), ("neg", True)):
             label = f"f{factor_number}_{pole}"
 
             print(
-                f"→ {label}: selecting by decade means "
+                f"→ {label}: selecting by {group} means "
                 f"(column={factor_column}, ascending={ascending})"
             )
 
-            ranked_decades = sorted(
-                decade_means.keys(),
-                key=lambda decade: decade_means[decade],
+            ranked_groups = sorted(
+                group_means.keys(),
+                key=lambda group_value: group_means[group_value],
                 reverse=not ascending,
             )
 
-            if not ranked_decades:
-                print(f"  No decades found for {label}; skipping.")
+            if not ranked_groups:
+                print(f"  No {group} values found for {label}; skipping.")
                 continue
 
-            top_decade = ranked_decades[0]
-            other_decades = ranked_decades[1:]
+            top_group = ranked_groups[0]
+            other_groups = ranked_groups[1:]
 
             primary_lemmas = load_primary_lemmas(factor_folder / f"{label}.txt")
-
             sorted_df = scores_df.sort_values(by=factor_column, ascending=ascending)
 
             out_dir = examples_dir / label
@@ -465,30 +591,30 @@ def main() -> None:
 
             example_id = 1
 
-            # Top decade: more examples.
-            top_decade_df = sorted_df[sorted_df["decade"] == top_decade]
+            # Top group: more examples.
+            top_group_df = sorted_df[sorted_df[group] == top_group]
 
-            for _, row in top_decade_df.iterrows():
+            for _, row in top_group_df.iterrows():
                 if row[factor_column] == 0:
                     continue
 
-                if example_id > args.top_decade_examples:
+                if example_id > args.top_group_examples:
                     break
 
-                text_path = locate_text(row, id_map, tagged_base)
+                text_path = locate_text(row, id_map, tagged_base, group)
 
                 if not text_path or not text_path.exists():
-                    missing_files.add(row["filename"])
+                    missing_files.add(str(row["filename"]))
                     continue
 
                 paragraphs, matched = annotate_text(text_path, primary_lemmas)
 
-                raw_filename = id_map.get(row["filename"], row["filename"])
+                raw_filename = id_map.get(str(row["filename"]), str(row["filename"]))
                 latex_filename = latex_escape(raw_filename)
-                decade_latex = latex_escape(top_decade)
+                group_latex = latex_escape(top_group)
 
                 env_title = (
-                    f"{pole.upper()} Dim {factor_number} – {decade_latex} – "
+                    f"{pole.upper()} Dim {factor_number} – {group_latex} – "
                     f"Score {row[factor_column]:.2f} – {latex_filename}"
                 )
                 env_label = f"ex:{label}_{example_id:03d}"
@@ -505,33 +631,32 @@ def main() -> None:
 
                 example_id += 1
 
-            # Other decades: fewer examples each.
-            for decade in other_decades:
-                decade_df = sorted_df[sorted_df["decade"] == decade]
-
+            # Other groups: fewer examples each.
+            for group_value in other_groups:
+                group_df = sorted_df[sorted_df[group] == group_value]
                 count = 0
 
-                for _, row in decade_df.iterrows():
+                for _, row in group_df.iterrows():
                     if row[factor_column] == 0:
                         continue
 
-                    if count >= args.other_decade_examples:
+                    if count >= args.other_group_examples:
                         break
 
-                    text_path = locate_text(row, id_map, tagged_base)
+                    text_path = locate_text(row, id_map, tagged_base, group)
 
                     if not text_path or not text_path.exists():
-                        missing_files.add(row["filename"])
+                        missing_files.add(str(row["filename"]))
                         continue
 
                     paragraphs, matched = annotate_text(text_path, primary_lemmas)
 
-                    raw_filename = id_map.get(row["filename"], row["filename"])
+                    raw_filename = id_map.get(str(row["filename"]), str(row["filename"]))
                     latex_filename = latex_escape(raw_filename)
-                    decade_latex = latex_escape(decade)
+                    group_latex = latex_escape(group_value)
 
                     env_title = (
-                        f"{pole.upper()} Dim {factor_number} – {decade_latex} – "
+                        f"{pole.upper()} Dim {factor_number} – {group_latex} – "
                         f"Score {row[factor_column]:.2f} – {latex_filename}"
                     )
                     env_label = f"ex:{label}_{example_id:03d}"
@@ -556,41 +681,7 @@ def main() -> None:
         missing_path.write_text("\n".join(sorted(missing_files)), encoding="utf-8")
         print(f"⚠ Missing files written to {missing_path}")
 
-    top_header_path = examples_dir / "top_header"
-
-    if not top_header_path.exists():
-        print(
-            "\n⚠ top_header missing. "
-            "Create examples/top_header before compiling LaTeX.\n"
-        )
-        return
-
-    master = examples_dir / "examples.tex"
-
-    preamble = top_header_path.read_text(encoding="utf-8")
-
-    with master.open("w", encoding="utf-8") as out:
-        out.write(preamble + "\n\n")
-        out.write(r"\begin{document}" + "\n\n")
-        out.write(r"\maketitle" + "\n\n")
-        out.write(r"\tableofcontents" + "\n\n")
-
-        for factor_number in range(1, num_factors + 1):
-            for pole in ("pos", "neg"):
-                label = f"f{factor_number}_{pole}"
-                out.write(r"\section{" + f"{pole.upper()} Dim {factor_number}" + "}\n\n")
-
-                label_dir = examples_dir / label
-
-                if not label_dir.exists():
-                    continue
-
-                for tex_file in sorted(label_dir.glob("*.tex"), key=lambda p: natural_sort_key(p.name)):
-                    out.write(r"\input{" + str(tex_file.resolve()) + "}\n")
-
-        out.write("\n" + r"\end{document}" + "\n")
-
-    print(f"✓ Created {master}")
+    write_master_tex(examples_dir, num_factors)
 
 
 if __name__ == "__main__":

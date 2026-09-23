@@ -4,24 +4,24 @@ Generate plaintext example files for each factor pole.
 
 Aligned with examples.py selection logic:
     - reads the same scores table (<project>_scores_only.tsv)
-    - uses decade as the grouping variable
-    - ranks decades using means_decade_f<n>.tsv
-    - selects: top decade -> 20 examples, other decades -> 10 each
+    - uses a configurable grouping variable, defaulting to state
+    - ranks groups using means_<group>_f<n>.tsv
+    - selects: top group -> 20 examples, other groups -> 10 each
     - skips rows where the factor score is 0
     - uses tagged corpus existence checks to keep selection stable with examples.py
 
 The project name is inferred from the current working directory unless supplied
 explicitly with --project.
 
-Expected inputs:
+Default expected inputs:
     sas/output_<project>/<project>_scores_only.tsv
-    sas/output_<project>/means_decade_f<n>.tsv
+    sas/output_<project>/means_state_f<n>.tsv
     file_ids.txt
     examples/score_details.txt
-    corpus/07_tagged/<Decade>/<Commercial ID>.txt
-    corpus/commercial_verbal/<Decade>/<Commercial ID>.txt
+    corpus/07_tagged/<state>/<filename>.txt
+    corpus/02_extracted/<state>/<filename>.md
         or
-    corpus/commercial_visual/<Decade>/<Commercial ID>.txt
+    corpus/02_extracted/<state>/<filename>.txt
 
 Expected file_ids.txt format:
     No header
@@ -30,7 +30,7 @@ Expected file_ids.txt format:
         file_id path
 
 Example:
-    t000001 1950/tv_com_1950_1.txt
+    t000001 al/al_inf_15.txt
 
 Outputs:
     examples_txt/f<n>_<pole>/f<n>_<pole>_001.txt
@@ -50,7 +50,9 @@ import pandas as pd
 # ============================================================
 
 DEFAULT_PROJECT = Path.cwd().name
+DEFAULT_GROUP = "state"
 DEFAULT_TAGGED_BASE = Path("corpus/07_tagged")
+DEFAULT_FULLTEXT_ROOT = Path("corpus/02_extracted")
 DEFAULT_FILE_IDS_PATH = Path("file_ids.txt")
 DEFAULT_SCORE_DETAILS = Path("examples/score_details.txt")
 DEFAULT_OUT_ROOT = Path("examples_txt")
@@ -63,15 +65,23 @@ DEFAULT_OUT_ROOT = Path("examples_txt")
 def parse_args() -> argparse.Namespace:
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(
-        description="Generate plaintext examples for factor poles by decade."
+        description="Generate plaintext examples for factor poles by group."
     )
 
     parser.add_argument(
         "--project",
         default=DEFAULT_PROJECT,
         help=(
-            "Project name, e.g. cl_st1_ph2_andrea or cl_st1_ph3_andrea. "
+            "Project name, e.g. cl_st1_ph2_anna. "
             "Default: current directory name."
+        ),
+    )
+    parser.add_argument(
+        "--group",
+        default=DEFAULT_GROUP,
+        help=(
+            "Grouping column and means-file suffix, e.g. state or decade. "
+            "Default: state."
         ),
     )
     parser.add_argument(
@@ -89,12 +99,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--fulltext-root",
-        default=None,
-        help=(
-            "Full-text corpus root. "
-            "Default: corpus/commercial_verbal for phase 2, "
-            "corpus/commercial_visual for phase 3 if present."
-        ),
+        default=str(DEFAULT_FULLTEXT_ROOT),
+        help="Full-text corpus root. Default: corpus/02_extracted.",
     )
     parser.add_argument(
         "--file-ids",
@@ -112,19 +118,56 @@ def parse_args() -> argparse.Namespace:
         help="Output directory. Default: examples_txt.",
     )
     parser.add_argument(
-        "--top-decade-examples",
+        "--top-group-examples",
         type=int,
         default=20,
-        help="Number of examples for the top-ranked decade.",
+        help="Number of examples for the top-ranked group.",
+    )
+    parser.add_argument(
+        "--other-group-examples",
+        type=int,
+        default=10,
+        help="Number of examples for each other group.",
+    )
+
+    # Backwards-compatible aliases.
+    parser.add_argument(
+        "--top-decade-examples",
+        type=int,
+        default=None,
+        help=argparse.SUPPRESS,
     )
     parser.add_argument(
         "--other-decade-examples",
         type=int,
-        default=10,
-        help="Number of examples for each other decade.",
+        default=None,
+        help=argparse.SUPPRESS,
     )
 
-    return parser.parse_args()
+    args = parser.parse_args()
+
+    if args.top_decade_examples is not None:
+        args.top_group_examples = args.top_decade_examples
+
+    if args.other_decade_examples is not None:
+        args.other_group_examples = args.other_decade_examples
+
+    return args
+
+
+def normalize_group(group: str) -> str:
+    """Normalize group name for filenames and column lookup."""
+    normalized = str(group).strip().lower()
+
+    if not normalized:
+        raise ValueError("--group must not be empty")
+
+    if not re.fullmatch(r"[a-zA-Z0-9_]+", normalized):
+        raise ValueError(
+            "--group may contain only letters, numbers, and underscores"
+        )
+
+    return normalized
 
 
 def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path:
@@ -133,33 +176,6 @@ def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path
         return Path("sas") / f"output_{project}"
 
     return Path(sas_output_dir_arg)
-
-
-def resolve_fulltext_root(project: str, fulltext_root_arg: str | None) -> Path:
-    """Resolve the full-text corpus root."""
-    if fulltext_root_arg is not None:
-        return Path(fulltext_root_arg)
-
-    visual_root = Path("corpus/commercial_visual")
-    verbal_root = Path("corpus/commercial_verbal")
-
-    if "ph3" in project and visual_root.exists():
-        return visual_root
-
-    if "ph2" in project and verbal_root.exists():
-        return verbal_root
-
-    if visual_root.exists():
-        return visual_root
-
-    if verbal_root.exists():
-        return verbal_root
-
-    raise FileNotFoundError(
-        "Could not infer full-text corpus root. Expected one of: "
-        "corpus/commercial_visual or corpus/commercial_verbal. "
-        "Alternatively, pass --fulltext-root."
-    )
 
 
 # ============================================================
@@ -177,7 +193,7 @@ def load_id_map(path: Path) -> dict[str, str]:
     Load file-id to relative path map.
 
     Expected format:
-        t000001 1950/tv_com_1950_1.txt
+        t000001 al/al_inf_15.txt
     """
     if not path.exists():
         raise FileNotFoundError(f"Required file missing: {path}")
@@ -233,7 +249,7 @@ def parse_score_details(path: Path, *, num_factors: int) -> dict[str, dict[str, 
     Parse examples/score_details.txt.
 
     Returns:
-        loading_words[tid]["f<n>_pos" or "f<n>_neg"] -> list[str]
+        loading_words[text_id]["f<n>_pos" or "f<n>_neg"] -> list[str]
     """
     if not path.exists():
         raise FileNotFoundError(
@@ -247,22 +263,24 @@ def parse_score_details(path: Path, *, num_factors: int) -> dict[str, dict[str, 
     blocks = text.split("=============================================")
 
     for block in blocks:
-        match = re.search(r"text ID:\s*(t\d+)", block)
+        match = re.search(r"^text ID:\s*(.+?)\s*$", block, flags=re.MULTILINE)
 
         if not match:
             continue
 
-        text_id = match.group(1)
+        text_id = match.group(1).strip()
         output[text_id] = {}
 
         for factor_number in range(1, num_factors + 1):
             match_pos = re.search(
-                rf"f{factor_number} pos words \(N=\d+\):\s*(.*)",
+                rf"^f{factor_number} pos words \(N=\d+\):\s*(.*)$",
                 block,
+                flags=re.MULTILINE,
             )
             match_neg = re.search(
-                rf"f{factor_number} neg words \(N=\d+\):\s*(.*)",
+                rf"^f{factor_number} neg words \(N=\d+\):\s*(.*)$",
                 block,
+                flags=re.MULTILINE,
             )
 
             pos_words = match_pos.group(1).split(",") if match_pos else []
@@ -282,51 +300,123 @@ def parse_score_details(path: Path, *, num_factors: int) -> dict[str, dict[str, 
     return output
 
 
-def locate_tagged_text(
+def path_candidates_from_relative(root: Path, relative_path: str) -> list[Path]:
+    """Build direct and extension-swapped path candidates from a relative path."""
+    relative = Path(relative_path)
+    direct = root / relative
+
+    candidates = [direct]
+
+    if relative.suffix:
+        candidates.append(root / relative.with_suffix(".txt"))
+        candidates.append(root / relative.with_suffix(".md"))
+    else:
+        candidates.append(root / relative.with_suffix(".txt"))
+        candidates.append(root / relative.with_suffix(".md"))
+
+    # De-duplicate while preserving order.
+    unique_candidates = []
+    seen = set()
+
+    for candidate in candidates:
+        key = str(candidate)
+        if key not in seen:
+            unique_candidates.append(candidate)
+            seen.add(key)
+
+    return unique_candidates
+
+
+def path_candidates_from_row(
+        *,
         row: pd.Series,
         id_map: dict[str, str],
-        tagged_base: Path,
+        root: Path,
+        group: str,
+) -> list[Path]:
+    """Return possible paths for a row under a given root."""
+    text_id = str(row["filename"]).strip()
+    group_value = str(row[group]).strip()
+
+    candidates: list[Path] = []
+
+    mapped_relative = id_map.get(text_id)
+    if mapped_relative:
+        candidates.extend(path_candidates_from_relative(root, mapped_relative))
+
+    filename_path = Path(text_id)
+
+    candidates.append(root / group_value / text_id)
+
+    if filename_path.suffix:
+        candidates.append(root / group_value / filename_path.with_suffix(".txt").name)
+        candidates.append(root / group_value / filename_path.with_suffix(".md").name)
+    else:
+        candidates.append(root / group_value / f"{text_id}.txt")
+        candidates.append(root / group_value / f"{text_id}.md")
+
+    unique_candidates = []
+    seen = set()
+
+    for candidate in candidates:
+        key = str(candidate)
+        if key not in seen:
+            unique_candidates.append(candidate)
+            seen.add(key)
+
+    return unique_candidates
+
+
+def locate_existing_path(
+        *,
+        row: pd.Series,
+        id_map: dict[str, str],
+        root: Path,
+        group: str,
 ) -> Path | None:
-    """Locate tagged text using file_ids.txt relative path."""
-    text_id = row["filename"]
-    relative_path = id_map.get(text_id)
-
-    if not relative_path:
-        return None
-
-    path = tagged_base / relative_path
-
-    if path.exists():
-        return path
+    """Locate an existing file for a row under a given root."""
+    for path in path_candidates_from_row(
+            row=row,
+            id_map=id_map,
+            root=root,
+            group=group,
+    ):
+        if path.exists():
+            return path
 
     return None
 
 
-def locate_fulltext(
-        row: pd.Series,
-        id_map: dict[str, str],
-        fulltext_root: Path,
-) -> Path | None:
-    """Locate full original text using file_ids.txt relative path."""
-    text_id = row["filename"]
-    relative_path = id_map.get(text_id)
+def read_group_means(
+        means_file: Path,
+        factor_number: int,
+        group: str,
+) -> dict[str, float]:
+    """Read group means for one factor."""
+    if not means_file.exists():
+        raise FileNotFoundError(f"Required means file missing: {means_file}")
 
-    if not relative_path:
-        return None
+    means_df = pd.read_csv(means_file, sep="\t")
+    mean_column = f"Mean fac{factor_number}"
 
-    path = fulltext_root / relative_path
+    if group not in means_df.columns:
+        raise ValueError(f"Column '{group}' missing in {means_file}")
 
-    if path.exists():
-        return path
+    if mean_column not in means_df.columns:
+        raise ValueError(f"Column '{mean_column}' missing in {means_file}")
 
-    return None
+    return dict(zip(
+        means_df[group].astype(str).str.strip(),
+        means_df[mean_column],
+    ))
 
 
 def write_plaintext_example(
         *,
         outfile: Path,
         text_id: str,
-        decade: str,
+        group: str,
+        group_value: str,
         fulltext_path: Path,
         label: str,
         score_value,
@@ -335,7 +425,7 @@ def write_plaintext_example(
     """Write one plaintext example file."""
     header = [
         f"Text ID: {text_id}",
-        f"Decade: {decade}",
+        f"{group}: {group_value}",
         f"File:   {fulltext_path}",
         "",
         f"Score ({label}): {score_value}",
@@ -347,26 +437,6 @@ def write_plaintext_example(
     outfile.write_text("\n".join(header) + body, encoding="utf-8")
 
 
-def read_decade_means(means_file: Path, factor_number: int) -> dict[str, float]:
-    """Read decade means for one factor."""
-    if not means_file.exists():
-        raise FileNotFoundError(f"Required means file missing: {means_file}")
-
-    means_df = pd.read_csv(means_file, sep="\t")
-    mean_column = f"Mean fac{factor_number}"
-
-    if "decade" not in means_df.columns:
-        raise ValueError(f"Column 'decade' missing in {means_file}")
-
-    if mean_column not in means_df.columns:
-        raise ValueError(f"Column '{mean_column}' missing in {means_file}")
-
-    return dict(zip(
-        means_df["decade"].astype(str).str.strip(),
-        means_df[mean_column],
-    ))
-
-
 # ============================================================
 # MAIN
 # ============================================================
@@ -376,9 +446,11 @@ def main() -> None:
     args = parse_args()
 
     project = args.project
+    group = normalize_group(args.group)
+
     sas_output_dir = resolve_sas_output_dir(project, args.sas_output_dir)
     tagged_base = Path(args.tagged_base)
-    fulltext_root = resolve_fulltext_root(project, args.fulltext_root)
+    fulltext_root = Path(args.fulltext_root)
     file_ids_path = Path(args.file_ids)
     score_details_path = Path(args.score_details)
     output_root = Path(args.output_dir)
@@ -399,7 +471,7 @@ def main() -> None:
     id_map = load_id_map(file_ids_path)
     scores_df = pd.read_csv(scores_file, sep="\t")
 
-    required_columns = {"filename", "decade"}
+    required_columns = {"filename", group}
     missing_columns = required_columns - set(scores_df.columns)
 
     if missing_columns:
@@ -409,12 +481,13 @@ def main() -> None:
         )
 
     scores_df["filename"] = scores_df["filename"].astype(str).str.strip()
-    scores_df["decade"] = scores_df["decade"].astype(str).str.strip()
+    scores_df[group] = scores_df[group].astype(str).str.strip()
 
     factor_columns = detect_factor_columns(scores_df)
     num_factors = len(factor_columns)
 
     print(f"Project: {project}")
+    print(f"Group: {group}")
     print(f"Scores file: {scores_file}")
     print(f"Tagged corpus: {tagged_base}")
     print(f"Full-text corpus: {fulltext_root}")
@@ -436,28 +509,28 @@ def main() -> None:
                 f"Expected factor score column '{factor_column}' missing in {scores_file}"
             )
 
-        means_file = sas_output_dir / f"means_decade_f{factor_number}.tsv"
-        decade_means = read_decade_means(means_file, factor_number)
+        means_file = sas_output_dir / f"means_{group}_f{factor_number}.tsv"
+        group_means = read_group_means(means_file, factor_number, group)
 
         for pole, ascending in (("pos", False), ("neg", True)):
             label = f"f{factor_number}_{pole}"
 
             print(
-                f"→ {label}: selecting by decade means "
+                f"→ {label}: selecting by {group} means "
                 f"(column={factor_column}, ascending={ascending})"
             )
 
-            ranked_decades = sorted(
-                decade_means.keys(),
-                key=lambda decade: decade_means[decade],
+            ranked_groups = sorted(
+                group_means.keys(),
+                key=lambda group_value: group_means[group_value],
                 reverse=not ascending,
             )
 
-            if not ranked_decades:
-                raise ValueError(f"No decades found in {means_file}")
+            if not ranked_groups:
+                raise ValueError(f"No {group} values found in {means_file}")
 
-            top_decade = ranked_decades[0]
-            other_decades = ranked_decades[1:]
+            top_group = ranked_groups[0]
+            other_groups = ranked_groups[1:]
 
             sorted_df = scores_df.sort_values(by=factor_column, ascending=ascending)
 
@@ -466,29 +539,40 @@ def main() -> None:
 
             example_id = 1
 
-            # Top decade: 20 examples.
-            top_decade_df = sorted_df[sorted_df["decade"] == top_decade]
+            # Top group: more examples.
+            top_group_df = sorted_df[sorted_df[group] == top_group]
 
-            for _, row in top_decade_df.iterrows():
+            for _, row in top_group_df.iterrows():
                 if row[factor_column] == 0:
                     continue
 
-                if example_id > args.top_decade_examples:
+                if example_id > args.top_group_examples:
                     break
 
-                tagged_path = locate_tagged_text(row, id_map, tagged_base)
+                tagged_path = locate_existing_path(
+                    row=row,
+                    id_map=id_map,
+                    root=tagged_base,
+                    group=group,
+                )
 
-                if not tagged_path or not tagged_path.exists():
-                    missing_files.add(row["filename"])
+                if not tagged_path:
+                    missing_files.add(str(row["filename"]))
                     continue
 
-                fulltext_path = locate_fulltext(row, id_map, fulltext_root)
+                fulltext_path = locate_existing_path(
+                    row=row,
+                    id_map=id_map,
+                    root=fulltext_root,
+                    group=group,
+                )
 
-                if not fulltext_path or not fulltext_path.exists():
-                    missing_files.add(row["filename"])
+                if not fulltext_path:
+                    missing_files.add(str(row["filename"]))
                     continue
 
-                text_id = row["filename"]
+                text_id = str(row["filename"]).strip()
+                group_value = str(row[group]).strip()
                 label_words = loading_words.get(text_id, {}).get(label)
 
                 if label_words is None:
@@ -500,7 +584,8 @@ def main() -> None:
                 write_plaintext_example(
                     outfile=outfile,
                     text_id=text_id,
-                    decade=str(row["decade"]).strip(),
+                    group=group,
+                    group_value=group_value,
                     fulltext_path=fulltext_path,
                     label=label,
                     score_value=row[factor_column],
@@ -509,32 +594,43 @@ def main() -> None:
 
                 example_id += 1
 
-            # Other decades: 10 examples each.
-            for decade in other_decades:
-                decade_df = sorted_df[sorted_df["decade"] == decade]
+            # Other groups: fewer examples each.
+            for current_group in other_groups:
+                group_df = sorted_df[sorted_df[group] == current_group]
 
                 count = 0
 
-                for _, row in decade_df.iterrows():
+                for _, row in group_df.iterrows():
                     if row[factor_column] == 0:
                         continue
 
-                    if count >= args.other_decade_examples:
+                    if count >= args.other_group_examples:
                         break
 
-                    tagged_path = locate_tagged_text(row, id_map, tagged_base)
+                    tagged_path = locate_existing_path(
+                        row=row,
+                        id_map=id_map,
+                        root=tagged_base,
+                        group=group,
+                    )
 
-                    if not tagged_path or not tagged_path.exists():
-                        missing_files.add(row["filename"])
+                    if not tagged_path:
+                        missing_files.add(str(row["filename"]))
                         continue
 
-                    fulltext_path = locate_fulltext(row, id_map, fulltext_root)
+                    fulltext_path = locate_existing_path(
+                        row=row,
+                        id_map=id_map,
+                        root=fulltext_root,
+                        group=group,
+                    )
 
-                    if not fulltext_path or not fulltext_path.exists():
-                        missing_files.add(row["filename"])
+                    if not fulltext_path:
+                        missing_files.add(str(row["filename"]))
                         continue
 
-                    text_id = row["filename"]
+                    text_id = str(row["filename"]).strip()
+                    group_value = str(row[group]).strip()
                     label_words = loading_words.get(text_id, {}).get(label)
 
                     if label_words is None:
@@ -546,7 +642,8 @@ def main() -> None:
                     write_plaintext_example(
                         outfile=outfile,
                         text_id=text_id,
-                        decade=str(row["decade"]).strip(),
+                        group=group,
+                        group_value=group_value,
                         fulltext_path=fulltext_path,
                         label=label,
                         score_value=row[factor_column],

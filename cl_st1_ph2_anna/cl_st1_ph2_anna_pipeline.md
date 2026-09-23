@@ -297,7 +297,7 @@ cd ..
 python latex_anova_table.py
 ```
 
-Output: `latex_tables/anova_decade.tex`
+Output: `latex_tables/anova_state.tex`
 
 ## 13. Generate LaTeX example extracts
 

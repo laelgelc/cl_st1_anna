@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_065ddbe1921d4022006ab30d4c110087d2b17282ca916014e4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 860,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1166,
+      "output_tokens_details": {
+        "reasoning_tokens": 398
+      },
+      "total_tokens": 2026
+    }
+  },
+  "created_at": "2026-09-22T23:20:54Z",
+  "duration_seconds": 10.025,
+  "error": null,
+  "excerpt_id": "rr_em_59",
+  "filename": "rr_em_59.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3e5ffa8b0950043f69bb2bcfc8c325b51e498e9f263885a6244d90042470da43",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a7dfb054c61bb3387acc89875fc19ea79b6f3f3d00a4921e8c47d9e28cf1d379",
+    "rendered_prompt_sha256": "402743c9b14ec20e6785f6248c60029aafcf4e331bdb40a864c4b8b97bbaf563",
+    "source_text_sha256": "26b5b1826676253883b14e759ac2690d84cf73a7d6e8381965d8995330d59172"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_59.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3495,
+    "filename": "rr_em_59.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_59.txt",
+    "state": "rr",
+    "word_count_original": 540
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_59.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_59.json"
+  },
+  "raw_response_text": "## 6 AS MODALIDADE E SUAS ESPECIFICIDADES\n\nA oferta do ensino médio é plenamente garantida na Constituição Federal (BRASIL, 1988) e na LDBEN (BRASIL, 1996), prescritas nas Resoluções CNE nº 3 (BRASIL, 1998), CNE nº 2 (BRASIL, 2012), alteradas pela Lei 13.415 (BRASIL, 2017) e na Resolução CNE nº 3 (BRASIL, 2018d) que atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio, aplicadas a todas as formas e modalidades de ensino médio e, complementadas, quando necessário, por diretrizes próprias e regularizadas por cada Sistema Estadual de Ensino.\n\nTodas essas leis e diretrizes orientam e representam também uma trajetória da formação básica do jovem estudante brasileiro e, também, uma história do ensino básico vem se construindo política, filosófica e de modo pedagógico com experiências curriculares que também revelam a identidade do Ensino Médio brasileiro.\n\nÉ importante compreender que os níveis de ensino da educação escolar brasileira compreendem a Educação Básica, formada pela Educação Infantil, Ensino Fundamental e Ensino Médio, e a Educação Superior, cada um com legislação e diretrizes curriculares próprias que orientam a processos administrativos e pedagógicos para as etapas[^33] e cada modalidade[^34] em sua especificidade de ensino.\n\nPara a Educação Básica, cuja finalidade prevista na LDBEN (BRASIL, 1996) é “desenvolver o educando, assegurar-lhe a formação comum indispensável para o exercício da cidadania e fornecer-lhe meios para progredir no trabalho e em estudos posteriores”, firma-se o compromisso social e educacional com os estudantes e seu processo de ensino e aprendizagem.\n\nEsse firmamento torna-se obrigatório e exige dos mantenedores da educação brasileira políticas e articulações de práticas pedagógicas com metodologias inovadoras e formas de controle do processo do ensino e aprendizagem. Todo esse processo pretende desenvolver no estudante uma educação integral e, para isso, é necessário investir no protagonismo dos estudantes e na qualificação dos professores da educação básica.\n\nConcentrada na educação básica, e todas as possíveis formas de oferta e organização da modalidades, seja em séries anuais, períodos semestrais, ciclos, alternância e ou regular de períodos de estudos, grupos seriados e não-seriados, com base na idade, na competência e em outros critérios, ou por forma diversa de organização, far-se-á, sob uma autorização normativa proposta em forma de projeto pedagógico (PP) com período definido de vigência em atenção às proposições da comunidade.\n\nAs proposições da comunidade escolar em perspectivas diversas devem referendar-se nas diretrizes orientadoras legais e de logística e reivindica um ato de regulação e autorização que implica um plano de implantação, implementação e acompanhamento das vivências didático e pedagógica para com uma ou mais comunidades que se propõem.\n\nEvidentemente, que todo projeto se faz sob responsabilidade social possíveis, mas que exigem estrutura física, administrativa, pedagógica, financeira e recursos humanos, a fim de garantir efetiva consolidação de uma proposição curricular com devido resguardo do direito público do estudante ao ensino e do trabalhador da educação pela prestação dos serviços que lhe for atribuído.\n\n[^33]: As etapas do Ensino fundamental são duas: Anos Iniciais (1º ao 5º Ano) e anos Finais (6º ao 9º Ano); e a etapa do Ensino Médio;\n\n[^34]: As modalidades são modos da oferta do ensino em atenção a uma realidade e condição específica. Ex.: Educação de Jovens e Adultos, Educação Indígena; Educação Especial, Educação do Campo etc.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

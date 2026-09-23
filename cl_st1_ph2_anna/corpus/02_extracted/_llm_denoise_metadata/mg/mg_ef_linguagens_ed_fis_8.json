@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e4da91cbd717163006ab302b15c0087d2bb59d95907893b51",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 911,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 873,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 1784
+    }
+  },
+  "created_at": "2026-09-22T22:35:35Z",
+  "duration_seconds": 5.969,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_ed_fis_8",
+  "filename": "mg_ef_linguagens_ed_fis_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9fb175a68ac09cdbd19fbe3fa825117245c36c7c3ef89cc5a4dd4653a1995ab2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4a25e2b56bf5dfb05f0c1a2f495dacc8b2b4a3fbf1044487ad53edf615f6935a",
+    "rendered_prompt_sha256": "865775874e4801c9da56fe538deaa3343bfce0c1e2ae9bfd11229e65064ea74d",
+    "source_text_sha256": "ded0e57c19b7dcaadcc83476fab9b1f2bde53390f8aad7c4609f86fb5da41dc3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_ed_fis_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1444,
+    "filename": "mg_ef_linguagens_ed_fis_8.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_ed_fis_8.txt",
+    "state": "mg",
+    "word_count_original": 544
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_ed_fis_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_ed_fis_8.json"
+  },
+  "raw_response_text": "## 7.5 O Componente Curricular nos Anos Iniciais e Anos Finais do Ensino Fundamental\n\nRefletir sobre as singularidades formativas, as demandas físicas, motoras, sociais, afetivas, emocionais e espirituais de cada tempo de desenvolvimento humano é garantir o alinhamento e a coerência das intenções e ações educativas. Essas devem estar sempre a serviço de reconhecer, acolher e respeitar as características e circunstâncias constitutivas, buscando superar limites, maus hábitos, valores incongruentes e lógicas distorcidas e devem potencializar virtudes, capacidades e dons individuais e coletivos. Nesse sentido, deve-se agir de forma que os estudantes, no decorrer de seus processos de aprendizagem e desenvolvimento e, principalmente, ao chegarem na fase da vida adulta, reconheçam o valor de ter suas necessidades respeitadas como também saibam respeitar as dos outros.\n\nNos anos iniciais do ensino fundamental os estudantes vivenciam uma das primeiras transições vinculadas ao seu papel no mundo e para o mundo. A criança, até então em um processo de construção individual, passa a se compreender como sujeito social, a partir do reconhecimento do outro. Estimular a empatia, a solidariedade, a cooperação e a alegria de estar no mundo e compartilhá-lo é uma das grandes tarefas do processo educativo. Nessa etapa, a corporeidade deverá estar à serviço da construção de atitudes e valores que promovam o sentimento de pertencimento ao mundo físico, assim como o reconhecimento individual e a capacidade de atuação coletiva. As aulas de Educação Física devem prezar pela vivência e fruição de práticas corporais de forma plena e significativa. O trabalho com todas as unidades temáticas deve estar pautado em valores e princípios lúdicos, solidários e inclusivos, entendendo a brincadeira como linguagem humana, característica deste ciclo formativo. A experimentação, as atividades corporais mediadas por elementos lúdicos, imaginativos e afetivos devem ser orientadoras da constituição de saberes e aprendizagens.\n\nNos anos finais do ensino fundamental já é possível investir em estratégias e metodologias que estimulem capacidades reflexivas, críticas e criativas, essenciais para a formação cidadã. As estruturas cognitivas se fortalecem e se consolidam podendo ser veículo para a constituição de conceitos, princípios e valores. Nessa etapa é desejável o investimento em metodologias que valorizem os conhecimentos técnicos e táticos vinculados às diversas práticas corporais, assim como estratégias que possibilitem seu treinamento e refinamento. As conquistas motoras e sensoriais devem estar a serviço de ideais de nobreza e retidão, colocando a corporeidade disponível para ações que gerem benefícios coletivos e que promovam valores inclusivos e recursos para o exercício do protagonismo social.\n\nOutro aspecto importante a ser analisado na perspectiva das singularidades dos sujeitos participantes das aulas de Educação Física é o gênero.\n\n> Pesquisas desenvolvidas na educação física escolar têm constatado ser esse um campo com desigualdades de gênero. Os resultados da pesquisa apresentados neste artigo permitem estabelecer uma relação entre a expressão dessas desigualdades e as experiências de meninos e meninas com a cultura corporal de movimento.  \n> (Altmann et all, 2018).\n\nNesse sentido, as práticas pedagógicas devem ser estruturadas buscando superar relações de desigualdades, oportunizando aos meninos e às meninas a vivência plena de sua corporeidade e a construção de conhecimentos, valores, habilidades e competências que os permitam, com autonomia, se valerem de amplo repertório de práticas corporais em favor da saúde, do lazer, da socialização, da convivência, do desempenho, da superação, das conquistas, etc.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

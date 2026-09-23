@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c3bf49edbded221006ab306aacd8c87d2b46532230f99d7b4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 862,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1025,
+      "output_tokens_details": {
+        "reasoning_tokens": 306
+      },
+      "total_tokens": 1887
+    }
+  },
+  "created_at": "2026-09-22T22:52:34Z",
+  "duration_seconds": 7.448,
+  "error": null,
+  "excerpt_id": "pb_ef_19",
+  "filename": "pb_ef_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "df36d6bacee44f5ee22b9c457cf57bf547984f4e3ecaf7defe04b10713350da6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "19ca3c8c356f8589cd4815047c84b3a7caca7152ec5e525a5579dfaa247997b4",
+    "rendered_prompt_sha256": "e57fe68b7d9ff5ec938268c7ed505903e13f2b46eda6c541275687480d66a56b",
+    "source_text_sha256": "35136a949c7d9d6788095e24e945633e8b35b11ede253b1d1483001d1d686258"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2186,
+    "filename": "pb_ef_19.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_19.txt",
+    "state": "pb",
+    "word_count_original": 543
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_19.json"
+  },
+  "raw_response_text": "### 5.2.6.1 Direitos de aprendizagem para o ensino de Teatro\n\n1. Conhecer e participar de jogos, explorando o corpo e a voz, sendo capaz de vivenciar o “faz de conta” e sua ludicidade e compreendendo as diferenças entre a realidade objetiva e o fazer teatral, o encenar;\n2. Experimentar/explorar os aspectos da cena e seus elementos básicos, a partir da ludicidade, percebendo a prática do teatro como manifestação coletiva e relacional;\n3. Estar em contato com o percurso histórico do Teatro, seus(suas) artistas e produções, assim como em espaços de arte informais ou formais, como teatros e anfiteatros;\n4. Conhecer, participar e analisar as produções culturais locais, percebendo sua teatralidade.\n\n### 5.2.6.2. Objetivos de aprendizagem e conteúdos para o ensino de Teatro\n\nA seguir, são apresentados quadros contemplando os objetivos de aprendizagem, conteúdos e habilidades da BNCC, propostos para o Ensino de Teatro no Ensino Fundamental.\n\n### 5.2.6.3 Possibilidades metodológicas\n\nO caminho apontado para o Ensino de Teatro nos anos iniciais e finais do Ensino Fundamental é a ludicidade, ao mesmo tempo em que o método adotado pelo(a) professor(a) deve ser flexível e atento às necessidades do ambiente educativo e da realidade sociocultural, considerando as manifestações culturais e teatrais próprias da comunidade em que os(as) estudantes estão inseridos.\n\nPara a criança, brincar é aprender, é estar em contato consigo mesmo, com o outro e com o novo. Assim, seria natural para a criança o fazer teatral, o vivenciar papéis, o faz de conta. Para o Ensino de Teatro na escola, é importante propor o jogo teatral, considerando não apenas os aspectos cognitivos a serem alcançados, mas também que as crianças sejam capazes de explorar sua criatividade, uma vez que essa pode transformar a relação do sujeito com o conhecimento.\n\nExistem algumas possibilidades para a introdução do ensino do teatro para crianças. Uma delas seria propor caminhadas imaginativas, ou mesmo jogos de expressão, nos quais as crianças pudessem utilizar da entonação da voz, das expressões faciais e corporais, ou mesmo a imitação de situações.\n\nSempre que possível, o(a) professor(a) de Teatro deve propor a utilização de ferramentas tecnológicas, hoje bastante acessíveis aos(às) estudantes, como tablets, smartphones, câmeras fotográficas, notebooks, computadores, entre outras ferramentas.\n\nO uso de tecnologias contemporâneas pode possibilitar novas experiências para o ensino do teatro, não apenas como meras fontes de captação e reprodução de imagens, vídeos, sons, mas como forma de democratizar o acesso, a apreciação e o fazer artístico. Encontram-se disponíveis diferentes aplicativos, sites, redes sociais, entre outras ferramentas digitais na internet, inclusive de maneira gratuita, que muito podem favorecer a aprendizagem em teatro. É importante salientar que é papel da escola a inclusão e a inserção crítica das novas gerações na cibercultura.\n\nDe fato, não existe um só caminho. O mais importante seria proporcionar situações de jogo e de vivência com os conteúdos e experiências próprias do teatro, gerando a interação entre os(as) estudantes, a busca pelo autoconhecimento e pelo conhecer o outro, explorando a criatividade e a criticidade, de maneira lúdica e levando a criança a descobertas próprias da infância.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

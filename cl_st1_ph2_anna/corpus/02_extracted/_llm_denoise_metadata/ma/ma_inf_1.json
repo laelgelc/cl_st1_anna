@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03cf6711c054ff03006ab302531b6887d2a65d14061144a3eb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 861,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 836,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 1697
+    }
+  },
+  "created_at": "2026-09-22T22:34:01Z",
+  "duration_seconds": 6.16,
+  "error": null,
+  "excerpt_id": "ma_inf_1",
+  "filename": "ma_inf_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "422e2378431e5347c46dae8d40358e142b228318b5fc9a0ed6f111f7749fcb83",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bf369e66cf27962481423d80b00976ec872ded23f5986a716fd18dd16781f29b",
+    "rendered_prompt_sha256": "5fdc451cb0ce186cf880ed69dfdc9765c714a8404a761b60c06c63e1a0ac5432",
+    "source_text_sha256": "3be346a64948195463a0cef571dbee97df417350e5f345a6b40909845609f0dc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_inf_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1354,
+    "filename": "ma_inf_1.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_inf_1.txt",
+    "state": "ma",
+    "word_count_original": 587
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_inf_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_inf_1.json"
+  },
+  "raw_response_text": "## 2. ETAPA DA EDUCAÇÃO INFANTIL\n\nEste Documento Curricular do Território Maranhense para a Educação Infantil foi elaborado a muitas mãos, de modo democrático e participativo, contando com a colaboração de profissionais da educação de todo o estado. Está em sintonia com a Base Nacional Comum Curricular (BNCC) para essa etapa da Educação Básica, homologada pelo Ministério da Educação em dezembro de 2017, e tem como objetivo nortear as propostas pedagógicas de todas as unidades educativas públicas e privadas do Maranhão.\n\nA Educação Infantil constitui uma etapa estratégica para o desenvolvimento das pessoas. É importante destacar que houve uma mudança considerável na concepção que se tinha acerca da infância e no atendimento prestado no âmbito das instituições que trabalham com as crianças. Historicamente ofertada no Brasil em caráter assistencialista, a Educação Infantil era reduzida a um espaço voltado ao ato de guardar e cuidar da criança. Ao longo do tempo essa visão foi sendo reconstruída e atualmente essa etapa passou a ser compreendida como parte do processo educativo, no qual o binômio cuidar-educar é indissociável. Os eixos norteadores das práticas pedagógicas atuais são as interações e as brincadeiras (BRASIL, 2009).\n\nA Educação Infantil no Brasil vem passando por um forte processo de expansão. Esse movimento não é recente. Já nas décadas de 1970 e 1980, com as mudanças advindas da urbanização da sociedade e da entrada da mulher no mercado de trabalho de modo mais massificado, observou-se uma ampliação no atendimento das crianças. Importante mencionar, também, a pressão de movimentos sociais para que o poder público incluísse essa temática em sua agenda de políticas públicas. Mas é preciso registrar que esse movimento foi intensificado ao longo das últimas décadas.\n\nA Constituição de 1988 representou um marco na compreensão da Educação Infantil como um direito das crianças e também contribuiu, junto com o arcabouço legal aprovado posteriormente, para a ampliação do atendimento a esse público. Com os avanços no reconhecimento da relevância da Educação Infantil, sua inscrição no cenário legal no campo dos direitos sociais e a expansão da oferta de vagas em creches e pré-escolas, outras temáticas passaram a ser tratadas de modo mais sistemático, como a questão da qualidade da educação ofertada às crianças.\n\nFalar de qualidade na Educação Infantil implica considerar uma série de aspectos que, juntos, garantem o direito das crianças de desenvolver todas as suas potencialidades. Isso vai desde a infraestrutura das unidades educativas até o planejamento dos projetos pedagógicos, o currículo a ser implementado, a disponibilização de materiais educativos, além da formação inicial e continuada e condições de trabalho dos profissionais da educação que se dedicam a essa tarefa. Dessa forma, este material, que está em consonância com as Diretrizes Curriculares Nacionais para a Educação Infantil, constitui um elemento essencial para orientar o trabalho pedagógico no sentido de assegurar os direitos de aprendizagem e desenvolvimento das crianças.\n\nO texto está organizado em cinco partes. Inicialmente, a Educação Infantil é analisada no cenário dos direitos. Em seguida, é apresentada uma reflexão sobre o planejamento da prática pedagógica e o currículo na Educação Infantil, para em continuidade serem abordados os direitos de aprendizagem e desenvolvimento, os campos de experiências e os objetivos de aprendizagem e desenvolvimento propostos pela BNCC. Nessa parte, vale destacar a sugestão de uma série de possibilidades de experiências que as crianças podem e devem vivenciar no ambiente educativo. Na sequência, são tecidas considerações sobre a avaliação na Educação Infantil. Por fim, é discutida a transição da Educação Infantil para o Ensino Fundamental.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

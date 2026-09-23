@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e6e3346af095799006ab3096afd7887d2bf409b49909e4af9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 2072,
+      "input_tokens_details": {
+        "cache_write_tokens": 2069,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2048,
+      "output_tokens_details": {
+        "reasoning_tokens": 202
+      },
+      "total_tokens": 4120
+    }
+  },
+  "created_at": "2026-09-22T23:04:25Z",
+  "duration_seconds": 14.631,
+  "error": null,
+  "excerpt_id": "pr_em_120",
+  "filename": "pr_em_120.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "267dd3ddeb0e4ea5a03f2aeadcbacab3362f74ae705531c44973d5ab278f975c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "aa239dbfd14dd52ac31977c1544f863e6bb6e2edd6c660c58704887f8d122c99",
+    "rendered_prompt_sha256": "d75f622b3fd91c31759dff041140bd433dbbce7f23a07a626f9491aa901d96d4",
+    "source_text_sha256": "67f74163a70914379c434e7b3e4510ffcf69911bd3c3d9afbec79c34ced5be0e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_120.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2706,
+    "filename": "pr_em_120.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_120.txt",
+    "state": "pr",
+    "word_count_original": 1260
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_120.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_120.json"
+  },
+  "raw_response_text": "## 2.2 Competências e habilidades da área de Matemática e suas Tecnologias\n\nA BNCC estabelece um conjunto de competências e habilidades essenciais para a Educação Básica, guiadas pelo princípio da educação integral. No Ensino Médio, as aprendizagens buscam consolidar o letramento matemático e preparar os estudantes, de maneira gradual, para desafios cada vez mais complexos.\n\nSegundo Zabala e Arnau, “educa-se com uma finalidade que não é imediata, mas que tem o propósito de que o que agora é ensinado e aprendido em um contexto escolar possa ser utilizado, no momento certo, na realidade” (Zabala; Arnau, 2014, p. 130), mesmo que de forma adaptada ao contexto específico. Ainda, segundo os mesmos autores, ser competente envolve a capacidade de identificar conhecimentos, as técnicas e as atitudes requeridas para resolver problemas complexos, aplicando-os corretamente em cada contexto.\n\nSendo assim, o IFA, na área de Matemática e suas Tecnologias, por meio de projetos integradores e dos Temas Transversais Contemporâneos, expande e aprofunda progressivamente as competências de raciocínio, representação, comunicação e argumentação, contribuindo para que os estudantes possam analisar criticamente a realidade e propor soluções inovadoras. Essa expansão se concretiza por meio da pesquisa científica, da construção de modelos e da resolução de problemas, promovendo uma integração dinâmica com a FGB.\n\nO IFA, conforme descrito nos Parâmetros Nacionais para a Oferta dos Itinerários Formativos de Aprofundamento no Ensino Médio (Brasil, 2025), apresenta as competências da área de Matemática e suas respectivas habilidades, indicadas a seguir:\n\n**Quadro 6 — Competências e habilidades específicas da área de Matemática e suas Tecnologias**\n\n1. Propor soluções para desafios sociais complexos por meio da coleta, organização e interpretação de dados, utilizando conceitos estatísticos e modelagem matemática para a previsão de tendências e validação de hipóteses.\n\n   Demonstrando a capacidade de:\n\n   - Aplicar conceitos estatísticos e modelagem matemática na interpretação de dados em áreas como saúde pública, educação, cultura, economia, mercado de trabalho, desigualdades sociais e mudanças climáticas, utilizando tabelas, gráficos e medidas de tendência central e dispersão.\n   - Analisar a relação entre variáveis matemáticas e indicadores utilizados em diferentes campos da vida social e profissional investigando padrões e tendências por meio de cálculos estatísticos, correlações e representações gráficas.\n   - Discutir a eficácia de modelos matemáticos na previsão de cenários políticos, econômicos, sociais, epidemiológicos e ambientais, considerando limitações e incertezas por meio da análise de padrões, variações e simulações.\n   - Explorar modelos matemáticos para a formulação de soluções inovadoras para os desafios da sociedade, utilizando análise de dados, estatística e ferramentas tecnológicas para prever impactos e embasar tomadas de decisão sustentáveis.\n\n2. Propor ações de intervenção comunitária e social, avaliando criticamente o uso de tecnologias, mídias e redes sociais, analisando a qualidade das informações, os riscos à saúde mental, a Lei Geral de Proteção de Dados (LGPD), o bullying e a desinformação, e utilizando conhecimentos matemáticos para desenvolver soluções para desafios socioeconômicos, ambientais e culturais, promovendo equidade e desenvolvimento sustentável.\n\n   Demonstrando a capacidade de:\n\n   - Compreender os impactos do uso das tecnologias nas relações interpessoais, analisando seus benefícios e os desafios éticos, como segurança, privacidade, exclusão digital, acessibilidade e inclusão social, e aplicando conceitos matemáticos como estatísticas, modelagem matemática e análise de dados para abordar questões de justiça e direitos humanos no contexto sociocultural e ambiental.\n   - Analisar criticamente a qualidade das informações compartilhadas em mídias digitais e redes sociais, identificando fake news, manipulação de dados e a influência dos algoritmos, utilizando métodos matemáticos, como análise de dados e modelagem, para entender suas consequências sociais e culturais.\n   - Propor soluções para desafios sociais aplicando algoritmos, linguagens de programação e princípios de inteligência artificial para gerar impactos sociais positivos em áreas como saúde, educação e meio ambiente.\n   - Avaliar o impacto das tecnologias digitais e das mídias sociais nas dinâmicas sociais, econômicas e culturais, utilizando modelagem matemática para simular cenários e auxiliar na formulação de políticas públicas e decisões que promovam a equidade, a inclusão digital e a sustentabilidade, com foco no bem-estar coletivo.\n\n3. Avaliar práticas econômicas e financeiras no contexto pessoal, comunitário e profissional, considerando suas implicações nas relações sociais e de trabalho, aplicando conceitos de planejamento financeiro, consumo sustentável e economia solidária para propor soluções inovadoras que promovam a equidade, a justiça social e a sustentabilidade, utilizando estratégias de comunicação eficazes para facilitar a tomada de decisões conscientes e responsáveis.\n\n   Demonstrando a capacidade de:\n\n   - Compreender padrões de consumo e estratégias de planejamento financeiro e ambiental sustentável, considerando evidências, análises econômicas e projeções responsáveis, aplicando conceitos matemáticos e tomada de decisões conscientes para incentivar práticas de economia solidária, agricultura familiar, responsabilidade socioambiental e sustentabilidade.\n   - Analisar informações econômicas a partir de conceitos matemáticos e indicadores sociais, compreendendo como as dinâmicas econômicas influenciam a organização da vida social, as relações com o meio ambiente e a superação de desafios contemporâneos, como desigualdades sociais, emergência climática, questões de saúde pública e os desafios do mundo do trabalho.\n   - Aplicar elementos da matemática financeira no planejamento pessoal, familiar e comunitário, considerando conceitos como juros simples e compostos, amortização de dívidas e elaboração de orçamentos, com foco na sustentabilidade financeira, tomada de decisões responsáveis e redução das desigualdades econômicas.\n   - Propor alternativas para a administração eficiente, eficaz e equitativa de recursos financeiros, aplicando conceitos de economia solidária, planejamento orçamentário e análise de custos, visando a autonomia financeira, a equidade social e a sustentabilidade econômica, com ênfase na transformação positiva do mundo do trabalho e da sociedade.\n\n4. Analisar desafios sociais, econômicos e ambientais, aplicando o método científico e integrando conhecimentos interdisciplinares, por meio da análise de dados e do uso de ferramentas tecnológicas para identificar padrões, promover a inclusão social, o protagonismo das minorias e a sustentabilidade socioambiental.\n\n   Demonstrando a capacidade de:\n\n   - Identificar dados relacionados a desafios sociais, econômicos e ambientais, por meio de ferramentas tecnológicas e representações gráficas para organizar e visualizar as informações de maneira estruturada.\n   - Interpretar representações gráficas de dados sociais e ambientais, utilizando ferramentas digitais para comunicar as informações e apoiar a compreensão de questões relacionadas à emergência climática e outros elementos críticos relacionados à sustentabilidade socioambiental.\n   - Investigar a desigualdade social e econômica, empregando métodos de análise de dados para compreender as diferenças entre grupos e promover a justiça social, com ênfase no protagonismo das minorias.\n   - Analisar dados sociais, econômicos e ambientais, aplicando medidas estatísticas e modelagem matemática para identificar padrões e tendências que influenciam a inclusão social e o desenvolvimento sustentável.\n\n5. Elaborar modelos matemáticos, por meio da seleção de dados, da integração de conhecimentos interdisciplinares e do uso de ferramentas tecnológicas digitais, para a experimentação, investigação e solução de problemas, considerando critérios científicos, éticos, sociais e ambientais e favorecendo a formação integral e a intervenção sociocultural.\n\n   Demonstrando a capacidade de:\n\n   - Analisar dados e resultados de investigações científicas, com base na variação de grandezas em contextos sociais, econômicos e ambientais, considerando suas implicações no cotidiano e em diferentes áreas do conhecimento.\n   - Investigar situações-problema, a partir da análise de variáveis e hipóteses relevantes, da integração de conhecimentos matemáticos e de outras áreas, e da seleção de estratégias adequadas, para a interpretação de dados e a solução de problemas em diferentes contextos.\n   - Avaliar modelos matemáticos, com base na seleção de dados, fatos e evidências, na integração de conhecimentos interdisciplinares e no uso de ferramentas tecnológicas, considerando critérios científicos, éticos, sociais e ambientais.\n   - Elaborar modelos matemáticos, por meio do uso de ferramentas tecnológicas digitais e da sistematização de dados e evidências, para a representação, investigação e solução de problemas interdisciplinares, considerando critérios científicos, éticos e sociais e favorecendo a formação integral e a intervenção sociocultural.\n\nFonte: Resolução CNE/CEB n. 4/2025 (Brasil, 2025).\n\nAs competências e habilidades, aqui elencadas, possibilitam uma prática pedagógica articulada e integrada com outras áreas do conhecimento.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0679ee8da6e385b1006ab30d8791c087d2832fe05a1d0b49a3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 597,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 603,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 1200
+    }
+  },
+  "created_at": "2026-09-22T23:21:48Z",
+  "duration_seconds": 5.482,
+  "error": null,
+  "excerpt_id": "rs_ef_1",
+  "filename": "rs_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "10a7f98771f9c96c5e5318b31481c84c22d76fe80a940372e9a7e7c679a6fb11",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "74d32be38dfba12eec60ac6045a33bc91dc60fcaae8f3b7983a97e6a63b47898",
+    "rendered_prompt_sha256": "6e52585440e440507725e1d703b6d0f47ba4193a7c1f9667940e037d1560f254",
+    "source_text_sha256": "e2806629d9d755e48d77630f04ad0fa131f9285fab63111c2af1098f5b3da3f2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3538,
+    "filename": "rs_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_ef_1.txt",
+    "state": "rs",
+    "word_count_original": 325
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_ef_1.json"
+  },
+  "raw_response_text": "A Lei de Diretrizes e Bases da Educação Nacional (LDBN 9394/96) estabelece como finalidades da educação básica: o pleno desenvolvimento do estudante, seu preparo para o exercício da cidadania e sua qualificação para o trabalho; o aprimoramento como pessoa humana, incluindo a formação ética e o desenvolvimento da autonomia intelectual e do pensamento crítico; e a compreensão dos fundamentos científico-tecnológicos dos processos produtivos. Tais finalidades são explicitadas também nas Diretrizes Curriculares Nacionais da Educação Básica (Res. CNE/CBE nº 04/2010). Em consonância com os marcos legais, a Base Nacional Comum Curricular (Res. CNE/CP nº 2/2017), reforça essas prerrogativas ao sinalizar o conjunto orgânico e progressivo de aprendizagens essenciais que todos os estudantes devem desenvolver ao longo da escolaridade básica, balizados pelos princípios éticos, políticos e estéticos que visam a formação humana integral e a construção de uma sociedade justa, democrática e inclusiva.\n\nAs disciplinas de História e Geografia, constituem no ensino fundamental a área de Ciências Humanas, cujo objetivo é oportunizar conhecimentos, competências e habilidades que serão mobilizados na resolução de problemas complexos, que ocorrem em sociedade e no mundo em transformação, a partir da perspectiva do desenvolvimento da autonomia, dos valores, da criatividade e do pensamento crítico. É sob esta perspectiva que a área de Ciências Humanas, dentro de uma concepção de currículo que contemple a diversidade da sociedade atual e que respondam à emergência de nosso tempo, requer mais do que reproduzir dados e denominar classificações, já que educar “na” e “para” a cidadania significa saber se informar, se comunicar, argumentar, compreender e agir, enfrentar problemas de qualquer natureza, participar socialmente, de forma prática e solidária, ser capaz de elaborar críticas ou propostas e, especialmente, adquirir uma atitude de permanente aprendizado. Nestes princípios, a área de Ciências Humanas abarca e insere-se na perspectiva de se integrar com as demais áreas do conhecimento para contribuir com a consecução das 10 Competências Gerais da Educação Básica normatizadas na BNCC.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

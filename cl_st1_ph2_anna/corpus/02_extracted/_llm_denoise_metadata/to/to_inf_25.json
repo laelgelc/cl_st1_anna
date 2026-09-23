@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03c1dbf5f40db786006ab310761b2487d2bbecf2e943ef135b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1147,
+      "input_tokens_details": {
+        "cache_write_tokens": 1144,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1430,
+      "output_tokens_details": {
+        "reasoning_tokens": 378
+      },
+      "total_tokens": 2577
+    }
+  },
+  "created_at": "2026-09-22T23:34:23Z",
+  "duration_seconds": 9.364,
+  "error": null,
+  "excerpt_id": "to_inf_25",
+  "filename": "to_inf_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "76a51003fa316cc6d657f5bb005ee24d04d41cd3a98abf7cc7911a072075f9e9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7b791dcdf1a07e3ae1291492eff42917ae4dbf13c20c0f74fc5002b054549467",
+    "rendered_prompt_sha256": "87fb639c4b0caf3168dfa469e347e5c0ab880d835b94913e866cb1adc3704da6",
+    "source_text_sha256": "fbca07ba2e3ad31dacd6045ff3c6829a5fddf17f6b0ae393a7053e3eb33b0798"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_inf_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4099,
+    "filename": "to_inf_25.txt",
+    "filepath": "corpus/00_source_per_state/to/to_inf_25.txt",
+    "state": "to",
+    "word_count_original": 716
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_inf_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_inf_25.json"
+  },
+  "raw_response_text": "A documentação pedagógica consiste na observação e registro do que fazem as crianças da Educação Infantil. A prática é diversificada, porém, não é plural, ou seja, há muitas formas de realizá-la, mas apenas dois focos estruturantes: tornar visível e evidente as aprendizagens e a quem elas se destinam.\n\n## Documentação pedagógica\n\nÉ verdade que muitos de nossos professores já realizam algum tipo de registro, mas sua simples realização não se converte em uma verdadeira documentação pedagógica, uma vez que ela, além de dar visibilidade aos fazeres infantis, “possibilita realizar, analisar e problematizar, de forma pública ou coletiva, aquilo que foi observado e registrado, assim como a inseparabilidade entre o documentado e o processo de planejamento, a definição do currículo, a escolha das atividades, a participação das crianças e das famílias no processo de documentação” (BARBOSA; FERNANDES, 2012).\n\nO primeiro passo para a elaboração da documentação pedagógica é a elaboração de algum tipo de registro (anotações, fotos, filmes, gravações e produções das crianças), que conterá as informações levantadas nas observações. Alguns questionamentos precisam ser realizados pelos professores: O que dizem essas informações? O que se descobriu com essas evidências? Que informações respondem às inquietações docentes? O que as crianças realmente aprenderam? Essas reflexões são o primeiro passo da documentação.\n\nEm seguida, é preciso ter claro a quem se quer comunicar essas informações. Aí está a alma da documentação pedagógica, ou seja, a comunicação. Os professores precisam ter claro quem é o público-alvo, para assim, selecionar os conteúdos dos registros e as formas de apresentá-los. Há vários públicos, com dimensões e intenções distintas, que vão desde o próprio educador, a equipe pedagógica, as crianças com as quais atuam, suas respectivas famílias e a comunidade em geral.\n\nAs formas de documentar os processos de aprendizagens, e das vivências cotidianas das crianças, sugerem uma nova forma de conceber o planejamento, o currículo e a avaliação. Nessa perspectiva, principalmente, ao que tange a avaliação, ela só tem sentido na análise dos componentes do processo, não há nenhuma intenção de categorizar os pequenos, de acordo com algum nível de desenvolvimento. O foco está no processo das suas interações e aprendizagens.\n\n## O eu, o outro e o nós\n\n### SÍNTESE DAS APRENDIZAGENS\n\n- respeitar e expressar sentimentos e emoções;\n- atuar em grupo e demonstrar interesse em construir novas relações, respeitando a diversidade e solidarizando-se com os outros;\n- conhecer e respeitar regras de convívio social, manifestando respeito pelo outro.\n\n- reconhecer a importância de ações e situações do cotidiano que contribuem para o cuidado de sua saúde e a manutenção de ambientes saudáveis;\n- apresentar autonomia nas práticas de higiene, alimentação, vestir-se e no cuidado com seu bem-estar, valorizando o próprio corpo;\n- utilizar o corpo intencionalmente (com criatividade, controle e adequação) como instrumento de interação com o outro e com o meio;\n- coordenar suas habilidades manuais.\n\n## Traços, sons, cores e formas\n\n- discriminar os diferentes tipos de sons e ritmos e interagir com a música, percebendo-a como forma de expressão individual e coletiva;\n- expressar-se por meio das artes visuais, utilizando diferentes materiais;\n- relacionar-se com o outro empregando gestos, palavras, brincadeiras, jogos, imitações, observações e expressão corporal.\n\n## Escuta, fala, pensamento e imaginação\n\n- Expressar ideias, desejos e sentimentos em distintas situações de interação, por diferentes meios;\n- Argumentar e relatar fatos oralmente, em sequência temporal e causal, organizando e adequando sua fala ao contexto em que é produzida;\n- Ouvir, compreender, contar, recontar e criar narrativas;\n- Conhecer diferentes gêneros e portadores textuais, demonstrando compreensão da função social da escrita e reconhecendo a leitura como fonte de prazer e informação.\n\n## Espaços, tempos, quantidades, relações e transformações\n\n- identificar, nomear adequadamente e comparar as propriedades dos objetos, estabelecendo relações entre eles;\n- interagir com o meio ambiente e com fenômenos naturais ou artificiais, demonstrando curiosidade e cuidado com relação a eles;\n- utilizar vocabulário relativo às noções de grandeza (maior, menor, igual etc.), espaço (dentro e fora) e medidas (comprido, curto, grosso, fino) como meio de comunicação de suas experiências;\n- utilizar unidades de medida (dia e noite; dias, semanas, meses e ano) e noções de tempo (presente, passado e futuro; antes, agora e depois), para responder a necessidades e questões do cotidiano;\n- identificar e registrar quantidades por meio de diferentes formas de representação (contagens, desenhos, símbolos, escrita de números, organização de gráficos básicos etc.).\n\n(BRASIL, 2017, p. 52 e 53)",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

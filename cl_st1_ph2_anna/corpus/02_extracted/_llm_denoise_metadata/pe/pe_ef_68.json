@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_023d58580ff1ca06006ab307ef8c0487d2b215cfaec8cf9174",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 757,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 777,
+      "output_tokens_details": {
+        "reasoning_tokens": 117
+      },
+      "total_tokens": 1534
+    }
+  },
+  "created_at": "2026-09-22T22:57:58Z",
+  "duration_seconds": 6.608,
+  "error": null,
+  "excerpt_id": "pe_ef_68",
+  "filename": "pe_ef_68.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a47dbbaa3a5873d64d473871e52f0f16b2c8b61a77102c962a3efebfa881f1f5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2c12c7d2636605dd986cf05bb12033366313ac990faaab1a30702fd681eea380",
+    "rendered_prompt_sha256": "ca6fc7da1ab3cd110cb41ce01697ce094ec41f7f32a974588c527b8ee3cf488d",
+    "source_text_sha256": "e2bbe887a99b4e035fdefe69ce19ac8685118e351de9f51a85f9c4a6e406666a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_68.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2449,
+    "filename": "pe_ef_68.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_68.txt",
+    "state": "pe",
+    "word_count_original": 459
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_68.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_68.json"
+  },
+  "raw_response_text": "### 6.3.1 GEOGRAFIA NO ENSINO FUNDAMENTAL – ANOS INICIAIS\n\nO processo de ensino-aprendizagem para o desenvolvimento do raciocínio geográfico em crianças tem um significado de resgate do que foi aprendido na Educação Infantil, a título de vivências cotidianas, a partir de atividades em que elas desenham familiares, enumeram relações de parentesco, reconhecem-se em fotos (classificando-as como antigas ou recentes), guardam datas e fatos, sabem a hora de dormir, de ir para a escola, negociam horários, fazem relatos orais, revisitam o passado por meio de jogos, cantigas e brincadeiras ensinadas pelos mais velhos, posicionam-se criticamente sobre determinadas situações e tantos outros.\n\nApesar de concepções diferenciadas acerca do desenvolvimento humano, a ludicidade, como bem asseguram alguns estudiosos, está presente na Educação Infantil a partir de brincadeiras e jogos direcionados às vivências do cotidiano. Para Piaget (1996), durante o período de desenvolvimento, o jogo e a brincadeira são as formas de a criança manter-se em atividade, condição de desenvolvimento das estruturas de comportamento em formação. Segundo Vygotsky (1991), signos e palavras são para as crianças um meio de contato social com outras pessoas. Dessa forma, pensar geograficamente o espaço a partir da cognição da criança por suas fases de desenvolvimento se apresenta como suporte indispensável para a construção da personalidade interventora do indivíduo enquanto sujeito de direito ao espaço construído e transformado/dinamizado por ele/ela. Portanto, é a partir da construção lúdica da criança com o meio que ela vai desenvolver formas de se integrar ao mundo e de interagir em sociedade com os demais.\n\nAs ações em Geografia, nos anos iniciais, caracterizam-se pela interdisciplinaridade. Em conjunto com outros componentes curriculares, concorre com o processo de alfabetização e letramento para o desenvolvimento de diferentes raciocínios, entre eles o raciocínio geográfico. Desenvolver esse raciocínio requer constantemente um exercício de resgate a partir de memórias espacializadas e de acordo com as circunstâncias que são condicionadas pelo tempo. Sendo assim, é fundamental ressaltar o caráter de ciência-síntese que a Geografia apresenta em sua construção, caracterizando-se, portanto, como uma ciência inerente ao processo interdisciplinar.\n\nA Geografia está em todo lugar. As vivências da infância são permeadas de relações com o Espaço Geográfico. Relações corporais que envolvem movimentos e sentidos, apreendendo-se, então, do mundo, aquilo que aguça e faz desenvolver o pensar geográfico. A partir de então se estabelecem relações de localização, distância e direção. Construção e senso de transformação potencializam-se no raciocínio geográfico da criança. Essa, a partir do aspecto lúdico, é conduzida a desenvolver seus sentidos que irão contribuir para a formação de sua personalidade socioespacial e cognitiva. Tornar-se-á autônoma espacialmente, sendo protagonista de seu processo de construção e participação no mundo e inserção nele a partir de suas estruturações espaço-mentais.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

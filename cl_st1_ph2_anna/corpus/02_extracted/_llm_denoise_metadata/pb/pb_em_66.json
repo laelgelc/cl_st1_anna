@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08791ec19fa0846a006ab3075f53ec87d29cbfe4e463f9d503",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 586,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 566,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 1152
+    }
+  },
+  "created_at": "2026-09-22T22:55:31Z",
+  "duration_seconds": 4.252,
+  "error": null,
+  "excerpt_id": "pb_em_66",
+  "filename": "pb_em_66.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "31ee755aa505cf739eb460255550f6c004c9cef502b5ef84d3ecca18bc0a0956",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "141d1055c03103d613dae98109fe608b0ae6ab12a219527a808159820fc6ee79",
+    "rendered_prompt_sha256": "615567311c3889ea874bd0a7155bd2d97d2d18920b3b7ca5ccc845cf9b97e21b",
+    "source_text_sha256": "0f830aeed75633ff6107ee561fc403d4083ac92e5a1e39a34ceb360991018c4f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_66.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2315,
+    "filename": "pb_em_66.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_66.txt",
+    "state": "pb",
+    "word_count_original": 364
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_66.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_66.json"
+  },
+  "raw_response_text": "### 2.3.4 PROBLEMÁTICAS NO ENSINO DE CIÊNCIAS\n\nVárias atividades cotidianas demandam do sujeito conhecimentos básicos em Ciências para a realização de diversos tipos de atividades, sejam elas triviais e executadas no automatismo da rotina, sejam elas mais complexas, que exijam habilidade específica. Santos (2007, p. 480) afirma:\n\n> As pessoas lidam diariamente com dezenas de produtos químicos e têm que decidir qual devem consumir e como fazê-lo. Essa decisão poderia ser tomada levando em conta não só a eficiência dos produtos para os fins que se desejam, mas também seus efeitos sobre a saúde, seus efeitos ambientais, seu valor econômico, as questões éticas relacionadas à sua produção e comercialização. Por exemplo, poderia ser considerado pelo cidadão, na hora de consumir determinado produto, se na sua produção é usada mão de obra infantil ou se os trabalhadores são explorados de maneira desumana; se em alguma fase, da produção ao descarte, houve geração de resíduos que agridem o ambiente; se ele é objeto de contrabando ou de outra contravenção etc.\n\nUma vez que o espaço ocupado pelas Ciências da Natureza e suas Tecnologias confunde-se com as rotinas dos sujeitos, há de se questionar o porquê do distanciamento exibido pelos estudantes nas aulas. Embora a sociedade contemporânea venha modificando-se rapidamente à luz das tecnologias, o ensino em Ciências parece não acompanhar o mesmo ritmo.\n\nNão é incomum professores ouvirem queixas dos estudantes quanto à dificuldade de abstração de determinados conteúdos abordados pela área. Tal distanciamento pode motivar discursos de que ensinar ciências no Ensino Médio é difícil, provocando a naturalização de uma dificuldade que pode estar relacionada não ao conteúdo em si, mas à dificuldade que a escola tem de engajar os estudantes nas atividades, ou na falta de conexão entre o objeto de estudo e a prática cotidiana.\n\nConsolidar o ensino de ciências perpassa pelo rompimento com a visão engessada da ciência utópica, inalcançável, feita por cientistas distantes da realidade desses jovens. É necessário que o currículo seja capaz de estreitar as relações dos estudantes com a investigação, com a curiosidade, e aproximá-los das descobertas, apropriando-se das novas tecnologias aliadas com conteúdo que dialogue com suas vidas e seus anseios.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

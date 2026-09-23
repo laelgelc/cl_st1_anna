@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c5d4e33ea8e52ad006ab3039f91cc87d2a47bb3b6704594df",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 821,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 800,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 1621
+    }
+  },
+  "created_at": "2026-09-22T22:39:33Z",
+  "duration_seconds": 5.729,
+  "error": null,
+  "excerpt_id": "ms_em_16",
+  "filename": "ms_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4fd5f65ebc2951c60f8a2d45c601e43302b6d70ca064455bfdc1f1bba65ac4dc",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "25e960319ef6e7ce1aae845187db8481e86db97a85f58dedd0673a914e5f4d41",
+    "rendered_prompt_sha256": "34605199d57ba4f385de43e56e8f55fe124bb73c5de38061bf9c621ac82cbd02",
+    "source_text_sha256": "ea4f891ed2b00be2cfc10227b4a70f5d012e951b8affccb5c3aff81a843374a7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1679,
+    "filename": "ms_em_16.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_16.txt",
+    "state": "ms",
+    "word_count_original": 496
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_16.json"
+  },
+  "raw_response_text": "### 2.4.9. Saúde, Sexualidade e Gênero, Vida Familiar e Social\n\nEntende-se que para o desenvolvimento da criança, adolescente e jovem, faz-se necessário compreender o contexto social e histórico em que estão inseridos. A escola é um dos espaços em que os sujeitos em desenvolvimento demonstram situações de relacionamentos que dizem respeito à formação e ao lugar que ocupam na sociedade. Pode-se inferir que uma das situações mais recorrentes se relaciona às questões de gênero.\n\nEspecificamente para as crianças, a escola é um dos primeiros lugares em que descobrem diferenças porque é no cotidiano escolar que os meninos e as meninas compartilham espaços, dividem ideias, entram em conflitos e reproduzem/recriam/superam valores. Entendendo isso, a escola não deve ser o espaço de reprodução de diálogos sobre padrões de comportamento sociais de representações de sexualidade. A sexualidade deve ser pauta permanente durante todo o processo de desenvolvimento das crianças e adolescentes dentro do espaço escolar, no viés da saúde e compreensão do funcionamento do corpo.\n\nAlém disso, a cultura, os saberes e a educação que as crianças e adolescentes recebem da família e de outros espaços sociais fornecem elementos para a compreensão das questões de sexualidade e gênero. Dessa maneira, a escola contribui para promoção da saúde, que é entendida pela Organização Mundial da Saúde como “o completo bem-estar físico, mental e social, e não só a ausência de doenças”. Costumeiramente os currículos abordam questões de saúde física, ou seja, àquela preocupada com as condições do corpo em relação a doenças e ao vigor físico. Mas, para que o princípio da educação integral seja alcançado, ampliam-se os diálogos de saúde, o que implica a escola favorecer a saúde mental que se relaciona à qualidade de vida emocional e cognitiva dos sujeitos e à saúde social que se refere à capacidade de interagir com outros e conviver em ambientes sociais.\n\n### 2.4.10. Respeito, Valorização e Direitos dos Idosos\n\nAo estabelecer o Estatuto do Idoso, por meio da Lei n. 10.741, de 1º de outubro de 2003, o Brasil inicia a regulação dos direitos assegurados às pessoas com idade igual ou superior a 60 (sessenta) anos. Consoante ao Estatuto, o idoso usufrui de todos os direitos fundamentais inerentes à pessoa humana, sendo a ele asseguradas todas as oportunidades e facilidades, para preservação de sua saúde física e mental e seu aperfeiçoamento moral, intelectual, espiritual e social, em condições de liberdade e dignidade.\n\nAlém disso, o Estatuto traz a responsabilidade à família, à comunidade, à sociedade e ao Poder Público da “efetivação do direito à vida, à saúde, à alimentação, à educação, à cultura, ao esporte, ao lazer, ao trabalho, à cidadania, à liberdade, à dignidade, ao respeito e à convivência familiar e comunitária” (BRASIL, 2003). Nesse tocante, cabe à escola a responsabilidade de propagar conhecimentos e experiências em que os idosos sejam respeitados e valorizados. Assim, retoma-se a discussão de que a escola é locus para o exercício da cidadania.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

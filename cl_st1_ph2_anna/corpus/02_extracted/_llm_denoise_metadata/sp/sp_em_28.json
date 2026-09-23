@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_032846d03b31c1ae006ab30fa7499887d2b33b7e278d51a16b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 650,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 680,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 1330
+    }
+  },
+  "created_at": "2026-09-22T23:30:54Z",
+  "duration_seconds": 7.454,
+  "error": null,
+  "excerpt_id": "sp_em_28",
+  "filename": "sp_em_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f31cb330141fb01c85b2ee1c37f9b55a28cd8ccb422208db2df072e468279a31",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "89381051aafb8eae87f5e12327ad54b45c525fd301479f69ba4d88ce68396aac",
+    "rendered_prompt_sha256": "39712401cb82a78097cf099f9b454c88a0cccb2962a4dac0f85b262c87e0ac0a",
+    "source_text_sha256": "61eb3fc8e0424257e45aa7d74e9ecc8664e010a0d6b85ede67d2f528e223bb68"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3922,
+    "filename": "sp_em_28.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_28.txt",
+    "state": "sp",
+    "word_count_original": 354
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_28.json"
+  },
+  "raw_response_text": "## Os Temas Contemporâneos Transversais em Ciências da Natureza e suas Tecnologias\n\nOs Temas Contemporâneos Transversais (TCTs) são assim denominados por não pertencerem a somente um componente curricular, mas a todas as áreas do conhecimento. Tal característica favorece a realização de trabalhos interdisciplinares e a contextualização dos objetos de conhecimento, além de contribuir com o desenvolvimento das competências e habilidades. Na BNCC, os TCTs estão representados conforme o esquema a seguir:\n\nOs TCTs devem ser trabalhados em CNT com o propósito de auxiliar o estudante em sua atuação na sociedade. Assim:\n\n> [...] espera-se que os TCTs permitam ao aluno entender melhor: como utilizar seu dinheiro, como cuidar de sua saúde, como usar as novas tecnologias digitais, como cuidar do planeta em que vive, como entender e respeitar aqueles que são diferentes e quais são seus direitos e deveres, assuntos que conferem aos TCTs o atributo da contemporaneidade.  \n> (BRASIL, 2019, p. 7)\n\nPara subsidiar o trabalho do professor quanto à incorporação dos TCTs são apresentados quatro pilares para a metodologia do trabalho: problematização da realidade e das situações de aprendizagem; superação da concepção fragmentada do conhecimento em favor de uma visão sistêmica; integração das habilidades e competências curriculares à resolução de problemas; e promoção de um processo educativo continuado e do conhecimento como uma construção coletiva.\n\nAssim, espera-se que os TCTs sejam trabalhados em CNT sob uma perspectiva intradisciplinar, interdisciplinar e transdisciplinar (projetos integradores, módulos de aprendizagem integrados etc.) e estejam presentes no Projeto Pedagógico da escola e nos planos de aula dos professores. Nesse sentido, os TCTs visam contribuir para a construção e aplicação de conhecimentos e propiciar aprendizagens mais significativas, tornando o estudante mais consciente do seu processo de aprendizagem.\n\nNa área de CNT, estão mais diretamente relacionados e são mais recorrentes os TCTs: Meio Ambiente e Educação Ambiental (considerando as Diretrizes Curriculares Nacionais de Educação Ambiental), Saúde e Ciência e Tecnologia, mas também são abordados itens associados à Diversidade Cultural, Trabalho e Educação em Direitos Humanos. Desse modo, os TCTs são desenvolvidos conforme o planejamento escolar, considerando também questões locais, regionais, nacionais e até mesmo globais de acordo com a temática abordada.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

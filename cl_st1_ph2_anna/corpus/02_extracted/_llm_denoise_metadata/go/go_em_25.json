@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_098d5c1e1133b038006ab3012c171887d2add136fa19efa94b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 905,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1110,
+      "output_tokens_details": {
+        "reasoning_tokens": 299
+      },
+      "total_tokens": 2015
+    }
+  },
+  "created_at": "2026-09-22T22:29:08Z",
+  "duration_seconds": 8.777,
+  "error": null,
+  "excerpt_id": "go_em_25",
+  "filename": "go_em_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8b9d63d72b029e866cbc1575ed2d94ffe7685c59c6ed1a4829b3ede7badef9ed",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d582fdd65ba23cc1c31d8e9044b06df5e6585f871c173d793d02d22e4b99f625",
+    "rendered_prompt_sha256": "f281af7c73a1e21917180f01c328b38e0e7374c24aaa477cdbde27a28b48255d",
+    "source_text_sha256": "ac9efa070762812e923a04a57fb7666bdd30747d06605e91c29d0398bbcbe275"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1147,
+    "filename": "go_em_25.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_25.txt",
+    "state": "go",
+    "word_count_original": 575
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_25.json"
+  },
+  "raw_response_text": "## 8 - Arquitetura Curricular\n\nCom as atualizações da Lei de Diretrizes e Bases da Educação (LDBEN), instituída pela Lei nº 13.415/2017, e pelas Diretrizes Curriculares Nacionais para o Ensino Médio (DCNEM/2018), determinou-se, entre outras mudanças, a gradativa ampliação da carga horária desta etapa de ensino de um total de 2.400 (duas mil e quatrocentas) horas para 3.000 (três mil) horas, determinou também a obrigatoriedade da oferta dos componentes curriculares Língua Portuguesa e Matemática, nas três séries do Ensino Médio, o ensino de Língua Estrangeira Moderna Inglês, ao longo da etapa, e a oferta de no mínimo dois itinerários formativos por unidade escolar, para que os/as estudantes possam ter a possibilidade de escolher conforme seus anseios e Projeto de Vida.\n\nAssim, a organização curricular do Ensino Médio ganhou uma nova configuração e passou a ser composta pela Formação Geral Básica e por Itinerários Formativos indissociáveis. A formação geral básica deve ser constituída por uma carga horária total máxima de 1.800h definida pela Base Nacional Comum Curricular (BNCC) e os itinerários formativos com 1.200h. Os itinerários formativos foram regulamentados pela Portaria nº 1.432/2018, e são definidos como trajetórias de formação que os/as estudantes podem escolher conforme seu interesse, para aprofundar e ampliar aprendizagens dentro das áreas de conhecimento e/ou na formação técnica e profissional. Totalizam-se assim 3.000 horas a carga horária do Ensino Médio, podendo ser ampliada progressivamente para 4.200 horas, conforme a demanda e a capacidade da rede.\n\nPara a implementação do Novo Ensino Médio em Goiás e a (re)elaboração curricular foi realizado um amplo diagnóstico da rede por meio da escuta dos/as jovens, dos/as profissionais da educação e demais membros da comunidade escolar. Realizado pela Coordenação de Protagonismo Juvenil, da Superintendência de Ensino Médio, utilizou-se questionários estruturados, acompanhamentos presenciais e rodas de conversas que garantiram a escuta equânime que abarcaram características regionais, de gênero, raça, renda e idade, ao longo dos anos de 2018/2019. A sistematização dos dados permitiu a elaboração de um diagnóstico importante para a construção da arquitetura curricular do Novo Ensino Médio de Goiás que se estrutura no DC-GOEM, tanto na parte da formação geral básica quanto nos itinerários formativos.\n\nO primeiro questionário de escuta foi aplicado pela Coordenação de Protagonismo Juvenil no início de 2019 e contou com a participação de 74.764 pessoas, cujo objetivo era compreender o perfil e as demandas dos/as estudantes e docentes goianos/as e a infraestrutura escolar da rede pública de ensino de Goiás. Entre os/as respondentes, 45.651 eram jovens matriculados no Ensino Médio e nos anos finais do Ensino Fundamental, sendo 34% na 1ª série do EM; 31% no 9º ano do EF; 28% na 2ª série do EM e 7% na 3ª série do EM. Para além do perfil, buscou-se identificar principais interesses e conhecimentos prévios sobre o Novo Ensino Médio. Todas as perguntas eram objetivas e, em alguns questionamentos, o/a participante poderia assinalar mais de uma opção. A idade de grande parte dos/as respondentes estava na faixa etária de 15 a 16 anos (28,58%) no período da entrevista.\n\nEssa escuta permitiu construir um diagnóstico inicial dos/as estudantes e professores/as e também das capacidades físicas, operacionais e organizacionais da rede, assim como analisar a dinâmica territorial e econômica e refletir sobre a capacidade de articulação e mobilização das regiões do estado de Goiás.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

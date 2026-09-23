@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fe6616f125ab702006ab2fb9a4f6887d29e6fe9a89bb6bb7e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 569,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 568,
+      "output_tokens_details": {
+        "reasoning_tokens": 90
+      },
+      "total_tokens": 1137
+    }
+  },
+  "created_at": "2026-09-22T22:05:18Z",
+  "duration_seconds": 5.215,
+  "error": null,
+  "excerpt_id": "ac_ef_24",
+  "filename": "ac_ef_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b73c7a922901d47664052de20719c518ad5e0418af372ad5d6a4feb00d523f76",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fb3194bf70c6f032b5cb6e0c634e73e1bf0f387def9111c3d3613ebaa3f94597",
+    "rendered_prompt_sha256": "1c3509573957d697df33ab0b109ff66e1c8528890d7807d0c0dc279f9316a871",
+    "source_text_sha256": "19d7fc7a890eec14f620097f234dedbc08277a6211581304be2b7e3bd6963a98"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 17,
+    "filename": "ac_ef_24.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_24.txt",
+    "state": "ac",
+    "word_count_original": 344
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_24.json"
+  },
+  "raw_response_text": "## 4. ORIENTAÇÕES DE APLICABILIDADE DO COMPONENTE GEOGRAFIA\n\n### 4.1 Anos iniciais\n\nNos primeiros anos, a aproximação com as paisagens e os lugares contribui para as primeiras leituras espaciais das crianças, pois a vida humana está impressa no espaço. Desse modo, alargar as possibilidades de compreensão do mundo é bem mais do que ensinar os primeiros passos da cartografia. A área de Geografia tem como objeto básico o estudo das paisagens humanizadas ao longo da história, cujas características são produto da atividade transformadora das sociedades. Portanto, o modo de vida é uma dimensão essencial na produção do espaço geográfico. São os modos de viver, trabalhar e produzir que interagem e transformam a natureza.\n\nDesse ponto de vista, destaca-se o estudo das relações entre o processo histórico da formação das sociedades humanas e o funcionamento da natureza, que podem ser identificados em aspectos observáveis, no cotidiano. A perspectiva é que as crianças desenvolvam noções sobre a espacialidade, ou seja, que aprendam a pensar sobre o espaço, a partir das semelhanças e diferenças, da relação ‘parte e todo’ e das contradições que marcam o uso social que é feito dos processos da natureza. Assim se criam as condições para que desenvolvam, desde pequenas e, progressivamente, um pensamento crítico e analítico, um raciocínio apoiado em diferentes referenciais, ligados ao campo da geografia e de outras áreas do conhecimento.\n\nAs crianças, quando vêm para a escola, trazem consigo representações do mundo que farão parte do seu olhar sobre o que aprenderão. O mundo vivido é maior, mais diverso e complexo do que aquele que se pode ‘recortar’ para análise no ambiente escolar. Ao caminhar, correr, brincar, contestar, a criança está vivendo o espaço, ampliando seu mundo e reconhecendo sua complexidade. As atividades que vier a realizar na escola acrescentarão novas possibilidades de ler, ver, escrever e compreender o vivido.\n\nTomando-se como referência a finalidade da geografia nos anos iniciais, bem como o conjunto de orientações pedagógicas, destacamos os direitos de aprendizagens que precisam ser desenvolvidos nos alunos com o estudo da geografia, ao longo de cada ano.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

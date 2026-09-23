@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0167e684b60a32b8006ab30a9db78087d2aeb6efefac0729aa",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 771,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 814,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 1585
+    }
+  },
+  "created_at": "2026-09-22T23:09:22Z",
+  "duration_seconds": 5.739,
+  "error": null,
+  "excerpt_id": "rj_inf_camp_exp_1",
+  "filename": "rj_inf_camp_exp_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b06dd9cef2abbbb41905c611a3c55f760c5a005a4bb3e4e44e4a8a17def5b7b6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1d7facdff4a9f90500b611248e05d7be46c64eb6121f899b4ca0d0161e6bf035",
+    "rendered_prompt_sha256": "4899894e0f22530591ff5a92c5c5526cd3bc6f4f1c6a5c9ba3e450b0d9636521",
+    "source_text_sha256": "9e2ae9b202d3c030f4ca204bfd6e063d75e881e358bec320751bffad97e5c56c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_camp_exp_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2903,
+    "filename": "rj_inf_camp_exp_1.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_camp_exp_1.txt",
+    "state": "rj",
+    "word_count_original": 484
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_camp_exp_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_camp_exp_1.json"
+  },
+  "raw_response_text": "# Campos de Experiência na Educação Infantil\n\n> Ensinar uma criança não é encher um vaso, é acender uma chama.  \n> — Montaigne\n\nO documento da Base Nacional Comum Curricular (BNCC), do Ministério da Educação (MEC, 2017), sugere os campos de experiência como arranjo curricular para a educação infantil. Pensar nos campos de experiência significa abrir mão de diversas práticas que conhecemos e avançar para mais próximo das diversidades culturais, que são sempre abertas, já que se constroem e também se reinventam naquilo que é inaugurado pela singularidade que se apresenta com a chegada de cada novo membro.\n\nInicialmente é válido compreendermos o conceito de experiência segundo alguns autores e documentos norteadores. Essa maneira de compreender a organização do currículo já estava anunciada no Parecer nº 20/2009, que revisou as Diretrizes Curriculares Nacionais para a Educação Infantil (DCNEI). Nesse documento, propõe-se que o currículo dessa etapa da educação básica estruture-se “em eixos, centros, campos ou módulos de experiências que devem se articular em torno dos princípios, condições e objetivos propostos nesta diretriz” (MEC, 2009, p. 16).\n\nA proposição desse modo de organizar o currículo na educação infantil brasileira fortalece a identidade e o compromisso pedagógico, político e social que essa etapa da educação tem na sociedade, especialmente com bebês e crianças pequenas. Os campos de experiência subvertem a lógica disciplinar e artificial de estruturar o conhecimento, centrando-se em uma perspectiva mais complexa de produção de saberes em que a criança, sustentada “nas relações, nas interações e em práticas educativas intencionalmente voltadas para as experiências concretas da vida cotidiana, para a aprendizagem plural da cultura, pelo convívio no espaço da vida coletiva e para a produção de narrativas, individuais e coletivas, através de diferentes linguagens” (MEC, 2009, p. 14), elabora formas de atribuir sentido a si mesma e ao mundo.\n\nA pedagogia dos campos de experiência é relacional, ou seja, o conhecimento é produzido na interação entre a criança e o mundo, entre os adultos e as crianças, entre as crianças e as outras crianças. É uma pedagogia que reivindica estar aberto para a complexidade que é conhecer e conhecer-se. Trata-se de uma mudança de paradigma, da mudança da lógica da antecipação artificial de conteúdos para o reconhecimento de que o ato educativo não se deve “apressar, porque o importante está acontecendo aqui e agora” (Staccioli, 1998, p. 57).\n\nAssim, organizar o trabalho pedagógico a partir dos campos de experiência parece atender a uma importante demanda da educação infantil, que é a de dar sentido à variedade de experiências que as crianças experimentam na escola (Zuccoli, 2015).\n\nO trabalho com os campos de experiência “consiste em colocar no centro do projeto educativo o fazer e o agir das crianças [...] e compreender uma ideia de currículo na escola de educação infantil como um contexto fortemente educativo, que estimula a criança a dar significado, reorganizar e representar a própria experiência” (Fochi, 2015, p. 221-228).",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

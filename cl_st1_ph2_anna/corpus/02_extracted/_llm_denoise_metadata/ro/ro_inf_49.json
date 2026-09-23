@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08e60f0769732bd9006ab30cbb3d7487d2b214ef62a4e883b4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 530,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 510,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 1040
+    }
+  },
+  "created_at": "2026-09-22T23:18:23Z",
+  "duration_seconds": 4.702,
+  "error": null,
+  "excerpt_id": "ro_inf_49",
+  "filename": "ro_inf_49.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "acd8ae669f3218ecdf02b8cd4fb1a789a3aa0c6c1e71143a452da27c8b635e44",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bc0a8128c5a98a1622090b9de3b4df2dc7814a1b21debce0c3e495c2e112d15a",
+    "rendered_prompt_sha256": "f43ab63f17eafd7270ec80034dd79fe760a83038280e78bae39db89a9a9c2b67",
+    "source_text_sha256": "97bf11238780730902cc11d7cf23abf7267995ded6efa51aa906995e2455f329"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_49.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3364,
+    "filename": "ro_inf_49.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_49.txt",
+    "state": "ro",
+    "word_count_original": 336
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_49.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_49.json"
+  },
+  "raw_response_text": "# A Coordenação Pedagógica na Educação Infantil\n\nO serviço de coordenação pedagógica nas instituições de Educação Infantil é tão necessário e importante quanto é nas outras etapas da Educação Básica, as funções desta coordenação têm grande relevância no processo de coordenar o trabalho educativo voltado às crianças.\n\nCoordenar as práticas pedagógicas é uma responsabilidade que requer um profissional atento e sensível, aberto ao exercício contínuo da aprendizagem e pronto para atender às demandas pertinentes à liderança de um grupo de professores com necessidades específicas diversas. Por isso, a coordenação pedagógica de educação infantil precisa ter um bom entrosamento e interação com a comunidade institucional e, em especial, com os professores que coordena, compreendendo os encaminhamentos pedagógicos que realiza e das formas que encontra para valorizar a equipe de professores, demonstrando seriedade e diálogo com equipe de docentes.\n\nNas instituições de Educação Infantil todos os integrantes têm papel fundamental, porém o coordenador pedagógico é uma figura decisiva em alguns encaminhamentos com as crianças e os professores, especialmente por possuir uma visão ampla e global do todo institucional, sendo um articulador entre as ações pedagógicas, as famílias das crianças, os professores, os demais integrantes da comunidade educativa e dos demais aspectos que integram o fazer pedagógico.\n\nA este profissional é delegada a função de mediar a formação continuada dos docentes, seu olhar deve ser crítico e reflexivo sobre o planejamento docente, sempre se ocupando com as necessidades educativas das crianças em conformidade com as necessidades formativas dos professores e, sobretudo, ocupando-se, também, com a sua própria formação, ocupa o lugar de parceiro mais experiente dos professores.\n\nAssim sendo, o papel desse profissional está além de orientar o processo educativo, é ele um acionador do avanço educacional, sujeito ativo e reativo, que está junto aos docentes dando-lhes os suportes e condições necessárias para desenvolver o trabalho pedagógico consoante com as necessidades demonstradas pelas crianças, tornando-as centro do planejamento da prática docente e, concomitantemente, fazendo com que o processo educativo aconteça em conformidade com os seus documentos normativos.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

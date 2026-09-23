@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a237163aa8b9a14006ab30b6f65e887d2afaab781af3c40a6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 561,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1181,
+      "output_tokens_details": {
+        "reasoning_tokens": 717
+      },
+      "total_tokens": 1742
+    }
+  },
+  "created_at": "2026-09-22T23:12:59Z",
+  "duration_seconds": 12.676,
+  "error": null,
+  "excerpt_id": "ro_ef_11",
+  "filename": "ro_ef_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "088d2ab0fdc68edf0e457e91f2d3145c3af48955e744b7aa35cdfadebe42ffd5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "53d29f358fc04489364e8da486bfbdf1f30dc77c57b231645050332b61794693",
+    "rendered_prompt_sha256": "025415d4b38af1a69ad993664e634c2871a00cff62890190678c8d29a2b6eb9d",
+    "source_text_sha256": "2194c8984d0b496aa0b23de22b2bd8d4ea835696301074ee501ff2bcda635acd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3107,
+    "filename": "ro_ef_11.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_11.txt",
+    "state": "ro",
+    "word_count_original": 335
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_11.json"
+  },
+  "raw_response_text": "## 3.2 EDUCAÇÃO INTEGRAL\n\nO referencial curricular do estado de Rondônia explicita o seu compromisso com a educação integral, reconhece, assim, que a Educação Básica deve visar à formação e ao desenvolvimento humano global, o que implica compreender a complexidade e a não linearidade desse desenvolvimento, rompendo com visões reducionistas que privilegiam ou a dimensão intelectual (cognitiva) ou a dimensão afetiva. Significa, ainda, assumir uma visão plural, singular e integral da criança, do adolescente, do jovem e do adulto – considerando-os como sujeitos de aprendizagem – e promovendo uma educação voltada ao seu acolhimento, reconhecimento e desenvolvimento pleno, nas suas singularidades e diversidades. Além disso, a escola, como espaço de aprendizagem e de democracia inclusiva, deve se fortalecer na prática coercitiva de não discriminação, não preconceito e respeito às diferenças e diversidades.\n\nIndependentemente da duração da jornada escolar, o conceito de Educação Integral com o qual o Documento Curricular está comprometido se refere à construção intencional de processos educativos que promovam aprendizagens sintonizadas com as necessidades, as possibilidades e os interesses dos estudantes e, também, com os desafios da sociedade contemporânea. Isso supõe considerar as diferentes infâncias e juventudes, as diversas culturas juvenis e seu potencial de criar novas formas de existir.\n\nAssim, propõe-se a superação da fragmentação radicalmente disciplinar do conhecimento, o estímulo à sua aplicação na vida real, à importância do contexto para dar sentido ao que se aprende e o protagonismo do estudante em sua aprendizagem e na construção de seu projeto de vida.\n\nEnfim, para que o estudante adquira uma educação integral que contemple todas as dimensões do desenvolvimento humano, o Referencial Curricular do Estado de Rondônia vem desenvolvendo na extensão dos Componentes Curriculares as Competências Gerais, por comporem um conjunto de conhecimentos, habilidades e atitudes que precisam ser desenvolvidas nos estudantes para que os mesmos tenham condições de (escutar, se comunicar, expressar suas ideias com clareza, emitir opiniões com argumentos fortes que consubstanciam suas ideias) de enfrentar e saber se defender dos desafios e complexidades surgidos no seu cotidiano.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

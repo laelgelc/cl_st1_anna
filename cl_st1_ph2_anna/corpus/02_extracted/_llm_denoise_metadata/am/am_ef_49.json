@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07d6ede00d0bb329006ab2fd4267b887d2b8649b67683b99ac",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 475,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 568,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 1043
+    }
+  },
+  "created_at": "2026-09-22T22:12:23Z",
+  "duration_seconds": 4.806,
+  "error": null,
+  "excerpt_id": "am_ef_49",
+  "filename": "am_ef_49.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ac7076bdaa39955d2e09636b6931193c4f732b0f4dc316b1a62b9a2636ae7b5d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3103a11f70536567e1fa5f706cd9cf89217dfb69c95745a0c2047f0a8542eb93",
+    "rendered_prompt_sha256": "2996a3e98379c0fee6fe66ec554d6b757a1e0d8ab4b557508c2d7c4a4333400e",
+    "source_text_sha256": "ab1e0be5c783cabb72bc4afa3dd81ead694e5ff243769363fd3ce6b6f243abd3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_49.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 353,
+    "filename": "am_ef_49.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_49.txt",
+    "state": "am",
+    "word_count_original": 227
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_49.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_49.json"
+  },
+  "raw_response_text": "1. Utilizar os conhecimentos geográficos para entender a interação sociedade/natureza e exercitar o interesse e o espírito de investigação e de resolução de problemas.\n\n2. Estabelecer conexões entre diferentes temas do conhecimento geográfico, reconhecendo a importância dos objetos técnicos para a compreensão das formas como os seres humanos fazem uso dos recursos da natureza ao longo da história.\n\n3. Desenvolver autonomia e senso crítico para compreensão e aplicação do raciocínio geográfico na análise da ocupação humana e produção do espaço, envolvendo os princípios de analogia, conexão, diferenciação, distribuição, extensão, localização e ordem.\n\n4. Desenvolver o pensamento espacial, fazendo uso das linguagens cartográficas e iconográficas, de diferentes gêneros textuais e das geotecnologias para a resolução de problemas que envolvam informações geográficas.\n\n5. Desenvolver e utilizar processos, práticas e procedimentos de investigação para compreender o mundo natural, social, econômico, político e o meio técnico-científico e informacional, avaliar ações e propor perguntas e soluções (inclusive tecnológicas) para questões que requerem conhecimentos científicos da Geografia.\n\n6. Construir argumentos com base em informações geográficas, debater e defender ideias e pontos de vista que respeitem e promovam a consciência socioambiental e o respeito à biodiversidade e ao outro, sem preconceitos de qualquer natureza.\n\n7. Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, propondo ações sobre as questões socioambientais, com base em princípios éticos, democráticos, sustentáveis e solidários.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

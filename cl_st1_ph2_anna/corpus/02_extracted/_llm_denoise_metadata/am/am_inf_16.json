@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08fb822e1c0375ac006ab2fd9939f087d2b7a09c7a8fefe34d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 695,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 765,
+      "output_tokens_details": {
+        "reasoning_tokens": 214
+      },
+      "total_tokens": 1460
+    }
+  },
+  "created_at": "2026-09-22T22:13:51Z",
+  "duration_seconds": 6.491,
+  "error": null,
+  "excerpt_id": "am_inf_16",
+  "filename": "am_inf_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e691a00f42242d0246988e93a233a4215d5ffadd13a9923ac291da4f1218e8e6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5ba5118db84626a1985ce7c556a48eefef7d16479f1a510abee9f340c9df253f",
+    "rendered_prompt_sha256": "e7795f47ea6984ec420bb57c51839a9148ddb92e2ba8798402c044cea2c0e20a",
+    "source_text_sha256": "8819544dac55782893e08a5c271d02faa8e5e046bf9af13a80e8f6a4e3631fc8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 416,
+    "filename": "am_inf_16.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_16.txt",
+    "state": "am",
+    "word_count_original": 430
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_16.json"
+  },
+  "raw_response_text": "## Fotografia e Cinema\n\nPara além da possibilidade de se conversar com os bebês e crianças sobre as transformações de sua história a partir das fotografias pessoais, de família e de amigos, que trazem registros de passeios, festas e demais situações, as máquinas fotográficas ou celulares com câmeras possibilitam realizar imagens que colaboram com a nossa capacidade de olhar a partir de pontos de vistas alternativos: dependendo de como são realizadas as fotos, obtemos mais detalhes sobre os objetos focados, descobrindo particularidades que podem ainda não ter sido observadas. Podemos nos colocar, junto às crianças, a observar variadas texturas, o que ocorre entre as formigas no parque da creche ou da pré-escola, os grãos de arroz no momento em que a refeição é servida, as paredes que delimitam as salas, as trilhas feitas na terra pelos insetos, os olhos, mãos e gestos dos amigos da turma, enfim, infinitas possibilidades de pesquisa nos ambientes vividos pelos meninos e meninas.\n\nA educação do olhar é tão importante quanto a leitura das palavras. A linguagem visual está nos diferentes espaços que a criança convive. Mas que imagens as crianças têm disponível para exercitar modos de ver? As fotografias de lugares e coisas não óbvias podem se constituir em repertório de imagens complexas e difíceis para desafiar o olhar das crianças, contribuindo para uma leitura mais ampla para além dos personagens de filmes e desenhos infantis que geralmente cobrem as paredes da escola da infância. A princípio, é preciso que se tenham imagem de leitura fácil e imagens que instiguem o olhar a pensar sobre o que vê. Esse exercício amplia a capacidade de imaginar e criar, além de garantir o uso de recursos tecnológicos e midiáticos pelas crianças, como asseguram as DCNEI (BRASIL, 2009b).\n\nO cinema deve ser apresentado às crianças porque elas têm direito de acessar àquilo que de mais elaborado a humanidade já produziu. É comum o uso de televisores nas escolas com vídeos de desenho animados, musicais e filmes de animação infantil, mas devemos oferecer, além disso. Existe um grande acervo de curtas, documentários e filmes que não são animação que podem favorecer a ampliação de repertórios das crianças. Importante destacar que o uso do vídeo não pode ser um passatempo sem planejamento usado para emergências ou deixar as crianças expostas por um longo tempo, mesmo quando não há interesse. O vídeo deve ser visto antes pela/pelo professora/professor, sempre ser mediado por diálogos e ter objetivo de promover o desenvolvimento do olhar curioso e atento das crianças, ampliando seu conhecimento de mundo.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

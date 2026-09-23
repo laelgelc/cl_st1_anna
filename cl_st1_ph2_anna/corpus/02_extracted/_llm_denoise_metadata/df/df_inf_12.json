@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0547292a0f4732fe006ab3005bcb6887d297c41de196438088",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 579,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 522,
+      "output_tokens_details": {
+        "reasoning_tokens": 76
+      },
+      "total_tokens": 1101
+    }
+  },
+  "created_at": "2026-09-22T22:25:35Z",
+  "duration_seconds": 4.022,
+  "error": null,
+  "excerpt_id": "df_inf_12",
+  "filename": "df_inf_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "891e5c00fd79291990a15a72e018f3e16217967dad7d0d9ed7fb1ceeaa56afa3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "880941155b100e040e0dfdd797f51406f6e006c1737201dfab7519e58283c124",
+    "rendered_prompt_sha256": "87d19ad6f0bf3203a82b4911b3b268015b3901b4ecc6359aa0da0217e6efca25",
+    "source_text_sha256": "deb16cf6c69b0f82c24ccd9add5ef0005567328359d956b40421c1b66e40bf8c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_inf_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 955,
+    "filename": "df_inf_12.txt",
+    "filepath": "corpus/00_source_per_state/df/df_inf_12.txt",
+    "state": "df",
+    "word_count_original": 315
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_inf_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_inf_12.json"
+  },
+  "raw_response_text": "### 7.5. Datas comemorativas\n\nA exploração das datas, festejos, eventos comemorativos no calendário da Educação Infantil está bastante naturalizada em suas instituições educativas. Entretanto, tal fato não pode obscurecer a necessidade de reflexão acerca dessa realidade. Nesse sentido, ao propor celebração de datas comemorativas no calendário letivo, é importante que, coletivamente, os profissionais da educação reflitam a respeito disso, respondendo questões como:\n\n- Por que a instituição de Educação Infantil acredita ser válida a mobilização de equipes para celebrar esta ou aquela data específica?\n- Por que é necessário realizar atividades acerca das datas comemorativas, todos os anos, com poucas variações em torno do mesmo tema?\n- As atividades relacionadas à temática ampliam o campo de conhecimento das crianças? Em que sentido?\n- As atividades foram escolhidas pelo coletivo da instituição educativa, pela família e/ou responsável ou pelas crianças?\n- Os sentimentos e as aprendizagens infantis são levados em consideração?\n- O trabalho desenvolvido em torno das datas está articulado com os objetivos relacionados às aprendizagens? Constam na Proposta Pedagógica da instituição educativa?\n- As crianças são submetidas, ao longo dos anos, às mesmas atividades, ações e explicações?\n- Considera-se as idades das crianças, seus interesses e capacidades ao se eleger as datas comemorativas?\n- São feitas diferentes abordagens para diferentes faixas etárias?\n- Interrompem-se trabalhos em andamento para incluir datas comemorativas?\n- Quais são os critérios para a escolha das datas comemorativas? Algumas são mais enfatizadas que outras? Por quê?\n- Os conteúdos e as atividades comemorativas são problematizados pelos adultos e pelas crianças?\n- Como são tratados os aspectos culturais dessas datas comemorativas? Sob qual enfoque? Com qual aprofundamento?\n- Quais valores, conceitos, ideologias atravessam essas celebrações?\n\nColetivamente, promover a crítica e a reflexão em torno das datas comemorativas auxilia na problematização de experiências curriculares. O que importa é tornar datas e festas carregadas de sentidos para as crianças, colocando, como centro do planejamento curricular, as aprendizagens dos estudantes, seu desenvolvimento e sua cidadania.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

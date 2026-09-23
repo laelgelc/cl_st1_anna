@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09b7e8ac8f4779b0006ab30e001dd887d2b10650cfd5f8be92",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 721,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 673,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 1394
+    }
+  },
+  "created_at": "2026-09-22T23:23:48Z",
+  "duration_seconds": 4.437,
+  "error": null,
+  "excerpt_id": "rs_inf_2",
+  "filename": "rs_inf_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fff69dbba81adf4efcfbf3beb874f111cc1303f5360bd5d206e2ae524772743b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a852fe635e077d15d3c74c407c01ebd8b65a6b5fddee2244181694156dd9a370",
+    "rendered_prompt_sha256": "605313701f775a6b1755df7727d24dea45a0624030d3056fddd6375a48bc2f75",
+    "source_text_sha256": "d3f015ec4f19edc2adf0018d6021191b63c449ed9eb262439701143407e7c8ee"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3652,
+    "filename": "rs_inf_2.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_2.txt",
+    "state": "rs",
+    "word_count_original": 400
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_2.json"
+  },
+  "raw_response_text": "Caro Professor...\n\nVocê está vivendo um momento histórico para a qualificação das práticas desenvolvidas na Educação Infantil: a elaboração do primeiro documento curricular, na história do Rio Grande do Sul, para bebês, crianças bem pequenas e crianças pequenas. O objetivo principal deste documento é o de orientar a elaboração dos currículos das redes e das escolas, no sentido de garantir as aprendizagens essenciais a que todas as crianças têm direito e o desenvolvimento integral nas dimensões intelectual, física, afetiva, social, ética, moral e simbólica. O documento apresenta os objetivos de aprendizagem propostos pela BNCC, como também os objetivos de aprendizagem sugeridos pelos educadores por meio da plataforma do Referencial Curricular Gaúcho, além de ações e contribuições para sua implementação no cotidiano da Educação Infantil, organizados nos cinco Campos de Experiências: O Eu, o Outro e o Nós; Corpo, Gestos e Movimentos; Traços, Sons, Cores e Formas; Escuta, Fala, Pensamento e Imaginação; Espaços, Tempos, Quantidades, Relações e Transformações.\n\nA estrutura dos documentos, tanto da BNCC como do Referencial Curricular Gaúcho para a Educação Infantil está organizada considerando três faixas etárias: bebês, crianças bem pequenas e crianças pequenas. Nesse sentido, seguiu-se a organização nestes três grupos etários não para separar as crianças ou restringi-las rigidamente, mas para acolher as especificidades das características e as possibilidades das aprendizagens das crianças, bem como orientar os educadores no desenvolvimento de suas práticas educativas. O modo como cada rede de ensino organiza seus agrupamentos não precisa ser modificado, a organização adotada, tanto na BNCC como no Referencial Curricular Gaúcho, serve como um norte, um guia para a estruturação desses documentos com relação aos grupos etários.\n\nO trabalho pedagógico na Educação Infantil precisa estar pautado na promoção de experiências, proporcionando o bem-estar físico e emocional, o desenvolvimento integral, a manifestação das múltiplas linguagens e a promoção de aprendizagens significativas a todas as crianças.\n\nAs Diretrizes Curriculares da Educação Infantil (2009) definem as interações e as brincadeiras como os dois grandes eixos da Educação Infantil e afirmam a indissociabilidade entre o cuidar e o educar. Por isso, neste documento, reafirmamos que as práticas cotidianas devem estar centradas nas experiências, nas interações e na brincadeira para que, por meio delas, as crianças desenvolvam e ampliem suas potencialidades, construindo significados e descobertas. Com o seu protagonismo, construiremos, juntos, uma Educação Infantil de qualidade, significativa e de forma integral para o nosso Estado do Rio Grande do Sul!",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

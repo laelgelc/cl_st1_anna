@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d7b4cc4c64db979006ab2ff31543887d2aadf9a93a9203ca9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 952,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1890,
+      "output_tokens_details": {
+        "reasoning_tokens": 1025
+      },
+      "total_tokens": 2842
+    }
+  },
+  "created_at": "2026-09-22T22:20:49Z",
+  "duration_seconds": 16.716,
+  "error": null,
+  "excerpt_id": "ce_ef_22",
+  "filename": "ce_ef_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a0d73dad150fc8bc74eacb9619ea5a937bc45da0d3dc32280d3e47ae5341a726",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3853fe440942d3ad8b36a9c60b72e5b6b17634a7294114b9267e9dbe0d4170f0",
+    "rendered_prompt_sha256": "f67fdcea02c89e6156462057611f35ecd6323df51792fece52344e33d8e75f20",
+    "source_text_sha256": "f26827968cddc3979180da76fc7f7d688f601f5f1b4288b5f1d44414dba84911"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 741,
+    "filename": "ce_ef_22.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_22.txt",
+    "state": "ce",
+    "word_count_original": 543
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_22.json"
+  },
+  "raw_response_text": "### 4.2.3. Área de Ciências da Natureza\n\n#### 4.2.3.1. Ciências\n\nA Base Nacional Comum Curricular do Ensino Fundamental, publicada em dezembro de 2017, apresenta o componente curricular de Ciências sob uma nova perspectiva, na qual o processo de ensino e de aprendizagem, anteriormente focado no conteúdo, desloca-se para o foco no desenvolvimento das competências e habilidades necessárias para a inserção consciente da/do estudante em uma sociedade cuja tecnologia e informação são características relevantes.\n\nNeste aspecto, os objetos curriculares propostos neste documento, constituem o aporte teórico e experimental para o desenvolvimento da/do estudante, respeitando as etapas da cognição e intencionando o aumento da complexidade ao longo do Ensino Fundamental. Assim, a finalidade última do letramento científico não é apenas aprender Ciências, mas fomentar na/no educando a capacidade de atuação no e sobre o meio que o cerca, pautada nos princípios da ética, equidade e sustentabilidade.\n\nO Documento Curricular Referencial do Ceará (DCRC), alinha-se à BNCC e propõe que às/os estudantes sejam continuamente provocados, a partir de sequências pedagógicas, a vivenciar o ensino de ciências a partir de problematizações que levem em consideração a diversidade cultural, estrutural e a especificidade de cada local. Pressupomos que, a partir da incitação à curiosidade científica, a capacidade de identificar e resolver problemas do cotidiano, utilizando as ferramentas tecnológicas, sejam percebidas, pelas educandas e pelos educandos, de forma consciente e sustentável, com vistas ao bem comum.\n\nO respeito ao processo cognitivo apresentado como conceito estruturante da BNCC, deve ser especialmente observado na transição da Educação Infantil para os anos iniciais do Ensino Fundamental e destes para os anos finais, ao se construírem os planos de aula. Consideramos que, na Educação Infantil, o aprendizado é organizado a partir da percepção de si e do outro mediado pelo ato de brincar. Nesse sentido, a aprendizagem, nos anos iniciais, deve estar imbuída desta lógica, sendo o letramento científico pautado na experimentação e na ludicidade, o que corrobora para a utilização de metodologias ativas, que circunstanciam o atendimento à investigação e o fazer científico.\n\nAssim como o processo de transição, o processo de progressão também deve ser considerado no Ensino Fundamental. No quadro que segue, apresentamos verbos que representam ações do processo cognitivo que podem contribuir para o trabalho do professor e da professora na sua organização didática.\n\n**Quadro 01: Processos Cognitivos a serem mediados pelo estudo de Ciências no Ensino Fundamental.**\n\n| Etapa | Ano | Processos Cognitivos |\n|---|---:|---|\n| Anos iniciais | 1º | Identificar, localizar, comparar, discutir, nomear, selecionar exemplos e reconhecer. |\n| Anos iniciais | 3º | Observar, registrar, identificar, descrever, comparar, experimentar, relatar, produzir, discutir. |\n| Anos iniciais | 4º e 5º | Identificar, explorar, aplicar conhecimentos, selecionar argumentos, construir propostas, justificar a relação, organizar (cardápio), discutir, associar, concluir, projetar e construir. |\n| Anos finais | 6º | Classificar, identificar, selecionar métodos e instrumentos, associar, explicar, concluir, justificar, deduzir, inferir. |\n| Anos finais | 7º | Caracterizar, descrever, discutir, diferenciar, utilizar o conhecimento, explicar, avaliar, interpretar, argumentar, analisar historicamente, demonstrar, selecionar e implementar propostas, justificar. |\n| Anos finais | 8º | Identificar, classificar, construir, calcular, propor ações coletivas, discutir, avaliar, comparar, analisar e explicar, comparar, justificar, selecionar, representar. |\n| Anos finais | 9º | Descrever, relacionar, comparar, classificar, analisar, associar, investigar, identificar modelos, reconhecer evolução histórica, discutir, selecionar argumentos, planejar, executar, justificar, propor iniciativas (individuais e coletivas). |",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

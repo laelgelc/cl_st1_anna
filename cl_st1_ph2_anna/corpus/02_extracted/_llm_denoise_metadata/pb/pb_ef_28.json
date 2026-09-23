@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00e18eccd8c7c28c006ab306b8bd9087d280c2aa46980a4ce0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 627,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 641,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 1268
+    }
+  },
+  "created_at": "2026-09-22T22:52:46Z",
+  "duration_seconds": 5.799,
+  "error": null,
+  "excerpt_id": "pb_ef_28",
+  "filename": "pb_ef_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9c78194d4b5986e8ecdf6346ff4484adadb4a62b56c587d8a6d1569fcf1dfacf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9f92bb2c0f5e609dce7e6a76cf569cd7f5feadd5d390a7c64c4fd7b22732f7ff",
+    "rendered_prompt_sha256": "d839a9e1be648f683125163cdb0dd78eff1a28c0dcf8722571153f2b6c51c114",
+    "source_text_sha256": "0c48107a6a04cfe0b53140c3b058b0da963c9fd0a8ba2db488689f80d2b7d7f7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2196,
+    "filename": "pb_ef_28.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_28.txt",
+    "state": "pb",
+    "word_count_original": 332
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_28.json"
+  },
+  "raw_response_text": "### 5.4.2 Direitos de aprendizagem para o ensino de Língua Inglesa\n\n- Vivenciar a aprendizagem da Língua Inglesa enquanto prática social e dinâmica através da abordagem de conhecimentos, atitudes e valores culturais, morais e éticos.\n- Participar de práticas de linguagem diversificadas, ampliando as capacidades expressivas em diversos tipos de manifestações de uso real da Língua Inglesa.\n- Conhecer diferentes manifestações culturais e desenvolver atitude de respeito diante delas.\n- Comunicar-se, produzir e ler textos em Língua Inglesa, inferindo significados, analisando e refletindo criticamente sobre diferentes elementos de composição textual.\n- Experienciar contextos culturais diversos, envolvendo a Língua Inglesa, participando com autonomia e protagonismo também na vida social e horizontalizando os modos de se expressar e participar no mundo.\n- Compreender e utilizar as tecnologias digitais de forma crítica, significativa e responsável, vislumbrando novas linguagens e novos modos de interação nas práticas de multiletramentos na Língua Inglesa que aproximam e entrelaçam diferentes semioses e linguagens: verbal, visual, corporal, audiovisual, digital, etc.\n- Participar de situações que propiciem o estímulo a curiosidade sobre o outro, conhecendo e refletindo sobre o conjunto de patrimônios culturais produzidos e difundidos em Língua Inglesa.\n- Contribuir em contextos de problematização e ampliação de perspectivas, rompendo com o viés eurocêntrico e abordando o Inglês enquanto língua franca.\n- Perceber-se cidadão em um mundo plurilíngue e inter/trans cultural, compreendendo as relações existentes entre língua(s), cultura(s) e identidade(s).\n- Ampliar as vivências em situações de comunicação na Língua Inglesa estimulando a criatividade, curiosidade e promovendo um aprendizado de Língua Inglesa lúdico, prazeroso, estético e crítico.\n- Inserir-se em práticas que enfoquem o caráter formativo da aprendizagem de Inglês, redefinindo as relações pré-estabelecidas entre língua, território e cultura.\n- Participar ativamente de situações de aprendizagem e atividades diversificadas do componente curricular que envolvam metodologias ativas e que os ponham no centro do processo de ensino e aprendizagem.\n- Fazer uso da Língua Inglesa, para falar de si próprio, de familiares ou de sua comunidade.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

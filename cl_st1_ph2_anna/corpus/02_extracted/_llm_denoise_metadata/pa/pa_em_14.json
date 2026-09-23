@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_036b395474890220006ab305b54d9c87d2baa6329ffdb8f082",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 658,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 922,
+      "output_tokens_details": {
+        "reasoning_tokens": 353
+      },
+      "total_tokens": 1580
+    }
+  },
+  "created_at": "2026-09-22T22:48:31Z",
+  "duration_seconds": 9.805,
+  "error": null,
+  "excerpt_id": "pa_em_14",
+  "filename": "pa_em_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8bfdee401937c985583efd5faa63dbf1587eed7739a0a99c003947b96599e185",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "83987a883298b977da396685e9a136e4fa7878283737b327fb4445e38669f8bb",
+    "rendered_prompt_sha256": "2130ca328bf2ca61c773426afdfe223a40de73045134f80717ed0461723226cf",
+    "source_text_sha256": "057db9428c7319804ebd866aec41b83cc92a9f84d44090b431b2ad2ed6f2c9e1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2058,
+    "filename": "pa_em_14.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_14.txt",
+    "state": "pa",
+    "word_count_original": 410
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_14.json"
+  },
+  "raw_response_text": "### Quadro 4: Descrição dos Procedimentos de escuta\n\n| PROCEDIMENTO | ORIENTAÇÕES |\n|---|---|\n| Planejamento da Escuta | A escola deve pensar sobre como fazer o levantamento dos interesses e expectativas de aprendizagem dos educandos. Entretanto, para isso é necessário primeiramente que os estudantes e a comunidade escolar conheçam a proposta pedagógica da escola e o planejamento da unidade escolar. É relevante a escola iniciar um processo de planejamento tendo em vista quais as aprendizagens que os jovens necessitam conhecer no ensino médio: qual a proposta pedagógica que permeia a escola? Qual o nível de conhecimento que a comunidade possui dessa proposta? Como será levantado os interesses e expectativas para se realizar a escuta? Ou seja, que pode ser obtida através de questionários, enquetes, roda de conversa, entrevistas diretas, oficinas, formulários online, painel interativo, círculos de conversa etc. Consiste em reunir as perspectivas e pretensões no que diz respeito às aprendizagens dos estudantes, assegurando a participação dos mesmos no protagonismo juvenil. O importante é que a escola estruture como será o processo de escuta considerando cada segmento (professores, alunos, responsáveis e demais funcionários) porque quanto mais ampliado o processo de escuta, mais assertivas serão as deliberações na escola. |\n| Sistematização para a análise dos dados da Escuta | Posteriormente ao processo de planejamento, a escola deve analisar como serão sistematizados esses dados, podendo ser realizados por meio de gráficos, quadros com levantamentos estatísticos, descrição das escutas, painel interativo etc. Além desses instrumentos, a escola precisa ter critérios para seleção desses dados, por área de interesse, por ano/série ou pela quantidade de respostas a um determinado assunto, por exemplo, criando assim, um sistema de armazenamento e de nomeação de arquivos para que todas as pessoas da equipe escolar possam colaborar com sua construção e apresentação. A sistematização poderá responder às seguintes perguntas: quais as áreas de conhecimento que a maioria dos alunos possuem mais interesse em estudar? Quantos alunos pretendem seguir a vida acadêmica? Quantos alunos pretendem seguir para área profissionalizante? Quantos |\n\nFonte: Organizado por ProBNCC (2020).\n\nNeste sentido, o planejamento integrado, para que seja realmente efetivado de forma coerente e democrática dentro da escola, deverá ter o diagnóstico fundamentado na escuta, a fim de que sejam tomadas as decisões as quais respondam aos princípios de autonomia, da formação humana integral, da promoção da diversidade, da sustentabilidade, do diálogo, da gestão democrática, da integralidade dos conhecimentos e da promoção da cidadania. A seguir, apresentam-se as áreas de conhecimento que compõe a nucleação da formação geral básica.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

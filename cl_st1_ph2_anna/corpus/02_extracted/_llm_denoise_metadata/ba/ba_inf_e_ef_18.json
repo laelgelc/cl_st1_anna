@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0460390f5f3f7570006ab2ff0413c887d2ae928d9cf266387c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 2260,
+      "input_tokens_details": {
+        "cache_write_tokens": 2257,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2517,
+      "output_tokens_details": {
+        "reasoning_tokens": 434
+      },
+      "total_tokens": 4777
+    }
+  },
+  "created_at": "2026-09-22T22:20:08Z",
+  "duration_seconds": 20.47,
+  "error": null,
+  "excerpt_id": "ba_inf_e_ef_18",
+  "filename": "ba_inf_e_ef_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f5d78240bdf57bb89f0a30ee7790c44dccfa207631f3bb9132f485e0fe501fcf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a4c25923ee5b9a8e8a1db5c6108df8034f16f92322d72beb59c05d74b70bda53",
+    "rendered_prompt_sha256": "00a13547be905bb3275ad9f1518041938033798c161b370bec16a13557d727e1",
+    "source_text_sha256": "997abdf787207eb1dc2f476e5803b1825cb9bafc373f4ad61e7e3a258db9c1e8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_inf_e_ef_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 711,
+    "filename": "ba_inf_e_ef_18.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_inf_e_ef_18.txt",
+    "state": "ba",
+    "word_count_original": 1365
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_inf_e_ef_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_inf_e_ef_18.json"
+  },
+  "raw_response_text": "## 5.2.2. Educação para as Relações Étnico-Raciais\n\nAs temáticas concernentes à Educação para as Relações Étnico-Raciais demandam uma abordagem enfática no Documento Curricular Referencial da Bahia para a Educação Infantil e Ensino Fundamental, tendo em vista a necessidade urgente do enfrentamento ao racismo estrutural que caracteriza a sociedade brasileira e baiana.\n\nA pluralidade sociocultural na Bahia é bastante expressiva e muito simbólica para o contexto nacional, uma vez que foi nesse estado que a história do Brasil começou. Essa diversidade, oriunda dos povos precursores dessa nação, indígenas, portugueses e africanos, recebeu ao longo da história novos sotaques e contornos culturais dos imigrantes e descendentes de europeus, africanos, asiáticos, latino-americanos, ciganos, entre outros. Diante desse fato, seria coerente e legítimo que a coexistência desses povos, bem como as suas tradições culturais, dos seus ancestrais e descendentes, convivessem harmônica e pacificamente em respeito e igualdade de oportunidades. Ou seja, vivendo efetivamente a famigerada “democracia racial”. No entanto, não é isso o que se observa,\n\n> “No Brasil, após quase quatrocentos anos de escravidão, o Estado Republicano não estabeleceu um projeto de reparação para os povos ‘libertos’ e alijados de acesso a direitos, no sentido de garantir as condições mínimas de inserção social, como acesso à terra, à moradia, à educação e à saúde. Tampouco houve o reconhecimento e valorização da pluralidade cultural desses povos; dessa forma, a identidade nacional tornou-se frágil, existindo, até os dias de hoje, a intolerância e desrespeito à diversidade. Não houve uma preocupação em se construir um conceito de povo, uma identidade nacional e tampouco de garantir aos trabalhadores acesso a direitos, mesmo os mais elementares como alimentação e moradia” (DISTRITO FEDERAL, 2010).\n\nNa contemporaneidade, os números das desigualdades, exclusão e violações de direitos desses povos estão expressos, diuturnamente, nas mais diversas mídias de comunicação do país e do mundo. Ao fazer um recorte, as estatísticas das desigualdades vivenciadas pela população negra, por exemplo, que perfaz 54% da população brasileira (IBGE, 2017), verificamos números alarmantes.\n\nSegundo o Atlas da Violência (2017)¹², elaborado pelo Instituto de Pesquisa Econômica Aplicada (Ipea) e pelo Fórum Brasileiro de Segurança Pública, no que diz respeito às vítimas de mortes violentas no país, “os homens, jovens, negros e de baixa escolaridade são as principais vítimas de mortes violentas no País. A população negra corresponde à maioria (78,9%) dos 10% dos indivíduos com mais chances de serem vítimas de homicídios”.\n\nÉ no Brasil, também, que está abrigada a quarta maior população prisional do mundo, ficando atrás apenas dos Estados Unidos, da China e da Rússia. São 622 mil brasileiros privados de liberdade, cerca de mais de 300 presos para cada 100 mil habitantes. Desses, 61,6% são pretos e pardos, revela o Levantamento Nacional de Informações Penitenciárias (Infopen).\n\nJá no que se refere ao rendimento médio dos trabalhadores, os negros recebem 1,5 mil reais ante 2,7 mil do que recebe o trabalhador branco, foi o que revelou a Pesquisa Nacional por Amostra de Domicílio (PNAD) – 2017.\n\nOutro levantamento realizado foi o do movimento Todos Pela Educação, que evidenciou que 76% dos jovens brancos entre 15 e 17 anos estão matriculados no Ensino Médio frente a 62% dos jovens negros matriculados nesta mesma etapa¹³. Isso significa dizer que os jovens negros entre 15 e 17 anos ou estão matriculados no Ensino Fundamental, em situação de distorção idade/ano e série, ou estão fora da escola.\n\nA essas desproporções nas estatísticas dos indicadores sociais entre brancos e negros se revela também o acesso, rendimento escolar e permanência na Educação Básica; do acesso e permanência no Ensino Superior; na produção científica, literária e artística, entre outras. Elas também aparecem na relação entre brancos e outros grupos étnicos e raciais, como os indígenas, ciganos, entre outros. E tendem ainda a se repetir nas intersecções de identidades sociais como mulheres, LGBTQIA+, pessoas com deficiência, entre outras.\n\nOs valores, atitudes e práticas que envolvem as questões étnico-raciais na sociedade brasileira e baiana não diferentemente se fazem presentes na comunidade e no contexto escolar. Demarcadas pelo preconceito, discriminações, racismo, machismo, sexismo, LGBT-fobia e xenofobia, a todos os grupos sociais que ali convivem e que fogem às intersecções das identidades sociais, histórica e culturalmente validadas e valoradas pela sociedade brasileira, o gênero masculino, a tez branca e as religiões cristãs.\n\nNa busca pelo combate às violações de direitos e o (re)conhecimento das reais contribuições desses povos, na constituição social do país, diversos normativos legais vigentes, no Brasil e na Bahia, foram sancionados, a exemplo da LDBEN/96, o Estatuto da Igualdade Racial/2010, o Estatuto da Igualdade Racial e de Combate à Intolerância Religião no Estado da Bahia/2014, o PNE/2014 e o PEE/2016. Esses normativos abordaram o respeito à diversidade e aos Direitos Humanos e a redução das desigualdades étnico-raciais em seus textos.\n\nContudo, a partir das lutas dos movimentos sociais, as Leis nos 10.639/03 e 11.645/08 foram sancionadas como formas mais contundentes para o rompimento das fronteiras do preconceito étnico e racial partindo da escola. Essas leis versam sobre a inclusão nos currículos, das Redes de Ensino da Educação Básica, da obrigatoriedade dos estudos da “História e Cultura Afro-Brasileira” e dos estudos da “História e Cultura Afro-Brasileira e Indígena”, respectivamente.\n\nSobre a Lei no 10.639/03, Pinheiro e Rosa se posicionam da seguinte forma:\n\n> “Entendemos que a lei é importante para assegurar que, em um país que se intitula o ‘paraíso da democracia racial’, as escolas discutam a história de nossos ancestrais africanos a partir de uma ótica diferente daquela apresentada pelo colonizador, mas conferindo direito a voz às pessoas que efetivamente construíram esse país, objetiva e subjetivamente, por meio de seu trabalho, da socialização da sua cultura e dos seus conhecimentos.”¹⁴\n\n¹² CERQUEIRA, Daniel. *Atlas da Violência 2017*. Rio de Janeiro: Ipea/Fórum Brasileiro de Segurança Pública, 2017. Disponível em: <http://www.ipea.gov.br/portal/index.php?option=com_content&view=article&id=30411>. Acesso em: 15 dez. 2019.\n\n¹³ KESLEY, Priscilla. Obstáculos no caminho: desigualdade racial na educação brasileira. Disponível em: <https://www.todospelaeducacao.org.br/conteudo/obstaculos-no-caminho-desigualdade-racial-na-educacao-brasileira>. Acesso em: 16 nov. 2018.\n\n¹⁴ PINHEIRO, Bárbara; ROSA, Katemari. *Descolonizando saberes: a Lei 10.639/2003 no Ensino de Ciências*. São Paulo: Editora Livraria da Física, 2018.\n\nO “lugar de fala”¹⁵, da expressão e manifestação dessas “minorias”, com tonalidades de pele, texturas dos cabelos, religiões e culturas diversas, precisa ser considerado na elaboração e na materialização dos currículos. A partir disso, a execução de ações e estratégias didático-pedagógicas de valorização e (re)conhecimento das produções culturais, científicas, literárias e tecnológicas africanas, afro-brasileira, indígenas, dos povos itinerantes, como os ciganos, entre outros grupos sociais que transitam o universo escolar. Segundo Silva, “é necessário haver descolonização didática” (SILVA apud PIRES et al., 2018).\n\nAinda segundo Pires et al. (2018), “as estratégias que buscam emergir mudanças político-didático-pedagógicas que trazem à tona questionamentos e, sobretudo, reflexões a partir de saberes voltados às identidades, alteridade, inter e multiculturalidade”.\n\nDiante do exposto, é imprescindível que a diversidade humana seja vista como subsídio para a formação dos estudantes, uma vez que a escola, como instituição democrática, deve atuar na desconstrução de todos os estereótipos arraigados nas práticas educacionais e sociais. Toda a produção cultural, literária, científica e tecnológica africana, indígena, dos povos itinerantes, entre outros, precisa ser considerada de forma estruturante nos currículos escolares, e não de uma forma vazia, caricatural e/ou pontual.\n\nO Documento Curricular Referencial da Bahia para a Educação Infantil e Ensino Fundamental, dessa forma, constitui-se em uma referência para que as unidades escolares tratem a Educação para as Relações Étnico-Raciais na perspectiva de incorporar a diversidade em toda a sua complexidade, compreendendo a dinâmica da ação educativa como prioritária para eliminar as discriminações, emancipar grupos historicamente discriminados, valorizar socioculturalmente o sujeito, demarcando a importante contribuição das ações pedagógicas na construção de identidades.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

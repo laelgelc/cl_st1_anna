@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f1369f12960b4c6006ab30dbd5bc887d28d9ce8f890baf5a7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 906,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 851,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 1757
+    }
+  },
+  "created_at": "2026-09-22T23:22:42Z",
+  "duration_seconds": 5.581,
+  "error": null,
+  "excerpt_id": "rs_em_5",
+  "filename": "rs_em_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b095bdfa2feedc5a39e703a95b3e2e57d54e4c71ef1e9cc27d455c3a9660c06f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6b937cda797f470793056631e564be2eb991a3df34c11dc1b989f9ca04b35dd9",
+    "rendered_prompt_sha256": "f414d418bec1196e8a0ead567a60b170042c78edd76557677a3879391c439fbc",
+    "source_text_sha256": "c0ed0a9cf5aba9343329bd9ea3509fcd27ee5f4365265a9ed985e3e8a0795767"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3594,
+    "filename": "rs_em_5.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_5.txt",
+    "state": "rs",
+    "word_count_original": 545
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_5.json"
+  },
+  "raw_response_text": "### 1.4 METAS PARA A MELHORIA DOS INDICADORES EDUCACIONAIS NO RIO GRANDE DO SUL\n\nPara se definirem metas no que concerne à aprendizagem e ao desempenho dos estudantes no Rio Grande do Sul, é necessário identificar e analisar os dados mais recentes disponíveis relacionados a essa temática.\n\nAo observar os índices do estado para a educação, podem-se ver três pontos em comum em quase todas as microrregiões: média do IDEB abaixo da projeção para 2021, altos índices de distorção idade/ano e menos da metade dos jovens entre 15 e 19 anos matriculados no Ensino Médio. Baseado nesse tripé e refletindo sobre esses dados e suas possíveis causas, devem-se estabelecer estratégias eficazes para conquistar a melhoria dos indicadores educacionais.\n\nA projeção do IDEB do Rio Grande do Sul para o ano de 2021 era de 5,3 pontos. De acordo com os resultados apresentados em 2017, o Estado ainda precisa conquistar um aumento de 1,9 pontos para atingir essa expectativa. Uma das metas incorporadas na construção deste documento é a de garantir as condições necessárias para que se consigam equiparar os índices do IDEB a essa projeção. O Ensino Médio prevê mudanças metodológicas e paradigmáticas que possibilitam melhorias na qualidade da educação. Ao articular as habilidades nos diferentes níveis da Educação Básica, espera-se que os estudantes tenham possibilidades de vivenciar aprendizagens significativas e experimentar novas formas de pensar e de se relacionar com a realidade, baseadas na solução de problemas, na formulação de hipóteses e na reflexão sobre diversos contextos, com a utilização de metodologias ativas, no sentido da promoção da autonomia dos estudantes, o que poderá potencializar uma melhora significativa nos índices do IDEB.\n\nNo que tange à distorção idade/ano, observa-se que os índices variam entre 25% e 49% na maioria das microrregiões do estado. Portanto, é necessário refletir acerca dos fatores que podem levar a essas distorções, bem como das soluções necessárias para que se diminuam esses números. Nesse contexto, o Ensino Médio, com sua reformulação, principalmente com a possibilidade da escolha de itinerários formativos (alinhados aos interesses e necessidades dos jovens), pode contribuir para diminuir a evasão e o abandono escolar. Não obstante, além de possibilitar maior desenvolvimento pessoal do estudante, a preparação alinhada às escolhas futuras (cursos preparatórios e universidade), também oferece a oportunidade de desenvolvimento profissional com os cursos técnicos.\n\nA respeito da ampliação das matrículas no Ensino Médio, verifica-se – segundo dados do IBGE de 2010 e dados das matrículas de 2018 – uma desproporção entre o número de adolescentes com idades entre 15 e 19 anos e o cômputo de registros nas escolas: na maioria das microrregiões, menos da metade está matriculada. Nesse sentido, o RCGEM, aliado aos investimentos em infraestrutura (ainda há escolas no Estado que não possuem acesso à internet banda larga, por exemplo), em recursos humanos, formação continuada de professores, poderá, nos próximos anos, melhorar esse e os outros dois indicadores anteriormente referidos.\n\nVale ressaltar que, mesmo que medidas gerais sejam tomadas para aprimorar os parâmetros educacionais do estado, é imprescindível que cada rede de ensino e escolas tenham autonomia para construírem seus Projetos Político-Pedagógicos em consonância com sua realidade local, visando incessantemente à aprendizagem significativa para os estudantes e sua formação como sujeito crítico e atuante na sociedade.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

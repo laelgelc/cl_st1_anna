@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01d98f0216a38826006ab307422c9887d2bf973361eeecba98",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 598,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 636,
+      "output_tokens_details": {
+        "reasoning_tokens": 131
+      },
+      "total_tokens": 1234
+    }
+  },
+  "created_at": "2026-09-22T22:55:03Z",
+  "duration_seconds": 5.097,
+  "error": null,
+  "excerpt_id": "pb_em_44",
+  "filename": "pb_em_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0c59e55f989d608b4a372d6f1cd59763aa14b3207285db37e0d4fb373c296cae",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6f771f2f0b5d205d28e987d9786dc10685277b3fc9f80a0d0b69478a581236b6",
+    "rendered_prompt_sha256": "9e94d4dc18830afee4fc9eade1d62c13aa7a92fbf9c28f156c19078c7540150a",
+    "source_text_sha256": "e7521d24c0ead9d682a4aa66fd3514b70c7baf1ae8152e07fe2e686d9740781c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2291,
+    "filename": "pb_em_44.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_44.txt",
+    "state": "pb",
+    "word_count_original": 312
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_44.json"
+  },
+  "raw_response_text": "### 2.1.7.1 A Educação Física\n\nAs unidades temáticas referentes ao Componente Curricular Educação Física perfazem/contemplam a cultura corporal do movimento (jogos, lutas, esportes, danças e ginásticas) e mais atividades corporais de aventura, sendo considerado o regionalismo contido em cada prática corporal. Neste documento, optamos em organizar as unidades temáticas por campo de atuação das linguagens. Contudo, criamos mais um campo intimamente correlacionado com a psicologia social: “corporeidade e movimento humano”, para o estudo de conteúdos que vão para além do movimento chegando a intencionalidade da ação (LANE, CODO, 1988).\n\nA proposta curricular do Estado da Paraíba traz à tona discussões das práticas corporais que se inserem na área de práticas alternativas e complementares de saúde (BRASIL, 2015) como exemplo a Yoga, Reiki, Tai chi chuan, Lian gong e Massagem, além de práticas corporais inclusivas (BORGMANN, GAVIÃO DE ALMEIDA, 2015) como os esportes paralímpicos/adaptados (COSTA, SOUSA, 2004).\n\nDesta forma, propomos conteúdos curriculares que são da Escola e não para Escola (CAPARROZ, 2007), que possam ser aplicadas nas mais diversas realidades paraibanas. Como essa proposta é apenas uma sugestão para prática docente, não incentivamos o engessamento entre unidade curricular e campos de conhecimento, como também entre unidade temática e seriação no nível médio, pois acreditamos na autonomia didática dos professores e que este sente na pele a realidade escolar, reconhecendo os limites e potencialidades da sua comunidade.\n\n**Figura 1:** Fases do sistema de identificação e desenvolvimento de talentos para o esporte.\n\n**Fonte:** Sistema de Identificação e Desenvolvimento de Talentos para o Esporte, 2017.\n\nCom isso, afirmamos que a Educação Física escolar pode participar da formação esportiva na fase de oportunização global de práticas esportivas, de acordo com o Sistema de Identificação e Desenvolvimento de Talentos para o Esporte que é incentivado pelo Comitê Olímpico do Brasil, conforme demonstrado na figura 1 (BALYI, HIGGS, 2013; BARNANTI, 2005; BÖHME, 2011, 2016).",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

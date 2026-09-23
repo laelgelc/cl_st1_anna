@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_032a5d3082060703006ab2fefd688c87d2b99bf6f3f104af50",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 566,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 579,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 1145
+    }
+  },
+  "created_at": "2026-09-22T22:19:46Z",
+  "duration_seconds": 5.031,
+  "error": null,
+  "excerpt_id": "ba_inf_e_ef_14",
+  "filename": "ba_inf_e_ef_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6fb469d6c9a24c701f09228817c82071bbe5061f92b501b0d12826a2e38cc7f0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9f0407b98256d62ae4ca479b7f9c84602ad0781e3cbee12d15faa1a2db6085d5",
+    "rendered_prompt_sha256": "3b862e1c9ad60a9263928047fbeec2b726265a98f133b7d5990a112f9fb9f480",
+    "source_text_sha256": "bc077a590e8a34b7a0e463e5a5330a1567f864503f5b48eca821350e055ab36d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_inf_e_ef_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 707,
+    "filename": "ba_inf_e_ef_14.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_inf_e_ef_14.txt",
+    "state": "ba",
+    "word_count_original": 317
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_inf_e_ef_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_inf_e_ef_14.json"
+  },
+  "raw_response_text": "# TEMAS INTEGRADORES DO DOCUMENTO CURRICULAR REFERENCIAL DA BAHIA PARA A EDUCAÇÃO BÁSICA\n\nCom o intuito de requalificar práticas exercidas pelos integrantes da comunidade escolar em prol da construção de uma sociedade mais justa, fraterna, equânime, inclusiva, sustentável e laica, emergem os Temas Integradores do Documento Curricular Referencial da Bahia (DCRB). Esses temas preservam uma abordagem de interesse social, prática recorrente no fazer de muitas escolas, cumprindo, assim, o importante papel político e pedagógico nos espaços formais de humanização, promovendo discussões e reflexões sobre os enfrentamentos de violações de direitos e das mazelas sociais, evidenciando as necessidades dos estudantes. Dessa forma, os Temas Integradores buscam fazer com que a aprendizagem seja dotada de sentido e significado, estabelecendo ligação entre os componentes curriculares e áreas do conhecimento.\n\nConsiderando a diversidade em todo o território baiano, outras temáticas podem ser acrescidas ao currículo escolar, pois demandam cuidado e atuação permanentes de toda a comunidade, transversalizando e integrando o “Currículo Vivo” da escola, explicitado na parte prescritiva ou formal, contemplando as intenções e os conteúdos de formação, bem como na parte não prescritiva, evidenciado nas relações interpessoais dos integrantes da comunidade escolar, pautadas no respeito e na convivência com a diversidade dos grupos humanos ali existentes e, também, explicitada na arquitetura escolar para garantir a inclusão, o interesse pelo conhecimento e para a experimentação, a promoção da convivência, a produção e fruição da arte e da cultura e a inserção na vida cidadã, a partir do (re)conhecimento de direitos e deveres.\n\nDiante do exposto, o Documento Curricular Referencial da Bahia apresenta a seguir alguns Temas Integradores a serem trabalhados de diversas formas pela comunidade escolar, transversalizando e integrando o “Currículo Vivo” das escolas de Educação Básica do Estado da Bahia, valorizando a autonomia das escolas para abordar outros temas de interesse, de acordo com as suas realidades locais e demandas específicas.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

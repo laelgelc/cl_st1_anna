@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ce66f560236bbdf006ab3011c1d7887d2bef4cc188a1f070a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 505,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 583,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 1088
+    }
+  },
+  "created_at": "2026-09-22T22:28:49Z",
+  "duration_seconds": 5.702,
+  "error": null,
+  "excerpt_id": "go_em_16",
+  "filename": "go_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "13f9d7d439b02f72feb7d9fca57cecbc1ae1c6c0bcc2918ed9cd08a6bcecb896",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ffefe9ece83b0da753069b9c57a01d1931bfc4c623de4d1a3d147815394b70cf",
+    "rendered_prompt_sha256": "9001ee0f99660afbeafaa1a2371e5157dd17e8958eb08704c6bf2ef9df6ca025",
+    "source_text_sha256": "08e8a111b5c5c3ac18d0dc52e3f5223a2ad1c8bdcba8f8779f9e2bfcf9a0373b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1137,
+    "filename": "go_em_16.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_16.txt",
+    "state": "go",
+    "word_count_original": 299
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_16.json"
+  },
+  "raw_response_text": "### 3.2 - Formação Técnica e Profissional no Contexto dos Itinerários Formativos do Ensino Médio\n\nCom o Novo Ensino Médio, instituído pela Lei Federal nº 13.415/17, que estabelece uma nova configuração do currículo para este nível de ensino, que passa a ser composto por uma Base Nacional Comum Curricular e por itinerários formativos, a Educação Profissional adquire importante relevância no âmbito das redes de ensino como alternativa de formação a ser desenvolvida na própria trajetória do Ensino Médio.\n\nDessa forma, assim como as áreas propedêuticas, também a Educação Profissional passa a ter o potencial de compor o leque de itinerários formativos sob a denominação de Formação Técnica e Profissional, como opção formativa àqueles/as estudantes que almejam se qualificar para o exercício da cidadania e para o mundo do trabalho.\n\nOs itinerários referentes à Formação Técnica e Profissional, observado o que dispõe as diretrizes da EPT, podem ser estruturados por meio das seguintes estratégias formativas: curso técnico integrado, cursos FIC/Qualificação afins articulados dentro de uma trajetória de formação; ou por meio de programas de Aprendizagem Profissional[^14].\n\nAo instituir os itinerários formativos, no âmbito do Ensino Médio, a Lei nº 13.415/17 visou proporcionar aos/às estudantes a possibilidade de escolha de uma dada trajetória de formação dentro das opções de ofertas possíveis por parte dos sistemas, redes e unidades de ensino, sendo isto, em si, um grande desafio a ser enfrentado, sobretudo nos primeiros anos de implementação da reforma. Este desafio, sem dúvida, será ainda maior no que se refere à viabilização de itinerários formativos inerentes à Formação Técnica e Profissional, em função das especificidades desta modalidade de educação, mas não impossíveis de serem realizados.\n\n[^14]: No caso da Aprendizagem Profissional é preciso solicitar habilitação junto ao órgão próprio do governo federal para a oferta de cursos.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

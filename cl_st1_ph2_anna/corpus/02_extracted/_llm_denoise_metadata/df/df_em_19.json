@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a8f0fffea6331d7006ab3002a96d887d2b905bbb3519d716b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 849,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 813,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1662
+    }
+  },
+  "created_at": "2026-09-22T22:24:48Z",
+  "duration_seconds": 6.258,
+  "error": null,
+  "excerpt_id": "df_em_19",
+  "filename": "df_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "26fa0a42cebf1260fcd9965b3d3bcceaa8d99364a86ba8e11312ed8f3a1369e4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "888bd712c75e26343cce2736cd1726cd500071538a1e174c9f421926ccc91fa7",
+    "rendered_prompt_sha256": "6302c4e35ba45f8095c5893c93318b81bb0e70eb557804ea0ed25966d87a632a",
+    "source_text_sha256": "4351b5c1fef8c972bf00438feb149005422fe0e050b47a50edafc15437f7764d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 905,
+    "filename": "df_em_19.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_19.txt",
+    "state": "df",
+    "word_count_original": 520
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_19.json"
+  },
+  "raw_response_text": "# LÍNGUA INGLESA (LI)\n\nEste componente curricular surge do entendimento de que os jovens estão cada vez mais conectados por meio de redes sociais e outras tecnologias de informação e comunicação. Nesse sentido, o conhecimento da Língua Inglesa se configura como instrumento de expansão dos horizontes de interação social e de acesso a culturas em escala global, já que o idioma é, atualmente, reconhecido mundialmente como um importante meio de transmissão de conhecimentos.\n\nAlém disso, a globalização tem demandado níveis de interação entre os povos cada vez mais frequentes e profundos. Por meio dela, diversas áreas relacionadas à vida humana alcançaram e/ou consolidaram abrangência internacional; é o caso, por exemplo, do comércio, da ciência e do turismo. Essas relações têm sido, em grande medida, efetivadas por meio da Língua Inglesa, avultando sua importância planetária.\n\nDiante desse cenário, envolver os estudantes em situações de aprendizagem que lhes permitam desenvolver habilidades suficientes para utilizar a LI como recurso de acesso a conhecimentos e a oportunidades (de estudos, de trabalho, de lazer etc.) torna-se um imperativo para a educação brasileira, já que esses saberes podem ampliar as possibilidades dos jovens em suas escolhas de vida.\n\nPara tanto, este Currículo em Movimento preconiza a formação em LI centrada no desenvolvimento de estratégias pedagógicas que favoreçam ao jovem o contato com práticas diversificadas de linguagem e alicerçada na Pedagogia dos Multiletramentos, já consagrada no Sistema de Ensino do Distrito Federal. Importa esclarecer, ainda, que a perspectiva curricular acerca das experiências formativas relacionadas ao idioma devem abranger a interação com produções multissemióticas e multimidiáticas, sobretudo em contextos digitais, os quais, além do elevado potencial de circulação de informações que apresentam, são bastante difundidos entre o público jovem.\n\nTendo em vista que o Currículo em Movimento da Educação Básica do Distrito Federal é um conjunto harmônico e orgânico de intencionalidades pedagógicas, o presente documento curricular foi elaborado de modo a permitir o aprofundamento das habilidades comunicacionais e sociointeracionais trabalhadas até os Anos Finais do Ensino Fundamental. Esse aprofundamento segue a mesma concepção do Currículo em Movimento do Ensino Fundamental, que tem como foco o sentido, e não a forma. Leva-se em consideração o contexto sociocultural dos estudantes, o que implica valorizar os seus interesses e suas necessidades, ampliar o panorama histórico do ensino de Língua Inglesa, outrora alicerçado em uma perspectiva estrutural/gramatical. Pretende-se que o estudante, ao final do Ensino Médio, seja capaz de utilizar o idioma, tanto na modalidade oral quanto na escrita, de forma autônoma, em interações relacionadas à cultura digital, ao desenvolvimento de sua identidade, ao mundo do trabalho, além dos contextos sociais e culturais já mencionados.\n\nOs objetivos de aprendizagem deste Currículo são pautados nas competências gerais e específicas da BNCC, que visam compreender as línguas como fenômeno geopolítico, histórico, cultural e social. Essa nova perspectiva demanda do professor de Língua Inglesa, além da formação continuada, abertura a uma trajetória que transforme a abordagem mais centrada no conteúdo e na estrutura gramatical em uma abordagem que possibilite o protagonismo do estudante, por focar-se no sentido, no contexto e na sua interação com o mundo e com o outro",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

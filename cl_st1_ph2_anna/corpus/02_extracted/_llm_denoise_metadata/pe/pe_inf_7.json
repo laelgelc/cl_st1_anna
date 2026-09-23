@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03f4d97b5a80024a006ab3084eb64487d29f1ec3d49feab74c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 868,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 851,
+      "output_tokens_details": {
+        "reasoning_tokens": 76
+      },
+      "total_tokens": 1719
+    }
+  },
+  "created_at": "2026-09-22T22:59:34Z",
+  "duration_seconds": 7.422,
+  "error": null,
+  "excerpt_id": "pe_inf_7",
+  "filename": "pe_inf_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "594953fc8662dda95d4e502a40e184b6977f94568aba678b11ef131e511bbf94",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2ea995559dce36b4445dba5bd0bfebf743ae4aa2e2f9d540aec3b997d6ce8330",
+    "rendered_prompt_sha256": "d4b9f8b19dd5df5ac554976968bfbcbd8cdd72948fb619c800987e4437ffb4e5",
+    "source_text_sha256": "2c8564aae76f328fe683089007d24d7d696065704ebba281a07ebf472f37bcf1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_inf_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2540,
+    "filename": "pe_inf_7.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_inf_7.txt",
+    "state": "pe",
+    "word_count_original": 553
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_inf_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_inf_7.json"
+  },
+  "raw_response_text": "## 1.5 COMPETÊNCIAS E HABILIDADES\n\nNa sociedade atual, o processo de globalização e os impactos das novas tecnologias impulsionaram novos olhares, novos conceitos e, sobretudo, novas posturas no campo educacional. O processo de ensino e aprendizagem passou a exigir das práticas pedagógicas a organização de um currículo voltado para o desenvolvimento de competências e habilidades, novas formas de apropriação e compreensão de conhecimentos e saberes que possibilitem a formação dos sujeitos numa perspectiva integral, dinâmica e contemporânea.\n\nNesse cenário, a função da escola enquanto instituição formal é buscar adaptar-se aos novos valores culturais que a sociedade vem experimentando, bem como aos desafios de um mundo globalizado e conectado com as diversas formas de produção do conhecimento e seus usos nos diversos espaços e tempos da sociedade.\n\nDe fato, são mudanças que exigem do contexto educacional práticas pedagógicas que desenvolvam nos estudantes competências e habilidades para enfrentar desafios e resolver problemas. Por conseguinte, os conteúdos trabalhados não só precisam ser compreendidos e alcançados pela capacidade cognitiva, mas também relacionados com as demais capacidades (ZABALA, 1998) para que o processo de ensino e aprendizagem seja interessante e significativo.\n\nNessa perspectiva, a Base Nacional Comum Curricular – BNCC propõe, enquanto documento normativo, mudanças no como e para que construir as aprendizagens que sejam essenciais às crianças, aos jovens e aos adultos da Educação Básica. É nessa lógica que compreendemos a escola enquanto espaço e tempo de aprendizagem que deve favorecer a formação de esquemas de ações e de interações estáveis que, de forma dependente, possam ser utilizadas nos diversos contextos sociais (PERRENOUD, 1999).\n\nDessa forma, educar por competências configura repensar e reorganizar os conteúdos, de tal modo que tenham sentido e significado para os estudantes. É criar situações-problema, contextualizando a prática educativa com as suas vivências e os seus saberes, como defendido por Silva e Felicetti (2014, p. 18) ao ressaltarem que “situações-problema necessitam ser criadas, inovadas e devem ter relação com o cotidiano do educando, para que assim possam ser desenvolvidas novas habilidades e competências”.\n\nIsto posto, o Currículo de Pernambuco, fundamentado na BNCC, torna-se um instrumento de referência indispensável a todas as etapas e modalidades da Educação Básica, e a escola deve, por sua vez, oferecer situações que favoreçam o desenvolvimento de habilidades e, com efeito, novas competências que, nas práticas cotidianas, possibilitem a resolução do saber fazer e do saber agir nos diversos espaços sociais, bem como propor um redirecionamento para os pilares da educação de Aprender a conhecer, Aprender a fazer, Aprender a viver juntos e Aprender a ser (DELORS, 1996).\n\nNesse contexto, é necessário que os professores se apropriem desses pressupostos e planejem suas práticas pela abordagem de competências, desconstruam conceitos que ainda estão cristalizados nos modelos tradicionais que fragmentam os conhecimentos nos diversos componentes curriculares e considerem a necessidade de adaptações curriculares de acordo com as especificidades da população escolar atendida.\n\nA BNCC, enquanto documento normativo, norteia a elaboração dos currículos voltados para a formação integral dos estudantes, possibilitando, no exercício da cidadania, superar as desigualdades sociais que, na atual conjuntura global e local, têm se intensificado sobretudo para as classes menos favorecidas, público prioritário e majoritário na escola pública.\n\nNessa perspectiva, retomamos as 10 competências gerais definidas pela BNCC, as quais propõem como objetivos a formação integral dos estudantes. Em função disso, consideramos relevante descrevê-las.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

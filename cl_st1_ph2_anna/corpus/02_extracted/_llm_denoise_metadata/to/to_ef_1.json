@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08b3302b7ed1c45b006ab30fdcd2d887d2b79a0f4bc13ea88b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 433,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 496,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 929
+    }
+  },
+  "created_at": "2026-09-22T23:31:45Z",
+  "duration_seconds": 4.898,
+  "error": null,
+  "excerpt_id": "to_ef_1",
+  "filename": "to_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f6b42dcdca133b479305ebcf09634ef8f55fa13dccab26cb3a32d6d515c1fa2f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6c461af5bab5ae5ae1a58b38d546dab3d787b1053f2b64c5bfcba55e41e7e30f",
+    "rendered_prompt_sha256": "51366eecb15c51a662671acf09c78893493eb785dfc1aefd490eb749915b5ef7",
+    "source_text_sha256": "3cfa52ea70d0cbca136bb309a93621362c9492c09faf80c7b8e115feb40368e3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3968,
+    "filename": "to_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/to/to_ef_1.txt",
+    "state": "to",
+    "word_count_original": 232
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_ef_1.json"
+  },
+  "raw_response_text": "## Apresentação\n\nEste guia visa estabelecer as estratégias para a implementação do Documento Curricular do Tocantins (DCT) para a Educação Infantil e o Ensino Fundamental, elaborado em regime de colaboração entre o estado e os 139 municípios, e tem como objetivo atender ao disposto no Art. 76 da Resolução CEE-TO/CP Nº 024/2019, assim como orientar e esclarecer as responsabilidades de cada instância neste contexto de aprimoramento curricular do processo de ensino e aprendizagem, e atende ao que dispõe a Estratégia 3.1 da Meta 3, do Plano Estadual de Educação, LEI Nº 2.977, de 8 de julho de 2015.\n\nO Documento será implementado a partir de 2020 nas redes de ensino do território tocantinense. Para tal, são apresentados distintos perfis e ações para possibilitar sua aplicabilidade em instâncias da gestão essenciais no processo, sendo elas: Diretorias Regionais de Educação (DREs), Secretarias Municipais de Educação (SEMEDs) e Unidades educacionais.\n\nOs passos e etapas buscam conduzir uma integração transversal, indispensável ao sucesso da implementação, considerando aspectos, tais como: o planejamento e o monitoramento; a comunicação e o engajamento; os processos formativos; o apoio técnico e o fortalecimento da gestão pedagógica.\n\nNesse sentido, são elencados alguns pontos de atenção que devem ser continuamente observados para assegurar a finalidade dos currículos escolares, que emergem dos processos de ensino e aprendizagens dos estudantes do Estado do Tocantins, considerando suas histórias, circunstâncias e realidades locais.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

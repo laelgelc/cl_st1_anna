@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b4830dbe6aa81ff006ab30394ef4487d293531d85987948be",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 844,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1012,
+      "output_tokens_details": {
+        "reasoning_tokens": 307
+      },
+      "total_tokens": 1856
+    }
+  },
+  "created_at": "2026-09-22T22:39:25Z",
+  "duration_seconds": 8.812,
+  "error": null,
+  "excerpt_id": "mg_inf_principios_1",
+  "filename": "mg_inf_principios_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "37c6c52bf3e95a5efb627b2b3721faea5e30f610d94e38ded72a3c59a7e16b64",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "44f00a54cc0e6474c4092a2cdaaa975dec4fe59948b248b57c392b480f3998ab",
+    "rendered_prompt_sha256": "46cef2d7f29c902051d85a28ae862a77a7b0710407191c088ba295434d72c691",
+    "source_text_sha256": "c25e180fd4e475dd5bf2e4a7bf2d6d8d1908b039f972fd61ab3edb34d1c46aec"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_principios_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1666,
+    "filename": "mg_inf_principios_1.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_principios_1.txt",
+    "state": "mg",
+    "word_count_original": 472
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_principios_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_principios_1.json"
+  },
+  "raw_response_text": "## 2.4 Princípios Norteadores\n\nEste documento normativo tem como propósito orientar a construção de um currículo próprio para as instituições de Educação Infantil em todo o Estado de Minas Gerais. Foi elaborado de modo a articular os direitos de aprendizagem, os campos de experiências, os objetivos de aprendizagem e desenvolvimento, as orientações didáticas e práticas cotidianas às principais concepções que norteiam a Educação Infantil.\n\nAs DCNEI (2010) trouxeram as concepções de criança, de infância, de instituições de Educação Infantil, de proposta pedagógica e de currículo, além de determinar a função sociopolítica e pedagógica das instituições de Educação Infantil. Também estabeleceram três princípios fundamentais para orientar o trabalho junto às crianças nas unidades de Educação Infantil, a saber:\n\n- **Princípios éticos:** da autonomia, da responsabilidade, da solidariedade e do respeito ao bem comum, ao meio ambiente e às diferentes culturas, identidades e singularidades.\n- **Princípios políticos:** dos direitos de cidadania, o exercício da criticidade e o respeito à ordem democrática.\n- **Princípios estéticos:** da sensibilidade, da criatividade, da ludicidade e da liberdade de expressão nas diferentes manifestações artísticas e culturais (BRASIL, 2010, p. 16).\n\nA efetivação dos princípios éticos acontece quando o docente estimula a conquista da autonomia pelas crianças; fortalece a sua autoestima e a formação de vínculos afetivos, combatendo preconceitos de distintas naturezas; sensibiliza as crianças a respeitarem todas as formas de vida e dissemina valores como os da liberdade, da solidariedade e da igualdade de direitos de todas as pessoas.\n\nPara a concretização dos princípios políticos, faz-se necessário que a instituição de Educação Infantil promova a participação crítica das crianças em relação às situações observadas e vivenciadas no cotidiano, possibilitando-lhes a manifestação de sentimentos, desejos, ideias e questionamentos.\n\nSobre os princípios estéticos, considera-se fundamental a valorização da criatividade de cada criança e a construção, por ela, de respostas singulares em experiências diversificadas, disponibilizando diversos materiais para que a mesma possa se apropriar e se expressar por meio de diferentes linguagens.\n\nA BNCC, em seu capítulo introdutório, define um conjunto de 10 competências gerais a partir dos princípios éticos, políticos e estéticos assegurados pelas DCNEI e de conhecimentos, habilidades, atitudes e valores essenciais para a vida moderna, que devem ser desenvolvidas de forma integrada aos Campos de Experiências. Elas “explicitam o compromisso da educação brasileira com a formação humana integral e com a construção de uma sociedade justa, democrática e inclusiva”.\n\nNa Educação Infantil, ao se considerar os seis Direitos de Aprendizagem e Desenvolvimento previstos, as dez competências estarão contempladas. São elas: Conhecimento; Pensamento científico, crítico e criativo; Repertório cultural; Comunicação; Cultura Digital; Trabalho e Projeto de vida; Argumentação; Autoconhecimento e autocuidado; Empatia e cooperação; Responsabilidade e cidadania.\n\n[^5]: BRASIL. Lei nº 12.796, de 04 de abril de 2013. Disponível em: http://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2013/Lei/L12796.htm#art1. Acesso em: 21 jul. 2018.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

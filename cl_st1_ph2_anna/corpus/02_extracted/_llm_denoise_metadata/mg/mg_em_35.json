@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c20aeb627acc025006ab30334dea487d2b46af62cec6231fb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 712,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 645,
+      "output_tokens_details": {
+        "reasoning_tokens": 75
+      },
+      "total_tokens": 1357
+    }
+  },
+  "created_at": "2026-09-22T22:37:45Z",
+  "duration_seconds": 5.123,
+  "error": null,
+  "excerpt_id": "mg_em_35",
+  "filename": "mg_em_35.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4352fc856a4f9feebbb3faf4b1a0cb54b15ab5a4edcdb2ed1078097d26c2d4f2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3809da007dc48d75963e04983498b6af892062f7ce5757a2bfa07e75ddd2a41b",
+    "rendered_prompt_sha256": "265c63bc0907be8a0061f2be76eda158e3185649e7fde3057c45e86e1d9edc5b",
+    "source_text_sha256": "8a8213005ccc9c6e5d36f9bf9ac988f22fe9fcad5b7868c60c1db6946a0a4887"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_35.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1565,
+    "filename": "mg_em_35.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_35.txt",
+    "state": "mg",
+    "word_count_original": 419
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_35.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_35.json"
+  },
+  "raw_response_text": "### 3.1.1.1 Linguagens e suas Tecnologias\n\nDe acordo com a Lei de Diretrizes e Bases da Educação Nacional, o Ensino Médio é a etapa final da Educação Básica e deve assegurar a todos os estudantes a oportunidade de consolidar e aprofundar os conhecimentos adquiridos no Ensino Fundamental, buscar seu aprimoramento como pessoa humana; preparar para o trabalho e para a cidadania, propiciando-lhes a compreensão dos fundamentos científico-tecnológicos dos processos produtivos para relacionar a teoria com a prática (BRASIL, 1996), para que possam ser protagonistas de seus projetos de vida. Isto é, o Ensino Médio, como parte da Educação Básica, deve vincular-se ao mundo do trabalho e à prática social e deve percorrer toda a prática educativa escolar.\n\nPara alcançar essas finalidades, a Área de Linguagens e Suas Tecnologias busca proporcionar aos estudantes o conhecimento e a oportunidade de entender e utilizar diferentes linguagens nos diferentes campos de atuação para expressarem e partilharem sentimentos, opiniões e informações, de forma ética, significativa e reflexiva na escola e nas diferentes práticas sociais. Cabe a essa área do conhecimento focar na ampliação da autonomia, do protagonismo e da autoria nas práticas de diferentes linguagens – artísticas, corporais e verbais (oral ou visual-motora, como Libras, e escrita), que são objetos de seus diferentes componentes, bem como na identificação e crítica aos seus usos, considerando o poder no estabelecimento de relações, na apreciação e na participação em manifestações artísticas e culturais e no uso criativo das diversas mídias (BRASIL, 2018).\n\nNo Ensino Médio, são várias as possibilidades de desenvolvimento das habilidades da Área de Linguagens e Suas Tecnologias, por meio de um trabalho integrado entre seus próprios componentes ou com os de outras áreas, no intuito de aprofundar os conhecimentos adquiridos ao longo do Ensino Fundamental, de maneira recontextualizada. Isso se dá em processos de apreciação e de autoria e em práticas de linguagem diversas com músicas, danças, peças de teatro, artes visuais, tradições da cultura corporal do movimento, vídeos, textos e livros poéticos ou científicos, produções digitais e outras manifestações que combinam linguagens e mídias. E, também, por meio do desenvolvimento de atividades em centros culturais, museus e outros espaços que propiciam o exercício da crítica, da apreciação e da fruição de exposições, concertos, apresentações musicais e de dança, filmes, peças de teatro, saraus, entre outros.\n\nO próximo tópico aborda a importância da integração entre os conhecimentos e os saberes de cada componente curricular da Área de Linguagens e Suas Tecnologias: Arte, Educação Física, Língua Inglesa e Língua Portuguesa.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

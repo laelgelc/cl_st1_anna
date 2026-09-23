@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00643c9f29c22629006ab3010f38f087d296e05c61eb09bdfc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 954,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 937,
+      "output_tokens_details": {
+        "reasoning_tokens": 161
+      },
+      "total_tokens": 1891
+    }
+  },
+  "created_at": "2026-09-22T22:28:38Z",
+  "duration_seconds": 7.36,
+  "error": null,
+  "excerpt_id": "go_ef_47",
+  "filename": "go_ef_47.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2269b977a08ced7d24264ba6de407c9d225260ed370f356b9b416ee6846a177e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bf302a1b919b21817d7eddca7eef5608dc57476dd4d2737b650cb8a0d9804d06",
+    "rendered_prompt_sha256": "0501b4f4db849f3a822f9655ea3c98b5acae36ab027943e9b491d7d2d9438567",
+    "source_text_sha256": "0d6ec1bc7b7237bd45caf6e6629cb0382bf0f20ff525ce11c18b12c3e6a2f281"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_ef_47.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1124,
+    "filename": "go_ef_47.txt",
+    "filepath": "corpus/00_source_per_state/go/go_ef_47.txt",
+    "state": "go",
+    "word_count_original": 581
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_ef_47.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_ef_47.json"
+  },
+  "raw_response_text": "## VII. CONSIDERAÇÕES\n\nEm 2018, após a homologação da Base Nacional Comum Curricular, o Documento Curricular para Goiás, começou a ser construído a muitas mãos. Seu principal objetivo é a implementação da BNCC, de forma contextualizada para o território goiano, sobretudo em seus aspectos educacionais, econômicos, artísticos, culturais específicos ao estado, importantes e necessários para a Educação Básica. Dessa forma, as instituições públicas e privadas, sustentadas por uma base comum de conhecimentos e competências, poderão atuar de forma articulada uma vez que os objetivos de aprendizagens e desenvolvimento e as habilidades serão comuns.\n\nAssim como a BNCC é uma referência nacional obrigatória para a construção de documentos curriculares estaduais, o DC-GO também deve se constituir como uma referência para o território goiano. Dessa maneira, o documento fomentará a reelaboração, a dinamização e a atualização das propostas curriculares da rede estadual de educação, dos 246 municípios e das instituições privadas que desenham o território.\n\nNo processo de estudo e construção do documento curricular, inúmeros professores da Educação Básica e superior foram envolvidos, tanto por meio de Grupos de Trabalho (GT) da Educação Infantil e dos componentes curriculares do Ensino Fundamental, quanto na participação coletiva nos 40 Seminários Regionais e na participação individual na Consulta Pública. Do mesmo modo, ao ouvir os sujeitos mais experientes no processo ensinar – professores de escolas urbanas, rurais, quilombolas, ribeirinhas, indígenas e de universidades estaduais, federais e privadas, o DC-GO transformou-se em uma produção cultural coletiva, proporcionando encontros e debates produtivos e reflexivos em torno das 10 (dez) competências gerais; e dos direitos de aprendizagens e desenvolvimento da Educação Infantil e das habilidades que compõem cada um dos componentes curriculares do Ensino Fundamental.\n\nAo assegurar um conjunto de sentidos, saberes, conhecimentos e fazeres, o DC-GO visa diminuir as desigualdades relacionadas à aprendizagem e colaborar com a construção de uma sociedade mais justa e mais igualitária em termos de acesso e permanência com sucesso das crianças nas instituições educacionais e dos estudantes nas escolas. Propõe, igualmente, romper com a perspectiva de um ensino repetitivo, bancário, com precário domínio de conhecimento e com as disparidades sociais, implicando direta e indiretamente na qualidade das aprendizagens.\n\nPortanto, a contribuição do DC-GO, que merece destaque para a sociedade goiana, está no sentido de como a formação de conceitos pode ser concebida e desenvolvida pelos professores, considerando as características próprias das crianças e estudantes aprenderem e se desenvolverem de forma integral. Nesta perspectiva, o documento propõe a construção de currículo integrado, desde a Educação Infantil ao estabelecer como organização curricular os campos de experiência, e no Ensino Fundamental, o desenvolvimento de projetos investigativos que tem como objetivo a integração dos saberes e formação continuada dos profissionais da educação que atuam nessas etapas da Educação Básica, para provocar mudanças e reflexões em suas práticas.\n\nNão há educação sem invenção, pesquisa, estudo, conhecimento, poesia, mudanças contínuas e continuadas em seus processos. Por isso, este documento apresenta como desafio pensar o processo de ensino e aprendizagem a partir da prática das mudanças, da valorização da cultura local e da confiança no poder transformador da educação.\n\nDesse modo, ao finalizar esta importante etapa de implementação da BNCC, materializada na construção do DC-GO, outras etapas de igual importância virão e serão fundamentais para a melhoria da qualidade da educação goiana. Entre elas, destacam-se a formação continuada de professores, a revisão dos Projetos Pedagógicos das instituições educacionais, a criação e revisão de materiais pedagógicos com situações de aprendizagem e a avaliação e acompanhamento das aprendizagens.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09f9f3ad484abccc006ab30cae0e1c87d2b60144aec276e75c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 630,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 769,
+      "output_tokens_details": {
+        "reasoning_tokens": 234
+      },
+      "total_tokens": 1399
+    }
+  },
+  "created_at": "2026-09-22T23:18:13Z",
+  "duration_seconds": 7.67,
+  "error": null,
+  "excerpt_id": "ro_inf_36",
+  "filename": "ro_inf_36.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a33952d8b545487b0b409c64c4e7ca41c5b0087d368a854efb634e49a58011f5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "81b2bc08ec14cc4361d4900f518299a267d202661e664228b63ca9cc3004d5ae",
+    "rendered_prompt_sha256": "685383410d52eb727c10526a51c8c2699f6835ab1b1ee1e111eefabdd8ecb554",
+    "source_text_sha256": "0237b8bb3728c82a6bc833e895d2ef579dc4801ef2f075ea54b9e5e65b679d65"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_36.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3350,
+    "filename": "ro_inf_36.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_36.txt",
+    "state": "ro",
+    "word_count_original": 351
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_36.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_36.json"
+  },
+  "raw_response_text": "## Direitos de aprendizagem e desenvolvimento deste campo, articulados aos demais campos\n\nConviver com crianças e adultos e com eles investigar o mundo natural e social.\n\nBrincar com materiais, objetos e elementos da natureza e de diferentes culturas e perceber a diversidade de formas, texturas, cheiros, cores, tamanhos, pesos, densidades que apresentam.\n\nExplorar características do mundo natural e social, nomeando-as, agrupando-as e ordenando-as segundo critérios relativos às noções de espaços, tempos, quantidades, relações e transformações.\n\nParticipar de atividades de investigação de características de elementos naturais, objetos, situações, espaços, utilizando ferramentas de exploração – bússola, lanterna, lupa – e instrumentos de registro e comunicação, como máquina fotográfica, filmadora, gravador, projetor e computador.\n\nExpressar suas observações, explicações e representações sobre objetos, organismos vivos, fenômenos da natureza, características do ambiente.\n\nConhecer-se e construir sua identidade pessoal e cultural, reconhecendo seus interesses na relação com o mundo físico e social.\n\n## Experiências em relação ao espaço\n\n- Experiência de esquema corporal e da orientação e percepção espacial a partir da exploração do corpo e dos objetos no espaço.\n- Experiências de apreciar uma pintura, desenhar, localizar-se, ler, escrever (espontâneo), brincar e muitas outras.\n- Situações em que as crianças tratam o espaço e sua representação a partir de diferentes pontos de referência, examinando os deslocamentos possíveis, a representação de objetos, espaços e trajetos, utilizando noções de direção e posição.\n- Exploração tátil e visual das propriedades – forma, tamanho, posição, direção – das formas geométricas planas e não-planas pelas crianças.\n- Experiências que possibilitam a construção de noções de forma, proporcionalidade e semelhanças.\n- Observação de artistas plásticos que utilizam formas, cores, simetrias, retas, ângulos, polígonos, circunferências e sólidos geométricos a fim de criar uma composição visual.\n- Apreciação, investigação e discussão acerca da construção de prédios.\n- Observação da paisagem local, por meio de passeios ou atividades na área externa da unidade ou com o apoio de fotos, imagens, relatos e registros, chamando atenção para as transformações ocorridas ao longo do tempo.\n- Vivência de momentos para a observação das crianças de diferentes animais e plantas e reconhecer algumas de suas características.\n- Reconhecimento da beleza da vegetação existente ou a majestade dos movimentos dos animais.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

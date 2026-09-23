@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e96de6179821889006ab30547198c87d2a25416924495fbcb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 716,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 727,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 1443
+    }
+  },
+  "created_at": "2026-09-22T22:46:37Z",
+  "duration_seconds": 6.634,
+  "error": null,
+  "excerpt_id": "pa_ef_1",
+  "filename": "pa_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c45352d37ed344412fbb95a2d9d0faeeec340e47e320d0924da97c075b4beced",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "45170c9fdea27f233bb7222e9b86a6f75cdc4c566d69507b4c657652e7dd5768",
+    "rendered_prompt_sha256": "9b207e18eed72a06009e30fd6daf0894b35822348e235f4ddcf873306acaa95c",
+    "source_text_sha256": "c91a2947b93fd94122d3ea1d6656662989c8cd5522a677635f20213c309a80bd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2001,
+    "filename": "pa_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_ef_1.txt",
+    "state": "pa",
+    "word_count_original": 429
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_ef_1.json"
+  },
+  "raw_response_text": "### 3.2 ETAPA DO ENSINO FUNDAMENTAL\n\nA Proposta de organização curricular para o Ensino Fundamental deve contemplar pressupostos teórico-metodológicos que garantam, às populações que nele habitam, a integridade sociocultural estimulando cada vez mais os processos criativos e produtivos que emanam dos diferentes grupos sociais e/ou comunidades, sejam elas campesinas, ribeirinhas, quilombolas, indígenas e citadinas.\n\nNesse sentido, é importante compreender que a educação é um processo de humanização com a finalidade explícita de tornar os indivíduos partícipes do processo civilizatório, tanto que em sua dinâmica reproduz os cenários sociais vigentes, mas é dotada da capacidade de colaborar para a construção da sociedade que se quer – é uma prática sócio-histórica (FREIRE, 2000).\n\nIdentifica-se que algumas práticas pedagógicas dicotomizam teoria e prática e as descontextualizam compartimentalizando o saber e promovendo o isolamento entre as áreas de conhecimento (SANTOMÉ, 1998).\n\nEntende-se então que culturas são práticas significativas em que se está imerso, e, portanto, o currículo deve assumir nova postura frente à diversidade cultural e, ao professor cabe levar em conta essas diferenças na elaboração de suas atividades em sala de aula (STOER; CORTESÃO, 1999).\n\nSabe-se que os conhecimentos definidos pelo currículo escolar afetam a identidade dos sujeitos que dela fazem parte a partir das relações que vivem com seus pares; assim a aprendizagem que o aluno produz na escola o ajuda a se movimentar nos locais sociais e expandir a leitura das diversas realidades.\n\nO currículo precisa, portanto, dar conta dos fenômenos contemporâneos: mundo do trabalho, vida moderna, desenvolvimento tecnológico, redes sociais, atividades desportivas e corporais, produções artísticas, modalidades de exercício de cidadania, movimentos sociais, entre tantos outros, pois tudo o que é ensinado por meio dele tem estreita ligação com essas questões, ele anuncia uma prática produtiva que terá muitos efeitos na relação social, na relação de poder e nas identidades sociais.\n\nPara o Ensino Fundamental, este documento curricular apresenta uma concepção de organização do conhecimento a partir de eixos estruturantes que geram subeixos e definem objetivos de aprendizagem que se relacionam com as habilidades da Base (BRASIL, 2017a).\n\nAssim sendo, os objetivos de aprendizagem devem definir o que os educandos são capazes de aprender com sucesso em um determinado período de aprendizagem. Nesse sentido, o professor apoia sua prática pedagógica nesses objetivos (focados no estudante), elaborados em aliança com métodos, atividades e conteúdos utilizados para a obtenção de conhecimentos e habilidades significativas e com intuito de promover o protagonismo daqueles que aprendem.\n\nAs habilidades dispostas neste Documento são identificadas por meio de um código alfanumérico (BRASIL, 2017a, p. 28, adaptado) com a seguinte representação:",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

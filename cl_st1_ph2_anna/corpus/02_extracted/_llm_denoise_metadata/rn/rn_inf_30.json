@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00aa6e16d9fcde90006ab30b4dc61087d29a99e454e10931b6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 757,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 830,
+      "output_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "total_tokens": 1587
+    }
+  },
+  "created_at": "2026-09-22T23:12:19Z",
+  "duration_seconds": 5.932,
+  "error": null,
+  "excerpt_id": "rn_inf_30",
+  "filename": "rn_inf_30.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1e5a7be360b34ef6ea5d93b88fc50938ff38f93e985e71e12d277d3e1d4dd8d3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b913266ab990c7f21c85a87ebc6ca2cdddc502b05c82fd332ed9e121568b8b5f",
+    "rendered_prompt_sha256": "55af8fa53e5a6a6a99e840a50505d778d3abaaf8b5ea1494dbeda123bfe83686",
+    "source_text_sha256": "c2b7295d6e8ed0d1db07af7ce476531c4ff9faffe4f7d94818bc91d554b9c3ab"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_30.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3077,
+    "filename": "rn_inf_30.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_30.txt",
+    "state": "rn",
+    "word_count_original": 435
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_30.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_30.json"
+  },
+  "raw_response_text": "# APROFUNDANDO O TEMA\n\n## Espaços Educativos, por Campos (2009)\n\n### Nossas crianças têm direito a um ambiente aconchegante, seguro e estimulante\n\n- Arrumamos com capricho e criatividade os lugares onde as crianças passam o dia\n- Nossas salas são claras, limpas e ventiladas\n- Não deixamos objetos e móveis quebrados nos espaços onde as crianças ficam\n- Mantemos fora do alcance das crianças produtos potencialmente perigosos\n- As crianças têm lugares agradáveis para se recostar e desenvolver atividades calmas\n- As crianças têm direito a lugares adequados para seu descanso e sono\n- Nossa creche sempre tem trabalhos realizados pelas crianças em exposição\n- Quando fazemos reformas na creche nossa primeira preocupação é melhorar os espaços usados pelas crianças\n- Quando fazemos reformas tentamos adequar à altura das janelas, os equipamentos e os espaços de circulação às necessidades de visão e locomoção das crianças\n- Nossa equipe procura desenvolver relações de trabalho cordiais e afetivas\n- Procuramos tornar acolhedor o espaço que usamos para receber e conversar com as famílias\n\n### Nossas crianças têm direito ao contato com a natureza\n\n- Nossa creche procura ter plantas e canteiros em espaços disponíveis\n- Nossas crianças têm direito ao sol\n- Nossas crianças têm direito de brincar com água\n- Nossas crianças têm oportunidade de brincar com areia, argila, pedrinhas, gravetos e outros elementos da natureza\n- Sempre que possível levamos os bebês e as crianças para passear ao ar livre\n- Nossas crianças aprendem a observar, amar e preservar a natureza\n- Incentivamos nossas crianças a observar e respeitar os animais\n- Nossas crianças podem olhar para fora através de janelas mais baixas e com vidros transparentes\n- Nossas crianças têm oportunidade de visitar parques, jardins e zoológicos\n- Procuramos incluir as famílias na programação relativa à natureza\n\n### Nossas crianças têm direito ao movimento em espaços amplos\n\n- Nossas crianças têm direito de correr, pular e saltar em espaços amplos, na creche ou nas suas proximidades\n- Nossos meninos e meninas têm oportunidade de jogar bola, inclusive futebol\n- Nossos meninos e meninas desenvolvem sua força, agilidade e equilíbrio físico nas atividades realizadas em espaços amplos\n- Nossos meninos e meninas, desde bem pequenos, podem brincar e explorar espaços externos ao ar livre\n- Nossas crianças não são obrigadas a suportar longos períodos de espera\n- Os bebês não são esquecidos no berço\n- Os bebês têm direito de engatinhar\n- Os bebês têm oportunidade de explorar novos ambientes e interagir com outras crianças e adultos\n- As crianças pequenas têm direito de testar seus primeiros passos fora do berço\n- Reservamos espaços livres cobertos para atividades físicas em dias de chuva\n- Organizamos com as crianças aquelas brincadeiras de roda que aprendemos quando éramos pequenos\n- Procuramos criar ocasiões para as famílias participarem de atividades ao ar livre com as crianças",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

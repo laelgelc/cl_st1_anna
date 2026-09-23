@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01dcf2bc302bdfea006ab30cb49f3887d2a42c14a4ec4aba44",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 589,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 612,
+      "output_tokens_details": {
+        "reasoning_tokens": 139
+      },
+      "total_tokens": 1201
+    }
+  },
+  "created_at": "2026-09-22T23:18:17Z",
+  "duration_seconds": 4.768,
+  "error": null,
+  "excerpt_id": "ro_inf_40",
+  "filename": "ro_inf_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "425bdd20aba01f48e32ae306d6f3a15a389ef15106e23aa6f338d21086100a96",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9e1cf2a28a1ae41b1240cb86ce6520e3edd253b74a44a3f12777991dbe5e6c57",
+    "rendered_prompt_sha256": "2cfa176505fae18c5be412339c6e0adae3f9daf862a9406537ffbfed3e238c2e",
+    "source_text_sha256": "270716f2f4d7e7e2bd91c77272bbebad50e2c25ec495f0df3ddcf1db0524423f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3355,
+    "filename": "ro_inf_40.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_40.txt",
+    "state": "ro",
+    "word_count_original": 322
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_40.json"
+  },
+  "raw_response_text": "## Espaços, Tempos, Quantidades, Relações e Transformações\n\nCom o propósito de assegurar a qualidade na Educação Infantil, exige-se, portanto, que as atividades cotidianamente propostas materializem as intencionalidades educativas para esta etapa. Assim, “o planejamento é ação de projetar, dar direção, traçar um plano, programar, elaborar roteiro, ordenar, sequenciar, definir prioridades, criar possibilidades de interação e experiências, para favorecer a apropriação pelas crianças de conhecimentos, afetos e atitudes, permitindo diferentes manifestações expressivas das crianças e, também, do professor” (BARBOSA; ALVES, 2010, p. 4).\n\nSegundo Redin (2014, p. 23), um planejamento é muito mais que um desenho sinuoso que permite ir e vir, dar voltas, ziguezaguear do que uma prescrição linear. Principalmente porque só se concretiza num espaço e tempo, mediado pelas crianças e suas culturas. Dessa forma, o ato de planejar não é um processo estanque em si mesmo, mas um processo de construção/desconstrução/reconstrução, de análise da prática concretizada, refletida e registrada.\n\nPara a organização do trabalho pedagógico na Educação Infantil são utilizados vários elementos, sendo primordial garantir a articulação entre eles, considerando a participação das famílias e da comunidade, definição do tempo, dos espaços e ambientes, da rotina de atividades (BARBOSA, 2006); a organização de materiais e equipamentos adequados às suas distintas necessidades, em especial daquelas que necessitam da flexibilização curricular, como as crianças deficientes, com altas habilidades/superdotação e com transtornos globais de aprendizagem e desenvolvimento, bem como a avaliação da aprendizagem e desenvolvimento das crianças, do projeto pedagógico e da prática pedagógica dos professores.\n\nPor conseguinte, o trabalho pedagógico com crianças da Educação Infantil pode ser organizado de diferentes formas que, concomitantemente, dão vida à rotina institucional. Portanto, apresenta-se como modalidades organizativas do trabalho pedagógico: os projetos investigativos, estruturados em forma de centros de interesses e temáticas, as atividades permanentes, a rotina cotidiana, a organização do tempo, espaços, objetos e materiais e a avaliação. As quais serão explanadas do decorrer desse documento.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

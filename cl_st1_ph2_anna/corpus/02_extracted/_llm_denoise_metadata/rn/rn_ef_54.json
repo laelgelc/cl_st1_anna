@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_075636ce9b96bdaf006ab30af5b91087d2a81f0ac468147990",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 425,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 361,
+      "output_tokens_details": {
+        "reasoning_tokens": 31
+      },
+      "total_tokens": 786
+    }
+  },
+  "created_at": "2026-09-22T23:10:49Z",
+  "duration_seconds": 3.392,
+  "error": null,
+  "excerpt_id": "rn_ef_54",
+  "filename": "rn_ef_54.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5091287e41f99a5d3340457bbe224aff4a2dab86308f5fe0d178f3fb025cf4a4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7149f8b094fe7cc2aeab48aec33d63beaff9cd4c5eefb07f7e86ca7ea77390fa",
+    "rendered_prompt_sha256": "0592d5a5ab86e9a9a8cc4b2709e79c82b6f3b05e404b8e6aa377ce27d44e768a",
+    "source_text_sha256": "d71c248fd68d5242f70c557aa4f76e47e1b4520959692d7a73dbe4866a2b4132"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_54.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2995,
+    "filename": "rn_ef_54.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_54.txt",
+    "state": "rn",
+    "word_count_original": 216
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_54.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_54.json"
+  },
+  "raw_response_text": "COMPETÊNCIAS ESPECÍFICAS DE HISTÓRIA\n\n1. Compreender acontecimentos históricos, relações de poder e processos e mecanismos de transformação e manutenção das estruturas sociais, políticas, econômicas e culturais ao longo do tempo e em diferentes espaços para analisar, posicionar-se e intervir no mundo contemporâneo.\n2. Compreender a historicidade no tempo e no espaço, relacionando acontecimentos e processos de transformação e manutenção das estruturas sociais, políticas, econômicas e culturais, bem como problematizar os significados das lógicas de organização cronológica.\n3. Elaborar questionamentos, hipóteses, argumentos e proposições em relação a documentos, interpretações e contextos históricos específicos, recorrendo a diferentes linguagens e mídias, exercitando a empatia, o diálogo, a resolução de conflitos, a cooperação e o respeito.\n4. Identificar interpretações que expressem visões de diferentes sujeitos, culturas e povos com relação a um mesmo contexto histórico, e posicionar-se criticamente com base em princípios éticos, democráticos, inclusivos, sustentáveis e solidários.\n5. Analisar e compreender o movimento de populações e mercadorias no tempo e no espaço e seus significados históricos, levando em conta o respeito e a solidariedade com as diferentes populações.\n6. Compreender e problematizar os conceitos e procedimentos norteadores da produção historiográfica.\n7. Produzir, avaliar e utilizar tecnologias digitais de informação e comunicação de modo crítico, ético e responsável, compreendendo seus significados para os diferentes grupos ou estratos sociais.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03dc9867e80b5942006ab305320fc487d28291912bbd1cbaf9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 615,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 689,
+      "output_tokens_details": {
+        "reasoning_tokens": 205
+      },
+      "total_tokens": 1304
+    }
+  },
+  "created_at": "2026-09-22T22:46:16Z",
+  "duration_seconds": 6.8,
+  "error": null,
+  "excerpt_id": "mt_inf_18",
+  "filename": "mt_inf_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e761b3280910dd43394fca47b1b140852c4d3c7a5f04c2f8f7bdcb0011d4dc13",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "19a5a260fc8758960e73ecff8b2b7fec71c8de98a884fbff02803bae128a7af7",
+    "rendered_prompt_sha256": "8f9dd8b6ad2ff43f7df296d7e29978f9f898ac0167cc8c627d5b4d8d0d4b4baf",
+    "source_text_sha256": "0b664170d7f788137900cac2f8d144a65c727fc1d8378d65abe8ecec55d64756"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_inf_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1985,
+    "filename": "mt_inf_18.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_inf_18.txt",
+    "state": "mt",
+    "word_count_original": 332
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_inf_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_inf_18.json"
+  },
+  "raw_response_text": "### 2.2.5 Observação e avaliação do planejamento\n\nPara propor experiências que sejam significativas para as crianças, o educador deverá, em seu planejamento, atentar-se às possibilidades de jogos e brincadeiras em diferentes espaços da instituição e outros, como praças, quadras, parque etc.\n\nAs crianças, nas diferentes faixas etárias, também precisam das oportunidades de explorarem os espaços estruturados e materiais como túneis, rampas, obstáculos, colchonetes, almofadas, caixas de papelão de diferentes tamanhos, móbiles e outros, despertando o interesse e sua curiosidade, de modo que o repertório cultural seja ampliado, potencializando o gesto, o corpo e o movimento, favorecendo assim a autonomia, o autocuidado e a descoberta sensorial.\n\nAs experiências com o corpo, os gestos e o movimento infantil devem estar alinhadas às DCNEI (2009) e respeitar o modo de ser e agir de cada criança, destituindo-se de modelos e padronizações de gestos, da mecanização do movimento e do desaparecimento da expressividade própria da criança. Assim, é fundamental ao professor ter um olhar atento e afetuoso aos movimentos infantis, quais sejam, as expressões corporais e faciais, de maneira que o corpo da criança não seja compreendido como objeto de negligência, discriminação, violência, maltrato e punição.\n\n#### Algumas orientações\n\nDestaca-se a importância de se favorecer o desenvolvimento corporal, o movimento e os gestos, por meio de situações de jogos e brincadeiras, nos espaços externos e internos da instituição, onde possam explorar as possibilidades do seu próprio corpo, dos seus pares, ampliando seus movimentos.\n\nNão cabe mais a prática de cerceamento do corpo dos bebês (em berços) e das crianças sentadas nas mesinhas por período prolongado. Devido ao protagonismo da criança da Educação Infantil, acredita-se em uma prática educativa que considere as especificidades do desenvolvimento integral das crianças, sujeitos ativos, participativos, criativos, autônomos, que conseguem vivenciar plenamente as possibilidades do seu corpo e controlá-lo quando necessário.\n\nAs experiências sugeridas necessitam da organização do ambiente de maneira intencional, assim como o espaço deve ser limpo e seguro, favorecendo o bem-estar da criança.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

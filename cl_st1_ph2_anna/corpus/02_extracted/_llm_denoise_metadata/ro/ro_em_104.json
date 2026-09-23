@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07b95dc51762de19006ab30be7371087d2873db7beee9ed9c8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 885,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 932,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 1817
+    }
+  },
+  "created_at": "2026-09-22T23:14:54Z",
+  "duration_seconds": 7.531,
+  "error": null,
+  "excerpt_id": "ro_em_104",
+  "filename": "ro_em_104.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "72ba32ee85cd52d30001c92f2117245f73cafa1700e61004d4b1d63dc7195331",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4fe074e0872b7dbbc7846b812371692540b137aa8df0faf83622ceec7bc69854",
+    "rendered_prompt_sha256": "d7fade1c5872b404ddb3809c061d1dc366931d149d602d0e1e0a0740e78c6763",
+    "source_text_sha256": "3f3f31bc7cbc5bc4cee4fbc0d88e8ee6bed7f7a1976a13fededb34798d31f3ed"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_104.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3211,
+    "filename": "ro_em_104.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_104.txt",
+    "state": "ro",
+    "word_count_original": 591
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_104.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_104.json"
+  },
+  "raw_response_text": "### 3.3.9.1. Caminho Pedagógico das Eletivas: Escolha Do Estudante\n\nPara pensar o caminho pedagógico das Eletivas no contexto do currículo de Rondônia e no ambiente escolar, o ponto de partida é refletir sobre o perfil de estudante que se deseja formar, e, acima de tudo, é essencial reconhecer as necessidades, interesses, a realidade em que esse jovem se encontra inserido. Nesta vertente, alguns questionamentos são pertinentes: Quem é o jovem do Ensino Médio de Rondônia? Qual a bagagem social e cultural que esse jovem carrega consigo? Como trabalhar o protagonismo juvenil? O que oportunizar ao jovem para desenvolver as multidimensões da vida pessoal, social/cidadã e profissional?\n\nO estudante do Ensino Médio de Rondônia possui uma heterogeneidade gigantesca, tendo em vista a presença de uma diversidade cultural que vai do norte ao sul desse estado. Face ao exposto, considerando que no estado há o jovem ribeirinho, quilombola, indígena, do campo, da cidade, entre outros, o reconhecimento dessa interculturalidade constitui ponto de partida, bem como é fundamental para mobilização dos saberes, a compreensão da identidade cultural, o levantamento dos saberes locais e a identificação do seu lugar de fala.\n\nÉ essencial reconhecer as peculiaridades que cada estudante traz consigo, olhar para a sua individualidade e dar autonomia para que dentro do processo pedagógico ele se sinta mais seguro de ser quem ele é. Quando o estudante tem autonomia no processo de ensino aprendizagem, ele se transforma como ser social. Sob esta ótica, nos arranjos curriculares do itinerário formativo, as Eletivas caracterizam-se como “a cereja do bolo”.\n\nTal expressão popular encontra subsídio na perspectiva de aprofundamento e enriquecimento do currículo que advém do trabalho integrado com os eixos visando à formação integral dos estudantes. No entanto, para que isso ocorra é relevante a elaboração das eletivas e a disponibilidade de uma lista e/ou rol de opções que respeite os interesses, necessidades e aspirações dos estudantes. Nesta perspectiva, no intuito de ampliar a percepção do (a) professor (a) e da escola acerca da escolha das eletivas pelo estudante do Ensino Médio de Rondônia, o quadro 2 apresenta orientações objetivas para o trabalho pedagógico na escola a partir dos seguintes questionamentos centrais: Eletivas: como escolher? De que forma organizar a escolha? O que considerar na escolha? Mediante às problemáticas, o quadro elucida apontamentos sobre o passo a passo que deverá ser seguido para alcançar a eficiência na escolha do estudante, ao mesmo tempo em que apresenta orientações referentes à duração, aos critérios de diversificação e ao horário de atendimento das eletivas.\n\nReferente à livre escolha das eletivas pelo estudante é pertinente salientar que a oportunidade de as escolher de acordo com suas necessidades, ligadas no âmbito da curiosidade e no campo do projeto de vida, por si só, já revela uma intencionalidade na aprendizagem que se constituirá de forma significativa. Uma vez que o estudante se sentirá motivado a vivenciar experiências diversificadas e percorrer essas eletivas com entusiasmo, porque estará associado com algo que partiu do seu interesse.\n\nNesta vertente, o quadro 2, fomenta que o reconhecimento e o levantamento da dimensão pessoal, social e profissional que envolve o entorno do estudante mostram-se relevantes para compreender sua realidade e as novas relações que cotidianamente são produzidas no contexto local de forma integrada entre as áreas do conhecimento. Posto isto, por intermédio das eletivas, vislumbra-se possibilidades educativas para que o estudante visualize a interligação dos conhecimentos escolares com suas vivências e sua realidade social, e deste modo, estabeleça uma conexão com a diversidade que a própria sociedade traz consigo.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

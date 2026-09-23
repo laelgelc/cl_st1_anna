@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03cc35162e4af209006ab3029afbf487d28319d7f31d7f8a4c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 862,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 844,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 1706
+    }
+  },
+  "created_at": "2026-09-22T22:35:12Z",
+  "duration_seconds": 5.667,
+  "error": null,
+  "excerpt_id": "mg_ef_er_9",
+  "filename": "mg_ef_er_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7d512c5f385c29aa3a1380cadfaedde48ccc67d1e117fbe63c31545033f1bcdf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5e7e61d82ec6de54d63648e545ae3962f7f6f6a17495b473f24aecc459383003",
+    "rendered_prompt_sha256": "bc11d7507bc4ceddbc885c442a9c17277fedb01f14c36fbe3557dbcfe6150df4",
+    "source_text_sha256": "a0cb0fcfb0bacfe47c3b95a5844b3701e62186e1bbcb4841c887f61b89b654f5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_er_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1420,
+    "filename": "mg_ef_er_9.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_er_9.txt",
+    "state": "mg",
+    "word_count_original": 420
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_er_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_er_9.json"
+  },
+  "raw_response_text": "### 16.5.1 As Unidades Temáticas do Componente Ensino Religioso nos Anos Iniciais e Anos Finais do Ensino Fundamental\n\nO componente curricular do Ensino Religioso foi concebido a partir de três grandes unidades temáticas.\n\nA unidade temática Identidades e alteridades, a ser abordada ao longo de todo o Ensino Fundamental, pretende que os estudantes reconheçam, valorizem e acolham o caráter singular e diverso do ser humano, por meio da identificação e do respeito às semelhanças e diferenças entre o eu (subjetividade) e os outros (alteridades), da compreensão dos símbolos e significados e da relação entre imanência e transcendência.\n\nEssa unidade se apresenta com os seguintes objetos de conhecimento: “O eu, o outro e o nós”, “Imanência e transcendência”, no 1º ano; “O eu, a família e o ambiente de convivência”, “Memórias e símbolos” e “Símbolos religiosos”, no 2º ano; “Espaços e territórios religiosos” no 3º ano; “Relações e narrativas pessoais”, que se repete no 5º, 6º, 8º e 9º anos.\n\nOutra unidade temática importante é Manifestações culturais e religiosas, em que se pretende proporcionar o conhecimento, a valorização e o respeito às distintas experiências e manifestações culturais e religiosas, e a compreensão das relações estabelecidas entre as lideranças e denominações religiosas e as distintas esferas sociais.\n\nEssa unidade está presente nos três primeiros anos e no 7º ano. Apresenta os seguintes objetos de conhecimento: “Sentimentos, lembranças, memórias e saberes”, no 1º ano; “Alimentos sagrados”, no 2º ano; “Práticas celebrativas” e “Indumentárias religiosas”, no 3º ano; e “Místicas e espiritualidades” e “Lideranças religiosas”, no 7º ano.\n\nA terceira unidade temática é Crenças religiosas e filosofias de vida e está presente do 4º ao 9º ano. Os respectivos objetos de conhecimento são: “Ideia(s) de divindade(s) e de sentidos de vida”, no 4º ano; “Narrativas religiosas”, “Mitos nas tradições religiosas” e “Ancestralidade e tradição oral”, no 5º ano; “Tradição escrita: registro dos ensinamentos sagrados”, “Ensinamentos da tradição escrita” e “Símbolos, ritos e mitos religiosos”, no 6º ano; “Princípios éticos e valores religiosos” e “Liderança e direitos humanos”, no 7º ano; “Crenças, convicções e atitudes”, “Doutrinas religiosas”, “Crenças, filosofias de vida e esfera pública” e “Tradições religiosas, mídias e tecnologias”, no 8º ano; e, finalmente, “Imanência e transcendência”, “Vida e morte” e “Princípios e valores éticos”, no 9º ano.\n\nTal unidade trata dos aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida, particularmente, como identificado nos objetos de conhecimento, sobre mitos, ideia(s) de divindade(s), crenças e doutrinas religiosas, tradições orais e escritas, ideias de imortalidade, princípios e valores éticos.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

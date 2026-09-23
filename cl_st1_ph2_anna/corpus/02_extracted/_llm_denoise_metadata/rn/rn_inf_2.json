@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b6d7b51ca3e7a6d006ab30b4250e087d2a250059d45836da7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1634,
+      "input_tokens_details": {
+        "cache_write_tokens": 1631,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1683,
+      "output_tokens_details": {
+        "reasoning_tokens": 184
+      },
+      "total_tokens": 3317
+    }
+  },
+  "created_at": "2026-09-22T23:12:12Z",
+  "duration_seconds": 10.277,
+  "error": null,
+  "excerpt_id": "rn_inf_2",
+  "filename": "rn_inf_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "42433d5cd0b3357b17690b82c2c8c77adb19e353205113b980cfc88a0953c6fa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cb039e8e00b7a4336549394ed20b0cb35c7bad99a1234c756d07463e51f0681c",
+    "rendered_prompt_sha256": "10d0905aa4d98fd9310460453421045fea62885eebbf2ebdf45d6221dcd1113d",
+    "source_text_sha256": "c718c17356a434010422fe5137f67e396b0fbc8d4527feb4d90bb18d2b3eb966"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3065,
+    "filename": "rn_inf_2.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_2.txt",
+    "state": "rn",
+    "word_count_original": 1105
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_2.json"
+  },
+  "raw_response_text": "# INTRODUÇÃO\n\nUma proposta pedagógica é um caminho, não é um lugar. Uma proposta pedagógica é construída no caminho, no caminhar. Toda proposta pedagógica tem uma história que precisa ser contada. Toda proposta contém uma aposta. Nasce de uma realidade que pergunta e é também busca de uma resposta. Toda proposta é situada, traz consigo o lugar de onde fala e a gama de valores que a constitui; traz também as dificuldades que enfrenta, os problemas que precisam ser superados e a direção que a orienta. E essa sua fala é a fala de um desejo, de uma vontade eminentemente política no caso de uma proposta educativa, e sempre humana, vontade que, por ser social e humana, nunca é uma fala acabada, não aponta “o” lugar, “a” resposta, pois se traz “a” resposta já não é mais uma pergunta. Aponta, isto sim, um caminho também a construir. (KRAMER, 1997, p. 19).\n\nA história da elaboração do Documento Curricular da Educação Infantil para o Estado do Rio Grande do Norte se entrelaça com o dizer de Kramer, quando afirma que a proposta pedagógica é construída no caminho, no caminhar, e o nosso constituiu-se no decorrer de uma trajetória única, em regime de colaboração MEC/CONSED/UNDIME/SEEC e os 167 municípios, com a participação de especialistas, redatores e colaboradores do Programa de Apoio à Implementação da Base Nacional Comum Curricular - ProBNCC.\n\nEste documento fundamenta-se na Constituição Federal (BRASIL, 1988), no Estatuto da Criança e do Adolescente – ECA (BRASIL, 1990) e na Lei de Diretrizes e Bases - LDB (BRASIL, 1996), aportes legais que instituem a Educação Infantil como primeira etapa da educação básica, direito da criança e dever do Estado, tendo como finalidade o desenvolvimento global da criança de 0 a 5 anos.\n\nAs definições relativas aos currículos para educação infantil estão pautadas no contexto das políticas curriculares nacionais em desenvolvimento nos últimos anos. Em 11 de novembro de 2009, Conselho Nacional de Educação - CNE aprovou o parecer CNE/CEB 20/2009 (BRASIL, 2009) que trata da Revisão das Diretrizes Curriculares Nacionais para a Educação Infantil e a Resolução CNE 05/2009 que institui as Diretrizes Curriculares Nacionais para Educação Infantil - DCNEI (BRASIL, 2009a). Em 2017, a Base Nacional Comum Curricular – BNCC define as aprendizagens essenciais que devem ser garantidas na Educação Infantil, definindo que:\n\nNa Educação Infantil, as aprendizagens essenciais compreendem tanto comportamentos, habilidades e conhecimentos quanto vivências que promovem aprendizagem e desenvolvimento nos diversos campos de experiências, sempre tomando as interações e a brincadeira como eixos estruturantes. Essas aprendizagens, portanto, constituem-se como objetivos de aprendizagem e desenvolvimento (BRASIL, 2017, p. 39).\n\nReferenciando-se nos fundamentos teóricos e práticos das DCNEI e da BNCC, este documento busca dialogar com as especificidades do nosso estado, de modo a considerar suas características regionais e locais para construção de uma proposta coletiva que contextualize as singularidades de cada região. Para tanto, assume o desafio de envolver todos os sujeitos das práticas educativas em sua elaboração – professores, coordenadores, gestores, famílias e outras instituições sociais.\n\nO documento está organizado em nove capítulos. O primeiro aborda os processos de construção de uma identidade para Educação Infantil em nosso país e suas funções sociopolítica e pedagógica, bem como, propõe-se a contextualizar o atendimento e as características desta etapa educativa nos municípios do estado do Rio Grande do Norte.\n\nO segundo apresenta as concepções de crianças, infâncias e culturas infantis que norteiam o currículo, tendo como referência os estudos que as definem como construções históricas e sociais no campo da Psicologia e da Sociologia da Infância. O terceiro capítulo aborda os processos de aprendizagem e desenvolvimento das crianças a partir da abordagem histórico-cultural de Lev Vigotski e da teoria sociogenética de Henri Wallon, estabelecendo relações teóricas e práticas com os eixos do currículo e da prática pedagógica – interações e brincadeiras, e discute ainda o papel do adulto na educação e desenvolvimento da criança.\n\nO quarto capítulo discute a diversidade na infância e propõe uma educação infantil inclusiva, que compreende as crianças do campo e do público-alvo da educação especial, contextualizando as relações étnico-raciais, religiosas, de gênero e socioeconômicas.\n\nO quinto capítulo discorre sobre os fundamentos do currículo, conceituando proposta pedagógica da educação infantil e explicitando aspectos a serem considerados no desenvolvimento das práticas curriculares. Apresenta ainda, um aprofundamento teórico e prático acerca do que constitui as experiências educativas que precisam ser garantidas no currículo para educação infantil. Já o sexto capítulo apresenta os seis direitos de aprendizagem e desenvolvimento a serem garantidos às crianças da educação infantil, os campos de experiências e suas características, os objetivos de aprendizagem e desenvolvimentos definidos na BNCC, bem como os objetivos específicos propostos para o currículo estadual para cada grupo de crianças.\n\nNo capítulo sete são explicitadas algumas considerações relativas aos modos de organização de tempos, espaços, materiais e relações na educação infantil, enquanto dimensões que estruturam as rotinas e práticas cotidianas, possibilitando o protagonismo das crianças e a mediação de professores. Tendo em vista que o planejamento envolve ações de observação, registro, acompanhamento e reflexão, dialogando com a avaliação do/e em contexto na educação infantil, o capítulo oito aborda sobre as concepções e possibilidades de procedimentos de avaliação da aprendizagem e desenvolvimento das crianças e da prática pedagógica e destaca as primeiras transições que as crianças vivenciam em sua vida escolar e as necessidades de articulações entre famílias, creches, pré-escolas e escolas de ensino fundamental.\n\nO último capítulo apresenta aspectos relacionados à organização e funcionamento das instituições de educação infantil, tanto no que se refere às orientações das redes e sistemas de ensino, como a gestão, coordenação e formação continuada no contexto de cada instituição.\n\nAo longo do texto são apresentados quadros com sessões de aprofundamento do tema e diálogo com as DCNEI que ampliam a leitura deste documento.\n\nRessalta-se que, esse documento, por si só possui característica provisória e, nesse sentido, não se constitui um texto absoluto, imutável. Ao contrário, deve ser revisto e reformulado sempre que se fizer necessário, melhorando e ampliando, nas próximas elaborações à luz das mudanças, reveladas pelo tempo.\n\nE ainda, que possam encontrar nele, nos seus detalhes, semelhanças e diferenças com o cotidiano das instituições de Educação Infantil do Estado do Rio Grande do Norte e principalmente um caminho também a construir, pois agora de fato, temos uma proposta curricular e dessa forma, como nos diz Kramer na epígrafe que introduz esse documento: tem uma história que precisa ser contada.\n\nAgradecemos a cada um e a cada uma que contribuiu com nossa história, condição sem a qual não poderíamos chamar de nosso.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

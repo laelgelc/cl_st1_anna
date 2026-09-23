@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0797fab91f2d69d9006ab3098c370087d2bede260c4a337190",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 475,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 412,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 887
+    }
+  },
+  "created_at": "2026-09-22T23:04:47Z",
+  "duration_seconds": 3.815,
+  "error": null,
+  "excerpt_id": "pr_em_14",
+  "filename": "pr_em_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "165d355d4fe3164f643c7ccfcbf0a20ad4aec484fc8c407243aa3d54b19e6007",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "05d9fb3793f640a5311a49af90707ac029ab383ca1a016d3bf66f8526cefd08d",
+    "rendered_prompt_sha256": "9465d5e8f6d9c8a56ee09c298f0a8cae52e06eeb74d9999ddc10a5f50e1c6955",
+    "source_text_sha256": "e896502bb64280004fafbb31926e0800d5bfa97c6cec88edaec047d1bedc5288"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2727,
+    "filename": "pr_em_14.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_14.txt",
+    "state": "pr",
+    "word_count_original": 242
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_14.json"
+  },
+  "raw_response_text": "# DIMENSÕES DO ENSINO MÉDIO PARANAENSE\n\nAo Sistema Estadual de Ensino do Paraná interessa fundamentar-se em uma visão abrangente sobre modelos pedagógicos de oferta, modalidades e princípios que abarcam todo o segmento do Ensino Médio.\n\nEste capítulo apresenta pressupostos específicos sobre a política pública da Educação em Tempo Integral; descreve a necessária presença da Educação Ambiental e da Educação em Direitos Humanos, destacando a perspectiva de uma educação inclusiva, e considera, em especial, o histórico do Paraná na construção e formação de uma Educação para as Relações Étnico-raciais (ERER).\n\nPartindo do reconhecimento, já abordado neste documento, das diferentes juventudes, incluem-se os contextos das modalidades de ensino, ressaltando-se, nesta perspectiva, os jovens indígenas, negros, campesinos, quilombolas, ilhéus e tantos outros, colocando em foco suas especificidades, diversidade, identidades, vivências, aprendizagens e projetos de vida. Nesse âmbito, estão inseridas as modalidades da Educação de Jovens e Adultos (EJA) e da Educação Técnica e Profissional (ETP), salientando-se o preceito da aprendizagem ao longo da vida e do desenvolvimento de competências essenciais para a vida pessoal e profissional.\n\nNa perspectiva da garantia do direito à aprendizagem, na Educação Especial encontra-se o suporte, o atendimento diferenciado e especializado, que contempla os estudantes que, por motivos de diferentes naturezas, tais como deficiências, transtornos globais do desenvolvimento, transtornos funcionais específicos e/ou altas habilidades/superdotação, necessitam de uma rede diversificada de apoio, a fim de ser assegurada a efetiva inclusão nas práticas do ensino comum.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

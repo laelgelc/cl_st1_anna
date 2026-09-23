@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0cdecbe60ddd1861006ab303238f2487d28c6eb70aa9843989",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 904,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 830,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 1734
+    }
+  },
+  "created_at": "2026-09-22T22:37:30Z",
+  "duration_seconds": 6.846,
+  "error": null,
+  "excerpt_id": "mg_em_16",
+  "filename": "mg_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "70a267a61a5785a48b07c458717aaa7bf2d6580f7b9c9d1b06acbbbd9b7df45a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "59657ea2fa6350f5eb592ff60792df7aa10131083c0819d2293456c1f2dddbfc",
+    "rendered_prompt_sha256": "9ecb318ca1db6c863186b9ef603e35f36719a0f970ab6ee27e7f025f30ddf920",
+    "source_text_sha256": "d6273b35334c22c686fd0e3e1f1ea6d01b0db58efb36b88f58c191d660454c9e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1544,
+    "filename": "mg_em_16.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_16.txt",
+    "state": "mg",
+    "word_count_original": 510
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_16.json"
+  },
+  "raw_response_text": "## 2. Pressupostos para o Ensino Médio\n\n### 2.1 Organização curricular flexível\n\nA BNCC centra-se no desenvolvimento de competências e é orientada pelo princípio da educação integral. Nessa medida, as competências gerais da Educação Básica orientam igualmente as aprendizagens essenciais. Torna-se imprescindível, na busca por uma organização curricular flexível, “romper com a centralidade das disciplinas nos currículos e substituí-las por aspectos mais globalizados e que abranjam a complexidade das relações existentes entre os ramos da ciência no mundo real” (Parecer CNE/CEB nº 5/2011). Nesse sentido, a BNCC define que as aprendizagens essenciais serão organizadas por áreas do conhecimento: Linguagens e Suas Tecnologias, Matemática e Suas Tecnologias, Ciências da Natureza e Suas Tecnologias e Ciências Humanas e Sociais Aplicadas. Para cada uma das 04 áreas do conhecimento organizadas pela BNCC para o Ensino Médio são definidas competências específicas elencadas a seguir.\n\n### 2.2 Competências específicas da área de Linguagens e suas Tecnologias\n\n1. Compreender o funcionamento das diferentes linguagens e práticas culturais (artísticas, corporais e verbais) e mobilizar esses conhecimentos na recepção e produção de discursos nos diferentes campos de atuação social e nas diversas mídias, para ampliar as formas de participação social, o entendimento e as possibilidades de explicação e interpretação crítica da realidade e para continuar aprendendo.\n\n2. Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconhecimento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza.\n\n3. Utilizar diferentes linguagens (artísticas, corporais e verbais) para exercer, com autonomia e colaboração, protagonismo e autoria na vida pessoal e coletiva, de forma crítica, criativa, ética e solidária, defendendo pontos de vista que respeitem o outro e promovam os Direitos Humanos, a consciência socioambiental e o consumo responsável, em âmbito local, regional e global.\n\n4. Compreender as línguas como fenômeno geopolítico, histórico, cultural, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo suas variedades e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como agindo no enfrentamento de preconceitos de qualquer natureza.\n\n5. Compreender os processos de produção e negociação de sentidos nas práticas corporais, reconhecendo-as e vivenciando-as como formas de expressão de valores e identidades, em uma perspectiva democrática e de respeito à diversidade.\n\n6. Apreciar esteticamente as mais diversas produções artísticas e culturais, considerando suas características locais, regionais e globais, e mobilizar seus conhecimentos sobre as linguagens artísticas para dar significado e (re)construir produções autorais individuais e coletivas, exercendo protagonismo de maneira crítica e criativa, com respeito à diversidade de saberes, identidades e culturas.\n\n7. Mobilizar práticas de linguagem no universo digital, considerando as dimensões técnicas, críticas, criativas, éticas e estéticas, para expandir as formas de produzir sentidos, de engajar-se em práticas autorais e coletivas, e de aprender a aprender nos campos da ciência, cultura, trabalho, informação e vida pessoal e coletiva.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

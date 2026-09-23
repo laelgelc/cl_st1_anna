@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01780246e76e6062006ab304d0c47487d2875dbd9e5c0383b6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 494,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 594,
+      "output_tokens_details": {
+        "reasoning_tokens": 234
+      },
+      "total_tokens": 1088
+    }
+  },
+  "created_at": "2026-09-22T22:44:39Z",
+  "duration_seconds": 6.514,
+  "error": null,
+  "excerpt_id": "mt_em_23",
+  "filename": "mt_em_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fc9944bf75b961d98b39b6e1ded657086832ec387b0aca024bfb0713c66e894b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "21ab03a78cd8f1d123209ce3d9193233f042178df8b3c767848eb9052f56f9d5",
+    "rendered_prompt_sha256": "e6dac70793ada0ed6d8f7f9c207f01d653b0c0e5bb111ccb6ad2458cb29629b9",
+    "source_text_sha256": "7a3c9ac80d0ed89e4c86dd30565f394952a7c11eb0778560d8115c3b5c1261d6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1914,
+    "filename": "mt_em_23.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_23.txt",
+    "state": "mt",
+    "word_count_original": 255
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_23.json"
+  },
+  "raw_response_text": "### 4.3.9 Avaliação\n\nA avaliação, como um dos elementos que compõe o processo de ensino e aprendizagem, é uma estratégia didática que deve ter seus fundamentos e procedimentos definidos no Projeto Político Pedagógico.\n\nA inserção da avaliação institucional das redes da Educação Básica deve estar condicionada à adequação às especificidades da Educação Escolar Indígena. O processo de avaliação institucional da Educação Escolar Indígena deve necessariamente contar com a participação e contribuição de professores e lideranças indígenas e com instrumentos avaliativos específicos que atendam aos Projetos Político Pedagógicos das escolas indígenas.\n\nA avaliação deve estar associada aos processos de ensino e aprendizagem próprios, reportando-se às dimensões de participação e de protagonismo indígena, objetivando a formação de sujeitos sócio histórico autônomos, capazes de atuar ativamente na construção do bem viver de seus grupos comunitários.\n\nPor conseguinte, a avaliação interna ou externa do processo de ensino e aprendizagem na Educação Escolar Indígena deve ter como base os aspectos qualitativos, quantitativos, diagnósticos, processual, formativos, dialógicos e participativos (professor, alunos, mestres da cultura e anciões), de modo a considerar o direito de aprender, as experiências de vida dos diferentes atores sociais e suas características culturais, os valores, as dimensões cognitiva, afetiva, emocional, lúdica, de desenvolvimento físico e motor, dentre outros.\n\nAs escolas indígenas devem desenvolver práticas de avaliações que possibilitem a reflexão de suas ações pedagógicas no sentido de: reorientá-las para o aprimoramento dos seus projetos educativos, de favorecer a relação com a comunidade, de facilitar a interação entre professor e estudante, assim como da gestão comunitária.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

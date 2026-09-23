@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06a1fd40f431aeeb006ab3010abfc487d29e5f0ca9cd8ca719",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 772,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1034,
+      "output_tokens_details": {
+        "reasoning_tokens": 417
+      },
+      "total_tokens": 1806
+    }
+  },
+  "created_at": "2026-09-22T22:28:34Z",
+  "duration_seconds": 8.175,
+  "error": null,
+  "excerpt_id": "go_ef_44",
+  "filename": "go_ef_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "67cba4717bfa4cf7651b262e0df1eab43117badc5e98f3451c29add83319da60",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1c4f1ae18456fa244209b50de43becf11a6c8cee4ba54d47af23425d96687cbb",
+    "rendered_prompt_sha256": "f1de86a642d038e5a762dcae11c050b1d39d7af7fd0c2d129d74b377cfb186c5",
+    "source_text_sha256": "5a4fda1285a8cb39256f0188629fac0074dd256f17ec4928617a4eb325d76ebb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_ef_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1121,
+    "filename": "go_ef_44.txt",
+    "filepath": "corpus/00_source_per_state/go/go_ef_44.txt",
+    "state": "go",
+    "word_count_original": 479
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_ef_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_ef_44.json"
+  },
+  "raw_response_text": "## Educação no Trânsito\n\nA mudança de comportamento de condutores e de pedestres no trânsito pode e deve começar no ambiente escolar. O Departamento de Educação para o Trânsito de Goiás (DETRAN - 2018) realiza palestras para todas as faixas etárias. São momentos que têm como objetivo fazer com que a criança e o jovem reflitam sobre suas próprias atitudes no trânsito. Para a Educação Infantil e o Ensino Fundamental (Anos Iniciais e Finais), os temas são trabalhados de forma lúdica, fazendo com que a criança se identifique nas situações propostas. Para tal é utilizada a contação de histórias, o uso de fantoches e a vivência na faixa de pedestre. As crianças e os adolescentes são convidados a refletirem de forma mais crítica, pensando em sua realidade e no que podem fazer para modificá-la. Essas ações, no entanto, não podem ser de responsabilidade somente do DETRAN, a Educação no Trânsito deve acontecer em todas as instituições de ensino utilizando todos os componentes curriculares, a fim de desenvolver nos estudantes, as habilidades que provoquem a mudança de hábitos, além do conhecimento acerca da gravidade da falta de educação no trânsito em nosso Estado.\n\n## Educação Fiscal e Financeira\n\nA Educação Fiscal é uma prática de cidadania que envolve o aprofundamento da relação estado e sociedade na fiscalização e na gestão dos recursos públicos. O programa desenvolvido na Secretaria da Fazenda de Goiás (SEFAZ) tem o objetivo de levar à comunidade em geral os conteúdos referentes ao papel social dos tributos, a importância dos orçamentos para o bom funcionamento da administração pública, a alocação e ao controle dos recursos, entre outros temas relacionados à gestão e fiscalização das finanças públicas (SEFAZ, 2018).\n\nAlém desse programa, é preciso que professores promovam a Educação Fiscal (formação de estudantes que podem atuar como fiscais dos gastos públicos) e a Educação Financeira (formação econômica dos estudantes). Estas têm o intuito de desenvolver nos estudantes várias habilidades que ser referem à economia, como a relação gastos, ganhos e a prática de reservas econômicas como poupanças e aplicações. Esse tipo de educação é feita em várias escolas internacionais, mas no Brasil ainda é uma prática rara.\n\n## Educação Política e Eleitoral\n\nA Educação Política é um processo de transmissão de informações e de conhecimentos cuja finalidade é disponibilizar ao estudante um repertório que lhe permita compreender as nuances dos debates e de organização política no Brasil, em seu estado e município. Possui também a função de capacitar crianças e adolescentes para participar ativamente da política e compreender o processo eleitoral brasileiro. Politizar é uma habilidade extremamente importante a ser desenvolvida nos estudantes goianos para garantir a defesa de valores fundamentais à convivência democrática. A política deve envolver tolerância às diferenças, direito à contradição, ética, responsabilidade e o reconhecimento do outro. Essa educação, nas escolas, com crianças e adolescentes diminuem manifestações de ódio e discriminação com ataques físicos, orais e virtuais.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

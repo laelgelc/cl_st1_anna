@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_036c88b379f3bf22006ab2fd6e8a2487d298db52443f450899",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 540,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 682,
+      "output_tokens_details": {
+        "reasoning_tokens": 280
+      },
+      "total_tokens": 1222
+    }
+  },
+  "created_at": "2026-09-22T22:13:09Z",
+  "duration_seconds": 6.636,
+  "error": null,
+  "excerpt_id": "am_em_21",
+  "filename": "am_em_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "92d30fed552d75855e4e78cca31d1625330588b5f40f720ca659f8d5b442633e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fe3abc39ae0e9055d1f3df779fe406b463765f6d684038bef4806617d18271a0",
+    "rendered_prompt_sha256": "2ea1e363cbb16f36bbd80fa5eeb0e96add1ffaa1c71e42fb7f8efcf083474d85",
+    "source_text_sha256": "c136e77719e2a900c832e62043be0a082c413a0aaa49882931e43c4ba8ea6400"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 380,
+    "filename": "am_em_21.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_21.txt",
+    "state": "am",
+    "word_count_original": 273
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_21.json"
+  },
+  "raw_response_text": "### 2.5.1 Estrutura da Área de Ciências Humanas e Sociais Aplicadas\n\nO RCA - EM da área de Ciências Humanas e Sociais Aplicadas está estruturado com seis competências específicas, quarenta e seis Habilidades, sendo quatorze criadas exclusivamente para o Amazonas (identificadas com a sigla AM no final do código alfanumérico), seis Unidades Temáticas, seis Objetos de Conhecimentos com os respectivos Detalhamentos de Objetos por componente curricular que compõem a área.\n\nAs competências são um conjunto de habilidades harmonicamente desenvolvidas, enquanto as habilidades devem ser desenvolvidas na busca das competências. Sendo assim, a área de Ciências Humanas e Sociais Aplicadas, apresenta seis competências específicas, correlacionadas às dez Competências Gerais da BNCC. As habilidades, portanto, estão associadas ao saber fazer, como exemplo de ação física ou mental, indicando a capacidade adquirida.\n\nSegundo a BNCC,\n\n> Competência é o conjunto de conhecimentos (saberes), habilidades (saber fazer) e atitudes (saber ser). [..] Dessa forma, segundo o MEC, as competências são ações e operações que utilizamos para estabelecer relações com e entre objetos, situações, fenômenos e pessoas que desejamos conhecer (BRASIL, 2018b, p. 8).\n\nAs habilidades criadas para este RCA-EM estão identificadas com a etapa de ensino, que atenderá da 1º à 3º série, na área de Ciências Humanas e Sociais Aplicadas, Competência 3, Habilidade 8 e a sigla do estado do Amazonas, conforme exemplo a seguir:\n\nA relação prática entre competências e habilidades estimula a preparação do estudante para lidar com situações de seu cotidiano e ser capaz de resolver problemas reais. Nesse sentido, colocar o estudante como protagonista do seu processo de ensino e aprendizagem é a forma mais indicada para tornar o Ensino Médio mais atrativo.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

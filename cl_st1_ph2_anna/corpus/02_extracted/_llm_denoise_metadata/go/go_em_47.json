@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_070483393c14211d006ab3014de82487d292a4d4692120747b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 862,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 917,
+      "output_tokens_details": {
+        "reasoning_tokens": 274
+      },
+      "total_tokens": 1779
+    }
+  },
+  "created_at": "2026-09-22T22:29:40Z",
+  "duration_seconds": 6.867,
+  "error": null,
+  "excerpt_id": "go_em_47",
+  "filename": "go_em_47.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ac1be6046116d89cc3404660446e76dfa8c1db9fbf6b7db4828de00faf74b20c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bdbc6baa6308fdda887fda52ba3bd4122c9ae9f74a1e7b9fac2a49ddc2adf94c",
+    "rendered_prompt_sha256": "fa8a0c97af71d891b7ff3141988688522c7268e14d72af4067f4f99d8e0b58af",
+    "source_text_sha256": "a69b60500a5afc6271e032337cd22d80bd361edcbf9bd926e9df45b1a71061e3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_47.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1171,
+    "filename": "go_em_47.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_47.txt",
+    "state": "go",
+    "word_count_original": 481
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_47.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_47.json"
+  },
+  "raw_response_text": "## Os Objetivos de Aprendizagem\n\nOs Objetivos de Aprendizagem (OA), neste documento, são compreendidos como ferramenta pedagógica que tem a função de orientar o trabalho docente para possibilitar o desenvolvimento das habilidades específicas da área de Matemática e suas Tecnologias na BNCC.\n\nA estrutura do OA é composta por três etapas: (i) a habilidade cognitiva a ser desenvolvida durante o percurso formativo do/a estudante, (ii) a metodologia ou procedimento didático em que o/a professor/a organiza o percurso formativo da aula e, (iii) a finalidade da aprendizagem da habilidade cognitiva.\n\nA seguir temos um exemplo de um OA e sua estrutura:\n\nObserve na estrutura do OA, da figura 18, que a habilidade cognitiva é evidenciada pelo verbo RESOLVER apresentado no início do período. Este verbo será usado sempre no infinitivo e terá uma complementação que orientará a ação a ser desenvolvida pelo/a estudante. Entendemos, neste documento, que a junção do verbo com sua complementação é a habilidade cognitiva a ser desenvolvida pelo/a estudante.\n\nAinda no OA, da figura 18, a metodologia/procedimento didático em que o/a professor/a estrutura e organiza o percurso formativo da aula é evidenciado pela forma verbal UTILIZANDO apresentado, imediatamente, após a habilidade cognitiva. A conjugação dessa forma verbal é no gerúndio e terá uma complementação que orientará a ação a ser desenvolvida pelo/a professor/a.\n\nFinalmente, observe no OA que há um terceiro verbo, AVALIAR, cuja conjugação, também no infinitivo, determina a finalidade da aprendizagem da habilidade cognitiva pelo/a estudante. Este terceiro verbo é precedido pela preposição “PARA”.\n\nÉ válido informar que:\n\n- as habilidades cognitivas que compõem os OAs foram definidas a partir das habilidades sugeridas pela BNCC;\n- as metodologias ou procedimentos didáticos foram selecionados principalmente, nas competências específicas de Matemática da BNCC;\n- as finalidades foram definidas com foco nos eixos cognitivos e nas competências e habilidades da Matriz de Referência de Matemática do Exame Nacional do Ensino Médio (Enem) de 2009, a matriz vigente.\n\nTodos os OAs deste documento, assim como as habilidades específicas da BNCC, terão um código de identificação com estrutura semelhante ao apresentado na figura 19, a seguir:\n\n## A Estrutura Deste Documento\n\nO DC-GOEM área de Matemática tem sua estrutura organizada conforme a figura 19, para cada habilidade específica da BNCC será apresentada um conjunto de OAs que orientará o trabalho do/a professor/a no desenvolvimento dessas habilidades.\n\nÉ válido destacar que o/a professor/a da área de Matemática e suas Tecnologias, desde que trabalhe o conjunto de OA que se articula para promover a habilidade específica da BNCC, tem total autonomia para desenvolver outras habilidades cognitivas, utilizando as metodologias e procedimentos didáticos que considerar importantes. Assim, pode definir, planejar e organizar novas finalidades para os conhecimentos, saberes e capacidades matemáticas relacionadas ao objeto de conhecimento e o tema trabalhado.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

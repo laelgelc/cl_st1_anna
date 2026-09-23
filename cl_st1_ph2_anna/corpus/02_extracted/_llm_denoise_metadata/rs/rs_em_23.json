@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c0d9afaaaf25e49006ab30da39ecc87d2a3e956f0278a0668",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 579,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 500,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 1079
+    }
+  },
+  "created_at": "2026-09-22T23:22:16Z",
+  "duration_seconds": 4.616,
+  "error": null,
+  "excerpt_id": "rs_em_23",
+  "filename": "rs_em_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "35ef103e9fbdb600871d5e4895ac25f46691cbba1428f4d9c1a4c95203f11240",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1b0bcfa61df8b171854c3f9bfaae0db3b82f90fd10848aa24c190fb63762a7ea",
+    "rendered_prompt_sha256": "cadfefbb90e8ea55332b3ad68d46e2fd43552ea07be910d4bdd04b810a23560a",
+    "source_text_sha256": "faf6649a291d5655c8422dd6756fbe04b49643d35022b3c583742cdfe73caec4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3565,
+    "filename": "rs_em_23.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_23.txt",
+    "state": "rs",
+    "word_count_original": 314
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_23.json"
+  },
+  "raw_response_text": "## 2.2 EDUCAÇÃO INTEGRAL\n\nO Referencial Curricular Gaúcho do Ensino Médio afirma, em consonância com a BNCC, a educação integral. A educação integral considera a multidimensionalidade do ser humano, seu pleno desenvolvimento, valorizando os aspectos cognitivos, físicos, afetivos, políticos, culturais, éticos e sociais. Considera também a singularidade dos adolescentes e das juventudes na construção de suas trajetórias educacionais, o que demanda que os professores tenham entendimento das múltiplas formas pelas quais as pessoas aprendem, se desenvolvem e se relacionam.\n\nA educação integral não se limita à ampliação do tempo e dos espaços de aprendizagem, ditos tradicionais, e não pode ser confundida com escola em tempo integral. A integralidade da educação reflete a proposta educacional representada pelo currículo. As escolas de tempo regular e em tempo integral possuem o mesmo princípio: oferecer a seu público a oportunidade de se desenvolver de maneira plena no exercício de suas mais diversas atividades individuais e sociais.\n\nTodas as atividades, metodologias e intencionalidades educativas devem considerar os sujeitos como protagonistas, pesquisadores e autores, que produzem novos conhecimentos e desenvolvem novas habilidades e competências.\n\nOutra ideia é a educação integral na perspectiva inclusiva, a qual reconhece as singularidades e as múltiplas identidades; se sustenta na construção de um projeto educacional pertinente, contextualizado e colaborativo; valoriza o diálogo entre os saberes e a interação permanente entre o que se aprende e o que se pratica; oportuniza a vivência de práticas educativas diversificadas, a partir da interação com múltiplas linguagens, recursos, espaços, saberes e agentes em uma sociedade que exige cada vez mais profissionais autônomos, críticos e criativos.\n\nA BNCC orienta ainda que as competências cognitivas devam ser trabalhadas juntamente com as socioemocionais. Dissociar essas competências seria privilegiar apenas parte do currículo, o que corresponde a uma cisão educacional. A produção do conhecimento deve ocorrer de forma plural, plena e integrada, numa perspectiva de colaborar com o pleno desenvolvimento multidimensional do cidadão.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

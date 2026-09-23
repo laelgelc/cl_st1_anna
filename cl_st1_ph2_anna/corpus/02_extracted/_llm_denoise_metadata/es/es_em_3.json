@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07675a149b7da371006ab300b245f487d2880ba5c9b4196d8e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1030,
+      "input_tokens_details": {
+        "cache_write_tokens": 1027,
+        "cached_tokens": 0
+      },
+      "output_tokens": 974,
+      "output_tokens_details": {
+        "reasoning_tokens": 120
+      },
+      "total_tokens": 2004
+    }
+  },
+  "created_at": "2026-09-22T22:27:04Z",
+  "duration_seconds": 6.438,
+  "error": null,
+  "excerpt_id": "es_em_3",
+  "filename": "es_em_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "da57492f95e589a39d007247df636bdfe88f722f7a22225fc66cc8c9d05bc2c0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4f027fd03179d7d77559d176841cb44645f8ca7ad5137acc76dd26963a645c36",
+    "rendered_prompt_sha256": "259f54ca9231e98c1b0d20e679725dedbaa7e1d074c7b0caf679fcb5fdadc669",
+    "source_text_sha256": "53617f20f6f5f5a2544270daed3ed00a61ac024c3884eae1779f4e02060c98fc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_em_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1035,
+    "filename": "es_em_3.txt",
+    "filepath": "corpus/00_source_per_state/es/es_em_3.txt",
+    "state": "es",
+    "word_count_original": 611
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_em_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_em_3.json"
+  },
+  "raw_response_text": "# Sujeitos do Ensino Médio no Espírito Santo\n\nNo que tange às questões pertinentes aos sujeitos do Ensino Médio no Espírito Santo, é preciso caracterizar, primeiramente, o público dessa etapa de ensino, composto, em sua maioria, por jovens, mas também por adultos e idosos, em especial na modalidade de Educação de Jovens e Adultos (EJA). No entanto, é válido destacar aqui que muitas são as definições dadas ao termo juventude. De acordo com Trancoso (2014), a juventude é representada por um conceito polissêmico, transitando entre os campos da Biologia, da Psicologia e da Sociologia. Esse trânsito ocorre, por aproximações conceituais, em um processo criativo a serviço da comunicação, do entendimento e da solução de problemas ou questões teóricas, metodológicas e operacionais a respeito da juventude (TRANCOSO, 2012).\n\nReconhecendo, então, não apenas a sua amplitude conceitual, mas também toda diversidade cultural, territorial, emocional, entre outros aspectos, utilizamos neste documento o vocábulo “Juventudes” no plural. Termo que atualmente melhor representa o Sujeito do Ensino Médio, visto que na realidade não há uma juventude e sim jovens, enquanto sujeitos que a experimentam e sentem, segundo determinado contexto sociocultural ao qual estão inseridos e, assim, elaboram determinados modos de ser jovem (BRASIL, 2013).\n\nSegundo Spósito e Carrano (2003, p.17), “[...] ainda que não haja apenas uma juventude, mas várias, a ideia da juventude relaciona-se às transformações, ela representa o futuro em uma perspectiva de formação de valores e atitudes das novas gerações”.\n\nNa prática, apesar dos uniformes utilizados dentro das escolas, esses estudantes apresentam diferentes identidades culturais, gostos e valores próprios assumidos e construídos a partir das relações sociais, sendo um grupo heterogêneo composto por homens, mulheres, de zonas rurais ou urbanas, negros, brancos, pardos, indígenas, heterossexuais ou LGBTQIA+, ateus ou religiosos, entre outros grupos que habitam o espaço escolar.\n\nOutro aspecto a ser considerado a respeito dos jovens na contemporaneidade é a sua grande familiaridade com um mundo digital. Uma vez que são nativos dessa Era Digitalizada, temos uma geração nascida na Era da internet. Essa popularização da internet, segundo Shirky (2011), propicia a geração de novas “culturas da participação” em que os tempos e espaços de aprendizagem são menos hierarquizados e a troca de informações não ocorre de forma unilateral como muitas vezes ocorre dentro do ambiente escolar, no que diz respeito aos conteúdos dados pelos professores.\n\nA juventude atual vive o presente com grande intensidade – o que muitas vezes passa a falsa ideia de que os jovens não sabem o que querem, quando, na verdade, esses mesmos jovens estão completamente abertos a experimentar diferentes aprendizados e, dessa maneira, podem decidir sobre tornar algo permanente em suas vidas e não se prendem a certezas absolutas uma vez que pertencem a uma geração em que tudo muda em grande velocidade e acompanhar a todas essas mudanças requer flexibilidade.\n\nNão há tempo para que aguardem ser compreendidos e tampouco para pedir licença para participar ativamente das mudanças. Muito pelo contrário: essa mesma juventude é o fio condutor das transformações sociais, essa participação ativa representa a sua busca em influenciar e compartilhar o controle e a responsabilidade das decisões e do destino dos recursos que lhes afetam, agindo desse modo como um cidadão ativo que participa dos processos sociopolíticos e da tomada de decisão sobre os assuntos de seu próprio interesse (Educação & Participação, 2019).\n\nSegundo Safatle (2012), apesar de não ser observada uma participação política intensa dos jovens, visto que eles não querem virar instrumentos para uma lógica partidária, pode ser que a suas mobilizações se expressem em torno de temas específicos em que se organizem para certos objetivos, criem estruturas ou fóruns ligados a eles; depois, eles se dissolvem, sendo essa uma tendência marcadamente presente.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

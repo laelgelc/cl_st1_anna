@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_009796417627baf0006ab30e6c828c87d286f92d941257ae04",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 815,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 816,
+      "output_tokens_details": {
+        "reasoning_tokens": 152
+      },
+      "total_tokens": 1631
+    }
+  },
+  "created_at": "2026-09-22T23:25:39Z",
+  "duration_seconds": 6.848,
+  "error": null,
+  "excerpt_id": "sc_em_55",
+  "filename": "sc_em_55.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d3c5baf7fa07f08a8c48b958a7f17abd38f5c9b644e935c2b50461e6c919e4ce",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ec2945051cc09b42b455ace30f3967d74c548f28bbd0a72b395e7ee27825c62a",
+    "rendered_prompt_sha256": "828cf72c590887bf42110f4b0b44beb19bf5bc9b18ccb44e7ff22a22f1991ee6",
+    "source_text_sha256": "07758fe6e520ccb3fe5b18de1fd2118075649e74983130756cbd6e53a593ad21"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sc/sc_em_55.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3729,
+    "filename": "sc_em_55.txt",
+    "filepath": "corpus/00_source_per_state/sc/sc_em_55.txt",
+    "state": "sc",
+    "word_count_original": 442
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sc/sc_em_55.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sc/sc_em_55.json"
+  },
+  "raw_response_text": "### 2.3.4 Orientações metodológicas\n\nAs sequências didáticas permeiam a problematização e a contextualização, a pesquisa, a resolução de problemas mediante processos de observação, comparação, investigação, análise, interpretação, reflexão e síntese (PCSC, 2014).\n\nSugere-se, para tanto:\n\n- criar núcleos de estudos e observatórios sobre as formas de violência contra as mulheres nos lugares de vivência no território catarinense (este núcleo teria por função desenvolver estudos e pesquisas sobre o tema, promovendo fóruns de debates, campanhas e palestras);\n- identificar como, e se, os sujeitos das culturas escolares reconhecem as várias formas de violência contra as mulheres nos lugares de vivência no território catarinense;\n- considerando as dimensões dos diversos tipos de violência (física, psicológica, moral, patrimonial), eleger uma delas e investigar como realizar o encaminhamento das diferentes situações das vítimas, sob a perspectiva de gênero, nos lugares de vivência (escola, bairro, cidade);\n- identificar a possível existência de sistemas de proteção contra violências das mulheres e quais possam ser acionados, nesses casos, para proteger as vítimas nos lugares de vivência (bairros e cidade), identificando pontos positivos e negativos para a garantia desse direito protetivo;\n- propor políticas públicas, criar projetos ou programas que melhorem a situação de escuta do sofrimento e de acolhida da violência contra as mulheres, considerando as interseccionalidades de gênero, populações LGBTQIAP+, etnia/raça, de classe, geracional, entre outras;\n- criar grupos de memória e de escuta das mulheres (estudantes, jovens, idosas, adultas);\n- promover ações que oportunizem entrevistas com mulheres mais velhas, e de diferentes gerações, para a percepção e constatação dos diferentes costumes e padrões de comportamento definidos para as mulheres, nas dimensões históricas e geográficas, sociológicas e filosóficas, nos lugares de vivência e promover rodas de conversas intergeracionais nas escolas ou em lugares de vivência.\n\n### 2.3.5 Recursos\n\nTempo de planejamento para os(as) professores(as) e para a execução da atividade. O tempo de execução também pressupõe capacidade de ocupar diferentes espaços formativos (fazer visitas a locais, reservar espaços, etc.), tempo de planejamento com materiais apropriados, como livros, bibliografias atualizadas, funcionamento de internet, entre outros.\n\nSugestão: saídas a campo, laboratórios, visitas guiadas, entre outras, o que requer: organização de transporte; pesquisas bibliográficas; preparação de entrevistas e sua realização; viagens de estudo a órgãos do Poder Judiciário e de Serviço Social; visitas à comunidades tradicionais; análise dos espaços de memória; pesquisas on-line; documentários; filmes; artigos e outros; acesso à internet, especialmente às redes sociais através do celular (que geralmente não consome pacotes de dados); referências bibliográficas; celulares e notebooks; parcerias com instituições (universidades e laboratórios de pesquisa sobre violência contra as mulheres); acessibilidade, visitas de estudos nas comunidades, formação de professores, criação de projetos pelos(as) estudantes; laboratórios, salas-ambiente.",
+  "state": "sc",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

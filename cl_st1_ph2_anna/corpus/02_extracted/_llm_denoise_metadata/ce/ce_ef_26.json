@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_047612fd61fba10f006ab2ff36540887d29a69270775889487",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 544,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 615,
+      "output_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "total_tokens": 1159
+    }
+  },
+  "created_at": "2026-09-22T22:20:44Z",
+  "duration_seconds": 5.862,
+  "error": null,
+  "excerpt_id": "ce_ef_26",
+  "filename": "ce_ef_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "404f32a5e639f16fb76fdbc2f56baf2685ea0eae53b2e594bd7d1f62350f17c0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ff042a91318b7c126c4890de409ee74a9dd991a8f3eae3c2a025ff91dfad911a",
+    "rendered_prompt_sha256": "988092d77e515ea88fb20b9e003f3bf97eca0197e888db84cf4c069a75eb63af",
+    "source_text_sha256": "b07ef86768d4fe8ac721d44fefdd55e7abc8596a0560e9f28e37e8278a949ddd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 745,
+    "filename": "ce_ef_26.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_26.txt",
+    "state": "ce",
+    "word_count_original": 317
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_26.json"
+  },
+  "raw_response_text": "### 4.2.3.1.1.1. O letramento científico nos anos iniciais\n\nO letramento científico nos anos iniciais proposto neste documento, garante à/aos estudante o desenvolvimento de 50 habilidades específicas distribuídas pelas 3 áreas temáticas, Matéria e Energia, Vida e Evolução; Terra e Universo, como pode ser visto no Gráfico 04.\n\nOs saberes culturais e empíricos que as/os estudantes trazem, ao adentrar o ensino fundamental, devem ser considerados para o início dos estudos científicos nesta etapa da educação básica. Ressaltamos a importância do brincar, enquanto alternativa didática para o desenvolvimento integral desta criança, que adentra os anos iniciais do Ensino Fundamental com 5 a 6 anos de idade. Cabe à/ao professora/professor dessa faixa etária, proporcionar rotinas lúdicas que permitam às crianças olharem para si e para o outro, desenvolver a alteridade e a empatia; respeitar as diferenças e compreender-se no ambiente e no espaço, sejam estes a escola, o bairro ou a comunidade.\n\nAs crianças são convidadas a cuidar da saúde, individual e coletiva, a partir do desenvolvimento da consciência corporal e dos processos culturais e econômicos relacionados à alimentação, ao clima, e à utilização dos recursos naturais regionalizados, ou não. A fala é um instrumento de intermediação entre os objetos específicos e o conhecimento. Assim, as crianças devem ser estimuladas a perguntar, elaborar hipóteses e experimentar descobertas.\n\nDestacamos que o DCRC de Ciências acompanha a criança no ensino fundamental, propondo o desenvolvimento de habilidades, gradualmente complexas, ampliando os espaços e perspectivas de análises e investigação. A criança que emerge dos anos iniciais no século XXI, convive diuturnamente com aparatos tecnológicos e relações sociais intermediadas pelo desenvolvimento científico. Assim, o currículo a ser desenvolvido nas escolas de Ensino Fundamental deve proporcionar o desenvolvimento crescente dos direitos à aprendizagem de todas/todos as estudantes, preparando-as/preparando-os para adentrarem aos anos finais do ensino fundamental.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d7b07c50952f06e006ab3036c37d087d28e02a9dad7ad7bb2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 652,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 718,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 1370
+    }
+  },
+  "created_at": "2026-09-22T22:38:42Z",
+  "duration_seconds": 6.315,
+  "error": null,
+  "excerpt_id": "mg_em_9",
+  "filename": "mg_em_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "61d1945eee02b29f933341e6ffedf34a896fcbdac03ef3917b7ce8e7ca657100",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a9c867e69bd265dfcaa098a62c5d0e65e5fd4f1019da35566d8c3a537b5bb2e1",
+    "rendered_prompt_sha256": "bd67f1bd062e3134c8a33cc6b0a2934add1b74ff3e6b04f33557bca82f9207cf",
+    "source_text_sha256": "d2c0bff40b29bbbb0507745f8c0b3ea5272421a9c8ff1df5d510f9445d1032d8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1625,
+    "filename": "mg_em_9.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_9.txt",
+    "state": "mg",
+    "word_count_original": 365
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_9.json"
+  },
+  "raw_response_text": "### 1.4.2 Equidade, diversidade e inclusão\n\nPensar uma educação para a equidade é pensar em igualdade de oportunidades, na redução das desigualdades e numa lógica libertadora, que rompa o estereótipo da prestação de serviços públicos a uma significativa parcela da população, que, historicamente, é periférica.\n\nAntes de adentrarmos nos parâmetros que embasam o enfoque desse trecho do documento, é importante salientarmos a motivação da escolha do termo equidade. Por que não igualdade? Acreditamos que há igualdade numa ação para a equidade, mas que esta vai além e carrega consigo a importante ênfase da justiça social. Ou seja, tratar os desiguais de maneira desigual, gerando igualdade de oportunidades como sugere a figura a seguir:\n\nPara a diversidade e para a inclusão, exige-se, na escola, outro modo de viver em que professoras(es) e estudantes empreendam a tarefa de aprender coletivamente. Nesse sentido, o respeito às diferenças geográficas e territoriais, de gênero, étnico-raciais, linguísticas, religiosas, às condições físicas, sensoriais, intelectuais e mentais e às linguagens diferenciadas, dentre outras, devem permear a construção de ambientes escolares com estruturas organizativas e metodológicas democráticas. Essa construção permite aos sujeitos uma nova perspectiva ao introduzirmos nos espaços escolares novos objetos de estudo: o pluralismo cultural, a liberdade, a justiça social, o respeito mútuo, o senso de coletividade, a solidariedade e o reconhecimento das diferentes modalidades educacionais como a Educação do Campo, Educação Escolar Quilombola e Educação Escolar Indígena.\n\nDiante desse desafio, inevitavelmente, consideramos que algumas questões-chave ainda precisam ser respondidas, tais como: o que é diversidade para os/as educadores/as mineiros? O que significa diversidade no Brasil e em Minas Gerais? Como ela está imbricada no conceito de inclusão? Quais são as possíveis implicações da definição desse conceito sobre o currículo? Como incluir os desiguais? Quais estratégias de acesso e de permanência devem ser conduzidas? Como gerar trajetórias escolares individuais sem gerar desigualdade? Não há uma única resposta para cada uma dessas questões. Importante que, ao final deste documento, você, educador, carregue consigo tais perguntas e reflexões e construa, coletivamente, as respostas para elas, compreendendo que este texto não finda nas palavras aqui escritas e que o currículo é um processo contínuo de aprendizagem e discussão.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

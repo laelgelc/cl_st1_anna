@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07ba707d71259ffd006ab30764fee487d289647160a99a2cc4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 755,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 748,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "total_tokens": 1503
+    }
+  },
+  "created_at": "2026-09-22T22:55:39Z",
+  "duration_seconds": 6.1,
+  "error": null,
+  "excerpt_id": "pb_em_70",
+  "filename": "pb_em_70.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1f6ededce24c05a9942a707e4b67cf90e3b15d1f5851af130f3dbc8585133f41",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "32ddc9f3ff7ecf3f905e40e7e93350adcf9ece0fb381ca278f26d3a49279f457",
+    "rendered_prompt_sha256": "ed36e7ba26fe2d3c71b70d15c21fd7ac0d01cd3513bc74b5c626687462772405",
+    "source_text_sha256": "72abe79d433f9859ef3bfd98c9fb9fabf07ee6a19feb40e57957b4d02d4d4056"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_70.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2320,
+    "filename": "pb_em_70.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_70.txt",
+    "state": "pb",
+    "word_count_original": 488
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_70.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_70.json"
+  },
+  "raw_response_text": "## 2.3.8 UNIDADES TEMÁTICAS\n\nAs competências específicas e as habilidades da área de Ciências da Natureza e suas Tecnologias, no Ensino Médio, foram definidas privilegiando conhecimentos conceituais, considerando a continuidade da proposta do Ensino Fundamental, sua importância no ensino de Biologia, Física e Química e sua adequação ao Ensino Médio. Dessa forma, no capítulo da BNCC referente à área de Ciências da Natureza e suas Tecnologias na etapa do Ensino Médio, as unidades temáticas Matéria e Energia e Terra, Vida e Cosmos propõem um aprofundamento das Unidades Temáticas Matéria e Energia, Vida e Evolução e Terra e Universo descritas para a etapa do Ensino Fundamental.\n\nOs conhecimentos conceituais associados às temáticas constituem uma base que permite ao estudante a apropriação de procedimentos e práticas das Ciências da Natureza como o aguçamento da curiosidade sobre o mundo, sobre a construção e avaliação de hipóteses, a investigação de situações-problema, a experimentação com coleta e análise criteriosa dos dados, como também proporciona a autonomia quanto ao uso da linguagem própria das ciências e na comunicação desse conhecimento, aplicando-os na resolução de problemas individuais e coletivos em diversos contextos.\n\nÉ também fundamental que possam experienciar diálogos com diversos públicos, em contextos variados, empregando diferentes linguagens, mídias, dispositivos e tecnologias digitais de informação e comunicação (TDIC), construindo narrativas nas diversas esferas da vida humana, com ética e responsabilidade.\n\nOs estudantes podem reelaborar seus próprios saberes relativos a essas temáticas, bem como reconhecer as potencialidades e limitações das Ciências da Natureza e suas Tecnologias. Cabe considerar e valorizar, também, diferentes cosmovisões – que englobam conhecimentos e saberes de povos e comunidades tradicionais (como as populações indígenas e quilombolas) – reconhecendo seus valores na produção de conhecimento típicos de um povo e que são passados de geração para geração, mas que não são pautados nos parâmetros e procedimentos teórico-metodológicos trazidos nas ciências.\n\nA compreensão desses conhecimentos implica a sensibilidade, o respeito e a valorização aos ensinamentos existentes antes mesmo de se constituir uma concepção de Ciência. É preciso ressaltar a indissociação da relação homem-natureza e, como parte dessa natureza, o homem desenvolveu instrumentos, técnicas e métodos a partir do conhecimento popular que passou a ser validado ou não como ciência com a utilização do método científico.\n\nNa unidade temática Matéria e Energia, no Ensino Médio, diversificam-se as situações-problema, referidas nas competências específicas e nas habilidades, incluindo-se aquelas que permitem a aplicação de modelos com maior nível de abstração e que buscam explicar, analisar e prever os efeitos das interações e relações entre matéria e energia. As temáticas Vida e Evolução e Terra e Universo, no Ensino Médio, são organizadas na temática Vida, Terra e Cosmos, na qual propõe-se aos estudantes a análise da complexidade dos processos relativos à origem e evolução do Universo, da Terra e da Vida, bem como a dinâmica das suas interações e a diversidade dos seres vivos em sua relação com o ambiente.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04740182ffc4efbc006ab2fdb647cc87d2973cb46cebd6a704",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 495,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 480,
+      "output_tokens_details": {
+        "reasoning_tokens": 104
+      },
+      "total_tokens": 975
+    }
+  },
+  "created_at": "2026-09-22T22:14:19Z",
+  "duration_seconds": 5.048,
+  "error": null,
+  "excerpt_id": "am_inf_40",
+  "filename": "am_inf_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1b187812eba3e229276f6b0b02f2e4e1eb59958534274e91319833d0ce0e0a9d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c889ca747306cb7704289dd69974ef170a3a9abdaca9e5e2629ceea2829407ac",
+    "rendered_prompt_sha256": "437fbcb6231c70872555ab2331b083423ad0d07cae5e6e8c251f6e6c3116ec3a",
+    "source_text_sha256": "e4ba2b66122b231ede6d0e7f33714e7b63800f64aa10a7f49a1ff864e35c0cc4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 443,
+    "filename": "am_inf_40.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_40.txt",
+    "state": "am",
+    "word_count_original": 279
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_40.json"
+  },
+  "raw_response_text": "## 19. Carga horária, calendário e horário de funcionamento\n\nConforme a Lei n.º 12.796/13 (BRASIL, 2013), as instituições de Educação Infantil devem funcionar durante o turno diurno em período parcial ou integral, sem exceder o tempo em que a criança passa com a família, em regime parcial de, no mínimo, 4 (quatro) horas e em regime integral de, no mínimo, 7 (sete). O Calendário Escolar a ser seguido pelas unidades de ensino é de responsabilidade das redes de ensino quanto à elaboração, acompanhamento e execução.\n\n### 19.1 Horário de entrada e saída\n\nEm função da Lei n.º 12.796, de 4 de abril de 2013, a Educação Infantil, reconhecida legalmente como primeira etapa da Educação Básica, deve prever em seu calendário 200 dias e 800 horas efetivas de trabalho educacional durante o ano letivo. É importante que haja um trabalho de parceria entre instituição e família para a garantia da frequência dos bebês e crianças, pois a presença é condição para as interações e brincadeiras.\n\nÉ importante também estabelecer uma rotina de pontualidade na Educação Infantil. Mas, mesmo que cheguem atrasados, os bebês e crianças não poderão ser penalizados, tendo que voltar para casa. A direção deve articular com as famílias formas de orientação acerca dos atrasos e possível infrequência. Também devem ser orientados para comunicar a ausência das crianças em períodos recorrentes.\n\nCada rede de ensino tem autonomia para definir a organização dos horários de permanência na instituição, conforme seu Regimento Escolar. O Regimento Escolar é o documento norteador da instituição de ensino; nele devem estar toda a organização administrativa, pedagógica e dos diferentes segmentos da escola e sua relação com a comunidade.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

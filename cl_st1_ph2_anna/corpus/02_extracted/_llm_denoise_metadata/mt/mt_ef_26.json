@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_049b835ec2ea3265006ab3044b816087d2a54aa1daa4ed7eda",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 873,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 826,
+      "output_tokens_details": {
+        "reasoning_tokens": 115
+      },
+      "total_tokens": 1699
+    }
+  },
+  "created_at": "2026-09-22T22:42:25Z",
+  "duration_seconds": 6.523,
+  "error": null,
+  "excerpt_id": "mt_ef_26",
+  "filename": "mt_ef_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "637c8c54b38580ef28c1c5a068cf32114df05ddb4027830ec32c2ca0238dc2c5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "37d5e40fc54669abec56c98eb2283976d579b948309d54776d370a0abe9e4c92",
+    "rendered_prompt_sha256": "f23dad6b10e6db956a68bb535a5e7694f6c4fa6429cea9e86ea23674195a095b",
+    "source_text_sha256": "b399cc7fae54d9372050367680447ca8e7203cbffe1f43ef4fbd99015214d2ec"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1818,
+    "filename": "mt_ef_26.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_26.txt",
+    "state": "mt",
+    "word_count_original": 523
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_26.json"
+  },
+  "raw_response_text": "## 5.2. História\n\nNos Anos Iniciais, a BNCC de História contempla a construção do sujeito. O estudante deve ser compreendido como sujeito ativo e cognoscente, capaz de construir conhecimentos, integrando-se com outros na realidade sociocultural em que vive. No momento em que o estudante diferencia a existência de um “Eu” e de um “Outro”, inicia-se o processo de separação de si, desenvolvendo a capacidade de administrar a sua vontade de maneira autônoma, como parte de uma família, uma comunidade e um corpo social.\n\nNas situações de ensino e aprendizagem, o professor, ao trabalhar o eixo identidade, mediará um processo dialógico e de interação, permitindo que a criança desenvolva capacidade de construção da sua identidade pessoal e social – tanto em sua dimensão individual quanto coletiva – permitindo-lhe desenvolver noções de pertencimento a um grupo sociocultural no qual reconhece sua família, a rua, a escola, e a comunidade em que vive, estabelecendo relações com outras culturas. (O.C. CIÊNCIAS HUMANAS p. 12).\n\nNo decorrer dos Anos Iniciais, o aprendizado torna-se mais complexo à medida em que o estudante aprende que cada um entende o mundo de forma particular. Segundo a BNCC “Os indivíduos desenvolvem sua percepção de si e do outro em meio a vivências cotidianas, identificando o seu lugar na família, na escola e no espaço em que vivem” (p. 401).\n\nA partir das problematizações de situações articuladas em diversos campos nos quais os estudantes estão inseridos, são construídos objetos de estudo. Assim, os objetos de estudo referem-se a processos históricos, vivenciados por diversas coletividades e suas intervenções na natureza, manifestações culturais, costumes, formas de organização, modos de produção e usos de tecnologias.\n\nA percepção de que o ambiente pode influenciar no modo de vida das pessoas e de que a cidade, a região e o estado têm sua identidade construída historicamente a partir de diferentes grupos sociais, em diferentes tempos, são conhecimentos possibilitados pela História. Estudos referentes a circulação dos primeiros grupos humanos possibilitam aos estudantes apropriar-se do lugar em que vivem, com destaque nas diferenciações entre vida privada e vida pública, urbana e do campo.\n\nEm Mato Grosso, os espaços no campo e urbano devem ser compreendidos a partir de suas interações com o país e o mundo, com dimensões sociais, culturais e ambientais, com uma crescente diversificação de atividades agrícolas e não agrícolas, como a prestação de serviços, o comércio e a indústria.\n\nEsses espaços devem ser enfocados de modo que o estudante perceba a si e a sua família na dinâmica dos múltiplos modos de vida dos grupos sociais: moradores das periferias e dos condomínios de luxo; latifundiários e assalariados do meio rural, quilombola, indígenas e populações ribeirinhas, entre outros. A análise da temática deve focar as dinâmicas das transformações caracterizadas pelas interações de fatores naturais, históricos, sociais, econômicos e políticos e seus impactos positivos e/ou negativos no meio ambiente (O.C. CIÊNCIAS HUMANAS p. 23).\n\nA História é composta por relações e interações humanas, sendo estas sociais, econômicas, artísticas, políticas e culturais. Por meio de brincadeiras, jogos, músicas ou gravuras antigas, os estudantes podem estabelecer relações entre os tempos atuais e antigos.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

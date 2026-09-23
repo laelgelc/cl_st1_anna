@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0923f43774287bc3006ab30740a09087d2bf42139b80dc0429",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 851,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 882,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 1733
+    }
+  },
+  "created_at": "2026-09-22T22:55:03Z",
+  "duration_seconds": 6.955,
+  "error": null,
+  "excerpt_id": "pb_em_43",
+  "filename": "pb_em_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6b58128a32bc40e638d053ffaf9e66d911b3b4b9d566c7de3c4ed2b6e855b6ab",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "29267106622661bcac07abf32e874cd5ded874a40d4ee1252a0c95d431ddccfe",
+    "rendered_prompt_sha256": "baaaac3fcc7962b3197e7e0251483eb7c69357dbbd495a269f48b7ca490bf25f",
+    "source_text_sha256": "86660de88fcea20a6b7143ded58dc7d5a252c9b9ac52a2d43120bcb97f1190a7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2290,
+    "filename": "pb_em_43.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_43.txt",
+    "state": "pb",
+    "word_count_original": 539
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_43.json"
+  },
+  "raw_response_text": "### 2.1.6.4.5 Possibilidades Avaliativas para o Teatro\n\nConsiderando que o processo de ensino-aprendizagem deve buscar atingir os objetivos propostos pela disciplina e garantir o desenvolvimento das habilidades e competências, a avaliação destina-se à análise da aprendizagem dos estudantes, favorecendo seu percurso e regulando as ações de sua formação. Dessa forma, o conhecimento dos critérios utilizados e a análise dos resultados e dos instrumentos de avaliação e de autoavaliação são fundamentais, uma vez que favorecem a consciência do estudante sobre seu próprio processo de aprendizagem.\n\nIsso possibilita ao estudante conhecer e reconhecer seus próprios métodos de pensar, desenvolvendo a capacidade de autorregular a própria aprendizagem. O domínio sobre os processos de apropriação do conhecimento de cada um permite, ainda, quando partilhado no âmbito do trabalho coletivo, que todo o grupo de estudantes em formação possa ser beneficiado, ampliando suas possibilidades de aprendizagem, por meio do intercâmbio entre diferentes formas de aprender.\n\nÉ importante que, no decorrer do processo de aprendizagem, o/a estudante seja avaliado/a quanto à sua capacidade de argumentação teórica, bem como quanto à sua capacidade de envolver-se com as questões técnico-artísticas do Teatro e dos processos pedagógicos condizentes com o nível de sua formação, no caso em questão, o Ensino Médio. Sempre atentos/as que na área de conhecimento do Teatro há a implicação de um “saber fazer” que tem um valor tão importante quanto à reflexão teórica.\n\nA avaliação do estudante (de sua aprendizagem) é também pensada como uma avaliação do/a professor/a (sua didática), coerente com uma abordagem metodológica dialógica, que busca desfazer a dicotomia ensino-aprendizagem. No entanto, deve-se ressaltar que a avaliação já se inicia no processo de estudo e formação, pois o acompanhamento dos/as estudantes deverão ser constante e resultar na constatação de dúvidas e conhecimentos que se desenvolvem ou se apresentam em sala de aula.\n\nEmbora seja mais difícil avaliar competências profissionais do que assimilação de objetos de conhecimento convencionais, há muitos instrumentos para isso. Nesse sentido, a disciplina irá se valer de métodos diversificados para a avaliação do/a estudante, com critérios como:\n\n- Disponibilidade para a realização das atividades com qualidade cênica (presença);\n- Capacidade de jogar, improvisar e explorar suas potencialidades corporais e vocais;\n- Desenvolvimento sensório-motor;\n- Análise e reflexão dos objetos de conhecimento apresentados;\n- Capacidade de relacionar os objetos de conhecimento à própria realidade de forma crítica, emitindo sua opinião e oferecendo novas possibilidades;\n- Capacidade de adaptar ou transformar os objetos de conhecimento, seja do âmbito teórico ao prático e vice-versa, seja em termos de criação/transposição cênica;\n- Elaboração de propostas cênicas - objetos, adereços, cenografias, textos, composições, cenas, etc.\n- Identificação de estéticas e sua relação contextual (histórica, econômica, política, cultural).\n\nPara isso, o professor pode utilizar instrumentos avaliativos como:\n\n- Realização de seminários em grupos;\n- Produção intelectual realizada a partir de pesquisa;\n- Análises com apresentação de parecer sobre trabalho desenvolvido em atividade em sala de aula ou em atividade extraclasse;\n- Mostra de cenas/exercícios/improvisações/jogos teatrais etc.\n\nSejam quais forem os métodos utilizados nos processos de avaliação dos/as alunos/as, eles deverão obedecer aos parâmetros de pontuação solicitados pela BNCC. Lembrando sempre que a avaliação deve contemplar métodos teórico-práticos no âmbito das linguagens artísticas.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

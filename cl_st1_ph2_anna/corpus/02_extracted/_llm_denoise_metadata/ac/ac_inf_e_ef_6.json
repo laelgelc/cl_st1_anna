@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09b1d32d36c5ba5c006ab2fc2967c887d2baf92af3a503ab47",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 459,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 548,
+      "output_tokens_details": {
+        "reasoning_tokens": 188
+      },
+      "total_tokens": 1007
+    }
+  },
+  "created_at": "2026-09-22T22:07:43Z",
+  "duration_seconds": 5.973,
+  "error": null,
+  "excerpt_id": "ac_inf_e_ef_6",
+  "filename": "ac_inf_e_ef_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4c459feb02fb99240386d463cb9653ccf3d126ffe671332237054fb04f6768b9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1b9807bcee918b5270bb5989ab5e0799f271fe01412e31289a2b49ab235f56b8",
+    "rendered_prompt_sha256": "5d8f2c840d3d69c9dc56dc387077e60d29177d3e52f59cd8c5ee1fbcfba00841",
+    "source_text_sha256": "e62acd0a9ee935f01551db20d6fe0095d9fdc4d50fe6849f317c3acbf63e42ce"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_inf_e_ef_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 136,
+    "filename": "ac_inf_e_ef_6.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_inf_e_ef_6.txt",
+    "state": "ac",
+    "word_count_original": 224
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_inf_e_ef_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_inf_e_ef_6.json"
+  },
+  "raw_response_text": "## 4. CONCEITOS: DIREITOS E OBJETIVOS DE APRENDIZAGEM, CAPACIDADES, CONTEÚDOS, PROPOSTAS DE ATIVIDADE E FORMAS DE AVALIAÇÃO\n\n### 4.1. Conceitos para compreender o Currículo\n\nPara compreender a abordagem apresentada ao longo deste referencial curricular, é importante para o professor compreender os conceitos mais recorrentes ao longo deste documento. São eles:\n\n### 4.2 Direitos e Objetivos de Aprendizagem\n\nO Plano Nacional de Educação (BRASIL, 2014) estabelece que, mediante pactuação interfederativa entre União, Estados, Distrito Federal e Municípios, será necessário cada ente elaborar diretrizes pedagógicas e a BNCC, nas quais deverão constar direitos e objetivos de aprendizagem e desenvolvimento dos estudantes ao longo da Educação Básica, isto é, o que os alunos devem saber durante a sua trajetória escolar. (BRASIL. Plano Nacional de Educação - PNE/Ministério da Educação. Brasília, DF: INEP, 2014)\n\n### 4.3 Competências e Habilidades\n\nA Lei de Diretrizes e Bases da Educação Brasileira (BRASIL, 2017) determina que organização das áreas e das competências e habilidades considerará os critérios de cada sistema de ensino. Para tanto, compreende-se competência a capacidade de mobilizar conhecimentos a fim de resolver problemas da vida cotidiana. Já habilidade, o domínio sobre como resolver esses problemas reais. Neste documento, o termo competência será sinônimo de capacidade e envolverá aspectos cognitivos e socioemocionais e habilidade será sinônimo de conteúdo. (BRASIL. Ministério de Educação e Cultura. LDB - Lei nº 9394/96, 2017).",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

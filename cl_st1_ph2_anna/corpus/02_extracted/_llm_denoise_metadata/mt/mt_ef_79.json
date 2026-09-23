@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09e7e0f2fd39a6ef006ab304a3e5ec87d29736feb2431e8da1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1818,
+      "input_tokens_details": {
+        "cache_write_tokens": 1815,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1914,
+      "output_tokens_details": {
+        "reasoning_tokens": 345
+      },
+      "total_tokens": 3732
+    }
+  },
+  "created_at": "2026-09-22T22:44:02Z",
+  "duration_seconds": 14.497,
+  "error": null,
+  "excerpt_id": "mt_ef_79",
+  "filename": "mt_ef_79.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7ca01c21a83c6c33f691ab6e9dd2877f7eacd3ff86220e83016583bc382c074d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "61c1a10de8a614524b0dee0105047456d5253921962fad00b219a7099d05a012",
+    "rendered_prompt_sha256": "468a6d5e54a50ea84322c777b59dd24b1ca1d62fa5f795b89539cafb26e6745a",
+    "source_text_sha256": "2f64cf47e4de494ecbbf1cf83a6c73037c7fc919fd92143379659471325e4a02"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_79.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1876,
+    "filename": "mt_ef_79.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_79.txt",
+    "state": "mt",
+    "word_count_original": 1057
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_79.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_79.json"
+  },
+  "raw_response_text": "### 3.1.7. Etnomatemática\n\nA Etnomatemática tem como seu precursor e idealizador, no Brasil, Ubiratan D’Ambrósio. O termo Etnomatemática surgiu na década de 70, na tentativa de aproximar o ensino da matemática à realidade sociocultural dos estudantes e, ao mesmo tempo, para sanar as críticas sociais referentes ao ensino tradicional da matemática.\n\nA seguir, são indicadas algumas características da Etnomatemática que estão em consonância com as de D’Ambrósio (2011), com a finalidade de estimular os professores no estudo sobre a referida metodologia de ensino:\n\n- É uma subárea da História da Matemática e da Educação Matemática com intersecções com a Antropologia e as Ciências da Cognição;\n- É fundamentada em pesquisa que tem por objetivo “entender o saber/fazer matemático ao longo da história da humanidade;\n- É a matemática praticada por grupos culturais;\n- Valoriza os conceitos matemáticos informais construídos pelos estudantes a partir de suas experiências fora do contexto da escola;\n- A matemática informalmente construída pelos estudantes deve ser o ponto de partida para o ensino formal;\n- Assume diferentes dimensões – conceitual, histórica, cognitiva, cotidiana, epistemológica, política e educacional;\n- Valorização e reconhecimento da matemática específica do grupo social como inicialização para ampliação da educação matemática;\n- O professor deve estar preparado para reconhecer e identificar as construções conceituais desenvolvidas pelos estudantes;\n- Não ocorre a separação entre o “saber e fazer” ou “teoria e prática”;\n- Elimina a concepção tradicional de que todo o conhecimento matemático do estudante será adquirido na situação escolar.\n\nA Etnomatemática não se resume ao que foi apresentado neste documento, então, antes da adoção dessa metodologia de ensino pela unidade escolar, é necessário que os professores aprofundem seus estudos sobre a referida metodologia, buscando maior embasamento teórico e diferentes visões sobre o assunto, por meio de livros como *Pedagogia Etnomatemática – Reflexões e ações pedagógicas em matemática do ensino fundamental* (Bandeira, 2016), assim como em documentos disponibilizados por Ubiratan D’Ambrósio, Gelsa Knijnik, entre outros.\n\n### 3.1.8. Modelagem Matemática\n\nA modelagem matemática, segundo Bassanezi (2002), pode ser definida como a arte de transformar problemas da realidade em problemas matemáticos, analisá-los e resolvê-los, interpretando suas soluções na linguagem do mundo real. Desta forma, a modelagem matemática, além de método científico de pesquisa e estratégia de ensino, também pode ser entendida como metodologia de ensino específica da matemática.\n\nDiferente do que muitos profissionais pensam, a modelagem matemática pode ser aplicada em qualquer etapa da educação básica, não se resumindo apenas em estudos desenvolvidos em graduação e pós-graduação.\n\nPara melhor concepção da modelagem matemática como metodologia de ensino, o professor deve compreender o processo, para isso é demonstrado um esquema simplificado, contendo as etapas da modelagem.\n\nA seguir, estão descritas as etapas da modelagem matemática, de acordo com Duncan (2015) e, posteriormente, em consonância com Kluber e Burak (2008), com a finalidade de estimular os professores no estudo sobre a referida metodologia de ensino:\n\n- **1ª etapa - Problema do cotidiano:** nesta etapa, o professor deverá definir a situação que se pretende estudar com intuito de revelar um problema, inicialmente, não matemático. Posteriormente, deve ser feita uma pesquisa indireta (livros, internet, jornais, revistas, entre outros) e direta (dados experimentais) sobre o assunto.\n- **2ª etapa - Matematização:** esta etapa é subdividida em duas subetapas, denominadas de “formulação do problema” e “resolução ou resolução aproximada”. Consiste na etapa mais complexa e “desafiadora”, pois é aqui que se traduz a situação problema para linguagem matemática, utilizando, para isso, os objetos de conhecimento de uma ou mais unidades temáticas.\n- **3ª etapa - Modelo Matemático:** após a seleção dos objetos de conhecimento, cria-se o modelo. Nesta etapa, é necessário realizar uma checagem para verificar até que nível o modelo se aproxima da situação problema real representada e então poder utilizá-lo.\n- **4ª etapa - Resultado:** nesta etapa, faz-se primeiro a interpretação do modelo. Deve-se terminar esta etapa obtendo uma solução prévia, a qual é adotada como resultado ou primeira aproximação.\n- **5ª etapa - Validação:** nesta etapa, é verificado o quão a solução é significativa e relevante perante a situação e, concomitantemente, avalia-se a adequabilidade do modelo. Caso o modelo seja julgado adequado, o processo de modelagem matemática se encerra.\n- **6ª etapa - Não validação:** se o modelo não atender às necessidades que o gerou, o processo deve ser retomado à 2ª ou 3ª etapa, mudando a hipótese, as variáveis, entre outros.\n\nSegundo Kluber & Burak (2008), a Modelagem Matemática também pode ser organizada em cinco etapas, sendo elas: 1) escolha o tema; 2) pesquisa exploratória; 3) levantamento dos problemas; 4) resolução de problemas e o desenvolvimento do objeto de conhecimento do tema; 5) análise crítica das soluções.\n\n- **1ª etapa - Escolha do tema:** Momento que o professor apresenta aos estudantes alguns temas que possam gerar interesse ou os próprios alunos sugerem o tema. Esse tema pode ser dos mais variados e é fundamental que o professor assuma uma postura de mediador.\n- **2ª etapa - Pesquisa exploratória:** Escolhido o tema a ser pesquisado, encaminha os estudantes para a pesquisa de materiais e subsídio teórico sobre o que se quer desenvolver/pesquisar.\n- **3ª etapa - Levantamento dos problemas:** De posse dos materiais e da pesquisa desenvolvida, incentiva os estudantes a conjecturarem-se sobre tudo que pode se conectar com a matemática, através do professor mediador.\n- **4ª etapa - Resolução de problemas e o desenvolvimento do objeto de conhecimento do tema:** Nessa etapa, busca-se responder os problemas levantados com o auxílio do objeto de conhecimento, fazendo um caminho inverso do usual, pois se ensina o conteúdo para responder as necessidades surgidas da pesquisa e no levantamento dos problemas.\n- **5ª etapa - Análise crítica das soluções:** Etapa marcada pela criticidade das soluções, não apenas em relação à matemática, mas também na viabilidade e adequabilidade das soluções apresentadas, que, muitas vezes, são lógica e matematicamente coerentes, porém inviáveis para a situação em estudo. É a etapa que analisa os resultados obtidos no processo para a tomada de decisão e ação, contribuindo na formação de estudantes participativos e atuantes na transformação da comunidade em que participa.\n\nA Modelagem matemática não se resume ao que foi apresentado neste documento, então, antes da adoção dessa metodologia de ensino, é necessário que o professor aprofunde seus estudos sobre a referida metodologia, buscando maior embasamento teórico, por meio de documento como: *Modelagem matemática nos anos iniciais da Educação básica – Uma discussão necessária* (Burak & Martins, 2015), *sobre a Modelagem Matemática do saber e seus limites* (Biembengut, 2007), entre outros.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

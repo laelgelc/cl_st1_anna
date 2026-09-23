@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00badf5ee1a45e57006ab30cd2b7b087d28c2124393204e434",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 460,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 459,
+      "output_tokens_details": {
+        "reasoning_tokens": 94
+      },
+      "total_tokens": 919
+    }
+  },
+  "created_at": "2026-09-22T23:18:46Z",
+  "duration_seconds": 3.531,
+  "error": null,
+  "excerpt_id": "rr_ef_22",
+  "filename": "rr_ef_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0926563f4e9fcb9947b0f9998af08ae61d407641f77e89e36cbde668ec90cd69",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "97383183edbf9104ecf2292423bab1be6bbc4cef722e12212b87900a9fcfef7e",
+    "rendered_prompt_sha256": "4a6546ec63bd2a8c17a590a467ce7a8a106993956f8235ec0c8eb0c18cf3453b",
+    "source_text_sha256": "48f96dd5b708e92c85751c6123f1b4d46eba4229a07c3607b13f34bda7e83740"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3388,
+    "filename": "rr_ef_22.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_22.txt",
+    "state": "rr",
+    "word_count_original": 243
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_22.json"
+  },
+  "raw_response_text": "### 4.4.4 COMPETÊNCIAS ESPECÍFICAS DE LÍNGUA INGLESA PARA O ENSINO FUNDAMENTAL\n\n1. Identificar o lugar de si e o do outro em um mundo plurilíngue e multicultural, refletindo, criticamente, sobre como a aprendizagem da língua inglesa contribui para a inserção dos sujeitos no mundo globalizado, inclusive no que concerne ao mundo do trabalho.\n2. Comunicar-se na língua inglesa, por meio do uso variado de linguagens em mídias impressas ou digitais, reconhecendo-a como ferramenta de acesso ao conhecimento, de ampliação das perspectivas e de possibilidades para a compreensão dos valores e interesses de outras culturas e para o exercício do protagonismo social.\n3. Identificar similaridades e diferenças entre a língua inglesa e a língua materna/outras línguas, articulando-as a aspectos sociais, culturais e identitários, em uma relação intrínseca entre língua, cultura e identidade.\n4. Elaborar repertórios linguístico-discursivos da língua inglesa, usados em diferentes países e por grupos sociais distintos dentro de um mesmo país, de modo a reconhecer a diversidade linguística como direito e valorizar os usos heterogêneos, híbridos e multimodais emergentes nas sociedades contemporâneas.\n5. Utilizar novas tecnologias, com novas linguagens e modos de interação, para pesquisar, selecionar, compartilhar, posicionar-se e produzir sentidos em práticas de letramento na língua inglesa, de forma ética, crítica e responsável.\n6. Conhecer diferentes patrimônios culturais, materiais e imateriais, difundidos na língua inglesa, com vistas ao exercício da fruição e da ampliação de perspectivas no contato com diferentes manifestações artístico-culturais.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fb8451c65fcfda7006ab2fbaf1c9887d2983b557ac3f42b96",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 481,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 443,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 924
+    }
+  },
+  "created_at": "2026-09-22T22:05:38Z",
+  "duration_seconds": 3.388,
+  "error": null,
+  "excerpt_id": "ac_ef_44",
+  "filename": "ac_ef_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3165767fd5ee15f270284d6b68985412bb1e9293c56ada987913e7fb7d0de14e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c72d882c01eada21cc2725f5bc8b4c2603e237470503283cdc4de0a3e313eeb3",
+    "rendered_prompt_sha256": "3e79d47ef23c0426c8c21a47faf27e2a6e49a2205b2737f57a3cc26bbc5eaac8",
+    "source_text_sha256": "3495a0be5f96231f02e9b356f6dda624a3254060edad4fd1b6ac9b937757aa30"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 39,
+    "filename": "ac_ef_44.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_44.txt",
+    "state": "ac",
+    "word_count_original": 259
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_44.json"
+  },
+  "raw_response_text": "### 3. PARTE DIVERSIFICADA E ESPECIFICIDADES DO ESTADO DO ACRE\n\nA Base Nacional Comum Curricular aponta definições pertinentes a todos os estudantes e instituições de ensino do país. Visando adequar o currículo à realidade do Estado do Acre, é que se propõe a parte diversificada, o que não implica que esteja separada, mas sim, diluída ao longo do documento, com a intenção de oferecer maiores possiblidades de aprendizagem. Desse modo, é necessário garantir que os alunos se apropriem das temáticas locais, as quais possuem relevância social e cultural e, ainda, contribuem, igualmente, para a formação do estudante. Assim, pretende-se favorecer a ampliação dos conteúdos, a partir da seleção de textos escritos por autores acreanos, nos mais diversos gêneros, bem como as várias produções artísticas regionais.\n\nNo que diz respeito às questões culturais, alguns conteúdos e propostas referem-se ao folclore amazônico, à valorização da cultura indígena, objetos da cultura local, dentre outros. Esses conteúdos poderão ser trabalhados tanto nas atividades desenvolvidas em sala, ao se trabalhar os gêneros textuais diversos, quanto nos projetos didáticos planejados pelas escolas para cada ano/série.\n\nAs temáticas mencionadas poderão ser trabalhadas em situações de reflexão sobre a língua, com o objetivo de conhecer e analisar criticamente os seus usos como veículos de valores e preconceitos de classe, credo, gênero e etnia, explicitando, por exemplo, a forma tendenciosa com que certos textos tratam questões sociais e étnicas, as discriminações veiculadas em campanhas publicitárias etc. É importante ressaltar que o professor possui, também, autonomia para inserir novas abordagens aos elementos constituintes da parte diversificada.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

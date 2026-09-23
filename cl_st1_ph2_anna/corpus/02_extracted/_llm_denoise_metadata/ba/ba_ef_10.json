@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00a719a5ddf2190a006ab2fe583cfc87d2ad36d2d87caed3ad",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 495,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 447,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 942
+    }
+  },
+  "created_at": "2026-09-22T22:17:00Z",
+  "duration_seconds": 4.106,
+  "error": null,
+  "excerpt_id": "ba_ef_10",
+  "filename": "ba_ef_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5166d891f6cd875437539cc96cf4e730c25c64044047f467e8fc314148adee6a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ef85210682b203666e16cdceb3dbd176eccf88a90de75573ad4aaea66104422b",
+    "rendered_prompt_sha256": "1a70dc7363cc422fdabd8f35d70ed6b25a6ae14d1f762edfd3ff96a9ad4eed09",
+    "source_text_sha256": "f6fc44a9731479141ce0a4b204d9823d103557d7ac063663dbe8456134da1d93"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_ef_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 593,
+    "filename": "ba_ef_10.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_ef_10.txt",
+    "state": "ba",
+    "word_count_original": 261
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_ef_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_ef_10.json"
+  },
+  "raw_response_text": "### 8.2.2.2. Organizador Curricular\n\n1. Explorar, conhecer, fruir e analisar criticamente práticas e produções artísticas e culturais do seu entorno social, patrimônio material e imaterial, dos povos indígenas, das comunidades tradicionais brasileiras e de diversas sociedades, em distintos tempos e espaços, para reconhecer a Arte como um fenômeno cultural, histórico, social e sensível a diferentes contextos e dialogar com as diversidades.\n2. Compreender as relações entre as linguagens da Arte e suas práticas integradas, inclusive aquelas possibilitadas pelo uso das novas tecnologias de informação e comunicação, pelo cinema e pelo audiovisual, nas condições particulares de produção, na prática de cada linguagem e nas suas articulações.\n3. Pesquisar e conhecer distintas matrizes estéticas e culturais – especialmente aquelas manifestas na arte e nas culturas que constituem a identidade brasileira –, suas tradições e manifestações contemporâneas, reelaborando-as nas criações em Arte.\n4. Experienciar a ludicidade, a percepção, a expressividade e a imaginação, ressignificando espaços da escola e de fora dela no âmbito da Arte.\n5. Mobilizar recursos tecnológicos como formas de registro, pesquisa e criação artística.\n6. Estabelecer relações entre Arte, mídia, mercado e consumo, compreendendo, de forma crítica e problematizadora, modos de produção e de circulação da Arte na sociedade.\n7. Problematizar questões políticas, sociais, econômicas, científicas, tecnológicas e culturais, por meio de exercícios, produções, intervenções e apresentações artísticas.\n8. Desenvolver a autonomia, a crítica, a autoria e o trabalho coletivo e colaborativo nas Artes.\n9. Analisar e valorizar o patrimônio artístico nacional e internacional, material e imaterial, com suas histórias e diferentes visões de mundo.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

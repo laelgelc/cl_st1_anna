@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06ecca2f6d4c679e006ab30d72aafc87d2add569d2f890e6e4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 739,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 933,
+      "output_tokens_details": {
+        "reasoning_tokens": 281
+      },
+      "total_tokens": 1672
+    }
+  },
+  "created_at": "2026-09-22T23:21:50Z",
+  "duration_seconds": 28.082,
+  "error": null,
+  "excerpt_id": "rr_inf_22",
+  "filename": "rr_inf_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "15c8c68928d89bce5dcb74cc4b0eab19ae2757dafa9621083f08a3b086909a59",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d364624b669e1cbf15d19e20e37e2009056178e7d0d32895624f6572d4ed0efe",
+    "rendered_prompt_sha256": "2e0ee471388cb749583f12cd45ee94afca75fce59c27d0f6e1c5decc670b7384",
+    "source_text_sha256": "484d159f2cd976605481de15f637b506102fd89137276174c0519543c9b9548e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3521,
+    "filename": "rr_inf_22.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_22.txt",
+    "state": "rr",
+    "word_count_original": 439
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_22.json"
+  },
+  "raw_response_text": "### 3.11 A EDUCAÇÃO INFANTIL DO/NO CAMPO⁶\n\nO acesso e seguridade da Educação do Campo na Etapa da Educação Infantil são garantidos pelos art. 2º, 5º e 6º da Resolução n. 01/02 - Diretrizes Operacionais para Educação Básica nas Escolas do Campo, pelo Art. 28 da LDB 9394/96, pelo art. 1º e § 2º do art. 2º da Resolução n. 02/08, pelo art. 4 - inciso I do Decreto n. 7.352/2010, também na Resolução CEE/RR nº 17/00, Art. 2º A Escola Ativa é uma estratégia metodológica voltada para as classes multisseriadas, das unidades escolares da Zona Rural, através de uma gestão democrática e aprendizagem centrada no aluno, tendo como objetivo:\n\nI – promover o desenvolvimento socioemocional dos alunos;  \nII – oportunizar ao aluno a construção do conhecimento a partir da sua experiência de vida;  \nIII – propiciar vivência de processos democráticos;  \nIV – favorecer maior articulação entre a escola e a comunidade.\n\nA Resolução CNE/CEB 01/02 nos respectivos artigos: 2º - Parágrafo Único, art. 5º - Parágrafo Único e 6º, mas contempla adequações necessárias às peculiaridades da vida no campo e de cada região, definindo componentes curriculares e metodologias apropriadas às necessidades e interesses dos educandos, incluindo a adequação do calendário escolar às fases do ciclo agrícola, às condições climáticas e às características do trabalho do campo, retratando as lutas e a resistência dos povos do campo pelo acesso e a permanência na terra.\n\nCom base nas normativas que asseguram a Educação Infantil do Campo existem, peculiaridades que devem ser usadas como caminhos do aprendizado significativo para a criança pequena.\n\nDiante das diversas particularidades do campo, o processo educativo infantil deve ser encaminhado intencionalmente através do qual criança é instigada a desenvolver seu interesse pelo que está sendo descoberto dentro do espaço onde está inserida. O campo ou zona rural apresenta um espaço diversificado de ações e criações, natural ou humanizado, podendo ser explorado em todo seu contexto, valorizando a cultura e a identidade da criança pequena, moradora desse ambiente rurícola.\n\nExplorar o espaço do campo, dentro do processo de aprendizagem infantil, conduzirá a criança a novas indagações, curiosidades que a levará a descobertas inéditas, voltadas a contextualização do seu modo de vida campestre, posteriormente abrindo caminhos para que a mesma esteja situada não somente no local onde mora, mas também no planeta em que vive.\n\nDesta maneira, o aprendizado passa a ter significado à medida que o próprio professor oportuniza vias de conhecimento dentro dos mais diversos espaços rurícolas. É importante reafirmar que, como toda criança, aquela que vive no campo deve ter seu contexto valorizado e, sobretudo, ampliado pelo contato com as diferentes culturas produzidas socialmente.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0277dcf373a09d59006ab30712dc8c87d2bba86a1626c50768",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 702,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 774,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 1476
+    }
+  },
+  "created_at": "2026-09-22T22:54:17Z",
+  "duration_seconds": 6.335,
+  "error": null,
+  "excerpt_id": "pb_em_17",
+  "filename": "pb_em_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "aa87b7c4bc45838d2ecb81f330c06065118d86f30b077a315c383c6b66bdde2d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6fcc0088dccf19e4a8698b842533be64b2f7870a6180509b7fa24fb21040240e",
+    "rendered_prompt_sha256": "c9ef7602e701f63cd6b1252cb8a6b9bb3f1bd7e277d926629ac8f282b5eaa843",
+    "source_text_sha256": "4a4972935055405e9e43242cc6b913fe236123344ee658d3182cfb73443656b8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2261,
+    "filename": "pb_em_17.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_17.txt",
+    "state": "pb",
+    "word_count_original": 367
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_17.json"
+  },
+  "raw_response_text": "### 2.1.3 CONHECIMENTOS DE LÍNGUA PORTUGUESA\n\n#### 2.1.3.1 A natureza dialógica da língua(gem)\n\nBakhtin/Volochinov (2010) afirmam que a verdadeira substância da língua não é constituída por um sistema abstrato de formas linguísticas (língua como sistema de formas – objetivismo abstrato), nem pela enunciação monológica isolada (língua como expressão de uma consciência individual – subjetivismo individualista), nem pelo ato psicofisiológico de sua produção (atividade mental), mas “pelo fenômeno social da interação verbal, realizada através da enunciação ou das enunciações” (BAKHTIN/VOLOCHINOV, 2010, p. 127, grifos do autor).\n\nNessa perspectiva, para os pensadores russos, a língua é uma atividade essencialmente social, pois o interlocutor e os sentidos constroem-se discursivamente nas relações verbais com o outro. Nesse sentido, “Toda enunciação monológica, inclusive uma inscrição num monumento, constitui um elemento inalienável da comunicação verbal. Toda enunciação, mesmo na forma imobilizada da escrita, é uma resposta a alguma coisa e é construída como tal” (BAKHTIN/VOLOCHINOV, 2010, p. 101).\n\nTal afirmação permite compreender que a língua não é um ato individual, monológico, pois um enunciado sempre está endereçado a outro, sempre é uma resposta a outros enunciados que circulam na sociedade. Assim, asseveram Bakhtin/Volochinov (2010, p. 116, grifo dos autores):\n\n> A enunciação é produto da interação de dois indivíduos socialmente organizados. [...] A palavra dirige-se a um interlocutor: ela é função da pessoa desse interlocutor: variará se se tratar de uma pessoa do mesmo grupo social ou não, se esta for inferior ou superior, se estiver ligado ao locutor por laços sociais mais ou menos estreitos (pai, mãe, marido, etc.).\n\nSob esse viés, podemos dizer que a noção de língua defendida pelos teóricos russos deve ser entendida como um fenômeno social da interação verbal, realizada pela enunciação (enunciado) ou enunciações (enunciados). Portanto, a língua é uma atividade essencialmente social e só existe em função do uso que os interlocutores fazem dela em situações de comunicação discursiva.\n\nNesse contexto teórico, a Proposta Curricular de Língua Portuguesa para o Ensino Médio do estado da Paraíba recomenda que a língua não deva ser tomada como um sistema fechado e imutável, mas como um processo dinâmico de interação em que interlocutores atuam discursivamente sobre o outro (ROSAS DE ARAUJO, 2013).",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

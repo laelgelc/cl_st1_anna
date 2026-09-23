@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_084747da8f8da054006ab30294b4bc87d28136b9e0cfcb56ad",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 840,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1043,
+      "output_tokens_details": {
+        "reasoning_tokens": 324
+      },
+      "total_tokens": 1883
+    }
+  },
+  "created_at": "2026-09-22T22:35:09Z",
+  "duration_seconds": 9.335,
+  "error": null,
+  "excerpt_id": "mg_ef_er_2",
+  "filename": "mg_ef_er_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9ef0e422b29853180f5a28c8ce5e1dc88dbdcb6e697ea704fb977cde949629f0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0e890db171df94f728be85f55337427dd9f1d266e52fb514c116104b3bac6afd",
+    "rendered_prompt_sha256": "65db41b531246bce1e29f36d833c28110b8987a98d86a0159474ef110fcc835b",
+    "source_text_sha256": "9f82ec9c98d221c31dcb0726cfb571ea120ad95485cd15d71231eac03b526120"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_er_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1413,
+    "filename": "mg_ef_er_2.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_er_2.txt",
+    "state": "mg",
+    "word_count_original": 480
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_er_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_er_2.json"
+  },
+  "raw_response_text": "Na visão de W. Gruen[^27], o Ensino Religioso, como ensino religioso escolar, não pode ser tratado como doutrinação ou catequese, pois ele deve proporcionar “ao aluno as oportunas experiências, informações e reflexões ligadas à dimensão religiosa da vida”, contribuindo no cultivo de uma atitude dinâmica de abertura ao sentido da existência pessoal e comunitária, “e a preparar-se assim para uma opção responsável do seu projeto de vida” (GRUEN, 1994, p. 37). O ensino religioso parte da experiência do educando, de sua busca de sentido, articulando-se com os demais componentes e ampliando a integração do currículo escolar.\n\nO Ensino Religioso, portanto, busca construir, por meio do estudo dos conhecimentos religiosos e das filosofias de vida, perspectivas de sentido, atitudes de reconhecimento e respeito às alteridades. Trata-se de um espaço de aprendizagens, experiências pedagógicas, intercâmbios e diálogos permanentes, que visam o acolhimento das identidades culturais, religiosas ou não, na perspectiva da interculturalidade, direitos humanos e cultura da paz. Tais finalidades se articulam aos elementos da formação integral dos estudantes, na medida em que fomentam a aprendizagem da convivência democrática e cidadã, princípio básico à vida em sociedade.\n\n### 16.1.1 Competências Específicas de Ensino Religioso para o Ensino Fundamental\n\nConsiderando os objetivos e os pressupostos gerais apresentados para o Currículo Referência de Minas Gerais, e em articulação com as competências gerais da BNCC e a área de Ensino Religioso, o componente curricular de Ensino Religioso deve garantir aos educandos o desenvolvimento de competências específicas. Destacam-se as seguintes:\n\n1. Conhecer os aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida, a partir de pressupostos científicos, filosóficos, estéticos e éticos.\n2. Compreender, valorizar e respeitar as manifestações culturais, religiosas e filosofias de vida, suas experiências e saberes, em diferentes tempos, espaços e territórios.\n3. Reconhecer e cuidar de si, do outro, da coletividade e da natureza, enquanto expressão de valor da vida.\n4. Conviver com a diversidade de crenças, pensamentos, convicções, modos de ser e viver.\n5. Analisar as relações entre as tradições religiosas e os campos da cultura, da política, da economia, da saúde, da ciência, da tecnologia e do meio ambiente.\n6. Debater, problematizar e posicionar-se frente aos discursos e práticas de intolerância, discriminação e violência, especialmente de cunho religioso, de modo a assegurar os direitos humanos no constante exercício da cidadania e da cultura de paz.\n\n[^27]: O artigo com essa mudança de paradigma foi publicado pela Universidade Católica de Minas Gerais - UCMG em 1974 sob o título O “Ensino Religioso” na Escola, e em nova versão, com mudanças, com o título O “Ensino Religioso” na Escola Oficial. (GRUEN, W. Atualização, Belo Horizonte, n. 65/65, p. 127-143, abril/maio 1975). Esta última versão foi revista pela UCMG em 1976 e publicada em 1978. Em 1994 saiu publicado seu primeiro livro sobre o tema: GRUEN, Wolfgang. O Ensino Religioso na Escola. Petrópolis: Vozes.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

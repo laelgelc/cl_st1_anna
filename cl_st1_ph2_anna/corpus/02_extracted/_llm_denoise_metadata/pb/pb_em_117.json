@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02bb9d6b940dc261006ab30708a8d887d2b6b29ffb0e3f1041",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1221,
+      "input_tokens_details": {
+        "cache_write_tokens": 1218,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1306,
+      "output_tokens_details": {
+        "reasoning_tokens": 178
+      },
+      "total_tokens": 2527
+    }
+  },
+  "created_at": "2026-09-22T22:54:10Z",
+  "duration_seconds": 9.569,
+  "error": null,
+  "excerpt_id": "pb_em_117",
+  "filename": "pb_em_117.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f050018c4b7fb799ff79f9f21159db9fc9d29d648f14a63a5aa49c9c0b5a76e4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2ba0d2db188cef35bf21f267c7bd4db618ea4d3a8d9f304cae4e830507a27484",
+    "rendered_prompt_sha256": "bd4616e40cb0ff726e8dd2a07287c8b68926e0b84f51e57bdc07c0d4789f0560",
+    "source_text_sha256": "51edf483170e47b82cb26d40ccac8a2760e53e800bfcff3d516ac28ce1f5383c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_117.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2252,
+    "filename": "pb_em_117.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_117.txt",
+    "state": "pb",
+    "word_count_original": 828
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_117.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_117.json"
+  },
+  "raw_response_text": "### 4.2.4.3 Trilhas de Formação Profissional\n\n#### 4.2.4.3.1 Ensino Técnico Integral\n\nA oferta do Ensino Técnico integrado considera os múltiplos espaços de aprendizagem e a ampliação do tempo de permanência do estudante na escola. Para essa oferta, o estudante cursa o ensino médio e a formação técnica juntos, em tempo integral.\n\nDessa forma, o arranjo curricular oferecido combina mais de uma área de conhecimento e visa potencializar a formação profissional, mas também fortalecer a Formação Geral Básica por intermédio da integração dos saberes no processo de formação profissional e pessoal do indivíduo.\n\nSeguindo as orientações para a reformulação do Ensino Médio, a eletiva e o projeto de vida estão contemplados, como também os eixos estruturantes em que será trabalhado parte de Formação Básica para o Trabalho, que contemplará Educação Tecnológica e Midiática, Higiene e Segurança do Trabalho e as três Disciplinas Empreendedoras. Para os cursos de no mínimo 800h, 1000h e 1200h.\n\nNo segundo semestre da 3a Série, os estudantes cursam as disciplinas da Formação Geral Básica, as trilhas de aprofundamento de português e matemática e, no contraturno, terão 20h semanais para a atividade de estágio ou para o desenvolvimento do projeto de conclusão de curso. Vinculada à atividade de estágio, os alunos recebem mentoria que contempla o projeto de vida e o desenvolvimento das atividades profissionais conciliadas às atividades e demandas da escola.\n\nO Trabalho de Conclusão de Curso (TCC) é uma atividade acadêmica que consiste na sistematização, registro e apresentação de conhecimentos culturais, científicos e técnicos, produzidos na área do Curso, como resultado do trabalho de pesquisa e investigação científica. É um estudo de natureza reflexiva, para ordenar as ideias sobre tema específico.\n\nA realização do estágio curricular constitui um momento significativo para o futuro técnico. As experiências advindas no processo de estágio permitem ao estudante consolidar com a prática docente os métodos e técnicas apreendidas ao longo do curso. A atuação como estagiário é, também, um momento de reflexão em que o estudante vai identificar os pontos positivos e as dificuldades mais comuns na profissão.\n\n#### 4.2.4.3.2 Ensino Técnico (Integrado) - EPT\n\nNa proposta do Itinerário de Educação Profissional e Técnica, nessa modalidade, o estudante cursa o ensino médio e a formação técnica juntos, a formação geral em um turno e a formação técnica no contraturno. A proposta seguirá os mesmos padrões da proposta de modalidade integral, adequando apenas a carga horária, considerando a importância de as escolas funcionarem alinhadas e com as mesmas oportunidades de trabalharem os componentes curriculares a partir de metodologias ativas, vivenciando a aprendizagem teórica e a prática, impulsionando assim o desenvolvimento integral dos estudantes.\n\nPara tanto, deverão ser implementados os componentes curriculares de Projeto de Vida, de Formação para o Mundo do Trabalho (Disciplinas Empreendedoras + Educação Tecnológica e Midiática e Higiene e Segurança do Trabalho). Já para o fortalecimento da Formação Geral Básica, deverão ser trabalhadas trilhas de português e matemática na parte de aprofundamento das áreas de conhecimento e no nivelamento, tendo sempre a articulação curricular como uma premissa para a implementação do Itinerário de Educação Técnica e Profissional.\n\nSeguindo as orientações para a reformulação do Ensino Médio, a eletiva e o projeto de vida estão contemplados, como também os eixos estruturantes em que será trabalhado parte de Formação Básica para o Trabalho, que contemplará Educação Tecnológica e Midiática, Higiene e Segurança do Trabalho e as três Disciplinas Empreendedoras. Para os cursos de no mínimo 800h, 1000h e 1200h.\n\nConsiderando a importância da experiência prática no contexto do mundo do trabalho, deverá ser prevista, entre as atividades curriculares da 3a Série, a realização de estágio ou o desenvolvimento do projeto de conclusão de curso. Vinculada à atividade de estágio, os estudantes poderão receber mentorias que contemplam o projeto de vida e o desenvolvimento das atividades profissionais conciliadas às atividades e demandas da escola.\n\n#### 4.2.4.3.3 FIC\n\nO curso de Formação Inicial e Continuada (FIC) tem a finalidade de capacitar, aperfeiçoar e atualizar o estudante no mundo do trabalho de maneira rápida e eficiente.\n\nEssa modalidade de ensino tem como característica a constante modernização das programações e grades curriculares. Com isso, os alunos aprendem novas competências e atualizam saberes com foco no desempenho de uma função/atividade específica.\n\nA proposta do Itinerário de Educação Profissional e Técnica, nessa modalidade, propõe que o estudante possa fazer, em cada série do ensino médio, dois cursos de qualificação profissional de 160h, que são a parte específica da educação profissional, junto às disciplinas da Formação Básica para o Trabalho, as quais irão contemplar os eixos estruturantes. Caso os cursos pelos quais ele opte fiquem todos no mesmo eixo, o aluno poderá receber um certificado de equivalência do técnico da área direcionado ao final da conclusão do ensino médio.\n\nEle poderá, ainda, querendo ampliar sua formação e adquirir mais um certificado na outra área profissional, cursar mais um ano só de específicas da segunda área escolhida e, assim, sair com duas formações técnicas.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

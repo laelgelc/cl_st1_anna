@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0501a474ab2c063f006ab302a0a65087d2abe19ef1aa7d1e88",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1002,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 931,
+      "output_tokens_details": {
+        "reasoning_tokens": 80
+      },
+      "total_tokens": 1933
+    }
+  },
+  "created_at": "2026-09-22T22:35:18Z",
+  "duration_seconds": 6.312,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_arte_5",
+  "filename": "mg_ef_linguagens_arte_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "94c094f9d7f54c41696823c14345cac36a1a2d75884abb7cf9f0dcb2d02eae37",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e32a5cc92bc4923695f0874e19ec3933b4927443a0a58166b002744757244060",
+    "rendered_prompt_sha256": "2150972a39940286ab3439cf97c122b9db94dc8aa666b1521bf12aaa6b633c91",
+    "source_text_sha256": "345fd4f55a9809a9b4be89ef813c24c2ecc11ade426c29423957fcc04ba3ec7e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_arte_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1428,
+    "filename": "mg_ef_linguagens_arte_5.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_arte_5.txt",
+    "state": "mg",
+    "word_count_original": 650
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_arte_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_arte_5.json"
+  },
+  "raw_response_text": "## 6.4 Diretrizes para o ensino do Componente Curricular Arte\n\nComo já dito, há também uma atualização das demandas e questões relativas ao ensino de arte na educação básica e que se transformaram em determinação legal. Esse é o caso, por exemplo, da definição das quatro linguagens obrigatórias do componente curricular Arte, quais sejam: Artes Visuais, Dança, Música e Teatro. Além disso, já desde a Lei de Diretrizes e Bases da Educação Nacional (LDB) de 1996, há orientação para que o ensino de arte seja sistematizado e lecionado com a presença de profissional qualificado, devidamente formado e licenciado em linguagem específica, e apto, portanto, a lecionar para as várias etapas da educação básica, com qualidade e responsabilidade pedagógica.\n\nA BNCC trata das quatro linguagens do componente Arte de forma articulada e, por isso, o Currículo Referência de Minas Gerais orienta garantir que os estudantes tenham direito de acesso às quatro linguagens do componente. Assim, caberá a cada uma das redes, posteriormente, orientar como será a organização nas escolas e a formação continuada dos professores para que esse direito do estudante seja garantido.\n\nA questão da experiência e formação acadêmica é um ponto delicado da realidade do ensino de arte no Brasil, cujos professores, de maneira geral, atuam com titulação mínima ou mesmo sem, em qualquer uma das linguagens artísticas do componente curricular Arte. E em Minas Gerais essa realidade não é diferente, mesmo com o aumento do número de vagas e cursos, tanto de graduação quanto de pós-graduação em arte, referentes às linguagens artísticas. Somado ao fato das escolas, muitas vezes, definir poucas aulas para a arte, há uma tendência à desvalorização e descaso para o componente curricular pela comunidade escolar, sobretudo pelos colegas da educação e até mesmo pelos próprios estudantes e pais. Isso, contudo, não deve diminuir sua importância no desenvolvimento cognitivo, motor, afetivo, estético e social dos estudantes, permeados pela arte. Conforme diversas obras e estudos apontam, o ensino de arte possui diversos aspectos positivos, cujos demais componentes curriculares não contêm e que devem ser levados em conta no desenvolvimento pedagógico de crianças, adolescentes e jovens - para quem a arte possibilita um desenvolvimento com propriedade, conforme as dimensões já citadas anteriormente.\n\nOutro fator específico do presente componente curricular Arte, e que se relaciona à formação do responsável por lecionar arte, no caso dos anos iniciais, diz respeito ao entendimento do que seja esse ensino de arte. Como nem todos os cursos de Pedagogia possuem uma boa formação para ensino de arte, muitas vezes a abordagem em sala de aula, por parte do responsável pelo componente, acaba transitando pelo lugar do senso comum, e que faz com que os estudantes possam criar preconceitos ou conceitos errôneos acerca da arte. Nessa direção, esse currículo visa dirimir um pouco dessas possíveis ansiedades e dificuldades.\n\nNo caso dos anos finais, essa questão da formação diz respeito à linguagem na qual o docente se especializou. Ainda que haja profissionais com formação em mais de uma linguagem (licenciado em Artes visuais e especializado em Teatro, por exemplo) é cabal que essa é a realidade de uma minoria, dentro de um grupo de profissionais de ensino de arte, que por si só já é minúsculo. Sendo assim, e como já dito, é preciso considerar que muitos dos docentes que lecionam arte, ainda hoje, muitas vezes não possuem formação na área – e é comum dentro dos próprios municípios, não haver profissionais habilitados para tal.\n\nEste currículo também foi pensado nessas especificidades e particularidades regionais, e não alterou a sugestão da BNCC que possibilita uma maleabilidade dos objetos de conhecimento a serem trabalhados de acordo com os anos de escolaridade. O que se sugere, contudo, é que em cada uma das linguagens haja um aprofundamento gradativo da complexidade das habilidades a serem trabalhadas, à medida em que o estudante avance nos anos de escolaridade, respeitando a área de formação do docente e seu desenvolvimento pedagógico.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

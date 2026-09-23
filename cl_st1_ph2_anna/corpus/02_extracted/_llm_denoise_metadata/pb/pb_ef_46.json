@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bff2c4a87c16219006ab306d0b1fc87d28b6f850a21fd10fc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 871,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 935,
+      "output_tokens_details": {
+        "reasoning_tokens": 227
+      },
+      "total_tokens": 1806
+    }
+  },
+  "created_at": "2026-09-22T22:53:13Z",
+  "duration_seconds": 9.14,
+  "error": null,
+  "excerpt_id": "pb_ef_46",
+  "filename": "pb_ef_46.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2d6f525071a92ed25c98f982f330e3d36fee5c27c5481723a2bc8089561e670a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ffb7c9a81f45cbd87a67be377b2984733d7cb0c50cfb3a0b6326cdb12515eb19",
+    "rendered_prompt_sha256": "5eb522c8b7b3100e3400eaef288f72d33a3e1c1f781285fb6e67ceb1f8c591cb",
+    "source_text_sha256": "b71856143be8d328ee0e2a8385567a718eb20d5b99019e8589bf381b0ac70949"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_46.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2216,
+    "filename": "pb_ef_46.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_46.txt",
+    "state": "pb",
+    "word_count_original": 523
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_46.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_46.json"
+  },
+  "raw_response_text": "### 8.1.3 Direitos de aprendizagem para o ensino de Geografia\n\nVisando superar a aprendizagem com base apenas na descrição de informações e fatos do dia a dia, cujo significado restringe-se apenas ao contexto imediato da vida dos sujeitos, esta proposta curricular pressupõe ultrapassar essa condição meramente descritiva que exige o domínio de conceitos e generalizações. A compreensão de tais conceitos pelo sujeito da aprendizagem permite novas formas de ver o mundo e de compreender, de maneira ampla e crítica, as múltiplas relações que conformam a realidade. (BNCC, 2017).\n\nDiante disso, considerando a transição dos anos iniciais para os anos finais no Ensino Fundamental, os direitos de aprendizagem do aluno estão associados às seguintes unidades temáticas, estabelecidas pela BNCC (2017):\n\n1. O sujeito e seu lugar no mundo;\n2. Conexões e escalas;\n3. Mundo do trabalho;\n4. Formas de representação e pensamento espacial;\n5. Natureza, ambientes e qualidade de vida.\n\nCom isso, os direitos de aprendizagem estão assim estabelecidos:\n\n#### Fundamental I\n\n1 – Compreender a si mesmo e a sua comunidade a partir das experiências com o espaço e o tempo vivenciadas em jogos e brincadeiras, valorizando os contextos locais e regionais mais próximos da vida cotidiana.\n\n2 – Entender o que ocorre entre os componentes da sociedade e do meio físico natural, do local ao global.\n\n3 – Identificar os processos e as técnicas de construção e o uso pelas sociedades de diferentes materiais, produzidos em diversos tempos, sobretudo as características de atividades e funções inerentes às cadeias produtivas.\n\n4 – Desenvolver o pensamento espacial gradativamente, por meio do exercício de localização geográfica e princípios metodológicos do raciocínio geográfico, tais como: extensão, diferenciação e localização.\n\n5 – Perceber no meio físico natural os recursos disponíveis e as diferentes formas de uso, reconhecendo as inúmeras possibilidades de transformação da paisagem e os impactos socioambientais decorrentes.\n\n#### Fundamental II\n\n1 – Compreender a si próprio e ao outro enquanto agentes de produção do espaço geográfico, considerando os fatores políticos, econômicos e culturais da Paraíba, do Brasil e do mundo, valorizando a identidade do sujeito social enquanto cidadão ativo, democrático e solidário.\n\n2 – Entender o espaço geográfico, a partir da relação sociedade/natureza considerando as diversas escalas geográficas – do local ao global, contribuindo para que o sujeito compreenda as interações multiescalares existentes entre sua vida familiar, seus grupos e espaços de convivência e as interações espaciais mais complexas.\n\n3 – Identificar os processos produtivos nos espaços agrário e urbano, levando em consideração as mudanças no mundo do trabalho através das novas tecnologias em diferentes tempos, escalas e processos históricos, sociais e étnicos-raciais.\n\n4 – Ler, comparar e elaborar as linguagens gráficas e cartográficas, tais como: croquis, desenhos, fotografias, esquemas, imagens de satélites, gráficos, plantas, cartas, mapas e maquetes – possibilitando ao sujeito a análise espacial.\n\n5 – Analisar a inter-relação entre os fatores abióticos, bióticos e atividades antrópicas em distintas escalas e dimensões culturais, socioeconômicas e políticas, visando conhecer os fundamentos naturais do planeta e as transformações impostas pelas atividades humanas na dinâmica físico-natural.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

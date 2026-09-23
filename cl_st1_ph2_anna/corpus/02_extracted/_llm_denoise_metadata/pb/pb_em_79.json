@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ffb85ce22ef5790006ab30772f97c87d2bfd86bd8356ca3a5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 582,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 750,
+      "output_tokens_details": {
+        "reasoning_tokens": 256
+      },
+      "total_tokens": 1332
+    }
+  },
+  "created_at": "2026-09-22T22:55:53Z",
+  "duration_seconds": 6.929,
+  "error": null,
+  "excerpt_id": "pb_em_79",
+  "filename": "pb_em_79.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "83e9aeb1a98ed395d21904d3c9c4b100ec7c10f3e15f8d17fa40c76435d3ee2f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9dd2d0459d15963f382b879b6639a30de6670113be5dc17c960ffd16cf30ecbc",
+    "rendered_prompt_sha256": "08bb5c9b670f4f3a0df8ed1a59e5bfd9a782e248142f8d532c81b13ec5f28c1a",
+    "source_text_sha256": "8df7cc7b81758b53e7d937705b7b80cffdbba562ed571e81bd05330d657e9c13"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_79.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2329,
+    "filename": "pb_em_79.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_79.txt",
+    "state": "pb",
+    "word_count_original": 302
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_79.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_79.json"
+  },
+  "raw_response_text": "## 2.4.5 UNIDADES TEMÁTICAS DA ÁREA DE CIÊNCIA HUMANAS E SOCIAIS APLICADAS - FUNDAMENTAÇÃO TEÓRICA E DEFINIÇÕES[^28]\n\n### 2.4.5.1 Tempo e Espaço\n\nOs conceitos de espaço e tempo permeiam todas as áreas e são condições de possibilidades de nossa existência no mundo. Para Immanuel Kant, na Crítica da Razão Pura, espaço e tempo são intuições sensíveis e a priori da sensibilidade, ou seja, nada pode ser conhecido fora do espaço e do tempo. Martin Heidegger vai vincular o conceito de tempo na forma existencial como autenticidade e tempo que tem um fluxo contínuo sempre atualizado em seu livro Ser e Tempo. Segundo Gaston Bachelard, no Ensaio Sobre o Conhecimento Aproximado, a descontinuidade do tempo e sua multiplicidade desconstrói a noção de história enquanto perspectiva positivista.\n\nAssim também, a compreensão de Gilles Deleuze, em Conversações e Bergsonismo, sobre a origem intensiva do tempo e do espaço mais como parte do devir (acontecimento) do que como perspectiva de passado e futuro. O filósofo contemporâneo Pierre Lévy, grande pesquisador da realidade virtual, traz uma nova perspectiva acerca de tempo e espaço para além da concretude e com ênfase na virtualidade em seus livros O que é o Virtual? e Cibercultura e Ciberespaço. Perceber também como as diferentes formas de culturas compreendem e vivenciam as noções de tempo e espaço. Tais categorias conceituais serão tratadas conectando território e fronteiras, tendo em vista vincular os conceitos filosóficos e as vivências das estudantes.\n\n[^28]: Para a Fundamentação Teórica e definição das Unidades Temáticas, lançaremos mão dos seguintes aparatos teóricos: CONSTITUIÇÃO FEDERAL DE 1988. Lei de Diretrizes e Bases da Educação Nacional (LDBEN), 1996. BRASIL, Secretaria de Educação Básica. Orientações Curriculares para o Ensino Médio: Ciências Humanas. PCNS + ENSINO MÉDIO. Orientações Curriculares complementares aos PCNS. Ciências Humanas e suas Tecnologias. 2000. PCNS - BASES LEGAIS, Parte 1. 2000.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0706d8e0fecb89d8006ab3028e737c87d29a01148860ddb40a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 670,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 694,
+      "output_tokens_details": {
+        "reasoning_tokens": 158
+      },
+      "total_tokens": 1364
+    }
+  },
+  "created_at": "2026-09-22T22:35:00Z",
+  "duration_seconds": 6.208,
+  "error": null,
+  "excerpt_id": "mg_ef_ciencias_9",
+  "filename": "mg_ef_ciencias_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b5675cfe0ac580fababff641b43ac67eb636758987a333db0e471188d0ca5538",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "02d4f6e66a59917855b27534046185b319258ba0f1aeb93c37d23d1b909da7b1",
+    "rendered_prompt_sha256": "cce64f29573ddd00c30326dd1c1e50fb25ea9181a1d3c46f2402b52d6540f909",
+    "source_text_sha256": "8e30d0be8764c7d4d97ad86f76d49ceb768611245706c48dda931f3948dbaaa3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ciencias_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1405,
+    "filename": "mg_ef_ciencias_9.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ciencias_9.txt",
+    "state": "mg",
+    "word_count_original": 417
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ciencias_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ciencias_9.json"
+  },
+  "raw_response_text": "## 12.6 Avaliação\n\nEm Ciências da Natureza, a avaliação da aprendizagem é efetiva na medida em que oferece retorno sobre o desenvolvimento do estudante ao longo do processo de escolarização. Ela pode ser realizada de diferentes formas, utilizando-se de instrumentos variados e em momentos diversos e não apenas ao final do processo.\n\nA avaliação que se realiza na interação diária com os estudantes pode trazer contribuições ímpares para a organização do trabalho pedagógico, uma vez que proporciona um dinâmico resultado do desenvolvimento das habilidades por parte dos estudantes. O ambiente que mais oferece oportunidades para uma avaliação dessa natureza caracteriza-se pelo estabelecimento de uma educação dialógica, que oferece um repertório diversificado de atividades aos estudantes.\n\nO processo avaliativo precisa contar com instrumentos diversificados de forma que constate diferentes habilidades dos estudantes para: identificar, descrever, relacionar, inferir, comparar, justificar, localizar e argumentar. Assim, o professor terá elementos para identificar os diferentes níveis de entendimento de seus estudantes acerca de determinado objeto do conhecimento e planejar ações de intervenção pedagógica que permitam aos estudantes avançarem nesses níveis.\n\nCom base na perspectiva de que o estudante deve participar de experiências de discussões, debates, através das quais possa exercitar sua capacidade de questionar as informações científicas, já que não há uma verdade absoluta, tendo em vista as ininterruptas transformações do mundo é que devemos ter em mente algumas atividades avaliativas.\n\nTemos como exemplo aquelas em que os estudantes podem ser chamados a produzir textos que sintetizam discussões realizadas coletivamente ou em pequenos grupos, a partir da análise de problemas propostos pelo professor ou elaborados com sua ajuda. Além disso, podem aprender a investigar fenômenos naturais, contrastando interpretações propostas para compreendê-los com as evidências apresentadas para sustentar tais interpretações. Podem sofisticar sua capacidade de argumentar e defender seus pontos de vista, de buscar fontes de informação e de organizar as informações disponíveis.\n\nA observação cotidiana realizada pelo professor em momentos de trabalho coletivo e individual com os estudantes propicia informações importantes para sustentar a avaliação processual, inclusive no campo das atitudes e condutas. É importante considerar o respeito pelo outro, o saber ouvir, o posicionamento diante dos debates e a iniciativa em explicitar ideias, valores, crenças e propostas de intervenção. Com isso, não se pretende normatizar condutas ou comportamentos, mas permitir uma avaliação, de modo a identificar possíveis intervenções que podem ser realizadas pelo professor e pela escola. Dentro dessa concepção, o professor atua como mediador, constituindo-se numa referência fundamental para o desenvolvimento moral e intelectual dos estudantes.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_025adbee74b613c6006ab30b83975087d2a858760964a5e2e8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 521,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 478,
+      "output_tokens_details": {
+        "reasoning_tokens": 58
+      },
+      "total_tokens": 999
+    }
+  },
+  "created_at": "2026-09-22T23:13:11Z",
+  "duration_seconds": 4.183,
+  "error": null,
+  "excerpt_id": "ro_ef_24",
+  "filename": "ro_ef_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e2e63b1ce61dd12eb242bb8bfcff0c780c3300b13c28b6b871cdd05d3485b08d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9098278505d724b785c72a08ac9775cb31addae5aebaf05b2237f672de2f19fc",
+    "rendered_prompt_sha256": "68ff3ab9d6cafa68ba6336df19ac5c3d493d9894de7aaaeb10ead450cc896c57",
+    "source_text_sha256": "925c60dbe88637ee1a69f4ab309a3b5488d7f8a3e2b53d8d83e7534b0dc9be16"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3122,
+    "filename": "ro_ef_24.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_24.txt",
+    "state": "ro",
+    "word_count_original": 285
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_24.json"
+  },
+  "raw_response_text": "## 7 MODALIDADE DE ENSINO - A DIVERSIDADE NA FORMAÇÃO HUMANA\n\nOrientado pelos princípios éticos, políticos e estéticos que visam à formação humana integral e à construção de uma sociedade justa, democrática e inclusiva, como expressa a Base Nacional Comum Curricular (BNCC), o Referencial Curricular do Estado de Rondônia propõe uma prática pedagógica, proativa, qualitativa, equitativa, acolhedora, contextualizada com as etapas de ensino e voltada para o conjunto de conhecimentos, habilidades, atitudes e valores, de maneira a assegurar aos estudantes o desenvolvimento das dez competências gerais, ao longo das etapas de ensino (Educação Infantil e Ensino Fundamental) bem como, das modalidades (Educação de Jovens e Adultos, Educação Especial, Educação Escolar Indígena, Educação Quilombola, Educação do Campo) da Educação Básica.\n\nAo abordar as modalidades de ensino, o território, através de seu sistema de ensino e por meio de decisões pedagógicas, reafirma o compromisso de criar oportunidades, que favoreçam aos estudantes com sua diversidade, formação que atenda a singularidade, complexidade, e à multidimensionalidade de cada estudante, com foco no desenvolvimento das competências e habilidades, progressivamente e de forma intencional. E assim, entende que a formação humana vai além do contexto escolar, ela transcende a dimensão intelectual ou afetiva.\n\nNessa perspectiva, mesmo a escola sendo um espaço democrático, inclusivo, interativo e sobretudo educativo, é indispensável a prática do respeito às diferenças e às diversidades, sincronizada a um conjunto de valores, visando uma educação com foco na equidade a fim de consolidar a formação e o desenvolvimento humano global.\n\nPensando como esses objetivos serão alcançados, o Documento Curricular de Rondônia contempla orientações metodológicas que conduzirão à elaboração de cadernos pedagógicos, compartilhando estratégias mais adequadas, contendo as especificidades bem definidas no Projeto Político Pedagógico da escolas a cada modalidade de ensino.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

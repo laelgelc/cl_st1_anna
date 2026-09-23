@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07b4dd7e04d9cd92006ab302bd25f087d2b86a76b8f0f9dbcd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 638,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 636,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 1274
+    }
+  },
+  "created_at": "2026-09-22T22:35:46Z",
+  "duration_seconds": 5.678,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_ingles_9",
+  "filename": "mg_ef_linguagens_ingles_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "54253570c0e4c44294d63379da4e88c916013f1d63de32043d8b9e53db474fd1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "62148e2c34c9c3af7f2a1892a052fcd33f7854129335866f219e65d75bea4f13",
+    "rendered_prompt_sha256": "418e9f797e492f4eb2e1dfbbf689a89dbb693dc522eaf35fc1ef6d96f873bceb",
+    "source_text_sha256": "ffda558f5990bcbd3e2bcb54e27aa3eb9d91c4f4822426d61f5dbef368459ce1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_ingles_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1459,
+    "filename": "mg_ef_linguagens_ingles_9.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_ingles_9.txt",
+    "state": "mg",
+    "word_count_original": 333
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_ingles_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_ingles_9.json"
+  },
+  "raw_response_text": "### 8.5 Habilidades Comunicativas: algumas considerações no processo de compreensão da leitura (ler)\n\nPesquisas recentes indicam que a leitura, longe de ser uma atividade passiva, é um processo dinâmico através do qual o leitor se envolve ativamente na (re)criação do sentido do texto, fundamentado não só em seu conhecimento anterior, mas também nas condições de produção textual (o que foi escrito, por/para quem, com que propósito, de que forma, quando e onde). A leitura pode ser vista como uma interação à distância entre leitor e autor através do texto, inserida nas situações comunicativas do cotidiano. Os três tipos de conhecimento (o de mundo, o linguístico e o textual) são mobilizados nessa relação dialógica leitor-autor, envolvendo também o uso de estratégias de leitura num processo contínuo de predizer, antecipar, formar e reformular hipóteses, avaliar, concordar, discordar, inferir e “ler nas entrelinhas” com base em pistas textuais e contextuais.\n\nO sentido não é uma característica do texto, mas se constrói no diálogo leitor-texto, numa espécie de jogo psicolinguístico que se estabelece durante o processamento da informação. Central é a noção de que o texto não é um produto acabado, mas é (re)criado a cada nova leitura.\n\n- Skimming: olhada rápida (um passar de olhos) pelo texto para ter uma ideia geral do assunto tratado.\n- Scanning: localização rápida de informação no texto.\n- Identificação do padrão geral de organização (gênero textual).\n- Uso de pistas não-verbais (ilustrações, diagramas, tabelas, saliências gráficas, etc.).\n- Uso de títulos, subtítulos, legendas, suporte (ou portador) do texto.\n- Antecipações do que vem em seguida ao que está sendo lido.\n- Uso do contexto e cognatos.\n- Uso de pistas textuais (pronomes, conectivos, articuladores, etc.).\n- Construção dos elos coesivos (lexicais e gramaticais).\n- Identificação do tipo do texto e das articulações na superfície textual.\n- Uso de palavras-chave para construir a progressão temática.\n- Construção de inferências.\n- Transferência de informação: do verbal para o não-verbal (resumos do que foi lido na forma de tabelas, esquemas ou mapas conceituais). (NUNAN, 1999. p.265-266).",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

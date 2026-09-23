@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_086a4f77621c56a9006ab3034d459487d2b4a122f8968ab928",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1390,
+      "input_tokens_details": {
+        "cache_write_tokens": 1387,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1582,
+      "output_tokens_details": {
+        "reasoning_tokens": 375
+      },
+      "total_tokens": 2972
+    }
+  },
+  "created_at": "2026-09-22T22:38:18Z",
+  "duration_seconds": 12.916,
+  "error": null,
+  "excerpt_id": "mg_em_62",
+  "filename": "mg_em_62.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2c0aabdbee9de68069b816dd5629644799891a08c2b784d00cbaa88dd389561e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8b1a6ddc8958a69c35e9cae5fd5223c89aa264c7b8ff4ecc3008413ef7bdffd6",
+    "rendered_prompt_sha256": "bcc2f3d0cbd3029cc394a04bfc1e3efe3d7f64989e71e1ebf65f634d36b97278",
+    "source_text_sha256": "d59d000d66ec8bf435e75eb4889b8940e0327b54a292ca6a60bd11d48e614840"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_62.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1595,
+    "filename": "mg_em_62.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_62.txt",
+    "state": "mg",
+    "word_count_original": 811
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_62.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_62.json"
+  },
+  "raw_response_text": "### 3.3.2 Quem somos?\n\nNa Educação Básica, as Ciências da Natureza devem contribuir com a construção de uma base de conhecimentos de forma contextualizada, que prepare os estudantes para fazerem julgamentos, tomarem iniciativas, elaborarem argumentos e apresentarem proposições alternativas, bem como fazerem uso criterioso de diversas tecnologias.\n\nSegundo a BNCC (2018),\n\n> Na Educação Básica, a área de Ciências da Natureza deve contribuir com a construção de uma base de conhecimentos contextualizada, que prepare os estudantes para fazer julgamentos, tomar iniciativas, elaborar argumentos e apresentar proposições alternativas, bem como fazer uso criterioso de diversas tecnologias. O desenvolvimento dessas práticas e a interação com as demais áreas do conhecimento favorecem discussões sobre as implicações éticas, socioculturais, políticas e econômicas de temas relacionados às Ciências da Natureza. (BRASIL, 2018, p. 537).\n\nMinler apud Millar (2003) aborda a questão “por que ensinar ciências e por que para todos?” no primeiro ASE Science Teacher’s Handbook. Segundo Minler:\n\n> O ensino de ciências contribui com a construção de habilidades, conceitos e perspectivas específicas, distintas, não oferecidas por outras áreas do conhecimento. Não é possível adquirir informalmente as competências e habilidades dessa área de conhecimento sem a instrução formal. Minler apud Millar (2003)\n\nEste autor aponta também razões instrumentais que justificam o valor do aprendizado de ciências naturais. Segundo esse autor, o conhecimento científico permite tomar decisões práticas sobre questões do cotidiano de modo informado. Além disso, possibilita a participação na tomada de decisões em questões que tenham um componente científico/tecnológico e dá acesso a empregos que envolvam ciência e tecnologia (em vários níveis).\n\nA área da Ciência da Natureza, nesse arranjo interdisciplinar, em que os componentes formam um trabalho de integração entre si e entre outras áreas, visa ampliar e aprofundar as aprendizagens do ensino fundamental assim como o aprofundamento conceitual nas temáticas Matéria e Energia, Vida e Evolução e Terra e Universo (BRASIL, 2018, p.534).\n\nConforme a BNCC,\n\n> podem ser mobilizados conhecimentos relacionados a: origem da Vida; evolução biológica; registro fóssil; exobiologia; biodiversidade; origem e extinção de espécies; políticas ambientais; biomoléculas; organização celular; órgãos e sistemas; organismos; populações; ecossistemas; cadeias alimentares; respiração celular; fotossíntese; reprodução e hereditariedade; genética mendeliana; processos epidemiológicos; espectro eletromagnético; modelos cosmológicos; astronomia; gravitação; mecânica newtoniana; previsão do tempo; entre outros. (Brasil, 2018, p.556).\n\nA área de Ciências da Natureza se propõe a apresentar uma visão de ensino interdisciplinar, envolvendo os componentes curriculares de Biologia, Física e Química com os objetivos de contextualizar a aprendizagem de Ciências na realidade histórica, social, ambiental e econômica dos estudantes e descrever a importância do desenvolvimento da investigação científica em seus processos e práticas.\n\nA proposta do Currículo Referência estimula a ênfase no protagonismo do estudante, sendo este mais ativo, mais participativo e menos ouvinte de aulas, ao longo de todo o Ensino Médio, para além da memorização de regras e fórmulas, aprofundando e ampliando as habilidades e competências desenvolvidas durante o Ensino Fundamental. A BNCC ressalta que\n\n> “as decisões pedagógicas devem estar orientadas para o desenvolvimento de competências, de forma clara em que os estudantes devem “saber” (considerando a constituição de conhecimentos, habilidades, atitudes e valores) e, sobretudo, do que devem “saber fazer” (considerando a mobilização desses conhecimentos, habilidades, atitudes e valores para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho)” (BRASIL, 2018, p.13).\n\nSegundo Motta-Roth & Lovato (2009), um estudante que é levado a interagir com a ciência e a produzi-la, avaliando-a e refletindo sobre seu estatuto, tem mais chances de desenvolver competências e habilidades comunicativas e de reflexão para estabelecer sua posição frente ao conhecimento científico.\n\nDiante dessa nova perspectiva, destaca-se as abordagens CTSA (Ciência, Tecnologia, Sociedade e Ambiente), atreladas ao Ensino de Ciências por Investigação, baseadas em problemas e sequência didáticas que, enquanto abordagens didáticas, caracterizam o desafio das novas modelagens de produção do conhecimento por serem instrumentos fundamentais nessa nova organização curricular. Nessa mesma perspectiva, temos projetos, sala invertida, aprendizagem em pares e a gamificação<sup>17</sup>.\n\nNeste novo formato, as abordagens CTSA são estratégias e mecanismos facilitadores no processo de ensino-aprendizagem, que vêm sendo discutido em trabalhos curriculares desde o final da década de 80, quando emerge a necessidade de incorporar as discussões sobre CTSA no Ensino de Ciências. Uma possível metodologia a ser utilizada dentro dessa abordagem é o letramento científico que teve maior ênfase em 1970 com o aumento das preocupações dos educadores em abordar aspectos sociais – impactos ambientais – relacionados à ciência e tecnologia. Autores defendem que “a atual reforma curricular do ensino médio incorpora, em seus objetivos e fundamentos, elementos dos currículos com ênfase em CTSA” (SANTOS e MORTIMER, 2002, p.114). A palavra letramento significa o “resultado da ação de ensinar ou de aprender a ler e escrever”. A apropriação da escrita por um indivíduo ou grupo social é uma das evidências do processo de ensino e aprendizagem (SOARES, 2003, p.02).",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

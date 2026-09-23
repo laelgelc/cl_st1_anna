@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bd368fffa636eec006ab30f96cb6887d2b6be60ebf7b3ec3b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 707,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 762,
+      "output_tokens_details": {
+        "reasoning_tokens": 215
+      },
+      "total_tokens": 1469
+    }
+  },
+  "created_at": "2026-09-22T23:30:38Z",
+  "duration_seconds": 8.243,
+  "error": null,
+  "excerpt_id": "sp_em_11",
+  "filename": "sp_em_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d14cf3e85b3952f4ee0108da5da267ae725482b6d6a177bf0638baa965fe4439",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8ca36cee46c9943f7646be84ba2b535bba9f27499160100fb186587cff203b02",
+    "rendered_prompt_sha256": "973283e08b5c45096b8560bfa6bad74cec4ace7b9ea97b8ed35248abf9932b53",
+    "source_text_sha256": "0e56b8dfbd134ae799088ac4516830b4b34ec54e1d85a08869e0b80b03e3f9a9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3904,
+    "filename": "sp_em_11.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_11.txt",
+    "state": "sp",
+    "word_count_original": 392
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_11.json"
+  },
+  "raw_response_text": "## Educação de Jovens e Adultos – EJA\n\nA EJA é uma modalidade da Educação Básica nas etapas do Ensino Fundamental e Médio garantida pela Constituição Federal e pela Lei de Diretrizes e Bases da Educação (LDB 9394/96). Com base em suas características próprias com relação ao tempo e ao perfil do estudante, sua oferta deve ser efetivada visando atender suas funções e objetivos específicos, sem, entretanto, deixar de assegurar formação integral a todos os estudantes, seguindo os princípios apontados pela UNESCO para a educação ao longo da vida.\n\nO processo formativo do estudante desta modalidade não deve ser um recorte do Ensino Médio regular, mas sim contemplar, de fato, as necessidades de um público heterogêneo, que apresenta diversidade de idade e origem, ritmos diferentes de aprendizagem, além da pluralidade de crenças e valores. São jovens e adultos, que em geral, já experimentam diversos papéis sociais no cotidiano, com experiências e responsabilidades no âmbito do trabalho, na esfera familiar e em grupos sociais. Esses estudantes trazem vivências importantes e já construíram outros conhecimentos que precisam ser fortemente considerados no processo educacional. Assim faz-se necessário oferecer um modelo pedagógico próprio a partir dos princípios da andragogia, entendida como a ciência de orientar o adulto a aprender, propondo práticas educacionais apropriadas com abordagens metodológicas ativas contextualizadas, cuidadosamente pensadas e preparadas para este público.\n\nMetodologias de ensino adequadas, como as ativas e aplicáveis, animam, estimulam, encorajam o estudante e ajudam na diminuição da evasão escolar. Atividades criativas que conectem disciplinas, ultrapassando a visão fragmentada do conhecimento, e assegurem intervenções interdisciplinares permitem fomentar um ambiente de aprendizado permanente e de qualidade para todos.\n\nProcedimentos como trabalho sistematizado e interdisciplinar com leituras diversas; envolvimento do estudante na escolha das atividades; valorização da cultura e do contexto local referenciados na cultura global, e consideração dos interesses, da realidade e dos projetos pessoais e sociais do estudante são outras possibilidades que enriquecem a aprendizagem.\n\nFinalmente, é necessário considerar que muitos estudantes dessa modalidade são trabalhadores portanto, as atividades devem fazer conexão com o eixo “mundo do trabalho”⁵, possibilitando ao indivíduo “reconstruir” a sua aprendizagem, partindo de sua vivência cotidiana para construir e sistematizar os conhecimentos científicos.\n\n⁵ “Mundo do trabalho” não deve ser entendido como ensino profissionalizante para “mercado do trabalho”, ele abrange o sentido das atualidades, do mundo globalizado e dos direitos e deveres dos cidadãos.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

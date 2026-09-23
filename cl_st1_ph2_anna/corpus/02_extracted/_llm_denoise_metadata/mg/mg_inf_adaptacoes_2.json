@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a7b08cbf401168d006ab303778c8887d282ed24faa750eade",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 712,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 707,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 1419
+    }
+  },
+  "created_at": "2026-09-22T22:38:53Z",
+  "duration_seconds": 6.41,
+  "error": null,
+  "excerpt_id": "mg_inf_adaptacoes_2",
+  "filename": "mg_inf_adaptacoes_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7d2772634a114cdfe075daca3c49e93d1fdcf9f993ab380e2f83a5c5623570fe",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1888aa3ae12455257a0cea17890cecf088c670153abc3d7ef3fd833c65f35444",
+    "rendered_prompt_sha256": "41ae1ac6635263df297c08240bef1c8047b22637a8e3f0fb41d77b30871f01bf",
+    "source_text_sha256": "83250cee19e7ca1a58cf42b73d0ff0da49e7fa5201d04ae5c6ce028a3ef18bf6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_adaptacoes_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1637,
+    "filename": "mg_inf_adaptacoes_2.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_adaptacoes_2.txt",
+    "state": "mg",
+    "word_count_original": 368
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_adaptacoes_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_adaptacoes_2.json"
+  },
+  "raw_response_text": "# SÍNTESE DAS APRENDIZAGENS\n\n## O eu, o outro e o nós\n\n- Respeitar e expressar sentimentos e emoções.\n- Atuar em grupo e demonstrar interesse em construir novas relações, respeitando a diversidade e solidarizando-se com os outros.\n- Conhecer e respeitar regras de convívio social, manifestando respeito pelo outro.\n\n## Corpo, gestos e movimentos\n\n- Reconhecer a importância de ações e situações do cotidiano que contribuem para o cuidado de sua saúde e a manutenção de ambientes saudáveis.\n- Apresentar autonomia nas práticas de higiene, alimentação, vestir-se e no cuidado com seu bem-estar, valorizando o próprio corpo.\n- Utilizar o corpo intencionalmente (com criatividade, controle e adequação) como instrumento de interação com o outro e com o meio.\n- Coordenar suas habilidades manuais.\n\n## Traços, sons, cores e formas\n\n- Discriminar os diferentes tipos de sons e ritmos e interagir com a música, percebendo-a como forma de expressão individual e coletiva.\n- Expressar-se por meio das artes visuais, utilizando diferentes materiais.\n- Relacionar-se com o outro empregando gestos, palavras, brincadeiras, jogos, imitações, observações e expressão corporal.\n\n## Escuta, fala, pensamento e imaginação\n\n- Expressar ideias, desejos e sentimentos em distintas situações de interação, por diferentes meios.\n- Argumentar e relatar fatos oralmente, em sequência temporal e causal, organizando e adequando sua fala ao contexto em que é produzida.\n- Ouvir, compreender, contar, recontar e criar narrativas.\n- Conhecer diferentes gêneros e portadores textuais, demonstrando compreensão da função social da escrita e reconhecendo a leitura como fonte de prazer e informação.\n\n## Espaços, tempos, quantidades, relações e transformações\n\n- Identificar, nomear adequadamente e comparar as propriedades dos objetos, estabelecendo relações entre eles.\n- Interagir com o meio ambiente e com fenômenos naturais ou artificiais, demonstrando curiosidade e cuidado com relação a eles.\n- Utilizar vocabulário relativo às noções de grandeza (maior, menor, igual etc.), espaço (dentro e fora) e medidas (comprido, curto, grosso, fino) como meio de comunicação de suas experiências.\n- Utilizar unidades de medida (dia e noite; dias, semanas, meses e ano) e noções de tempo (presente, passado e futuro; antes, agora e depois), para responder a necessidades e questões do cotidiano.\n- Identificar e registrar quantidades por meio de diferentes formas de representação (contagens, desenhos, símbolos, escrita de números, organização de gráficos básicos etc.).\n\n*Figura 9 - Síntese das Aprendizagens esperadas por ocasião da transição*",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

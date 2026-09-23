@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e53e970c9874901006ab303b3cd7887d29d5e06351d02c342",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 919,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1032,
+      "output_tokens_details": {
+        "reasoning_tokens": 264
+      },
+      "total_tokens": 1951
+    }
+  },
+  "created_at": "2026-09-22T22:39:55Z",
+  "duration_seconds": 7.834,
+  "error": null,
+  "excerpt_id": "ms_em_35",
+  "filename": "ms_em_35.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1a00b25bd035f12d28db15104a73030a427c6c5b84af843cd9ad0f25afb423a1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f0f60bc5e6d8623d7d329a81300b48134b5ff0a2cb0311e22ad80e587d913de8",
+    "rendered_prompt_sha256": "6f6e380195d208262075b8bd0c23ffacec41cee5f4a519785d5411d2871fc462",
+    "source_text_sha256": "bc7f9b5970e798662160dad2808e1e8b491905bd5dde6dbd27be7cfedecbb752"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_35.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1700,
+    "filename": "ms_em_35.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_35.txt",
+    "state": "ms",
+    "word_count_original": 526
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_35.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_35.json"
+  },
+  "raw_response_text": "### 4.2. Eixos Estruturantes\n\nA Portaria MEC n. 1.432/2018 corrobora o parágrafo 2º do art. 12 das DCNEM e estabelece a organização dos Itinerários Formativos a partir de quatro eixos estruturantes: Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo.\n\nEsses eixos são complementares e auxiliarão os estudantes a desenvolverem habilidades necessárias para uma formação integral, que promova situações de aprendizagem realmente significativas para o seu crescimento intelectual e emocional. Os estudantes terão a possibilidade de percorrer um ou, preferencialmente, todos os eixos estruturantes dos Itinerários Formativos, quais sejam:\n\n**Investigação Científica** — os estudantes podem participar da realização de uma pesquisa científica, compreendida como procedimento privilegiado e integrador de áreas e componentes curriculares. O processo pressupõe a identificação de uma dúvida, questão ou problema; o levantamento, formulação e teste de hipóteses; a seleção de informações e de fontes confiáveis; a interpretação, elaboração e uso ético das informações coletadas; a identificação de como utilizar os conhecimentos gerados para solucionar problemas diversos; e a comunicação de conclusões com a utilização de diferentes linguagens.\n\n**Processos Criativos** — os estudantes podem realizar projetos criativos por meio da utilização e integração de diferentes linguagens, manifestações sensoriais, vivências artísticas, culturais, midiáticas e científicas aplicadas. O processo pressupõe a identificação e o aprofundamento de um tema ou problema, que orientará a posterior elaboração, apresentação e difusão de uma ação, produto, protótipo, modelo ou solução criativa, tais como obras e espetáculos artísticos e culturais, campanhas e peças de comunicação, programas, aplicativos, jogos, robôs, circuitos, dentre outros produtos analógicos e digitais.\n\n**Mediação e Intervenção Sociocultural** — privilegia-se o envolvimento dos estudantes em campos de atuação da vida pública, por meio do seu engajamento em projetos de mobilização e intervenção sociocultural e ambiental que os levem a promover transformações positivas para a comunidade. O processo pressupõe o diagnóstico da realidade sobre a qual se pretende atuar, incluindo a busca de dados oficiais e a escuta da comunidade local; a ampliação de conhecimentos sobre o problema a ser enfrentado; o planejamento, execução e avaliação de uma ação social e/ou ambiental que responda às necessidades e interesses do contexto; a superação de situações de estranheza, resistência, conflitos interculturais e possíveis obstáculos com necessários ajustes de rota.\n\n**Empreendedorismo** — os estudantes são estimulados a criar empreendimentos pessoais ou produtivos articulados com seus projetos de vida que fortaleçam a sua atuação como protagonistas da sua própria trajetória. Para isso, busca desenvolver autonomia, foco e determinação para que consigam planejar e conquistar objetivos pessoais ou criar empreendimentos voltados à geração de renda via oferta de produtos e serviços, com ou sem uso de tecnologias. O processo pressupõe a identificação de potenciais, desafios, interesses e aspirações pessoais; a análise do contexto externo, inclusive em relação ao mundo do trabalho; a elaboração de um projeto pessoal ou produtivo; a realização de ações-piloto para testagem e aprimoramento do projeto elaborado; o desenvolvimento ou aprimoramento do projeto de vida dos estudantes.\n\nPortanto, ao escolher os Itinerários Formativos que desejam percorrer ao longo do Ensino Médio, os estudantes poderão ter acesso a diferentes possibilidades de aprendizagens, com vistas a fortalecer o protagonismo, a criatividade, a atuação social, a proposição e a resolução de conflitos.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

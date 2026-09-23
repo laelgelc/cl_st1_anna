@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_049db2e7033d50f8006ab30814f2e887d291fc2453ad1283e2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 868,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1814,
+      "output_tokens_details": {
+        "reasoning_tokens": 1034
+      },
+      "total_tokens": 2682
+    }
+  },
+  "created_at": "2026-09-22T22:58:48Z",
+  "duration_seconds": 19.751,
+  "error": null,
+  "excerpt_id": "pe_em_26",
+  "filename": "pe_em_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f45a78bf8740404aabf8905e2a907c679651f42dec60ccd8a8bcd0fecfc1aab2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6446783a28698c0b12872bdc2d7cf012b2fff71f63cfcbcbb9bf0a80e14872cc",
+    "rendered_prompt_sha256": "ee74eb7f63daa6af1ce37f702b77cde4722be4c7cb0ba39a9171c266d8606622",
+    "source_text_sha256": "aa8ee3423863452d34a8aca2c25eb702306a8fc5076f6df2dd0cdec11e1cfa31"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2482,
+    "filename": "pe_em_26.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_26.txt",
+    "state": "pe",
+    "word_count_original": 518
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_26.json"
+  },
+  "raw_response_text": "### 1º Ano do Ensino Médio\n\n**UNIDADES TEMÁTICAS**\n\n**OBJETIVOS ESPECÍFICOS**\n\n- Produzir individualmente projetos de vida baseados no autoconhecimento, valendo-se de estratégias que envolvam a formação integral do estudante, considerando a multidimensionalidade dos sujeitos.\n- Perceber necessidades individuais e coletivas do presente imediato como ponto de partida para o desenvolvimento de projetos de vida dos estudantes.\n- Desenvolver estratégias de planejamento de Projetos de Vida numa perspectiva de permanente construção, baseada no planejamento, ação e avaliações constantes e simultâneas, considerando as necessidades de cada etapa da vida.\n\n### 2º Ano do Ensino Médio\n\nNo segundo ano, podem se privilegiar estratégias de ensino que desenvolvam o início da produção de um projeto de vida, ou seja, sonhos e desejos, mas principalmente mecanismos para a busca de materialização de metas. Neste sentido, as discussões podem versar sobre desejos, planejamento, realizações e ações, tendo em vista os seguintes objetivos:\n\n**UNIDADES TEMÁTICAS**\n\n**OBJETIVOS ESPECÍFICOS**\n\n**Vínculo Social e historicidade**\n\n- Respeitar e valorizar projetos individuais e coletivos, numa perspectiva ética e democrática.\n- Reconhecer-se como integrante de diferentes grupos, percebendo que suas escolhas repercutem em si, no outro e no entorno social.\n- Conhecer diferentes projetos individuais e de sociedade das juventudes de diferentes grupos sociais, políticos, regionais, espirituais, culturais, de relações étnico-raciais, gênero, sexualidade, entre outros.\n- Produzir coletivamente projetos de vida e de sociedade baseados nos referenciais da juventude a qual faz parte, tendo como princípio os valores da ética e da justiça.\n- Desenvolver projetos de vida baseados em valores considerados universais que contribuam para o estabelecimento de vínculos sociais pautados na convivência, no respeito e no diálogo.\n- Compreender que todo projeto de vida individual está em conexão com projetos de vida de outros sujeitos na medida em que se compreende o humano enquanto um ser de cuidado de si e cuidado do outro.\n\n### 3º Ano do Ensino Médio\n\nA partir dos estudos realizados durante o primeiro e segundo anos do Ensino Médio, cabe, também no terceiro ano, reconhecer a conjuntura local, regional e nacional do mercado de trabalho e do empreendedorismo. Destacamos ainda a possibilidade de desenvolvimento das habilidades instituídas nacionalmente para o trabalho com a temática, em especial, referenciadas na Portaria nº 1.432, de 28 de dezembro de 2018, citada anteriormente:\n\n**UNIDADES TEMÁTICAS**\n\n**OBJETIVOS ESPECÍFICOS**\n\n**Trabalho**\n\n- Realizar escolhas profissionais a partir do reconhecimento e análise das transformações técnicas, tecnológicas recentes.\n- Compreender significados e dar sentidos aos conceitos de trabalho e empreendedorismo no contexto atual.\n- Estruturar escolhas profissionais articuladas com o conhecimento de si, considerando os contextos sociais, econômicos e culturais.\n- Compreender os contextos políticos, econômicos e sociais que justificaram as escolhas de trabalho de juventudes de diferentes tempos históricos.\n- Reconhecer fragilidades e ser capaz de dispor de qualidades pessoais para enfrentar desafios e alcançar objetivos pessoais e profissionais, agindo ativamente na superação de situações de estresse, frustração, fracasso e adversidade.\n- Planejar, organizar e empreender projetos pessoais e produtivos com base na identificação de metas, caminhos, apoios e recursos disponíveis.\n- Examinar seu próprio desenvolvimento de modo a, eventualmente, rever objetivos presentes e futuros, identificando aspirações e oportunidades que (re)orientem escolhas, esforços e ações em relação à sua vida pessoal, profissional e cidadã.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04b9253290428fb3006ab301e0ec3c87d29c523140a30e195c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 815,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 776,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 1591
+    }
+  },
+  "created_at": "2026-09-22T22:32:06Z",
+  "duration_seconds": 5.78,
+  "error": null,
+  "excerpt_id": "ma_ef_47",
+  "filename": "ma_ef_47.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "998c7deae1c34233a7faa53069e2548f00a04f96128b00c5d86c24bd28380766",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "90b178bcc72c90cc05a8a445b583deae11b227cfa546539c592af0cb185ff99f",
+    "rendered_prompt_sha256": "609d82318936c7ab7b5ad26f3b31d1980e519bd34870c1e3a7f9b2617ff4be8b",
+    "source_text_sha256": "5de9dd26f04a6583c26785b70dc542f9e413d3e42817c5e162c1cae98a84b3f7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_ef_47.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1274,
+    "filename": "ma_ef_47.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_ef_47.txt",
+    "state": "ma",
+    "word_count_original": 525
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_ef_47.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_ef_47.json"
+  },
+  "raw_response_text": "# Ciências da Natureza: de temas integradores à transversalidade\n\nA integração do conhecimento é um critério indispensável na condução dos processos educativos, uma vez que o currículo escolar deve proporcionar uma visão ampla sobre os diversos aspectos da realidade natural, humana, histórica e social das populações cuja evolução reflete as implicações do desenvolvimento científico, tecnológico e das inovações, e sobre como estas afetaram e afetam as relações entre os seres humanos e seu ambiente, em todos os aspectos da vida individual e coletiva.\n\nNo processo de ensino-aprendizagem, as diferentes áreas do conhecimento têm pontos de integração, os quais precisam ser apresentados pelo professor, de forma natural, mediada e articulada para que os estudantes percebam o caráter interdisciplinar dos conteúdos, compreendendo que o mundo é único e que cada mudança nele ocorrida influencia de forma muito direta todas as relações que nele existem.\n\nO processo de acomodação de novos conceitos dá-se de forma gradual, mediante ajustamento progressivo de novas aprendizagens. Portanto, no campo da prática pedagógica, é necessário buscar constantemente uma articulação entre os componentes curriculares e envolver procedimentos didáticos necessários que os integram proporcionando uma aprendizagem efetiva e ampla. Essa aprendizagem, por sua vez, deve implicar a compreensão do contexto em que o estudante está contido, numa perspectiva de reconhecimento crítico e reflexivo da relação entre o conhecimento adquirido e seu cotidiano.\n\nO ensino de Ciências da Natureza, assim como enfatizado por Maranhão (2010), propicia o desenvolvimento desses temas contemplando-os em suas habilidades, permitindo ao estudante lidar com as informações, compreendê-las, interpretá-las, analisá-las e elaborá-las. Logo, a contextualização, a interdisciplinaridade e os temas integradores possibilitam construir uma visão mais ampla da realidade que muitas vezes aparece fragmentada, e as interconexões que acontecem nos componentes curriculares facilitam e promovem o conhecimento do educando.\n\nDe acordo com os referenciais normativos, curriculares e a própria BNCC, destacam-se como temas integradores: Educação em direitos humanos e o Estatuto da Criança e do Adolescente (ECA); Educação para o trânsito; Educação ambiental; Saúde e educação alimentar e nutricional; Processo de envelhecimento, respeito e valorização do idoso; Educação para as relações étnico-raciais e ensino de história e cultura afro-brasileira, africana e indígena – diversidade cultural; Vida familiar e social, educação para as relações de gênero; Trabalho, ciência e tecnologia; Educação financeira e fiscal e orientação para o consumo.\n\nNessa perspectiva, postula-se que a apresentação dos conteúdos científicos durante o processo educativo considere a pedagogia de projetos, cuja metodologia implica fomentar situações problematizadoras, interdisciplinares e reflexivas sobre o caráter integral do conhecimento. Infere-se que, prioritariamente dessa forma, os conhecimentos científicos relativos aos componentes apresentados na aula possam ser reconhecidos pelos estudantes como fatos concretos porque participam do seu cotidiano.\n\nNesse contexto, o ser humano, o ambiente e a sociedade ganham uma especificidade ao mesmo tempo biológica, histórica e social, afastando-se dos esquemas tradicionais contemplados na maior parte dos textos didáticos. Assim, a aproximação entre Ciências e demais áreas do conhecimento contribui para que o estudante se reconheça não só como receptor das mensagens veiculadas, mas também como elemento partícipe da produção de um saber muito mais amplo.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

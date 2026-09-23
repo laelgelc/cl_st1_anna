@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03d32c637dab8042006ab30529bd0487d2b1914aa0820eb3c9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 442,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 371,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 813
+    }
+  },
+  "created_at": "2026-09-22T22:46:05Z",
+  "duration_seconds": 3.804,
+  "error": null,
+  "excerpt_id": "mt_inf_10",
+  "filename": "mt_inf_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8c112dda4ee312544b69da55e847efc0e75740b539684b5d0fd82f54e89d9401",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ea38390124277554c308685a0902949e59ba0980175b2a6f7af60dfce7ae600b",
+    "rendered_prompt_sha256": "ff454235fad9d46a1998e9a9efe6d5586a193b73d163b71197efdf8f009e9cb2",
+    "source_text_sha256": "dee8ed37a2866598c574b74390882750d8cb9b365ca91b9c76be0d4d42acbb55"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_inf_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1977,
+    "filename": "mt_inf_10.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_inf_10.txt",
+    "state": "mt",
+    "word_count_original": 243
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_inf_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_inf_10.json"
+  },
+  "raw_response_text": "### 1.9 A Parceria com as Famílias\n\nA família é a primeira responsável por constituir para a criança um contexto de educação e de cuidados – afetivos, cognitivos e materiais. Esse contexto é relevante para as crianças na construção das suas primeiras formas de significar o mundo e dos seus primeiros conhecimentos e saberes, que seguirá com ela ao longo da sua vida.\n\nPara muitas crianças Mato-Grossenses as instituições de Educação Infantil assumem a responsabilidade de proporcionar um contexto de cuidados e de educação, nas quais as famílias depositam grande expectativa em relação ao aprendizado e ao desenvolvimento de seus filhos e filhas.\n\nAs DCNEI (2009) apontam a necessidade de um atendimento aos direitos da criança na sua integralidade, o que requer das instituições educacionais, na organização de sua proposta pedagógica assegurar espaços e tempos para a participação, o diálogo e a escuta atenta das famílias, bem como o respeito e a valorização das suas diferentes culturas e das suas diferentes formas de organização.\n\nCom o objetivo de enriquecer as experiências cotidianas das crianças, é preciso ações e projetos de integração entre famílias e instituições educacionais. Essa parceria certamente promove vínculos que favorecem um clima de respeito mútuo, de confiabilidade e de trabalho colaborativo, fundamental para o sucesso educacional da criança. Pais, responsáveis e educadores necessitam ser grandes parceiros na caminhada da formação educacional do ser humano, pois tais relações colaboram na identificação da cultura popular da criança e de sua família.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

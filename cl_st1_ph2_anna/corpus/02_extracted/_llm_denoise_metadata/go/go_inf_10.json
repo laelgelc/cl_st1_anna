@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0cd89936a48e2bc1006ab30170f76487d2b4df10d4fc5519c9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 887,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 843,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 1730
+    }
+  },
+  "created_at": "2026-09-22T22:30:14Z",
+  "duration_seconds": 5.678,
+  "error": null,
+  "excerpt_id": "go_inf_10",
+  "filename": "go_inf_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7c4b9acf6e25f36168bcb9c71a04f8549fdc6f44bdcbb0aa7c86ced4d8b3699a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3b2fe630ab98384e6f70830e54633392cdc5550d928dd16baea99c13c502903e",
+    "rendered_prompt_sha256": "c650dd382fffac46df26e74edd83aac0e6aa68a733622fe72b1e0fe9a9941e9c",
+    "source_text_sha256": "4fe6a2442a23a13cf8f21bec39e34045c8425044e32d794041415e7d82be6978"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_inf_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1198,
+    "filename": "go_inf_10.txt",
+    "filepath": "corpus/00_source_per_state/go/go_inf_10.txt",
+    "state": "go",
+    "word_count_original": 491
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_inf_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_inf_10.json"
+  },
+  "raw_response_text": "2. o detalhamento desses conceitos centrais e sua relação com a ação pedagógica;\n3. os incisos do artigo 9º das DCNEI (BRASIL, 2009) que estão diretamente relacionados com o campo de experiências e o seu desdobramento no Quadro dos Objetivos de Aprendizagens e Desenvolvimento;\n4. a organização da ação pedagógica, contemplando o planejamento dos espaços, dos tempos, dos materiais e das atividades culturalmente significativas que compõem cada campo.\n\nO Quadro dos Objetivos de Aprendizagens e Desenvolvimento do Documento Curricular para Goiás - Ampliado está organizado em quatro colunas. A primeira, Sentidos, saberes e conhecimentos, foi acrescentada pelas redatoras de Educação Infantil, por compreenderem a importância de indicar para o leitor o que será abordado em cada objetivo de aprendizagens e desenvolvimento, bem como agrupá-los, de acordo com os conceitos centrais que constituem cada campo. A segunda, terceira e quarta coluna, que já existem na BNCC (BRASIL, 2017), se referem a divisão por grupos e por faixa etária, respectivamente, Bebês (0 a 1 ano e seis meses), Crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses), Crianças pequenas (4 anos a 5 anos e 11 meses).\n\nA terminologia utilizada na primeira coluna, Sentidos, saberes e conhecimentos, foi definida com o objetivo de reafirmar que o currículo da Educação Infantil é centrado na experiência, na produção de sentidos e significados pela criança, na articulação de suas vivências com os conhecimentos de diferentes naturezas produzidos e sistematizados pelos homens ao longo do tempo, como já mencionado, categorizados em científico, tecnológico, ambiental, artístico e cultural e não em conhecimentos isolados, que não se entrelaçam com o que é vivido pelas crianças em diferentes contextos.\n\nCabe destacar que no Quadro dos Objetivos de Aprendizagens e Desenvolvimento do Documento Curricular para Goiás - Ampliado constam os apresentados pela BNCC (BRASIL, 2017) e os elaborados pela equipe de redatores, observando as necessidades e as peculiaridades de Goiás.\n\nCada objetivo de aprendizagens e desenvolvimento vem acompanhado de um código alfanumérico, tendo o primeiro grupo de letras – EI – a finalidade de demarcar a etapa da Educação Básica a que se destina, nesse caso, Educação Infantil. Segue o grupo numérico – 01, 02 ou 03 – referindo-se aos grupos por faixa etária, respectivamente, Bebês, Crianças bem pequenas e Crianças pequenas. O próximo grupo de letras diz respeito aos campos de experiências: EO – O Eu, o Outro e o Nós; CG – Corpo, Gestos e Movimentos; TS – Traços, Sons, Cores e Formas; EF – Escuta, Fala, Pensamento e Imaginação; ET – Espaços, Tempos, Quantidades, Relações e Transformações. Por fim, o último grupo numérico estabelece a enumeração dos objetivos de aprendizagens e desenvolvimento com o intuito de quantificá-los em cada campo de experiências.\n\nNos objetivos de aprendizagens e desenvolvimento que foram acrescentados, é colocada antes do código alfanumérico a sigla GO e, para os que foram desmembrados, para contextualizar melhor determinados aspectos a partir dos expostos pela BNCC (BRASIL, 2017), foram acrescentadas depois do código da Base, letras, como A e B.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

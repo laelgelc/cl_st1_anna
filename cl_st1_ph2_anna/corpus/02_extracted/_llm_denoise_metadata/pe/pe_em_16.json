@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_093795e0a3f3ba40006ab308061cd487d2956644ed0b10a354",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 792,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 779,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 1571
+    }
+  },
+  "created_at": "2026-09-22T22:58:22Z",
+  "duration_seconds": 7.985,
+  "error": null,
+  "excerpt_id": "pe_em_16",
+  "filename": "pe_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "65fb21b1657b3518eb0c1df23ed790366296f3626c2b057e5da1544dc8afe9ce",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5ea1d535f1913d3a8b88133e29b58b0adcb11417d6ad67523cd84748c32088a7",
+    "rendered_prompt_sha256": "acf40118800826b42df3ee998b8ddd42d1d259bf45893fb3ec5dcad8c877d3ac",
+    "source_text_sha256": "3f361d9330a55dba85e7bc4c2f3930843d78be3589cffbf2c3223757b78524c7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2471,
+    "filename": "pe_em_16.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_16.txt",
+    "state": "pe",
+    "word_count_original": 537
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_16.json"
+  },
+  "raw_response_text": "## 2.4 – TRANSIÇÃO DO ENSINO FUNDAMENTAL PARA O ENSINO MÉDIO\n\nA transição entre as duas etapas da Educação Básica não é algo simples, acontece de forma automática e sem repercussões. Em nossa sociedade, ela vem acompanhada de outros elementos culturais e sociais para os jovens que estão entre a adolescência e o ingresso na vida adulta. Os conflitos gerados entre os limites e possibilidades de atuação desse público em diferentes esferas da sociedade, numa relação complexa entre dependência, autonomia e liberdade, são constantes nessa fase. Além disso, os jovens estão vivenciando um amadurecimento cognitivo que exige da escola uma nova postura a fim de desafiá-los para a continuidade dos estudos.\n\nO Ensino Médio, como etapa final da Educação Básica, é o momento em que o estudante construirá novos conhecimentos, mas também deverá consolidar e aprofundar o que fora aprendido durante o Ensino Fundamental. Nesse sentido, demanda um estreito diálogo com o currículo da etapa anterior para que não haja uma ruptura no processo de aprendizagem dos estudantes.\n\nA BNCC, ao descrever a etapa do Ensino Fundamental, encontra-se organizada por área de conhecimento, apresentando competências e habilidades para cada um dos componentes curriculares das referidas áreas. Todavia, a BNCC do Ensino Médio traz competências e habilidades apenas para as áreas. Assim sendo, para melhor alinhamento entre as etapas do Ensino Médio e do Ensino Fundamental, o Currículo de Pernambuco do Ensino Médio, no que diz respeito à Formação Geral Básica dos estudantes, se organiza através de competências e habilidades das áreas, assim como proposto no documento norteador ora citado, propondo habilidades organizadas por componente curricular, com destaque para os objetos de conhecimento correlatos a estas habilidades; considere-se, ainda, que os conhecimentos de cada um dos componentes pretendem contribuir, de forma interdisciplinar e conjunta, para se atingir ao que propõe cada uma das competências de área, além de favorecer o diálogo com a formação inicial dos professores.\n\nNa busca de atender às competências e às habilidades propostas pela BNCC, o currículo do Ensino Médio traz novos conhecimentos, novas unidades curriculares e aprofundamentos em relação ao que é vivenciado pelo estudante durante a escolarização nos anos do Ensino Fundamental. Assim, mesmo com uma organização curricular diferenciada, o Ensino Médio não está desvinculado do Ensino Fundamental, pelo contrário, se articula a etapa anterior e gradativamente vai introduzindo novos elementos que lhe competem, buscando considerar as expectativas para essa etapa do ensino.\n\nAo mesmo tempo que traz desafios, essa transição representa, também, uma conquista para os estudantes. Especialmente para aqueles que, a depender de seus projetos de vida, têm expectativas quanto à continuidade dos seus estudos no Ensino Superior ou mesmo quanto ao exercício de uma profissão. Na verdade, como última etapa da Educação Básica, representa um período de passagem; novas leituras de mundo são construídas; novos caminhos são trilhados; afirma-se posturas, defende-se ideias que contribuirão na construção das identidades. Dessa forma, alcançar o Ensino Médio é uma importante conquista para o estudante; e finalizá-lo, é necessário tanto para a superação de desafios pessoais quanto profissionais.\n\nDo ponto de vista do aprofundamento, a BNCC sinaliza alguns elementos comparativos entre a Etapa do Ensino Fundamental e a do Ensino Médio como pode ser visto abaixo:",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

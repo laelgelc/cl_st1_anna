@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_074d10c1f73ead26006ab2fd45f86487d29f5bf8d13d10c74c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 380,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 291,
+      "output_tokens_details": {
+        "reasoning_tokens": 38
+      },
+      "total_tokens": 671
+    }
+  },
+  "created_at": "2026-09-22T22:12:24Z",
+  "duration_seconds": 2.531,
+  "error": null,
+  "excerpt_id": "am_ef_51",
+  "filename": "am_ef_51.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dac1d97c3e2aa4bd34795eebc4f8abd2f45e124c4766abdd692d35d19024bc80",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a1c51413f01f07c60a82767a7d6b656159553f790c889ea562de132828f52c17",
+    "rendered_prompt_sha256": "13d5bd2445df6edd256e8415ce5063159e8c578b47c29380ec02744c89e8eef0",
+    "source_text_sha256": "15a7fdbf77428c802d92e98cb4a4a9150951865571141d2fd6c9adf2c96b1308"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_51.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 356,
+    "filename": "am_ef_51.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_51.txt",
+    "state": "am",
+    "word_count_original": 167
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_51.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_51.json"
+  },
+  "raw_response_text": "Compreender a historicidade no tempo e no espaço, relacionando acontecimentos e processos de transformação e manutenção das estruturas sociais, políticas, econômicas e culturais, bem como problematizar os significados das lógicas de organização cronológica.\n\nElaborar questionamentos, hipóteses, argumentos e proposições em relação a documentos, interpretações e contextos históricos específicos, recorrendo a diferentes linguagens e mídias, exercitando a empatia, o diálogo, a resolução de conflitos, a cooperação e o respeito.\n\nIdentificar interpretações que expressem visões de diferentes sujeitos, culturas e povos com relação a um mesmo contexto histórico, e posicionar-se criticamente com base em princípios éticos, democráticos, inclusivos, sustentáveis e solidários.\n\nAnalisar e compreender o movimento de populações e mercadorias no tempo e no espaço e seus significados históricos, levando em conta o respeito e a solidariedade com as diferentes populações.\n\nCompreender e problematizar os conceitos e procedimentos norteadores da produção historiográfica.\n\nProduzir, avaliar e utilizar tecnologias digitais de informação e comunicação de modo crítico, ético e responsável, compreendendo seus significados para os diferentes grupos ou estratos sociais.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

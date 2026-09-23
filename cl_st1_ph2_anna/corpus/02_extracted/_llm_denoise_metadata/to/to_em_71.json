@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dec728344c68a95006ab3105d4cc087d2a57c0b05895510f1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 525,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 658,
+      "output_tokens_details": {
+        "reasoning_tokens": 224
+      },
+      "total_tokens": 1183
+    }
+  },
+  "created_at": "2026-09-22T23:33:55Z",
+  "duration_seconds": 6.513,
+  "error": null,
+  "excerpt_id": "to_em_71",
+  "filename": "to_em_71.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5d64f5f70cf2dada8f35fea2f07f4c33de8b794f6c200eb3022b5a7aeb1783ee",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7c8b7fb9a9e02261eb150fe765b3aecc0e4892c931d1f60ec31c7610a7f92db2",
+    "rendered_prompt_sha256": "a5ecff82d7e01ead6fe7667c7a7713d67ab7a81759c0428627f3d41f5145c3ff",
+    "source_text_sha256": "d0cd256cd3ace4d3f57a00c81095d95c19833f52cedb0d49d8e31456a46007cc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_71.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4075,
+    "filename": "to_em_71.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_71.txt",
+    "state": "to",
+    "word_count_original": 259
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_71.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_71.json"
+  },
+  "raw_response_text": "### Tempo Integral – 5.400 horas/aula\n\nO percurso formativo dos estudantes (1ª a 3ª séries) do Ensino Médio de Tempo Integral no território do Tocantins terá 4.500 horas/relógio que, convertidas em horas/aula de 50 minutos, integralizam 5.400 horas/aula. Assim, o estudante de Tempo Integral cursará na Formação Geral Básica 2.160 horas/aula e nos Itinerários Formativos 3.240 horas/aula.\n\nPara atendimento às especificidades das escolas de Tempo Integral da rede estadual, seguem as opções 12 e 13, relativas respectivamente à oferta em Tempo Integral em Escolas Indígenas/Quilombolas/Campo (Opção 12) e em Escolas que ofertam o Ensino Profissionalizante em Tempo Integral (Opção 13).\n\n### Tempo Integral – 4.200 horas/aula\n\nEm conformidade com a legislação vigente, especialmente as Portarias n. 1.145/2016, n. 727/2017, n. 1.023/2018 e n. 2.116/2019 do Ministério da Educação que implementam o Programa de Fomento às Escolas de Ensino Médio de Tempo Integral, há a possibilidade de implementação de um novo currículo integralizando 3.500 horas/relógio, com tempo de permanência escolar de 7 horas, correspondente a 4.200 horas/aula de 50 minutos cada.\n\nPara atendimento às especificidades da rede estadual do Tocantins, segue a opção 16 relativa à oferta em Tempo Integral em Escolas Indígenas/Quilombolas/Campo.\n\n### Educação de Jovens e Adultos/3º Segmento – 1.500 horas/aula\n\nNa Educação de Jovens e Adultos/3º Segmento, o percurso formativo da Formação Geral Básica (Parte Obrigatória/BNCC) totaliza 1.260 horas/aula e os Itinerários Formativos (Parte Flexível) totalizam 240 horas/aula.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

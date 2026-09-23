@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a1de3aaf06720d1006ab300a03a0887d2ad484ad350284e6f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1430,
+      "input_tokens_details": {
+        "cache_write_tokens": 1427,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1422,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 2852
+    }
+  },
+  "created_at": "2026-09-22T22:26:49Z",
+  "duration_seconds": 9.416,
+  "error": null,
+  "excerpt_id": "es_em_18",
+  "filename": "es_em_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5c36cf6a73e49f519a9f714c96f3aa05bc0bd9b07a074dc02b1673dfaf8148e8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "981bb62cb2e298f88d0b13dcdb8badaffe42bbcc6149be94e8718522044e6677",
+    "rendered_prompt_sha256": "c780241ed0980ca9cd8fa33038e43f2dfeedddce612badba08e291c1291e2860",
+    "source_text_sha256": "0676c26a96fd1c401d5084084ec4206815df2ce569a27ad5cf2cdc74b02849d6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_em_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1024,
+    "filename": "es_em_18.txt",
+    "filepath": "corpus/00_source_per_state/es/es_em_18.txt",
+    "state": "es",
+    "word_count_original": 855
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_em_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_em_18.json"
+  },
+  "raw_response_text": "# PROJETO INTEGRADOR\n\nO projeto integrador constitui-se como um instrumento pedagógico essencial no novo modelo de Ensino Médio definido pela Resolução CNE/CEB nº 2, de 13 de novembro de 2024, que estabelece as Diretrizes Nacionais para esta etapa da Educação Básica. Ele é concebido como uma forma de organização interdisciplinar e contextualizada do ensino, que articula teoria e prática e promove a integração entre os diferentes componentes curriculares, as áreas do conhecimento e as vivências sociais dos estudantes.\n\nDe acordo com o art. 2º, inciso X da Resolução, os projetos integradores são definidos como uma “forma de organização pedagógica que assegura o planejamento interdisciplinar das unidades temáticas, das sequências didáticas e das formas de sistematização e avaliação das aprendizagens, a partir da articulação e integração dos componentes curriculares das áreas de conhecimento”. A norma reforça que esses projetos devem priorizar processos colaborativos de trabalho e aprendizagem, mobilizando o pensamento crítico e a construção coletiva de soluções para desafios contemporâneos, além de promover o aprofundamento e a integração das aprendizagens da Formação Geral Básica e dos Itinerários Formativos.\n\nO art. 21 da Resolução aprofunda, ainda, o papel dos projetos integradores nos Itinerários Formativos de Aprofundamento (IFA), indicando que eles são o principal instrumento de conexão entre os conhecimentos teóricos e práticos. O texto determina que “os projetos integradores desenvolvidos nos Itinerários Formativos de Aprofundamento devem promover o desenvolvimento de conhecimentos, habilidades e competências [...] e proporcionar aos estudantes a oportunidade de consolidar e aprofundar seus conhecimentos, habilidades e práticas de forma integrada e contextualizada”. Assim, o projeto integrador se torna o eixo metodológico capaz de garantir a interdisciplinaridade e a aprendizagem significativa, vinculando o saber escolar à realidade sociocultural do estudante.\n\nEm consonância com as Diretrizes Curriculares Nacionais e com a Base Nacional Comum Curricular (BNCC), o projeto integrador busca desenvolver competências gerais como o pensamento crítico, a criatividade, a resolução de problemas e a autonomia intelectual. Ele ultrapassa a mera execução de tarefas pontuais, configurando-se como um processo investigativo e colaborativo, que envolve a problematização de temas, a pesquisa científica e a proposição de intervenções sociais ou tecnológicas — conforme prevê o § 2º do art. 21, ao mencionar que os projetos podem incluir “propostas de investigação científica e tecnológica, iniciativas de estudo com propostas de intervenção social, entre outras possibilidades”.\n\nDo ponto de vista pedagógico, os projetos integradores favorecem a formação integral e integrada dos estudantes, articulando os aspectos cognitivos, éticos, sociais e afetivos da educação. Essa abordagem promove a autoria e o protagonismo juvenil, permitindo que o(a) estudante seja sujeito ativo na construção do conhecimento.\n\nAlém disso, os projetos integradores são instrumentos de avaliação formativa, conforme disposto no art. 12, inciso V da Resolução CNE/CEB nº 2/2024 que menciona os “projetos integradores, trabalhos colaborativos de autoria e projetos de intervenção social e comunitária” como estratégias válidas para reconhecer as singularidades e os diferentes modos de aprender dos estudantes. Essa orientação reforça que o processo avaliativo deve considerar não apenas o resultado, mas também o percurso de aprendizagem e o desenvolvimento de competências socioemocionais.\n\nLogo, o projeto integrador, conforme regulamentado pela Resolução CNE/CEB nº 2/2024, representa uma estratégia estruturante para o Ensino Médio alinhada às demandas de uma educação mais contextualizada, crítica e humanizadora. Ele consolida o princípio da interdisciplinaridade e a articulação entre teoria e prática, aproximando o currículo escolar da vida dos estudantes e contribuindo para o desenvolvimento de cidadãos capazes de intervir de forma ética e transformadora na sociedade.\n\nJá a Resolução CNE/CEB nº 4, de 12 de maio de 2025, estabelece fundamentos pedagógicos e diretrizes estruturais que embasam e legitimam a implementação de projetos integradores no Ensino Médio. Esse documento defende que o currículo deve promover integração entre componentes, áreas do conhecimento e práticas pedagógicas. Esse princípio é exatamente o núcleo conceitual dos projetos integradores, que articulam diferentes saberes para resolver problemas, desenvolver pesquisas ou promover intervenções.\n\nA resolução também destaca a necessidade de que o ensino seja planejado levando em conta objetivos comuns, coerência curricular e estratégias articuladas de ensino-aprendizagem. Isso se alinha diretamente com o funcionamento dos projetos integradores, que exigem: planejamento coletivo dos professores; definição de problemas, temas ou situações de aprendizagem; integração entre áreas ou componentes curriculares.\n\nProjetos integradores têm como marca o protagonismo estudantil e o foco em aprendizagens significativas. A Resolução defende que o Ensino Médio deve promover autonomia, criticidade, participação ativa e construção de conhecimentos aplicados à realidade.\n\nProjetos integradores são uma forma reconhecida de flexibilidade curricular e inovação dentro das diretrizes nacionais. Nesse sentido, a Resolução CNE/CEB nº 4/2025 reforça que o Ensino Médio deve permitir formas inovadoras de organização didático-pedagógica, o que inclui sequências didáticas integradas, unidades curriculares integradas e atividades coletivas articulando diversas áreas.\n\nEm síntese, as Resoluções CNE/CEB nº 2/2024 e nº 4/2025 consolidam e legitimam o projeto integrador como eixo central do novo Ensino Médio, conferindo-lhe dupla fundamentação: a primeira estabelece suas diretrizes operacionais e avaliativas, enfatizando a interdisciplinaridade, a contextualização e o protagonismo estudantil; a segunda fornece os fundamentos pedagógicos e curriculares mais amplos, reforçando a necessidade de flexibilidade, inovação e integração entre componentes e áreas.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

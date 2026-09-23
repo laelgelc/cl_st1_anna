@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ef89e9248b900b0006ab30bc0b33c87d29c68c249dea048b3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 906,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1064,
+      "output_tokens_details": {
+        "reasoning_tokens": 255
+      },
+      "total_tokens": 1970
+    }
+  },
+  "created_at": "2026-09-22T23:14:15Z",
+  "duration_seconds": 7.144,
+  "error": null,
+  "excerpt_id": "ro_ef_73",
+  "filename": "ro_ef_73.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b56d095132f106dfeb656977d8e2aeb534e4dab722bc1abbf882c7d269cde67f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4e805db11d808fb7ab7a65338a70914b485972235ed4ed7b061cdb8ea2c3c118",
+    "rendered_prompt_sha256": "3ebccf5946990b16f6b6ee6bf4dc97172ad556057bdca24a14aebcd6917cfc2f",
+    "source_text_sha256": "6ceda225184afab1aee0b941cbf68187eee1244c5046c73edf7cf8e8d031a625"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_73.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3176,
+    "filename": "ro_ef_73.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_73.txt",
+    "state": "ro",
+    "word_count_original": 526
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_73.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_73.json"
+  },
+  "raw_response_text": "## 9.5.4 Educação Física Inclusiva\n\nOs Parâmetros Curriculares Nacionais (PCN) contribuem como aporte para planejamento na Educação Física, é também um importante referencial ao desenvolvimento dos planos de trabalho e metodologia na aplicabilidade dos conteúdos. As atividades de brincadeiras e jogos, esportes, ginásticas, danças, lutas, práticas corporais de aventura dentre outras devem ser aplicadas explorando as habilidades e potencialidades que cada estudante/aluno possa desenvolver sempre respeitando os princípios básicos do treinamento: individualidade biológica, adaptação, sobrecarga, continuidade e intensidade (HENKEL e ILHA, 2016).\n\nA integração social (Full inclusion[^11]) é um compromisso assumido por todos os países que participaram da Conferência Mundial de Educação Para Todos em Jomtien (1990), acataram a Declaração de Salamanca (UNESCO, 1994) que trata sobre os princípios, política e prática em educação especial, garantidos na Lei de Diretrizes e Bases da Educação Nacional (9.394/1996, Artigos: 58.59 e 60) em que a Educação Física Especial[^12] na condição de componente curricular do ensino regular deva ser ofertada aos alunos que possuem algum tipo de necessidades educativas especiais.\n\nOs desafios na Educação Inclusiva e, especificamente, na educação Física vão desde a capacitação dos profissionais em exercício com a reestruturação do ensino à readequação de ambientes físicos e materiais adequados, conforme a NBR 9050:2015 (SOUZA, FURLANETTO e CARVALHO, 2019; MONTOAN, 1997). Lacunas importantíssimas ainda são percebidas em relação à inclusão da pessoa com necessidades especiais, a participação ativa das famílias e da comunidade em geral e eventos como fóruns, palestras, seminários e congressos nesta área (STRAPASSON e CARNIEL, 2007). As atividades que a pessoa com necessidades especiais pode fazer são aquelas que estão adequadas e adaptadas conforme a especificidade da deficiência, portanto, jogos, dança, recreação e brincadeiras precisam estar ajustadas para o aluno e não o contrário. Assim sendo, a escola deve estar ajustada para receber o deficiente, os profissionais (direção, supervisão, orientação, professores), os coleguinhas de turma e, enfim, as comunidades escolares devem estar preparadas para eles.\n\nAs práxis educacionais das atividades extraclasse, com referência de resultados significativos no componente Educação Física, sugerem ações que contribuem significativamente para o desenvolvimento do estudante com Deficiência Intelectual. A percepção do professor ao selecionar criteriosamente as atividades por compreender as características, limitações e potencialidades de cada aluno que apresenta necessidade especial torna-se o principal elemento qualificador do serviço educacional oferecido (FURLANETTO, SOUZA E CARVALHO, 2019; LARA e PINTO, 2016; GORGATTI, 2008).\n\nA Educação Física Adaptada apresenta como objetivo principal oportunizar a pessoa com necessidades especiais de obter variadas possibilidades de participação nas áreas do esporte e do lazer para a melhoria do bem-estar físico, psicológico e social, além de propiciar ao deficiente maior consciência corporal e expandir horizontes de movimentos a partir da limitação motora (MENEZES, 2001).\n\n[^11]: Full inclusion – [tradução nossa: “Inclusão total”]\n\n[^12]: Educação Física Especial de acordo com Mazzotta (2003) é a modalidade de ensino de recursos especiais para promover os serviços comuns na educação formal no atendimento das demandas e das necessidades das pessoas com deficiência, em observância a evolução e melhoria das práxis pedagógicas por conta das especificidades do ensino, a nomenclatura que mais tem se aproximado por definição é a Educação Física Inclusiva (DALAVALLE, 2013).",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

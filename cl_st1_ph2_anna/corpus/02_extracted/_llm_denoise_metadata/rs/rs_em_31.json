@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05bde1234d9d60b1006ab30dad58ac87d28159d0d2cd48c40f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 858,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 818,
+      "output_tokens_details": {
+        "reasoning_tokens": 99
+      },
+      "total_tokens": 1676
+    }
+  },
+  "created_at": "2026-09-22T23:22:27Z",
+  "duration_seconds": 6.052,
+  "error": null,
+  "excerpt_id": "rs_em_31",
+  "filename": "rs_em_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b9711ad2ac849c36f896afd2487acca3e16e29392445b485fc2eb42385f4ae98",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f5a9fceb012d9fb90ce41d21756128792b3219140d71096b1912336e4ef1b9c5",
+    "rendered_prompt_sha256": "c2694e3e0e13bf15695832304711406e76916abd391805507b9ef1d5ce0298cd",
+    "source_text_sha256": "58ed842bec03e54e4411088b96cf00588c6b8685c7fa65142b7adea6b5b5d070"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3574,
+    "filename": "rs_em_31.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_31.txt",
+    "state": "rs",
+    "word_count_original": 484
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_31.json"
+  },
+  "raw_response_text": "## 2.4.7 Nutrição, Educação Alimentar e Saúde\n\nPor definição conceitual, segundo a Organização Mundial da Saúde (OMS), saúde é entendida como um estado de completo bem-estar físico, mental e social, e não apenas como a ausência de doença ou enfermidade. Entretanto, com o passar do tempo, fez-se necessário rever esse conceito. Em 1986, na 8ª Conferência Nacional de Saúde, no Brasil, apresentou-se um conceito de saúde ampliada que, em seu sentido mais abrangente, a saúde é resultante das condições de alimentação, habitação, educação, renda, meio ambiente, trabalho, transporte, emprego, lazer, liberdade, acesso e posse da terra e acesso a serviços de saúde. Essa nova interpretação de saúde perpassa pelas várias necessidades básicas para a sobrevivência, com dignidade, de um cidadão.\n\nA Lei nº. 11.947/2009, dispõe sobre o atendimento da alimentação escolar e do Programa Dinheiro Direto na Escola aos estudantes da Educação Básica e também altera as Leis nº. 10.880/2004; nº. 11.273/2006; nº. 11.507/2007; revoga dispositivos da Medida Provisória nº. 2.178-36/2001, e a Lei nº. 8.913/1994, e dá outras providências. Para efeitos de esclarecimento, o artigo 1º entende por alimentação escolar todo alimento oferecido no ambiente escolar, independentemente de sua origem, durante o período letivo. Este RCGEM aborda a Lei nº. 11.947 no aspecto normativo da alimentação escolar para reforçar a abordagem da BNCC que apresenta a Nutrição, Educação Alimentar e Saúde como uma transversalidade a ser obrigatoriamente incluída no currículo da Educação Básica, e ser desenvolvida em todos os componentes curriculares.\n\nA temática da Educação Alimentar e Nutricional foi inserida no art. 26 da LDBEN, através da Lei nº. 13.666/2018 e associa-se à Política Nacional de Alimentação e Nutrição – PNAN –, atualizada pela Portaria MS nº. 2.715/2011, com o objetivo de promover a “melhoria das condições de alimentação, nutrição e saúde da população brasileira, mediante a promoção de práticas alimentares adequadas e saudáveis, a vigilância alimentar e nutricional, a prevenção e o cuidado integral dos agravos relacionados à alimentação e nutrição” (BRASIL, 2013b, p. 21).\n\nNutrição, Educação Alimentar e Saúde devem ter seus conceitos básicos abordados numa perspectiva transdisciplinar que supere as paredes das salas de aula e dialoguem com a merenda escolar, com programações de atividades físicas comunitárias a partir da escola e que tenham condições de interagir com unidades sanitárias, quando possível, visando à promoção de saúde integral dos estudantes e às melhorias na qualidade de vida das comunidades. A alimentação escolar faz parte de uma proposta pedagógica pautada no desenvolvimento da cidadania, pois opera no sentido de orientar os estudantes a respeitar e desenvolver hábitos alimentares saudáveis. Essa transversalidade proporciona o conhecimento e o respeito aos valores culturais locais, regionais e nacionais, sociais, afetivos e comportamentais, acerca da cadeia produtiva dos alimentos, abordando assim as questões ambientais relacionadas à autonomia e à sustentabilidade, bem como, à saúde pública.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

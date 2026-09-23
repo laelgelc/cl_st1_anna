@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04c0a8c03e6bde75006ab30bdfcfb887d28478c94397b7697f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 625,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 711,
+      "output_tokens_details": {
+        "reasoning_tokens": 187
+      },
+      "total_tokens": 1336
+    }
+  },
+  "created_at": "2026-09-22T23:14:45Z",
+  "duration_seconds": 5.345,
+  "error": null,
+  "excerpt_id": "ro_em_1",
+  "filename": "ro_em_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e3d8b36f0932e6352c65d49f49bbac7a6808b3e70e588318c2d013c36cc0bd0e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ec8332791049f610dae81661f132742ec4e39bfbd454225e167a4ddaecdced28",
+    "rendered_prompt_sha256": "af30d67c8368815d294b88e7c6a39591782ace29fd31d5b8249ca71731c20637",
+    "source_text_sha256": "82c4d8b1cda317f415f1d4acee0f92a05191e602b5d659a40de096c6cd8cbff1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3205,
+    "filename": "ro_em_1.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_1.txt",
+    "state": "ro",
+    "word_count_original": 366
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_1.json"
+  },
+  "raw_response_text": "# APRESENTAÇÃO\n\nO Referencial Curricular para o Ensino Médio de Rondônia tem como objetivos apontar caminhos de natureza pedagógica e orientar professores e gestores escolares na revisão das propostas pedagógicas, atendendo as mudanças fundamentadas na Lei de Diretrizes e Bases da Educação Nacional (LDB), na Base Nacional Comum Curricular do Ensino Médio (BNCC), nas Diretrizes Curriculares Nacionais do Ensino Médio (DCNEM) e nos Referenciais para Elaboração dos Itinerários Formativos, assegurando assim, os direitos de aprendizagem dos estudantes do ensino médio.\n\nConstruído coletivamente, esse documento representa um passo decisivo no processo de melhoria da qualidade de educação no Estado de Rondônia, no que se refere às aprendizagens do estudante e à formação continuada dos educadores.\n\nO Referencial Curricular do Ensino Médio de Rondônia, é composto de cinco capítulos:\n\n1. Texto Introdutório;\n2. Formação Geral Básica;\n3. Itinerários Formativos;\n4. Modalidades do Ensino Médio;\n5. Orientações para a Implementação.\n\nO capítulo 1 apresenta o ‘Texto Introdutório’, que define os conceitos e os princípios orientadores do ensino médio; enfatiza o contexto e os sujeitos dessa etapa da educação básica. E expõe a arquitetura curricular para implementação do currículo no estado de Rondônia.\n\nPor conseguinte, o capítulo 2 ‘Formação Geral Básica’ menciona os documentos orientadores e especificidades do estado que embasam a Formação Geral Básica; caracteriza as áreas do conhecimento e define os direitos de aprendizagem por áreas do conhecimento e componentes curriculares.\n\nEm sequência o capítulo 3 ‘Itinerários Formativos’ apresenta a parte flexível do currículo alinhada às DCNEM e aos Referenciais Curriculares para Elaboração de Itinerários Formativos. Dando continuidade, o capítulo 4 ‘Modalidades do Ensino Médio’ aborda sobre as características de cada uma das modalidades de ensino e as formas de oferta do ensino médio no Estado. E por fim, o capítulo 5 ‘Orientações para Implementação’, trata das concepções da avaliação da aprendizagem e dos princípios da formação docente para implementação do currículo.\n\nNessa perspectiva, o Referencial Curricular para o Ensino Médio de Rondônia se constitui em um compromisso na oferta de uma educação de qualidade que atenda às exigências e os anseios do mundo contemporâneo, com foco no desenvolvimento da formação integral do estudante possibilite à escola cumprir sua missão e função social de forma eficaz e eficiente no contexto do século XXI.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

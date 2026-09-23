@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f15acf6168bce1c006ab2fd78f1b887d2b502eb718c84b1cb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 997,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 961,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 1958
+    }
+  },
+  "created_at": "2026-09-22T22:13:20Z",
+  "duration_seconds": 7.762,
+  "error": null,
+  "excerpt_id": "am_em_27",
+  "filename": "am_em_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e7c4ead34d5246856f6ce6bdba3a793b7059a8d5bd0bc745b98177a1fbdd2074",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "930c71337fd8752332700221446e0f6f9f4f931048b4dfa19fb9c06fe862c528",
+    "rendered_prompt_sha256": "bea2efa1f2f5dd05d03a82a03db8cf9b17d6a5b2259437cd6005195fa2dfdd5b",
+    "source_text_sha256": "468e8553d0cecb537d1ad9416b4d0e6e8b3a3d2bf821834f3aba5eb4568e1ffc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 386,
+    "filename": "am_em_27.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_27.txt",
+    "state": "am",
+    "word_count_original": 583
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_27.json"
+  },
+  "raw_response_text": "### 3.3.1 Unidades Curriculares Comuns (UCCs)\n\nAs UCCs têm por objetivo orientar o perfil de saída almejado para o estudante conforme definição da rede ou instituição de ensino. A finalidade deste bloco é garantir que todos os estudantes alcancem as competências definidas no Perfil de Estudantes à Saída da Escolaridade Obrigatória, conforme o projeto pedagógico de cada rede/instituição de ensino.\n\nAs Unidades Curriculares Comuns devem considerar em sua constituição os conhecimentos, habilidades, atitudes e valores que possam inspirar e mobilizar os estudantes a enfrentar desafios complexos e inusitados característicos de um contexto socioeconômico instável e desafiador, além de prepará-los para o pleno exercício da cidadania, bem como para o prosseguimento de estudos ou para o mundo do trabalho.\n\nCom vista a atingir a finalidade mencionada anteriormente, e sem prejuízo à autonomia e à flexibilidade exercida pela escola, as UCCs oferecem uma possibilidade de enriquecimento do currículo com a promoção de aprendizagens providas de utilidade e justiça social, assegurando aos estudantes a incorporação de valores universais, como ética, pluralidade, solidariedade, sustentabilidade e o desenvolvimento das competências essenciais ao seu projeto de vida e ao uso responsável das tecnologias digitais de informação e comunicação. Além disso, tais componentes garantem mais base para preparar os estudantes nas escolhas de diferentes percursos nos itinerários.\n\nEssas UCCs devem ser organizadas em torno dos quatro eixos estruturantes (Investigação Científica, Processos Criativos, Mediação e Intervenção Social e Empreendedorismo), estabelecidos conforme o § 2º, art. 12, da Resolução CNE/CEB nº 3/2018, já descritos neste Capítulo 3.\n\nDentre as UCCs, recomenda-se que Projeto de Vida e Projetos Integradores sejam adotadas como ponto comum entre as ofertas de Ensino Médio do sistema de ensino do Amazonas, uma vez que ambas possuem amparo do Programa Nacional do Livro Didático (PNLD), resultado de um consenso nacional nesse contexto de reforma.\n\nEm relação às demais UCCs compete a cada rede/instituição defini-las, conforme sua tradição curricular, desde que obedeça a carga horária prevista para cada UCC, sem prejuízo à carga horária destinada às Unidades Curriculares de Aprofundamentos e às Unidades Curriculares Eletivas, conforme detalhado no Quadro 17.\n\nNo tocante ao Projeto de Vida, trata-se de um trabalho pedagógico intencional e estruturado, cujo objetivo primordial é desenvolver a capacidade do estudante de dar sentido à sua existência, de tomar decisões, de planejar o futuro e de agir no presente com autonomia e responsabilidade. Como componente curricular orientará os estudantes em relação às suas escolhas em diversos momentos de sua vida, ajudando-o a buscar respostas possíveis e a avaliar de modo contínuo o próprio percurso, desenvolvendo nele, uma visão integral de mundo, de competências cognitivas e socioemocionais.\n\nAlém disso, esse componente deverá promover ações de orientação escolar e profissional com objetivos de apoiar os estudantes no desenvolvimento e na aplicação de conhecimentos e de habilidades necessárias para tomar decisões a respeito de sua trajetória escolar (escolha de Itinerário Formativo) e carreira.\n\nJá a unidade Projetos Integradores tem por finalidade promover ações interdisciplinares, a partir de projetos que integram os conhecimentos dos componentes da FGB, de acordo com as habilidades e competências de cada área do conhecimento, buscando soluções criativas e sustentáveis, para os problemas que permeiam a comunidade escolar.\n\nTodas as UCCs serão de oferta anual, de forma análoga à Formação Geral Básica. Já as unidades curriculares de aprofundamentos e as unidades curriculares eletivas devem ter a duração de um semestre letivo, o que irá possibilitar a vivência de um conjunto maior de temas estudados ao longo do Ensino Médio.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

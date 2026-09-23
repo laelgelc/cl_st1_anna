@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_019dd33da2a85d40006ab3037daf2887d2958e17f386c2fae6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 756,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 689,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 1445
+    }
+  },
+  "created_at": "2026-09-22T22:38:58Z",
+  "duration_seconds": 5.106,
+  "error": null,
+  "excerpt_id": "mg_inf_campo_exp_1",
+  "filename": "mg_inf_campo_exp_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "845def030708f1f89b04f53a977489e1b3471047034b23415328fd3d4e410660",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fd2511b2fb28455dceee53a71e8dbb81e9540ad0fdf096e2eb275df6dbea5365",
+    "rendered_prompt_sha256": "d9727548d01546287706daf1f048526f7bc25e5e46cdc9c66583129165c57159",
+    "source_text_sha256": "46135c0fa2687248f6349bc3c76f31b3359f7e2d0ce76da2bc181ed932973ffc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_campo_exp_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1642,
+    "filename": "mg_inf_campo_exp_1.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_campo_exp_1.txt",
+    "state": "mg",
+    "word_count_original": 454
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_campo_exp_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_campo_exp_1.json"
+  },
+  "raw_response_text": "## 2.6 Campos de Experiências\n\nA BNCC (2017) trouxe uma estrutura curricular própria para a Educação Infantil por campos de experiências, tendo em vista o processo de formação integral da criança. Este tipo de arranjo curricular se diferencia dos modelos tradicionais, ao propor a construção da aprendizagem, mediada pelas experiências vivenciadas pelos bebês e demais crianças.\n\nUma das contribuições de Benjamim (1984) para a educação é voltar os olhos à experiência infantil e repensar o quanto a condução diretiva do adulto pode impedir a criança de utilizar suas formas próprias, inovadoras e originais de aprender e apreender o mundo. Conforme o autor:\n\n> A máscara do adulto chama-se “experiência” ... ele sorri com ares de superioridade ... de antemão ele já desvalorizava os anos que vivemos, converte-os em época de doces devaneios pueris, em elevação infantil que precede a longa sobriedade da vida séria (Benjamim, 1984, p. 23).\n\nAs crianças se sentem naturalmente convidadas por diferentes objetos, ambientes ou aspectos do mundo cultural sem precisar de autorização para interagir com ele. Por isso, muitas vezes, tudo aquilo que o adulto organiza no planejamento acreditando ser o que elas precisam, é o que menos lhes desperta interesse. Nesse sentido, a experiência do adulto deve ceder lugar à necessidade de compreender e considerar a forma como as crianças interagem e aprendem nas instituições de Educação Infantil. É fundamental que a experiência seja delas.\n\nConforme Larrosa (2002, p.20), a experiência é o que nos passa, o que nos acontece, o que nos toca. Entende-se que experienciar a aprendizagem por meio dos sentidos, das situações concretas da vida cotidiana e nas suas diferentes linguagens, possibilita a criança se apropriar de conceitos relevantes por meio da sua participação em situações significativas na construção e/ou ampliação do seu conhecimento.\n\nDessa maneira, ao pensar sobre a experiência infantil, deve-se compreender a criança como um sujeito que pensa, cria e recria o mundo a sua volta por meio de experiências únicas, que utilizam todo o corpo sensível. E, entendendo, diante disso, que as crianças constroem um universo cultural particular, em profunda interação com a cultura e a sociedade do mundo adulto.\n\nAs práticas pedagógicas precisam considerar a perspectiva da criança. Partir do ponto de vista infantil, permitir que as crianças criem, explorem e sejam protagonistas nas próprias experiências pode possibilitar a ampliação da reflexão e da ação docente, melhorar a percepção do que é ser um adulto mediador e propor novas práticas pedagógicas ampliadoras da experiência infantil.\n\nOs campos de experiências constituem-se como forma de organização curricular da Educação Infantil, tendo como característica principal a intercomplementaridade, para fundamentar e potencializar as experiências de distintas naturezas, pelas quais as crianças passam a vivenciar.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

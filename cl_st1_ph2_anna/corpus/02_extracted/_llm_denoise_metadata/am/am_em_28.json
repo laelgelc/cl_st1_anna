@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c2c6eaa2485d77d006ab2fd7b564887d2a7588f51e2bd424f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1848,
+      "input_tokens_details": {
+        "cache_write_tokens": 1845,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2051,
+      "output_tokens_details": {
+        "reasoning_tokens": 400
+      },
+      "total_tokens": 3899
+    }
+  },
+  "created_at": "2026-09-22T22:13:30Z",
+  "duration_seconds": 15.788,
+  "error": null,
+  "excerpt_id": "am_em_28",
+  "filename": "am_em_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9a7e20c08227b26aea1e700a81c07c3fb87f1ab1e90a3148782187dbaca0875e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a635bd53cd609c1e063da35d21c885795dc5ed7e5784e4fdb08217efb5f8e298",
+    "rendered_prompt_sha256": "21e482248e681de4f143a5f95096660d0e1ea5cfdb8b02d459df017f6053893f",
+    "source_text_sha256": "dc1fe231e0a275f8d519d8b7751c9da513de2a291b0c2f2d17c62f52231c1b8b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 387,
+    "filename": "am_em_28.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_28.txt",
+    "state": "am",
+    "word_count_original": 1078
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_28.json"
+  },
+  "raw_response_text": "### 3.3.2 Unidades Curriculares de Aprofundamentos (UCAs)\n\nAs Unidades Curriculares de Aprofundamento têm por objetivo aprofundar as aprendizagens relacionadas às competências gerais, às Áreas de Conhecimento e/ou à Formação Técnica e Profissional.\n\nNo caso dos Itinerários Formativos de Áreas do Conhecimento, essa ampliação acontece em articulação com temáticas contemporâneas sintonizadas com o contexto e os interesses dos estudantes.\n\nJá na Formação Técnica e Profissional, a expansão se dá juntamente com o desenvolvimento de habilidades básicas requeridas pelo mundo do trabalho e habilidades específicas relacionadas aos Cursos Técnicos, Cursos de Qualificação Profissional (FICs) ou Programa de Aprendizagem escolhidos pelos estudantes.\n\nPor Programa de Aprendizagem, segundo Resolução CNE/CEB nº 3/2018, compreende-se “arranjos e combinações de cursos que, articulados e com os devidos aproveitamentos curriculares, possibilitam um itinerário formativo” (BRASIL, 2018⁴).\n\nRecomenda-se que as UCAs relacionadas às Áreas do Conhecimento incorporem e integrem os quatro eixos estruturantes, mencionados anteriormente. Nas UCAs relacionadas à Formação Técnica e Profissional, essa incorporação fica a critério da rede e instituição ofertante, ficando a obrigatoriedade voltada aos eixos tecnológicos definidos pelo Catálogo Nacional de Cursos Técnicos (CNCT).\n\nAlém disso, as UCAs podem ser organizadas por diferentes arranjos curriculares: por disciplinas, por oficinas, por unidades/campos temáticos, por projetos, entre outras possibilidades de flexibilização. Devem ser estruturadas e organizadas em etapas com terminalidade (semestral), possibilitando, assim, a emissão de certificação de qualificação para o trabalho, como prevê a Resolução CNE/CEB nº 3/2018.\n\nAs redes/instituições terão autonomia para definir a melhor estratégia pedagógica para oferta das UCAs. Entretanto, devem obedecer à distribuição de carga horária e garantir a oferta semestral prevista no Quadro 17, de modo a não comprometer a vida escolar dos estudantes em caso de mudança de rede e/ou instituição de ensino.\n\nVale destacar que a construção dos Aprofundamentos deve ter por base um bom diagnóstico que considere: os interesses dos estudantes, por meio da escuta, as potenciais parcerias e a condição de oferta das escolas e da própria rede de ensino.\n\n### 3.3.3 Unidades Curriculares Eletivas (UCEs)\n\nPor Unidades Curriculares Eletivas entendem-se as estratégias curriculares que possibilitam a experimentação por parte do estudante dos conhecimentos das diversas áreas do conhecimento, podendo estar atreladas ou não à área de conhecimento escolhida para aprofundamento. Entretanto, não devem ser confundidas com componentes tradicionais nem como apoio pedagógico ou reforço escolar.\n\nPor serem unidades curriculares de livre escolha, devem possibilitar aos estudantes a experimentação de diferentes temas, vivências e aprendizagens, de maneira a diversificar e enriquecer seu Itinerário Formativo.\n\nApesar do seu caráter mais lúdico e prático, é importante que as eletivas tenham intencionalidade pedagógica e se articulem com as Áreas do Conhecimento, os eixos estruturantes e as Competências Gerais da BNCC. Na Formação Técnica e Profissional, a oferta da UCE deve ocorrer por meio de uma FIC.\n\nAssim como ocorre com a oferta das demais unidades curriculares que compõem o IF, as redes/instituições terão autonomia para definir a melhor estratégia pedagógica para oferta das UCEs. Entretanto, devem obedecer à distribuição de carga horária e garantir a oferta semestral conforme Quadro 17, evitando prejuízos à vida escolar dos estudantes em caso de mudança de rede e/ou instituição de ensino.\n\nNa 2º série do ensino médio deve ser garantida a oferta de uma eletiva de 40 horas por semestre. Na 3º série deve ser garantida a oferta de 80 horas de eletiva por semestre, podendo ser dividida em duas unidades curriculares de 40 horas por semestre, totalizando quatro eletivas ao final do ano escolar, ou uma eletiva de 80 horas por semestre, totalizando duas UCEs.\n\nComo se pode perceber, devem ser ofertadas pelo menos duas eletivas ao longo de um ano, com carga horária que pode variar em uma ou duas aulas semanais. Ressalta-se que, quando a oferta da Eletiva ocorrer por meio de uma FIC, cuja carga horária mínima é de 160 horas, a oferta poderá se estender por mais de um semestre.\n\nRecomenda-se que as Unidades Curriculares Eletivas atendam aos requisitos mínimos exigidos aos componentes de eletividade, de acordo com a ementa a seguir.\n\n**Quadro 18 - Sugestão para a construção de Ementas de Unidade Curricular Eletiva**\n\n- **Título:** nome objetivo e atraente que facilite a compreensão e motive a escolha dos estudantes.\n- **Proponente:** nome da escola que propõe a UCE.\n- **Professor(es) Responsável(eis):** nome do(s) professor(es) autores da Eletiva.\n- **Resumo:** descrição sucinta e interessante que ajude professores e estudantes a compreenderem a proposta da UCE.\n- **Área de Conhecimento:** indicação da(s) Área(s) do Conhecimento a serem trabalhadas pela Eletiva, lembrando a recomendação de que sejam interdisciplinares e possam aprofundar e ampliar aprendizagens em uma ou mais Áreas do Conhecimento. No caso específico do Itinerário de Formação Técnica e Profissional, considerar os eixos do Catálogo Nacional de Cursos Técnicos (CNCT) e a Classificação Brasileira de Ocupações (CBO).\n- **Habilidades:** indicação das habilidades a serem desenvolvidas, lembrando que as Eletivas podem ter diversos formatos e abordar diferentes objetos de conhecimento desde que trabalhem de forma intencional as aprendizagens relacionadas às Áreas do Conhecimento, às Competências Gerais da BNCC ou a, pelo menos, um eixo estruturante dos Itinerários Formativos. No caso específico do Itinerário de Formação Técnica e Profissional, é preciso também considerar os eixos do Catálogo Nacional de Cursos Técnicos (CNCT) e a Classificação Brasileira de Ocupação (CBO).\n- **Objetos de Conhecimento:** identificação dos objetos de conhecimento a serem estudados ao longo da Eletiva.\n- **Eixos Estruturantes:** indicação de que (quais) eixo(s) será(ão) trabalhado(s) pela Eletiva.\n- **Objetivos:** descrição das mudanças que se espera promover nos estudantes.\n- **Unidade Curricular:** definição da natureza da Eletiva (núcleo de estudos, laboratório, projeto, oficina, FIC, dentre outros).\n- **Sequência de Situação/Atividade Educativas:** roteiro de estratégias metodológicas.\n- **Carga Horária:** indicação da duração de cada eixo estruturante e/ou de cada situação ou atividade educativa.\n- **Perfil Docente:** indicação de quantos professores serão necessários, bem como dos conhecimentos, habilidades e características que eles devem ter.\n- **Perfil dos Participantes:** indicação de faixa etária, ano, interesses, além de quantidade mínima e máxima de estudantes por turma.\n- **Recursos:** indicação dos espaços, equipamentos e materiais necessários.\n- **Avaliação:** definição de como avaliar o desenvolvimento dos estudantes.\n- **Fontes de informação:** indicação de livros, sites, vídeos e outros materiais de referência para subsidiar o trabalho com a Eletiva.\n\nFonte: Adaptado de Brasil, 2019.\n\nA sugestão descrita no Quadro 18 contempla os requisitos mínimos para a oferta de uma UCE, de maneira que compete a cada rede a ampliação do ementário, de acordo com suas propostas pedagógicas.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

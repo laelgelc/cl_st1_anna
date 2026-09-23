@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0498c9645b7376a2006ab30c8dda5087d289105d74ab88e856",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 429,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 419,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 848
+    }
+  },
+  "created_at": "2026-09-22T23:17:36Z",
+  "duration_seconds": 3.188,
+  "error": null,
+  "excerpt_id": "ro_em_98",
+  "filename": "ro_em_98.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "36d0df1af348803036f4746d4c3ddc7d9eb574ca6240dbde4ff7291ac836306e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8e8c122b8a5b68ffdacbeb1465f190880bd934360e892ca4539976b6759b4ad5",
+    "rendered_prompt_sha256": "0238b493ce80d22e84ed09535fb9c82699a47cdcafdda64243ee4c096b8580b8",
+    "source_text_sha256": "78c004d0d5693008d991ea7f6d0301fc55999e7cf58576807a86df9d1d16d518"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_98.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3319,
+    "filename": "ro_em_98.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_98.txt",
+    "state": "ro",
+    "word_count_original": 244
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_98.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_98.json"
+  },
+  "raw_response_text": "### 3.3.8.5.A Avaliação do Estudante na Construção do Projeto de Vida\n\nComo é prevista a ação protagonista do estudante no Projeto de Vida e nos demais componentes curriculares, a corresponsabilização no processo de ensino e aprendizagem entre docentes e discentes aponta para a necessidade de considerar a autoavaliação dos estudantes. Nesse sentido, a autoavaliação não deve ser realizada apenas pelos estudantes; o professor, por sua vez, precisa fazer uma autoavaliação processual e contínua de sua mediação para que possa aperfeiçoar sua presença pedagógica durante a orientação de Projeto de Vida.\n\nEntendemos que, para avaliar, faz-se necessário primeiro estabelecer a finalidade da avaliação. Em seguida, é preciso definir o que se quer avaliar, para só então pensar nas formas de avaliação e seus instrumentos. Na perspectiva popular, a avaliação quase sempre é resumida a apenas um de seus instrumentos: a prova escrita, o momento formal no qual o estudante deve responder corretamente a um repertório de questões e assim obter uma gradação de sua aprendizagem, por meio de uma nota ou menção, geralmente ao fim do processo de ensino (avaliação final, somativa, classificatória).\n\nIndubitavelmente, as provas escritas têm sua importância e finalidade. Entretanto, entendemos que não têm lugar, ao menos como tradicionalmente compreendidas, em um componente cujo objetivo é explorar a subjetividade do estudante, no qual os conteúdos atitudinais e procedimentais são mais relevantes que os conteúdos conceituais e factuais, como é caracterizada uma proposta de construção de Projeto de Vida.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

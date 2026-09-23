@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0060d85520c1ac25006ab300e17f5087d2be28236061ef0103",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 846,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 815,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 1661
+    }
+  },
+  "created_at": "2026-09-22T22:27:52Z",
+  "duration_seconds": 6.655,
+  "error": null,
+  "excerpt_id": "go_ef_11",
+  "filename": "go_ef_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2d3ecff5d931897bf4a8bd23d216cd3c97a188a3cc0394c536e8fc1ecb6f9971",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "261b75acdc9338eff5731d9bb01adf94a114d7a19bb026a2e1706d8676fcf245",
+    "rendered_prompt_sha256": "85953a5c4179af280c6968bb75eca7e06b555120919648e3635431e9dd8cc64f",
+    "source_text_sha256": "edcc06e5760d0676a838c18abd3e9a9b3f11d0fa8ed57b45169414840e5e74c1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_ef_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1085,
+    "filename": "go_ef_11.txt",
+    "filepath": "corpus/00_source_per_state/go/go_ef_11.txt",
+    "state": "go",
+    "word_count_original": 468
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_ef_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_ef_11.json"
+  },
+  "raw_response_text": "# QUADRO CURRICULAR DE CIÊNCIAS DA NATUREZA\n\nO quadro curricular da área/componente Ciências da Natureza para o Ensino Fundamental articula Geografia, Biologia, Física, Química, desde os anos iniciais, favorecendo o acesso à diversidade de conhecimentos científicos produzidos ao longo da história, e aproxima gradativamente os estudantes aos processos da investigação científica, enquanto desenvolve o letramento científico. Este, por sua vez, tem uma relação intrínseca entre as oito competências específicas e as habilidades a serem desenvolvidas, promovendo a formação integral do educando.\n\nO objeto de estudo da área e componente são os fenômenos naturais dispostos nas três unidades temáticas: Matéria e Energia, Terra e Universo, Vida e Evolução, que se repetem em espiral, complexificando o processo cognitivo, enquanto dialogam entre si. As unidades temáticas estão organizadas em objetos de conhecimentos/conteúdos, explicitando o conhecimento a ser desenvolvido nas habilidades. Como exemplo, cita-se o objeto de conhecimento “Propriedades e usos dos materiais” e seus conteúdos: flexibilidade, dureza, textura, transparência, localizado no 2º ano, na unidade temática Matéria e energia.\n\nAs habilidades expressam as aprendizagens essenciais que devem ser asseguradas aos estudantes nos diferentes contextos escolares. Elas estão organizadas em um quadro e são identificadas por um código alfanumérico. Quando esse código apresenta a mesma estrutura da BNCC, a habilidade permanece original. Na primeira versão do DC-GO, quando houve desmembramentos, contextualizações, acréscimos e/ou modificações nas habilidades da BNCC, foi acrescida, ao final, uma letra da sequência do alfabeto, por exemplo: (EF02CI02-A); (EF02CI02-B); e quando no DC-GO Ampliado elas aparecem agrupadas novamente, são sucedidas por uma sequência de letras do alfabeto (EF03CI01A/D). Aparece nos códigos a sigla GO quando uma nova habilidade foi elaborada, a exemplo de (GO-EF09CI18).\n\nAs habilidades estão associadas à capacidade de saber fazer, que deve ser desenvolvida pela ação dos verbos e seus modificadores, a exemplo do que se pode ver no quadro do 8º ano, unidade temática: vida e evolução, na habilidade (EF08CI08-B) Identificar os tipos de hormônios sexuais, explicando suas principais ações no organismo humano. As ações estão dispostas em uma sequência que permite a construção progressiva dos conhecimentos científicos, objetivando o desenvolvimento cognitivo dos estudantes.\n\nO Documento apresenta como diferencial o ordenamento das unidades temáticas, dos objetos de conhecimento/conteúdos e das habilidades dentro da área/componente, com o objetivo de promover a progressão tanto horizontal, no mesmo ano, como vertical, de um ano para outro, contribuindo, assim, para aprendizagens essenciais. Esse movimento também ocorre entre áreas/componentes, como observado entre Ciências da Natureza e as Ciências Humanas. A possibilidade de integração é mais expressiva com o componente Geografia, sendo que o professor, com sua experiência e autonomia, poderá encontrar no quadro de habilidades várias outras possibilidades de integração com os componentes das outras áreas, criando caminhos, formas e oportunidades de mobilizar conhecimentos, de forma integrada.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

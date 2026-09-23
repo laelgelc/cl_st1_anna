@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_062fe997daf7b4b5006ab3054d3c8c87d285f9db296ac4f2b5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 699,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 772,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 1471
+    }
+  },
+  "created_at": "2026-09-22T22:46:44Z",
+  "duration_seconds": 7.7,
+  "error": null,
+  "excerpt_id": "pa_ef_12",
+  "filename": "pa_ef_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bf901be26f73ccd60ef508f5ca6dc176549bd1cbdb04a03928f1d5286ab7bcdf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6de0a13bcba72aaada2d29fa0e64ade65b97b565449dccb8a208ddb7601b5956",
+    "rendered_prompt_sha256": "090f35219e1da445ff1679026de00a4900d00ab2d63890840e6d3058d044489c",
+    "source_text_sha256": "4f7ec1ad44ac3ef6068a9d436073da7495ccc2cde50e62b6f629755a45aa3a41"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_ef_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2004,
+    "filename": "pa_ef_12.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_ef_12.txt",
+    "state": "pa",
+    "word_count_original": 410
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_ef_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_ef_12.json"
+  },
+  "raw_response_text": "### 6º ao 7º ano (Ciclo de Formação III)\n\nO eixo “Espaço/Tempo e suas Transformações” é constituído pelos subeixos (1) As linguagens e seus significados contidos nos espaços, na formação dos sujeitos, (2) O espaço/tempo como gerador do processo de formação cultural/letramento dos sujeitos e (3) A relação sujeito/espaço como princípio de uma educação afetiva, participativa, dialógica e inclusiva buscando a progressão intensificada dos conhecimentos em Arte para melhor compreensão dos fenômenos artístico-históricos e culturais, inclusive os político-sociais ocorridos na atualidade, pois essa é a fase em que a criança se depara com diversos conhecimentos advindos de inúmeras disciplinas que não faziam parte de sua realidade escolar.\n\nCom isso, faz-se necessário rever nessa transição conhecimentos que foram abordados anteriormente. Nesse contexto, a criança vai acumulando diferentes ideias nas experimentações artísticas individuais, coletivas e colaborativas ocorridas no âmbito escolar e fora deste.\n\nO eixo “Linguagem e suas Formas Comunicativas” se apresenta com um único subeixo (1) A variação linguística, as manifestações artísticas e as práticas corporais nos diversos contextos sociais, buscando aprimorar o reconhecimento das produções artísticas encontradas em âmbito local, regional e nacional, preferencialmente das culturas da Amazônia paraense, além do aprofundamento dos conhecimentos em Arte e suas relações com outras formas de comunicação e expressão, amadurecendo vivências individuais e/ou coletivas que se interconectam com a percepção, imaginação, emoção, investigação, sensibilidade e reflexão ao realizar e fruir produções artísticas.\n\nO terceiro eixo “Valores à Vida Social” é formado pelos subeixos (1) A cooperação/competição como valores antagônicos inerentes às diversas culturas societárias, (2) O reconhecimento das diferenças e a superação de preconceitos e (3) O respeito às diversidades, às identidades e aos direitos humanos que compreende discussões e práticas referentes à participação do aprendente nas mais diversas ações artísticas e culturais que possam a vir contribuir com o saudável exercício da cidadania.\n\nNo eixo “Cultura e Identidade”, composto pelos subeixos (1) A relação entre linguagens territorialização/desterritorialização dos saberes culturais, (2) Diferença e diversidade e (3) As culturas local, regional, nacional e internacional como influência na construção de identidades, busca-se intensificar as discussões, práticas e vivências ocorridas durante o percurso experienciado até o momento sem fechar o ciclo dos conhecimentos em Arte nesses dois anos, pois esses conhecimentos são de suma importância para a continuidade da formação escolar, cultural e social dos aprendentes, pois os mesmo irão se deparar posteriormente com complexidades de conhecimentos artísticos necessárias para suas formações em constante devir.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_067a8fc03a30b73c006ab30d7b76e087d2b7ef03d1a8ef34c8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 611,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 729,
+      "output_tokens_details": {
+        "reasoning_tokens": 200
+      },
+      "total_tokens": 1340
+    }
+  },
+  "created_at": "2026-09-22T23:21:39Z",
+  "duration_seconds": 8.344,
+  "error": null,
+  "excerpt_id": "rr_inf_4",
+  "filename": "rr_inf_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "23165154b093d2694db30c46147b5bf6815f772c08d36332d8322d5601449843",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "42ebcec1470ee64d5c40c17c52bca028da63b6cb0331d2eaad4751f0932d1ebb",
+    "rendered_prompt_sha256": "34ec91626cc90b8bf9d90f59d988c0b7df6931f816d641e444c87c721c4ee7e7",
+    "source_text_sha256": "287a0ddbf5ff0ca9b5418102997b6f3c7294888d9012af86ddb5658a2f944b53"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3527,
+    "filename": "rr_inf_4.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_4.txt",
+    "state": "rr",
+    "word_count_original": 333
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_4.json"
+  },
+  "raw_response_text": "### 3.1.3 DIREITOS DE APRENDIZAGEM\n\nO currículo da Educação Infantil necessita articular a promoção de experiências e vivências em torno do conhecimento produzido pela criança, oportunizando o desenvolvimento de suas capacidades: como a memória, a percepção, a interação, a imaginação, o pensamento, a consciência, o autoconhecimento, a afetividade, o movimento, as diferentes linguagens.\n\nNesse sentido, o currículo Estadual de Roraima fundamenta-se com base no Artigo 9º das Diretrizes Curriculares Nacionais para Educação Infantil – DCNEIS (2009), revelando que o currículo da Educação Infantil deve promover experiências diversas que ampliem o contato entre a criança e as diferentes culturas, no qual é essencial ao seu desenvolvimento:\n\n- **CONVIVER** com outras crianças e adultos, em pequenos e grandes grupos, utilizando diferentes linguagens, ampliando o conhecimento de si e do outro, o respeito em relação à cultura e às diferenças entre as pessoas.\n- **BRINCAR** cotidianamente de diversas formas, em diferentes espaços e tempos, com diferentes parceiros (crianças e adultos), ampliando e diversificando seu acesso a produções culturais, seus conhecimentos, sua imaginação, sua criatividade, suas experiências emocionais, corporais, sensoriais, expressivas, cognitivas, sociais e relacionais.\n- **PARTICIPAR** ativamente, com adultos e outras crianças, tanto do planejamento da gestão da escola e das atividades propostas pelo educador quanto da realização das atividades da vida cotidiana, tais como a escolha das brincadeiras, dos materiais e dos ambientes, desenvolvendo diferentes linguagens e elaborando conhecimentos, decidindo e se posicionando.\n- **EXPLORAR** movimentos, gestos, sons, formas, texturas, cores, palavras, emoções, transformações, relacionamentos, histórias, objetos, elementos da natureza, na escola e fora dela, ampliando seus saberes sobre a cultura, em suas diversas modalidades: as artes, a escrita, a ciência e a tecnologia.\n- **EXPRESSAR**, como sujeito dialógico, criativo e sensível, suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, questionamentos, por meio de diferentes linguagens.\n- **CONHECER-SE** e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações, brincadeiras e linguagens vivenciadas na instituição escolar e em seu contexto familiar e comunitário.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

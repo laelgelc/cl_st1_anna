@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_048624e6560a980b006ab3003f54a887d2b50ff0f7ac97b410",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1495,
+      "input_tokens_details": {
+        "cache_write_tokens": 1492,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1456,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 2951
+    }
+  },
+  "created_at": "2026-09-22T22:25:12Z",
+  "duration_seconds": 9.513,
+  "error": null,
+  "excerpt_id": "df_em_35",
+  "filename": "df_em_35.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8d43d53fac58ce5eafc0678b976cd9d484f5fc8d1982ad10880395390044d9c8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3d1fbb836827d406f4fb48fcd6946e7d0de6da01b037bd27eae7d2d7ad3d2dc5",
+    "rendered_prompt_sha256": "f8e2a449892dc099743a9b1e3619d56fc581593761eafb42333f345e057d7214",
+    "source_text_sha256": "c21987b8b0304d8332b53bb7fd1c2ce2039a10d12c8c99df55fc228b5e7fa6fe"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_35.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 923,
+    "filename": "df_em_35.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_35.txt",
+    "state": "df",
+    "word_count_original": 884
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_35.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_35.json"
+  },
+  "raw_response_text": "## ELETIVAS ORIENTADAS\n\nAs Eletivas Orientadas são unidades curriculares de duração semestral, com carga horária definida conforme a intencionalidade pedagógica, nas quais os estudantes serão matriculados de acordo com suas escolhas, porém de maneira orientada.\n\nEssas Unidades Curriculares serão disponibilizadas aos estudantes ao longo de todo o Ensino Médio, a partir de um catálogo construído pelas Instituições Educacionais e aprovado pela sua mantenedora, possibilitando a utilização de diversas estratégias pedagógicas, respeitando o interesse dos estudantes, assim como a autonomia da instituição educacional, segundo sua capacidade de oferta.\n\nAs Eletivas Orientadas devem ser planejadas em função de um ou mais Eixos Estruturantes, estando organizadas de acordo com a temática a ser abordada e em consonância com as DCNEM, com os referenciais para elaboração dos itinerários formativos e com o Currículo em Movimento da Educação Básica do Distrito Federal.\n\nDevem possibilitar tanto o aprofundamento quanto o acompanhamento das aprendizagens que ainda não foram adequadamente alcançadas pelo estudante. Os docentes, por meio de avaliações diagnósticas, poderão identificar as dificuldades e propor, em uma unidade curricular, estratégias efetivas e específicas de intervenção, o que não deve ser entendido como uma prática de reforço escolar, mas como o cumprimento de uma das etapas do processo de avaliação formativa. Assim, é possível contribuir com aqueles estudantes que apresentarem alguma dificuldade educacional e proporcionar-lhes a oportunidade de continuidade dos seus estudos, sem acentuar os índices de defasagem idade/série.\n\nDevem, ainda, propiciar o diálogo aberto e permanente entre as diferentes formações e competências de seus professores com as necessidades e os interesses dos estudantes, tendo como objetivo o fortalecimento dessa relação pedagógica. As Eletivas Orientadas possibilitam diversificar os arranjos curriculares, de modo a favorecer a iniciativa dos professores, além de valorizar suas formações, suas competências, suas habilidades e seus conhecimentos.\n\nO estudante indicará as Eletivas Orientadas que pretende cursar, as quais poderão ser ofertadas no formato de projetos, oficinas, clubes, monitorias, núcleo de estudos, incubadoras, estágios, entre outras. As unidades curriculares poderão trabalhar os mais diversos tipos de temáticas, como aquelas destinadas à cultura, ao esporte, à tecnologia, à interdisciplinaridade, às práticas interventivas, voluntárias, sociais, científicas e, até mesmo, olimpíadas do conhecimento.\n\n## TRILHAS DE APRENDIZAGENS\n\nAs Trilhas de Aprendizagem são compostas por uma sequência de quatro unidades curriculares e possuem a duração total de quatro semestres, cursadas a partir do terceiro, que possibilita o aprofundamento progressivo das aprendizagens em uma área do conhecimento, salvo na Formação Técnica e Profissional, que a depender do curso técnico ofertado, a duração poderá abranger os seis semestres letivos. (FERREIRA; ABREU; LOUZADA-SILVA, 2020).\n\nAssim como nas Eletivas Orientadas, as Trilhas de Aprendizagens podem utilizar diversas estratégias pedagógicas (oficinas, projetos, práticas, núcleos de estudo). No entanto, necessariamente, cada unidade deve ser focada em um eixo estruturante, de modo que, ao final do Ensino Médio, o estudante tenha percorrido os quatro eixos.\n\nAs instituições educacionais deverão ofertar, obrigatoriamente, opções de trilhas que contemplem as quatro áreas de conhecimento, de forma a possibilitar a escolha do estudante, segundo seus interesses e anseios. As Trilhas de Aprendizagens do Itinerário de Formação Técnica e Profissional serão ofertadas em escolas específicas, atendendo o interesse da comunidade escolar e considerando os aspectos de infraestrutura e de gestão de pessoas.\n\nAs trilhas são de livre escolha do estudante, mas ele deverá se matricular em ao menos uma delas, no 3º semestre, consoante seu planejamento de estudos. Ele poderá percorrer mais de uma trilha de aprendizagem, concomitantemente, desde que haja disponibilidade de carga horária. Poderá, ainda, mudar de trilha até o 4º semestre, visto que todas as trilhas das áreas de conhecimento percorrerão os quatro Eixos Estruturantes e sempre na mesma sequência:\n\n- 1º - Investigação Científica (3º semestre);\n- 2º - Processos Criativos (4º semestre);\n- 3º - Mediação e Intervenção Sociocultural (5º semestre);\n- 4º - Empreendedorismo (6º semestre).\n\nPara efeito de conclusão e certificação do Ensino Médio, o estudante deverá ter cursado e concluído, necessariamente, uma trilha de aprendizagem.\n\nFigura 2. Exemplo de trilha de aprendizagem do Itinerário Formativo Ciências da Natureza distribuída em quatro semestres, a partir do terceiro. Trilha: Meio Ambiente e Sustentabilidade. (Fonte: DIEM/SUBEB/SEEDF)\n\nA fixação de uma sequência para os eixos permite que eles estruturem os Itinerários Formativos de maneira que um estudante possa migrar de uma Trilha para outra ou transferir-se de escola sem que sofra prejuízos de continuidade pedagógica. Ao estabelecer objetivos pedagógicos comuns para cada eixo e organizá-los em uma sequência única, garante-se ao estudante o aproveitamento das atividades cursadas anteriormente. Isso reforça a necessidade de articulação para a oferta de Trilhas de Aprendizagem dentro de uma mesma instituição educacional e a observação das orientações desse Currículo.\n\nNa Educação Profissional e Tecnológica, o percurso formativo do estudante deve também contemplar os quatro eixos estruturantes, respeitando as especificidades relacionadas a cada curso e ao seu respectivo eixo tecnológico. Assim, os eixos estruturantes na EPT devem ser trabalhados de maneira harmônica e transversal à matriz curricular, não precisando, necessariamente, seguir a sequência exposta anteriormente. Para os estudantes que optarem pela Trilha de EPT, em caso de transferência entre instituições educacionais, ou mudança de Trilha de Aprendizagem na mesma instituição educacional, o histórico escolar deverá ser analisado pela equipe pedagógica, para verificar a eventual necessidade de adaptação curricular, considerando instrumentos como a avaliação diagnóstica, o aproveitamento de créditos e a legislação vigente.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

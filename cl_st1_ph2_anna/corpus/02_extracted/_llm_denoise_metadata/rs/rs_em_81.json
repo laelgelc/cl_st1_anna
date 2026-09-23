@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b0c8abfaded2d4d006ab30de6f3a887d2a0bffbf580a40f8e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 952,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 887,
+      "output_tokens_details": {
+        "reasoning_tokens": 82
+      },
+      "total_tokens": 1839
+    }
+  },
+  "created_at": "2026-09-22T23:23:25Z",
+  "duration_seconds": 6.69,
+  "error": null,
+  "excerpt_id": "rs_em_81",
+  "filename": "rs_em_81.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "421d27acfa216954bc438f1d73b49b9b2426eb5d2aceb2867ed873d38465c58a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1c9ffd465e268a10117660c70bebcd2d11888380b181af7fed0f34766c2523e6",
+    "rendered_prompt_sha256": "00645138793510666a237c85177621ab79ead219216a279cf8063136babf5d09",
+    "source_text_sha256": "33097d563afeedc14a2ed08e4fb41e05b0d1d409438d16d97a9bc96b6bfa13e5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_81.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3629,
+    "filename": "rs_em_81.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_81.txt",
+    "state": "rs",
+    "word_count_original": 568
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_81.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_81.json"
+  },
+  "raw_response_text": "### 5.4 UNIDADES CURRICULARES ELETIVAS\n\nNo Ensino Médio, as Unidades Curriculares Eletivas são de livre escolha dos estudantes e oferecem a possibilidade de diversificação das experiências escolares e de expansão de estudos relativos às áreas de conhecimento contempladas na Base Nacional Comum Curricular, bem como, procuram viabilizar ao estudante a imersão em temas transversais do seu interesse dentro dos Itinerários Formativos escolhidos.\n\nA oferta de Unidades Curriculares Eletivas tem por objetivo principal diversificar e enriquecer o Itinerário Formativo em curso, proporcionando aos estudantes a experimentação de diferentes temas, vivências e aprendizagens.\n\nAs escolas das redes de ensino devem ofertar Unidades Curriculares Eletivas alinhadas aos seus contextos regionais e às suas condições de infraestrutura. Essas unidades podem contemplar projetos, oficinas, atividades e práticas contextualizadas, laboratórios, clubes, observatórios, incubadoras, núcleos de estudo, núcleos de criação artística, entre outros.\n\nAs Eletivas exercem um papel importante na aprendizagem e no projeto de vida do estudante já que é possível escolher, entre as ofertadas, aquelas que são do seu interesse pessoal, visando aprofundar a sua formação na área focal do seu itinerário ou diversificar as aprendizagens dentro de temas de outras Áreas do Conhecimento.\n\n### 5.5 MODELO PARA ELABORAÇÃO DOS ITINERÁRIOS FORMATIVOS\n\nComo consta supracitado, a Rede Estadual de Educação organizou os seus itinerários formativos a partir de temas de interesse dos estudantes, baseados nos quatro eixos estruturantes da BNCC, bem como na articulação de duas ou mais áreas do conhecimento. Um dos temas escolhidos foi Saúde e, dessa forma, a construção foi realizada a partir do processo de escuta, desenvolvendo-se itinerários que relacionam, elencam e aprofundam habilidades que devem ser contempladas na Formação Geral Básica.\n\nOs itinerários formativos da temática Saúde, organizados por área(s) do conhecimento, foram arquitetados, a fim de oferecer três possibilidades diferentes denominadas Saúde I, Saúde II e Saúde III. Nesses três IFs, a área focal é Ciências da Natureza e, no itinerário Saúde I – que nesse documento será utilizado como modelo – a área complementar é Matemática e suas Tecnologias. Já no itinerário Saúde II é a área das Ciências Humanas e Sociais Aplicadas, enquanto a área das Linguagens e suas Tecnologias aparece como complementar no itinerário Saúde III.\n\nEspera-se, desses itinerários, o aprofundamento contínuo dos conhecimentos vinculados à área das Ciências da Natureza com as respectivas áreas complementares, sempre partindo do projeto de vida dos estudantes, articulando-se imprescindivelmente com as aprendizagens construídas ao longo do Ensino Fundamental.\n\nNota-se a integração desses itinerários com a Formação Geral Básica, a partir da possibilidade de aplicação dos conceitos da área focal e das diferentes áreas do conhecimento de cada itinerário no estudo da saúde humana e da estética, com base nos saberes populares e científicos, de forma progressiva em termos de carga horária.\n\nNesse sentido, é desejável uma sintonia curricular que minimize a atual segmentação da Educação Básica, a saber, Educação Infantil, Ensino Fundamental e Ensino Médio, cada um com um arranjo curricular. Cabe salientar que as 10 competências apresentadas pela BNCC e apropriadas pelo RCG perpassam a formação do estudante ao longo da Educação Básica tendo como propósito produzir articulação ao processo de escolarização.\n\nNo subitem 5.5.1, apresenta-se o IF Saúde I, elaborado pela rede estadual, conforme já apresentado, cuja estrutura pode ser tomada como exemplo ou sugestão para que cada rede educacional, no uso de sua plena autonomia, de acordo com as suas demandas e realidades, possa elaborar seus próprios IF.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05f01665f0c9d22c006ab3077b9d4087d2916df0d0190e1319",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 650,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 630,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 1280
+    }
+  },
+  "created_at": "2026-09-22T22:56:01Z",
+  "duration_seconds": 6.737,
+  "error": null,
+  "excerpt_id": "pb_em_87",
+  "filename": "pb_em_87.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "41624b6fb135373a9fea6f9df1288e6cc58107f304a8690e61fc800b552c1c2f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "640ec1160cbd63746c35d8820cdd4de7db8b5bf850628cf4b3cac5a6a4a44d3f",
+    "rendered_prompt_sha256": "b68803690f22f913c4c99aa2d7e1850bb9b95a4da6b7c699f07a03b0f916267f",
+    "source_text_sha256": "c26817e1e54bf33274bae0150f6910380d00affa47f71b311e1a05c47fedd6db"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_87.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2338,
+    "filename": "pb_em_87.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_87.txt",
+    "state": "pb",
+    "word_count_original": 422
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_87.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_87.json"
+  },
+  "raw_response_text": "### 2.4.7.1 Aprendizagem invertida e personalizada\n\nPor meio dessa metodologia, o estudante se prepara antes e no seu ritmo para a participação efetiva das atividades mais significativas com os outros estudantes e os professores. Há uma transferência de parte do que seria explicado em sala de aula pelo professor, possibilitando que o estudante seja parte ativa no processo de pesquisa. Assim, os estudantes acessam materiais, fazem debates e pesquisas sob orientação docente. (BERGMANN, SAMS, 2016).\n\nOs estudantes, desse modo, podem desenvolver as competências relacionadas ao domínio da leitura e da escrita. As informações oriundas sobre um tema ou problema são acessadas por cada aluno de forma muito mais independente e flexível, tendo o apoio direto do professor e dos colegas. Em suma, os materiais estão expostos e o estudante poderá pesquisar da maneira que ele julgar mais pertinente.\n\n### 2.4.7.2 Aprendizagem baseada em projetos\n\nSegundo o Buck Institute for Education (BIE), a aprendizagem baseada em projetos é um método na qual os estudantes acabam adquirindo conhecimentos e desenvolvendo habilidades trabalhadas, por um longo período, para a investigação e respostas a determinada questão, problema ou desafio.\n\nOs estudantes acabam se envolvendo com tarefas e desafios para a resolução de problemas ou desenvolvimento do projeto que também tenha ligação com sua vida fora da escola. Durante o processo, docentes e discentes lidam com questões interdisciplinares, acabam tomando decisões e agem sozinhos ou em equipe. Essa metodologia está presente dentro das competências necessárias para o século XXI, sendo trabalhadas o pensamento crítico, criativo e a percepção de que existem várias maneiras de realização de uma tarefa. (BUCK INSTITUTE FOR EDUCATION, 2008).\n\nÉ importante destacar que a aprendizagem baseada em projetos pode ser associada a outras aprendizagens, tais como aprendizagem baseada em problemas e aprendizagem baseada em equipes. Essas metodologias favorecem a ação e o pensamento interdisciplinares, e podem resultar em ideias que evoquem o agir coletivo e mobilizem pessoas atuando em prol do bem comum.\n\nAs metodologias ativas devem implicar ações que direcionam um redesenho a uma nova escola, sintonizando o mundo em profunda transformação, o apoio de todas as instâncias, inclusive familiar. Assim, os estudantes poderão participar ativamente no processo escolar. Para isso, se faz necessário dar maior atenção às competências socioemocionais e ao Projeto de Vida do estudante, implicando na construção de uma vivência curricular que promova o diálogo entre as áreas de conhecimento, projetos e ações construtivas para o desenvolvimento da aprendizagem dos estudantes, preparando-os não apenas para o pensamento cognitivo, como também para a vida.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

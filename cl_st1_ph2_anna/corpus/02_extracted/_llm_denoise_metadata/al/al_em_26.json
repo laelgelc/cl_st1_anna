@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03689ca69d745461006ab2fcc2e2d087d2923f603647f91d6c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 550,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 526,
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "total_tokens": 1076
+    }
+  },
+  "created_at": "2026-09-22T22:10:14Z",
+  "duration_seconds": 3.84,
+  "error": null,
+  "excerpt_id": "al_em_26",
+  "filename": "al_em_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2c20715b0016d27a841d403281b60fe9b651b9f2b5e6eb8865908cf4fb5bb83d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "46784ea7c0c0cf26e87a7713f1020298a4396881a4f985fe6a6f41e65667f462",
+    "rendered_prompt_sha256": "d44279630dc8e0aa11e09033eba9033760a5f8a7f6cda20ce6b4c99da9c75e04",
+    "source_text_sha256": "36c3f08b24b9ad7d1691bbc84bcbb8f7316b0b22409d6506c0df953b0dfc572c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_em_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 259,
+    "filename": "al_em_26.txt",
+    "filepath": "corpus/00_source_per_state/al/al_em_26.txt",
+    "state": "al",
+    "word_count_original": 298
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_em_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_em_26.json"
+  },
+  "raw_response_text": "# MATEMÁTICA E SUAS TECNOLOGIAS\n\nO bordado “Filé Alagoano” é Patrimônio Cultural Imaterial de Alagoas e a matemática pode constituir ferramenta de resgate e preservação deste legado cultural. Segundo o Instituto do Bordado Filé de Alagoas, o nome filé vem do francês “filet” que significa rede e, de fato, é um bordado realizado sobre uma rede de fios. Fios sobre fios que envolvem processos, complexidade de execução e muito aperfeiçoamento através de um longo tempo histórico de repasses entre gerações, povos e países. Embora sua origem tenha sido vinculada ao antigo Egito, nos últimos séculos sua incidência está ligada a certas áreas da península ibérica, sendo encontrado em localidades de Portugal (como Minho) e da Itália (como Pistoia), aportando em seguida no Brasil colonial onde, possivelmente, estava incluso na educação reformadora das escolas cristãs católicas que ensinavam prendas às mulheres. Utilizando esse bordado, é possível realizar estudos e discussões sobre geometria, álgebra, etnomatemática, modelagem, entre outros.\n\nConsonante, a BNCC destaca que os estudantes precisam “conhecer e valorizar o patrimônio cultural, material e imaterial, de culturas diversas, em especial a brasileira, incluindo suas matrizes indígenas, africanas e europeias, de diferentes épocas” (BRASIL, 2018, p. 203).\n\nAssim, apresenta-se o componente curricular ‘Matemática’ do Referencial Curricular de Alagoas, tendo a rica cultura alagoana como inspiração e a Base Nacional Comum Curricular como documento norteador, desejosos de que as contribuições, presentes neste documento, auxiliem educadores, gestores, estudantes e a comunidade na busca pela garantia do direito de aprender das nossas juventudes, em especial aprender habilidades que interajam com a realidade e assegurem a formação de competências que permitam ao estudante ser e agir de forma autônoma, plena e consciente, tendo cuidado de si, do outro, do meio em que vive, podendo transformar a sua realidade e ser o protagonista de sua formação.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

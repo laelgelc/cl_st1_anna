@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ecb166017853916006ab3100d3d2887d28e0ae0746f4c0688",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 441,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 413,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 854
+    }
+  },
+  "created_at": "2026-09-22T23:32:32Z",
+  "duration_seconds": 3.429,
+  "error": null,
+  "excerpt_id": "to_ef_7",
+  "filename": "to_ef_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "74e76f0b0269ab9cc9f79143fc8c797be9f1492701df0181683cc9567f2c93ad",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bc72cb2552cf8bce0e3e1ed16cf965b6abbc292570e9a9a16ef92348b8a81519",
+    "rendered_prompt_sha256": "c59407bd078995791ff5e5a031c17fa771d5904b7f92ee29de271f4514e23120",
+    "source_text_sha256": "beaed2d2aefc14d38cf472e7a26132accdde00c7b95a0b1268a7d461c8c17899"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_ef_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4004,
+    "filename": "to_ef_7.txt",
+    "filepath": "corpus/00_source_per_state/to/to_ef_7.txt",
+    "state": "to",
+    "word_count_original": 240
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_ef_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_ef_7.json"
+  },
+  "raw_response_text": "Prezado(a), Professor(a),\n\nCom a homologação da Base Nacional Comum Curricular (BNCC) em dezembro de 2017, referente à educação infantil e ensino fundamental, iniciou-se seu processo de implementação por meio do regime de colaboração entre o Ministério da Educação, Conselho Nacional de Secretários de Educação (CONSED), União Nacional dos Dirigentes Municipais de Educação (UNDIME), Conselhos Estaduais de Educação e União Nacional dos Conselhos Municipais de Educação (UNCME), que se uniram para o processo de elaboração dos currículos alinhados a tal instrumento. Assim foi desenvolvido o Documento Curricular do Tocantins (DCT).\n\nNo Tocantins, o processo envolveu uma equipe com representantes dessas instituições, que buscou a participação de municípios, professores da educação básica e superior, gestores, e especialistas das diferentes etapas e componentes curriculares, que empreenderam estudos, diálogos, análises e pesquisas visando um documento que atenda a realidade do território tocantinense.\n\nAssim, é com entusiasmo que apresentamos o resultado desse trabalho que propiciou um documento que contempla a regionalidade do estado, sua cultura e diversas expressões artísticas, buscando a articulação pedagógica entre as diferentes áreas e componentes.\n\nDesta forma, esperamos que o Documento Curricular do Tocantins, possa contribuir para o norte da prática pedagógica, bem como para a construção dos currículos das redes de ensino e o desenvolvimento das aprendizagens necessárias, na busca de maior equidade para as crianças da Educação Infantil, bem como de todos os estudantes do Ensino Fundamental do Tocantins.\n\nPresidente da UNDIME/TO  \nBartolomeu Moura Júnior",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

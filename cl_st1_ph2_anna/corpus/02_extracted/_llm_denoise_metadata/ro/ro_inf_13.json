@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04860ba1dba50a89006ab30c9881dc87d299ea69dbcb7329de",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 657,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 732,
+      "output_tokens_details": {
+        "reasoning_tokens": 170
+      },
+      "total_tokens": 1389
+    }
+  },
+  "created_at": "2026-09-22T23:17:50Z",
+  "duration_seconds": 5.882,
+  "error": null,
+  "excerpt_id": "ro_inf_13",
+  "filename": "ro_inf_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2206c45fbab48e9e90dae80797013aaaec862c5ba1599c446baa54468fb189b8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c78394facb640f2a0ec4e0fb8d8134b753fb49d9befc6777ec45319dc6525b72",
+    "rendered_prompt_sha256": "c10e6e4d98d31071bc03ef3221b6b3b9e8b7ff5ec17a579a823566216a924c28",
+    "source_text_sha256": "72aaf124e38433f7bb999853bc8e67630b02248924a81760e076b95fde4f00be"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3325,
+    "filename": "ro_inf_13.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_13.txt",
+    "state": "ro",
+    "word_count_original": 417
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_13.json"
+  },
+  "raw_response_text": "## Concepções Basilares da Educação Infantil\n\nA Educação Infantil é orientada por concepções específicas que a embasam, considera-se que não há como pensar em uma etapa educativa tão ampla e importante para o desenvolvimento humano sem ter fortes bases que conclamam concepções consonantes com a compreensão ao sujeito criança, à infância e à educação para a primeira infância.\n\nAssim, apresentam-se a seguir as concepções basilares da Educação Infantil, com o propósito de orientar o processo de acolhimento deste Referencial Curricular para bebês, crianças bem pequenas e pequenas, espera-se que tais concepções neste definidas efetivem-se e sejam internalizadas pelos órgãos e entidades responsáveis pelas políticas da oferta de Educação Infantil, e, principalmente, pelos profissionais atuantes nesta Etapa de Ensino, que estas permeiem as intencionalidades educativas, fazendo parte da estruturação dos saberes pedagógicos necessários a sua práxis para garantir todos os direitos de aprendizagem e desenvolvimento das crianças, bem como assegurar que vivam suas infâncias na Educação Infantil.\n\nO Artigo 5º da Resolução nº 5 de 17 de dezembro de 2009 preceitua que:\n\n> A Educação Infantil, primeira etapa da Educação Básica, é oferecida em creches e pré-escolas, às quais se caracterizam como espaços institucionais não domésticos que constituem estabelecimentos educacionais públicos ou privados que educam e cuidam de crianças de 0 a 5 anos de idade no período diurno, em jornada integral ou parcial, regulados e supervisionados por órgão competente do sistema de ensino e submetidos a controle social.\n\nA concepção de Educação Infantil defendida neste documento é a de um ambiente institucionalizado de educação de bebês, crianças bem pequenas e crianças pequenas que atua para respeitar e valorizar a infância em seus sublimes e distintos aspectos, considerando a indissociabilidade entre os processos de cuidar e educar.\n\nOs eixos estruturantes das práticas pedagógicas são as interações e brincadeira em consonância com as competências gerais da Educação Básica propostas pela BNCC quanto aos direitos de aprendizagens previstos.\n\nConvém ressaltar que o importante desse trabalho é o propósito de que a educação para as crianças dessa etapa de ensino, considera o ser humano criança na sua integralidade e, por isso, não se cunha uma mensuração e tampouco a atribuição de metas de aprendizagem para as crianças nessa etapa de ensino, visto que o que se espera delas é que vivam integralmente essa fase da infância e que a elas sejam garantidos os direitos de aprendizagem e desenvolvimento em consonância com o disposto nas Diretrizes Curriculares Nacionais para a Educação Infantil e firmados na Base Nacional Comum Curricular.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

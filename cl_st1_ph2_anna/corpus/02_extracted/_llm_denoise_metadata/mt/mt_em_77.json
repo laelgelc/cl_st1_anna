@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0048a3ae38b10cb7006ab3052384b887d2926c080eeb2b0749",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 559,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 481,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 1040
+    }
+  },
+  "created_at": "2026-09-22T22:46:02Z",
+  "duration_seconds": 7.63,
+  "error": null,
+  "excerpt_id": "mt_em_77",
+  "filename": "mt_em_77.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "75a6bad7a2e9628bc5edf2d65448ab34e316d9862e5e8c39fad1ec9dc1d44eae",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9640bbee261e71cc3d2d81b2cfa6629eb25faf0529e0714bb7f3a04f1332193c",
+    "rendered_prompt_sha256": "23b31d338d2ecf9c6d78ae5c2e634af316fd2abbf3912014a3380d4b0ce8a119",
+    "source_text_sha256": "535f7b5bc3bdf4b89a9cbb729f5d4e6ace60107b3eff2d6ee5841ac95410b395"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_77.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1973,
+    "filename": "mt_em_77.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_77.txt",
+    "state": "mt",
+    "word_count_original": 303
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_77.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_77.json"
+  },
+  "raw_response_text": "## Avaliação\n\nEntende-se como processo fundamental do ensino e deve estar relacionada a uma concepção de educação que viabilize ao estudante a condução do seu processo de aprendizagem, com vias a potencializar o seu desenvolvimento integral, a prática do protagonismo, a construção do seu projeto de vida para que este se constitua enquanto cidadão capaz de dialogar com os diversos contextos de vida e com os desafios contemporâneos que se apresentam.\n\nA avaliação no contexto da Educação Profissional acontece conforme preconizam as novas diretrizes para a Educação Básica/DRC/MT por competências e habilidades no decorrer do seu processo formativo. Deve ser contínua, cumulativa, integrada e estar de acordo com os fundamentos da proposta curricular profissional, ou seja, devem-se considerar, também, as diretrizes e normas relativas à avaliação de cursos técnicos, FICs e programas de aprendizagem profissional aprovadas pelo Conselho Estadual de Educação (CEE).\n\nÉ fundamental que o docente observe, conheça e acompanhe a construção do conhecimento do estudante de acordo com o processo de integração curricular, entre BNCC e EPT. Nessa lógica, a operacionalização do planejamento acontece de forma coletiva e integrada, possibilitando a discussão pedagógica com a finalidade de analisar os produtos gerados pelos cursos estudados. Além disso, para evidenciar o desenvolvimento de competências e habilidades, de qualificação profissional e o aperfeiçoamento de práticas pedagógicas, os resultados devem ser registrados em relatórios e/ou portfólios.\n\nNesse processo avaliativo, os professores, imbuídos de conhecimentos científicos, pedagógicos e práticos, têm a possibilidade de atuar com maior envolvimento e de organizar, por meio de diálogos coletivos e constantes, ferramentas e instrumentos próprios para acompanhar o estudante da Educação Profissional e Tecnológica. Nesse mesmo sentido, podem encontrar durante o percurso do processo pedagógico, metodologias mais ativas e capazes de colaborar com o desenvolvimento das aptidões nos estudantes por meio do planejamento de intervenções pedagógicas.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

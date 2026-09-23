@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_055bf5ef24d54403006ab2fe3b920c87d2b5395770acd41163",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 800,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 766,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 1566
+    }
+  },
+  "created_at": "2026-09-22T22:16:33Z",
+  "duration_seconds": 6.483,
+  "error": null,
+  "excerpt_id": "ap_inf_10",
+  "filename": "ap_inf_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "562b672bd04454f21a733ac5a0b00db729cd48de1c52bddf3850c936750ee652",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "98b22eea68bbf0e53777ac647b0e898414b3f212fa36a5f9d621f934b9c46bae",
+    "rendered_prompt_sha256": "54efabbd076e37bffffdded2cded60387197a41198d4ceddaa0986e5ebbf559b",
+    "source_text_sha256": "49a22eb0dab6574564e9173058f97ddb9ff538e969340b58d283bf2ae76e7e61"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_inf_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 563,
+    "filename": "ap_inf_10.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_inf_10.txt",
+    "state": "ap",
+    "word_count_original": 458
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_inf_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_inf_10.json"
+  },
+  "raw_response_text": "## II – Campo de Experiência: Corpo, Gestos e Movimentos\n\nCom o corpo (por meio dos sentidos, gestos, movimentos impulsivos ou intencionais, coordenados ou espontâneos), as crianças, desde cedo, exploram o mundo, o espaço e os objetos do seu entorno, estabelecem relações, expressam-se, brincam e produzem conhecimentos sobre si, sobre o outro, sobre o universo social e cultural, tornando-se, progressivamente, conscientes dessa corporeidade. Por meio das diferentes linguagens, como a música, a dança, o teatro, as brincadeiras de faz de conta, elas se comunicam e se expressam no entrelaçamento entre corpo, emoção e linguagem. As crianças conhecem e reconhecem as sensações e funções de seu corpo e, com seus gestos e movimentos, identificam suas potencialidades e seus limites, desenvolvendo, ao mesmo tempo, a consciência sobre o que é seguro e o que pode ser um risco à sua integridade física. Na Educação Infantil, o corpo das crianças ganha centralidade, pois ele é o partícipe privilegiado das práticas pedagógicas de cuidado físico, orientadas para a emancipação e a liberdade, e não para a submissão. Assim, a instituição escolar precisa promover oportunidades ricas para que as crianças possam, sempre animadas pelo espírito lúdico e na interação com seus pares, explorar e vivenciar um amplo repertório de movimentos, gestos, olhares, sons e mímicas com o corpo, para descobrir variados modos de ocupação e uso do espaço com o corpo (tais como sentar com apoio, rastejar, engatinhar, escorregar, caminhar apoiando-se em berços, mesas e cordas, saltar, escalar, equilibrar-se, correr, dar cambalhotas, alongar-se etc.).\n\n### Direitos de aprendizagem com foco no campo de experiência corpo, gesto e movimentos:\n\n- **CONVIVER** com crianças e adultos e experimentar, de múltiplas formas, a gestualidade que marca sua cultura e está presente nos cuidados pessoais, dança, música, teatro, artes circenses, jogos, escuta de histórias e brincadeiras.\n- **BRINCAR**, utilizando movimentos para se expressar, explorar espaços, objetos e situações, imitar, jogar, imaginar, interagir e utilizar criativamente o repertório da cultura corporal e do movimento.\n- **PARTICIPAR** de diversas atividades de cuidados pessoais e do contexto social, de brincadeiras, encenações teatrais ou circenses, danças e músicas; desenvolver práticas corporais e autonomia para cuidar de si, do outro e do ambiente.\n- **EXPLORAR** amplo repertório de movimentos, gestos, olhares, sons e mímicas; descobrir modos de ocupação e de uso do espaço com o corpo e adquirir a compreensão do seu corpo no espaço, no tempo e no grupo.\n- **EXPRESSAR** corporalmente emoções, ideias e opiniões, tanto nas relações cotidianas como nas brincadeiras, dramatizações, danças, músicas, contação de histórias, dentre outras manifestações, empenhando-se em compreender o que outros também expressam.\n- **CONHECER-SE** nas diversas oportunidades de interações e explorações com seu corpo; reconhecer e valorizar o seu pertencimento de gênero, étnico-racial e religioso.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

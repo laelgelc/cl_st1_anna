@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0481c47d03e98d93006ab2fba83a7487d2a7681c96178e4e9d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 684,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 680,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 1364
+    }
+  },
+  "created_at": "2026-09-22T22:05:33Z",
+  "duration_seconds": 5.061,
+  "error": null,
+  "excerpt_id": "ac_ef_39",
+  "filename": "ac_ef_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1b048ee1446bf429681e014a061dbac2744bd91048babf7d5589a286eba3a829",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "74304789b4567a763b144593935302f187f0a05e7ad2ad0a5b1bb825bdd3c869",
+    "rendered_prompt_sha256": "65e19f6bdb0f4b687f2244e85d9efd017abed3b7d7a8adedc2644a6420eb46bd",
+    "source_text_sha256": "dff31de13a79e5068f51980c787213dd834e9566924dfeb8447d01c9accd331b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 33,
+    "filename": "ac_ef_39.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_39.txt",
+    "state": "ac",
+    "word_count_original": 422
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_39.json"
+  },
+  "raw_response_text": "## 3. PARTE DIVERSIFICADA E ESPECIFICIDADES DO ESTADO DO ACRE\n\nPara a definição de direitos de aprendizagem e dos conteúdos matemáticos do Ensino Fundamental, este documento, como relatado acima, pauta a intrínseca relação entre os componentes curriculares, priorizando a aprendizagem dos alunos de forma integralizada, projetando a formação dos nossos alunos em um cidadão completo e consciente de como deve ser a sua atuação na sociedade, sendo capaz de atuar sobre as diferentes situações que irá vivenciar em sua vida pessoal e profissional, em detrimento à aprendizagem tradicional que produzia uma aprendizagem fragmentada sem uma correlação entre os conhecimentos dos componentes curriculares que outrora eram discutidos nos ambientes escolares.\n\nAlém da integralidade entre os componentes curriculares, este currículo tem como princípio promover a cultura da regionalidade presente em nosso estado, como também a inclusão de todas as crianças ao direito fundamental de aprender. Para tanto, utilizamos critérios que estão explicitados na sequência deste documento:\n\n**Relevância social e cultural:** Conceitos, procedimentos e atitudes que são fundamentais para a compreensão de problemas, fenômenos e fatos da realidade social e cultural acrianos, visto que uma das finalidades da escola é a inserção dos jovens na sociedade e na cultura local.\n\n**Relevância para a formação intelectual do aluno e potencialidade para a construção de habilidades comuns:** Conceitos, procedimentos e atitudes matemáticos que potencializem o desenvolvimento de habilidades como as de investigar, estabelecer relações, argumentar, conjecturar, justificar, entre outras.\n\n**Potencialidade para estabelecer conexões interdisciplinares e contextualizações:** Conceitos/temas matemáticos que permitam estabelecer relações entre o conhecimento e as situações cotidianas vividas pelo aluno, mas que também contemplem contextualizações históricas, culturais e que permitam o intercâmbio de ideias com outras áreas curriculares, em projetos interdisciplinares.\n\n**Acessibilidade e adequação aos interesses da faixa etária e necessidades de aprendizagem:** É fundamental que as propostas sejam planejadas de modo a interessar os alunos, colocando desafios compatíveis com suas possibilidades e necessidades de aprendizagem.\n\nA seleção dos conteúdos matemáticos a serem trabalhados teve como objetivo a busca de uma formação geral direcionada ao desenvolvimento da cidadania. Nesse sentido, um dos grandes desafios para os professores de Matemática é, em meio a uma grande gama de conhecimentos matemáticos, selecionar aqueles que, por um lado, são importantes para a vida das pessoas na sociedade contemporânea e desempenham papel importante na formação do cidadão, e, por outro lado, que permitam o desenvolvimento de capacidades formativas, o desenvolvimento de atitudes e os que consideram o valor estético e o caráter lúdico e recreativo da Matemática. (Série Cadernos de Orientação Curricular, Acre 2010, p. 21).",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

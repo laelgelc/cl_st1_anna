@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_019ab8fe05a7cd65006ab304c96d7887d2abda41a42b4e3079",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1279,
+      "input_tokens_details": {
+        "cache_write_tokens": 1276,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1179,
+      "output_tokens_details": {
+        "reasoning_tokens": 104
+      },
+      "total_tokens": 2458
+    }
+  },
+  "created_at": "2026-09-22T22:44:32Z",
+  "duration_seconds": 7.327,
+  "error": null,
+  "excerpt_id": "mt_em_18",
+  "filename": "mt_em_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e1ca2a305e62e6122600bad06635ea426b8b7e1d87081341bfbd50c19ef36678",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9c6d2509701f2e4b534b140cca1886c5887f2f0b416d5e8530d2d4a576220c71",
+    "rendered_prompt_sha256": "d18ba6c3a75cb9ee73b08cac89c9da5f61f2c43b77f3eb542a29dd44c0209c25",
+    "source_text_sha256": "769bf744f56d4341c9748fc0e94809938795646314f5d02ec2af6f6fd4a00d20"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1908,
+    "filename": "mt_em_18.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_18.txt",
+    "state": "mt",
+    "word_count_original": 756
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_18.json"
+  },
+  "raw_response_text": "### 4.3.1 Currículo e Organização do Atendimento\n\nOs currículos da Educação Básica na Educação Escolar Indígena, em uma perspectiva intercultural, devem ser construídos a partir dos valores e interesses etnopolíticos das comunidades indígenas em relação aos seus projetos societários e definidos nos projetos político pedagógicos das Escolas Indígenas. O currículo como componente pedagógico dinâmico deve ser flexível, adaptado aos contextos socioculturais das comunidades indígenas em seus projetos de Educação Escolar Indígena.\n\nNa sua construção e desenvolvimento devem ser consideradas condições de escolarização dos estudantes indígenas em cada etapa e modalidade de ensino, as condições de trabalho do professor, os espaços e tempos da escola e de outras instituições educativas da comunidade e fora dela. O currículo na Educação Escolar Indígena pode ser organizado por eixos temáticos, projetos de pesquisa, temas geradores ou matrizes conceituais, em que os conteúdos dos componentes curriculares e áreas de conhecimento possam ser trabalhados numa perspectiva interdisciplinar e integrados. Devem ser ancorados em materiais didáticos específicos, escritos nas línguas indígenas, na língua portuguesa e bilíngue, que reflita a perspectiva intercultural da educação diferenciada.\n\nNa organização curricular das escolas indígenas, em consonância com a Resolução CNE/CEB Nº 05/2012 e Resolução 04/2019 CEE-MT devem ser observados: reconhecimento das especificidades (aspectos comunitários, bilíngues e multilíngues, de interculturalidade e diferenciação); flexibilidade na organização dos tempos e espaços curriculares (na base nacional comum e saberes indígenas); duração mínima anual de duzentos dias letivos, perfazendo, no mínimo, oitocentas horas; adequação da estrutura física dos prédios escolares às condições socioculturais e ambientais das comunidades indígenas; interdisciplinaridade e contextualização na articulação entre os diferentes campos do conhecimento; adequação das metodologias didáticas e pedagógicas às características dos diferentes sujeitos das aprendizagens; necessidade de elaboração e uso de materiais didáticos próprios, nas línguas indígenas e em português; noções de cuidado e educação das crianças na Educação Infantil quando esta for solicitada pela comunidade; atendimento educacional especializado, complementar ou suplementar para a formação dos estudantes indígenas que apresentem tal necessidade.\n\nEstes critérios balizam a Educação Escolar Indígena no sistema público de ensino para a construção e desenvolvimento do currículo. Nesse sentido, recomenda a participação das comunidades de forma a fortalecer o controle social e a construção de conhecimentos, habilidades e desenvolvimento de competências. Desta forma é possível incorporar às práticas escolares os usos e costumes locais, com destaque para as particularidades étnicas, entendida pela organização comunitária, conhecimento ancestral, os ciclos agrícolas, da natureza e de produção artesanal, o fluxo das atividades econômicas e as formas próprias de interpretação e conhecimento, desde que sejam garantidas no Projeto Político Pedagógico das Escolas Indígenas.\n\nO currículo na perspectiva da Educação Escolar Indígena deve considerar as 10 Competências gerais da BNCC, bem como o Documento de Referência Curricular para o Estado de Mato Grosso e as Orientações Curriculares para a Educação Escolar Indígena. Nesse sentido orienta-se também nos princípios da formação humana integral, superando a fragmentação dos conhecimentos, valorizando a interdisciplinaridade, o trabalho por áreas do conhecimento, metodologias e estratégias didático-pedagógicas diversificadas e o diálogo entre o conhecimento étnico e as tecnologias, mídias e fluxos globais.\n\nConsiderando o Referencial Curricular Nacional para a Educação Indígena (BRASIL, 1998) o currículo deve ser construído a partir dos seguintes eixos estruturantes:\n\n- **Multietnicidade, pluralidade e diversidade:** A Escola Indígena deve se pautar pelo respeito ao direito à diferença, exigido no Brasil pela Constituição Federal, este é o principal recurso para a continuidade do processo de construção da Educação Indígena enquanto patrimônio vivo, sempre renovando seus conteúdos e possibilidades;\n- **Interculturalidade:** Este eixo deve garantir o diálogo entre a cultura do povo e os códigos da sociedade envolvente.\n- **Autoria:** No processo de aprendizagem a construção do conhecimento deve se dar de forma crítica, ativa e criativa. O professor deve atuar como mediador dos saberes e o estudante como protagonista da comunidade, respeitando a autonomia, valores e estruturas sociais de cada povo.\n- **Comunidade educativa:** O processo de ensino e aprendizagem na Educação Escolar Indígena não se remete somente ao ambiente escolar. Todos os espaços de convivência são considerados espaços educativos e diversos atores sociais são considerados educadores. A escola deve incorporar os saberes indígenas e a estrutura social à educação escolar. Nesse sentido, na comunidade educativa o controle social deve ter um papel ativo na gestão escolar e no desenvolvimento de projetos educativos.\n- **Transversalidade e interdisciplinaridade:** Os saberes indígenas e as pedagogias indígenas estão relacionados à construção do conhecimento de maneira complexa ante a fragmentação dos saberes, portanto as metodologias de ensino e o planejamento devem ser alicerçados na interdisciplinaridade, transversalidade e no trabalho compartilhado.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

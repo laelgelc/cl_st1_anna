@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0297df29a269a666006ab305b8a40887d294723bf0b675fbb6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1346,
+      "input_tokens_details": {
+        "cache_write_tokens": 1343,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1874,
+      "output_tokens_details": {
+        "reasoning_tokens": 867
+      },
+      "total_tokens": 3220
+    }
+  },
+  "created_at": "2026-09-22T22:48:40Z",
+  "duration_seconds": 15.815,
+  "error": null,
+  "excerpt_id": "pa_em_16",
+  "filename": "pa_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "87a9e068c7bb731df3c2c9e6e0c1cd5135e428b343fe14ada40c551268a7ecac",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "842f77f8a9cfc7e54166ff9671e26c92f381229af70e29118b7c9c061a3df37d",
+    "rendered_prompt_sha256": "52f9abb19ef66c3422410929a8f98967d213090b792d74cc953b491b597240ba",
+    "source_text_sha256": "444de01d99e626c03ddc85c196c4cec40a42d87f21945357f69e846237e53a7b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2060,
+    "filename": "pa_em_16.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_16.txt",
+    "state": "pa",
+    "word_count_original": 830
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_16.json"
+  },
+  "raw_response_text": "### Quadro 5: Correlação entre as Categorias de Área e as Competências Específicas da Área de Linguagens\n\n| Categorias de áreas | Competências específicas da Área de Linguagens |\n|---|---|\n| Práticas de estudo e pesquisa; e jornalístico-midiático e atuação na vida pública | Compreender o funcionamento das diferentes linguagens e práticas (artísticas, corporais e verbais) e mobilizar esses conhecimentos na recepção e produção de discursos nos diferentes campos de atuação social e nas diversas mídias, para ampliar as formas de participação social, o entendimento e as possibilidades de explicação e interpretação crítica da realidade e para continuar aprendendo; |\n| Vida pessoal, atuação na vida pública e jornalístico-midiático; Cultural artístico e literário | Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitar as diversidades, a pluralidade de ideias e posições e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza; |\n| Práticas de estudo e pesquisa, Vida Pessoal e vida pública e jornalístico-midiático; Cultural artístico e literário | Utilizar diferentes linguagens (artísticas, corporais e verbais) para exercer, com autonomia e colaboração, protagonismo e autoria na vida pessoal e coletiva, de forma crítica, criativa, ética e solidária, defendendo pontos de vista que respeitem o outro e promovam os Direitos Humanos, a consciência socioambiental e o consumo responsável, em âmbito local, regional e global; |\n| Práticas de Estudo e Pesquisa; Vida Pessoal, atuação na vida pública e jornalístico-midiático; Cultural artístico e literário | Compreender as línguas como fenômeno (geo) político, histórico, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo-as e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como respeitando as variedades linguísticas e agindo no enfrentamento de preconceitos de qualquer natureza; |\n| Cultural, Artístico e Literário e Vida Pessoal e atuação na Vida Pública | Compreender os múltiplos aspectos que envolvem a produção de sentidos nas práticas sociais da cultura corporal de movimento, reconhecendo-as e vivenciando-as como formas de expressão de valores e identidades, em uma perspectiva democrática e de respeito à diversidade; |\n| Cultural, Artístico e literário; Vida Pessoal, atuação na vida pública e jornalístico-midiático; Cultural artístico e literário; Práticas de estudo e pesquisa | Apreciar esteticamente as mais diversas produções artísticas e culturais, considerando suas características locais, regionais e globais, e mobilizar seus conhecimentos sobre as linguagens artísticas para dar significado e (re) construir produções autorais individuais e coletivas, de maneira crítica e criativa, com respeito à diversidade de saberes, identidades e culturas; |\n| Jornalístico-midiático; Vida Pessoal, atuação na vida pública e jornalístico-midiático; Cultural artístico e literário; Práticas de estudo e pesquisa | Mobilizar práticas de linguagem no universo digital, considerando as dimensões técnicas, críticas, criativas, éticas e estéticas, para expandir as formas de produzir sentidos, de engajar-se em práticas autorais e coletivas, e de aprender a aprender nos campos da ciência, cultura, trabalho, informação e vida pessoal e coletiva. |\n\nFonte: Sistematização, com base no Documento da BNCC – etapa ensino Médio (2019).\n\nAssim, durante o Ensino Médio, os jovens precisam desenvolver competências e habilidades específicas da Área, de modo interdisciplinar e contextualizado. Nesse sentido, devem compreender e analisar de modo cada vez mais aprofundado e contextualizado os modos de construção e funcionamento das linguagens, seja em seus textos multissemióticos, midiáticos, crossmedia ou transmidiáticos⁵⁶.\n\n⁵⁶ O aspecto multissemiótico diz respeito às diversas possibilidades de leituras - verbais, visuais, auditivo, digitais - para a compreensão dos textos que circulam em diferentes suportes - orais, impressos e digitais. Quanto aos elementos midiáticos, referem-se às diversas linguagens que fazem uso das tecnologias da informação e da comunicação nos diversos suportes, usos e funções. A crossmedia diz respeito aos conteúdos que são distribuídos em diferentes meios e podem ser compreendidos nesses meios em seus diferentes acessos. Por sua vez, a linguagem transmidiática é aquela que se desenvolve na transmissão de diferentes conteúdos e em uma multiplicidade de canais de mídia, os quais se complementam e somam-se como partes para compreensão do todo da mensagem.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

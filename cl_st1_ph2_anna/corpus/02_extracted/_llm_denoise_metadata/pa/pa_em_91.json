@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05ef10dbad9c3790006ab306633ec087d29006d396b55534ff",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 811,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1077,
+      "output_tokens_details": {
+        "reasoning_tokens": 367
+      },
+      "total_tokens": 1888
+    }
+  },
+  "created_at": "2026-09-22T22:51:23Z",
+  "duration_seconds": 8.618,
+  "error": null,
+  "excerpt_id": "pa_em_91",
+  "filename": "pa_em_91.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "37337984ba83dac6c60fce1889493c80701cc959bfad3c8eb478da02be5e8370",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7aad52efd313f2b424da299f806267144121f54905373f90174e3c5b6a3c0834",
+    "rendered_prompt_sha256": "215715cd16d959c13042fc757991233629d90820c23a3208592f6cda7a3d5cb5",
+    "source_text_sha256": "269eb730d5f68deb07258c5b90c5d8a0933d839351f0d0d15c321a512b8ca600"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_91.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2143,
+    "filename": "pa_em_91.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_91.txt",
+    "state": "pa",
+    "word_count_original": 472
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_91.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_91.json"
+  },
+  "raw_response_text": "Para melhor compreensão do público atendido, seguem os conceitos identitários do público migrante atendido pela rede estadual.\n\na. Imigrantes: Pessoa nacional de outro país ou apátrida que trabalha ou reside e se estabelece temporária ou definitivamente no Brasil (Lei de migração. LEI No 13.445, de 24 de maio de 2017);\nb. Migrantes/Visitantes: pessoa nacional de outro país ou apátrida que vem ao Brasil para estadas de curta duração, sem pretensão de se estabelecer temporária ou definitivamente no território nacional (Lei de migração. LEI No 13.445, de 24 de maio de 2017), para a Co-IMIGRANTES, referem-se também aos migrantes venezuelanos indígenas Warao, aos quais resguarda lhes o direito de migrarem transterritorialmente;\nc. Apátridas: O termo \"apátrida\" designará toda pessoa que não seja considerada seu nacional por nenhum Estado (Lei no 4.246/2002. Estatuto do refugiado);\nd. Refugiados: Pessoas que estão fora de seu país de origem devido a fundados temores de perseguição relacionados a questões de raça, religião, nacionalidade, pertencimento a um determinado grupo social ou opinião política, como também devido à grave e generalizada violação de direitos humanos e conflitos armados (ACNUR, 2018), ou seja, resultante de uma migração forçada;\ne. Solicitantes de refúgio: Pessoas que solicitam às autoridades competentes serem reconhecidas como refugiado, mas que ainda não tiveram seus pedidos avaliados definitivamente pelos sistemas nacionais de proteção e refúgio (ACNUR, 2018).\n\nO deslocamento dessas populações para o país dobrou na última década, e o Pará se destaca no acolhimento destes povos, abarcando também o atendimento por meio de assistência social e educacional, e em especial na rede de ensino estadual se prima pelo respeito e valorização desses sujeitos como cidadãos de direitos universais.\n\nA partir da lei de migração aprovada em 2017, as autarquias do Estado vêm se adequando por meio de ações próprias e conjuntas, orientadas pelo poder jurídico a fim de considerar os direitos humanos como propulsores na consolidação de um compromisso constitucional, que preza pelo respeito às especificidades e às diferenças socioculturais.\n\nPortanto, oferecer políticas públicas para as famílias de imigrantes exige um olhar holístico, intersetorial e interinstitucional, sobretudo entre as esferas públicas municipal, estadual e federal que corresponda aos acordos multilaterais nos quais o Brasil é signatário.\n\nOs processos de escolarização destes imigrantes, refugiados e apátridas requer de uma reflexão em relação à proposta curricular que considere as estratégias e as possíveis implementações de integração tanto no acolhimento, na inserção escolar e na permanência destes com sucesso. Isso requer atenção a alguns passos que vão desde ao período inicial de adaptação, período de regularização do processo escolar e na ampliação de possíveis rearranjos educacionais e metodologias didático-pedagógicas. Com isso a garantia da promoção e proteção dos direitos dos refugiados, migrantes e apátridas, e assim naturalmente conquistem a independência, uma vida cidadã e ocupem seu espaço na sociedade.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

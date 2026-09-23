@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d50fec50337b64b006ab30dbf4af087d2921073cf4e783b3b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 502,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 474,
+      "output_tokens_details": {
+        "reasoning_tokens": 90
+      },
+      "total_tokens": 976
+    }
+  },
+  "created_at": "2026-09-22T23:22:48Z",
+  "duration_seconds": 11.481,
+  "error": null,
+  "excerpt_id": "rs_em_49",
+  "filename": "rs_em_49.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a4368ec337c2af9c005bf5184bf59b45035a2580e7b5b1692e5a152b259fe726",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "67fdc7bf81a6ed1a6e7c0399aecc3e1d93f4f5043ffd5f97d4d0fd0f563b57bb",
+    "rendered_prompt_sha256": "7eb2f26d617b5eda4ebde9ac6340c3acfaf5d99f438a63d6ff541fb2e6c15820",
+    "source_text_sha256": "aa04d34c46152fbee4c603901cfecdf7a9b14b63f8e11e53b4384c57aee51f20"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_49.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3593,
+    "filename": "rs_em_49.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_49.txt",
+    "state": "rs",
+    "word_count_original": 278
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_49.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_49.json"
+  },
+  "raw_response_text": "### 3.2.5 Competências/Habilidades\n\nO Documento Curricular do Ensino Médio para a área das Ciências da Natureza e suas Tecnologias baseia-se na BNCC quanto às competências específicas a serem desenvolvidas ao longo dos três anos da etapa, que são:\n\n**Competência 1:** Analisar fenômenos naturais e processos tecnológicos, com base nas interações e relações entre matéria e energia, para propor ações individuais e coletivas que aperfeiçoem os processos produtivos, minimizem os impactos socioambientais e melhorem as condições de vida em âmbito local, regional e global.\n\n**Competência 2:** Analisar e utilizar interpretações sobre a dinâmica da Vida, da Terra e do Cosmos para elaborar argumentos, realizar previsões sobre o funcionamento e a evolução dos seres vivos e do Universo, e fundamentar e defender decisões éticas e responsáveis.\n\n**Competência 3:** Investigar situações-problema e avaliar aplicações do conhecimento científico e tecnológico e suas implicações no mundo, utilizando procedimentos e linguagens próprios das Ciências da Natureza, para propor soluções que considerem demandas locais, regionais e/ou globais, e comunicar suas descobertas e conclusões a públicos variados, em diversos contextos e por meio de diferentes mídias e tecnologias digitais de informação e comunicação (TDIC).\n\nA partir das três competências específicas, as quais devem ser trabalhadas à luz das dez competências gerais da Educação Básica, desenvolvem-se as habilidades da área, que estão propostas na BNCC e que são trazidas no Quadro 1, complementadas pelas habilidades sugeridas para o currículo gaúcho, as quais podem ser trabalhadas em um, dois ou nos três anos do Ensino Médio, conforme as sugestões abaixo ou a critério do professor em seu planejamento, com vistas às especificidades do território e que estão elencadas na coluna Habilidades RS.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

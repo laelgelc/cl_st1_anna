@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03bbc1b9a051a0af006ab30d7e54d087d2a946746cd6f22905",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 730,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1155,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 1885
+    }
+  },
+  "created_at": "2026-09-22T23:21:44Z",
+  "duration_seconds": 9.925,
+  "error": null,
+  "excerpt_id": "rr_inf_8",
+  "filename": "rr_inf_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0271f26e566c3e66d63b8c22b6485ecdf6ea9b43aedd1e53751769ea10d34793",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "eb99ee90b1437ab958dd43496e6f27a3cda420d8a453cf3686b47f03ad77d796",
+    "rendered_prompt_sha256": "810cae68a608615cac6cb5c1d9c6741b9e222aa70bdec2b62f975e56de6677d0",
+    "source_text_sha256": "3810bcfacd47d090b29ec363958c10857dcf7b3cdf3315803fd68df125a33fe1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3531,
+    "filename": "rr_inf_8.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_8.txt",
+    "state": "rr",
+    "word_count_original": 476
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_8.json"
+  },
+  "raw_response_text": "### 3.4.1 O EU, O OUTRO E NÓS\n\nÉ na interação com outras crianças e adultos que as crianças vão se constituindo como alguém com um modo próprio de agir, sentir e pensar. Conforme vivem suas primeiras experiências de cuidado pessoal e outras práticas sociais recíprocas, na família, na instituição educacional ou na coletividade, constroem percepções e perguntas sobre si, diferenciando-se e, simultaneamente, identificando-se com os demais. Nesse processo, as crianças aprendem a distinguir e a expressar sensações, percepções, emoções e pensamentos, o que lhes possibilita, posteriormente, considerar o ponto de vista do outro, se opor ou concordar com seus pares, entendendo os sentimentos, os motivos, as ideias e o cotidiano dos parceiros.\n\nAo mesmo tempo em que participam de relações sociais e de cuidados pessoais, as crianças constroem sua autonomia e senso de autocuidado, de reciprocidade e de interdependência com o meio. Por sua vez, o contato com outros grupos sociais e culturais, outros modos de vida, diferentes atitudes, técnicas e rituais de cuidados pessoais e do grupo, costumes, celebrações e narrativas amplia o modo de a criança perceber a si e ao outro, levando-a a não assumir preconceitos, garantindo o diálogo, a valorização de sua identidade e o reconhecimento e o respeito às diferenças que nos constituem como seres humanos.\n\nEsse campo destaca experiências que possibilitem às crianças, na interação com outras crianças e adultos, viverem situações de atenção pessoal e outras práticas sociais, nas quais aprendem a se perceber como um EU, alguém que tem suas características, desejos, motivos, concepções; a considerar seus parceiros como o OUTRO, com seus desejos e interesses próprios; e a tomar consciência da existência de um NÓS, um grupo humano cada vez mais ampliado e diverso. Nesse processo, vão se constituindo como alguém com um modo próprio de agir, sentir e pensar.\n\nA ênfase neste campo de experiências está ligada à constituição de atitudes nas relações vividas ao longo de toda a permanência da criança na unidade de Educação Infantil, abrindo caminho para outras aprendizagens.\n\nCom a intenção de garantir os objetivos de aprendizagem e desenvolvimento desse campo de experiências, o trabalho pedagógico ganha força ao considerar a organização de situações que contemplem experiências de relação com os companheiros, de autoconhecimento e cuidado de si mesmo.\n\nAo mesmo tempo, podem-se favorecer interações positivas com as crianças enquanto realizam ações de cuidados individuais, como as trocas de fraldas, banho, sono e alimentação, de modo comunicativo e atento, em um ambiente planejado, seguro, aconchegante e diversificado, apoiando-as e incentivando-as a terem maior autonomia em relação aos seus cuidados pessoais. É importante, ainda, construir com as crianças, no decorrer das atividades cotidianas, o entendimento de cuidar da saúde e bem-estar e criar com elas hábitos ligados à limpeza e preservação do ambiente, à coleta do lixo produzido nas atividades e à reciclagem de inservíveis.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

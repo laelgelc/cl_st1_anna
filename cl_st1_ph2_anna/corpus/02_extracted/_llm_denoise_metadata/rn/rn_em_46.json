@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_083805a335fcc4b7006ab30b2c61d487d29808410b2f53e713",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 249,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 210,
+      "output_tokens_details": {
+        "reasoning_tokens": 54
+      },
+      "total_tokens": 459
+    }
+  },
+  "created_at": "2026-09-22T23:11:42Z",
+  "duration_seconds": 2.38,
+  "error": null,
+  "excerpt_id": "rn_em_46",
+  "filename": "rn_em_46.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "376f6a77df783e53129602d39219a235cd2fd56993c8b184e46643ccdb1b8629",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "861b1b7b853bf58c1f618e087cebd5b2dada49334ebb725d80130424e521f67c",
+    "rendered_prompt_sha256": "8c97c88c03575fde0fe4d4f5456109fd95953036ac4f1017f58c76b5720cc384",
+    "source_text_sha256": "21b351f24a76ef8b4db231ce2b186c9eb953fea939e7ee3572e7695d1fdd907f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_46.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3047,
+    "filename": "rn_em_46.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_46.txt",
+    "state": "rn",
+    "word_count_original": 98
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_46.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_46.json"
+  },
+  "raw_response_text": "### 7.2 MATRIZ DAS HABILIDADES DOS ITINERÁRIOS FORMATIVOS\n\nOs Eixos Estruturantes que integram os Itinerários Formativos, uma vez incorporados ao Referencial Curricular e incluídos à prática pedagógica dos educadores, pretendem proporcionar a experimentação de diferentes situações de aprendizagem aos estudantes, desenvolvendo um conjunto diversificado de habilidades relevantes para a sua formação integral.\n\nCom o intuito de facilitar o acesso às habilidades dos Itinerários Formativos associadas às Competências Gerais da BNCC e aos eixos estruturantes, apresentamos abaixo os quadros que integram os Eixos Estruturantes para cada uma das quatro áreas do conhecimento e para a Educação Profissional e Tecnológica.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

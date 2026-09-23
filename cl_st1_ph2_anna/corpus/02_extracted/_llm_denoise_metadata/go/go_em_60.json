@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05ed13065a8a2b7b006ab30161096887d295e2b0616f8f200c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1354,
+      "input_tokens_details": {
+        "cache_write_tokens": 1351,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1377,
+      "output_tokens_details": {
+        "reasoning_tokens": 198
+      },
+      "total_tokens": 2731
+    }
+  },
+  "created_at": "2026-09-22T22:30:02Z",
+  "duration_seconds": 9.342,
+  "error": null,
+  "excerpt_id": "go_em_60",
+  "filename": "go_em_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "17754396aec86cf6753facb7836411979866c4d520205050c856a34e8f631a56",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b4830c2ea955726849d346f1d901bf10f288497159d17bcff6757db5d164c086",
+    "rendered_prompt_sha256": "2544f295764edc06991dac48483ef861eccc48b992513a4c4cc4068f524aa1dd",
+    "source_text_sha256": "e0acb45b32e2dd78fda19910dfc60670b3c6ec8880676ebd491f6c5926166b10"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1186,
+    "filename": "go_em_60.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_60.txt",
+    "state": "go",
+    "word_count_original": 855
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_60.json"
+  },
+  "raw_response_text": "### 1.2 - Eletivas\n\nAs Eletivas são componentes curriculares de livre escolha dos/as estudantes para fins de enriquecimento cultural, diversificação de experiências, aprofundamento e/ou atualização de algum conhecimento específico que pode estar ou não associado às trilhas do seu Itinerário Formativo. Além disso, têm como objetivo discutir temas atuais e desenvolver habilidades, atitudes e valores para enriquecer e aprofundar as aprendizagens da Formação Geral Básica e/ou das trilhas de aprofundamento. São também uma forma de estimular o/a estudante a desenvolver o seu Projeto de Vida por meio de habilidades relacionadas às dimensões pessoal, profissional e social.\n\nAs Eletivas possuem intencionalidade pedagógica, precisam ir além do convencional e devem ser propostas pela escola. Devem ser planejadas e executadas de forma atrativa para que complementem o ensino-aprendizagem, possibilitado pela Formação Geral Básica e pelas trilhas de aprofundamento, ao mesmo tempo em que também buscam garantir a autonomia da unidade escolar e dos/as estudantes ao escolherem conforme, sua realidade e suas necessidades pedagógicas. Para a construção do componente curricular eletivo, os/as professores/as e a unidade escolar deverão fazer um diagnóstico com o objetivo de identificar pontos de atenção e interesse dos/as estudantes. A partir desse diagnóstico, devem construir um plano de curso/anual propondo Eletivas que fortaleçam as áreas do conhecimento da Formação Geral Básica e das trilhas de aprofundamento, conectadas aos eixos estruturantes dos Itinerários Formativos.\n\nAssim, todas as Eletivas que compõem a matriz curricular das unidades escolares da Seduc-GO devem ser propostas de forma coletiva pela equipe pedagógica e/ou docente, por meio de plano de curso (modelo anexo), em que se analise a realidade local, o interesse e as necessidades dos/as estudantes, bem como respeitando a qualificação dos/as professores/as. Esse plano de curso deve ser validado pelos/as representantes das Coordenações Regionais de Educação (CRE) que atuam diretamente nas unidades escolares tais como assessores/as pedagógicos/as e tutores/as educacionais. Sendo que no processo de validação das Eletivas considerará como pontos centrais, o diálogo/articulação com as competências gerais da BNCC, com as áreas do conhecimento e com os quatro eixos estruturantes dos Itinerários Formativos: Investigação Científica (I.C.), Processos Criativos (P.C.), Mediação e Intervenção Sociocultural (M.I.S.) e Empreendedorismo (E.) que serão melhor estruturados posteriormente.\n\nPreferencialmente as Eletivas devem ser ministradas por professores/as efetivos/as e com formação na área à qual a Eletiva se relaciona. No caso de Eletivas relacionadas ao mundo do trabalho ou da formação técnica profissional convém que o/a professor/a modulado/a possua notório saber conforme preconizado pela Lei 13.415/17. Para que o/a estudante tenha, de fato, o direito de escolha é necessário que a unidade escolar oferte, no mínimo, dois componentes curriculares eletivos, por série, para que o/a estudante escolha qual irá cursar, conforme explicado anteriormente.\n\nSobre os componentes curriculares eletivos é necessário ressaltar que devem receber o mesmo tratamento em relação aos demais componentes curriculares da Formação Geral Básica e dos Itinerários Formativos nos seguintes aspectos: aulas presenciais e/ou mediadas por tecnologia (caso contemple no plano de curso), modulação de professores/as, diários, entre outros.\n\nConforme as Recomendações e Orientações para Elaboração de Arquitetura Curricular dos Itinerários Formativos (CONSED, 2019), embora as Eletivas não precisem necessariamente atribuir notas, é recomendado que haja um produto final e/ou um momento de culminância, estimulando a participação efetiva dos/as jovens, a valorização de seus talentos e sua dedicação no processo de desenvolvimento dos componentes curriculares escolhidos. Nesse sentido, recomenda-se também, a disposição de alguns mecanismos avaliativos, tais como:\n\n- devolutivas aos/às estudantes, pós acompanhamento de sua evolução ao longo das Eletivas para que percebam seus avanços e pontos de atenção;\n- registros de um nível mínimo de frequência e participação nas atividades visando mais engajamento dos/as jovens do que um critério de avaliação da Eletiva;\n- uso de instrumentos de observação e autoavaliação para mensurar resultados que estejam alinhados à natureza das Eletivas e;\n- análise do envolvimento pessoal do/a estudante, bem como sua disposição em contribuir coletivamente e participar da elaboração do produto final da Eletiva escolhida.\n\nÉ importante destacarmos que não são componentes curriculares tradicionais, apoio pedagógico ou atividades de reforço. Podendo ser citadas as seguintes metodologias: trabalhos de campo, grupos de pesquisa, clubes de leitura, dinâmicas, gincanas, processos de produção de jornais/rádio escolares, entre outras que fundamentais para aperfeiçoar o modo como o conhecimento é socializado com os/as estudantes.\n\nO/a estudante poderá escolher Eletivas na mesma área do conhecimento em que estiver cursando o Itinerário Formativo (ou trilha de aprofundamento) ou optar pela diversificação da sua formação por meio de Eletivas de outras áreas do conhecimento e/ou ainda do ensino profissional e tecnológico. O sentimento de poder escolher e a tomada de decisão fortalecem a autoestima, e são fundamentais para a aprendizagem inclusive do ponto de vista cognitivo, oportunizando o protagonismo estudantil e contribuindo para a investigação das aptidões que possui, o que atrai a atenção para o ambiente escolar, fortalecendo também, o sentimento de pertencimento àquela escola.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

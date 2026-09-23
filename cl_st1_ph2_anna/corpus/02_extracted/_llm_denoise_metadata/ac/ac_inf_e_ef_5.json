@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f28f6cc105c037a006ab2fc29140087d28e2ec80113ff3b20",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 576,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 569,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 1145
+    }
+  },
+  "created_at": "2026-09-22T22:07:42Z",
+  "duration_seconds": 5.058,
+  "error": null,
+  "excerpt_id": "ac_inf_e_ef_5",
+  "filename": "ac_inf_e_ef_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4f6585acf7897a149bf4263377aee169343df7572ca02f5427fdc5172be8af01",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3bce223019b04f7d2a38d395ca7722d2de776aecb9572a4e8211d8054030c597",
+    "rendered_prompt_sha256": "73e41f3c35dacdd52fcecc1a496d7f4620be665c03aea6ddc801435f776fcf52",
+    "source_text_sha256": "4df31dc4bd3cf47d34efa868e072ac82ac72898ef4b064e82d4658c5bcfbe2cc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_inf_e_ef_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 135,
+    "filename": "ac_inf_e_ef_5.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_inf_e_ef_5.txt",
+    "state": "ac",
+    "word_count_original": 354
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_inf_e_ef_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_inf_e_ef_5.json"
+  },
+  "raw_response_text": "## 3. PROFESSORES E ESTUDANTES: PROTAGONISTAS DO ENSINO E DA APRENDIZAGEM\n\nNão há educação escolar, nem currículo, nem ensino sem professores e estudantes. Nesse sentido, vale aqui um destaque importante. Há hoje um curioso ponto de intersecção que diz respeito à formação de alunos e professores: por serem desdobramentos das capacidades humanas, as mesmas competências gerais definidas pela Base Nacional Comum Curricular para a Educação Básica se colocam também para as propostas de formação dos professores.\n\nEvidentemente, o desafio de tornar realidade as recomendações previstas na BNCC pressupõem implementar políticas públicas que viabilizem as mudanças esperadas no ensino para garantir os diferentes saberes que são direitos de aprendizagem dos alunos.\n\nAs competências gerais que se pretende que os alunos desenvolvam ao longo do percurso escolar jamais serão realidade se os professores não forem capazes de realizar um trabalho educativo que, de fato, contribua nesse sentido. E, para que isso ocorra, eles próprios têm o direito à uma formação que conte a favor do desenvolvimento de suas competências gerais. Nesse sentido, será fundamental garantir o alinhamento dos processos relacionados ao currículo dos alunos e à formação docente.\n\nAs transformações em curso na realidade do mundo fora da escola evidentemente têm consequências em seu interior e exigem mudanças na educação. Dois efeitos dessas transformações são inequívocos e irreversíveis: o conhecimento não está mais somente na escola e os alunos não são mais os mesmos de antes.\n\nOs documentos curriculares produzidos nas últimas décadas convergem ao apontar a direção de algumas mudanças que não podem mais esperar. A função da escola é outra, as intenções educativas são outras, as propostas são outras. Portanto, terão de ser outras as abordagens metodológicas e terão de ser outros os tipos de intervenção pedagógica. É outro o papel do professor e, por isso, outros terão de ser os programas de formação. Ao professor, caberá a mediação de propostas pautadas em uma ética do cuidado pedagógico, para promover um deslocamento radical de foco no processo educativo – do ensino para a aprendizagem –, o que por sua vez produz um deslocamento radical no papel do professor – de transmissor de informação para mediador de aprendizagens.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0950e36c1ad08925006ab304cbb53887d2be9e4eac47514ee5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 602,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 562,
+      "output_tokens_details": {
+        "reasoning_tokens": 102
+      },
+      "total_tokens": 1164
+    }
+  },
+  "created_at": "2026-09-22T22:44:33Z",
+  "duration_seconds": 5.416,
+  "error": null,
+  "excerpt_id": "mt_em_21",
+  "filename": "mt_em_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "61679a4e07ae87ece53f53dddddae617a029e4fef53dcecbf2725a962df4ee21",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a8963cfc67487551f5590ae065abb66cb00e09d6c96f05c96e01c6daf15062e0",
+    "rendered_prompt_sha256": "f6e0055a6bde445ae739d5a54559c0c09e7b94204e103a0cc0466c0fd3e9efce",
+    "source_text_sha256": "75eea45a41f43d4e55b531da9d2bde185506488f2bfbd3146e788bfaf5ff79db"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1912,
+    "filename": "mt_em_21.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_21.txt",
+    "state": "mt",
+    "word_count_original": 330
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_21.json"
+  },
+  "raw_response_text": "### 4.3.6 Tecnologias Digitais da Informação e Comunicação e Saberes Indígenas\n\nAs tecnologias digitais da informação e comunicação devem estar inseridas no ambiente educativo na Escola Indígena proporcionando um diálogo intercultural aos estudantes. No Ensino Médio, as mídias são instrumentos de valorização dos saberes, corroboram para a elaboração de textos mais complexos, como narrativas com desenhos e grafias indígenas que enfatizam a cultura de cada povo. Nesse sentido, conhecer esses instrumentos deve possibilitar ao estudante ser capaz de desenvolver as seguintes habilidades, por exemplo:\n\n- Conhecer e valorizar as expressões artísticas da sua cultura, compreendendo-as como um dos aspectos formadores da identidade étnica e linguística;\n- Compreender os significados de atividades físicas e culturais do seu povo e desenvolver trabalhos de pesquisa que levem à sua revitalização.\n\n### 4.3.7 O Papel Educativo da Arte Indígena\n\nOs povos indígenas se diferenciam entre si a partir de suas representações culturais através das suas danças, grafismos, ritos, modos de vida que expressam sua identidade. Na Escola Indígena as diversas manifestações e expressões étnicas representam patrimônios culturais que devem ser valorizados, documentados e divulgados por meio do currículo.\n\nA expressão corporal deve privilegiar o caráter lúdico da dança, do jogo, da ginástica do esporte e da luta. Esse tema da cultura corporal deve estar imbuído dos valores da comunidade indígena. A arte indígena, enquanto objeto de conhecimento do currículo da educação escolar indígena deve proporcionar ao estudante:\n\n- Desenvolvimento de habilidades e competências individuais e coletivas em relação às diferentes modalidades artísticas locais e globais;\n- Conhecimento das formas de arte existente em outros povos, compreendendo por intermédio delas a questão da diversidade cultural;\n- Visibilidade de expressões que valorizem a cultura e a identidade étnica indígena e o saber dos especialistas e produtores de arte de sua sociedade.\n\nAssim diferentes recursos naturais, técnicas e demais materiais podem ser explorados e trabalhados pelos estudantes, podendo o professor proporcionar a eles diferentes atividades para que possam criar e recriar formas de expressões e comunicação das artes culturais.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

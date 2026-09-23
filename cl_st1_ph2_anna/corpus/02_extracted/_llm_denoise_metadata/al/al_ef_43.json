@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0136283644411530006ab2fc564c0487d2857dbee3e669f9a7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 678,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 833,
+      "output_tokens_details": {
+        "reasoning_tokens": 306
+      },
+      "total_tokens": 1511
+    }
+  },
+  "created_at": "2026-09-22T22:08:28Z",
+  "duration_seconds": 5.843,
+  "error": null,
+  "excerpt_id": "al_ef_43",
+  "filename": "al_ef_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "80cffa668da37ad9af3c254de3dbb66eeba0ad59f1e0e5eb0ae7e70158fc2b45",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c58ff346abfc74f272d2bd7c034d39487a013650a3652ec35a53a958d4288b4c",
+    "rendered_prompt_sha256": "fa3cd41fb4a4ac5f0b25e5fcb2b1aa72cdbaa20cdcf1040c21344cb910dc6564",
+    "source_text_sha256": "ec47a13e2954a29af64dd5fb3a97e9c0994fbc545da81a0c248b2890035a78a6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 179,
+    "filename": "al_ef_43.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_43.txt",
+    "state": "al",
+    "word_count_original": 399
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_43.json"
+  },
+  "raw_response_text": "### 10.4 Objetos de conhecimento e os conteúdos\n\nOs objetos de conhecimento a serem trabalhados no Referencial Curricular de Alagoas direcionam caminhos, como conteúdos, conceitos e processos artísticos devem ser explorados em cada linguagem que, por sua vez, definem as combinações de objetos e habilidades a serem trabalhadas e seus desdobramentos.\n\nÉ importante observar que os objetos de conhecimento conforme a BNCC mudam de acordo com a linguagem artística ou unidade temática a ser trabalhada. Conforme quadros abaixo, os três primeiros objetos são comuns a todas as linguagens e apenas um às Artes Integradas. O objeto materialidades é trabalhado somente em Artes Visuais e Música e outros objetos são específicos para Artes Integradas, Artes Visuais e Música.\n\n### 10.5 Habilidades\n\nAs habilidades garantem o desenvolvimento das competências específicas de Arte e expressam as aprendizagens essenciais que devem ser asseguradas.\n\nRelacionadas aos objetos de conhecimento, as habilidades estão sempre vinculadas à linguagens artísticas específicas, que, em conformidade com a BNCC, estão devidamente identificadas com seus respectivos códigos.\n\n#### 10.5.1 As habilidades nos Anos Iniciais\n\nAs habilidades nos Anos Iniciais são as mesmas do 1º ao 5º ano, sendo 26 específicas para os Anos Iniciais, com o intuito de permitir que os Sistemas e as Redes de Ensino, as escolas e os professores organizem seus currículos e suas propostas pedagógicas, com a devida adequação aos seus contextos e especificidades.\n\nA progressão das aprendizagens não está proposta de forma linear, rígida ou cumulativa com relação a cada linguagem ou objeto de conhecimento, mas propõe um movimento, no qual, cada nova experiência se relaciona com as anteriores e as posteriores na aprendizagem de Arte.\n\n#### 10.5.2 As habilidades nos Anos Finais\n\nAs habilidades nos Anos Finais são as mesmas do 6º ao 9º ano, sendo 35 específicas para os Anos Finais, com o intuito de permitir que os Sistemas e as Redes de Ensino, as escolas e os professores organizem seus currículos e suas propostas pedagógicas, com a devida adequação aos seus contextos e especificidades.\n\nA progressão das aprendizagens não está proposta de forma linear, rígida ou cumulativa com relação a cada linguagem ou objeto de conhecimento, mas propõe um movimento, no qual, cada nova experiência se relaciona com as anteriores e as posteriores na aprendizagem de Arte.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

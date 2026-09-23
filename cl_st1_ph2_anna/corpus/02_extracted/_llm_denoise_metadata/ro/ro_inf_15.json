@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06456fc9b60c27a0006ab30c9aa31887d2923132065e3d9c1a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 532,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 632,
+      "output_tokens_details": {
+        "reasoning_tokens": 196
+      },
+      "total_tokens": 1164
+    }
+  },
+  "created_at": "2026-09-22T23:17:52Z",
+  "duration_seconds": 5.62,
+  "error": null,
+  "excerpt_id": "ro_inf_15",
+  "filename": "ro_inf_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "95e536bfb027832892c8bef406bd5713a41d7281e89d2ce7dc171293dffd2484",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "299558643c6a5b2a7a2bb7343f7dbbd49f6979d53671bf142f21364d09ef7eb4",
+    "rendered_prompt_sha256": "e3d245898707e46ed27316cd857d1a4bd2d2b6e8ba8c78f0c24ca3830f92ae22",
+    "source_text_sha256": "20b6a33a71b211e51cbcf3880d71daa93cbc132f3fe6c81bd62ad4413702ee12"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3327,
+    "filename": "ro_inf_15.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_15.txt",
+    "state": "ro",
+    "word_count_original": 314
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_15.json"
+  },
+  "raw_response_text": "Segundo a LDB (Lei nº 9.394/96), em seu artigo 21, a educação escolar é dividida em dois níveis: Educação Básica e Educação Superior. A partir da mesma lei, a Educação Básica passou a ser estruturada por etapas e modalidades de ensino, englobando a Educação Infantil, o Ensino Fundamental obrigatório de nove anos e o Ensino Médio.\n\nNo contexto da divisão por modalidade, cabe às instituições de Educação Infantil atender a todas as crianças, respeitando as suas singularidades e peculiaridades, ofertando educação pautada em direitos humanos para as relações étnico-raciais, sociais e culturais. Assim, o currículo atua no sentido de focalizar as diferenças evidenciadas na realidade amazônica para que todas as crianças tenham a mesma oportunidade de usufruir de uma educação de qualidade, envolvendo os aspectos físicos, afetivos, cognitivos, éticos, estéticos, a inserção social e a relação interpessoal, respeitando a diversidade como prática fundamental a ser incorporada no trabalho educativo.\n\nA ação educativa comprometida com a cidadania e com a formação de uma sociedade democrática e não excludente deve, necessariamente, promover o convívio com a diversidade, que é marca da vida social brasileira. Essa diversidade inclui não somente as diversas culturas, os hábitos, os costumes, mas também as competências e as particularidades individuais. Logo, aprender a conviver e relacionar-se com pessoas que possuem habilidades e competências diferentes, que possuem expressões culturais e marcas sociais próprias, é condição necessária para o desenvolvimento de valores éticos, como a dignidade do ser humano, o respeito ao outro, a igualdade, a equidade e a solidariedade (RCNEI/MEC, 1998).\n\nDessa forma, o currículo aborda as especificidades do trabalho com as modalidades de educação: Educação Especial; Educação Quilombola, Educação Indígena e Educação do Campo - na Educação Infantil, considerando as peculiaridades das crianças inseridas nos diversos ambientes culturais, sociais e condições especiais que conclamam uma atuação pedagógica concernente com os aspectos culturais, sociais, linguísticos e cognitivos das crianças.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

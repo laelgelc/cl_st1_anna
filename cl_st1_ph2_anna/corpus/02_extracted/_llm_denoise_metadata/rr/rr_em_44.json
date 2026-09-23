@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e55d0f0ba245348006ab30d3bec4c87d297b8f8679b056b65",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 347,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 381,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 728
+    }
+  },
+  "created_at": "2026-09-22T23:20:31Z",
+  "duration_seconds": 3.407,
+  "error": null,
+  "excerpt_id": "rr_em_44",
+  "filename": "rr_em_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4ae56eb154bac42dcdcecd225f76ac6fae768ae5ce73c28fa61c13217a5a2337",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a919c43d48d8df85d8d6bd3fcc2cf2f7b14b3f2355edabb8416df479fa8a773a",
+    "rendered_prompt_sha256": "b314231d35c83c92ab44fb54486b48d6facaa00eb20e6e65bbda75db272b02ae",
+    "source_text_sha256": "cd69652f7b2b9d67291a1f43a2469bc34a3fd125c090fffcbb288891b41c2ecf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3479,
+    "filename": "rr_em_44.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_44.txt",
+    "state": "rr",
+    "word_count_original": 153
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_44.json"
+  },
+  "raw_response_text": "Os Itinerários Formativos são organizados a partir de quatro eixos estruturantes: Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo. Tais eixos visam integrar e integralizar os diferentes arranjos de Itinerários Formativos, bem como criar oportunidades para que os estudantes vivenciem experiências educativas profundamente associadas à realidade contemporânea, que promovam a sua formação pessoal, profissional e cidadã (BRASIL, 2018d).\n\nComo os quatro eixos estruturantes são complementares, é importante que os Itinerários Formativos incorporem e integrem todos eles, a fim de garantir que os estudantes experimentem diferentes situações de aprendizagem e desenvolvam um conjunto diversificado de habilidades relevantes para sua formação integral. Para tanto, é fundamental envolver os alunos em situações de aprendizagem que os permitam produzir conhecimentos, criar, intervir na realidade e empreender projetos presentes e futuros. Para possibilitar melhor compreensão, apresentaremos os quatro eixos estruturantes, conforme os Referenciais Curriculares para a Elaboração de Itinerários Formativos – Portaria nº 1.432 (BRASIL, 2018h).",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

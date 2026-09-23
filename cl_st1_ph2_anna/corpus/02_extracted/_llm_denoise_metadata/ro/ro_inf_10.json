@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e1969e46fa790a2006ab30c91314487d2bbe8afe1aecc73cb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 779,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 963,
+      "output_tokens_details": {
+        "reasoning_tokens": 289
+      },
+      "total_tokens": 1742
+    }
+  },
+  "created_at": "2026-09-22T23:17:44Z",
+  "duration_seconds": 7.315,
+  "error": null,
+  "excerpt_id": "ro_inf_10",
+  "filename": "ro_inf_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "db6085cdbea046e062959531d6aaee25c689df990c30d85d71069ad7d11b87d4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f68d09d8c3861d5d8b69910ee05e1f3112fafaa229e3e00493b9346dcedb7f02",
+    "rendered_prompt_sha256": "991f36bc0622f6721e6fbea1a3469d7b5e5633bdf1346fc9365a8612b76e48c6",
+    "source_text_sha256": "96f480238d61333a90b77e28e86500ef4a8b12ed0943325011f39e7a29ff8a6f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3322,
+    "filename": "ro_inf_10.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_10.txt",
+    "state": "ro",
+    "word_count_original": 504
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_10.json"
+  },
+  "raw_response_text": "## Eixos Estruturantes\n\n### Interações e Brincadeira\n\nAs crianças, em suas formas peculiares de comunicar-se com o mundo, têm nas interações e na brincadeira os amparos que estruturam a sua formação e apropriação do conhecimento.\n\nAs interações e brincadeira configuram-se numa forma de as crianças apreenderem o mundo a sua volta através das muitas oportunidades que lhes são cotidianamente propiciadas, é nesses momentos que têm amplas possibilidades de trocar experiências e conhecimentos com outras crianças, com seu professor e com outros educadores da instituição, pois é com essas pessoas que passam a maior parte de seu tempo, são elas com quem dividem os espaços, os objetos, com quem dialogam, a quem recorrem para atender a suas necessidades, são delas que recebem o apoio para as suas conquistas, para a superação de seus medos, são quem as integram no grupo social, são essas pessoas que as aceitam como iguais nas suas diversidades.\n\nDentro do contexto de interações, a partir da vivência de experiências socioculturais significativas e desafiantes dos saberes, que as crianças trazem quando ingressam nas instituições educativas, elas mobilizam seus conhecimentos e suas funções psicológicas – afetivas, cognitivas, motoras e linguísticas – ao tempo em que modificam e incrementam sua maneira de interagir com o mundo, produzindo e reproduzindo cultura, constitui-se, dessa forma, como sujeito potente, ativo e agente de seu próprio desenvolvimento.\n\nA partir dessa concepção da importância das interações e brincadeira no contexto do desenvolvimento humano e concebendo-as como eixos estruturantes do fazer da Educação Infantil, faz-se pertinente chamar atenção para o fascinante ato de compreender a aventura que é para todo o ser humano a aprendizagem e como ela é construída no decorrer das experiências que permeiam as interações e brincadeira, pois na amplidão de possibilidades as crianças vão se constituindo um sujeito singular.\n\nHoje cada vez mais há a necessidade da cultura do brincar e do fortalecimento das interações das crianças com outras crianças e com adultos, visto que as influências do imediatismo dos tempos modernos, do recrudescimento das técnicas, da tecnologia, da diminuição dos espaços físicos e temporais destinados ao brincar e interagir, provocado pelo desenvolvimento das indústrias de brinquedos que brincam sozinhos, pelas escolas que deixam de ver a criança como sujeito de direito à infância e atribuem às suas práticas pedagógicas o pesado fardo da mecanicidade dos processos de ensino e aprendizagem, a forte influência da televisão, das mídias eletrônicas e das redes sociais que atuam de forma a limitar a autonomia e desenvolvimento global da criança dentro do processo do brincar e interagir.\n\nDessa forma, a Educação Infantil é espaço preponderante das interações e brincadeira, quando as experiências possibilitam às crianças a apropriação de múltiplos signos criados pelo ser humano para dar sentido a suas relações com o mundo da natureza e da cultura, que incluem o mundo da técnica, da política, da ciência e das artes, dentre outras áreas da produção humana. Em síntese, interações e brincadeira se traduzem no modo próprio de as crianças construírem suas aprendizagens e se desenvolverem.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

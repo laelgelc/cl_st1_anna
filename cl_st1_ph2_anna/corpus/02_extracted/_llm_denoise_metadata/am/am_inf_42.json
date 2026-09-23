@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0cb2b611deb7a440006ab2fdb9c02887d28b4ef220ea3de49b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1293,
+      "input_tokens_details": {
+        "cache_write_tokens": 1290,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1208,
+      "output_tokens_details": {
+        "reasoning_tokens": 113
+      },
+      "total_tokens": 2501
+    }
+  },
+  "created_at": "2026-09-22T22:14:26Z",
+  "duration_seconds": 8.998,
+  "error": null,
+  "excerpt_id": "am_inf_42",
+  "filename": "am_inf_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "11c7bcb24439a49ba085b717071f3c400ece425704d4ae53dd6caac48bd33763",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "eca07e3f3e962ab0ce2bd3d89f2d815271f39eb3a15cde86082fad0ee6a4a8b8",
+    "rendered_prompt_sha256": "f6c5c3024c416aafeb448f147a4c1995e64ae7aa29b38290b2c4137fe5217b8f",
+    "source_text_sha256": "765f3066792e6ec006e65da7e302efd1b8e6a7f8775c963e74623fe2f5a5acda"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 445,
+    "filename": "am_inf_42.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_42.txt",
+    "state": "am",
+    "word_count_original": 824
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_42.json"
+  },
+  "raw_response_text": "## 20.1 Espaços: mobiliários, equipamentos e materiais na fase creche e pré-escola\n\nA organização das instituições de Educação Infantil deve considerar as orientações dos Parâmetros Básicos de Infraestrutura para Instituição de Educação Infantil (BRASIL, 2006b), que define e viabiliza a construção de Unidades de Ensino da Educação Infantil, considerando a especificidade necessária a cada faixa etária. O planejamento arquitetônico das unidades de ensino deve atender as necessidades de espaços para a aprendizagem e desenvolvimento das crianças.\n\nO dia a dia das creches e pré-escolas requer cuidado e atenção quanto aos móveis e objetos disponibilizados nas salas de referência. Estes devem ser cuidados quanto à conservação, segurança e sua adequação à faixa etária do bebê, da criança bem pequena e da criança pequena. A sala de referência deve ser organizada e limpa, orientada pelo professor e compartilhada com as crianças, contando com a participação delas na organização dos brinquedos, dos livros de histórias, dos cantos temáticos (faz de conta, música, entre outros), proporcionando à criança momentos importantes na construção da sua identidade e autonomia. No entanto, a limpeza não deve ser priorizada em detrimento das atividades, como não usar massa de modelar para que as mesas não fiquem sujas ou não fazer recorte para que não se suje o chão.\n\nA sala de referência deve ter adequada estrutura física e mobília favorável ao aprendizado e desenvolvimento. É por meio das práticas cotidianas que a criança vivencia diferentes contextos coletivos ou individuais. Por meio deles, a criança cria, fantasia e constrói situações de constituição da sua identidade pessoal, percebe o mundo e sobre ele elabora hipóteses. A mobília deve proporcionar praticidade e conforto à criança, sendo necessário que todos os mobiliários e equipamentos atendam às necessidades da rotina, ampliando a independência e a autonomia dos bebês, crianças bem pequenas e crianças pequenas por meio da interação com o meio físico e social.\n\nA definição das mobílias, mesas e cadeiras destinadas às atividades com as crianças devem atender a acessibilidade, respeitando os lugares, tamanhos, resistência, acabamentos, durabilidade e segurança, visando à prevenção de acidentes. Cada área deve ter uma função específica ou completar a função de outra: zonas circunscritas/cantos do faz de conta, de sono, de leitura, de faz de conta, de música, jogos de construção e manipulação. Estes espaços devem permitir ao professor a observação das diferentes áreas e a interação das crianças em pequenos grupos, facilitando a exploração do meio ambiente interno e externo por todos.\n\nOs móveis devem estar adequados ergonomicamente às crianças e ter seu tempo de vida útil respeitado. Há de se atentar para manter os móveis em bom estado de conservação. As estantes, prateleiras e/ou armários devem estar acessíveis e bem fixados nas paredes, com os diversos materiais educativos disponíveis. Cadeiras e mesas devem ser leves e possibilitar o deslocamento pela própria criança. Os móveis devem ser produzidos com materiais atóxicos e receber manutenção permanente, estar sempre limpos e dispostos de maneira que não apresente risco à saúde e integridade das crianças.\n\nNa escolha dos mobiliários, há de se levar em conta resistência, durabilidade, segurança (prevenção de quedas, quinas arredondadas). Os aspectos de segurança e higiene são muito importantes, mas a preocupação com eles não deve impedir as explorações e iniciativas infantis. A fixação de quadros, painéis, cartazes, entre outros, deve ser colocada à altura das crianças, permitindo que elas adquiram autonomia para pregar seus trabalhos e expressar suas ideias, personalizando o ambiente e sentindo-se sujeito dele. A adequação do mobiliário, de equipamentos e do próprio espaço ao tamanho e aspectos próprios da criança permite maior autonomia e independência, e dessa forma, favorece o processo de desenvolvimento a partir de sua interação com o meio físico.\n\nO material de higiene deve ser de uso individual, de boa qualidade e ter sua higienização e troca realizada periodicamente (escovas de dente, pentes e toalhas). Quanto aos bebedouros, vasos sanitários, pias e chuveiros, estes equipamentos devem ser olhados com especial atenção no que concerne à faixa etária, levando em conta, também, a preocupação com a acessibilidade das crianças com deficiência, pois estas devem ter acesso livre às dependências da instituição infantil.\n\nO espaço destinado a alimentação da criança deve contar com a mobília apropriada ao bebê como a cadeirinha de refeição e/ou mesas e bancos adequados à faixa etária. A acessibilidade das crianças quanto ao uso dos banheiros e suas adaptações devem atender às normas contidas nos Parâmetros Básicos de Infraestrutura para Instituição de Educação Infantil (BRASIL, 2006b) e no Manual Descritivo para Aquisição de Mobiliário (BRASIL, s.d). É importante que o ambiente físico da instituição de Educação Infantil reflita uma concepção de educação e cuidado, respeitando as necessidades de desenvolvimento das crianças. A tipologia do mobiliário irá combinar com o estabelecimento de variados arranjos de organização espacial, incentivando a cooperação e reforçando relações sociais afetivas, respondendo à necessidade de atividades individuais e/ou coletivas.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

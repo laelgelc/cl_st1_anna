@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_054105df31790a01006ab302e41a5487d2974d2ce38b947170",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 881,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 954,
+      "output_tokens_details": {
+        "reasoning_tokens": 213
+      },
+      "total_tokens": 1835
+    }
+  },
+  "created_at": "2026-09-22T22:36:27Z",
+  "duration_seconds": 7.901,
+  "error": null,
+  "excerpt_id": "mg_em_107",
+  "filename": "mg_em_107.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "798a0aaf9a9832df957729a4bfe4134b6e8ec999fe827a7b332974d2b86a565f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "de90d4428bb0cb4fcfa9fb6914690de37c0d2d6acf88ee5bade382d1a3d0abca",
+    "rendered_prompt_sha256": "15bbda7f65ff93b8fcc91f27b0948a1784cfe922f46fe7eb1fb567b172b0566a",
+    "source_text_sha256": "da63ad44f580b338c596c56ad8705bd77f5db750c6b6a21fc7a3d31bc0bf9a84"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_107.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1494,
+    "filename": "mg_em_107.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_107.txt",
+    "state": "mg",
+    "word_count_original": 547
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_107.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_107.json"
+  },
+  "raw_response_text": "## 5.5 A Educação Profissional e Técnica como itinerário formativo\n\nOs Itinerários Formativos são compostos por conjuntos de unidades curriculares em que os estudantes podem escolher, de acordo com seus interesses e com as possibilidades apresentadas, percursos que lhes oferecerão oportunidades de aprofundar e ampliar as aprendizagens em uma ou mais áreas da Formação Geral e/ou na Formação Técnica e Profissional. Desse modo, a última etapa da educação básica passa a garantir o acesso a modelos de escolarização diversificados que buscam alinhamento com as realidades vivenciadas pelas juventudes, contemplando seus anseios e expectativas em diálogo com as demandas da contemporaneidade.\n\nNo contexto da oferta do 5º itinerário, a educação profissional e tecnológica buscará estruturar modelos de formação que garantam o desenvolvimento e a aprendizagem dos jovens em convergência com a preparação para o mundo do trabalho e que tenham este último – o trabalho – como princípio formativo, sobrepondo-o a qualquer demanda fragmentada de formação de mão de obra. Como desdobramentos, os percursos poderão apresentar variados formatos, tendo em comum o princípio da formação humana integral, garantindo a construção e o aprimoramento de habilidades e competências que possibilitem ações e intervenções cada vez mais qualificadas e potentes do ponto de vista das transformações sociais necessárias.\n\nA proposta formativa, ora apresentada, vai ao encontro das orientações pedagógicas e normativas vigentes, apontando para um modelo escolar que supere as dicotomias e fragmentações historicamente estruturadas e promova uma trajetória capaz de formar seres humanos competentes para atuar de forma solidária, ética e inclusiva em um mundo com rotinas e processos cada vez mais dinâmicos e fluidos. Desta forma, a oferta de possibilidades formativas em diálogo com o mundo do trabalho é potencializadora de respostas sociais por meio da educação formal.\n\nA LDB/96 institui a preparação do jovem para a vida social, política e produtiva com orientação ao trabalho e a Lei Nº 13.005/2014 aponta, entre as diretrizes do Plano Nacional da Educação, a “formação para o trabalho e para a cidadania, com ênfase nos valores morais e éticos em que se fundamenta a sociedade” bem como a “promoção humanística, científica, cultural e tecnológica.” E, recentemente, a Lei Nº 13.415/2017 consolida o Ensino Médio com o mínimo de 3000 horas totais, trazendo a possibilidade de articulação com a formação técnica e profissional. Traz, também, as 10 competências gerais a serem desenvolvidas ao longo de toda a educação básica em uma clara delimitação de que esse tempo escolar está a serviço de muito mais do que a aquisição e o domínio de conhecimentos de um ou outro componente curricular.\n\nO que buscamos é a construção e o fortalecimento da escola como tempo e espaço de aprendizagens integradas e significativas que se somam e se ampliam, possibilitando cada vez mais a atuação autônoma e transformadora. O itinerário formativo que promoverá a formação técnica e profissional se estruturará a partir da integração entre os diferentes saberes das áreas do conhecimento às dimensões do trabalho, da ciência e da tecnologia, assegurando a compreensão dos fundamentos científico-tecnológicos. Dessa forma, o itinerário formativo irá promover a preparação básica para o trabalho e a cidadania, contribuindo para que o estudante possa desenvolver-se integralmente e exercer com liberdade, responsabilidade e protagonismo seus papéis sociais: estruturar, empreender e realizar seu Projeto de Vida.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

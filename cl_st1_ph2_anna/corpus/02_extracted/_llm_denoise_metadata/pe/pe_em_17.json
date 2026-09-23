@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0040588fabe5e86b006ab30806b8bc87d2b507cd0f35fc06c5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 672,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 965,
+      "output_tokens_details": {
+        "reasoning_tokens": 399
+      },
+      "total_tokens": 1637
+    }
+  },
+  "created_at": "2026-09-22T22:58:25Z",
+  "duration_seconds": 10.88,
+  "error": null,
+  "excerpt_id": "pe_em_17",
+  "filename": "pe_em_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dfc7146f88cf1d9e201ac265999ccdd28ad8b077d9b00d19f7f838460bb79525",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9502505c92e3a6d9d69e927c02cf62009ea0860881a3ce0bc6d55bed03f0bd50",
+    "rendered_prompt_sha256": "877c87e96a47d669288b2ed1299d96f8747d771bb1eb695645716a78c993e3bb",
+    "source_text_sha256": "b53ed9d98c2fdc3c01aeb72230dc3f361c9e3cc68a7219012cc80daa3281cf89"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2472,
+    "filename": "pe_em_17.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_17.txt",
+    "state": "pe",
+    "word_count_original": 404
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_17.json"
+  },
+  "raw_response_text": "# Interface entre Ensino Fundamental e Ensino Médio por área do conhecimento\n\n| Área do conhecimento | Ensino Fundamental | Ensino Médio |\n|---|---|---|\n| Linguagens | Centra-se no conhecimento, na compreensão, na exploração, na análise e na utilização das diferentes linguagens, visando estabelecer um repertório diversificado sobre as práticas de linguagem e desenvolver o senso estético e a comunicação com o uso das tecnologias digitais. | Foco na ampliação da autonomia, do protagonismo e da autoria nas práticas de diferentes linguagens; na identificação e na crítica aos diferentes usos das linguagens, explicitando seu poder no estabelecimento de relações; na apreciação e na participação em diversas manifestações artísticas e culturais; e no uso criativo das diversas mídias. |\n| Matemática | Centra-se na compreensão de conceitos e procedimentos em seus diferentes campos e no desenvolvimento do pensamento computacional, visando à resolução e formulação de problemas em contextos diversos. | Os estudantes devem consolidar os conhecimentos desenvolvidos na etapa anterior e agregar novos, ampliando o leque de recursos para resolver problemas mais complexos, que exijam maior reflexão e abstração. Também devem construir uma visão mais integrada da Matemática, da Matemática com outras áreas do conhecimento e da aplicação da Matemática à realidade. |\n| Ciências da Natureza | Propõe aos estudantes investigar características, fenômenos e processos relativos ao mundo natural e tecnológico, explorar e compreender alguns de seus conceitos fundamentais e suas estruturas explicativas, além de valorizar e promover os cuidados pessoais e com o outro, o compromisso com a sustentabilidade e o exercício da cidadania. | Oportuniza o aprofundamento e a ampliação dos conhecimentos explorados na etapa anterior. Trata a investigação como forma de engajamento dos estudantes na aprendizagem de processos, práticas e procedimentos científicos e tecnológicos, e promove o domínio de linguagens específicas, o que permite aos estudantes analisar fenômenos e processos, utilizando modelos e fazendo previsões. |\n| Ciências Humanas | Define aprendizagens centradas no desenvolvimento das competências de identificação, análise, comparação e interpretação de ideias, pensamentos, fenômenos e processos históricos, geográficos, sociais, econômicos, políticos e culturais. | Com a incorporação da Filosofia e da Sociologia, a área de Ciências Humanas e Sociais Aplicadas propõe o aprofundamento e a ampliação da base conceitual e dos modos de construção da argumentação e sistematização do raciocínio, operacionalizados com base em procedimentos analíticos e interpretativos. |\n\nAs especificidades do Ensino Médio, no que diz respeito ao aprofundamento previsto e aos novos conhecimentos dos quais os estudantes precisam se apropriar, devem ser claras para os professores e estudantes, de forma que essa etapa se revista de significado para ambos.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

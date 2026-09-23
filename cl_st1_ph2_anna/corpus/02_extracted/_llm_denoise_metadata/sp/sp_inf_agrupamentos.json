@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05eb35a49cdac38c006ab30fca640487d28b3a045a056be330",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 650,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 684,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 1334
+    }
+  },
+  "created_at": "2026-09-22T23:31:28Z",
+  "duration_seconds": 5.85,
+  "error": null,
+  "excerpt_id": "sp_inf_agrupamentos",
+  "filename": "sp_inf_agrupamentos.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d3b0bee28acd181316a81d8d5f8c98ad5b1259535fa221289776f14d96bc96b6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "59757a6e20029cc95224f0f6551081155a6c5e6368ec87ffaefe8e5994dd0bbc",
+    "rendered_prompt_sha256": "49f28e07799a6031b059869427629145b9054af56807757012a47b84b3b3bfcf",
+    "source_text_sha256": "179f23421f4cb18def1bf507dedbe4ce55972a3e2091fecc59959efebeafe03d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_inf_agrupamentos.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3947,
+    "filename": "sp_inf_agrupamentos.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_inf_agrupamentos.txt",
+    "state": "sp",
+    "word_count_original": 373
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_inf_agrupamentos.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_inf_agrupamentos.json"
+  },
+  "raw_response_text": "### Agrupamentos - os diferentes grupos etários da Educação Infantil\n\nA infância é entendida como um processo complexo e inteiro, não cindido em etapas etárias. Desse modo, para preservar a integralidade da infância, optou-se por nomear esses grupos de acordo com as etapas da vida, ligados às passagens fundamentais vividas nesses diferentes tempos.\n\nPensar a infância como um todo implica em considerar as singularidades do ponto de vista das experiências humanas de desenvolvimento e as importantes passagens vividas pela criança no período entre seu nascimento até 5 anos e 11 meses.\n\nO bebê, por exemplo, se diferencia das crianças bem pequenas pela sua incompletude motora, o que exige do adulto e da instituição uma organização acolhedora e, ao mesmo tempo, desafiadora em relação a essa condição. As crianças pequenas, por sua vez, diferenciam-se das crianças menores pelo salto na capacidade de representação do mundo e projeção das próprias ações.\n\nPara compreender essa passagem, na BNCC, optou-se por constituir subgrupos distribuídos por momentos da infância, marcados pela complexidade no contexto das experiências. O documento ressalta ainda que esses grupos não podem ser considerados de forma rígida, já que há diferenças de ritmo na aprendizagem e no desenvolvimento das crianças que precisam ser considerados na prática pedagógica. A divisão sugerida está a seguir:\n\n| Bebês | Crianças bem pequenas | Crianças pequenas |\n|---|---|---|\n| (zero a 1 ano e 6 meses) | (1 ano e 7 meses a 3 anos e 11 meses) | (4 anos a 5 anos e 11 meses) |\n\nEssa divisão não impede que as redes optem por outra organização, desde que sejam garantidos todos os Direitos de Aprendizagem e Desenvolvimento salvaguardados nos Objetivos de Aprendizagem e Desenvolvimento, presentes nos Campos de Experiências. De outra forma, falar de grupos etários também implica em falar dos agrupamentos, pois as interações são eixos estruturantes das práticas pedagógicas, tal como explicitado nas DCNEI. As interações entre as crianças devem ser intencionalmente planejadas nas rotinas das instituições de Educação Infantil, pois são promotoras de aprendizagens diversas e significativas. Portanto, deve-se alternar momentos de atividades individuais com outros, realizados em pequenos e grandes grupos, e planejar momentos de atividades entre crianças de faixas etárias diferentes.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

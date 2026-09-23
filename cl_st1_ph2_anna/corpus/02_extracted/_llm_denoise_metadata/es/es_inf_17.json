@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0eaa674c222c1bfe006ab300c0ee7c87d2ada9fec7aa81c741",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 639,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 666,
+      "output_tokens_details": {
+        "reasoning_tokens": 148
+      },
+      "total_tokens": 1305
+    }
+  },
+  "created_at": "2026-09-22T22:27:20Z",
+  "duration_seconds": 7.488,
+  "error": null,
+  "excerpt_id": "es_inf_17",
+  "filename": "es_inf_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5c03fcccf7111a669d6932f499719073e528862f20eb64c6f373caad7fc08de1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6988ed890123de1c6a42c3b2c88b335cbe22ef190f1bcf5b8b810d5570ee0494",
+    "rendered_prompt_sha256": "0928271bb2ac220b6943045a32fa7c166bc28be92db6c2e20e257070737ff86a",
+    "source_text_sha256": "66e5a7417c359197604117f4b2242013f758f27533ccb87db957c9b58057d25f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1049,
+    "filename": "es_inf_17.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_17.txt",
+    "state": "es",
+    "word_count_original": 367
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_17.json"
+  },
+  "raw_response_text": "## Para Refletir\n\nNa primeira infância, o corpo é o alicerce para o desenvolvimento mental e emocional da criança, essencial na construção de afetos e sentimentos. As experiências com o corpo, os gestos e os movimentos, promovidas para elas, constituem uma linguagem vital que orienta para o mundo. Essas experiências devem ser ricas e plurais e serem promovidas de diversas formas: gestos, mímicas, posturas, movimentos expressivos levando as crianças a expressarem suas emoções, reconhecerem suas sensações, interagirem, brincarem, ocuparem os espaços localizando-se neles, construindo conhecimento de si e do mundo.\n\nO corpo é a ferramenta ímpar usada pelas crianças para expressar-se e comunicar-se com excelência. A capacidade de nomear, identificar e ter consciência do próprio corpo e a construção positiva da autoimagem favorecem a expressão e o conhecimento sobre a cultura corporal do meio em que vivem. Quando brincam, dançam, dramatizam, as crianças expressam toda sua personalidade em construção, agem e imaginam situações, principalmente quando querem ter seus interesses atendidos. Pensar este campo de experiências no trabalho pedagógico é fazer o exercício diário de garantir que as crianças tenham esses objetivos de aprendizagem e desenvolvimento efetivados. Para tanto, cada docente deve pensar se:\n\n- Promove experiências diversas em que as crianças exploram os espaços com o corpo, potencializando suas habilidades?\n- Desenvolve jogos corporais levando-as a explorarem as formas básicas dos movimentos, suas dinâmicas e a ocupação desses espaços?\n- Permite as brincadeiras de jogos simbólicos evidenciadas por meio do faz de conta, momento em que as crianças representam os papéis sociais do seu cotidiano e o mundo da fantasia?\n- Planeja atividades com músicas, considerando a diversidade local, regional, nacional e internacional, permitindo as crianças recriarem livremente seus movimentos, ao mesmo tempo em que interagem com seus pares?\n- Uma vez que a linguagem cênica está integrada a muitas experimentações vivenciadas pelas crianças na Educação Infantil, como você tem organizado em sua rotina atividades como leitura literária, atividades com as artes visuais?\n- As crianças participam de apresentações teatrais?\n\nO foco neste campo é que bebês, crianças bem pequenas e crianças pequenas explorem todas as possibilidades de se expressar, comunicar, interagir com seus parceiros, desenvolvendo progressivamente sua consciência corporal (habilidades gestuais, posturas e movimentos) com confiança, eficácia e autonomia.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

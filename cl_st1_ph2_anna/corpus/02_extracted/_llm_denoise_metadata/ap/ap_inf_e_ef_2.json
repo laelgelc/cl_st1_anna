@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03e046761a84dce9006ab2fe4ef23c87d2a1ed0c1ea762f4f7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1796,
+      "input_tokens_details": {
+        "cache_write_tokens": 1793,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2417,
+      "output_tokens_details": {
+        "reasoning_tokens": 732
+      },
+      "total_tokens": 4213
+    }
+  },
+  "created_at": "2026-09-22T22:17:05Z",
+  "duration_seconds": 18.748,
+  "error": null,
+  "excerpt_id": "ap_inf_e_ef_2",
+  "filename": "ap_inf_e_ef_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b9783f7e07d525853a5b7a48f47c3dde943b065401a76b7262d591f052625a1b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cb39dd4ed57fff3e163403e32048e462c8dec3c7027b4e35b055bf03c3926941",
+    "rendered_prompt_sha256": "818c2ed30b04ab4d52b7d19869b22f8a8c890510d7c79f01e0fb5cf8c21743ff",
+    "source_text_sha256": "d6d4cbb9bdb48c8735e462a18b7eddf5fa818a6f94074bbfd3673632f820826f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_inf_e_ef_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 584,
+    "filename": "ap_inf_e_ef_2.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_inf_e_ef_2.txt",
+    "state": "ap",
+    "word_count_original": 1168
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_inf_e_ef_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_inf_e_ef_2.json"
+  },
+  "raw_response_text": "## 1.2. Marcos Legais\n\nA Constituição Federal (CF) de 1988, em seu Artigo 205, determina que\n\n> [...] a educação, direito de todos e dever do Estado e da família, será promovida e incentivada com a colaboração da sociedade, visando ao pleno desenvolvimento da pessoa, seu preparo para o exercício da cidadania e sua qualificação para o trabalho. (BRASIL, 1988).\n\nAlém disso, a Carta Constitucional já orienta para a definição de uma base nacional comum curricular ao estabelecer, no Artigo 210, que “serão fixados conteúdos mínimos para o Ensino Fundamental, de maneira a assegurar formação básica comum e respeito aos valores culturais e artísticos, nacionais e regionais” (BRASIL, 1988).\n\nA Lei de Diretrizes e Bases da Educação (LDB), no Inciso IV de seu Artigo 9º, afirma que cabe à União\n\n> [...] estabelecer, em colaboração com os Estados, o Distrito Federal e os Municípios, competências e diretrizes para a Educação Infantil, o Ensino Fundamental e o Ensino Médio, que nortearão os currículos e seus conteúdos mínimos, de modo a assegurar formação básica comum. (BRASIL, 1996; ênfase adicionada).\n\nNesse artigo, a LDB deixa claro dois conceitos decisivos para todo o desenvolvimento da questão curricular no Brasil. O primeiro, já antecipado pela CF, estabelece a relação entre o que é básico-comum e o que é diverso em matéria curricular: as competências e diretrizes são comuns, os currículos são diversos. O segundo se refere ao foco do currículo. Ao dizer que os conteúdos curriculares estão a serviço do desenvolvimento de competências, a LDB orienta para a definição das aprendizagens essenciais, e não apenas dos conteúdos mínimos a ser ensinados. Essas são duas noções fundantes da BNCC.\n\nA relação entre o que é básico-comum e o que é diverso é retomada no Artigo 26 da LDB, que determina que\n\n> [...] os currículos da Educação Infantil, do Ensino Fundamental e do Ensino Médio devem ter base nacional comum, a ser complementada, em cada sistema de ensino e em cada estabelecimento escolar, por uma parte diversificada, exigida pelas características regionais e locais da sociedade, da cultura, da economia e dos educandos (BRASIL, 1996; ênfase adicionada).\n\nEssa orientação induziu à concepção do conhecimento curricular contextualizado na realidade local, social e individual da escola e do seu alunado, que foi o guia das diretrizes curriculares traçadas pelo Conselho Nacional de Educação (CNE) ao longo da década de 90, bem como de sua revisão e substituição nos anos 2000. Em 2010, o CNE promulgou novas Diretrizes Curriculares Nacionais, ampliando e organizando o conceito de contextualização como “a inclusão, a valorização das diferenças e o atendimento à pluralidade e à diversidade cultural, resgatando e respeitando as várias manifestações de cada comunidade”, conforme destaca o Parecer CNE/CEB nº 7/2010.\n\nEm 2014, a Lei nº 13.005/2014¹⁰ promulgou o Plano Nacional de Educação (PNE), que reitera a necessidade de\n\n> [...] estabelecer e implantar, mediante Pactuação interfederativa [União, Estados, Distrito Federal e Municípios], diretrizes pedagógicas para a educação básica e a base nacional comum dos currículos, com direitos e objetivos de aprendizagem e desenvolvimento dos(as) alunos(as) para cada ano do Ensino Fundamental e Médio, respeitadas as diversidades regional, estadual e local (BRASIL, 2014; ênfase adicionada).\n\nConsoante aos marcos legais anteriores, o PNE, mais precisamente na meta 7, reitera a importância de uma base nacional comum curricular para o Brasil, com o foco na aprendizagem como estratégia para fomentar a qualidade da Educação Básica em todas as etapas e modalidades.\n\nComo já referido, a BNCC surge em atendimento à CF, às LDB e ao PNE, que tratam da necessidade de uma base nacional comum curricular, como documento de caráter normativo que define o conjunto orgânico de aprendizagens essenciais ao aluno da Educação Básica. Asseguram-se assim os direitos e objetivos de aprendizagens, conforme diretrizes do CNE que institui a Resolução CNE/CP nº 02 de 22 dezembro de 2017, parágrafo primeiro, do Artigo 5º, que determina que\n\n> A BNCC deve fundamentar a concepção, formulação, implementação, avaliação e revisão dos currículos, e consequentemente das propostas pedagógicas das instituições escolares, contribuindo, desse modo, para a articulação e coordenação de políticas e ações educacionais desenvolvidas em âmbito federal, estadual, distrital e municipal, especialmente em relação à formação de professores, à avaliação da aprendizagem, à definição de recursos didáticos e aos critérios definidores de infraestrutura adequada para o pleno desenvolvimento da oferta de educação de qualidade.\n\nNo Estado do Amapá, a BNCC se configura na meta 13 do Plano Estadual de Educação (PEE) aprovado pela Lei nº 1.907/2015, onde se lê\n\n> [...] estruturar, implantar e implementar as Diretrizes Curriculares no sistema estadual público de ensino, na perspectiva inter/transdisciplinar, a partir de metodologias que destaquem as dimensões ética, humanística e cidadã; o compromisso socioambiental; a construção da identidade pessoal e cultural, bem como princípios filosóficos e epistemológicos em evidência no século XXI.\n\nPor meio desta meta assegura-se a (re)elaboração do currículo amapaense com orientações da BNCC, mas respeitando a especificidade local. A estratégia 13.4 evidencia com clareza esta informação, que diz\n\n> [...] assegurar o desenvolvimento de projetos curriculares de caráter inter/transdisciplinares, entrelaçados com a Base Nacional Comum, relacionados aos direitos humanos e à educação voltada para atividades musicais socioambiental, e àquelas relacionadas às questões etnicorraciais, de gênero e de sexualidade, dentre outros.\n\nA BNCC está complementada nos currículos do Ensino Fundamental e Ensino Médio, como nos mostra a Resolução nº 56/2015 do Conselho Estadual de Educação do Estado do Amapá (CEE/AP), do Artigo 7º, que diz\n\n> [...] os currículos do ensino fundamental e ensino médio devem ter a Base Nacional Comum, a ser complementada, em cada Sistema de Ensino e em cada estabelecimento escolar, por uma Parte Diversificada, exigida pelas características regionais e locais da sociedade, da cultura, da economia e dos educandos.\n\nNos Planos Municipais de Educação, os embasamentos da BNCC são visíveis nas suas metas e estratégias, uma vez que os dezesseis municípios do Estado do Amapá construíram seus Planos próprios dentro de suas especificidades. Entre todos eles prevaleceu o ideal de territorialidade em se elaborar com um único currículo para as redes de ensino, e propostas pedagógicas das instituições escolares no âmbito estadual e municipal que incorporem os avanços de pesquisas ligadas às competências e habilidades ao processo de ensino aprendizagem e às teorias educacionais no atendimento aos discentes.\n\nRessalta-se que em 13 de julho de 2018, foi assinado o Termo de Compromisso ao Programa de Implementação da Base Nacional Comum Curricular – ProBNCC/AP, pela Comissão Estadual de Mobilização, Dirigentes Municipais e Equipe de Gestão responsável pela reelaboração do Documento Curricular Amapaense, através do Regime de Colaboração entre estado e municípios, considerando a proposta de construção de um único Referencial Curricular para o território amapaense.\n\nVale destacar que essa experiência de Regime de Colaboração no Estado do Amapá inclui esforço conjunto das Instituições Secretaria do Estado de Educação do Amapá (SEED), União Nacional dos Dirigentes Municipais de Educação (UNDIME), devendo ser considerada importante na implementação do novo Currículo Amapaense nas escolas públicas e privadas.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

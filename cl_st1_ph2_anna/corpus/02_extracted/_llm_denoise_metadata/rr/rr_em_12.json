@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_015b655800387cb8006ab30d184edc87d294b858a9e736bbe9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 598,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 888,
+      "output_tokens_details": {
+        "reasoning_tokens": 384
+      },
+      "total_tokens": 1486
+    }
+  },
+  "created_at": "2026-09-22T23:19:59Z",
+  "duration_seconds": 7.433,
+  "error": null,
+  "excerpt_id": "rr_em_12",
+  "filename": "rr_em_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bbd7f60861b51e9d216a3184ed7631915b428f7c58c5c9dee462ba25efdf26e5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1f337d557a08e64fcd9cdca5f254abeaa6e3c3deaa953f3161e888d398bc7236",
+    "rendered_prompt_sha256": "cae1e03ddd562a1133ebc1557a1d81cb02fb18cc5058c996d069c2c2abfbeff0",
+    "source_text_sha256": "88bd0b28747c93291f7658bf6db19ffe7da9e0c5eb66c8492903f5daaaeb8ba6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3444,
+    "filename": "rr_em_12.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_12.txt",
+    "state": "rr",
+    "word_count_original": 376
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_12.json"
+  },
+  "raw_response_text": "### 1.7.\n\nA palavra transição significa “ato ou efeito de passar de um lugar e/ou passagem que comporta uma transformação progressiva, evolução”. Assim é o processo que se dá os estudantes ao sair do Ensino Fundamental para o Ensino Médio, uma passagem que comporta uma transformação exigindo do sistema educacional um olhar atento para o processo de mudança, não com a concepção de ruptura, mas como um processo de aprofundamento de conhecimento e continuidade da formação com suas particularidades e complexidades.\n\nA transição de uma etapa para outra, provoca grandes desafios na vida dos estudantes, pois se apresenta como uma mudança significativa, um novo universo, uma nova escola, professores, novos aprendizados, descobertas e responsabilidades.\n\nComo dizia o filósofo Heráclito[^2] “Nada é permanente, exceto a mudança”, assim, com o objetivo de minimizar os efeitos da mudança é essencial o diálogo entre as etapas, tendo em vista que as etapas da educação básica se inter-relacionam por meio das dez competências gerais e se desdobram no tratamento didático como orienta o documento da BNCC do Ensino Médio (BRASIL, 2018a), ao fixar o princípio da educação integral.\n\nEssa perspectiva, requer do professor um repensar da sua prática pedagógica e ainda uma nova postura frente ao processo de ensino e aprendizagem, com vistas a superação das desigualdades educacionais, comuns a etapa do Ensino Médio.\n\nFrente a esses desafios, a escola deve pensar estratégias para preparar o estudante do ponto de vista pedagógico, orientando-os sobre as mudanças no currículo e a necessidade de desenvolver a autonomia no estudo. Tendo o diálogo como princípio básico entre redes, etapas, escolas e professores, ou seja, a base para uma transição tranquila e que estimule e motive para continuidade dos estudos.\n\nPara que os estudantes superem os desafios da nova etapa, faz-se necessário que as redes e instituições de ensino estabeleçam ações estratégicas tais como: nivelamento, autoconhecimento, projetos, acolhimento e articulação institucional.\n\nVisando assegurar a adaptação dos estudantes ao novo, é importante o engajamento de todos envolvidos nos processos educativos. Logo, a escola precisa planejar a transição para auxiliar o estudante num momento importante de transformação na sua vida, por meio de ações estratégicas entre as duas etapas para promover sucesso e permanência do estudante.\n\n[^2]: Heráclito (540 - 470 a.C.).",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

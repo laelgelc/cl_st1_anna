@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f48bee3d6e2095f006ab30346ea8887d2841ca3b94cd07474",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 912,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 902,
+      "output_tokens_details": {
+        "reasoning_tokens": 129
+      },
+      "total_tokens": 1814
+    }
+  },
+  "created_at": "2026-09-22T22:38:06Z",
+  "duration_seconds": 7.641,
+  "error": null,
+  "excerpt_id": "mg_em_55",
+  "filename": "mg_em_55.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d5b34cb8b677b1d5d3f7d3930264f940c09d585f89ab82b7a8e222edde4b74fa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0be589b8e9a2045305dbeb6f59d7d753b9872adeda9be92be01bedccc06d31d9",
+    "rendered_prompt_sha256": "257eb151e95d753c9e14074df009f440216579eb4c206daa92c58d281797d5af",
+    "source_text_sha256": "6979628ab0dd93dae2bf27de67f458ff1f10f112a2370d197fb8b0ed9112111e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_55.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1587,
+    "filename": "mg_em_55.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_55.txt",
+    "state": "mg",
+    "word_count_original": 537
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_55.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_55.json"
+  },
+  "raw_response_text": "Para usar as rubricas, os critérios a serem utilizados devem ser claros para professores e estudantes e discutidos e decididos antes da proposição desse tipo de avaliação.\n\nOs resultados devem servir de base para outras formas de intervenção, quando necessário, e serem debatidos com o estudante e a ele ser oferecidas novas oportunidades para que obtenha resultados desejados e satisfatórios. Neste modelo, foi usado um valor quantitativo (1, 2, 3, 4) e valor qualitativo (Insatisfatória, satisfatória, boa, excelente). O outro modelo a seguir é parte de uma rubrica usada para avaliar o domínio de língua estrangeira de estudantes que fazem cursos de inglês aplicados a serviços turísticos:\n\nNesse modelo foi usado apenas valor quantitativo, o que fica a critério dos professores, porém, Biagiotti (2005) orienta que não se deve colocar mais do que seis níveis na descrição das rubricas, pois sempre existem os níveis intermediários que devem ser observados.\n\nPor exemplo: Níveis das rubricas desenvolvidas: 0 (ausência de performance), 2, 4, 6, 8 e 10 (performance desejada). Níveis intermediários que podem ser observados, quando o aluno se situar entre as descrições de 2 níveis de rubricas subsequentes: 1, 3, 5, 7 e 9. Após a definição da escala de valores, se assegure de que essa escala está oferecendo a distinção desejada entre os níveis de desempenho e a pontuação final do trabalho esperado (BIAGIOTTI, 2005, p. 8).\n\nAssim, os professores devem atentar para os resultados obtidos, que evidenciam desde a ausência da performance até o nível desejado e, sempre que dispuser das rubricas, organizadas por matrizes ou por outra organização, discutir qual é a que melhor atende para avaliar os estudantes naquilo que é proposto e, sempre que necessário, fazer alterações.\n\nAlém desses métodos, na área de Linguagens e Suas Tecnologias, o estudante pode e deve ser avaliado durante todo o processo de organização e realização das atividades propostas para o desenvolvimento das habilidades da área, descritas em todo este documento, como escrita de portfólios, debates, resolução de conflitos, análise de dados e textos, intervenção em projetos sociais, exercícios autobiográficos, criação de blogs, jornais, jogos, análise de obras culturais e artísticas, criação de relatórios, entrevistas, participação em fóruns de discussão, produção artística individual e/ou coletiva, leitura e discussão sobre a saúde física, emocional, psicológica, atividades de investigação e pesquisa na escola e na comunidade, ações de autocuidado, escrita com uso de multimeios e tantas outras.\n\nOutro fator muito importante a ser considerado nas avaliações é o amadurecimento das habilidades socioemocionais, como responsabilidade, autocuidado, autoconhecimento, respeito aos direitos humanos, autoestima, autonomia, criatividade, cooperação, tolerância, engajamento, proatividade, paciência, criticidade, dentre outras.\n\nTodo o processo avaliativo precisa ser valorizado por todos os atores educacionais nele envolvidos: gestores, docentes, estudantes, pais e responsáveis, considerando-o não apenas como uma atividade-fim, mas como uma atividade-meio para que se alcance o melhor desempenho de todos – do estudante e, por consequência, do professor, da escola etc. O empenho e estudo do discente também é um reflexo do trabalho continuado do professor, sendo preciso valorizar o processo avaliativo de maneira a criar um engajamento necessário e dar suporte ao estudante para superar suas dificuldades, a fim de criar um ciclo virtuoso de aprendizado e não um ciclo vicioso de resultados educacionais insatisfatórios.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

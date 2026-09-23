@@ -1,0 +1,43 @@
+# Direitos de Aprendizagem e Desenvolvimento e Campos de experiências
+
+Como já mencionado, na Educação Infantil, a aprendizagem e o desenvolvimento têm como eixos estruturantes as interações e a brincadeira; esses eixos garantem os DIREITOS de conviver, brincar, participar, explorar, expressar e conhecer-se.
+
+## Direitos de Aprendizagem e Desenvolvimento
+
+As competências gerais para educação básica são o fruto de dezessete anos de uma educação expressamente balizada e comprometida com a educação integral do estudante, de 0 a 17 anos. Isto significa dizer que desde a educação infantil devem ser promovidas situações e oferecidas condições para que cada bebê e criança desenvolva sua integralidade. Neste sentido, foram estabelecidos seis direitos de aprendizagem e desenvolvimento que legitimam o modo como o bebê e a criança aprende e se desenvolve e revelam como essas dez competências se imprimem na etapa da educação infantil.
+
+As práticas pedagógicas que regem o cotidiano das instituições de educação infantil devem garantir que esses direitos sejam exequíveis e, para isto, precisam estar, sobretudo, estruturadas nas interações e no brincar, bem como alicerçadas nos direitos de conviver, brincar, expressar, explorar, participar e conhecer-se, que fortalecem as especificidades de aprendizagem e desenvolvimento do bebê e da criança.
+
+Abaixo trouxemos o quadro que apresenta os direitos de aprendizagem na BNCC, p. 38.
+
+Conviver com outras crianças e adultos, em pequenos e grandes grupos, utilizando diferentes linguagens, ampliando o conhecimento de si e do outro, o respeito em relação à cultura e às diferenças entre as pessoas.
+
+Brincar cotidianamente de diversas formas, em diferentes espaços e tempos, com diferentes parceiros (crianças e adultos), ampliando e diversificando seu acesso a produções culturais, seus conhecimentos, sua imaginação, sua criatividade, suas experiências emocionais, corporais, sensoriais, expressivas, cognitivas, sociais e relacionais.
+
+Participar ativamente, com adultos e outras crianças, tanto do planejamento da gestão da escola e das atividades propostas pelo educador quanto da realização das atividades da vida cotidiana, tais como a escolha das brincadeiras, dos materiais e dos ambientes, desenvolvendo diferentes linguagens e elaborando conhecimentos, decidindo e se posicionando.
+
+Explorar movimentos, gestos, sons, formas, texturas, cores, palavras, emoções, transformações, relacionamentos, histórias, objetos, elementos da natureza, na escola e fora dela, ampliando seus saberes sobre a cultura, em suas diversas modalidades: as artes, a escrita, a ciência e a tecnologia.
+
+Expressar, como sujeito dialógico, criativo e sensível, suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, questionamentos por meio de diferentes linguagens.
+
+Conhecer-se e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações, brincadeiras e linguagens vivenciadas na instituição escolar e em seu contexto familiar e comunitário.
+
+Consideramos importante destacar que os direitos de aprendizagem não estão postos em ordem hierárquica, mas que convergem um ao outro, numa interdependência e conexão constante. Por exemplo, nas situações de brincadeira, a criança, por meio do brincar livre, tem a oportunidade de:
+
+- Conviver com seus pares e/ou outras crianças e adultos.
+- Expressar por meio de múltiplas linguagens seus interesses, necessidades, descobertas.
+- Participar ativamente por meio de seu engajamento na proposta, desde a escolha das brincadeiras, dos papéis vivenciados.
+- Explorar novas formas de agir no mundo e, consequentemente,
+- Conhecer-se e construir sua identidade pessoal, social e cultural.
+
+Essa forma holística dos direitos de aprendizagem e desenvolvimento fazem conexão com o arranjo curricular proposto por meio dos Campos de experiências, sendo reafirmados na descrição dos objetivos de aprendizagem e desenvolvimento de modo implícito ou, como na maioria das vezes, explicitamente.
+
+Assim, para construir um Currículo que potencialize as aprendizagens e o desenvolvimento de bebês (zero a 1 ano e 6 meses), crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses) e crianças pequenas (4 anos a 5 anos e 11 meses), é preciso voltar às vivências e aos conhecimentos construídos pelas crianças em seu ambiente familiar, no contexto de sua comunidade e do patrimônio cultural no qual a criança está imersa, articulando-os em propostas pedagógicas intencionalmente planejadas.
+
+A BNCC propõe uma organização curricular para Educação Infantil, por meio de cinco Campos de Experiências, nos quais são contextualizados os objetivos de aprendizagem e desenvolvimento:
+
+- **O Eu, o outro e o nós:** as propostas que envolvem este campo privilegiam as experiências de interação, para que se construa e se amplie a percepção de si, do outro e do grupo, por meio das relações que se estabelece com seus pares e adultos, de forma a descobrir seu modo de ser, estar e agir no mundo e aprender, reconhecer e respeitar as identidades dos outros.
+- **Corpo, gestos e movimentos:** as experiências com o corpo, gestos e movimentos devem promover a validação da linguagem corporal dos bebês e das crianças e potencializar suas formas de expressão, aprimorando a percepção do próprio corpo e ampliando o conhecimento de si e do mundo.
+- **Traços, sons, cores e formas:** os saberes e conhecimentos trazidos nesse campo potencializam a criatividade, o senso estético, o senso crítico e a autoria das crianças ao construírem, criarem e desenharem usando diferentes materiais plásticos e/ou gráficos, bem como desenvolvem a expressividade e a sensibilidade ao vivenciarem diferentes sons, ritmos, músicas e demais movimentos artísticos próprios da sua e de outras culturas.
+- **Escuta, fala, pensamento e imaginação:** as experiências nesse campo respondem aos interesses das crianças com relação à forma verbal e gráfica de comunicação como meios de expressão de ideias, sentimentos e imaginação. Propõem a inserção de vivências relacionadas aos contextos sociais e culturais de letramento (conversas, escuta de histórias lidas ou contadas, manuseio de livros e outros suportes de escrita, produção de textos orais e/ou escritos com apoio, escrita espontânea etc.).
+- **Espaços, tempos, quantidades, relações e transformações:** os saberes e conhecimentos que envolvem esse campo atendem à curiosidade dos bebês e das crianças em descobrir o sentido do mundo e das coisas, por meio de propostas com as quais possam testar, experimentar, levantar hipóteses, estimar, contar, medir, comparar, constatar, deslocar, dentre outros.

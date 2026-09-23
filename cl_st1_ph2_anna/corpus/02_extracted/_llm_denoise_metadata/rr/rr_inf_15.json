@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0074141e1301ce2e006ab30d6af14487d2b3644c1e2330595b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 709,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1131,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 1840
+    }
+  },
+  "created_at": "2026-09-22T23:21:26Z",
+  "duration_seconds": 11.382,
+  "error": null,
+  "excerpt_id": "rr_inf_15",
+  "filename": "rr_inf_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c4b28d446085214ca45400ebb8be8e217bbd338b1a8f874fdd7c7ae4ffa2e367",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fd0dbc5dcc317fb88245b4ff98516349832067e28cce523d2bd6cd6092e7a28f",
+    "rendered_prompt_sha256": "878072769f32ed8da0ebc29d12295a7364b4d22dde901efe6843c634f6ddaff1",
+    "source_text_sha256": "80140fd4ae7f7185d9dca39f7e3694ed79e299c4672d2f510200b7d1ec73758e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3513,
+    "filename": "rr_inf_15.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_15.txt",
+    "state": "rr",
+    "word_count_original": 452
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_15.json"
+  },
+  "raw_response_text": "### 3.6.2 EXPERIÊNCIAS RELACIONAIS E SOCIAIS\n\nÀ Luz das Diretrizes Curriculares Nacionais para a Educação Infantil, sabe-se que a criança aprende por meio das relações interpessoais e por meio das brincadeiras com outras crianças e até mesmo com os adultos e dessa maneira é que a criança constrói sua identidade, pois são as interações que promovem as aprendizagens.\n\nNeste sentido, a concepção de criança deve ser entendida como ser pertencente a um determinado contexto social e, portanto, trás consigo uma gama de aprendizagem que fora adquirido nessa relação que se estabelece sem qualquer normativa, mas que deve ser prestigiada por estas que de fato caracteriza um saber que fora construído com base na vivência familiar e social estabelecida a partir do vínculo sócio afetivo e deve ser incorporado como parte de construção de saberes. De acordo Oliveira (2012, página 36) diz que:\n\n> A concepção de criança sustentada nas DCNEI coloca-a como sujeito de direitos e que se desenvolve nas múltiplas interações que ela vai experimentando do mundo social. Sua entrada no ambiente coletivo de educação pode propiciar um conjunto de interações diversificadas e complementares em relação ao ambiente familiar, que lhe possibilitam aprendizagens amplas e diversas. “Nessas condições ela faz amizades, brinca com água ou terra, faz de conta, deseja, aprende, observa, conversa, experimenta, questiona, constrói sentidos sobre o mundo e suas identidades pessoal e coletiva, produzindo cultura” (Parecer CNE/CEB nº 20/09).\n\nPor saber que a criança é um sujeito produtor de cultura que constrói sentido sobre o mundo e sua identidade pessoal, faz-se necessário que o professor se perceba como mediador na construção do desenvolvimento infantil e de suas potencialidades oferecendo um ambiente de aprendizagem significativa considerando aquilo que a criança precisa aprender por meio das experiências embasadas nos princípios éticos, estéticos e políticos tal como dispõe o artigo 6º das DCNEI (Resolução CNE/CEB nº 05/09).\n\nPrincípios Éticos da autonomia, da responsabilidade, da solidariedade e do respeito ao bem comum, ao meio ambiente e às diferentes culturas, identidades e singularidades.\n\nPrincípios Estéticos da sensibilidade, da criatividade, da ludicidade e da liberdade de expressão nas diferentes manifestações artísticas e culturais.\n\nPrincípios Políticos dos direitos de cidadania, do exercício da criticidade e do respeito à ordem democrática.\n\nNeste sentido, o desenvolvimento integral da criança na primeira infância deve ocorrer em parceria com outros seres humanos e acontece em variados contextos sociais ao longo das experiências nas práticas culturais de sua comunidade e nas instituições educacionais, pois as diversas relações determinadas no dia a dia da Educação Infantil são fundamentais, haja vista que permite experimentar condições que se aproximam da vida em sociedade, assim como, entender os mecanismos sociais que organizam a vida em grupo.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

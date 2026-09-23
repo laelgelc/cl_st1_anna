@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06b4b429f594da6f006ab31046268c87d29a2b5c16295e61f5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 816,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1270,
+      "output_tokens_details": {
+        "reasoning_tokens": 560
+      },
+      "total_tokens": 2086
+    }
+  },
+  "created_at": "2026-09-22T23:33:36Z",
+  "duration_seconds": 10.382,
+  "error": null,
+  "excerpt_id": "to_em_53",
+  "filename": "to_em_53.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4282d99fe3f00b020bb94fe14ac51aeb4b1e6114ff38401e10bee95d042c19b7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "765e3aba5a95873e87b18149dcf10039b5ab2147f0b081059e6952053a94987c",
+    "rendered_prompt_sha256": "de91f8ee040b9870e8f6d4d1bcfc29f7654acad8de58553a2486e80db24525e2",
+    "source_text_sha256": "e36d4f46836163a39d54b6dc584cbf540a0f53903334a8c4a39025aebbb341df"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_53.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4055,
+    "filename": "to_em_53.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_53.txt",
+    "state": "to",
+    "word_count_original": 559
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_53.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_53.json"
+  },
+  "raw_response_text": "## 6. Juventude e Território\n\nÉ preciso levar em consideração que pensar a relação dos jovens com os seus territórios de vida contribui para compreender a relação entre escolas e juventudes. Um dos pontos fundamentais do Projeto Político Pedagógico da escola é também, em grande medida, mediado pelas múltiplas dimensões do espaço geográfico e territorial onde a escola se insere.\n\nNesta perspectiva, cabe interpelar se as escolas se organizam levando em consideração o seu território de referência. A rua, o bairro, a comunidade, o distrito ou o povoado em que habitamos dizem muito a respeito de nossas vidas e também do modo como nos relacionamos com os outros e com o mundo ao nosso redor, e isso também se aplica às instituições escolares. A escola necessita ser simultaneamente única, de qualidade para todos, mas também atender às características de sua territorialidade. É neste sentido que não se pode conceber uma escola situada numa região rural que não se aperceba das demandas, necessidades e culturas próprias de seus jovens, que não são as mesmas da juventude que vive em áreas urbanas.\n\nEntendemos o território na forma conceitual dada por Milton Santos (2005), que o define pelo uso que as sociedades e comunidades humanas fazem do espaço, pois o território é espaço vivido. Ele é produzido socialmente pelos sujeitos sociais em suas ações e engloba a produção da vida humana em sentido mais amplo. Envolve as dimensões da produção material da existência, da circulação e do consumo, bem como as dimensões subjetivas, simbólicas, culturais, éticas, morais, estéticas, etc.\n\n### 6.1 Os sentidos e os significados da Escola para os Jovens\n\nAs pesquisas indicam que os jovens demandam uma escola que faça sentido para a vida e que contribua para a compreensão da realidade. Eles reivindicam que o que se ensina na escola tenha vínculos com o seu cotidiano. Muitos jovens estudantes expressam suas dificuldades para estabelecer uma conexão entre os conteúdos curriculares e suas vidas. Se a escola é lugar de aprender, é importante compreender como os jovens aprendem e quais são os conhecimentos que demandam da escola. Os jovens enfatizam a importância de que seus interesses sejam considerados, o que é possível quando se estabelece um diálogo entre os conteúdos curriculares e a realidade (SALVADOR, 1994; CHARLOT, 2000). Os autores nos fazem refletir: não seria esta uma das condições para uma aprendizagem significativa? Por que não inventar espaços de conversação com os jovens estudantes para tentar apreender sobre os sentidos que estes atribuem à escola e suas trajetórias escolares, aí compreendidos também os projetos de futuro?\n\nUm último aspecto a se pensar é que o professor tem um papel importante na mediação entre ser jovem e ser estudante. Educar neste cenário nos pede uma maior inserção no universo juvenil: estar próximos a eles, compreender, ouvi-los, mapear suas potencialidades e estabelecer relacionamentos interpessoais significativos.\n\nA relação dos jovens com a escola é, em grande parte, construída a partir dessa mediação. Sabemos que nem tudo depende do professor e não pode pesar sobre ele toda a responsabilidade pela qualidade da educação no país. Mas sabemos o lugar central que o corpo docente ocupa nos processos educativos escolares para nortear caminhos. Além de transmitir conteúdos e apontar valores estabelecidos socialmente, professores são sujeitos entre sujeitos, mediadores de relações e construtores de sentido.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

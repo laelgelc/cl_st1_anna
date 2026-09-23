@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05344320565cc301006ab3044e83f087d287e4e78051e63ea7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 970,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 885,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 1855
+    }
+  },
+  "created_at": "2026-09-22T22:42:29Z",
+  "duration_seconds": 7.098,
+  "error": null,
+  "excerpt_id": "mt_ef_28",
+  "filename": "mt_ef_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e775d2a1022001d12ce3b6dbd63bca77cb40fe7a4fbf863414a1704ebea28aab",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e04910bab741aba5d2b2ee19e2d50917c7d87b34a3db0cbd900a40e131642eeb",
+    "rendered_prompt_sha256": "fdd9eab143ebb0b7ba2d069ed182f1c0eec390e55e511766bbe028ac44d10758",
+    "source_text_sha256": "650e64e9e0a168d3bc7801ffa09ae96420f4a61c6b46430ef9592c018148919b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1820,
+    "filename": "mt_ef_28.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_28.txt",
+    "state": "mt",
+    "word_count_original": 530
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_28.json"
+  },
+  "raw_response_text": "### 5.3. Ensino Religioso\n\nO conhecimento religioso, objeto do Componente Curricular Ensino Religioso, é produzido no âmbito das Ciências Humanas, tendo por objetivo investigar a manifestação dos fenômenos religiosos em diferentes culturas e sociedades, enquanto bens simbólicos resultantes da busca humana por respostas aos enigmas do mundo, da vida e da morte.\n\nDe modo singular, complexo e diverso, esses fenômenos alicerçam distintos sentidos e significados de vida e diversas ideias de divindade(s), em torno dos quais se organizaram cosmovisões, linguagens, saberes, crenças, mitologias, narrativas, textos, símbolos, ritos, doutrinas, tradições, movimentos, práticas e princípios éticos e morais. Logo, os fenômenos religiosos em suas múltiplas manifestações são parte integrante do substrato cultural da humanidade.\n\nConsiderando os marcos normativos e, em conformidade com as competências gerais estabelecidas no âmbito da BNCC, o Ensino Religioso deve atender os seguintes objetivos:\n\n- Proporcionar a aprendizagem dos conhecimentos religiosos, culturais e estéticos, a partir das manifestações religiosas percebidas na realidade dos educandos;\n- Propiciar conhecimentos sobre o direito à liberdade de consciência e de crença, no constante propósito de promoção dos direitos humanos;\n- Desenvolver competências e habilidades que contribuam para o diálogo entre perspectivas religiosas e seculares de vida, exercitando o respeito à liberdade de concepções e o pluralismo de ideias, de acordo com a Constituição Federal;\n- Contribuir para que os educandos construam seus sentidos pessoais de vida a partir de valores, princípios éticos e da cidadania (BNCC, 2017).\n\nO Ensino Religioso se constrói como componente curricular, por meio do estudo dos conhecimentos religiosos e das filosofias de vida, atitudes de reconhecimento e respeito às alteridades, proporcionando aprendizagens, experiências pedagógicas, intercâmbios e diálogos permanentes, que visam ao acolhimento das identidades culturais, religiosas ou não, na perspectiva da interculturalidade, direitos humanos e cultura da paz. Considerando esses pressupostos e, em articulação com as competências gerais da BNCC, o Ensino Religioso deve garantir aos estudantes o desenvolvimento das seguintes competências específicas:\n\nI. Conhecer os aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida, a partir de pressupostos científicos, filosóficos, estéticos e éticos;\n\nII. Compreender, valorizar e respeitar as manifestações religiosas e filosofias de vida, suas experiências e saberes, em diferentes tempos, espaços e territórios;\n\nIII. Reconhecer e cuidar de si, do outro, da coletividade e da natureza, enquanto expressão de valor da vida;\n\nIV. Conviver com a diversidade de crenças, pensamentos, convicções, modos de ser e viver;\n\nV. Analisar as relações entre as tradições religiosas e os campos da cultura, da política, da economia, da saúde, da ciência, da tecnologia e do meio ambiente;\n\nVI. Debater, problematizar e posicionar-se frente aos discursos e práticas de intolerância, discriminação e violência de cunho religioso, de modo a assegurar os direitos humanos no constante exercício da cidadania e da cultura de paz.\n\nPortanto, o ensino e aprendizagem do Ensino Religioso deverá ter como referência os seguintes princípios: a pesquisa, pois permite a consciência política e histórica; o diálogo, porque as ações educativas subsidiam a argumentação, a alteridade e o respeito ao fenômeno religioso, em detrimento das práticas confessionais ou interconfessionais.\n\nEstes princípios e seus desdobramentos mostram exigências de mudança de mentalidade, de maneira de pensar e agir dos indivíduos, assim como das instituições e de suas tradições culturais.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

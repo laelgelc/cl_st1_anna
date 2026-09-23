@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b37968b2404af1d006ab30cf5c5b487d2a6fb9fb1dac66593",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1011,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3242,
+      "output_tokens_details": {
+        "reasoning_tokens": 2281
+      },
+      "total_tokens": 4253
+    }
+  },
+  "created_at": "2026-09-22T23:19:45Z",
+  "duration_seconds": 27.729,
+  "error": null,
+  "excerpt_id": "rr_ef_51",
+  "filename": "rr_ef_51.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cd8b1f82a6166eb478a877460e0998e8e79fe77f4f1c957c151be80426afaa2f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "94cba4008f9008ad3a66049b90e7bc8bf64dac0703f7bf97ba6ef4aa004f0769",
+    "rendered_prompt_sha256": "5db295d2fdff730bae24c9b36d868d28bc0315d8da8aaf578e2e0ee5b568c8a3",
+    "source_text_sha256": "8daef0356aae8a82d42449ea399504a21beb7583af93a60c0e87149f57f7b5db"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_51.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3420,
+    "filename": "rr_ef_51.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_51.txt",
+    "state": "rr",
+    "word_count_original": 559
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_51.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_51.json"
+  },
+  "raw_response_text": "| Lei | Artigo | Avanços |\n|---|---|---|\n| 4024/61 | Art. 27. O ensino primário é obrigatório a partir dos sete anos e só será ministrado na língua nacional. Para os que o iniciarem depois dessa idade poderão ser formadas classes especiais ou Cursos Supletivos. | Sinaliza a possibilidade do Ensino Supletivo no Brasil. Poderá o sistema oferecer Ensino Supletivo. |\n| 5692/71 | Art. 24. O Ensino Supletivo terá por finalidade:<br>a) suprir a escolarização regular para os adolescentes e adultos que não a tenham seguido ou concluído na idade própria;<br>b) proporcionar, mediante repetida volta à escola, estudos de aperfeiçoamento ou atualização para os que tenham seguido o ensino supletivo. | Garante o direito de escolarização.<br>Deixa de ser subjetivo, tornando-se obrigatório o ensino regular no todo ou em parte. |\n| 9394/96 | Art. 37. A Educação de Jovens e Adultos será destinada àqueles que não tiveram acesso ou continuidade de estudos no ensino fundamental e médio na idade própria. | Ganha espaço de Modalidade de Ensino.<br>Exige uma atenção maior do poder público. |\n\nFonte: Proposta da Rede Pública da Educação de Jovens e Adultos de Roraima – 2011, p. 39.\n\nNo contexto estadual, a Lei Complementar nº 41/01, que dispõe sobre o Sistema Estadual de Roraima e dá outras providências, reafirma a condição da EJA como modalidade da Educação Básica, destacada nos artigos 56 e 57, destinada àqueles que não tiveram acesso ou continuidade de estudos no ensino fundamental e médio na idade própria, assegurando o acesso gratuito de maneira apropriada, consideradas as características do alunado, seus interesses, condições de vida e de trabalho, mediante Cursos e Exames, conforme quadro abaixo:\n\n| Resolução/Parecer | Síntese de Encaminhamento | Ano |\n|---|---|---|\n| Resolução CNE nº 01/00 | Estabelece Diretrizes Curriculares Nacionais para a Educação de Jovens e Adultos. | 2000 |\n| Parecer CNE/CEB nº 11/2000 | Dispõe sobre as Diretrizes Curriculares Nacionais para a Educação de Jovens e Adultos. | 2000 |\n| Resolução CEE/RR nº 23/01 | Estabelece normas para a EJA – Ensino Fundamental e Médio, no âmbito do Sistema Estadual de Educação de Roraima. | 2001 |\n| Parecer CEE/RR nº 59/02 | Proposta de Reestruturação da EJA. | 2002 |\n| Parecer CEE/CP nº 111/07 | Aprovação das Matrizes Curriculares – Ensino Fundamental e Médio, Educação de Jovens e Adultos e Educação Escolar Indígena. | 2007 |\n| Resolução CEE/RR nº 05/08 | Dá nova redação ao art. 26 e parágrafo único da Resolução CEE/RR nº 23/01. | 2008 |\n\nDiretrizes Nacionais para a oferta de educação para jovens e adultos em situação de privação de liberdade nos estabelecimentos penais.\n\nDiretrizes Nacionais para a oferta de educação para jovens e adultos em situação de privação de liberdade nos estabelecimentos penais.\n\nDefine Diretrizes Curriculares Nacionais Gerais para a Educação Básica.\n\nDiretrizes Curriculares Nacionais Gerais para a Educação Básica.\n\nFonte: Proposta da Rede Pública da Educação de Jovens e Adultos de Roraima – 2011, p. 41.\n\nParecer CNE/CEB nº 03 – 8/10/2008: Institui Diretrizes Operacionais para a EJA – relativos à duração dos cursos e idade mínima para ingresso nos Cursos de EJA e por meio da EaD; e certificação nos Exames de EJA.\n\nResolução CNE/CEB nº 2 – 19/05/2010: Dispõe sobre as Diretrizes Nacionais para a oferta da EJA em situação de privação de liberdade nos estabelecimentos penais.\n\n**2010**\n\n- Parecer CNE/CEB nº 4/2010\n- Parecer CNE/CEB nº 4, 09/03/2010\n- Resolução CNE/CEB nº 04/10\n- Parecer CNE/CEB nº 07 – 07/04/10",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

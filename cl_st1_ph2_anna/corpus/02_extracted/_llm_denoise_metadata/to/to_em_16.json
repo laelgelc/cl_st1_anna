@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0137036c5357b2fb006ab31019b3b487d28492bb5493ccae03",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1445,
+      "input_tokens_details": {
+        "cache_write_tokens": 1442,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1485,
+      "output_tokens_details": {
+        "reasoning_tokens": 132
+      },
+      "total_tokens": 2930
+    }
+  },
+  "created_at": "2026-09-22T23:32:51Z",
+  "duration_seconds": 9.467,
+  "error": null,
+  "excerpt_id": "to_em_16",
+  "filename": "to_em_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e7d83f0905a7adc845565ea66fe3decfb323fc0300761fad69f151b76c889878",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "18e5cde946207c2360dda3efc66e0a2142533ffbdb681969ac950bf4c8beff5f",
+    "rendered_prompt_sha256": "39ded851d7aef54c7d4189a2ece9208f3d62e0278c89be49f5e2cc01f58939b2",
+    "source_text_sha256": "1004c7b10baad9303c50d87f01299cf0bc9a1e7d2f1f0f6db21548b0ee9c132c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4014,
+    "filename": "to_em_16.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_16.txt",
+    "state": "to",
+    "word_count_original": 902
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_16.json"
+  },
+  "raw_response_text": "## 2. Objetivos\n\nOs Itinerários Formativos têm como função precípua a ampliação das aprendizagens nas diversas áreas do conhecimento, de modo a garantir o desenvolvimento das competências gerais da BNCC, as habilidades dos itinerários formativos associadas às competências gerais e as habilidades específicas dos itinerários formativos associadas aos eixos estruturantes. Desse modo, os objetivos dos Itinerários Formativos, conforme estabelece a Portaria MEC n° 1.432/2018, são:\n\na) Aprofundar as aprendizagens relacionadas às competências gerais, às Áreas de Conhecimento e/ou à Formação Técnica e Profissional;  \nb) Consolidar a formação integral dos estudantes, desenvolvendo a autonomia necessária para que realizem seus projetos de vida;  \nc) Promover a incorporação de valores universais, como ética, liberdade, democracia, justiça social, pluralidade, solidariedade e sustentabilidade;  \nd) Desenvolver habilidades que permitam aos estudantes ter uma visão de mundo ampla e heterogênea, tomar decisões e agir nas mais diversas situações, seja na escola, seja no trabalho, seja na vida.\n\nNesse sentido, o artigo 12 da Resolução CNE n° 03, de 21 de novembro de 2018, que atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio, estabelece que a organização dos Itinerários deve considerar:\n\n**Art. 12.** A partir das áreas do conhecimento e da formação técnica e profissional, os itinerários formativos devem ser organizados, considerando:\n\nI - linguagens e suas tecnologias: aprofundamento de conhecimentos estruturantes para aplicação de diferentes linguagens em contextos sociais e de trabalho, estruturando arranjos curriculares que permitam estudos em línguas vernáculas, estrangeiras, clássicas e indígenas, Língua Brasileira de Sinais (LIBRAS), das artes, design, linguagens digitais, corporeidade, artes cênicas, roteiros, produções literárias, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nII - matemática e suas tecnologias: aprofundamento de conhecimentos estruturantes para aplicação de diferentes conceitos matemáticos em contextos sociais e de trabalho, estruturando arranjos curriculares que permitam estudos em resolução de problemas e análises complexas, funcionais e não-lineares, análise de dados estatísticos e probabilidade, geometria e topologia, robótica, automação, inteligência artificial, programação, jogos digitais, sistemas dinâmicos, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nIII - ciências da natureza e suas tecnologias: aprofundamento de conhecimentos estruturantes para aplicação de diferentes conceitos em contextos sociais e de trabalho, organizando arranjos curriculares que permitam estudos em astronomia, metodologia, física geral, clássica, molecular, quântica e mecânica, instrumentação, ótica, acústica, química dos produtos naturais, análise de fenômenos físicos e químicos, meteorologia e climatologia, microbiologia, imunologia e parasitologia, ecologia, nutrição, zoologia, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nIV - ciências humanas e sociais aplicadas: aprofundamento de conhecimentos estruturantes para aplicação de diferentes conceitos em contextos sociais e de trabalho, estruturando arranjos curriculares que permitam estudos em relações sociais, modelos econômicos, processos políticos, pluralidade cultural, historicidade do universo, do homem e natureza, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nV - formação técnica e profissional: desenvolvimento de programas educacionais inovadores e atualizados que promovam efetivamente a qualificação profissional dos estudantes para o mundo do trabalho, objetivando sua habilitação profissional tanto para o desenvolvimento de vida e carreira, quanto para adaptar-se às novas condições ocupacionais e às exigências do mundo do trabalho contemporâneo e suas contínuas transformações, em condições de competitividade, produtividade e inovação, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino.\n\nAlém disso, para a definição e elaboração dos Itinerários Formativos, deve se considerar que o currículo escolar mais flexível busca responder à diversidade de aptidões, referência e objetivos dos estudantes, bem como, dialogar com os diversos contextos educacionais, sociais, culturais e produtivos do país. Em razão disso, alguns pontos devem ser observados:\n\na) oportunizar aos estudantes, mesmo em contexto com reduzida oferta de itinerários, a possibilidade de fazer escolhas que coadunam com seu interesse. Nesse caso, a rede de ensino deve viabilizar condições para atender aos anseios dos estudantes, por meio de arranjos curriculares na forma de unidades eletivas, projetos, atividades integradoras, com organização multisseriada, ou ainda, por meio da oferta não presencial, com uso de recursos tecnológicos ou não.\n\nb) dar autonomia às unidades escolares para propor, com participação dos estudantes, a escolha dos itinerários, e posteriormente, permitir que elas, tendo por base a participação democrática, o contexto socio-histórico-cultural, o meio social, definam e construam suas unidades curriculares e seus Itinerários Formativos, a partir das diretrizes gerais expressas na BNCC, do Sistema de Ensino e do Currículo Estadual.\n\nc) possibilitar aos estudantes, o aproveitamento das aprendizagens realizadas em instituições parceiras, mediante regulação do Sistema de Ensino, de modo a fortalecer a autonomia e o protagonismo dos estudantes. Nesse sentido, as unidades escolares devem aproveitar os estudos e os conhecimentos no ensino formal e a experiência extraescolar, conforme preconiza as DCNEM.\n\nd) definir o perfil de saída dos estudantes por ocasião da conclusão dos Itinerários Formativos, com o objetivo de conduzir os estudantes ao aprofundamento em uma ou mais áreas do conhecimento ou em campo de formação profissional, de modo a delinear o prosseguimento dos estudos e a preparação para o mundo do trabalho.\n\ne) coadunar os Itinerários Formativos com o disposto na Portaria MEC n° 1.432, de 28 de dezembro de 2018, que estabelece os referenciais para elaboração dos itinerários formativos conforme preveem as Diretrizes Nacionais do Ensino Médio.\n\nSendo assim, devem ser organizados a partir dos eixos estruturantes: Investigação Científica; Processos Criativos; Mediação e Intervenção Sociocultural; e Empreendedorismo, conforme as tabelas 1 e 2.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

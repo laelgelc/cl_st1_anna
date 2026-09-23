@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03f678d61c404b9f006ab30516696487d2bde66817f2ca4ed3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1873,
+      "input_tokens_details": {
+        "cache_write_tokens": 1870,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1798,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 3671
+    }
+  },
+  "created_at": "2026-09-22T22:45:55Z",
+  "duration_seconds": 12.749,
+  "error": null,
+  "excerpt_id": "mt_em_66",
+  "filename": "mt_em_66.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "236c227bec7734400697a2b6729253c340658e06b50be414f1a200e30681b2b9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c29f6684dce91a39f4ecefdaaf432a3e3d3969d5ba602c903b66bd912ead34ae",
+    "rendered_prompt_sha256": "e79fe8d578b00202fd5169fb49a66ec5347db37d13c4fe675b20b0fdce29793c",
+    "source_text_sha256": "aa4a2ac45d05a02466404b0f2f34e29237485ebcc4124dc2fe9acab81c2e5754"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_66.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1961,
+    "filename": "mt_em_66.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_66.txt",
+    "state": "mt",
+    "word_count_original": 1109
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_66.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_66.json"
+  },
+  "raw_response_text": "## 10. Arquitetura e Flexibilização do Currículo\n\n### 10.1 Itinerários Formativos e Arquitetura Curricular\n\nConsiderando que o currículo do Ensino Médio contemplará duas partes, sendo um bloco da Base Nacional Comum Curricular (BNCC) – Formação Geral Básica (1.800h) – e outro dos Itinerários Formativos (1.200h), convém destacar que, na BNCC, etapa Ensino Médio, as competências e habilidades não são organizadas por meio da seriação destas, permitindo, portanto, flexibilizar a definição anual dos currículos, percebendo a rede de ensino e as propostas pedagógicas das unidades escolares (Projeto Político Pedagógico). Os Itinerários Formativos e as opções de escolha dos estudantes são parte importante da flexibilização nessa organização.\n\nÉ importante enfatizar que os Itinerários Formativos, entendidos como a parte flexível do currículo do Novo Ensino Médio, devem atender a quatro objetivos: aprofundar e ampliar aprendizagem, contemplando as competências gerais e uma ou mais áreas do conhecimento e/ou a Formação Técnica Profissional; consolidar a formação integral, garantindo o desenvolvimento de autonomia para os estudantes realizarem seus projetos de vida; promover valores universais, como ética, liberdade, democracia, justiça social, pluralidade, solidariedade e sustentabilidade; e desenvolver habilidades, possibilitando uma visão de mundo mais ampla e heterogênea, e capacidade de tomar decisões e agir (BRASIL, 2018).\n\nTendo como base o aprofundamento e a ampliação de aprendizagens em uma determinada área do conhecimento (Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias, Ciências Humanas e Sociais Aplicadas) e/ou na Formação Técnica e Profissional, e sua aplicação em contextos diversos. Podem, ainda, combinar mais de uma área do conhecimento (Integrados), sendo completados, também, por Formação Técnica e Profissional. Além de ampliar ou aprofundar competências e habilidades previstas na BNCC, devem estar articulados aos temas contemporâneos transversais e/ou relacionados ao contexto da escola ou da rede de educação.\n\nNesse sentido, ao cursar o Itinerário Formativo, espera-se que o estudante seja preparado para exercer a sua cidadania com plenitude e resolver demandas complexas do cotidiano. Além disso, ele será instigado a dar continuidade aos estudos e/ou preparar-se para um desempenho qualificado no mercado de trabalho.\n\nAssim, no escopo do DRC – etapa Ensino Médio, os Itinerários Formativos são compreendidos como o conjunto de unidades curriculares que ampliam a possibilidade do protagonismo juvenil no Ensino Médio, pois o estudante poderá ter opções de escolha para aprofundar seus conhecimentos e se preparar para o mundo do trabalho, de forma a contribuir para a construção de soluções de problemas específicos da sociedade.\n\nEsse conjunto articulado de unidades curriculares promove aprofundamento nas áreas do conhecimento e/ou na Formação Técnica e Profissional, em percurso com começo, meio e fim, abarcando os eixos estruturantes descritos nas Diretrizes Curriculares Nacionais para o Ensino Médio – Resolução nº 3, CNE/CEB – e na Portaria nº 1.432/2018, instituída pelo Ministério da Educação e Cultura (MEC).\n\nNeste contexto, destaca-se que os Itinerários Formativos são compostos por Trilhas de Aprofundamento, Projeto de Vida e Componentes Curriculares Eletivas.\n\nAs Trilhas de Aprofundamento nas áreas do conhecimento (Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias e Ciências Humanas e Sociais Aplicadas) buscam expandir os aprendizados promovidos na Formação Geral Básica, articulando os Temas Contemporâneos Transversais (TCTs), considerando o contexto e o interesse dos estudantes, explorando potenciais e vocações, envolvendo um tempo de dedicação em unidades curriculares escolhidas de acordo com o seu Projeto de Vida.\n\nNa perspectiva da Trilha de Aprofundamento no âmbito da Formação Técnica e Profissional, a ampliação do aprendizado, sintoniza-se com o desenvolvimento de habilidades básicas demandadas ao mundo do trabalho, além de habilidades específicas relacionadas a Cursos Técnicos, Cursos de Qualificação Profissional (FICs) ou Programa de Aprendizagem Profissional.\n\nAs Componentes Curriculares Eletivas apresentam-se, no contexto flexibilização curricular, como unidades que têm intencionalidade pedagógica, articulada às áreas de conhecimento e aos TCTs (apresentados na BNCC), considerando o interesse do estudante. As unidades Eletivas podem assumir um espaço para promover a experimentação, despertar o interesse e apoiar os estudantes em suas escolhas. Assim, podem possibilitar a experimentação de diferentes temáticas, linguagens e formas de aprendizagem, ou seja, podem viabilizar aos estudantes a vivência em uma área do conhecimento distinta da qual pretende seguir na Trilha de Aprofundamento. Essa unidade curricular pode estar relacionada à Formação Geral Básica, considerando as competências gerais da BNCC e proporcionando o enriquecimento curricular nas múltiplas dimensões, com viés interdisciplinar e transdisciplinar.\n\nO Projeto de Vida tem como objetivo principal desenvolver a capacidade do estudante de significar a sua existência, permitindo que tomadas de decisões façam sentido e sejam imbuídas de planejamento. Assim, o estudante compreenderá que a forma como conduzirá sua vida é passível de escolhas, necessitando da capacidade de planejar o futuro e agir no presente com autonomia e responsabilidade. Esse tema foi apresentado no capítulo introdutório do presente documento.\n\nO Projeto de Vida será ofertado como componente curricular nos três anos dessa etapa, como bloco comum a todos os estudantes. As Trilhas de Aprofundamento, voltadas a uma ou mais áreas do conhecimento (Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias e Ciências Humanas e Sociais Aplicadas) ou à Educação Técnica e Profissional (EPT), e as Unidades Eletivas serão ofertadas considerando o contexto escolar, a capacidade de oferta e o interesse dos estudantes.\n\nA partir dessa organização, o ambiente pedagógico se transforma em espaço para experimentação, interdisciplinaridade e aprofundamento dos estudos. Com essa organização curricular e com o intuito de atender aos anseios e projetos de vida dos jovens, permite-se ao estudante o aprofundamento na área de interesse, consentindo-lhe a escolha pelo percurso que mais se adeque às suas características pessoais, vocações e projetos de vida.\n\nRessalta-se a importância de um trabalho de tutoria e suporte aos jovens para subsidiá-los nas escolhas a serem realizadas. Nesse sentido, é primordial que os professores considerem o Projeto de Vida dos estudantes como uma construção contínua, oferecendo recursos para que aprendam a fazer escolhas importantes ao longo da sua trajetória, ponderando-as eticamente. Deve, ainda, ser considerada uma abordagem transversal, mesmo que trabalhada como componente curricular, permeando os demais componentes, fazendo parte de diversas práticas no ambiente escolar.\n\nNo que se refere às Trilhas de Aprofundamento, as unidades escolares deverão ofertar, no mínimo, duas para que seja assegurado ao estudante o direito à escolha. Para os munícipios que possuem apenas uma escola que oferta Ensino Médio, a orientação é a oferta de Trilhas de Aprofundamento Integradas. Tais Trilhas constituem-se em propostas de aprofundamento articulando as áreas de conhecimento e possibilitando, assim, que todas sejam contempladas. As Trilhas de Aprofundamento Integradas podem se constituir, também, entre área de conhecimento e a Formação Técnica e Profissional.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

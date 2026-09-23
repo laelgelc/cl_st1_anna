@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_095d49ff5559bb57006ab30db10c9487d2a023e8d5dadee212",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 926,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 913,
+      "output_tokens_details": {
+        "reasoning_tokens": 131
+      },
+      "total_tokens": 1839
+    }
+  },
+  "created_at": "2026-09-22T23:22:32Z",
+  "duration_seconds": 7.249,
+  "error": null,
+  "excerpt_id": "rs_em_34",
+  "filename": "rs_em_34.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8d9eb57eda375d18f0a8b602d58a3e93699a3b4a6325b8b5e31e027e3e0fc66b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8ff75fe1cac71166bc489364cc504138bda6573e55750c9cda99382cbcb073df",
+    "rendered_prompt_sha256": "0cdca0c866f41952c1bb9af80d0ed2893e6fc99d46c1e40fd6b1d9e6adbf591d",
+    "source_text_sha256": "91c7881988fa1c08863e82a8c04d6da2b5090c4bb534480d6a4d43b734e79f02"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_34.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3577,
+    "filename": "rs_em_34.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_34.txt",
+    "state": "rs",
+    "word_count_original": 536
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_34.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_34.json"
+  },
+  "raw_response_text": "### 2.4.11 Superação de Discriminações e Preconceitos como Racismo, Sexismo, Homofobia e outros\n\nA escola, não isoladamente, mas integrada com o conjunto da sociedade, com o amparo, financiamento e incentivo do poder público, cumpre uma função central no desenvolvimento de suas atividades pedagógicas de ciência, conhecimento e convivência, constituindo-se também como agente na garantia do direito à educação previsto na Constituição Federal. A CF determina que todos são iguais perante a lei e que não há distinção de qualquer natureza entre as pessoas, ou seja, não deve haver espaço para discriminações e preconceitos de qualquer natureza.\n\nComo instituição social, a escola deve criar, com intencionalidade, espaços permanentes de diálogo e de reconhecimento das diferenças, possibilitando ações pedagógico-educativas, a fim de superar e combater a violência, o desrespeito e a insensibilidade. Não se trata de propor ações padronizadas de igualdade, mas de criar condições para que crianças, adolescentes e jovens reconheçam e respeitem diferentes identidades e reflitam sobre os padrões de comportamento vivenciados e impostos, culturalmente, pela sociedade, com perspectivas de atualizações e qualificações das vivências.\n\nA escola é um espaço privilegiado de convivência entre indivíduos, com condições de favorecer relações e atitudes que enfrentam práticas discriminatórias e preconceituosas que violam os direitos humanos e sociais. O RCGEM aponta para abordagens educativas, pautadas no diálogo e nas vivências como estratégias de enfrentamento e superação de discriminações e preconceitos como racismo, sexismo, homofobia e outros.\n\n### 2.4.12 Conscientização, Prevenção e Combate à Intimidação Sistemática (Bullying)\n\nAs relações sociais, dentro e fora da escola, nem sempre são pautadas pelos princípios de igualdade e equidade. A diversidade humana e o respeito às diferenças devem ser promovidos e valorizados no ambiente educativo escolar e os jovens, ainda em formação nos aspectos físicos, afetivos, cognitivos e sociais, necessitam de suportes pedagógicos, de mediações e intervenções que podem ser realizadas por profissionais da educação, da assistência social e da saúde.\n\nEm 06 de novembro de 2015, foi criada no Brasil a Lei nº. 13.185 que instituiu o Programa de Combate à Intimidação Sistemática (bullying) em todo território nacional. O Programa define bullying como\n\n> todo ato de violência física ou psicológica, intencional e repetitivo que ocorre sem motivação evidente, praticado por indivíduo ou grupo, contra uma ou mais pessoas, com o objetivo de intimidá-la ou agredi-la, causando dor e angústia à vítima, em uma relação de desequilíbrio de poder entre as partes envolvidas (BRASIL, 2015).\n\nEntre os objetivos do programa destaca-se, no art. 4º, inciso IX:\n\n> IX - promover medidas de conscientização, prevenção e combate a todos os tipos de violência, com ênfase nas práticas recorrentes de intimidação sistemática (bullying), ou constrangimento físico e psicológico, cometidas por alunos, professores e outros profissionais integrantes de escola e de comunidade escolar (BRASIL, 2015).\n\nAs escolas, segundo esse Programa, devem promover medidas de conscientização, prevenção, diagnóstico e combate ao bullying. De maneira complementar a esse Programa, a Lei nº. 13.663/2018, quando sancionada, alterou o art. 12 da Lei de Diretrizes e Bases da Educação Nacional com a finalidade de incluir que as escolas promovam medidas de conscientização, de prevenção e de combate a todos os tipos de violência, em especial ao bullying, e estabeleçam a cultura de paz.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

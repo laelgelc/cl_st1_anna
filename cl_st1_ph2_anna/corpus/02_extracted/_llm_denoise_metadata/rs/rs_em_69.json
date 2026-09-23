@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08272dd1c8541589006ab30dd42be087d2846ed250687bd829",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 567,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 514,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 1081
+    }
+  },
+  "created_at": "2026-09-22T23:23:04Z",
+  "duration_seconds": 4.574,
+  "error": null,
+  "excerpt_id": "rs_em_69",
+  "filename": "rs_em_69.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "59380759f15f28a43eedece9208822a040abf366cd6e57a9ed1d3a1d6ee3225e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ff653459b722874dee5aeb2462a052cb9826650531344e4f8baeea0c9d4cd551",
+    "rendered_prompt_sha256": "8c538581299b5e55f01819dc147ec4be8b19132abe0172539fcc3f36edd5f054",
+    "source_text_sha256": "923ed4daee7c770f39b5347f2c95665b6d3444eacb8291ffcbf2493cd8317c65"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_69.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3615,
+    "filename": "rs_em_69.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_69.txt",
+    "state": "rs",
+    "word_count_original": 317
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_69.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_69.json"
+  },
+  "raw_response_text": "### 3.4.5 Competências/Habilidades\n\nTodas as habilidades da FGB são identificadas por um código alfanumérico estabelecido pela BNCC. Essa estruturação das habilidades associadas às competências específicas da área tem o objetivo de delinear as aprendizagens essenciais a serem garantidas a todos os estudantes.\n\nNessa perspectiva, o Referencial Curricular Gaúcho para o Ensino Médio, na área de Linguagens e suas Tecnologias, estrutura-se através de um Organizador Curricular, que corresponde a um quadro composto por quatro colunas contendo, à esquerda, as sete competências específicas da área, relacionadas a cada uma delas, são indicadas as vinte e oito habilidades seguidas dos cinco campos de atuação social a serem desenvolvidos no EM e, na coluna da direita, a seriação das habilidades. Conjuntamente às habilidades da área (identificadas com as letras LGG), estão as cinquenta e quatro habilidades específicas de Língua Portuguesa, (identificadas com as letras LP), consideradas desdobramentos que possibilitam o planejamento pedagógico por área do conhecimento.\n\nAs habilidades da área foram organizadas nos três anos do Ensino Médio considerando o grau de complexidade e a carga horária necessária ao seu desenvolvimento. Ressalta-se que a sistematização curricular da área de Linguagens e suas Tecnologias no Referencial Curricular Gaúcho pretende potencializar a construção do conhecimento pela articulação dos componentes curriculares, partindo de um ponto em comum, nesse caso, as competências e habilidades da BNCC, em sintonia com o Projeto de vida e com as necessidades sociais e a promoção do respeito à sustentabilidade do planeta.\n\nO Organizador curricular da área de Linguagens e suas Tecnologias do Referencial Curricular Gaúcho para o Ensino Médio encontra-se a seguir.\n\nO documento do RCG descreve as competências e habilidades e sugere que estejam organizadas conforme o Quadro 3. Contudo, os professores possuem total liberdade para realizar o desenvolvimento das referidas habilidades e competências, de acordo com sua estratégia de ensino e aprendizagem e alinhadas às especificidades da unidade escolar em que atuam.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

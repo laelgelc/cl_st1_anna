@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fad8b153dfe6528006ab30bd8186087d2b93c62b8d8151b76",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 465,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 463,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 928
+    }
+  },
+  "created_at": "2026-09-22T23:14:35Z",
+  "duration_seconds": 3.35,
+  "error": null,
+  "excerpt_id": "ro_ef_90",
+  "filename": "ro_ef_90.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d0fb4c9b6843fa960e4b56fc84594b030b4bc1bde77535d6fdecf5266a7c485c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7acf52947d0612f2d0b09d3cd3293b236293e7e0656fbf918b0c9786dc5b1da3",
+    "rendered_prompt_sha256": "27d8ba73f31b6a7eb98632b0bfc6f671ec6a656ce338d4b565170adb6c8136d3",
+    "source_text_sha256": "c00996dc222972059fad7c5d504b69aa26f4eb754fa5f5ea18144cd3c172e89f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_90.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3195,
+    "filename": "ro_ef_90.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_90.txt",
+    "state": "ro",
+    "word_count_original": 276
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_90.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_90.json"
+  },
+  "raw_response_text": "### 9.7.6 Ciências No Ensino Fundamental – Anos Finais: Unidades Temáticas, Objetos de Conhecimento e Habilidades\n\nNos anos finais do Ensino Fundamental, a exploração das vivências, saberes, interesses e curiosidades dos alunos sobre o mundo natural e material continua sendo fundamental. Todavia, ao longo desse percurso, percebem-se uma ampliação progressiva da capacidade de abstração e da autonomia de ação e de pensamento, em especial nos últimos anos, e o aumento do interesse dos alunos pela vida social e pela busca de uma identidade própria.\n\nEssas características possibilitam a eles, em sua formação científica, explorar aspectos mais complexos das relações consigo mesmos, com os outros, com a natureza, com as tecnologias e com o ambiente; ter consciência dos valores éticos e políticos envolvidos nessas relações; e, cada vez mais, atuar socialmente com respeito, responsabilidade, solidariedade, cooperação e repúdio à discriminação. Nesse contexto, é importante motivá-los com desafios cada vez mais abrangentes, o que permite que os questionamentos apresentados a eles, assim como os que eles próprios formulam, sejam mais complexos e contextualizados.\n\nAlém disso, à medida que se aproxima a conclusão do Ensino Fundamental, os estudantes são capazes de estabelecer relações ainda mais profundas entre a ciência, a natureza, a tecnologia e a sociedade, o que significa lançar mão do conhecimento científico e tecnológico para compreender os fenômenos e conhecer o mundo, o ambiente, a dinâmica da natureza. Além disso, é fundamental que tenham condições de ser protagonistas na escolha de posicionamentos que valorizem as experiências pessoais e coletivas, e representem o autocuidado com seu corpo e o respeito com o do outro, na perspectiva do cuidado integral à saúde física, mental, sexual e reprodutiva.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

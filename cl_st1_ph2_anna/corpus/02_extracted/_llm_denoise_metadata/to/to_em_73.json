@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f2936dc685ec3cf006ab31061157887d298be34351905cedd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 929,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1081,
+      "output_tokens_details": {
+        "reasoning_tokens": 248
+      },
+      "total_tokens": 2010
+    }
+  },
+  "created_at": "2026-09-22T23:34:02Z",
+  "duration_seconds": 9.489,
+  "error": null,
+  "excerpt_id": "to_em_73",
+  "filename": "to_em_73.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0663a58c3bc78c06d2b60bbd34b7806a82078def8560506a4434dbf41ff83c4c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7102b2a23fac3ffdcf2be39495ae0169189ff6f1c3e88cd52b6d7b49270aa99e",
+    "rendered_prompt_sha256": "bae4480f842c1294a15242398b2a59cb184ba8b0dcc0dc9dac14364abef11466",
+    "source_text_sha256": "cad3c6b79c81e2a4d610ddbb87435917c7b70a71588b601df9325c1b93c3a0b5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_73.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4077,
+    "filename": "to_em_73.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_73.txt",
+    "state": "to",
+    "word_count_original": 532
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_73.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_73.json"
+  },
+  "raw_response_text": "## 11.5 Organização Curricular da Parte Flexível da Rede Estadual\n\nNa organização curricular da parte flexível encontram-se os Itinerários Formativos denominados Trilhas de Aprofundamento e/ou de Formação Técnica Profissional, Eletivas e Projeto de Vida.\n\nQuaisquer alterações e novas proposições feitas nas Unidades Curriculares quanto às Trilhas de Aprofundamento devem ter parecer de validação da Diretoria Regional de Educação-DRE, e este encaminhado à SEDUC-TO para aprovação do CEE/TO.\n\nAs Eletivas elaboradas pelas Unidades Escolares devem ter a validação da Diretoria Regional de Educação-DRE.\n\nDestaca-se que as Trilhas de Aprofundamento podem ser:\n\na) Trilhas de Aprendizagem Simples (contempla uma área de conhecimento);\nb) Trilhas de Aprendizagem Integradas (contempla duas ou mais áreas de conhecimento).\n\n### 11.5.1 Trilhas de Aprofundamento\n\nBuscam expandir os aprendizados promovidos pela Formação Geral Básica. No caso dos Itinerários Formativos das Áreas do Conhecimento, essa ampliação acontece em articulação com temáticas contemporâneas articuladas com o contexto e os interesses dos estudantes. Na Formação Técnica e Profissional, a expansão se dá juntamente com o desenvolvimento de habilidades básicas requeridas pelo mundo do trabalho e habilidades específicas relacionadas aos Cursos Técnicos, Cursos de Qualificação Profissional (FICs) ou Programa de Aprendizagem Profissional escolhidos pelos estudantes. Assim, é possível explorar potenciais e vocações. As Trilhas de Aprofundamento permitem que os jovens consolidem a formação integral, promovam a incorporação de valores universais e desenvolvam habilidades que permitam ampliar a visão de mundo, tomar decisões e agir com autonomia e responsabilidade. Para tanto, busca desenvolver habilidades gerais e específicas associadas aos eixos estruturantes. Desta maneira, as Trilhas de Aprofundamento são organizadas e elaboradas conforme as Estruturas Curriculares da modalidade, e validadas pela Seduc-TO e/ou pelo Conselho Estadual da Educação do Tocantins (CEE-TO). Para mais informações consultar o Caderno 3.\n\nO Documento Curricular do Território do Tocantins, Etapa Ensino Médio é composto por 17 (dezessete) Trilhas de Aprofundamento, subdivididas em 4 (quatro) Áreas de Conhecimento.\n\n### 11.5.2 Eletivas\n\nSão Unidades Curriculares de livre escolha dos estudantes e que lhes possibilitam experimentar diferentes temas, vivências e aprendizagens, de maneira a diversificar e enriquecer o seu Itinerário Formativo. O estudante pode cursar Eletivas, associadas à mesma Área do Conhecimento ou Formação Técnica e Profissional em que estiver se aprofundando, ou optar por diversificar a sua formação, escolhendo Eletivas de temas de seu interesse associados a outras Áreas do Conhecimento.\n\nRecomenda-se que sejam construídas pelos professores, conforme disposto no Caderno 4, a partir de sugestões dos próprios jovens. Apesar do seu caráter mais lúdico e prático, é importante que tenham intencionalidade pedagógica e se articulem com as Áreas do Conhecimento, os eixos estruturantes e as Competências Gerais da BNCC. Na Formação Técnica e Profissional, as FICs (Curso de Qualificação Profissional) também podem ser ofertadas como Eletivas.\n\nDesta forma, o território por meio do DCT-TO, Etapa Ensino Médio, desenvolverá as Eletivas com duração semestral e carga horária conforme estrutura curricular aprovada para cada modalidade atendida.\n\nQuando a oferta de Eletivas for por meio de FICs, ela será ofertada em mais de um semestre, com carga horária mínima de 160 horas. Assim, cada estudante poderá cursar um mínimo de duas Eletivas por ano, ao longo do Ensino Médio.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

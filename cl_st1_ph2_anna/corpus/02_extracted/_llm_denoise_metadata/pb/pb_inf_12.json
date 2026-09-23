@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c0580b2fcd655d9006ab30791530487d28a5f890ecd2ed2b3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 647,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 728,
+      "output_tokens_details": {
+        "reasoning_tokens": 211
+      },
+      "total_tokens": 1375
+    }
+  },
+  "created_at": "2026-09-22T22:56:24Z",
+  "duration_seconds": 7.586,
+  "error": null,
+  "excerpt_id": "pb_inf_12",
+  "filename": "pb_inf_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "02d22d97fa85266d100765a3da0e514ab053ecc6d6385f405be3582527753496",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "292674a38512ef6d100d84546ad072904fc9240d5666da9ceb20bc6fd022e677",
+    "rendered_prompt_sha256": "dc227dfd611f77c3fedb02c6f6884628b1f1c3e30e992169b505ecb55b503f7c",
+    "source_text_sha256": "2dd193616f72ac02a170393108917af9d5b73ae58f5778c9976762f41e849b55"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2355,
+    "filename": "pb_inf_12.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_12.txt",
+    "state": "pb",
+    "word_count_original": 419
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_12.json"
+  },
+  "raw_response_text": "## 3.6 Campos de experiência e objetivos de aprendizagem e desenvolvimento: um diálogo necessário\n\nOs objetivos de aprendizagem e desenvolvimento dialogam com os campos de experiência que, por sua vez, se estruturam a partir dos direitos de aprendizagem dos bebês, crianças bem pequenas e crianças pequenas. Essa articulação se faz necessária para garantir que esses objetivos não sejam pensados de forma pragmática, como algo a ser atingido pelas crianças, de forma autônoma e independente das interações que lhes devem ser possibilitadas no âmbito das instituições de Educação Infantil, dos direitos que lhes são inerentes em seu processo de desenvolvimento e aprendizagem e de um currículo que leve em consideração as brincadeiras e os campos de experiência.\n\nCompreendemos que toda criança se desenvolve de forma integral e, portanto, faz-se necessário que as vivências propostas – potenciais caminhos para a construção de experiências pelas crianças - sejam diversificadas, permitindo sua interação com o mundo e com as pessoas de diferentes formas e em diferentes momentos, e que considerem suas potencialidades físicas, emocionais, cognitivas, sociais e culturais.\n\nA organização aqui proposta não deve ser considerada como algo estático, definido, mas ser tomada como um parâmetro ou uma referência, tendo-se o cuidado para não fragmentar os campos de experiência, que devem ser pensados de forma articulada. O/a professor/a pode e deve pensar as vivências propostas como sugestões ou referências vinculadas aos objetivos, levando sempre em consideração o grupo de crianças envolvidas (bebês, crianças bem pequenas e crianças pequenas) e os campos de experiência que as crianças acionam em suas interações com o mundo e as pessoas e aqueles que o/a professor/a deseja acionar nas práticas pedagógicas voltadas às crianças com as quais trabalha.\n\nA seguir, os objetivos de aprendizagem e desenvolvimento serão apresentados, considerando cada campo de experiência na sua relação com os bebês, as crianças bem pequenas e as crianças pequenas. Esses objetivos seguem o conjunto proposto pela BNCC, no que tange à Educação Infantil e, em alguns casos, há novos objetivos, que foram introduzidos a partir do diálogo com professoras e professores do estado da Paraíba, que participaram de diversos momentos formativos realizados no decorrer da construção deste documento.\n\nTambém, propostas de vivências que potencializam a construção de experiências pelas crianças em cada campo de experiência são indicadas, como referências que não esgotam as possibilidades de vivências a serem oportunizadas aos bebês, às crianças bem pequenas e às crianças pequenas pelo/a professor/a.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

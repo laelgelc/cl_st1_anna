@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_030d2b35137b2a9d006ab30473b4e887d29a2de064544b5c86",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 816,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1035,
+      "output_tokens_details": {
+        "reasoning_tokens": 368
+      },
+      "total_tokens": 1851
+    }
+  },
+  "created_at": "2026-09-22T22:43:09Z",
+  "duration_seconds": 9.625,
+  "error": null,
+  "excerpt_id": "mt_ef_52",
+  "filename": "mt_ef_52.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "209c373d73ecbd8470085606a05ba370ea83f84b27ce06ec9cfacc4206c42ecd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f3b464b7c54950392c5aa2710213df1d817fa701334fb50f29e32a6312d75c99",
+    "rendered_prompt_sha256": "110641d2e62dfe1abe44712c2c4a7e48a11147084caf4c9b2364ed632947d246",
+    "source_text_sha256": "cfaa08ceab64e3916b7be9b3e8e48bcb934a2abb847723fb13dfb32ea1b68efc"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_52.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1847,
+    "filename": "mt_ef_52.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_52.txt",
+    "state": "mt",
+    "word_count_original": 451
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_52.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_52.json"
+  },
+  "raw_response_text": "### 1.3.3. Principais Alternativas Metodológicas\n\nA Declaração Universal dos Direitos Linguísticos, em seu artigo 23, preconiza que:\n\n> 1. O ensino deve contribuir para fomentar a capacidade de auto-expressão linguística e cultural da comunidade linguística do território onde é ministrado. [...] 3. O ensino deve estar sempre ao serviço da diversidade linguística e cultural, e das relações harmoniosas entre as diferentes comunidades linguísticas do mundo inteiro (ORGANIZAÇÃO DAS NAÇÕES UNIDAS PARA A EDUCAÇÃO, A CIÊNCIA E A CULTURA, 1996, p.).\n\nDessa forma, a preocupação educacional atual não é somente pelo fato das pessoas não disporem certas habilidades de leitura e/ou de escrita. O fato de, por vezes, não possuírem o domínio de certas competências em muitos contextos pelos quais circulamos diariamente é de extrema importância. Em decorrência disso, é premente a superação de práticas de memorização e de repetições intermináveis.\n\nCom a globalização e a facilidade de acesso a diferentes povos e culturas, a aproximação com outro idioma, que não o português, está presente no dia a dia. Seja pela internet, em cartazes, em outdoors, em nomes de marcas, a Língua Inglesa e a Espanhola estão constantemente visíveis. Essas práticas sociais com a linguagem passaram (e passam) por transformações profundas advindas da disseminação da internet e tecnologia, o que acarretou o encurtamento da distância entre fronteiras, povos e culturas.\n\nCom essa transformação constante e desenfreada, necessita-se da mudança da abordagem didática nessas aulas. É imprescindível a consideração desse contato crescente. Assim, as Orientações Curriculares de Mato Grosso já apresentavam algumas sugestões de trabalho:\n\n> 1. Ensinar a língua em função do seu uso prático na oralidade e na escrita visando conseguir um nível de proficiência que torne possível a interação com indivíduos que têm essa língua como materna; 2. Propiciar o acesso à produção oral e/ou à escrita dirigida a esses indivíduos; 3. Conseguir uma interação bem-sucedida com pessoas de língua materna diversa através da língua estrangeira em estudo. 4. Instaurar uma postura relativizadora do que naturalmente se considera único: a língua, a cultura, os valores, os comportamentos próprios, contribuindo, assim, para a formação de uma postura crítica; 5. Repensar e reforçar os conhecimentos próprios da língua maternal (MATO GROSSO, 2009, p. 104-105).\n\nAprender é poder interagir significativamente, considerando, dentre vários fatores, o contexto, os conhecimentos prévios, os interlocutores e os objetivos reais. Sendo mais do que professores, os educadores em sala de aula podem oportunizar momentos de trabalho conjunto e de construção mútua de conhecimentos, nos quais estudantes contribuem ativamente com conhecimentos anteriores e com fatos de sua própria realidade (GARCEZ, 2008).\n\nDentre os infinitos métodos e abordagens, discorrem-se sobre dois que, por si só, podem ser maximizadas e destrinchadas em muitas outras variações.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

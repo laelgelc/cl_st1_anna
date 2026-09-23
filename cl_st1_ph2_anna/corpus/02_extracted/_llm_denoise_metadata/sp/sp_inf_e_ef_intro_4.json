@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_016df61782c93a97006ab30fd399e487d2bc0ac17d0bb211fa",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 685,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 797,
+      "output_tokens_details": {
+        "reasoning_tokens": 215
+      },
+      "total_tokens": 1482
+    }
+  },
+  "created_at": "2026-09-22T23:31:38Z",
+  "duration_seconds": 7.571,
+  "error": null,
+  "excerpt_id": "sp_inf_e_ef_intro_4",
+  "filename": "sp_inf_e_ef_intro_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "31cd4a8353c494c015760578ba1c415dda6f5515bdcbcbb5647cadce924fb4ef",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ea16ad758a49f0ff8d411d87c7d46b2e657ddc5924d628868d7adf1066ffb302",
+    "rendered_prompt_sha256": "8b45ceb69c07fdd3790261406fd24301923619ec4bd3d73591984b13203bfee5",
+    "source_text_sha256": "22a39ac47629ea9fc4575511e5b5efa998ba7db2c778643a31b17069aeaae0e8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_inf_e_ef_intro_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3958,
+    "filename": "sp_inf_e_ef_intro_4.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_inf_e_ef_intro_4.txt",
+    "state": "sp",
+    "word_count_original": 438
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_inf_e_ef_intro_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_inf_e_ef_intro_4.json"
+  },
+  "raw_response_text": "# O pacto entre Estado e Municípios e a garantia da qualidade e da equidade na implementação do Currículo Paulista\n\nCom a sua homologação, o Currículo Paulista retorna às redes de ensino, às escolas e aos educadores. O desafio, agora, é que o Currículo chegue a cada sala de aula de todas as escolas do Estado de São Paulo e que sua implementação concorra para assegurar educação de qualidade a todos os estudantes. Para isto, é fundamental que se fortaleça o regime de colaboração entre o Estado, os municípios e a rede privada.\n\nNesse processo de melhoria da qualidade da educação, o Currículo Paulista representa um marco importante para a redução das desigualdades educacionais no Estado, uma vez que explicita as aprendizagens essenciais que todos os estudantes devem desenvolver.\n\nEspera-se que todas as escolas (re)elaborem suas Propostas Pedagógicas de maneira a dar respostas efetivas às necessidades, às possibilidades e aos interesses dos estudantes, segundo suas identidades linguísticas, étnicas e culturais à luz do Currículo Paulista.\n\nPortanto, as decisões curriculares e didático-pedagógicas das diferentes redes de ensino, o planejamento do trabalho anual das instituições escolares e as rotinas e os eventos do cotidiano escolar devem considerar a necessidade de superação das desigualdades educacionais. Para essa superação, é necessário que o planejamento mantenha claro foco na equidade, o que pressupõe reconhecer que as necessidades dos estudantes são diferentes.\n\nSegundo a perspectiva defendida pelo Currículo Paulista, a equidade diz respeito à inclusão de todos os estudantes nas escolas e à garantia de seu direito à educação pública e de qualidade prevista na LDB, na Constituição, na legislação estadual e dos municípios paulistas. Diz respeito, ainda, à necessidade de respeitar a diversidade cultural, a socioeconômica, a étnico-racial, a de gênero e as socioculturais presentes no território estadual.\n\nPromover a equidade supõe também dar respostas adequadas e com respeito ao público atendido nas modalidades da Educação Especial, Educação de Jovens e Adultos, Educação do Campo, Educação Escolar Indígena e Educação Escolar Quilombola, segundo as necessidades locais.\n\nNo caso da Educação Especial, o desafio da equidade requer o compromisso com os estudantes com deficiência, reconhecendo a necessidade de práticas pedagógicas inclusivas e de acessibilidade curricular, conforme estabelecido na Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei nº 13.146/2015).\n\nReitere-se que o fortalecimento do regime de colaboração entre Estado e Municípios — já praticado na implementação de inúmeras ações e programas educacionais e no processo de elaboração do Currículo Paulista — é fundamental para garantir o ingresso e a permanência bem-sucedida na Educação Básica, bem como para cumprir o compromisso de assegurar equidade na educação.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

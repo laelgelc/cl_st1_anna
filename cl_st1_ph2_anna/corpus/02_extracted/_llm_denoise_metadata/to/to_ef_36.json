@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03328cd8dbebd490006ab30fff36e887d28b95e032c379b708",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 387,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 305,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 692
+    }
+  },
+  "created_at": "2026-09-22T23:32:18Z",
+  "duration_seconds": 3.332,
+  "error": null,
+  "excerpt_id": "to_ef_36",
+  "filename": "to_ef_36.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "541a8268d5f60303fd4881ecf76ffc92c680e5014649e45a0da7dd54ea7a5bc2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "804b6da3c311afca2e71cfd303c5296c3ceb0c443219b4fffa28a020bf93be7b",
+    "rendered_prompt_sha256": "6ba8bc21ab33a9a7fd586ee6fe82e42a29b4fc92b85837088d59031e27f3d949",
+    "source_text_sha256": "e28c74a54e32c9963f939ff2b2ced62cb3bdb3088daa398ff7710ee556de434a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_ef_36.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3997,
+    "filename": "to_ef_36.txt",
+    "filepath": "corpus/00_source_per_state/to/to_ef_36.txt",
+    "state": "to",
+    "word_count_original": 176
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_ef_36.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_ef_36.json"
+  },
+  "raw_response_text": "**COMPETÊNCIAS ESPECÍFICAS DE ENSINO RELIGIOSO PARA O ENSINO FUNDAMENTAL**\n\n1. conhecer os aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida, a partir de pressupostos científicos, filosóficos, estéticos e éticos;\n2. compreender, valorizar e respeitar as manifestações religiosas e filosofias de vida, suas experiências e saberes, em diferentes tempos, espaços e territórios;\n3. reconhecer e cuidar de si, do outro, da coletividade e da natureza, enquanto expressão de valor da vida;\n4. conviver com a diversidade de crenças, pensamentos, convicções, modos de ser e viver;\n5. analisar as relações entre as tradições religiosas e os campos da cultura, da política, da economia, da saúde, da ciência, da tecnologia e do meio ambiente;\n6. debater, problematizar e posicionar-se frente aos discursos e práticas de intolerância, discriminação e violência de cunho religioso, de modo a assegurar os direitos humanos no constante exercício da cidadania e da cultura de paz.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

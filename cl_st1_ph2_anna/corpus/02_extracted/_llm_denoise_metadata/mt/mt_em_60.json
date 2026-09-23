@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dba2db388b9b347006ab30510079c87d284438116472228bb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 637,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 748,
+      "output_tokens_details": {
+        "reasoning_tokens": 255
+      },
+      "total_tokens": 1385
+    }
+  },
+  "created_at": "2026-09-22T22:45:42Z",
+  "duration_seconds": 6.377,
+  "error": null,
+  "excerpt_id": "mt_em_60",
+  "filename": "mt_em_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5ffc2a4460d0537717e6f407621c7efe09e8eac573c1537bcf841448a309a51b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e7215cbe1228a50f248cae7ecbf9ca172fdf05abaa29f7bc0421d9f9bc85a874",
+    "rendered_prompt_sha256": "fb0cc5171022e1a93cead4e230228546f1758f834666fce048f4feeb79c9e6a5",
+    "source_text_sha256": "6b28929245c961ca65194e9f32c73870f4de8b61afa381ce4db54806f98aa906"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1955,
+    "filename": "mt_em_60.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_60.txt",
+    "state": "mt",
+    "word_count_original": 359
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_60.json"
+  },
+  "raw_response_text": "### 9.5.3 Investigação Matemática\n\nNo ensino fundamental a investigação tem por objetivo despertar o espírito investigativo dos estudantes, entretanto no Ensino Médio, o propósito é maior, pois requer deles a mobilização de conhecimento para propor investigação a fim de solucionar ou esclarecer situações-problema existentes nos diversos âmbitos sociais.\n\nPara o uso dessa metodologia de ensino deve-se entender que, em contextos de ensino e aprendizagem, investigar não significa, necessariamente, lidar apenas com problemas sofisticados, pois a investigação está mais relacionada a formulação de questões que despertam o interesse do pesquisador. Contudo, essas questões não devem ter respostas prontas, o que possibilitará a procura da resposta de modo fundamentado e rigoroso (PONTE; BROCARDO; OLIVEIRA, 2016).\n\nSendo assim a investigação matemática deve ser entendida como metodologia de ensino possível de ser explorada durante as aulas e necessária à formação integral do estudante do Ensino Médio, pois para Braumann (2002, p. 5),\n\n> Aprender matemática não é simplesmente compreender a matemática já feita, mas ser capaz de fazer investigação de natureza matemática (ao nível adequado a cada grau de ensino). Só assim se pode verdadeiramente perceber o que é a matemática e a sua utilidade na compreensão do mundo e na intervenção sobre o mundo. Só assim se pode realmente dominar os conhecimentos adquiridos. Só assim se pode ser inundado pela paixão ‘detectivesca’ indispensável à verdadeira fruição da matemática. Aprender matemática sem forte intervenção da sua faceta investigativa é como tentar aprender a andar de bicicleta vendo os outros andarem e recebendo informação sobre como o conseguem. Isso não chega. Para verdadeiramente aprender é preciso montar a bicicleta e andar fazendo erros e aprendendo com eles (BRAUMANN, 2002, p. 5),\n\nNesse sentido, não basta que os conhecimentos científicos sejam apresentados aos estudantes, é preciso oferecer oportunidades para que eles envolvam-se em processos de ensino-aprendizagem, nos quais possam vivenciar momentos de investigação que lhes possibilitem exercitar e ampliar sua curiosidade, aperfeiçoar sua capacidade de observação, de raciocínio lógico e de criação, desenvolver posturas mais colaborativas e sistematizar suas explicações sobre o mundo natural e tecnológico, tendo como referência os conhecimentos, as linguagens e os procedimentos próprios da Matemática (Brasil, 2018).",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

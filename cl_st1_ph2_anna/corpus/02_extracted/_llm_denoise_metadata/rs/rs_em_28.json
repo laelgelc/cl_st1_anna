@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08e73053392c8203006ab30da8ffdc87d2b38515493b676266",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 804,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1090,
+      "output_tokens_details": {
+        "reasoning_tokens": 419
+      },
+      "total_tokens": 1894
+    }
+  },
+  "created_at": "2026-09-22T23:22:26Z",
+  "duration_seconds": 9.218,
+  "error": null,
+  "excerpt_id": "rs_em_28",
+  "filename": "rs_em_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a7147e46365fd0d51623c3fd046c318693406a4dd234cf324e08f6542a22b39f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "106c700e63734334e9812868d4a6536c50f0d2e557607d4bd006020facb6d879",
+    "rendered_prompt_sha256": "157274223aa7c631fbd013c6c8e50d509547d6beb9e7d1d5c137c7e1da76faa1",
+    "source_text_sha256": "a8e6fbe3df2227f8bbc24b3f9c277be2c0bfc23e33d35454569e3791666139be"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3570,
+    "filename": "rs_em_28.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_28.txt",
+    "state": "rs",
+    "word_count_original": 453
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_28.json"
+  },
+  "raw_response_text": "## 2.4.4 Educação Ambiental\n\nA Educação Ambiental, a partir da Lei nº. 9.795/1999, aparece como componente interdisciplinar a ser trabalhado em todos os níveis de ensino, em todas as áreas e em todos os componentes curriculares. Assim, se transforma em tema transversal imperativo e, como tal, o sistema estadual e municipais de ensino e as redes do território, com apoio e investimento das mantenedoras, devem promover ações, debates e motivar compreensões no sentido de desenvolver atitudes de cuidado, manutenção e conservação ambiental, cujo objetivo seja garantir a qualidade de vida de toda a população do presente e das gerações futuras. Este TCT reforça a necessidade de aprofundamento do Parecer CNE/CP nº. 14/2012, que retoma a Constituição Federal no seu artigo 23 e da Resolução CNE/CEB nº. 2/2012, para compreender a proteção ambiental, o combate à poluição e a conservação da natureza como indispensáveis no trabalho pedagógico cotidiano do conjunto das ações escolares.\n\nO Parecer CNE/CP nº. 14/2012 indica que a Educação Ambiental deve operar ensino na “perspectiva socioambiental, da justiça ambiental, das relações comerciais equilibradas e das concepções de sustentabilidade”. As ações humanas, sociais e econômicas - extrativistas, agropecuárias, comerciais e industriais - devem se realizar em equilíbrio com o meio ambiente e, portanto, sem prejudicar as condições de vida do sistema planetário, inclusive, ocupando-se desde os biomas e ecossistemas de cada região.\n\nNo RS, a Lei nº. 13.597/2010, que revogou a Lei nº. 11.730/2002, dispõe sobre a Educação Ambiental e seu ensino no território gaúcho em acordo com a Lei Federal nº. 9.795/1999, e define, no artigo 4º, os princípios da Educação Ambiental:\n\n- I - o enfoque humanista, holístico, democrático e participativo;\n- II - a concepção do meio ambiente em sua totalidade, considerando a interdependência entre o meio natural, o socioeconômico e o cultural sob o enfoque da sustentabilidade;\n- III - o pluralismo de ideias e concepções pedagógicas, tendo como perspectivas a interdisciplinaridade e a transdisciplinaridade;\n- IV - a vinculação entre a ética, a educação, o trabalho, a democracia participativa e as práticas sociais;\n- V - a garantia de continuidade e permanência do processo educativo;\n- VI - a participação da comunidade;\n- VII - a permanente avaliação crítica do processo educativo;\n- VIII - a abordagem articulada das questões socioambientais do ponto de vista local, regional, nacional e global;\n- IX - o reconhecimento e o respeito à pluralidade e à diversidade individual e cultural (BRASIL, 1999).\n\nNessa perspectiva, a Educação Ambiental deve ser trabalhada em todas as modalidades de ensino e em todos os anos escolares, para formar cidadania crítica atuante e comprometida na manutenção, defesa e qualificação do meio ambiente, como bem comum inseparável da defesa da qualidade de vida e da consciência e compromisso com sua continuidade.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

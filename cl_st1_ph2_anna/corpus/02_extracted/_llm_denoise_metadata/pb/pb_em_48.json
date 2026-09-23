@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0627ac0982099551006ab30747936487d2a5258f871d366c36",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 848,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 987,
+      "output_tokens_details": {
+        "reasoning_tokens": 233
+      },
+      "total_tokens": 1835
+    }
+  },
+  "created_at": "2026-09-22T22:55:12Z",
+  "duration_seconds": 8.644,
+  "error": null,
+  "excerpt_id": "pb_em_48",
+  "filename": "pb_em_48.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4b026205e23b6b09fdda131f6fe86be6e50607e6af04d0016be9fe02af31b7f4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "92bc1f152183dcc51d3b4d7ecb64f9a9ecd535388035c66c2e5f2c897f60e608",
+    "rendered_prompt_sha256": "4ee77a346e4c2b904566090d4d007386e2968ce1e93d8da10d11358372cf9057",
+    "source_text_sha256": "7bbc9c258f31c01a5eac28004b9e84cde1dabf13a1691fcb6c1c284cb9caa057"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_48.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2295,
+    "filename": "pb_em_48.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_48.txt",
+    "state": "pb",
+    "word_count_original": 541
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_48.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_48.json"
+  },
+  "raw_response_text": "## 2.2.1 APRESENTAÇÃO\n\nA palavra conhecimento associada ao ato de compreender traz consigo, de forma implícita ou explícita, uma série de pré-conceitos e pós conceitos geralmente relacionados à política ou à educação, envolvendo funções sociais. Neste sentido, podemos afirmar que um sujeito é posto sobre o papel de pupilo, discípulo, discente ou aluno a partir do momento que o encontramos em uma situação de aprendizagem, com a função de aprender, enquanto que é posto sobre o papel de mestre, docente ou professor quando o encontramos em situação de ensino, com a função de ensinar.\n\nDessa forma, nos deparamos com algumas dificuldades no âmbito da educação formal, como a falta da possibilidade de trocas de papéis por parte de um mesmo sujeito, professor – aluno e aluno – professor, e a não dissociação dos cenários de aprendizagem e de ensino à instituição escola, o que contradiz o fato de nos depararmos cotidianamente com situações extraescolares, as quais exigem a utilização de diversos conhecimentos e saberes, ao mesmo tempo em que propiciam a exploração das múltiplas inteligências e a aquisição de novos conhecimentos, ficando na responsabilidade do sujeito a escolha sobre o registro ou não das suas compreensões.\n\nNeste contexto, vivemos uma estrutura educacional, técnica e científica organizada naquilo que conhecemos como áreas de conhecimento, dentre as quais encontramos a Matemática, que por sua linguagem própria e a natureza abstrata de seus objetos a tornou-se única, ao mesmo tempo em que mantém relações amplas e intrínsecas com todas as outras áreas. Assim, em concordância com as Diretrizes Curriculares para o Ensino Médio, Brasil (2018, p.21), nessa proposta entendemos que:\n\n1. O currículo por área de conhecimento deve ser organizado e planejado dentro das áreas de forma interdisciplinar e transdisciplinar.\n2. Os estudos e práticas destacados nos incisos de I a IX do § 4º da DCNEM, devem ser tratados de forma contextualizada e interdisciplinar, podendo ser desenvolvidos por projetos, oficinas, laboratórios, dentre outras estratégias de ensino-aprendizagem que rompam com o trabalho isolado apenas em disciplinas.\n3. A contextualização e a interdisciplinaridade devem assegurar a articulação entre diferentes áreas do conhecimento, propiciando a interlocução dos saberes para a solução de problemas complexos.\n4. O currículo deve contemplar tratamento metodológico que evidencie a contextualização, a diversificação e a transdisciplinaridade ou outras formas de interação e articulação entre diferentes campos de saberes específicos, contemplando vivências práticas e vinculando a educação escolar ao mundo do trabalho e à prática social e possibilitando o aproveitamento de estudos e o reconhecimento de saberes adquiridos nas experiências pessoais, sociais e do trabalho.\n\nValorizando os elementos presentes na BNCC e nos apropriando dos ditos anteriores, apresentamos a área de Matemática e suas Tecnologias como algo que transcende o componente curricular, desenvolvendo no alunado raciocínio lógico, capacidade de abstrair, generalizar e projetar as tarefas executadas do nosso dia a dia, seja na ida ao supermercado ou na modelagem de problemas complexos, diante dessa versatilidade que área de Matemática e suas Tecnologia possibilita, o(a) docente tem a possibilidade de trabalhar de forma transdisciplinar, desenvolvendo no indivíduo o protagonismo, a autonomia e o pensamento crítico da sua realidade.\n\nNo decorrer desta proposta curricular, também iremos aprofundar alguns conceitos teórico-matemáticos relacionando-os com diversas situações interáreas mantendo um diálogo interdisciplinar.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

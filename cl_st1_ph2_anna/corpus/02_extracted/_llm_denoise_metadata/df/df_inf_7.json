@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0cf68543dc485eaf006ab3006d300087d2ae049f374a753182",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 515,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 517,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 1032
+    }
+  },
+  "created_at": "2026-09-22T22:25:53Z",
+  "duration_seconds": 4.628,
+  "error": null,
+  "excerpt_id": "df_inf_7",
+  "filename": "df_inf_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7bbc6441a8767dc7ba944e591d580bc644e3a6d0e7d31044066453701bf4d301",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b75dbbfb5a0fa9ff99455dcd3ecc617ca5d03208725eeeac24bb332df75ab8cd",
+    "rendered_prompt_sha256": "f1f21b69887c5186f00e86eca20eb8b1769c03493081ab274e1199dcddfb7bd9",
+    "source_text_sha256": "1af55542b7007e1e4d49a6ac4149a95d0af7ea0031a69f0cda45ded6f21e71f9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_inf_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 975,
+    "filename": "df_inf_7.txt",
+    "filepath": "corpus/00_source_per_state/df/df_inf_7.txt",
+    "state": "df",
+    "word_count_original": 263
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_inf_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_inf_7.json"
+  },
+  "raw_response_text": "## 6. QUAIS SÃO OS EIXOS INTEGRADORES DO CURRÍCULO DA EDUCAÇÃO INFANTIL?\n\nA Resolução do Conselho Nacional de Educação nº 5, de 17 de dezembro de 2009, fixa as Diretrizes Curriculares Nacionais para a Educação Infantil. Esse documento delibera, em seu artigo 9º, que as práticas pedagógicas que compõem a proposta curricular da Educação Infantil devem ter como eixos norteadores a brincadeira e as interações.\n\nAssim, a SEEDF adota como Eixos Integradores do Currículo estes elementos basilares do trabalho educativo com as crianças: Educar e Cuidar, Brincar e Interagir. Tais eixos precisam ser considerados juntamente com os Eixos Transversais do Currículo em Movimento: Educação para a Diversidade; Cidadania e Educação em e para os Direitos Humanos e Educação para a Sustentabilidade.\n\nO cotidiano de educação coletiva é permeado por essa transversalidade, que reclama ações acerca da biodiversidade e diversidade cultural, étnico-racial, de crença, de gênero e configurações familiares, inclusão das crianças com deficiência, atendimento à heterogeneidade e à singularidade, direito às aprendizagens e diversas formas de viver a infância e convivências entre as gerações.\n\nPortanto, a elaboração da Proposta Pedagógica – PP, que é construída à luz deste currículo, precisa ser pensada de acordo com a realidade da instituição que oferta Educação Infantil, observando características, identidade institucional, escolhas coletivas e particularidades pedagógicas, de modo a estabelecer a integração dessas experiências, bem como conhecer a realidade social que permeia tais instituições e a realidade das crianças com as quais atua pedagogicamente. Todos esses elementos precisam dialogar com os Eixos Transversais e Integradores, que se aplicam à realidade da Educação Infantil do Distrito Federal por inteiro.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

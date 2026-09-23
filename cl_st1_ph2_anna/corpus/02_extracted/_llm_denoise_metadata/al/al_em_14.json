@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02f943ecd11b48e8006ab2fcac3d1487d2b417efad6cce1715",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 466,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 502,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 968
+    }
+  },
+  "created_at": "2026-09-22T22:09:52Z",
+  "duration_seconds": 4.24,
+  "error": null,
+  "excerpt_id": "al_em_14",
+  "filename": "al_em_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "abdd567192ffcd2173bbb9a507d0c962af98c11afefd1014c1b34044e72a70a2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "afcb59b6407683c332444f8f00564def2d350bddbdda11198d923d4a0f930177",
+    "rendered_prompt_sha256": "73349600c29a8ae838980d17f52823325e7d8e8365ad85b1b752eceb06eca97c",
+    "source_text_sha256": "02074b00bfd33cf22bfd059e45b3cab6f9e8a470976e43fbbb014ccaef640f5b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_em_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 246,
+    "filename": "al_em_14.txt",
+    "filepath": "corpus/00_source_per_state/al/al_em_14.txt",
+    "state": "al",
+    "word_count_original": 285
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_em_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_em_14.json"
+  },
+  "raw_response_text": "## PROTAGONISMO JUVENIL\n\nO termo “protagonismo” aparece inúmeras vezes ao longo da BNCC do Ensino Fundamental – Anos finais. A intenção evidenciada aqui é que a escola proporcione um ambiente, projetos e práticas pedagógicas favoráveis para que o adolescente desenvolva cada vez mais a sua autonomia. Essa autonomia vale tanto para a administração dos seus próprios estudos, quanto para a sua atuação em sociedade e para a construção do seu projeto de vida.\n\n## PROJETO DE VIDA\n\nNo Ensino Fundamental – Anos finais começa a aparecer de forma mais evidente a definição de projeto de vida dos estudantes, que será trabalhada de modo mais aprofundado ao longo do Ensino Médio.\n\n(...) a BNCC propõe a superação da fragmentação radicalmente disciplinar do conhecimento, o estímulo à sua aplicação na vida real, a importância do contexto para dar sentido ao que se aprende e o protagonismo do estudante em sua aprendizagem e na construção de seu projeto de vida.\n\nPara o aluno ter uma transição tranquila, mantendo a motivação para os estudos, é preciso repensar o papel da escola nas duas pontas do processo. Isso, muitas vezes, envolve um trabalho conjunto entre unidades e redes de ensino distintas, já que, em geral, o jovem cursa o Fundamental em uma instituição do município e o Médio em uma estadual. A iniciativa de alguns gestores têm mostrado que ações simples são bastante eficazes para amenizar a mudança.\n\nA transição pede atenção dos gestores de ambos os segmentos. “A escola de Ensino Fundamental deve se esforçar para que o aluno aprenda e ganhe maturidade para a nova etapa. Já a de Ensino Médio tem de considerar que lida com adolescentes, muitos com déficit de aprendizagem, que precisam de cuidados e de professores que acreditem neles”.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

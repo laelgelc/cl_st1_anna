@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0247823b62cca8b7006ab304d2365c87d28255af1661222bd6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 932,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 950,
+      "output_tokens_details": {
+        "reasoning_tokens": 198
+      },
+      "total_tokens": 1882
+    }
+  },
+  "created_at": "2026-09-22T22:44:43Z",
+  "duration_seconds": 9.303,
+  "error": null,
+  "excerpt_id": "mt_em_27",
+  "filename": "mt_em_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c2b176ba84b7654ffcbc86691c47f4be4b80d78caba1baf0de5e58ce8c10a258",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6bd14b3caffd7d1c5f5cecf6814b747fb6f7265ed990d75156386e65ae002c22",
+    "rendered_prompt_sha256": "f3344668f6c470ceb74b484d25626f8afc09d39eb90533f927a0fddc6ddc2490",
+    "source_text_sha256": "79d88ef710d624ffdb275527f992e5a78757b47554ac6d7ea42e0878766a5621"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1918,
+    "filename": "mt_em_27.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_27.txt",
+    "state": "mt",
+    "word_count_original": 546
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_27.json"
+  },
+  "raw_response_text": "### 6.1 Diagnóstico do processo de ensino e aprendizagem das Ciências da Natureza em Mato Grosso no contexto das avaliações externas\n\nNo final da década de 90, o Brasil adotou a prática de realizar avaliações externas, entre elas o Sistema de Avaliação da Educação Básica (SAEB) e o Exame Nacional do Ensino Médio (ENEM). Além destas, o PISA (sigla em inglês, para Programa Internacional de Avaliação de Estudantes), apresenta-se como uma avaliação internacional, que examina trienalmente o desempenho dos estudantes da educação básica. O PISA apresenta informações sobre o desempenho dos estudantes em relação à aprendizagem em três domínios – leitura, matemática e ciências.\n\nNo que diz respeito ao último domínio, o PISA conceitua letramento científico como a capacidade de se envolver com as questões relacionadas com a ciência, como cidadão reflexivo (INEP, 2018). Uma pessoa letrada cientificamente está disposta a participar de discussão fundamentada sobre ciência e tecnologia, o que exige as competências para explicar fenômenos, interpretar dados, avaliar e planejar investigações científicas (BRASIL, 2019).\n\nO Exame Nacional do Ensino Médio (ENEM), embora inicialmente a sua função fosse exclusivamente avaliar o Ensino Médio, desde 2009 ele também é uma forma de acesso ao Ensino Superior. A Matriz de Referência do ENEM constitui-se por 05 eixos cognitivos comuns a todas as áreas do conhecimento, a saber: dominar as linguagens, compreender os fenômenos, enfrentar as situações problemas, construir argumentação e elaborar propostas; além das competências e habilidades exigidas para cada área do conhecimento. Neste exame a área de Ciências da Natureza e suas Tecnologias apresenta 08 (oito) competências que se desdobram em 30 (trinta) habilidades.\n\nIsso posto, evidencia-se que com os novos currículos para o Ensino Médio, as avaliações externas nacionais serão revisadas, conforme apresentado na Resolução 03 do Conselho Nacional de Educação (CNE, 2018). Nessa perspectiva, um dos desafios atuais é considerar os resultados das avaliações internas (elaboradas no dia a dia da prática pedagógica dos professores) e externas (ENEM, PISA, por exemplo) para o planejamento do ensino nas unidades escolares.\n\nConvém salientar a necessidade da análise das características socioeconômicas dos estudantes nos processos avaliativos; assim, embora o desenvolvimento cognitivo do estudante na Educação Básica precise ser avaliado, este não pode ser o único viés a ser considerado quando se tem como premissa a formação integral dos estudantes, portanto, considerar o contexto social de vivência desses sujeitos é uma etapa primordial para a promoção de equidade social.\n\nNo contexto do DRC/MT, as avaliações externas extrapolam a perspectiva da avaliação institucional, visto que por considerarem, a necessidade de compreender o processo de investigação científica desenvolvido pelos estudantes na Educação Básica, utilizam de situações-problema, da contextualização e da interdisciplinaridade, para a elaboração de itens avaliativos, possibilitando ao professor analisar o desenvolvimento do ensino de Ciências da unidade escolar de modo mais amplo, ou seja, de forma a estabelecer uma análise do ensino de Ciências no transcorrer dos anos letivos.\n\nContudo, isso não significa que o processo de utilização dos resultados das avaliações externas por parte dos gestores educacionais, em especial os gestores da educação pública, não deve ser aperfeiçoado, pelo contrário, reforça a necessidade de considerar os resultados das avaliações externas para o desenvolvimento de políticas públicas que viabilizem igualdade social, para que assim as juventudes possam desenvolver plenamente o seu Projeto de Vida.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

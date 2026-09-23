@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00da52ba3ebf3aa9006ab2fd8afb0487d28bdf4b15b95a69c9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 939,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1331,
+      "output_tokens_details": {
+        "reasoning_tokens": 552
+      },
+      "total_tokens": 2270
+    }
+  },
+  "created_at": "2026-09-22T22:13:41Z",
+  "duration_seconds": 10.581,
+  "error": null,
+  "excerpt_id": "am_em_4",
+  "filename": "am_em_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "17fecfc1844b98c85915cec615833a9b6ca4ac3f6c40abc9cd9ec13b76b45d8e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "01ff9aa62210abe665e6d6a1d223d3a5c533eddf3fb56db01dd1a1350d84c3b3",
+    "rendered_prompt_sha256": "0460a52c22f7732c691671d0045ff8fd993cf09dcf86f9594d60b552e284a924",
+    "source_text_sha256": "0b81b54e32fa657ec057e219546d494531a6cc722dfe494bf858b461b8e530c4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 400,
+    "filename": "am_em_4.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_4.txt",
+    "state": "am",
+    "word_count_original": 533
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_4.json"
+  },
+  "raw_response_text": "## 1.2 Os desafios para o Ensino Médio contemporâneo\n\nDentre as proposições do ensino médio, os documentos legais preveem que nessa etapa sejam consolidados os conhecimentos, além de preparar os estudantes — jovens ou adultos — para a continuidade aos estudos e para a inserção no mercado de trabalho. Ainda assim, o ensino médio no Amazonas apresenta altos índices de evasão e reprovação, além da necessidade de ampliação da oferta.\n\nNo sentido de minimizar esses desafios, o Plano Nacional de Educação (PNE) previu a universalização do acesso ao ensino médio até 2016, buscando a elevação da taxa líquida de matrícula da população de 15 a 17 anos até 2024, ano final de vigência do plano. Quanto a essa meta, os dados do INEP (2018) são explicitados no Gráfico 3. O Gráfico 3 evidencia que o Amazonas atende 44,2% na matrícula do ensino médio para jovens entre 15 e 17 anos, mantendo-se distante da meta estipulada pelo PNE, o que justificaria a reformulação do ensino médio.\n\nParalelo a isso, o plano também prevê a estratégia de organização curricular flexível e diversificada, articulando os “conteúdos obrigatórios e eletivos” aos conhecimentos científicos, tecnológicos, culturais e aos contextos dos estudantes (BRASIL, 2014), de modo a auxiliar na permanência e conclusão do ensino médio no tempo previsto.\n\nCabe destacar que as inúmeras mudanças ocorridas na vida e no trabalho da sociedade pós-industrial, por conta do impacto tecnológico nas áreas de produção, passou a exigir alterações nas propostas formativas para a Educação Básica (BRASIL, 2013), refletindo na educação das juventudes.\n\nNesse sentido, os estudos apontam para um grande desencontro entre a escola e os estudantes do ensino médio, ocasionado pela falta de reconhecimento da legitimidade ou utilidade social dos certificados, a falta de incentivos pessoais e familiares, a falta de percepção na importância dos conteúdos e no papel do conhecimento e na garantia de expansão do seu capital cultural são fatores que geram desencontros entre o aluno e a escola. Por isso, a escola precisa repensar suas concepções e práticas educacionais considerando o seu público (MESQUITA; LELIS, 2015).\n\nNo intuito de minimizar esses desafios, o RCA-EM reafirma o compromisso com a formação integral do estudante, conforme Resolução CNE/CEB nº 03/2018:\n\n> desenvolvimento intencional dos aspectos físicos, cognitivos e socioemocionais do estudante por meio de processos educativos significativos que promovam a autonomia, o comportamento cidadão e o protagonismo na construção de seu projeto de vida (BRASIL, 2018a, p. 2).\n\nNa perspectiva da formação integral dos estudantes, é necessário considerar as diversas infâncias e juventudes, bem como a diversidade cultural que permeia os contextos sociais amazonenses, considerando ainda os múltiplos espaços como possibilidades de aprendizagem, indo além da jornada ampliada (BRASIL, 2018b).\n\nComo possibilidade de tornar o Ensino Médio mais atrativo, entre as várias mudanças, a Lei nº 13.415/2017 prevê a flexibilização do currículo, o que, consequentemente, aumenta a carga horária e estabelece uma nova organização curricular (BRASIL, 2017).\n\nAssim, este Referencial Curricular Amazonense — Etapa Ensino Médio é composto por Áreas de Conhecimento, nas quais estão inseridos os Componentes Curriculares, e por Itinerários Formativos organizados em Unidades Curriculares Comuns, Unidades Curriculares de Aprofundamento e Unidades Curriculares Eletivas, possibilitando percurso formativo a ser escolhido pelo estudante do Ensino Médio.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

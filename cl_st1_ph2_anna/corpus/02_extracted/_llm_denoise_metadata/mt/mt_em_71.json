@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09bafa1979e44d8b006ab3051e583c87d2be934778bd7fe3da",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 596,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 603,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 1199
+    }
+  },
+  "created_at": "2026-09-22T22:45:56Z",
+  "duration_seconds": 5.992,
+  "error": null,
+  "excerpt_id": "mt_em_71",
+  "filename": "mt_em_71.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5cf53b3b590624d63d3a694303bb99c2a4b1930a12fbc418dad67531031690e9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "677be9985c42e674570617e153b11b194c38ca6c5db54688ee604ac9b13407bf",
+    "rendered_prompt_sha256": "56206c40b36905ce038946b44e688d18bd6027301785f2dc7ab267625b2a1460",
+    "source_text_sha256": "2c75bdb3878b0f2ed539ca083f3eba5058e71583570a5e19470c028b2a89ec06"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_71.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1967,
+    "filename": "mt_em_71.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_71.txt",
+    "state": "mt",
+    "word_count_original": 313
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_71.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_71.json"
+  },
+  "raw_response_text": "## Linguagens e suas Tecnologias\n\nA articulação entre as habilidades prévias do Ensino Fundamental e os eixos estruturantes da Trilha de Aprofundamento destacados no Quadro 4 permite ao estudante um processo de aprendizagem mais fluído e ao professor um trabalho diagnóstico com vistas a um processo de ensino em que as habilidades da Base Comum de Linguagens sejam ampliadas na Trilha de Aprofundamento, não apenas quanto ao conhecimento científico, mas também ao conhecimento integrado e integralizado para que o estudante possa atuar na Sociedade com senso analítico, crítico e ético.\n\nNesta perspectiva, almeja-se retomar habilidades já trabalhadas pelos estudantes, para que estas sirvam à consolidação das habilidades da Trilha de Aprofundamento (investigação científica, processos criativos, mediação e intervenção sociocultural e empreendedorismo).\n\nÉ importante destacar que a Trilha de Aprofundamento da Área de Linguagens – “A minha história eu mesmo faço” – tem como Temas Contemporâneos Transversais: Multiculturalismo, Cidadania e Civismo. Dessa forma, o presente módulo de transição objetiva articular as habilidades dos componentes da Área de Linguagens do Ensino Fundamental. Ao tempo em que se reforça as aprendizagens prévias, também se ratifica a integralidade da Educação Básica. Além disso, são apresentados os objetivos de aprendizagem, ou seja, os processos cognitivos desenvolvidos para se atingir as habilidades dos eixos estruturantes, que são processos cognitivos mais complexos com contextos mais amplos e elaborados. Nesse viés, os objetivos de aprendizagem estabelecem uma relação de equilíbrio entre as habilidades prévias e as habilidades dos eixos estruturantes das Trilhas de Aprofundamento por desenvolver habilidades de forma progressiva. Destaca-se que, neste Módulo de Transição, são apresentados alguns Objetivos de aprendizagem e algumas práticas, porém, cada realidade pode demandar acréscimos ou supressão de um e/ou de outro. Cada diagnóstico irá demonstrar sua necessidade. A função do módulo de transição é preparar o estudante para o aprofundamento, sendo assim, as conexões entres as dimensões do conhecimento são essenciais para esse objetivo.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

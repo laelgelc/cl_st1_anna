@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02c091a60ae120f9006ab2fd0bdfc487d2970949af16d62540",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 655,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 825,
+      "output_tokens_details": {
+        "reasoning_tokens": 320
+      },
+      "total_tokens": 1480
+    }
+  },
+  "created_at": "2026-09-22T22:11:30Z",
+  "duration_seconds": 7.195,
+  "error": null,
+  "excerpt_id": "am_ef_12",
+  "filename": "am_ef_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b93c87961ea8ef619789c84ba50fa5f429b63a78f37c11a125a5f79f6479448c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bfd3169a0559c52079aea36b281fbe5ca162a349b8e20f29f9464742553f2ff2",
+    "rendered_prompt_sha256": "846fecb2ba436221633151347d54a136a2203e3a28312bbda62e42c98b0ed01f",
+    "source_text_sha256": "3459cee733aab42a74693008538be92b36568e2668fcf780c07b5588c3a92fb6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 313,
+    "filename": "am_ef_12.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_12.txt",
+    "state": "am",
+    "word_count_original": 373
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_12.json"
+  },
+  "raw_response_text": "5.1.\n\nDireitos Humanos são direitos constitucionais que não se confundem com direitos fundamentais por serem mais amplos, sendo amparados pela Declaração Universal dos Direitos Humanos (1948), pela Constituição Federal, Tratados e para uma vida digna e, estão presentes no cotidiano humano, sendo dessa maneira importante garantir total respeito a eles.\n\nNesse sentido, não importa as diferenças, os Direitos Humanos se referem a todos, pois vivemos em uma sociedade pluralista e, onde o princípio da inclusão deve prevalecer.\n\nAcreditamos que uma educação de qualidade em Direitos Humanos deve ser de natureza permanente, continuada e global, necessariamente voltada para mudança com inculcação de valores visando atingir corações e mentes e, não apenas instrução, meramente transmissora de conhecimentos, pois, deve estar voltada essencialmente para a formação de uma cultura de respeito à dignidade humana através da promoção e da vivência dos valores da liberdade, da justiça, da igualdade, da solidariedade, da cooperação, da tolerância e da cultura de paz.\n\nAssim, pensar uma educação pautada nessa perspectiva é compreender que a mesma serve como estrutura intermediária e, para tanto, é essencial para a promoção da dignidade da pessoa humana, para a construção da cidadania e consolidação de um Estado Democrático de Direito. O conhecimento adquirido nas escolas é uma ferramenta que liga a realidade do ser humano ao crescimento de sua cidadania. Assim, é necessário, para bom o entendimento da importância de uma educação para os Direitos Humanos, considerar que:\n\n> A educação, no entanto, não constitui a cidadania. Ela dissemina os instrumentos básicos para o exercício da cidadania. Para que o cidadão possa atuar no sindicato, no partido político etc. é necessário que ele tenha acesso à formação educacional, ao mundo das letras e domínio do saber sistematizado. Em consequência disso a formação do cidadão passa necessariamente pela educação escolar (SANTOS, 2001, p. 65).\n\nO processo educacional deve então ser tratado como um processo de humanização do sujeito, que contribua na construção de políticas que efetivem melhorias da sociedade e a redução das suas desigualdades, que contribua para a formação de uma cultura do criar, influenciar, compartilhar e consolidar mentalidades, costumes, atitudes, hábitos e comportamentos que decorrem, todos os valores essenciais da valorização e respeito ao diferente e não diferente para ser transformados em práxis cotidiana.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

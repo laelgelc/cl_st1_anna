@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08355ce73e2332c6006ab304b4c76487d29d16475de221b277",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 533,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 478,
+      "output_tokens_details": {
+        "reasoning_tokens": 80
+      },
+      "total_tokens": 1011
+    }
+  },
+  "created_at": "2026-09-22T22:44:09Z",
+  "duration_seconds": 4.702,
+  "error": null,
+  "excerpt_id": "mt_ef_92",
+  "filename": "mt_ef_92.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bbb23ef6faddeb08d42e0a37dc4afa6490c4cf555afaa107a2ebef0f3d03581e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "35c4aa22aac0f5a857eb98f9eb5df5b58422a73efd80cac286ea002b984221dc",
+    "rendered_prompt_sha256": "e14a5902677278034d16d22435d24ba300f07aaf43c0d7410ff0a033b33a4bd6",
+    "source_text_sha256": "8b13eb6fb55ce81355979dcb66ddf40067d1897b8645cf0d83b04be754595cbd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_92.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1891,
+    "filename": "mt_ef_92.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_92.txt",
+    "state": "mt",
+    "word_count_original": 270
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_92.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_92.json"
+  },
+  "raw_response_text": "### 4.2.2. Objetivos do Componente Curricular Geografia\n\nNos anos finais do Ensino Fundamental propõe-se dar continuidade e aprofundar a etapa anterior (anos iniciais), acrescentando novos conhecimentos, ampliando noções de seus lugares de vivências para a compreensão de questões de outras escalas geográficas.\n\nAssim, ao concluir a segunda etapa do Ensino Fundamental, espera-se que o/a estudante, portador de crenças, valores e experiências, seja capaz de compreender fenômenos e processos em diferentes escalas; de estabelecer relações entre as situações do cotidiano dos lugares de vivências e de outros lugares; de usar diferentes estratégias e múltiplas linguagens para consolidar e aprofundar conhecimentos e saberes adquiridos. Contudo, a Geografia Escolar, nessa etapa, preocupa-se com a progressão dos estudantes.\n\nOs objetivos do Componente Curricular Geografia para os anos finais da etapa do Ensino Fundamental são:\n\n- Aprofundar e consolidar os conceitos e categorias da geografia iniciados nos anos inicias do Ensino Fundamental.\n- Construir e desenvolver os conceitos e categorias da geografia que competem aos anos finais do Ensino Fundamental.\n- Analisar o meio ambiente do Estado de Mato Grosso, correlacionando as diferentes escalas e diversos aspectos (físicos, sociais, econômicos, culturais e ambientais).\n- Reconhecer e identificar as paisagens do território mato-grossense e suas interações com diferentes escalas no espaço geográfico, propiciando a valorização do patrimônio sociocultural e ambiental, ressignificando sua identidade.\n- Analisar o espaço geográfico como um processo de construção das relações entre os seres humanos, e destes com a natureza, estabelecendo conexões entre o espaço geográfico mato-grossense e outros espaços.\n- Construir e Compreender o conceito de território, caracterizando as formas de apropriação dos territórios no Estado de Mato Grosso.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

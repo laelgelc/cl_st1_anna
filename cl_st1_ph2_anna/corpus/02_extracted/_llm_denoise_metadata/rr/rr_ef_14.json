@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07c4ea11aaa10aa4006ab30ccbb44887d2b5a348cca805f229",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 693,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 866,
+      "output_tokens_details": {
+        "reasoning_tokens": 265
+      },
+      "total_tokens": 1559
+    }
+  },
+  "created_at": "2026-09-22T23:18:42Z",
+  "duration_seconds": 7.345,
+  "error": null,
+  "excerpt_id": "rr_ef_14",
+  "filename": "rr_ef_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c4239492d6186815d79309bbb9d3633eaf801542c2ca914d69dd468ba4bc5ed2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cb2e4f72fabfaac64ea818b04a84e50a2fcb8050662de9d5628bb9b9ecb47414",
+    "rendered_prompt_sha256": "2219f282d115e93e2459c6e332abdaf75a1c1d24478dd91c7318da3a5f96f18d",
+    "source_text_sha256": "acf8ab2f409689d3d44bd3f1ead92205f4525e4f9dda535d46d0d7c407f108b3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3379,
+    "filename": "rr_ef_14.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_14.txt",
+    "state": "rr",
+    "word_count_original": 405
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_14.json"
+  },
+  "raw_response_text": "## 4.3 EDUCAÇÃO FÍSICA\n\n### 4.3.1 INTRODUÇÃO\n\nA Educação Física é um Componente Curricular indispensável à formação integral dos alunos, cujo objetivo na escola é tematizar e tratar as práticas corporais em suas diversas formas de codificação e significação social. Legalmente, a Educação Física conquistou a condição de Componente Curricular obrigatório em toda a educação básica por meio da Lei 9394/96 (BRASIL, 1996) e da lei complementar 10.328/01 (BRASIL, 2001), sendo integrada à proposta pedagógica da escola pela Lei nº 10.793 (BRASIL, 2003).\n\nO Currículo de Educação Física do Estado de Roraima utiliza a Base Nacional Comum Curricular – BNCC (BRASIL, 2017) como documento orientador e elege como objeto de estudo a Cultura Corporal de Movimento alicerçada e organizada em Práticas Corporais, adotando a Abordagem Cultural como referência teórica e metodológica. É um documento que propõe uma organização curricular para o componente de Educação Física em todo o território roraimense, favorecendo a melhor compreensão do que se deve ensinar em cada momento do processo formativo, viabilizando a formulação das expectativas de aprendizagem ao longo do ensino fundamental.\n\nNosso currículo, preconiza que no ensino da Educação Física, o aluno deve ser compreendido como um ser integral, indissociável nos aspectos físico/motor, cognitivo, afetivo e social, sendo capaz de construir e reconstruir um conjunto de conhecimentos advindos da Cultura Corporal de Movimento, permitindo-o vivenciar, criar, recriar e ampliar o seu repertório de conhecimentos sobre as diferentes práticas corporais, para que se torne um sujeito mais participativo, confiante, crítico e autônomo na sociedade.\n\nDe acordo com a BNCC (BRASIL, 2017), as práticas corporais devem ser entendidas como um conjunto de manifestações centradas no movimento, que se fundamentam em três grandes elementos:\n\n- **Movimento Corporal:** é o elemento principal e essencial das práticas corporais;\n- **Organização Interna:** indica a lógica específica do entendimento e compreensão dos alunos em maior ou menor grau sobre os conceitos, procedimentos e atitudes relacionados as práticas corporais;\n- **Produto Cultural:** é o resultado da apropriação dos alunos sobre a cultura de movimento e sua utilização vinculada ao lazer, entretenimento, o cuidado com o corpo e a saúde fora do contexto escolar.\n\nNo cenário educacional contemporâneo, uma das responsabilidades da Educação Física enquanto componente curricular no contexto escolar é tematizar as práticas corporais, entendendo-as como um fenômeno cultural dinâmico, diversificado, pluridimensional, singular e contraditório, assegurando aos estudantes a construção de um conjunto de conhecimentos necessários à sua formação plena enquanto cidadão.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

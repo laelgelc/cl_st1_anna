@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_079b48ecc4da2c2a006ab30283c2e087d2a966e34a56ed85b6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 845,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 805,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 1650
+    }
+  },
+  "created_at": "2026-09-22T22:34:51Z",
+  "duration_seconds": 8.075,
+  "error": null,
+  "excerpt_id": "mg_ef_ch_his_3",
+  "filename": "mg_ef_ch_his_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f09b7fc2fdf17affbb535940bc58fa4ef398478de431d64bda419c8b3ac291da",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "230fad1ee94392bf3f6704e272eafebfb04cf3330b5d5c223384d619aea47414",
+    "rendered_prompt_sha256": "24e83b0cfcbb7600abe9bb51719bba7a088bb55c7efc53f6aad1503e4615b983",
+    "source_text_sha256": "d911b1cfef3607aefd2fb2ec5f5d7036263c001f08c4a9a5af93adac06124553"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ch_his_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1392,
+    "filename": "mg_ef_ch_his_3.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ch_his_3.txt",
+    "state": "mg",
+    "word_count_original": 553
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ch_his_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ch_his_3.json"
+  },
+  "raw_response_text": "## 15.2 Relação do componente curricular com as concepções do Currículo de Minas Gerais\n\nO ensino de História, ao trabalhar a dimensão da formação humana de maneira integral e integrada contribui para o desenvolvimento de sujeitos históricos capazes de lidar com as mais variadas e complexas situações buscando soluções de forma ética. Desenvolver o sentido da diferença do sujeito, do espaço, do tempo, da linguagem, da forma de ver o mundo e de dialogar é contribuir para a incorporação da alteridade e para o combate a um fenômeno atual que é o desaparecimento do contraditório. É preciso desenvolver nos estudantes o sentido da diferença, da semelhança e do afeto pelo outro. Nesse aspecto, o sujeito é considerado enquanto agente produtor de história e possuidor de capacidade de desenvolver habilidades e competências necessárias para a sua formação em diversas dimensões: ética, estética, política, espiritual, socioambiental, técnica e profissional.\n\nO projeto educacional deve ser reformulado tendo em vista a implantação de um currículo integrado que contribua para a formação dentro da perspectiva histórico cultural, visando a autonomia, a apropriação crítica do conhecimento e da cultura. Nesse sentido torna-se necessária uma reformulação da escola de modo a adequar seu Projeto Político Pedagógico às novas demandas educacionais e a buscar programas de planejamentos que levem em conta as diretrizes educativas expressas no Currículo de Minas Gerais.\n\nÉ importante que o Projeto Político Pedagógico una esforços coletivos em prol da modificação da realidade presente e que se aproxime das necessidades locais e específicas da comunidade em que a escola está inserida trazendo como meta o desenvolvimento da capacidade técnica, intelectual e socioemocional do estudante. Assim, será possível ir de encontro com as diretrizes do Currículo de nosso Estado dentro da perspectiva da Educação Integral e Integrada.\n\n## 15.3 Especificidades do Componente Curricular História\n\nOs processos de identificação, comparação, contextualização, interpretação e análise de um objeto estimulam o pensamento permitindo aos estudantes a ampliação do conhecimento das coisas do mundo, incitando a produção do conhecimento histórico no âmbito escolar.\n\nNesse contexto, um dos importantes objetivos da História no Ensino Fundamental é estimular a autonomia de pensamento e a capacidade de reconhecer que os indivíduos agem de acordo com a época e o lugar nos quais vivem, de forma a preservar ou transformar seus hábitos e condutas.\n\nA percepção de que existe uma grande diversidade de sujeitos e histórias estimula o pensamento crítico, a autonomia e a formação para a cidadania.\n\nA busca de autonomia também exige reconhecimento das etapas da História, a saber: a natureza compartilhada do sujeito e do objeto de conhecimento, o conceito de tempo histórico em seus diferentes ritmos e durações, a concepção de documento como suporte das relações sociais, as várias linguagens por meio das quais o ser humano se apropria do mundo. Enfim, percepções capazes de responder aos desafios da prática historiadora presente dentro e fora da sala de aula.\n\nPor todas as razões apresentadas, espera-se portanto, que o conhecimento histórico seja tratado como uma forma de pensar, de indagar sobre as coisas do passado e do presente, de construir explicações, desvendar significados, compor e decompor interpretações, em movimento contínuo ao longo do tempo e do espaço. Trata-se de transformar a história em ferramenta a serviço de um discernimento maior sobre as experiências humanas e as sociedades em que se vive.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

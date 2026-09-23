@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09f69dc2df076f59006ab302eb8c3887d29ea7bc041a0a159e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1332,
+      "input_tokens_details": {
+        "cache_write_tokens": 1329,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1359,
+      "output_tokens_details": {
+        "reasoning_tokens": 204
+      },
+      "total_tokens": 2691
+    }
+  },
+  "created_at": "2026-09-22T22:36:36Z",
+  "duration_seconds": 9.308,
+  "error": null,
+  "excerpt_id": "mg_em_113",
+  "filename": "mg_em_113.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3f0c72fe6447c194f2b1befd21f6f66909bf3b40f108490f0917b87feadeadc9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c56968e424f00ed4dc5b925f155dc1bb3864a532089b0c4e9f9c23aced4e79a3",
+    "rendered_prompt_sha256": "bf8e0f864a805526ab9f62a695e7ee28b208db8124c30d62217958e555cc40ce",
+    "source_text_sha256": "c3fb62dba44410d90e6e301990b7f325bcaf28253d7d2131ecb703020e264678"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_113.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1501,
+    "filename": "mg_em_113.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_113.txt",
+    "state": "mg",
+    "word_count_original": 847
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_113.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_113.json"
+  },
+  "raw_response_text": "## 5.13 Práticas pedagógicas para a formação técnica e profissional\n\nAs novas formas e modelos de organização social, incluindo os referentes ao mundo do trabalho, nos impõem a reorganização dos formatos, práticas e metodologias relacionados aos processos de ensino e de aprendizagem. Podem ser citados o grande movimento de valorização da chamada “dimensão digital”, associada aos meios, tempos e espaços de produção e disseminação de informações. Essa dimensão pode, em termos do desenvolvimento integral dos jovens estudantes, induzir tanto a potencialidades como a dificuldades e problemas complexos.\n\nSomente uma formação humana integral, estruturada por processos que primam pelo equilíbrio fundamental entre fatores relativos à abstração racional e à dimensão cognitiva e fatores relativos ao desenvolvimento dos aspectos éticos, estéticos e sensíveis, socioemocionais e corporais, equilibrando o pensar, o sentir e o agir, será capaz de garantir que os conhecimentos e tecnologias produzidos reverberem em uma sociedade mais justa, harmônica, fraterna e próspera.\n\nPrincipalmente nos dias atuais, muitos conceitos e habilidades vinculados aos processos cognitivos, construídos a partir de métodos tradicionais de ensino, acabam tendo pouco ou nenhum significado para os estudantes, resultando em uma formação deficiente no contexto da EPT. Esses métodos não contribuem para o desenvolvimento de habilidades e de competências essenciais para a atuação em um mundo do trabalho cada dia mais dinâmico e complexo, que exige a todo momento atuação mediada por processos inovadores e criativos, como também habilidades relacionadas ao trabalho coletivo e em equipe, à capacidade de adaptação e à flexibilidade mental.\n\nO Ensino Híbrido[^28] vem se fortalecendo neste contexto como possibilidade metodológica capaz de fomentar, desenvolver e fortalecer a autonomia e o protagonismo dos jovens, assim como de superar limitações, ampliar e potencializar os tempos e espaços formativos e garantir o reconhecimento das diversas possibilidades de planejamento, mediação e acompanhamento dos processos formativos, amparados ou não no uso das ferramentas da tecnologia digital.\n\nComo já visto, a humanidade passa por uma profunda transformação que impacta significativamente seus modos de produzir e partilhar informações e conhecimentos.\n\nO papel dos professores neste contexto assume novos formatos que envolvem cada vez menos a responsabilidade da transmissão e cada vez mais o compromisso com o desenvolvimento de sujeitos capazes de buscar, selecionar, analisar e interpretar as informações, construindo conhecimentos significativos.\n\nEm consonância com a proposta formativa presente na BNCC, as orientações apresentadas no Currículo Referência pautam-se na estruturação do ensino por competências e habilidades. Isso requer, como já dito, a reestruturação dos documentos curriculares (matrizes e planos de curso), assim como a adoção de metodologias ativas baseadas em pressupostos para a construção de saberes significativos para todos os envolvidos no processo de ensino e de aprendizagem. Em relação à EPT, apresentamos algumas orientações para que as práticas pedagógicas se efetivem no sentido de colaborar para a estruturação e consolidação das mudanças necessárias:\n\n- Desenvolver práticas formativas que promovam a inter-relação entre os componentes curriculares das áreas do conhecimentos com o desenvolvimento dos conhecimentos, habilidades e competências referentes à formação geral para o mundo do trabalho, a técnica e o profissional.\n- Promover e incentivar o protagonismo dos estudantes, estruturando tempos e espaços formativos onde eles sejam estimulados e incentivados a expressarem seus saberes, suas dúvidas, seus desejos, suas dificuldades e desafios, assim como refletir, propor e experimentar caminhos, estratégias e metodologias que possam ampliar suas possibilidades de desenvolvimento e aprendizagem, assim como as de seus colegas.\n- Estimular posturas críticas e reflexivas, desafiando constantemente os estudantes a conhecer e compreender sua realidade, assim como seus espaços de vivência e convivência – família, escola, comunidade, cidade etc. – identificando e diferenciando potencialidades e desafios e, principalmente, planejando ações e estratégias personalizadas, éticas, coerentes e assertivas para cada situação identificada.\n- Garantir que a aprendizagem e o desenvolvimento dos estudantes se deem em um clima democrático e dialógico, em que eles sejam ouvidos e suas ideias consideradas, debatidas e comparadas com as dos colegas e demais atores do processo educativo, desenvolvendo, assim, habilidades relacionadas à escuta, ao respeito, à empatia, e à flexibilidade.\n- Estimular o desenvolvimento da criatividade e do senso crítico e estético a partir de práticas cotidianas que considerem o ser humano em todas as suas dimensões e potencialidades, exercitando a mediação pedagógica de forma que os estudantes sejam constantemente confrontados com perguntas e questionamentos, abandonando práticas pedagógicas lineares e binárias, estruturadas na oferta vertical de informações e na expectativa de respostas únicas.\n- Estruturar práticas pedagógicas que estejam em diálogo constante com os novos conhecimentos e as novas tecnologias referentes ao mundo do trabalho, promovendo a aproximação física e cognitiva dos estudantes com os setores produtivos presentes nos diversos territórios.\n\n[^28]: O tema ensino híbrido vem sendo estudado por vários autores bem antes de ter se tornado uma solução em tempos da pandemia Covid 19. Para conhecer mais, acessar, por exemplo, As-reflexoes-sobre-o-ensino-hibrido.pdf. Outra fonte de busca que apresenta várias abordagens sobre ensino híbrido é o portal da Capes, a partir da busca do termo. Disponível em: http://www-periodicos-capes-gov-br.ezl.periodicos.capes.gov.br/index.php?option=com_pmetabusca. Acesso em 20 fev. 2020.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

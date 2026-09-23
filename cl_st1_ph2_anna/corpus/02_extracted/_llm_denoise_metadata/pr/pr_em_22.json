@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0179b86804cc3c3f006ab3099e273887d2b07a9a129e8778f3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1434,
+      "input_tokens_details": {
+        "cache_write_tokens": 1431,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1367,
+      "output_tokens_details": {
+        "reasoning_tokens": 133
+      },
+      "total_tokens": 2801
+    }
+  },
+  "created_at": "2026-09-22T23:05:26Z",
+  "duration_seconds": 24.608,
+  "error": null,
+  "excerpt_id": "pr_em_22",
+  "filename": "pr_em_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "72229b9d60b8646721a965f954553392ba77881e0cda1b49e107610d43b582d5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cc9c00ad1b6fe453847eb88e253df95b6de1e656801647feac78fabfc20f4932",
+    "rendered_prompt_sha256": "55480bb0e5e9dde5dc5c7f12d38c64b94c3c3e00d23d58ba6ed649aac566fedf",
+    "source_text_sha256": "2b6a80af8d36b3c234540bb0edfd429964b8ba840857d941eaad324264b17c2b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2738,
+    "filename": "pr_em_22.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_22.txt",
+    "state": "pr",
+    "word_count_original": 859
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_22.json"
+  },
+  "raw_response_text": "# EDUCAÇÃO DIGITAL — BNCC COMPUTAÇÃO PARA O ENSINO MÉDIO\n\nA sociedade contemporânea é marcada pela intensa produção, circulação e acesso a informações em escala global. As tecnologias digitais assumem um papel central nas relações sociais, econômicas e culturais. Nesse cenário, a capacidade de compreender e utilizar as linguagens da computação torna-se cada vez mais essencial para que a cidadania seja exercida plenamente.\n\nA computação impacta o ser humano em sua totalidade, desde o desenvolvimento dos processos mentais até sua relação com o trabalho, o lazer e o ambiente ao redor, especialmente pela ampliação significativa das formas de comunicação e circulação de informações. As tecnologias, cada vez mais avançadas, fazem com que essa dinâmica esteja profundamente entrelaçada às interações humanas. Esse novo cenário confere voz e poder de expressão a todos os integrantes da sociedade conectada (Ribeiro et al., 2019).\n\nMas conviver com este fluxo de informações requer habilidades relacionadas à compreensão do mundo digital e do pensamento computacional, para que o envolvimento do sujeito nesse processo cultural, que perpassa as dimensões política, social e econômica, seja ativo e responsável (Ribeiro et al., 2019). Assim, entender o funcionamento dos algoritmos, de que forma as tecnologias digitais influenciam as redes sociais, como se engajar criticamente em interações mediadas por essas ferramentas e de que maneira a automação tem transformado as dinâmicas do trabalho — entre tantas outras consequências das tecnologias digitais —, pode, por exemplo, reduzir a vulnerabilidade aos crimes cibernéticos e à manipulação, bem como oportunizar o acesso a cargos de liderança no trabalho (Raabe; Couto; Blikstein, 2020).\n\nNo intuito de desenvolver, junto às novas gerações, habilidades fundamentais da era digital — tais como o pensamento crítico, a resolução de problemas, a criatividade, a ética, a responsabilidade e a colaboração —, possibilitando a plena participação em um mundo cada vez mais dependente das tecnologias digitais, é necessária a compreensão do mundo digital e de como operam suas ferramentas (Brasil, 2022c).\n\nNeste contexto, a inserção do estudo da Computação na Educação Básica é de suma importância para formar cidadãos aptos a atuarem de forma crítica, criativa e responsável em um mundo permeado por algoritmos, inteligência artificial e redes digitais. Essa inclusão também pode minimizar desigualdades sociais, considerando-se a abundância da empregabilidade na área da Computação e o potencial desta para favorecer aprendizagens que impactam em outros domínios. “O empoderamento dos conceitos fundamentais da Computação permitirá que estudantes compreendam de forma mais completa o mundo e tenham, consequentemente, maior autonomia, flexibilidade, resiliência, proatividade e criatividade.” (Ribeiro et al., 2019, p. 1).\n\nA Computação é uma ciência que se dedica ao estudo dos processos informacionais, criando linguagens e estratégias que permitem representar atividades já existentes, propor soluções e analisar problemas, envolvendo a sua automatização (Ribeiro et al., 2019). Para organizar e resolver problemas com lógica, é necessário desenvolver a habilidade de criar representações abstratas que ajudam a compreender e propor soluções, geralmente por meio de instruções claras e ordenadas chamadas algoritmos, ou seja, desenvolver o pensamento computacional. Para lidar com as informações e resolver problemas de maneira automatizada, é importante dominar o Mundo Digital, ambiente que envolve tanto equipamentos físicos — como computadores e celulares — quanto elementos virtuais — como dados e programas — que, juntos, formam uma rede de interações invisíveis, mas fundamentais para o funcionamento da sociedade atual.\n\nMesmo sendo uma ciência que perpassa transversalmente as demais áreas, a Computação engloba um conjunto de competências e habilidades específicas que precisam ser intencionalmente desenvolvidas (Ribeiro et al., 2019). À vista disso, o Parecer CNE/CEB n. 2/2022, aprovado em 17 de fevereiro (Brasil, 2022c), estabeleceu normas sobre a Computação na Educação Básica – Complemento à Base Nacional Comum Curricular (BNCC). A BNCC Computação (Brasil, 2022a) traz um conjunto de competências e habilidades específicas da área da Computação que devem ser desenvolvidas com os estudantes nas diferentes etapas da Educação Básica. Essas competências e habilidades foram desenvolvidas tendo como base as Diretrizes para o Ensino de Computação na Educação Básica, elaboradas pela Sociedade Brasileira de Computação (SBC) (Ribeiro et al., 2019).\n\nNessas diretrizes, os conhecimentos da área da Computação são organizados seguindo três eixos, que também organizam e orientam as competências e habilidades da BNCC Computação para a Educação Básica. São eles:\n\nI. **Pensamento Computacional:** diz respeito às habilidades de compreensão e construção de soluções para problemas de diferentes áreas por meio da criação e adaptação de algoritmos ─ descrição dos processos e a organização dos dados envolvidos nesses processos ─, empregando os fundamentos da computação. O Pensamento Computacional se constitui em quatro bases: Decomposição, Reconhecimento de padrão, Abstração e Algoritmos.\n\nII. **Mundo Digital:** diz respeito às habilidades relacionadas aos produtos digitais ─ físicos e virtuais ─, e à manipulação da informação ─ como armazená-la e transmiti-la de forma segura.\n\nIII. **Cultura Digital:** diz respeito às habilidades para desenvolver a consciência e a ética no uso de informações e tecnologias computacionais, para sugestões de soluções e manifestações culturais, com compreensão dos impactos da transformação digital na sociedade e participação consciente no ambiente digital (Ribeiro et al., 2019).\n\nAs potencialidades desses conhecimentos e habilidades para os estudantes da Educação Básica podem ser observadas no Quadro 1, que apresenta contribuições da Computação para o desenvolvimento das dez competências gerais da Base Nacional Comum Curricular (BNCC).",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

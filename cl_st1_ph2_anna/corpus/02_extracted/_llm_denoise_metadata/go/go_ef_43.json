@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b6592c507f2798e006ab3010a328487d2a44e31d272e4fdfc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 850,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 852,
+      "output_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "total_tokens": 1702
+    }
+  },
+  "created_at": "2026-09-22T22:28:32Z",
+  "duration_seconds": 6.533,
+  "error": null,
+  "excerpt_id": "go_ef_43",
+  "filename": "go_ef_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "890f03a32ab08f4d78e11a898f2b115e27e788fa8caf0d57a9de72caac1016b7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c1c4d9ef6505df8488b58ebae1e39a40f58ac5709b051b004b38abfc40bd4ff1",
+    "rendered_prompt_sha256": "9a26c8572f3b3788a3757fe5919b6e1a3ec3a19f1e9e63968f11e75596456525",
+    "source_text_sha256": "6aa0936cda9bd935bbb51d6bbf9f4ff7ee8c2e6a375605a6a57afaeb6108f631"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_ef_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1120,
+    "filename": "go_ef_43.txt",
+    "filepath": "corpus/00_source_per_state/go/go_ef_43.txt",
+    "state": "go",
+    "word_count_original": 492
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_ef_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_ef_43.json"
+  },
+  "raw_response_text": "## Educação de Adultos e Idosos\n\nDesde 2003, através do Projeto Brasil Alfabetizado, o Ministério da Educação incentiva os estados brasileiros a promoverem a educação de adultos e idosos nas instituições de ensino a fim de garantir o Ensino Fundamental para esses estudantes, que trazem um perfil diferente das distorções, muitos nunca frequentaram uma escola ou pararam de estudar por muitos anos. Essa realidade merece uma atenção diferenciada, com propostas, horários (noturno e finais de semana), metodologias, período de duração (semestral e não anual) e ações inerentes a esse público. A educação de adultos e idosos busca a melhoria na qualidade de vida, aumento da autoestima e maior sociabilização desses estudantes. As habilidades apresentadas no DC-GO podem ser alteradas e remodeladas para essas faixas etárias nos currículos escolares e planos diários de professores. A arquitetura e mobiliário da escola também deve promover a inclusão de adultos e idosos para a promoção do processo de ensino e aprendizagem com mais significância. Essa preocupação com a alfabetização de idosos perpassa o Estatuto dos Idosos (2003), que traz considerações importantes sobre a educação desse público, que merece toda a atenção dos professores e representam significativo número em Goiás.\n\n## Educação do Campo\n\nA educação de estudantes campesinos, em Goiás, conta com 76 escolas rurais e algumas extensões específicas e com temporalidades diferenciadas (nem sempre são escolas fixas). Estão localizadas em áreas rurais (fazendas, sítios e chácaras), em acampamentos temporários e em assentamentos de terras vinculadas aos movimentos sociais de luta pela reforma agrária, como o MST – Movimento dos Sem Terra. Com estruturas organizacionais específicas para esses estudantes, obedecendo os períodos de lavoura, colheita, pecuária, dinâmica climática e relações socioambientais (ciclos agrícolas), as habilidades do DC-GO devem ser repensadas para esse sujeito do campo, garantindo o currículo, vinculado ao seu cotidiano, suas práticas de vivência e seu ambiente. Os professores dessas instituições precisam de formação e um olhar diferenciado aos estudantes campesinos, a fim de garantir a Educação Básica concreta, preservação dos seus modos de vida, os espaços e transportes para o ensino.\n\n## Educação Ambiental\n\nA Educação Ambiental está presente no DC-GO nas habilidades dos componentes de Geografia, História, Ciências da Natureza, Língua Inglesa e Matemática. Socioambiental é um termo muito utilizado quando se pensa em Educação Ambiental, o termo engloba o homem na natureza. O ambiente é onde o homem está e se relaciona socialmente, ou seja, em todos os espaços. As crianças e os adolescentes precisam dessa visão integrada para se sentirem parte da natureza, assim o processo de educação ambiental acontecerá de forma mais real. A Educação Ambiental Escolar deve promover mudanças de hábitos e de atitudes a partir de conhecimentos adquiridos. Essas mudanças devem ser transformadas em ações mais corretas na escola, em casa e nos seus espaços de vivências e de lazer. Uma forma de promover essas mudanças seriam aulas extraclasses, visitas técnicas e trabalhos de campo que auxiliam na visualização dos impactos socioambientais presentes nas áreas urbanas e rurais.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

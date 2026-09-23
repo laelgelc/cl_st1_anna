@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07ba8442d739a5d6006ab301b280d487d2bcd6d1e2d9fab92c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 888,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 911,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 1799
+    }
+  },
+  "created_at": "2026-09-22T22:31:22Z",
+  "duration_seconds": 7.694,
+  "error": null,
+  "excerpt_id": "ma_ef_12",
+  "filename": "ma_ef_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f997f57376cc1b32bfdcc803830e7c326fea510e6c929f005ad3f47ab24150ba",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "287c973f9de5ec69c2aa48287c701d9b370415382f019406ddde9883db31537a",
+    "rendered_prompt_sha256": "bbb91840433895b5a879157b0badf14d98bc258e4ab13f0feb88a8313fd5a7e6",
+    "source_text_sha256": "e8f03cd46598865efeb664153c5b1d4f7c6817068c18feafb7c9b0cc55d1eb54"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_ef_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1236,
+    "filename": "ma_ef_12.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_ef_12.txt",
+    "state": "ma",
+    "word_count_original": 504
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_ef_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_ef_12.json"
+  },
+  "raw_response_text": "## Competências básicas e habilidades esperadas em Arte\n\nDe acordo com a BNCC, o Ensino Fundamental, etapa que terá duração de nove anos, será continuidade e aprofundamento dos direitos de aprendizagem adquiridos durante a Educação Infantil. Esses direitos, na nova etapa do aluno, serão encarados como síntese das aprendizagens esperadas em cada campo de experiência.\n\nOs quadros do organizador curricular contemplam as competências e são sugestões possíveis de como estruturar os conteúdos de Arte em cada ano do Ensino Fundamental. É importante ressaltar que uma habilidade pode contemplar uma ou mais competências, assim como um objeto de conhecimento pode contemplar uma ou mais habilidades.\n\nCada quadro corresponde a um ano, mas a título de sugestão, sabendo que cada professor tem autonomia para organizar a sua prática pedagógica conforme a própria metodologia, ou seja, como considerar mais proveitoso, produtivo e confortável para executar seu trabalho,⁶ não deixando, entretanto, de observar a aplicação das competências e habilidades fundamentais para cada ano propostas neste documento.\n\nA BNCC sugere que o currículo de Arte seja organizado em unidades temáticas, colocando as linguagens artísticas na mesma categoria do que se denomina artes integradas, nessa estrutura. Entretanto, neste documento curricular as artes visuais, a dança, a música e o teatro são abordadas como linguagens independentes, mas que se relacionam por meio de conexões inter e transdisciplinares, sendo que a unidade “artes integradas” será devidamente contemplada em todas as linguagens.\n\nAbaixo são elencadas as nove competências básicas esperadas no componente curricular Arte, de acordo com a BNCC, que servem de parâmetro para a elaboração das habilidades e dos conteúdos a serem trabalhados (BRASIL, 2017:196):\n\n- Explorar, conhecer, fruir e analisar criticamente práticas e produções artísticas e culturais do seu entorno social, dos povos indígenas, das comunidades tradicionais brasileiras e de diversas sociedades, em distintos tempos e espaços, para reconhecer a arte como um fenômeno cultural, histórico, social e sensível a diferentes contextos e dialogar com as diversidades.\n- Compreender as relações entre as linguagens da Arte e suas práticas integradas, inclusive aquelas possibilitadas pelo uso das novas tecnologias de informação e comunicação, pelo cinema e pelo audiovisual, nas condições particulares de produção, na prática de cada linguagem e nas suas articulações.\n- Pesquisar e reconhecer distintas matrizes estéticas e culturais – especialmente aquelas manifestas na arte e nas culturas que constituem a identidade brasileira –, sua tradição e manifestações contemporâneas, reelaborando-as nas criações em Arte.\n- Experienciar a ludicidade, a percepção, a expressividade e a imaginação, ressignificando espaços da escola e de fora dela no âmbito da Arte.\n- Mobilizar recursos tecnológicos como formas de registro, pesquisa e criação artística.\n- Estabelecer relações entre arte, mídia, mercado e consumo, compreendendo, de forma crítica e problematizadora, modos de produção e de circulação da arte na sociedade.\n- Problematizar questões políticas, sociais, econômicas, científicas, tecnológicas e culturais, por meio de exercícios, produções, intervenções e apresentações artísticas.\n- Desenvolver a autonomia, a crítica, a autoria e o trabalho coletivo e colaborativo nas artes.\n- Analisar e valorizar o patrimônio artístico nacional e internacional, material e imaterial, com suas histórias e diferentes visões de mundo.\n\n⁶ Vale a pena lembrar que a autonomia do professor está subordinada ao Plano Político-Pedagógico da escola, o qual, por sua vez, está subordinado aos textos referenciais do seu município.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

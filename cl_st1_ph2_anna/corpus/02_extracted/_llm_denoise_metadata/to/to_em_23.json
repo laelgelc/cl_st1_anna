@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0226827f35d36be7006ab31025b12887d29abb960d3c3d2a91",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 736,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 826,
+      "output_tokens_details": {
+        "reasoning_tokens": 201
+      },
+      "total_tokens": 1562
+    }
+  },
+  "created_at": "2026-09-22T23:33:00Z",
+  "duration_seconds": 7.364,
+  "error": null,
+  "excerpt_id": "to_em_23",
+  "filename": "to_em_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ee00190d568e49a306734a015b10e8870c3743e21259d3472a58dd09965d1393",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "57560ef2d04ee48f5f291eb11d803553b27a130d2bfb6817a5aaead5b0a89d5f",
+    "rendered_prompt_sha256": "81f58d80d18c61d64dfe233877ebb888a6c13976fb4393ef3056fd896d54e238",
+    "source_text_sha256": "7176a90a7d7aecafd529dc4778e3802ea7795f830d41acfefbe39079e6a03fa3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4022,
+    "filename": "to_em_23.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_23.txt",
+    "state": "to",
+    "word_count_original": 447
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_23.json"
+  },
+  "raw_response_text": "# INTRODUÇÃO\n\nA reforma da última etapa da educação básica tem entre seus princípios a flexibilização curricular, como mola propulsora para um Novo Ensino Médio. Esse currículo tem no seu cerne a intencionalidade de atender às necessidades e expectativas dos estudantes no âmbito cognitivo e socioemocional, para torná-los competentes para os enfrentamentos diários, inerentes às demandas do século XXI.\n\nA proposta curricular do Ensino Médio, permite a construção de currículos e propostas pedagógicas que atendam às especificidades locais e à multiplicidade de interesses dos estudantes. Neste contexto, cabe aos sistemas de ensino fomentar alternativas de diversificação e flexibilização curricular, de modo que as unidades escolares ampliem as opções de escolhas para os estudantes (CONSED, 2020).\n\nA nova organização curricular do Ensino Médio para o Território do Tocantins é composta pela Formação Geral Básica e Itinerários Formativos. Os Itinerários Formativos, Parte Flexível do currículo são compostos por: Trilhas de Aprofundamentos, Eletivas e Projeto de Vida.\n\nEssa inovação – fundamenta-se em leis e outros documento formativos – proposta pela política do Novo Ensino Médio, amplia condições para que o estudante seja inserido no centro da vida escolar, de modo a promover uma “aprendizagem com maior profundidade e que estimule seu desenvolvimento integral, por meio do incentivo ao protagonismo, à autonomia e à responsabilidade do estudante por suas escolhas e seu futuro.” (BRASIL, [s. d.]).\n\nAs Eletivas têm como objetivo ampliar e aprofundar as aprendizagens da Formação Geral Básica, dos Itinerários Formativos ou ainda, trabalhar com abordagens inerentes às expectativas dos estudantes e sua formação integral. Devem ter origem em temas centrais/integradores, sejam os temas contemporâneos transversais, ou outros específicos, demandados pela comunidade ou de interesse dos estudantes com foco no desenvolvimento de habilidades afins e a progressividade das aprendizagens.\n\nO trabalho docente com Eletivas deve primar pela criatividade e inovação, com base nas metodologias ativas, valorizar a ludicidade, agregar novos valores à prática docente e às aprendizagens. As Eletivas devem ter intencionalidade pedagógica e articulação com as áreas do conhecimento, com os eixos estruturantes definidos pelos Itinerários Formativos e com as Competências Gerais da BNCC.\n\nA unidade escolar deve organizar a oferta de várias Eletivas, de forma a oportunizar as escolha dos estudantes conforme seus interesses acadêmicos, seja profissional, cultural e dos seus projetos de vida.\n\nO Projeto de Vida do estudante é o ponto focal no currículo do ensino médio, enquanto estratégia de reflexão para as escolhas e definições assertivas na construção do presente e do futuro dos estudantes tocantinenses em todas as dimensões da vida: pessoal, social/cidadã e produtiva/profissional.\n\nA carga horária de cada Eletiva deverá observar as opções de arquitetura curricular apresentadas no Caderno 1 - Disposições Gerais.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

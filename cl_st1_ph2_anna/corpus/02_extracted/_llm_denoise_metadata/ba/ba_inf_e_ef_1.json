@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0880b4039ed344e9006ab2fef80f4087d28edaf3abe5e06292",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 586,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 534,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 1120
+    }
+  },
+  "created_at": "2026-09-22T22:19:40Z",
+  "duration_seconds": 4.171,
+  "error": null,
+  "excerpt_id": "ba_inf_e_ef_1",
+  "filename": "ba_inf_e_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b005e43a9579ad93884e4984455e04a188e3cb1db4d27aa7b0f7d5f52b923ecf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b9fd89ef8b4a669605476620639cabb8c81c3fe33e39a98ba8a153e14b85a804",
+    "rendered_prompt_sha256": "8f2fdc23dce926eb766d8763f3959796ba564c0b1f813b367ae00e18690549f2",
+    "source_text_sha256": "61fab45e79cf764a509e119ccac8d509d53beca592e9c211cd4160789830d99a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_inf_e_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 702,
+    "filename": "ba_inf_e_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_inf_e_ef_1.txt",
+    "state": "ba",
+    "word_count_original": 339
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_inf_e_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_inf_e_ef_1.json"
+  },
+  "raw_response_text": "CARTA AOS EDUCADORES E ÀS EDUCADORAS\n\nApresentamos aos Educadores e às Educadoras o Documento Curricular Referencial da Bahia para a Educação Infantil e Ensino Fundamental, que foi construído em colaboração permanente entre Municípios e Estado com a participação de diversos segmentos de nossas Redes de Ensino, alicerçando uma consistente integração, capaz de promover o aperfeiçoamento do Sistema de Educação Básica e, consequentemente, efetivar o sucesso da escolarização de cada cidadão baiano.\n\nO currículo, em seus múltiplos sentidos e conceitos, tem significativa centralidade nas discussões e atividades pedagógicas, no âmbito das Unidades Escolares e nos diversos órgãos que gerenciam os Sistemas Educacionais. A função deste documento é se constituir como ponto de partida, diálogo e convergência entre as diversas propostas educacionais do nosso Estado, múltiplo e diverso, com singularidades e identidades que não podem ser desconsideradas.\n\nO direito de aprender e construir projetos de vida com a valorização da diversidade e dos diferentes contextos sociais é compreendido no Documento Curricular Referencial da Bahia para a Educação Infantil e Ensino Fundamental como a premissa que orienta todos os processos inerentes ao contexto educacional, sem a pretensão de indicar caminhos, mas, ao mesmo tempo, possibilitando a interatividade, o diálogo, a interlocução efetiva e as experiências exitosas, caminhos que (re)significam a existência de um currículo vivo e capaz de transformar vidas.\n\nOs desafios serão muitos. É impossível transpô-los? Não. Recorreremos sempre ao esforço coletivo de todas as pessoas envolvidas, com foco na aprendizagem de cada estudante das nossas escolas, tangenciando com as múltiplas dimensões que se complementam, se articulam e compõem a formação humana em toda sua integralidade.\n\nComo sempre, temos a certeza de que juntos asseguraremos o direito de aprender de cada estudante para a construção de uma sociedade justa, equitativa, diversa e eticamente igualitária.\n\nContamos com todos e todas para garantir o direito de aprender de nossos estudantes!\n\nJerônimo Rodrigues Souza  \nSecretário da Educação do Estado da Bahia\n\nWilliams Panfile Brandão  \nPresidente da União Nacional dos Dirigentes Municipais de Educação – UNDIME/BA",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_094598c556d3daa1006ab30f35870887d285929e407472420c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1467,
+      "input_tokens_details": {
+        "cache_write_tokens": 1464,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1408,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 2875
+    }
+  },
+  "created_at": "2026-09-22T23:29:03Z",
+  "duration_seconds": 9.606,
+  "error": null,
+  "excerpt_id": "se_em_19",
+  "filename": "se_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7ee0fa204b2ac97c5dd058feca29ea609e8efe6881729738bc181126be94ba5f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e0c7e0e3afef3d7f90032cdfdbfafc0099896e65346bfd99776b0b103cf7664f",
+    "rendered_prompt_sha256": "7e9b45daa06b75197ff47b4b11fdeae45584368c7a8eaca7ccef025dd6b6c806",
+    "source_text_sha256": "c8bc2381986ae758388fddb4c31a335bdbfc5b1a6ebf52ffcccafc4351c098fb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3831,
+    "filename": "se_em_19.txt",
+    "filepath": "corpus/00_source_per_state/se/se_em_19.txt",
+    "state": "se",
+    "word_count_original": 920
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_em_19.json"
+  },
+  "raw_response_text": "### 3.4.3 História\n\nExiste um compromisso da História com a educação integral. Essa afirmação perpassa, antes de mais nada, por um entendimento da natureza e do lugar dessa disciplina na educação escolar. Desde a década de 1960 na Inglaterra, através de estudos e pesquisas sobre Educação Histórica (History Education), a formação da consciência histórica tornou-se um dos objetivos do ensino de história na educação básica.\n\nDifundidos em diversos países nas décadas seguintes, entre eles o Brasil, os estudos sobre Educação Histórica movimentam-se pelo entendimento de que não se desvincula a compreensão do passado, nem o conhecimento e narrativas sobre o mesmo, do tempo presente. Não se distancia no tempo as inquietudes dos sujeitos que compõe a sociedade atual e que refletem suas escolhas temáticas e interesses. As principais questões que inquietam os homens e mulheres, que marcam o cotidiano de crianças e jovens, que despertam questões que impulsionam suas ações e o fazem refletir no ambiente escolar, são frutos de sua relação com o presente. A história dialoga, antes de tudo com o agora, o que mostra sua força pedagógica e política, e seu compromisso com desenvolvimento de uma consciência de estar no mundo e de agir no mundo, permitindo que os alunos sejam sujeitos do processo de ensino e aprendizagem. A produção do conhecimento histórico em âmbito escolar proporcionará aos discentes a capacidade enfrentar os problemas e propor soluções com o intuito de superar as contradições políticas, econômicas e sociais do mundo em que vivemos, assumindo uma atitude historiadora diante dos conteúdos propostos no Ensino Fundamental.\n\nA própria compreensão de documento histórico, de fonte histórica, reflete essa relação viva entre presente e passado, uma vez que sua existência não é possível “a priori”. Todo documento histórico só existe quando é apropriado, quando o historiador confere sentido, quando ele estabelece sobre os documentos uma narrativa ou narrativas. Desenvolve-se com isso, uma competência narrativa, implica “a faculdade de representar o passado de maneira tão clara e descritiva que a atualidade se converta em algo compreensível e que a própria experiência vital adquire perspectivas de futuro sólidas”.¹³\n\nNo ensino médio, a consciência histórica encaminha-se para a compreensão da dimensão do outro como diferente. O outro tem um passado comum a nós e diferente, nem inferior e nem superior, o que nos remete para nossas próprias construções identitárias.\n\nEm 1838, a disciplina história foi inserida no currículo escolar da educação secundária brasileira. De lá para cá o ensino de história e a disciplina histórica assumiram diferentes compreensões e funções no currículo escolar brasileiro.\n\nDurante o século XIX e início do século XX, priorizou-se o Ensino da História Universal seguindo o quadripartismo: História Antiga, História Medieval, História Moderna e História Contemporânea. Nessa mesma época o Ensino de História do Brasil era visto em posição secundária. A partir da década de 1960 privilegiou-se no Ensino de História do Brasil fatos políticos como a Independência do Brasil e a Proclamação da República, todavia, focados em legitimar através do Ensino de História e dos métodos de ensino, a política do Estado vigente no período.\n\nA partir dos anos 80, com o processo de abertura política no Brasil, criaram-se várias propostas curriculares de História para o Ensino Fundamental e Médio, também se viu a expansão de diferentes pós-graduações e pesquisas, algumas delas atualizando o debate nacional para a compreensão do papel da Consciência Histórica na Educação Histórica, dentre outras perspectivas que influenciaram os Parâmetros Curriculares do Ensino Médio produzidos na década seguinte. Compreendendo sob uma perspectiva mais ampla:\n\n> “(...) o aprendizado histórico implica muito mais que o simples adquirir de conhecimento do passado e a expansão do mesmo. Visto como um processo através do qual as competências se adquirem progressivamente, emerge como um processo de mudança de formas estruturais através das quais tratamos e utilizamos as experiências e o conhecimento da realidade passada, passando de formas tradicionais de pensamento para a forma de pensamento genético”.¹⁴\n\nCom a proposta de uma revisão curricular e na iminência da consolidação de um Ensino Médio, orientado pelas novas Diretrizes Curriculares Nacionais, nas quais compreendem uma Educação Integral, expressa por valores, aspectos físicos, cognitivos e socioemocionais; projeto de vida como estratégia de reflexão sobre trajetória escolar na construção das dimensões pessoal, cidadã e profissional do estudante; respeito aos direitos humanos como direito universal; compreensão da diversidade e realidade dos sujeitos, das formas de produção e de trabalho e das culturas; e a prática da sustentabilidade ambiental, o Estado de Sergipe apresenta sua contribuição a educação brasileira, elaborando um currículo que prioriza as diferenças regionais e as particularidades da sociedade sergipana.\n\nDiante desse contexto, a Educação Histórica encontra um ambiente propício para seu desenvolvimento, garantindo assim o seu compromisso com o desenvolvimento da alteridade, da identidade, da tolerância e da autonomia de pensamento. Além do desenvolvimento da compreensão de que, entre as várias formas de pensar, o conhecimento histórico é uma das formas possíveis, realizado por meio racionais, pautados em princípios científicos e nos quais estão organizados o currículo de história da presente BNCC.\n\n¹³ RUSEN, J. El livro de texto ideal: reflexiones entorno a los médios para guiar las clases de historia. In: Revista nuevas fronteras de la historia, Íber, n. 12, año IV, abril 1997b. Barcelona: Graó. p. 82.\n\n¹⁴ RUSEN, J. El desarrollo de la competencia narrativa en el aprendiaje histórico. Una hipótesis ontogenética relativa a la conciencia moral. Revista Propuesta Educativa, Buenos Aires, Ano 4, n. 7, oct. 1992. p. 84.",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

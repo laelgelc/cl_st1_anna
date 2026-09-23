@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0378a36c254e89db006ab307823d4c87d2ac4fefe4b03cebe3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 357,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 366,
+      "output_tokens_details": {
+        "reasoning_tokens": 111
+      },
+      "total_tokens": 723
+    }
+  },
+  "created_at": "2026-09-22T22:56:06Z",
+  "duration_seconds": 3.901,
+  "error": null,
+  "excerpt_id": "pb_em_92",
+  "filename": "pb_em_92.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2d83451fef27152bc83b502337294223d5c32e6e63f7c8d28e78ad1091ca7605",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "60b94835b8ea8cc9f3d7df1d034cda22293d89b53c69cda1432410821409360a",
+    "rendered_prompt_sha256": "543c2201f9799a0899eea875e5e83fd99ce2419de59b3f34df21d371ff1e4351",
+    "source_text_sha256": "1c2d6d02e7378a36e40398ff9c956f7fe806f026ceb29f60eb69fbd67695fc08"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_92.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2344,
+    "filename": "pb_em_92.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_92.txt",
+    "state": "pb",
+    "word_count_original": 168
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_92.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_92.json"
+  },
+  "raw_response_text": "### 3.2.3 OBJETIVOS GERAIS DO ITINERÁRIO FORMATIVO\n\n- Compreender e usar a linguagem como geradora de significação e integradora da organização de mundo e da própria identidade;\n- Discutir a linguagem enquanto atuação social voltada às circunstâncias reais de uso;\n- Analisar os recursos expressivos, relacionando às linguagens com seus contextos, mediante a natureza, a função, a organização e a estrutura das manifestações;\n- Desenvolver a capacidade de pensar por meio do reconhecimento e uso de diferentes formas de comunicação voltadas para a campo de trabalho administrativo-organizacional;\n- Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações socioculturais;\n- Formar cidadãos críticos, quanto à tomada de decisões estratégicas;\n- Desenvolver discussões relativas à utilização de ferramentas matemáticas aplicadas a situações da vivência dos alunos;\n- Compreender a linguagem matemática como um código empregado nas práticas sociais cotidianas para resolver situações-problema;\n- Refletir sobre a influência dos conceitos matemáticos no desenvolvimento social, histórico, cultural e político de um povo;\n- Usar a linguagem matemática fazendo conexões com outras áreas do conhecimento.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

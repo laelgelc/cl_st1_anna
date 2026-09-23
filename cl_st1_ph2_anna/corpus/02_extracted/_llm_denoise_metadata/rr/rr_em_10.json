@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_010f7c2a1c82c5fc006ab30d1588d487d2a01bf68bd9da6904",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1378,
+      "input_tokens_details": {
+        "cache_write_tokens": 1375,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1595,
+      "output_tokens_details": {
+        "reasoning_tokens": 315
+      },
+      "total_tokens": 2973
+    }
+  },
+  "created_at": "2026-09-22T23:20:00Z",
+  "duration_seconds": 10.54,
+  "error": null,
+  "excerpt_id": "rr_em_10",
+  "filename": "rr_em_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d829ec02caa1b6a8998f3e1fb8350e8ac0f664ebea18d3e15b09e873006121b9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3687371677418b6399b25f52b19ae4427a2653c4b75d42d58f605724b18647c1",
+    "rendered_prompt_sha256": "d1aa5cf5805e35490130caa8566d22e36c59a51f8d0a2dad28f8aa3f4abec5c5",
+    "source_text_sha256": "3018260f50b1b1ae883fbd2d82362f9fed3f18785d2811128f58687a40aef0ba"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3442,
+    "filename": "rr_em_10.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_10.txt",
+    "state": "rr",
+    "word_count_original": 880
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_10.json"
+  },
+  "raw_response_text": "### 1.5.\n\nOs Temas Transversais surgem na década de 1990 como proposições de assuntos que dariam sentido (significado) às diferentes disciplinas, ou seja, não eram conteúdos obrigatórios, mas importantes no que diz respeito ao sentido concreto dos saberes escolares no processo de ensino e aprendizagem na escola. Sendo assim, os Parâmetros Curriculares Nacionais – PCNs (BRASIL, 1997) garantiram aos diferentes sistemas de ensino autonomia para adaptação dos Temas Transversais, efetivando-se como marco de referência por meio de objetivos gerais orientadores do fazer pedagógico docente.\n\nA partir dessa perspectiva, inicia-se um movimento geral dos entes federados no que se refere a elaboração de documentos curriculares próprios, conforme destaca-se:\n\n> Nos anos seguintes, os entes federados passaram a desenvolver documentos curriculares próprios, e os ordenamentos curriculares foram adquirindo características distintas, incluindo os critérios de abordagem dos Temas Transversais. Nesse contexto, ficava a critério de cada ente incluir ou não os Temas Transversais em suas bases curriculares Brasil (2019c, p. 09).\n\nO processo orgânico de inserção dos Temas Transversais, garantiu o lugar cativo na agenda da política educacional, sendo mantidos e recebendo formatos mais robustos e determinantes ao longo do tempo, dando um sentido mais real, atual e humanizado à função social da educação escolar. Assim, a Resolução No 4, de 13 de julho de 2010 que institui as Diretrizes Curriculares Nacionais Gerais para educação básica, fazem referência à transversalidade e aos temas não disciplinares a serem abordados, seja em decorrência de determinação por leis específicas, ou como possibilidade de organização na parte diversificada do currículo (BRASIL, 2019c, p. 09).\n\nPara Almeida (2007, p. 70) apud Brasil, (2019c):\n\n> Esse novo marco demonstrou, entre outras coisas, a preocupação em apontar a responsabilidade que a educação escolar tem em formar “indivíduos para o exercício da cidadania plena, da democracia, da aquisição dos conteúdos clássicos, bem como dos conteúdos sociais de interesse da população que possibilitem a formação de um cidadão crítico, consciente de sua realidade e que busca melhorias”.\n\nNessa perspectiva, a BNCC apresenta a importância dos Temas Contemporâneos locais, regionais e global, a partir de uma abordagem necessária que tanto as Propostas Pedagógicas (PP) como os Currículos devem apresentar na ação docente, do Ensino Fundamental (anos iniciais e anos finais) ao Ensino Médio. Também, as situações cotidianas que afetam a vida das pessoas, ou seja, dos direitos fundamentais as questões que envolvam diversidade e desigualdade social, étnica, cultural, ambiental e linguística. Desse modo, Brasil (2019c, p. 07) afirma que os Temas Contemporâneos Transversais (TCTs):\n\n> [...] buscam uma contextualização do que é ensinado, trazendo temas que sejam de interesse dos estudantes e de relevância para seu desenvolvimento como cidadão. O grande objetivo é que o estudante não termine sua educação formal tendo visto apenas conteúdos abstratos e descontextualizados, mas que também reconheça e aprenda sobre os temas que são relevantes para sua atuação na sociedade. Assim, espera-se que os TCTs permitam ao aluno entender melhor: como utilizar seu dinheiro, como cuidar de sua saúde, como usar as novas tecnologias digitais, como cuidar do planeta em que vive, como entender e respeitar aqueles que são diferentes e quais são seus direitos e deveres, assuntos que conferem aos TCTs o atributo da contemporaneidade.\n\nEsses temas devem integrar os planejamentos de aula de forma sistemática e contínua. Na verdade, os temas contemporâneos precisam ser compreendidos na vida prática, a partir da capacidade do professor traçar uma transversalidade evidenciando-os na realidade dos alunos e significando o currículo escolar.\n\nEntão, seguindo esses pressupostos, o Documento Curricular de Roraima – DCRR orienta o processo de elaboração ou adequação dos Projetos Pedagógicos (PP) para as redes públicas e privadas de ensino do Estado de Roraima e suas respectivas instituições, sinalizando os percursos de aprendizagem e desenvolvimento dos estudantes da Educação Básica, visando à formação humana integral (físico, intelectual, social e emocional) em prol da construção de uma sociedade justa, democrática e inclusiva.\n\nLogo, para pensar, refletir e fazer acontecer essa perspectiva de educação escolar se faz necessário assegurar aos estudantes o desenvolvimento de competências básicas que requerem a capacidade de mobilização de conhecimento, conceitos e procedimentos, ou seja, competências que envolvem: conhecimentos, valores, habilidades e atitudes.\n\nPara que essas competências sejam desenvolvidas são necessárias habilidades práticas, cognitivas e socioemocionais, assegurando, assim, a capacidade do aluno para resolver demandas da vida cotidiana, do pleno desenvolvimento da cidadania e do mundo do trabalho, tudo isso em função da interação sistemática e contínua dos temas contemporâneos transversais com as áreas de conhecimentos, componentes curriculares e objetos de conhecimento.\n\nVale ressaltar que a ideia de assegurar sempre temas atuais ao fazer educativo é o que justifica o acréscimo do termo “Contemporâneos” aos Temas Transversais, ampliando, desse modo, de seis abordagens temáticas para seis macroáreas temáticas: Cidadania e Civismo, Ciência e Tecnologia, Economia, Meio Ambiente, Multiculturalismo e Saúde. Dessas, englobam 15 Temas Contemporâneos conforme figura abaixo.\n\nFonte: Brasil (2019c).\n\nDessa forma, é necessário que o professor esteja ligado às questões do cotidiano a partir da capacidade de leitura do mundo, para fazer a transposição didática, transformando os temas para uma linguagem adequada à idade do aluno, ao nível e à modalidade de ensino, inserindo-os nesses temas. Nessa perspectiva, possibilitará ao aluno olhar o mundo e transformá-lo, a partir da sua capacidade de refletir, projetar e fazer, protagonizando a sua história de vida.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

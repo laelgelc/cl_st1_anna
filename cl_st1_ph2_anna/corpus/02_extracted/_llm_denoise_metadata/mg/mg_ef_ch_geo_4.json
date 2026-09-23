@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09c0df6eb21ba04a006ab30279d25887d2aa522328a2da2d87",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1430,
+      "input_tokens_details": {
+        "cache_write_tokens": 1427,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1416,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 2846
+    }
+  },
+  "created_at": "2026-09-22T22:34:42Z",
+  "duration_seconds": 8.892,
+  "error": null,
+  "excerpt_id": "mg_ef_ch_geo_4",
+  "filename": "mg_ef_ch_geo_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5f403128d314ca578ab15904ae245a31afba0479b42ce277fbd145fa135898c8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8f88a6aecfcefc149d4648849971649ace19cf45b6fd68db60f15b8f1cfd4075",
+    "rendered_prompt_sha256": "12482906cce8de7dccbf3555d78398bcf936f51cdebf4781df2a1938e142dc67",
+    "source_text_sha256": "7617a4f69b718f6db3ff9d2968471f2327f2f932d0ddfec5dae6a9d48026a245"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ch_geo_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1384,
+    "filename": "mg_ef_ch_geo_4.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ch_geo_4.txt",
+    "state": "mg",
+    "word_count_original": 886
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ch_geo_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ch_geo_4.json"
+  },
+  "raw_response_text": "## 14.3 Especificidades do Componente\n\nEnsinar Geografia tem sentido para o estudante compreender o mundo em que vive e buscar sua transformação, utilizando-se da tecnologia, visando à qualidade de vida ambiental e humana, sendo usuário das linguagens necessárias à interpretação geográfica, com destaque para a visual e, no interior desta, a representação gráfica e cartográfica. Os conhecimentos geográficos o ajudarão a tomar decisões diante de situações concretas, demonstrando sua capacidade de percepção e de estabelecimento de relações com a vida cotidiana numa perspectiva interdisciplinar. (CBC, 2007).\n\nNessa perspectiva, estudar Geografia é uma oportunidade para compreender, atuar e ler o mundo em que vive, na medida em que esse componente curricular aborda as ações humanas construídas nas distintas sociedades existentes nas diversas regiões do planeta.\n\nPara fazer a leitura do mundo em que vivem com base nas aprendizagens em Geografia, os estudantes precisam ser estimulados a pensar espacialmente, desenvolvendo o raciocínio geográfico. O pensamento espacial está associado ao desenvolvimento intelectual que integra conhecimentos não somente da Geografia, mas também de outras áreas (como Matemática, Ciência, Arte, Literatura e outras). Essa interação visa à resolução de problemas que envolvem mudanças de escala, orientação e direção de objetos localizados na superfície terrestre, efeitos de distância, relações hierárquicas, tendências à centralização e à dispersão, efeitos da proximidade e vizinhança, etc.\n\nA Cartografia no referencial curricular será considerada uma linguagem, um sistema de código de comunicação importante para o ensino da Geografia, articulando fatos, conceitos e sistemas conceituais que permitem ler e escrever as características do território. Neste contexto, segundo CASTELLAR (2011, p.216):\n\n> [...] a cartografia escolar é uma opção metodológica, podendo ser utilizada em todos os conteúdos da Geografia, não somente para localização dos países, mas também para entender as relações entre eles, os conflitos e a ocupação do espaço, a partir da interpretação e da leitura de códigos específicos da cartografia.\n\nO raciocínio geográfico, uma maneira de exercitar o pensamento espacial, aplica determinados princípios: Analogia, Conexão, Diferenciação, Distribuição, Extensão, Localização, Causalidade e Ordem (Quadro 1). Para compreender aspectos fundamentais da realidade: a localização e a distribuição dos fatos e dos fenômenos na superfície terrestre, o ordenamento territorial, as conexões existentes entre componentes físico-naturais, causas e consequências das ações antrópicas.\n\n**Quadro 1 - Descrição dos Princípios do Raciocínio Geográfico**\n\n| PRINCÍPIO | DESCRIÇÃO |\n|---|---|\n| Analogia | Um fenômeno geográfico sempre é comparável a outros. A identificação das semelhanças entre fenômenos geográficos é o início da compreensão da unidade terrestre. |\n| Conexão | Um fenômeno geográfico nunca acontece isoladamente, mas sempre em interação com outros fenômenos próximos ou distantes. |\n| Diferenciação | É a variação dos fenômenos de interesse da geografia pela superfície terrestre (por exemplo, o clima), resultando na diferença entre áreas. |\n| Distribuição | Exprime como os objetos se repartem pelo espaço. |\n| Extensão | Espaço finito e contínuo delimitado pela ocorrência do fenômeno geográfico. |\n| Localização | Posição particular de um objeto na superfície terrestre. A localização pode ser absoluta (definida por um sistema de coordenadas geográficas) ou relativa (expressa por meio de relações espaciais topológicas ou por interações espaciais). |\n| Causalidade | Um fenômeno geográfico nunca acontece por acaso, mas sempre apresenta uma causa que levará a várias consequências. |\n| Ordem | Ordem ou arranjo espacial é o princípio geográfico de maior complexidade. Refere-se ao modo de estruturação do espaço de acordo com as regras da própria sociedade que o produziu. |\n\nFonte: FERNANDES (2016); MOREIRA (1999).\n\nEssa é a grande contribuição da Geografia aos estudantes da Educação Básica: desenvolver o pensamento espacial, estimulando o raciocínio geográfico para representar e interpretar o mundo em permanente transformação e relacionando componentes da sociedade e da natureza. Para tanto, é necessário assegurar a apropriação de conceitos para o domínio do conhecimento fatual (com destaque para os acontecimentos que podem ser observados e localizados no tempo e no espaço) e para o exercício da cidadania.\n\nPara isso, é preciso superar a aprendizagem com base apenas na descrição de informações e fatos do dia a dia, cujo significado restringe-se apenas ao contexto imediato da vida dos sujeitos. A superação dessa condição meramente descritiva exige o domínio de conceitos e generalizações. Estes permitem novas formas de ver o mundo e compreender, de maneira ampla e crítica, as múltiplas relações que conformam a realidade, de acordo com o aprendizado do conhecimento da ciência geográfica. Essa forma de entender o ato de aprender e produzir conhecimento, desenvolvendo o pensamento complexo do educando e dos educadores, é assim esclarecido:\n\n> [...] aprender o significado de um objeto ou um acontecimento é vê-lo em suas relações com outros objetos ou acontecimentos; os significados constituem, pois, feixes de relações; as relações entretecem-se, se articulam em teias, em redes, construídas social e individualmente em permanente estado de atualização. (MACHADO, 1995, p.21).\n\nNesse sentido, cabe ressaltar a importância de ler, no componente curricular de Geografia, algumas dessas possibilidades, é por meio do trabalho de campo e da observação atenta das informações mundiais comunicadas pelas diferentes mídias. O trabalho de campo demanda não só a observação, mas escrever/ler roteiros dos espaços pesquisados, dos elementos a observar, das perguntas a serem feitas, bem como do confronto com tudo que foi visto na sala de aula. As informações veiculadas pelas diferentes mídias devem ser tomadas como contrapontos a outras fontes, pois embora as valorize em certo ponto as relativiza, pois, a mídia tem olhares e interesses diferentes dos livros escolares, ou da literatura ou da produção universitária.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03a835e349c547ce006ab307bc687087d29c2e96cfd8178d3c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 382,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 351,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 733
+    }
+  },
+  "created_at": "2026-09-22T22:57:03Z",
+  "duration_seconds": 3.499,
+  "error": null,
+  "excerpt_id": "pe_ef_21",
+  "filename": "pe_ef_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5475b185a6ae01bff6668136a9e9e03eb528baca2803a86fd1d14fe2530b3558",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d5bfd3d9cc6aab94b764a41f691c92fe759377da4944874ddb2d0dcf21bf0989",
+    "rendered_prompt_sha256": "12c701d17f3a3e5ed28eeadb29995d30528d7c487879ce7f93fe3fdbb9e8f378",
+    "source_text_sha256": "1761f23a64c2bfee301d0c22b68e9e0f67f2d6c8bc547c80e79e33216e3051c5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2398,
+    "filename": "pe_ef_21.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_21.txt",
+    "state": "pe",
+    "word_count_original": 204
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_21.json"
+  },
+  "raw_response_text": "### 3.3.3 AS FINALIDADES DO ENSINO DE LÍNGUA PORTUGUESA\n\nConceber a linguagem como forma de interação, o texto como evento que realiza conexões entre vários elementos e a aprendizagem da língua como expansão da capacidade de interlocução, considerando a pedagogia dos multiletramentos, implica deslocar tal ensino, centrado em conteúdos gramaticais e de reconhecimento de signos e regras desvinculados das práticas de linguagem, e realocá-lo no âmbito da compreensão do funcionamento da língua, das suas variações, das atividades de construção de sentidos, da relação existente entre as modalidades (oral e escrito) e das práticas de linguagem. Isso não sugere que seu caráter sistêmico deve ser ignorado, mas que esse caráter deve ser visto e estudado reflexivamente e a serviço dos usos e da produção de sentido.\n\nEm outras palavras, os conhecimentos sobre as diferentes linguagens, sobre a língua, sobre os gêneros textuais, sobre a norma-padrão devem ser mobilizados em favor da ampliação do repertório dos estudantes, das capacidades de leitura, produção e reflexão sobre as linguagens, do desenvolvimento da fruição e da apreciação estética e do trato com o novo e o diferente, visando a possibilitar a participação desses atores nos mais diferentes campos de atividade humana, conforme assinala a BNCC (2017).",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

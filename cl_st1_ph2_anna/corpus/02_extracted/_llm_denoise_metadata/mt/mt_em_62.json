@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0be4a07a9b93a6bb006ab3051380b887d2ab702568a77d39c1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 452,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 580,
+      "output_tokens_details": {
+        "reasoning_tokens": 253
+      },
+      "total_tokens": 1032
+    }
+  },
+  "created_at": "2026-09-22T22:45:44Z",
+  "duration_seconds": 5.245,
+  "error": null,
+  "excerpt_id": "mt_em_62",
+  "filename": "mt_em_62.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "17a6a8b57ccdce0d62a555dbb48f890b1c0e9cce51aff396474e7dd92b9de282",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a78dcb4ab2cd76c80b267378edf7705731a0d0f4ff2706d500183ee3586336bc",
+    "rendered_prompt_sha256": "59a60cf4be9f0c498363f4c4dc85cfd161f9dd6d081162c46eb03b0ba6892ae2",
+    "source_text_sha256": "92385d53bfad5cb154d36d513983d0888b4f98c940190ea4ef2d7eef6a38ba31"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_62.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1957,
+    "filename": "mt_em_62.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_62.txt",
+    "state": "mt",
+    "word_count_original": 222
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_62.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_62.json"
+  },
+  "raw_response_text": "### 9.5.3.1.2 Investigações Geométricas\n\nAs tendências curriculares atuais consideram a Geometria essencial para compreender os aspectos fundamentais da atividade matemática e o meio no qual circulamos. Segundo Ponte; Brocardo e Oliveira (2016).\n\n> A Geometria é particularmente propícia, desde os primeiros anos de escolaridade, a um ensino fortemente baseado na exploração de situações de natureza exploratória e investigativa. (...) a sua exploração pode contribuir para uma compreensão de fatos e relações e utilização de técnicas para resolver exercícios-tipo.  \n> As investigações geométricas contribuem para perceber aspectos essenciais da atividade matemática, tais como a formulação e teste de conjecturas e a procura e demonstração de generalizações. A exploração de diferentes tipos de investigação geométrica pode também contribuir para concretizar a relação entre situações da realidade e situações matemáticas, desenvolver capacidades, tais como a visualização espacial e o uso de diferentes formas de representação, evidenciar conexões matemáticas e ilustrar aspectos interessantes da história e da evolução da matemática. (PONTE; BROCARDO; OLIVEIRA, 2016, p.71)\n\nDestaca-se a relevância de estudar os conceitos e objetos geométricos na perspectiva experimental e indutiva, explorar a aplicação da Geometria às situações cotidianas e utilizar diagramas e modelos concretos na construção teórica em Geometria. Para isso, o estudante do ensino médio deverá, sempre que possível, ser desafiado a investigar as formas observadas no próprio cotidiano e no mundo.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

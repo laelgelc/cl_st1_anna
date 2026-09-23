@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a887dcfaaa34398006ab2fc7da60087d29c30bf03ac35a132",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 892,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1404,
+      "output_tokens_details": {
+        "reasoning_tokens": 665
+      },
+      "total_tokens": 2296
+    }
+  },
+  "created_at": "2026-09-22T22:09:13Z",
+  "duration_seconds": 12.168,
+  "error": null,
+  "excerpt_id": "al_ef_73",
+  "filename": "al_ef_73.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9af13849443fab43c11ab3d2c27a8d38a4d293329f1b5ca9bf20101c5caaabf5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8f3b1c01de6b26dff213b1e5a384d38f0bbaec2317259f555f526b17913a94df",
+    "rendered_prompt_sha256": "fe7b2536fad820abb013efd6d722d311b8ff88db7146098554db2b69aba896f2",
+    "source_text_sha256": "1550cb9874648c3eacba136bac2c1ee6d5f7e52e21663719ecb51a2fbd871f7e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_73.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 212,
+    "filename": "al_ef_73.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_73.txt",
+    "state": "al",
+    "word_count_original": 569
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_73.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_73.json"
+  },
+  "raw_response_text": "## 5. Concepções históricas e evolução do componente Curricular de Geografia\n\nA Geografia é uma ciência que estuda o espaço geográfico e suas composições, analisando a interação entre sociedade e natureza. O estudo da Geografia possibilita aos educandos compreender melhor o espaço onde vive e as suas contradições. Deve possibilitar ainda condições para que este faça uma leitura interpretativa, reflexiva e crítica do mundo e das relações entre a sociedade e a natureza e, ao mesmo tempo, dá condições de compreender que a sociedade se encontra em constante transformação, e que os grandes avanços dos meios de comunicação e a intensificação das redes comerciais que aproximam países fragilizam também fronteiras.\n\nO conhecimento Geográfico abrange o estudo de um povo, de uma civilização sobre um território, e também a relação entre homem e o meio natural, mediante a ação do trabalho tendo como resultado o espaço geográfico. Assim, a Geografia é definida como ciência que estuda as relações entre a sociedade e o meio natural, sendo o espaço geográfico resultado da ação humana ao longo do tempo.\n\nDe acordo com a BNCC, estudar Geografia,\n\n> é uma oportunidade para compreender o mundo em que se vive, na medida em que esse componente curricular aborda as ações humanas construídas nas distintas sociedades existentes nas diversas regiões do planeta. Ao mesmo tempo, a educação geográfica contribui para a formação do conceito de identidade, expresso de diferentes formas: na compreensão perceptiva da paisagem, que ganha significado à medida que, ao observá-la, nota-se a vivência dos indivíduos e da coletividade; nas relações com os lugares vividos; nos costumes que resgatam a nossa memória social; na identidade cultural; e na consciência de que somos sujeitos da história, distintos uns dos outros e, por isso, convictos das nossas diferenças.\n\nPara que os estudantes da Educação Básica adquiram essa visão de mundo, eles precisam ser incentivados e estimulados a pensar espacialmente, ou seja, precisam desenvolver seu raciocínio geográfico. Sobre o pensamento espacial podemos encontrar no documento da BNCC a seguinte descrição:\n\n> O pensamento espacial está associado ao desenvolvimento intelectual que integra conhecimentos não somente da Geografia, mas também de outras áreas (como Matemática, Ciência, Arte e Literatura). Essa interação visa à resolução de problemas que envolvem mudanças de escala, orientação e direção de objetos localizados na superfície terrestre, efeitos de distância, relações hierárquicas, tendências à centralização e à dispersão, efeitos da proximidade e vizinhança etc.\n\nSobre o raciocínio Geográfico que os estudantes devem ter, o documento aponta que\n\n> O raciocínio geográfico, uma maneira de exercitar o pensamento espacial, aplica determinados princípios para compreender aspectos fundamentais da realidade: a localização e a distribuição dos fatos e fenômenos na superfície terrestre, o ordenamento territorial, as conexões existentes entre componentes físico-naturais e as ações antrópicas.\n\nCastrogiovanni (2009) aponta que há muito tempo se fala em trazer o ensino da Geografia para o cotidiano do estudante. Para isso, ele propõe uma forma de estudar o lugar para compreender o mundo, estimulando-se assim, a instigar o senso crítico através das mudanças ocorridas no espaço vivido e, assim, passar a observar com mais frequência às alterações na paisagem, estabelecendo relações com a Geografia. Portanto, o conhecimento geográfico atualmente deve responder as exigências da sociedade contemporânea, possibilitando ao educando a aquisição de conhecimentos mais aprofundados dessa ciência promovendo-lhe uma formação crítica frente ao mundo.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

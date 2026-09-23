@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f87adc1dbbbc862006ab30fcbeba087d2a05aa0be705b21f1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 629,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 617,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 1246
+    }
+  },
+  "created_at": "2026-09-22T23:31:30Z",
+  "duration_seconds": 6.357,
+  "error": null,
+  "excerpt_id": "sp_inf_curriculo_e_ppp",
+  "filename": "sp_inf_curriculo_e_ppp.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e6e3b1e0c350f1e7f965156576aeb64c56277b11d8992714a8284ba22ad74f7f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6c30694d139d668ef608d33f8b818caae3ed844345ba2bf36bc351e15159701f",
+    "rendered_prompt_sha256": "1c4ea9c741a98317023180ec85a9ac8bfd3af9d0abace029fd4efa274ebcc250",
+    "source_text_sha256": "12c794dfb389579336e7e43bc9be68a70ad05c77e6edb94be35d2698dbe3242b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_inf_curriculo_e_ppp.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3951,
+    "filename": "sp_inf_curriculo_e_ppp.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_inf_curriculo_e_ppp.txt",
+    "state": "sp",
+    "word_count_original": 360
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_inf_curriculo_e_ppp.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_inf_curriculo_e_ppp.json"
+  },
+  "raw_response_text": "## Concepção de Currículo para Educação Infantil\n\nO Parecer CNE/CEB nº 20/2009 afirma que o currículo da Educação Infantil é concebido como um conjunto de práticas que buscam articular as experiências e os saberes das crianças com os conhecimentos que fazem parte do patrimônio cultural, artístico, científico e tecnológico. Tais práticas são efetivadas por meio de relações sociais que as crianças desde bem pequenas estabelecem com os professores e com as outras crianças, afetando a construção de suas identidades.\n\nNo planejamento do currículo devem ser levadas em conta as possibilidades de descobertas, as potencialidades e as genialidades das crianças, mediante o acolhimento genuíno de suas especificidades e interesses singulares. Isso demanda da instituição de Educação Infantil a promoção de experiências lúdicas e significativas, que de fato permitam às crianças compreenderem e afetarem o mundo no qual estão inseridas. Assim, faz-se necessário garantir condições para que a criança usufrua do direito de aprender e se desenvolva convivendo, brincando, participando, explorando, expressando e conhecendo-se em contextos culturalmente significativos para ela.\n\nCom isso, a creche e a pré-escola precisam se organizar como espaços de acolhimento, descobertas, interações e brincadeira, com condições que favoreçam o desenvolvimento pleno, num ambiente educativo de qualidade, que contribua significativamente para a construção da aprendizagem de todas as crianças.\n\n## Projeto Político Pedagógico\n\nOs projetos políticos pedagógicos revelam as concepções e as práticas de cada rede e, mais especificamente, explicitam a identidade da unidade de educação infantil que, presente em um determinado contexto social, deve atender aos anseios da comunidade onde está inserida.\n\nAssim, como ponto de partida, a instituição de Educação Infantil deve construir seu projeto político pedagógico considerando os processos democráticos e participativos, tendo como instrumentos possíveis a avaliação institucional com a participação das crianças, da equipe da escola, das famílias.\n\nDeste modo, os anseios da comunidade escolar são acolhidos, organizados e significados por meio do currículo que, contextualizado, deve contemplar os diferentes tempos, espaços e a cultura local, com vistas a aprofundar as experiências que promovam a aprendizagem e o desenvolvimento das crianças.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ddab2c3771d4dd0006ab30d3106f487d2b2e9bd2ff35aed27",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 664,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 867,
+      "output_tokens_details": {
+        "reasoning_tokens": 300
+      },
+      "total_tokens": 1531
+    }
+  },
+  "created_at": "2026-09-22T23:20:25Z",
+  "duration_seconds": 8.395,
+  "error": null,
+  "excerpt_id": "rr_em_37",
+  "filename": "rr_em_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7ffcfec0f22cc47ccf51dac1c7942bfafb070d6d3bcb3f4a25406d1da5c11a62",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "524c3580d002fb6c2c29bc506f68a5f88a430718ee5971b407857ee5e5efff7f",
+    "rendered_prompt_sha256": "e28d8660b90a47c986f962cc28a88a6107cea81e5cb243d7756fc582013d2ade",
+    "source_text_sha256": "854fbc736af86fee6234e7d4ba3ecee821fcfbc3814ae2ce5b29c6e36a6da9c9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3471,
+    "filename": "rr_em_37.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_37.txt",
+    "state": "rr",
+    "word_count_original": 407
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_37.json"
+  },
+  "raw_response_text": "### 4.5.1. Competências específicas\n\nCompetência específica 1: Analisar fenômenos naturais e processos tecnológicos, com base nas interações e relações entre matéria e energia, para propor ações individuais e coletivas que aperfeiçoem processos produtivos, enfatizando o potencial do território Roraimense, que minimizem impactos socioambientais amazônicos e melhorem as condições de vida em âmbito local, regional e global.\n\nCompetência específica 2: Analisar e utilizar interpretações sobre a dinâmica da Vida, da Terra e do Cosmos, entendendo a complexidade para assim elaborar argumentos, realizar previsões sobre o funcionamento e a evolução dos seres vivos e do Universo, e fundamentar e defender decisões éticas e responsáveis, que possam ser aplicados no âmbito regional e global, focando na melhor compreensão da origem, formação e desenvolvimento dos seres vivos do universo.\n\nCompetência específica 3: Investigar situações-problema presentes no cotidiano e avaliar aplicações do conhecimento científico e tecnológico e suas implicações no mundo, utilizando procedimentos e linguagens próprios das Ciências da Natureza, para propor soluções que considerem demandas locais, regionais e/ou globais, e comunicar suas descobertas e conclusões a públicos variados, em diversos contextos e por meio de diferentes mídias e tecnologias digitais de informação e comunicação (TDIC), fazendo essa divulgação de forma ética e responsável, levando à população conhecimento sobre a ciência e o quanto está presente em seu entorno.\n\nNo que se refere ao processo de avaliação, apoia-se em dar significado expressivo para formar um cidadão, qualquer que seja a atividade em que esteja envolvido, profissional ou educacional (LISBOA, et al. 2018, p.298). No tocante à Educação, Lisboa et al. (2018) coloca que é preciso criar condições para que o aluno desenvolva competências e habilidades capazes de subsidiar a construção de uma postura adequada para o enfrentamento das diversas situações-problema imposta pela vida, não bastando somente garantir a transmissão de saber e avaliar o domínio de um conhecimento, já que as informações hoje estão disponíveis em mídias variadas (BEZERRA, 2016).\n\nAinda em conformidade com Lisboa (2018), o processo de avaliação para ser completo deve considerar a postura cidadã e a capacidade de argumentação dos alunos em debates realizados em sala de aula; resolução de problemas em provas práticas; vontade de buscar informações; criatividade; representar (por exemplo, construir diagramas e outros modelos) e comunicar os resultados de projetos produzidos e desenvolvidos. Deve-se também enfatizar a capacidade de relacionar-se em sociedade (empatia, saber escutar o próximo, saber falar de maneira construtiva), ser colaborativo (BEZERRA, 2016).",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

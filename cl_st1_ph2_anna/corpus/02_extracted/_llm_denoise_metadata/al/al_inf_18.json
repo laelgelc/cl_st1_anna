@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c0242e17a299158006ab2fcf3203c87d2aeec7ffb01a35b53",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 865,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1090,
+      "output_tokens_details": {
+        "reasoning_tokens": 367
+      },
+      "total_tokens": 1955
+    }
+  },
+  "created_at": "2026-09-22T22:11:08Z",
+  "duration_seconds": 9.345,
+  "error": null,
+  "excerpt_id": "al_inf_18",
+  "filename": "al_inf_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b961ec0b13320effc96b3fe455b20b289e9046291e59a2e72f0fe88990f709df",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ecee159be33db84b97199b1353798ac6452b54d0e6702e3b382e51fca5f7812a",
+    "rendered_prompt_sha256": "8022c4dddf3f6565be1d0d06292aa59253d7b18213e9fb54a922670f188703ef",
+    "source_text_sha256": "28504cc520021b21dad6ec9a1caf88078a167357dcd604b62a0735f48a75ea3c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_inf_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 296,
+    "filename": "al_inf_18.txt",
+    "filepath": "corpus/00_source_per_state/al/al_inf_18.txt",
+    "state": "al",
+    "word_count_original": 514
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_inf_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_inf_18.json"
+  },
+  "raw_response_text": "# 3. DIREITOS DE APRENDIZAGENS E CAMPOS DE EXPERIÊNCIAS\n\nConforme apresentados, a interação e a brincadeira são eixos estruturantes para a prática pedagógica na Educação Infantil, defendidos pela BNCC. Nessa perspectiva, determina que seis direitos de aprendizagem e desenvolvimento sejam assegurados para as crianças nesta prática enquanto sujeitos sócio históricos e culturais. Sendo assim, tais eixos apontam caminhos que assegurem a compreensão de que as crianças aprendem em situações nas quais possam desempenhar um papel ativo em ambientes que as convidem a vivenciar desafios e a sentirem-se provocadas a resolvê-los, nas quais possam construir significados sobre si, os outros e o mundo social e natural. Compreendendo garantia de direitos para cumprimento de deveres em busca de uma sociedade alagoana justa, democrática e inclusiva, a BNCC aponta os direitos de aprendizagem, que são conviver, brincar, participar, explorar, expressar e conhecer-se, conforme descritos a seguir.\n\n## 3.1 Dimensão conceitual dos Direitos de Aprendizagem:\n\nConviver com outras crianças e adultos, em pequenos e grandes grupos, utilizando diferentes linguagens, ampliando o conhecimento de si e do outro, o respeito em relação à cultura e às diferenças entre as pessoas. Nesse sentido, o direito de conviver é construído no estreitamento de vínculos afetivos, no compartilhamento de atitudes de solidariedade e no respeito aos tempos e espaços de cada um. Conviver é no seu sentido mais amplo aprender a lidar emocionalmente com as diferenças, é aprender a respeitar a opinião do outro e abrir espaços para diálogos em situações de conflitos colaborando para um espaço de interação e convivência saudável.\n\nBrincar cotidianamente de diversas formas, em diferentes espaços e tempos, com diferentes parceiros (crianças e adultos), ampliando e diversificando seu acesso a produções culturais, seus conhecimentos, sua imaginação, sua criatividade, suas experiências emocionais, corporais, sensoriais, expressivas, cognitivas, sociais e relacionais. No universo infantil tudo é possível, porque brincar é aguçar a imaginação é atribuir significado ao mundo. O brincar vai muito além de um passatempo, de certo, é parte essencial para construção dos processos mentais do desenvolvimento infantil, pois garante a interação e potencializa o processo de aprendizagem.\n\nParticipar ativamente, com adultos e outras crianças, tanto do planejamento da gestão da escola e das atividades propostas pelo educador quanto da realização das atividades da vida cotidiana, tais como a escolha das brincadeiras, dos materiais e dos ambientes, desenvolvendo diferentes linguagens e elaborando conhecimentos, decidindo e se posicionando.\n\nExplorar movimentos, gestos, sons, formas, texturas, cores, palavras, emoções, transformações, relacionamentos, histórias, objetos, elementos da natureza, na escola e fora dela, ampliando seus saberes sobre a cultura, em suas diversas modalidades: as artes, a escrita, a ciência e a tecnologia.\n\nExpressar, como sujeito dialógico, criativo e sensível, suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, questionamentos, por meio de diferentes linguagens.\n\nConhecer-se e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações, brincadeiras e linguagens vivenciadas na instituição escolar e em seu contexto familiar e comunitário.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

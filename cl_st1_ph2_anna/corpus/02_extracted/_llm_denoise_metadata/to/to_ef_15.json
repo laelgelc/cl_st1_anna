@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b010dc61fd1f08a006ab30fe20f7c87d2a5990df2a0a3a8d9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1333,
+      "input_tokens_details": {
+        "cache_write_tokens": 1330,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1874,
+      "output_tokens_details": {
+        "reasoning_tokens": 645
+      },
+      "total_tokens": 3207
+    }
+  },
+  "created_at": "2026-09-22T23:32:02Z",
+  "duration_seconds": 16.438,
+  "error": null,
+  "excerpt_id": "to_ef_15",
+  "filename": "to_ef_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "66356e10561303c68f66e6adccfc9fb4b33c5ab15b3e97f63d9a24bb37f9d452",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e3a361736349532178ea235f6f1fd5063ccd233df4e723f81e11364aa85c58ad",
+    "rendered_prompt_sha256": "690925672675dd6c8a10b21257c0c1f0c7cfeb636f6e9008fb6aa25e62bbb089",
+    "source_text_sha256": "05a1e45768381428c006f842f7bbab3ef6976a28d29ff820ce1a0f73fc749026"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_ef_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3974,
+    "filename": "to_ef_15.txt",
+    "filepath": "corpus/00_source_per_state/to/to_ef_15.txt",
+    "state": "to",
+    "word_count_original": 730
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_ef_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_ef_15.json"
+  },
+  "raw_response_text": "# Eixo de análise linguística\n\nSegundo a BNCC (2017), o Eixo da Análise Linguística/Semiótica envolve os procedimentos e estratégias (meta)cognitivas de análise e avaliação consciente, durante os processos de leitura e de produção de textos (orais, escritos e multissemióticos), das materialidades dos textos, responsáveis por seus efeitos de sentido.\n\n## Eixo da Análise Linguística\n\nQuanto à linguagem verbal oral e escrita, as formas de composição dos textos dizem respeito à coesão, coerência e organização da progressão temática dos textos e são influenciadas pela organização típica (forma de composição) do gênero em questão. No caso de textos orais, essa análise envolverá também os elementos próprios da fala (ritmo, altura, intensidade), assim como os elementos paralinguísticos e cinésicos (postura, expressão facial, gestualidade etc.).\n\nQuanto ao estilo, serão levadas em conta as escolhas de léxico e de variedade linguística ou estilização e alguns mecanismos sintáticos e morfológicos, de acordo com a situação de produção, a forma e o estilo de gênero.\n\nNos textos multissemióticos, a análise levará em conta as formas de composição e estilo de cada uma das linguagens que os integram, tais como plano/ângulo/lado, figura/fundo, profundidade e foco, cor e intensidade nas imagens visuais estáticas, acrescendo, nas imagens dinâmicas e performances, as características de montagem, ritmo, tipo de movimento etc.\n\nOs conhecimentos grafofônicos, ortográficos, lexicais, morfológicos, sintáticos, textuais, discursivos, sociolinguísticos e semióticos que operam nas análises linguísticas e semióticas necessárias à compreensão e à produção de linguagens estarão, concomitantemente, sendo construídos durante o Ensino Fundamental. As práticas de leitura/escuta e de produção de textos orais, escritos e multissemióticos oportunizam situações de reflexão sobre a língua e as linguagens de uma forma geral, em que essas descrições, conceitos e regras operam e nas quais serão concomitantemente construídos: comparação entre definições que permitam observar diferenças de recortes e ênfases na formulação de conceitos e regras; diferentes formas de dizer “a mesma coisa” etc.\n\nSão apresentados em quadros referentes a todos os campos os conhecimentos linguísticos relacionados à ortografia, pontuação, conhecimentos gramaticais (morfológicos, sintáticos, semânticos), entre outros:\n\n**Fono-ortografia**\n- Conhecer e analisar as relações regulares e irregulares entre fonemas e grafemas na escrita do português do Brasil.\n- Conhecer e analisar as possibilidades de estruturação da sílaba na escrita do português do Brasil.\n\n**Morfossintaxe**\n- Conhecer as classes de palavras abertas (substantivos, verbos, adjetivos e advérbios) e fechadas (artigos, numerais, preposições, conjunções, pronomes) e analisar suas funções sintático-semânticas nas orações e seu funcionamento (concordância, regência).\n- Perceber o funcionamento das flexões (número, gênero, tempo, pessoa etc.) de classes gramaticais em orações (concordância).\n- Correlacionar as classes de palavras com as funções sintáticas (sujeito, predicado, objeto, modificador etc.).\n\n**Sintaxe**\n- Conhecer e analisar as funções sintáticas (sujeito, predicado, objeto, modificador etc.).\n- Conhecer e analisar a organização sintática canônica das sentenças do português do Brasil e relacioná-la à organização de períodos compostos (por coordenação e subordinação).\n- Perceber a correlação entre os fenômenos de concordância, regência e retomada (progressão temática – anáfora, catáfora) e a organização sintática das sentenças do português do Brasil.\n\n**Semântica**\n- Conhecer e perceber os efeitos de sentido nos textos decorrentes de fenômenos léxico-semânticos, tais como aumentativo/diminutivo; sinonímia/antonímia; polissemia ou homonímia; figuras de linguagem; modalizações epistêmicas, deônticas, apreciativas; modos e aspectos verbais.\n\n**Variação linguística**\n- Conhecer algumas das variedades linguísticas do português do Brasil e suas diferenças fonológicas, prosódicas, lexicais e sintáticas, avaliando seus efeitos semânticos.\n- Discutir, no fenômeno da variação linguística, variedades prestigiadas e estigmatizadas e o preconceito linguístico que as cerca, questionando suas bases de maneira crítica.\n\n**Elementos notacionais da escrita**\n- Conhecer as diferentes funções e perceber os efeitos de sentidos provocados nos textos pelo uso de sinais de pontuação (ponto final, ponto de interrogação, ponto de exclamação, vírgula, ponto e vírgula, dois pontos) e de pontuação e sinalização dos diálogos (dois pontos, travessão, verbos de dizer).\n- Conhecer a acentuação gráfica e perceber suas relações com a prosódia.\n- Utilizar os conhecimentos sobre as regularidades e irregularidades ortográficas do português do Brasil na escrita de textos.\n\nFonte: BRASIL, 2017, p. 80-81.\n\nO processo da análise linguística, neste documento, foi organizado com o objetivo de promover a reflexão acerca da língua e de seu funcionamento “concomitantemente com apropriação dos usos e funções sociais dos gêneros textuais, da leitura, da produção de textos e da linguagem oral”, nos anos iniciais (BRASIL, 2012, p. 12), com progressão em todas as etapas do Ensino Fundamental, considerando a complexidade de cada ano de estudo.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05dcfee040784e38006ab302bc721087d2a70e12cc6f8a85dd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 512,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 543,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 1055
+    }
+  },
+  "created_at": "2026-09-22T22:35:45Z",
+  "duration_seconds": 5.147,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_ingles_7",
+  "filename": "mg_ef_linguagens_ingles_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3ab1c3c801a3be53af2156441a6a470523f1520db8079fa9109d5a88cba09323",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "34a8afe82bccbe71354d8c135d511989b88ed7433288b05cfb96a9a87fffe232",
+    "rendered_prompt_sha256": "cb03d815af80f4cee6129b467ab067d2f01a94f7c39bc3da64ae42855eb623fd",
+    "source_text_sha256": "e2a854d56bf24311f081ac11922abe0547bee257a5c0537692d250eda0e800c6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_ingles_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1457,
+    "filename": "mg_ef_linguagens_ingles_7.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_ingles_7.txt",
+    "state": "mg",
+    "word_count_original": 279
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_ingles_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_ingles_7.json"
+  },
+  "raw_response_text": "### 8.4.2 Dimensão Intercultural e Multiletramento\n\nSegundo Roxane Rojo,\n\n> O conceito de multiletramento aponta para dois tipos específicos e importantes de multiplicidade presentes em nossas sociedades, principalmente urbanas, na contemporaneidade: a multiplicidade cultural das populações e multiplicidade semiótica de constituição dos textos por meio dos quais ela se comunica. (ROJO, 2012, p. 13).\n\nO estudo de qualquer idioma pressupõe uma reflexão entre língua, identidade e cultura, investindo na competência intercultural. O eixo dimensão intercultural propõe uma vivência dessa complexa interação entre vários grupos com repertórios linguísticos e culturais os mais diversos possíveis sem dúvida, é uma das facetas mais ricas do aprendizado de outra língua, que é adentrar nesse espaço rico de produção cultural, literária e artista e se apropriar desse patrimônio. Enraizado na territorialidade que nos faz valorizar nossa cultura, tanto no cenário contemporâneo do mundo digital que viabiliza o entrelaçamento das mais diferentes linguagens.\n\nUm outro norteador de nossa prática docente é o multiletramento que acontece nas práticas sociais, gêneros textuais, servindo aos mais diversos propósitos comunicativos. É um desafio para os educadores a tarefa de se alinhar às novas exigências de uma sociedade hiper multimodal e requer muita ousadia, espírito inovador por parte dos professores envolvidos. A cada dia surgem novas formas de expressar emoções, valores, sentimentos e valores que se materializam em gêneros híbridos em constante inovação. Novos espaços de interação online são demandas contemporâneas de modo a criar novas oportunidades para o aprendizado da língua inglesa e exigem a ampliação do uso do computador nas escolas públicas mineiras. São inúmeras as possibilidades que os ambientes Web podem oferecer ao desenvolvimento da leitura, da escrita, da compreensão oral e fala em um idioma estrangeiro.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

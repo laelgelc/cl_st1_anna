@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06b6ff62bdf60fcb006ab2fff44b3487d2b091590cb36a6a4c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 943,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1564,
+      "output_tokens_details": {
+        "reasoning_tokens": 727
+      },
+      "total_tokens": 2507
+    }
+  },
+  "created_at": "2026-09-22T22:24:02Z",
+  "duration_seconds": 14.922,
+  "error": null,
+  "excerpt_id": "ce_inf_e_ef_3",
+  "filename": "ce_inf_e_ef_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c36429ec866f5591890bb124ab4fda02010ae307bc4fe036a45fd213cecbad35",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d51133a923853bcb240f29d6600157d8c54312144af2ab67d2aeabd2334b73ef",
+    "rendered_prompt_sha256": "69278b933015dfd76c8ea08d7bb5e5993a66d56e96b6a6a964a8c20f7f462521",
+    "source_text_sha256": "578de2b914367aa9006f0752e760042629af58ab5be809bc1a3aef46538e131d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_inf_e_ef_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 866,
+    "filename": "ce_inf_e_ef_3.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_inf_e_ef_3.txt",
+    "state": "ce",
+    "word_count_original": 530
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_inf_e_ef_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_inf_e_ef_3.json"
+  },
+  "raw_response_text": "# EDUCAÇÃO INFANTIL\n\nDe acordo com os eixos estruturantes da BNCC para a Educação Infantil, interações e brincadeiras, seis direitos de aprendizagem e desenvolvimento são assegurados aos bebês e crianças nesta Etapa. E, a partir destes, são estabelecidos cinco campos de experiências concretas da vida cotidiana e seus saberes, que se entrelaçam com os conhecimentos que fazem parte do patrimônio cultural.\n\n**DIREITOS DE APRENDIZAGEM E DESENVOLVIMENTO**\n\n**CAMPOS DE EXPERIÊNCIAS**\n\nPara cada campo de experiência são definidos objetivos de aprendizagem e desenvolvimento que apresentam as aprendizagens essenciais a ser asseguradas a esse público infantil, sempre considerando as interações e a brincadeira como eixos norteadores.\n\nA organização e integração das experiências incluem orientações metodológicas que preveem diversificadas possibilidades: de interação (criança/crianças; professor/professora e outros profissionais da escola); de escolhas e produção pelas crianças; de escuta e respeito aos seus interesses e ritmos; de diálogo e negociação; de diversidade de brincadeiras e situações desafiadoras envolvendo formas diferentes de representação (em diversas linguagens) que incentivam a ação criativa e exploratória das crianças.\n\n**OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO**\n\n**ORGANIZAÇÃO E INTEGRAÇÃO DAS EXPERIÊNCIAS**\n\nVejamos o exemplo:\n\n| FAIXA ETÁRIA | DIREITOS | CAMPOS DE EXPERIÊNCIA | OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO | ORGANIZAÇÃO E INTEGRAÇÃO DAS EXPERIÊNCIAS |\n|---|---|---|---|---|\n| Bebês (0-1A 6M) | Brincar, Conviver, Explorar, Participar, Expressar e Conhecer-se. | O eu, o outro e o nós | (EI01EO01) Perceber que suas ações têm efeitos nas outras crianças e nos adultos. | Práticas pedagógicas que possibilitem o acolhimento dos bebês em momentos de choro, apatia, raiva, birra, ciúmes, ajudando-os a procurar outras formas de lidar com seus sentimentos e atendendo suas necessidades de contato físico afetuoso, conforto, acalanto e bem-estar; |\n\nComo é possível observar no exemplo apresentado, cada objetivo de aprendizagem e desenvolvimento é identificado por um código alfanumérico cuja composição é explicada a seguir:\n\n# ENSINO FUNDAMENTAL\n\n**Áreas do Conhecimento**\n\n**Competências Específicas da Área**\n\nCada área de conhecimento apresenta competências específicas da área. A progressão das aprendizagens de habilidades, em cada componente curricular, contribui para o desenvolvimento dessas competências ao longo dos nove anos do Ensino Fundamental.\n\nPara cada componente curricular também são definidas competências específicas que, de igual modo, devem ser desenvolvidas durante essa etapa de escolarização, nos anos iniciais e finais.\n\nPara assegurar o desenvolvimento dessas competências específicas, cada componente curricular apresenta um conjunto de habilidades relacionadas a diferentes objetos de conhecimento, organizados em unidades temáticas (ou campos de atuação, no caso de LP). Tais objetos de conhecimento, compreendidos como conteúdos, conceitos e processos, são detalhados nos objetos específicos.\n\nCom o intuito de fortalecer a progressão na organização das aprendizagens ao longo do processo de escolarização, apresentamos uma coluna referente à relação das habilidades dentro do mesmo componente curricular (Relação intracomponente) e na relação com outras habilidades dos outros componentes curriculares (Relação intercomponentes).\n\nAs habilidades definidas para cada ano expressam as aprendizagens essenciais que devem ser asseguradas às alunas/aos alunos e alunas durante esse percurso formativo, nos diversos contextos escolares. De acordo com a BNCC, em cada componente curricular as habilidades são identificadas por um código alfanumérico. Quando uma habilidade for específica do DCRC terá o código CE, conforme exemplo retirado do Componente de Ciências (EF01CI07CE).",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

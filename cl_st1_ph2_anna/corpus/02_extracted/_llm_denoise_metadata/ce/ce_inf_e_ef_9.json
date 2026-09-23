@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03a4a35753db6b79006ab2ffff79ec87d29085de7b60d50bd3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 741,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 755,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 1496
+    }
+  },
+  "created_at": "2026-09-22T22:24:04Z",
+  "duration_seconds": 5.472,
+  "error": null,
+  "excerpt_id": "ce_inf_e_ef_9",
+  "filename": "ce_inf_e_ef_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4280c00c254e32bbc702aa1e847f500cba4eb8957df7edf02b5ce821ac44db6b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "99ab2cc5198db84ad71f722a68b1121c79e1a40ef5ad3bb19da4ca8ef51a81c1",
+    "rendered_prompt_sha256": "1d5c4e078ba49fbfb44af1cc6daae73577a22be15ec75921781ceeef129170f9",
+    "source_text_sha256": "290f9b50c8648a058cdbf0a4cee28cdf13719f902a6db9ea4089e7fc947fa1bf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_inf_e_ef_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 874,
+    "filename": "ce_inf_e_ef_9.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_inf_e_ef_9.txt",
+    "state": "ce",
+    "word_count_original": 447
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_inf_e_ef_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_inf_e_ef_9.json"
+  },
+  "raw_response_text": "Se na Parte I do DCRC, nosso olhar se direciona às questões específicas do nosso estado, sinalizando nossas ações educacionais e a articulação delas no contexto nacional, na Parte II trataremos dos Pressupostos Teóricos, Epistemológicos e Políticos. Essa leitura contribuirá para compreendermos que nosso agir professoral está sempre ancorado em posicionamentos. Cada posicionamento representa uma lupa teórica, ancorada em uma epistemologia que contribui para as decisões políticas educacionais.\n\n## 2.1. Fundamentação Pedagógica\n\nÉ importante compreender que uma proposta curricular envolve sempre um projeto social e cultural, bem como uma visão do tipo de sociedade e de ser humano que pretendemos formar através da escola. A BNCC, por sua vez, “afirma seu compromisso com a educação integral. Reconhece, assim, que a Educação Básica deve visar à formação e ao desenvolvimento humano global, o que implica compreender a complexidade e a não linearidade desse desenvolvimento, rompendo com visões reducionistas que privilegiam ou a dimensão intelectual (cognitiva) ou a dimensão afetiva. Significa, ainda, assumir uma visão plural, singular e integral da criança, do adolescente, do jovem e do adulto – considerando-os como sujeitos de aprendizagem”. (...) “reconhece que a educação deve afirmar valores e estimular ações que contribuam para a transformação da sociedade, tornando-a mais humana, socialmente justa e, também, voltada para a preservação da natureza” (BRASIL, 2013).\n\nReafirma, de outro modo, o desejo de que a estudante/o estudante tenha oportunidades iguais de ingressar, permanecer e aprender nas escolas, estabelecendo um patamar de aprendizagem e desenvolvimento a que todos tenham direito.\n\nCom tais propósitos, fica explícito que o DCRC, estando alinhado à BNCC, marca posição diversa em relação à escola ainda vigente nos dias atuais, cujo foco prioritário continua sendo conhecimentos de predominância cognitiva. A Base, diferentemente, busca a formação integral do(a) aluno(a) com destaque para o desenvolvimento das competências do século XXI, que, conforme afirma Guimarães, dizem respeito:\n\n> “a formar cidadãos mais críticos, com capacidade de aprender a aprender, de resolver problemas, de ter autonomia para a tomada de decisões; cidadãos que sejam capazes de trabalhar em equipe, respeitar o outro, o pluralismo de ideias, que tenham a capacidade de argumentar e defender seu ponto de vista” (grifos adicionados).\n\nAncorados na Base, o DCRC propõe, ainda,\n\n> “a superação da fragmentação radicalmente disciplinar do conhecimento, o estímulo à sua aplicação na vida real, a importância do contexto para dar sentido ao que se aprende e o protagonismo do(da) estudante em sua aprendizagem e na construção de seu projeto de vida.” (BRASIL, 2017, p. 15).\n\nCom estas diretrizes ora expostas, sinalizamos para a natureza das concepções e princípios que devem nortear a ação curricular a ser implementada. Especificamos, a seguir, os fundamentos norteadores da proposta do Ceará.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

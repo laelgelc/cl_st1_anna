@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06fb14a822fd23b4006ab3036322f487d298aaf2130fc6aad9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 854,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 820,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 1674
+    }
+  },
+  "created_at": "2026-09-22T22:38:33Z",
+  "duration_seconds": 6.593,
+  "error": null,
+  "excerpt_id": "mg_em_82",
+  "filename": "mg_em_82.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9f6ac137da0c5b975d1af5cfaf7de208264c299b61f31f5a78a5c8eb5c6ffc1e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "654edfb659499f1db64e1aebd8a319b863b58fb52d48a56c4f781839f3de08e2",
+    "rendered_prompt_sha256": "e7fa065d12c57fb3261217832dc265b01ab5e8ba123afee814bbe8162657bb63",
+    "source_text_sha256": "107ce950805c36e6f0f0b40d94b4f221f9987962b00f7a7ffc35eccaef0c082a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_82.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1617,
+    "filename": "mg_em_82.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_82.txt",
+    "state": "mg",
+    "word_count_original": 518
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_82.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_82.json"
+  },
+  "raw_response_text": "### 4.1.1 Itinerários ou trilhas de aprofundamento\n\nUm dos principais propósitos dos aprofundamentos ou trilhas é a promoção de abordagens práticas e contextualizadas que promovam um diálogo entre as realidades vividas pelos estudantes e saberes trazidos pelas Áreas do Conhecimento. As propostas devem ter como princípio educativo estimular os estudantes, orientados por seus professores, a vivenciarem experiências práticas, lúdicas e reflexivas frente à produção ativa de conhecimento que lhes permitam ser protagonistas dentro do processo educativo.\n\nA escolha dos estudantes pelo aprofundamento em determinada Área do Conhecimento não se configura como definitiva, ou seja, eles poderão, se assim o quiserem, experimentar ao longo do Ensino Médio conteúdos de diferentes áreas. Essa possibilidade deve ser entendida como forma de conhecer melhor as possibilidades apresentadas pelos diferentes componentes que compõem o presente currículo e, assim, ampliar seu campo de possibilidades, contribuindo para que façam escolhas informadas e mais assertivas em sua trajetória pós Ensino Médio. Isso porque, participar de mais de um aprofundamento pode apresentar informações, de maneira lúdica e criativa, sobre o que fazem um biólogo, um historiador, um sociólogo, um produtor cultural, um matemático, um escritor, um empreendedor e mais uma infinidade de outras atuações profissionais, o que pode influenciar diretamente suas escolhas futuras.\n\nA construção de um itinerário de aprofundamento baseado na escolha dos estudantes por uma Área do Conhecimento não exclui a possibilidade da interdisciplinaridade.\n\nA constituição da Ciência no atual cenário tem como imperativo o diálogo entre diferentes campos para que os conhecimentos produzidos sejam relevantes e promovam a formação integral dos sujeitos envolvidos nesses processos. Assim, mesmo que haja a predominância de uma Área do Conhecimento na proposição de um aprofundamento, o diálogo com os saberes trazidos pelos componentes curriculares das outras é imprescindível. Por exemplo, uma proposta no campo da Ciências Humanas, desenvolvida a partir de metodologia de pesquisas quantitativas e qualitativas para conhecer empiricamente a realidade socioeconômica e cultural da comunidade onde está localizada a escola, vai encontrar desafios ambientais que levarão ao diálogo com a área das Ciências da Natureza e poderá, ainda, promover um diálogo com a matemática na tabulação e análise de dados resultantes da aplicação de questionários quantitativos e com a área de Linguagens para analisar e catalogar manifestações estéticas, esportivas e artísticas presentes na comunidade e no exercício de escrita de relatórios, jornais e produção de blogs para divulgação dos trabalhos.\n\nJá um itinerário de aprofundamento no campo da Ciências da Natureza pode dialogar com questões éticas, históricas e socioculturais ligadas ao das Ciências Humanas, com a produção de texto para relatórios na Área de Linguagens e com a tabulação e tratamento de dados e demais ferramentas ligadas à Área de Matemática. Nesse cenário, mesmo que a escola apresente apenas dois aprofundamentos, toda a equipe de professores deverá estar envolvida e participar diretamente no desenvolvimento dos projetos apresentados, permitindo que, ao desenvolverem as atividades propostas para sua efetivação, os estudantes possam colocar em prática os conhecimentos teóricos apresentados pelas diferentes áreas que compõem a Formação Geral Básica do Currículo Referência. Portanto, as equipes responsáveis pela execução devem ser compostas por profissionais de diferentes Áreas do Conhecimento.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

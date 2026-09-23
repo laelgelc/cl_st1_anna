@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b5b6c000eb0b777006ab3082cd09887d2a417479502c9cf3b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 662,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 703,
+      "output_tokens_details": {
+        "reasoning_tokens": 137
+      },
+      "total_tokens": 1365
+    }
+  },
+  "created_at": "2026-09-22T22:58:59Z",
+  "duration_seconds": 7.107,
+  "error": null,
+  "excerpt_id": "pe_em_49",
+  "filename": "pe_em_49.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a54ab4800c12dd601703c7ba10402b02bbed333a5ee01a3584e18ce5ce525c42",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b0ad0d44b3fda2426d34dff248e171f6f0c60e8e7c651cf1baf577c3e88a6536",
+    "rendered_prompt_sha256": "acafd4ec7c48275c862b044f36f8ec60361e0220a2a571f1522896b915fdf747",
+    "source_text_sha256": "40974d1201095c0aed72f68be8142575a5f9e5542587dd4bd068605a8aa9f96a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_49.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2505,
+    "filename": "pe_em_49.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_49.txt",
+    "state": "pe",
+    "word_count_original": 437
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_49.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_49.json"
+  },
+  "raw_response_text": "### 4.5.6 – Ensino de História no Ensino Médio\n\nAté o fim do século XX e, de certa forma, até os dias atuais, em certos espaços, o conhecimento histórico é visto como um saber do e no passado, apartado da vida do sujeito que o acessa. Ser “um saber do passado” implicaria que o conhecimento, apresentado e debatido no componente, refere-se apenas ao passado, reforçando o distanciamento passado-presente. A História, entretanto, é feita a partir das questões contemporâneas. Examina-se o passado para entender o presente, de modo que o mundo contemporâneo é sempre resultado de condicionamentos históricos. Já a perspectiva de que o conhecimento histórico está no passado é particularmente perigosa no espaço escolar pois faz parecer que a ciência histórica não evolui, como se a pesquisa e a crítica historiográfica não dissessem respeito ao ensino de História.\n\nA visão de história que se defende aqui e que motivou a construção das habilidades no currículo de Pernambuco parte de uma História viva, presente e integrada às práticas e aos conhecimentos de docentes e discentes. A abordagem temática é particularmente nesse sentido, pois permite contextualizações mais significativas, distantes da história factual e positivista.\n\nAssim sendo, busca-se atrelar a produção de conhecimentos, vinculando pesquisa e ensino, tendo os estudantes como protagonistas, ponto de partida das questões históricas de nosso tempo e oportunizando que sejam sujeitos do processo, a partir de uma postura enraizada em questionamentos, levantamento de dados e na reflexão.\n\nA expressão de uma visão de educação mais flexível, que possibilite ao discente apreender e aplicar, no cotidiano, seus conhecimentos, dando um sentido mais prático à educação, faz do saber histórico um componente curricular que consegue abarcar diferentes temáticas e conteúdos e dialogar com competências e habilidades. Com isso, o debate crítico, a construção da memória, as categorias de tempo e espaço, a compreensão e reflexão sobre distintas fontes históricas e a discussão sobre diversas narrativas ganham um tratamento especial neste documento, pautando-se não apenas no que se deve aprender, mas como se utilizar o saber apreendido.\n\nMais do que um aprofundamento das aprendizagens desenvolvidas no Ensino Fundamental, o componente curricular de História, no Currículo de Pernambuco do Ensino Médio, preza o protagonismo juvenil, fomentando no estudante a participação no diálogo, na troca de experiências e na busca por soluções que envolvam o coletivo, cuja base é a ética, o respeito às diferenças e a valorização do ser humano.\n\nEste documento, então, procura atender às necessidades de cunho pedagógico metodológico, instrumento importante para o trabalho de nossos educadores, fornecendo-lhes um material que pretende, na prática, instigar os estudantes à consciência crítica.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

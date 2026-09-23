@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e5779baaefbccf3006ab30ccf258087d2b7a3852f27c10af7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 364,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 406,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 770
+    }
+  },
+  "created_at": "2026-09-22T23:18:42Z",
+  "duration_seconds": 3.557,
+  "error": null,
+  "excerpt_id": "rr_ef_18",
+  "filename": "rr_ef_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "441539116328be0305dcd9a859075c12ec27db4d287bbfaaa0b4d8bbf1cdc004",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "75b543186174154e81d3f906e7ade91aabb08a071ea61ce1287f99a123aff4e0",
+    "rendered_prompt_sha256": "48914aa7131474ac2d409697298b6e2ea56adf22d8c693efb672c40ce3344571",
+    "source_text_sha256": "8b2afb1345fb80cc01387c378119d76ac8a2327d6dcd58d68cb1ccfedf5cd3b4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3383,
+    "filename": "rr_ef_18.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_18.txt",
+    "state": "rr",
+    "word_count_original": 194
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_18.json"
+  },
+  "raw_response_text": "### 4.3.7 AVALIAÇÃO\n\nA avaliação deve ser concebida como instrumento de reflexão sobre a prática pedagógica do professor, auxiliando-o na compreensão de quais aspectos devem ser revistos, ajustados ou reconhecidos como adequados para o processo de aprendizagem individual e de todo o grupo de alunos (DARIDO, 2017).\n\nPara os alunos, a avaliação deve ser entendida como um instrumento de tomada de consciência de suas conquistas, dificuldades e possibilidades para que possa desenvolver sua autonomia e sua criticidade sobre os aspectos relacionados à cultura corporal do movimento.\n\nDe acordo com Stallivieri (2017), durante as aulas de Educação Física, a avaliação deve ser utilizada durante todo o processo, empregando critérios e instrumentos diversificados, devendo ser parte integrante do plano de aula do professor, adequando-se às respectivas habilidades propostas para as unidades temáticas e seus objetos de conhecimento, explorando as dimensões conceitual, procedimental e atitudinal.\n\nPara uma melhor compreensão e sistematização do planejamento de ensino no componente de Educação Física, os organizadores curriculares estão divididos em unidades temáticas, associadas aos seus referentes objetos de conhecimento, seguidos das habilidades expressas em expectativas de aprendizagens para os alunos e as orientações didáticas/metodológicas para o professor.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

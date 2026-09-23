@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ffa45b0ebd586cd006ab30632c26487d2ab420bd30b820c8d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1674,
+      "input_tokens_details": {
+        "cache_write_tokens": 1671,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3111,
+      "output_tokens_details": {
+        "reasoning_tokens": 1423
+      },
+      "total_tokens": 4785
+    }
+  },
+  "created_at": "2026-09-22T22:50:52Z",
+  "duration_seconds": 26.022,
+  "error": null,
+  "excerpt_id": "pa_em_70",
+  "filename": "pa_em_70.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9452e149ff759d422c5691550a27bfd92fce5130adf72d65cd03a00361e2e8cd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "449e89d39f42a54353d0873872d63d895e4ead95e79efde08ea3b09b628ace73",
+    "rendered_prompt_sha256": "d38dad3f7f07e9c29f56d6950f3b788682ff488b5c4ff6b5c05b37edc7668347",
+    "source_text_sha256": "9e333a19b5d59a3174912b074649521122c256f6949798030ca19d7760b10835"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_70.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2120,
+    "filename": "pa_em_70.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_70.txt",
+    "state": "pa",
+    "word_count_original": 1054
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_70.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_70.json"
+  },
+  "raw_response_text": "## 4.2.2 Projetos Integrados de Ensino\n\nDe acordo com as DCNEM (BRASIL, 2012), tornar-se indispensável a escola olhar com atenção e considerar a diversidade brasileira das juventudes atendidas nesta etapa, para que atinja o objetivo da formação humana integral. Desta forma, o currículo integrado organiza os saberes das áreas de conhecimento e da EPT, desenvolvendo o processo de ensino-aprendizagem de maneira que os conceitos sejam apreendidos como sistemas de relações de uma totalidade concreta que se pretende explicar/compreender (RAMOS, 2005).\n\nEsta concepção compreende que, na escola, são as unidades curriculares as responsáveis por permitir apreender os conhecimentos já construídos em sua especificidade teórico-metodológica e histórica; ou seja, como as determinações mais particulares dos fenômenos, relacionadas entre si, permitindo compreendê-los na sua totalidade.\n\nNeste contexto, as diretrizes curriculares propostas nas DCNEM consideram que as áreas de conhecimento devem dialogar na perspectiva integrada, para favorecer os conhecimentos escolares com os saberes do cotidiano, ou seja, considerando os conhecimentos provenientes da realidade dos jovens, além do respeito à diversidade e as questões relacionadas ao trabalho.\n\nPara que a proposta faça sentido, requer que os docentes considerem as proposições que os alunos trazem nas escutas, pois mais que um estudo exploratório, a investigação científica nesta unidade curricular leva o aluno a observar e a refletir sobre si, sobre o mundo, induzir, trazer a compreensão de que é da natureza humana, a curiosidade para constatar ou refutar algo que se queira deduzir ou ressignificar.\n\nÉ, portanto, a concepção de formação humana integral, mediante a construção e organização do currículo integrado, a partir da articulação das dimensões trabalho, ciência, tecnologia e cultura, que os projetos integrados são importantes para a prática docente interdisciplinar e contextualizada, uma vez que possibilitam desvelar as necessidades sociais, culturais, econômicas e intelectuais das juventudes, de modo a contribuir para formação de jovens mais participativos, reflexivos e críticos.\n\nAssim, refletir sobre os projetos integrados nos remete à organização curricular por meio das quatro áreas do conhecimento e a EPT, a partir de metodologias de ensino que possibilitem contribuir na construção da formação humana integral dos estudantes de ensino médio.\n\nNeste sentido, na proposta do DCEPA – etapa ensino médio, o Projeto Integrado é uma unidade curricular flexível da nucleação referente à formação para o mundo do trabalho, que articulará os princípios curriculares norteadores da educação básica paraense, os eixos estruturantes, as competências específicas de área, as habilidades específicas das itinerâncias¹⁰³ e seus respectivos objetos de conhecimento.\n\n¹⁰³ De acordo com a Portaria MEC nº 1.432/2018, essas habilidades referem-se a dois grupos: habilidades associadas às competências gerais da BNCC e as habilidades específicas dos itinerários formativos, por meio das quatros áreas do conhecimento e a EPT.\n\nEstes têm como objetivos aprofundar e ampliar conhecimentos vivenciados na nucleação da formação geral básica, que serão experienciados ao longo dos três anos do ensino médio. É importante ressaltar, como premissa, que esta unidade curricular esteja pautada, ainda, nos pressupostos da contextualização, da interdisciplinaridade e da integração curricular.\n\nAssim, tais percursos são ainda espaços de aprendizagens na perspectiva mais flexível, não apenas de questões pedagógicas, mas sim de questões sociopolíticas da educação, ao aprendizado de competências que contribuam para a construção de uma sociedade mais ética, democrática, responsável, inclusiva e que subsidie o projeto de vida e formação humana integral das juventudes paraenses.\n\nA partir dos “Referenciais Curriculares para a elaboração dos Itinerários formativos”, este documento curricular propõe os Projetos Integrados de área e/ou da EPT, que requerem atenção, no que se refere a sua estrutura, a partir de uma trajetória com começo, meio e fim, garantindo seus objetivos, finalidades e aprofundamentos.\n\nRessalta-se ainda que nos projetos integrados, as competências, habilidades e objetos são estruturados considerando o quadro organizador da formação para o mundo do trabalho, sendo este importante referência de orientação e consulta, na qual os professores devem considerar para a construção dos projetos integrados, que se organizam nos elementos do quadro 21, abaixo:\n\n**Quadro 21: Estrutura dos Projetos Integrados de Áreas e EPT**\n\n| Elementos | Orientação |\n|---|---|\n| 1.1 Título do Projeto | Este deve ser atrativo (linguagem das juventudes). |\n| 1.2 Unidade regional | Informar URE ou USE de vinculação da escola. |\n| 1.3 Município | Cidade em que a escola está situada. |\n| 1.4 Escola | Nome da escola conforme registrado no CEE/PA. |\n| 1.5 Princípio(s) Curricular(es) norteador(es) | - Respeito às diversas culturas amazônicas e suas inter-relações no espaço e no tempo;<br>- Educação para a sustentabilidade ambiental, social e econômica;<br>- Interdisciplinaridade e contextualização no processo ensino-aprendizagem.<br><br>Os princípios acima listados são fundamentos que norteiam (orientam) o currículo na perspectiva da formação humana integral, trazendo para as discussões o desenvolvimento dos processos criativos e produtivos, advindo dos distintos grupos sociais que compõem a Amazônia, considerando a diversidade ambiental, social, econômica e cultural. |\n| 1.6 Áreas do conhecimento envolvidas | Aponta as áreas Linguagens e suas tecnologias, Matemática e suas tecnologias, Ciências da Natureza e suas tecnologias, Ciências Humanas Sociais Aplicadas. Caso o projeto seja vinculado a EPT, deve-se informar que se trata de um projeto, cuja itinerância integra a área e a EPT. |\n| 1.7 Unidades curriculares envolvidas | Refere-se às unidades curriculares que compõe uma ou mais áreas do conhecimento da formação geral básica. |\n| 1.8 Eixos estruturantes | - Investigação científica;<br>- Processos criativos;<br>- Mediação e intervenção sociocultural;<br>- Empreendedorismo social.<br><br>Estes eixos conectam as experiências pedagógicas com a realidade cotidiana dos estudantes, favorecendo o desenvolvimento de habilidades importantes para a formação humana integral. |\n| 1.9 Perfil de Entrada esperado | |\n| 1.10 Perfil de Saída esperado | Refere-se aos requisitos de aprendizagem que o aluno deverá construir ao concluir cada fase do projeto integrado e que poderá servir de pré-requisito para projetos posteriores. |\n| 1.11 Professores/as responsáveis | |\n| 1.12 Anos/semestre | Refere-se ao do ensino médio (1º, 2º e 3º) no semestre letivo corrente.<br><br>Exemplos:<br>1º ano/1º semestre;<br>1º ano/2º semestre;<br>2º ano/3º semestre;<br>2º ano/4º semestre;<br>3º ano/5º semestre;<br>3º ano/6º semestre. |\n| 1.13 Turma(s) envolvida(s) | Refere-se aos códigos do SIGEP, referentes às turmas do 1º, 2º ou 3º ano do Ensino Médio, em que se desenvolverá o projeto. |\n| 1.14 Período de Realização | Informar o ano e o semestre letivo.<br><br>Exemplo:<br>2020.1 (refere-se ao 1º semestre do ano letivo de 2020). 2020.2 (refere-se ao 2º semestre do ano letivo de 2020). |\n| 1.15 Carga-horária | |\n\nFonte: Elaboração com base nos estudos e sistematizações do ProBNCC - etapa ensino médio (2019).",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

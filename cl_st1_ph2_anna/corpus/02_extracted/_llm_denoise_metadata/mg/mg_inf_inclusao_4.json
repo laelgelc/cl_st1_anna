@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0616ff1e2b3e51d8006ab3038cfe0087d28668cea40d7f9338",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 601,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 582,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 1183
+    }
+  },
+  "created_at": "2026-09-22T22:39:14Z",
+  "duration_seconds": 5.23,
+  "error": null,
+  "excerpt_id": "mg_inf_inclusao_4",
+  "filename": "mg_inf_inclusao_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4259b500f59496d936b27d0c32c99096ca6c7df022ad8287cedebf9a08fad003",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "229dfcea95fd09e68985f6f6a2e938bf572943c3bae190dd46e80ff098d5f483",
+    "rendered_prompt_sha256": "61da60afaf4c7421f145ef0fe8e928fe92d62649111dd1f30b9cc2a8ce45e244",
+    "source_text_sha256": "c77a688544ec28bcca8d047ffca478fe2e5a4c74758e2d2b2d9a168396c770e0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_inclusao_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1656,
+    "filename": "mg_inf_inclusao_4.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_inclusao_4.txt",
+    "state": "mg",
+    "word_count_original": 325
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_inclusao_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_inclusao_4.json"
+  },
+  "raw_response_text": "## 2.11.2 Educação Infantil Quilombola\n\nA Educação Escolar Quilombola é uma modalidade educacional, que no Estado de Minas Gerais está organizada pela Resolução SEE nº 3658/2017. Tal modalidade destina-se ao atendimento das populações quilombolas rurais e urbanas, em suas mais variadas formas de produção cultural, social, política e econômica. Ela é regida por algumas normativas específicas que contemplam os princípios de organização dessa modalidade, tais como: a memória coletiva dessas populações; as práticas culturais; os festejos, usos, tradições e demais elementos que conformam o patrimônio cultural das comunidades quilombolas de todo o país; a territorialidade e respeito aos processos históricos de luta pela regularização dos territórios tradicionais dos povos quilombolas; a superação do racismo institucional, ambiental, alimentar; a articulação entre os conhecimentos científicos, os conhecimentos tradicionais e as práticas socioculturais próprias das comunidades quilombolas, em processo educativo dialógico e emancipatório.\n\nA Educação Infantil configura-se como espaço estratégico fundamental para a construção de práticas sociais antirracistas e, portanto, deve-se cumprir o que preconiza as diretrizes e considerar no trabalho pedagógico dessas instituições de ensino, atividades com foco na desconstrução dos estereótipos raciais, e no fortalecimento das identidades étnico-raciais por intermédio da introdução de elementos da cultura e da história dos africanos em diáspora e dos afro-brasileiros.\n\nReconhecendo as dimensões estruturantes que o racismo exerce nas sociedades brasileiras e a incidência destas dimensões no espaço escolar, na formação e no desenvolvimento infantil, o trabalho pedagógico, nesta etapa de ensino, deve-se pautar na ressignificação dos marcos históricos que tratam da constituição de nossa sociedade e na inserção literária, imagética, estética e de produção de saberes dos diferentes grupos étnicos pertencentes à sociedade brasileira.\n\nNão se trata de educar todos como iguais, mas, sim, aprender nas diferenças, valorizando as especificidades. Também, não se trata apenas de respeitar a consciência negra, em datas comemorativas, trata-se da necessidade de construção do Projeto Político Pedagógico que respeite o direito a uma educação antirracista.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

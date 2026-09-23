@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0905ddd149970655006ab303e2695887d285eeeb30d611a563",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 940,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 896,
+      "output_tokens_details": {
+        "reasoning_tokens": 111
+      },
+      "total_tokens": 1836
+    }
+  },
+  "created_at": "2026-09-22T22:40:41Z",
+  "duration_seconds": 7.294,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_21",
+  "filename": "ms_inf_e_ef_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c4383955f67e0b5888aaeb84659e9fa7989bf9b6f86df118e16ffcaf561b232f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "865363c44a894cd9492fdc821797ac5706c68ce4f23d218c64383473df3a88a7",
+    "rendered_prompt_sha256": "46d06a8e18116163753a1ba58c4d6195be37c9907b1e15dca9f2e296578b973a",
+    "source_text_sha256": "8e3ddeb01de3c5738877d482ce9a4dbc8c7bf912d051a9687466d38459c0857c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1740,
+    "filename": "ms_inf_e_ef_21.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_21.txt",
+    "state": "ms",
+    "word_count_original": 569
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_21.json"
+  },
+  "raw_response_text": "### 5.3 Avaliações de Desempenho\n\nA avaliação de desempenho em larga escala tem como objetivo contribuir para a melhoria da qualidade da educação nas redes e sistemas de ensino no Brasil, por meio de diagnósticos sobre o desempenho das crianças, dos adolescentes e dos jovens. Para tanto, são aplicados testes de proficiência para cada etapa de escolaridade e componentes avaliados. Os resultados dos testes são interpretados em uma Escala de Proficiência, a qual estabelece padrões de desempenho dessas crianças, desses adolescentes e jovens, acompanhando seu desenvolvimento ao longo do tempo.\n\nEssa avaliação tem seus testes construídos com base em uma Matriz de Referência formada por um conjunto de habilidades e competências consideradas essenciais para que as crianças, os adolescentes e os jovens consigam avançar no processo de escolarização.\n\nO Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira – INEP realiza avaliações externas, por intermédio do Sistema de Avaliação da Educação Básica – SAEB, composto por três avaliações aplicadas em larga escala:\n\n- Avaliação Nacional da Educação Básica – ANEB: avalia de forma amostral, aqueles que cursam o 5º e 9º ano do Ensino Fundamental e o 3º ano do Ensino Médio.\n- Avaliação Nacional do Rendimento Escolar – ANRESC/Prova Brasil: avalia censitariamente aqueles que cursam o 5º e 9º ano do Ensino Fundamental e o 3º ano do Ensino Médio das escolas das redes municipais, estaduais e federal.\n- A Avaliação Nacional de Alfabetização – ANA: avalia os níveis de alfabetização e letramento em Língua Portuguesa e Matemática.\n\nCabe destacar que oferecer educação de qualidade é um desafio que requer uma ação conjunta pautada no regime de colaboração entre os entes federativos, requisito essencial para atingir as metas estabelecidas nos Planos Nacional, Estadual e Municipais de Educação. Dentre essas, ressalta-se a meta 7 que visa à qualidade da Educação Básica em todas as etapas e modalidades de ensino, com melhoria do fluxo escolar e da aprendizagem, estipulando projeções, com base no Índice de Desenvolvimento da Educação Básica (Ideb), a serem alcançadas ao longo dos anos.\n\nO Ideb é calculado com base no aprendizado dos sujeitos em Língua Portuguesa e Matemática (Prova Brasil) e no fluxo escolar (taxa de aprovação). A junção desses indicadores tem por objetivo assegurar a aprendizagem das crianças, dos jovens e dos adolescentes, contrabalançando os índices de aprovação e desempenho com o propósito de garantir que sejam aprovados com qualidade. “Com o Ideb, ampliam-se as possibilidades de mobilização da sociedade em favor da educação, uma vez que o índice é comparável nacionalmente e expressa em valores os resultados mais importantes da educação: aprendizagem e fluxo” (INEP).\n\nRessalta-se que o Ideb é um instrumento norteador para a elaboração de políticas públicas com vistas à qualidade da educação e permite a identificação de escolas e redes escolares que apresentam fragilidades quanto ao direito de aprendizagens das crianças, dos adolescentes e dos jovens, evidenciando a necessidade urgente de intervenção. Também é utilizado para acompanhamento das metas de qualidade do Plano de Desenvolvimento da Educação – PDE para a Educação Básica. Convém lembrar que o PDE estabelece para o Brasil alcançar a meta projetada até 2021 de 6,0, média compatível a um sistema educacional de qualidade similar a dos países desenvolvidos.\n\nDe modo abrangente, a avaliação deve ser um processo de reorientação dos caminhos para que ocorra a aprendizagem, em outras palavras, “a avaliação deve ser encarada como reorientação para uma aprendizagem melhor e para a melhoria do sistema de ensino” (ABRAMOWICZ, 1998).",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

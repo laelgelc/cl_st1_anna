@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00fa6088ba1db22c006ab31066fdc487d2a9e5cdaa20425da5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 766,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 738,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 1504
+    }
+  },
+  "created_at": "2026-09-22T23:34:05Z",
+  "duration_seconds": 6.595,
+  "error": null,
+  "excerpt_id": "to_inf_10",
+  "filename": "to_inf_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b4c2ed682206374050d8a5bd578e755540195f7436052d2719714bcdd06ae030",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0011b611a86292488b9c98a93f63a2ed06f7df59ff63a2184287ecaa58dd875e",
+    "rendered_prompt_sha256": "d5cf586863142458f73b1b7aa2802081432a79fe55fb78fd31d6511e037b5443",
+    "source_text_sha256": "5e87ec46cc3ecccf6449560cea81e06b4b1d1c2fbc753cfeeece85d742c5ab98"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_inf_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4083,
+    "filename": "to_inf_10.txt",
+    "filepath": "corpus/00_source_per_state/to/to_inf_10.txt",
+    "state": "to",
+    "word_count_original": 440
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_inf_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_inf_10.json"
+  },
+  "raw_response_text": "# CAPÍTULO II - DIVERSIDADE E IDENTIDADE CULTURAL DO TOCANTINS\n\nAs características de plurietnicidade e pluralidade cultural das crianças assentadas, como os agricultores, ribeirinhos, pescadores, extrativistas, geraizeiros, negros, indígenas, quilombolas e outros mais que residem no campo, favorecem a elas uma infância multicultural, devidamente reconhecida e respeitada pelos marcos legais que se iniciam com a Constituição de 1988 e reafirmada em diversos outros instrumentos legais mais específicos. Os quais permitem existir e compartilhar, como prescreve o Artigo 15 do Estatuto da Criança e do Adolescente, assegurando que “a criança e o adolescente têm direito à liberdade, ao respeito e à dignidade como pessoas humanas em processo de desenvolvimento e como sujeito de direitos civis, humanos e sociais garantidos na Constituição e nas leis”.\n\n## Identidade cultural do Tocantins\n\nBasicamente, essas pessoas organizam-se socialmente por uma luta pela terra e trabalho, e por viverem de uma constante ressignificação que afirma e revitaliza os seus costumes e tradições. Constituem dessa forma, uma identidade que se baseia na complexidade das diferenças étnicas e culturais, que consideram as “peculiaridades sociais, econômicas e culturais da população negra”, como preceitua o Artigo 36 do Estatuto da Igualdade Racial. Em acordo, Bosi (2008): “todo homem é um intelectual”, na medida em que todos os homens buscam alcançar o sentido da própria existência, e se interrogam sobre os porquês das desigualdades que saltam à vista, e só não existem para aquele cego, o pior de todos, que não quer ver (BOSI, 2008, p. 267).\n\nAssim, o Guia de Implementação do Estatuto de Igualdade Racial afirma, que o “mais relevante para a educação das relações étnico-raciais e para a construção de um país sem racismo, é a implementação do Artigo 26-A da LDB (alterada pelas Leis 10.639/2003 e 11.645/2008), que inclui nos currículos escolares o ensino de História e Cultura Africana, Afro-Brasileira e Indígena. Esse é um importante instrumento para a afirmação da diversidade humana que está na base da formação nacional, que possibilita aos brasileiros conviverem com as diferenças de maneira positiva e respeitosa. Compreendem-se as comunidades tradicionais como espaço de aprendizagem, constituído em comum acordo com os momentos socioculturais, quais se situam a multiculturalidade e a interculturalidade como efeitos resultantes de ações e movimentos políticos sociais, desde os ancestrais que já lutavam por reconhecimento e direitos dos legítimos povos tradicionais.\n\nAs relações étnicas e culturais de costumes expressos nas características físicas e comportamentais dos povos tradicionais estabelecem-se a partir das tradições territoriais e comunitárias, cultivadas nos diversos espaços e modos de ensino como: festas, religiões, brincadeiras, vestimentas, alimentos, músicas e danças que constituem todo o patrimônio cultural brasileiro.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

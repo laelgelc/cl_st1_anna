@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08862bcc0431b9a4006ab2fe3edae487d2b49abcfbc2bd51d0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 581,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 643,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 1224
+    }
+  },
+  "created_at": "2026-09-22T22:16:36Z",
+  "duration_seconds": 5.485,
+  "error": null,
+  "excerpt_id": "ap_inf_14",
+  "filename": "ap_inf_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5f21a928ea2f05a267c3f8a995fb702f880419724e73d10d6b29fcdfcae4e6a5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "36e7309eb40872f3bb73b2e48a1dd6aadd62995e6c27ae883ba90fda9d79bf45",
+    "rendered_prompt_sha256": "d47209f4d347d4115809a377a3e756bdedb98ab255275985fdd8656ea7cb9ee4",
+    "source_text_sha256": "a732152f597ffbd0a92aa7538f4f997d02dcb4230dc04e01d762d7b44ad0b894"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_inf_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 567,
+    "filename": "ap_inf_14.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_inf_14.txt",
+    "state": "ap",
+    "word_count_original": 344
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_inf_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_inf_14.json"
+  },
+  "raw_response_text": "## 3.6. Organização do Trabalho Pedagógico na Educação Infantil\n\nA organização do trabalho pedagógico na Educação Infantil precisa ser flexível e atenta para que a consciência do fazer pedagógico perceba a integralidade do desenvolvimento da criança, respeitando a diversidade, a especificidade e a realidade peculiares à infância. Para isso, o cuidar e educar são muito importantes para esta fase.\n\nO cuidar e educar são ações indissociáveis e complementares, e devem ser pensadas reconhecendo que o desenvolvimento, a aprendizagem e a formação do ser não ocorrem de maneira fragmentada e compartimentada.\n\nA base do cuidado humano é compreender como ajudar o outro a se desenvolver como ser humano. Cuidar significa valorizar e ajudar a desenvolver capacidades. O cuidado é um ato em relação ao outro e a si próprio que possui uma dimensão expressiva e implica procedimentos específicos (BRASIL, 1998, p. 24).\n\nA palavra educar remete a dois momentos de tomada de consciência: aquele do educador, professor e pedagogo, que passa a compreender suas ações na Educação Infantil, e aquele da formação integral da criança, que é protagonista nesse processo de aprendizagem, crescendo como pessoa, cidadã e sujeito do mundo. Assim, o educar na Educação Infantil pode ser compreendido como:\n\n> [...] propiciar situações de cuidados, brincadeiras e aprendizagens orientadas de forma integrada e que possam contribuir para o desenvolvimento das capacidades infantis de relação interpessoal, de ser e estar com os outros em uma atitude básica de aceitação, respeito e confiança, e o acesso, pelas crianças, aos conhecimentos mais amplos da realidade social e cultural. Neste processo, a educação poderá auxiliar o desenvolvimento das capacidades de apropriação e conhecimento das potencialidades corporais, afetivas, emocionais, estéticas e éticas, na perspectiva de contribuir para a formação de crianças felizes e saudáveis. (BRASIL, 1998, p. 23).\n\nPortanto, educar e cuidar são indissociáveis no processo educativo. A Educação Infantil tem como obrigação acolher as vivências extraescolares das crianças, articulando-as nas propostas pedagógicas, e as atividades de cuidado fazem parte dessas experiências. Cabe, porém, na Educação Infantil, a qualificação dessas práticas, sendo processos pensados e articulados diante de princípios pedagógicos.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

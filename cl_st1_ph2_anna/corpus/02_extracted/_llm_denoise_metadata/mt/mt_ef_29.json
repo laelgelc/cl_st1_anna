@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ef56572609e7a1b006ab30451fd0887d294324042fcdbd45b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 842,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 736,
+      "output_tokens_details": {
+        "reasoning_tokens": 58
+      },
+      "total_tokens": 1578
+    }
+  },
+  "created_at": "2026-09-22T22:42:31Z",
+  "duration_seconds": 5.555,
+  "error": null,
+  "excerpt_id": "mt_ef_29",
+  "filename": "mt_ef_29.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cd690fba3699aa8b4a170a6305b32f3bf327ccd4b936984707a318fd337df599",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b52347045e7aad5791a0351174e0c7dcd513ff949ac93d56b761b3211c483635",
+    "rendered_prompt_sha256": "fe747cb505ebd578478e2b056e1cdbdd5a0969ea915acd74009dffa94d6cf796",
+    "source_text_sha256": "eb6ff9b5ee951c5825e8b4d0d655c79f5057e5bacfd051b4bef4ede61ed0f29d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_29.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1821,
+    "filename": "mt_ef_29.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_29.txt",
+    "state": "mt",
+    "word_count_original": 471
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_29.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_29.json"
+  },
+  "raw_response_text": "### 5.3.1. Possibilidades para o Ensino Religioso\n\nO artigo 33 da LDB 9394/96 provoca bem mais do que a inclusão do Ensino Religioso como Componente Curricular, laico, pois exige que se repensem relações sociais, os caminhos pedagógicos, os procedimentos de ensino, as condições oferecidas para aprendizagem, os objetivos tácitos e explícitos em relação ao proselitismo.\n\nComo possibilidades de organização metodológica, o trabalho com Pedagogia de Projeto e Sequência Didática é relevante, uma vez que contribui para desenvolver ações pedagógicas que propiciem ao estudante ser protagonista, a investigar, a refletir sobre as situações problemas identificados, permite a autonomia, a elaborar estratégias para soluções dos problemas.\n\nDe acordo com Moura e Barbosa (2006, p. 12) os projetos se estabelecem quando:\n\n> São projetos desenvolvidos por alunos em uma (ou mais) disciplina (s), no contexto escolar, sob a orientação do professor, e têm por objetivo a aprendizagem de conceitos e desenvolvimento de competências e habilidades específicas. Esses projetos são conduzidos de acordo com uma metodologia denominada Metodologia de Projetos, ou Pedagogia de Projetos. [...] os projetos de trabalho são executados pelos alunos sob a orientação do professor visando a aquisição de determinados conhecimentos, habilidades e valores.\n\nOu seja, os estudantes são participantes do desdobrar do projeto, envolvidos no problema, sendo também responsabilizados pelo estudar, investigar, registrar e avaliar, isto é, protagonista da construção do próprio conhecimento, tomando decisões e elaborando opiniões.\n\nA Sequência Didática, alternativa metodológica, “[…] é um conjunto de atividades ordenadas e estruturadas para realização de certos objetivos educacionais, que tem um princípio e um fim conhecidos para tanto pelos professores como pelos alunos [...]” (ZABALLA, 1998, p. 18)\n\nConstituída por quatro etapas, sendo elas: apresentação da situação; produção inicial; organização e sistematização dos conhecimentos – módulos e produção final. Contudo, uma sequência didática deve ter um caráter flexível, de modo a possibilitar outras situações que venham a ser incorporadas ao longo do processo. Além disso, esse trabalho deve proporcionar a interdisciplinaridade e a transdisciplinaridade entre todos os componentes curriculares.\n\n### 5.3.2. A Organização dos Objetos de Conhecimento\n\nA organização dos objetos de conhecimento, neste documento, parte do conhecimento da identidade, do ser humano físico, com sentimento e emoções, que interage e integra em diversos grupos, espaços e tempo; que possui semelhanças e diferenças entre o eu, o outro e o nós; que tem uma vida rica em experiências religiosas e que estas experiências são o elo entre o imanente (corpo-matéria) e o transcendente (o sagrado, o metafísico).\n\nDesse modo, pretende-se evitar a redução dos objetos de conhecimento do Componente Curricular às manifestações religiosas hegemônicas, que historicamente têm ocupado um grande espaço nas aulas de Ensino Religioso e pouco tem acrescentado ao processo de formação integral dos educandos, ou seja, no alargamento de sua compreensão e do seu conhecimento a respeito da diversidade religiosa e dos múltiplos significados do sagrado.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

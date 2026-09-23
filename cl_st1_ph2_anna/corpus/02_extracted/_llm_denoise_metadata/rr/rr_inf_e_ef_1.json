@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e5e33aec698c59a006ab30d822c7487d2a29906cf58ff58c0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 724,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1113,
+      "output_tokens_details": {
+        "reasoning_tokens": 488
+      },
+      "total_tokens": 1837
+    }
+  },
+  "created_at": "2026-09-22T23:21:48Z",
+  "duration_seconds": 10.44,
+  "error": null,
+  "excerpt_id": "rr_inf_e_ef_1",
+  "filename": "rr_inf_e_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e86b0d3a601aad5a69ade1a03cfdb5e7be495b632b34927441e3bdb47815b13a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8c48d841982456e0cc53ca84134669aebfa5372e377e0a47f954b53dee13ce23",
+    "rendered_prompt_sha256": "59734a28600aaec8a82951a2d8d19ac0eeefffbceb17773fdd27c4cf0bb42084",
+    "source_text_sha256": "aa32dbe0cafcab1fbe60e868b122542a997987c9cad3ad2c8fa81d308eff1ad1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_e_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3533,
+    "filename": "rr_inf_e_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_e_ef_1.txt",
+    "state": "rr",
+    "word_count_original": 415
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_e_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_e_ef_1.json"
+  },
+  "raw_response_text": "# 1. APRESENTAÇÃO\n\n## 1.1 O PROCESSO DE CONSTRUÇÃO DO DOCUMENTO CURRICULAR DE RORAIMA\n\nA partir da homologação da Base Nacional Comum Curricular-BNCC, em dezembro de 2017, para a Educação Infantil e Ensino Fundamental, iniciamos o processo de construção do Documento Curricular de Roraima – DCR, com a composição da estrutura de governança, publicado na Portaria nº 2812/17/SEED/GAB/RR, que institui a Comissão Estadual e Comitê Executivo da BNCC.\n\nEm abril de 2018, foi constituída a equipe de gestão e de redatores do currículo estadual sob Portaria nº 1040/18/SEED/GAB/RR, sendo que a equipe foi responsável pelo processo de elaboração, análise, escrita e monitoramento do DCR.\n\nEm maio de 2018, formalizou-se a assinatura do Termo de Adesão e Compromisso ao Currículo único e termo de Cooperação Técnica entre o estado e 14 municípios do território roraimense, normatizando o regime de colaboração para a implementação da BNCC e elaboração do DCR, alinhados às diretrizes do Programa de Apoio à Implementação da Base Nacional Comum Curricular – ProBNCC.\n\nO processo de planejamento das ações propostas conforme Termo de Referência e Plano de Trabalho foram organizados a partir de um cronograma de atividades mensais, alinhado às macro ações do ProBNCC/MEC, CONSED e UNDIME, em sete etapas: a) Indicação de bolsistas em abril/2018; b) Mobilizações e encontros presenciais, de maio a novembro; c) Consolidação da 1ª versão do currículo em 30 junho, Plataforma de consulta pública de 23 de julho a 17 de setembro; d) 2ª versão do Documento Curricular, à luz das contribuições da Consulta pública em 31 de outubro; e) realização dos seminários regionais para discussão e consolidação do DCR de 06 a 09 de novembro; f) sistematizações das contribuições pós seminários em novembro; g) Entrega da versão final ao Conselho Estadual de Educação em 13 de novembro.\n\nDiante do exposto, o processo de análise e reescrita das contribuições quantitativas e qualitativas advindas das etapas de Consultas públicas do DCR consolidaram textos introdutórios, organizador curricular e orientações didáticas pedagógicas dos componentes curriculares da Educação Infantil e Ensino Fundamental. Destacamos ainda que, para se chegar à versão final do DCR, houve ainda análise e discussão do documento por membros do Conselho Estadual e Municipal de Educação, Grupos de trabalhos – GTs, professores especialistas da rede estadual, municipal e privada de ensino e leitores críticos das instituições de Ensino Superior – IES, considerando os fundamentos e princípios didáticos pedagógicos proposto no DCR para as etapas da Educação Infantil e Ensino Fundamental da Educação Básica.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

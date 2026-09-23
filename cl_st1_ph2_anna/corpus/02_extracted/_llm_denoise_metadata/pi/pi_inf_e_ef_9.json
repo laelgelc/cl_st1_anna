@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_079064fc19389dec006ab30910851887d28937c4762396d095",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 503,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 445,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 948
+    }
+  },
+  "created_at": "2026-09-22T23:02:45Z",
+  "duration_seconds": 4.978,
+  "error": null,
+  "excerpt_id": "pi_inf_e_ef_9",
+  "filename": "pi_inf_e_ef_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c7d608acbf06b04b7c6a9b8883c9c5c2b402c7b2dea778248d9b47a2f3a3fe2b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9a04f78f99d42d3acb5bb010bd547fe505fe2e3dc416b27a21355124f9e749da",
+    "rendered_prompt_sha256": "a99d843281c50ae413fd179fbd9db7de1305c40cb2cca7482a7fefb5166d0100",
+    "source_text_sha256": "47fbc27e74eaca1c5cf3dee3fcf9743be1a439975699fa3038316bdc06d1faa6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_inf_e_ef_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2669,
+    "filename": "pi_inf_e_ef_9.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_inf_e_ef_9.txt",
+    "state": "pi",
+    "word_count_original": 264
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_inf_e_ef_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_inf_e_ef_9.json"
+  },
+  "raw_response_text": "## 2.1.2 Princípios da educação no território piauiense\n\nConsiderando o conceito e o modelo de educação apresentados anteriormente, adotados pelo Currículo do Piauí, os princípios fundamentais da educação no território piauiense consistem em:\n\n- Aquisição de conhecimentos, habilidades, atitudes e valores por meio do aprender a aprender, da relação dialética do ser humano com a sociedade e da conexão e colaboração entre sujeito construtor do conhecimento e objeto a ser conhecido;\n- Desenvolvimento articulado de competências intelectuais, socioemocionais, físicas e culturais, que levam à superação de situações e problemas com vistas à formação plena dos estudantes (MORIN, 2001);\n- Mediação do professor, responsável por planejar e implementar estratégias pedagógicas eficazes para o processo de educação integral dos alunos;\n- Formação de indivíduos autônomos, conscientes e críticos, por meio da troca de informações e experiências que possibilitem o desenvolvimento de competências necessárias para a vida e vivência plena da cidadania, envolvendo a formação de valores como solidariedade, honestidade, respeito e responsabilidade;\n- Garantia da equidade e qualidade da educação e do direito de aprender;\n- Aprendizagem significativa para a vida dos estudantes, considerando o conhecimento prévio que trazem consigo, sua prática social e seu potencial de aprender (MARCHIORSTO, 2013).\n\nSob essa perspectiva, o Currículo do Piauí assume um importante e desafiador compromisso: propiciar a todos os estudantes desse nível educacional uma experiência global em seu processo de formação. E isso só será possível se as aprendizagens dos estudantes forem levadas em consideração, no sentido de que ensino e aprendizagem caminhem na mesma direção, pois só assim, o conceito de educação integral pode, de fato, se efetivar.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

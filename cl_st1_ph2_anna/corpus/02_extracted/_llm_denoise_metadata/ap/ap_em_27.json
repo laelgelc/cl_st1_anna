@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_026a4d7292cf96f9006ab2fe0e442c87d29f6bf4375277f30c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 797,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 871,
+      "output_tokens_details": {
+        "reasoning_tokens": 172
+      },
+      "total_tokens": 1668
+    }
+  },
+  "created_at": "2026-09-22T22:15:49Z",
+  "duration_seconds": 7.43,
+  "error": null,
+  "excerpt_id": "ap_em_27",
+  "filename": "ap_em_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bb08f85e1e092843971405f99b6f87dbd9c5aa88d5405b6914e028014a691057",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f734efe8e869245a7fa18fe5c29993fa0cbc4e8a1110c5d853578cf61cac4977",
+    "rendered_prompt_sha256": "fcdd298fe0c8e5c1365b3faccba9d03eeb880261d5067968a9ae76afd02734fa",
+    "source_text_sha256": "e1bc89373c02f92f8de06cbee0dcb0089bae1182a107a79a1bcb135e814673c0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 521,
+    "filename": "ap_em_27.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_27.txt",
+    "state": "ap",
+    "word_count_original": 527
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_27.json"
+  },
+  "raw_response_text": "# COMPONENTE FÍSICA\n\nAo nos depararmos com as competências Gerais da Educação Básica verificamos a necessidade traçar percursos de aprendizagem e desenvolvimento dos estudantes da educação infantil, do ensino fundamental e ensino médio. Nesse último seguimento (ensino médio) é preciso assegurar o aprofundamento das grandes temáticas desenvolvidas no Ensino Fundamental (Terra e Universo, Vida e Evolução, Matéria e Energia), dar ênfase nas aplicações dos conhecimentos científicos e tecnológicos e em suas implicações éticas, sociais, econômicas, ambientais e das habilidades investigativas em níveis mais complexos e abstratos. Assim a presença do conhecimento de Física na escola média ganhou um novo sentido a partir das diretrizes apresentadas nos PCNEM. Trata-se de construir uma visão da Física voltada para a formação de um cidadão contemporâneo, atuante e solidário, com instrumentos para compreender, intervir e participar na realidade. Nesse sentido, mesmo os jovens que, após a conclusão do ensino médio, não venham a ter mais qualquer contato escolar com o conhecimento em Física, em outras instâncias profissionais ou universitárias, ainda terão adquirido a formação necessária para compreender e participar do mundo em que vivem.\n\nA Física deve apresentar-se, portanto, como um conjunto de competências específicas que permitam perceber e lidar com os fenômenos naturais e tecnológicos, presentes tanto no cotidiano mais imediato quanto na compreensão do universo distante, a partir de princípios, leis e modelos por ela construídos. Isso implica, também, a introdução à linguagem própria da Física, que faz uso de conceitos e terminologia bem definidos, além de suas formas de expressão que envolve, muitas vezes, tabelas, gráficos ou relações matemáticas. Ao mesmo tempo, a Física deve vir a ser reconhecida como um processo cuja construção ocorreu ao longo da história da humanidade, impregnada de contribuições culturais, econômicas e sociais, que vem resultando no desenvolvimento de diferentes tecnologias e, por sua vez, por elas sendo impulsionado. No entanto, as competências para lidar com o mundo físico não têm qualquer significado quando trabalhadas de forma isolada. Competências em Física para a vida se constroem em um presente contextualizado, em articulação com competências de outras áreas, impregnadas de outros conhecimentos. Elas passam a ganhar sentido somente quando colocadas lado a lado, e de forma integrada, com as demais competências desejadas para a realidade desses jovens. Em outras palavras, a realidade educacional e os projetos pedagógicos das escolas, que expressam os objetivos formativos mais amplos a serem alcançados, é que devem direcionar o trabalho de construção do conhecimento físico a ser empreendido. Não é, entretanto, suficiente sinalizar a direção a seguir e explicitar a mudança de rumos desejada em relação ao ensino de Física que vinha sendo praticado.\n\nDe certa forma, a sinalização efetuada pelos PCNEM é explícita quanto ao que não conduz na direção desejada e vem sendo percebido com clareza pelos professores. O ensino de Física vem deixando de se concentrar na simples memorização de fórmulas ou repetição automatizada de procedimentos, em situações artificiais ou extremamente abstratas, ganhando consciência de que é preciso lhe dar um significado, explicitando seu sentido já no momento do aprendizado, na própria escola média. Nosso desafio é, portanto, buscar meios para concretizar esses novos horizontes, especialmente dentro da realidade escolar hoje existente no país.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

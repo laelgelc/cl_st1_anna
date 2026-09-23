@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f15952f67a38a3e006ab3070be1e087d28f6773e7eef53904",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1893,
+      "input_tokens_details": {
+        "cache_write_tokens": 1890,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2322,
+      "output_tokens_details": {
+        "reasoning_tokens": 495
+      },
+      "total_tokens": 4215
+    }
+  },
+  "created_at": "2026-09-22T22:54:21Z",
+  "duration_seconds": 17.548,
+  "error": null,
+  "excerpt_id": "pb_em_12",
+  "filename": "pb_em_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b426ca5771ab9ca2c07b24735379c685a783596bd2c22af61bc35a4e431b9a4d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9b9f9dfb3d2f1400c4304814755ac74dddcf051ab9b82ea040fbe511929467b3",
+    "rendered_prompt_sha256": "1d68deee7c12783a24738349cabcae4c9048a72e2e864c5c6c63a75550db559a",
+    "source_text_sha256": "2366dd5e5bce02316a0d1078b70bd5d3ae3a8fc7b22dc94031a8dc33f56c376d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2255,
+    "filename": "pb_em_12.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_12.txt",
+    "state": "pb",
+    "word_count_original": 1164
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_12.json"
+  },
+  "raw_response_text": "## 2.1.2.2 A alteração do Código Alfanumérico\n\nEsclarecemos que foi necessário fazer uma alteração no Código Alfanumérico do Componente Língua Portuguesa proposto pela BNCC. O modelo de Código Alfanumérico que apresentamos neste documento traz o acréscimo da Competência específica relacionada à Habilidade, conforme já acontece nos demais componentes da Área. No Currículo do Ensino Fundamental, as Competências Específicas aparecem num quadro elucidativo, separadas das Habilidades correspondentes. No entanto, por questões de praticidade para a leitura do código alfanumérico, decidimos unir Competências e Habilidades no mesmo código e, quando a habilidade estiver relacionada a duas ou mais Competências, estas serão separadas por vírgula.\n\nÉ relevante lembrar, pois, que as habilidades de Língua Portuguesa estão organizadas nos cinco Campos de atuação social (vida social, artístico literário, práticas de estudo e pesquisa, jornalístico midiático e atuação na vida pública) e que, embora a maioria das habilidades contextualizadas seja apresentada nas práticas dos diferentes campos de atuação social, estes apresentam várias intersecções. Então, na organização dos quadros, eles estão dispostos corroborando com os objetos de conhecimento e com os objetivos de aprendizagem.\n\nNa BNCC, foi situado que cada área do conhecimento estabelece competências específicas, que apontam como as competências gerais da Educação Básica se expressam nas áreas. Dessa forma, as Competências gerais estão articuladas às Competências específicas de área para o Ensino Fundamental, com as adequações necessárias ao atendimento das especificidades de formação dos estudantes do Ensino Médio, cujo desenvolvimento deve ser promovido ao longo dessa etapa final da Educação Básica.\n\nDesse modo, a cada uma das competências específicas, é relacionado um conjunto de habilidades, que representa as aprendizagens essenciais a serem garantidas no âmbito da BNCC a todos os estudantes do Ensino Médio, descritas de acordo com a mesma estrutura adotada no Ensino Fundamental. No entanto, a área de Linguagens e suas Tecnologias demonstra uma particularidade, pois, além da apresentação das competências específicas e de suas habilidades, são definidas habilidades para o componente de Língua Portuguesa. No Documento da BNCC (2018, p. 36), há um modelo de código alfanumérico para o Ensino Médio:\n\n**Figura 2: Modelo de Código Alfanumérico**\n\nFonte: BNCC (2018, p. 16)\n\nNesse exemplo, o código EM13LGG103 representa a terceira habilidade relacionada à competência nº 1 da área de Linguagens e suas Tecnologias. De acordo com ele, essa habilidade pode ser trabalhada da 1ª à 3ª série do Ensino Médio, dependendo da disposição curricular proposta pela escola. Assim sendo, conforme o código apresentado, entre a 1ª e a 3ª série, os estudantes devem desenvolver a habilidade de “analisar o funcionamento das linguagens, para interpretar e produzir criticamente discursos em textos de diversas semioses (visuais, verbais, sonoras, gestuais)” ao longo dos três anos dessa etapa.\n\nComo está elucidado acima, nesse caso específico, a segunda sequência de letras indica a área (3 letras) e os números finais indicam a habilidade (1º número da sequência) e a competência específica (últimos números da sequência) relacionada à habilidade apontada. Acontece que, no caso de Língua Portuguesa, o código que constitui o componente, especialmente, diferencia-se dos demais códigos que arranjam os outros componentes da área, pois, como foi dito, há habilidades específicas para ele, que estão organizadas nos cinco Campos de Atuação Social.\n\nAlém disso, vale ressaltar que uma mesma habilidade pode estar a serviço de mais de uma competência específica da área de Linguagens e suas Tecnologias. Isso, na nossa concepção, traz uma necessidade de arranjo diferenciado para o código alfanumérico, pois facilitaria a compreensão de alinhamento entre a leitura da Habilidade e de todas as Competências relacionadas a ela. Na BNCC (2018, p. 74), essas Habilidades e Competências não aparecem num mesmo código, mas estão dispostas em quadros que expõem os Campos de atuação social.\n\nAssim, nossa ideia foi facilitar a leitura e a compreensão do código alfanumérico de Língua Portuguesa para o/a professor/professora, articulando as Competências e Habilidades específicas para o Componente num único código, como fazem os demais componentes da área. Sendo assim, esse modelo foi viável também para a apreensão da especificidade desse Componente e de seu desenvolvimento a partir da relação entre essas Competências e Habilidades específicas a serem alcançadas nessa etapa.\n\nDesse modo, para organizar esse novo modelo de Código Alfanumérico, que, num mesmo código, apresenta as Competências específicas relacionadas à Habilidade, apresentamos um modelo explicativo para ilustrar o que estamos propondo. Para isso, seguimos a mesma proporção do código já estabelecido para o Ensino Médio, acrescendo nele todas as Competências relacionadas àquela Habilidade específica, quando for necessário. A primeira sequência de números indica a Habilidade específica do Componente e a segunda sequência de números indica as Competências relacionadas. Isto é, a barra (/) divide a Habilidade das Competências e a vírgula (,) separa Competências distintas.\n\n**Quadro 4: Relação do Campo de Atuação e o Código Alfanumérico**\n\n| Campo de Atuação | Habilidades |\n|---|---|\n| Artístico-Literário | (EM13LP51/1,2) |\n\nFonte: Elaboração própria\n\nNesse exemplo, no Campo Artístico-literário, o código EM13LP51/1,2 representa a habilidade 51, relacionada às competências nº 1 e nº 2 do Componente Língua Portuguesa. De acordo com o código, essa habilidade pode ser trabalhada da 1ª à 3ª série do Ensino Médio, dependendo da disposição curricular proposta pela escola.\n\nAssim sendo, de acordo com o código apresentado, entre a 1ª e a 3ª série, os estudantes devem desenvolver a habilidade específica de (EM13LP51) “Analisar obras significativas da literatura brasileira e da literatura de outros países e povos, em especial a portuguesa, a indígena, a africana e a latino-americana, com base em ferramentas da crítica literária (estrutura da composição, estilo, aspectos discursivos), considerando o contexto de produção (visões de mundo, diálogos com outros textos, inserções em movimentos estéticos e culturais etc.) e o modo como elas dialogam com o presente” ao longo dos três anos dessa etapa.\n\nÉ importante lembrar que existem habilidades específicas comuns a todos os Campos de Atuação Social, que estão dispostas na BNCC, Etapa Ensino Médio (2018), nas páginas 74, 75 e 76. Elas não foram colocadas no quadro que organizamos, pois arranjamos os elementos separadamente por Campo, sendo as Habilidades colocadas de acordo com cada Campo de Atuação para não confundir o professor na leitura do quadro. Entretanto, essas Habilidades comuns a todos os Campos devem ser, obviamente, desenvolvidas ao longo das três Séries do Ensino Médio. Reproduzimos aqui o quadro que está na BNCC (2018), com algumas adaptações:\n\n**Quadro 5: Habilidades comuns a todos os Campos de Atuação Social**\n\n**Práticas de leitura, escuta, produção de textos (orais, escritos, multissemióticos) e análise linguística/semiótica**\n\n| Habilidades | Competências relacionadas |\n|---|---:|\n| (EM13LP01) | 2 |\n| (EM13LP02) | 1 |\n| (EM13LP03) | 1 |\n| (EM13LP04) | 1 |\n| (EM13LP05) | 3 |\n| (EM13LP06) | 1 |\n| (EM13LP07) | 1 |\n| (EM13LP08) | 1 |\n| (EM13LP09) | 7 |\n| (EM13LP10) | 1, 7 |\n| (EM13LP11) | 1 |\n| (EM13LP12) | 1 |\n| (EM13LP13) | 1, 3 |\n| (EM13LP14) | 1, 4 |\n| (EM13LP15) | 3, 7 |\n| (EM13LP16) | 7 |\n| (EM13LP17) | 4 |\n\nFonte: Elaboração própria\n\nAssim, com base nos Campos de Atuação propostos pela BNCC, mais à frente apresentamos os quadros dos objetos de conhecimento, com seus respectivos objetivos, competências e habilidades a serem trabalhados no Ensino Médio.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

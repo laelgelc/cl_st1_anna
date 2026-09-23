@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a1d684dfed7009d006ab306b29c8c87d2b51d1054d2f8b013",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 674,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 774,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 1448
+    }
+  },
+  "created_at": "2026-09-22T22:52:41Z",
+  "duration_seconds": 6.762,
+  "error": null,
+  "excerpt_id": "pb_ef_23",
+  "filename": "pb_ef_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "106930d20179ee608d96b7e87117caa7cffb5f72c3316be0eb1479655f535af0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "117ce634d80cf69364f5b67d0b965226bf8ccdac63449e7183cd8b33148da1e1",
+    "rendered_prompt_sha256": "d43a93bc81b5068873f355d21dd40c63e1ec4ae675bed0d60d37af5d410e730c",
+    "source_text_sha256": "e8d063e3d04237ad9bb70d3fdbe135d66b130c099b5af4db517e79958fc887ca"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2191,
+    "filename": "pb_ef_23.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_23.txt",
+    "state": "pb",
+    "word_count_original": 418
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_23.json"
+  },
+  "raw_response_text": "### 5.3.3 Princípios e direitos de aprendizagem para o ensino de Educação Física\n\nCom base na BNCC, seguem os princípios a serem observados pelo docente para o trabalho em Educação Física no Ensino Fundamental e os direitos de aprendizagem – dos alunos – correspondentes a cada princípio.\n\n| Nº | PRINCÍPIOS | DIREITOS DE APRENDIZAGEM |\n|---|---|---|\n| 1 | Construção do pensamento crítico/reflexivo no aluno para o desenvolvimento de sua autonomia na prática do movimento, atividades físicas e desportivas em geral, sendo capaz de identificar os aspectos positivos e negativos do fenômeno praticado. | Acessar aos diferentes meios para as práticas da cultura corporal do movimento, bem como aos recursos teóricos para embasamento e reflexão crítica sobre as atividades praticadas. |\n| 2 | Capacidade – por parte do aluno, enquanto sujeito ativo – de desenvolver habilidades voltadas para o movimento, manifestações corporais diversas e desporto. | Acessar e adquirir repertório motor reflexo, elementar, fundamental e especializado. |\n| 3 | Fomento à compreensão e construção de conceitos relacionados à cultura corporal do movimento e à sustentabilidade. | Conhecer a importância do esporte para a saúde do corpo e, em consequência, as relações entre a vida saudável e o cuidado com o meio ambiente. |\n| 4 | Entendimento e compreensão das relações sociais entre os seres humanos (das diversas nações e etnias) através do fenômeno do esporte e movimento humano, para identificação da importância da cultura corporal como meio de promoção do respeito e da paz entre os povos e culturas. | Ter acesso aos meios para compreensão das características e peculiaridades da cultura corporal própria (regional), nacional e dos distintos povos e o papel do fenômeno desportivo para o respeito e a interação entre os povos. |\n| 5 | Reconhecimento pelo estudante da identidade sociocultural, desportiva e política do país e dos demais países, com vistas a tornar-se um ser humano mais crítico e analítico, visando à desconstrução dos mais variados tipos de preconceitos. | Construir saberes que fomentem o reconhecimento de características peculiares dos indivíduos e dos povos, visando à diluição de preconceitos através do desenvolvimento do senso de respeito e compreensão para com os outros. |\n| 6 | Compreensão das origens das distintas modalidades da cultura corporal do movimento, peculiaridades técnicas de cada uma delas e os aspectos científicos atrelados ao estudo do desenvolvimento artístico, técnico e esportivo das referidas modalidades. | Vivenciar práticas da pesquisa histórica, técnica e científica no âmbito da cultura corporal do movimento, visando identificar e diferenciar o que é técnica, ciência e construção histórico-social em cada uma das “modalidades” estudadas. |",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

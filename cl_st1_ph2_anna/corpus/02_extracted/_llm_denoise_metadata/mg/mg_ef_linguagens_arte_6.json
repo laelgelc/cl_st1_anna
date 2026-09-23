@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c694f90b950d14d006ab302a41c6887d29206d678d98289e8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 633,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 666,
+      "output_tokens_details": {
+        "reasoning_tokens": 158
+      },
+      "total_tokens": 1299
+    }
+  },
+  "created_at": "2026-09-22T22:35:21Z",
+  "duration_seconds": 5.319,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_arte_6",
+  "filename": "mg_ef_linguagens_arte_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b60c59fd1e8d5a924bbaa2e719dfc2a6cbd64bb59b5ca4a6dd2c9677d20a81c2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "dfbd3bea4948c1e95a9a9db55fcab06b27a098f464bbd8ac89a913de2c0f6b46",
+    "rendered_prompt_sha256": "e55dfc553dfce3573fdf130fe06e8b96d91975b696658145d44c00f2b6df8299",
+    "source_text_sha256": "212b98c57ad42bf82179cf732ed5ba551fc86bca1d372c78ce2d639849eaaad6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_arte_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1429,
+    "filename": "mg_ef_linguagens_arte_6.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_arte_6.txt",
+    "state": "mg",
+    "word_count_original": 384
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_arte_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_arte_6.json"
+  },
+  "raw_response_text": "### 6.5 O Componente Curricular Arte nos Anos Iniciais e Anos Finais do Ensino Fundamental\n\nO ensino de arte tem facilidade de permear e ser permeado por outros componentes curriculares, desde os anos iniciais até os anos finais do Ensino Fundamental, o que facilita um trabalho intra, trans e multidisciplinar. Contudo, mesmo “isoladamente”, o componente curricular Arte permite versatilidade para o docente em qualquer ano de escolaridade. É desejável que as escolas estejam devidamente preparadas para o trabalho em qualquer uma das linguagens artísticas, tanto no que diz respeito à estrutura, com salas e espaços adequados, bem como no que diz respeito à materialidade, com diversidade de possibilidades de emprego por parte do docente.\n\nConforme a BNCC, as habilidades deverão ser trabalhadas de acordo com a realidade da escola no que diz respeito a qual linguagem deverá ser abordada em determinado ano. Há uma maleabilidade do currículo do componente curricular Arte, mas ao final do processo educacional do Ensino Fundamental, é preciso que os direitos de aprendizagem dos estudantes tenham sido garantidos.\n\nAinda, de acordo com a própria BNCC, “as habilidades são organizadas em dois blocos (1º ao 5º ano e 6º ao 9º ano), com o intuito de permitir que os sistemas e as redes de ensino, as escolas e os professores organizem seus currículos e suas propostas pedagógicas com a devida adequação aos seus contextos”. A progressão das aprendizagens não está proposta de forma linear, rígida ou cumulativa com relação a cada linguagem ou objeto de conhecimento, mas propõe um movimento no qual cada nova experiência se relaciona com as anteriores e as posteriores na aprendizagem de arte.\n\nCumpre destacar que os critérios de organização das habilidades na BNCC, com a explicitação dos objetos de conhecimento aos quais se relacionam e do agrupamento desses objetos em unidades temáticas, expressam um arranjo possível, dentre outros. Portanto, os agrupamentos propostos não devem ser tomados como modelo obrigatório para o desenho dos currículos.\n\nOu seja, na medida do possível, a escola deve buscar docentes especializados em todas as linguagens artísticas, de forma que a escola tenha possibilidade de desenvolver um trabalho de ensino de arte, mais apropriado, uma vez que o docente tem a formação específica na linguagem que leciona. Mas, como já dito, esse é um desafio de ordem nacional do componente curricular Arte.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

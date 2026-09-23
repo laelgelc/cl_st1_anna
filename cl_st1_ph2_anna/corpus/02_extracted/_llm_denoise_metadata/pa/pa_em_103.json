@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07121e891bbd4888006ab3057ebbb487d28cbac7fd348b2e0b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 862,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1235,
+      "output_tokens_details": {
+        "reasoning_tokens": 470
+      },
+      "total_tokens": 2097
+    }
+  },
+  "created_at": "2026-09-22T22:47:37Z",
+  "duration_seconds": 11.271,
+  "error": null,
+  "excerpt_id": "pa_em_103",
+  "filename": "pa_em_103.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d614834ead999e71dd9acb7f45fc7a9cdcd9f64931e949d7f8a7c387cbb45ae2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "18be70e0c23f0b5b72c68de519737f15dd632af0eaf1a84907f5f5b15c1fd79d",
+    "rendered_prompt_sha256": "a1b8377a7bcb7b94546bd16336400daeefa23d915995c153f252d2b8811c8fdf",
+    "source_text_sha256": "ab0618dc90921897426361994c8a3d6b677957bc92e1616e6e2864ff0784dd29"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_103.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2035,
+    "filename": "pa_em_103.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_103.txt",
+    "state": "pa",
+    "word_count_original": 517
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_103.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_103.json"
+  },
+  "raw_response_text": "O documento do novo ensino médio apresenta características com itinerários formativos, disciplinas em áreas do conhecimento, habilidades socioemocionais, entre outros, cuja formação deve assegurar o desenvolvimento de dez competências gerais, articuladas à “construção de conhecimentos, no desenvolvimento de habilidades e na formação de atitudes e valores” (Brasil, 2018, p. 9).\n\nNesta perspectiva (...) a escola deveria respeitar a individualidade do aluno no sentido de que ela é fruto de uma interação entre indivíduos e a relação entre estes com a natureza. Analisando este contexto, se faz presente uma relação orgânica, produzida por interação e não por justaposição (GRAMSCI, 2009, p. 9).\n\nEntretanto, na BNCC, “competência é definida como a mobilização de conhecimentos (conceitos e procedimentos), habilidades (práticas, cognitivas e socioemocionais), atitudes e valores para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho” (BRASIL, 2018, p. 8). Essas dez competências gerais da educação básica são apresentadas e podem ser conferidas no documento da BNCC.\n\nNessa perspectiva do enfoque da diversidade e das diferenças, o currículo em sua flexibilidade organizacional, ao seguir as orientações da educação para relações etnicorraciais, recomenda desenvolver no cotidiano da prática escolar projetos temáticos, segundo as concepções e finalidades do Ensino Médio e da BNCC, recorrentes às diretrizes de uma pedagogia de qualidade comprometida com “importância da cultura juvenil, fortalecimento de identidade, inserções no mundo do trabalho, uso social das linguagem e outros” (SECAD, 2006). Nesse contexto das competências, seguindo a perspectiva antirracista da educação escolar, se almeja contemplar um projeto e um currículo que:\n\n- Adotam metodologias que propiciem ao educando a gestão do ensinar e do aprender, consoante sua identidade e objetivos da modalidade;\n- Contemplam o saber escolar e o extraescolar para além das áreas de conhecimento obrigatório da Base Nacional Comum;\n- Diversificam as experiências de aprendizagem, pautadas em situações cotidianas que desmascaram mitos e preconceitos em relação a população negra;\n- Promovem não apenas o reconhecimento, mas a incorporação de atitudes que ressaltam;\n- Ampliam e criam espaços para reflexão e troca entre a escola e a comunidade por meio de alianças com organizações e instituições públicas que orientam a seleção de conteúdos e a organização de situações de aprendizagem.\n\nSão princípios curriculares que norteiam a Educação das Relações Etnicorraciais, cabendo ao Estado promover e incentivar a articulação dos princípios decorrentes da:\n\n1. Consciência política e histórica da diversidade;\n2. Fortalecimento de identidades e de direitos; e\n3. Ações educativas de combate ao racismo e a discriminações, abrangendo os diferentes componentes curriculares com relevância aos conteúdos, às competências, às habilidades, às atitudes e aos valores a serem aprendidos com a Educação das Relações Étnico-Raciais e o estudo de História e Cultura Afro-Brasileira, bem como de História e Cultura Africana, visando fortalecer a comunicação e praticidade educativa quanto aos princípios curriculares norteadores da educação básica paraense (Respeito às diversas culturas amazônicas e suas inter-relações no espaço e no tempo; Educação para a sustentabilidade ambiental, social e econômica; e Interdisciplinaridade e contextualização no processo ensino-aprendizagem), enfatizando práticas pedagógicas e estratégias que objetivam a promoção e transformação da escola, como espaço coletivo de aprendizagens.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

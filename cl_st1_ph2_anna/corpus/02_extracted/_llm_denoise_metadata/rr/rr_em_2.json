@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0afea562f0961dde006ab30d21e74087d28f5e4fd92ad38407",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 307,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 490,
+      "output_tokens_details": {
+        "reasoning_tokens": 278
+      },
+      "total_tokens": 797
+    }
+  },
+  "created_at": "2026-09-22T23:20:06Z",
+  "duration_seconds": 5.005,
+  "error": null,
+  "excerpt_id": "rr_em_2",
+  "filename": "rr_em_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "26d07e69a53a13f8f909d840caee66d0adda5364032c18a7655d6a0243246ef2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "87b4277fb21729855ea72b786cf2195764e0f0161ea34465712b966e2bb59f83",
+    "rendered_prompt_sha256": "4bb8e6874acc0ccdba5bb8a940a8a5376f83a929e106cea10ce9e86177f2d792",
+    "source_text_sha256": "e46353c37f87dca43cc5dd924a078716a2c7599ca3f63edbc451a48318e73022"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3452,
+    "filename": "rr_em_2.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_2.txt",
+    "state": "rr",
+    "word_count_original": 138
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_2.json"
+  },
+  "raw_response_text": "# TEXTO INTRODUTÓRIO\n\nO Documento Curricular de Roraima - DCRR para a etapa do Ensino Médio está estruturado em continuidade ao proposto no documento das etapas da Educação Infantil e Ensino Fundamental, a partir dos princípios, valores e objetivos de aprendizagem, balizados nas competências e habilidades estabelecidas na Base Nacional Comum Curricular – BNCC (BRASIL, 2018a), e está organizado por Formação Geral Básica em áreas do conhecimento e Itinerários Formativos. O currículo referência do território roraimense apresenta as normativas curriculares, bases epistemológicas e didáticas pedagógicas para as redes de ensino pública e privada, visando o desenvolvimento da formação Humana Integral dos estudantes, tendo como objetivo definir o conjunto orgânico e progressivo das aprendizagens essenciais, asseguradas nas dez competências gerais definidas na BNCC (BRASIL, 2018a), fruto de amplo debate e articulação com os diversos segmentos do campo educacional do estado de Roraima.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

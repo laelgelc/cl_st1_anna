@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01f310ad30803711006ab30e0f64dc87d28b0bdbc6531a9100",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 934,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 915,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 1849
+    }
+  },
+  "created_at": "2026-09-22T23:24:05Z",
+  "duration_seconds": 6.341,
+  "error": null,
+  "excerpt_id": "rs_inf_e_ef_19",
+  "filename": "rs_inf_e_ef_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7be491a57a7cbef213a6ab943f9f910a96ce805dc09fcf8fdb8f6930388c7689",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "de52d3d1aae65026b49b80f9be64747d04fd1f6f4b920abfcad349f5eedb9d13",
+    "rendered_prompt_sha256": "d47132902248b5b5cb093be680d1fea926f0fb2fdaa6f08328e402928d9f792a",
+    "source_text_sha256": "aaf728b22f38866bab521da6f32e5afb5be3aaaabe730a0cf8f7935c68a3623e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_e_ef_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3670,
+    "filename": "rs_inf_e_ef_19.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_e_ef_19.txt",
+    "state": "rs",
+    "word_count_original": 561
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_e_ef_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_e_ef_19.json"
+  },
+  "raw_response_text": "## 3. TEMAS CONTEMPORÂNEOS\n\nO compromisso com a construção do sujeito integral implica, necessariamente, uma prática educacional voltada para a compreensão da realidade social, dos direitos e responsabilidades em relação à vida pessoal, coletiva e ambiental. Nessa perspectiva é que são incorporadas como Temas Transversais questões da Ética, da Pluralidade Cultural, do Meio Ambiente, da Educação Alimentar e Nutricional, da Saúde e da Orientação Sexual e as Transformações da Tecnologia no Século XXI. Esses, entre outros que constituam a formação integral dos sujeitos, corroborando com as premissas dos Direitos da Criança e do Adolescente.\n\nIsso não significa que tenham que ser criadas novas áreas ou disciplinas. Pelo contrário, tais temáticas precisam ser incorporadas nas áreas já existentes e no trabalho educativo da escola. É essa forma de organizar o trabalho didático que garante a transversalidade. O desafio que se apresenta para as escolas é justamente a amplitude do trabalho pedagógico com foco nas problemáticas sociais que o contexto escolar apresenta.\n\nEste documento não tem a intencionalidade de conceituar cada um dos temas apresentados, mas traz à pauta que a inclusão de questões sociais no contexto escolar não é uma preocupação inédita e precisa ser transversal ao currículo, contemplando sua complexidade e sua dinâmica. Assim, o currículo ganha em flexibilidade e abertura, uma vez que os temas podem ser priorizados e contextualizados de acordo com as diferentes realidades locais e regionais e, inclusive, outros temas podem ser incluídos.\n\nOs temas contemporâneos, por tratarem de questões sociais, têm natureza diferente das áreas. Sua complexidade faz com que nenhuma das áreas, isoladamente, seja suficiente para abordá-los. Ao contrário, tais problemáticas atravessam os diferentes campos do conhecimento. É no contexto escolar que a integração, a extensão e a profundidade do trabalho podem acontecer em diferentes projetos pedagógicos. Isso se efetiva mediante a organização didática eleita pela escola de acordo com as prioridades e relevâncias locais.\n\nNesse sentido, a proposta de transversalidade aos temas contemporâneos traz a necessidade de diálogos em que a escola assuma reflexões e que atue de forma a garantir a perspectiva político-social no direcionamento do trabalho pedagógico.\n\nAs inclusões dessas temáticas implicam necessidade de um trabalho sistemático e contínuo no decorrer de toda a escolaridade, possibilitando a articulação das competências gerais da BNCC, das competências das áreas do conhecimento e das habilidades apresentadas na extensão deste documento.\n\nNa prática pedagógica, a interdisciplinaridade e a transversalidade estão intimamente ligadas, pois as questões trazidas pelos temas contemporâneos são articuladas entre os objetos de conhecimento. Dessa forma, não é possível fazer um trabalho pautado na transversalidade em uma perspectiva disciplinar rígida. Tanto a transversalidade quanto a interdisciplinaridade promovem uma compreensão abrangente dos diferentes objetos de conhecimento, afastando as dicotomias.\n\nSe por um lado, tais temáticas possibilitam que as equipes pedagógicas façam novas conexões entre elas e as áreas e/ou outros temas, permitindo um trabalho didático que viabilize a reflexão e planejamento articulado, considerando a especificação dos objetos de aprendizagem aos temas; por outro lado, esses temas também exigem dos educadores preparo para o desenvolvimento dos projetos em sala de aula.\n\nPortanto, a construção curricular nas escolas contempla a aproximação das áreas do conhecimento aos temas contemporâneos que fazem parte da realidade global e local dos sujeitos engendrados no contexto escolar. Assim, a transversalidade possibilita aos profissionais da educação o desenvolvimento do fazer pedagógico com uma abordagem mais dinâmica e menos imperativa ou ortodoxa.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

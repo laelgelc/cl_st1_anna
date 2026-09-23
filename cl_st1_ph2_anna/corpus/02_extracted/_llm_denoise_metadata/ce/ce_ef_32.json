@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00d62bf4e93fbf8d006ab2ff420f6c87d2b0b846a5527246b8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1938,
+      "input_tokens_details": {
+        "cache_write_tokens": 1935,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2345,
+      "output_tokens_details": {
+        "reasoning_tokens": 530
+      },
+      "total_tokens": 4283
+    }
+  },
+  "created_at": "2026-09-22T22:21:08Z",
+  "duration_seconds": 18.023,
+  "error": null,
+  "excerpt_id": "ce_ef_32",
+  "filename": "ce_ef_32.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "94edda5ceee7f6d75951dea21cecb85abe54e0196a26ef10158fb102173a4581",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8cc0d3011804ad4d799e439b8b87230d8de2c506971bc44877d51a5dd486ad47",
+    "rendered_prompt_sha256": "3c3afc369906c807671d6288e12c8492c6939ff90b8ec7711e7cab5981bf2b48",
+    "source_text_sha256": "7c05d6cc825f123d243c4d96b3bc5c4d35c5f5c7e65497a9111ba8ab487831c0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_32.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 752,
+    "filename": "ce_ef_32.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_32.txt",
+    "state": "ce",
+    "word_count_original": 1302
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_32.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_32.json"
+  },
+  "raw_response_text": "## Organização da proposta, relacionando às competências da área\n\nA Base Nacional Curricular Comum (BNCC) é um documento que estabelece referenciais de aprendizagens essenciais a partir do qual o trabalho nas escolas será desenvolvido, levando-se sempre em conta as especificidades de cada local. Ela organizou os componentes curriculares de História e Geografia na Área de Ciências Humanas e sobre ela afirma:\n\n> [...] a área de Ciências Humanas deve propiciar aos alunos a capacidade de interpretar o mundo, de compreender processos e fenômenos sociais, políticos e culturais e de atuar de forma ética, responsável e autônoma diante de fenômenos sociais e naturais. (BRASIL, 2017, p. 308).\n\nÀ medida que as/os alunas/alunos formulam perguntas sobre o que observam espacialmente, é preciso colocá-las/colocá-los em contato com os conteúdos, conceitos e processos da Geografia, denominados objetos de conhecimento. A BNCC sugere objetos do conhecimento para o Ensino Fundamental e aponta sempre as “aprendizagens essenciais” habilidades que devem ser asseguradas às alunas/aos alunos. Dessa forma, “o que ensinar?” está sempre articulado a “por que ensinar?”.\n\nAncorados na BNCC, em nosso documento, organizamos os objetos de conhecimento em unidades temáticas. No componente Geografia, elas são comuns a todos os anos do Ensino Fundamental:\n\n- O sujeito e seu lugar no mundo;\n- Conexões e escalas;\n- Mundo do trabalho;\n- Formas de representação e pensamento espacial;\n- Natureza, ambientes e qualidade de vida.\n\nNo Ensino Fundamental predomina a descrição nas aulas de Geografia; nos Anos Finais, a monografia regional comanda o raciocínio geográfico. Há também explicações sobre o que ocorre em uma região por meio da descrição dos elementos desse espaço e de suas dinâmicas internas. A principal novidade é formular objetivos de aprendizagem capazes de colocar em primeiro plano uma Geografia escolar analítica que avance para além da descrição.\n\nPor exemplo, ao observar a possível concentração de moradias no entorno da estação de trem do município, o que se faz comumente nas aulas de Geografia é descrever esses elementos — a estação, a via férrea, a localização das moradias etc. Um aprofundamento sobre essa situação significa, muitas vezes, classificar os elementos: os tipos de transporte, as funções do espaço urbano etc. Assim sendo, não se formam as redes de relações fundamentais que poderiam explicar o porquê da concentração espacial. Pode ser que a construção da estação de trem possa impulsionar a formação da aglomeração urbana; ou, ainda, possa contribuir para que ocorra um deslocamento das moradias para essa área. Com a possível construção de novos loteamentos, uma parte significativa dos moradores poderá utilizar o trem para ir ao local de trabalho, mesmo que seja em outro município.\n\nAs perguntas formuladas pelos alunos devem ser ponto de partida para a construção de novas questões que busquem esclarecer o que foi questionado: o que explica algo em um lugar pode ser um fenômeno que ocorre em outro lugar muitíssimo distante. Esses lugares, no entanto, estão imbricados uns nos outros em uma rede, que deve ser identificada e analisada pelos alunos. É assim que as/os alunas/alunos podem “compreender aspectos fundamentais da realidade”, como propõe a BNCC.\n\nTendo como referência a Base, o DCRC articula as competências gerais da BNCC e específicas da área de Ciências Humanas para estabelecer as setes competências para a Geografia no Ensino Fundamental que segue:\n\n1. Utilizar os conhecimentos geográficos para entender a interação sociedade/natureza e exercitar o interesse e o espírito de investigação e de resolução de problemas.\n2. Estabelecer conexões entre diferentes temas do conhecimento geográfico e entre distintas áreas do currículo escolar, reconhecendo a importância dos objetos técnicos para a compreensão das formas como os seres humanos fazem uso dos recursos da natureza ao longo da história.\n3. Desenvolver autonomia e senso crítico para compreensão e aplicação do raciocínio geográfico na análise da ocupação humana e produção do espaço, envolvendo os princípios de analogia, conexão, diferenciação, distribuição, extensão, localização e ordem.\n4. Desenvolver o pensamento espacial, exercitando a leitura e produção de representações diversas (mapas temáticos, mapas mentais, croquis e percursos) e a utilização de geotecnologias para a resolução de problemas que envolvam informações geográficas.\n5. Desenvolver e utilizar processos, práticas e procedimentos de investigação para compreender o mundo natural, social, econômico, político e o meio técnico-científico e informacional, avaliar ações e propor perguntas e soluções para questões que requerem conhecimentos científicos da Geografia.\n6. Construir argumentos com base em informações geográficas, debater e defender ideias e pontos de vista que respeitem e promovam a consciência socioambiental e o respeito à biodiversidade e ao outro, sem preconceitos de origem, etnia, gênero, orientação sexual, idade, habilidade/necessidade, convicção religiosa ou de qualquer outro tipo.\n7. Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, propondo ações sobre as questões socioambientais, com base em princípios éticos democráticos, sustentáveis e solidários. (BRASIL, 2017, p. 318).\n\nPropomos que a Geografia possibilite às/aos alunas/alunos dos Anos Iniciais do Ensino Fundamental “reconhecer e comparar as realidades de diversos lugares de vivência” (BRASIL, 2017, p. 316), assim como “identificar a presença ou ausência de equipamentos públicos e serviços básicos essenciais” (BRASIL, 2017, p. 316). Desse modo, ao final do 5º ano, os alunos devem estar preparados para realizar essas ações, que integram os objetivos da educação formal em nossa sociedade e que são a base para a participação social e a cidadania.\n\nPara os Anos Finais do Ensino Fundamental, propomos demandas ainda mais desafiadoras para a Geografia escolar. Esperamos que as/os alunas/alunos possam compreender e atuar em “processos que resultaram na desigualdade social”. Como componente do currículo escolar, a Geografia deve, portanto, oferecer às/aos alunos/alunas um conjunto de experiências de aprendizagem nas quais elas/eles possam desenvolver habilidades necessárias para alcançar esses objetivos.\n\nA compreensão do mundo em que vivemos mobiliza o pensamento espacial, que, por sua vez, requer o desenvolvimento do raciocínio geográfico. Esse raciocínio, por meio da aplicação de determinados princípios (analogia, conexão, diferenciação, distribuição, extensão, localização e ordem), leva à compreensão de aspectos fundamentais da realidade: “a localização e a distribuição de fatos e fenômenos na superfície terrestre, o ordenamento territorial, as conexões existentes entre componentes físico-naturais e as ações antrópicas” (BRASIL, 2017, p. 311).\n\nPortanto, questões como “Onde se localiza?”, “Por que se localiza?”, “Como se distribui?”, “Quais são as características sócioespaciais?” guiam a abordagem de fenômenos nas aulas de Geografia. Partindo da observação de seus lugares de vivência, as/os alunas/alunos podem estabelecer relações entre o que ocorre nos lugares em que vivem e em outros lugares próximos e também distantes.\n\nRetomando nosso exemplo em uma abordagem dos transportes utilizados no município em que vivem, por exemplo, os/as alunos/as podem observar uma concentração de moradias no entorno da estação de trem. Um grande conjunto de perguntas pode desencadear exercícios de raciocínio geográfico, como por exemplo: Onde se localiza o município? Por que a estação de trem se localiza na parte baixa das terras do município? Como as construções e moradias se distribuem no município? As concentrações de moradias acompanham a linha de trem? Quais são as características da vida no município relacionadas à via férrea? São perguntas que nascem da observação dos elementos dos lugares de vivência.\n\nEsses questionamentos mobilizam a busca por respostas que, por sua vez, levam à formulação de novas perguntas. Tal movimento proporciona às/aos alunas/alunos compreenderem a situação geográfica como “um conjunto de relações”. Com base na constatação de que haveria uma concentração de moradias no entorno da estação de trem, os/as alunos/as verificam se essa concentração ocorre de fato e levantam explicações para o fenômeno. As perguntas devem levá-las/los a observar por que a estação de trem interessa aos moradores do município. Isso acaba por destacar redes que integram e mobilizam os lugares do município.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

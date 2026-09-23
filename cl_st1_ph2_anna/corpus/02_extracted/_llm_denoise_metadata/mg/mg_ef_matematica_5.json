@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00c28469194e2d97006ab302d7583c87d296820653f1ef2133",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 2137,
+      "input_tokens_details": {
+        "cache_write_tokens": 2134,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2106,
+      "output_tokens_details": {
+        "reasoning_tokens": 194
+      },
+      "total_tokens": 4243
+    }
+  },
+  "created_at": "2026-09-22T22:36:21Z",
+  "duration_seconds": 13.854,
+  "error": null,
+  "excerpt_id": "mg_ef_matematica_5",
+  "filename": "mg_ef_matematica_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2f271f14bddb2e207aa76597d946c48b04b80b51266f9c4628d49cc829671118",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f9444bb42abf990080852266998677e9996109830ee3a8b338306b039f3b9964",
+    "rendered_prompt_sha256": "527703405057676942755055d879a4c29e80af0ebb5ca58777efb3ffdd51beaf",
+    "source_text_sha256": "535dbdc741545c81b7fbc964313838f1b11f255b5965f42589cda550050b3dd4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_matematica_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1482,
+    "filename": "mg_ef_matematica_5.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_matematica_5.txt",
+    "state": "mg",
+    "word_count_original": 1367
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_matematica_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_matematica_5.json"
+  },
+  "raw_response_text": "### 10.5.1 As Unidades Temáticas do Componente Matemática nos Anos Iniciais e Anos Finais do Ensino Fundamental\n\nO Currículo de Matemática foi estruturado tendo em vista a formação plena do estudante, em que se busca, dentre outras características, a sua autonomia e o desenvolvimento do pensamento matemático. Os objetos de conhecimento para o Ensino Fundamental de Matemática foram selecionados levando em consideração a proposta da Base Nacional Comum Curricular (BNCC) e as particularidades apresentadas no estado de Minas Gerais. Sendo assim, foram organizados em cinco Unidades Temáticas, a saber:\n\n1. Números.\n2. Álgebra.\n3. Geometria.\n4. Grandezas e medidas.\n5. Probabilidade e Estatística.\n\nA unidade temática Números tem como finalidade desenvolver o pensamento numérico, que implica o conhecimento de maneiras de quantificar atributos de objetos e de julgar e interpretar argumentos baseados em quantidades. No processo da construção da noção de número, os estudantes precisam desenvolver, entre outras, as ideias de aproximação, proporcionalidade, equivalência e ordem.\n\nNo Ensino Fundamental – Anos Iniciais, a expectativa em relação a essa temática é que os estudantes resolvam problemas com números naturais e números racionais cuja representação decimal é finita, envolvendo diferentes significados das operações; que argumentem e justifiquem os procedimentos utilizados para a resolução e avaliem a plausibilidade dos resultados encontrados. Além disso, espera-se o desenvolvimento de habilidades referentes à leitura, escrita e ordenação de números naturais e números racionais, por meio de identificação e compreensão de características do sistema de numeração decimal, sobretudo o valor posicional dos números.\n\nNos Anos Finais, a expectativa é a de que os estudantes resolvam problemas com números naturais, inteiros e racionais, envolvendo as operações fundamentais com seus diferentes significados, utilizando de estratégias diversas e, compreendendo os processos envolvidos nas operações.\n\nPara que aprofundem a noção de números, é importante colocá-los diante de problemas, sobretudo os geométricos, nos quais os números racionais não são suficientes para resolvê-los, de modo que eles reconheçam a necessidade de outros números: os irracionais. Cabe ainda destacar que o desenvolvimento do pensamento numérico não se completa, evidentemente, apenas com objetos de estudos descritos na unidade Números. Esse pensamento é ampliado e aprofundado quando se discutem situações que envolvem conteúdos das demais unidades temáticas: Álgebra, Geometria, Grandezas e Medidas e Probabilidade e Estatística.\n\nÉ importante ressaltar que, na unidade temática Números deve ser realizado o estudo de conceitos básicos de economia e finanças, visando à educação financeira dos estudantes.\n\nA unidade temática Álgebra, tem como finalidade o desenvolvimento do pensamento algébrico, que é essencial para utilizar modelos matemáticos na compreensão, representação e análise de relações quantitativas de grandezas e, também, de situações e estruturas matemáticas, fazendo uso de letras e outros símbolos. Deve-se enfatizar o desenvolvimento de uma linguagem, o estabelecimento de generalizações, a análise da interdependência de grandezas e a resolução de problemas.\n\nNo Anos Iniciais é imprescindível que algumas dimensões do trabalho com a álgebra estejam presentes nos processos de ensino e de aprendizagem como as ideias de regularidade, generalização de padrões e propriedades da igualdade.\n\nNo Ensino dos Anos Finais, os estudos de Álgebra retomam, aprofundam e ampliam o que foi trabalhado no Ensino Fundamental – Anos Iniciais. Nessa fase, os estudantes devem compreender os diferentes significados das variáveis numéricas em uma expressão, estabelecer uma generalização de uma propriedade, investigar a regularidade de uma sequência numérica, indicar um valor desconhecido em uma sentença algébrica e estabelecer a variação entre duas grandezas. É necessário que os estudantes estabeleçam relações entre variável e função e entre incógnita e equação.\n\nA Unidade Temática Geometria envolve o estudo de conceitos e procedimentos necessários para resolver problemas do mundo físico e de diferentes áreas do conhecimento, construindo o pensamento geométrico que é necessário para investigar propriedades, fazer conjecturas e produzir argumentos geométricos convincentes.\n\nNo Ensino Fundamental – Anos Iniciais, espera-se que os estudantes identifiquem e estabeleçam pontos de referência para a localização e o deslocamento de objetos, construam representações de espaços conhecidos e estimem distâncias, usando, como suporte, mapas (em papel, tablets ou smartphones), croquis e outras representações.\n\nNo Ensino Fundamental – Anos Finais, o ensino de Geometria precisa ser visto como consolidação e ampliação das aprendizagens realizadas. Nessa etapa, devem ser enfatizadas, também, as tarefas que analisam e produzem transformações e ampliações/reduções de figuras geométricas planas, identificando seus elementos variantes e invariantes, de modo a desenvolver os conceitos de congruência e semelhança. Outro ponto a ser destacado é a aproximação da Álgebra com a Geometria, desde o início do estudo do plano cartesiano, por meio da geometria analítica. Assim, a Geometria não pode ficar reduzida a mera aplicação de fórmulas de cálculo de área e de volume nem a aplicações numéricas imediatas de teoremas sobre relações de proporcionalidade em situações relativas a feixes de retas paralelas cortadas por retas secantes ou do teorema de Pitágoras.\n\nA unidade temática Grandezas e Medidas é fundamental para a compreensão da realidade e das medidas que quantificam grandezas do mundo físico. Desse modo, favorece a integração da Matemática a outras áreas de conhecimento, como Ciências (densidade, grandezas e escalas do sistema solar, energia elétrica etc.) ou Geografia (coordenadas geográficas, densidade demográfica, escalas de mapas e guias etc.).\n\nNo Ensino Fundamental – Anos Iniciais, a expectativa é que os estudantes reconheçam que medir é comparar uma grandeza com uma unidade e expressar o resultado da comparação por meio de um número. Além disso, os estudantes devem ser capazes de resolver problemas oriundos de situações cotidianas que envolvem grandezas como comprimento, massa, tempo, temperatura, área e capacidade de volume, sem o uso de fórmulas, recorrendo, quando necessário, a transformações entre unidades de medidas padronizadas mais usuais.\n\nNo Ensino Fundamental – Anos Finais, a expectativa é a de que os estudantes reconheçam comprimento, área, volume e abertura de ângulo como grandezas associadas a figuras geométricas e que consigam resolver problemas envolvendo essas grandezas com o uso de unidades de medidas padronizadas mais usuais. Além disso, é necessário introduzir medidas de capacidade de armazenamento de computadores como grandeza associada a demandas da sociedade moderna.\n\nVale ressaltar que, essa unidade temática, propicia o desenvolvimento de atitudes éticas, responsáveis e sustentáveis em relação ao consumo, através de situações de compra e venda.\n\nA unidade temática Probabilidade e Estatística trabalha com a incerteza e o tratamento de dados. Ela propõe a abordagem de conceitos, fatos e procedimentos presentes em muitas situações-problema da vida cotidiana, das ciências e da tecnologia. Assim, todos os cidadãos precisam desenvolver habilidades para coletar, organizar, representar, interpretar e analisar dados em uma variedade de contextos, de maneira a fazer julgamentos bem fundamentados e tomar as decisões adequadas. Isso inclui raciocinar e utilizar conceitos, representações e índices estatísticos para descrever, explicar e predizer fenômenos.\n\nNo que concerne ao estudo de noções de Probabilidade, a finalidade, no Ensino Fundamental – Anos Iniciais, está centrada no desenvolvimento da noção de aleatoriedade, de modo que os estudantes compreendam que há eventos certos, eventos impossíveis e eventos prováveis.\n\nNos Anos Finais, o estudo deve ser ampliado e aprofundado, por meio de atividades nas quais os estudantes façam experimentos aleatórios e simulações para confrontar os resultados obtidos com a probabilidade teórica – probabilidade frequentista.\n\nCom relação à Estatística, os primeiros passos envolvem o trabalho com a coleta e a organização de dados de uma pesquisa de interesse dos estudantes. O planejamento de como fazer a pesquisa ajuda a compreender o papel da estatística no cotidiano dos estudantes. Assim, a leitura, a interpretação e a construção de tabelas e gráficos têm papel fundamental, bem como a forma de produção de texto escrito para a comunicação de dados, pois é preciso compreender que o texto deve sintetizar ou justificar as conclusões.\n\nNo Ensino Fundamental – Anos Finais, a expectativa é que os estudantes saibam planejar e construir relatórios de pesquisas - estatísticas descritivas, incluindo medidas de tendência central e construção de tabelas e diversos tipos de gráficos. Esse planejamento abrange a definição de questões relevantes e da população a ser pesquisada, a decisão sobre a necessidade ou não de usar amostra e, quando for o caso, a seleção de seus elementos por meio de uma adequada técnica de amostragem.\n\nDesse modo, merece destaque a importância da progressão existente na aprendizagem de cada Unidade Temática, a qual visa a continuidade e a integração entre as fases do Ensino Fundamental.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d82424122e0de8e006ab30a9ebcb087d2a7a458baae3f0ea3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 444,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 422,
+      "output_tokens_details": {
+        "reasoning_tokens": 73
+      },
+      "total_tokens": 866
+    }
+  },
+  "created_at": "2026-09-22T23:09:22Z",
+  "duration_seconds": 4.043,
+  "error": null,
+  "excerpt_id": "rj_inf_camp_exp_12",
+  "filename": "rj_inf_camp_exp_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7c899a7aac034cbe675a93cb0a95863c808a9e3cca62fcbf3bd7e397e6e1a2df",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f3dccc83feec08e5f833fafc1c34a5770ce93ca82c832563c657896ccc5d8cc5",
+    "rendered_prompt_sha256": "5290cf525ae99106f098a7dd25950a6506910579f6f15480ab60a6458e465659",
+    "source_text_sha256": "c65cfa428f2a9f4370ffbc365c176a09066b5597a3048ec38e70e56669db4267"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_camp_exp_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2905,
+    "filename": "rj_inf_camp_exp_12.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_camp_exp_12.txt",
+    "state": "rj",
+    "word_count_original": 207
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_camp_exp_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_camp_exp_12.json"
+  },
+  "raw_response_text": "Direitos de Aprendizagem no Campo de Experiências Escuta, Fala, Pensamento e Imaginação\n\n• CONVIVER com crianças e adultos em situações comunicativas cotidianas, constituindo modos de pensar, imaginar, sentir, narrar, dialogar e conhecer.\n• BRINCAR com parlendas, trava-línguas, adivinhas, memória, rodas, brincadeiras cantadas, jogos e textos de imagens, escritos e outros, ampliando o repertório das manifestações culturais da tradição local e de outras culturas, enriquecendo sua linguagem oral, corporal, musical, dramática, escrita, dentre outras.\n• PARTICIPAR de rodas de conversa, de relatos de experiências, de contação e leitura de histórias e poesias, de construção de narrativas, da elaboração, descrição e representação de papéis no faz de conta, da exploração de materiais impressos e de variedades linguísticas, construindo diversas formas de organizar o pensamento.\n• EXPLORAR gestos, expressões, sons da língua, rimas, imagens, textos escritos, além dos sentidos das palavras, nas poesias, parlendas, canções e nos enredos de histórias, apropriando-se desses elementos para criar novas falas, enredos, histórias e escritas convencionais ou não.\n• EXPRESSAR sentimentos, ideias, percepções, desejos, necessidades, pontos de vista, informações, dúvidas e descobertas, utilizando múltiplas linguagens, considerando o que é comunicado pelos colegas e adultos.\n• CONHECER-SE e reconhecer suas preferências por pessoas, brincadeiras, lugares, histórias, autores, gêneros linguísticos, e seu interesse em produzir com a linguagem verbal.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

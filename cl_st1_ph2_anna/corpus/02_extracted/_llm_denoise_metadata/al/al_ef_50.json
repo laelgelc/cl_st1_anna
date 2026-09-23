@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07cf325535f54391006ab2fc5c9c0887d2889bbff89bb34bdd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 871,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 952,
+      "output_tokens_details": {
+        "reasoning_tokens": 275
+      },
+      "total_tokens": 1823
+    }
+  },
+  "created_at": "2026-09-22T22:08:35Z",
+  "duration_seconds": 7.025,
+  "error": null,
+  "excerpt_id": "al_ef_50",
+  "filename": "al_ef_50.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "20dcbafff083095e46a9a0eb5d84461e39f5b559efbd27f0dc0a9a13f819a334",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "10d4223029479f5ebdb02f9d201d5aaeb186eafecc33be7a156959f7d3c7e7c0",
+    "rendered_prompt_sha256": "ae11beba0276546c394a6284719888f7a9bb6e3e969342daa986ed179b9f9141",
+    "source_text_sha256": "8df85bc8b71b20cd22805748b1d53008ecbfce3784e36256af451e4bfc167357"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_50.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 187,
+    "filename": "al_ef_50.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_50.txt",
+    "state": "al",
+    "word_count_original": 454
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_50.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_50.json"
+  },
+  "raw_response_text": "# GINÁSTICA\n\nA Unidade Temática, Ginástica, é dividida em três segmentos que podem ser classificados da seguinte maneira: (a) Ginástica geral; (b) Ginásticas de condicionamento físico; e (c) Ginásticas de conscientização corporal.\n\n### a) Ginástica Geral\n\nA ginástica geral, também conhecida como ginástica para todos, reúne as práticas corporais que têm, como elemento organizador, a exploração das possibilidades acrobáticas e expressivas do corpo, a interação social, o compartilhamento do aprendizado e a não competitividade. Podem ser constituídas de exercícios no solo, no ar (saltos), em aparelhos (trapézio, corda, fita elástica), de maneira individual ou coletiva, e combinam um conjunto bem variado de piruetas, rolamentos, paradas de mão, pontes, pirâmides humanas etc. Integram também, a essa prática, os denominados jogos de malabar ou malabarismo.\n\n### b) Ginástica de Condicionamento Físico\n\nAs ginásticas de condicionamento físico se caracterizam pela exercitação corporal orientada à melhoria do rendimento, à aquisição e à manutenção da condição física individual ou à modificação da composição corporal. Geralmente, são organizadas em sessões planejadas de movimentos repetidos, com frequência e intensidade definidas. Podem ser orientadas de acordo com uma população específica, como a ginástica para gestantes, ou atreladas a situações ambientais determinadas, como a ginástica laboral.\n\n### c) Ginástica de Conscientização Corporal\n\nAs ginásticas de conscientização corporal reúnem práticas que empregam movimentos suaves e lentos, tal como a recorrência a posturas ou à conscientização de exercícios respiratórios, voltados para a obtenção de uma melhor percepção sobre o próprio corpo. Algumas dessas práticas, que constituem esse grupo, têm origem em práticas corporais milenares da cultura oriental.\n\n# DANÇA\n\nPor sua vez, a Unidade Temática, Dança, explora o conjunto das práticas corporais caracterizadas por movimentos rítmicos, organizados em passos e evoluções específicas, muitas vezes também integradas a coreografias. As danças podem ser realizadas de forma individual, em duplas ou em grupos, sendo essas duas últimas as formas mais comuns. Diferentes de outras práticas corporais, rítmico-expressivas, elas se desenvolvem em codificações particulares, historicamente constituídas, que permitem identificar movimentos e ritmos musicais peculiares associados a cada uma delas.\n\n# LUTAS\n\nA Unidade Temática, Lutas focaliza as disputas corporais, nas quais os participantes empregam técnicas, táticas e estratégias específicas para imobilizar, desequilibrar, atingir ou excluir o oponente de um determinado espaço, combinando ações de ataque e defesa dirigidas ao corpo do adversário. Dessa forma, além das lutas, presentes no contexto comunitário e regional, podem ser tratadas lutas brasileiras (capoeira, huka-huka, luta marajoara etc.), bem como lutas de diversos países do mundo (judô, aikido, jiu-jítsu, muay thai, boxe, chinese boxing, esgrima, kendo etc.).",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

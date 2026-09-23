@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0526ba2859455b37006ab30b510b8c87d296eb913a4aa32274",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 471,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 558,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 1029
+    }
+  },
+  "created_at": "2026-09-22T23:12:22Z",
+  "duration_seconds": 5.342,
+  "error": null,
+  "excerpt_id": "rn_inf_33",
+  "filename": "rn_inf_33.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7d0d47a464cdbb14c15536c4e2a760f086b0d79cdc3c43f9201a6fa59f74e2da",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4d2e969acfbcd1382386a2babb44bfc209f1ce8513b5f3472249b69c534f1994",
+    "rendered_prompt_sha256": "ae1e20fc0cd914f4f32d99c8699c06e4c55d36562bdbf6c20ee3a63f2b99b3b4",
+    "source_text_sha256": "505110c76d518a140e722087c3cfbc0b654b35f3276eb6c8cc71ca80a1c55c6b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_33.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3080,
+    "filename": "rn_inf_33.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_33.txt",
+    "state": "rn",
+    "word_count_original": 260
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_33.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_33.json"
+  },
+  "raw_response_text": "## 8. AVALIAÇÃO E TRANSIÇÕES NA EDUCAÇÃO INFANTIL\n\nDefinimos a observação como um olhar para aprender. Observar proporciona as informações de que você necessita para construir, individualmente, relacionamentos com crianças e para possibilitar que sejam aprendizes bem-sucedidos. Aprendemos sobre as crianças ao observá-las de forma cuidadosa, ao escutá-las e ao estudar o seu trabalho. Assistir e escutar as crianças com atenção ajuda-nos a entender o que elas estão sentindo, aprendendo e pensando. (JABLON; DOMBRO; DICHTELMILLER, 2009, p. 13)\n\nA avaliação é um instrumento de reflexão que requer um olhar sensível e permanente do professor sobre sua prática pedagógica, sobre a criança e seu desenvolvimento integral, perpassando todas as ações, incidindo sobre todo o contexto de aprendizagem, sem finalidade de excluir, mas incluir as crianças no processo educativo a fim de assegurar-lhes êxito em sua trajetória (OLIVEIRA, 2011).\n\nAs instituições de Educação Infantil podem, para tanto, criar procedimentos para avaliar o trabalho pedagógico e a aprendizagem da criança, garantindo a observação, o acompanhamento e o registro do desenvolvimento infantil, sem finalidade de seleção, promoção ou classificação, tal como definido na Lei de Diretrizes e Bases da Educação Nacional (BRASIL, 1996).\n\nSão esses procedimentos e sua socialização e discussão com as famílias, profissionais envolvidos numa mesma instituição e em outras instituições para as quais as crianças seguirão em sua vida escolar, que garantem boas experiências de transições dessas crianças entre etapas, turmas e instituições educativas. Neste capítulo, estão colocadas algumas possibilidades para pensar e desenvolver práticas avaliativas e transições que respeitem e considerem a criança e suas famílias.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c98437b55ddbe11006ab2fd7538b887d2bc8a0e5db30068ab",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1040,
+      "input_tokens_details": {
+        "cache_write_tokens": 1037,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1110,
+      "output_tokens_details": {
+        "reasoning_tokens": 234
+      },
+      "total_tokens": 2150
+    }
+  },
+  "created_at": "2026-09-22T22:13:18Z",
+  "duration_seconds": 9.113,
+  "error": null,
+  "excerpt_id": "am_em_25",
+  "filename": "am_em_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8f2dbad3de1480861b708f577f91aff775b8952fcb4b94cafbe724205de307b0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "24749a287124f51dd7a7d2ad22e9dabd97349bdbe98a58fa87c40053c5864aad",
+    "rendered_prompt_sha256": "64acd8c7c24c589e078cae295b0a84c1e14f87b8452ef9782cf89c87a514987a",
+    "source_text_sha256": "50ed72087c66b9a044877378a21384bd3aee5ef6977aff462b3f835c09e1aea8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 384,
+    "filename": "am_em_25.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_25.txt",
+    "state": "am",
+    "word_count_original": 543
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_25.json"
+  },
+  "raw_response_text": "### 3.1 Organização dos Itinerários Formativos\n\nOs Itinerários Formativos devem possibilitar aos estudantes múltiplas trajetórias ao longo da etapa final da Educação Básica, possibilitando-lhes “aprofundar seus conhecimentos e preparar-se para o prosseguimento de estudos ou para o mundo do trabalho de forma a contribuir para a construção de soluções de problemas específicos da sociedade” (BRASIL, 2018a).\n\nPara tanto, segundo o art. 12 da Resolução CNE/CEB nº 3/2018, os IFs devem ser organizados, a partir das Áreas do Conhecimento e da Formação Técnica e Profissional, de modo a garantir aprofundamentos dos conhecimentos estruturantes de cada tipo de organização, considerando o contexto local e as possibilidades de oferta pelo sistema de ensino, conforme exemplificado no Quadro 14, a seguir:\n\n**Quadro 14 - Organização e Aprofundamentos dos Itinerários Formativos**\n\n| Organização do IF | Aprofundamentos |\n|---|---|\n| Linguagens e suas Tecnologias | Estudos em línguas vernáculas, estrangeiras, clássicas e indígenas, Língua Brasileira de Sinais (LIBRAS), das artes, design, linguagens digitais, corporeidade, artes cênicas, roteiros, produções literárias, dentre outros. |\n| Matemática e suas Tecnologias | Estudos em resolução de problemas e análises complexas, funcionais e não-lineares, análise de dados estatísticos e probabilidade, geometria e topologia, robótica, automação, inteligência artificial, programação, jogos digitais, sistemas dinâmicos, dentre outros. |\n| Ciências da Natureza e suas Tecnologias | Estudos em astronomia, metrologia, física geral, clássica, molecular, quântica e mecânica, instrumentação, ótica, acústica, química dos produtos naturais, análise de fenômenos físicos e químicos, meteorologia e climatologia, microbiologia, imunologia e parasitologia, ecologia, nutrição, zoologia, dentre outros. |\n| Ciências Humanas e Sociais Aplicadas | Estudos em relações sociais, modelos econômicos, processos políticos, pluralidade cultural, historicidade do universo, do homem e natureza, dentre outros. |\n| Formação Técnica e Profissional | Desenvolvimento de programas educacionais que promovam efetivamente a qualificação profissional dos estudantes para o mundo do trabalho, objetivando sua habilitação profissional, tanto para o desenvolvimento de vida e carreira, quanto para se adaptar às novas condições ocupacionais e às exigências do mundo do trabalho contemporâneo e suas contínuas transformações, em condições de competitividade, produtividade e inovação. |\n\nFonte: Adaptado de Brasil, 2018a.\n\nComo visto, os IFs devem considerar as demandas e necessidades do mundo contemporâneo, estar sintonizados com os diferentes interesses dos estudantes e sua inserção na sociedade, o contexto local e as possibilidades de oferta dos sistemas e instituições de ensino.\n\nDevem ainda oportunizar o aprofundamento e a ampliação das aprendizagens relacionadas às competências gerais da BNCC. Por meio deles, almeja-se consolidar a formação integral dos estudantes, desenvolvendo neles a autonomia necessária, para que realizem seus projetos de vida, incorporando valores universais, como ética, liberdade, democracia, justiça social, pluralidade, solidariedade e sustentabilidade, desenvolvendo habilidades que lhes permitam ter uma visão de mundo ampla e heterogênea, sendo capazes de tomar decisões e agir nas mais diversas situações, seja na escola, seja no trabalho, seja na vida em sociedade.\n\nVale destacar que os IFs podem ser ofertados, a partir de arranjos curriculares, que combinem mais de uma área de conhecimento e da formação técnica e profissional, constituindo IFs integrados.\n\nAlém disso, de acordo com o § 2º, art. 12 da citada resolução, os IFs devem garantir a apropriação de procedimentos cognitivos e uso de metodologias que favoreçam o protagonismo juvenil, e organizar-se em torno de um ou mais dos seguintes eixos estruturantes: Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo, apresentados a seguir.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

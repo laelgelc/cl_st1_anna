@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_039645df8286e93d006ab30c2b054c87d2ae9ff154150c1db4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 479,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 475,
+      "output_tokens_details": {
+        "reasoning_tokens": 89
+      },
+      "total_tokens": 954
+    }
+  },
+  "created_at": "2026-09-22T23:16:00Z",
+  "duration_seconds": 5.82,
+  "error": null,
+  "excerpt_id": "ro_em_39",
+  "filename": "ro_em_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b3eeaccc9ef06d3d32d69bd1e3ec83836870279ad375d764990c77168d43c194",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4cb9cebdfa8a4805ad36392b396709269860eada4207fc1d96315b0287b84f82",
+    "rendered_prompt_sha256": "e8c74c1e4a1a348f6383e0952312a99acaea6c89e24d6a641dfd9d1c781b70e2",
+    "source_text_sha256": "78afbff3b20af21747d1fd13b25bd5b27f35ece09784ebc9a5f9ca5a478240f1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3254,
+    "filename": "ro_em_39.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_39.txt",
+    "state": "ro",
+    "word_count_original": 294
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_39.json"
+  },
+  "raw_response_text": "### 2.3.1.5. Matemática Financeira\n\nNo que diz respeito à matemática financeira, define-se como a área da matemática que estuda a equivalência de capitais no tempo, ou seja, como se comporta o valor do dinheiro no decorrer do tempo.\n\nSendo uma área aplicada da Matemática, estuda diversas operações ligadas ao dia a dia das pessoas. Por esse motivo, conhecer suas aplicações é fundamental. Como exemplos dessas operações, podemos citar as aplicações financeiras, empréstimos, renegociação de dívidas, ou mesmo, tarefas simples, como calcular o valor de desconto num determinado produto.\n\nConstata-se que não há exatidão quanto ao surgimento da matemática financeira, porém seu desenvolvimento acompanha o das civilizações. Desde as primeiras relações comerciais até a sociedade atual, o domínio da matemática financeira tem sido de fundamental importância para estabelecermos nossas relações financeiras, sendo uma ferramenta para a tomada de decisão.\n\nMuitas vezes, precisamos escolher entre o serviço A ou o serviço B, levando sempre em consideração a relação custo-benefício. Diante dessa realidade, a matemática financeira é uma grande viabilizadora de decisões mais coerentes com a realidade e o orçamento disponível. Nas relações comerciais e financeiras, são muito comuns as expressões: lucro, desconto, prejuízo, rendimento, juros, entre outras.\n\nNesse sentido, a matemática financeira está presente desde uma simples compra na farmácia até em investimentos nas bolsas. O objetivo da educação financeira vai ao encontro do desejo em adquirir melhor qualidade de vida. Quando o valor da conta de água vem exorbitante, verifica-se a existência de algum vazamento na casa ou de rever os gastos e economizar; ou quando queremos contratar um plano de internet, analisamos o preço e os benefícios oferecidos por diferentes serviços antes de realizarmos a compra. Desse modo, a matemática financeira está em grande parte de nossas vidas.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

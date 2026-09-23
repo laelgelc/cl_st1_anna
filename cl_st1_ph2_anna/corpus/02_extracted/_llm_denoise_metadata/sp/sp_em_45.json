@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f1e69fe66698d6f006ab30fbf168887d2b3b52db6b10be126",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 646,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 584,
+      "output_tokens_details": {
+        "reasoning_tokens": 83
+      },
+      "total_tokens": 1230
+    }
+  },
+  "created_at": "2026-09-22T23:31:16Z",
+  "duration_seconds": 5.64,
+  "error": null,
+  "excerpt_id": "sp_em_45",
+  "filename": "sp_em_45.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8f2c480cca70e8e94377488ce92c1525cb7a17c0f73d050e40edd899535f9b6c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "45b666c065c4f10d8059e7ed1722e9333b4f1d21f991b0393efc356383221cc6",
+    "rendered_prompt_sha256": "4129f081d99dbf617c35a761892f9655006f794c94c95809fdd1410003a56152",
+    "source_text_sha256": "4d6a0e21a4ced2387fcdf057602f293552119d110610651931a60097a6ed0a6b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_45.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3941,
+    "filename": "sp_em_45.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_45.txt",
+    "state": "sp",
+    "word_count_original": 370
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_45.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_45.json"
+  },
+  "raw_response_text": "## Itinerários Formativos Integrados\n\nOs itinerários formativos, parte flexível do currículo, serão ofertados por meio de diferentes arranjos curriculares. Além dos itinerários por área do conhecimento, também poderão ser organizados de forma integrada, ou seja, articulando diferentes áreas do conhecimento. As integrações poderão ser entre duas áreas, três áreas ou mesmo entre as quatro áreas do conhecimento. Trazemos neste documento exemplos de itinerários integrados entre duas áreas do conhecimento:\n\n- Itinerário integrado entre a área de Matemática e a área de Linguagens.\n- Itinerário integrado entre a área de Matemática e a área de Ciências Humanas.\n- Itinerário integrado entre a área de Matemática e a área de Ciências da Natureza.\n- Itinerário integrado entre a área de Ciências Humanas e a área de Linguagens.\n- Itinerário integrado entre a área de Ciências da Natureza e a área de Linguagens.\n- Itinerário integrado entre a área de Ciências da Natureza e a área de Ciências Humanas.\n\nAlém das integrações entre as áreas do conhecimento, os arranjos também podem ser feitos entre elas e a formação técnica e profissional. Tanto os itinerários formativos por área do conhecimento quanto os integrados entre áreas e entre a formação técnica e profissional deverão mobilizar as competências e habilidades relacionadas aos eixos estruturantes explicitados anteriormente, de forma a garantir a apropriação de procedimentos cognitivos e o uso de metodologias que favoreçam o protagonismo.\n\nA seguir, são apresentados, como exemplos, os organizadores curriculares dos itinerários formativos integrados entre duas áreas do conhecimento. Neles são definidas as habilidades específicas dos itinerários formativos de cada área, com as respectivas habilidades relacionadas às competências gerais em cada eixo estruturante.\n\nOs pressupostos metodológicos abordam metodologias e objetos de conhecimentos que poderão ser trabalhados e aprofundados em cada itinerário de forma a integrar todos os componentes da área, com indicativos para ajudar os professores a trabalharem de forma articulada entre as áreas em cada eixo estruturante.\n\nSão algumas considerações para que, mediante o tema a ser desenvolvido, que é de livre escolha das escolas em conjunto com seus estudantes, os professores possam se orientar para algumas demandas e a práticas. Não apresentam metodologia específica, mas orientações fundamentais sobre os aportes e ferramentas educativas que podem ser considerados mediante a perspectiva da autonomia e dos diferentes interesses do estudante.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

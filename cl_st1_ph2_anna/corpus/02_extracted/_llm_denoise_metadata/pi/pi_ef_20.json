@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_078582a23a4ebf63006ab3085bcf4887d28e2ba9d7a64d957d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 641,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 615,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 1256
+    }
+  },
+  "created_at": "2026-09-22T22:59:45Z",
+  "duration_seconds": 6.245,
+  "error": null,
+  "excerpt_id": "pi_ef_20",
+  "filename": "pi_ef_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2501613f939e141e1d424b1909b5f1974e61d2633f5bb0649a6e18149ee58726",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c423b5b28f0ff8cb15099442abec5ce54d74057dd8a44dcd5b24d715cd9d2758",
+    "rendered_prompt_sha256": "2aa83b119c58cf37715ead5282a1b31ef56f7998fb2c2edb19f413c2c44f5e3e",
+    "source_text_sha256": "393bf2b7ed3cac6ef437057fa28b66faf39ae4d52b7a455259d81a2d63503548"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_ef_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2555,
+    "filename": "pi_ef_20.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_ef_20.txt",
+    "state": "pi",
+    "word_count_original": 360
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_ef_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_ef_20.json"
+  },
+  "raw_response_text": "### Artes Integradas\n\nTrata-se de uma unidade temática que objetiva explorar “as relações e articulações entre as diferentes linguagens e suas práticas, inclusive aquelas possibilitadas pelo uso das novas tecnologias de informação e comunicação” (BRASIL, 2017, p. 197). Isto é, a forma como as artes visuais, a dança, a música, teatro, artes digitais e muitas outras dialogam em um mundo de interações entre os diferentes segmentos sociais, comunicacionais e expressivos.\n\nPor muito tempo vigoraram as distinções entre as linguagens da arte, o que estabeleceu limites bem definidos sobre estas. Hoje há uma tônica que se direciona à percepção, análise e promoção de relações entre as diferentes linguagens, desconstruindo barreiras que as separam e evidenciando as articulações que as unem.\n\nEsse direcionamento acompanha o crescente movimento social, que interliga pessoas, saberes, ideias, conceitos e experiências; expande o horizonte de possibilidades para a criação artística e, por conseguinte, sua apreciação e contextualização. Novas linguagens surgem a partir do intercruzamento entre outras existentes e essa dinâmica torna-se cada vez mais acentuada à medida que o mundo se transforma em concepções, sentidos, códigos, tecnologias e inovações diversas e os experimentos artísticos ampliam e abrem caminhos para novas vertentes e modos de fazer arte.\n\nNessa conjuntura é oportuna a exploração de manifestações como a instalação, intervenção, performance, happening e ready made, dada suas variadas articulações entre linguagens sem, contudo, categorizarem-se como uma ou outra, mas sim como algo genuíno, fruto da abertura à experimentação. Nessa mesma perspectiva, é possível abordar um concerto de Ópera, um musical, filme ou videoclipe, por exemplo, evidenciando combinações existentes entre elementos da dança, música, teatro e artes visuais.\n\nHá de ser considerada, ainda, a inserção das novas tecnologias nas linguagens da arte, fenômeno que a permite navegar em um território amplo. Como um dos muitos efeitos disso, verifica-se o rompimento com o uso exclusivo de suportes e técnicas tradicionais, abrangendo também o que de mais recente e inusitado a cultura oferece e também os combinando. Com isso é possível construir junto aos estudantes a compreensão de transformação das linguagens e coexistência entre o tradicional e o novo, provocando novos olhares acerca da arte e seus códigos.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

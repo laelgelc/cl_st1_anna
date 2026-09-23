@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_050fbccfa088a859006ab3079df7a487d29f26367494159b35",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 323,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 365,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 688
+    }
+  },
+  "created_at": "2026-09-22T22:56:33Z",
+  "duration_seconds": 3.428,
+  "error": null,
+  "excerpt_id": "pb_inf_28",
+  "filename": "pb_inf_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "666da2ee52085a8fa7f4ba93a572ff9f4e3e12a5df216b1678762f464d7e4ba0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c400971f2369812135db348092af795e60c23e2e4e6d4a331c17036c0eb0647a",
+    "rendered_prompt_sha256": "93b79a49af4a9b311cd493820081992221e720eb9c9f97db936be54b795a3cd2",
+    "source_text_sha256": "32e54d1aa3735f416fc066cae5af53c0159ec09e16775d28e771350654b27292"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2372,
+    "filename": "pb_inf_28.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_28.txt",
+    "state": "pb",
+    "word_count_original": 167
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_28.json"
+  },
+  "raw_response_text": "### 3.7. Transição da educação infantil para o ensino fundamental\n\nConforme as Diretrizes Curriculares Nacionais para a Educação Infantil (BRASIL, 2009), o processo de transição entre a Educação Infantil e o Ensino Fundamental deve ser pensado no sentido das continuidades e mudanças relativas a este processo. Sem deixar de ser criança, esta, ao ingressar nos anos iniciais do Ensino Fundamental, deve continuar o seu processo de aprendizagem e desenvolvimento nos marcos do conjunto de ações próprios à nova etapa de ensino, sem que a etapa anterior tenha antecipado conteúdos que só serão trabalhados nos anos iniciais do Ensino Fundamental. Como a pré-escola tornou-se obrigatória no Brasil, a criança que ingressa no Ensino Fundamental (anos iniciais) vem de uma experiência na Educação Infantil, que deve ter preservada sua identidade na direção da não escolarização e do não assistencialismo (que é diferente de assistência, a qual deve estar assegurada ao sujeito em toda a etapa da Educação Infantil e nas etapas subsequentes).",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

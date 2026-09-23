@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07abf9a490521270006ab306a9e33087d28accf6777a0ffbce",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 883,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 989,
+      "output_tokens_details": {
+        "reasoning_tokens": 253
+      },
+      "total_tokens": 1872
+    }
+  },
+  "created_at": "2026-09-22T22:52:35Z",
+  "duration_seconds": 9.991,
+  "error": null,
+  "excerpt_id": "pb_ef_18",
+  "filename": "pb_ef_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c4024efb99ddaba593be64883838efab0f0810b8e6c8ba42f52f759e8ceff097",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "11de725bec8612d193c682c06e4f3ddfc961f0189ae2e09d7e7896dba1291f7f",
+    "rendered_prompt_sha256": "c5df425e78789d5eb205026a248fa3e6a1bd00786f8dbd357b59098fa6d284c0",
+    "source_text_sha256": "848501df0fb74c4643d031158c4b8abdc3f1deb846a932ba37d2f54dcad61494"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2185,
+    "filename": "pb_ef_18.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_18.txt",
+    "state": "pb",
+    "word_count_original": 567
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_18.json"
+  },
+  "raw_response_text": "### 5.2.6 Ensino de Teatro\n\nPensar o Ensino de Teatro no Ensino Fundamental é apresentar à criança a possibilidade do desenvolvimento estético, criativo, relacional a partir dos jogos e do aprendizado construído pelas práticas e vivências próprias dessa linguagem artística. Para tal, faz-se necessária a condução do processo de ensino aprendizagem por um docente com formação específica para o ensino de Teatro e que esteja ciente da importância de sua contribuição para a formação da criança/estudante.\n\nO Ensino de Teatro nos anos iniciais do Ensino Fundamental se relaciona com aspectos importantes e próprios da infância, como a simbolização, a imitação e os jogos. Essas práticas devem ser oportunizadas conscientemente com cunho pedagógico e devem gerar aprendizado de maneira criativa e atrativa, reconhecendo o percurso histórico do teatro e de seus artistas, sejam locais, regionais ou globais, e a importância de espaços como os teatros e anfiteatros, bem como outros espaços de vivência com o teatro.\n\nDesde seu nascimento, a criança está em contato com outros seres humanos e aprende também a partir de um processo de observação e imitação. Nesse propósito, o aprendizado a partir dos jogos teatrais, do contato com os elementos básicos da linguagem teatral, mas principalmente do contato com o outro, deve ser uma construção coletiva e, ao mesmo tempo, individual. Nesse sentido, o teatro cumpre sua função integradora na formação da criança (PCN, 1997, p. 84).\n\nPara o Ensino de Teatro nos anos iniciais e finais do Ensino Fundamental, recomenda-se uma carga horária mínima de duas horas/aulas ao longo de cada semana, totalizando 80 horas/aulas anuais. Além disso, faz-se necessária a utilização de um espaço adequado e materiais mínimos para a execução das aulas. Recomenda-se, ainda, que nenhuma situação seja causa de impedimento para a realização das aulas de Teatro, uma vez que sua prática favorece não apenas o desenvolvimento cognitivo dos(as) estudantes, mas também para uma formação integral e cidadã.\n\nForam pensados enfoques para as dimensões artísticas no Ensino de Teatro, de tal maneira que todos sejam vivenciados ao longo de toda a etapa do Ensino Fundamental, alternando-se a cada ano o enfoque pedagógico em uma ou outra. Não se aconselha aqui hierarquizar essas dimensões, mas sim enfatizá-las para dar base às ações pedagógicas em cada ciclo.\n\nNos 1º, 2º e 3º anos, a dimensão da expressão está em evidência, seguida da estesia e da dimensão relacional. Percebe-se nesse ciclo a importância do expressar-se, “sentir” o mundo e relacionar-se com o outro, com o meio e consigo mesmo. Para os 4º e 5º anos, o enfoque é ainda maior na dimensão relacional, seguido pelo trabalho com a expressão e a estesia, que deve diminuir um pouco, dando abertura para o crescimento da fruição.\n\nNos 6º e 7º anos, as dimensões relacional e fruição devem apresentar enfoque maior, tendo menor ênfase na estesia. Nos 8º e 9º anos, tem-se as dimensões da crítica e da criação ganhando enfoque, considerando que nesse ciclo os(as) estudantes estão chegando à adolescência e em período de transição para a última etapa da Educação Básica, o Ensino Médio. A figura na página a seguir, demonstra a ênfase numa ou noutra dimensão, a depender do ano da etapa fundamental cursado:",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

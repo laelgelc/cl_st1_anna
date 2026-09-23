@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a63c57e743c2dac006ab30af90ad887d2aadb2d174144e595",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 733,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 702,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 1435
+    }
+  },
+  "created_at": "2026-09-22T23:10:55Z",
+  "duration_seconds": 6.187,
+  "error": null,
+  "excerpt_id": "rn_ef_6",
+  "filename": "rn_ef_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7721b10b6039eb8619caa02b4bce8193968b9513365fbeaf059246455efbd5a4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0d2a4f2613fe1f97182005d22489ce29ea836c8263100b0a4467a7c802ced5b1",
+    "rendered_prompt_sha256": "c00ad8731c6c056fb95b5e9634559ece0eb48bc480bd78090b0ac971049a1ae4",
+    "source_text_sha256": "20acc6a36b2bf744a5ccbff3b558d5963dc80eb160eecce90e847629e9481428"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3001,
+    "filename": "rn_ef_6.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_6.txt",
+    "state": "rn",
+    "word_count_original": 437
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_6.json"
+  },
+  "raw_response_text": "## 4. PRESSUPOSTOS DO TRABALHO PEDAGÓGICO\n\nOs pressupostos pedagógicos associados a princípios filosóficos, sociológicos, psicológicos e políticos que embasam este Documento Curricular estão alinhados com os fundamentos legais instituídos na Lei de Diretrizes e Bases da Educação Nacional, nas Diretrizes Curriculares Nacionais para a Educação Básica, nos Planos Nacional e Estadual de Educação.\n\n### PRINCÍPIOS BÁSICOS PARA O DESENVOLVIMENTO DESTE DOCUMENTO CURRICULAR\n\n- Compreensão da globalidade do educando, enquanto ser que aprende, sonha e ousa, em busca de uma convivência social libertadora fundamentada na ética cidadã.\n- Equidade nas condições de acesso, permanência e sucesso escolar, a fim de assegurar a inclusão e a diversidade.\n- Redução da evasão, repetência e distorção entre idade e ano de escolaridade.\n- Difusão de valores fundamentais do interesse social, dos direitos e deveres dos cidadãos, do respeito ao bem comum e à ordem democrática.\n- Organização das experiências escolares em torno do conhecimento, permeadas pelas relações sociais, a fim de articular vivências e saberes dos estudantes com os conhecimentos historicamente acumulados e contribuir para a construção das identidades dos educandos.\n- Proposta curricular contextualizada em função das peculiaridades do meio e das características, interesses e necessidades dos educandos.\n- Imbricamento, ampliação e diversificação dos tempos e espaços escolares efetivamente disponíveis e acessíveis para sua utilização.\n\nA partir desses princípios, as práticas culturais selecionadas pelos professores para serem vividas pelos estudantes no cotidiano da escola devem ser acolhedoras de suas diversidades e promotoras do desenvolvimento de:\n\n- um pensar criativo e autônomo, a partir do qual cada estudante aprenda a investigar, opinar e considerar a opinião dos colegas e de outros atores sociais sobre um acontecimento, uma ideia, uma hipótese, uma tecnologia, um conflito;\n- uma sensibilidade voltada para o ato criador e para a construção de respostas singulares pelos estudantes;\n- uma postura ética de solidariedade e justiça, que possibilite aos estudantes interagir e trabalhar com a diversidade de pessoas e de relações que caracterizam a comunidade humana, enquanto se posicionam contra a desigualdade, o preconceito, a discriminação e a injustiça.\n\nO objetivo central do trabalho escolar é ampliar a experiência pessoal do estudante e articular sua forma de significar o mundo e a si mesmo com as esferas mais amplas da experiência social. Em função disso, espera-se que as situações cotidianamente planejadas e executadas nas instituições escolares ampliem as possibilidades dos estudantes para:\n\n- conviver e desenvolver em grupo projetos científicos, literários, esportivos e artísticos, entre outros;\n- expressar-se, comunicar-se, reconhecer e criar linguagens;\n- ter iniciativa para investigar e buscar soluções para problemas e conflitos;\n- compreender como seus valores e sentimentos, que integram sua forma de conhecer o mundo e responder aos problemas, afetam a construção de sua identidade.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

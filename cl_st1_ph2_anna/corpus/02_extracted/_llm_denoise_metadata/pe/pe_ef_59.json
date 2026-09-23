@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01dd32c6592137a1006ab307e76f5087d2a7391f1ba99acccc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1660,
+      "input_tokens_details": {
+        "cache_write_tokens": 1657,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1774,
+      "output_tokens_details": {
+        "reasoning_tokens": 209
+      },
+      "total_tokens": 3434
+    }
+  },
+  "created_at": "2026-09-22T22:57:55Z",
+  "duration_seconds": 11.741,
+  "error": null,
+  "excerpt_id": "pe_ef_59",
+  "filename": "pe_ef_59.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b3c5194bdaba8991b9733515b16e644db02c8ee66f81c4d46d0e2f0edebfe7d5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8d5f8b0e86c9b23f8a2a72d4d4efb7767302158ff5ea55061f3a88dd762c4e32",
+    "rendered_prompt_sha256": "be38527fa0137380c12ccd5c259fefb9402f34b9ff8fcc78fba64b13dc088e07",
+    "source_text_sha256": "0e91bb333e9b788c49845776ca114de9ab40c1134916b4825c7d5878f2782eec"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_59.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2439,
+    "filename": "pe_ef_59.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_59.txt",
+    "state": "pe",
+    "word_count_original": 1131
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_59.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_59.json"
+  },
+  "raw_response_text": "## Números\n\nO trabalho com os números naturais deve ser visto como continuação e consolidação das aprendizagens anteriores, principalmente em relação à escrita e à leitura desses números. A estrutura do sistema de numeração decimal vai sendo progressivamente consolidada e as atividades em que são exploradas a composição e a decomposição de números em sua forma polinomial contribui bastante para a compreensão da mencionada estrutura.\n\nAlém disso, com base na compreensão do sistema de numeração decimal e de suas propriedades, o estudante será capaz de compreender o funcionamento dos algoritmos escritos convencionais das operações com os diferentes tipos de números. Entretanto, tais algoritmos não devem ser os únicos a merecer a atenção no ensino. Destaca-se, a esse respeito, que a compreensão deles pode ficar bastante facilitada a partir de situações de cálculo mental em que os estudantes sejam levados à explicitação de suas estratégias. O professor pode explorar, por exemplo, a relação entre o cálculo mental de 35 + 17 (30 + 10, 5 + 5, + 2) com o algoritmo da adição com reserva. Além disso, o cálculo mental, associado ao uso da calculadora e à realização de estimativas e de arredondamentos, pode contribuir para que o estudante desenvolva a capacidade de análise de resultados obtidos como respostas a problemas (PERNAMBUCO, 2012).\n\nOs conceitos de múltiplos e divisores de um número natural consolidam-se a partir da compreensão das propriedades desses números. É preciso, porém, que as situações apresentadas pelo professor permitam que essas ideias sejam construídas como respostas a problemas, evitando-se o trabalho baseado exclusivamente na aplicação de técnicas ou dispositivos práticos.\n\nAtividades que explorem a representação e a contagem em uma situação de combinatória devem levar o estudante à construção do conceito de princípio multiplicativo como recurso fundamental, mas não único, na resolução de diversos problemas.\n\nSituações que o estudante encontra em seu contexto social devem ser tomadas como ponto de partida para a apresentação dos números inteiros. Dessa forma, tais números podem ser vistos como necessários para a ampliação dos números naturais. As regras das operações com esses números não devem ser apresentadas prontas e acabadas, mas pela observação de regularidades e aplicação das propriedades dos números naturais. Por exemplo, para se concluir que 2 · (−2) = −4, pode-se observar a sequência 2 · (2); 2 · (1); 2 · (0); 2 · (−1); 2 · (−2).\n\nQuanto à compreensão do conceito dos números inteiros, eles podem apresentar diferentes significados, tais como medida, transformação e relação. Estes significados encontram-se em diversos contextos nos quais o número inteiro relativo se faz presente, por exemplo, no saldo bancário, nas localizações, nas medidas de temperatura, de altitude, dentre outras situações contextualizadas que podem ser exploradas em sala de aula. Vale ressaltar que, nos diversos contextos, números positivos e negativos podem ser representados pelos mesmos valores, mas possuir significados distintos. Desse modo, buscando exemplificar, −9 pode representar uma medida negativa (dinheiro devido, temperatura abaixo de zero, uma medida abaixo do nível do mar, um saldo devedor em um campeonato, etc.), uma transformação negativa (dinheiro retirado ou gasto, queda de temperatura, queda do nível de água em um reservatório, pontos perdidos em um jogo, etc.) ou uma relação negativa (dinheiro, temperatura, água ou pontos “a menos” do que uma medida inicial). Analogamente, +9 pode representar uma medida positiva, uma transformação positiva ou uma relação positiva (BORBA, 2009).\n\nO conceito de número racional, tanto em sua representação fracionária como em sua representação decimal, também deve ser ampliado e consolidado sem que o termo consolidação seja entendido como a memorização de procedimentos de cálculo. Os diferentes significados dos números racionais devem ser aprofundados: parte-todo; quociente entre dois números inteiros; medida; razão e operador. Esta última ideia, que aparece estreitamente associada às operações com os números racionais, deve vir acompanhada de significado que a justifique, como, por exemplo, a compreensão de que a metade de seis corresponde a ½ × 6. A construção dos procedimentos operatórios com esse tipo de número é uma aprendizagem lenta e que não pode ser finalizada em um tempo bem definido. A equivalência de frações ainda deve ser tomada como elemento principal na aprendizagem das operações com as frações. O mais importante é que o estudante seja capaz de construir significado para essas operações. Por exemplo, mais importante do que interpretar a divisão do racional a pelo racional b como o “produto de a pelo inverso de b”, seria compreender que tal divisão significa identificar “quantas vezes b cabe em a” ou, ainda, fazer apelo à ideia de divisão como operação inversa da multiplicação (PERNAMBUCO, 2012).\n\nA noção de porcentagem tem suas aplicações ampliadas nessa fase do ensino. As atividades propostas pelo professor devem permitir ao estudante não somente realizar cálculos de porcentagens, mas determinar os valores de reajustes e descontos, decidir a melhor forma de pagar uma compra, determinar o percentual total a partir de composição de porcentagens etc.\n\nÉ nessa etapa de escolaridade que tem início a construção do significado de número irracional pela insuficiência dos números racionais para resolver determinados problemas de medição abstrata de grandezas no âmbito da Matemática. Os irracionais devem ser vistos como números que não podem ser expressos por um quociente de inteiros. Sabe-se que os radicais de números inteiros são, em geral, números irracionais. Por exemplo, toda raiz quadrada de um número que não é um quadrado perfeito é irracional. No entanto, não é correto induzir o estudante a pensar que esses são os únicos irracionais que ocorrem em Matemática.\n\nMuito menos se justifica a excessiva atenção que, usualmente, é dada ao cálculo com radicais. Na escola básica, pode-se definir um número irracional como uma dízima infinita e não periódica. Dessa maneira, tem-se um instrumento conceitual capaz de “produzir” números irracionais: basta definir sequências numéricas infinitas, garantindo-se a não periodicidade dessa sequência. Por exemplo: o número b = 0,1234567891011121314..., construído com a própria sequência numérica dos naturais, é irracional. Essa abordagem é útil para dar significado ao fato de que um número irracional pode ser aproximado por números racionais com a aproximação que se deseje. Tais aproximações podem ser obtidas aumentando o número de dígitos nas dízimas finitas extraídas da dízima infinita que define o irracional. No exemplo acima, os números racionais 0,123; 0,1234; 0,12345 etc. são aproximações racionais do número irracional b (PERNAMBUCO, 2012).\n\nA compreensão do significado de cada um dos tipos de números é que vai servir de ponto de partida para a compreensão da ordenação desses números. No caso dos números racionais, representados na forma decimal, a relação de ordem “maior do que” (ou “menor do que”) tem sido fonte de muita dificuldade na aprendizagem. É comum o estudante afirmar, erroneamente, que 3,15 é maior do que 3,3. Convém observar que atividades com a reta numérica são um recurso importante na abordagem dessas questões.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

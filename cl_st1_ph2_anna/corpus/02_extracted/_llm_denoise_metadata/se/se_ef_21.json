@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ae49ece201b3308006ab30f215dc087d29fce527f77d7be8b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 581,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 625,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 1206
+    }
+  },
+  "created_at": "2026-09-22T23:28:38Z",
+  "duration_seconds": 4.894,
+  "error": null,
+  "excerpt_id": "se_ef_21",
+  "filename": "se_ef_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "08082162bf839346f94dfdfb0eae1dd8313288f996143dec0d64a43c6941c603",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d1b10c169f816fe04692d6f116c0a4d1cc6cf8abc22cc6df522c83afc061ae50",
+    "rendered_prompt_sha256": "a99af045885686b89d91f57939149f1dac9c7da7680a7f4158fa6a6a4797d7ae",
+    "source_text_sha256": "cc379ae058958a8bbf3dc36cb9099a14f35999d4bf3d006a631923e1109143f5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_ef_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3810,
+    "filename": "se_ef_21.txt",
+    "filepath": "corpus/00_source_per_state/se/se_ef_21.txt",
+    "state": "se",
+    "word_count_original": 324
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_ef_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_ef_21.json"
+  },
+  "raw_response_text": "## COMPETÊNCIAS ESPECÍFICAS DE MATEMÁTICA PARA O ENSINO FUNDAMENTAL\n\n- Reconhecer que a Matemática é uma ciência humana, fruto das necessidades e preocupações de diferentes culturas, em diferentes momentos históricos, e é uma ciência viva, que contribui para solucionar problemas científicos e tecnológicos e para alicerçar descobertas e construções, inclusive com impactos no mundo do trabalho.\n- Desenvolver o raciocínio lógico, o espírito de investigação e a capacidade de produzir argumentos convincentes, recorrendo aos conhecimentos matemáticos para compreender e atuar no mundo.\n- Compreender as relações entre conceitos e procedimentos dos diferentes campos da Matemática (Aritmética, Álgebra, Geometria, Estatística e Probabilidade) e de outras áreas do conhecimento, sentindo segurança quanto à própria capacidade de construir e aplicar conhecimentos matemáticos, desenvolvendo a autoestima e a perseverança na busca de soluções.\n- Fazer observações sistemáticas de aspectos quantitativos e qualitativos presentes nas práticas sociais e culturais, de modo a investigar, organizar, representar e comunicar informações relevantes, para interpretá-las e avaliá-las crítica e eticamente, produzindo argumentos convincentes.\n- Utilizar processos e ferramentas matemáticas, inclusive tecnologias digitais disponíveis, para modelar e resolver problemas cotidianos, sociais e de outras áreas de conhecimento, validando estratégias e resultados.\n- Enfrentar situações-problema em múltiplos contextos, incluindo-se situações imaginadas, não diretamente relacionadas com o aspecto prático-utilitário, expressar suas respostas e sintetizar conclusões, utilizando diferentes registros e linguagens (gráficos, tabelas, esquemas, além de texto escrito na língua materna e outras linguagens para descrever algoritmos, como fluxogramas, e dados).\n- Desenvolver e/ou discutir projetos que abordem, sobretudo, questões de urgência social, com base em princípios éticos, democráticos, sustentáveis e solidários, valorizando a diversidade de opiniões de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.\n- Interagir com seus pares de forma cooperativa, trabalhando coletivamente no planejamento e desenvolvimento de pesquisas para responder a questionamentos e na busca de soluções para problemas, de modo a identificar aspectos consensuais ou não na discussão de uma determinada questão, respeitando o modo de pensar dos colegas e aprendendo com eles.",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0932a60f584d719d006ab304e9d7d887d2a6e2dee7c9ac754f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 615,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 569,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 1184
+    }
+  },
+  "created_at": "2026-09-22T22:45:03Z",
+  "duration_seconds": 5.948,
+  "error": null,
+  "excerpt_id": "mt_em_41",
+  "filename": "mt_em_41.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b265a27cfbbaea67ac3ccc2a389e4bdc72d3aed34af73c16623ce58c1d01884e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f0786a53c890f7ce1d977dd73ad9f921d521b480e27f9c4ffb814482aee95727",
+    "rendered_prompt_sha256": "ccd7bb252d08dd0d341587eb6abfe627a87c6a50ea0635feead236f31b495743",
+    "source_text_sha256": "abd13e0f22f8ba9d002f5f73b7d51a82ea117f1525ef14fc1cdbed80f8bcfe56"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_41.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1934,
+    "filename": "mt_em_41.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_41.txt",
+    "state": "mt",
+    "word_count_original": 345
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_41.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_41.json"
+  },
+  "raw_response_text": "### 7.10 O que se espera dos estudantes a partir das aprendizagens em CHSA\n\nCom o aprofundamento do estudo das Ciências Humanas e Sociais Aplicadas, espera-se a formação de cidadãos que sejam capazes de serem protagonistas no processo educativo, que saibam planejar seu projeto de vida, responder aos desafios colocados pela vida social e exercer a cidadania de forma plena. “Para Anísio Teixeira, a missão do ensino só podia ser o desenvolvimento da inteligência, da tolerância e da felicidade. E era para dar conta disso que se fazia necessário reformar a escola e o sistema público de ensino” (CARA, 2019, p. 91). Portanto, a história das mudanças na educação nacional deve acompanhar as reflexões acerca de uma educação que aponte para a pluralidade de modos de oferta do Ensino Médio.\n\nAo concluir o Ensino Médio, o estudante deverá desenvolver habilidades e competências para resolver problemas práticos, utilizando os conhecimentos científicos, com autonomia intelectual, posicionamento ético e crítico. Assim, se estabelece a necessidade de garantir a participação social, política e produtiva do estudante, que saiba analisar dialeticamente os processos políticos, econômicos, sociais, culturais e ambientais, que respeitem e promovam o consumo sustentável e responsável nos âmbitos local, regional, nacional e mundial.\n\nAo término da Etapa Ensino Médio, o estudante deve ser capaz de compreender e posicionar-se criticamente na sociedade em que vive, analisando as relações de produção, capital e trabalho em diferentes territórios, contextos e culturas, sendo necessário que os estudantes compreendam as relações de poder que determinam as territorialidades e o papel geopolíticos dos Estados-nações, a fim de compreender e combater as desigualdades sociais. O estudante protagonista deve combater as injustiças sociais, de preconceito, gênero e violência, adotando princípios éticos, democráticos e inclusivos, respeitando as diversidades e os Direitos Humanos.\n\nDessa forma, a Etapa Ensino Médio tem como finalidades a consolidação e o aprofundamento dos conhecimentos adquiridos no Ensino Fundamental, a preparação do estudante para o mundo do trabalho. Dessa forma, espera-se que a partir da compreensão dos fundamentos científicos, o processo educativo valorize sua integralidade, autonomia intelectual e pensamento crítico.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

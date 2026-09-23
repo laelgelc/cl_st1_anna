@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05bdd8e2dea4d8e5006ab3103d8f8487d290c3a9463cc0dbd3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1001,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1029,
+      "output_tokens_details": {
+        "reasoning_tokens": 121
+      },
+      "total_tokens": 2030
+    }
+  },
+  "created_at": "2026-09-22T23:33:25Z",
+  "duration_seconds": 7.982,
+  "error": null,
+  "excerpt_id": "to_em_44",
+  "filename": "to_em_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e2a28ca53236640c08051dfee2439a90f7766c1c89fd2693ab6100b92310506f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1f1b6e0bd94a850c5810a69ad741ea2e032ed6802ba4bd4720e128e1e0da1ccb",
+    "rendered_prompt_sha256": "4a76e2813fd1a6bb800401a77fd28fa2045bb28c16fcdb28d4ec9355076b5ce4",
+    "source_text_sha256": "7821740ba1bd26d873696569229120c17ce1c755dc94a81e813e49b5a67f5db9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4045,
+    "filename": "to_em_44.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_44.txt",
+    "state": "to",
+    "word_count_original": 676
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_44.json"
+  },
+  "raw_response_text": "## 7) AVALIAÇÃO E CERTIFICAÇÃO\n\n### 7.1) Avaliação\n\nO Ensino Médio traz para as escolas o desafio de ressignificar o seu currículo e, com as mudanças advindas, a necessidade de repensar a sua forma de avaliar. É preciso construir propostas avaliativas capazes de aperfeiçoar o processo de ensino tendo como referência os contextos e as condições de aprendizagem. O propósito é que a avaliação tenha como base a análise global e integral do estudante.\n\nA prática de avaliação da aprendizagem deve ser utilizada para identificar e estimular os potenciais individuais e coletivos. Nesse sentido, a avaliação passa a ser utilizada como ferramenta pedagógica que pode resultar no replanejamento das ações e ajustes no trabalho da escola, dos professores e dos estudantes.\n\nAo pensar na avaliação como prática integrante do processo pedagógico que visa o desenvolvimento integral dos estudantes a partir da melhoria da aprendizagem e a qualidade do ensino, Luckesi (2004) nos define:\n\n> O ato de avaliar a aprendizagem implica em acompanhamento e reorientação permanente da aprendizagem. Ela se realiza através de um ato rigoroso e diagnóstico e reorientação da aprendizagem tendo em vista a obtenção dos melhores resultados possíveis, frente aos objetivos que se tenha à frente. E, assim sendo, a avaliação exige um ritual de procedimentos, que inclui desde o estabelecimento de momentos no tempo, construção, aplicação e contestação dos resultados expressos nos instrumentos; devolução e reorientação das aprendizagens ainda não efetuadas. Para tanto, podemos nos servir de todos os instrumentos técnicos hoje disponíveis, contanto que a leitura e interpretação dos dados seja feita sob a ótica da avaliação, que é de diagnóstico e não de classificação. (p. 4)\n\nO processo de avaliação deverá permitir a aplicação de instrumentos didáticos variados levando em consideração as potencialidades, as dificuldades e os diferentes ritmos de aprendizagem dos estudantes. Nessa ação, a escola deverá desenhar o projeto avaliativo que irá adotar, apontando inclusive os instrumentos de avaliação formativa.\n\nÉ fundamental a associação de diferentes estratégias de avaliação para promover um processo efetivo de aprendizagem. Entre as possibilidades pode-se considerar: testes tradicionais, atividades online, simulados, seminários, autoavaliação, trabalhos em grupo, portfólio, avaliação em grupo, rubrica, etc. Os professores devem entender a avaliação da aprendizagem como um instrumento para aperfeiçoar suas estratégias de transmissão da informação, que acarretará em um processo de ensino-aprendizagem mais eficaz.\n\nNo território do Tocantins, a avaliação da aprendizagem do itinerário formativo da Formação Técnica e Profissional será orientada a partir de avaliações nas formas diagnósticas, formativas e somativas, com vistas à atribuição de notas no fechamento de um ciclo de aprendizado, seja ele anual, semestral, bimestral, etc.\n\n### 7.2) Certificação\n\nNa Educação Profissional Técnica de Nível Médio após a conclusão de etapa ou módulo, a expedição de certificado ou diploma obedecerá a terminalidade profissional cursada. Assim, ao final dos três anos, as instituições de ensino da rede pública ou privada deverão certificar os estudantes levando em consideração as suas escolhas profissionais:\n\na) na habilitação profissional será expedido diploma para a conclusão de cursos da Educação Profissional Técnica de Nível Médio, com a indicação do título de técnico na respectiva habilitação profissional, bem como o eixo tecnológico ao qual está vinculado;\n\nb) na formação inicial continuada ou qualificação profissional é conferido certificado de qualificação profissional técnica com a especificação do título da ocupação certificada;\n\nc) na especialização técnica de nível médio é conferido certificado de especialização técnica de nível médio, no qual deve ser indicado o título da ocupação certificada.\n\nA articulação com a educação profissional na mesma carga horária do ensino médio é uma das mudanças estabelecidas para o Ensino Médio. Assim, o estudante que optar por um curso de qualificação profissional como parte flexível do currículo, poderá ter um certificado do ensino médio e um certificado do ensino técnico da carga horária regular.\n\nCompete às instituições educacionais cumprirem as normas e regras referentes à emissão de certificados e diplomas, atendendo aos prazos de entrega dos mesmos. Os históricos escolares que acompanham esses documentos – certificados e diplomas - deverão explicitar o estabelecido nas Diretrizes Curriculares Nacionais para a Educação Profissional Técnica de Nível Médio.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

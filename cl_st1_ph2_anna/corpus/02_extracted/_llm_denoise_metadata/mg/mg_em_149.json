@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03c0d2d2428041e7006ab3031dd80087d281e78625bcc1353f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 585,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 554,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 1139
+    }
+  },
+  "created_at": "2026-09-22T22:37:22Z",
+  "duration_seconds": 5.161,
+  "error": null,
+  "excerpt_id": "mg_em_149",
+  "filename": "mg_em_149.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "04e3b81cf3bcd5a706bf7a047c35d9eb5fefb002944e70c6cbe62eb3ae03c8fd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3f82e2bf70e205ef029b56b759e11ee078859492b0b1082083112e17217dade6",
+    "rendered_prompt_sha256": "aacb668cccf5e69077312cd8cb14ea582f366c650cb3a7a28c1031f25003bf18",
+    "source_text_sha256": "1400bc7fac19b108cc66eb593ca4dadafbcccd581e536b6fa6c52889cee6b44a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_149.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1540,
+    "filename": "mg_em_149.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_149.txt",
+    "state": "mg",
+    "word_count_original": 328
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_149.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_149.json"
+  },
+  "raw_response_text": "## 8.2 Rubricas\n\nOutra estratégia é o uso de rubricas, instrumentos de avaliação bastante utilizados em outros países. Rubricas são esquemas explícitos para classificar produtos ou comportamentos em categorias que variam ao longo de um contínuo, tais como redações, ensaios, trabalhos de pesquisa, apresentações orais e atividades. A avaliação pode ser feita pelos próprios estudantes, por seus colegas, por outros, por professores, supervisores de trabalho ou revisores externos. Elas podem ser usadas para prover feedback formativo dos estudantes, avaliar ou dar notas (BIAGIOTTI, 2005).\n\nComo explicado, as rubricas servirão para avaliar e dar feedback do que os estudantes aprenderam ou não, possibilitando que a avaliação seja feita por eles, por colegas, pelo conjunto de professores da área para avaliar competências e habilidades afins e podem ser usadas durante todo o processo da aprendizagem e não apenas no final de um período.\n\nBiagiotti (2005) alerta que não existem receitas ou modelos a serem seguidos, pois cada rubrica deve ser desenhada para o quadro que se espera, a partir dos objetivos que devem ser alcançados pelos estudantes. Vamos supor que a atividade a ser avaliada seja um fórum de discussão que foi criado pelo(s) professor(es) de um ou mais componentes curriculares para análise de um tema ensinado durante as aulas. O(s) professor(es) pode(m) criar rubricas para avaliar a escrita, interatividade, participação, desenvolvimento da argumentatividade, respeito às regras colocadas e às ideias dos colegas, dentre outros critérios julgados necessários e pertinentes. A avaliação pode ser quantitativa ou qualitativa, conforme exemplo a seguir:\n\nPara usar as rubricas, os critérios a serem utilizados devem ser claros para professores e estudantes, ser discutidos e decididos antes da proposição desse tipo de avaliação, cujos resultados devem servir de base para outras formas de intervenção, quando necessário e debatidos com o estudante, oferecendo-lhe novas oportunidades para que obtenha resultados desejados e satisfatórios. Neste modelo, foi usado um valor quantitativo (1, 2, 3, 4) e valor qualitativo (Insatisfatória, satisfatória, boa, excelente).",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

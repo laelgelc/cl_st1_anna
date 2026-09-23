@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bc39df01e63d9d6006ab3087a587487d29404356aeadb447a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 702,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 656,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 1358
+    }
+  },
+  "created_at": "2026-09-22T23:00:15Z",
+  "duration_seconds": 5.49,
+  "error": null,
+  "excerpt_id": "pi_ef_6",
+  "filename": "pi_ef_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e38cd95cc5190f28981987fd34b36c468f66ef857d87bc0d92f91e5c54f83a5a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a5243906a5c4fc75796f5d9c77dc277e4642578c02957e4358f12598888a4c58",
+    "rendered_prompt_sha256": "fb21bdcaa23bcb27b1d7824f8dfc074be2e0fd0630abc7127e1370dbe7d63423",
+    "source_text_sha256": "ab8e1d8ed2db0b5739cb3eca72f7db52c881f9497e996a069eb85c42e1cc9853"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_ef_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2581,
+    "filename": "pi_ef_6.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_ef_6.txt",
+    "state": "pi",
+    "word_count_original": 384
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_ef_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_ef_6.json"
+  },
+  "raw_response_text": "## COMPETÊNCIAS ESPECÍFICAS DE EDUCAÇÃO FÍSICA  \n## PARA O ENSINO FUNDAMENTAL\n\nA Educação Física Escolar como componente curricular sistematizada e regulamentada pode contribuir significativamente para o processo de construção dos conhecimentos e formação integral dos alunos. Tendo como proposta o desenvolvimento das seguintes competências:\n\n1. Compreender a origem da cultura corporal de movimento e seus vínculos com a organização da vida coletiva e individual.\n2. Planejar e empregar estratégias para resolver desafios e aumentar as possibilidades de aprendizagem das práticas corporais, além de se envolver no processo de ampliação do acervo cultural nesse campo.\n3. Refletir, criticamente, sobre as relações entre a realização das práticas corporais e os processos de saúde/doença, inclusive no contexto das atividades laborais.\n4. Identificar a multiplicidade de padrões de desempenho, saúde, beleza e estética corporal, analisando, criticamente, os modelos disseminados na mídia e discutir posturas consumistas e preconceituosas.\n5. Identificar as formas de produção dos preconceitos, compreender seus efeitos e combater posicionamentos discriminatórios em relação às práticas corporais e aos seus participantes.\n6. Interpretar e recriar os valores, os sentidos e os significados atribuídos às diferentes práticas corporais, bem como aos sujeitos que delas participam.\n7. Reconhecer as práticas corporais como elementos constitutivos da identidade cultural dos povos e grupos.\n8. Usufruir das práticas corporais de forma autônoma para potencializar o envolvimento em contextos de lazer, ampliar as redes de sociabilidade e a promoção da saúde.\n9. Reconhecer o acesso às práticas corporais como direito do cidadão, propondo e produzindo alternativas para sua realização no contexto comunitário.\n10. Experimentar, desfrutar, apreciar e criar diferentes brincadeiras, jogos, danças, ginásticas, esportes, lutas e práticas corporais de aventura, valorizando o trabalho coletivo e o protagonismo.\n\nConsiderando esses pressupostos, e em articulação com as competências gerais propostas pela BNCC, essas competências devem perpassar todo o currículo do Ensino Fundamental, propiciando a interlocução entre saberes e conhecimentos da área.\n\nPortanto, o método de ensino se torna central e vital quando se reconhece a presença de um sujeito que se esforça em descobrir, que conhece e pensa, reconhecendo que a experiência não é uma fonte clara, inequívoca, do conhecimento, pois o mesmo não é o acúmulo de dados ou de informação e sim uma organização, e para tanto são necessários o desenvolvimento e a articulação de saberes desenvolvendo competências.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

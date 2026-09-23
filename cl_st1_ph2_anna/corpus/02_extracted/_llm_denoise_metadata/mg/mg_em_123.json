@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0566f467e1b0835f006ab302f7adbc87d29b4179527d7f8c8f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 986,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1640,
+      "output_tokens_details": {
+        "reasoning_tokens": 804
+      },
+      "total_tokens": 2626
+    }
+  },
+  "created_at": "2026-09-22T22:36:54Z",
+  "duration_seconds": 14.411,
+  "error": null,
+  "excerpt_id": "mg_em_123",
+  "filename": "mg_em_123.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ea244118f22a140b8c36e7c8632875d26f2fefff859322cfcca687657d3122ef",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "39259e663461bbb466f7feec3f7c7ee463d7557700a4d25998764e30cffda907",
+    "rendered_prompt_sha256": "d827e9edfbb230f848c7173b949362cbeedf23bc5580c6747097519ba191c67d",
+    "source_text_sha256": "16a460f061f52a384023535028105b9012e9e097eadb8f9faa55d1b39fb6f192"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_123.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1512,
+    "filename": "mg_em_123.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_123.txt",
+    "state": "mg",
+    "word_count_original": 571
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_123.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_123.json"
+  },
+  "raw_response_text": "### 6.4.3 Ancestralidade, identidade cultural, valores e saberes\n\nPela garantia de que esses agrupamentos possuidores de culturas e tradições pujantes, especificidades nos modos de produzir, organizar e partilhar os saberes e conhecimentos, modos diferenciados de conceber os territórios e ordenamentos das lideranças e hierarquias, tornou-se importante e necessário que as características particulares dos grupos fossem preservados e que eles norteassem os processos de educação dessas comunidades.\n\nEm vista disso, a Educação Escolar Quilombola visa a que as comunidades quilombolas tenham o seu direito de acesso à educação básica garantidos, tendo a preservação de seus aspectos ontológicos e epistemológicos.\n\nNesse sentido, é de fundamental importância o reconhecimento da história dos quilombos para a conformação da história nacional e suas contribuições econômicas, intelectuais e culturais para a identidade mineira, sendo necessário valorizar, preservar e dar visibilidade às experiências socioculturais das comunidades quilombolas, rurais e urbanas, nos processos pedagógicos das Áreas do conhecimento do Ensino Médio. Resgatar os embasamentos legais que fundamentam esse contexto é importante para fortalecer a luta por igualdade racial por meio da equidade, a fim de consolidar os valores democráticos e pluralistas da Constituição Federal de 1998.\n\nÉ importante ressaltar OS PRINCÍPIOS DA EDUCAÇÃO ESCOLAR QUILOMBOLA explicitados no Art. 7º, da Resolução nº 8, de 20 de novembro de 2012, quando afirma que a Educação Escolar Quilombola rege-se em suas práticas e ações político-pedagógicas pelos seguintes princípios: I – direito à igualdade, liberdade, diversidade e pluralidade; II – direito à educação pública, gratuita e de qualidade; III – respeito e reconhecimento da história e da cultura afro-brasileira como elementos estruturantes do processo civilizatório nacional; IV – proteção das manifestações da cultura afro-brasileira; V – valorização da diversidade étnico-racial; VI – promoção do bem de todos, sem preconceitos de origem, raça, sexo, cor, credo, idade e quaisquer outras formas de discriminação; VII – garantia dos direitos humanos, econômicos, sociais, culturais, ambientais e do controle social das comunidades quilombolas; VIII – reconhecimento dos quilombolas como povos ou comunidades tradicionais; XIX – conhecimento dos processos históricos de luta pela regularização dos territórios tradicionais dos povos quilombolas; X – direito ao etnodesenvolvimento, entendido como modelo de desenvolvimento alternativo que considera a participação das comunidades quilombolas, as suas tradições locais, o seu ponto de vista ecológico, a sustentabilidade e as suas formas de produção do trabalho e de vida; XI – superação do racismo – institucional, ambiental, alimentar, entre outros – e a eliminação de toda e qualquer forma de preconceito e discriminação racial; XII – respeito à diversidade religiosa, ambiental e sexual; XV – superação de toda e qualquer prática de sexismo, machismo, homofobia, lesbofobia e transfobia; XVI – reconhecimento e respeito da história dos quilombos, dos espaços e dos tempos nos quais as crianças, adolescentes, jovens, adultos e idosos quilombolas aprendem e se educam; XVII – direito dos estudantes, dos profissionais da educação e da comunidade de se apropriarem dos conhecimentos tradicionais e das formas de produção das comunidades quilombolas de modo a contribuir para o seu reconhecimento, valorização e continuidade; XVIII – trabalho como princípio educativo das ações didático-pedagógicas da escola; XIX – valorização das ações de cooperação e de solidariedade presentes na história das comunidades quilombolas, a fim de contribuir para o fortalecimento das redes de colaboração solidária por elas construídas; XX – reconhecimento do lugar social, cultural, político, econômico, educativo e ecológico ocupado pelas mulheres no processo histórico de organização das comunidades quilombolas e construção de práticas educativas que visem à superação de todas as formas de violência racial e de gênero.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

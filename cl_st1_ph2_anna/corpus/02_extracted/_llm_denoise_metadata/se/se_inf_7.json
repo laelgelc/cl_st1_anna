@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d0d71a3722d9f08006ab30f5fd11c87d2b62fb373b23100d4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 887,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1020,
+      "output_tokens_details": {
+        "reasoning_tokens": 266
+      },
+      "total_tokens": 1907
+    }
+  },
+  "created_at": "2026-09-22T23:29:44Z",
+  "duration_seconds": 9.315,
+  "error": null,
+  "excerpt_id": "se_inf_7",
+  "filename": "se_inf_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1b911e50b00c304d21a1e2a7c53f2e5a0bd2c3af066cc3b93d36f2392bd143c2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5203b6e553f0b4140f36b98ef5effc11dd0e93133cd24293ba53d73c1b7a1dab",
+    "rendered_prompt_sha256": "f1fd64d85f4d719f34d30df5d7c1a436b367bbbff4156c8b5508e1865aa0f976",
+    "source_text_sha256": "2421dd31965a2ff230b0edc3ef1ca6b5b52557ba95a8ec3d1dfc799f43592833"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_inf_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3859,
+    "filename": "se_inf_7.txt",
+    "filepath": "corpus/00_source_per_state/se/se_inf_7.txt",
+    "state": "se",
+    "word_count_original": 532
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_inf_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_inf_7.json"
+  },
+  "raw_response_text": "### 2.3.6 Transição da Educação Infantil para o Ensino Fundamental\n\n> Digo: o real não está na saída nem na chegada: ele se dispõe para a gente é no meio da travessia.  \n> — Guimarães Rosa\n\nA citação de Guimarães Rosa, inclusa no livro *Grandes Sertões Veredas*, leva-nos a pensar que a saída e a chegada não são tão relevantes quanto a travessia. É o processo de passagem que nos fará ter uma boa chegada. Essa menção pode ser aludida à passagem da Educação Infantil para o Ensino Fundamental – a saída e a chegada são certas. Entretanto, temos que pensar como será realizada essa travessia.\n\nEssa é uma preocupação expressa nas Diretrizes Curriculares Nacionais para a Educação Infantil (2010) ao mencionar que cada instituição de ensino deve pensar na “continuidade dos processos de aprendizagem por meio de estratégias adequadas aos diferentes momentos de transição vividos pela criança, a exemplo da ‘transição casa/instituição de Educação Infantil, transições no interior da instituição, transição creche/pré-escola e transição pré-escola/Ensino Fundamental’” (2010, p. 29). Neste sentido, o processo de aprendizagem deve garantir formas que assegurem a continuidade de aprendizagem das crianças, “respeitando as especificidades etárias, sem antecipação de conteúdos que serão trabalhados no Ensino Fundamental” (2010, p. 30).\n\nEssa compreensão também está expressa na BNCC (2017), que discorre sobre a necessidade de estabelecimento de “estratégias de acolhimento e adaptação tanto para as crianças quanto para os docentes, de modo que a nova etapa se construa com base no que a criança sabe e é capaz de fazer, em uma perspectiva de continuidade de seu percurso educativo” (2017, p. 49).\n\nA preocupação dos documentos citados deve ser posta na pauta de debates das unidades de ensino, visto que, após um curto espaço temporal do recesso escolar, verifica-se mudança na concepção de “criança”, na Educação Infantil; e aluno, no Ensino Fundamental. Comportamentos antes permitidos deixam de o ser.\n\n> O primeiro dia de aula marcou uma drástica ruptura com o trabalho desenvolvido. As crianças não sabiam o que podiam fazer. As carteiras arrumadas em fileiras, voltadas para o quadro, a mesa da professora na frente, a presença de crianças reprovadas, a ausência de outras que compunham a turma anterior, o abecedário e os numerais na parede, tudo indicava um ano diferente. Não era permitido correr, ir ao banheiro, brincar de pique, batucar, cantar ou olhar pela janela. Havia um descompasso entre as crianças que vieram da educação infantil e as outras. Abaixar a cabeça e esperar não faziam parte do repertório do ano anterior (p. 166).\n\nObserva-se que há um maior controle corporal na fase da escolarização que causa uma ruptura. Entretanto, essa ruptura não pode continuar tendo legitimidade. A gestão escolar e os docentes devem buscar elos para a continuidade entre a proposta pedagógica dessas duas etapas, mantendo o olhar para os eixos integradores em torno do brincar, da interação relacionados às artes e ao letramento nas práticas pedagógicas. Pode-se ainda zelar pela manutenção do mesmo grupo de crianças e professores, a integração entre as famílias e professores, a participação ativa das crianças, como fatores determinantes do sucesso do processo de transição (Corsaro; Molinari, 2005 apud NEVES, 2011, p. 129).",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05a0ffe470ac458a006ab2fe6d554087d291de7da1f2be0812",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 638,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 730,
+      "output_tokens_details": {
+        "reasoning_tokens": 217
+      },
+      "total_tokens": 1368
+    }
+  },
+  "created_at": "2026-09-22T22:17:23Z",
+  "duration_seconds": 6.497,
+  "error": null,
+  "excerpt_id": "ba_ef_20",
+  "filename": "ba_ef_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6af46c38fedfc36c96ac2447311b6a5bfb22cf9d6405e3a145b9108e1850d1ec",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d8be1c82467963f80a80814ab0ba26e24b5e08f35361576ad5529f4af3d4855b",
+    "rendered_prompt_sha256": "425df1efecf71d388d728418058f7a288cd6f49c3bd5b65e79fb067009917efc",
+    "source_text_sha256": "95f8da8e16ce4b69eba9d3e2fed9814b0ec23718744abf1e2cfbbe6e7b74c6a9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_ef_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 604,
+    "filename": "ba_ef_20.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_ef_20.txt",
+    "state": "ba",
+    "word_count_original": 387
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_ef_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_ef_20.json"
+  },
+  "raw_response_text": "## 8.4. Área de Ciências da Natureza – Texto Introdutório\n\nCiência e sociedade desenvolvem-se constituindo uma teia de relações múltiplas e complexas. A sociedade da informação e do conhecimento em que estamos inseridos nos obriga à compreensão da Ciência, não apenas como corpo de saberes, mas também como instituição social. Questões de natureza científica com implicações sociais são levadas à discussão, e os cidadãos são chamados a dar sua opinião. Dessa maneira, o letramento científico é fundamental para o exercício pleno da cidadania. O desenvolvimento de competências para formar esse cidadão emancipado deve ser contemplado no currículo de Ciências da Natureza.\n\nNo Ensino Fundamental, o componente curricular Ciências aborda temas que são estudados em várias áreas do conhecimento dentro da área das Ciências Naturais, desde a Astronomia até as Geociências, passando pela Química e a Física. Nessa fase escolar, esses conhecimentos devem ser apresentados aos estudantes de maneira geral para que eles se apropriem dos conhecimentos construídos sobre o mundo natural, ampliando seu repertório e entendendo a ciência como prática cultural histórica.\n\nA sociedade contemporânea está fortemente organizada com base no desenvolvimento científico e tecnológico. Os diferentes marcos na história da humanidade são determinados por domínios de técnicas que facilitaram a interação homem-natureza. O homem é um ser que atua na natureza em função de suas necessidades e o faz para sobreviver como espécie, mas não o faz como os outros animais. A ação humana sobre a natureza se dá pela incorporação de experiências e conhecimentos produzidos e transmitidos de geração a geração; essa transmissão pela educação e pela cultura permite que a nova geração não volte ao ponto de partida da que a precedeu²⁹.\n\nA área de Ciências da Natureza, por meio dos diversos conteúdos científicos que explora, incide em diversos campos do conhecimento. Contribui para o desenvolvimento de várias competências em diferentes ambientes de aprendizagem. Com o ensino de Ciências, pretende-se formar o cidadão letrado cientificamente para que nossos alunos se transformem em pessoas mais críticas e agentes de mudanças para uma sociedade mais igualitária e justa, atendendo às demandas de uma sociedade em constante transformação, entendendo a presença e a influência do conhecimento científico na sociedade.\n\n²⁹ ANDERY, Maria Amália et al. *Para compreender a Ciência: uma perspectiva histórica*. 16. ed. Rio de Janeiro/São Paulo: Garamond/EDUC, 2012.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

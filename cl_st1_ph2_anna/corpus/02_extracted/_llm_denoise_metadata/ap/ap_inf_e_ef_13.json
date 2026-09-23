@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c23eabddebcc453006ab2fe4e4cac87d2a272fe7688388561",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 641,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 768,
+      "output_tokens_details": {
+        "reasoning_tokens": 226
+      },
+      "total_tokens": 1409
+    }
+  },
+  "created_at": "2026-09-22T22:16:53Z",
+  "duration_seconds": 7.535,
+  "error": null,
+  "excerpt_id": "ap_inf_e_ef_13",
+  "filename": "ap_inf_e_ef_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "60ebb48c9786ed372de716d4808a72e3e14c8bf4537ee704faa29f6a37c9fec5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "21ba78a5426c61b5c38b2b38add17a5abf759f28060e1892d0e10053e707a776",
+    "rendered_prompt_sha256": "1e1bdc5368a3a48df2e8421d225861c58719aba7b2595567cb1f24119a9fba09",
+    "source_text_sha256": "d751d72417492408cd62049698c2f2216c9f94b9521f0bbbb76da85ed3aadf54"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_inf_e_ef_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 583,
+    "filename": "ap_inf_e_ef_13.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_inf_e_ef_13.txt",
+    "state": "ap",
+    "word_count_original": 387
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_inf_e_ef_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_inf_e_ef_13.json"
+  },
+  "raw_response_text": "# O Processo de Avaliação na Educação de Jovens e Adultos\n\nafetivos, sociais e culturais, num processo contínuo, diagnóstico, dialético, devendo ser tratada como parte integrante do processo ensino-aprendizagem e está diretamente relacionada ao encaminhamento metodológico adotado. O processo avaliativo que a escola pratica deve estar fundamentado em uma concepção teórica que a comunidade escolar compreenda, e que seja conhecido pelos educandos, para não dicotomizar discurso e prática.\n\nA EJA tem o desafio de construir uma avaliação mediadora entre os conhecimentos elaborados e as trajetórias de vida dos sujeitos. Assim, a avaliação deve ser um processo que tem como objeto a reflexão dos movimentos educativos efetuados. O educando avalia a si próprio e as experiências vivenciadas, aprendendo a partir da sua realidade para compreender a do outro. Os educadores, através do processo de avaliação, refletem sobre a sua própria prática pedagógica.\n\nNesse processo, todo o coletivo da unidade escolar avalia o projeto pedagógico, levando à ação-reflexão-ação.\n\nToda produção, verbal ou não-verbal, será avaliada servindo para orientar a prática pedagógica do educador, bem como possibilitar ao educando rever sua forma de estudar,\n\nA avaliação expressa uma concepção de educação, de educador, de homem, de mundo e de sociedade e, portanto, deve-se indagar a quem ela beneficia, a quem interessa e a qual forma de educação privilegia. Desta maneira, a Sistemática de Avaliação da aprendizagem e a forma de estudos de recuperação deverão estar contempladas no Projeto Político Pedagógico e Regimento Escolar, atendendo as normas do CEE/AP.\n\nNa Educação de Jovens e Adultos, a avaliação deve ser entendida como um processo de formação contínuo, coletivo, sistemático e flexível. Deve acontecer com a participação efetiva dos educandos/as, como parte do processo de aprendizagem, determinando a direção do trabalho a ser realizado, permitindo aos sujeitos, educadores/as e educandos/as, a análise da trajetória da vida escolar e a identificação dos pontos que demandam atenção especial.\n\nA avaliação deverá se constituir num processo contínuo e dialético, capaz de diagnosticar os aspectos relacionados aos processos de construção do conhecimento – cognitivos, onde o erro assume um caráter mediador, permitindo ao educando e ao educador redirecionar a prática pedagógica. O ato avaliativo é um ato de reflexão, descrição, problematização e síntese no qual o educando deverá ser estimulado a opinar sobre os saberes conquistados e os conhecimentos elaborados.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

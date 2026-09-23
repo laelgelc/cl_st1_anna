@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0257c6b71bf40bbd006ab3033c993887d2b8de0cf57481f1f9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 560,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 646,
+      "output_tokens_details": {
+        "reasoning_tokens": 205
+      },
+      "total_tokens": 1206
+    }
+  },
+  "created_at": "2026-09-22T22:37:54Z",
+  "duration_seconds": 5.935,
+  "error": null,
+  "excerpt_id": "mg_em_43",
+  "filename": "mg_em_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8f9bb0e66cda706e974a6a1ba19d0201248d108b492cddfb76900821333c08d1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2afd80ec9adeac0973331d4bcd836c8dbbed5770e366c5aab6e085c344722bd0",
+    "rendered_prompt_sha256": "8c8c88aa779aeb9ac7513e88f9134fa8db810cae917aa88970806aac368ed217",
+    "source_text_sha256": "85ae8584fa1816b391a58e8921fc3fb97ea8c35d4e3345831f1267a38bf94e7a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1574,
+    "filename": "mg_em_43.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_43.txt",
+    "state": "mg",
+    "word_count_original": 285
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_43.json"
+  },
+  "raw_response_text": "### 3.1.3.1.1 Leitura literária e construção de sujeitos críticos\n\nA BNCC traz habilidades a serem desenvolvidas no Campo Artístico Literário, as quais buscam contribuir para a formação integral de estudantes, proporcionando-lhes vivências estéticas por meio da interação com elementos simbólico-culturais e com recursos expressivos constituintes da linguagem literária. Por meio dessa interação, o estudante amplia o repertório linguístico-cultural e a forma como percebe os sonhos, as realidades e os revezes alheios, reconhecendo a si mesmo, o outro e o nós, (re)construindo o sentido do texto e de sua realidade. Assim, desenvolve a capacidade de análise, constituindo-se como um sujeito leitor e protagonista. Desse modo, a literatura, em quaisquer de suas funções – lúdica, pragmática, catártica ou estética – busca a construção de um ser potencialmente reflexivo, ético, participativo e atuante em diversos contextos sociais, permeados ou não pela cultura digital.\n\nNa BNCC, a literatura busca contribuir para que as juventudes estabeleçam posturas críticas em relação aos diversos textos - orais (nos saraus, nos slams, nos duelos de MCs, nos festivais literários, em rodas de conversa, nos podcasts), escritos (fanzines, e-zines, memes, blogs, resenhas, playlists comentadas, livros impressos) criados por outros ou por eles mesmos, levando em consideração elementos tais como contexto de produção, autoria, intertextualidades possíveis, momentos culturais vigentes quando da produção e, ainda, a intencionalidade dessa produção literária.\n\nLonge de negar a existência de ideologias, o campo literário na BNCC visa à formação de leitores capazes de identificá-las, de compreendê-las e de confrontá-las, constituindo-se como um sujeito de multiplicidade de culturas, de textos, de contextos; apropriando-se de novos elementos éticos, estéticos, culturais e simbólicos. Capazes de atuar crítica e eticamente em sua realidade.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

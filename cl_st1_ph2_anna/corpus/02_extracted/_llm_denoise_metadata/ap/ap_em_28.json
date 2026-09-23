@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0157aa88a491581c006ab2fe10ca0c87d29a110c6685c87b46",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 787,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 817,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 1604
+    }
+  },
+  "created_at": "2026-09-22T22:15:51Z",
+  "duration_seconds": 6.334,
+  "error": null,
+  "excerpt_id": "ap_em_28",
+  "filename": "ap_em_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "06b86ce77680ecd360e2477c9588670da60fd26f12e4a7af95c754f08b54eed2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d383c4ea8f25b2554371c3006e8a5bfa805cd0b72ce9abfb9da02cd339f6b4a7",
+    "rendered_prompt_sha256": "1c97b7ece3ae8e8aed775c03fc5192d44e7e267fc5eb19ed6f9be21d545bf6e8",
+    "source_text_sha256": "c01cb5a3252541dd6bb5c9d514b7cfb912a60d7b6ca1901d490b45de72740149"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 522,
+    "filename": "ap_em_28.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_28.txt",
+    "state": "ap",
+    "word_count_original": 488
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_28.json"
+  },
+  "raw_response_text": "# COMPONENTE QUÍMICA\n\n## ASPECTOS IMPORTANTES SOBRE O ENSINO DE QUÍMICA\n\nA Química é mais um dos componentes da Área de Ciências da Natureza e suas Tecnologias, responsável em estudar a constituição e o comportamento da matéria e sua transformação, possui uma linguagem própria e até complexa, e deve articular as competências gerais e específicas com os demais componentes da área, desenvolvendo as habilidades propostas.\n\nPor muito tempo, o entendimento sobre o Ensino de Química era de uma “disciplina” pautada em métodos tradicionais com ênfase em memorização de dados, nomes e fórmulas, além de aplicação de cálculos matemáticos, devido a um preceito de complexidade, que a tornava inalcançável. Muito disso se deve a introdução tardia do Ensino de Química no mundo e, especialmente, no Brasil, pois antes da Reforma Pombalina o Ensino de Ciência não existia, nem mesmo em Portugal, o que ia na contramão dos outros países europeus.\n\nConforme os Parâmetros Curriculares Nacional para o Ensino Médio,\n\n> “Historicamente, o conhecimento químico centrou-se em estudos de natureza empírica sobre as transformações químicas e as propriedades dos materiais e substâncias. Os modelos explicativos foram gradualmente se desenvolvendo conforme a concepção de cada época e, atualmente, o conhecimento científico em geral e o da Química em particular requerem o uso constante de modelos extremamente elaborados. Assim, em consonância com a própria história do desenvolvimento desta ciência, a Química deve ser apresentada estruturada sobre o tripé: transformações químicas, materiais e suas propriedades e modelos explicativos.” (PCN+, p.87)\n\nNessa perspectiva, o ensino de química vai se encaminhar para o que se propõe na atualidade, o ensino enfático no cumprimento de competências e desenvolvimento de habilidades gerais e regionais, para um protagonismo juvenil ser galgado sob o controle de seus principais atores, os discentes, com orientação de um corpo docente qualificado a nova tarefa que se propõe ser desenvolvida no novo ensino médio.\n\nEsse novo, deve ser compreendido pelos docentes do componente química não mais como um Professor isolado, mas sim como um integrante da área de conhecimento Ciências da Natureza e suas Tecnologias, logo fazer um trabalho conjunto e afinado com os integrantes dos outros componentes, verdadeiramente, interdisciplinar é uma regra. Não se orienta mais o trabalho isolado, os atores do processo ensino-aprendizagem devem ter bem definidos os fins propostos ao novo momento da educação brasileira e amapaense.\n\nPortanto, no atual contexto educacional brasileiro e amapaense, a Química deve ser um instrumento de interesse, para auxiliar na compreensão dos fenômenos naturais, explicados pelo comportamento da matéria, e suas correlações com a biologia e física, que por etimologia é fundamentada no conhecimento, investigação e interpretação de materiais, através de seus símbolos e linguagem própria, tornando a vida dos seres humanos mais adaptável e confortável, possibilitando total controle sob a tomada de decisões consciente do uso de substâncias, retiradas do ambiente, inquirindo sobre seus impactos à natureza, problematizando-a com social, humano, econômico, histórico a âmbito Mundial, Nacional, Estadual e Municipal.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

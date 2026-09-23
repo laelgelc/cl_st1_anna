@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03ac34ba1311aaba006ab30d28ac7c87d286b0f7cf68893a34",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 521,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 501,
+      "output_tokens_details": {
+        "reasoning_tokens": 76
+      },
+      "total_tokens": 1022
+    }
+  },
+  "created_at": "2026-09-22T23:20:12Z",
+  "duration_seconds": 4.085,
+  "error": null,
+  "excerpt_id": "rr_em_27",
+  "filename": "rr_em_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e26148d1ea0b301ce2543b42cd8c351d1cc020657ad0ecf62eb660feec011a56",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4ee551fb0a52bed1216025334c99ca3003129cf07c9661952e9e7458ef69cf13",
+    "rendered_prompt_sha256": "acedfca741bc865d0ddaa838c33e811f331a0ad6c9abcc372cb992efbbec28b8",
+    "source_text_sha256": "992979a220f733c977b00fe795dfceade8e3b452b6ef8466c0ea4379bf5d1002"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3460,
+    "filename": "rr_em_27.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_27.txt",
+    "state": "rr",
+    "word_count_original": 298
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_27.json"
+  },
+  "raw_response_text": "### 4.3.1.2 Arte\n\nA Arte, no Ensino Médio, deve ser viabilizada por meio do aprofundamento na pesquisa como prática pedagógica para inovação, criação autoral nas linguagens das artes visuais, do audiovisual, da dança, do teatro, das artes circenses e da música a fim de propiciar a construção de novos conhecimentos caracterizando a indissociabilidade entre teoria e prática no processo de ensino-aprendizagem. Para tanto, a BNCC (BRASIL, 2018a) apresenta as competências e habilidades definidas que preveem a exploração das conexões e intersecções possíveis entre essas linguagens considerando as novas tecnologias e seus espaços de compartilhamento e convívio.\n\nO ensino de Arte deve propor o entrelaçamento de culturas e saberes para que o estudante tenha o acesso e a interação com as distintas manifestações culturais populares, especialmente nas suas expressões regionais e local, incluindo nos estudos de arte e de literatura a história e cultura afro-brasileira e indígena. Bem como, incentivar o estudante a prestigiar os eventos nos centros culturais, museus e outros espaços – ambientes que possibilitam o exercício da crítica, da apreciação e da fruição.\n\nNesse processo, os estudantes assumem-se protagonistas de seu conhecimento de modo consciente, ético, crítico e autônomo, desenvolvendo habilidades como apreciadores, como artistas, criadores e curadores na promoção e participação dos eventos escolares como saraus, canto-coral, performances, intervenções, happenings, produções em videoarte, animações, web arte e outras manifestações e/ou eventos artísticos e culturais - atividades que contribuem para a sua formação integral.\n\nLogo, faz-se necessário considerar o fazer artístico local, de modo que o componente seja articulado com os demais, perfazendo um diálogo em diferentes linguagens e, sobretudo, auxiliando o aluno a desenvolver as distintas linguagens artísticas, aumentando o seu repertório musical, expressões locais e, sobretudo, desenvolvendo habilidades que poderão auxiliá-lo em seu projeto de vida.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

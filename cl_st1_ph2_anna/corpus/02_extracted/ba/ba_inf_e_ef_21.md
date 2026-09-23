@@ -1,0 +1,44 @@
+## 5.5. Educação Ambiental
+
+A Educação Ambiental, um dos Temas Integradores do Documento Curricular Referencial da Bahia para a Educação Infantil e Ensino Fundamental, é definida pela Lei Estadual nº 12.056/2011 como o conjunto de processos permanentes e continuados de formação individual e coletiva para a sensibilização, reflexão e construção de valores, saberes, conhecimentos, atitudes e hábitos, visando a uma relação sustentável da sociedade humana com o ambiente que integra, principalmente no que concerne à fauna, à flora e aos recursos hídricos.
+
+Diante do atual cenário global, em que a preocupação com as mudanças climáticas, a degradação da natureza, a redução da biodiversidade, os riscos socioambientais locais e globais, as necessidades planetárias evidenciam-se na prática social, cabe às unidades escolares incluir os princípios da Educação Ambiental de forma integrada aos objetos de conhecimentos obrigatórios, como forma de intervenção ampla e fundamentada para o exercício pleno da cidadania, conforme destacado nas Leis de Diretrizes e Bases da Educação (Lei nº 9.394/1996) e nas Diretrizes Curriculares Nacionais de Educação Ambiental, estabelecidas pela Resolução nº 2, de 15 de junho de 2012, do Conselho Nacional de Educação, que estabelece as Diretrizes Curriculares Nacionais para a Educação Ambiental.
+
+Nesse contexto, é de suma importância que a comunidade escolar conheça os Programas relativos à Educação Ambiental, promovidos pelo Governo do Estado da Bahia, a fim de fortalecê-la e enraizá-la. Destacamos o Programa de Educação Ambiental do Sistema Educacional da Bahia (ProEASE)¹⁶, o qual tem como finalidade orientar e fortalecer o processo educativo, uma vez que apresenta princípios, diretrizes e linhas de ação, e fornece subsídios teórico-metodológicos que objetivam ampliar os conhecimentos dos profissionais da educação, de forma que ações permanentes integrem a temática ao cotidiano e ao Projeto Político-Pedagógico, contribuindo para a formação integral e cidadã dos estudantes, por meio de uma prática transformadora e emancipatória e, consequentemente, atingindo toda a sua dimensão no espaço escolar.
+
+¹⁶ Disponível em: <http://escolas.educacao.ba.gov.br/proease1>. Acesso em: 15 dez. 2019.
+
+**Figura 1 —** Mandala Sistema de Educação do Estado da Bahia – níveis e modalidades de ensino e de aprendizagem na estrutura do ProEASE (2015)
+
+O ProEASE traz princípios e diretrizes que poderão subsidiar a abordagem dos objetos de conhecimento, conforme ilustra a imagem a seguir.
+
+Para Guimarães (2004), o sentido de educar ambientalmente vai além de sensibilizar a população para o problema. Ele destaca que “só a compreensão da importância da natureza não tem levado à sua preservação por nossa sociedade”, complementando que “a Educação Ambiental já está definitivamente incorporada à escola”. Entretanto, o que se observa de forma geral é uma prática fragilizada, com ações fragmentadas e dissociadas da realidade local, reflexo da formação recente de um lócus acadêmico em torno da temática, dos processos formativos dos profissionais da educação que, na maioria das vezes, ocorre dentro de uma lógica reducionista e conservadora em um campo de disputa ambiental – “lógica conservadora” versus “proposta dialógica e reflexiva”.
+
+O trabalho com Educação Ambiental deve partir do pressuposto de que existe um tensionamento entre sociedade e ambiente oriundo da relação de poder historicizada, não naturalizada e passível de transformação (CAVALCANTE, 2005). Para Layrargues (1999), a identificação e a resolução de problemas locais podem ser estratégias metodológicas privilegiadas para a prática educativa e, também, um instrumento importante para a Educação Ambiental.
+
+O fluxo reflexivo do pensamento crítico (COSTA-PINTO; MACEDO, 2012), Figura 2, ilustra a dinâmica preconizada pela Educação Ambiental, de forma que possamos conhecer o ontem, entender o hoje e intervir no amanhã.
+
+Diversos mecanismos são utilizados para a implementação da Educação Ambiental nas escolas. Para Vasconcellos (1997), a presença em todas as práticas educativas da reflexão sobre as relações dos seres entre si, do ser humano com ele mesmo e do ser humano com seus semelhantes é condição imprescindível para que a Educação Ambiental ocorra.
+
+Destacamos a importância de as unidades escolares, por meio dos seus currículos, implementarem a Educação Ambiental de forma crítica – questionando as condicionantes sociais que geram problemas e conflitos socioambientais; emancipatória – visando à autonomia dos sujeitos frente às relações de expropriação, opressão e dominação; e transformadora – buscando a mudança do padrão societário, no qual se define a degradação da natureza e, em seu interior, da condição humana (BAHIA, 2015).
+
+Como já afirmado nos Marcos Teóricos, Conceituais e Metodológicos, segundo Sidney (2018), o currículo é compreendido como:
+
+> “Um artefato socioeducacional que se configura nas ações de conceber/selecionar/produzir, organizar, institucionalizar, implementar/dinamizar saberes e atividades, visando mediar processos formativos.”
+
+Essa concepção considera a flexibilidade do currículo, as demandas dos sujeitos, seus contextos, espaços de aprendizagem, levando em conta a diversidade dos Territórios, adequando-o a variadas metodologias que possibilitem a aprendizagem significativa dos estudantes para a formação humana integral.
+
+Nessa perspectiva, a Pedagogia Histórico-Crítica, que evidencia a consciência dos condicionantes histórico-sociais da educação (SAVIANI, 1985), respalda o trabalho com a Educação Ambiental, objetivando um equilíbrio entre teoria e prática, de forma a envolver os estudantes em aprendizagens significativas. Constitui-se como uma boa ferramenta para “despertar” as questões socioambientais, uma vez que requer dos profissionais da educação uma nova forma de trabalhar com os objetos e áreas do conhecimento de maneira contextualizada, evidenciando que os saberes advêm da história produzida pela humanidade e das diversas tecituras nas relações naturais e sociais.
+
+A didática da Pedagogia Histórico-Crítica é um riquíssimo material desenvolvido pelo Professor Gasparin (2005) por meio de sua prática pedagógica. Esta oportunizará que a teoria se efetive realmente na ação docente, por meio dos passos estruturados abaixo e representados na figura a seguir.
+
+**Figura 3 —** Síntese da Didática na Pedagogia Histórico-Crítica  
+Fonte: Gasparin (2005).
+
+1. **1º passo – Prática Social Inicial:** Nível de desenvolvimento atual do educando;
+2. **2º passo – Problematização:** consiste na explicação dos principais problemas postos pela prática social, relacionados ao conteúdo que será tratado;
+3. **3º passo – Instrumentalização:** essa se expressa no trabalho do professor e dos estudantes para a aprendizagem;
+4. **4º passo – Catarse:** é a expressão elaborada de uma nova forma para entender a teoria e a prática social;
+5. **5º passo – Prática social final:** novo nível de desenvolvimento atual do educando, consiste em assumir uma nova proposta de ação a partir do que foi aprendido.
+
+É fundamental a identificação de temas-chave – o Programa de Educação Ambiental da Bahia apresenta de forma sistematizada as informações¹⁸ para a implementação e o enraizamento da Educação Ambiental, considerando as especificidades e necessidades de cada território, de forma a promover discussões contextualizadas e integradas aos problemas ambientais e sociais, conforme preconizado pelas Políticas Nacional (Lei nº 9.795/99) e Estadual (Lei nº 12.056/2011) de Educação Ambiental, como também pelas Resoluções dos Conselhos Nacional (CNE/CP nº 02/2012) e Estadual (CEE nº 11/2017) de Educação e, principalmente, considerando o caráter interdisciplinar que a Educação Ambiental possui, devendo as escolas e, principalmente, os profissionais da educação desenvolverem como uma prática educativa integrada, contínua, permanente, de forma transversal (BARBOSA; ROCHA, 2018), e não como um componente curricular isolado.

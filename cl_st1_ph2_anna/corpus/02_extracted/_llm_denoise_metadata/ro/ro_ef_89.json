@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ce300d841ce3a24006ab30bd551dc87d2b3b09b987f587e6b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 443,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 402,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 845
+    }
+  },
+  "created_at": "2026-09-22T23:14:32Z",
+  "duration_seconds": 3.144,
+  "error": null,
+  "excerpt_id": "ro_ef_89",
+  "filename": "ro_ef_89.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b860aa8e63b40055c6428da3e1d622cbe1f8a7eb69fd3f0911a3e3cf7a4563a8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "274e0cf067ea8a8bda0bef2695cf0193e6aa099777be9ec25db60fe20c4e5576",
+    "rendered_prompt_sha256": "fb2bf64429523a0e4e6323b005a81b431aa98617c5f8545d1b4754c65d4f39d5",
+    "source_text_sha256": "27bcbd476906f263885bd56d8de05736cbac0e41fb41dcf82d616481a2ddb1b5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_89.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3193,
+    "filename": "ro_ef_89.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_89.txt",
+    "state": "ro",
+    "word_count_original": 258
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_89.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_89.json"
+  },
+  "raw_response_text": "### 9.7.4 Ciências no Ensino Fundamental – Anos Iniciais\n\nAntes de iniciar sua vida escolar, as crianças já convivem com fenômenos, transformações e aparatos tecnológicos em seu dia a dia. Além disso, na Educação Infantil, como proposto na BNCC, elas têm a oportunidade de explorar ambientes e fenômenos e também a relação com seu próprio corpo e bem-estar, em todos os campos de experiências. Assim, ao iniciar o Ensino Fundamental, os estudantes possuem vivências, saberes, interesses e curiosidades sobre o mundo natural e tecnológico que devem ser valorizados e mobilizados.\n\nEsse deve ser o ponto de partida de atividades que assegurem a eles construir conhecimentos sistematizados de Ciências, oferecendo-lhes elementos para que compreendam desde fenômenos de seu ambiente imediato até temáticas mais amplas. Nesse sentido, não basta que os conhecimentos científicos sejam apresentados aos alunos. É preciso oferecer oportunidades para que eles, de fato, envolvam-se em processos de aprendizagem nos quais possam vivenciar momentos de investigação que lhes possibilitem exercitar e ampliar sua curiosidade, aperfeiçoar sua capacidade de observação, de raciocínio lógico e de criação, desenvolver posturas mais colaborativas e sistematizar suas primeiras explicações sobre o mundo natural e tecnológico, e sobre seu corpo, sua saúde e seu bem-estar, tendo como referência os conhecimentos, as linguagens e os procedimentos próprios das Ciências da Natureza. É necessário destacar que, em especial nos dois primeiros anos da escolaridade básica, em que se investe prioritariamente no processo de alfabetização das crianças, as habilidades de Ciências buscam propiciar um contexto adequado para a ampliação dos contextos de letramento.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

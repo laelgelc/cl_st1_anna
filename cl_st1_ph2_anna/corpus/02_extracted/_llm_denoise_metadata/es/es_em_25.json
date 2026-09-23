@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04be1fe73ee68d14006ab300aea38487d29a81ef99c8ddaefc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 804,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 762,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 1566
+    }
+  },
+  "created_at": "2026-09-22T22:27:00Z",
+  "duration_seconds": 5.999,
+  "error": null,
+  "excerpt_id": "es_em_25",
+  "filename": "es_em_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8f0e7194462e2bcb6775586d34eddb87938da82c0a74258049bc33d073bf28e3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d08630c30c87ea907d001189148be673af8f36d2f47ca87f9b2ee9a1c16fb669",
+    "rendered_prompt_sha256": "85610df5bea504b0bf39772b06a4eae7a5fa65abdcca75b9ea74acb1f04d8c3b",
+    "source_text_sha256": "4fd06ed603f9231f99033ec54da90e0b8016d636e1542a67778300c264867e27"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_em_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1032,
+    "filename": "es_em_25.txt",
+    "filepath": "corpus/00_source_per_state/es/es_em_25.txt",
+    "state": "es",
+    "word_count_original": 436
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_em_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_em_25.json"
+  },
+  "raw_response_text": "## 6. Elementos Conceituais por área de conhecimento\n\nOs Elementos Conceituais que institui os Parâmetros Nacionais para os Itinerários Formativos de Aprofundamento (IFAs) representam os pilares teóricos, epistemológicos e pedagógicos que devem orientar a estruturação e a oferta dos Itinerários em cada área do conhecimento. Eles não são apenas um conjunto de temas ou conteúdos, mas sim fundamentos que definem como o conhecimento deve ser abordado, integrado e significativo para os(as) estudantes. Nessa perspectiva, os elementos conceituais, por área do conhecimento, estão organizados da seguinte forma:\n\n### Linguagens e suas Tecnologias\n\nSão definidos cinco elementos conceituais:\n\na) Performatividade e práticas discursivas;  \nb) Multiletramentos e semioses contemporâneas;  \nc) Linguagens e experimentação estética;  \nd) Cultura digital, narrativas tecnológicas e cibercultura;  \ne) Processos de significação e construção do mundo.\n\n### Matemática e suas Tecnologias\n\nSão definidos três elementos conceituais:\n\na) Compreensão da evolução da inscrição sócio-histórica da Matemática;  \nb) Conhecimento matemático, interdisciplinaridade e tecnologias;  \nc) Resolução de problemas e modelagem matemática.\n\n### Ciências da Natureza e suas Tecnologias\n\nSão definidos dois elementos conceituais:\n\na) Regimes epistemológicos das ciências naturais e de sua inscrição histórica e social;  \nb) Interfaces e fronteiras das ciências da natureza.\n\n### Ciências Humanas e Sociais Aplicadas\n\nSão definidos dois elementos conceituais:\n\na) Estudo do homem e o meio, vida em sociedade e consciência cidadã;  \nb) Fenômenos sociais, diversidade cultural, cidadania e democracia.\n\nOs elementos conceituais das áreas do conhecimento representam uma visão transformadora da educação, que busca formar jovens autônomos, críticos e capazes de intervir no mundo com base em conhecimentos profundos, contextualizados e socialmente relevantes. São, portanto, a base para uma educação integral e integrada, alinhada com os princípios de equidade, diversidade e justiça social.\n\nNesse sentido, a implementação dos Itinerários Formativos de Aprofundamento representa uma oportunidade para a consolidação de um Ensino Médio mais inclusivo, plural e conectado com os desafios contemporâneos. Ao articular teoria e prática, ciência e cultura, individualidade e coletividade, os IFAs reafirmam o compromisso da educação com a formação integral, possibilitando que cada estudante construa percursos de aprendizagem significativos, alinhados aos seus projetos de vida e às demandas sociais.\n\nPortanto, esse movimento exige o engajamento de toda a rede estadual, desde gestores(as) e docentes até os(as) estudantes, em um processo de corresponsabilidade que valoriza a diversidade cultural, combate desigualdades históricas e estimula o protagonismo juvenil. Trata-se de reconhecer a potência dos(as) jovens como agentes de transformação social.\n\nAssim, os IFAs contribuem para a consolidação de um Ensino Médio de qualidade, democrático e emancipador, capaz de preparar os(as) estudantes para atuar com ética, criticidade e criatividade, promovendo a construção de uma sociedade mais justa, plural e sustentável.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ab019bb7e2391c9006ab2fe37a76487d2b6510d3fe451ca6c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1067,
+      "input_tokens_details": {
+        "cache_write_tokens": 1064,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1102,
+      "output_tokens_details": {
+        "reasoning_tokens": 217
+      },
+      "total_tokens": 2169
+    }
+  },
+  "created_at": "2026-09-22T22:16:32Z",
+  "duration_seconds": 8.569,
+  "error": null,
+  "excerpt_id": "ap_em_8",
+  "filename": "ap_em_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "83ac226610e3afed26b7476aa8c22ed808a4df642957235f1ffe995b31697170",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d495d5ad5dfbb397fece6c6b9ea8054aac434a25f6d3817dab1621614f55d382",
+    "rendered_prompt_sha256": "fde630554c47e793cd5e4e735ff2435fcc3b838b73e521c1e3f7dbaf02411e20",
+    "source_text_sha256": "fdd51f6582f1bbd5602eea640ff6cfe4adf44788996bd5d05b7a16b335c19681"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 560,
+    "filename": "ap_em_8.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_8.txt",
+    "state": "ap",
+    "word_count_original": 609
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_8.json"
+  },
+  "raw_response_text": "# O ENSINO MÉDIO EM TEMPO INTEGRAL\n\nDestarte a importância da implementação do Ensino Médio, à luz da Lei 13.415/2017 em toda a rede de ensino público amapaense, e considerando o Plano Estadual de Educação – Lei nº 1.907/2015, alinhado ao Plano Nacional de Educação (PNE), estabelece na Meta 6:\n\n> Oferecer educação em tempo integral até o final da vigência deste Plano, em no mínimo 50% (cinquenta por cento) das escolas públicas, de forma a atender pelo menos 25% (vinte e cinco por cento) dos estudantes da Educação Básica. (PEE/AP/, 2015)\n\nA Portaria nº 2.116/Ministério da Educação - MEC, de 6 de dezembro de 2019, estabelece novas diretrizes, novos parâmetros e critérios para o Programa de Fomento às Escolas de Ensino Médio em Tempo Integral - EMTI, em conformidade com a Lei nº 13.415, de 16 de fevereiro de 2017.\n\nA Portaria supra mencionada, alinhada à BNCC, assim determina:\n\n> A proposta pedagógica das escolas de ensino médio em tempo integral terá por base a ampliação da jornada escolar e a formação integral e integrada do estudante, tendo como pilar a Base Nacional Comum Curricular - BNCC e a nova estrutura do ensino médio. (BRASIL. Art. 5º).\n\nA Lei Nº 2.283, de 29 de dezembro de 2017, Institui o Programa de Escolas do Novo Saber, no âmbito do Estado do Amapá, e dá outras providências:\n\n> Art. 1º. Fica instituído, no âmbito do Estado do Amapá, o Programa de Escolas do Novo Saber, vinculado à Secretaria de Estado da Educação – SEED, tendo por objetivo principal o planejamento, a execução e a avaliação de um conjunto de ações inovadoras em conteúdo, método e gestão, direcionadas à melhoria da oferta e da qualidade do ensino médio na rede pública do Estado do Amapá, assegurando a criação e a implementação de uma rede de Escolas do Novo Saber. (Lei 2.283/2017 GEA).\n\nAs Escolas do Novo Saber, em sua proposta curricular devem observar:\n\n> [...] os currículos do ensino médio deverão considerar a formação integral do aluno, de maneira a adotar um trabalho voltado para a construção de seu projeto de vida e para sua formação nos aspectos físicos, cognitivos e socioemocionais. (Lei Nº 2.283/2017 - GEA).\n\nPara dar cumprimento ao estabelecido na BNCC, o protagonismo tem forte significado na formação dos estudantes, no Ensino Médio em Tempo Integral, conforme o disposto no Art. 5º, inciso IX da Lei Nº 2.283/GEA:\n\n> Protagonismo: processo no qual os estudantes desenvolvem suas potencialidades por meio de práticas e vivências, apoiados pelos professores, assumindo progressivamente a gestão de seus conhecimentos, da sua aprendizagem e da elaboração do seu Projeto de Vida. (Lei Nº 2.283/2017- GEA).\n\nAssim, o RCA do Ensino Médio Amapaense, reitera o Programa de Escolas do Novo Saber no sentido de ofertar uma arquitetura curricular com o princípio da flexibilidade, e apresenta as matrizes curriculares II e III, cuja estrutura também corresponde à Formação Geral e aos Itinerários Formativos, com um modelo pedagógico, cuja centralidade é o Jovem e o seu Projeto de Vida, tendo como eixos formativos:\n\n- A Formação Acadêmica de Excelência, a qual se processa por meio de prática eficazes de ensino e de processos verificáveis de aprendizagem;\n- A Formação para a Vida, cujo objetivo é ampliar as referências do estudante aos valores formados ao longo de sua vida nos diversos meios com os quais interage e que contribuirão para uma sólida base em sua formação e;\n- A Formação de Competências para o Século XXI, nas dimensões sociais, emocionais e produtivas, de acordo com o Modelo da Escola da Escolha, o qual fundamenta e orienta as Escolas do Novo Saber, no Estado do Amapá.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

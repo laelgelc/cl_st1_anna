@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0cf90816213423a9006ab30aba9a5087d29e4e81a5be69f815",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 731,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 817,
+      "output_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "total_tokens": 1548
+    }
+  },
+  "created_at": "2026-09-22T23:10:22Z",
+  "duration_seconds": 37.859,
+  "error": null,
+  "excerpt_id": "rj_inf_intro_6",
+  "filename": "rj_inf_intro_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5cb8beb33f7ce05ec0f8827e796dfbe623108bb943141b293cf7be30cf1dc0b4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "387ce50170b6eed2562ae53bb75e7f89e7f31cc5ba9f4261b3a7ce5edd8ee1e7",
+    "rendered_prompt_sha256": "fd5b11a317d75e33eee2a87e83d141edd10237100b8ad92129e2489c3af0ff8d",
+    "source_text_sha256": "06c7d6a4dca0d4c4c46551576965116ba51866f9afbe899b9e7ff4c8c0c5e88a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_intro_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2937,
+    "filename": "rj_inf_intro_6.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_intro_6.txt",
+    "state": "rj",
+    "word_count_original": 451
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_intro_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_intro_6.json"
+  },
+  "raw_response_text": "## Interações Criam Vínculos e Aprendizagens\n\nEspera-se hoje que um profissional docente nas creches e pré-escolas tenha uma visão holística, ou seja, que possua um olhar da totalidade e, ao mesmo tempo, caminhe junto, reflita sobre sua prática, assuma sua realidade no cotidiano da Educação Infantil como objeto de pesquisa, articulando tudo isso a favor da aprendizagem e do desenvolvimento das crianças. Dessa forma, o professor precisa ser curioso, cooperativo e, sobretudo, um aprendiz permanente, um ser em constante formação, que constrói sua aprendizagem diariamente por meio das interações.\n\nVale destacar a importância das relações entre adultos e crianças serem pautadas pelo respeito, ficando explicitamente condenadas ações violentas, de negligência, repreensão ou castigo que possam causar prejuízos físicos e psicológicos às crianças. (BRASIL/DCNEI, 2009, art. 8º, § 1º, inc. X) O respeito aos direitos das crianças coloca-se como algo central a ser contemplado nas ações pedagógicas das instituições.\n\nA criança se desenvolve e aprende por meio da interação e de relacionamentos significativos, nos quais ela recebe afeto e estabelece vínculo com outra criança, com outro adulto e consigo mesma.\n\nNas suas diferenças e diversidades, as crianças são completas, pois têm um corpo capaz de sentir, pensar, emocionar-se, imaginar, transformar, inventar, criar, dialogar: um corpo produtor de história e cultura. Para tornarem-se sujeitos, elas precisam se relacionar com outras crianças e adultos. Estar junto aos outros significa estabelecer relacionamentos e interações vinculados aos contextos sociais e culturais. Portanto, a interação com os pais ou responsáveis, avós, irmãos mais velhos, professores e outras crianças é fundamental no desenvolvimento das crianças.\n\nRelacionamentos afetuosos e vínculos significativos são essenciais para o desenvolvimento infantil. A criança precisa dessa interação desde bebê.\n\nO professor como um sujeito arguto precisa ter um olhar de totalidade, ou seja, lúcido e observador da criança como uma pessoa completa, integrada e contextualizada, em cada um dos seus domínios funcionais. Sendo assim, observa-se, de forma sistemática, crítica e criativa, o comportamento de cada criança durante as brincadeiras e interações no cotidiano (WALLON, 2007).\n\nSer professor não constitui uma tarefa simples, ao contrário, esta requer saber escutar o outro, ter atitudes afetivas que deem segurança às crianças. A interação professor/criança ultrapassa os limites profissionais, escolares, do ano letivo e de semestres. É, na verdade, uma relação que deixa marcas e sempre busca a afetividade e o diálogo como formas de construção de conhecimentos e possibilidades de livre expressão.\n\nDestarte, o professor da Educação Infantil estabelecerá, com cada bebê ou criança, maiores ou menores vínculos intelectuais e afetivos, o que resultará, consequentemente, em sentimentos recíprocos de cada criança em relação a esse professor, singularizando a sua forma de ser com um ou outro adulto que dela tome conta.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

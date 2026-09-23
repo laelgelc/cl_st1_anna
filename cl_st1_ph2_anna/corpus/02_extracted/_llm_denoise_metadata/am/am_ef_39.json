@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_098410b93138d14b006ab2fd32de1487d288bd1e18609d42d8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1769,
+      "input_tokens_details": {
+        "cache_write_tokens": 1766,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1882,
+      "output_tokens_details": {
+        "reasoning_tokens": 343
+      },
+      "total_tokens": 3651
+    }
+  },
+  "created_at": "2026-09-22T22:12:14Z",
+  "duration_seconds": 12.139,
+  "error": null,
+  "excerpt_id": "am_ef_39",
+  "filename": "am_ef_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d6fb1d9cb35156416cccab518b129d88b3fd89dcf9b4cf83d85b65fdc1d7370f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3e581a0d1b119dd7ebb827d40fa9c15d867f955cdf9c91b2cd25639acaad3412",
+    "rendered_prompt_sha256": "cce4e72ebb9a9d555c4bb0650ded404f6af7db4a2b292e7b50b3ddc6147f4fa2",
+    "source_text_sha256": "eb9923dc1c990011a45d3c6ddb40d50f6de6efebf3ea7baa0a21d5a3dd8597f5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 342,
+    "filename": "am_ef_39.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_39.txt",
+    "state": "am",
+    "word_count_original": 1078
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_39.json"
+  },
+  "raw_response_text": "É importante registrar que, antes mesmo dessa lei ser promulgada na capital amazonense, a Secretaria de Educação do Município (SEMED-Manaus) vinha promovendo — via Departamento de Gestão Educacional e Divisão de Ensino Fundamental — o Projeto English for Kids. O projeto teve início em 2013, quando atendeu 800 alunos dos 4º e 5º anos. Desde então, tem ampliado continuamente o número de escolas e alunos atendidos, estando, em 2018, com um universo de 7.941 alunos distribuídos em 29 escolas de anos iniciais, incluindo instituições da zona rural e ribeirinha e um Centro Municipal de Educação Infantil (CMEI).\n\nEm razão dos fatos apresentados e levando em consideração a importância da Língua Inglesa no contexto atual e da facilidade de aprendizagem de outro idioma ainda na infância, observou-se a necessidade de construir um currículo de Língua Inglesa (não obrigatório) com o objetivo de orientar o ensino do idioma ainda nas séries/anos iniciais do ensino regular.\n\nNesta perspectiva, o componente de Língua Inglesa está organizado no Referencial Amazonense, a partir de cinco eixos organizadores:\n\n**Oralidade:** Abrange o uso oral da Língua Inglesa, evidenciando a compreensão e a produção oral, estimulando o aluno a se envolver nas práticas de linguagem oral presencial com contato face a face (brincadeiras de roda, jogos, músicas, movimentos seguindo instruções do professor, entre outros). Alguns aspectos relevantes, como pronúncia, entonação e ritmo, ao serem articulados em consonância às estratégias de compreensão, são de suma importância para a exploração das práticas de linguagem em situações de uso oral da língua inglesa. Nessas práticas, que articulam não só o aspecto verbal, mas também o visual, o sonoro, o gestual e o tátil, os estudantes terão oportunidades de vivência e familiarização com esse outro “jeito” de representar a realidade.\n\n**Práticas de Letramento:** Compreende o processo de letramento nos 1º e 2º anos, visto que o desenvolvimento dessas práticas de linguagem deve ser trabalhado em consonância com sua língua materna, o que ocorre por meio de um trabalho que perpassa por todos os demais componentes, por meio da leitura de histórias infantis em roda, contação de histórias, declamação de poesias enfatizando os sons e os ritmos das palavras, associações entre objetos, letras e sílabas etc. na Língua Inglesa.\n\n**Leitura:** Compreende as práticas de linguagem oriundas da interação do leitor com o texto escrito, apoiando-se na compreensão e na interpretação dos gêneros escritos em Língua Inglesa, que circulam nos diversos campos e esferas da sociedade. Neste eixo, o aluno desenvolve as práticas de leitura necessárias para reconhecer tipologias e gêneros textuais, além de aprimorar o senso crítico em percurso criativo e autônomo de aprendizagem da língua. São trabalhados também diferentes modos de leitura (verbais e híbridos). Além disso, as práticas leitoras em língua inglesa compreendem possibilidades variadas de contextos de uso das linguagens para pesquisa e ampliação de conhecimentos de temáticas significativas para os estudantes, com trabalhos de natureza interdisciplinar e fruição estética de gêneros infantis como lendas, contos, crônicas, fábulas, letras de canção, cordéis, de diferentes lugares do mundo.\n\n**Escrita:** O eixo da escrita considera dois aspectos do ato de escrever — natureza processual e colaborativa e o escrever como prática social — propondo aos alunos a oportunidade de agir com protagonismo, iniciando com textos que utilizam poucos recursos verbais (mensagens, tirinhas, fotolegendas, adivinhas, sinalização de trânsito, uso de cores, entre outros), com o auxílio do professor como escriba, e se desenvolve para textos mais elaborados (notícias, cartão-postal, cartões para datas comemorativas, chats, entre outros) a partir do 3º ano, com o uso de recursos linguístico-discursivos variados, em movimentos coletivos e individuais de planejamento, produção e revisão.\n\n**Conhecimentos linguísticos:** O estudo da gramática tem como objetivo fazer com que o aluno, de modo indutivo, compreenda o funcionamento sistêmico da Língua Inglesa. Desenvolvem-se noções de “forma padrão” e respeito às inúmeras “variações linguísticas”, explorando ainda as semelhanças e diferenças entre o inglês e sua língua materna. Ressalta-se, no entanto, que a criança preferencialmente deve construir repertório lexical a serviço das práticas de letramento (1º e 2º anos) e, durante os anos subsequentes (3º, 4º e 5º anos), segue o processo das habilidades de leitura, escrita e oralidade em todos os anos, que se consolidará durante toda a trajetória escolar de nove anos.\n\n**Dimensões interculturais:** Ressalta o conceito do inglês como língua franca, analisando os diferentes papéis da própria Língua Inglesa no mundo, seus valores, brincadeiras, costumes familiares, alimentação, vestimentas de diferentes povos ao redor do mundo. Surge da compreensão de que as culturas passam continuamente por um processo de interação e reconstrução.\n\nTodos os eixos devem ser trabalhados de forma simultânea, de modo a revelar a natureza híbrida, polifônica e multimodal da Língua Inglesa. As práticas de linguagem são compostas de unidades temáticas, as quais, em sua grande maioria, repetem-se e são ampliadas as habilidades a elas correspondentes. Cada unidade temática possui objetos de conhecimentos e habilidades a serem trabalhados no decorrer do ano. Sendo assim, o componente de Língua Inglesa está organizado da seguinte forma: eixo e unidade temática, competências, habilidades, objeto de conhecimento e detalhamento do objeto de conhecimento. Na seção de detalhamento do objeto de conhecimento, encontra-se um espaço com sugestão de vocabulário e outros aspectos a serem trabalhados de acordo com a habilidade.\n\nO profissional da área observará neste item um leque de opções para o trabalho interdisciplinar, facilitando a construção e a execução de um plano de aula diferenciado.\n\nNesse sentido, visando à equidade na Educação Básica e à garantia dos direitos de aprendizagem do aluno brasileiro, é de suma importância que o docente se aproprie e faça uso deste documento, para que o ensino da Língua Inglesa não seja apenas de caráter formativo, mas que desenvolva nos alunos competências e habilidades que façam diferença no seu cotidiano enquanto cidadão.\n\nPara fundamentar o componente de Língua Inglesa no Referencial Curricular Amazonense para o Ensino Fundamental Anos Iniciais, utilizou-se a Base Nacional Comum Curricular (BNCC) como documento orientador, documentos oficiais (Resolução nº 002/2017 e Lei municipal nº 374 de 23/06/2014), além de diversos materiais didáticos, os quais serviram de subsídio para a sua construção. Houve ainda a participação de uma equipe de colaboradores que contou com a representatividade de profissionais das Universidades (Estadual e Federal), das redes municipais, estadual e privada de ensino, bem como o período de consulta pública, o que foi crucial para o desenvolvimento de um trabalho coletivo e democrático, pois contemplou as contribuições dos profissionais da área de todos os municípios do Estado.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

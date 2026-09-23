@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_028918d15a7c798e006ab307f7efa087d29a8e666876016f9b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 348,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 273,
+      "output_tokens_details": {
+        "reasoning_tokens": 28
+      },
+      "total_tokens": 621
+    }
+  },
+  "created_at": "2026-09-22T22:58:02Z",
+  "duration_seconds": 2.964,
+  "error": null,
+  "excerpt_id": "pe_ef_76",
+  "filename": "pe_ef_76.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "67e8e80a0bf72178686cc7c2451336425cbd5c6d21946b05dda2b41784bccd97",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8cb01ee3958373fb03f6266bac27bb0a70cd258ddd12c254fea12ff6809ba79b",
+    "rendered_prompt_sha256": "0781c2849aaf8d859b5623aa2679d462590930f05b5e3ce63620044c5db3c501",
+    "source_text_sha256": "f7a68aa69762ab881d407955da019ecee4010e400d3871f741bc897455734410"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_76.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2458,
+    "filename": "pe_ef_76.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_76.txt",
+    "state": "pe",
+    "word_count_original": 152
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_76.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_76.json"
+  },
+  "raw_response_text": "## 7.1 COMPETÊNCIAS ESPECÍFICAS DE ENSINO RELIGIOSO PARA O ENSINO FUNDAMENTAL\n\n1. Conhecer os aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida a partir de pressupostos científicos, filosóficos, estéticos e éticos.\n2. Compreender, valorizar e respeitar as manifestações religiosas e filosofias de vida, suas experiências e saberes, em diferentes tempos, espaços e territórios.\n3. Reconhecer e cuidar de si, do outro, da coletividade e da natureza, enquanto expressão de valor da vida.\n4. Conviver com a diversidade de crenças, pensamentos, convicções, modos de ser e viver.\n5. Analisar as relações entre as tradições religiosas e os campos da cultura, da política, da economia, da saúde, da ciência, da tecnologia e do meio ambiente.\n6. Debater, problematizar e posicionar-se frente aos discursos e práticas de intolerância, discriminação e violência de cunho religioso, de modo a assegurar os direitos humanos no constante exercício da cidadania e da cultura de paz.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

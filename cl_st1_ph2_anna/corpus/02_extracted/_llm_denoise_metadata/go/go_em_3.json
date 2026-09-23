@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_053480f8f795752b006ab30133538487d2b7652d4a8bcf540b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1507,
+      "input_tokens_details": {
+        "cache_write_tokens": 1504,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1524,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 3031
+    }
+  },
+  "created_at": "2026-09-22T22:29:15Z",
+  "duration_seconds": 8.66,
+  "error": null,
+  "excerpt_id": "go_em_3",
+  "filename": "go_em_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c6fb8bf8085399bede275a6b843d9cdbd8c71255af1f264d68b26e5218eaab7d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3f84bca10e82e8233efec139ddd2c85bd26dfebbfed816a0aa125876830fda79",
+    "rendered_prompt_sha256": "1f9f34ef833d471c150806a17574f2b2dd0980d8aa0777c9b4746a95cff7abe6",
+    "source_text_sha256": "ca78657cb86621fd3a6559169544008c396ed1d858c6a7e207ef3d0350e07fd4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1152,
+    "filename": "go_em_3.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_3.txt",
+    "state": "go",
+    "word_count_original": 1005
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_3.json"
+  },
+  "raw_response_text": "# BNCC-Etapa Ensino Médio e as Diretrizes Curriculares\n\nA BNCC, como amplamente discutido nos volumes anteriores do DC-GO, é um documento normativo que busca assegurar os direitos de aprendizagem e o desenvolvimento humano integral dos/as estudantes, por meio de um conjunto de aprendizagens consideradas essenciais, capazes de desenvolver competências e habilidades, entendidas como conhecimento em ação, significativos para a vida que devem ser desenvolvidas, progressivamente, ao longo da Educação Básica.\n\nA construção da BNCC iniciou-se em 2014 e tinha como foco um documento único para toda a Educação Básica. Foram duas versões apresentadas ao longo dos anos de 2015 e 2016 e contou com contribuições de professores/as, gestores/as e diferentes agentes da comunidade civil de todo país. Em 2017, a terceira versão apresentada ao Conselho Nacional de Educação (CNE) não incluía a Etapa Ensino Médio em razão da Medida Provisória/MP no 746, de 22 de setembro de 2016, que posteriormente tornou-se a Lei no 13.415/17, conhecida como Lei da Reforma do Ensino Médio ou Lei do Novo Ensino Médio.\n\nEssa lei estabelecia mudanças significativas nessa etapa da Educação Básica e, com isso, a necessidade de reestruturação proveniente das mudanças conceituais, organizacionais e metodológicas preconizadas por ela.\n\nO MEC, juntamente com o Consed, estruturou o processo de elaboração da Proposta da BNCC para o Ensino Médio, com a produção de um documento preliminar elaborado por professores/as da Unicamp. Nos dias 07, 08 e 09 de março de 2018, esse documento foi submetido à apreciação e crítica de um conjunto de professores/as organizados por áreas do conhecimento, representantes de todas as unidades da federação, os quais participaram de reunião técnica em São Paulo, na Escola de Formação e Aperfeiçoamento de Professores (EFAP). Após a consolidação das contribuições desse grupo, o documento preliminar da BNCC Etapa Ensino Médio foi entregue ao CNE, no dia 04 de abril de 2018, sendo publicado e aberto para consulta pública. Intensos debates nacionais ocorreram após a BNCC/EM ser enviada ao CNE. Diversas reuniões, encontros e audiências públicas com a sociedade civil organizada ocorreram, também, no período de 11 de maio a 14 de setembro de 2018, nas diferentes regiões brasileiras.\n\nA BNCC/EM foi homologada pelo MEC em 18 de dezembro de 2018, após aprovação do CNE, por meio da Resolução no 04, de dezembro de 2018. Assim, passou a ser referência nacional para os sistemas de ensino e para as instituições e redes escolares públicas e instituições de ensino privadas, dos sistemas federal, estaduais, municipais e distrital, para fundamentarem a implementação, avaliação e revisão dos seus currículos do Ensino Médio, devendo, também, avaliar propostas pedagógicas das instituições escolares, contribuindo para a articulação e coordenação de políticas e ações educacionais.\n\nA BNCC para o Ensino Médio, assim como para o Ensino Fundamental, está organizada em quatro Áreas do Conhecimento: Linguagens e suas Tecnologias; Matemática e suas Tecnologias; Ciências da Natureza e suas Tecnologias e Ciências Humanas e Sociais Aplicadas. Cada área possui competências específicas que devem ser desenvolvidas no decorrer do Ensino Médio, outras, que foram iniciadas no Ensino Fundamental, devem ser aprofundadas.\n\nNesse sentido, a BNCC reforça o que a LDBEN preconiza como uma das finalidades do Ensino Médio: ampliar, aprofundar, sistematizar e consolidar conhecimentos adquiridos no Ensino Fundamental e a formação integral dos/as estudantes. No capítulo 2 Formação Geral Básica será explorada a transição entre as etapas e as especificidades de cada área.\n\nA BNCC/EM trouxe uma perspectiva de área que propõe a integração curricular por meio da organização e planejamento de forma interdisciplinar e transdisciplinar, o que requer também a execução associada e cooperativa dos/as professores/as, gerando o fortalecimento das relações entre os saberes, o que favorece, também, a contextualização para a intervenção na realidade na qual o/a jovem está inserido/a (DCNEM/2018).\n\nCom as atualizações da Lei de Diretrizes e Bases da Educação (LDBEN), instituída pela Lei n° 13.415/2017 e pelas Diretrizes Curriculares Nacionais para o Ensino Médio (DCNEM/2018), a organização curricular passou a se estruturar em formação geral básica e itinerários formativos indissociáveis. A formação geral básica está constituída por uma carga horária total máxima de 1.800h, conforme define a Base Nacional Comum Curricular (BNCC) e os itinerários formativos por 1.200h, sendo este o ponto estratégico da flexibilização curricular, para que os/as estudantes possam ter a possibilidade de escolher conforme seus anseios e projeto de vida. As unidades escolares devem ofertar, no mínimo, dois IFs para que os/as estudantes tenham a opção de escolher um deles, considerando-se as quatro diferentes áreas do conhecimento e a formação técnica e profissional. Estes IFs estarão relacionados aos conhecimentos específicos, mobilizando competências e habilidades de uma única área de conhecimento ou integrados que mobilizam diferentes áreas. A nova organização curricular está representada na figura 03 a seguir:\n\nAs Diretrizes Curriculares Nacionais do Ensino Médio foram atualizadas pela Resolução n. 03, do Conselho Nacional de Educação, de 21 de novembro de 2018 e apresentam em, seu artigo 5o, nove princípios específicos que o Novo Ensino Médio deve assegurar em todas as suas modalidades, os quais regem também todo este DC-GOEM:\n\nI - formação integral do estudante, expressa por valores, aspectos físicos, cognitivos e socioemocionais;\nII - projeto de vida como estratégia de reflexão sobre trajetória escolar na construção das dimensões pessoal, cidadã e profissional do estudante;\nIII - pesquisa como prática pedagógica para inovação, criação e construção de novos conhecimentos;\nIV - respeito aos direitos humanos como direito universal;\nV - compreensão da diversidade e realidade dos sujeitos, das formas de produção e de trabalho e das culturas;\nVI - sustentabilidade ambiental;\nVII - diversificação da oferta de forma a possibilitar múltiplas trajetórias por parte dos estudantes e a articulação dos saberes com o contexto histórico, econômico, social, científico, ambiental, cultural local e do mundo do trabalho;\nVIII - indissociabilidade entre educação e prática social, considerando-se a historicidade dos conhecimentos e dos protagonistas do processo educativo;\nIX - indissociabilidade entre teoria e prática no processo de ensino-aprendizagem.\n\n(BRASIL, 2018, Art. 5o)",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

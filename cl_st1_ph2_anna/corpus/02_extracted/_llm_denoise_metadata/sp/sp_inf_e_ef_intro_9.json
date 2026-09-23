@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_042efb1dd0e247c4006ab30fd97eb087d2b0b11e40d1ee2d0e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 676,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 743,
+      "output_tokens_details": {
+        "reasoning_tokens": 166
+      },
+      "total_tokens": 1419
+    }
+  },
+  "created_at": "2026-09-22T23:31:43Z",
+  "duration_seconds": 6.308,
+  "error": null,
+  "excerpt_id": "sp_inf_e_ef_intro_9",
+  "filename": "sp_inf_e_ef_intro_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ac80e005f3fefc419ecbbbed5c2aa9cb4fad1439c0395056fe38bb12e2c6af45",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "450eef62e2d8b4a6ac37a838f3b4bb744e497d20214bd3ad79b328bc344339c5",
+    "rendered_prompt_sha256": "35745e583a2a13ec7acfe132bc95692511429d1992655dc2aad2f942acc96e4a",
+    "source_text_sha256": "307dc813ce9acff69104dbfe44a321d25ebf15f3c4b8c483bf81ac95cd191648"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_inf_e_ef_intro_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3963,
+    "filename": "sp_inf_e_ef_intro_9.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_inf_e_ef_intro_9.txt",
+    "state": "sp",
+    "word_count_original": 444
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_inf_e_ef_intro_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_inf_e_ef_intro_9.json"
+  },
+  "raw_response_text": "## O processo de avaliação a serviço das aprendizagens de todos os estudantes\n\nO Currículo Paulista parte do pressuposto de que a avaliação, no âmbito escolar, deve ser encarada como um recurso pedagógico que permite aos professores, gestores e demais profissionais da educação acompanhar a progressão das aprendizagens, oferecendo subsídios para a análise do próprio processo de ensino. Dessa maneira, os resultados dos processos avaliativos devem concorrer para que todos os estudantes avancem em suas aprendizagens e para que os professores façam eventuais ajustes em suas práticas para garantir a qualidade dessas aprendizagens.\n\nSob essa perspectiva, a avaliação produz informações valiosas no que diz respeito à aprendizagem dos estudantes, às necessidades de recuperação e de reforço das aprendizagens, à própria prática em sala de aula, permitindo adequações e mudanças metodológicas.\n\nDesta forma, avaliar demanda um olhar atento do professor em relação aos avanços, assim como pensar em instrumentos pelos quais possa, de fato, diagnosticar as aprendizagens dos estudantes e seus níveis de proficiência a respeito do que lhes foi ensinado e planejar ações necessárias para que todos possam aprender.\n\nAssim, a avaliação permeia o processo do ensino e da aprendizagem, trazendo subsídios para a revisão do Plano de Ensino a partir do acompanhamento do processo integral do desenvolvimento de cada estudante, a tempo de assegurar a todos as competências gerais ao final da Educação Básica.\n\nA avaliação integra e constitui um espaço crítico-reflexivo da prática docente. Deve garantir coerência com os princípios pedagógicos que orientam o desenvolvimento pleno dos estudantes. No processo avaliativo, é necessário que se considerem as aprendizagens prescritas no Currículo Paulista. Na Educação Infantil, a avaliação deve ser realizada por meio de observações e dos mais diversos registros, conforme a Lei de Diretrizes e Bases da Educação, na seção II, artigo 31, que diz que “[…] a avaliação far-se-á mediante o acompanhamento e registro do seu desenvolvimento, sem o objetivo de promoção, mesmo para o acesso ao Ensino Fundamental”. Como exemplo de registros, podemos citar: relatórios, fotografias, filmagens, produções infantis, diários, portfólios, murais, entre outros.\n\nNo Ensino Fundamental, a avaliação pode ser realizada a partir da utilização de outras estratégias, como, por exemplo, da observação direta, dos exercícios, das provas, da realização de pesquisas, entre tantas outras. A avaliação deve, de fato, acompanhar, de forma processual, a aprendizagem do estudante e possibilitar a reflexão sobre as práticas planejadas pelos professores.\n\nA multiplicidade de estratégias e instrumentos de avaliação pode oferecer indicadores importantes para a gestão pedagógica em sala de aula, como também para a gestão escolar e a elaboração de políticas públicas, permitindo o monitoramento e o acompanhamento das aprendizagens essenciais que estão sendo asseguradas a todos estudantes paulistas.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

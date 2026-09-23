@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d30b31aa4126a7e006ab30205c3e087d29a8f198f03355d18",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1555,
+      "input_tokens_details": {
+        "cache_write_tokens": 1552,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1718,
+      "output_tokens_details": {
+        "reasoning_tokens": 324
+      },
+      "total_tokens": 3273
+    }
+  },
+  "created_at": "2026-09-22T22:32:51Z",
+  "duration_seconds": 13.383,
+  "error": null,
+  "excerpt_id": "ma_em_19",
+  "filename": "ma_em_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d44443bd39ce35a7e16c4e6b278638dcdc68ef025a23f9d1a6d03f16e28f8f87",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ffda32af3d8f5d616c8c5dab58437a3964c3ec06f9edc9661e34febe74b9aeff",
+    "rendered_prompt_sha256": "8813035a865b48c629a65c71166f433def3ada28b00d0eb649578c49619cd089",
+    "source_text_sha256": "14517bb139d626e4e941872f937ffe19aa942f2855baf0a83c611f5dba322011"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1305,
+    "filename": "ma_em_19.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_19.txt",
+    "state": "ma",
+    "word_count_original": 1035
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_19.json"
+  },
+  "raw_response_text": "## Novas formas de pensar a avaliação\n\nA avaliação precisa ser colocada definitivamente em seu lugar, que é estar, exclusivamente, a serviço da aprendizagem. Avaliar não é só aplicar provas, transformar tudo em “nota” ou “mensurar” os estudantes uns pelos outros. Antes de tudo, avaliar é um processo de acompanhamento das aprendizagens de forma a detetar as “evidências” do que foi desenvolvido, ou seja, definir vários recursos em um determinado tempo para registrar o que foi aprendido pelos estudantes.\n\nSuperando o paradigma classificatório, a avaliação da aprendizagem vai muito além de que a priorização da prescrição de conteúdos é um processo preponderantemente contínuo e formativo; assim, os instrumentos utilizados irão compor um repertório avaliativo que será constantemente observado em várias etapas de desenvolvimento do estudante.\n\n## Avaliação da aprendizagem – natureza e dimensões\n\nAs mudanças no ensino médio, com os itinerários formativos que flexibilizam o currículo possibilitando aos estudantes escolher caminhos e aprofundar conhecimentos em uma ou mais áreas, provocam mudanças estruturais em todos os âmbitos da organização pedagógica da escola. Na efetivação destas mudanças, é necessária uma concepção avaliativa que acompanhe as expectativas curriculares de forma ampla e contextualizada. Como diz Vasconcelos,\n\n> É necessário mudar tanto a concepção quanto a prática, o que significa, por um processo de aproximações sucessivas, construir a práxis transformadora. A práxis é essa articulação viva entre ação e reflexão; é a ação informada pela reflexão e a reflexão desafiada pela ação (VASCONCELOS, 1989).\n\nPara Luckesi, a avaliação é “um juízo de qualidade sobre dados relevantes, para uma tomada de decisão”. Neste caso, a avaliação é sempre diagnóstica das aprendizagens para tomadas de decisão sobre os rumos que o professor irá empreender em seu trabalho curricular e pedagógico, como também sobre as decisões a respeito das aprendizagens discentes. Logo, há uma relação estreita entre a avaliação e o desenvolvimento curricular.\n\nOs critérios curriculares devem estar presentes na hora de estabelecer juízos de valor sobre as aprendizagens. Avaliar é ir além de computar “acertos” e “erros” em um dado instrumento avaliativo; é, antes de tudo, diagnosticar as aprendizagens que foram desenvolvidas ou estão em desenvolvimento para tomar decisões sobre o caminho percorrido pelo estudante e pelo professor.\n\nA avaliação, então, será sempre mediadora, pois é investigativa e interativa em todo o processo estabelecido na relação pedagógica. Reunir informações sobre a aprendizagem é essencial na hora de emitir um juízo de valor.\n\n> A avaliação efetiva vai ocorrer durante o processo, nas relações dinâmicas de sala de aula, que orientam as tomadas de decisões frequentes, relacionadas ao tratamento do conteúdo e à melhor forma de compreensão e produção do conhecimento pelo aluno. [...] Pois é nas relações cotidianas entre professor e aluno que vai se dar a aprendizagem (HOFFMANN, 2003).\n\nO envolvimento e comprometimento docente é fundamental para a ressignificação de uma avaliação que esteja a serviço das aprendizagens, a partir de pequenos gestos na sala de aula, na interação com os estudantes, no relacionamento com os demais professores, pois todos têm responsabilidade nessa mudança. A formação integral pressupõe que estejamos comprometidos integralmente com a formação que queremos propiciar aos nossos estudantes.\n\nAvaliação na perspectiva mediadora subsiste numa prática de diálogo e cooperação em que, certamente, há sempre o partícipe mais experiente, mas não mais importante no processo, pois, na interação, os sujeitos se complementam. Nesse clima de interatividade e responsabilidade mútua pela aprendizagem, não cabem práticas autoritárias, coercitivas e opressoras.\n\nA avaliação da aprendizagem é mediadora, pois é o espaço de encontro entre o professor, os estudantes e os objetos de conhecimento. É um processo construído em relação com o contexto educativo. As ações avaliativas investigam e acompanham o processo de aprendizagem do desenvolvimento curricular, objetivam compreender avanços e dificuldades e, paralelamente, se constituem como mecanismos para provocar o desenvolvimento de novas capacidades.\n\nA mediação intrínseca no processo de avaliar deve favorecer à compreensão de que o novo conhecimento construído pelo estudante se encontra em relação com uma estrutura de conhecimento anterior, ao mesmo tempo em que anuncia uma aprendizagem futura. Assim, a aprendizagem ocorre com a participação ativa do estudante sobre o conteúdo curricular, em uma relação com o “conhecimento prévio”, que se modifica agregando significados com a incorporação do conteúdo novo.\n\nNessa perspectiva, as atividades avaliativas devem se constituir desafios, questionamentos, provocações da atividade intelectual dos estudantes, tendo como referência a orientação curricular com base no desenvolvimento de capacidades e competências de vários âmbitos e naturezas. A avaliação mediadora é um processo evolutivo de construção de aprendizagens, numa relação com a prática reflexiva que possibilite aos estudantes pensar e sistematizar conhecimentos.\n\n> Avaliar competências significa observar o aluno em sua capacidade de pensar e agir eficazmente em uma situação, buscando soluções para enfrentá-la, apoiando-se em conhecimentos, mas sem limitar-se a eles (HOFFMANN, 1991).\n\nNa prática, as decisões sobre as aprendizagens dos estudantes exigem que o processo avaliativo reúna, analise e interprete diversas informações complementares oriundas das atividades avaliativas realizadas. Isso implica o uso de diferentes formas e instrumentos avaliativos que possibilitem observações sobre o desempenho discente sob vários aspectos. E é importante considerar que cada registro sobre o desempenho é diagnóstico e provisório até a próxima etapa no processo avaliativo, pois tudo se trata de uma construção de repertório curricular que é construído e está sempre em crescimento.\n\nUma avaliação formativa, mediadora e diagnóstica percebe o estudante em seu desenvolvimento global e particular. Ao valorizar o diálogo e a relação professor/estudante/conhecimento/contexto, a avaliação mediadora contribui para registros mais qualitativos das aprendizagens num clima democrático com foco no currículo proposto.\n\nPara Luckesi (1995), “avaliar é um ato de amor”, ou seja, para ele, o caráter afetivo e interativo está muito presente na avaliação. Avaliar, portanto, deve avançar para um ato “afetivo” e envolvente que sempre visa a superação de dificuldades nas tomadas de decisão, numa relação de confiança no trabalho pedagógico que é exercido por todos os partícipes.\n\nA avaliação se traduz por registros qualitativos de desempenhos que compõem diagnósticos provisórios, com a finalidade de superação das dificuldades e com foco no desenvolvimento crescente de conhecimentos, capacidades, competências discentes, numa relação socioafetiva indissociável.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

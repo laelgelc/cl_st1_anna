@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06fb3186f20c62cd006ab2fef7971887d294907dee1fb912e2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 620,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 664,
+      "output_tokens_details": {
+        "reasoning_tokens": 176
+      },
+      "total_tokens": 1284
+    }
+  },
+  "created_at": "2026-09-22T22:19:41Z",
+  "duration_seconds": 5.83,
+  "error": null,
+  "excerpt_id": "ba_inf_9",
+  "filename": "ba_inf_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "51b1297919825ee6260d391432e1957b6132ff244fca2597c9b3a5056a35f39b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9d2f6bafe25b8da1d5f744e14655d79894e24f2293ec86642ed4241c44b96ad4",
+    "rendered_prompt_sha256": "650377dec4c81422d3653db2dbfecfeee5d75991b95026097720e3493596318c",
+    "source_text_sha256": "f0e35319acbd72d20d794842a94f6d1d74e17474837b254b014dc1c3baa00380"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_inf_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 701,
+    "filename": "ba_inf_9.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_inf_9.txt",
+    "state": "ba",
+    "word_count_original": 349
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_inf_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_inf_9.json"
+  },
+  "raw_response_text": "### 7.9. Avaliação da Aprendizagem\n\nComo um ato de currículo, a avaliação na Educação Infantil não pode se configurar perdendo de vista as especificidades do desenvolvimento da criança e suas mediações. Também não pode perder de vista as transversalidades fundantes e ampliadas aqui citadas, bem como as outras transversalidades que surgirão das singularidades dos contextos dos quais emergem as crianças. Eminentemente processuais, percebidas como atos de currículo para qualificar a formação da criança, compreendida como um diagnóstico pedagógico a fim de orientar e reorientar seu desenvolvimento e suas aprendizagens, a avaliação deve incentivar a autoformação, a heteroformação, a ecoformação e a metaformação, como já descrevemos neste Referencial. Nesses termos, o portfólio e o álbum de memória são dispositivos de avaliação de possibilidades valorosas para uma formação qualificada num contexto curricular da Educação Infantil.\n\nEsses dispositivos podem e devem favorecer uma avaliação centrada numa visão positivada da criança. Errar para acertar como ato criativo, por exemplo, faz do “erro” um caminhar sem punições, classificações e hierarquizações, pois dessa perspectiva a avaliação tem um só objetivo: ajudar a compor uma aprendizagem qualificada e digna para a criança, por meio das suas itinerâncias e errâncias aprendentes. Ademais, quanto mais pluralizarmos as formas de avaliação, mais nos aproximamos das singularidades das crianças, mesmo que tenhamos orientações curriculares sobre conhecimentos sistematizados, experiências, habilidades, valores a serem trabalhados e avaliados.\n\nDessa forma, a “aprendizagem boa” – sempre um fenômeno valorado singularmente por diversas culturas –, construída pelos processos avaliativos, é aquela que qualifica por sua mediação a formação da criança. Até porque o significado de avaliação aqui cultivado é, também, um momento importante de desenvolvimento, aprendizagem e formação da criança. Jamais pode ser reduzido a um exame diagnóstico classificatório eivado de expectativas competitivas. Exames não têm compromisso com formação qualificada, seu compromisso é com verificação classificatória pura e simples, com fins de hierarquização. As crianças não podem crescer aprendendo que os mundos humanos em aprendizagem mediada por instituições educacionais são configurados por esses valores pautados na predação do outro pela competitividade.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

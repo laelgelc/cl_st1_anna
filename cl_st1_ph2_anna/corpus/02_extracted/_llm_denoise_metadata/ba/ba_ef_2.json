@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c364cfbfdd0658b006ab2fe6c464887d2bbcc2a059f907457",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 856,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 894,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 1750
+    }
+  },
+  "created_at": "2026-09-22T22:17:23Z",
+  "duration_seconds": 6.893,
+  "error": null,
+  "excerpt_id": "ba_ef_2",
+  "filename": "ba_ef_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6f5f36705326e52ff10e48049516d1680b6d3431fe282f61c20dd7b9c4aa4de0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2c177a863536d25816b316e179cbffb9442786f91a4652ef4a8356f715338fbb",
+    "rendered_prompt_sha256": "04a3b5b9cbbb683f716738ac70d7454694cccc767d53c9de8b69bf89ebe7c727",
+    "source_text_sha256": "cc47aa5c30ffe516ae375c6e4ce3f96e5cf0e25e59beb211f44bc1e9ab7380ad"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_ef_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 603,
+    "filename": "ba_ef_2.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_ef_2.txt",
+    "state": "ba",
+    "word_count_original": 521
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_ef_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_ef_2.json"
+  },
+  "raw_response_text": "## 8.2. Área de Linguagens\n\nA Área de Linguagens é composta pelos seguintes componentes curriculares: Língua Portuguesa, Arte e Educação Física (e Língua Inglesa, nos Anos Finais). O objetivo expresso na proposta de trabalho da área é possibilitar aos estudantes participar de práticas de linguagem diversificadas, que lhes permitam ampliar suas capacidades expressivas em manifestações artísticas, corporais e linguísticas, dando continuidade à Educação Infantil, de preferência, interdisciplinarmente.\n\nNos Anos Iniciais, os componentes curriculares tematizam diversas práticas, considerando especialmente aquelas relativas às culturas infantis tradicionais e contemporâneas, embasadas pelo processo de letramento. Já no Ensino Fundamental – Anos Iniciais, as aprendizagens, nos componentes curriculares dessa área, ampliam as práticas de linguagem conquistadas no Ensino Fundamental, nos Anos Iniciais, incluindo a aprendizagem de Língua Inglesa.\n\nNo Ensino Fundamental, a diversificação dos contextos permite o aprofundamento de práticas de linguagem artísticas, corporais e linguísticas que se constituem e integram a vida social. Os estudantes devem se apropriar das especificidades de cada linguagem, sem perder a visão do todo no qual estão inseridas, compreendendo que elas são dinâmicas e que todos participam dos seus naturais e constantes processos de transformação. A dimensão analítica das linguagens não é apresentada como fim, mas como meio para a compreensão dos modos de se expressar e de participar no mundo, constituindo práticas mais sistematizadas de formulação de questionamentos, seleção, organização, análise e apresentação de descobertas e conclusões.\n\nEm consonância com a BNCC, em articulação com as competências gerais da Educação Básica, a Área de Linguagens deve garantir aos alunos o desenvolvimento das seguintes competências específicas:\n\n1. Compreender as linguagens como construção humana, histórica, social e cultural, de natureza dinâmica, reconhecendo-as e valorizando-as como formas de significação da realidade e expressão de subjetividades e identidades sociais e culturais.\n2. Conhecer e explorar diversas práticas de linguagem (artísticas, corporais e linguísticas) em diferentes campos da atividade humana, para continuar aprendendo, ampliar suas possibilidades de participação na vida social e colaborar para a construção de uma sociedade mais justa, democrática e inclusiva.\n3. Utilizar diferentes linguagens – verbal (oral ou visual-motora, como Libras, e escrita), corporal, visual, sonora e digital – para se expressar e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e produzir sentidos que levem ao diálogo, à resolução de conflitos e à cooperação.\n4. Utilizar diferentes linguagens para defender pontos de vista que respeitem o outro e promovam os direitos humanos, a consciência socioambiental e o consumo responsável em âmbito local, regional e global, atuando criticamente frente a questões do mundo contemporâneo.\n5. Desenvolver o senso estético para reconhecer, fruir e respeitar as diversas manifestações artísticas e culturais, das locais às mundiais, inclusive aquelas pertencentes ao patrimônio cultural da humanidade, bem como participar de práticas diversificadas, individuais e coletivas, da produção artístico-cultural, com respeito à diversidade de saberes, identidades e culturas.\n6. Compreender e utilizar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética nas diversas práticas sociais (incluindo as escolares), para se comunicar por meio das diferentes linguagens e mídias, produzir conhecimentos, resolver problemas e desenvolver projetos autorais e coletivos.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

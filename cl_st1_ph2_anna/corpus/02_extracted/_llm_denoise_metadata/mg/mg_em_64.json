@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07b9c84259cf49f0006ab30350841487d28183aeb2e2b126fb",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 990,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1036,
+      "output_tokens_details": {
+        "reasoning_tokens": 210
+      },
+      "total_tokens": 2026
+    }
+  },
+  "created_at": "2026-09-22T22:38:15Z",
+  "duration_seconds": 9.117,
+  "error": null,
+  "excerpt_id": "mg_em_64",
+  "filename": "mg_em_64.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "38b961c5a27ac1627eaa4baa17c91be9c6d3baf07fc4d792da22d884f20c2e87",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "84d09a1d4716f3c569189737c72a208e57ab6ec3fe811ef4da903e6db76d7404",
+    "rendered_prompt_sha256": "4d8a99e0049818a8f23c2296d80da026027d8a51249734aec20ab5604d7d0224",
+    "source_text_sha256": "0ef58066dc832be134be5048198b8a24a6e6f41ae23eb0380e39c7738659541e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_64.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1597,
+    "filename": "mg_em_64.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_64.txt",
+    "state": "mg",
+    "word_count_original": 623
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_64.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_64.json"
+  },
+  "raw_response_text": "### 3.3.3 Competências específicas da área de Ciências da Natureza e suas Tecnologias para o Ensino Médio\n\nOs objetivos gerais de formação para o Ensino Médio revelam um aumento de complexidade para abordar as interações entre a ciência, a tecnologia e a sociedade. Dessa forma, para viabilizar a leitura do mundo mobilizando conhecimentos da biologia, física e química; a interpretação e discussão de relações entre a ciência, a tecnologia e a sociedade, emitindo julgamentos e propondo soluções para o enfrentamento de problemas que envolvem o conhecimento científico; a reflexão crítica sobre valores humanos, éticos e morais relacionados à aplicação dos conhecimentos científicos e tecnológicos, faz-se necessário um trabalho interdisciplinar dentro da área de conhecimento.\n\nSão três as competências específicas da Área de Ciências da Natureza e suas Tecnologias, preconizadas para o Ensino Médio:\n\n1. Analisar fenômenos naturais e processos tecnológicos, com base nas interações e relações entre matéria e energia, para propor ações individuais e coletivas que aperfeiçoem processos produtivos, minimizem impactos socioambientais e melhorem as condições de vida em âmbito local, regional e global (BRASIL, 2019, p. 539).\n\n   Esta competência trata as relações e interações entre matéria e energia, presentes em fenômenos naturais e em processos tecnológicos, visando à compreensão dessas interações e à avaliação, por parte do estudante, dos impactos dessas interações no desenvolvimento de processos e produtos ou em atividades cotidianas. Espera-se que o estudante possa desenvolvê-la para agir de forma responsável em relação à natureza e seus recursos naturais, de forma a refletir acerca das consequências do uso e das transformações desses recursos.\n\n2. Construir e utilizar interpretações sobre a dinâmica da Vida, da Terra e do Cosmos para elaborar argumentos, realizar previsões sobre o funcionamento e a evolução dos seres vivos e do Universo, e fundamentar e defender decisões éticas e responsáveis (BRASIL, 2019, p. 539).\n\n   Trata da complexidade dos processos relativos à origem e à evolução da vida, do planeta e do universo, além da dinâmica de suas interações, da diversidade dos seres vivos e sua relação com o ambiente, considerando modelos e teorias que foram construídos, modificados e aceitos em diferentes contextos históricos, sociais e culturais. Espera-se que, com essa competência, o estudante seja capaz de reconhecer que os conhecimentos científicos sofrem transformações ao longo do tempo, identificando a importância da experimentação e da interpretação de resultados com base na probabilidade e incerteza, reconhecendo que os avanços das tecnologias representam parte importante desse processo, além de aplicar seus conhecimentos na construção de argumentos e posicionamentos frente aos diferentes desafios cotidianos, sempre com ética, responsabilidade e valorizando a sustentabilidade.\n\n3. Analisar situações-problema e avaliar aplicações do conhecimento científico e tecnológico e suas implicações no mundo, utilizando procedimentos e linguagens próprios das Ciências da Natureza, para propor soluções que considerem demandas locais, regionais e/ou globais, e comunicar suas descobertas e conclusões a públicos variados, em diversos contextos e por meio de diferentes mídias e tecnologias digitais de informação e comunicação (TDIC) (BRASIL, 2019, p. 539).\n\n   Trata da mobilização dos conhecimentos científicos na resolução de situações-problema a partir de uma visão interdisciplinar e com utilização e aplicação de tecnologias digitais ao longo do processo. Pensar sobre a resolução de problemas em um mundo em constante mudança é muito importante, uma vez que as demandas profissionais, sociais e culturais do estudante em um futuro muito próximo, provavelmente não serão as mesmas enfrentadas hoje, e ser capaz de resolver problemas cada vez mais complexos, de forma crítica, é essencial. A partir dessa competência, espera-se que o estudante desenvolva habilidades para buscar soluções de maneira colaborativa, seja mais resiliente, tenha argumentação baseada em fatos e dados, se faça protagonista e possa usar tecnologias digitais de informação e comunicação de forma responsável e sustentável.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

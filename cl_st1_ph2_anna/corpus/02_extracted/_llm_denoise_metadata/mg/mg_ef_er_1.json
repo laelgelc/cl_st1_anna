@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0613f2caa3ce6649006ab3029121b087d2b97d1919a57330d7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1844,
+      "input_tokens_details": {
+        "cache_write_tokens": 1841,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1938,
+      "output_tokens_details": {
+        "reasoning_tokens": 290
+      },
+      "total_tokens": 3782
+    }
+  },
+  "created_at": "2026-09-22T22:35:09Z",
+  "duration_seconds": 12.915,
+  "error": null,
+  "excerpt_id": "mg_ef_er_1",
+  "filename": "mg_ef_er_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f2c8d246a6b7be3ca878eab01a38ef16e6fcff74d875d8fb5f8f188ca6ce1831",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "80c7fa5c3667517f4310808a4c9837310984d60533b59d17a5b7d7ab3cb7395b",
+    "rendered_prompt_sha256": "a39f1258755bb6128953bff19793452c71951bc3c71224a43871aaf0f08deb12",
+    "source_text_sha256": "eaf6298829357e2037733be530a002913b6771da7e9d145d6edb3e751d0b4222"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_er_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1411,
+    "filename": "mg_ef_er_1.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_er_1.txt",
+    "state": "mg",
+    "word_count_original": 1101
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_er_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_er_1.json"
+  },
+  "raw_response_text": "## 16.1 Componente Curricular: Ensino Religioso\n\nAo longo da história da educação brasileira, o Ensino Religioso assumiu diferentes perspectivas teórico-metodológicas, geralmente de viés confessional ou interconfessional. Uma nova proposição, distinta da visão confessional, só viria a aparecer em Minas Gerais com Wolfgang Gruen, no ano de 1974. A partir da década de 1980, as transformações socioculturais que provocaram mudanças paradigmáticas no campo educacional também impactaram no Ensino Religioso. Em função dos promulgados ideais de democracia, inclusão social e educação integral, vários setores da sociedade civil passaram a reivindicar a abordagem do conhecimento religioso e o reconhecimento da diversidade religiosa no âmbito dos currículos escolares.\n\nA Constituição Federal de 1988 (artigo 210) e a LDB nº 9.394/1996 (artigo 33, alterado pela Lei nº 9.475/1997) estabeleceram os princípios e os fundamentos que devem alicerçar epistemologias e pedagogias do Ensino Religioso, cuja função educacional, enquanto parte integrante da formação básica do cidadão, é assegurar o respeito à diversidade cultural religiosa, sem proselitismos.\n\nApesar da Resolução do Conselho Nacional de Educação/Câmara de Educação Básica – CNE/CEB nº 04/2010 e da Resolução CNE/CEB nº 07/2010 reconhecerem o Ensino Religioso como uma das cinco áreas de conhecimento do Ensino Fundamental de 09 (nove) anos, em 2019 o CNE alterou essa condição no Conselho Pleno – CP. Atendendo ao artigo n. 23 da Resolução CNE/CP nº 2/2017, que previa a avaliação por comissão específica “se o ensino religioso terá tratamento como área do conhecimento ou como componente curricular”, o CNE decidiu e aprovou por unanimidade que o Ensino Religioso é componente curricular da área de Ciências Humanas no Ensino Fundamental de nove anos, deixando de ser área de conhecimento (BRASIL, 2019).\n\nEstabelecido como componente curricular, de oferta obrigatória nas escolas públicas de Ensino Fundamental, com matrícula facultativa, em diferentes regiões do país, foram elaboradas propostas curriculares, cursos de formação inicial e continuada e materiais didático-pedagógicos que contribuíram para a construção desse componente curricular, com natureza e finalidades pedagógicas distintas da confessionalidade.\n\nConsiderando os marcos normativos e, em conformidade com as competências gerais estabelecidas no âmbito da Base Nacional Comum Curricular – BNCC, o Ensino Religioso no Currículo Referência de Minas Gerais – CRMG deve atender aos seguintes objetivos:\n\nA. Proporcionar a aprendizagem dos conhecimentos religiosos, culturais e estéticos, a partir das manifestações religiosas percebidas na realidade dos educandos.\n\nB. Propiciar conhecimentos sobre o direito à liberdade de consciência e de crença, no constante propósito de promoção dos direitos humanos.\n\nC. Desenvolver competências e habilidades que contribuam para o diálogo entre perspectivas religiosas e seculares de vida, exercitando o respeito à liberdade de concepções e o pluralismo de ideias, de acordo com a Constituição Federal.\n\nD. Contribuir para que os educandos construam seus sentidos pessoais de vida a partir de valores, princípios éticos e da cidadania.\n\nNessa perspectiva, o componente curricular Ensino Religioso tem como objeto o conhecimento religioso, que é produzido no âmbito das diferentes áreas do conhecimento científico das Ciências Humanas e Sociais, notadamente das Ciências da Religião. Essas Ciências investigam a manifestação dos fenômenos religiosos em diferentes culturas e sociedades enquanto um dos bens simbólicos resultantes da busca humana por respostas aos problemas e desafios do viver, aos enigmas do mundo, da vida e da morte. De modo singular, complexo e diverso, esses fenômenos alicerçaram distintos sentidos e significados de vida e diversas ideias de espiritualidade e de divindade, em torno dos quais se organizaram cosmovisões, linguagens, saberes, crenças, mitologias, narrativas, textos, símbolos, ritos, doutrinas, tradições, movimentos, práticas e princípios éticos e morais. Os fenômenos religiosos em suas múltiplas manifestações são parte integrante do substrato cultural da humanidade.\n\nCabe ao Ensino Religioso tratar os conhecimentos religiosos a partir de pressupostos éticos e científicos, sem privilégio de nenhuma crença ou convicção. Isso implica abordar esses conhecimentos com base nas diversas culturas e tradições religiosas, sem desconsiderar a existência de filosofias seculares de vida.\n\nTais conhecimentos são importantes de serem estudados, refletidos, ensinados e aprendidos no Ensino Fundamental, através da pesquisa e do diálogo, pois contribuem para os processos de observação, identificação, análise, apropriação e ressignificação de saberes. Visam o desenvolvimento de competências específicas e, através das habilidades, ao final do processo de aprendizagem, possibilitam que os educandos apresentem uma atitude dialogal, com o intuito de propiciar abertura aos sentidos existenciais de suas vidas, numa relação dialógica consigo mesmo, com o outro, com o mundo e a natureza, e que também podem ser identificados, para os educandos que têm fé, com o transcendente e a(s) divindade(s). Desta forma, contribuem para a superação da intolerância, da discriminação e da exclusão, fomentando o diálogo, o respeito, a convivência e a cultura de paz.\n\nPor isso, a interculturalidade e a ética da alteridade constituem fundamentos teóricos e pedagógicos do Ensino Religioso, porque favorecem o reconhecimento e respeito às histórias, memórias, crenças, convicções e valores de diferentes culturas, tradições religiosas e filosofias de vida.\n\nEsse componente curricular tem um papel significativo no processo de formação integral dos educandos. E o CRMG adota, interpreta e compreende o objeto deste componente – o Conhecimento Religioso – a partir da experiência de Minas Gerais, que pode ser uma pista para elucidar a discussão sobre os fundamentos epistemológicos e metodológicos desse componente. Trata-se da proposta, uma mudança de paradigma, de Wolfgang Gruen[^26] [O artigo com essa mudança de paradigma foi publicado pela Universidade Católica de Minas Gerais - UCMG em 1974 sob o título O “Ensino Religioso” na Escola, e em nova versão, com mudanças, com o título O “Ensino Religioso” na Escola Oficial. (GRUEN, W. Atualização, Belo Horizonte, n. 65/65, p. 127-143, abril/maio 1975). Esta última versão foi revista pela UCMG em 1976 e publicada em 1978. Em 1994 saiu publicado seu primeiro livro sobre o tema: GRUEN, Wolfgang. O Ensino Religioso na Escola. Petrópolis: Vozes, 1994.] que, seguindo Paul Tillich (1970), destaca a questão antropológica dessa formação. Compreende que a religiosidade, nessa perspectiva, é uma dimensão humana, ou seja, todo ser humano vive e busca sentido, uma “dinâmica de abertura [...] ao sentido fundamental da sua existência, seja qual for o modo como é percebido esse sentido. Não se trata apenas de uma atitude entre muitas [...] a religiosidade está à raiz de todas as dimensões da pessoa, está à raiz da vida humana na sua totalidade” (GRUEN, 1974, p. 75). Wolfgang Gruen (2004, p. 414) reafirma essa visão, destacando o compromisso: “chamamos religiosidade a disponibilidade dinâmica da pessoa ao sentido fundamental de sua existência, encarado como compromisso.” Desta forma, o Ensino Religioso oferece um espaço de aprendizagem fundamental no desenvolvimento dos educandos.\n\n[^26]: GRUEN, Wolfgang. O Ensino Religioso na Escola. Petrópolis: Vozes, 1995, p. 75.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

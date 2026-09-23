@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01dfcb3199888e0a006ab3008560e487d29efdd3caf6c1decd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 877,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1016,
+      "output_tokens_details": {
+        "reasoning_tokens": 334
+      },
+      "total_tokens": 1893
+    }
+  },
+  "created_at": "2026-09-22T22:26:20Z",
+  "duration_seconds": 7.484,
+  "error": null,
+  "excerpt_id": "es_ef_anos_iniciais_linguagens_ed_fis_2",
+  "filename": "es_ef_anos_iniciais_linguagens_ed_fis_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e3e4c68a264b24da7956b92cd18826e1a897f230250eae4099a31798807d98be",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "341bcdce9dbba3c0aa44671f93f73a67c38f57e089bf37282709c2ce31e45633",
+    "rendered_prompt_sha256": "0a481b427ddf5cca00df9ff00300a1b61cf994f14feadaea908fbc9508d0f743",
+    "source_text_sha256": "16dca9d366d173a5a98941ec691f6b86a6da704cadbd5d065c9138a6956ebd55"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_ef_anos_iniciais_linguagens_ed_fis_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 998,
+    "filename": "es_ef_anos_iniciais_linguagens_ed_fis_2.txt",
+    "filepath": "corpus/00_source_per_state/es/es_ef_anos_iniciais_linguagens_ed_fis_2.txt",
+    "state": "es",
+    "word_count_original": 509
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_ef_anos_iniciais_linguagens_ed_fis_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_ef_anos_iniciais_linguagens_ed_fis_2.json"
+  },
+  "raw_response_text": "## Sistematização das Aprendizagens Essenciais para Educação Física\n\nConforme definido na Base Nacional Comum Curricular, as Unidades Temáticas definem um arranjo dos Objetos de Conhecimento, que se relacionam a um número variável de Habilidades, de acordo com as especificidades de cada Componente Curricular, ao longo do Ensino Fundamental.\n\nAs Habilidades, por sua vez, expressam as aprendizagens essenciais que devem ser asseguradas aos alunos nos diferentes contextos escolares. Para tanto, elas são descritas de acordo com uma determinada estrutura, que busca explicitar o que deve ser aprendido pelo estudante, em qual profundidade e em qual contexto. Veja abaixo, como exemplo, a habilidade EF12EF06-01/ES de Educação Física, do 1º Ano do Ensino Fundamental:\n\n> Discutir a importância da observação das normas e das regras básicas dos esportes de marca e de precisão para assegurar a integridade própria e as dos demais participantes.\n\n- **Verbo(s):** explicita(m) o(s) processo(s) cognitivo(s) envolvido(s) na habilidade.\n- **Modificador do(s) verbo(s) ou do complemento do(s) verbo(s):** explicita(m) o contexto e/ou uma maior especificação da aprendizagem esperada.\n\nOs verbos presentes nas habilidades da Base Nacional Comum Curricular e no Currículo do Espírito Santo explicitam os processos cognitivos que se espera sejam desenvolvidos pelos estudantes no processo de ensino e aprendizagem (KRATHWOHL e ANDERSON, 2001). Dessa forma, a progressão das aprendizagens, que se explicita na comparação das habilidades em cada ano, ou de um ano para o outro, pode estar relacionada aos:\n\n- **Processos Cognitivos:** quando os verbos indicam processos cada vez mais ativos ou exigentes.\n- **Objetos de Conhecimento:** quando apresentam crescente sofisticação ou complexidade na temática abordada.\n- **Modificadores:** quando, por exemplo, fazem referência a contextos mais familiares aos estudantes e, aos poucos, expandem-se para contextos mais amplos.\n\nEssa progressão das aprendizagens essenciais segue então uma abordagem em espiral (BRUNER, 2009), podendo se dar tanto de forma horizontal, ao longo de um ano do Ensino Fundamental, quanto de forma vertical, de um ano para outro, com diferentes abordagens de um mesmo objeto de conhecimento em diferentes habilidades e graus de complexidade.\n\nNos quadros a seguir, que apresentam as unidades temáticas, os objetos de conhecimento e as habilidades definidas para cada ano (ou bloco de anos), cada habilidade é identificada por um código alfanumérico cuja composição é a seguinte:\n\nVale destacar que o uso de numeração sequencial para identificar as habilidades de cada ano ou bloco de anos não representa uma ordem ou hierarquia esperada das aprendizagens (BRASIL, 2017).\n\nTambém é importante ressaltar que as habilidades representam o que se espera que os estudantes aprendam ao longo de cada ano do Ensino Fundamental e não descrevem ações ou condutas docentes, nem induzem à opção por abordagens ou metodologias, que devem ser adotadas, adequando-se à realidade de cada unidade de ensino, considerando o contexto e as características de seus estudantes (BRASIL, 2017).",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

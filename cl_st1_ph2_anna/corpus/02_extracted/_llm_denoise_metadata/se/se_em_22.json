@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_003e6865cf49bc72006ab30f3f1f9087d2ab6c60e697e41e9c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 661,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 597,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 1258
+    }
+  },
+  "created_at": "2026-09-22T23:29:08Z",
+  "duration_seconds": 4.936,
+  "error": null,
+  "excerpt_id": "se_em_22",
+  "filename": "se_em_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "74e2ae93b7a197df8df93ebc875c28c399c31368d67ddb60134a1baab0f280f4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7a8794b92c5d3b380922b25fc330e63dd4a58174aff0c1c9c6c7be72b3147370",
+    "rendered_prompt_sha256": "cd019f15f44dc5af03a5a00d9207b5cb221150a7cd9ff74a57d610a62673df6d",
+    "source_text_sha256": "a17179806fbb8402eb398d853159545959acf86cec9636351c90f373228a0708"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_em_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3835,
+    "filename": "se_em_22.txt",
+    "filepath": "corpus/00_source_per_state/se/se_em_22.txt",
+    "state": "se",
+    "word_count_original": 332
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_em_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_em_22.json"
+  },
+  "raw_response_text": "**SUGESTÕES**\n\nPara que todos os estudantes tenham opção de escolher cursar aprofundamentos em qualquer das Áreas do Conhecimento ou na Formação Técnica e Profissional, recomenda-se que:\n\n- Instituições educacionais de menor porte sem outras instituições educacionais nas imediações: ofertem, pelo menos, dois Aprofundamentos integrados (com duas Áreas do Conhecimento cada ou uma Formação Técnica Profissional) ou cinco Aprofundamentos simples (um para cada Área do Conhecimento e Formação Técnica Profissional).\n- Instituições educacionais de menor porte com outras instituições educacionais nas imediações: ofertem, pelo menos, um Aprofundamento integrado (com duas Áreas do Conhecimento cada ou uma Formação Técnica e Profissional) ou um Aprofundamento simples (com apenas uma Área do Conhecimento ou uma Formação Técnica e Profissional), com a possibilidade de os estudantes cursarem outros Aprofundamentos em unidades vizinhas.\n- Instituições educacionais de médio porte sem outras instituições educacionais nas imediações: ofertem, pelo menos, três Aprofundamentos integrados (com duas Áreas do Conhecimento cada ou Formação Técnica e Profissional) ou cinco Aprofundamentos simples (com apenas uma Área do Conhecimento cada e Formação Técnica e Profissional).\n- Instituições educacionais de médio porte com outras instituições educacionais nas imediações: ofertem, pelo menos, dois Aprofundamentos integrados (com duas Áreas do Conhecimento cada ou uma Formação Técnica e Profissional) ou dois Aprofundamentos simples (com apenas uma Área do Conhecimento cada ou uma Formação Técnica e Profissional), com a possibilidade de os estudantes cursarem outros Aprofundamentos em unidades vizinhas.\n- Instituições educacionais de maior porte sem outras instituições educacionais nas imediações: ofertem, pelo menos, quatro Aprofundamentos integrados (com duas Áreas do Conhecimento cada ou uma Formação Técnica e Profissional) ou oito Aprofundamentos simples (dois para cada Área do Conhecimento e/ou Formação Técnica e Profissional).\n- Instituições educacionais de maior porte com outras instituições educacionais nas imediações: ofertem, pelo menos, três Aprofundamentos integrados (com duas Áreas do Conhecimento cada ou uma Formação Técnica e Profissional) ou três Aprofundamentos simples (com apenas uma Área do Conhecimento cada ou uma Formação Técnica e Profissional), com a possibilidade de os estudantes cursarem outros Aprofundamentos em unidades vizinhas.",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

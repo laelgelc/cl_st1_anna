@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b7ddb946e3df75f006ab2fd7e4be487d29bd77dd0d0656e0b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 564,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 505,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 1069
+    }
+  },
+  "created_at": "2026-09-22T22:13:22Z",
+  "duration_seconds": 3.937,
+  "error": null,
+  "excerpt_id": "am_em_3",
+  "filename": "am_em_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "965b19056e43228afcca5fa5a6440c9daea5b345536ac403f4c6af099d767ad6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cb560d5c5c683e5760cb08ab91eb9bda914a75ebebb224b92d06ccd73db95552",
+    "rendered_prompt_sha256": "4a62260ba69e85e218d85d09312c5b507145427391b3e64558f3414692f3a586",
+    "source_text_sha256": "c09ebcdbba9b51903893a465547a00b3d3c082557c0adf8ea67eae4e3c945557"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 389,
+    "filename": "am_em_3.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_3.txt",
+    "state": "am",
+    "word_count_original": 309
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_3.json"
+  },
+  "raw_response_text": "### 1.1 Atendimento dos estudantes de Ensino Médio no Amazonas\n\nO Estado do Amazonas está dividido em 62 municípios, sendo Manaus a capital e a cidade mais populosa. No que concerne à Educação Básica, mais especificamente, o ensino médio no estado do Amazonas, segundo dados do Censo, até 2019, o estado do Amazonas dispõe de 5.318 escolas de educação básica. Desse total, a rede Municipal é responsável por 79,9% das escolas, seguida da rede Estadual (14%). Já a rede privada é responsável por 5,8% e a rede federal 0,3% (INEP, 2020), conforme Gráfico 1.\n\nNo que diz respeito à oferta de escolas por etapas, o Censo de 2019 da Educação Básica revela que a pré-escola oferece 3.463, os anos iniciais do ensino fundamental 4.374, os anos finais do ensino fundamental 2.592 e o ensino médio 477 escolas. Nota-se no Gráfico 2 que os anos iniciais do ensino fundamental e pré-escola são os que apresentam maior oferta de escolas.\n\nEvidencia-se no Gráfico 2 uma desproporção significativa entre o número de escolas do ensino fundamental anos finais e o ensino médio, o que remete à necessidade de tomadas de decisões quanto à implementação de políticas públicas que minimizem esses descompassos.\n\nEm se tratando da matrícula do ensino médio, segundo o Censo da Educação Básica (2019), a rede estadual apresenta uma participação de 93,2%, seguida por 3,8% da rede privada. No que concerne à localização, 83,6% das matrículas de ensino médio concentram-se em zonas urbanas ao passo que 16,4% estão situadas na área rural (BRASIL, 2019). Diante disso, infere-se que os estudantes da zona rural têm restrição no acesso ao ensino médio, por isso, faz-se necessária a ampliação da oferta de ensino médio para que todos os estudantes do Amazonas disponham das mesmas oportunidades.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

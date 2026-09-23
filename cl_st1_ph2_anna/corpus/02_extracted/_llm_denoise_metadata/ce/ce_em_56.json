@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01280170beb7ad7b006ab2ff98abc487d2b72534cd5245f9a6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 543,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 596,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 1139
+    }
+  },
+  "created_at": "2026-09-22T22:22:21Z",
+  "duration_seconds": 5.31,
+  "error": null,
+  "excerpt_id": "ce_em_56",
+  "filename": "ce_em_56.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b01c4802fc081b82b4162cccfd4bf20910df03b7b877efc92594823871229f26",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "446c144b8ad375adaea44f1966a86a67e4f9fd4cf0eb8d9df32b0a7a0da8dc3d",
+    "rendered_prompt_sha256": "89a525e18223980266e3de2726b6284f12dbae0937fd4617a880e529af44b243",
+    "source_text_sha256": "69feb80d0f0386cd92fcbb4e9fd9a02cee7ccdefc579d3fea0d10419315a494f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_56.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 814,
+    "filename": "ce_em_56.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_56.txt",
+    "state": "ce",
+    "word_count_original": 307
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_56.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_56.json"
+  },
+  "raw_response_text": "### 9.3 Relação entre as habilidades (dos itinerários formativos) associadas às competências gerais da BNCC e aos eixos estruturantes\n\nNessa seção apresentamos as habilidades dos itinerários formativos e sua organização a partir de quatro eixos estruturantes: Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo.\n\nTais eixos estruturantes visam integrar e integralizar os diferentes arranjos de Itinerários Formativos, bem como criar oportunidades para que os estudantes vivenciem experiências educativas profundamente associadas à realidade contemporânea, que promovam a sua formação pessoal, profissional e cidadã. Para tanto, buscam envolvê-los em situações de aprendizagem que os permitam produzir conhecimentos, criar, intervir na realidade e empreender projetos presentes e futuros. Por esse motivo, os quatro eixos estruturantes são complementares, então é recomendado que os Itinerários Formativos incorporem e integrem todos eles, a fim de garantir que os estudantes experimentem diferentes situações de aprendizagem e desenvolvam um conjunto diversificado de habilidades relevantes para sua formação integral.\n\nA título de clareza, apresentamos duas tabelas que representam essa integração nos IF entre competências gerais, que devem guiar a FGB e os itinerários, e entre os eixos estruturantes. A Tabela 1 traz as habilidades relacionadas às competências gerais da Base Nacional Comum Curricular - BNCC, a serem desenvolvidas indistintamente por todos os Itinerários Formativos como demonstrado a seguir.\n\nRessaltamos que as três habilidades listadas em cada competência referem-se a todos os eixos estruturantes, devendo estar presentes em itinerários formativos de quaisquer áreas do conhecimento.\n\nJá na Tabela 2 apresentamos as habilidades de natureza mais específica, associadas a cada uma das Áreas de Conhecimento e à Formação Técnica e Profissional. Orienta-se que a cada semestre os IF mobilizem seis habilidades de cada eixo estruturante, no caso 3 habilidades relacionadas às competências gerais da BNCC e 3 habilidades específicas associadas à área de conhecimento e a formação técnica e profissional.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fa29a791101d424006ab303818fac87d2a083d9f3bf489085",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1217,
+      "input_tokens_details": {
+        "cache_write_tokens": 1214,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1376,
+      "output_tokens_details": {
+        "reasoning_tokens": 330
+      },
+      "total_tokens": 2593
+    }
+  },
+  "created_at": "2026-09-22T22:39:08Z",
+  "duration_seconds": 11.772,
+  "error": null,
+  "excerpt_id": "mg_inf_e_ef_intro_2",
+  "filename": "mg_inf_e_ef_intro_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d7a85b3c90104c51126e2de62263b1df3287b936ff15851eb7d14173417b01d1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5fbdc119b16b543009622f3839adba80cabc72463320974a1e69f7f7ec63a297",
+    "rendered_prompt_sha256": "318592a665dfb031f490101ba78d100d03e9fdd66032fce85093e8537fa8a00d",
+    "source_text_sha256": "fb8e64cede0716d1d78ea96100f06ec5d6ea766c1e81702909ad746402e2e00c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_e_ef_intro_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1646,
+    "filename": "mg_inf_e_ef_intro_2.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_e_ef_intro_2.txt",
+    "state": "mg",
+    "word_count_original": 732
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_e_ef_intro_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_e_ef_intro_2.json"
+  },
+  "raw_response_text": "|  | Composição | Atribuições |\n|---|---|---|\n| Comissão Estadual | SEE/MG, UNDIME/MG, FEPEMG, UNCME, CEE/MG, SINPRO/MG, SINEP/MG, Fórum Mineiro de Ed. Infantil, FEPEMG. | Gerar envolvimento de todos os atores da rede estadual e municipal. Garantir a devida elaboração e implementação do currículo. |\n| Comitê Executivo | Lideranças da SEE/MG e UNDIME/MG | Encaminhar e tomar decisões sobre a gestão do regime de colaboração no nível das secretarias estadual e municipais de educação. |\n| Coordenação Técnica | Técnicos da SEE/MG, Articulador do regime de Colaboração e Analista de Gestão. | Planejar e gerir ações, orientar a comunicação do processo, compor grupos de trabalho, reportar ao Comitê Executivo Estadual e articular com demais atores envolvidos. |\n| Grupos de Trabalho de Currículo | Redatores de Currículo e outros colaboradores eventuais. | Estudar o histórico curricular da rede, a BNCC e produzir os textos do novo currículo. |\n\nFigura 1 - Governança\n\nNa elaboração do documento, o regime de colaboração efetivou-se na formação dos Grupos de Trabalho de Currículo e, sobretudo, nos inúmeros momentos de discussão em que profissionais de diversas áreas do conhecimento e dos diferentes componentes curriculares, oriundos das várias regiões do Estado, se reuniram para discutir o currículo mineiro, de modo a conferir-lhe um caráter próprio, incorporando as diretrizes e normativas da BNCC, bem como dos preceitos de uma educação libertadora, que vise a equidade e a qualidade educacional dos sistemas de ensino, promovendo a inclusão, reconhecendo e valorizando as diversidades.\n\nO primeiro movimento de aproximação das escolas de Minas Gerais com a BNCC homologada se deu através da realização do Dia D, um momento de reflexão e engajamento de toda a Rede Pública, visando garantir aos profissionais a oportunidade de contribuir para as definições conceituais do documento curricular preliminar.\n\nA Versão Preliminar do Currículo Referência de Minas Gerais contou com a participação de mais de 3.100 escolas e 120.000 profissionais de todas as partes do Estado, cujas contribuições foram analisadas e incorporadas ao documento pelos redatores. Trabalhando na redação desde fevereiro de 2018, toda a equipe responsável pela entrega do documento preliminar participou de encontros formativos realizados pelo Ministério da Educação – MEC e formações internas oferecidas por professores e pesquisadores de universidades mineiras. Concomitantemente, estudos aprofundados da Base Nacional Comum Curricular e de diversos documentos curriculares de Minas Gerais, da rede estadual e de redes municipais, e de outros Estados possibilitaram definições conceituais e a elaboração do formato do documento.\n\nA versão preliminar passou pelo processo de Consulta Pública online e pelos Encontros Municipais realizados nos diversos territórios em parcerias entre as redes de ensino, onde educadores e comunidade escolar puderam debater a versão preliminar do documento e apresentar propostas para ampliá-lo. Os Encontros Municipais foram realizados com a participação de mais de 690 municípios, contando com mais de 55.000 participantes presencialmente durante os meses de agosto e setembro, que estudaram, analisaram e fizeram propostas à Versão Preliminar do documento. Paralelamente, foram registradas mais de 404.000 participações na Consulta Pública online. Todas as contribuições foram analisadas pela equipe de redação quanto à pertinência da proposta e foi então feita a adequação do documento de acordo com o proposto. Grande parte das sugestões foram incorporadas, tornando o documento verdadeiramente colaborativo e representativo das diversas Minas Gerais.\n\nA construção do Currículo Referência de Minas Gerais contou ainda com a escuta às entidades parceiras, como o Fórum Estadual Permanente de Educação de Minas Gerais - FEPEMG, o Fórum Mineiro de Educação Infantil – FMEI, a União Nacional dos Conselhos Municipais de Educação em Minas Gerais - UNCME/MG, o Conselho Estadual de Educação de Minas Gerais - CEE/MG, além de outras entidades e atores colaboradores.\n\nMinas Gerais avança ao propor um currículo referência que coloca as crianças, adolescentes, jovens e adultos no centro do processo de ensino e aprendizagem; que dialoga e considera os sujeitos numa visão integral, com múltiplos anseios e necessidades de formação; que reverbera o processo de ensino e aprendizagem de forma participativa e produtora de conhecimentos, imanente às realidades dos atores participantes; que inova numa visão de formação para além dos conteúdos escolares, e também para as práticas na relações sociais no e com o mundo.\n\nO Currículo Referência de Minas Gerais é, portanto, fruto do trabalho coletivo de milhares de profissionais de todas as regiões do Estado, versando sobre a pluralidade de ideias, identidades e expressões de Minas Gerais e, em consonância com a BNCC, será referência curricular para as redes a partir de 2020.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

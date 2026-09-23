@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07453608842b1a00006ab30ba9990887d2960cacebd22519cd",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1413,
+      "input_tokens_details": {
+        "cache_write_tokens": 1410,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1729,
+      "output_tokens_details": {
+        "reasoning_tokens": 430
+      },
+      "total_tokens": 3142
+    }
+  },
+  "created_at": "2026-09-22T23:13:58Z",
+  "duration_seconds": 13.14,
+  "error": null,
+  "excerpt_id": "ro_ef_58",
+  "filename": "ro_ef_58.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "012a39fba653a6c0196ed9246acffa7a46aa24c86e98f7f0c1be486faac9432d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cef8cd19930539c15c78561acf41ee2475fafafb073da3bd3b2a2b3f9bf9d734",
+    "rendered_prompt_sha256": "29f4078e26f17afa04a7e9f75c0b973cee67d65bcb655efe1f9b9066ed64541f",
+    "source_text_sha256": "6ca8f775615f918ffdafbf7c718422ed2da0ad2d181d1df515296093c19da236"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_58.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3159,
+    "filename": "ro_ef_58.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_58.txt",
+    "state": "ro",
+    "word_count_original": 819
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_58.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_58.json"
+  },
+  "raw_response_text": "### 9.1.4.2 O processo de ortografização do 3º ao 5º ano\n\nO processo da alfabetização, que pode se dar em dois anos, é complementado por outro, bem mais longo, que podemos chamar de ortografização, conforme definições da própria Base Nacional Comum Curricular.\n\nPara esse processo, são apresentadas três relações que são muito importantes. A primeira relação é entre a variedade de língua oral falada e a língua escrita, ao dizer que a criança está relacionando com as letras não propriamente os fonemas (entidades abstratas da língua), mas fones e alofones de sua variedade linguística (entidades concretas da fala).\n\nO segundo tipo de relações – as relações fono-ortográficas do português do Brasil – é complexo, pois, diferente do finlandês e do alemão, por exemplo, há muito pouca regularidade de representação entre fonemas e grafemas no português do Brasil. No português do Brasil, há uma letra para um som (regularidade biunívoca) apenas em poucos casos. Há, isso sim, várias letras para um som – /s/ s, c, ç, x, ss, sc, z, xc; /j/ g, j; /z/ x, s, z e assim por diante –; vários sons para uma letra: s - /s/ e /z/; z - /s/, /z/; x - /s/, /z/, /∫/, /ks/ e assim por diante; e até nenhum som para uma letra – h, além de vogais abertas, fechadas e nasalizadas (a/ã; e/é; o/ó/õ).\n\nDos 26 grafemas de nosso alfabeto, apenas sete – p, b, t, d, f, v, k – apresentam uma relação regular direta entre fonema e grafema e essas são justamente as consoantes bilabiais, linguodentais e labiodentais surdas e sonoras. Essas são as regulares diretas.\n\nHá, ainda, outros tipos de regularidades de representação: as regulares contextuais e as regulares morfológico-gramaticais, para as quais o aluno, ao longo de seu aprendizado, pode ir construindo “regras”. As regulares contextuais têm uma escrita regular (regrada) pelo contexto fonológico da palavra; é o caso de: R/RR; S/SS; G+A,O,U/ GU+E,I; C+A,O,U/QU+E,I; M+P,B/N+outras, por exemplo.\n\nAs regulares morfológico-gramaticais, para serem construídas, dependem de que o aluno já tenha algum conhecimento de gramática, pois as regras a serem construídas dependem desse conhecimento, isto é, são definidas por aspectos ligados à categoria gramatical da palavra, envolvendo morfemas (derivação, composição), tais como: adjetivos de origem com S; substantivos derivados de adjetivos com Z; coletivos em /au/ com L; substantivos terminados com o sufixo /ise/ com C (chatice, mesmice); formas verbais da 3ª pessoa do singular do passado com U; formas verbais da 3ª pessoa do plural do futuro com ÃO e todas as outras com M; flexões do Imperfeito do Subjuntivo com SS; Infinitivo com R; derivações mantêm a letra do radical, dentre outras. Algumas dessas regularidades são apresentadas por livros didáticos nos 3º a 5º anos e depois.\n\nTodo o restante das relações é irregular. São definidas por aspectos históricos da evolução da ortografia e nada, a não ser a memória, assegura seu uso. Ou seja, dependem de memorização a cada nova palavra para serem construídas. É, pois, de se supor que o processo de construção dessas relações irregulares leve longo tempo, se não a vida toda.\n\nPor fim, temos a questão de como é muitas vezes erroneamente tratada a estrutura da sílaba do português do Brasil na alfabetização. Normalmente, depois de apresentadas as vogais, as famílias silábicas são apresentadas sempre com sílabas simples consoante/vogal (CV). Esse processo de apresentação dura cerca de um ano letivo e as sílabas não CV (somente V; CCV; CVC; CCVC; CVV) somente são apresentadas ao final do ano.\n\nÉ importante a diretriz que a BNCC coloca de que as sílabas deveriam ser apresentadas como o que são, isto é, grupos de fonemas pronunciados em uma só emissão de voz, organizados em torno de um núcleo vocálico obrigatório, mas com diversos arranjos consonantais/vocálicos em torno do vogal núcleo.\n\nEm resumo, a BNCC define as capacidades/habilidades envolvidas na alfabetização como sendo capacidades de (de)codificação, que envolvem:\n\n- Compreender diferenças entre escrita e outras formas gráficas (outros sistemas de representação);\n- Dominar as convenções gráficas (letras maiúsculas e minúsculas, cursiva e script);\n- Conhecer o alfabeto;\n- Compreender a natureza alfabética do nosso sistema de escrita;\n- Dominar as relações entre grafemas e fonemas;\n- Saber decodificar palavras e textos escritos;\n- Saber ler, reconhecendo globalmente as palavras;\n- Ampliar a sacada do olhar para porções maiores de texto que meras palavras, desenvolvendo assim fluência e rapidez de leitura (fatiamento).\n\nSobre o processo de ortografização, a BNCC traz a assertiva de que, em sua completude, esse processo pode tomar até mais do que os anos iniciais do Ensino Fundamental, reforçando, assim, as três relações aqui já apresentadas:\n\na) as relações entre a variedade de língua oral falada e a língua escrita (perspectiva sociolinguística);\nb) os tipos de relações fono-ortográficas do português do Brasil; e\nc) a estrutura da sílaba do português do Brasil (perspectiva fonológica).",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

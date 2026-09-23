@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02537343f7c27b7a006ab2ffd1c44487d28f774530c90d9312",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 0
+    }
+  },
+  "created_at": "2026-09-22T22:23:24Z",
+  "duration_seconds": 10.729,
+  "error": null,
+  "excerpt_id": "ce_inf_e_ef_1",
+  "filename": "ce_inf_e_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ae232328f4226d132271d81276c3e730f001ccf68e99cb5a6fbd1cd571b68fd8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2895796c6ced5794ebb8a8adf5212a4bc126538b3e6e226f7b2cbdd2c1fd610d",
+    "rendered_prompt_sha256": "7e855a7a883e8c837d4acae95df5dade353bc907ceba9fff9d126c5eaa69b3f1",
+    "source_text_sha256": "1188d553f5f2e78f865d8591c7490b2f168f994691a854adae43a571e5b241ee"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_inf_e_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 844,
+    "filename": "ce_inf_e_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_inf_e_ef_1.txt",
+    "state": "ce",
+    "word_count_original": 440
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_inf_e_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_inf_e_ef_1.json"
+  },
+  "raw_response_text": "Em dezembro de 2017, ocorreu a homologação da Base Nacional Comum Curricular (BNCC), referente às etapas da Educação Infantil e do Ensino Fundamental, contendo o conjunto progressivo de aprendizagens essenciais que todos(as) os(as) alunos(as) têm o direito de desenvolver ao longo dessas etapas da educação básica.\n\nPor meio de um pacto colaborativo, Ministério da Educação (MEC), Conselho Nacional de Secretários de Educação (CONSED), União Nacional dos Dirigentes Municipais de Educação (UNDIME), União Nacional dos Conselhos Municipais de Educação (UNCME) e Fórum Nacional dos Conselhos Estaduais de Educação (FNCEE), estabelecido no início de 2018, as redes de ensino começaram o processo de implementação da BNCC, iniciando o percurso de (re)elaboração de sua proposta curricular.\n\nO estado do Ceará, que, reconhecidamente, apresenta um forte histórico de regime de colaboração e de avanços educacionais frutos dessa união entre o estado e seus municípios pela garantia do direito de aprender de cada aluno(a) na idade certa, desenvolveu, durante o ano em curso, um grande processo participativo para a construção de um documento curricular que fosse referência para a escola no que concerne à Educação Infantil e ao Ensino Fundamental.\n\nAssim, é com grande satisfação que apresentamos o resultado desse processo de construção conjunta, envolvendo os municípios, gestores(as), professores(as), estudiosos(as) e muitos(as) que têm na educação o processo por excelência para a formação integral de crianças e adolescentes. Além de consulta pública, da escuta direta de professores e professoras, o documento teve a leitura crítica de especialistas das diferentes etapas/componentes curriculares.\n\nSob a intitulação de Documento Curricular Referencial do Ceará (DCRC), o mesmo busca apontar caminhos para que o currículo das escolas cearenses seja vivo e prazeroso, de modo a assegurar as aprendizagens essenciais e indispensáveis a todas as crianças e adolescentes, cumprindo de forma efetiva com o compromisso assumido pelo estado do Ceará que é o direito de aprender na idade certa. Com base no documento, as redes de ensino e instituições escolares públicas e privadas contarão com uma referência estadual para elaboração ou adequação de suas propostas pedagógicas.\n\nO DCRC constitui, portanto, a consolidação de uma ação articulada e integrada para fortalecer o protagonismo dos(as) docentes, de seus alunos e suas alunas em cada sala de aula do nosso Ceará, e a reafirmação do compromisso com a construção de uma sociedade mais justa, mais equânime e igualitária.\n\nRogers Vasconcelos Mendes  \nSecretário da Educação do Ceará\n\nJosé Marques Aurélio de Souza  \nPresidente da UNDIME-CE\n\n“Fé na vida, fé no homem, fé no que virá. Nós podemos tudo, nós podemos mais, Vamos lá",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

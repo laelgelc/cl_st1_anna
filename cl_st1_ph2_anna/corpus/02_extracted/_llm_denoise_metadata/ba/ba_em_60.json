@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_066efed6bbacfa23006ab2fedf18d887d2b6741bbfc592010d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1317,
+      "input_tokens_details": {
+        "cache_write_tokens": 1314,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1425,
+      "output_tokens_details": {
+        "reasoning_tokens": 204
+      },
+      "total_tokens": 2742
+    }
+  },
+  "created_at": "2026-09-22T22:19:20Z",
+  "duration_seconds": 9.458,
+  "error": null,
+  "excerpt_id": "ba_em_60",
+  "filename": "ba_em_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5d02db57430715c8c17c8b62955e277f770078bb9da200bfc84f2107753ae92b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ec1e26d872b62419724eecc0c4d8fa840ac6cdaf2eb20cf0bc57eadfb4798f6c",
+    "rendered_prompt_sha256": "3b5d22de321e96ef4f5e6422ff3589859bad5969d1010da8c84ee17396a77225",
+    "source_text_sha256": "4530e2dc0b023b707423e931657afa0fc6d55433883f3a7dc8066e12403294a7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_em_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 679,
+    "filename": "ba_em_60.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_em_60.txt",
+    "state": "ba",
+    "word_count_original": 828
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_em_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_em_60.json"
+  },
+  "raw_response_text": "## 12.12.2. O QUE PODEM SER ESTAÇÕES DE SABERES\n\n- Experimentos didáticos: a equipe planeja atividades que envolvam experimentações (aprender fazendo) em torno de uma situação-problema. O ideal, neste caso, é que os estudantes sejam desafiados a criar situações-problema, questionamentos e resoluções de problemas em torno de uma etapa do desenvolvimento do projeto pedagógico em curso.\n- Roteiros abertos de pesquisa: a equipe planeja passo a passo, sempre na perspectiva do aprendizado aberto, a partir da orientação dos professores, a pesquisa e o aprofundamento do que está sendo abordado em determinada etapa do desenvolvimento do projeto pedagógico.\n- Oficinas: a equipe planeja vivências e execução de atividades em equipe, que oportunizem a construção coletiva de saberes. Possibilidade de se trabalhar, para além dos saberes convencionais, saberes corporais, cênicos, musicais, de campos ou culturas pouco valorizadas na escola (mestres de saberes tradicionais, mestres de ofícios).\n- Jogos: a equipe planeja jogos didáticos adequados ao que se está trabalhando nos projetos. Neste caso, também é possível planejar oficinas em que os estudantes criam jogos, utilizando raciocínio lógico, intuitivo, corporal, emocional, etc.\n- Práticas pedagógicas em torno do diálogo (RODAS DE CONVERSA): a equipe planeja espaços para o aprendizado dialógico, através de rodas de conversa, por exemplo. Essa metodologia é muito importante para se trabalhar a subjetividade e construção identitária dos estudantes. Como a perspectiva é do trabalho descentralizado da figura do professor, é possível com o tempo que os mediadores das rodas sejam os próprios estudantes, além de parceiros convidados para participar da roda. As práticas dialógicas reencenam a maiêutica socrática, metodologia de ensino do filósofo grego antigo Sócrates em que os saberes afloram a partir de perguntas aparentemente simples, porém marcadas pela perspicácia. Ou seja, o estudante é incitado a duvidar, a questionar e a construir ideias, conceitos, saberes e práticas por ele próprio e, simultaneamente, em grupo.\n- Outras atividades que envolvam a construção coletiva de saberes: as ESTAÇÕES DE SABERES são uma oportunidade para as equipes usarem a criatividade e criarem práticas de ensino-aprendizagens inovadoras. Exemplos de ESTAÇÕES DE SABERES colhidas das propostas das equipes docentes por área do conhecimento: Produção de Fanfics; Círculos de Leitura; Jogos Matemáticos; Experimentos Científicos; Corpo e Movimento; Fotografando Vidas; Experimentação Musical; Colhendo Poesias; O Fascinante Planeta Terra: nossa casa; Tecnologias, desafios e conexões, etc. Resumindo, as ESTAÇÕES DE SABERES devem:\n  - Ter a duração que os objetivos de ensino-aprendizagem requeiram delas, podendo durar uma semana, mais de uma semana, um mês, um trimestre ou um ano inteiro;\n  - Ser composta por atividades desafiadoras que envolvam a criatividade, o aprendizado prazeroso e construção coletiva do conhecimento baseada na autonomia do estudante;\n  - Ter caráter transdisciplinar, tanto dentro de uma mesma área do conhecimento quanto entre as diferentes áreas do conhecimento.\n\n## 12.12.3. POSSIBILIDADES DE TRABALHO NAS ESTAÇÕES DE SABERES\n\nNa medida em que as ESTAÇÕES DE SABERES se colocam como o espaço-tempo mais dinâmico na organização pedagógica, é muito importante que turmas que participem das estações se organize de forma multisseriada partindo da premissa de um aprendizado em cooperação, tanto entre os estudantes quanto entre professores e estudante e a fim de oportunizar o trabalho em grupo.\n\nPode-se eleger ainda o planejamento do trabalho pedagógico nas estações a partir da pedagogia de projetos, elegendo um eixo temático, privilegiando experimentações, vivências, aprendizados e trocas em torno dos projetos desenvolvidos em cada área do conhecimento.\n\nNessa perspectiva, o planejamento das ESTAÇÕES torna-se crucial e, em certo aspecto, muito mais trabalhoso do que a dinamização das ESTAÇÕES em si. Nesse caso, cada equipe deve planejar atividades de pesquisa, práticas e ações pedagógicas, sempre em grupo, que se relacionem com a etapa do projeto desenvolvido e que envolvam a criatividade, o prazer e o aprendizado cooperativo entre os estudantes. Deve-se planejar também os materiais que envolvem cada ESTAÇÃO e os espaços que a escola precisará disponibilizar para a realização de cada uma delas. Além da possibilidade de diálogo com os programas e projetos estratégicos da Secretaria, da escola partindo sempre da premissa do diálogo com as culturas juvenis e os interesses dos estudantes. O tempo de cada estação também deve ser pensado no planejamento, de acordo com os objetivos de ensino-aprendizagem que estão sendo trabalhados. Dessa forma, dependendo da ESTAÇÃO, a duração pode ser de uma semana, mais de uma semana, um mês, um trimestre ou um ano inteiro, sempre tendo em vista o fato de que ela deve ser um momento significativo de desafio, criatividade e aprendizado para os estudantes.\n\n## 12.12.4. COMO OS PROFESSORES ORIENTADORES DEVEM INTERAGIR COM OS ESTUDANTES NAS ESTAÇÕES?\n\nTendo em vista tudo o que foi exposto acima, os professores que estão nas diversas ESTAÇÕES devem atuar como parceiros dos estudantes no processo de construção coletiva do conhecimento. Nesse sentido, o professor sai do centro das atividades e coloca-se ao lado dos estudantes, oportunizando junto a eles a construção de conhecimento. O educador, nesse caso, converte-se no professor-aprendiz, construído enquanto remetente da instigante Carta de Paulo Freire aos professores (2001).",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

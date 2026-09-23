@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0df2d4d2b9fc38c7006ab300aa4ce087d2988407ea8bfe835a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 536,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 519,
+      "output_tokens_details": {
+        "reasoning_tokens": 104
+      },
+      "total_tokens": 1055
+    }
+  },
+  "created_at": "2026-09-22T22:26:54Z",
+  "duration_seconds": 4.308,
+  "error": null,
+  "excerpt_id": "es_em_22",
+  "filename": "es_em_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8fadde47d5e55684c176808b9d44a5b137569b9f9730d4653a7ec15205338600",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f0c00374b440f2d5254015ad70d9f95313a735ac3a3d693c980c258d19667ab3",
+    "rendered_prompt_sha256": "ccbc20955478eb4fe738cd0ba0abc99be6a811afb48252fbf45e441e3d8c3189",
+    "source_text_sha256": "38767e715999411007f9794b4085f69acfea99dd2c8b8cb1c3a5f3a3a955fa55"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_em_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1029,
+    "filename": "es_em_22.txt",
+    "filepath": "corpus/00_source_per_state/es/es_em_22.txt",
+    "state": "es",
+    "word_count_original": 260
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_em_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_em_22.json"
+  },
+  "raw_response_text": "## 3. ARQUITETURA CURRICULAR\n\nA organização curricular dos Itinerários Formativos de Aprofundamento (IFAs), orientada pelos princípios de integração, flexibilidade e aprofundamento progressivo, conforme estabelecido nas Diretrizes Nacionais, no estado do Espírito Santo é composta por três percursos distintos, concebidos para permitir aos(às) estudantes uma imersão significativa nas áreas do conhecimento, alinhada aos seus projetos de vida e interesses:\n\n1. IFA Integrado: Ciências Humanas e Sociais Aplicadas & Linguagens e suas Tecnologias\n2. IFA Integrado: Ciências da Natureza e suas Tecnologias & Matemática e suas Tecnologias\n3. IFA Integrado: Todas as Áreas (Quatro Áreas) do Conhecimento\n\nCada Itinerário é organizado a partir da articulação entre os componentes curriculares de sua própria área e da área conjunta, promovendo a interdisciplinaridade e a contextualização dos conhecimentos. A estrutura é planejada para garantir um aprofundamento não apenas nos conteúdos específicos de cada disciplina, mas, sobretudo, no desenvolvimento das Competências Comuns previstas para os IFAs, por meio de projetos integradores que articulam os quatro eixos estruturantes: Método, Conhecimento e Ciência, Mediação e Intervenção Sociocultural, Inovação e Intervenção Tecnológica e Mundo do Trabalho e Transformação Social.\n\nOs IFAs estão dispostos em três módulos distintos, porém articulados entre si, abordando o eixo Método, Conhecimento e Ciência, no primeiro módulo; Mediação e Intervenção Sociocultural no segundo módulo; os dois últimos eixos, denominados Inovação e Intervenção Tecnológica e Mundo do Trabalho e Transformação Social, serão abordados no terceiro e último módulo.\n\nOs eixos estão devidamente acompanhados das competências e habilidades que se alinham a eles. Esses eixos possuem importância significativa na construção do Itinerário, logo serão detalhados em seção específica.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

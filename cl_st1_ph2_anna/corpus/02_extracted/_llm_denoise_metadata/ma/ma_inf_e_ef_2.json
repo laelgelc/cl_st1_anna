@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0cbf6870c1a1f5f9006ab3026844d487d286846353b43f87b8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1391,
+      "input_tokens_details": {
+        "cache_write_tokens": 1388,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1363,
+      "output_tokens_details": {
+        "reasoning_tokens": 89
+      },
+      "total_tokens": 2754
+    }
+  },
+  "created_at": "2026-09-22T22:34:26Z",
+  "duration_seconds": 10.12,
+  "error": null,
+  "excerpt_id": "ma_inf_e_ef_2",
+  "filename": "ma_inf_e_ef_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c3d6d28b6679e12bd0a9680156942f86d3e2b961612ed3fd00ee2f9405ad8017",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ffc5447656b2733d6c5bb84938f0b5f810b610844a8dee70979be01654ba1a80",
+    "rendered_prompt_sha256": "f1c44e5f15831ef8bc5a9f19cb8767258ccec9ff85665cd3dd5162f1ae8b0f68",
+    "source_text_sha256": "80df9dc8e0837cc2e31e59f382d473f8626db2b12a933490445ef5f05eb5c196"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_inf_e_ef_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1371,
+    "filename": "ma_inf_e_ef_2.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_inf_e_ef_2.txt",
+    "state": "ma",
+    "word_count_original": 952
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_inf_e_ef_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_inf_e_ef_2.json"
+  },
+  "raw_response_text": "# 1. INTRODUÇÃO\n\nVista como um processo que tem como foco o desenvolvimento integral, que busca potencializar as capacidades humanas e, como resultado disso, trazer transformações sociais, a educação deve ser a base e a norteadora para que se adquira autonomia e assim se desenvolva uma visão do futuro, propiciando avanços econômicos, políticos e sociais na realidade do estado do Maranhão.\n\nElemento integrador e de conquista de uma consciência cidadã, a educação promove o desenvolvimento da criatividade, da capacidade de análise e síntese, da socialização, da autonomia, do autoconhecimento e do senso crítico.\n\nAs proposições da Base Nacional Comum Curricular (BNCC) concebem a escola como instituição social cuja finalidade é oportunizar o crescimento humano nas relações interpessoais e possibilitar a apropriação do conhecimento a partir da realidade do aluno, contribuindo na formação de cidadãos capazes de analisar, compreender e intervir na realidade para a construção de uma sociedade de cidadãos plenos.\n\nNeste contexto, a escola motivará no estudante a busca por uma consciência crítica, ampliando sua visão de mundo, em que possa interpretar o contexto social no qual está inserido e entender as relações intra e interpessoais, como também as relações do ser humano com a natureza.\n\nA escola, como espaço de aprendizagem e de cultura, além da família e da sociedade, proporciona ações e princípios que dão significado ao que se vive e se experimenta. Dessa forma, não é possível separar vivências cotidianas, adquiridas ao longo da vida, de práticas e sentimentos.\n\nO espaço escolar é fascinante, lugar de cultura e diversidade, mas também de contradições e relações que envolvem desigualdades e discriminação, assim como parcerias. Nesse cotidiano escolar são descobertos novos caminhos a serem trilhados, que levam a mudanças de comportamentos, de trabalhos, de lutas para se alcançar a aprendizagem.\n\nNeste espaço, o currículo é uma das formas de mudar as relações entre os professores, estudantes e demais profissionais envolvidos no processo de educar; com ele, entende-se a função social da escola no contexto social de hoje. Conforme tal concepção, o currículo não é apenas o conteúdo anual a ser ministrado nas aulas – é um espaço onde professores e alunos se inter-relacionam e, nesta interação, ocorre a aprendizagem.\n\nPara Krasilchik (2005) o currículo é formado por vivências oriundas de aprendizados planejados, que já fazem parte do programa, e de experiências não planejadas, que constituem o currículo latente. É do currículo aparente que o professor irá planejar suas aulas. Através de cada uma de suas turmas, ele irá tomar do currículo o conteúdo adequado para ser ministrado aos estudantes em determinado tempo e de forma a melhor promover sua aprendizagem.\n\nAlém dos conteúdos comuns a todo território brasileiro, a Lei de Diretrizes e Bases – LDB (1996) – e a BNCC (2017) apontam que deve haver complementação em âmbito local, de acordo com as características regionais e locais do estabelecimento escolar em questão.\n\nDiante disso, os professores se deparam com uma questão, já abordada por Moreira (1996): como ensinar conteúdos “essenciais”, “básicos”, em todas as escolas do país e, ao mesmo tempo, respeitar as diferenças? Considerando a diversidade de culturas, como construir um currículo que atenda a essas diferenças culturais? O caminho para tanto requer participação ativa do professor e envolve as relações com os estudantes. O docente deve conhecê-los, compreender suas necessidades e expectativas, para só então transformar o currículo, de forma a garantir a apreensão do conhecimento com equidade.\n\nA partir desses pressupostos, os professores têm o desafio de auxiliar os estudantes na organização e seleção do excesso de informações que recebem do currículo, devendo dar condições básicas para que estes sejam inseridos na era da informação e tecnologias.\n\nAlém do conteúdo das disciplinas, o currículo deve estar relacionado com a vivência prática do estudante, da escola, da comunidade, da cidade e do estado. A partir do aprendizado em sala, das experiências vividas, dentro e fora da escola e, ao relacioná-los, a aprendizagem será significativa, favorecendo a formação da personalidade, além de ser um motivador para que se aprenda mais e conscientemente, pois o estudante terá condições de se perceber como partícipe do processo.\n\nPara Piletti (2006), o currículo também trata de valores, comportamentos e normas de cada indivíduo que se relaciona quando este se encontra em prática. Logo, professores e estudantes estão sempre aprendendo a se conhecer, por intermédio das aulas e fora delas, nos corredores, nos intervalos, nas festas escolares – e tudo isso é currículo. As relações estabelecidas na sala ao longo do ano letivo, as metodologias e os processos são também importantes. Estes, em conjunto com o conteúdo curricular a ser aprendido, propiciam a aprendizagem com qualidade.\n\nAlém disso, os temas integradores presentes transversalmente nos conteúdos básicos e na parte diversificada do currículo da Educação Infantil e do Ensino Fundamental dão-lhe um caráter flexibilizador, possibilitando que as redes de ensino e a escola no Projeto Político Pedagógico (PPP) abordem temas inerentes à sua realidade social, do bairro, do município, da região e do estado.\n\nEsta introdução encontra-se organizada em seis tópicos, além desta apresentação, a saber: no tópico 1 são apresentadas as características do território maranhense; no tópico 2 desvelam-se as competências definidas pela BNCC no currículo do território maranhense em uma perspectiva pedagógica; já no tópico 3, discutem-se os referenciais conceituais, como: currículo, os processos de ensinar e aprender, alfabetização e letramento e avaliação da aprendizagem; os princípios educacionais, como: equidade, formação integral, inclusão e diversidade são apresentados no tópico 4; os temas integradores são a essência do tópico 5; e por fim, no tópico 6 são apresentadas as diversidades e modalidades educacionais: educação especial, educação de jovens e adultos, educação do campo, educação indígena e educação quilombola, finalizando com algumas considerações.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c534c496cbf04b0006ab2feb51a6487d2b6831344c1342529",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1271,
+      "input_tokens_details": {
+        "cache_write_tokens": 1268,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1641,
+      "output_tokens_details": {
+        "reasoning_tokens": 460
+      },
+      "total_tokens": 2912
+    }
+  },
+  "created_at": "2026-09-22T22:18:41Z",
+  "duration_seconds": 12.66,
+  "error": null,
+  "excerpt_id": "ba_em_34",
+  "filename": "ba_em_34.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3e79deafb5b585c24741d2b9911a86802d48920958536d5eb8f805c123794c37",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3b7589efc2ac988310bfd01327876561e6b7d5fecdfc60bb78ce234596bf8b92",
+    "rendered_prompt_sha256": "188a3298d0a5a3f46c4a2250d0d3bed580a0b54d4bd2d65e57f7e65fd6630e19",
+    "source_text_sha256": "08987b178e000206d83b94e819e3e37cf8ebccb599dc082c38d10d9a5c9323bb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_em_34.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 650,
+    "filename": "ba_em_34.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_em_34.txt",
+    "state": "ba",
+    "word_count_original": 837
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_em_34.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_em_34.json"
+  },
+  "raw_response_text": "## 8.2. FLEXIBILIZAÇÃO CURRICULAR DO ENSINO MÉDIO BAIANO\n\n### 8.2.1. À GUISA DA COMPREENSÃO DA OFERTA DO ENSINO MÉDIO REGULAR\n\nO Ensino Médio, etapa final da Educação Básica, é compreendido, de acordo com as Diretrizes Curriculares Nacionais para o Ensino Médio (DCNEM), como um conjunto orgânico e de caráter sequencial, distribuído em três séries que se articulam entre si, devendo ter como objetivo a formação para todos/as os/as estudantes que a demandem, entre eles os/as adolescentes, os/as jovens e os/as adultos/as. Podendo ser ofertado em tempos e organizações diversas, a exemplo de séries anuais, semestres, módulos, ciclos, alternância regular dos períodos de estudos, em grupos não seriados ou com base na idade, sempre objetivando oferecer maiores possibilidades de aprendizagem aos estudantes. (BRASIL, 2012)\n\nComo etapa da Educação Básica, o Ensino Médio é obrigatório e gratuito, sendo a sua oferta um dever do Estado, estando vinculado à idade cronológica do/a estudante, que deverá ter até 17 anos, no ano da sua conclusão, como define a Lei de Diretrizes e Bases da Educação Nacional (LDB) no seu Artigo nº 4. A LDB estabelece ainda, no seu parágrafo 8º, que os estudantes, ao final da etapa do Ensino Médio, deverão demonstrar que possuem o domínio dos princípios científicos e tecnológicos existentes na sociedade moderna, além do domínio das diversas formas contemporâneas de linguagem (BRASIL, 1996).\n\nO Ensino Médio tem duração mínima de 3 (três) anos e tinha carga horária mínima total de 2.400 (duas mil e quatrocentas) horas, com referência de uma carga horária anual de 800 (oitocentas) horas, distribuídas em, pelo menos, 200 (duzentos) dias de efetivo trabalho escolar e frequência mínima de 75% para que os estudantes obtenham aprovação na etapa. A partir de 2022, conforme disposto no § 2º do Art. 17 da DCNEM, alterada pela Lei nº 13.415/17, a carga horária total deverá ser ampliada para 3.000 (três mil) horas até o início do ano letivo de 2022 e, a partir de 2022, a carga horária anual total deve ser ampliada progressivamente para 1.400 (um mil e quatrocentas) horas (BRASIL, 2018).\n\nNo Estado da Bahia, a etapa do Ensino Médio é disponibilizada por meio da oferta regular, nos períodos diurno e noturno, e nas ofertas disponibilizadas pelas Modalidades de Ensino. A oferta regular, ainda, poderá ser oferecida através das ofertas do Ensino Médio com Intermediação Tecnológica (EMITec) e do Ensino Médio de Tempo Integral. A diversidade de ofertas de Ensino Médio no Estado, objetiva contemplar às necessidades pedagógicas, da relação com o mundo do trabalho, da localização de moradia e demais especificidades dos/as estudantes desta etapa de ensino. As ofertas do Ensino Médio com Intermediação Tecnológica, Ensino Médio de Tempo Integral e as especificidades do Ensino Médio do período noturno serão abordados nos tópicos que se seguem neste Documento.\n\nO parágrafo único do Art. 1º da Resolução CEE nº 127/1997, que fixa normas preliminares visando à adaptação da legislação educacional do Sistema Estadual de Ensino às disposições da Lei 9394/96, e dá outras providências, dispõe que:\n\n> Os níveis de educação e ensino mencionados no caput deste artigo compreendem os processos educacionais em sua forma regular e nas modalidades de educação de jovens e adultos, educação especial, educação profissional, educação indígena e educação a distância (BAHIA, 1997).\n\nO Ensino Médio na Bahia apresenta, de acordo com o Censo da Educação Básica de 2020, taxa de distorção idade-série de 42%, incluindo-se aqui as Redes pública e privada, o que significa que uma parcela significativa dos/as estudantes não está matriculada nas séries correspondentes à idade definida como adequada pela LDB (INEP, 2020). Tal distorção aponta para a necessidade de que, mesmo no Ensino Médio sejam adotadas estratégias de atendimento dos/as estudantes que apresentam tal condição e, além disso, do estabelecimento de Políticas Públicas que possibilitem a gradual adequação desses níveis de distorção, reduzindo-os a cada ano. Compreender o que tem levado os/as estudantes a permanecerem mais tempo nas séries do Ensino Fundamental, chegando ao Ensino Médio com idades mais avançadas do que o ideal é parte da tarefa de todos os envolvidos na oferta da educação básica da Bahia.\n\nO Ensino Médio, em todas as suas ofertas e modalidades, envolve uma fase de transição da vida dos/as estudantes, que encerram sua formação básica nesse momento, podendo cursar a Educação Superior. Esta etapa tem tarefas importantes, como oferecer possibilidades de aprimoramento dos/as estudantes como pessoas humanas, de promover a formação ética e a autonomia intelectual, além de proporcionar aos/às jovens uma robusta formação científica, o exercício da pesquisa e da atuação social orientada. Diante de tantas expectativas que permeiam o percurso formativo dos/as jovens no Ensino Médio, e no contexto de transformações pelas quais passa esta etapa com a implementação da nova proposta curricular para o Ensino Médio, considera-se indispensável que se dê atenção especial a este processo de mudanças através de estudos, formação de professores/as e da cuidadosa implementação deste DCRB no Estado da Bahia.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

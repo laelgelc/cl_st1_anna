@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_057fb98cd85d5cd9006ab30b57a5bc87d2bb43185dc7640e67",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 878,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 913,
+      "output_tokens_details": {
+        "reasoning_tokens": 141
+      },
+      "total_tokens": 1791
+    }
+  },
+  "created_at": "2026-09-22T23:12:30Z",
+  "duration_seconds": 6.749,
+  "error": null,
+  "excerpt_id": "rn_inf_38",
+  "filename": "rn_inf_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fe3b918659bf4ad27420dfa7167e1111d1df161ba5fb20f44c986852f80a8c25",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "295bff8ec22137f61ecf3b7f93d76127ca5a7cc88b3c86d7b6678f9b54d229b7",
+    "rendered_prompt_sha256": "7f78f01dbdb5711a63fe55d980532a325aa8e3ce2d8a63e80e9184ff5cb67798",
+    "source_text_sha256": "86a29dc0ebb065ec27a06e2305f36506c33989728e8fa1370d228c22f9e6cabd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3085,
+    "filename": "rn_inf_38.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_38.txt",
+    "state": "rn",
+    "word_count_original": 567
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_38.json"
+  },
+  "raw_response_text": "## INSERÇÃO DA CRIANÇA E SUAS TRANSIÇÕES\n\nO ingresso da criança em instituições de Educação Infantil configura-se em momento importante na vida, sendo marcado por tensões e expectativas, tanto das crianças quanto de seus familiares e dos profissionais que as acolhem. Sentimentos contraditórios fazem parte desse processo inicial, já que as primeiras experiências se tornam significativas à continuidade de outras. À instituição, cabe o planejamento e acolhimento afetivo das crianças e de suas famílias durante esse processo de inserção em novas rotinas e interações.\n\nSão diversas as transições vivenciadas pelas crianças e cada uma requer a elaboração de estratégias adequadas aos diferentes momentos vivenciados. Na transição de casa para a creche, pré-escola ou escola, é importante que as instituições considerem em sua organização, planejamento e ações, o conhecimento sobre a criança, seu conforto, segurança e bem-estar, bem como a confiança de todos os envolvidos – familiares, crianças e professores. Para isso, deve haver uma escuta atenta e sensível a esses sujeitos com o objetivo de minimizar as possíveis inseguranças e tensões que venham surgir.\n\nAos professores cabe um olhar atento e sensível, já que são mediadores fundamentais nas diversas relações/interações que serão estabelecidas com outras crianças/adultos e na promoção de experiências significativas. Ainda, nessa perspectiva, devem ser consideradas as transições que acontecem no próprio âmbito da instituição, como a mudança de turno e de professores, que por sua vez promovem a alteração da rotina escolar já estabelecida.\n\nDesse modo, a inserção constitui-se como um momento de aprendizagem propício às novas experiências necessárias ao desenvolvimento humano. Logo, não pode ser encarada apenas como um período onde as crianças precisam se adaptar à nova rotina, mas um momento onde possam se perceber como sujeitos históricos e culturais, conhecendo a si e aos outros, interagindo com diferentes parceiros.\n\nO período de inserção provoca uma série de mudanças e mobilizações na Instituição de Educação Infantil, seja no espaço físico, na rotina ou nas relações entre as pessoas. Por isso, deve ser cuidadosamente planejado para promover a confiança e o conhecimento mútuos, favorecendo o estabelecimento de vínculos entre as crianças, as famílias e os educadores, o que pode durar dias ou meses. E nesse sentido, o acompanhamento cotidianamente precisa assegurar a continuidade dos processos vivenciados pelas crianças nas instituições de Educação Infantil.\n\n## APROFUNDANDO O TEMA\n\n### Inserção x Adaptação\n\nOs primeiros momentos de inserção das crianças em Centros de Educação Infantil são tradicionalmente conhecidos no Brasil como períodos de adaptação. Entretanto o termo adaptação pode sugerir a ideia de ajustamento, acomodação, ou seja, alguém que se ajusta ou se acomoda, submetendo-se a uma situação, seja ela boa ou ruim.\n\nEntretanto, destacamos que submissão é tudo o que as pessoas que trabalham com educação querem evitar. Dessa forma, construímos outra visibilidade a esse processo de mudanças que vemos acontecer no cotidiano dos Centros de Educação Infantil praticado pelas crianças, familiares e profissionais.\n\n(RONCHI, 2018)\n\nNo que se refere à transição para o Ensino Fundamental, as DCNEI (BRASIL, 2009a), preveem a garantia do contínuo processo de aprendizagem e desenvolvimento das crianças, respeitando suas especificidades etárias, sem antecipação de conteúdos que serão trabalhados na etapa subsequente.\n\nÉ importante, então, destacar o respeito às singularidades da criança, às suas especificidades etárias, sociais, psicológicas e cognitivas, suas necessidades e potencialidades, seus tempos e modos de viver e relacionar-se com o mundo, reconhecendo a brincadeira como um desses modos.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

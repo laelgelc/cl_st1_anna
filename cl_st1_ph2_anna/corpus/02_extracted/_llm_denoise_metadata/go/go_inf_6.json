@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09f87bf0540476b9006ab30198df5487d28bfa77fae63029fa",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1931,
+      "input_tokens_details": {
+        "cache_write_tokens": 1928,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2183,
+      "output_tokens_details": {
+        "reasoning_tokens": 410
+      },
+      "total_tokens": 4114
+    }
+  },
+  "created_at": "2026-09-22T22:31:02Z",
+  "duration_seconds": 13.864,
+  "error": null,
+  "excerpt_id": "go_inf_6",
+  "filename": "go_inf_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6aa0c1e63d2a3aa0cbfe3676a6c50549074501899f91dc66a1373e00bee62bd8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "947f09c1c37acf49749c720d00563c2c8bbee164288ab65a2e231579d39de6a6",
+    "rendered_prompt_sha256": "f4d0ea402265941faafb9526868c05b48eb8985d4fe8939c320c221d5e53f44d",
+    "source_text_sha256": "71890cc6039bc9e477d133d5c8f55a89c7a836011f2705d8b984917af18a63a0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_inf_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1222,
+    "filename": "go_inf_6.txt",
+    "filepath": "corpus/00_source_per_state/go/go_inf_6.txt",
+    "state": "go",
+    "word_count_original": 1223
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_inf_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_inf_6.json"
+  },
+  "raw_response_text": "## 2.2. Os Campos de Experiências e a Identidade da Educação Infantil\n\nA Educação Infantil, mesmo fazendo parte do sistema educacional desde 1996, com a promulgação da LDBEN (BRASIL, 1996), ainda está em busca da sua identidade, no sentido de demarcar sua especificidade.\n\nDois fatores interferem nesse processo de forma inter-relacionada. O primeiro diz respeito às revisões e alterações que a LDBEN sofreu nos últimos anos, sendo uma em 2006¹⁵ que dispõe sobre a duração de nove anos para o Ensino Fundamental, com matrícula obrigatória a partir dos 6 (seis) anos de idade e a outra, em 2013¹⁶, que estabelece a Educação Básica, obrigatória e gratuita, dos 4 (quatro) aos 17 (dezessete) anos de idade e como dever dos pais ou responsáveis efetuar a matrícula.\n\nO segundo fator está relacionado aos avanços teóricos sobre a função e o papel da Educação Infantil diante dos processos de aprendizagens e desenvolvimento das crianças que, mesmo tendo consensos no meio acadêmico, ainda não conseguem fazer a ruptura necessária no interior das instituições educacionais que possuem, ora práticas assistencialistas ora mecânicas e fragmentadas muito próximas ao que, ainda, é realizado no Ensino Fundamental. Essa oscilação ainda perpassa o trabalho desenvolvido tanto na creche como na pré-escola.\n\n¹⁵ Lei nº 11.274 de 06 de fevereiro de 2006.  \n¹⁶ Lei nº 12.796 de 04 de abril de 2013.\n\nObserva-se que, por fatores tanto legais quanto teóricos, a identidade da Educação Infantil no país vem sendo problematizada.\n\nNo que se refere às discussões sobre currículo, as decisões e os posicionamentos das políticas públicas, desde a década de 1990 têm alternado no sentido de serem mais abertas com orientações gerais ou prescritivas ao apresentar conhecimentos e conteúdos determinados.\n\nMesmo com a publicação de duas DCNEI, uma em 1999 e outra em 2009, de caráter normativo, os Referenciais Curriculares Nacionais para a Educação Infantil/RCNEI (BRASIL, 1998) produzidos e organizados por áreas, eixos e faixas etárias, ainda é o material que subsidia a ação da maioria dos professores na atualidade, conforme relatório de pesquisa¹⁷.\n\nO que faz um documento perdurar por 20 anos? De acordo com Barbosa e Richter,\n\n> A permanência do discurso dos RCNEI deve-se ao fato de apresentarem um conceito de escola, de ensino, de conteúdo, de ação docente, muito próximo à compreensão tácita de escola convencional, ou seja, uma compreensão impregnada pelas vivências escolares dos docentes, gestores e famílias (2015, p.189).\n\n¹⁷ Relatório de pesquisa: Mapeamento e análise das propostas pedagógicas municipais para a Educação Infantil. Projeto de Cooperação Técnica MEC e UFRGS para construção de orientações curriculares para a Educação Infantil de 2009.\n\nDessa forma, buscando romper com o que ainda acontece nas instituições educacionais e que não condiz com o que é proposto legalmente para a Educação Infantil e visando garantir a sua identidade, afirmação no sistema educacional e articulação com as demais etapas, a BNCC (BRASIL, 2017) fez a opção pela organização curricular por campos de experiências, tendo como referencial legal e teórico o Parecer CNE/CEB nº 20/2009 das DCNEI quando propõe que “A organização curricular da Educação Infantil pode se estruturar em eixos, centros, campos ou módulos de experiências que devem se articular em torno dos princípios, condições e objetivos propostos nesta diretriz [grifo nosso] (p.95)”.\n\nPara tanto, foram definidos para o território nacional cinco campos de experiências, assim denominados:\n\n- O Eu, o Outro e o Nós;\n- Corpo, Gestos e Movimentos;\n- Traços, Sons, Cores e Formas;\n- Escuta, Fala, Pensamento e Imaginação;\n- Espaços, Tempos, Quantidades, Relações e Transformações.\n\nEsses campos de experiências, por um lado, resguardam uma relação com as áreas do conhecimento e seus objetos de estudo, estrutura das demais etapas da Educação Básica, na perspectiva de articulação e continuidade na formação dos sujeitos. Por outro, concebem o trabalho com os conhecimentos do patrimônio da humanidade, artísticos, culturais, ambientais, científicos e tecnológicos (BRASIL, 2009) numa perspectiva aberta e flexível, de forma articulada às práticas sociais, à cultura, às interações e aos encontros entre os sujeitos, num tempo e espaço de vida comum entre crianças e adultos.\n\nAssim, cada campo é composto por um conjunto específico de sentidos, saberes e conhecimentos de diferentes naturezas, agrupados por afinidades, semelhanças e aproximações, que se desdobram em objetivos de aprendizagens e desenvolvimento. Contudo, os campos de experiências são concebidos numa perspectiva intercomplementar, em que, numa mesma ação pedagógica proposta às crianças, dois, três ou mais campos se fazem presentes e são trabalhados ao mesmo tempo.\n\nA proposição de campos de experiências e seus respectivos objetivos de aprendizagens e desenvolvimento, em âmbito nacional e de caráter normativo, é algo novo para a Educação Infantil, porque até a homologação da BNCC em 2017, o único documento de referência obrigatória para essa etapa e que está em vigor até os dias de hoje, são as DCNEI (BRASIL, 2009) que, no artigo 9º e seus incisos, explicitam quais experiências devem ser garantidas às crianças nas instituições educacionais.\n\nPara se compreender melhor a relação entre as experiências elencadas nesse artigo e a proposta intercomplementar entre os campos de experiências definidos na BNCC (BRASIL, 2017) foi elaborado o quadro a seguir.\n\nAssim, confirma-se a necessidade do conhecimento ser concebido em sua complexidade e integração com vários outros; além da articulação com – as experiências concretas da vida cotidiana; o convívio no espaço da vida coletiva; a apropriação, a produção de rituais e os modos de funcionamento das culturas a partir do contexto da comunidade e, a produção de narrativas individuais e coletivas através de diferentes linguagens.\n\nDessa forma, os direitos de aprendizagens e desenvolvimento fundamentam e indicam a forma como os campos de experiências e seus respectivos objetivos devem ser efetivados no cotidiano da instituição educacional, ao serem uma síntese das maneiras peculiares das crianças aprenderem e desenvolverem, respeitando o que é próprio desse tempo da vida.\n\nNo que se refere a uma didática que atenda essa nova perspectiva de organização curricular, Bondioli e Mantovani (1998) apresentam três princípios didáticos – a ludicidade, a continuidade e a significatividade das experiências. A ludicidade é a maneira peculiar das crianças descobrirem e construírem sentidos sobre o mundo; a continuidade é a possibilidade de abordar um mesmo conhecimento de diferentes formas e com vários níveis de complexificação, garantindo o estabelecimento de múltiplas relações, o aprofundamento dos saberes e a permanência nos percursos investigativos, qualificando as experiências infantis; a significatividade, é a produção de significados pessoais que envolve autoria, escolhas e provisoriedade.\n\nPortanto, os direitos de aprendizagens e desenvolvimento que fundamentam e embasam os campos de experiências e seus objetivos orientam a rotina¹⁸ da instituição, desde o momento de chegada até o momento de saída das crianças, todos os dias do ano letivo, não sendo possível, nessa perspectiva, estabelecer de forma específica ou isolada, horários diários, dias da semana, bimestres, trimestres ou semestres, para se trabalhar com cada campo de experiências.\n\n¹⁸ Rotina, de acordo com Barbosa (2006), é uma estratégia de organização do cotidiano. Nas instituições de Educação Infantil se referem às ações planejadas e intencionais desenvolvidas com as crianças. Tem por característica apresentar regularidade de horários, de espaços, de materiais e de mediações no desenvolvimento da ação pedagógica, para proporcionar às crianças segurança e certa previsibilidade do que está para acontecer, porém, com flexibilidade, variações e abertura para os inesperados que surgem no cotidiano. Sua periodicidade pode ser diária, semanal, quinzenal, mensal, bimestral, trimestral, semestral, sazonal",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

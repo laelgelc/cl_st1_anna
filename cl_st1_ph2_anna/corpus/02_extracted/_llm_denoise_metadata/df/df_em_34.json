@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06f30258c5d9d5c6006ab3003e5e4487d29d4e65df58e35312",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 688,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 654,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 1342
+    }
+  },
+  "created_at": "2026-09-22T22:25:06Z",
+  "duration_seconds": 4.245,
+  "error": null,
+  "excerpt_id": "df_em_34",
+  "filename": "df_em_34.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e7d1add4af7fc7e8389da96de1266af39884ef665e41686051ccd221cf44bde0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a85fbf02a04e37c9195e01bdf54c7c45cccd3fb2eaf3c666f21a8afbec56186d",
+    "rendered_prompt_sha256": "e0e8964d4180d124ba38b1af42b09d3bfecd80d867f271776e5cd967718d3101",
+    "source_text_sha256": "5ec4f7b2d9b38471031ecc3319bbe75d71c3f8f8e554637dd7e85ce83184f3b4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_34.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 922,
+    "filename": "df_em_34.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_34.txt",
+    "state": "df",
+    "word_count_original": 388
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_34.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_34.json"
+  },
+  "raw_response_text": "## LÍNGUA ESPANHOLA\n\nO presente Currículo preconiza a continuidade do caráter plurilíngue do ensino e da aprendizagem de Língua Estrangeira (LE), já consagrado no Ensino Fundamental. Visando garantir a implementação da Política de Ensino de Línguas, de forma ampla, estabelece-se a oferta da Língua Espanhola como uma Unidade Curricular dos Itinerários Formativos, fortalecendo a visão multilinguista e multicultural de um cidadão capaz de entender e comunicar-se no mundo global e moderno.\n\nRessalta-se que o Currículo deve garantir ao estudante do Ensino Médio a oportunidade de aprendizagem de variadas línguas estrangeiras. Isso é especialmente possível no Distrito Federal pela presença, nessa unidade da federação, de diversos organismos nacionais (órgãos públicos responsáveis por negociações e acordos com outros países, entre outros) e internacionais (missões diplomáticas, organizações não governamentais estrangeiras) que oportunizam, por meio de parcerias, o acesso de estudantes a contextos socioculturais referentes a diversas línguas estrangeiras. Essas oportunidades oferecem condições para que os estudantes desenvolvam habilidades necessárias para interagir em contextos socioculturais e no mundo do trabalho.\n\nVale ressaltar que segundo dados do anuário “El español en el mundo 2020”, elaborado pelo Instituto Cervantes, a Língua Espanhola é a língua materna de 483 milhões de pessoas e a terceira mais usada na internet. Segundo relatório elaborado por David Fernández Vítores, professor de Filologia da Universidade de Alcalá, o idioma continua sendo a segunda maior língua materna em número de usuários, superada pelo mandarim e a terceira no cômputo global do número de falantes, depois do inglês e do mandarim.\n\nO estudo supramencionado também aponta que houve em 2019 aproximadamente 22 milhões de estudantes de Língua Espanhola como língua estrangeira. Hoje 7,8% da população mundial fala espanhol, porcentagem que deve permanecer inalterada até 2050. Destaca-se ainda que o idioma em tela é utilizado por 7,7% dos internautas. Nas principais redes sociais, continua sendo a segunda língua mais usada.\n\nDessa maneira, o Currículo em Movimento da Educação Básica compreende como de fundamental relevância oportunizar aos estudantes no Ensino Médio a aprendizagem de mais uma língua estrangeira, priorizando a Língua Espanhola, conforme orientação contida na LDB, a partir dos dados apresentados acima, garantindo assim, a opção consciente de escolha da Língua Estrangeira no PAS, no Enem, concursos públicos, e outras avaliações externas e de larga escala, além da ampliação dos conhecimentos linguísticos e culturais de seus estudantes.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

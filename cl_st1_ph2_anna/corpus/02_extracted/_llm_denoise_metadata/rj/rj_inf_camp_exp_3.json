@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e81f9aa56ba20bc006ab30a9f53e887d28eccc1ddc10fac67",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 678,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 593,
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "total_tokens": 1271
+    }
+  },
+  "created_at": "2026-09-22T23:09:23Z",
+  "duration_seconds": 4.727,
+  "error": null,
+  "excerpt_id": "rj_inf_camp_exp_3",
+  "filename": "rj_inf_camp_exp_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a25449abb6110b57689fbf8e464a1bdf2a116ef22b46c0d502b22918fb6d01e5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e803bda0cadd969b416f9ec2cdc6479f06e384a7149cf651e3be59cb87fee238",
+    "rendered_prompt_sha256": "f6517266542e88811d2f83e2f82c21f02278a2559aa82c249ab91e28d160431e",
+    "source_text_sha256": "11a62ecf99a03181b102f9032b81e7bc2cfebc0c024168d81e4243802fb4f2c3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_camp_exp_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2908,
+    "filename": "rj_inf_camp_exp_3.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_camp_exp_3.txt",
+    "state": "rj",
+    "word_count_original": 448
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_camp_exp_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_camp_exp_3.json"
+  },
+  "raw_response_text": "Os campos de experiência podem subsidiar as práticas das crianças isoladamente ou reunindo os objetivos de um ou mais campos, e envolvem todos os momentos da jornada das crianças na Educação Infantil, incluindo o acolhimento inicial, o momento das refeições, a participação delas no planejamento das atividades, as festividades e encontros com as famílias, as atividades de expressão, investigação, as brincadeiras etc. realizadas ao longo da jornada diária e semanal das crianças. Assim, os referidos campos não são trabalhados apenas em um dia marcado da semana, nem há expectativa de haver uma aula de 45 minutos para o trabalho com um campo em cada dia, ou para que determinado bimestre do ano letivo seja dedicado apenas a um campo.\n\nSem dúvida, trabalhar com campos de experiência na Educação Infantil constitui um convite a uma nova forma de compreender a prática pedagógica, que possa resultar de significativas aprendizagens não só para as crianças, mas também para a professora. Para tanto vale a pena rever e apropriar-se de alguns conceitos.\n\nO currículo por campos de experiências defende a necessidade de se conduzir o trabalho pedagógico na Educação Infantil por meio da organização de práticas abertas às iniciativas, desejos e formas próprias de agir das crianças, e que são mediadas pelos(as) professores(as), constituindo um rico contexto de significativas aprendizagens. Assim, os campos de experiência apontam para a imersão da criança em situações em que constroem noções, afetos, habilidades, atitudes e valores, e constituem sua identidade. Eles mudam o foco do currículo da perspectiva do/a professor/a para a perspectiva da criança, que empresta um sentido singular às situações que vivencia e efetiva aprendizagens.\n\nOs pontos básicos dessa concepção levam a:\n\n- Abandonar a ideia das crianças como seres frágeis e incompetentes, e da infância como período de passividade, dependência ou debilidade.\n- Rejeitar toda postura pedagógica (incluindo as instruções, os materiais didáticos, as histórias) de rigidez e inflexibilidade, sem atentar para a forma como as crianças reagem ao que lhe é proposto.\n- Não definir o processo pedagógico como metas que são impostas à criança negligenciando o significado que aquele processo tem na experiência infantil.\n- Garantir a todas as crianças tempo para explorar as proposições que a professora faz e entender que elas precisam repetir essa mesma proposição outras vezes, de modo a não só apropriar-se de determinadas ações, mas também para elaborar um sentido para a experiência vivida.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

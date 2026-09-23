@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_062f79dd835ea2f3006ab3107f158c87d2a2cbd292d678f26f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 388,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 391,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 779
+    }
+  },
+  "created_at": "2026-09-22T23:34:26Z",
+  "duration_seconds": 3.521,
+  "error": null,
+  "excerpt_id": "to_inf_3",
+  "filename": "to_inf_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c17af6b90afff89002d054eeddcc7c9067203a913e48d5c7a0583cb0f4ad5d26",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "020c9e2c2eefb16fcb393bfa13aee78704c65f693a12ab0c0546708de3986467",
+    "rendered_prompt_sha256": "fbc798906dd2420e62c69c175a533d7dc2a8ba553f97d85d7839e465208301e6",
+    "source_text_sha256": "8665e77d5c281b7a71b444501fa96c8d544cc62e00f3303b9dbdbfec3420d495"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_inf_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4104,
+    "filename": "to_inf_3.txt",
+    "filepath": "corpus/00_source_per_state/to/to_inf_3.txt",
+    "state": "to",
+    "word_count_original": 201
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_inf_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_inf_3.json"
+  },
+  "raw_response_text": "## Apresentação\n\nA busca por uma sociedade mais justa e equitativa pressupõe a participação ativa da educação como projeto de estado e nação. Por isso, ao longo dos últimos quatro anos diversos profissionais debruçaram-se em análises e revisões do projeto educacional, iniciando-se, no ano de 2015, pelas discussões da Base Nacional Comum Curricular (BNCC), documento normativo que estabelece os aprendizados mínimos essenciais que as crianças e estudantes de todo o Brasil devem desenvolver.\n\nO Estado do Tocantins em regime de colaboração com seus 139 municípios consolidou o Documento Curricular do Tocantins, aprovado e homologado pelo Conselho Estadual de Educação do Tocantins, por meio da Resolução nº 24, de 14 de março de 2019.\n\nO Documento Curricular do Tocantins divide-se em quatro cadernos destinados às duas primeiras etapas da educação básica, sendo um da educação infantil, organizado em cinco capítulos, a saber: Educação infantil como política; Diversidade e identidade cultural do Tocantins; Os profissionais e formação docente; Organização do trabalho pedagógico; Os direitos de aprendizagem e as experiências cotidianas. Os demais cadernos destinam-se ao ensino fundamental, estruturados por competências e habilidades e organizados por área de conhecimento: Linguagens; Ciências Humanas e Ensino Religioso; Ciências da Natureza e Matemática.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

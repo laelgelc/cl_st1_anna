@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0707cbed5895f390006ab307958b5087d29238cae054b236d6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 697,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 733,
+      "output_tokens_details": {
+        "reasoning_tokens": 141
+      },
+      "total_tokens": 1430
+    }
+  },
+  "created_at": "2026-09-22T22:56:28Z",
+  "duration_seconds": 7.21,
+  "error": null,
+  "excerpt_id": "pb_inf_15",
+  "filename": "pb_inf_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0bef894673d2b7eac9d56ef1f26c3cee66034bb24443b20053eb0347e6fe1148",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c0e486b29c15006fe92f0eab1514fdb05082b5d01c796be79905548864648be3",
+    "rendered_prompt_sha256": "5b66efaf2c26ec6fe5955c453cc93e09c31e44a386c31ae8b9ec8f57f242e483",
+    "source_text_sha256": "7bab43053e8eb7d8b65f41c0fb0360b041f2fff6726843bd548406d2f18f6444"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2358,
+    "filename": "pb_inf_15.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_15.txt",
+    "state": "pb",
+    "word_count_original": 367
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_15.json"
+  },
+  "raw_response_text": "## CAMPO DE EXPERIÊNCIA: TRAÇOS, SONS, CORES E FORMAS\n\n### OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO\n\nExplorar sons produzidos com o próprio corpo e com objetos do ambiente.\n\nTraçar marcas gráficas, em diferentes suportes, usando instrumentos riscantes e tintas.\n\nExplorar diferentes fontes sonoras e materiais para acompanhar brincadeiras cantadas, canções, músicas e melodias. (BNCC, 2017)\n\nExplorar a percepção do paladar, tátil, olfativa e visual por meio de diversas vivências.\n\nManipular materiais de formas e cores variadas para ampliar suas descobertas.\n\n### SUGESTÕES DE VIVÊNCIAS QUE FAVORECEM A CONSTRUÇÃO DE EXPERIÊNCIAS PELOS BEBÊS NESTE CAMPO\n\nAs práticas realizadas na Instituição de Educação Infantil devem possibilitar:\n\n- Imitação de gestos, sons e movimentos, explorando o espaço com base em estímulos musicais;\n- Reconhecimento de sons familiares;\n- Exploração das possibilidades sonoras do corpo (seu e de outros), dos instrumentos e dos objetos cotidianos;\n- Produção de narrativas criando intervenções utilizando a própria voz, o corpo, diversos objetos e instrumentos musicais;\n- Vivências de atividades com tintas (caseiras e industrializadas), melecas, argila, barro, areia, elementos da natureza diversos, canetas coloridas, giz de cera, carvão e demais materiais que proporcionem marcas artísticas e expressem a individualidade da criança;\n- Utilização de diferentes suportes e diferentes recursos para produção das marcas artísticas: papéis, caixas, telas, paredes, tecidos, jornais, rolos de pintura, pincéis, diferentes partes do corpo, esponjas, elementos da natureza e demais recursos que possam favorecer a produção artística;\n- Exploração, incentivo e valorização de diferentes atitudes e posturas na realização das produções artísticas, fugindo de posturas padronizadas na realização das referidas produções;\n- Apreciação das próprias produções, de outras crianças, de familiares, de artistas locais e de abrangência nacional e internacional, bem como de diversos períodos e estilos de arte;\n- Apreciação de canções e músicas representativas de diferentes manifestações culturais, acompanhando o ritmo com movimentos corporais;\n- Participação nas atividades em grupo que envolvam músicas, histórias e danças;\n- Utilização dos instrumentos musicais convencionais a partir do livre manuseio e de formas diversificadas, de maneira que possam descobrir as diversas possibilidades de produção sonora, convencional e não convencional, por meio de oficinas, fazendo uso de materiais diversos;\n- Criação e construção de instrumentos musicais não convencionais a partir de materiais diversos, como elementos naturais e objetos que possam ser reutilizados.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

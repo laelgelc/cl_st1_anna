@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_089b9b4b4f1dd602006ab3045393e087d2b99cc868dbaa349b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 720,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 644,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 1364
+    }
+  },
+  "created_at": "2026-09-22T22:42:32Z",
+  "duration_seconds": 5.214,
+  "error": null,
+  "excerpt_id": "mt_ef_3",
+  "filename": "mt_ef_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cd43386d4b1d5d798a468ee549234f34e6f71696d94da84fb59bef116181f7ba",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1617344b02b41dfd0970e8f5bc5c22a2c583f4643f8d0eb2a0046fccffaedc6d",
+    "rendered_prompt_sha256": "1bf367d35ed5dca2e4f51617a8f8d2136263e66a3965c91db5940d256d29d004",
+    "source_text_sha256": "31a6aa3ff8c3e1165ec60166c92c9389ec41d8d951d6b827131b29138907e63f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1822,
+    "filename": "mt_ef_3.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_3.txt",
+    "state": "mt",
+    "word_count_original": 401
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_3.json"
+  },
+  "raw_response_text": "### 1.4. Habilidades de Pensamento\n\nSegundo Lipman (1995), há quatro grupos de habilidades de pensamento que temos que criar e formar nos nossos estudantes, a saber:\n\na) **Habilidades de Investigação:** A investigação trata-se de pesquisa, é a busca por soluções, é o saber como é, saber como ocorre, saber como se faz, saber como se resolve um problema. Esse processo de investigação envolve as seguintes habilidades cognitivas: saber observar bem; saber formular questões ou perguntas substantivas; saber formular hipóteses e saber buscar comprovações.\n\nb) **Habilidades de Raciocínio:** O Raciocínio é o processo do pensar através do qual é possível obter novos conhecimentos. As habilidades de raciocínio são: ser capaz de produzir bons juízos, isto é, de produzir afirmações bem sustentadas por boas razões; ser capaz de estabelecer relações adequadas entre ideias e, especialmente, entre juízos; ser capaz de inferir, ou seja, de elaborar conclusões, e por fim, de identificar ou perceber pressuposições subjacentes.\n\nc) **Habilidades de Formação de Conceitos:** Um conceito presume uma organização de informações em uma ideia que pode ser expressa por uma palavra ou esquemas. Para Lipman (1995), um conceito é um conjunto de informações relacionadas entre si e que formam um sentido, um significado.\n\nd) **Habilidades de Tradução:** Traduzir é saber dizer algo que está dito com certas palavras, ou de certa forma, por meio de outras palavras, ou por meio de outras formas, mantendo o mesmo significado, o que envolve habilidades de interpretar, de parafrasear, de analisar e todas as habilidades relacionadas à formação de conceitos. Considera-se que a escola é um dos lugares mais apropriados para o exercício do questionamento, pois esse espaço possibilita aos professores e estudantes tornarem-se coparticipantes de comunidades de investigação sobre assuntos importantes para a vida humana.\n\n### 1.5. Áreas de Conhecimento no Contexto da Unidocência\n\nA unidocência é o espaço de trabalho do Pedagogo, que, em conjunto com profissionais de outras Licenciaturas, rege sua prática, objetivando possibilitar o pleno desenvolvimento dos estudantes. O processo de mediação da aprendizagem, nesse contexto, demanda de conhecimento generalista e sistemático, tanto sobre as formas de ensinar, aprender, quanto aos métodos para o ensino-aprendizagem e saberes de cada área de conhecimento.\n\nAs áreas do conhecimento foram organizadas em consonância com a BNCC: Linguagens, Matemática, Ciências da Natureza e Ciências Humanas, sendo que cada uma possui seu conhecimento específico e, de forma articulada, todas podem contribuir para o desenvolvimento da aprendizagem.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

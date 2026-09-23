@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09e29bcd07150d59006ab2fbc893a887d2b23b506176c0ea32",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1481,
+      "input_tokens_details": {
+        "cache_write_tokens": 1478,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1395,
+      "output_tokens_details": {
+        "reasoning_tokens": 125
+      },
+      "total_tokens": 2876
+    }
+  },
+  "created_at": "2026-09-22T22:06:10Z",
+  "duration_seconds": 9.632,
+  "error": null,
+  "excerpt_id": "ac_em_2",
+  "filename": "ac_em_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "55abf3f3e2c8d8ee4f78ec3e3baa011020ca83dcc92ddb27364f20ecd9747066",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2cf58229af2e34eac4cc1a5bb1667822308857ead14e3a534887c847938b5848",
+    "rendered_prompt_sha256": "f711efb17819b04d1719a17077f7490557b71081e26b6027501c23a75d994ca6",
+    "source_text_sha256": "7147ac89ec663e6057c673cd3aa744336175192af30962670fcef0df63bcb395"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 58,
+    "filename": "ac_em_2.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_2.txt",
+    "state": "ac",
+    "word_count_original": 925
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_2.json"
+  },
+  "raw_response_text": "## 1. Contexto histórico\n\nO Currículo de Referência Único do Acre para o ensino médio foi construído à luz da Base Nacional Comum Curricular - BNCC, documento de caráter normativo que define o conjunto orgânico e progressivo de aprendizagens essenciais que todos os alunos devem desenvolver ao longo das etapas e modalidades da educação básica. A necessidade de atualização curricular nas unidades federativas pode ser justificada pelos índices comumente identificados nos processos avaliativos de larga escala e indicadores da Educação Básica, como SAEB e IDEB, que mostram desempenhos aquém das metas projetadas para o ensino médio, tanto em nível estadual como em nível nacional desde 2009. Além disso, a proposta do Novo Ensino Médio também se faz necessária para diminuir a alta evasão dos estudantes, a fim de construir escolas que façam mais sentido para os jovens e que diminuam as desigualdades educacionais.\n\nApós a homologação da BNCC para a etapa do ensino médio, ocorrida em dezembro de 2018, coube às unidades federativas a articulação de uma equipe que iria, então, elaborar um novo currículo, seguindo todas as orientações que foram estipuladas pelo MEC e seus parceiros. O Conselho Nacional de Secretários de Educação – CONSED, por meio da Frente Currículo e Novo Ensino Médio, realizou diversos encontros com as equipes responsáveis pela escrita dos currículos estaduais, elaborando e disponibilizando materiais norteadores para a atividade de escrita.\n\nDessa forma, os currículos são constituídos por uma Formação Geral Básica comum, que, por sua vez, é complementada por uma parte diversificada, que trata da contextualização do ensino, levando em conta as características da região onde o currículo será aplicado.\n\nNo estado do Acre, foram realizadas, no início de 2019, pesquisas on-line com os estudantes da rede estadual, envolvendo o nono ano do Ensino Fundamental e a primeira série do ensino médio, para estruturar um modelo que atendesse aos seus anseios. Desse modo, orientado pelos resultados observados, o Currículo de Referência Único do Acre foi elaborado de modo a retratar, em sua disposição, um documento que considera a realidade do jovem acreano e que se ajusta aos recursos e condições disponíveis em nossa região.\n\nA consulta aos estudantes, pela plataforma Porvir, explicitou direcionamentos para delinear os percursos formativos a serem ofertados, de modo a congregar o equilíbrio entre a autonomia das escolas e, ao mesmo tempo, promover a qualidade e equidade das trajetórias oferecidas, no conjunto das unidades de ensino. É importante destacar que, no caso do 5º eixo, do Itinerário de Formação Técnica e Profissional, o potencial socioeconômico e ambiental, bem como a capacidade da rede são fundamentos indispensáveis na definição da oferta.\n\nNesse contexto, a equipe de Currículo, conforme Portaria MEC n° 756 de 03 abril de 2019 que institui o Programa de Apoio à Implementação da Base Nacional Comum Curricular - ProBNCC, elaborou a primeira versão do Currículo de Referência Único do Acre de acordo com a reforma do ensino médio à luz da BNCC, a qual articula possibilidades formativas vinculadas ao projeto de vida dos estudantes.\n\nDurante o processo de escrita também atuaram como colaboradores, outro grupo de docentes da rede pública e privada, profissionais vinculados ao Instituto Federal do Acre – IFAC e à Universidade Federal do Acre – UFAC, constituindo-se uma significativa heterogeneidade de sujeitos (numa representatividade de sujeitos significativos e heterogêneos), que contribuíram com proposições de novas metodologias, análise sobre os objetos de conhecimentos abordados, favorecendo o amadurecimento do conceito de ensino e aprendizagem baseado em competências.\n\nConcomitantemente, as escolas-piloto forneceram experiências que indicaram a necessidade de ajustes na matriz curricular, referentes a distribuição da carga horária e disposição dos componentes curriculares na Formação Geral Básica e Itinerário Formativo, atendendo aos modelos de ensino médio em tempo parcial e integral. Adaptações dos instrumentos de rede, como por exemplo a inserção de ações estratégicas no Plano de Gestão Pedagógico, ajustes da Sequência Didática para atender o trabalho por competências e habilidades. E novas formas de organização dos tempos e espaços escolares, da gestão do currículo, das abordagens metodológicas, da formação inicial e continuada dos professores, que deverão ser incorporadas nas suas Propostas Pedagógicas e/ou Regimentos Escolares.\n\nUma vez firmadas as discussões e consolidadas as contribuições agregadas ao texto do currículo, a parte da Formação Geral Básica (FGB) entrou em processo de consulta pública, que ocorreu em 2019. O referido processo se deu, inicialmente, de forma mista, tendo sido realizado um encontro presencial com os professores das áreas de conhecimento, seguido de um período disponibilizado para consulta on-line. Após esse decurso, o documento da Formação Geral Básica foi atualizado, com base nas contribuições dos professores que participaram e passando também por um processo de seriação das habilidades. Concluídos os ajustes, nova consulta pública foi realizada, em 2020, apenas via on-line, devido à pandemia do Covid-19, para que fosse submetida à validação dos professores a seriação efetuada. Em posse das contribuições da segunda consulta, o documento da Formação Geral Básica foi novamente atualizado para sua finalização.\n\nEm paralelo à Consulta Pública da Formação Geral Básica, a equipe de Currículo iniciou a escrita das Rotas de Aprofundamento, parte integrante dos Itinerários Formativos. Foram elaboradas duas (2) rotas para cada área de conhecimento, que também foram submetidas ao processo de consulta pública on-line e ajustes mediante as contribuições, concluído o processo, o presente documento foi encaminhado ao Conselho Estadual de Educação do Acre – CEE. Além das 08 rotas elaboradas e pensando em atender aquele município que tem apenas uma escola de ensino médio, foi elaborada também uma 9º rota no formato integrada de Iniciação Científica e Tecnológica envolvendo unidades das 04 áreas do conhecimento.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

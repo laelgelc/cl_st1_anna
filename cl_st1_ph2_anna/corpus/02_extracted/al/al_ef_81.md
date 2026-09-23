@@ -1,0 +1,11 @@
+### 11. O papel do estudante no processo curricular
+
+A escola tem um papel decisivo na formação do estudante, ela deve propiciar uma formação que seja capaz de estimular o desenvolvimento das habilidades e competências. É preciso levá-los a aperfeiçoar as próprias características e descobrir recursos para lidar com suas dificuldades e/ou inabilidades. O currículo voltado para a construção de um sujeito autônomo deve considerar: os conhecimentos prévios; a formação integral; as habilidades e competências; capacidade de superação, e as competências socioemocionais e cognitivas dos educandos.
+
+O currículo escolar precisa ser elaborado a partir do seu Projeto Político Pedagógico, e nele deverá está expresso, de forma clara, uma proposta educativa que orientará o trabalho pedagógico no dia a dia da escola, dos trabalhos realizados, principalmente na sala de aula com os estudantes. Isto significa dizer que, o currículo escolar vai muito além do simples rol de disciplinas e conteúdos programáticos a serem cumpridos em determinada carga horária ou de uma matriz curricular.
+
+O ensino da Geografia deve possibilitar ao estudante a compreensão do mundo em que vive tornando-lhe em um agente de transformação social. Dessa forma os conteúdos precisam ser abordados de forma contextualizada, ou seja, além de relacioná-los à realidade vivida do estudante, é preciso situá-los no contexto histórico, nas relações políticas, sociais, econômicas, culturais e em manifestações espaciais concretas, utilizando diversas escalas geográficas.
+
+### 12. Organização Curricular do Componente de Geografia nos Anos Iniciais e Finais
+
+Para dar conta desse desafio que é (re) organizar o Componente Curricular de Geografia de Alagoas, tomou-se como referência a BNCC, desse modo, estruturou-se o componente curricular de Geografia em 5 Unidades Temáticas (O sujeito e seu lugar no mundo; Conexões e escalas; Mundo do trabalho; Formas de representação e pensamento espacial e Natureza, ambientes e qualidade de vida), que se estendem desde o Ensino Fundamental Anos Iniciais até os Anos Finais, em uma progressão das habilidades distribuídas desde o 1º ano até o 9º ano. Vejamos como estão distribuídas as Unidades Temáticas:

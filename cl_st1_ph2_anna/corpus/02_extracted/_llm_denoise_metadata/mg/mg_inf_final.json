@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0261cc72674f0104006ab3038816ac87d283449498f66d7f4e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 669,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 624,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 1293
+    }
+  },
+  "created_at": "2026-09-22T22:39:08Z",
+  "duration_seconds": 4.953,
+  "error": null,
+  "excerpt_id": "mg_inf_final",
+  "filename": "mg_inf_final.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1a384e6a14772091c2848488ea7fc373512e7b7a806d3e65fa6cf479b4e36363",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9ffe9b36679f44e46268e89ccd97d293bc4d293d0098b117c513918671eb9bd0",
+    "rendered_prompt_sha256": "1c5c1ec5ee7678223fa37244abcfe666c2c005fea9386aa2bfded588be1344b0",
+    "source_text_sha256": "d9f7e5b1fa886f22968f3eff7dd901806ba0d195ce4f164478bb60f7b75adfb8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_final.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1652,
+    "filename": "mg_inf_final.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_final.txt",
+    "state": "mg",
+    "word_count_original": 385
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_final.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_final.json"
+  },
+  "raw_response_text": "## 2.12 Estrutura Curricular para a Educação Infantil\n\nEsta seção apresenta o Currículo Referência da Educação Infantil do Estado de Minas Gerais, estruturado em Campos de Experiências. Ressalta-se, que cada município ou território deverá adequar, revisar ou construir seu currículo levando-se em conta as especificidades do seu contexto regional.\n\n## 2.13 Considerações Finais\n\nA proposta deste documento foi materializar os avanços educacionais definidos pela BNCC/2017 que assegurou os direitos fundamentais de aprendizagem e de desenvolvimento das crianças, como também, evidenciou a indissociabilidade entre o cuidar e o educar nas instituições de Educação Infantil, tendo em vista as interações e as brincadeiras como eixos estruturantes dos campos de experiências a serem trabalhados com as crianças de 0 a 5 anos, definindo seus objetivos, bem como, organizando os saberes, conhecimentos, valores e práticas para serem vivenciadas pelas crianças na perspectiva de sua formação humana.\n\nAs orientações aqui apresentadas não esgotam todas as possibilidades de trabalho pedagógico, mas representam uma direção para a sua construção, tendo em vista aquilo que se pretende consolidar quanto às especificidades e identidades da primeira etapa da Educação Básica - a Educação Infantil.\n\nConsidera-se importante o papel do professor neste processo, pois é a sua intencionalidade pedagógica que favorece a mediação e a articulação necessárias entre as vivências e as formas como as crianças se apropriam do mundo, aguçando a sua curiosidade, estabelecendo relações, promovendo a sua expressão através de múltiplas linguagens, contribuindo decisivamente para o seu desenvolvimento em todos os seus aspectos: cognitivo, linguístico, social, afetivo, corporal, ético e estético.\n\nNesse sentido, faz-se necessário favorecer uma nova organização dos tempos e espaços escolares, bem como novos investimentos na materialidade e, prioritariamente, na formação inicial e continuada dos(as) professores(as), alinhada aos novos princípios que oportunizarão um novo modo de cuidar e educar bebês e demais crianças pequenas.\n\nO grande desafio, das instituições de Educação Infantil, é de organizar um currículo que estabeleça uma relação dialógica com o contexto histórico, social, político, cultural e ambiental, por meio de um processo dinâmico em permanente, contribuindo para a construção de uma sociedade mais justa, mais igualitária, mais solidária e mais democrática, na qual todos possam ter acesso aos bens culturais produzidos pela humanidade e se reconhecer como produtores de novos saberes e conhecimentos e, portanto, capazes de transformar o mundo.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

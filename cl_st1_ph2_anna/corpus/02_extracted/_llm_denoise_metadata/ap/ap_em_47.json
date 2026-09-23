@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08639b5a793e5ec5006ab2fe25d69887d2946437dbdd69f02a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1001,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1511,
+      "output_tokens_details": {
+        "reasoning_tokens": 444
+      },
+      "total_tokens": 2512
+    }
+  },
+  "created_at": "2026-09-22T22:16:17Z",
+  "duration_seconds": 11.682,
+  "error": null,
+  "excerpt_id": "ap_em_47",
+  "filename": "ap_em_47.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bd2f98516fd2608789df8cbed21a3ddfcc4c0bf5aa14d9be1070cba45b8e7c52",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a1b255a8dffa07cea71a9cff64da1f2877b09430909173123ad03343a8d17380",
+    "rendered_prompt_sha256": "9cdea1760824687169db925099cac7820d2e2178086e81a19b43991b39ae809f",
+    "source_text_sha256": "a12166cbb0575800f37636ca0f3a138d56bfded3e9c457ef8a138fe32e18ab2c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_47.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 543,
+    "filename": "ap_em_47.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_47.txt",
+    "state": "ap",
+    "word_count_original": 542
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_47.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_47.json"
+  },
+  "raw_response_text": "# Eixos Tecnológicos e Cursos Ofertados\n\n| Nº | Eixo Tecnológico | Curso Técnico |\n|---:|---|---|\n| 1 | Ambiente e Saúde | Técnico em Enfermagem |\n| 2 | Ambiente e Saúde | Técnico em Meio Ambiente |\n| 3 | Ambiente e Saúde | Técnico em Saúde Bucal |\n| 4 | Ambiente e Saúde | Técnico em Análise Clínica |\n| 5 | Ambiente e Saúde | Técnico em Massoterapia |\n| 6 | Ambiente e Saúde | Técnico em Imagem Pessoal |\n| 7 | Informação e Comunicação | Técnico em Computação Gráfica |\n| 8 | Informação e Comunicação | Técnico em Manutenção e Suporte de Informática |\n| 9 | Informação e Comunicação | Técnico em Informática para Internet |\n| 10 | Informação e Comunicação | Técnico em Informática |\n| 11 | Informação e Comunicação | Técnico em Rede de Computadores |\n| 12 | Produção Cultural e Design | Técnico em Processos Fotográficos |\n| 13 | Produção Cultural e Design | Técnico em Artesanato |\n| 14 | Produção Cultural e Design | Técnico em Design de Móveis |\n| 15 | Produção Cultural e Design | Técnico em Teatro |\n| 16 | Produção Cultural e Design | Técnico em Produção de Áudio e Vídeo |\n| 17 | Produção Cultural e Design | Técnico em Comunicação Visual |\n| 18 | Segurança | Técnico em Segurança no Trabalho |\n| 19 | Controle e Processos Industriais | Técnico em Eletroeletrônica |\n| 20 | Gestão de Negócios | Técnico em Recursos Humanos |\n| 21 | Gestão de Negócios | Técnico em Finanças |\n| 22 | Gestão de Negócios | Técnico em Administração |\n| 23 | Gestão de Negócios | Técnico em Marketing |\n| 24 | Gestão de Negócios | Técnico em Comércio |\n| 25 | Recursos Naturais | Técnico em Pesca |\n| 26 | Recursos Naturais | Técnico em Agroecologia |\n| 27 | Recursos Naturais | Técnico em Aquicultura |\n| 28 | Recursos Naturais | Técnico em Controle Ambiental |\n| 29 | Recursos Naturais | Técnico em Florestas |\n| 30 | Infraestrutura | Técnico em Edificações |\n| 31 | Infraestrutura | Técnico em Portos |\n| 32 | Turismo, Hospitalidade e Lazer | Técnico em Guia de Turismo |\n| 33 | Desenvolvimento Educacional e Social | Técnico em Tradução e Interpretação de Libras |\n| 34 | Desenvolvimento Educacional e Social | Técnico em Produção de Materiais Bilíngues em Libras e Língua Portuguesa |\n\n# Rede Estadual Ofertante dos Cursos EPT\n\nOs cursos da Educação Profissional e Tecnológica de nível médio são realizados em instituições devidamente credenciadas pelos sistemas de ensino. De acordo com a Portaria SEED n.º 0089, de 25 de maio de 2017, à Coordenadoria de Educação Básica e Educação Profissional (Cebep) estão vinculados o Núcleo de Ensino Fundamental e Educação Infantil, o Núcleo de Ensino Médio, o Núcleo de Educação Profissional, o Núcleo Educacional – Área Metropolitana, o Núcleo Educacional do Interior e o Núcleo de Tecnologia Educacional. A mesma norma vinculou temporariamente o Núcleo de Assessoramento Técnico e Pedagógico (Natep) e suas devidas unidades e atividades, além do Núcleo de Inspeção e Organização Escolar (NIOE).\n\nÀ Cebep compete programar, coordenar, orientar, controlar e monitorar as atividades de Ensino Fundamental e Infantil, Médio, Médio Integrado à Educação Profissional, Educação Profissional, das Unidades Geo-educacionais e dos Núcleos de Tecnologia Educacional; propor e fazer cumprir políticas, diretrizes e normas visando à expansão, ao desenvolvimento, à melhoria dos indicadores educacionais e à qualidade do ensino da Educação Básica e da Educação Profissional do Estado do Amapá.\n\nA oferta de educação profissional na SEED organiza-se por meio de instituições devidamente credenciadas pelos sistemas pertencentes à rede estadual de ensino profissional e tecnológico (EPT), que se organiza pelas seguintes instituições:\n\n- **Unidades em Macapá:**\n  - Centro de Educação Profissional Profa. Graziela Reis de Souza\n  - Centro de Educação Profissional do Amapá Profa. Josinete Oliveira Barroso (Cepajob)\n  - Escola Estadual Profa. Esther da Silva Virgolino\n\n- **Unidades em Santana:**\n  - Centro de Educação Profissional de Santana Profa. Maria Salomé Gomes Sares\n  - Centro Integrado de Formação Profissional em Pesca e Aquicultura do Amapá (Cifpa)\n  - Escola Estadual José Barroso Tostes (Santana)\n\n- **Unidades em Laranjal do Jari:**\n  - Escola Estadual Mineko Hayashida (Laranjal do Jari)\n\n- **Unidade em Oiapoque:**\n  - Escola Estadual Joaquim Nabuco (Oiapoque)",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

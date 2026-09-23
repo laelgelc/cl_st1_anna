@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0444ccd65ae889f8006ab3079d83f087d2a1df666254116f7c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 629,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 705,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 1334
+    }
+  },
+  "created_at": "2026-09-22T22:56:35Z",
+  "duration_seconds": 5.745,
+  "error": null,
+  "excerpt_id": "pb_inf_26",
+  "filename": "pb_inf_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "66a5d1362c125ec43df085d907cc0b9df57df403962244d94bb8928fac2657e3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0ca5f1a571bff22691ec1262b17749d66618056a7d66af7f0bad2bc08c1dd8d0",
+    "rendered_prompt_sha256": "3a2d4214e77176047fe3f8721e41beccc56b245adb76591a112f690ad9677c63",
+    "source_text_sha256": "35c43d55bc8e2964d4b820a9b07d94563f78d1898123f460a69ef07bc0f7d4de"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2370,
+    "filename": "pb_inf_26.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_26.txt",
+    "state": "pb",
+    "word_count_original": 324
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_26.json"
+  },
+  "raw_response_text": "**CAMPO DE EXPERIÊNCIA: “ESPAÇOS, TEMPOS, QUANTIDADES, RELAÇÕES E TRANSFORMAÇÕES”**\n\n**OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO**\n\nEstabelecer relações de comparação entre objetos, observando suas propriedades.\n\nObservar e descrever mudanças em diferentes materiais, resultantes de ações sobre eles, em experimentos envolvendo fenômenos naturais e artificiais.\n\nIdentificar e selecionar fontes de informações, para responder a questões sobre a natureza, seus fenômenos, sua conservação.\n\nRegistrar observações, manipulações e medidas, usando múltiplas linguagens (desenho, registro por números ou escrita espontânea), em diferentes suportes.\n\nClassificar objetos e figuras de acordo com suas semelhanças e diferenças.\n\nRelatar fatos importantes sobre seu nascimento e desenvolvimento, a história dos seus familiares e da sua comunidade.\n\nRelacionar números às suas respectivas quantidades e identificar o antes, o depois e o entre em uma sequência. Expressar medidas (peso, altura etc.), construindo gráficos básicos.\n\n(BNCC, 2017)\n\n- Experiências de letramento com escrita espontânea.\n- Vivências de situações que promovam escuta e respeito as opiniões de todos;\n- Experiências de registro com letras em situações de brincadeiras, jogos e interações;\n- Vivências de situações que possibilitem a expressão da escrita de forma individual e coletiva;\n- Vivências de situações de escrita espontânea a partir de situações significativas de produção;\n\n**SUGESTÕES DE VIVÊNCIAS QUE FAVORECEM A CONSTRUÇÃO DE EXPERIÊNCIAS PELAS CRIANÇAS PEQUENAS NESTE CAMPO**\n\nAs práticas realizadas na Instituição de Educação Infantil devem possibilitar:\n\n- Exploração das características de diversos objetos, tais como tamanho, forma, cor, textura, peso, densidade, organizando e agrupamento segundo atributos diversos, tais como semelhanças e diferenças;\n- Observação, comunicação e registro de suas observações, hipóteses e explicações sobre objetos e situações observados no espaço da instituição de educação infantil e na natureza;\n- Vivências de situações que favoreçam a construção de noções espaciais e temporais;\n- Participação em situações nas quais possa organizar e classificar objetos a partir de determinadas características;\n- Experiências com números e com o registro deles em situações de brincadeiras, jogos e interações;\n- Registros, por meio de desenhos e gráficos, construídos espontaneamente, de pesos e medidas de objetos.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

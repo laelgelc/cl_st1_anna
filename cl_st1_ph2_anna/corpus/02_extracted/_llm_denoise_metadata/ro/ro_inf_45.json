@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03c4a5e6d1af560a006ab30cb82d7087d28697f953d124faac",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 764,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 901,
+      "output_tokens_details": {
+        "reasoning_tokens": 232
+      },
+      "total_tokens": 1665
+    }
+  },
+  "created_at": "2026-09-22T23:18:22Z",
+  "duration_seconds": 6.585,
+  "error": null,
+  "excerpt_id": "ro_inf_45",
+  "filename": "ro_inf_45.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c65a9311e11b399b3453e1ae728090fb2f83fcabceaeca2cf5ce2a3ab082ad61",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "14d2a9e3b6b28ae4902fae450fcc219800aae757fae961931faeeee64247b710",
+    "rendered_prompt_sha256": "cb7a934b71cb08d2c5a8dcb2f7dcafcb82d6925d9ae3507c6dfa1dd1a4d4a7f6",
+    "source_text_sha256": "5b079fad0a1efeb718c4dc33e5f607880e06327fdd1a8d97de175952001b3a5c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_45.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3360,
+    "filename": "ro_inf_45.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_45.txt",
+    "state": "ro",
+    "word_count_original": 497
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_45.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_45.json"
+  },
+  "raw_response_text": "## Avaliação - Observação, Registro e Documentação\n\nA avaliação na Educação Infantil dar-se-á em conformidade com o que preconiza a RESOLUÇÃO Nº 5, de 17 de dezembro de 2009:\n\n**Art. 10.** As instituições de Educação Infantil devem criar procedimentos para acompanhamento do trabalho pedagógico e para avaliação do desenvolvimento das crianças, sem objetivo de seleção, promoção ou classificação, garantindo:\n\nI - a observação crítica e criativa das atividades, das brincadeiras e interações das crianças no cotidiano;\n\nII - utilização de múltiplos registros realizados por adultos e crianças (relatórios, fotografias, desenhos, álbuns etc.);\n\nIII - a continuidade dos processos de aprendizagens por meio da criação de estratégias adequadas aos diferentes momentos de transição vividos pela criança (transição casa/instituição de Educação Infantil, transições no interior da instituição, transição creche/pré-escola e transição pré-escola/Ensino Fundamental);\n\nIV - documentação específica que permita às famílias conhecer o trabalho da instituição junto às crianças e os processos de desenvolvimento e aprendizagem da criança na Educação Infantil;\n\nV - a não retenção das crianças na Educação Infantil.\n\nA avaliação nesta etapa da Educação Básica têm suas especificidades, ou seja, não deve ser focada apenas no desenvolvimento cognitivo, mas de forma que contemple todas as aprendizagens e desenvolvimento das crianças. O ato de avaliar deve perpassar a avaliação da própria prática pedagógica, ou seja, ao avaliar o desenvolvimento das crianças o professor/a, na verdade, estará avaliando a qualidade das proposições de vivências e experiências oportunizadas às crianças.\n\nNo processo de avaliação o professor/a deve observar o percurso que cada criança realiza na construção do seu conhecimento, sem que haja comparações, considerando que cada criança se desenvolve ao seu tempo e de diferentes maneiras.\n\nA avaliação das práticas pedagógicas pode fornecer informações preciosas sobre os processos de desenvolvimento e de aprendizagem das crianças, tais informações, advindas dos processos avaliativos não devem ter como objetivo a seleção, promoção ou classificação das crianças, ou serem utilizadas para a retenção destas na Educação Infantil, conforme disposto na Lei de Diretrizes e Bases da Educação Nacional (LDB, 1996) no artigo 31, incisos:\n\nI. Avaliação mediante acompanhamento e registro do desenvolvimento das crianças, sem o objetivo de promoção, mesmo para o acesso ao Ensino Fundamental,\n\nV. expedição de documentação que permita atestar os processos de desenvolvimento e aprendizagem da criança.\n\nA avaliação não tem por finalidade mensurar o desenvolvimento e evolução das aprendizagens das crianças, mas o acompanhamento de seu desenvolvimento. Nesse sentido, o processo de avaliação na Educação Infantil consiste em pensar em estratégias de como realizar este tipo de avaliação. Torna-se indispensável reflexões sobre concepções de avaliação que alicerçam as práticas, no intuito da ressignificação da práxis docentes para garantir a não promoção, não medição e não classificação, pois em seu percurso de aprendizagens e desenvolvimento cada criança só pode ser comparada consigo mesma.\n\nQuestionamentos são constantes com relação a este processo: como acompanhar o desenvolvimento e aprendizagens das crianças pequenas? Para acompanhar as aprendizagens e desenvolvimento algumas estratégias e instrumentos são necessários: observação, registros e documentação.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_051de9f2ddc6b709006ab30028d82087d286641c74e5af5a6f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 893,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 899,
+      "output_tokens_details": {
+        "reasoning_tokens": 143
+      },
+      "total_tokens": 1792
+    }
+  },
+  "created_at": "2026-09-22T22:24:48Z",
+  "duration_seconds": 7.56,
+  "error": null,
+  "excerpt_id": "df_em_18",
+  "filename": "df_em_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c232183eb96f7b3bfd35daccdc0bcf7a751f81109049195177e33dd432248bfa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9ff001d5f2c0f563bfd6b530375c98897b0f981f3677e805a3627453c29c90f9",
+    "rendered_prompt_sha256": "8d5db5896ad4ba7cdfb25f31e11c7b7938095a78878e0076cd90d9dfc6dd97e6",
+    "source_text_sha256": "cc43463bb32d71432fbd989a04acea782f0e2b1e6caad183366b240d7d4dc906"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 904,
+    "filename": "df_em_18.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_18.txt",
+    "state": "df",
+    "word_count_original": 496
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_18.json"
+  },
+  "raw_response_text": "## EDUCAÇÃO FÍSICA (EF)\n\nEste componente curricular integra a área de Linguagens e suas Tecnologias desde a constituição dos Parâmetros Curriculares Nacionais (PCN). Educação Física, “enquanto componente da área de linguagens, significa promover atividades didáticas que auxiliem os estudantes a ler e produzir as manifestações culturais corporais, concebidas como texto e contextos” (NEIRA; SOUZA JÚNIOR, 2016, p. 9). Assim, concebe-se o corpo como um texto suscetível à comunicação, leitura e escritura, constituído de vários recursos de comunicação como vestimentas, ornamentos, marcas, cicatrizes e gestos.\n\nO conjunto de práticas corporais com aspectos lúdicos, como brincadeiras, danças, jogos, lutas, ginásticas, esportes e atividades de aventura, apresenta particularidades de formação da linguagem corporal e de valores e sentidos outorgados a elas. Nesse sentido, espera-se que os estudantes sejam “desafiados a refletir sobre essas práticas, aprofundando seus conhecimentos sobre as potencialidades e os limites do corpo, a importância de se assumir um estilo de vida ativo e os componentes do movimento relacionados à manutenção da saúde” (BRASIL, 2018a, p. 484). Uma das características do componente curricular Educação Física é inserir as práticas corporais entre as práticas sociais ou formas culturais, de maneira que sejam “sistematizadas, ressignificadas, hibridizadas e transmitidas de geração a geração em cada grupo cultural” (NUNES, 2016, p. 9).\n\nExiste uma relação a ser reforçada entre as práticas corporais e o compartilhamento da paisagem social relacionadas ao contexto histórico em que foram criadas, o que fortalece a interação entre os grupos sociais nas quais se originaram (NEIRA; SOUZA JÚNIOR, 2016). Nessa perspectiva, o componente curricular buscar prover ao estudante oportunidades de experienciar práticas corporais que podem fazer parte do seu projeto de vida, com protagonismo pessoal e social, pois “os gestos, mediante o intercâmbio que estabelecem com a cultura ao longo da vida, vão conformando um estilo de vida pessoal de ser, proporcionando um corpo que se identifica pela sua corporeidade” (NUNES, 2016, p. 9).\n\nDessa maneira, é primordial que o indivíduo da educação conheça a sua história e os procedimentos que o relacionam às identidades que esta carrega, promovendo a identidade e a reflexão. Essa reflexão sobre as vivências contribui para a “formação de sujeitos que possam analisar e transformar suas práticas corporais, tomando e sustentando decisões éticas, conscientes e reflexivas em defesa dos direitos humanos e dos valores democráticos” (BRASIL, 2018a, p. 484).\n\nA fim de cumprir com os propósitos supracitados, os objetivos de aprendizagem relacionados à Educação Física buscam promover experiências pedagógicas que permitam aos estudantes reconhecerem o significado de cultura corporal por meio da sua prática contemporânea e histórica, do estudo e da pesquisa de textos científicos, jornalísticos, jurídicos e normativos, além da apreciação de manifestações artísticas. Pretende-se, assim, contribuir com seu projeto de vida e com sua participação na sociedade, identificando preconceitos, relações de poder, meios de exclusão, sexismo e conflitos ideológicos para, assim, adotar uma postura contrária, acrescendo suas possibilidades de ressignificação e mediação crítica, inclusiva, democrática e ética, pautada na cultura de paz e na prevalência dos direitos humanos.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

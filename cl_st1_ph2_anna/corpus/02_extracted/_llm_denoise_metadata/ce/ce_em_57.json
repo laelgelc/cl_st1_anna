@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0170be5314637b4c006ab2ff9dfcd087d2abde6d7bb1775c35",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1238,
+      "input_tokens_details": {
+        "cache_write_tokens": 1235,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1480,
+      "output_tokens_details": {
+        "reasoning_tokens": 352
+      },
+      "total_tokens": 2718
+    }
+  },
+  "created_at": "2026-09-22T22:22:33Z",
+  "duration_seconds": 11.828,
+  "error": null,
+  "excerpt_id": "ce_em_57",
+  "filename": "ce_em_57.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c63a46e55c7666cd30bf37046df7390f7d7400987328919249976255c1cc8919",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "05bececf0ec08912d243e324724c7485a873f7a3fd05bead86497dab8fd72e5c",
+    "rendered_prompt_sha256": "575f47296f8ab6389643956c6f679d46a6615bb08bb14b572f402fd0d09182de",
+    "source_text_sha256": "06c91aad11d60085c7ff7d99fc4fcc3dc1006fd0d2c8609f707d85fd8c4c4ae7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_57.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 815,
+    "filename": "ce_em_57.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_57.txt",
+    "state": "ce",
+    "word_count_original": 815
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_57.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_57.json"
+  },
+  "raw_response_text": "## 9.4 Orientações para a elaboração de um itinerário formativo\n\nOs itinerários formativos devem ser estruturados a partir de um percurso com começo, meio e fim, cujo fluxo perpasse os quatro eixos estruturantes e possibilite aos estudantes um desenvolvimento integral e progressivo. Por esse motivo, é interessante que cada etapa dessa jornada articule conhecimentos, habilidades, atitudes e valores adquiridos em etapas anteriores.\n\nPara alcançarmos esse objetivo, as/os estudantes devem cumprir uma carga horária mínima de 1200 horas de itinerário formativo (que correspondem a 1440 módulos/aula de 50 minutos), que deverão ser distribuídas em trilhas de aprofundamento, eletivas, projeto de vida/unidades curriculares obrigatórias e/ou atividades complementares.\n\nEntende-se por trilhas de aprofundamento o conjunto de unidades curriculares, com duração de um semestre, voltado para o aprofundamento na Área do Conhecimento ou Formação Técnica Profissional escolhida pelo estudante. Os estudantes não escolhem as unidades curriculares. Já as eletivas são unidades curriculares de livre escolha dos estudantes, com duração de um semestre cada, que lhes possibilitam experimentar diferentes temas, vivências e aprendizagens, de maneira a diversificar e enriquecer o seu Itinerário Formativo. Por sua vez, o Projeto de Vida é o trabalho pedagógico intencional e estruturado que tem como objetivo primordial desenvolver a capacidade do estudante de dar sentido à sua existência, tomar decisões, planejar o futuro e agir no presente com autonomia e responsabilidade. Desse modo, as possibilidades de unidades curriculares que podem configurar um itinerário formativo são diversas. Isso posto, as escolas devem oferecer, no mínimo, dois itinerários formativos que contemplem todas as áreas do conhecimento, podendo inclusive integrar diferentes áreas em um mesmo itinerário, de acordo com seu corpo docente, discente e infraestrutura.\n\nDe modo geral, a construção de um itinerário formativo deve ser pautada em alguns pontos importantes, tais como: as necessidades impostas pela contemporaneidade, os interesses das/os estudantes em sua diversidade e a inclusão no mundo do trabalho, considerando as possibilidades do contexto local e suas instituições educativas, os espaços que a escola dispõe e as habilidades do corpo docente. Portanto, as abordagens pedagógicas devem considerar práticas interativas, inclusivas e diversificadas, que respeitem os conhecimentos já adquiridos pelas/os estudantes.\n\nA partir de temas e eixos colocados em pauta num itinerário, os professores podem apresentar objetos de conhecimento que favoreçam a aprendizagem dos temas propostos e o desenvolvimento das habilidades. Criar itinerários formativos que dialoguem com temáticas do século XXI é antes de tudo uma oportunidade de aprendizagem coletiva.\n\nNo que diz respeito à arquitetura curricular construída pela Secretaria de Educação do Estado do Ceará (SEDUC), em conjunto com representantes de Coordenadorias Regionais de Desenvolvimento da Educação, Superintendência das Escolas Estaduais de Fortaleza (CREDE/SEFOR) e diretores escolares para as escolas regulares, foi escolhido o modelo de carga-horária no qual as 1800 horas para FGB e as 1200 horas para IF são distribuídas em 600 horas de FGB e 400 horas de IF para cada série do ensino médio.⁶\n\nA distribuição de carga horária para a 1ª série será de 18 módulos/aula de 50 minutos para a FGB nos dois semestres. Já para o IF, durante o primeiro semestre, será ofertado, no máximo, 2 módulos/aula para unidade curricular Projeto de Vida e 10 módulos/aula de eletivas. Vale ressaltar que para o primeiro semestre não será ofertada trilha de aprofundamento, como mostra a tabela 3 a seguir.\n\nPara o segundo semestre continua a oferta de, no máximo, 2 módulos/aula de projeto de vida e, no mínimo, 4 módulos/aula de eletivas e 6 módulos/aula de trilhas de aprofundamento. A trilha de aprofundamento deverá ser ofertada com unidades curriculares que desenvolvam as habilidades do eixo Investigação Científica; no entanto, a escolha pela/o estudante por uma área do conhecimento em que ela/e irá se aprofundar só acontecerá a partir da 2ª série.\n\nPara a 2ª série, a carga horária da FGB será de 18 horas nos dois semestres e, para os IF, durante o primeiro semestre, serão ofertados, no máximo, 2 módulos/aula de projeto de vida e, no mínimo, 2 módulos/aula de eletiva e 8 módulos/aula de trilhas de aprofundamento. Vale ressaltar que, para o primeiro semestre, a trilha obrigatoriamente deverá contemplar o eixo de investigação científica. No segundo semestre, também deverão ser ofertados 2 módulos/aula de projeto de vida, 2 módulos/aula de eletivas e 8 módulos/aula de trilhas de aprofundamento, para as quais o eixo que deverá ser considerado é o de processos criativos.\n\nDurante a 3ª série, a FGB continuará de 18 módulos/aula para os dois semestres letivos e os IF serão contemplados com 2 módulos/aula de projeto de vida, 2 módulos/aula de eletivas e 8 módulos/aula de trilhas de aprofundamento. No primeiro semestre, o eixo a ser trabalhado será o de mediação e intervenção sociocultural e, para o segundo semestre, o eixo de empreendedorismo.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

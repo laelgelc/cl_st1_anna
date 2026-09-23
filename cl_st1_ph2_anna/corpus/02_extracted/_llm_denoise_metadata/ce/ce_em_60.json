@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00e9e586bfdb5a20006ab2ffa6443487d28aff4b5de1f47439",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 835,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 818,
+      "output_tokens_details": {
+        "reasoning_tokens": 80
+      },
+      "total_tokens": 1653
+    }
+  },
+  "created_at": "2026-09-22T22:22:36Z",
+  "duration_seconds": 6.222,
+  "error": null,
+  "excerpt_id": "ce_em_60",
+  "filename": "ce_em_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ffc65efefe9e1d67e1ef8ca29494df6107ee1826d45e35d6aa1e5c66eacb35aa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "40f9456b539dd6a6c946fd7bb235dae269d0987870bb6cf148f8b4428bd9e7ea",
+    "rendered_prompt_sha256": "a6dfdd7b1bf313c6058c5c7bfcd1ce788a041a5155fbcf39db1b8a5bbc26346e",
+    "source_text_sha256": "14b7ccac4b657fbaded5d8b319cfb0af9eba30492695c305b4ebb9b0795a1513"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 819,
+    "filename": "ce_em_60.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_60.txt",
+    "state": "ce",
+    "word_count_original": 527
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_60.json"
+  },
+  "raw_response_text": "### 9.5.2 Área: Matemática e suas Tecnologias\n\nO itinerário de Matemática e suas Tecnologias, intitulado Matemática, Cidadania e o Mundo do Trabalho, permitirá que a/o estudante passe a conhecer as interações da Matemática com as outras áreas do conhecimento durante o Ensino Médio. Da mesma forma, conhecerá modos pelos quais a Matemática é importante para as profissões nos diversos setores do mundo do trabalho e que perspectivas são abertas no ensino superior, no ensino tecnológico ou no exercício das profissões. Com este panorama, o aluno, auxiliado pelo professor, começa a traçar projetos de vida e a integração da Matemática a esses projetos. Reconhecerá as oportunidades e desafios, as limitações a serem superadas e as estratégias, cognitivas e emocionais.\n\n#### 9.5.2.1 Perfil do Egresso\n\nAo cursar este itinerário, o aluno apresentará competências e habilidades que o tornará capaz de traçar projetos de vida integrando a Matemática às suas interações científicas, sociais, culturais e profissionais. Reconhecerá as oportunidades, desafios, limitações a serem superadas e as estratégias, cognitivas e emocionais, a serem mobilizadas para seu sucesso. O intuito é de que os alunos, ao seguirem este percurso, estejam habilitados a ler e interpretar informações expressas em termos de números, relações, funções, matrizes, tabelas e outras representações que envolvam variáveis numéricas em diversos contextos cotidianos e científicos.\n\n#### 9.5.2.2 Objetivo do itinerário formativo\n\nAo longo deste itinerário, as/os estudantes devem conhecer as múltiplas e potentes maneiras segundo as quais o conhecimento matemático, mesmo em nível básico, perpassa as profissões. Fortalecida a base comum, os objetivos de aprendizagem combinam, neste percurso, a aptidão de reconhecer contextos, no mundo do trabalho, em que a aplicação da linguagem matemática provê soluções e melhorias de processos. Por exemplo, o uso de robôs em indústrias pode ser o contexto sobre o qual as/os estudantes aprofundam o estudo de matrizes, reconhecendo-os como elementos de descrição de movimentos no espaço, essenciais para a programação e aprendizado das máquinas. Cabe, portanto, avaliar as dimensões do conhecimento formal e da transposição desse conhecimento na elaboração de um projeto.\n\n#### 9.5.2.3 Detalhamento do itinerário formativo\n\nAs Unidades Curriculares recomendadas neste itinerário podem ser ofertadas de acordo com a proposta pedagógica da escola. Cada instituição poderá organizá-las de acordo com seus objetivos. Os diagramas a seguir apresentam uma proposta de distribuição de carga horária de itinerário formativo de área, com foco no acolhimento do aluno do ensino médio, à medida que ele é submetido a uma maior carga horária de eletivas no 1° ano e entra em contato com a área por meio de uma trilha de aprofundamentos gradativa, oportunizando um amadurecimento das ideias das/os jovens estudantes ao longo deste percurso.\n\nA ideia é prover, para o aluno, unidades curriculares que o ajudem a superar visões deturpadas do conhecimento matemático e de suas percepções sobre supostas limitações e dificuldades na aquisição dos conhecimentos e habilidades matemáticas. Pretende-se, além disso, trazer-lhe uma visão das possibilidades, tanto no desenvolvimento cognitivo quanto sócio-emocional, abertas pelo estudo da Matemática, além da base que esta disciplina oferece a projetos de vida os mais diversos.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

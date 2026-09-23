@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c0ddc1ff5b3c08d006ab30c0ee73c87d2bdea20e3603e765f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 848,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 952,
+      "output_tokens_details": {
+        "reasoning_tokens": 193
+      },
+      "total_tokens": 1800
+    }
+  },
+  "created_at": "2026-09-22T23:15:35Z",
+  "duration_seconds": 9.154,
+  "error": null,
+  "excerpt_id": "ro_em_18",
+  "filename": "ro_em_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "106e408d14a4e84d656d35541748eb4e2ec5f0971a2423309749aa0d658ea29a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bf90c3ac4d7aab55f63fcfcee691a0bb996c799d40be9b549ee910aed0482231",
+    "rendered_prompt_sha256": "bf915c97d4053b76666fbffad94b6e734ca9a81d7ecef59e14708e264473c830",
+    "source_text_sha256": "9f8aaacfb400d320324235a9b7778908baf623477d9e5f85d6ad4c2f29c5e98f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3232,
+    "filename": "ro_em_18.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_18.txt",
+    "state": "ro",
+    "word_count_original": 550
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_18.json"
+  },
+  "raw_response_text": "### 1.6.3.1. Distribuição de carga horária por anos escolares\n\nA partir da análise da visão da sociedade sobre o ensino médio atual e seus anseios, dispostas nos relatórios do processo de escuta e ainda nos debates no Comitê de Acompanhamento das Ações de Implementação e Desenvolvimento da Política do Novo Ensino Médio, foi definido a distribuição de carga horária por anos escolares para o Ensino Médio em Rondônia, sendo que essa configuração deve servir de parâmetro para elaboração das Matrizes Curriculares do Ensino Médio das instituições escolares do sistema estadual de ensino.\n\nO gráfico a seguir indica como deve ocorrer a distribuição de carga horária por anos escolares em Formação Geral Básica e Itinerários Formativos.\n\nDiante dessa estrutura, a carga horária de Formação Geral Básica (FGB) é maior do que a carga horária de Itinerários Formativos (IF) no 1º ano do Ensino Médio, sendo que a partir do 2º ano do Ensino Médio, a distribuição entre FGB e IF é equiponderante. No tocante à FGB, exceção do atendimento à modalidade de Educação de Jovens e Adultos, faz-se necessário que as matrizes curriculares no âmbito do sistema de ensino respeitem essa configuração, possibilitando que a mobilidade dos estudantes de uma escola para outra ocorra sem a necessidade de realizar adaptações por complementação de carga horária. Em relação aos IF é possível estabelecer uma maior carga horária no decorrer dos anos escolares, considerando as possibilidades das redes de ensino e adequando-se ainda às especificidades das diversas modalidades de ensino e formas de atendimento do ensino médio, tendo em vista ainda a legislação vigente para cada uma delas.\n\n**Carga horária presencial e a distância:**\n\nConforme o § 13 do art. 17 da Resolução CNE/CEB nº 3 de 21 de novembro de 2018:\n\n> § 13. As atividades realizadas pelos estudantes, consideradas parte da carga horária do ensino médio, [...] podem ser realizadas na forma presencial – mediada ou não por tecnologia – ou a distância, inclusive mediante regime de parceria com instituições previamente credenciadas pelo sistema de ensino.\n\nAtendendo a esse dispositivo, o desenvolvimento da carga horária no ensino médio poderá ocorrer de forma presencial ou à distância, sendo que o percentual dessa carga horária é distribuído considerando os seguintes critérios:\n\n> § 15. As atividades realizadas a distância podem contemplar até 20% (vinte por cento) da carga horária total, podendo incidir tanto na formação geral básica quanto, preferencialmente, nos itinerários formativos do currículo, desde que haja suporte tecnológico – digital ou não – e pedagógico apropriado, necessariamente com acompanhamento/coordenação de docente da unidade escolar onde o estudante está matriculado, podendo a critério dos sistemas de ensino expandir para até 30% (trinta por cento) no ensino médio noturno. (grifo nosso)\n\nDepreende-se, portanto, que no período diurno, o percentual de carga horária com atividades a distância é de no máximo 20%, sendo que no período noturno este percentual chega até 30%. A norma apresenta ainda, uma exceção em relação a Educação de Jovens e Adultos que poderá oferecer até 80% da sua carga horária à distância, conforme descrito no art. 17 § 5º.\n\nA oferta de percentuais da carga horária à distância no Ensino Médio requer que as instituições escolares contemplem em suas propostas pedagógicas os aspectos curriculares que atendam à exigência de disponibilização de professor para acompanhamento/coordenação das atividades na unidade onde o estudante está matriculado.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

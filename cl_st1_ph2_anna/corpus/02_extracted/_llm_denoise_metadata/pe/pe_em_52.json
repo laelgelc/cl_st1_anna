@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01a06df769f2b234006ab3083148bc87d2b3d614be2ecc2ec1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 451,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 25
+      },
+      "total_tokens": 826
+    }
+  },
+  "created_at": "2026-09-22T22:59:00Z",
+  "duration_seconds": 3.367,
+  "error": null,
+  "excerpt_id": "pe_em_52",
+  "filename": "pe_em_52.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "90c2310c0a41493a3caf3ff72ed7f3ce45e330ddacfb0e86aed0f803a413f369",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "63c3eb25079295293d6acf5a43576094eb3d2f04036afa14d40c6770999005a0",
+    "rendered_prompt_sha256": "819095b94dd1c74ec845c2ef65c83e19f8f1979792ed0fac711507339cd18b8b",
+    "source_text_sha256": "4bcc4f6d296c28d1d3ea444e32ce585fdd00eab8cbac96865be2d0a069f6ca7c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_52.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2509,
+    "filename": "pe_em_52.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_52.txt",
+    "state": "pe",
+    "word_count_original": 236
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_52.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_52.json"
+  },
+  "raw_response_text": "4.5.9 COMPETÊNCIAS ESPECÍFICAS DE CIÊNCIAS HUMANAS E SOCIAIS APLICADAS\n\n1. Analisar processos políticos, econômicos, sociais, ambientais e culturais nos âmbitos local, regional, nacional e mundial em diferentes tempos, a partir de procedimentos epistemológicos e científicos, de modo a compreender e posicionar-se criticamente com relação a esses processos e às possíveis relações entre eles.\n2. Analisar a formação de territórios e fronteiras em diferentes tempos e espaços, mediante a compreensão dos processos sociais, políticos, econômicos e culturais geradores de conflito e negociação, desigualdade e igualdade, exclusão e inclusão e de situações que envolvam o exercício arbitrário do poder.\n3. Contextualizar, analisar e avaliar criticamente as relações das sociedades com a natureza e seus impactos econômicos e socioambientais, com vistas à proposição de soluções que respeitem e promovam a consciência e a ética socioambiental e o consumo responsável em âmbito local, regional, nacional e global.\n4. Analisar as relações de produção, capital e trabalho em diferentes territórios, contextos e culturas, discutindo o papel dessas relações na construção, consolidação e transformação das sociedades.\n5. Reconhecer e combater as diversas formas de desigualdade e violência, adotando princípios éticos, democráticos, inclusivos e solidários, e respeitando os Direitos Humanos.\n6. Participar, pessoal e coletivamente, do debate público de forma consciente e qualificada, respeitando diferentes posições, com vistas a possibilitar escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

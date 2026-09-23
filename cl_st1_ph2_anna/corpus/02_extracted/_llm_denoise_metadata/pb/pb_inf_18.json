@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ac904984a01483d006ab30796e97087d28b70f736fde215be",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 619,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 623,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 1242
+    }
+  },
+  "created_at": "2026-09-22T22:56:28Z",
+  "duration_seconds": 6.063,
+  "error": null,
+  "excerpt_id": "pb_inf_18",
+  "filename": "pb_inf_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "df27b90db954195e5373f45eab5817ac54c47957e668df4e3ac5f01b5f7e08e2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "965f037cf680966dfc2c3afe0894e78e0043705e06c554a9ef52da5e8067cabc",
+    "rendered_prompt_sha256": "6c62b9f86a8d35e623ca30fa76e04b6530a70ec9e202e4a63eec9309442ef5e0",
+    "source_text_sha256": "3bbd828c26d58cfbf36108e0aa0f075364a66fc2657dcfa631ec1862a67389f7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2361,
+    "filename": "pb_inf_18.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_18.txt",
+    "state": "pb",
+    "word_count_original": 328
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_18.json"
+  },
+  "raw_response_text": "### 3.6.2. Crianças bem pequenas (Crianças de 1 ano e 7 meses a 3 anos e 11 meses)\n\n**CAMPO DE EXPERIÊNCIA: O EU, O OUTRO E O NÓS**\n\n**OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO**\n\nDemonstrar atitudes de cuidado e solidariedade na interação com crianças e adultos.  \nDemonstrar imagem positiva de si e confiança em sua capacidade para enfrentar dificuldades e desafios.  \nCompartilhar os objetos e os espaços com crianças da mesma faixa etária e adultos.  \nComunicar-se com os colegas e os adultos, buscando compreendê-los e fazendo-se compreender.  \nPerceber que as pessoas têm características físicas diferentes, respeitando essas diferenças.  \nRespeitar regras básicas de convívio social nas interações e brincadeiras.  \nResolver conflitos nas interações e brincadeiras, com a orientação de um adulto.  \n(BNCC, 2017)\n\nComparar características de colegas (tamanho, altura, etnia, preferências, local de moradia etc.) identificando semelhanças e diferenças.  \nAssumir personagens ligados ao seu cotidiano nas brincadeiras de faz de conta.\n\n**SUGESTÕES DE VIVÊNCIAS QUE FAVORECEM A CONSTRUÇÃO DE EXPERIÊNCIAS PELAS CRIANÇAS BEM PEQUENAS NESTE CAMPO**\n\nAs práticas realizadas na Instituição de Educação Infantil devem possibilitar:\n\n- Interações que envolvam diálogo, brincadeiras, músicas, movimento, expressões corporais e artísticas;\n- Situações desafiadoras que promovam a resolução de problemas e a percepção de uma imagem positiva de si, valorizando a autonomia e autoestima para a superação de limites, considerando seu desenvolvimento e suas potencialidades;\n- Situações de valorização e respeito às diferentes características físicas dos seus pares e dos adultos com os quais convive na instituição;\n- Interações que oportunizem a percepção de si e do outro, gerando diálogos no sentido da resolução de conflitos;\n- Observação e valorização das diferentes características que compõem a identidade física, sociocultural, étnica, dentre outras características, de si e daqueles com os quais convive na instituição;\n- Compartilhamento de objetos e espaços com crianças da sua faixa etária, bem como de outras faixas etárias e adultos;\n- Vivência de situações de mediação de conflito com apoio dos adultos envolvidos em seu processo educativo.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

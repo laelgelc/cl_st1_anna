@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d2863252a0d4416006ab30314d53087d2ac048571143811ea",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 730,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 609,
+      "output_tokens_details": {
+        "reasoning_tokens": 50
+      },
+      "total_tokens": 1339
+    }
+  },
+  "created_at": "2026-09-22T22:37:13Z",
+  "duration_seconds": 4.676,
+  "error": null,
+  "excerpt_id": "mg_em_141",
+  "filename": "mg_em_141.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "517b8ed42fe93565d27e542f3596f3d862cbf3a39e7f0aa0a3dfca3197044bc8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1a9fb1ca16c3d7e65a616f7a507a20bf764c09f9d28dc23b171f429fcbb99745",
+    "rendered_prompt_sha256": "a7d1cfbe9320332f1d1562ffb728c74235b808a341c9ff7d4e9af27c1d15dbd0",
+    "source_text_sha256": "3190f80b016a56089bd5770e583f180c917f3cd4e8c437683396ddc812aaf3c4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_141.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1532,
+    "filename": "mg_em_141.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_141.txt",
+    "state": "mg",
+    "word_count_original": 420
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_141.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_141.json"
+  },
+  "raw_response_text": "### 6.10.5 Ações e atividades curriculares práticas\n\nA Educação Ambiental como tema de prática educativa integradora, deve ser trabalhada de forma intra, inter e transdisciplinar por profissionais e estudantes, proporcionando maior apropriação dos conteúdos dos diversos componentes curriculares, por meio da contextualização prática do cotidiano, da relação do sujeito com o território e comunidades.\n\nA Educação Ambiental pode ser trabalhada utilizando-se de diversas articulações, seja por atividades, ações, planos, projetos ou programas com níveis diferentes de atuação. Podem ser elaborados e abordados em campos de trabalhos diversos, seja de iniciativa própria dos professores e estudantes, seja propondo ou atendendo a chamados de parceiros.\n\nSão infinitas metodologias que, como ferramentas pedagógicas, possibilitam a apropriação do conhecimento. Destacam-se, assim, observações, experimentos, pesquisas de campo, atividades de preservação, conservação e recuperação do meio ambiente, redução do consumo, reutilização de materiais, elaboração de estratégias para o desenvolvimento de formas de produzir renda familiar, dentre outros. Todos invariavelmente com ênfase na sustentabilidade ambiental e desenvolvimento socioambiental, com a promoção de melhor qualidade de vida, garantindo respeito à diversidade, à história e ao território das comunidades, tendo a partir das ações locais a visão de impactos globais. Um dos objetivos é a constituição e/ou o fortalecimento dos coletivos de educadores e coletivos jovens.\n\nA prática ambiental contextualizada possibilitará aos estudantes ampliar a sua visão de mundo e assim fazer escolhas de Itinerários Formativos cuja prática qualificada permitirão valorizar o ambiente e reconhecer estratégias de sustentabilidade, com apropriação do território a que pertencem. Por exemplo, destacam-se como temáticas: produção rural, agroecologia, hortifruti, manejo de animais, laticínios, culinárias, produção minerária, mobilidade urbana, comunicação, arte, cultura, dentre outros. Tais assuntos proporcionarão a vivência de experiências que auxiliarão os estudantes na escolha de sua trajetória acadêmica e profissional.\n\nDurante o processo de Educação Ambiental, não basta apresentar os problemas. É imprescindível deixar claro a necessidade de cuidar da natureza e a importância de preservar os recursos naturais para que possam ser usados por nós e também para estarem disponíveis às futuras gerações. Nesse contexto, nasce a necessidade de ensinar os 5 Rs - cinco termos que ajudam a compreender como deve-se comportar em relação ao meio ambiente: repensar, recusar, reduzir, reutilizar e reciclar, descritos na figura 10.\n\nTais atitudes influenciam o comportamento e a forma como se lida com os resíduos, justificando, assim, o seu estudo no processo de educação ambiental.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

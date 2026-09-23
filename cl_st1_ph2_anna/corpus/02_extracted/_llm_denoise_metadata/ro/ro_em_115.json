@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09471b1f561456fa006ab30c004b4887d29e6c925432ca30bc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 588,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 812,
+      "output_tokens_details": {
+        "reasoning_tokens": 308
+      },
+      "total_tokens": 1400
+    }
+  },
+  "created_at": "2026-09-22T23:15:20Z",
+  "duration_seconds": 8.827,
+  "error": null,
+  "excerpt_id": "ro_em_115",
+  "filename": "ro_em_115.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "eb084f0cc691b4ab2286fc5ba25ed25a00a169115e3c3e7a90c642a41a8c168f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "81ff432e64b6d8f6c1ee9e4cb41f218016c9ec2e19b912dadebc6bdc3e984fe8",
+    "rendered_prompt_sha256": "dd1bf65268c83240dfd65294e4ed328ce0f616369f1948c9d09f4068090a2b54",
+    "source_text_sha256": "41fe39b70c5e067cfbef15a056af759c19ff49dd5388a94da7a9f9bb0f413c44"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_115.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3223,
+    "filename": "ro_em_115.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_115.txt",
+    "state": "ro",
+    "word_count_original": 367
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_115.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_115.json"
+  },
+  "raw_response_text": "Em análise ao quadro apresentado, percebe-se que a avaliação por rubrica orienta os estudantes por meio de indicadores, auxiliando-os no percurso e demonstrando em quais aspectos precisa aprimorar. Esse tipo de avaliação auxilia o estudante, pois apresenta maior clareza nos critérios a serem observados e propicia tranquilidade e transparência na justificativa do docente ao avaliar. Logo, a análise dos critérios conduzem aos questionamentos tanto para o professor quanto para o estudante: Onde precisa melhorar? Onde estamos caminhando? Quais as intenções da avaliação?\n\nEm síntese, há diversas estratégias de avaliação da aprendizagem, consideradas fundamentais para o estabelecimento de critérios relevantes que propiciem a compreensão global do processo de apreensão dos objetos de conhecimento e contribuem para o desenvolvimento integral dos estudantes.\n\nPor este prisma, as instituições escolares, ao elaborarem suas propostas pedagógicas, precisam definir boas estratégias de avaliação da aprendizagem, contemplando o que prevê o art. 8º das DCNEM:\n\n> Art. 8º As propostas curriculares do ensino médio devem: [...]\n>\n> IV - organizar os conteúdos, as metodologias e as formas de avaliação, por meio de atividades teóricas e práticas, provas orais e escritas, seminários, projetos e atividades online, autoria, resolução de problemas, diagnósticos em sala de aula, projetos de aprendizagem inovadores e atividades orientadas, de tal forma que ao final do ensino médio o estudante demonstre:\n>\n> a) competências e habilidades na aplicação dos conhecimentos desenvolvidos;\n>\n> b) domínio dos princípios científicos e tecnológicos que estão presentes na produção moderna;\n>\n> c) práticas sociais e produtivas determinando novas reflexões para a aprendizagem;\n>\n> d) domínio das formas contemporâneas de linguagem;\n\nPortanto, as propostas pedagógicas no que tange a avaliação da aprendizagem dos estudantes, deve primar pelo planejamento que contemple a avaliação das habilidades e competências específicas de cada área e componente curricular, assim como as competências gerais, que na sua integralidade possuem um caráter formativo. Dessa maneira, a avaliação da aprendizagem torna-se essencial para o desenvolvimento integral dos jovens, pois incentiva o estudante a ter autonomia, assumindo responsabilidades consigo mesmo, ao analisar, refletir e perceber seu percurso. Assim, potencializa-se o desenvolvimento das competências e habilidades expressas no currículo, além de estimular o protagonismo dos estudantes, que ao verificar sua evolução no processo educacional poderão assumir escolhas e valorizar suas conquistas.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

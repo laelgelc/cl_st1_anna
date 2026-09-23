@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bcef49437e03e3c006ab303230e5c87d2bcc0abdae57163ee",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 644,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 626,
+      "output_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "total_tokens": 1270
+    }
+  },
+  "created_at": "2026-09-22T22:37:27Z",
+  "duration_seconds": 4.789,
+  "error": null,
+  "excerpt_id": "mg_em_151",
+  "filename": "mg_em_151.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ac583243b71f9e2eaf793a44660ec034e32b73c0b700f49ad49690cbce017422",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "57e22ba0c69f9ea13f44a8490cc36bb1672d46c689afa7d69236d4f76cb48d16",
+    "rendered_prompt_sha256": "e80fd21b2e0b6904531c4aba9469da3ea21a923fc4a52750a305b7a5d6f757a6",
+    "source_text_sha256": "bdb23bf2251cc4bbb04262ef53cd8ea4fbba5c0f76c068dac4e00602a773021e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_151.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1543,
+    "filename": "mg_em_151.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_151.txt",
+    "state": "mg",
+    "word_count_original": 353
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_151.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_151.json"
+  },
+  "raw_response_text": "## 8.4 Conclusão\n\nDevemos compreender o processo avaliativo como um momento contínuo da aprendizagem, como parte substancial de uma pedagogia libertadora e progressista. A avaliação, como um todo, deve possibilitar a formação integral do estudante, o desenvolvimento de suas habilidades, de seu protagonismo e autonomia – nunca perdendo de perspectiva que a “autonomia, enquanto amadurecimento do ser para si, é processo, é vir a ser” (Freire, 1996, p. 55).\n\nPor consequência, os educadores e gestores devem assumir que a avaliação é parte importante do processo de ensino aprendizagem, permitindo, assim, diagnosticar insuficiências e erros de percurso, com o propósito de intervir, reavaliar e alterar o processo de ensino aprendizagem, para reduzir a lacuna entre o patamar alcançado naquele momento e aquele a que se espera que os aprendizes cheguem. Não é uma tarefa fácil, se considerarmos que lidamos, na educação, com pessoas, com sujeitos em desenvolvimento, com interesses nem sempre harmonizados com o projeto e os objetivos da instituição escolar. Criar uma relação positiva com a aprendizagem e um sentimento de pertença àquele espaço escolar é, assim, uma forma de instituir um “clima escolar” que favoreça o ensino e a aprendizagem – sempre incompletos, numa sociedade em contínua transformação, mas os mais próximos possíveis das metas estabelecidas para cada instituição escolar (inclusive considerando as projeções estatísticas estabelecidas externamente, como os índices estipulados pelo IDEB, as demandas impostas pelo Enem, entre outras).\n\nAssim como outros documentos legais, o Currículo Referência integra uma “rede”, que, por sua vez, normatiza uma complexa estrutura (ou teia) que simboliza as redes pública e particular de MG: como cada parte é solidária ao todo, cada elo fortalecido (cada unidade escolar bem sucedida e, dentro dela, cada docente e seu grupo de discentes) significa uma consolidação dos objetivos do sistema como um todo. A formação para os professores para a implementação do Currículo de Minas Gerais deve abranger o processo global de avaliação considerando as dez (10) competências da BNCC, que contempla a integralidade dos estudantes (Conhecimento, Pensamento científico, crítico e criativo, Repertório Cultural, Comunicação, Cultura digital, Trabalho e Projeto de vida, Argumentação, Autoconhecimento e autocuidado, Empatia e cooperação, Responsabilidade e cidadania).",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

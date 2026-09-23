@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0cbd0e8b4e0db102006ab30d4de06887d28b01092f3f757154",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 838,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 847,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 1685
+    }
+  },
+  "created_at": "2026-09-22T23:20:52Z",
+  "duration_seconds": 6.378,
+  "error": null,
+  "excerpt_id": "rr_em_60",
+  "filename": "rr_em_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "eb1d515082b434cc37debee43a60b4bbfaeb96e5f75eee5d6282668033e201bd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "dde85001a6c80a68860d718d075450af42c7b3fd48a6d697a30147f2e53197d7",
+    "rendered_prompt_sha256": "6a52442360bbbc6ff48e597600400e7b83c5c5304b56a6ef93a2b4a953324a68",
+    "source_text_sha256": "fea7ad4ceb150ee9a87ebb42384e660950dacb9c5c58654f570cdedd9737d200"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3497,
+    "filename": "rr_em_60.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_60.txt",
+    "state": "rr",
+    "word_count_original": 534
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_60.json"
+  },
+  "raw_response_text": "## 6.2. Sobre as áreas do conhecimento\n\nCada forma e modalidade do ensino médio devem contemplar as áreas do conhecimento podendo ser organizadas em unidades curriculares, competências e habilidades, unidades de estudo, módulos, atividades, práticas e projetos contextualizados ou diversamente articuladores de saberes, desenvolvimento transversal ou transdisciplinar de temas ou outras formas de organização.\n\nEssas áreas do conhecimento devem propiciar ao estudante a apropriação de conceitos e categorias básicas e não o acúmulo de informações e conhecimentos, estabelecendo um conjunto necessário de saberes integrados e significativos e, para melhor responder à heterogeneidade e pluralidade de condições, múltiplos interesses e aspirações dos estudantes, com suas especificidades etárias, sociais e culturais, bem como sua fase de desenvolvimento, pode-se organizar o currículo com a oferta de tempos e espaços próprios ou em parcerias com outras organizações para estudos e atividade complementares, desde que:\n\nI - a parceria com as organizações esteja devidamente firmada com a instituição ou rede de ensino e reconhecida pelo sistema de ensino;  \nII - a organização esteja credenciada pelo sistema de ensino, quando a parceria envolver a oferta de formação técnica e profissional;  \nIII - a instituição escolar de origem dos estudantes se responsabilize pelos atos escolares, incluindo, entre outros, matrícula, controle de frequência, aproveitamento e certificação dos estudantes.\n\nEm relação às formas diversificadas de itinerários formativos podem ser organizadas, desde que articuladas as dimensões do trabalho, da ciência, da tecnologia e da cultura, e definidas pela proposta pedagógica, atendendo necessidades, anseios e aspirações dos estudantes e a realidade da escola e do seu meio e se prime pela contextualização e a interdisciplinaridade assegurando a articulação entre diferentes áreas do conhecimento, propiciando a interlocução dos saberes para a solução de problemas complexos.\n\nAs atividades realizadas pelos estudantes, consideradas parte da carga horária do ensino médio, podem ser aulas, cursos, estágios, oficinas, trabalho supervisionado, atividades de extensão, pesquisa de campo, iniciação científica, aprendizagem profissional, participação em trabalhos voluntários e demais atividades com intencionalidade pedagógica orientadas pelos docentes, assim como podem ser realizadas na forma presencial - mediada ou não por tecnologia - ou a distância, inclusive mediante regime de parceria com instituições previamente credenciadas pelo sistema de ensino.\n\nEssas atividades podem ser chamadas de Atividades Complementares, devem ter carga horária específica, observadas as normas do sistema de ensino e podem ser contabilizadas como certificações complementares e constar do histórico escolar do estudante.\n\nAs atividades realizadas a distância podem contemplar até 20% (vinte por cento) da carga horária total, podendo incidir tanto na formação geral básica quanto, preferencialmente, nos itinerários formativos do currículo, desde que haja suporte tecnológico - digital ou não - e pedagógico apropriado, necessariamente com acompanhamento/coordenação de docente da unidade escolar onde o estudante está matriculado, podendo a critério dos sistemas de ensino expandir para até 30% (trinta por cento) no ensino médio noturno.\n\nTodas essas formas do ensino médio, bem como outras possibilidades de oferta e arquiteturas de funcionamento, podem ser realizadas desde que sejam devidamente autorizadas pelos mantenedores e colegiado estadual competente (CEE, CME). Isso significa que o Sistema Educacional Estadual acolhe as diversas possibilidades de ensino médio, desde que sejam garantidos os mínimos estabelecidos para horas e dias letivos e conhecimentos básicos essenciais ditos comuns e os específicos para cada modalidade e curso.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

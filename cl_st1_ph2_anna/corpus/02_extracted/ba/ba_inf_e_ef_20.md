@@ -1,0 +1,19 @@
+### 5.4. Saúde na Escola
+
+A saúde e a educação são direitos fundamentais expressos na Constituição de 1988, que no art. 6º traz:
+
+“São direitos sociais a educação, a saúde, o trabalho, a moradia, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados, na forma desta Constituição.”
+
+Enquanto direito, é inerente a todos sem distinção de raça, etnia, gênero, religião ou condição socioeconômica, sendo dever do Estado garanti-la, “mediante políticas sociais e econômicas que visem à redução do risco de doença e de outros agravos e ao acesso universal e igualitário às ações e serviços para sua promoção, proteção e recuperação” (BRASIL, 1988).
+
+Por sua vez, a Organização Mundial de Saúde (OMS) define a saúde como “um estado de completo bem-estar físico, mental e social e não somente ausência de afecções e enfermidades” (OMS, 1946).
+
+Nesta perspectiva, o tema integrador Saúde na Escola, associado ao recorte territorial, ganha relevância no currículo das unidades escolares, possibilitando a implementação de estratégias mais efetivas para o enfrentamento dos problemas de saúde mapeados no território e, principalmente, na proposição de soluções mais adequadas.
+
+Princípios como intersetorialidade, integralidade, territorialidade, interdisciplinaridade e transversalidade devem ser assumidos no currículo, respaldando projetos de intervenção envolvendo a comunidade do entorno para o fortalecimento da parceria escola-comunidade, constituindo-se em uma Escola Promotora da Saúde, conforme preconizado na Lei nº 12.361/2011, que aprova o Plano Estadual da Juventude e estabelece como uma das diretrizes a promoção da saúde integral do jovem, com destaque para a ação programática de “enfatizar o trabalho conjunto com a escola e com a família para a prevenção da maioria dos agravos à saúde”.
+
+Com base nos seus PPPs, as unidades escolares devem realizar o planejamento de ações sociopedagógicas, de forma transversal, sistemática, contínua e integrada com as demais atividades/ações desenvolvidas pelas unidades escolares, visando à promoção da saúde e prevenção dos agravos, envolvendo toda a comunidade escolar e, principalmente, assegurando o lugar dos estudantes como protagonistas, de forma a contribuir para a melhoria do rendimento, na redução do abandono e na evasão escolar.
+
+As práticas pedagógicas desenvolvidas pelos profissionais da educação devem adotar metodologias que tenham como base a formação humanística, promovendo situações de aprendizagens contextualizadas que considerem as experiências dos estudantes, como também a elaboração dos seus projetos de vida, os temas da contemporaneidade, os objetos de conhecimento, o desenvolvimento de competências promotoras de saúde, como o autoconhecimento, o autocontrole, a autoestima, a autorresponsabilização, a autonomia, a consciência social, entre outros, voltados à formação integral e ao enfrentamento de vulnerabilidades sociais que comprometam o pleno desenvolvimento dos estudantes.
+
+É fundamental que as práticas pedagógicas possibilitem à comunidade escolar o desenvolvimento de habilidades socioemocionais, conhecimentos, atitudes e valores que promovam a tomada de decisões baseadas na ética, no bem-estar físico, social e mental, conferindo-lhe assim um papel interventivo, além de estimular ações de promoção à saúde e prevenção dos agravos, direcionadas ao enfrentamento das vulnerabilidades dos estudantes frente às questões de saúde, tais como: prevenção das Infecções Sexualmente Transmissíveis (IST); prevenção e controle da Dengue/Chikungunya/Zika vírus e outras arboviroses; prevenção ao uso do álcool, tabaco e outras drogas; promoção da cultura de paz e da valorização da vida; prevenção das violências e a promoção de hábitos e atitudes saudáveis; saúde sexual e saúde reprodutiva; prevenção de doenças imunopreveníveis, entre outras, contribuindo, assim, para a formação integral dos estudantes.

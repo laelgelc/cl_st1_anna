@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e3a03d22267eb73006ab303f1371487d2983c0e327c9e48c3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1161,
+      "input_tokens_details": {
+        "cache_write_tokens": 1158,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1123,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 2284
+    }
+  },
+  "created_at": "2026-09-22T22:40:58Z",
+  "duration_seconds": 9.101,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_34",
+  "filename": "ms_inf_e_ef_34.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b374e0856ab60470ad827ed326b7443b75f56b5eedb913277c890fb48999bb06",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7970b1664bc4ae25182bb4a47c9a5aee18ff3f4f235bad432e6da0c31ee8b081",
+    "rendered_prompt_sha256": "e41aa2b0deb3648c5b13548aa6d05daef10aafd18f2dff882bb5c07d0b399e0a",
+    "source_text_sha256": "27844e8edc420624c6ccb126b994cd77a345f7c0c2657f3787e4f8c3de0d253c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_34.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1754,
+    "filename": "ms_inf_e_ef_34.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_34.txt",
+    "state": "ms",
+    "word_count_original": 690
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_34.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_34.json"
+  },
+  "raw_response_text": "## 8.2 Estrutura do Ensino Fundamental\n\nNeste momento, apresenta-se a organização das áreas e dos componentes curriculares que se dispõem em quadros com as unidades temáticas, os objetos de conhecimento e as habilidades para cada ano. Cada habilidade é identificada por um código alfanumérico composto por:\n\n- MS: sigla do estado;\n- EF: indica que são habilidades do Ensino Fundamental;\n- par de números: indicam o ano (01 a 09) a que se refere a habilidade, ou, no caso de Língua Portuguesa, Arte e Educação Física, o bloco de anos;\n- par de letras: diz respeito ao componente curricular. (AR - Arte; CI - Ciências; EF - Educação Física; ER - Ensino Religioso; GE - Geografia; HI - História; LI - Língua Inglesa; LE - Língua Espanhola; LP - Língua Portuguesa; e MA - Matemática);\n- par de número: numeração sequencial das habilidades homologadas da BNCC. As habilidades incluídas no Currículo de Referência de Mato Grosso do Sul, ou seja, específicas deste documento, são numeradas com um par de 00 (zero, zero);\n- letra minúscula: situação da habilidade quando comparada à BNCC. São cinco possibilidades de letras: s - quando a habilidade é a homologada na BNCC sem sofrer nenhuma alteração; c - quando a habilidade é específica de Mato Grosso do Sul e visa contextualizar uma habilidade homologada; a - quando a habilidade, em Mato Grosso do Sul, objetiva aprofundar uma habilidade homologada; d - quando a habilidade homologada foi desdobrada em outras, no documento de Mato Grosso do Sul; e n para as habilidades novas.\n- par de números: sequência numérica das habilidades no Currículo de Referência de Mato Grosso do Sul.\n\nAlém disso, insere-se a aba “Ações Didáticas” a fim de descrever como a contextualização (social, política, cultural, local e/ou regional) pode ocorrer em habilidades já homologadas; exemplificar, quando for o caso; e abordar possíveis metodologias que sejam condizentes com os princípios norteadores do Currículo. Esta aba está escrita em vermelho para destaque durante a leitura.\n\nEspecificamente para o Componente Curricular Ensino Religioso a aba “Contextualização/ Exemplificação” traz ideias e conceitos que oportunizam a compreensão das habilidades homologadas.\n\n## 8.3 Área de Linguagens\n\nA linguagem é canal incomensurável para que os indivíduos sejam capazes de elaborar pensamentos, comunicar-se, acessar os mais diversos tipos de informações e produzir conhecimentos, visto que a vida em sociedade exige-lhes a apropriação de múltiplas linguagens e de repertórios historicamente construídos.\n\nNesse sentido, cabe à área de Linguagens, no Ensino Fundamental, com objetivo de fortalecer o desenvolvimento de competências cognitivas e socioemocionais, possibilitar: o progressivo domínio da fala, leitura e escrita; a vivência, reflexão, apropriação e recriação dos elementos constitutivos das linguagens artísticas e corporais; o reconhecimento e a valorização da pluralidade cultural e do uso de outra(s) língua(s); o respeito às características individuais e sociais, às diferenças de etnias, de classes sociais, de crenças e de gêneros.\n\nNa perspectiva dos anos iniciais do Ensino Fundamental, destaca-se a relevância da continuidade das habilidades adquiridas na Educação Infantil, considerando práticas, embasadas em contextos socioculturais específicos, hibridismos culturais e regionalidades do Estado do Mato Grosso do Sul, em que a fluidez entre as linguagens sejam fundamentadas no lúdico e nas culturas infantis tradicionais e contemporâneas, de forma a corroborar que o estudante reconheça-se histórica e culturalmente, criando e interpretando sua realidade.\n\nNo âmbito dos anos finais do Ensino Fundamental, ocorre a inclusão da Língua Inglesa, considerada língua internacional, agregando, com os outros componentes, relevância e proficuidade à continuidade da aprendizagem, de maneira objetiva e criativa, a fim de que o estudante amplie seu repertório linguístico, literário, artístico, de práticas corporais, valorizando a produção de textos orais e escritos, de linguagens artísticas e corporais, por meio da utilização de Tecnologias Digitais de Informação e Comunicação no contexto escolar e comunitário.\n\nNesse cenário, as múltiplas linguagens devem propiciar a construção de identidades pessoais e sociais, com vistas a formar cidadãos conscientes, que possuam as ferramentas necessárias para participarem ativamente no desenvolvimento de uma sociedade plural e diversa.\n\nAssim, a língua e as diversas manifestações da linguagem representam elementos essenciais à comunicação, que transcendem a interação com o outro, pois englobam nesse processo, aspectos históricos e socioculturais, cotejando a multidimensionalidade do sujeito, de maneira a possibilitar-lhe formação humana integral.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

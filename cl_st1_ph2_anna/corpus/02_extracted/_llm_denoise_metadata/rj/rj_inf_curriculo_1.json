@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0410b4322733de18006ab30aa30edc87d288b42662a00cc999",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 977,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1085,
+      "output_tokens_details": {
+        "reasoning_tokens": 197
+      },
+      "total_tokens": 2062
+    }
+  },
+  "created_at": "2026-09-22T23:09:34Z",
+  "duration_seconds": 11.984,
+  "error": null,
+  "excerpt_id": "rj_inf_curriculo_1",
+  "filename": "rj_inf_curriculo_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f656a523f60507124cea87076f9f37152c7f431c40237f2a89c1ee98f507291f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a60ab012718495bf49693fb6c6e1f96d0a5cf4f860f93f2f69630edda58f9f0a",
+    "rendered_prompt_sha256": "f746d916839b7f8025a22b31b5dd519e8d68d3796e200df3da0807a0e554050e",
+    "source_text_sha256": "6a05f38b03a4fe3c7b3bdf90743575497a754ba7cf2c932d6ff1a901f219b29d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_curriculo_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2913,
+    "filename": "rj_inf_curriculo_1.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_curriculo_1.txt",
+    "state": "rj",
+    "word_count_original": 610
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_curriculo_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_curriculo_1.json"
+  },
+  "raw_response_text": "# A Proposta Curricular da Educação Infantil\n\n## Planejar é preciso!\n\nCriança, centro do planejamento curricular, é sujeito histórico e de direitos que, nas interações, relações e práticas cotidianas que vivencia, constrói sua identidade pessoal e coletiva, brinca, imagina, fantasia, deseja, aprende, observa, experimenta, narra, questiona e constrói sentidos sobre a natureza e a sociedade, produzindo cultura (BRASIL, 2009, Art. 4º).\n\nPlanejar é um ato de cuidado com a prática pedagógica destinada aos pequenos. O planejamento do professor de Educação Infantil é uma proposta que reorganiza e norteia todas as ações educativas que envolvem as crianças, tanto no âmbito pedagógico propriamente dito, quanto nas inter-relações de todos os envolvidos nesse processo, dando voz às crianças e acolhendo a forma como elas significam o mundo e a si mesmas. É necessário explicitar os campos de experiências de modo que o cotidiano apareça sem rigidez e sempre transparente e flexível.\n\n## Currículo e práticas pedagógicas\n\nUm dos grandes desafios da Educação Infantil é a busca pelos conhecimentos sociais relevantes e significativos, trabalhando-se não só com a imaginação, mas também com observações, comparações e com autocrítica. Em suma, para se desenvolver, aprender e construir conhecimentos, a criança precisa se expressar por meio de diferentes linguagens, agir, perguntar, ler o mundo, olhar imagens, criar relações, testar hipóteses e refletir sobre o que faz ou aprende, de modo a reestruturar o pensamento permanentemente.\n\nAs práticas pedagógicas que compõem a proposta curricular da Educação Infantil tem como eixos norteadores as interações e a brincadeira, garantindo à criança os direitos de desenvolvimento e aprendizagem. Cabe salientar as Diretrizes Curriculares Nacionais da Educação Infantil em seu artigo 9º:\n\n**Art. 9º:** As práticas pedagógicas que compõem a proposta curricular da Educação Infantil devem ter como eixos norteadores as interações e a brincadeira, garantindo experiências que:\n\nI - promovam o conhecimento de si e do mundo por meio da ampliação de experiências sensoriais, expressivas, corporais que possibilitem movimentação ampla, expressão da individualidade e respeito pelos ritmos e desejos da criança;\n\nII - favoreçam a imersão das crianças nas diferentes linguagens e o progressivo domínio por elas de vários gêneros e formas de expressão: gestual, verbal, plástica, dramática e musical;\n\nIII - possibilitem às crianças experiências de narrativas, de apreciação e interação com a linguagem oral e escrita, e convívio com diferentes suportes e gêneros textuais orais e escritos;\n\nIV - recriem, em contextos significativos para as crianças, relações quantitativas, medidas, formas e orientações espaço-temporais;\n\nV - ampliem a confiança e a participação das crianças nas atividades individuais e coletivas;\n\nVI - possibilitem situações de aprendizagem mediadas para a elaboração da autonomia das crianças nas ações de cuidado pessoal, auto-organização, saúde e bem-estar;\n\nVII - possibilitem vivências éticas e estéticas com outras crianças e grupos culturais, que alarguem seus padrões de referência e de identidades no diálogo e reconhecimento da diversidade;\n\nVIII - incentivem a curiosidade, a exploração, o encantamento, o questionamento, a indagação e o conhecimento das crianças em relação ao mundo físico e social, ao tempo e à natureza;\n\nIX - promovam o relacionamento e a interação das crianças com diversificadas manifestações de música, artes plásticas e gráficas, cinema, fotografia, dança, teatro, poesia e literatura;\n\nX - promovam a interação, o cuidado, a preservação e o conhecimento da biodiversidade e da sustentabilidade da vida na Terra, assim como o não desperdício dos recursos naturais;\n\nXI - propiciem a interação e o conhecimento pelas crianças das manifestações e tradições culturais brasileiras;\n\nXII - possibilitem a utilização de gravadores, projetores, computadores, máquinas fotográficas, e outros recursos tecnológicos e midiáticos.\n\n**Parágrafo único** - As creches e pré-escolas, na elaboração da proposta curricular, de acordo com suas características, identidade institucional, escolhas coletivas e particularidades pedagógicas, estabelecerão modos de integração dessas experiências.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_050c45125a116bc9006ab300b860f487d28b8b72a59630e055",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 563,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 581,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 1144
+    }
+  },
+  "created_at": "2026-09-22T22:27:09Z",
+  "duration_seconds": 4.941,
+  "error": null,
+  "excerpt_id": "es_inf_11",
+  "filename": "es_inf_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dd9e0258888a4cf13d4851f87a859907db8614b456882ab022f38ca703fddbf8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2302e8fa2824f9055d2e5adb149d0bd405b12f2689ccf67c3e201b14f556117b",
+    "rendered_prompt_sha256": "e87a27fb3f4c33d04239501f63288580955e94b5de06feb0cfe6e063642d69a0",
+    "source_text_sha256": "d5e635d9055635ca34caaf9d884a34473ee3f37c1bb7793f68eacf1484f6ef55"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1043,
+    "filename": "es_inf_11.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_11.txt",
+    "state": "es",
+    "word_count_original": 313
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_11.json"
+  },
+  "raw_response_text": "**Para Refletir**\n\nPara garantir os objetivos de aprendizagem e desenvolvimento, o trabalho pedagógico ganha força ao considerar a organização de situações que contemplem experiências com a linguagem musical e com as linguagens visuais.\n\nAs crianças vivem em ambientes onde ocorrem situações que envolvem pessoas, espaços, atividades, objetos e materiais que manipulam buscando percepções, reconhecem, representam, fazem apropriação por diferentes linguagens e recursos (sensações, afetos, desejos), sua corporeidade, linguagem verbal, sua percepção das ações de seus pares e sua atenção quanto aos aspectos materiais do ambiente.\n\nÉ importante que os espaços organizados pelo professor despertem nas crianças a sensibilidade estética, ética e política, incentivando-as a ter um agir lúdico e um olhar poético sobre tudo que as cerca (pessoas, objetos, cores, sons, sabores, cheiros), permitindo a elas, além de explorar e reconhecer seus aspectos significativos, também expressarem-se de diferentes formas. Para tanto, cada docente deve pensar se:\n\n- Consegue organizar em sua rotina situações que promovam experiências com as linguagens musical e visual?\n- Canta e dança junto com suas crianças?\n- E nesses momentos, as crianças cantam e dançam ao som de músicas instrumentais ou não, considerando a cultura brasileira e outras culturas?\n- Consegue elencar a diversidade cultural da comunidade local?\n- Proporciona momentos em que as crianças possam criar com liberdade de expressão, uma vez que, para elas, o importante é o processo de criar e inventar, e não o produto acabado?\n- Oferece condições para que as crianças manuseiem diferentes suportes, materiais, misturas, produções onde possam explorar todo seu potencial criativo?\n- Explora sons e também silêncios, em um espaço acolhedor, cheio de visualidades e sonoridades, promovendo o desenvolvimento da expressividade e da criatividade infantil, abrindo caminhos para o desenvolvimento de sua afetividade?\n- Explora, em sua rotina semanal, brincadeiras de faz de conta, direcionadas ou não, em que a criança possa usufruir de todo o seu potencial criativo, vivenciando diferentes tipos de papéis e personagens?",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

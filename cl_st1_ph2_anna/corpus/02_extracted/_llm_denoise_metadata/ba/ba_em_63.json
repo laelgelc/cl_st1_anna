@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04f6c83a73d720db006ab2fee03c4887d2a028226106f16e11",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 371,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 461,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 832
+    }
+  },
+  "created_at": "2026-09-22T22:19:16Z",
+  "duration_seconds": 4.061,
+  "error": null,
+  "excerpt_id": "ba_em_63",
+  "filename": "ba_em_63.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0783aae99ae294c222de99796414af43c9ed287b977a48d6d78dd64a85d78e41",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ec683ad3d103f84db18af7d08744fd58b981394d5deb05be2506fcad58fae9f7",
+    "rendered_prompt_sha256": "77d1fc2ca751440e14c07f558f15228cf2d2412ab1176611ee09e638212d95c2",
+    "source_text_sha256": "54e142ee0e8a4fcea73cc8b15359760e291fda6e8463ae098adac60f1645764a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_em_63.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 682,
+    "filename": "ba_em_63.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_em_63.txt",
+    "state": "ba",
+    "word_count_original": 194
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_em_63.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_em_63.json"
+  },
+  "raw_response_text": "### 14.1. CONTEÚDOS/INTERDISCIPLINARIDADE/CONTEXTUALIZAÇÃO\n\nEm consonância com a organização curricular do EMITec, a avaliação é assumida numa dimensão processual, contínua e formativa, possibilitando o desenvolvimento das potencialidades cognitivas, afetivas e sociais, buscando a construção da autonomia e estimulando o/a educando/a a compreender seu papel ativo no desenvolvimento de seu conhecimento, tornando-se também sujeito histórico de sua formação.\n\nNesse contexto, a avaliação é vista como elemento integrador entre a aprendizagem e o ensino, num processo em que se determina a qualidade dos resultados alcançados em relação aos objetivos propostos. Levando-se em conta o contexto das condições em que o trabalho está sendo desenvolvido, caberá à equipe pedagógica a definição dos processos avaliativos em suas diversas formas estabelecidas no Projeto Político Pedagógico do Ensino Médio com Intermediação Tecnológica (EMITec).\n\nA avaliação deve contemplar a participação e as produções dos/as educandos/as, que serão socializadas em salas de aula e acompanhadas pelos/as mediadores/as e pelos/as professores/as, num processo dinâmico e sistemático, em todas as etapas do processo de ensino e de aprendizagem, possibilitando a intervenção e possíveis ajustes no planejamento durante todo o percurso da ação didático.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

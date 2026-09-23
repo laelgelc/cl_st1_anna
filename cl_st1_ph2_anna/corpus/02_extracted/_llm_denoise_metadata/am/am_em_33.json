@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b762d30acbc85cc006ab2fd81668487d2ae8d741905ae234a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1661,
+      "input_tokens_details": {
+        "cache_write_tokens": 1658,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1545,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 3206
+    }
+  },
+  "created_at": "2026-09-22T22:13:31Z",
+  "duration_seconds": 10.214,
+  "error": null,
+  "excerpt_id": "am_em_33",
+  "filename": "am_em_33.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cc94de79c6d1a1a8a2c13ec7735d9ac8042bcd8f4fcf42165580f5c1e44d4a4a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b0fad055f67a67070bdf2345dcd690c93bfe0f69cb90c5a5e541a6434525f523",
+    "rendered_prompt_sha256": "fcc5f277138581987e96c0ccb8c364dd97f65837123306d382c7af1cac14a62f",
+    "source_text_sha256": "d76bbe562a0bd4765b47c5fc26dd926ffa706f00612aba23a047f5f320476c63"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_33.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 393,
+    "filename": "am_em_33.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_33.txt",
+    "state": "am",
+    "word_count_original": 1048
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_33.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_33.json"
+  },
+  "raw_response_text": "### 4.1 Educação Escolar Indígena\n\nEste Referencial busca considerar a importância entre a Educação Escolar Indígena e a BNCC, visando à construção de um currículo que pense em um Ensino Médio Indígena condizente com as realidades diversas dos 225 povos, correspondente a 0,4% da população do país, segundo o Censo de 2010.\n\nPara isso, informações advindas de documentos oficiais conduzirão os profissionais na educação, para reflexões fundamentais, quanto ao espaço legítimo e necessário desses que foram os primeiros habitantes no país, para serem inclusos no currículo do Ensino Médio, pois se entende que o respeito à diferença a esses povos contempla o direito à prática de suas formas culturais, conforme o que apregoa a Constituição Federal de 1988.\n\nOs povos indígenas tiveram os seus direitos constituídos e reconhecidos, na referida Constituição, a partir de suas formas próprias de organização social, política e cultural, garantindo ainda o uso próprio da língua indígena com métodos e formação específica de ensino escolar.\n\nAssegura-lhes direito a uma educação escolar específica, diferenciada, intercultural, bilíngue/multilíngue e comunitária, conforme define a Resolução CNE/CEB nº 5/2012, que define as Diretrizes Curriculares Nacionais para a Educação Escolar Indígena na Educação Básica.\n\nSeguindo o regime de colaboração, posto pela Constituição Federal de 1988 e pela LDB, a coordenação das políticas de Educação Escolar Indígena é de competência do Ministério da Educação (MEC), cabendo aos Estados e aos Municípios a execução para a garantia deste direito dos povos indígenas.\n\nAos processos educativos próprios das sociedades indígenas veio somar-se a experiência escolar com as várias formas e modalidades que esta assumiu ao longo da história, em um movimento que vai da imposição de modelos educacionais, por meio da dominação, da negação de identidade, da integração e da homogeneização cultural, a modelos educacionais reivindicados pelos indígenas, dentro de paradigmas de pluralismo cultural e de respeito e valorização de identidades étnicas.\n\nDesse modo, a escola entre os povos indígenas ganhou então um novo significado, o de garantir acesso a conhecimentos gerais, sem precisar negar as especificidades culturais e a identidade, conforme determina a Constituição Federal.\n\nO art. 10 da Resolução CNE/CEB nº 5/2012 define que a educação escolar indígena preconiza em sua estrutura no Ensino Médio a possibilidade de reafirmação das identidades étnicas dos povos indígenas, a recuperação das memórias históricas, a valorização das línguas e ciências indígenas, o acesso às informações e conhecimentos da sociedade nacional, bem como o desenvolvimento de currículos e programas específicos.\n\nO que significa afirmar o fortalecimento dos grupos comunitários, considerando a continuidade sociocultural desses grupos, a promoção do protagonismo dos estudantes indígenas, em um trabalho que desenvolva as capacidades de análise, de decisão, de resolução de problemas, de flexibilidade nos diversos conhecimentos de seus grupos e de outros grupos que correspondem a quaisquer outras sociedades, sejam elas indígenas ou não.\n\nTudo isso, no intuito de contemplar aos estudantes indígenas o alinhamento entre sua formação escolar aos conhecimentos científicos, tradicionais e práticas culturais próprias, em um movimento ao mesmo tempo, dialógico e transformador.\n\nJá o § 4º, da mesma Resolução, garante que às comunidades indígenas cabe decidir o tipo de Ensino Médio adequado aos seus modos de vida e organização societária, nos termos da Resolução CNE/CEB nº 2/2012.\n\nO currículo do Ensino Médio apresenta-se para as escolas indígenas como proposta de contribuição para a formação de indivíduos que sejam capazes de escolher seu próprio destino. Os protagonistas dessa ação podem ser os professores e os estudantes, não negando o seu patrimônio cultural, mas sim, incorporando não só elementos das paisagens urbanas e do momento histórico em que vivem, como também renovando a cultura da Amazônia ao mesmo tempo. Para isso, é necessário ter identidade com a região, sentindo-se orgulhoso desta cultura formada por milhares de anos, herança dos primeiros habitantes da floresta, cujo tempo não apagou suas memórias.\n\nPara a construção da identidade cultural indígena e sua valorização no currículo escolar, são necessários elementos teóricos e práticos que possam contribuir para a materialização de uma proposta curricular que atenda e permita a reconstrução e a construção da identidade cultural, que não está centrada na supervalorização da liberdade individual, mas é resultante de um processo coletivo construído ao longo de gerações.\n\nPara as Diretrizes Curriculares Nacionais para a Educação Escolar Indígena na Educação Básica, a escola indígena deve-se constituir num espaço de construção de conhecimentos que garantam o desenvolvimento de habilidades e competências, em que a aprendizagem de conteúdos necessários para reflexão, compreensão crítica da realidade e capacidade de atuação favoreçam a participação dos professores e dos estudantes indígenas, tanto no ambiente onde vivem, quanto nos ambientes externos, onde fará a interação com a sociedade envolvente em sua organização social.\n\nÉ nessa perspectiva que o Estado do Amazonas organizou por meio de consulta prévia, seguindo o que preconizou a Convenção nº 169 da Organização Internacional do Trabalho (OIT) sobre povos indígenas e tribais, a Matriz Curricular Intercultural de Referência para as Escolas Indígenas do Estado do Amazonas, com a Resolução CEEI/AM nº 02/2014.\n\nNa referida matriz apresenta-se uma estrutura organizada por Áreas de Conhecimento, com a disponibilidade dos componentes curriculares serem vistos como objetos de significância para o social e para o estudante, como uma proposta inovadora, intensificada no propósito de fazer do ambiente escolar o meio adequado do ensino e da aprendizagem, fortalecendo sua identidade étnica e cultural.\n\nO Novo Ensino Médio tem que estar interligado com o projeto social dos povos indígenas, voltado para atender aos projetos de futuro das comunidades, oportunizando espaços para diálogos, no intuito de gerar ideias para melhorar a organização interna das comunidades, inclusive elaborando projetos sustentáveis.\n\nA escola indígena deve refletir sobre as possibilidades quanto aos conhecimentos de modo que estes sejam trabalhados de acordo com as suas realidades, por meio de realização de pesquisas, do fortalecimento e da valorização das tradições, do manejo de diversas atividades como a caça, a pesca, a agricultura e no acompanhamento da demarcação das terras indígenas.\n\nPara esta especificidade, a reforma do Ensino Médio abre possibilidades de contemplar a ideologia, a filosofia das populações indígenas com propostas pedagógicas inovadoras, voltadas para autodeterminação dos povos indígenas, possibilitando a continuação de estudos em cursos superiores, privilegiando as discussões e demandas de cada povo e atendendo as comunidades na questão da autossustentação.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

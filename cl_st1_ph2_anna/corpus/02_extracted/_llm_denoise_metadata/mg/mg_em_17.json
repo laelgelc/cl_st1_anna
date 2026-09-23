@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0314140f2f0deb7a006ab30323e1f887d2a5e38febc639fe38",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 715,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 640,
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "total_tokens": 1355
+    }
+  },
+  "created_at": "2026-09-22T22:37:29Z",
+  "duration_seconds": 5.334,
+  "error": null,
+  "excerpt_id": "mg_em_17",
+  "filename": "mg_em_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1095224d9cd5f2d97f72a4b4279625bad481711ae3fee063bab744568085e4c6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "54bae09eb5491a2e1fb514fa5852000accb0a3cc0eee64c3c61cf434c8b84c56",
+    "rendered_prompt_sha256": "a4c0af5e6fcacf9a912e9b76e17a7ae67680a026b0ec667f7d824204ec58525d",
+    "source_text_sha256": "66f5c3755793d63b3639b2a02eb2dc00435c57e49f4dbe5fcbf83092c39b2257"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1545,
+    "filename": "mg_em_17.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_17.txt",
+    "state": "mg",
+    "word_count_original": 388
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_17.json"
+  },
+  "raw_response_text": "## 2.3 Competências específicas da área de Matemática e suas Tecnologias\n\n1. Utilizar estratégias, conceitos e procedimentos matemáticos para interpretar situações em diversos contextos, sejam atividades cotidianas, sejam fatos das Ciências da Natureza e Humanas, das questões socioeconômicas ou tecnológicas, divulgados por diferentes meios, de modo a consolidar uma formação geral.\n2. Propor ações ou delas participar para investigar desafios do mundo contemporâneo e tomar decisões éticas e socialmente responsáveis, com base na análise de problemas sociais, como os voltados a situações de saúde, sustentabilidade, das implicações da tecnologia no mundo do trabalho, entre outros, mobilizando e articulando conceitos, procedimentos e linguagens próprios da Matemática.\n3. Utilizar estratégias, conceitos e procedimentos matemáticos, em seus campos – Aritmética, Álgebra, Grandezas e Medidas, Geometria, Probabilidade e Estatística –, para interpretar, construir modelos e resolver problemas em diversos contextos, analisando a plausibilidade dos resultados e a adequação das soluções propostas, de modo a construir argumentação consistente.\n4. Compreender e utilizar, com flexibilidade e fluidez, diferentes registros de representação matemáticos (algébrico, geométrico, estatístico, computacional etc.), na busca de solução e comunicação de resultados de problemas, de modo a favorecer a construção e o desenvolvimento do raciocínio matemático.\n5. Investigar e estabelecer conjecturas a respeito de diferentes conceitos e propriedades matemáticas, empregando recursos e estratégias como observação de padrões, experimentações e tecnologias digitais, identificando a necessidade, ou não, de uma demonstração cada vez mais formal na validação das referidas conjecturas.\n\n## 2.4 Competências específicas da área de Ciências da Natureza e suas Tecnologias\n\n1. Analisar fenômenos naturais e processos tecnológicos, com base nas relações entre matéria e energia, para propor ações individuais e coletivas que aperfeiçoem processos produtivos, minimizem impactos socioambientais e melhorem as condições de vida em âmbito local, regional e/ou global.\n2. Construir e utilizar interpretações sobre a dinâmica da Vida, da Terra e do Cosmos para elaborar argumentos, realizar previsões sobre o funcionamento e a evolução dos seres vivos e do Universo, e fundamentar decisões éticas e responsáveis.\n3. Analisar situações-problema e avaliar aplicações do conhecimento científico e tecnológico e suas implicações no mundo, utilizando procedimentos e linguagens próprios das Ciências da Natureza, para propor soluções que considerem demandas locais, regionais e/ou globais, e comunicar suas descobertas e conclusões a públicos variados, em diversos contextos e por meio de diferentes mídias e tecnologias digitais de informação e comunicação (TDIC).",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

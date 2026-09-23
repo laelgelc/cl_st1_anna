@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0489d1a36a72f156006ab3006970d887d2891f7a10a93297b4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 988,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 978,
+      "output_tokens_details": {
+        "reasoning_tokens": 155
+      },
+      "total_tokens": 1966
+    }
+  },
+  "created_at": "2026-09-22T22:25:51Z",
+  "duration_seconds": 6.197,
+  "error": null,
+  "excerpt_id": "df_inf_25",
+  "filename": "df_inf_25.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bd4122104400c05dc7189bc31b5332467f41fa8cbd58172b6c3c19b80a1c2806",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8a6a2fd47691b5766c5294b6e6015ec2c18e59e99691f6b3818422052abaa843",
+    "rendered_prompt_sha256": "4d99c2905a097a1396f93e3017ed47d906020ae7996e0ac48b4692b0efa43301",
+    "source_text_sha256": "a545245c9a22a2513c309519c5f32d8ee6c2c69467d391e1f279712544d3348e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_inf_25.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 969,
+    "filename": "df_inf_25.txt",
+    "filepath": "corpus/00_source_per_state/df/df_inf_25.txt",
+    "state": "df",
+    "word_count_original": 579
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_inf_25.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_inf_25.json"
+  },
+  "raw_response_text": "### 16.4. Escuta, fala, pensamento e imaginação\n\nNa Educação Infantil, é importante que as crianças participem de experiências de falar e ouvir, de forma a potencializar sua participação na cultura falada – oral ou gestual –, pois “é na escuta de histórias, na participação em conversas, nas descrições, nas narrativas elaboradas individualmente ou em grupo e nas implicações com as múltiplas linguagens que a criança se constitui ativamente como sujeito singular e pertencente a um grupo social” (BRASIL, 2017, p. 40).\n\nEste campo de experiência estabelece interlocuções mais prementes com as linguagens oral, escrita, corporal, artística e interações com a natureza e a sociedade, embora dialogue com as demais linguagens. No tocante às experiências com a linguagem oral e escrita, é importante reafirmar que não se espera que as crianças, na Educação Infantil, dominem o sistema alfabético. O que se pretende é que reflitam sobre esse sistema e participem criticamente da cultura escrita, de modo a desenvolver o prazer pela literatura, fruindo e exercitando a leitura e a escrita de acordo com suas possibilidades, ao ter como recursos as interações, as diversas linguagens e a imaginação.\n\nDe acordo com os pressupostos teóricos deste Currículo – Psicologia Histórico-Cultural e Pedagogia Histórico-Crítica –, o ser humano, por meio das relações com outros humanos e, em sociedade, inserido em um tempo e uma cultura, aprende a falar e a ouvir, a se posicionar e a acolher a opinião das outras pessoas, mesmo quando divirja do dele. A instituição que oferta Educação Infantil tem, pois, grande importância no sentido de introduzir as crianças nessas práticas, de modo a possibilitar vivências em que experimentem o falar e o ouvir, o pensar e o imaginar, apropriando-se, assim, das marcas da humanidade.\n\nDe acordo com as DCNEI (2010a), cresce em importância a organização de atividades desafiantes, de contato com diferentes gêneros escritos, como a leitura diária de livros pelos adultos, a contação de histórias e o incentivo para que as crianças manuseiem livros, gibis e revistas, produzam textos mesmo sem saber ler e escrever convencionalmente, vivenciando, assim, processos imaginativos e criativos que colaborem para o desenvolvimento do pensamento. Nas diversas interações que ocorrem no âmbito da instituição que oferta Educação Infantil, as crianças vão aprimorando sua capacidade de expressão, argumentação, elaboração de perguntas e respostas, narração de fatos em sequência temporal e causal, resolução de situações-problema, entre outros elementos.\n\nNa Educação Infantil, cujo objetivo não consiste em ensinar a escrever convencionalmente, a criança utiliza sua produção gráfica, o desenho, a fim de se comunicar. O propósito de comunicação faz do desenho um alicerce importante para a apropriação da língua escrita pela criança. Todavia, outras formas de expressão, aliadas ao desenho, devem ser contempladas no planejamento docente: a música, a brincadeira, a dança, o teatro, entre outras.\n\nQuanto ao aspecto da imaginação, esta ocupa um papel importante na perspectiva Histórico-Cultural. De acordo com Elkonin (2009), a capacidade de imaginação e substituição simbólica transformam o manuseio de objetos em brincadeira, pois esta só existe se há ficção.\n\nSobre a imaginação, Vigotski (2009) advertiu que, apesar de ser comum a crença de que as crianças têm uma imaginação mais rica do que os adultos, isso não procede. Para ele, a imaginação se alimenta da realidade, logo, quanto mais experiência, mais imaginação. O que ocorre é que as crianças costumam acreditar no seu poder imaginativo, e os adultos não. Dessa forma, brincar é vital para o desenvolvimento da criança em todos os aspectos: social, emocional, cognitivo, motor, volitivo e fala.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

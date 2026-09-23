@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ce307af49080e32006ab30552a66487d2b2eef300bbf453c1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1129,
+      "input_tokens_details": {
+        "cache_write_tokens": 1126,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1318,
+      "output_tokens_details": {
+        "reasoning_tokens": 285
+      },
+      "total_tokens": 2447
+    }
+  },
+  "created_at": "2026-09-22T22:46:55Z",
+  "duration_seconds": 13.335,
+  "error": null,
+  "excerpt_id": "pa_ef_18",
+  "filename": "pa_ef_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8705ce37990eef9cccc6d062c0ddc0e923a6cd3163dd108aa78853b6c3b0726d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a4b65bb54db4187f52e5ef873851db714466849bf75a70460b834398dc335ed8",
+    "rendered_prompt_sha256": "7264e2b807319895a5582666b943018bf6490bfe9604d2fc7a8d8127f6495a54",
+    "source_text_sha256": "c74244930b5c4588efe9b839f2f64245220038882b84e2d1cd3f7198e13b8daa"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_ef_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2010,
+    "filename": "pa_ef_18.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_ef_18.txt",
+    "state": "pa",
+    "word_count_original": 761
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_ef_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_ef_18.json"
+  },
+  "raw_response_text": "### 3.2.4.3 Componente Curricular: Estudos Amazônicos\n\nO componente curricular de Estudos Amazônicos compõe a parte diversificada do Documento Curricular do Estado do Pará a partir da Resolução nº 630/97 (BARROS, 2016), sendo ofertada apenas para o Ensino Fundamental II (anos finais), tornando-se obrigatória a partir de 1999.\n\nEste componente acompanha as DCNGEB (BRASIL, 2013) quando estabelece que as características regionais e locais da sociedade, da cultura, da história, do meio ambiente e da economia precisam estar presentes neste Currículo, propondo ainda interdisciplinaridade e a contextualização como princípios para ampliar as inúmeras possibilidades de interação entre os diversos componentes e suas respectivas áreas de conhecimento.\n\nNesse sentido, propõe-se a elaboração de um documento que valorize as características do lugar e da região em sua totalidade, bem como a relação do local com o global, possibilitando assim um entendimento amplo e contextualizado à sua vida social, além de valorar a identidade e o sentimento de pertencimento do lugar para garantir aos alunos a compreensão da importância do sujeito do lugar no exercício de sua vida cidadã.\n\nAssim o Documento Curricular do Estado se organiza a partir de eixos estruturantes, subeixos e objetivos de aprendizagem aos quais as habilidades estão vinculadas para possibilitar o desenvolvimento e aprendizagem nos anos finais do Ensino Fundamental; a partir da estrutura definida tem-se:\n\nO eixo “O Espaço/Tempo e suas Transformações” está constituído pelos subeixos (1) Natureza, trabalho, tecnologias e a transformação do espaço Amazônico; (2) A paisagem Amazônica como produto da relação homem/natureza; e (3) O Campo, o espaço ribeirinho e a cidade como formações socioespaciais, propondo um entendimento sobre a concepção de Amazônia no que tange a território, a meio ambiente e aos múltiplos usos e formas de apropriação da região.\n\nO eixo “Linguagem e suas Formas Comunicativas” abrange o subeixo (1) A linguagem cartográfica como produção humana em diferentes tempos e espaços na Amazônia, isso por que a cartografia e os documentos se constituem em meios de comunicação e/ou entendimento de um lugar com suas dinâmicas e características.\n\nO eixo “Valores à Vida Social” é composto pelos subeixos (1) Participação social como garantia de direitos na Amazônia; e (2) Produção da vida material/imaterial e o uso sustentável dos recursos naturais na Amazônia; neles há uma discussão nas formas de apropriação e nos usos do espaço amazônico, considerando a dinâmica demográfica e espacial, além do entendimento sobre a necessidade do equilíbrio ecológico para a manutenção da vida a partir da sustentabilidade.\n\nEssa discussão poderá contribuir para a construção de propostas pedagógicas que possibilitem aos alunos a aprendizagem de atitudes para o consumo mais consciente e que minimizem os impactos ao meio e colaborem para o bem-estar das gerações atuais, sem comprometer a segurança das gerações futuras. Ainda foi considerada neste componente a dignidade humana como um bem a ser preservado, bem como discutir com os alunos a importância de adaptar os espaços coletivos para a promoção de acessibilidades em atendimentos às diferentes necessidades.\n\nO eixo “Cultura e Identidade” corresponde ao subeixo (1) Fontes histórico/geográficas e memória cultural Amazônica, possibilitando uma avaliação sobre a necessidade de valorização dos diversos tipos de conhecimentos, sejam eles cientificamente validados ou não, o que possibilita destacar os saberes popularmente construídos na Amazônia paraense.\n\nA concepção de cultura e identidade trazida pelo subeixo assegura aos sujeitos compreender a importância dos conhecimentos tradicionais e das atividades artísticas para a valorização da identidade e cultura dos povos da Amazônia, reconhecendo os mitos, as crendices populares relacionadas, por exemplo, à alimentação, bem como reconhecer os procedimentos utilizados pelas populações tradicionais no cultivo de espécies amazônicas úteis à vida humana e a importância dos recursos naturais amazônicas como fonte de matéria prima para as atividades industriais, inclusive de alimentos, de cosméticos e de medicamentos.\n\nA construção do componente curricular Estudos Amazônicos teve ainda como base as habilidades de Geografia e História do Ensino Fundamental Anos Finais da BNCC, isso porque propõem objetivos e até objetos de conhecimento acerca das características histórico/geográficas da região; além do mais, são os profissionais licenciados em Geografia e/ou História que estão habilitados para ministrarem Estudos Amazônicos nas escolas.\n\nVale ressaltar que diante da necessidade de adentrar mais sobre o ensinamento dos Estudos Amazônicos e por compor a parte diversificada do currículo estadual não apresenta habilidades na BNCC, dessa forma algumas habilidades específicas foram criadas e estão devidamente identificadas com as iniciais “EA” como ocorre com os demais componentes curriculares que correspondem ao segundo par de letras do código alfanumérico.\n\nDessa forma, apresenta-se a organização curricular deste componente.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

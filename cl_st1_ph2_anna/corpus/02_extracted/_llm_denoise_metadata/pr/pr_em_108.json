@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_070b360153af02a0006ab30949468487d28b697db392eb0ffa",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1292,
+      "input_tokens_details": {
+        "cache_write_tokens": 1289,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1209,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 2501
+    }
+  },
+  "created_at": "2026-09-22T23:03:43Z",
+  "duration_seconds": 6.058,
+  "error": null,
+  "excerpt_id": "pr_em_108",
+  "filename": "pr_em_108.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "94498d984004628f54082a4f5be642368597ebd0bf24a6144b7e408ce0b88214",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6fb1e048fac5d883cfcdd194a06ebf9722f6f931d5d46559bf453ac4ee7cac6d",
+    "rendered_prompt_sha256": "64e729849f8e1fe68d63adf74dc749e7986702f4cb889430445bf5e4f7a9023d",
+    "source_text_sha256": "a1d1bff6466d4d95f0765320a79196a517d8a26f79b06b27fd9f8545c4b3890d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_108.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2692,
+    "filename": "pr_em_108.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_108.txt",
+    "state": "pr",
+    "word_count_original": 750
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_108.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_108.json"
+  },
+  "raw_response_text": "# PRESSUPOSTOS E FINALIDADES\n\nOs Itinerários Formativos são percursos educacionais que compõem a parte flexível do currículo do Ensino Médio, os quais os estudantes podem escolher de acordo com os seus interesses, aptidões e perspectivas profissionais.\n\nCom a promulgação da Lei n. 14.945/2024 (Brasil, 2024a) e de acordo com a Resolução CNE/CEB n. 02/2024 (Brasil, 2024b), os Itinerários Formativos passaram a compor o Ensino Médio, com uma carga horária mínima de 600 horas, das 3.000 horas mínimas desta etapa. Os estudantes podem escolher entre um dos Itinerários Formativos de Aprofundamento (IFA) das áreas do conhecimento ou um Itinerário de Formação Técnica e Profissional, respeitando a relevância para o contexto local e a possibilidade dos sistemas de ensino.\n\nAs instituições de ensino devem oferecer aprofundamento em todas as áreas do conhecimento, organizando, no mínimo, dois itinerários com diferentes ênfases, exceto aquelas que ofertarem apenas a Formação Técnica e Profissional. A Resolução CNE/CEB n. 02/2024 orienta que, para atender a essa exigência, as redes poderão organizar itinerários integrados com ênfase em duas ou três áreas, itinerários distintos com foco em uma única área, dois ou mais itinerários voltados à formação técnica ou, ainda, um itinerário que contemple todas as quatro áreas do conhecimento — juntamente com um para a formação técnica (Brasil, 2024b).\n\nOs Itinerários Formativos de Aprofundamento, segundo a Resolução CNE/CEB n.° 02/2024, são percursos educacionais estruturados, que possibilitam aos estudantes o aprofundamento de suas aprendizagens e de seu desenvolvimento, em uma ou em mais áreas (Brasil, 2024b, Art. 5°). Devem ser ofertados por meio de projetos integradores, numa perspectiva interdisciplinar, visto que são organizados com ênfase nos componentes curriculares que constituem a(s) área(s) do conhecimento ofertada(s).\n\nAlém do aprofundamento das aprendizagens, outra finalidade do IFA é a valorização da diversidade territorial e cultural do país, assim como das especificidades da Proposta Pedagógica Curricular das instituições de ensino.\n\nPara elaboração dos Itinerários Formativos de Aprofundamento, os sistemas de ensino devem observar o contido nos Parâmetros Nacionais para a Oferta dos Itinerários Formativos de Aprofundamento IFAs no Ensino Médio (Brasil, 2025), que definem os elementos conceituais que dão base para a organização dos itinerários, orientam para um trabalho pedagógico interdisciplinar e apresentam o conjunto de competências e habilidades a serem desenvolvidos em cada área do conhecimento.\n\nEm relação aos Itinerários de Formação Técnica e Profissional, os Sistemas de Ensino devem se apoiar no conteúdo das Diretrizes Curriculares Nacionais Gerais para a Educação Técnica e Profissional vigentes. De acordo com a Resolução CNE/CEB n.° 02/2024 (Brasil, 2024b, Art. 24), os Itinerários de Formação Técnica e Profissional devem estar articulados com a Formação Geral Básica de maneira que assegurem a habilitação profissional técnica, de acordo com os cursos previstos no Catálogo Nacional de Cursos Técnicos (CNCT) (Brasil, 2020), e qualificação profissional técnica, como etapa com terminalidade de curso técnico previsto no CNCT.\n\nPara dar suporte às escolhas dos estudantes em relação aos Itinerários Formativos, com a implementação da Lei n. 13.415/2017 (Brasil, 2017), foi inserido na organização curricular do Novo Ensino Médio o Projeto de Vida, com o objetivo de promover e apoiar os estudantes na elaboração de seus projetos de vida, com base em suas expectativas e possibilidades, apoiando-os na construção de trajetórias significativas para o futuro. No Paraná, ofertado como um componente curricular, o Projeto de Vida passou a ocupar um lugar de destaque, tornando-se um espaço estruturado para que os jovens pudessem refletir sobre quem são, quem desejam ser e quais caminhos pretendem trilhar nas dimensões pessoal, profissional e social. Ao fortalecer essa base, o Projeto de Vida contribuiu diretamente para a formação integral dos estudantes e para que estes fizessem escolhas mais conscientes e alinhadas aos seus interesses e sonhos, especialmente no momento da indicação do Itinerário Formativo a ser trilhado.\n\nMesmo com as mudanças trazidas pela Lei n. 14.945/2024, que reformulou pontos da organização do Ensino Médio, o papel formativo do Projeto de Vida foi mantido e reafirmado. A legislação atual e a Resolução CNE/CEB n. 02/2024 reconhecem que práticas pedagógicas intencionais voltadas ao desenvolvimento do Projeto de Vida são fundamentais para que os estudantes se sintam protagonistas de seus percursos escolares e tenham melhores condições de planejar o futuro.\n\nNo próximo capítulo serão apresentados fundamentos teórico-metodológicos e avaliativos que dão suporte ao trabalho pedagógico realizado no processo de desenvolvimento dos projetos de vida dos estudantes, fortalecendo o protagonismo e a formação integral dos sujeitos do Ensino Médio.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

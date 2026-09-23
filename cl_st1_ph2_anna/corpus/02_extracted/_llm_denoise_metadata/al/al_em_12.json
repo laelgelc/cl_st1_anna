@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06b8c7917d175a63006ab2fca861b887d2bfa1e64bf665919d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1395,
+      "input_tokens_details": {
+        "cache_write_tokens": 1392,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1695,
+      "output_tokens_details": {
+        "reasoning_tokens": 390
+      },
+      "total_tokens": 3090
+    }
+  },
+  "created_at": "2026-09-22T22:09:55Z",
+  "duration_seconds": 10.87,
+  "error": null,
+  "excerpt_id": "al_em_12",
+  "filename": "al_em_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bb7054e8a3c341af220c550a823bf02ebb5b06c8e1e8a7aea18d657f43670750",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "86cfe89cda7f49a9d1c509db8be41b434477c23933e9529d942695bf06654e04",
+    "rendered_prompt_sha256": "ba4ba571a9557101fe14a6e402c1047e0359a68d6aa6e954d2d185cdd88ba2fd",
+    "source_text_sha256": "e93d42899ca2fc04ad5acaecd8c2336bb1609bff031065d4d28fd8549600e486"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_em_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 244,
+    "filename": "al_em_12.txt",
+    "filepath": "corpus/00_source_per_state/al/al_em_12.txt",
+    "state": "al",
+    "word_count_original": 930
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_em_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_em_12.json"
+  },
+  "raw_response_text": "## APRENDIZAGEM NOS ATELIÊS PEDAGÓGICOS\n\nA promoção do aprendizado coletivo, que pressupõe a criação de um ambiente de ateliê menos hierárquico entre professor(es) e estudantes, é uma das práticas pedagógicas dinâmicas que a Secretaria de Estado da Educação de Alagoas escolheu para o Novo Ensino Médio e vem oferecendo em sua rede de ensino. A origem da palavra ateliê vem do francês *atelier*, que significa “oficina” ou “estúdio”. Esta proposta aborda a importância da existência de espaços físicos apropriados para a prática de aulas dinâmicas e com relevância para os estudantes. Nessa concepção de trabalho pedagógico não se pretende apenas abordar o espaço físico, mas ampliar a discussão sobre a disponibilidade de materiais e equipamentos adequados, para que esse espaço seja utilizado como um local de efetivo aprendizado (pALei - 2019). A aprendizagem por projetos e a aprendizagem por oficinas ocorrerão preferencialmente nos ateliês pedagógicos; além dessas, nos ateliês também ocorrerão seminários, pesquisas, aulas expositivas, desafios, situações problemas, aulas dinâmicas, aprendizagem criativa, inovação, uso de tecnologias promovendo a cultura mão na massa (sala maker), etc. Os ateliês não se confundem com laboratórios e salas temáticas que possuem definição e características próprias. Para MASETTO, 2003, educar em dias atuais:\n\n> Educar na contemporaneidade demanda formar profissionais e cidadãos conscientes de seus papéis na sociedade e aptos a refletir, criticar e agir de forma a incrementar a realidade que se apresentar diante dos seus olhos. A ênfase na aprendizagem significa formar para a adaptabilidade, insubmissão, raciocínio, reflexão, busca de informação, crítica, argumentação, pesquisa, produção de conhecimento, criatividade, diálogo, comunicação, transformação, aquisição de habilidades, mudança de atitudes, aquisição de valores e autonomia intelectual (MASETTO, 2003).\n\nHá uma expectativa, portanto, que os Ateliês proporcionem o engajamento dos estudantes nas atividades educacionais, de modo a estabelecer a relação entre eles e os conteúdos trabalhados, assim como o diálogo entre o ensino e a aprendizagem para a sua formação integral. Nesse processo, os estudantes constroem uma possibilidade de maior compreensão, tanto dos conteúdos propostos em cada um dos componentes curriculares, como também na valorização e importância de interação entre todos os envolvidos no processo de aprendizagem.\n\nA carência de materiais suficientes para atender as necessidades de todas as áreas compromete o uso dos ambientes e dos recursos tecnológicos e materiais e, por conseguinte, a qualidade do ensino. Visando superar essa carência, além de viabilizar o aproveitamento máximo das possibilidades deste espaço repleto de significados que é a sala de aula, o Ateliê Pedagógico se propõe a reorganizar seus espaços. Nessa perspectiva, tratam-se de salas de aula específicas para o ensino dos diferentes componentes curriculares ou áreas do conhecimento, onde o docente organizará seus materiais didáticos e deixará os recursos a serem utilizados em um mesmo local. Nessa opção de disposição do espaço, são os estudantes que se deslocam pela escola, de uma sala para outra, e não o docente.\n\nA partir de uma concepção diferente de aprendizado, as salas ambientes surgem com o objetivo de promover variadas perspectivas metodológicas. Menezes (2018) defende a sala de aula como um espaço no qual se disponham recursos didático-pedagógicos que atendam um fim educacional específico. A ideia é fazer com que o estudante interaja com uma maior diversidade de recursos e materiais pedagógicos e ter mais condições de estabelecer uma relação entre o conhecimento escolar, a sua vida e o mundo. À luz desse argumento, as recomendações de Zabala (2002) são direcionadas para a necessidade do estudante experienciar ambientes que favoreçam seu crescimento intelectual, uma vez que a disposição do espaço escolar interfere nos seus ânimos, interesses e motivações. Para tanto, é importante salientar que o planejamento das aulas deverá voltar-se para a promoção de uma prática de trabalho interativa que permita realizações construídas coletivamente, de modo a privilegiar o manuseio da diversidade de materiais didáticos numa relação de reciprocidade entre docentes e estudantes.\n\nDurante a implantação dos ateliês pedagógicos observa-se um contexto relacionado ao mundo do trabalho e a gestão de iniciativas empreendedoras, autoconhecimento voltado ao projeto de vida, assim poderiam ser criadas estruturas com iniciativas empreendedoras que fortaleçam a atuação como protagonistas da sua trajetória.\n\nNessas condições, ensinar nos dias atuais é mediar e interagir com os estudantes, criando momentos de inovação e colaboração aproveitando as potencialidades que o território oferece, muitas vezes até intervindo na realidade local. A aprendizagem será descoberta como se a cada momento os estudantes estivessem descobrindo e produzindo respostas para projetos, pesquisas e oficinas, que despertam interesse para o mundo em que vivemos.\n\nOs ateliês alteram o contrato didático de disposição de salas de estudantes e sala de professores. Neste modelo os estudantes transitam pelas salas dos professores, que são organizados em áreas de conhecimento, educação profissional, laboratórios ou temáticas.\n\nImportante, neste modelo, garantir que todos professores participem e estejam envolvidos. Para o desenvolvimento dos ateliês, a escola enturma os professores, num colegiado docente, conforme atuação nos componentes curriculares clássicos de todas as áreas de conhecimento, permitindo um planejamento articulado e de propostas para projetos integradores e interdisciplinares, em que atendem todas as turmas de estudantes.\n\nNeste modelo, sugerimos estabelecer um colegiado docente, enturmados no ateliês, garantindo todos os profissionais interlocutores, por área de conhecimento ou aprofundamento do IF, capazes de sistematizar as habilidades da BNCC e dos IF, bem como os DesDP, conforme o território.\n\nA estrutura do Ateliê pode ser utilizada também para o desenvolvimento dos Itinerários Formativos - IF. Para o desenvolvimento dos itinerários formativos e implementação da oferta eletiva e projeto de vida no primeiro ano, pode-se organizar o Ateliê, considerando o quadro abaixo. Lembramos que, nessa proposta, no primeiro ano, não temos horas destinadas ao aprofundamento:",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

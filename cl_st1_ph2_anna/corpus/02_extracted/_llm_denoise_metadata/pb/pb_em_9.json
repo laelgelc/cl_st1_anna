@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_088e576a33f3eba3006ab30780eb5087d2b691855d63813e6d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1172,
+      "input_tokens_details": {
+        "cache_write_tokens": 1169,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1089,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 2261
+    }
+  },
+  "created_at": "2026-09-22T22:56:09Z",
+  "duration_seconds": 8.304,
+  "error": null,
+  "excerpt_id": "pb_em_9",
+  "filename": "pb_em_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "00d225988586b6e95e1390b82314ba49482b8627b78e572cab573473b126a3ad",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9dd99f114f0787d663212f47f14523060e489fa86181358f13b8357d50a4c461",
+    "rendered_prompt_sha256": "ac105bfa91c7912c05495e82cc99e1e8d95445623000d4982a53455d2d1fc811",
+    "source_text_sha256": "2995c59dd58acd713ac3223a981f8d582dcf803f83ad2819e0663c5b5a990a40"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2341,
+    "filename": "pb_em_9.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_9.txt",
+    "state": "pb",
+    "word_count_original": 780
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_9.json"
+  },
+  "raw_response_text": "## 1.4 ESTRUTURAÇÃO DA PROPOSTA CURRICULAR DO ENSINO MÉDIO DA PARAÍBA\n\nA Proposta Curricular do Ensino Médio da Paraíba apresenta-se como um documento referencial para a construção dos currículos locais, considerando a organização da oferta do Ensino Médio do estado com as seguintes estruturas:\n\n- **Ensino Regular:** com matriz curricular de 3.000 horas anuais, apresenta uma proposta pedagógica voltada para a formação cidadã por meio de estudos propedêuticos que compõem a formação geral básica do estudante, elementos de base diversificada e flexível e a possibilidade de aprofundamento com os itinerários formativos em Linguagens e suas Tecnologias, Ciências Humanas e Sociais Aplicadas, Matemática, Ciências Naturais e suas Tecnologias e a Formação Profissional e Tecnológica articulada à escolha do projeto de vida dos estudantes;\n- **Ensino Integral:** com matriz curricular superior a 3.600 horas anuais, apresenta uma proposta de formação integral por meio de estudos propedêuticos que compõem a formação geral básica e elementos de base diversificada e flexível com a oferta dos itinerários propedêuticos por área do conhecimento em diálogo com o projeto de vida dos estudantes;\n- **Ensino Integral Técnico:** com matriz curricular de 4.200 horas anuais, apresenta formação geral básica propedêutica, uma parte diversificada que permite o diálogo entre a formação geral básica propedêutica e a parte flexível de Formação Profissional e Tecnológica a ser definida pelas unidades escolares em diálogo com a realidade local e o projeto de vida dos estudantes;\n- **Ensino Regular Técnico e Profissional** com matriz de 3.000 horas anuais ou superior, considerando os interesses dos estudantes, a realidade local e as condições de oferta e infraestrutura da unidade escolar. Apresenta uma formação geral básica propedêutica e uma base de formação para o mundo do trabalho, articuladas com trilhas de Formação Profissional que devem ser orientadas a partir dos projetos de vida dos estudantes e as realidades locais.\n\nNeste contexto, o documento da Proposta Curricular do Ensino Médio da Paraíba está organizada com a oferta da Formação Geral Básica, comum à todas as formas de oferta do Ensino Médio, e a formação de aprofundamento com os Itinerários Formativos, que correspondem a parte flexível e podem ser incorporados aos currículos locais de modo diverso, a partir da realidade de cada rede de ensino e cada território no Estado, tal como disposto no Art. 26 da Lei no 13.415/2017 (BRASIL, 2017) e Inciso III do Art. 20 da Resolução no 3, de 21 de novembro de 2018, que atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio (MEC, 2018).\n\nNo capítulo referente à Formação Geral Básica os conhecimento gerais, competências e habilidades apontados pela Base Nacional Curricular Comum a serem trabalhados junto aos estudantes do Ensino Médio estão organizados por área do conhecimento, aprofundando as discussões pertinentes a cada uma delas, bem como dispondo de elementos que favorecem a contextualização, interdisciplinaridade e transdisciplinaridade dos mesmos, considerando a especificidades da realidade educacional do Estado da Paraíba.\n\nEnquanto isto, o capítulo referente aos Itinerários Formativos está dividido em duas partes. A primeira faz referência a apresentação de um conjunto de unidades curriculares que poderão ser ofertadas pelas instituições e redes de ensino de acordo com a realidade do território em que a escola está inserido, com o intuito de proporcionar aos estudantes o aprofundamento na área de formação definida como escolha de seu projeto de vida e respeitando a possibilidade de flexibilização e diversidade curricular, permitindo o elo entre a Formação Geral Básica, isto é, as áreas do conhecimento, e os Eixos Estruturantes indicados na arquitetura no Novo Ensino Médio, sendo estes: Investigação científica, Processos criativos, Mediação e intervenção cultural e Empreendedorismo.\n\nA segunda parte, por sua vez, faz referência a apresentação do Itinerário de Formação Técnica Profissional, sendo indicadas as diferentes formas de ofertas que podem ser implementadas pelas instituições e redes de ensino, considerando o projeto de vida e a escolha dos estudantes, as competências relacionadas à formação para o mundo do trabalho, bem como, as diferentes trilhas de formação profissional, que dialogam de forma direta com as realidades e contextos locais.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

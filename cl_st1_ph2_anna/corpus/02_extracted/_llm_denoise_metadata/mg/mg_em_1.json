@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f1de305463f7b3f006ab302d8bf0487d2ab0395f7a259c3c1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 928,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 898,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 1826
+    }
+  },
+  "created_at": "2026-09-22T22:36:16Z",
+  "duration_seconds": 7.39,
+  "error": null,
+  "excerpt_id": "mg_em_1",
+  "filename": "mg_em_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "23e604216a63df24142ce510060abcd5fdfc1eb07dc906f7da1cf9f41eb7586d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b7990eece64352ce41ab4457d54a8316e3bc5f8f3709ce5be4b476425b897341",
+    "rendered_prompt_sha256": "89b404006703e1733f3ac4d4db7c2fa113a93b99e02ae3d165682315e77aec91",
+    "source_text_sha256": "00603b4413b7fc987b91535a71a8f44aa772036f1d48d86ce0ec8d643c4ee4bd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1485,
+    "filename": "mg_em_1.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_1.txt",
+    "state": "mg",
+    "word_count_original": 580
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_1.json"
+  },
+  "raw_response_text": "Prezada e Prezado Educador (a),\n\nExtremamente satisfeitas/os apresentamos o Currículo Referência de Minas Gerais, para a Educação Infantil, o Ensino Fundamental e para o Ensino Médio, elaborado a partir dos fundamentos educacionais expostos na nossa Constituição Federal (CF/1988), na Lei de Diretrizes e Bases da Educação Nacional (LDB 9394/96), no Plano Nacional de Educação (PNE/2014), na Base Nacional Comum Curricular (BNCC/2017) e a partir do reconhecimento e da valorização dos diferentes povos, culturas, territórios e tradições existentes em nosso estado.\n\nDestacamos que esse documento é resultado do regime de colaboração estabelecido entre a Secretaria de Estado de Educação de Minas Gerais – SEE-MG e a União Nacional dos Dirigentes Municipais de Educação de Minas Gerais, seccional Minas Gerais – UNDIME/MG. Nesse processo, foram considerados e estudados os documentos curriculares já presentes em diferentes redes como fonte de inspiração para a elaboração de um currículo que possa ser referência em todo o estado. Desenvolvemos uma trilha a partir do histórico de construção do documento e da concepção de currículo e sua prática pedagógica até chegar aos eixos estruturadores que compõem o documento. É importante sentir-se parte desse processo, uma vez que é você quem o colocará em prática na sala de aula.\n\nEssa elaboração, em regime de colaboração, sinaliza para a perspectiva de aproximação e fortalecimento da parceria em outros campos da política educacional, como é o caso da formação continuada de educadores. Desse modo, tendo um Currículo Referência construído a partir de amplo diálogo, entendemos ser possível também a configuração de propostas de formação continuada que ampliem a noção de territórios educativos, possibilitando intercâmbios e trocas de experiências entre educadores de um mesmo território. O que se deve garantir é a oferta de um ensino de qualidade e de diversificadas oportunidades de formação e transformação social, que zelem pelo direito à aprendizagem – como destacamos ao longo de todo o documento.\n\nCompreendemos, assim, que é necessário vencer as amarras institucionais e culturais existentes e avançar no fortalecimento da democracia, na colaboração entre as redes e nas ofertas de oportunidades aos nossos estudantes. Ter um Currículo Referência da Educação Básica para o estado mineiro materializa essa proposta e potencializa as relações entre as secretarias, escolas, professores/as e estudantes.\n\nApresentamos esse documento que orienta a elaboração dos planos e ações educacionais para o Ensino Médio em Minas Gerais e esperamos que, da prática de cada educador/a e de cada escola, surjam formas de implementação de uma educação inclusiva, equânime e democrática. De igual modo, esperamos que todos os profissionais da educação envolvidos com as políticas públicas nele encontrem o embasamento para a continuidade das discussões, visto que o processo educacional é polissêmico e multifacetado. Portanto, requer um trabalho constante e colaborativo das várias instâncias e regiões mineiras envolvidas com a Educação, cujas ideias e propostas tenham como fim a busca e a garantia de direitos educacionais plenos e justos.\n\nAo final, esperamos que você compreenda/apreenda a relação desse documento com o seu dia a dia na escola, bem como os preceitos aqui tratados e a sua aplicabilidade na sala de aula e na escola, a partir de sua autonomia, de forma dialogada com seus pares, com a gestão escolar e com os seus estudantes. Nesse sentido, todos nós buscamos fortalecer os princípios do direito à aprendizagem de qualidade, da equidade, do reconhecimento e da valorização das diversidades, da inclusão e da gestão democrática e participativa, com vistas a promover a educação em sua integralidade.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0917823fecfbdc0e006ab2fe37adfc87d29be4686803907063",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 290,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 297,
+      "output_tokens_details": {
+        "reasoning_tokens": 109
+      },
+      "total_tokens": 587
+    }
+  },
+  "created_at": "2026-09-22T22:16:27Z",
+  "duration_seconds": 3.628,
+  "error": null,
+  "excerpt_id": "ap_em_60",
+  "filename": "ap_em_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b786582883d40d6df0a3b89b11db7cb2b8dc1b462418795f5651c6e10bdb57fa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "756d69e64442d820a43549be8b1180f9800bb81c4a5b59c299ade26348aaf258",
+    "rendered_prompt_sha256": "4f5a271a397df63f9da3ff9db0c6ceaa7724413c26eecbb7bdc879bc77398b21",
+    "source_text_sha256": "59b0445969795597ab02b93288da9b7f9962dbcd06ebfa5c73385e2ee5dd5161"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 558,
+    "filename": "ap_em_60.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_60.txt",
+    "state": "ap",
+    "word_count_original": 112
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_60.json"
+  },
+  "raw_response_text": "## ITINERÁRIOS FORMATIVOS DA ÁREA DE MATEMÁTICA\n\nA construção dos itinerários formativos do Referencial Curricular Amapaense (RCA), na área de Matemática, forma um conjunto de situações e atividades educativas que os estudantes podem escolher conforme seus interesses, aptidões e objetivos. Contemplam as competências gerais da BNCC, articuladas com as competências gerais e específicas da área, com o objetivo de aprofundar, ampliar aprendizagens, consolidar a formação integral e desenvolver habilidades que permitam aos estudantes realizarem seus projetos de vida.\n\n### PRA QUÊ?\n\n- Ampliar sua visão de mundo.\n- Tomar decisões e agir com autonomia e responsabilidade.\n- Desenvolver habilidades gerais e específicas associadas a quatro eixos estruturantes: Investigação científica, Processos criativos, Mediação e intervenção sociocultural e Empreendedorismo.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

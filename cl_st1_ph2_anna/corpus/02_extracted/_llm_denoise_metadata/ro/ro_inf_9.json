@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0cdeec7747f7ecaa006ab30cc61ef087d2afa3c103a99b243a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 824,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 918,
+      "output_tokens_details": {
+        "reasoning_tokens": 201
+      },
+      "total_tokens": 1742
+    }
+  },
+  "created_at": "2026-09-22T23:18:37Z",
+  "duration_seconds": 7.775,
+  "error": null,
+  "excerpt_id": "ro_inf_9",
+  "filename": "ro_inf_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4fef1446b04e786ea909ac4cac64fce2643dbe4c1b67eb37ae4e2b7b0164f5e7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f0a5764c79e0048b5c3e8bbb80eaab4943f1b41d02ca131ea2f097ca72e1ed54",
+    "rendered_prompt_sha256": "a0c2d5632208a18adf9eefdbd785600d4a019a7042a46d62f92bc68d15584563",
+    "source_text_sha256": "d165120f67f679899b5e48de244ba7f3796056ee8fd15d35f4970fc915cf4fff"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3373,
+    "filename": "ro_inf_9.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_9.txt",
+    "state": "ro",
+    "word_count_original": 493
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_9.json"
+  },
+  "raw_response_text": "## Direitos de Aprendizagem e Desenvolvimento\n\nA Base Nacional Comum Curricular (BNCC) compreende que as crianças em idade de Educação Infantil, que abrange a faixa etária de 0 aos 5 anos e 11 meses, possuem direitos de aprendizagem e desenvolvimento que devem ser assegurados, dando-lhes condições de aprender e se desenvolver ao longo da Educação Infantil. Nesta perspectiva, o papel das instituições de ensino que ofertam essa etapa é partir da compreensão desses direitos para organizar seus objetivos, suas ações e seus espaços que permitam que estes direitos sejam vividos pelas crianças.\n\nNeste sentido, o fazer pedagógico não deve resultar no confinamento das aprendizagens a um processo de desenvolvimento natural ou espontâneo; ao contrário, reitera a importância e necessidade de imprimir intencionalidade pedagógica às ações educativas na Educação Infantil, considerando a criança na sua integralidade, para possibilitar os seguintes direitos de aprendizagem e desenvolvimento:\n\n- Conviver com outras crianças e adultos, em pequenos e grandes grupos, utilizando diferentes linguagens, ampliando o conhecimento de si e do outro, o respeito em relação à cultura e às diferenças entre as pessoas.\n- Brincar cotidianamente de diversas formas, em diferentes espaços e tempos, com diferentes parceiros (crianças e adultos), ampliando e diversificando seu acesso a produções culturais, seus conhecimentos, sua imaginação, sua criatividade, suas experiências emocionais, corporais, sensoriais, expressivas, cognitivas, sociais e relacionais.\n- Participar ativamente, com adultos e outras crianças, tanto do planejamento da gestão da escola e das atividades propostas pelo educador quanto da realização das atividades da vida cotidiana, tais como a escolha das brincadeiras, dos materiais e dos ambientes, desenvolvendo diferentes linguagens e elaborando conhecimentos, decidindo e se posicionando.\n- Explorar movimentos, gestos, sons, formas, texturas, cores, palavras, emoções, transformações, relacionamentos, histórias, objetos, elementos da natureza, na escola e fora dela, ampliando seus saberes sobre a cultura, em suas diversas modalidades: as artes, a escrita, a ciência e a tecnologia.\n- Expressar como sujeito dialógico, criativo e sensível, suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, questionamentos, por meio de diferentes linguagens.\n- Conhecer-se e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações, brincadeiras e linguagens vivenciadas na instituição escolar e em seu contexto familiar e comunitário.\n\nEsses direitos garantem uma concepção de criança como ser observador, questionador, capaz de levantar hipóteses, concluir, julgar e assimilar valores. Isto contribui para que possa construir seus conhecimentos e apropriar-se deles de forma sistematizada, “por meio da ação e nas interações com o mundo físico e social”.\n\nAssim sendo, conforme orienta a BNCC, parte do trabalho docente é refletir, selecionar, organizar, planejar, mediar e monitorar o conjunto das práticas e interações, garantindo a pluralidade de situações que promovam o desenvolvimento pleno das crianças. (BRASIL, 2017, p. 37). Ressalta-se que a prática pedagógica necessita de acompanhamento do desenvolvimento e das aprendizagens, compreendendo a trajetória de cada criança e de todo o grupo como ser ativo e protagonista nessa construção.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

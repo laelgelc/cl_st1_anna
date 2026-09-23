@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_042178fbaff7fcf6006ab31010dc2487d2a3de67d9b617854f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 704,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 709,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 1413
+    }
+  },
+  "created_at": "2026-09-22T23:32:37Z",
+  "duration_seconds": 4.852,
+  "error": null,
+  "excerpt_id": "to_em_10",
+  "filename": "to_em_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b625d5481adecf5dae48f56697942836c584e96267c5780bd982b9c02ee2227b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4e324f59c494a194f75daf1c7a6ed42ef959bbe8a29bb24999b73302f54733f2",
+    "rendered_prompt_sha256": "5e01d71ec04639da12521bbb44bf3edea99f70d3ee0462242e1174f31e7bdc7c",
+    "source_text_sha256": "adc97fa7519bee587be705029ae2c4d8e262693c386067db2404b43f9dad0b95"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4008,
+    "filename": "to_em_10.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_10.txt",
+    "state": "to",
+    "word_count_original": 433
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_10.json"
+  },
+  "raw_response_text": "No Ensino Fundamental, os estudantes desenvolveram habilidades básicas requeridas por processos de recuperação de informação (identificação, reconhecimento, organização), de compreensão (comparação, distinção, estabelecimento de relações e inferências) e de produção (planejamento e organização das formas de composição de textos). Já no Ensino Médio, pretende-se que os estudantes ampliem o uso das linguagens de maneira crítica, levando em conta um aprofundamento da análise do funcionamento das diversas semioses para produzir sentidos. Entretanto, antes de qualquer planejamento, a BNCC enfatiza a importância de se considerarem os sujeitos que farão parte desta etapa da Educação Básica.\n\nNesse sentido, a BNCC/2018, em consonância com as DCNEM e a Lei Federal n. 13.415, destaca que a construção de um currículo eficaz deve, além de tudo, considerar os sujeitos do Ensino Médio em suas múltiplas dimensões e especificidades próprias, e que estes trazem consigo suas histórias, anseios, conhecimento sistêmico e de mundo adquiridos no decorrer do Ensino Fundamental.\n\nNo Ensino Médio, os jovens intensificam o conhecimento sobre seus sentimentos, interesses, capacidades intelectuais e expressivas; ampliam e aprofundam vínculos sociais e afetivos; e refletem sobre a vida e o trabalho que gostariam de ter. Encontram-se diante de questionamentos sobre si próprios e seus projetos de vida, vivendo juventudes marcadas por contextos socioculturais diversos. (BNCC/2018 p. 481)\n\nDiante disso, fica evidente que o professor precisa conhecer quem são os sujeitos que integram suas turmas, para então planejar aulas que atendam às necessidades básicas para a formação integral desses estudantes. Faz-se necessário destacar também a importância da atuação conjunta com outros componentes curriculares (da mesma área ou das outras áreas), priorizando um planejamento interdisciplinar ou transdisciplinar para um ensino mais aprofundado e eficaz, o que contribuirá nas aulas de língua inglesa, ou seja, os outros componentes curriculares ajudarão a introduzir os temas planejados e facilitarão o entendimento numa segunda língua, pois estes já foram abordados na língua materna.\n\nLevando-se em consideração o exposto, para assegurar uma aprendizagem significativa e que atenda às expectativas e às demandas sociais da atualidade, o Componente Curricular de Língua Inglesa do Tocantins deve: ser flexível; apresentar os objetos de conhecimento de forma progressiva, sem pertencimento a série ou ano; focar no desenvolvimento de habilidades; proporcionar o autoconhecimento, por meio de atividades relacionadas às preferências, sonhos, projetos de vida; contribuir na construção da identidade dos estudantes como um falante de um segundo idioma e auxiliá-los a compreenderem-se como cidadãos do mundo, mas, sem perderem suas essências e origens; utilizar as tecnologias digitais de informação e comunicação (TDIC) no processo de ensino e aprendizagem; por fim, garantir o protagonismo juvenil.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

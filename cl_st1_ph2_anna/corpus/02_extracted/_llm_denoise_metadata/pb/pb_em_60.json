@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d94ce4e8783ef8a006ab30758ffac87d280dbe768fe6fc618",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 655,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 863,
+      "output_tokens_details": {
+        "reasoning_tokens": 310
+      },
+      "total_tokens": 1518
+    }
+  },
+  "created_at": "2026-09-22T22:55:28Z",
+  "duration_seconds": 7.434,
+  "error": null,
+  "excerpt_id": "pb_em_60",
+  "filename": "pb_em_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b5624477a7644e7c05e590549c40b0a568af97a5753e5dafd53318c92523d3e2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b0e74aed14cebe5ff66ad34f432efa8bd2e9307c7c5a463d8a770f55d98a1299",
+    "rendered_prompt_sha256": "43490723fb1a0bcdcd5f741a6279d891317a5bae0b0c73335123fe7c28372807",
+    "source_text_sha256": "d8517504b430e80e813a412ac3d2e3d0d596e73a0dade9f465fb9f4f53e817a4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2309,
+    "filename": "pb_em_60.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_60.txt",
+    "state": "pb",
+    "word_count_original": 407
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_60.json"
+  },
+  "raw_response_text": "### 2.2.7.5 Gamificação\n\nInicialmente, fazemos questão de esclarecer que a ação de gamificar o processo educacional difere fortemente de copiar e reproduzir um jogo em uma determinada sala de aula, pois a gamificação possui suas características específicas que a tornam uma prática bastante potente e capaz de alçá-la como um recurso riquíssimo no processo de ensino-aprendizagem. Sobre a definição do que vem a ser a gamificação, Ulbricht (2014, p. 6) a considera como “o termo gamificação compreende a aplicação de elementos de jogos em atividades de não jogos”, portanto, indo bem além do jogo que tem por finalidade principal o entretenimento.\n\nUma vez que a gamificação pode se apresentar como um instrumento bastante interessante no que se refere à motivação dos estudantes, pois é muito comum utilizarmos elementos da gamificação ao atuarmos em sala de aula, tais como quando o professor premia um estudante com estrelinhas (o que é uma recompensa) por realizar seu trabalho. Porém, estes elementos, que podem ser aplicados no processo de ensino-aprendizagem, são bem mais diversos. Dentre os principais deles temos:\n\n- A storytelling (que em síntese é a técnica de contar uma história que engaje o público-alvo);\n- Os desafios, conquistas e missões (que caracterizam um dos elementos mais importantes na gamificação, pois é ponto de motivação, que estimula os jogadores a se esforçarem cada vez mais);\n- A recompensa (que é caracterizada por alimentar cada ação positiva do jogador pelo recebimento de algum prêmio ou item);\n- A progressão (que valoriza a ideia de avanço, pois para os estudantes é fundamental sentir o gostinho do sucesso, principalmente no que se refere à motivação);\n- O Feedback Instantâneo (que fornece aos estudantes o conhecimento seus acertos e erros);\n- A competição (que é um sentimento que engloba grande dos alunos como fator de motivação).\n\nA gamificação no ensino-aprendizagem de Matemática surge como uma solução que, por um lado, estimula o engajamento dos estudantes e as atuações coletiva e colaborativa. Uma vez que suas ações se relacionam com a ideia de recompensa, incentivando-os a vencer os desafios propostos, interagindo com seus pares, passando a desenvolver o trabalho em grupo. Por outro lado, facilita o trabalho do professor, pois é fato que a competição tende a aumentar o nível dos envolvidos, seja pela busca do alto rendimento, seja pelo caráter de ludicidade atrelado a atividades dessa natureza, permitindo ao professor atuar como mediador entre os estudantes e o conhecimento matemático.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

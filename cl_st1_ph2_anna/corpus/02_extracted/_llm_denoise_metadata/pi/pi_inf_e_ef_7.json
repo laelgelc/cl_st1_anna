@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_034abc75dfae4b38006ab3090c1c4c87d289cb0980d365950f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1087,
+      "input_tokens_details": {
+        "cache_write_tokens": 1084,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1066,
+      "output_tokens_details": {
+        "reasoning_tokens": 151
+      },
+      "total_tokens": 2153
+    }
+  },
+  "created_at": "2026-09-22T23:02:44Z",
+  "duration_seconds": 8.486,
+  "error": null,
+  "excerpt_id": "pi_inf_e_ef_7",
+  "filename": "pi_inf_e_ef_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "aab28c305a7b22b7289078d6333507553eaf23fc3119380f26e2ddbde928dd5c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "eda49e2da31978b64f0c9b2fa1b5c32a9903165620ad819995b9ccf3a4130c25",
+    "rendered_prompt_sha256": "e42076c10ec54ab19093fe33269d9a2cbf8b7e79e67b5515317be8b4f03d795a",
+    "source_text_sha256": "cc3c40e3306c4abd412503573b85590476e0fe314b0e0b64e0762c32dc55de4f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_inf_e_ef_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2667,
+    "filename": "pi_inf_e_ef_7.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_inf_e_ef_7.txt",
+    "state": "pi",
+    "word_count_original": 622
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_inf_e_ef_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_inf_e_ef_7.json"
+  },
+  "raw_response_text": "## COMPETÊNCIAS GERAIS DA BASE NACIONAL COMUM CURRICULAR\n\n1. Valorizar e utilizar os conhecimentos historicamente construídos sobre o mundo físico, social e cultural para entender e explicar a realidade (fatos, informações, fenômenos e processos linguísticos, culturais, sociais, econômicos, científicos, tecnológicos e naturais), colaborando para a construção de uma sociedade solidária.\n2. Exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências, incluindo a investigação, a reflexão, a análise crítica, a imaginação e a criatividade, para investigar causas, elaborar e testar hipóteses, formular e resolver problemas e inventar soluções com base nos conhecimentos das diferentes áreas.\n3. Desenvolver o senso estético para reconhecer, valorizar e fruir as diversas manifestações artísticas e culturais, das locais às mundiais, e também para participar de práticas diversificadas da produção artístico-cultural.\n4. Utilizar conhecimentos das linguagens verbal (oral e escrita) e/ou verbo-visual (como Libras), corporal, multimodal, artística, matemática, científica, tecnológica e digital para expressar-se e partilhar informações, experiências, ideias e sentimentos em diferentes contextos e, com eles, produzir sentidos que levem ao entendimento mútuo.\n5. Utilizar tecnologias digitais de comunicação e informação de forma crítica, significativa, reflexiva e ética nas diversas práticas do cotidiano (incluindo as escolares) ao se comunicar, acessar e disseminar informações, produzir conhecimentos e resolver problemas.\n6. Valorizar a diversidade de saberes e vivências culturais e apropriar-se de conhecimentos e experiências que lhe possibilitem entender as relações próprias do mundo do trabalho e fazer escolhas alinhadas ao seu projeto de vida pessoal, profissional e social, com liberdade, autonomia, consciência crítica e responsabilidade.\n7. Argumentar com base em fatos, dados e informações confiáveis, para formular, negociar e defender ideias, pontos de vista e decisões comuns que respeitem e promovam os direitos humanos e a consciência socioambiental em âmbito local, regional e global, com posicionamento ético em relação ao cuidado de si mesmo, dos outros e do planeta.\n8. Conhecer-se, apreciar-se e cuidar de sua saúde física e emocional, reconhecendo suas emoções e as dos outros, com autocrítica e capacidade para lidar com elas e com a pressão do grupo.\n9. Exercitar a empatia, o diálogo, a resolução de conflitos e a cooperação, fazendo-se respeitar e promovendo o respeito ao outro, com acolhimento e valorização da diversidade de indivíduos e de grupos sociais, seus saberes, identidades, culturas e potencialidades, sem preconceitos de origem, etnia, gênero, idade, habilidade/necessidade, convicção religiosa ou de qualquer outra natureza, reconhecendo-se como parte de uma coletividade com a qual deve se comprometer.\n10. Agir pessoal e coletivamente com autonomia, responsabilidade, flexibilidade, resiliência e determinação, tomando decisões, com base nos conhecimentos construídos na escola, segundo princípios éticos democráticos, inclusivos, sustentáveis e solidários.\n\nFonte: Brasil (2017, p. 9-10)\n\nEsse conjunto de competências contemplam aspectos cognitivos, sociais e afetivos das aprendizagens necessárias aos estudantes contemporâneos, envoltos e participantes de um mundo dinâmico e plural. Mundo este que solicita a formação de cidadãos engajados e conscientes, capazes de reponder às diferentes questões pessoais e sociais de forma responsável e construtiva, protagonizando, dessa forma, o próprio desenvolvimento multidirecional e colaborando com o desenvolvimento do mundo.\n\nNesse sentido, ao estipular essas dez competências, a BNCC assume que a educação se trata, sobretudo, de um instumento de transformação social, que deve contribuir com a evolução humana. Essa postura consolida o entendimento ampliado de educação supramencionado, propondo a desfragmentação do ensino e superando o reducionismo usual que prioriza o aspecto cognitivo da aprendizagem, em detrimento de suas demais dimensões (emocionais, orgânicas, psicossociais e culturais) e que são equitativamente indispensáveis para o desenvolvimento humano global. Sob essa perspectiva, o Currículo do Piauí alinha-se ao entendimento da BNCC (BRASIL, 2017) no sentido de conceber o indivíduo em sua completude e, portanto, adotar a abordagem integral como base dos processos educativos.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

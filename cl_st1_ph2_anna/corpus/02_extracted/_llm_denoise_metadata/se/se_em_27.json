@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0cf46db3b1b293e4006ab30f44969887d2bb6b83d61dd37b66",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 656,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 828,
+      "output_tokens_details": {
+        "reasoning_tokens": 323
+      },
+      "total_tokens": 1484
+    }
+  },
+  "created_at": "2026-09-22T23:29:17Z",
+  "duration_seconds": 8.548,
+  "error": null,
+  "excerpt_id": "se_em_27",
+  "filename": "se_em_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "77ae91b94b57cac8d7f0b4f8a2b293f2567072194dcb3913e51bec528a95357e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e18bcf5fc2dfd9b656b9d6246403b0ce972d5b633878f690ee61cc552b0e6760",
+    "rendered_prompt_sha256": "5be5ef5c585144dd95a220c2de17052df6159bd026f03a2a3ca9bf7ec1cb39fc",
+    "source_text_sha256": "f397a27cef96e1b5d3c533d04ad76d42b6211f24966727a6fe110f34382713a6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_em_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3840,
+    "filename": "se_em_27.txt",
+    "filepath": "corpus/00_source_per_state/se/se_em_27.txt",
+    "state": "se",
+    "word_count_original": 357
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_em_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_em_27.json"
+  },
+  "raw_response_text": "## 5.4 Formas de Oferta\n\nNa instância nacional das macro políticas, os cursos de Educação Profissional e Tecnológica se organizam e se referenciam em Eixos Tecnológicos e suas respectivas áreas específicas, possibilitando a construção de Itinerários Formativos flexíveis, diversificados e atualizados, segundo interesses dos sujeitos, conforme a relevância para o contexto local e as reais possibilidades da instituição de ensino, visando o desenvolvimento de competências básicas para o exercício da cidadania e específicas para o exercício profissional competente.\n\nNessa perspectiva, as Diretrizes Curriculares Nacionais para o Ensino Médio (DCNEM), atualizadas em novembro de 2018, indicam que o currículo dessa etapa deve ser composto por: Formação Geral Básica e Itinerários Formativos, e estabelece uma nova organização curricular que deverá contemplar a Base Nacional Comum Curricular - BNCC e a oferta de diferentes Itinerários Formativos, com foco em áreas de conhecimento e na formação técnica e profissional. Isso possibilitará o fortalecimento do protagonismo juvenil no que se refere à escolha do percurso de aprendizagem e, também, à ampliação das ações voltadas à construção do projeto de vida dos estudantes.\n\nEssas modalidades precisam ser ancoradas em princípios que potencializem a emancipação dos sujeitos, uma vez que se pretende contribuir com a formação de “profissionais-cidadãos, capacitados a atuar e intervir no mundo do trabalho, na perspectiva da consolidação de uma sociedade democrática, justa social e economicamente” (IFG, 2012, p.20). Em âmbito estadual a política de educação profissional se estrutura a partir de um tripé que considera três indicadores fundamentais que contribuem para estruturar e expandir a EPT.\n\n1. Política Econômica de governo para o desenvolvimento regional (Plano quadrienal, APL, projetos de incentivos fiscais, convênio com empresas, políticas setoriais via secretarias de estado);\n2. Demanda Local e características socioeconômicas e culturais regionais;\n3. Novas áreas nacionais e globais de inovação e desenvolvimento tecnológicos, tendências de novos ambientes, econômico, criatividades etc.).\n\nNesta perspectiva, o itinerário formativo deriva da análise do itinerário profissional de cada eixo tecnológico de atuação. Portanto, para identificá-lo, é preciso considerar o escopo das ocupações, o campo de atuação, a legislação, a interface com outras ocupações e os limites funcionais entre elas.",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

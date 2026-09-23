@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c2b71a88b0add7e006ab3038e924487d2843c412092887ca6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1012,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1165,
+      "output_tokens_details": {
+        "reasoning_tokens": 277
+      },
+      "total_tokens": 2177
+    }
+  },
+  "created_at": "2026-09-22T22:39:19Z",
+  "duration_seconds": 8.997,
+  "error": null,
+  "excerpt_id": "mg_inf_objetivos",
+  "filename": "mg_inf_objetivos.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5b6145ee1e284abf7180a79b8ff1a5fade16b208ba2c98069fff8e36c213e2aa",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4d97402f017eee7cf9a901c706e338104c917df0d4349353a8f102c119f225af",
+    "rendered_prompt_sha256": "b06eee63ebba7e0393aeb5122365afca11d452dc43f2ee2481f4909341d70553",
+    "source_text_sha256": "c121c803343a96fe963edbf29fa93ef11b07dd93a5d68f84ef0903d067cddb31"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_objetivos.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1661,
+    "filename": "mg_inf_objetivos.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_objetivos.txt",
+    "state": "mg",
+    "word_count_original": 572
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_objetivos.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_objetivos.json"
+  },
+  "raw_response_text": "## 2.7 Objetivos de Aprendizagem e Desenvolvimento\n\nNa Educação Infantil, as aprendizagens essenciais compreendem tanto comportamentos, habilidades e conhecimentos quanto vivências que promovem aprendizagem e desenvolvimento nos diversos campos de experiências, sempre tomando as interações e a brincadeira como eixos estruturantes. Essas aprendizagens, portanto, constituem-se como objetivos de aprendizagem e desenvolvimento. (BRASIL, 2017, p. 42).\n\nPara realizar a leitura dos organizadores curriculares, quadros onde se encontram os direitos de aprendizagem, é necessário entender a estrutura prevista na BNCC. Para sua leitura, deve-se utilizar a referência abaixo:\n\nA Educação Infantil, pela primeira vez, possui previsão de Direitos e Objetivos de Aprendizagem em Currículo que deverá ser objeto da ação pedagógica com as crianças nesta etapa. As duas primeiras letras do código alfanumérico se referem à etapa de Educação Infantil (EI). Os dois primeiros números se referem à faixa etária: 01 Bebês (zero a 1 ano e seis meses); 02 Crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses); 03 Crianças Pequenas (4 anos a 5 anos e 11 meses). As letras em sequência se referem ao Campo de Experiência. O último par de números é a posição do objetivo de aprendizagem na numeração sequencial.\n\nSeguindo a orientação da Resolução CNE/CP nº 2 de 2017 e a LDB, o Currículo Referência de Minas Gerais possui parte diversificada integrada ao documento, respeitando a diversidade local e adaptativa a cada contexto. Desta forma, diversos objetivos de aprendizagem e desenvolvimento foram alterados para oferecer uma perspectiva regional e contextualizada quando necessário.\n\nEstes objetivos de aprendizagem e desenvolvimento modificados foram divididos em 03 tipos:\n\n**Objetivo de aprendizagem e desenvolvimento - Alterado:** Alterado da BNCC dentro das possibilidades estabelecidas pelo MEC. Seguem o código alfanumérico definido na BNCC, seguido pela letra X.\n\n- **EXEMPLO:**\n  - (EI01EO01) Perceber que suas ações têm efeitos nas outras crianças e nos adultos.\n  - (EI01EO01X) Perceber que suas ações têm efeitos nas outras crianças, nos adultos e no ambiente. (Modificada MG).\n\n**Objetivo de aprendizagem e desenvolvimento - Criado:** Habilidade que não existia na BNCC, mas prevista no novo currículo. Seguem o código alfanumérico estabelecido pelo MEC, seguido pelas letras MG.\n\n- **EXEMPLO:**\n  - (EI01EO07MG) Construir progressivamente sua identidade pessoal, desenvolvendo imagem positiva de si mesma, sentimento de autoestima, autonomia e confiança. (Objetivo de aprendizagem e desenvolvimento criado em MG).\n\n**Objetivo de aprendizagem e desenvolvimento - Desmembrado:** Objetivo de aprendizagem e desenvolvimento que possui grande número de verbos, tornando-o complexo para ser avaliado e desenvolvido. Segue o código alfanumérico estabelecido pela BNCC, complementada pelas letras A, B, C etc., dependendo do grau de desmembramento.\n\n- **EXEMPLO:**\n  - (EI02EF03) Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita). (Original BNCC)\n  - (EI02EF03A) Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando a escrita de ilustrações.\n  - (EI02EF03B) Acompanhar, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita). (Desmembrada MG).\n\nA Educação Infantil na BNCC está organizada em três grupos etários e seus objetivos de aprendizagem e desenvolvimento correspondem, aproximadamente, às possibilidades de aprendizagem e às características do desenvolvimento das crianças. Sendo assim, os diferentes ritmos de aprendizagem exigem atenção e flexibilidade por parte dos docentes na execução de sua prática pedagógica (BRASIL BNCC 2017).\n\nA estrutura abaixo explicita esses grupos etários e os objetivos de aprendizagem propostos:",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

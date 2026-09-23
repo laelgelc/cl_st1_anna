@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_029e836548b11323006ab2ffd08f7c87d29d00aca2591eb9e2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1767,
+      "input_tokens_details": {
+        "cache_write_tokens": 1764,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2073,
+      "output_tokens_details": {
+        "reasoning_tokens": 425
+      },
+      "total_tokens": 3840
+    }
+  },
+  "created_at": "2026-09-22T22:23:28Z",
+  "duration_seconds": 15.737,
+  "error": null,
+  "excerpt_id": "ce_inf_8",
+  "filename": "ce_inf_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "66adbc04e94e89e351193c5a193658281c1570f385c7a07473a4569186404135",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "99ff0d6faf003af64790fed0d5a10b7cb1cc22efe1caa194832ad5d5e502106d",
+    "rendered_prompt_sha256": "4198909b8efd0b76418a5ce19eb47d45f0071d36e879e412f78427c1f2ec7e52",
+    "source_text_sha256": "da5bf8f080bc170ed5a82b9195923a4b3d8350c9e8eafd01bf54dc7271323d04"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_inf_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 842,
+    "filename": "ce_inf_8.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_inf_8.txt",
+    "state": "ce",
+    "word_count_original": 1135
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_inf_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_inf_8.json"
+  },
+  "raw_response_text": "### 4.1.1.6. Papel da professora, do professor\n\nCompreendendo a criança como sujeito histórico, de direitos, centro do planejamento curricular que aprende e se desenvolve por meio das interações, relações e nas práticas cotidianas, requer-se também que a professora, o professor seja considerado como uma importante referência para as crianças, uma parceira/um parceiro, uma promotora/um promotor que garantirá experiências ricas e significativas, que possibilitem o desenvolvimento e aprendizagem das crianças, com ludicidade, significatividade e continuidade. Tal como explicitado na BNCC (BRASIL, 2017), há que se imprimir intencionalidade educativa às práticas pedagógicas na Educação Infantil e o professor é autor, no contexto da comunidade educativa, dessas práticas.\n\nDiante desse cenário, como os princípios já referenciados são garantidos pela professora, pelo professor no desenvolvimento das práticas cotidianas na Educação Infantil?\n\nNo atual momento do cenário educacional brasileiro, há que se ressaltar a importância de ser participante ativo na revisão dos currículos das unidades de Educação Infantil, isto é, reconhecer o que até aqui se constituiu de práticas institucionais, de como cada escola organiza seu cotidiano com bebês e crianças, para, a partir desse reconhecimento, articular um diálogo formativo com a BNCC (BRASIL, 2017), que, por sua vez, recoloca as DCNEI (2009) e os currículos locais (SEDUC, 2011).\n\nNesse diálogo, cabe à professora, ao professor proporcionar a organização dos ambientes de aprendizagens, tendo como referências tanto aspectos que já estavam estabelecidos (DCNEI, 2009; SEDUC, 2011), como aqueles recentemente recolocados na BNCC (BRASIL, 2017). São eles:\n\n- as interações e a brincadeira, enquanto eixos norteadores do trabalho pedagógico, que transversam os cinco campos de experiências e garantem os direitos de aprendizagem e desenvolvimento de bebês e crianças;\n- os princípios éticos, políticos e estéticos, que alinham o projeto pedagógico da instituição aos preceitos e condições de uma Educação Infantil democrática e inclusiva;\n- os cinco campos de experiências que reorganizam e revalidam as experiências de aprendizagem propostas no Artigo 9º, das atuais DCNEI (BRASIL, 2009):\n  I - promovam o conhecimento de si e do mundo por meio da ampliação de experiências sensoriais, expressivas, corporais que possibilitem movimentação ampla, expressão da individualidade e respeito pelos ritmos e desejos da criança;\n  II - favoreçam a imersão das crianças nas diferentes linguagens e o progressivo domínio por elas de vários gêneros e formas de expressão: gestual, verbal, plástica, dramática e musical;\n  III - possibilitem às crianças experiências de narrativas, de apreciação e interação com a linguagem oral e escrita, e convívio com diferentes suportes e gêneros textuais orais e escritos;\n  IV - recriem, em contextos significativos para as crianças, relações quantitativas, medidas, formas e orientações espaço-temporais;\n  V - ampliem a confiança e a participação das crianças nas atividades individuais e coletivas;\n  VI - possibilitem situações de aprendizagem mediadas para a elaboração da autonomia das crianças nas ações de cuidado pessoal, auto-organização, saúde e bem-estar;\n  VII - possibilitem vivências éticas e estéticas com outras crianças e grupos culturais, que alarguem seus padrões de referência e de identidades no diálogo e reconhecimento da diversidade;\n  VIII - incentivem a curiosidade, a exploração, o encantamento, o questionamento, a indagação e o conhecimento das crianças em relação ao mundo físico e social, ao tempo e à natureza;\n  IX - promovam o relacionamento e a interação das crianças com diversificadas manifestações de música, artes plásticas e gráficas, cinema, fotografia, dança, teatro, poesia e literatura;\n  X - promovam a interação, o cuidado, a preservação e o conhecimento da biodiversidade e da sustentabilidade da vida na Terra, assim como o não desperdício dos recursos naturais;\n  XI - propiciem a interação e o conhecimento pelas crianças das manifestações e tradições culturais brasileiras;\n  XII - possibilitem a utilização de gravadores, projetores, computadores, máquinas fotográficas, e outros recursos tecnológicos e midiáticos.\n\nPor fim, os objetivos de aprendizagem e desenvolvimento que, no contexto dos campos de experiências, sintetizam o compromisso da Educação Infantil com a abrangência e a riqueza das aprendizagens dos bebês e das crianças.\n\nAssim, é papel da professora, do professor possibilitar aprendizagens significativas, fortalecer a autoestima das crianças, mediar as relações e interações das crianças com outras crianças e com os conhecimentos, organizar situações prazerosas e desafiadoras, promovendo o respeito à igualdade dos direitos a todas as crianças.\n\nPercebendo a professora, o professor como o profissional que se constitui nas relações com o outro, sejam estes seus pares, crianças, famílias e com os conhecimentos acumulados, ao longo de sua trajetória profissional e na sua relação com a cultura, é importante destacar que a professora, o professor ao oportunizar o protagonismo da criança, ela/ele própria/próprio está se constituindo uma/um protagonista da práxis pedagógica, uma/um profissional que pensa, reflete sobre seus fazeres.\n\n### O planejamento pedagógico do professor e sua concepção de criança\n\nO compromisso profissional de cada professora/professor requer organizar e planejar atividades promotoras de aprendizagem e desenvolvimento baseadas nas propostas pedagógicas que respeitem a cultura local, as vivências, o conjunto de situações vividas no cotidiano e voltadas para o alcance, pelas crianças, de objetivos educacionais que beneficiem seu desenvolvimento integral.\n\nConsiderando as contribuições que a Base Nacional Comum Curricular (BRASIL, 2017) podem trazer para a qualidade da Educação Infantil, uma série de pressupostos e orientações colocam à atividade do planejamento pedagógico como importante papel a ser realizado pelas professoras, pelos professores.\n\nDiante do que se vem discutindo, não se concebe um planejamento pronto e acabado, desarticulado da participação da criança, mas um planejamento pedagógico que dialoga com as especificidades das crianças reais que convivem e participam nas unidades de Educação Infantil.\n\nUm planejamento assim começa por se caracterizar pela flexibilidade, isto é, ele é passível de mudanças. Tal documento de caráter vivo e dinâmico se constitui como documento sistemático, onde constam registros das ações didáticas, das escolhas metodológicas, dos conhecimentos previstos e, sobretudo, a intencionalidade pedagógica e possíveis intervenções. Além disso, prevê indicadores que devem servir ao processo de avaliação daquela prática realizada, que não se encerra na criança, mas demanda autoavaliação da/do profissional, dos espaços, das decisões, dos materiais pedagógicos, entre outros.\n\nO planejamento se traduz como um caminho metodológico flexível e aberto aos interesses e necessidades das crianças. Se o eixo das interações é um dos norteadores das práticas cotidianas da Educação Infantil, também é pelas interações das crianças com as propostas feitas, que podemos saber o quanto determinado planejamento está favorecendo ou não a participação, a brincadeira, a convivência, a própria expressão, o conhecer o mundo e a si mesmo. A pergunta do planejamento é, então:\n\n- será que o planejado pelos adultos tem garantido os direitos de aprendizagem e desenvolvimento dos bebês e das crianças?\n- Quais as possibilidades para um planejamento que considera as singularidades e os saberes das crianças?\n- Há espaço para práticas democráticas nas instituições?\n\nCabe à equipe de professoras/professores e gestoras/gestores refletir sobre tais questões, inerentes à docência na Educação Infantil, ampliando conhecimentos na perspectiva de compreender, acolher, educar e cuidar das crianças, valorizar seus saberes e suas singularidades.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

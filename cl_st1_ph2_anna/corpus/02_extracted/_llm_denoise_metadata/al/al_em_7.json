@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dff831efa54f84c006ab2fce5871c87d299b2303f57d7c73d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 623,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 629,
+      "output_tokens_details": {
+        "reasoning_tokens": 105
+      },
+      "total_tokens": 1252
+    }
+  },
+  "created_at": "2026-09-22T22:10:50Z",
+  "duration_seconds": 5.181,
+  "error": null,
+  "excerpt_id": "al_em_7",
+  "filename": "al_em_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d52c2319517f6f08e3d3b9e306c5cc0929587108a01b81b58db3117f1a7d2f64",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f1fa5f53294740b4aa508ebbae79d53b0dc560e4ea4e5fa46d33854b8fbb988b",
+    "rendered_prompt_sha256": "90a82f1ca24bec4a3801ba07759f8b66042ea6649e7cffe79645cf97baf98ab1",
+    "source_text_sha256": "5168b42b6bf95ef09f08fec8705352d4fe4939193c48f6f6d1078564fa1ad7e8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_em_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 284,
+    "filename": "al_em_7.txt",
+    "filepath": "corpus/00_source_per_state/al/al_em_7.txt",
+    "state": "al",
+    "word_count_original": 343
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_em_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_em_7.json"
+  },
+  "raw_response_text": "# PARTE DIVERSIFICADA, CONTEXTUALIZAÇÃO, DESDOBRAMENTOS DIDÁTICOS-PEDAGÓGICOS E TEMAS INTEGRADORES E CONTEMPORÂNEOS\n\nO Referencial Curricular de Alagoas sugere Organizadores Curriculares para o Ensino Médio, conforme a BNCC, orientando a organização do ensino e da aprendizagem de competências e habilidades, descritas como saberes essenciais para todos os alagoanos em escolarização. Destacamos que o Referencial Curricular de Alagoas do Ensino Médio é a expressão do que se articula no território Alagoas, além do que já preconizam os saberes essenciais da BNCC para o Ensino Médio.\n\nO trabalho didático-pedagógico desenvolvido pela escola, a partir das Áreas dos Conhecimentos e Itinerários Formativos, deve ser organizado considerando as identidades dos estudantes que, em linhas gerais se constituem de uma rica heterogeneidade, presente no rosto das diversidades das juventudes da sociedade brasileira e, especialmente do território alagoano, advindas dos aspectos históricos, sociais, econômicos, políticos, religiosos, culturais e ecológicos.\n\nO Referencial Curricular de Alagoas para etapa do Ensino Médio, estabelece que as diversidades que constituem as juventudes e públicos da sociedade alagoana abrangem os jeitos de ser, viver e pensar. O currículo escolar deve abordar as diversidades como parte integrante das temáticas que constituem as relações sociais. Dessa maneira, o caminho para a efetivação de uma sociedade democrática, em que as diferenças sejam respeitadas e os direitos dos diferentes sujeitos e grupos sociais sejam garantidos em suas representações, na organização social, política, econômica e cultural do país, só é possível por um processo educativo que considere e respeite as diversidades das construções humanas.\n\nPortanto, o currículo escolar deve incluir na abordagem dos conteúdos escolares as discussões sobre questões de gênero, étnico-raciais e religiosas, multiculturalismo, entre outras. As múltiplas relações sociais no Brasil, especialmente em Alagoas, diferenciam homens e mulheres, heterossexuais e homossexuais, negros, índios e brancos, restringindo os direitos e as oportunidades entre os sujeitos em função da discriminação e do preconceito. Dito isto, é necessário que a discussão das diferenças faça parte do contexto escolar, compreendida a partir de suas dimensões históricas e sociais e das relações que se estabelecem entre os diferentes sujeitos de uma sociedade.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

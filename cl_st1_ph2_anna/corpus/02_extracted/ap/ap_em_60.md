@@ -1,0 +1,9 @@
+## ITINERÁRIOS FORMATIVOS DA ÁREA DE MATEMÁTICA
+
+A construção dos itinerários formativos do Referencial Curricular Amapaense (RCA), na área de Matemática, forma um conjunto de situações e atividades educativas que os estudantes podem escolher conforme seus interesses, aptidões e objetivos. Contemplam as competências gerais da BNCC, articuladas com as competências gerais e específicas da área, com o objetivo de aprofundar, ampliar aprendizagens, consolidar a formação integral e desenvolver habilidades que permitam aos estudantes realizarem seus projetos de vida.
+
+### PRA QUÊ?
+
+- Ampliar sua visão de mundo.
+- Tomar decisões e agir com autonomia e responsabilidade.
+- Desenvolver habilidades gerais e específicas associadas a quatro eixos estruturantes: Investigação científica, Processos criativos, Mediação e intervenção sociocultural e Empreendedorismo.

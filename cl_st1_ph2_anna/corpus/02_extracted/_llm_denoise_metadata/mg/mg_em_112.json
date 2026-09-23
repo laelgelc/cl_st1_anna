@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01404ecd0eda39f7006ab302eb6a5c87d2898489fe56b42154",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 783,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 787,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 1570
+    }
+  },
+  "created_at": "2026-09-22T22:36:33Z",
+  "duration_seconds": 6.115,
+  "error": null,
+  "excerpt_id": "mg_em_112",
+  "filename": "mg_em_112.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1014b74775cbc866833f99d845b33a71fa0013f1af05b058457931d907193f3e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "391643b383f4d407a6154c25d2ec0172ccd1cf847b25b2d21e1d525b7b21c3cd",
+    "rendered_prompt_sha256": "e2234d1321b4da7192835786f141c077541899ac74899dcb815e07d219423e9b",
+    "source_text_sha256": "1afc7c1120bb7569339a074cedcc1b230c89ae4e82659f6360809ba5d0036668"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_112.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1500,
+    "filename": "mg_em_112.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_112.txt",
+    "state": "mg",
+    "word_count_original": 478
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_112.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_112.json"
+  },
+  "raw_response_text": "### 5.12 O currículo da Educação Profissional e Técnica estruturado por habilidades e competência\n\nA publicação da Lei 13.415/2017 trouxe novos desafios e perspectivas para a oferta da escolarização em nosso país. Em relação aos currículos do Ensino Médio, ela apresenta uma proposta de flexibilização das experiências educativas, oferecendo aos estudantes desta etapa de ensino a possibilidade de vivenciarem trajetórias diferenciadas, sustentadas por seus desejos, anseios e expectativas e em diálogo com sua realidade e projetos de vida. Outro ponto que merece destaque é a proposta de organização de uma trajetória escolar que seja capaz de superar o caráter conteudista e instrucional, oferecendo tempos e espaços pedagógicos para o desenvolvimento integral dos estudantes, contemplando suas dimensões cognitivas, psicológicas, socioculturais, espirituais e emocionais.\n\nQuando essa trajetória se apresenta como itinerário formativo que se propõe a ofertar educação profissional e técnica, temos o grande desafio de estruturar currículos que sejam capazes de materializar intenções formativas amplas, que garantam a estruturação de saberes e fazeres gerais, referentes às novas demandas e desafios do mundo do trabalho, assim como os específicos relacionados aos eixos tecnológicos e às formações técnicas e qualificações profissionais. Tudo isso deve ser articulado com os conhecimentos da formação geral e com princípios, metodologias e práticas pedagógicas comprometidas com a formação humana integral, com o desenvolvimento, refinamento e fortalecimento de virtudes, atitudes e valores para a vida, de forma ética, sustentável e cooperativa.\n\nA Secretaria de Estado de Educação de Minas Gerais está ciente do desafio de revisão e reestruturação dos documentos curriculares que orientam e organizam as formações técnicas e profissionais, seja com a oferta de cursos técnicos profissionalizantes, seja de cursos de formação inicial e continuada – FIC. Mais do que uma lista de componentes curriculares e conteúdos, queremos que eles se apresentem como estruturas norteadoras para que os profissionais da educação identifiquem, reconheçam e possam desenvolver ambientes, materiais e práticas pedagógicas capazes de mediarem a consolidação das habilidades e das competências propostas para cada um dos percursos formativos.\n\nA realização de tal proposta envolve grande esforço e comprometimento de todos os profissionais da educação. Nesse contexto, avaliamos como essencial a estruturação de políticas de formação continuada, planejada e materializada, tanto em nível individual quanto em nível sistêmico, colocando-se como dimensão fundamental para a necessária mudança de paradigma e a implementação de propostas educativas capazes de preparar e instrumentalizar os jovens para vivenciarem os desafios relacionados como “desafios do século XXI”. Precisamos garantir a eles acesso e permanência em tempos e espaços formativos que os estimulem e direcionem no sentido da busca, do comprometimento e da participação em estratégias, práticas cotidianas individuais e coletivas. Devemos proporcionar ambientes de trocas e construção de conhecimentos para que as escolhas e ações desses jovens contribuam para a estruturação de uma formação integral, humana, acadêmica, técnica e tecnológica capaz de sustentar a realização de seus planos, projetos e sonhos",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

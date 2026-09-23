@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02964acba6e1c1ce006ab3083875c087d29a63eeda45ca45cf",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 331,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 307,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 638
+    }
+  },
+  "created_at": "2026-09-22T22:59:07Z",
+  "duration_seconds": 3.014,
+  "error": null,
+  "excerpt_id": "pe_inf_13",
+  "filename": "pe_inf_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "893ca1cd3d5d00596767192b79cb9d1fe99e5b82eb862a077d3b12072f79dc68",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "36b74bee4285703210419b8bdce5f9f685cd80602f73fee4339c4ed4aa5cd212",
+    "rendered_prompt_sha256": "592f6d5cf0ba8711811590ae7eb586ccd4f7e323028824e2951c1ced4dd424c6",
+    "source_text_sha256": "daa825dd877fac75d6e9f521ee9da8a061d50cdb0631900ad4c3db36fe1de3c8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_inf_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2518,
+    "filename": "pe_inf_13.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_inf_13.txt",
+    "state": "pe",
+    "word_count_original": 170
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_inf_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_inf_13.json"
+  },
+  "raw_response_text": "### 1.10 O DOCUMENTO E SUA ORGANIZAÇÃO\n\nO currículo de Pernambuco tem por objetivo nortear a construção de currículos e/ou propostas pedagógicas das redes públicas de ensino e escolas privadas, os projetos políticos pedagógicos das escolas e as práticas pedagógicas vivenciadas em sala de aula. Está em consonância com a Base Nacional Comum Curricular e com as Diretrizes Curriculares Nacionais Gerais para a Educação Básica, considerando a formação cidadã dos estudantes pernambucanos.\n\nConstitui-se em documento orientador para a rede estadual, redes municipais e escolas privadas. Também é inspirador para as modalidades da educação básica, embora não contempladas diretamente nele. Essas, por suas especificidades e singularidades, deverão ter documentos curriculares específicos construídos em âmbito estadual e municipal.\n\nEste volume, referente à Educação Infantil, é formado pelos pressupostos teóricos, a apresentação da etapa e seus campos de experiências. Em seguida, é apresentado um organizador curricular, que traz a descrição dos objetivos de aprendizagem e desenvolvimento por faixa etária (bebês, crianças bem pequenas e crianças pequenas) e por campos de experiências.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

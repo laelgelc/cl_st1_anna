@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a066de0dfe6e88c006ab30b3ee14887d2b8aa7f0e79442a5f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 574,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 569,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 1143
+    }
+  },
+  "created_at": "2026-09-22T23:12:05Z",
+  "duration_seconds": 6.21,
+  "error": null,
+  "excerpt_id": "rn_inf_16",
+  "filename": "rn_inf_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "07bd63609b0ca428a9059414cdbc575901d1bc919a72c2e08e9f18ccd21b4c8c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bb67629f321fb891023c885c093c768f32c36d60dc0bf51b937738c8f58bd4c0",
+    "rendered_prompt_sha256": "f0fd37d0771dd159a7eceead4c570bbfbb0ccf6e1cba5bee3bceb5badd70dbce",
+    "source_text_sha256": "ea4db4bdaf3541fa75e77f5e3a609beb46ef074c6cffbb9f2675daa668ab37bb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3061,
+    "filename": "rn_inf_16.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_16.txt",
+    "state": "rn",
+    "word_count_original": 344
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_16.json"
+  },
+  "raw_response_text": "## 5. HISTÓRICO E FUNDAMENTOS DO CURRÍCULO\n\nSe o Currículo é considerado como conjunto de experiências vividas, planejadas e/ou não pelos adultos responsáveis por crianças nas instituições, mesmo quando não há um documento-registro de intenções e ações (proposta documentada), há a vida de relações que se processam no cotidiano e que educam as crianças sistematicamente, pois o currículo vivo/vivido consiste em experiências concretas em que são compartilhados significados e sentidos sobre o mundo e sobre si mesmas e que vão sendo, com a força de ser “todo dia”, apropriados e recriados pelas crianças, mediante a mediação dos outros com quem interagem (DANTAS, 2016, pp. 14-15).\n\nPensar em Currículo na/para Educação Infantil é algo recente em nosso país, dada a trajetória legal de consolidação desta etapa educativa já apresentada anteriormente. A compreensão atual de Currículo que o relaciona às Experiências Educativas questiona o papel burocrático de documentos curriculares esvaziados de registros das práticas cotidianas e repletos de definições centradas nos adultos.\n\nSendo assim, currículos e experiências constituem as práticas cotidianas da Educação Infantil em diferentes contextos institucionais e redes municipais deste Estado. Um documento que se coloca como proposta coletiva assume o desafio de apresentar uma síntese que contemple essa diversidade curricular e se constitua como texto de referência no âmbito estadual construído em diálogo com as redes.\n\nEste capítulo aponta brevemente como os currículos para crianças pequenas vêm sendo pensados e desenvolvidos historicamente, compreendendo que este movimento pode colaborar para a construção da identidade pedagógica dos currículos em cada instituição educativa. Apresenta ainda, os fundamentos, principais conceitos e orientações teóricas e práticas no campo do currículo, que embasam a Proposta Curricular para Educação Infantil do Estado do Rio Grande do Norte.\n\nO que se define como currículo da/para educação infantil? Como se organiza um currículo por experiências? Quais os conceitos e princípios das experiências que o constituem? Como as experiências se materializam nas relações e práticas cotidianas de/com crianças dessa etapa educativa? Questões que são aqui, apenas introduzidas para serem objetos de discussão em cada contexto educativo.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09ee30636698b956006ab300536ec087d28aa6cb3195983f3c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 902,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 958,
+      "output_tokens_details": {
+        "reasoning_tokens": 177
+      },
+      "total_tokens": 1860
+    }
+  },
+  "created_at": "2026-09-22T22:25:30Z",
+  "duration_seconds": 7.014,
+  "error": null,
+  "excerpt_id": "df_em_53",
+  "filename": "df_em_53.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c4a4deefde8a1640ae304c6acf81ce6e75adb589bedfc2e8048611685064d588",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4f9afe795af9ac999b035fa6350de312e6340f2cbe624f942f334d7997ca2f3f",
+    "rendered_prompt_sha256": "bcba6993d21201ed9317b83744f1f1ba37678340f169b09e6de0f4fab52377fb",
+    "source_text_sha256": "e3a82c8c90f0b6d51c572d22d06caebe3db7db76437bab8197d4527ca7d5a82b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_53.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 943,
+    "filename": "df_em_53.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_53.txt",
+    "state": "df",
+    "word_count_original": 489
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_53.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_53.json"
+  },
+  "raw_response_text": "# CARACTERIZAÇÃO DA EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA (EPT)\n\nConforme disposto na LDB, com base nas alterações introduzidas pela Lei nº 11.741/2008, a Educação Profissional e Tecnológica (EPT) integra-se aos diferentes níveis e modalidades de educação e às dimensões do trabalho, da ciência, da tecnologia e da cultura, consistindo em uma modalidade da Educação Básica e Superior, em articulação com as modalidades de Educação de Jovens e Adultos (EJA), Educação Especial e Educação a Distância (EaD) (BRASIL, 2008b).\n\nEnquanto modalidade da Educação Básica, a EPT destina-se à formação profissional dos jovens e dos adultos, com o objetivo de prepará-los para a vida, incluindo a sequência dos estudos no nível técnico, tecnológico e superior, bem como inseri-los no mundo do trabalho (BRASIL, 2008b).\n\nPara fins de alinhamento conceitual, a Resolução nº 3/2018 do Conselho Nacional de Educação (CNE), a qual atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio (DCNEM), estabelece o conjunto de termos e conceitos próprios relacionados ao itinerário de Formação Técnica e Profissional (BRASIL, 2018b), acrescido de terminologia definida pelo Conselho de Educação do Distrito Federal (CEDF), consoante o quadro resumido abaixo (DISTRITO FEDERAL, 2019b):\n\n| TERMO | SIGNIFICADO |\n|---|---|\n| Ambientes Simulados | Ambientes pedagógicos que possibilitam o desenvolvimento de atividades práticas da aprendizagem profissional. |\n| Formações Experimentais | Formações autorizadas pelos respectivos sistemas de ensino, nos termos de sua regulamentação específica, que ainda não constam no CNCT. |\n| Aprendizagem Profissional | Formação técnico-profissional compatível com o desenvolvimento físico, moral, psicológico e social do jovem de 14 a 24 anos de idade. |\n| Qualificação Profissional | Processo ou resultado de formação e desenvolvimento de competências de um determinado perfil profissional, definido no mercado de trabalho. |\n| Habilitação Profissional Técnica de Nível Médio | Qualificação profissional formalmente reconhecida por meio de diploma de conclusão de curso técnico, com validade nacional. |\n| Programa de Aprendizagem | Arranjos e combinações de cursos que, articulados e com os devidos aproveitamentos curriculares, possibilitam um itinerário formativo. |\n| Certificação Intermediária | Certificação de qualificação para o trabalho quando a formação for estruturada e organizada em etapas com terminalidade. |\n| Certificação Profissional | Processo de avaliação, reconhecimento e certificação de saberes adquiridos na Educação Profissional, inclusive no trabalho. |\n| Eixo Tecnológico | Agrupamento sistematizado de conhecimentos, com interdependências entre as áreas científicas e culturais, comuns a grandes ramos de conhecimentos tecnológicos e áreas profissionais. |\n| Saída Intermediária | Etapa de um Curso Técnico de Nível Médio com caráter de terminalidade, correspondente a um curso de Formação Inicial e Continuada (FIC), ou de Qualificação Profissional, composta por uma ou mais unidades curriculares, definida(s) no Plano de Curso. |\n| Arranjos Produtivos Locais (APL) | Conjunto de agentes econômicos, políticos e sociais localizados no mesmo território, desenvolvendo atividades econômicas correlatas e que apresentam vínculos expressivos de produção, interação, cooperação e aprendizagem (OLIVEIRA et al., 2017). |\n\nDo ponto de vista da oferta, a EPT compreende os cursos de nível médio e os cursos de qualificação profissional ou de formação inicial e continuada, conforme disposto abaixo:",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

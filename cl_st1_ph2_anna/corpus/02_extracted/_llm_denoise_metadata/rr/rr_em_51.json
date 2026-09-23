@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d77a04e92ce5c63006ab30d43078087d2ac2f9460d1a9ab55",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 580,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 646,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 1226
+    }
+  },
+  "created_at": "2026-09-22T23:20:41Z",
+  "duration_seconds": 6.173,
+  "error": null,
+  "excerpt_id": "rr_em_51",
+  "filename": "rr_em_51.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f0b9d701eacf45333630743b1689fe6d883b50e1fbb31ff23609978435716efe",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6a400a479b0241660b29c16dc5f425e02dea317cd2473bded5b1d0f0936c5879",
+    "rendered_prompt_sha256": "b45e3a914dc0c94a38948973e53c9f5b8aa4350e9f439c98ea9b8aa8dfc0fe59",
+    "source_text_sha256": "4f9f7273fd3326117ad4d1d3d10b56b39ab4e7ca7fe4599d82609170c4203038"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_51.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3487,
+    "filename": "rr_em_51.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_51.txt",
+    "state": "rr",
+    "word_count_original": 356
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_51.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_51.json"
+  },
+  "raw_response_text": "### 5.7. Orientação para elaboração dos itinerários formativos\n\nA elaboração dos itinerários formativos por parte das redes e instituições deverá seguir as orientações dos Referenciais Curriculares para a Elaboração dos Itinerários Formativos (BRASIL, 2018h) e, neste sentido, devem considerar que:\n\n- A organização curricular definida no DCRR;\n- Ter como foco uma ou mais áreas de conhecimento, a combinação de uma área de conhecimento com a formação técnica e profissional ou apenas a formação técnica e profissional;\n- A sequência em que os eixos estruturantes serão percorridos e as formas de conexão entre eles;\n\nNo caso da formação técnica e profissional, os itinerários também se organizam a partir da integração dos diferentes eixos estruturantes, ainda que as habilidades a eles associadas somem-se a outras habilidades básicas requeridas indistintamente pelo mundo do trabalho e a habilidades específicas requeridas pelas distintas ocupações, conforme previsto no Catálogo Nacional de Cursos Técnicos – CNCT vigente e na Classificação Brasileira de Ocupações – CBO.\n\nÉ importante considerar que a definição dos itinerários formativos a serem oferecidos pelas escolas deve ter a participação da comunidade escolar. Ou seja, é necessário ouvir os anseios dos estudantes, dos pais desses estudantes, dos moradores do entorno da escola, assim como dos professores, gestores e demais funcionários da escola.\n\nEsse tipo de participação tem como objetivo identificar itinerários que, efetivamente, atendam a necessidade de sua clientela. Assim, torna-se fundamental para sua elaboração que a escuta da comunidade escolar seja realizada por meio de instrumentos como rodas de conversa, questionários físicos e/ou questionários virtuais. Esses instrumentos devem ser pensados e analisados a fim de servir para identificação dos anseios da comunidade escolar e, consequentemente, fomentar a construção participativa, fortalecendo o sentimento de pertencimento de todos junto à escola e atendendo os interesses das juventudes, de maneira contextualizada e vinculada ao mercado de trabalho e potencialidades locais.\n\nPorém, deve-se considerar as possibilidades estruturais e de recursos das escolas ou redes de ensino para elaboração e oferta dos itinerários. Esta análise de viabilidade é essencial para a efetivação do itinerário e formação dos estudantes e, portanto, requer um trabalho integrado entre escolas e as redes e instituições de ensino.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

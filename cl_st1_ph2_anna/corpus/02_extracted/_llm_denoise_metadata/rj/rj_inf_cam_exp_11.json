@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_048af413c157caef006ab30a94ca5c87d2b3a2202337623553",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 771,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 826,
+      "output_tokens_details": {
+        "reasoning_tokens": 150
+      },
+      "total_tokens": 1597
+    }
+  },
+  "created_at": "2026-09-22T23:09:14Z",
+  "duration_seconds": 6.097,
+  "error": null,
+  "excerpt_id": "rj_inf_cam_exp_11",
+  "filename": "rj_inf_cam_exp_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "836d7fbf9bd58aa9386d07b497cdedc0c76612adb67171972e42374edc461f95",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f45fabf7572e7a12c37c4207440de665926c7377a4dbcaaf7600104e6743d8c3",
+    "rendered_prompt_sha256": "9bd4fc09c4c652d4fbd1be6feaf7bceca4a6275924ef82c3df435033c15f7db3",
+    "source_text_sha256": "d7cac9f533699180570b8e72867fad0af00fbc68a1fa1946bd670da372fd20e8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_cam_exp_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2895,
+    "filename": "rj_inf_cam_exp_11.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_cam_exp_11.txt",
+    "state": "rj",
+    "word_count_original": 495
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_cam_exp_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_cam_exp_11.json"
+  },
+  "raw_response_text": "A capacidade de criança construir representações e expressá-las pela linguagem verbal se desenvolve conforme a criança interage com pessoas mais experientes e busca captar os signos e símbolos construídos socialmente, presentes nos comportamentos de seus parceiros humanos e expressos na oralidade ou na escrita no ambiente em que ela convive.\n\nA linguagem oral (ou a língua de sinais) atravessa todo o cotidiano das crianças na Educação Infantil. Através da oralidade (ou da vocalização e sinalização, no caso de crianças com deficiência auditiva) as crianças expressam vontades, desejos, fazem perguntas, contam casos, concordam ou discordam de um colega ou da professora e são muito interessadas no efeito que suas manifestações verbais provocam em outras pessoas. Também as falas dos parceiros adultos e crianças, de artistas em programas de televisão ou de personagens das histórias lidas são objeto de observação curiosa e de imitação pelas crianças e lhes abrem um universo maior de fontes de apropriação da oralidade (ou língua de sinais). Sua aquisição assegura às crianças a possibilidade de participar de situações cotidianas onde podem comunicar-se, conversar, ouvir histórias, narrar, contar um fato, brincar com palavras, expressar sua opinião, comparar conceitos, construindo estratégias para conhecer o mundo.\n\nA criança, por sua vez, conforme amplia suas experiências na cultura, percebe que muitas vezes os adultos com quem convive se ocupam de compreender instruções em embalagens, fazer pedidos ou dar informações por meio de grafismos, que se referem à linguagem escrita, carregada de novas características, que estimulam a criança a buscar compreender seu funcionamento no contexto em que vive.\n\nA denominação deste campo busca evidenciar a estreita relação entre os atos de falar e escutar com a constituição da linguagem e do pensamento humanos, desde a infância. A aproximação de diferentes linguagens traz para o cotidiano das unidades de Educação Infantil momentos de “escutar”, no sentido de produzir/acolher mensagens orais, gestuais, corporais, musicais, plásticas, além das mensagens trazidas por textos escritos, e “falar”, entendido como expressar/interpretar não apenas pela oralidade, mas também pela linguagem de sinais, pela escrita convencional ou não convencional, pela escrita braile, e também pelas danças, desenhos e outras manifestações expressivas.\n\nEscutar e falar não se restringem a um só campo de experiências, mas são atos transversais a todos os campos, embora aqui apresentado com mais profundidade. No sentido de dar força ao olhar para a pluralidade de linguagens que preside a educação em geral, e a Educação Infantil em particular, e considerando que a linguagem verbal não se separa completamente da linguagem corporal, musical, plástica e dramática, será feita a necessária aproximação entre o campo escuta, fala, pensamento e imaginação e os demais campos de experiências. Para tanto contamos com o apoio das DCNEI (Parecer CNE/CEB nº 20/09), para quem as práticas pedagógicas vividas na Educação Infantil devem garantir experiências que \"favoreçam a imersão das crianças nas diferentes linguagens e o progressivo domínio por elas de vários gêneros e formas de expressão: gestual, verbal, plástica, dramática e musical\".",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

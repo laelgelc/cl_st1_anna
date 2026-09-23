@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04c8081f0386c3cd006ab30be44f4c87d291339f6a42d4f140",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 577,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 562,
+      "output_tokens_details": {
+        "reasoning_tokens": 88
+      },
+      "total_tokens": 1139
+    }
+  },
+  "created_at": "2026-09-22T23:14:48Z",
+  "duration_seconds": 4.333,
+  "error": null,
+  "excerpt_id": "ro_em_100",
+  "filename": "ro_em_100.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d82eea7a1c9df398f93737d993d7457fe5a0c986b9108dbc3ea15840aeaf48af",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ad195993c5c3fa252874c71b7dcee51bc66b9967870be24a70a531a9f0f294bf",
+    "rendered_prompt_sha256": "56098971b40b3d76cc78c042abbe2c94dd54124f3a07fdab00aaeb958e937898",
+    "source_text_sha256": "8847f93b93635ed309b42db083150b6a0b586eb84f30da13960f2cf24faaad07"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_100.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3207,
+    "filename": "ro_em_100.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_100.txt",
+    "state": "ro",
+    "word_count_original": 340
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_100.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_100.json"
+  },
+  "raw_response_text": "### 3.3.8.9.A Avaliação do Professor\n\nOs quadros de avaliação utilizados pelo professor permitem realizar o acompanhamento detalhado do desenvolvimento da aprendizagem dos estudantes. Eles contêm os objetivos propostos ou pretendidos, as atividades propostas no desenvolvimento do capítulo e a observação das atitudes. Na sequência, oferecemos uma proposta, que pode ser alterada ou complementada a seu critério.\n\nNa perspectiva da construção do projeto de vida, considera-se importante fundamentar a avaliação nos objetivos definidos para as aulas, levando em consideração, de modo geral:\n\n- a produção dos estudantes no que diz respeito ao acompanhamento de seu processo de escolha;\n- os caminhos percorridos para resolver os problemas;\n- os argumentos que os estudantes utilizam entre si quando trabalham em grupo;\n- a capacidade para estabelecer metas, planejar e perseguir com determinação, autoconfiança e persistência os projetos e compreender o mundo do trabalho, as tendências e as novas profissões.\n\nComo sugestão, apresentamos os quadros a seguir com etapas de avaliação que podem ser trabalhadas com o Projeto de Vida. Esses quadros também podem ser usados em autoavaliações, conforme modelos indicados na sequência.\n\nNesse caso, podemos adotar um critério de avaliação de acordo com a legenda a seguir:\n\n- Para os objetivos e atividades: AT, atingido totalmente; AP, atingido parcialmente; AR, atingido com muitas restrições; NA, não atingido.\n- Para as atitudes: S, sempre; AV, às vezes; R, raramente; N, nunca.\n\nEm um primeiro momento, mapeamos os instrumentos avaliativos, assim como seus agentes.\n\nCom base nos resultados dessas avaliações, podem ser levantados os pontos positivos e os que trouxeram maior desafio. Assim, nas próximas etapas do processo de aprendizagem, esses pontos podem ser usados como diretrizes para o desenvolvimento das ações, buscando aprimorar os aspectos críticos e investir nos caminhos que repercutiram positivamente na construção do Projeto de Vida.\n\nPortanto, as propostas avaliativas apresentadas são cruciais caso haja um grupo com diferenças significativas de conhecimentos, habilidades, atitudes e valores, pois uma avaliação formativa permite a observação atenta aos processos de aprendizagem de cada indivíduo, dando maior ênfase e importância ao percurso do que ao destino final.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

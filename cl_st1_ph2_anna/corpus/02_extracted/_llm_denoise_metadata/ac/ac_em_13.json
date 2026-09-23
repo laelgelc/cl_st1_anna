@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d29c60fed3ed3e2006ab2fbc43df487d2aca9a7b6b5d55189",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 816,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 727,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 1543
+    }
+  },
+  "created_at": "2026-09-22T22:06:02Z",
+  "duration_seconds": 5.842,
+  "error": null,
+  "excerpt_id": "ac_em_13",
+  "filename": "ac_em_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "72888bb5a20ea8204683ff63abb4eb38c33bfa7522229cf446fdb578b7fe6dae",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1922e4dded26b587fac71cb231ecc869ac467e40e8421a2dc7d2480b0d758f9a",
+    "rendered_prompt_sha256": "f124bd5020be5c4d9b7e1eb34d3bb12bded7a5c57c06bd8bffef0fe78e148550",
+    "source_text_sha256": "3a814e54d7149d86934a67f872b986f7f9c190bb8f02c2177e2f1e4d760b7353"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 51,
+    "filename": "ac_em_13.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_13.txt",
+    "state": "ac",
+    "word_count_original": 469
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_13.json"
+  },
+  "raw_response_text": "## 10. Modalidades de ensino\n\nA Educação Básica, a partir da Lei de Diretrizes e Bases da Educação (LDB – 9.394/96) passou a ser estruturada por etapas e modalidades de ensino, englobando a Educação Infantil, o Ensino Fundamental obrigatório de nove anos e o ensino médio. Essa etapa final do processo formativo da Educação Básica é orientada por princípios e finalidades que preveem: a consolidação e o aprofundamento dos conhecimentos adquiridos no Ensino Fundamental, possibilitando o prosseguimento de estudos; a preparação básica para a cidadania e o trabalho, sendo este o princípio educativo para continuar aprendendo, de modo que o estudante seja capaz de enfrentar novas condições de ocupação e aperfeiçoamento posteriores; o desenvolvimento do educando como pessoa humana, incluindo a formação ética e estética; o desenvolvimento da autonomia intelectual e do pensamento crítico; a compreensão dos fundamentos científicos e tecnológicos presentes na sociedade contemporânea, relacionando a teoria com a prática.\n\nO ensino médio no Acre necessita ter uma base unitária sobre a qual podem se assentar possibilidades diversas, como a preparação geral para o trabalho ou, facultativamente, para profissões técnicas, para a ciência e tecnologia, como iniciação científica e tecnológica e para cultura, como ampliação da formação cultural. Tudo isso se reflete no Currículo Referência do Ensino Médio do Acre que aponta caminhos.\n\nA proposta é elucidar as terminologias mais comuns de cada modalidade, trazendo os seus significados necessários e importantes à educação aplicadas da rede, tais como equidade, protagonismo, flexibilidade, coletividade, respeito, inclusão e dignidade. Nesse sentido, o Currículo Referência organiza-se de modo a assegurar a integração entre os sujeitos, o trabalho, a ciência, a tecnologia e a cultura.\n\nA implementação do Currículo nas redes de ensino do estado pressupõe um claro compromisso em garantir Educação Básica a segmentos da população que, devido às distintas características socioculturais e/ou às diversas situações de vulnerabilidades, requerem atendimento educacional inclusivo para efetivar seu direito à educação. Tal população é composta de uma diversidade étnica e cultural que inclui comunidades indígenas, comunidades quilombolas, autodeclarados negros e pardos, populações prisionais, adolescentes em cumprimento de medidas socioeducativas, comunidades do campo, estudantes migrantes internacionais, estudantes itinerantes, etc.\n\nPara que tal objetivo seja alcançado, é preciso criar possibilidades para que esses estudantes desenvolvam suas habilidades. Dessa forma, os conteúdos curriculares devem ser adaptados, considerando as especificidades de cada estudante, respeitando, assim, as potencialidades e dificuldades individuais – ritmos diferentes de aprendizagem – por meio de estratégias diversificadas de ensino.\n\nPara promover uma educação integral com equidade, o Currículo de Referência do Acre considera que as temáticas, os atendimentos e as modalidades de ensino permeiam os diversos componentes curriculares de todas as etapas da vida escolar. Nesse sentido, deve-se possibilitar o desenvolvimento de competências e habilidades ancoradas num atendimento educacional inclusivo e no reconhecimento de demandas e contextos socioculturais inerentes aos diversos segmentos da população.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

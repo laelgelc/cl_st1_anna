@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08e3dc7ec6d2eff2006ab3047182b487d2b6e24f04ba2e4213",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 933,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1258,
+      "output_tokens_details": {
+        "reasoning_tokens": 482
+      },
+      "total_tokens": 2191
+    }
+  },
+  "created_at": "2026-09-22T22:43:13Z",
+  "duration_seconds": 16.505,
+  "error": null,
+  "excerpt_id": "mt_ef_51",
+  "filename": "mt_ef_51.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "29f22664e0c41f31e601784e68c9f1fc7d7d0cbe0efb6b2603f87b20b7a54a17",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cbe29a4878ea7329b3992e39891ff823d34b1d723d80d97434affd2247a98ce2",
+    "rendered_prompt_sha256": "ba2ccf53ba0c98f3fab61617e9c949c6105f981134657df3f7216a24d2075b36",
+    "source_text_sha256": "57870b1b50b083f2a5726a092c9c36d47afee387ab8e336f97b7d3cd1dd08c30"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_51.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1846,
+    "filename": "mt_ef_51.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_51.txt",
+    "state": "mt",
+    "word_count_original": 518
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_51.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_51.json"
+  },
+  "raw_response_text": "### 1.3.2. Objetivos do Componente Curricular\n\nCompreende-se, portanto, que, dentre as finalidades dos componentes curriculares em questão, há a possibilidade do autoconhecimento das identidades locais a partir da reflexão sobre as informações sobre a língua do outro.\n\nA BNCC (BRASIL, 2017, p. 241) entende que aprender outro idioma\n\nPropicia a criação de novas formas de engajamento e participação dos estudantes em um mundo social cada vez mais globalizado e plural, em que as fronteiras entre países e interesses pessoais, locais, regionais, nacionais e transnacionais estão cada vez mais difusas e contraditórias.\n\nEmbora por muito tempo conhecimentos descontextualizados e memorizados tenham sido postos em prática, o atual contexto histórico e social urge por um ensino-aprendizado diferenciado, contextualizado e significativo. Por isso, o professor de língua estrangeira também considerará a dimensão e a importância de outro idioma no mundo globalizado, procurando entender como seu estudante, nos mais diversos contextos de circulação, poderá utilizar essa língua com autoria e de forma relevante.\n\nA unidade escolar poderá agir como um constructo único e mover-se para uma mesma direção: a formação do estudante como um cidadão multiletrado e crítico. A fim de atingir tais objetivos, o trabalho nas aulas de Língua Inglesa e Língua Espanhola irá acontecer nos seguintes eixos:\n\na) Oralidade: “as práticas de linguagem em situações de uso oral da língua inglesa/espanhola, com foco na compreensão (ou escuta) e na produção oral (ou fala), articuladas pela negociação na construção de significados partilhados pelos interlocutores e/ou participantes envolvidos, com ou sem contato face a face” (BRASIL, 2017, p. 241).\n\nb) Leitura: “aborda práticas de linguagem decorrentes da interação do leitor com o texto escrito, especialmente sob o foco da construção de significados, com base na compreensão e interpretação dos gêneros escritos em língua inglesa/espanhola, que circulam nos diversos campos e esferas da sociedade” (BRASIL, 2017, p. 241).\n\nc) Escrita: “consideram dois aspectos do ato de escrever. Por um lado, enfatizam sua natureza processual e colaborativa [...] Por outro lado, o ato de escrever é também concebido como prática social e reitera a finalidade da escrita condizente com essa prática, oportunizando aos estudantes agir com protagonismo” (BRASIL, 2017, p. 242).\n\nd) Conhecimentos linguísticos: “consolida-se pelas práticas de uso, análise e reflexão sobre a língua, sempre de modo contextualizado, articulado e a serviço das práticas de oralidade, leitura e escrita” (BRASIL, 2017, p. 243).\n\ne) Dimensão intercultural: “compreensão de que as culturas, especialmente na sociedade contemporânea, estão em contínuo processo de interação e (re)construção” (BRASIL, 2017, p. 243).\n\nDiante disso, observando os eixos, segundo Albuquerque (2007, p. 19), para que leitores e escritores autônomos sejam formados “é importante a interação com diferentes gêneros textuais, com base em contextos diversificados de comunicação”, ou seja, o aprendizado efetivo de outro idioma acontece a partir da criação de oportunidades para que os estudantes possam se familiarizar com textos e contextos reais.\n\nConforme as competências da Base Nacional Comum Curricular, as práticas pedagógicas promoverão, nos estudantes, maior entendimento de si e de outros sujeitos no meio em que vivem, além da capacidade de questionar e ser socialmente ativo e crítico.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d1e5856443a2ee7006ab303a3fd3087d2beb176efe564d4da",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 934,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 909,
+      "output_tokens_details": {
+        "reasoning_tokens": 132
+      },
+      "total_tokens": 1843
+    }
+  },
+  "created_at": "2026-09-22T22:39:39Z",
+  "duration_seconds": 7.876,
+  "error": null,
+  "excerpt_id": "ms_em_21",
+  "filename": "ms_em_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8b054219ad6f5b0a502d9ef97c57cd0beec86667a2f7862949aa05b64cd8ace1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2000aad82e47e37cf7d878773556156e14055cec3643ca21ed0f6a9d59e81172",
+    "rendered_prompt_sha256": "bf89ebd3864995cf407e3c1da49a960ee6fdba41bd6ef322201d1907b6bf2c18",
+    "source_text_sha256": "0b2b1c6cf10fee5a5b2eac363dfc081d092bba85efc304899b7bc3ac10ed320d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1685,
+    "filename": "ms_em_21.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_21.txt",
+    "state": "ms",
+    "word_count_original": 548
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_21.json"
+  },
+  "raw_response_text": "### 2.5.1. Competências Socioemocionais\n\nA educação para o Século XXI visa desenvolver integralmente o estudante em todas as suas dimensões (intelectual, física, afetiva, social, ética, moral e simbólica) (BRASIL, 2018c, p. 14), para que atue de forma autônoma e seja protagonista de sua história, descubra, compreenda e reflita sobre o sentido e significado da vida, amplie a compreensão sobre o valor das relações humanas e desenvolva a visão ética e cidadã.\n\nNesse contexto, a escola é ambiente e lugar propício para socializar o conhecimento e desenvolver ações que possibilitem ao estudante aprendizagens fundamentadas na Educação Integral, potencializar o reconhecimento da realidade na qual está inserido, a fim de tomar decisões de forma crítica e ética para modificá-la, identificar a trajetória a percorrer, enfrentar os desafios contemporâneos com a intencionalidade de traçar (ou planejar) seu projeto de vida.\n\nA SED/MS, por meio de parceria, utiliza em documentos e formações continuadas de professores as teorias pesquisadas e organizadas pelo Instituto Ayrton Senna, que participa desde 2018 da escrita do Currículo de Referência de Mato Grosso do Sul, nas etapas da Educação Infantil, do Ensino Fundamental e do Ensino Médio, e adota um modelo científico que agrupa as competências socioemocionais em cinco grandes domínios: autogestão, engajamento com os outros, amabilidade, resiliência emocional e abertura ao novo. Esses domínios são entendidos como cinco macrocompetências, e em cada um deles encontram-se competências mais específicas, fortemente relacionadas entre si. As competências socioemocionais podem ser compreendidas da seguinte forma, conforme o Instituto Ayrton Senna:\n\n> Competências socioemocionais são compreendidas como capacidades individuais que se manifestam de modo consistente em padrões de pensamentos, sentimentos e comportamentos. Por algum tempo, acreditou-se que essas competências eram inatas e fixas, sendo a primeira infância o estágio onde ocorria a maior parte do desenvolvimento delas. Hoje, com o avanço da neurociência, sabe-se que o desenvolvimento humano é complexo e permanente e que as competências socioemocionais são maleáveis e possíveis de serem desenvolvidas tanto em experiências de aprendizagem que acontecem na escola como fora de seus muros (INSTITUTO AYRTON SENNA, 2019).\n\nAssim, para o contexto brasileiro, destaca-se um total de 17 competências consideradas mais essenciais para serem desenvolvidas nas escolas, ao lado de outras competências cognitivas e também das chamadas competências híbridas, tais como a criatividade e o pensamento crítico.\n\nFonte: Instituto Ayrton Senna.\n\nEm linhas gerais, faz-se necessário desenvolver um trabalho em todas as etapas da Educação Básica, sem rupturas, de modo que os estudantes possam transpor uma etapa a outra com a continuidade de percepções, conjunturas e produção do seu projeto de vida.\n\nNesse sentido, ressalta-se que nos anos iniciais do Ensino Fundamental o desdobramento de atividades é em torno do conceito e descoberta das emoções – alfabetização/educabilidade emocional. Nos anos finais do Ensino Fundamental, o intuito é desenvolver no estudante a autorreflexão e o autoconhecimento de “quem sou” e “o que quero ser”, fomentando sonhos e expectativas de vida para que, no Ensino Médio, sua percepção de mundo possa ser ampliada por meio da consolidação de conhecimentos, valores, princípios e habilidades, a fim de auxiliá-lo no entendimento de si mesmo e do outro, com o reconhecimento de suas potencialidades e fragilidades, trabalhando de forma eficiente durante o processo de sua projeção de futuro no âmbito pessoal, social e profissional.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

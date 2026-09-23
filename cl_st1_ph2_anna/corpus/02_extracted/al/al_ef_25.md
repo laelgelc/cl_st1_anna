@@ -1,0 +1,35 @@
+# ANOS INICIAIS DO ENSINO FUNDAMENTAL
+
+Muito já se falou aqui sobre as concepções do componente propostos neste documento, mas agora ganham destaque as concepções que envolvem os processos, diretamente ligados aos primeiros anos do ensino de Língua Portuguesa no Ensino Fundamental: alfabetização, ortografização e letramento.
+
+Aqui, buscam-se ampliar experiências das crianças vindas das instituições de educação infantil, sobretudo, as experiências ligadas ao campo “Escuta, fala, pensamento e imaginação”.
+
+## 7. PROCESSOS NOS ANOS INICIAIS
+
+A BNCC apresenta dois processos de análise linguística: alfabetização, no 1º e 2º anos, e ortografização, sobretudo, do 3º ao 5º, onde também aparecem os aspectos notacionais (pontuação, acentuação, etc.). E o letramento, que perpassa os dois primeiros ciclos e mais a etapa dos Anos Finais também, ou seja, alfabetização e letramento devem acontecer enquanto sinônimos.
+
+### 7.1 Alfabetização
+
+Além da preocupação com as práticas sociais de leitura e escrita, isto é, uma perspectiva enunciativa e discursiva, que percorre toda a fundamentação das orientações da BNCC, e anunciam a forte presença da perspectiva da alfabetização, relacionada ao letramento, o desenvolvimento de uma consciência fonológica dos fonemas do português do Brasil e o conhecimento do alfabeto desse português, em seus vários formatos, além do estabelecimento de relações grafofônicas entre esses dois sistemas de materialização da língua; são direitos de aprendizagem definidos para a alfabetização, que espera-se que ocorra nos dois primeiros anos do Ensino Fundamental. Neste referencial, adotamos as mesmas orientações previstas na BNCC.
+
+A decodificação (processo de leitura) e codificação (processo de escrita), ou seja, a apropriação do sistema de escrita alfabética, necessitam, para se efetivarem, da tomada da consciência fonológica. Embora se deva considerar sua relação com o letramento, todas as etapas da alfabetização precisam ser pensadas de forma distinta, pois esse processo, diferente da aquisição da fala, não é natural, é convencional. Pensar em cada etapa e perceber a maturidade biológica, o desenvolvimento motor e cognitivo da criança para cada uma destas fases do processo, faz toda a diferença para uma educação bem-sucedida ou não.
+
+O professor alfabetizador precisa estudar bem, em suas formações inicial e continuada, todos os processos envolvidos na alfabetização, pois suas intervenções, como mediador da apropriação do sistema alfabético, garantirá uma aquisição, por parte dos estudantes, sem traumas e garantirá a formação de leitores e produtores textuais eficientes.
+
+A prática de linguagem de Análise Linguística/Semiótica está muito fortemente relacionada ao processo da alfabetização nos dois primeiros anos do Ensino Fundamental, como pode ser visto no Organizador Curricular do componente (ver anexo).
+
+O Campo de experiência Traços, sons, cores e formas, da Educação Infantil, contempla atividades lúdicas que certamente contribuirão para os processos de desenvolvimento da consciência fonológica, por exemplo, ao propor atividades de aliteração e rimas, com músicas, trava-línguas, etc., que podem e devem ser retomadas, durante a alfabetização. Selecionar músicas da cultura local, ou comuns ao convívio social das crianças, por exemplo, faz com que o processo de alfabetização seja também um processo de letramento.
+
+### 7.2 Ortografização
+
+Esse processo, de reconhecimento das regularidades e irregularidades da Língua Portuguesa do Brasil, que complementa a alfabetização, como um processo dos Anos Iniciais, é um processo mais longo, e deve ser focalizado, sobretudo, com mais amplitude, do 3º ao 5º ano, da primeira etapa. Conforme a BNCC,
+
+> “na construção do conhecimento da ortografia do Brasil, há três relações que são muito importantes: a) as relações entre a variedade de língua oral falada e a língua escrita (perspectiva sociolinguística); b) os tipos de relações fono-ortográficas do português do Brasil; e c) a estrutura da sílaba do português do Brasil (perspectiva fonológica). Há, ainda, outros tipos de regularidades de representação: as regulares contextuais e as regulares morfológico-gramaticais, para as quais o estudante, ao longo de seu aprendizado, pode ir construindo “regras”. As regulares contextuais têm uma escrita regular (regrada) pelo contexto fonológico da palavra; é o caso de: R/RR; S/SS; G+A,O,U/GU+E,I; C+A,O,U/QU+E,I; M+P,B/N + outras, por exemplo“
+>
+> (BNCC, 2017).
+
+### 7.3 Letramento
+
+Esse processo, que envolve a leitura e escrita de textos escritos, sobretudo, como dito anteriormente, envolve todos os anos do Ensino Fundamental I, não apenas relacionado ao processo de alfabetização. Aos estudantes devem ser dadas oportunidades de participação de situações de leitura e produção e revisão de textos antes, durante e depois da alfabetização. Isso permitirá que se ampliem seu repertório de conhecimentos, quanto o seu processo de letramento, melhores condições de produzir textos escritos de diferentes gêneros e para diferentes finalidades.
+
+Os processos de alfabetização e ortografização contribuem para a definição de atividades, textos e gêneros abordados nos Anos Iniciais: a leitura e a produção compartilhadas com o docente e os colegas, os gêneros propostos para leitura/escuta e produção oral, escrita e multissemiótica, nos primeiros Anos Iniciais, serão mais simples, tais como listas, bilhetes, convites, fotolegenda, manchetes, etc., pois favorecem um foco maior na grafia, tornando-se mais complexas, conforme se avança nos Anos Iniciais.

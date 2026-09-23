@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04bdd2e2ed00e1e0006ab308db752487d2a800a48d649cf8b2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 427,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 618,
+      "output_tokens_details": {
+        "reasoning_tokens": 341
+      },
+      "total_tokens": 1045
+    }
+  },
+  "created_at": "2026-09-22T23:02:19Z",
+  "duration_seconds": 32.781,
+  "error": null,
+  "excerpt_id": "pi_em_53",
+  "filename": "pi_em_53.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0eecb1de5100b0e5ee6c928b000cf4360a81c8dfad806ff8f6bcdd9c8702efd6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a705cbf6e1a1d33df9b324f38d82bd6b66cbb333df4b4ef757663fb4a3a2c670",
+    "rendered_prompt_sha256": "15a640a8de1ffd74036a61f5813dc93d5a97d0adc0de0bb53fbb96231bc46e38",
+    "source_text_sha256": "0fe61a6276fb43504574c3ba1e8dddb751d6996ce162f927a7efaceee5ac1599"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_em_53.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2633,
+    "filename": "pi_em_53.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_em_53.txt",
+    "state": "pi",
+    "word_count_original": 203
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_em_53.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_em_53.json"
+  },
+  "raw_response_text": "# Componentes Curriculares\n\nA área de Ciências Humanas e sociais aplicadas tem por objetivo o estudo dos seres humanos em suas múltiplas dimensões; filosóficas, geográficas, históricas e sociológicas. Partindo desta perspectiva, a área é integrada pelos componentes de Filosofia, Geografia, História e Sociologia, onde cada um contribui com suas especificidades para consolidação da aprendizagem na área de humanidades. Assim, a Filosofia trata do ser humano e dos paradigmas; a Geografia trabalha as relações de sociedade e natureza sempre em uma perspectiva crítica, autoral e reflexiva; a História trabalha os processos e dinâmicas de diferentes tempos, espaços e sociedades; e a Sociologia trata das instituições e dos grupos sociais, buscando desenvolver o protagonismo dos indivíduos como seres coletivos.\n\nO conhecimento promovido pelo conhecimento com conceitos, práticas e narrativas próprias de cada componente leva os estudantes a desnaturalizar seu cotidiano e, assim, conduzir a percepção de uma interculturalidade-espaço-temporal de experiências, normas de convívio, condutas e papéis sociais necessários para a vida em sociedade, de forma a contribuir para formação integral e cidadã dos estudantes.\n\nCom fito de ressaltar a contribuição de cada componente para a área, a seguir é feita a apresentação destes e de suas abordagens específicas.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

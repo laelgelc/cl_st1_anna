@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d8a62d4b50a2c93006ab2fcd9f0c487d28e6e2bedbac65f62",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1315,
+      "input_tokens_details": {
+        "cache_write_tokens": 1312,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1385,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 2700
+    }
+  },
+  "created_at": "2026-09-22T22:10:43Z",
+  "duration_seconds": 9.709,
+  "error": null,
+  "excerpt_id": "al_em_44",
+  "filename": "al_em_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "50d96e11b3564d99544bc7fe1d398ce62170c31d4bb312d642d30e31020ab167",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b9007bf93e60eabb6471e58e88a50e5dc0037da4fe0c8669a674aebfd6c620e4",
+    "rendered_prompt_sha256": "eea5953e5d54536e5793cc6b6d7cfbd1f0d46ecd1d76f7aacda67603333f9c44",
+    "source_text_sha256": "7aa02b1c9d0739874e54b82aa4f02cddb7a58a0add0f33022e3c65cbb2f30d13"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_em_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 279,
+    "filename": "al_em_44.txt",
+    "filepath": "corpus/00_source_per_state/al/al_em_44.txt",
+    "state": "al",
+    "word_count_original": 868
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_em_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_em_44.json"
+  },
+  "raw_response_text": "Além da discussão e planejamento das unidades curriculares e formas do trabalho didático-pedagógico com as Áreas de Conhecimento e a BNCC, destaca-se a importância de planejar como acontece a rotina do: Aprofundamento, Ofertas Eletivas e Projeto de Vida, ou seja, a parte flexível do currículo do Ensino Médio. Neste sentido, destacamos a seguir alguns aspectos fundamentais a serem considerados.\n\n## FORMAS DE ARTICULAÇÃO DAS UNIDADES CURRICULARES (PROJETOS, ATELIÊS E LABORATÓRIOS DE ENSINO)\n\nO planejamento das atividades escolares deve ocorrer de forma interdisciplinar, visando a integração e articulação das diferentes Áreas do Conhecimento, estudos e práticas e com foco nas habilidades a serem desenvolvidas. A organização por Áreas do Conhecimento possibilita essa articulação dos conhecimentos de cada unidade curricular, mas preservando seus conceitos, procedimentos e atitudes. Essa integração encontra espaço propício para acontecer no planejamento para o trabalho nos Ateliês Pedagógicos e Laboratórios de Aprendizagem, assim como no trabalho por meio de Projetos integradores e desenvolvimento de oficinas mão na massa. As unidades curriculares devem estar sempre articuladas de forma a potencializar as aprendizagens.\n\nNa elaboração dos Itinerários Formativos de Áreas do Conhecimento é essencial assegurar o desenvolvimento dos quatro eixos estruturantes e suas respectivas habilidades, bem como certificar-se de que os objetos de conhecimento abordados não sejam os mesmos da Formação Geral, mas, de fato, aprofundem ou ampliem aqueles já trabalhados. Da mesma forma, os Itinerários Formativos de Formação Técnica e Profissional precisam levar em consideração os quatro eixos estruturantes e suas habilidades no Módulo de Formação para o Mundo do Trabalho, além de garantir que as Matrizes Curriculares dos Cursos Técnicos dialoguem com as Competências Gerais da BNCC.\n\nPara os Itinerários Formativos, orienta-se que, no planejamento, a escola ou rede de ensino possa responder às seguintes situações:\n\n### Quais as possibilidades de Aprofundamento?\n\nOs Aprofundamentos representam um diferencial no currículo do Ensino Médio. Para que as aprendizagens promovidas pela Formação Geral sejam aprofundadas e ampliadas, é necessário que os Itinerários Formativos de Áreas do Conhecimento abordem temáticas contemporâneas contextualizadas e que levem em consideração os interesses dos estudantes. No caso do Itinerário Formativo de Formação Técnica e Profissional, o aprofundamento ocorre a partir do desenvolvimento de habilidades básicas exigidas pelo mundo do trabalho, e habilidades específicas dos Cursos Técnicos, Cursos de Qualificação Profissional (FICs) ou Programa de Aprendizagem Profissional escolhidos.\n\n### Quais as possibilidades do Projeto de Vida?\n\nO Projeto de Vida deve ser uma unidade curricular, presente nos três anos do Ensino Médio, com carga horária mínima de dois tempos de aula por semana e material específico para trabalhar didático-pedagógico e processos de ensino e aprendizagem. O trabalho com o projeto de vida deve estar alinhado com a comunidade escolar e ocorrer também em diversos momentos na escola, não apenas no tempo de aula do componente curricular. Isso possibilitará o desenvolvimento do projeto de vida de cada estudante, estimulando o autoconhecimento, a ampliação da sua percepção de mundo, preparando o jovem para fazer planejar e fazer escolhas em toda a sua trajetória. O Projeto de Vida tem caráter eminentemente transversal à trajetória do estudante do ensino médio, bem como à trajetória já construída na educação básica. Neste sentido, todas as propostas de ensino presentes no itinerário formativo e formação geral, devem considerar grande articulação e integração com a unidade curricular Projeto de Vida. Tudo concorre ou converge para o apoio e desenho do Projeto de Vida do estudante. Todo o processo deve ser permeado por vivências que lhes permitam desenvolver competências como autoconfiança, determinação e resiliência, dentre outros.\n\n### Quais as possibilidades da Oferta Eletiva?\n\nAs eletivas devem ser idealizadas com temas que promovam diferentes vivências e aprendizagens, enriquecendo o Itinerário Formativo. Devem estar articuladas com as Áreas do Conhecimento, itinerários formativos, os eixos estruturantes e as Competências Gerais da BNCC, ter caráter lúdico e prático e, sempre com intencionalidade pedagógica. A recomendação é que as eletivas sejam construídas pelos professores, considerando territórios, escutas qualificadas, sugestões e interesses dos estudantes, mediante um processo validado pela escola e, no caso da rede estadual de ensino, pela SEDUC/AL. Orienta-se a composição de uma catálogo de eletivas, o qual será formado pelas unidades curriculares eletivas validadas, assim podem passar a compor um catálogo de possibilidades de oferta para a rede ou escola. Destaca-se a importância de escutas dos estudantes e mundo do trabalho, promovendo observação qualificada do ambiente, para definir quais os melhores caminhos para preparação e intervenção sustentável. Na Formação Técnica e Profissional, as FICs (Curso de Qualificação Profissional) também podem ser ofertadas como eletivas.\n\nA carga horária do Itinerário Formativo, ao longo dos três anos de formação estudante, deve ser distribuída, conforme Aprofundamento, Projeto de Vida e Eletivas, que devem ser propostas pedagógicas da rede de ensino e unidade de ensino ofertante. Por fim, é importante observar que o desenvolvimento das habilidades previstas nos Itinerários Formativos demandam a aplicação de metodologias ativas e diversificadas, bem como o foco deve ser maior no protagonismo dos estudantes. Tais especificidades também requerem criatividade e inovação no que diz respeito à elaboração de arranjos curriculares que oportunizem mudanças significativas na organização de tempos, espaços e práticas escolares, de forma a assegurar que façam mais sentido e gerem mais aprendizagem e desenvolvimento para jovens do século XXI.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

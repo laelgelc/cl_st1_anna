@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01f92c158092ff3d006ab309669c7487d2aac7291bf46572f0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 547,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 509,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 1056
+    }
+  },
+  "created_at": "2026-09-22T23:04:10Z",
+  "duration_seconds": 4.383,
+  "error": null,
+  "excerpt_id": "pr_em_118",
+  "filename": "pr_em_118.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2c404e7378468e7f1219aa42b48508c15cdc14f829e2ce191bc3fffab67f2db2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "677c195f5b71ddcc0927069a7eb8d8c56fd5395dfd1ad617cff2d386c9a2cb0d",
+    "rendered_prompt_sha256": "ae749894096a24dd7bf102ba4de3fdd8006981c2b8b47b5f139899063ec5b1a5",
+    "source_text_sha256": "5873d4f47abfb13b8ffa374580a36069f65bcbee44862fe7b9de68a4c3cd782d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_118.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2703,
+    "filename": "pr_em_118.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_118.txt",
+    "state": "pr",
+    "word_count_original": 267
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_118.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_118.json"
+  },
+  "raw_response_text": "## 2. ITINERÁRIO FORMATIVO DE APROFUNDAMENTO NA ÁREA DE MATEMÁTICA E SUAS TECNOLOGIAS\n\nA Matemática é um caminho para o desenvolvimento do raciocínio lógico, da capacidade de abstração e da compreensão do mundo. Favorece a tomada de decisões e a análise crítica de fenômenos sociais, econômicos, culturais e ambientais. Suas especificidades intrínsecas, relacionadas à sua natureza abstrata e ao rigor lógico, fundamentam-se no raciocínio dedutivo e na capacidade de generalização.\n\nConforme estabelecido pela BNCC, as habilidades matemáticas estão organizadas segundo unidades de conhecimento da própria área, a saber: Números, Álgebra, Geometria, Probabilidade e Estatística, Grandezas e Medidas, as quais são desenvolvidas ao longo de toda a Educação Básica, de maneira a atender e respeitar o domínio cognitivo esperado para cada etapa de escolarização.\n\nNesse contexto, o Itinerário Formativo de Aprofundamento (IFA) na área de Matemática, por meio de projetos integradores alinhados aos Temas Contemporâneos Transversais apresentados na BNCC, busca a superação da fragmentação do conhecimento matemático e sua conexão às práticas sociais e a situações da vida cotidiana, bem como assegurar a presença e a articulação dos eixos curriculares estruturantes: Método, Conhecimento e Ciência; Mediação e Intervenção Sociocultural; Inovação e Intervenção Tecnológica; Mundo do Trabalho e Transformação Social.\n\nA articulação desses quatro eixos visa a formação integral dos estudantes, na medida em que desenvolve o conhecimento científico, a iniciativa de intervenção social, a compreensão e análise de problemas complexos do cotidiano, o protagonismo juvenil e o seu projeto de vida.\n\nA seguir, serão apresentados os elementos conceituais, competências e habilidades, encaminhamentos metodológicos e avaliação — que compõem o referencial — para a elaboração do IFA na área de Matemática.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e46c1c4abb63081006ab2fd33c87087d28e0d7276dd7a4ea4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 468,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 375,
+      "output_tokens_details": {
+        "reasoning_tokens": 37
+      },
+      "total_tokens": 843
+    }
+  },
+  "created_at": "2026-09-22T22:12:06Z",
+  "duration_seconds": 2.918,
+  "error": null,
+  "excerpt_id": "am_ef_40",
+  "filename": "am_ef_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "db305d1b741107e934b61701232b46b3e1ce84c90932b7788a6f0f9d4dd46f32",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6035c84cbd6fb76117cffbfe78323ac6b12aa42f2010e969bc006a9ef0499370",
+    "rendered_prompt_sha256": "194c1f2badc62cca393f957df486c30479fb5b2fcbbba1dbae50b8e77ec236fb",
+    "source_text_sha256": "5da421de11a662f7cc733ad946eadd98e13f87d85c77e3a1edde97c95528b9de"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 344,
+    "filename": "am_ef_40.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_40.txt",
+    "state": "am",
+    "word_count_original": 230
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_40.json"
+  },
+  "raw_response_text": "1. Identificar o lugar de si e o do outro em um mundo plurilíngue e multicultural, refletindo, criticamente, sobre como a aprendizagem da língua inglesa contribui para a inserção dos sujeitos no mundo globalizado, inclusive no que concerne ao mundo do trabalho.\n2. Comunicar-se na língua inglesa, por meio do uso variado de linguagens em mídias impressas ou digitais, reconhecendo-a como ferramenta de acesso ao conhecimento, de ampliação das perspectivas e de possibilidades para a compreensão dos valores e interesses de outras culturas e para o exercício do protagonismo social.\n3. Identificar similaridades e diferenças entre a Língua Inglesa e a língua materna/outras línguas, articulando-as a aspectos sociais, culturais e identitários, em uma relação intrínseca entre língua, cultura e identidade.\n4. Elaborar repertórios linguístico-discursivos da Língua Inglesa, usados em diferentes países e por grupos sociais distintos dentro de um mesmo país, de modo a reconhecer a diversidade linguística como direito e valorizar os usos heterogêneos, híbridos e multimodais emergentes nas sociedades contemporâneas.\n5. Utilizar novas tecnologias, com novas linguagens e modos de interação, para pesquisar, selecionar, compartilhar, posicionar-se e produzir sentidos em práticas de letramento na língua inglesa, de forma ética, crítica e responsável.\n6. Conhecer diferentes patrimônios culturais, materiais e imateriais, difundidos na Língua Inglesa, com vistas ao exercício da fruição e da ampliação de perspectivas no contato com diferentes manifestações artístico-culturais.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

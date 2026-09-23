@@ -1,0 +1,21 @@
+## Ciências humanas
+
+Os conhecimentos específicos na área de Ciências Humanas/Sociais, alvos dos componentes curriculares Geografia e História, estão contemplados em um conjunto de objetos de conhecimento que favoreçam o desenvolvimento da capacidade de os alunos pensarem sobre diferentes culturas e sociedades, em seus tempos históricos, territórios e paisagens (compreendendo melhor o Brasil, sua diversidade regional e territorial) (BRASIL, 2017, p. 357). Portanto, é fundamental que o trabalho com tais conhecimentos leve à reflexão sobre sua inserção singular e autônoma na história da sua família, comunidade, nação e mundo.
+
+No Ensino Fundamental, o ensino desses componentes deve propiciar aos alunos experiências sociocognitivas, afetivas e lúdicas, capazes de potencializar sentidos e saberes sobre o indivíduo, o mundo social e a natureza. Desse modo, esse trabalho pode contribuir para a ampliação progressiva de conhecimentos sobre a sua participação no mundo social e para a reflexão sobre questões sociais, éticas e políticas, aspectos essenciais à formação dos alunos como cidadãos em uma sociedade democrática.
+
+### 8.1 Geografia
+
+#### 8.1.1 Introdução
+
+Este currículo de Geografia parte do pressuposto de que, para interpretar/analisar o mundo, os alunos precisam ser estimulados a pensar espacialmente, desenvolvendo o raciocínio geográfico.
+
+Dessa forma, o pensamento espacial está associado ao desenvolvimento cognitivo que integra a compreensão de várias áreas do conhecimento de maneira interdisciplinar. Essa interação visa à resolução de problemas que envolvam mudanças de escala, orientação e direção de objetos localizados na superfície terrestre, efeitos de distância, relações hierárquicas, tendências à centralização e à dispersão, efeitos de vizinhança, entre outros (BNCC, 2017).
+
+Diante disso, a Geografia deve centralizar-se num ensino que contemple as experiências vividas pelos alunos, forme estudantes com habilidades e capacidades espaciais, facilitando o desenvolvimento geral do aluno que deverá compreender: os fenômenos econômicos, os conflitos de classe, as alterações das paisagens e a complexidade da dinâmica socioambiental, nas diversas escalas geográficas: local, regional, nacional e global.
+
+Com isso, o ensino de Geografia, ao estimular os estudantes a desenvolverem uma melhor compreensão do mundo, favorece o desenvolvimento autônomo de cada indivíduo e os torna aptos a uma intervenção mais responsável no ambiente em que vivem.
+
+Neste contexto, a proposta curricular de Geografia nesse documento está pautada no desenvolvimento do raciocínio geográfico, alicerçado em uma educação geográfica que tem por finalidade a emergência de um cidadão crítico, participativo, democrático e eticamente responsável por um modo de vida voltado ao bem-estar social e preocupado com qualidade do meio ambiente local e global.
+
+Para tanto, é necessário que haja diálogo e construção de saberes para que nossos estudantes sejam sujeitos críticos, reflexivos e, acima de tudo, cidadãos (FREIRE, 2005).

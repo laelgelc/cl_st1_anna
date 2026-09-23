@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04811023aee25b6b006ab306fabe7887d2be7da3c22f0dc42d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 778,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 762,
+      "output_tokens_details": {
+        "reasoning_tokens": 94
+      },
+      "total_tokens": 1540
+    }
+  },
+  "created_at": "2026-09-22T22:53:53Z",
+  "duration_seconds": 6.741,
+  "error": null,
+  "excerpt_id": "pb_em_105",
+  "filename": "pb_em_105.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "65466e4c4b42dca713b96ee6bb680b721b097a1313491026fd51b40426665f7b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1483da4e41abc57e90b1f7fa5318c2bee0b83cc8f09bbf1f6b4bacd259eecac8",
+    "rendered_prompt_sha256": "b39c35693e3dff0550d4625b7f61153c44427fd2ab420861f63fd1392199e7f7",
+    "source_text_sha256": "b55de5f10006e0790390f5644d0ed8ac0eb35080399f191ed4533708eb4c9a37"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_105.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2239,
+    "filename": "pb_em_105.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_105.txt",
+    "state": "pb",
+    "word_count_original": 483
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_105.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_105.json"
+  },
+  "raw_response_text": "### 3.7.5 POSSIBILIDADES METODOLÓGICAS\n\nPara que uma Eletiva alcance um bom desempenho, são necessárias algumas adequações metodológicas, de acordo com cada realidade. As metodologias podem variar desde aulas expositivas, construção de maquetes, criação de programas de computador, produções textuais de múltiplos gêneros, projetos que envolvam a comunidade em que a escola está inserida, rodas de conversas, debates, júri simulado, peças de teatros e utilização de plataformas e ferramentas digitais, entre outras possíveis formas que façam com que os estudantes exerçam seu protagonismo, despertando assim para seu Projeto de Vida.\n\nConsiderando que a Eletiva é feita por mais de um professor e de áreas do conhecimento distintas, é importante que a metodologia aplicada seja em consonância com o componente curricular escolhido, assim como também considerar os recursos existentes na Unidade de Ensino e articulando teoria e prática, para que possa gerar interesse, ampliar o repertório e motivar o estudante para o autodesenvolvimento e formação com autonomia e competência empreendedora, cooperativa e colaborativa.\n\nAo trabalharmos uma Eletiva, é importante proporcionarmos ao estudante momentos de reflexão sobre as temáticas abordadas, bem como momentos de entretenimento, descontração e socialização, trabalhando sempre de forma lúdica e interativa para que os objetivos possam ser alcançados. As aulas expositivas, nesse sentido, podem ter um novo formato, trazendo os estudantes como parte do processo de exposição dessas aulas, tirando o foco do professor, fazendo com que os Quatro Pilares da Educação (aprender a conhecer, aprender a fazer, aprender a conviver e aprender a ser) sejam desenvolvidos de forma integrada e, assim, conhecer na prática determinadas aptidões profissionais, soluções de conflitos e de situações problemas do seu cotidiano, despertando o interesse de continuidade para a definição do seu Projeto de Vida.\n\nDiante dessa proposta metodológica, constata-se que uma eletiva pode contribuir para a formação do jovem protagonista, fazendo com que ele seja a centralidade de um Novo Ensino Médio, contribuindo assim para a sua formação.\n\n### 3.7.6 POSSIBILIDADES AVALIATIVAS DA APLICAÇÃO DA ELETIVA (PROCESSO)\n\nSobre o Novo Ensino Médio, em se tratando dos Currículos, terão uma parte referenciada na BNCC (Formação Geral Básica) e a parte de flexibilização curricular que objetiva fortalecer e ampliar a vivência do currículo, trazendo de forma mais significativa a construção de saberes por aproximar ainda mais o currículo das práticas sociais, oferecendo caminhos distintos aos estudantes, ajustados às suas preferências e ao seu Projeto de Vida.\n\nComo há o objetivo de assegurar a integralização entre a parte de Flexibilização Curricular e a Formação Geral Básica, recomenda-se que o desenvolvimento dos estudantes nas Eletivas deva, de alguma forma, ser considerado na avaliação dos componentes da Base Comum e Técnica, a partir de atitudes, habilidades, competências, contemplando assim uma das Competências Gerais da BNCC para o Ensino Médio no tocante a ampliar o Repertório Cultural, além de estimular o Pensamento Científico, Crítico e Criativo.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02ba444b39ce14fd006ab30892c9bc87d2be0103717c8c4bf2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 557,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 529,
+      "output_tokens_details": {
+        "reasoning_tokens": 75
+      },
+      "total_tokens": 1086
+    }
+  },
+  "created_at": "2026-09-22T23:00:39Z",
+  "duration_seconds": 4.742,
+  "error": null,
+  "excerpt_id": "pi_em_2",
+  "filename": "pi_em_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "253fb30d42782006ebf622b909ba5662c980ec08bd9d002c3757b8fbe94679d8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e817279c6b2ad61d49694236c4fa99883e782bb34bea71c77a54d680b25cd6d4",
+    "rendered_prompt_sha256": "1632d44daf05b0f77ba470c22804aa45bd4fc1d991e3011fcc79210d00b1c504",
+    "source_text_sha256": "e19b93c0800b5d44dc7eb86f9de916ade56aa32cd138b74664c283cd5aedc4c1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_em_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2596,
+    "filename": "pi_em_2.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_em_2.txt",
+    "state": "pi",
+    "word_count_original": 329
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_em_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_em_2.json"
+  },
+  "raw_response_text": "## Apresentação\n\nÉ com muita satisfação que apresentamos à sociedade piauiense em geral, aqui em especial aos mestres/educadores, a VERSÃO ZERO da proposta curricular para o Ensino Médio, para as suas diversas modalidades. É bom ressaltar que com esse currículo, o estado do Piauí conclui o ciclo curricular para a educação básica, haja vista que, os currículos da Educação Infantil e do Ensino Fundamental, construído em parceria com os municípios, já foram homologados pelo CEE/PI. A proposta ora apresentada, foi elaborada após muito estudo e discussão com um corpo técnico especializado na construção de currículo, foram observadas a legislação educacional especifica e, principalmente experiências das práticas pedagógicas de nossas salas de aula.\n\nDesde a homologação da Base Nacional Comum Curricular – BNCC, o Estado do Piauí, seguindo as diretrizes do Guia de Implementação da BNCC, constituiu as Comissões de Governança e Executiva, responsáveis pela discussão, construção e implantação do currículo do Novo Ensino Médio para a educação básica. O trabalho foi realizado em regime de colaboração com várias entidades, as quais contribuíram no processo de discussão das novas bases educacionais propostas pela BNCC e pelas leis da reforma educacional. Ressaltamos aqui, a importância de todos pela educação. Hoje, se faz necessário que todo cidadão ou cidadã piauiense desenvolva um conjunto de Competências e Habilidades, primordiais à vida cotidiana e à evolução para o mundo do trabalho.\n\nNesse momento, apresentamos a todas(os), o Currículo do Piauí para o Novo Ensino Médio, construído por comissão de redatores, por área do conhecimento e modalidades. Nesse processo, há a participação, em regime de colaboração, de especialistas das redes: estadual, privada e municipal, principalmente na articulação entre o Ensino Fundamental e o Novo Ensino Médio.\n\nEsperamos que todas as contribuições tenham servido para o aperfeiçoamento do documento apresentado, conforme estabelecido pela BNCC, juntamente com a aprovação do Conselho Nacional de Educação – CNE e homologação do Ministério da Educação – MEC.\n\nAtenciosamente,\n\nEllen Gera de Brito Moura  \nSecretário de Estado da Educação",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

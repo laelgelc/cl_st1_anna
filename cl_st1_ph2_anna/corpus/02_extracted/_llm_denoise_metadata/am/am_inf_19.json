@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fac03c093ec64e0006ab2fd9b63bc87d28cb4fff779cecc11",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 578,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 532,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 1110
+    }
+  },
+  "created_at": "2026-09-22T22:13:52Z",
+  "duration_seconds": 4.82,
+  "error": null,
+  "excerpt_id": "am_inf_19",
+  "filename": "am_inf_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "38d33e7c1a71c836cdaa34ce6b1411cf43a032f88083b432f3aa458365fe105d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7c458962d3c4c401ad83346cc533ca2a62da035944f717d0336784c4581e7a82",
+    "rendered_prompt_sha256": "371056fbfdbc58cfc2470a41d8466d902f55b7ff4062ab5f1663be047ed68ae1",
+    "source_text_sha256": "2cc113dbf1801327e863cc40916a1691f3fe1abbbdeb65c2d7628f7e0c2898df"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 419,
+    "filename": "am_inf_19.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_19.txt",
+    "state": "am",
+    "word_count_original": 344
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_19.json"
+  },
+  "raw_response_text": "## Dança e Movimento\n\nAo discutirmos a dança, pensamos sobre o corpo que se movimenta em ritmos sonoros ou não, por pessoas em diferentes faixas etárias. Quando a preocupação está voltada para a educação da primeira infância, não se pode negar que a dança na Educação Infantil esteve – e em alguns casos ainda está – voltada para a apresentação das crianças em datas comemorativas e que elas se caracterizavam pelo cerceamento dos gestos dos bebês e crianças e seus desejos, numa expressão coreográfica limitadora e até disciplinadora de seus corpos, que ficam reduzidos à mera execução de algo pronto e acabado.\n\nÉ preciso considerar que os meninos e meninas podem se expressar a partir do repertório que é próprio de seu corpo – já que ele é também social e histórico – de suas vivências, de modo a criar coreografias próprias, referentes ao grupo de amigos ou a suas experiências particulares, conjugadas à apreciação de grupos locais, nas expressões de danças populares que possam contribuir para a percepção, recepção e construção da cultura brasileira.\n\nQuando o planejamento for organizado para garantir que o corpo se movimente e possa dançar de forma livre e expressiva, os bebês e as crianças poderão sentir como seu corpo se relaciona com suas capacidades e limitações, com os outros bebês e crianças e com os adultos, com o espaço, os ritmos e os sons criados por eles mesmos ou por profissionais. O desenvolvimento dos sentidos também se amplia mediante a inserção dos bebês e crianças no universo musical, o que favorece o desenvolvimento das variadas linguagens.\n\nDefender a presença das diferentes linguagens na Educação Infantil é defender a formação sensível dos sentidos, é defender o direito dos bebês e crianças de viver experiências estéticas, em que sente o mundo e se relaciona com ele. É importante destacar que essas linguagens não podem ser trabalhadas de forma separada e estanque e que também não são possíveis de divisão em bimestres, trimestres ou semestres. As múltiplas linguagens devem ser trabalhadas durante todo o ano letivo, interligadas de forma contínua e diária.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

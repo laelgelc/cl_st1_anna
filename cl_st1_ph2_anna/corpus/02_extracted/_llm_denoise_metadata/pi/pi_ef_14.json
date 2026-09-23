@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d6f6dc558659041006ab30855ad0487d2a50b45d854f2a417",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 795,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 764,
+      "output_tokens_details": {
+        "reasoning_tokens": 128
+      },
+      "total_tokens": 1559
+    }
+  },
+  "created_at": "2026-09-22T22:59:39Z",
+  "duration_seconds": 6.051,
+  "error": null,
+  "excerpt_id": "pi_ef_14",
+  "filename": "pi_ef_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c9b451f4b8e3179134cb0cb7a2f183021fea434e999860b2716035187d51ac04",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4cefe625206d81fb8bade04244a1ae398748db0911830c6b9fe09839de0e4ec1",
+    "rendered_prompt_sha256": "86cbb30fcef9c1eeaa595cc2395cfa9337c931d13ad0d95b959986e97e7a1ffb",
+    "source_text_sha256": "bc3433583b6b8645d38bff5e6f7b642a25a50c98d34df15ceb2c2fd64d10900e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_ef_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2548,
+    "filename": "pi_ef_14.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_ef_14.txt",
+    "state": "pi",
+    "word_count_original": 440
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_ef_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_ef_14.json"
+  },
+  "raw_response_text": "# PERSPECTIVAS DO ENSINO DE ARTE NO TERRITÓRIO PIAUIENSE\n\nO Currículo de Arte para o Ensino Fundamental do Piauí tem como referência a pluralidade cultural local, regional e nacional, considerada como um dos fatores responsáveis pela formação identitária dos indivíduos. Nesse sentido, sendo o Piauí um território inserido em um contexto nacional e regional diversificado natural e culturalmente e, por si mesmo, rico em manifestações culturais e artísticas que se diversificam ao sabor das variações do clima, vegetação, relevo e outros fatores, cabe promover o(re)conhecimento, a valorização e a apropriação simbólica daquilo que singulariza seu povo e território, como caminho para o fortalecimento da identidade piauiense.\n\nAs particularidades naturais deste território influencia, sobremaneira, a cultura e o fazer artístico, revelando as diferentes circunstâncias espaciais, temporais e materiais das manifestações. Desde as primeiras manifestações artísticas de que se tem notícia, nomeadamente a arte rupestre, fortemente presente no Piauí, às manifestações culturais tradicionais (como os folguedos, danças e festivais), bem como os trabalhos artísticos contemporâneos, esses aspectos corporificam o rico e complexo cenário artístico-cultural piauiense, criando e recriando diferentes repertórios regionais.\n\nDesse modo, o currículo de Arte deve valorizar tais riquezas e traçar uma busca contínua das raízes desse território, conectando-as à realidade cotidiana dos estudantes, sem, contudo, se distanciar do panorama nacional. Ressaltamos a necessidade de se considerar as constantes ressignificações que dinamizam as manifestações culturais, incluindo a Arte, e que lhes são próprias, o que demanda renovações no olhar e nos sentidos do estudante.\n\nIsso implica construir significados por meio do trabalho que aguce a percepção estética, fomente a criticidade, historicidade, estimule o fazer artístico, assim como a imaginação, a criatividade, o autoconhecimento, o diálogo, o respeito, dentre outras competências. Nesse sentido, para além de colaborar com o ensino e a aprendizagem em Arte, este Currículo pretende contribuir com uma formação global do estudante por meio de aprendizagens que privilegiem o desenvolvimento de competências. Para tanto se faz necessária a superação do ensino de Arte pautado apenas em atividades de produção (muitas vezes descontextualizadas) que primam pelo desenvolvimento motor e/ou cognitivo em detrimento das demais potencialidades do estudante, tais como: sociais, orgânicas, psicossociais, estéticas e emocionais, por exemplo.\n\nEssa abordagem configura um ensino de Arte voltado para aprendizagens tanto no campo do fazer quanto no conhecer, estimulando o estudante a refletir o seu trajeto na aprendizagem, suas especificidades relacionadas ao mundo, sua relação com a criação, consigo mesmo e com o outro. Dessa forma, como orienta o documento da Base Nacional Comum Curricular (BNCC), o ensino volta-se ao desenvolvimento das competências cognitivas e socioemocionais necessárias ao desenvolvimento integral do estudante.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

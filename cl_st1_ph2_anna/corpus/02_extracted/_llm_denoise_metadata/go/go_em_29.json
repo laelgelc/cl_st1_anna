@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fd8ecb4483b1e63006ab30132a0dc87d2b31e79b936ed371e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 703,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 973,
+      "output_tokens_details": {
+        "reasoning_tokens": 354
+      },
+      "total_tokens": 1676
+    }
+  },
+  "created_at": "2026-09-22T22:29:14Z",
+  "duration_seconds": 7.541,
+  "error": null,
+  "excerpt_id": "go_em_29",
+  "filename": "go_em_29.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9e50cb99338d5e31ebd1d907d6cd5aaf7f3eb0020340ef07d10b45b5644f1c1b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cec26ed5cd2edb7bc63a8291b9d08e50f94355dbf0a61cc231fb4fac9a5aa3d8",
+    "rendered_prompt_sha256": "e6dd87ef6cdea16d259ab311674fdfff222964badac051c7b50cc4addf959958",
+    "source_text_sha256": "29c9777f1a155884e2fade4645e0535033eee8bdccbac253680bcc882d8a29a8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_29.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1151,
+    "filename": "go_em_29.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_29.txt",
+    "state": "go",
+    "word_count_original": 398
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_29.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_29.json"
+  },
+  "raw_response_text": "### 1.1 - A Área de Linguagens e Suas Tecnologias a partir da BNCC\n\nO conceito de linguagem cunhado por Edgar Morin (2011), em epígrafe, aproxima-se do significado que a área de Linguagens e suas Tecnologias tem neste Documento Curricular para Goiás - Etapa Ensino Médio (DC-GOEM). A linguagem pode ser compreendida como uma “prática política e cultural de produção e negociação de significados [...] um sistema de representação” (HALL, 1997). Ela permite a construção de sentidos compartilhados. Desse modo, é possível vincular os componentes curriculares entre si por meio de algumas competências gerais e específicas, constituídas por suas respectivas habilidades, objetivos de aprendizagem e objetos de conhecimento<sup>16</sup>. Esse conjunto de aprendizagens essenciais, apresentado inicialmente na Base Nacional Comum Curricular (BNCC), será detalhado ao final do texto introdutório, no quadro de competências e habilidades da área de Linguagens e suas Tecnologias.\n\nNa etapa Ensino Médio (EM), os objetivos desta grande área consistem em ampliar e consolidar as aprendizagens contempladas nos Anos Iniciais e Finais do Ensino Fundamental (EF) nos componentes curriculares Arte (Artes Visuais, Dança, Música e Teatro), Educação Física, Línguas Espanhola<sup>17</sup>, Inglesa e Portuguesa, bem como garantir direitos linguísticos aos diferentes povos, comunidades e grupos sociais brasileiros. O processo de aprendizagem, nessa grande área, está voltado para uma participação reflexiva dos/as jovens nas diferentes práticas socioculturais que envolvem as linguagens verbais (oral ou visual-motora, como Libras e escrita), artísticas e corporais.\n\nÉ preciso destacar que a área de Linguagem conecta-se por eixos organizadores e por sua arquitetura, oferecendo a possibilidade de desenvolver as competências e as habilidades de forma interdisciplinar e transdisciplinar. Assim, os componentes curriculares dessa área conectam-se por meio dos seguintes eixos: Campos de Atuação, Práticas de Linguagem e TDICs. E sua arquitetura organiza-se por: Competências, Habilidades, Objetivos de Aprendizagem, Campos de Atuação, Práticas de Linguagem e Objetos de Conhecimento que garantem uma variedade de conhecimentos, conceitos, metodologias, ferramentas e habilidades que, ao serem relacionadas com as práticas pedagógicas, permitem direcionamento para o planejamento a partir deste documento curricular.\n\n<sup>16</sup> Para saber mais informações sobre o tema, consulte o texto introdutório “arquitetura geral”.\n\n<sup>17</sup> É importante ressaltar que no estado de Goiás a oferta do ensino da Língua Espanhola permanecerá no Ensino Médio com base nas reflexões e aprendizagens essenciais contidas na Competência 4 da BNCC. Vide seção 2.3 deste documento para compreender como se apresentam as línguas estrangeiras/adicionais [Espanhol/Inglês].",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

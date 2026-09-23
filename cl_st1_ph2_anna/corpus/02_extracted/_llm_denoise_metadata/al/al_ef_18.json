@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04d4ac09cc3b4d53006ab2fc377f3887d2b75a8254706e4dbc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1078,
+      "input_tokens_details": {
+        "cache_write_tokens": 1075,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1410,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2488
+    }
+  },
+  "created_at": "2026-09-22T22:08:01Z",
+  "duration_seconds": 10.27,
+  "error": null,
+  "excerpt_id": "al_ef_18",
+  "filename": "al_ef_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6eb59d739f7f1ebde7723741dedb76abf91e28ee3e6d23374655da6c2655b141",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6f38d931a763458c01feb48cc6e349001e8a0af23cd04b4237f90153e20028c1",
+    "rendered_prompt_sha256": "30ca1d0e4566df6a0446477596aa6d5c0cdce8a19d14a471cc6d7c4a2d4d4bd6",
+    "source_text_sha256": "b380eef9dce87d51fd4fc480c1f08465991f03998d2e9e387b93d6dfc703d833"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 151,
+    "filename": "al_ef_18.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_18.txt",
+    "state": "al",
+    "word_count_original": 648
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_18.json"
+  },
+  "raw_response_text": "## 6. ORGANIZADOR CURRICULAR DE LÍNGUA PORTUGUESA\n\nO Organizador Curricular de LP está estruturado de acordo com o estabelecido na BNCC (2017). Nele, contemplam-se: Campos de atuação; Práticas de Linguagem; Objeto de conhecimento; Habilidades e Desdobramentos Didático-Pedagógicos. Convém ressaltar, aqui, que a coluna Desdobramentos Didático-Pedagógicos - DesDP foi acrescida ao Referencial Curricular da Educação Básica do Estado de Alagoas, como mais uma coluna, além das já contempladas na BNCC (2017), em todos os componentes curriculares. É importante ressaltar que é a partir dos campos de atuação que se desenrolam todos os saberes do componente e deles depende a seleção dos gêneros textuais, por exemplo.\n\nOs quadros estão organizados por etapa do Ensino Fundamental, distribuídos ano a ano - 1º ao 5º ano e 6º ao 9º ano, de modo a abordar as habilidades distribuídas pelos campos de atuação e as práticas de linguagem correspondentes.\n\nOs quadros são diretrizes norteadoras para o planejamento dos professores, cabendo, então, à escola analisar e refletir sua realidade escolar, aplicando as adequações necessárias, adiantando ou postergando objetos de conhecimento, à sua realidade para, então, construírem seus currículos. Reiteramos, ainda, que o ensino, baseado em competências e habilidades, conforme propõe a BNCC e adotado neste documento, pressupõe o trabalho pedagógico com os objetos de conhecimento de forma integrada e não estanque. Desse modo, os itens dos quadros estão amalgamados, sendo que a divisão se justifica pela necessidade de explicitação clara que, em um quadro curricular, é inevitável.\n\n| Anos Iniciais | Anos Finais |\n|---|---|\n| Campo da vida cotidiana | Campo artístico-literário |\n| Campo artístico-literário | Campo das práticas de estudo e pesquisa |\n| Campo das práticas de estudo e pesquisa | Campo jornalístico-midiático |\n| Campo da vida pública | Campo de atuação na vida pública |\n\n### Os campos de atuação\n\nCada um dos eixos apresentados, a seguir, relaciona-se com as práticas de linguagem elencadas na organização curricular do componente Língua Portuguesa. Além das práticas de linguagem, outra categoria, presente na organização e que se articula com as práticas, são os campos de atuação em que essas práticas se realizam.\n\nDesse modo, assim como o proposto na BNCC, a organização das práticas de linguagem (leitura de textos/produção de textos, oralidade e análise linguística/semiótica) por campos de atuação aponta para a importância da contextualização do conhecimento escolar, para a ideia de que essas práticas derivam de situações da vida social e, ao mesmo tempo, precisam ser situadas em contextos significativos para os estudantes.\n\nConforme indicado pela BNCC, adotamos os cinco campos de atuação considerados: Campo da vida cotidiana (somente Anos Iniciais), Campo artístico-literário, Campo das práticas de estudo e pesquisa, Campo jornalístico/midiático e Campo de atuação na vida pública, sendo que esses dois últimos aparecem fundidos nos Anos Iniciais do Ensino Fundamental, com a denominação Campo da vida pública:\n\nEstes campos contemplam dimensões formativas importantes de uso da linguagem na escola e fora dela e criam condições para uma formação que possibilita a atuação em atividades do dia a dia, no espaço familiar e escolar, uma formação que contempla a produção do conhecimento e a pesquisa; o exercício da cidadania, que envolve, por exemplo, a condição de se inteirar dos fatos do mundo e opinar sobre eles, de poder propor pautas de discussão e soluções de problemas, como forma de vislumbrar formas de atuação na vida pública; uma formação estética, vinculada à experiência de leitura e escrita do texto literário e à compreensão e produção de textos artísticos multissemióticos.\n\nAs habilidades devem ser consideradas, sob as perspectivas da continuidade das aprendizagens e da integração dos eixos organizadores e objetos de conhecimento, ao longo dos anos de escolarização. Por esses motivos, optou-se por apresentar os quadros de habilidades distribuídos por ano.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

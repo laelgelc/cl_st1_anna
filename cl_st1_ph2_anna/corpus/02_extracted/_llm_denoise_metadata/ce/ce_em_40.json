@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06d10a78f8960be7006ab2ff7d93b487d2a5b52a32c81a006c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1561,
+      "input_tokens_details": {
+        "cache_write_tokens": 1558,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1698,
+      "output_tokens_details": {
+        "reasoning_tokens": 237
+      },
+      "total_tokens": 3259
+    }
+  },
+  "created_at": "2026-09-22T22:22:01Z",
+  "duration_seconds": 11.855,
+  "error": null,
+  "excerpt_id": "ce_em_40",
+  "filename": "ce_em_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9a41bc53a888345c33a399c372f1bb26f0e39397dab464992159200bb97cfb1d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "59c6edb3968420be16ebe27d3fef33f4044ebffd0380e94f400e3146b4501235",
+    "rendered_prompt_sha256": "f7a36394a194f659f9a7c371a17b3521d9b60d5f36db389c21dd14b8ce3ae139",
+    "source_text_sha256": "615c78abce9770d5661cc3a5d62397fdc3e3b25f6980ba5f07f1013034cbef5b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 797,
+    "filename": "ce_em_40.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_40.txt",
+    "state": "ce",
+    "word_count_original": 1096
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_40.json"
+  },
+  "raw_response_text": "### 8.3.3 Saberes, fazeres, práticas e vivências através de exercícios e avaliações internas e externas para produção de conhecimento significativo\n\n514 Considerando as avaliações externas de larga escala, a qualidade da educação relacionada à área de Ciências da Natureza é avaliada por meio do Programa Internacional de Avaliação de alunas/os (PISA), coordenado pela Organização para Cooperação e Desenvolvimento Econômico (OCDE) e pelo Exame Nacional do Ensino Médio (ENEM), sob a coordenação do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP).\n\n515 A avaliação do PISA acontece a cada três anos e aborda múltiplos aspectos dos resultados educacionais, a avaliação procura ir além do conhecimento escolar, examinando a capacidade dos alunas/os de análise, raciocínio e reflexão ativa sobre seus conhecimentos e experiências, enfocando competências que serão relevantes para suas vidas futuras na solução de problemas do dia-a-dia.\n\n516 Assim, o PISA verifica o letramento em Leitura, Matemática e Ciências, a partir da operacionalização de esquemas cognitivos nos seguintes termos: conteúdos ou estruturas do conhecimento que os alunas/os precisam adquirir em cada área, competências para aplicação desses conhecimentos e contextos em que conhecimentos e competências são aplicados. A expressão letramento busca refletir a amplitude dos conhecimentos e competências pertinentes à área que está sendo avaliada. No caso das competências e habilidades das Ciências da Natureza,\n\n[...] o letramento científico requer não apenas o conhecimento de conceitos e teorias da ciência, mas também o dos procedimentos e práticas comuns associados à investigação científica e de como eles possibilitam o avanço da ciência. Assim, indivíduos cientificamente letrados têm o conhecimento das principais concepções e ideias que formam a base do pensamento científico e tecnológico, de como tal conhecimento é obtido e justificado por evidências ou explicações teóricas. Portanto, define-se o letramento científico em termos da capacidade de uso do conhecimento e da informação de maneira interativa (BRASIL, 2016).\n\n517 No que diz respeito à Matriz de Avaliação aplicada em 2015 para Ciências, os itens do PISA no geral exigiram como competências a identificação de questões científicas, a explicação de fenômenos e a utilização de evidências científicas. Assim como avaliaram a capacidade que o aluna/o tem de promover a integração dessas competências com a contextualização dos conhecimentos das Ciências em situações práticas cotidianas e de reconhecer as conexões de tais competências com habilidades cognitivas essenciais, tais como raciocínio indutivo e dedutivo, pensamento sistêmico, transformação de informações, construção e comunicação de explicações, argumentação baseada em dados, raciocínio em termos de modelos, utilização de processos, conhecimentos e habilidades matemáticas. Nesta edição da avaliação, 56,6% dos alunas/os brasileiros ficaram com proficiência abaixo do nível 2, patamar que a OCDE estabelece como necessário para que os jovens possam exercer plenamente sua cidadania; desse percentual, na maioria dos estados o desempenho médio dos meninos é superior ao das meninas. Quando se comparam os tipos de localização, observa-se que o desempenho médio das escolas urbanas é superior ao das rurais.\n\n518 Para a OCDE, o percentual de alunas/os, em cada país, que atingem cada nível de proficiência indica quão bem os países conseguem fomentar a excelência em seus sistemas educativos. Atingir pelo menos o nível 2 é particularmente importante, uma vez que ele é considerado o nível básico de proficiência que se espera de todos os jovens, a fim de tirar proveito de novas oportunidades de aprendizagem e de participar plenamente da vida social, econômica e cívica da sociedade moderna em um mundo globalizado.\n\n519 O exame nacional do ensino médio (ENEM), avaliação de larga escala criada em 1998 com o objetivo inicial de avaliar as competências básicas para o exercício pleno da cidadania, divide sua matriz de referência para a avaliação da aprendizagem em duas categorias. A primeira promove a avaliação a partir de eixos cognitivos, comuns a todas as áreas de conhecimento, que incluem como competências: (1) dominar a norma culta da Língua Portuguesa e fazer uso das diversas linguagens; (2) compreender fenômenos a partir da construção e aplicação dos conceitos das várias áreas do conhecimento; (3) selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema; (4) relacionar informações, representadas em diferentes formas, e conhecimentos disponíveis em situações concretas, para construir argumentação consistente e, (5) recorrer aos conhecimentos para elaboração de propostas de intervenção solidária na realidade, respeitando os valores humanos e considerando a diversidade sociocultural.\n\n520 A segunda categoria da matriz de referência é constituída por competências e habilidades pertinentes às áreas de conhecimento. Na matriz de Ciências da Natureza e suas Tecnologias, são oito competências de área e trinta habilidades que avaliam nos alunas/os: (1) a compreensão das ciências naturais e as tecnologias a elas associadas como construções humanas; (2) a sua capacidade de identificar a presença e aplicar as tecnologias associadas às ciências naturais em diferentes contextos; (3) a sua percepção de intervenções que resultam em degradação ou conservação ambiental e suas associações a processos produtivos, sociais e a instrumentos ou ações científico-tecnológicos; (4) a sua compreensão das interações entre organismos e ambiente, considerando características individuais e aspectos científicos e culturais; (5) o entendimento dos métodos e procedimentos próprios das ciências naturais e sua aplicação em diferentes contextos e (6) a sua apropriação de conhecimentos dos componentes curriculares biologia, física e química para, em situações problema, interpretar, avaliar ou planejar intervenções científicas e tecnológicas.\n\n521 Analisando o desempenho dos alunas/os no ENEM percebe-se que os resultados ainda são limitados e mostram-se necessários à continuidade e à ampliação das políticas de melhoria da educação brasileira. Autores como Viggiano e Mattos (2013) identificaram que as notas médias alcançadas pelos alunas/os, tanto da rede pública quanto privada, participantes do exame na edição de 2010, em todas as regiões geográficas brasileiras, indicam que a qualidade da educação está abaixo de um desempenho mínimo aceitável. Os dados coletados pelos autores evidenciaram que em nenhuma das áreas do conhecimento o índice de aproveitamento chegou a 59%, em particular, a área de Ciências da Natureza apresentou os índices mais inferiores de desempenho. Na análise feita por Oliveira et al (2013), nessa mesma edição do exame, identificou-se que as questões de Ciências da Natureza, abordando temas científicos, apareceram em menor número e agregaram o menor índice de acertos para alunas/os, distanciando-se de maneira significativa da média geral da prova. Segundo o referido autor, esse resultado pode indicar que a transposição didática de temas da ciência moderna e contemporânea ainda não se realizou de forma eficiente no exame ou que essas questões não fazem parte do cotidiano escolar.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

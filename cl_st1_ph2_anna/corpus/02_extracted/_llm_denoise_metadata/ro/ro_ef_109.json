@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0834932660219175006ab30b6e954487d2a33ae7d6bbfa4a64",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 852,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 882,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 1734
+    }
+  },
+  "created_at": "2026-09-22T23:12:54Z",
+  "duration_seconds": 7.638,
+  "error": null,
+  "excerpt_id": "ro_ef_109",
+  "filename": "ro_ef_109.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e3553ad2b3998807a0ff8c7c83bececc0ee63b5ae78a5a06ff52301d62e7ca5b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e33fd53ba2bc7ca3a111b3b52c0dc8153d16cf3be14aa7dfa555aa75e8534a1d",
+    "rendered_prompt_sha256": "6c37e0290a6b5d3613a3b30e0094284f4605ae6c9a3f586cc25728c06320e4a6",
+    "source_text_sha256": "96b50f8b82d378f54196aabf515d77196bf544002657c1438fe38f5e1c95534d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_109.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3106,
+    "filename": "ro_ef_109.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_109.txt",
+    "state": "ro",
+    "word_count_original": 563
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_109.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_109.json"
+  },
+  "raw_response_text": "## Educação em Tempo Integral nos Planos Nacional e Estadual de Educação\n\nA meta 6 do Plano Estadual de Educação de Rondônia (PEE/RO) apresenta para o nosso estado o seguinte desafio:\n\n> Oferecer educação em tempo integral em, no mínimo, 20% das escolas públicas da educação básica até o final do período de vigência deste plano.\n\nSendo assim, os objetivos da Meta 6 do PEE/RO estão em consonância com os objetivos da Meta 6 do Plano Nacional da Educação (PNE). De acordo com o INEP (2018), a Meta 6 do PNE visa ampliar a oferta da Educação em Tempo Integral (ETI), prevendo o aumento do tempo de permanência dos estudantes na escola ou em atividades escolares, de forma a oferecer, até o final da vigência do plano, esse atendimento a pelo menos 25% dos alunos dos estabelecimentos públicos de ensino da educação básica em, no mínimo, 50% das escolas públicas.\n\nNota-se que a diferença entre as metas está no percentual estipulado de escolas, que na meta nacional é de 50% e na estadual 20%. Além disso, a meta nacional evidencia o percentual mínimo de alunos necessários para o atendimento nos estabelecimentos públicos, que é de 25%. Essas metas são monitoradas no intuito de verificar o avanço na concretização de seus objetivos. Deste modo, para a Meta 6 foram criados dois indicadores, são eles:\n\n- Percentual de alunos da educação básica pública que pertencem ao público alvo da ETI e que estão em jornada de tempo integral.\n- Percentual de escolas públicas da educação básica que possuem, pelo menos, 25% dos alunos do público alvo da ETI em jornada de tempo integral.\n\nEstes dois indicadores foram estabelecidos pelo INEP a partir de estratégias definidas na Meta 6 do PNE e ainda levando em conta os dados estatísticos que são disponibilizados pelo Censo da Educação Básica. Sendo assim, é importante entender os conceitos: Público alvo de ETI, Jornada de Tempo Integral, Aluno de ETI e Escola de ETI, para compreender a partir de que informações são estabelecidas as políticas públicas em torno da educação em tempo integral.\n\nDe acordo com INEP (2018, p.119-120), esses conceitos são definidos da seguinte forma:\n\n- Público alvo da ETI: são os alunos da educação básica cujas matrículas de escolarização são presenciais, em escola pública e não pertencem à educação de jovens e adultos nem à educação profissional técnica de nível médio, oferecidas na forma subsequente ou concomitante.\n- Jornada de tempo integral: é a jornada cuja duração é, em média, igual ou superior a sete horas diárias, contabilizada a partir da soma da carga horária da matrícula de escolarização do aluno na escola pública com a carga horária total das matrículas de atividade complementar (AC) e/ou de atendimento educacional especializado (AEE) realizadas em instituições públicas e/ou privadas.\n- Aluno de ETI: é o aluno do público alvo da ETI e que está em jornada de tempo integral.\n- Escola de ETI: é a escola que possui pelo menos 25% dos alunos do público alvo da ETI em jornada de tempo integral.\n\nPara o INEP (2018), é importante fazer este alinhamento conceitual, para que se possa contemplar mais efetivamente os dispositivos legais que tratam da Educação em Tempo Integral. Além deste fato que, por meio da Meta 6, busca-se em um âmbito maior, a superação das desigualdades educacionais, por meio da oferta equitativa da educação em tempo integral em todo país.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

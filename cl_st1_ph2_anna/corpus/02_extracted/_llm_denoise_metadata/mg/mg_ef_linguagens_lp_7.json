@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04db326d6dae12db006ab302cd3bf487d29cef94ba532b5d1f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 2340,
+      "input_tokens_details": {
+        "cache_write_tokens": 2337,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2331,
+      "output_tokens_details": {
+        "reasoning_tokens": 201
+      },
+      "total_tokens": 4671
+    }
+  },
+  "created_at": "2026-09-22T22:37:36Z",
+  "duration_seconds": 100.231,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_lp_7",
+  "filename": "mg_ef_linguagens_lp_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c718c91ff66ab05ee75af9efe4343a71c35369df81db87b7bc99a3829bed8b2e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6647438507a9acab707f42c4285d9f14bcd0d0e23f18c34dd764ed5628387324",
+    "rendered_prompt_sha256": "7b581312207c969a5c80189beab6ecab8340a3cebe31cae2bf35be85070fe87d",
+    "source_text_sha256": "d3fac6e1c27c327061af65ffa9fc096dc4f757e536e0a3764952cc25b44aade6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_lp_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1475,
+    "filename": "mg_ef_linguagens_lp_7.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_lp_7.txt",
+    "state": "mg",
+    "word_count_original": 1415
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_lp_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_lp_7.json"
+  },
+  "raw_response_text": "## 5.5 O ensino de Língua Portuguesa nos Anos Iniciais do Ensino Fundamental\n\nNa sociedade atual, são exigidos do indivíduo conhecimentos e habilidades que lhes permitam interpretar e analisar, de maneira crítica, a crescente quantidade de informações, veiculadas com velocidade cada vez maior. Aliados a isso, temos testemunhado nos últimos anos, o intenso desenvolvimento tecnológico, cujos reflexos são percebidos, cada vez mais, em nosso dia a dia.\n\nNesse contexto, conhecer e usar bem a língua materna se faz altamente necessário para que o cidadão participe ativamente do mundo em que vive. O conhecimento linguístico possibilita que ele solucione problemas do cotidiano, tenha acesso aos bens culturais e participe ativa e criticamente da sociedade na qual está inserido.\n\nOs primeiros anos dos Anos Iniciais do Ensino Fundamental são dedicados, especialmente, ao processo de “alfabetizar letrando”, isto é, a possibilitar ao estudante que tenha acesso a práticas letradas e a participação nessas práticas, ao mesmo tempo em que a estrutura e o funcionamento do sistema de escrita são explorados.\n\nJá nos últimos anos dos Anos Iniciais do Ensino Fundamental, embora continue existindo a preocupação com a alfabetização, a ênfase recairá sobre o trabalho com as capacidades de leitura e produção de textos escritos e orais, bem como sobre aspectos da análise linguística necessários às práticas de ler, escrever, ouvir e falar.\n\nO compromisso com a formação do estudante visando à sua participação em práticas letradas assume, então, nesta etapa do Ensino Fundamental, importância ainda maior. Cabe ao professor promover situações diferentes daquelas que os estudantes encontram cotidianamente, de modo a ampliar o seu universo cultural e aprimorar suas capacidades de uso da linguagem.\n\nAssim, alfabetizar é trabalhar com a apropriação pelo estudante da ortografia do português do Brasil escrito, compreendendo como se dá este processo (longo) de construção de um conjunto de conhecimentos sobre o funcionamento fonológico da língua pelo estudante. Para isso, é preciso conhecer as relações fono-ortográficas, isto é, as relações entre sons (fonemas) do português oral do Brasil em suas variedades e as letras (grafemas) do português brasileiro escrito. Dito de outro modo, conhecer a “mecânica” ou o funcionamento da escrita alfabética para ler e escrever significa, principalmente, perceber as relações bastante complexas que se estabelecem entre os sons da fala (fonemas) e as letras da escrita (grafemas), o que envolve consciência fonológica da linguagem: perceber seus sons, como se separam e se juntam em novas palavras etc. Ocorre que essas relações não são tão simples quanto as cartilhas ou livros de alfabetização fazem parecer. Não há uma regularidade nessas relações e elas são construídas por convenção. Não há, como diria Saussure, “motivação” nessas relações, ou seja, diferente dos desenhos, as letras da escrita não representam propriedades concretas desses sons. A humanidade levou milênios para estabelecer a relação entre um grafismo e um som. Durante esse período, a representação gráfica deixou de ser motivada pelos objetos e ocorreu um deslocamento da representação do significado das palavras para a representação convencional de sons dessas palavras. No alfabeto ugarítico, por exemplo, as consoantes, mais salientes sonoramente e em maior número foram isoladas primeiro.\n\nPesquisas sobre a construção da língua escrita pela criança mostram que, nesse processo, é preciso:\n\n- diferenciar desenhos/grafismos (símbolos) de grafemas/letras (signos);\n- desenvolver a capacidade de reconhecimento global de palavras (que chamamos de leitura “incidental”, como é o caso da leitura de logomarcas em rótulos), que será depois responsável pela fluência na leitura;\n- construir o conhecimento do alfabeto da língua em questão;\n- perceber quais sons se deve representar na escrita e como;\n- construir a relação fonema-grafema: a percepção de que as letras estão representando certos sons da fala em contextos precisos;\n- perceber a sílaba em sua variedade como contexto fonológico desta representação;\n- finalmente, compreender o modo de relação entre fonemas e grafemas, em uma língua específica.\n\nEsse processo básico (alfabetização) de construção do conhecimento das relações fonografêmicas em uma língua específica, que pode se dar em dois anos, é, no entanto, complementado por outro, bem mais longo, que podemos chamar de ortografização, que complementará o conhecimento da ortografia do português do Brasil. Na construção desses conhecimentos, há três relações que são muito importantes: a) as relações entre a variedade de língua oral falada e a língua escrita (perspectiva sociolinguística); b) os tipos de relações fono-ortográficas do português do Brasil; e c) a estrutura da sílaba do português do Brasil (perspectiva fonológica).\n\nMencionamos a primeira relação ao dizer que a criança está relacionando com as letras não propriamente os fonemas (entidades abstratas da língua), mas fones e alofones de sua variedade linguística (entidades concretas da fala).\n\nO segundo tipo de relações – as relações fono-ortográficas do português do Brasil – é complexo, pois, diferente do finlandês e do alemão, por exemplo, há muita pouca regularidade de representação entre fonemas e grafemas no português do Brasil. No português do Brasil, há uma letra para um som (regularidade biunívoca) apenas em poucos casos. Há, isso sim, várias letras para um som: /s/ = s, c, ç, x, ss, sc, z, xc; /j/ = g, j; /z/ = x, s, z e assim por diante –; vários sons para uma letra: s = /s/ e /z/; z = /s, /z/; x = /s/, /z/, /∫/,/ks/ e assim por diante; e até nenhum som para uma letra h, além de vogais abertas, fechadas e nasalizadas (a/ã; e/é; o/ó/õ).\n\nDos 26 grafemas de nosso alfabeto, apenas sete – p, b, t, d, f, v, k – apresentam uma relação regular direta entre fonema e grafema e essas são justamente as consoantes bilabiais, linguodentais e labiodentais surdas e sonoras. Essas são as regulares diretas.\n\nHá, ainda, outros tipos de regularidades de representação: as regulares contextuais e as regulares morfológico-gramaticais, para as quais o estudante, ao longo de seu aprendizado, pode ir construindo “regras”.\n\nAs regulares contextuais têm uma escrita regular (regrada) pelo contexto fonológico da palavra; é o caso de: R/RR; S/SS; G+A, O, U/ GU+E, I; C+A, O, U/QU+E, I; M+P, B/N+outras, por exemplo.\n\nAs regulares morfológico-gramaticais, para serem construídas, dependem de que o estudante já tenha algum conhecimento de gramática, pois as regras a serem construídas dependem desse conhecimento, isto é, são definidas por aspectos ligados à categoria gramatical da palavra, envolvendo morfemas (derivação, composição), tais como: adjetivos de origem com S; substantivos derivados de adjetivos com Z; coletivos em /au/ com L; substantivos terminados com o sufixo /ise/ com C (chatice, mesmice); formas verbais da 3a pessoa do singular do passado com U; formas verbais da 3a pessoa do plural do futuro com ÃO e todas as outras com M; flexões do Imperfeito do Subjuntivo com SSE; Infinitivo com R; derivações mantêm a letra do radical, dentre outras. Algumas dessas regularidades são apresentadas por livros didáticos nos 3o a 5o anos.\n\nTodo o restante das relações é irregular. São definidas por aspectos históricos da evolução da ortografia e nada, a não ser a memória, assegura seu uso. Ou seja, dependem de memorização a cada nova palavra para serem construídas. É, pois, de se supor que o processo de construção dessas relações irregulares leve longos tempos, se não a vida toda. Por fim, temos a questão de como é muitas vezes erroneamente tratada a estrutura da sílaba do português do Brasil na alfabetização. Normalmente, depois de apresentadas as vogais, as famílias silábicas são apresentadas sempre com sílabas simples consoante/vogal (CV). Esse processo de apresentação dura cerca de um ano letivo e as sílabas não CV (somente V; CCV; CVC; CCVC; CVV) somente são apresentadas ao final do ano.\n\nAs sílabas deveriam ser apresentadas como o que são, isto é, grupos de fonemas pronunciados em uma só emissão de voz, organizados em torno de um núcleo vocálico obrigatório, mas com diversos arranjos consonantais/vocálicos em torno do vogal núcleo.\n\nEm resumo, podemos definir as capacidades/habilidades envolvidas na alfabetização/como sendo capacidades de (de)codificação, que envolvem:\n\n- Compreender diferenças entre escrita e outras formas gráficas (outros sistemas de representação).\n- Dominar as convenções gráficas (letras maiúsculas e minúsculas, cursiva e script).\n- Conhecer o alfabeto.\n- Compreender a natureza alfabética do nosso sistema de escrita.\n- Dominar as relações entre grafemas e fonemas.\n- Saber decodificar palavras e textos escritos.\n- Saber ler, reconhecendo globalmente as palavras.\n- Ampliar a sacada do olhar para porções maiores de texto que meras palavras, desenvolvendo assim fluência e rapidez de leitura (fatiamento).\n- É preciso também ter em mente que o processo de ortografização em sua completude pode tomar até mais do que os anos iniciais do Ensino Fundamental.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

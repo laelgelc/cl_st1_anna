@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04f82c77f37f0b14006ab30b9993ec87d2867ad8f8cd234c28",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 825,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 897,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 1722
+    }
+  },
+  "created_at": "2026-09-22T23:13:37Z",
+  "duration_seconds": 8.071,
+  "error": null,
+  "excerpt_id": "ro_ef_42",
+  "filename": "ro_ef_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "98725aabdadf873728224d4549d3d759bb7f60b75f2442d0566b57130961e9d2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a24e0b55ecab7de1758a316c1f305ca0a6abbc9d10d84b811e3f3ac8d0af150c",
+    "rendered_prompt_sha256": "a8ffb8be78f159d527190fa18975f8c919b4385c967b21241a68b12aa4046e89",
+    "source_text_sha256": "16466fc9b46d01655189156e2ccd6846f47796dde19ff21aa48b63050627116f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3142,
+    "filename": "ro_ef_42.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_42.txt",
+    "state": "ro",
+    "word_count_original": 535
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_42.json"
+  },
+  "raw_response_text": "## 8.7 DIREITOS DAS CRIANÇAS E DOS ADOLESCENTES\n\nA Escola tem um papel importante para a garantia dos direitos infanto-juvenil, na promoção e desenvolvimento da cidadania de crianças e adolescentes, no enfrentamento das violações dos direitos. A atuação da escola deve ser de forma convergente com todo o Sistema de Garantia de Direito (SGD), saúde, educação, assistência social, segurança, sistema de justiça, conselhos de direito e sociedade civil, desta forma será garantida a proteção integral que alude a Lei 8.069/90.\n\nO direito infanto-juvenil está previsto no Estatuto da Criança e do Adolescente (ECA) sob a Lei 8.069/90, registrada em seu escopo os deveres e direitos que devem ser garantidos por toda a sociedade. A educação tem importante papel no que se refere ao processo de ensino aprendizagem.\n\nÉ imprescindível salientar que a Lei 8.069/90 define criança a pessoa até 12 anos incompleto e adolescente aquela entre 12 até 18 anos de idade.\n\nCom o Advento do Estatuto passou-se a criança e adolescente ser considerada pessoa em pleno desenvolvimento psicossocial por isso algumas terminologias devem ser substituídas e o educador deve se adequar a elas. O termo “menor” já não é mais aceito pelo SGD, tendo em vista ser uma expressão menorista do Código de Menores da década de 80, o que trazia a criança e ao adolescente como objeto (coisificação), já a Lei 8.069/90, condiciona-os como pessoas em desenvolvimento e sujeitos de direito.\n\nA partir desse entendimento o educador deve tratar assuntos que empoderem os estudantes ao protagonismo de suas histórias, assuntos esses que devem ser trabalhados de forma lúdica e pedagógica.\n\nO assunto violência sexual deve ser tratada de forma respeitosa de modo que os alunos entendam e possam identificar os sinais de abuso e exploração sexual, o educador deve ter a sensibilidade de caso seja identificada tal violência faça os encaminhamentos corretos às autoridades competentes.\n\nO mesmo deve ocorrer com a violência física, os encaminhamentos devem ser feitos imediatamente às autoridades competentes.\n\nTema como o trabalho infantil deve ser tratado na perspectiva de que a exploração dessa mão de obra é crime, ao trabalhar esse assunto o educador deve considerar o Plano Nacional de Erradicação do Trabalho Infantil e de proteção do trabalho do adolescente, deixando claro quais as possibilidades de trabalho e seus direitos.\n\nO Sistema socioeducativo deve ser entendido e trabalhando na perspectiva de que os adolescentes estão privados apenas do direito à liberdade, com os demais direitos previstos no Estatuto preservados, neste sentido o Sistema Nacional de Atendimento Socioeducativo – SINASE (Lei 12.594/12) deve ser observado quando da elaboração do plano político pedagógico para atendimento das unidades de internação.\n\nA escola deve ser um ambiente de respeito mútuo entendendo que a mesma faz parte do Sistema de Garantia de Direito - SGD, resguardando estudantes de sofrerem violências institucional, pondo-os a salvo de todas as formas de tratamento desumano, vexatório, degradante, de negligência, e discriminação.\n\nNa produção do material didático deve ser observada as orientações do Estatuto da Criança e do Adolescente, Sistema Nacional de Atendimento Socioeducativo e demais leis e Planos nacional e Estadual correlatos, garantindo sempre o superior interesse da criança e do adolescente.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

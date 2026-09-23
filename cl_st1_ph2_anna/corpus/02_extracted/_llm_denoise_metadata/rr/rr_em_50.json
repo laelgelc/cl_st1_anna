@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_027799cedb22c725006ab30d42e87087d2ba65e7cc5f0d0f42",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1142,
+      "input_tokens_details": {
+        "cache_write_tokens": 1139,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1103,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 2245
+    }
+  },
+  "created_at": "2026-09-22T23:20:41Z",
+  "duration_seconds": 6.274,
+  "error": null,
+  "excerpt_id": "rr_em_50",
+  "filename": "rr_em_50.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a40a956c0a769748653a8652f876b8c5b69f8c9da8b927f7d995a62e0debff02",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e16e383772e0d9fd2297af4d0ad30d6a5a93428758ca234c58d01b970beb4419",
+    "rendered_prompt_sha256": "fa048b756620b8925a8cd8f4e5144474964295475960ac0ec28565916efe4452",
+    "source_text_sha256": "f7b2fec84e9b5f3684c5e8bcce3725c2545d081adda1d1472874afb07c59cd99"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_50.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3486,
+    "filename": "rr_em_50.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_50.txt",
+    "state": "rr",
+    "word_count_original": 750
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_50.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_50.json"
+  },
+  "raw_response_text": "### 5.6.3. Aprofundamentos\n\nEsta unidade curricular compõe maior parte da carga horária prevista no itinerário formativo e por isso, se confunde com este, pois busca expandir os aprendizados promovidos pela Formação Geral Básica. No caso dos itinerários formativos de áreas do conhecimento, essa ampliação acontece em articulação com temáticas contemporâneas sintonizadas com o contexto e os interesses dos estudantes. Na formação técnica e profissional, a expansão se dá juntamente com o desenvolvimento de habilidades básicas requeridas pelo mundo do trabalho e habilidades específicas relacionadas aos cursos técnicos, cursos de qualificação profissional (FICs) ou programa de aprendizagem profissional escolhidos pelos estudantes.\n\nAlém de melhor explorar potenciais e vocações, os “Aprofundamentos” permitem que os jovens já concluam o Ensino Médio com algum diferencial na sua formação. Desta forma, seu histórico escolar será personalizado e envolverá maior tempo de dedicação a unidades curriculares escolhidas em consonância com seu Projeto de Vida. Para que cumpram com esses objetivos, os “Aprofundamentos” devem ter duração de, pelo menos, quatro semestres.\n\nAssim sendo, a oferta dos Aprofundamentos deve considerar os seguintes aspectos:\n\n- **Perfil dos estudantes:** o interesse e as necessidades dos jovens.\n- **Quantidade de estudantes:** a recomendação de que escolas com mais estudantes ofereçam maior quantidade e variedade de “Aprofundamentos” para dar conta da demanda também mais ampla.\n- **Equipe docente:** a disponibilidade de tempo, os conhecimentos, as habilidades e as vocações dos professores.\n- **Infraestrutura:** a estrutura e quantidade dos espaços físicos, equipamentos e materiais existentes ou possíveis de serem adaptados/adquiridos pela escola ou oferecidos por meio de parceria com outras instituições ofertantes.\n- **Potencialidades locais:** os potenciais, demandas e especificidades do território em que a unidade de ensino se localiza e, no caso específico da Formação Técnica e Profissional, o potencial socioeconômico e ambiental e as demandas tanto do mercado de trabalho regional como das novas exigências ocupacionais geradas pelas transformações no mundo do trabalho.\n\nDesta forma, as redes e instituições de ensino devem orientar o processo de elaboração das propostas e oferta dos “Aprofundamentos” que em se tratando de itinerários formativos de área do conhecimento precisam conter uma ementa capaz de contemplar, pelo menos, os tópicos listados abaixo:\n\n- **Título:** o nome do “Aprofundamento” se confunde com o do itinerário formativo, por isso, precisa ser objetivo e atraente para facilitar a compreensão e motivar a escolha dos estudantes.\n- **Área(s) do Conhecimento:** os Itinerários Formativos podem aprofundar e ampliar aprendizagens em uma única área do conhecimento ou combinar mais de uma área em itinerários formativos integrados. As áreas do conhecimento são: Linguagens e suas tecnologias, Matemática e suas tecnologias, Ciências da Natureza e suas tecnologias ou Ciências Humanas e Sociais Aplicadas.\n- **Habilidades:** os Itinerários Formativos podem ter diversos formatos e abordar diferentes objetos de conhecimento desde que desenvolvam as habilidades gerais e específicas definidas pelo Ministério da Educação nos Referenciais Curriculares para Elaboração de Itinerários Formativos. As habilidades gerais estão diretamente relacionadas às Competências Gerais da Base Nacional Comum Curricular. Já as habilidades específicas vinculam-se a cada um dos quatro eixos estruturantes. Por serem os únicos elementos comuns a todos os Itinerários Formativos, as habilidades gerais e específicas deverão orientar as matrizes de avaliação do Exame Nacional do Ensino Médio (Enem). Esse conjunto de competências e habilidades também poderá ser utilizado para analisar a correspondência das unidades curriculares cursadas quando da mobilidade dos estudantes para outras escolas, redes e Unidades da Federação. Por essa razão, é preciso assegurar que os Itinerários Formativos promovam o desenvolvimento de cada uma delas, o que requer que integrem e se aprofundem nos quatro eixos estruturantes. Para saber mais, consulte o mapa de habilidades.\n- **Tema:** os Itinerários Formativos de Áreas do Conhecimento devem ampliar ou aprofundar as competências e habilidades definidas pela BNCC, articulando-as com temas contemporâneos e/ou relacionados ao contexto da escola ou rede de educação. É preciso identificar temas que tornem o Itinerário Formativo mais relevante e interessante para os estudantes, desde que oportunizem o trabalho com os quatro eixos estruturantes e com um conjunto robusto de objetos de conhecimento.\n- **Objetos de Conhecimento:** uma vez definida(s) a(s) área(s) do conhecimento, as habilidades e o(s) tema(s) a serem trabalhados, é preciso identificar os objetos de conhecimento que serão estudados ao longo do Itinerário Formativo. Vale ressaltar que, enquanto as habilidades da Formação Geral são definidas a partir das Competências Gerais e dos objetos de conhecimento, nos Itinerários Formativos, os objetos de conhecimento são definidos em função das habilidades gerais e específicas a serem desenvolvidas no âmbito dos quatro eixos estruturantes.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

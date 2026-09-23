@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ba759abb2a8d0f1006ab3080fe20487d2a30eff72a7258237",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 527,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 655,
+      "output_tokens_details": {
+        "reasoning_tokens": 221
+      },
+      "total_tokens": 1182
+    }
+  },
+  "created_at": "2026-09-22T22:58:30Z",
+  "duration_seconds": 7.066,
+  "error": null,
+  "excerpt_id": "pe_em_20",
+  "filename": "pe_em_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "adfaa57939bae361ebce4e6273ed2f83bbffd78e43b7081c935fa8b8dc70d618",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9c40cbc0d7d92f51152590c5a7a7e4325a720e524d012459394b253736e7a420",
+    "rendered_prompt_sha256": "665aaa5eb22c36492fc1a647d95fcbe6871f0cde92de12ba9175e7e8b8c5fa66",
+    "source_text_sha256": "a115cfaefaa578a1b3efe19114e7f1ba29038f1a4ac5672b2fe9746ff1af2210"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2476,
+    "filename": "pe_em_20.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_20.txt",
+    "state": "pe",
+    "word_count_original": 312
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_20.json"
+  },
+  "raw_response_text": "## 2.7 – FORMAÇÃO GERAL BÁSICA\n\nA Formação Geral Básica é composta de 04 (quatro) áreas de conhecimento: Linguagens e suas Tecnologias (Artes, Educação Física, Língua Inglesa e Língua Portuguesa), Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias (Biologia, Física e Química) e Ciências Humanas e Sociais Aplicadas (Filosofia, História, Geografia e Sociologia). Para cada uma das áreas do conhecimento, a BNCC trouxe competências e habilidades que envolvem conhecimentos relativos aos componentes que as compõem.\n\nConforme os dispositivos legais, a organização do Currículo de Pernambuco para a etapa do Ensino Médio dispõe de uma parte referente à Formação Geral Básica, que é comum para todos os estudantes. Nela, a partir das competências e habilidades propostas pela BNCC, são desdobradas habilidades específicas de Pernambuco, por componente curricular.\n\nAinda sobre a Formação Geral Básica, o Currículo de Pernambuco para o Ensino Médio foi construído para permitir que as habilidades favoreçam a articulação entre os componentes curriculares, considerando a área e garantindo a contribuição específica de cada um, objetivando a efetivação das aprendizagens previstas nas competências das áreas. Essas habilidades estão relacionadas às tradições de produção dos componentes curriculares, tomando como referência seus objetos de conhecimento, métodos e técnicas, sem perder de vista a integração, o diálogo e a complexidade da relação com o aprendizado.\n\nAlém disso, as habilidades estão organizadas por Unidades Temáticas dentro das áreas de conhecimento. Essas Unidades são blocos temáticos que permitem que as competências e habilidades possam ser trabalhadas de forma integrada entre os componentes, com o fim de contribuir para o aprendizado dos estudantes a partir de uma perspectiva interdisciplinar.\n\nQuanto à carga horária, o modelo adotado para a FGB é o anual (componentes de carga horária anual), o que possibilita uma melhor organização dos professores nas escolas, bem como garante que os conhecimentos da formação geral possam ser trabalhados de modo contínuo durante cada ano letivo.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ac6c757b2b250cc006ab30a0817a487d298ff74a460484b02",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1361,
+      "input_tokens_details": {
+        "cache_write_tokens": 1358,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1278,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 2639
+    }
+  },
+  "created_at": "2026-09-22T23:06:56Z",
+  "duration_seconds": 8.604,
+  "error": null,
+  "excerpt_id": "pr_em_74",
+  "filename": "pr_em_74.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "24453540b9269a0d0b6ca1d8f05a1b148f9ad89a7513f09f901de2139cb8a3f6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2e87ccc2698e4b192e4558123bdb63b8d897a597a628365fb3a11aa571f55a39",
+    "rendered_prompt_sha256": "89aa55e898f0e14896328b2571ab9035ed05236c7eabede5c3122cbfe93f96cc",
+    "source_text_sha256": "90eb5a44d6701244c5ebae8fe9476f4f0071511ce4692eff931642c11cd1c559"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_74.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2795,
+    "filename": "pr_em_74.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_74.txt",
+    "state": "pr",
+    "word_count_original": 825
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_74.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_74.json"
+  },
+  "raw_response_text": "## 3. ORGANIZAÇÃO DA ÁREA DE CONHECIMENTO CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS A PARTIR DE CONCEITOS INTEGRADORES\n\nO primeiro contato dos estudantes com os conceitos sistematizados em saberes escolares das ciências inicia-se na Educação Infantil, porém no Ensino Fundamental é que as interpretações dos fenômenos naturais são articuladas aos processos tecnológicos, tendo como ponto de partida questionamentos que permitam a apropriação das linguagens e códigos de diferentes campos como a Astronomia, a Biologia, a Física, a Geologia e a Química.\n\nA organização da área de Ciências da Natureza e suas Tecnologias no Ensino Médio justifica-se no sentido de alcançar um aprofundamento, como previsto na Lei de Diretrizes e Bases da Educação Nacional (LDB), das explicações do mundo físico, natural e social, oportunizando aos estudantes uma maior compreensão da construção das ciências, de suas especificidades e temáticas socio-científicas que consideram aspectos comuns, como a investigação da natureza e os processos de desenvolvimento tecnológico.\n\nDelizoicov, Angotti e Pernambuco defendem a necessidade da ruptura do modelo tradicional de ensino (centrado no professor) para a construção de outro modelo com base na dialogicidade freireana na qual os indivíduos interagem em uma perspectiva questionadora e investigativa, ou seja, uma mudança da prática alienante para emancipadora, tendo o ensino concebido como mediação, em que os estudantes trabalham ativamente, geralmente movidos por situações que desafiam e geram interesse (Delizoicov; Angotti; Pernambuco, 2009).\n\nO Artigo 35º da Lei de Diretrizes e Bases da Educação Nacional indica que na etapa do Ensino Médio:\n\n> Se consolide e aprofunde os conhecimentos adquiridos no ensino fundamental, possibilitando o prosseguimento de estudos; a preparação básica para o trabalho e a cidadania do educando, para continuar aprendendo, de modo a ser capaz de se adaptar com flexibilidade a novas condições de ocupação ou aperfeiçoamento posteriores; o aprimoramento do educando como pessoa, incluindo a formação ética e o desenvolvimento da autonomia intelectual e do pensamento crítico; a compreensão dos fundamentos científico-tecnológicos dos processos produtivos, relacionando a teoria com a prática, no ensino de cada disciplina (Brasil, 1996).\n\nContribuindo com tal prerrogativa, propõe-se que os conceitos científicos desenvolvidos nos componentes curriculares estejam pautados na alfabetização científica e tecnológica dos estudantes e que se considere, nos encaminhamentos metodológicos, o ensino por meio das relações entre Ciência, Tecnologia, Sociedade e Ambiente, conhecidas como abordagem CTSA e os pressupostos freireanos da problematização e dialogicidade, os quais são presunções para a transformação da sociedade e não somente compreensão para adaptação à vida existente.\n\nCada componente curricular desta área apresenta especificidades que exigem aprofundamento por meio de um currículo disciplinar, porém, enfatiza-se que eles sejam articulados interdisciplinarmente com vistas a oportunizar aos estudantes um letramento científico e cidadão (Santos, 2007), em que as competências gerais e específicas estejam asseguradas como direitos estruturados de aprendizagem.\n\nAlinhando a continuidade do conhecimento científico do Ensino Fundamental para o Ensino Médio, a BNCC, no Ensino Fundamental, organiza os conhecimentos das Ciências da Natureza no componente/área Ciências, por meio da classificação em Unidades Temáticas: Matéria e Energia; Vida e Evolução; Terra e Universo. Para o Ensino Médio, propõe um aprofundamento destas unidades por meio de conceitos integradores, possibilitando aos estudantes o desenvolvimento de processos de investigação, análise e discussão de situações problemas (Brasil, 2018).\n\nMatéria e Energia; Vida, Terra e Cosmos compõem os conceitos integradores da área, e representam a articulação dos conhecimentos científicos presentes nos componentes curriculares Biologia, Física e Química. Compõem, também, com a contextualização social, histórica e cultural da ciência e da tecnologia, como o meio pelo qual ocorrerá a articulação entre os três componentes com o objetivo de desenvolver as competências e habilidades presentes na área.\n\nDe acordo com a BNCC, no Ensino Médio, em Matéria e Energia, o ensino deve articular-se com situações problema que possibilitem a aplicação de modelos com maior nível de abstração, buscando explicar, analisar e prever os efeitos das interações e relações entre matéria e energia, tais como: análise de matrizes energéticas; previsão sobre a condutibilidade térmica e elétrica dos materiais; comportamento dos gases diante de mudanças de pressão ou temperatura; consequências das emissões radioativas no ambiente e na saúde, dentre outras.\n\nPara a temática Vida, Terra e Cosmos, originados da articulação entre as unidades temáticas, Vida e Evolução e Terra e Universo, abordadas no Ensino Fundamental, propõe-se um trabalho pedagógico que proporcione aos estudantes analisar a complexidade dos processos ligados à origem e evolução da Vida, do planeta, das estrelas e do Cosmos, como também compreender a dinâmica de suas interações, a diversidade dos seres vivos e suas relações com o ambiente. Tal temática pode explorar, por exemplo, as aplicações das reações nucleares nas explicações de processos estelares, datação geológica, formação da matéria e da vida, bem como as relações do efeito estufa tanto com o metabolismo dos seres vivos quanto com os ciclos biogeoquímicos, dentre outras possibilidades.\n\nNa sequência, serão apresentados os fundamentos, encaminhamentos teórico-metodológicos e especificidades de cada componente curricular da área de Ciências da Natureza e suas Tecnologias.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

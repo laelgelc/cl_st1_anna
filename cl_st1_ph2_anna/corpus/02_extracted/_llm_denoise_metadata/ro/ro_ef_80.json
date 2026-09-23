@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07f7e1b52b5d1c31006ab30bca47ec87d2877bea4b2f15f8f1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 356,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 460,
+      "output_tokens_details": {
+        "reasoning_tokens": 197
+      },
+      "total_tokens": 816
+    }
+  },
+  "created_at": "2026-09-22T23:14:23Z",
+  "duration_seconds": 4.904,
+  "error": null,
+  "excerpt_id": "ro_ef_80",
+  "filename": "ro_ef_80.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4de3a5b584f171e8edfabab78227037b7d478420b96bee49cb7ad6c2ecb164db",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "73d67ac0f65ef713700528d9ad94b9de12b2861c85be84515b2bc7477ebd25e2",
+    "rendered_prompt_sha256": "c4cd7a4ff695f43529089d188e711624fd3ac8ecf865e2973981b584ba4c8bae",
+    "source_text_sha256": "eedacfa5bdb69c7b4f35390108a2ece96ba8fe9194c163bc5d922557a60e0c78"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_80.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3184,
+    "filename": "ro_ef_80.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_80.txt",
+    "state": "ro",
+    "word_count_original": 185
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_80.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_80.json"
+  },
+  "raw_response_text": "### 9.5.11 – Educação Física no Ensino Fundamental – Anos Iniciais: Unidades Temáticas, Objetos de Conhecimento e Habilidades\n\nOs alunos do Ensino Fundamental – Anos Iniciais possuem modos próprios de vida e múltiplas experiências pessoais e sociais, o que torna necessário reconhecer a existência de infâncias no plural e, consequentemente, a singularidade de qualquer processo escolar e sua interdependência com as características da comunidade local. O brincar ainda é extremamente necessário, pois trata-se de um vínculo com as atividades desenvolvidas na Educação Infantil; entretanto, os alunos começam a protagonizar situações do cotidiano dentro do ambiente escolar. A Educação Física será o alicerce de fundamentação do saber brincar com o saber fazer, proporcionando ao aluno experienciar vivências novas dentro do contexto da cultura corporal do movimento, fazendo-o compreender-se como sujeito ativo no meio em que vive.\n\nPara que haja uma maior flexibilidade na delimitação dos currículos e propostas curriculares, tendo em vista a adequação às realidades locais, as habilidades de Educação Física para o Ensino Fundamental – Anos Iniciais estão sendo propostas na BNCC organizadas em dois blocos (1º e 2º anos; 3º ao 5º ano).",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

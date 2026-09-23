@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_049b6fcda5c0199d006ab30dcd9c8487d29a30800b71524891",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 905,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1231,
+      "output_tokens_details": {
+        "reasoning_tokens": 477
+      },
+      "total_tokens": 2136
+    }
+  },
+  "created_at": "2026-09-22T23:23:02Z",
+  "duration_seconds": 8.527,
+  "error": null,
+  "excerpt_id": "rs_em_64",
+  "filename": "rs_em_64.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "36727d6b945a0fe48e1b7e5d5a21ec381b4e5c1933b386e359c12ba2b980e198",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a9088cc2537919955604e81ef2c890aeef7bf1b4c5dbc912f90d7ff2b013f12e",
+    "rendered_prompt_sha256": "182062a1a3ee4b98a5d985d5e4a04498ef4a84bffacf9512b7370951ec8faba0",
+    "source_text_sha256": "2d984c89c5c156fa5d8f8396bc1c9ea5fa53dccc0f03a821ade123c4aa03cb3e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_64.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3610,
+    "filename": "rs_em_64.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_64.txt",
+    "state": "rs",
+    "word_count_original": 512
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_64.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_64.json"
+  },
+  "raw_response_text": "### 3.4.4.2 Educação Física\n\nA Educação Física, como componente curricular da área de Linguagens e suas Tecnologias, deve possibilitar aos estudantes a apropriação crítica da Cultura Corporal de Movimento que é vivida e compartilhada pelas juventudes, tendo como ponto de partida o diálogo, o tensionamento e a vivência das práticas corporais, dos sentidos e dos significados por ela atribuídos, levando em consideração todo o aparato cultural e de movimento que possam contribuir para desenvolver as habilidades e competências da área. Salienta-se que “a Cultura Corporal de Movimento é entendida como o conjunto de práticas culturais em que os movimentos são mediadores do conteúdo simbólico e significantes de diferentes grupos sociais” (BRASIL, 2018a, p. 475).\n\nNesse sentido, entende-se como manifestações da cultura corporal de movimento as lutas, as ginásticas, as danças, as atividades rítmicas e expressivas, os jogos e brincadeiras, os esportes, as práticas corporais de aventura na natureza e as práticas das culturas indígenas, de matriz africana e quilombola, possibilitando o diálogo crítico que potencialize reposicionar a cultura corporal de movimento a partir dos demarcadores socioeconômicos e culturais, étnicos e raciais e de gênero que transitam nestas manifestações.\n\nA saber, ao referir-se ao remanescente da comunidade quilombola, é preciso ressignificar os conceitos a respeito do negro e do afrodescendente. Destaca-se que abordar a questão do negro e do descendente quilombola ultrapassa as fronteiras etnográficas e antropológicas, ressemantizando a identidade e abrindo caminhos para novas concepções culturais, estruturais e teóricas (MEZADRI, 2017). Há abordagens distintas ao trabalhar com o negro e com os descendentes dos quilombolas que muitas vezes precisam negar-se – implicações do racismo e do “pré-conceito” – ante a cultura do Outro – branco, latifundiário, sociedade que o sobrepuja com suas singularidades. Portanto, é papel da escola ressignificar/ressemantizar esses aspectos que tangem nossa historicidade e nossa cultura.\n\nAtendendo o que é disposto na BNCC:\n\n> A Educação Física é o componente curricular que tematiza as práticas corporais em suas diversas formas de codificação e significação social, entendidas como manifestações das possibilidades expressivas dos sujeitos, produzidas por diversos grupos sociais no decorrer da história. Nessa concepção, o movimento humano está sempre inserido no âmbito da cultura e não se limita a um deslocamento espaço-temporal de um segmento corporal ou de um corpo todo. (BRASIL, 2018a, p. 213).\n\nEssa posição configura a possibilidade de explorar uma pluralidade de linguagens que se cruzam nas juventudes que compartilham o espaço cultural da escola, de modo que o diálogo, a reflexão e o desenvolvimento da autonomia dos sujeitos no seu interagir no mundo com protagonismo. Esse movimento deve permitir e favorecer o diálogo nesta área de conhecimento e com as demais áreas, de modo a ampliar a compreensão dos estudantes a respeito dos fenômenos e dinâmicas sociais que estão associadas às práticas corporais.\n\nO que encaminha ao aprofundamento das experiências vividas no Ensino Fundamental, consolidando a compreensão das práticas corporais na sua vida, no contexto sociocultural em que vive, tensionando “os fatores sociais, culturais, ideológicos, econômicos e políticos envolvidos nas práticas e nos discursos que circulam sobre elas” (BRASIL, 2018a, p. 495).",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

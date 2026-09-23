@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d1ac881050ffbcf006ab2fe7b439887d295b35c82b4e8e342",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 692,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 936,
+      "output_tokens_details": {
+        "reasoning_tokens": 375
+      },
+      "total_tokens": 1628
+    }
+  },
+  "created_at": "2026-09-22T22:17:38Z",
+  "duration_seconds": 7.594,
+  "error": null,
+  "excerpt_id": "ba_ef_5",
+  "filename": "ba_ef_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "292df7472f7cb62d09dfe61aae6cb7f287295d809fbd9b2260372fa94c800b8d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c5724b960994b6467e4a8c25cd826cfcd0d91dea8b2c248d625f5d475990fad4",
+    "rendered_prompt_sha256": "0c33db1e5dd96f66e80fef8684133758a39df2a3de9ad4debc4d3be3f936fc42",
+    "source_text_sha256": "8e86b0cdfb3963c559a0cd7bad3e6f751e59ade6fbc2b2bf12e405680f51f424"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_ef_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 618,
+    "filename": "ba_ef_5.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_ef_5.txt",
+    "state": "ba",
+    "word_count_original": 403
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_ef_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_ef_5.json"
+  },
+  "raw_response_text": "## Ensino Fundamental – Anos Finais\n\nA etapa final do 6º ao 9º anos viabiliza, principalmente, a produção de conhecimento dos estudantes que se encontram na faixa etária entre 11 e 14 anos. Nesse período, continuam se evidenciando o lúdico e as tecnologias mediante o acesso às diversas linguagens artísticas, corporal e às temáticas socioculturais que ampliam a visão crítica e reflexiva. Ao mesmo tempo, prevê a consolidação das múltiplas competências do Ensino Fundamental, de forma a assegurar aos estudantes a promoção para o Ensino Médio.\n\nNo que se refere ao Ensino Fundamental (Anos Finais), os conhecimentos e aprendizagens construídos implicam a sequência dos Anos Iniciais. Isso é possível pela diversificação e aprofundamento das práticas sociais de leitura e escrita. Atende também às transformações das práticas de linguagem que emergiram neste século, essas por sua vez, devidas, em grande parte, ao desenvolvimento das tecnologias digitais da informação e comunicação (TDIC).\n\nSegundo a Lei de Diretrizes e Bases²², essa etapa terá como objetivo a formação básica do cidadão. Isso será possível a partir do desenvolvimento da capacidade de aprender, de aprendizagem, bem como do fortalecimento dos vínculos familiares. Assim, os alunos deverão ter domínios básicos de leitura, escrita e cálculo e, ainda, do sistema político, do ambiente natural, da tecnologia, das artes, dos valores fundamentais previstos pela sociedade. Isso, em certa medida, se materializa em situações que despertam a solidariedade, a tolerância, o respeito, por exemplo.\n\nSendo assim, é de responsabilidade da família e da escola proporcionar aos estudantes momentos de ensino e aprendizagem, justamente para que eles possam articular e estabelecer conexões entre as informações e conhecimentos presentes no cotidiano com foco no protagonismo estudantil, possibilitando novas experiências de leitura, escrita e oralidade relacionadas tanto ao contexto escolar quanto ao ambiente externo.\n\n²² BRASIL. Lei nº 9.394, de 20 de dezembro de 1996. Estabelece as Diretrizes e Bases da Educação Nacional. Disponível em: <http://www.planalto.gov.br/ccivil_03/LEIS/L9394.htm>. Acesso em: 20 set. 2018.\n\nNossos protagonistas são os adolescentes/jovens baianos que devem participar com maior criticidade nas diversas situações comunicativas, interagindo com um número cada vez mais crescente de interlocutores, materializados em contextos dentro e fora da escola – reais e digitais. Assim, nossa proposta é contribuir ainda mais para sua formação autônoma, integral, e, acima de tudo, para a valorização de sua cultura, memória e território.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

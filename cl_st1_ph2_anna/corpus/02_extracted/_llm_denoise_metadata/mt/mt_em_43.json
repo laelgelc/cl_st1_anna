@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f6a8d519df73874006ab304efb77487d2a1b0dd56124f8932",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1233,
+      "input_tokens_details": {
+        "cache_write_tokens": 1230,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1156,
+      "output_tokens_details": {
+        "reasoning_tokens": 192
+      },
+      "total_tokens": 2389
+    }
+  },
+  "created_at": "2026-09-22T22:45:11Z",
+  "duration_seconds": 8.186,
+  "error": null,
+  "excerpt_id": "mt_em_43",
+  "filename": "mt_em_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a8b818cf8e8a1005d7892154f866edbc0ef79cb974b59845de194783d3563946",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e8a829e808150ccff358c0e964ef2fb1e087e3610193e2db105d073e600141ee",
+    "rendered_prompt_sha256": "7743c8683da3979605744179a22c214b8d247080c225d777e8eac68374eb7c30",
+    "source_text_sha256": "68b646c3882154049f4ac9ccc7128fde0faefc3511a51ec9de88a4e732eab329"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1936,
+    "filename": "mt_em_43.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_43.txt",
+    "state": "mt",
+    "word_count_original": 718
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_43.json"
+  },
+  "raw_response_text": "## 8.3 Progressão das aprendizagens da Área de Linguagens e suas Tecnologias na educação básica\n\nÉ importante lembrar que, desde a Educação Infantil, os componentes são pensados a partir da organização por área do conhecimento. No caso das Linguagens, a finalidade da área na Educação Básica é ampliar a compreensão das práticas de linguagem de tal modo que os estudantes as utilizem em diferentes manifestações artísticas, corporais e linguísticas, continuando a aprender ao vivenciá-las. No Ensino Fundamental, o estudante adquire os conhecimentos básicos, estruturando-os, e no Ensino Médio, os consolida com a apropriação das especificidades de cada linguagem dentro da área e de suas possibilidades de interação.\n\nAssim compreendida, a área de Linguagens no Ensino Médio propõe o aprofundamento da reflexão crítica da realidade e dos diferentes modos de se expressar, criar, questionar, organizar, analisar, apresentar conclusões e produzir linguagens, como explicitado no Documento de Referência para Mato Grosso - Ensino Fundamental, que prevê a participação dos estudantes em\n\n> [...] diversas práticas de linguagem, ampliando suas capacidades de expressão artísticas, corporais e linguísticas. O que se espera, nesta área, é que os alunos sejam capazes de enfrentar as situações de dificuldades, que envolvem o processo comunicativo, que são propostas pelos professores nas unidades escolares, percebam a mensagem transmitida, interajam com ela, posicionem-se em relação ao conteúdo, reinterpretem e reescrevam o que lhes foi transmitido” (MATO GROSSO, 2018, p. 14).\n\nIsso é corroborado pela BNCC ao se referir aos estudantes do Ensino Médio:\n\n> No Ensino Médio, a área [de linguagem] tem a responsabilidade de propiciar oportunidades para a consolidação e a ampliação das habilidades de uso e de reflexão sobre as linguagens – artísticas, corporais e verbais (oral ou visual-motora, como Libras, e escrita) –, que são objeto de seus diferentes componentes (Arte, Educação Física, Língua Inglesa e Língua Portuguesa) (BRASIL, 2018, p. 483).\n\nNesse movimento, o estudante amplia e consolida sua formação nessa etapa com o desenvolvimento das competências e habilidades iniciadas no Ensino Fundamental para exercer sua cidadania. Todo esse processo é mediado pelo uso consciente e pleno das múltiplas linguagens.\n\nNo Ensino Médio, o estudante se caracteriza também por ter interesses relacionados ao mundo do trabalho, bem como pela sua maior participação na vida social, pelas experiências das práticas de linguagem adquiridas e pelos conhecimentos acumulados nas etapas anteriores. Esse processo permite que ele aprofunde seus interesses em áreas específicas de conhecimento, considerando que essas práticas são mediadas pelas tecnologias disponíveis, como as Tecnologias Digitais de Comunicação e Informação – TDIC.\n\nAs tecnologias digitais somadas à multiplicidade das linguagens auxiliam no desenvolvimento do protagonismo e da autoria na vida social.\n\nDo ponto de vista das práticas contemporâneas de linguagem, ganham mais destaque, no Ensino Médio, a cultura digital, as culturas juvenis, os novos letramentos e os multiletramentos, os processos colaborativos, interações e atividades que têm lugar nas mídias e redes sociais, os processos de circulação de informações e a hibridização dos papéis nesse contexto (de leitor/autor e produtor/consumidor), já explorada no Ensino Fundamental (BRASIL, 2018, p. 498. Grifo do autor).\n\nAs competências necessárias para a participação ativa do estudante no mundo contemporâneo são desenvolvidas progressivamente desde a Educação Infantil por meio de dois eixos estruturantes: interações e brincadeiras. Os eixos estruturantes, na articulação entre direitos de aprendizagem e as dez competências gerais, asseguram as condições para que as crianças aprendam em situações nas quais possam desempenhar um papel ativo em ambientes que as convidem a vivenciar desafios e a sentirem-se provocadas a resolvê-los, nas quais possam construir significados sobre si, os outros e o mundo social e natural (BRASIL, 2017, p. 37).\n\nEspera-se, com isso, que o estudante que começou sua trajetória escolar na Educação Infantil chegue ao Ensino Médio compreendendo a si e ao outro como agentes sociais. Nesse sentido, a concepção de área destaca a importância dos componentes curriculares na construção desse ser integral, ressaltando os pontos de intersecção e suas idiossincrasias. A integração entre os componentes da área é responsável pelo alcance da construção do ser integral proposto pela BNCC. Assim, compreender os aspectos de cada um desses componentes é indispensável para alcançar esses objetivos.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

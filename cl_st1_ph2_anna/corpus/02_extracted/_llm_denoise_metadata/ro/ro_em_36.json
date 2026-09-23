@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_019b704668bc1242006ab30c2a6d1487d2bd96cc814cf27675",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1084,
+      "input_tokens_details": {
+        "cache_write_tokens": 1081,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1083,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 2167
+    }
+  },
+  "created_at": "2026-09-22T23:16:02Z",
+  "duration_seconds": 8.198,
+  "error": null,
+  "excerpt_id": "ro_em_36",
+  "filename": "ro_em_36.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c205fd242a062f426fb358ec27bae907da01e303664d6d863dd289accec6d973",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c3c94649d24c8b9c9f4de027bbbfc555d59385c91e2d5bd4602db5147668ef7e",
+    "rendered_prompt_sha256": "96f0e5495115a5e9ca3dd4d89cdfbb6aa08253364f22ea15db5f8e9c888cf244",
+    "source_text_sha256": "19b3aa4e5ace7abd45da45bc480193bfe3497fcb0cd609ea872de122fd5f5f17"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_36.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3251,
+    "filename": "ro_em_36.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_36.txt",
+    "state": "ro",
+    "word_count_original": 636
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_36.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_36.json"
+  },
+  "raw_response_text": "### 2.3.1. As Unidades Curriculares na Área de Matemática\n\n#### 2.3.1.1 Álgebra\n\nÁlgebra é o ramo da Matemática que generaliza a aritmética. Isso significa que os conceitos e operações provenientes da aritmética (adição, subtração, multiplicação, divisão etc.) serão testados e sua eficácia será comprovada para todos os números pertencentes a determinados conjuntos numéricos.\n\nA operação “adição”, por exemplo, realmente funciona em todos os números pertencentes ao conjunto dos números naturais? Ou existe algum número natural muito grande, próximo ao infinito, que se comporta de maneira diferente dos demais ao ser somado? A resposta para essa pergunta é dada pela álgebra: primeiramente, é definido o conjunto dos números naturais e a operação soma; depois, é comprovado que a operação soma funciona para qualquer número natural.\n\nNos estudos de álgebra, as letras são utilizadas para representar números. Essas letras tanto podem representar números desconhecidos quanto um número qualquer pertencente a um conjunto numérico. Se x é um número par, por exemplo, então x pode ser 2, 4, 6, 8, 10... Dessa maneira, x é um número qualquer pertencente ao conjunto dos números pares e fica evidente o tipo de número que x é: um múltiplo de 2.\n\nOs conceitos relacionados até aqui compõem a álgebra clássica. Essa parte da álgebra está mais ligada aos conjuntos dos números naturais, inteiros, racionais, irracionais, reais e complexos e é estudada tanto no ensino fundamental quanto no ensino superior. A outra parcela da álgebra, conhecida como abstrata, estuda essas mesmas estruturas, mas para conjuntos quaisquer.\n\nDessa forma, dado um conjunto qualquer, com elementos quaisquer (números ou não), é possível definir uma operação “adição”, uma operação “multiplicação” e verificar a existência ou não das propriedades dessas operações, bem como a validade de “equações”, “funções”, “polinômios” etc.\n\nAs origens da álgebra encontram-se na antiga Babilônia, cujos matemáticos desenvolveram um sistema aritmético avançado, no qual puderam fazer cálculos algébricos. Por meio desse sistema, foram capazes de aplicar fórmulas e calcular soluções para incógnitas numa classe de problemas que, hoje, seriam resolvidos como equações lineares, equações quadráticas e equações indeterminadas.\n\nPor outro lado, a maioria dos matemáticos egípcios desta era e a maioria dos matemáticos indianos, gregos e chineses do primeiro milênio a.C, normalmente resolviam estas equações por métodos geométricos, como descrito no Papiro Rhind, Sulba Sutras, Elementos de Euclides e Os Nove Capítulos da Arte Matemática. Os estudos geométricos dos gregos, consolidados nos Elementos, deram a base para a generalização de fórmulas, indo além da solução de problemas particulares para sistemas gerais para especificar e resolver equações.\n\nNo ano de 1.140, Robert de Chester traduziu o título árabe para o latim, como Liber Algebrae et almucabala. No século XVI, é encontrado em inglês como Algiebar and Almachabel, e em várias outras formas, mas foi finalmente encurtado para Álgebra. As palavras significam \"restauração e oposição\".\n\nNo Kholâsat Al-Hisâb (\"Essência da Aritmética\"), Behâ Eddin (cerca de 1600 d.C.) escreve: \"o membro que é afetado por um sinal de menos será aumentado e o mesmo adicionado ao outro membro, isto sendo álgebra; os termos homogêneos e iguais serão então cancelados, isto sendo al-muqâbala\".\n\nOs mouros levaram a palavra al-jabr para a Espanha, um algebrista sendo um restaurador ou alguém que conserta ossos quebrados. Por isso, Miguel de Cervantes em Dom Quixote (II, cap. 15) fez menção a \"um algebrista que atendeu ao infeliz Sansão\". Em certo tempo não era raro ver sobre a entrada de uma barbearia as palavras \"Algebrista y Sangrador\" (SMITH, Vol. 2, páginas 389-90).\n\nO uso mais antigo da palavra álgebra no inglês em seu sentido matemático foi por Robert Recorde no The Pathwaie to Knowledge (\"O Caminho para o Conhecimento\") em 1551:\n\n> \"também a regra da falsa posição, que traz exemplos não somente comuns, mas alguns pertinentes à regra da Álgebra\".",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

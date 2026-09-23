@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_077787a33360fa4a006ab30053c06087d2aeefb5fc07d18ac0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 791,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 812,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 1603
+    }
+  },
+  "created_at": "2026-09-22T22:25:29Z",
+  "duration_seconds": 6.269,
+  "error": null,
+  "excerpt_id": "df_em_54",
+  "filename": "df_em_54.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "07ac4a7c1c480d9c452c431953b59e3dcbf140e8712854f59278b1418413c8bf",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e2c3625d679a766fb2a9a06a6c66a182391280408804c5907300c975c4a039c2",
+    "rendered_prompt_sha256": "5aed6d55169410d3a1f7bd29faeb531ca3c1f20520968e21fd09211c496033d2",
+    "source_text_sha256": "63fe09ba38d192f55213a53ca027b58e734d54f676fb979771f0a8964473ca54"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_54.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 944,
+    "filename": "df_em_54.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_54.txt",
+    "state": "df",
+    "word_count_original": 426
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_54.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_54.json"
+  },
+  "raw_response_text": "## CURSOS DE EDUCAÇÃO PROFISSIONAL E TÉCNICA DE NÍVEL MÉDIO\n\n- Cargas horárias de 800 (oitocentas), 1.000 (mil) ou 1.200 (mil e duzentas) horas (CNCT).\n- Habilitação profissional para a vida e para o mundo do trabalho, desenvolvendo as capacidades para utilizar, desenvolver ou adaptar tecnologias, compreendendo as implicações delas decorrentes, bem como suas relações com o processo produtivo e com a sociedade.\n- Diploma com validade nacional para cursos devidamente registrados no SISTEC.\n- Os cursos técnicos de nível médio poderão ser ofertados de forma subsequente, para quem já concluiu o Ensino Médio, ou de forma integrada, na mesma instituição; ou concomitante, na mesma, ou em distintas instituições.\n\n## CURSOS DE QUALIFICAÇÃO PROFISSIONAL OU DE FORMAÇÃO INICIAL E CONTINUADA (FIC)\n\n- Carga horária mínima de 160 (cento e sessenta) horas.\n- Qualificação profissional para a vida e para a inserção ou reinserção no mundo do trabalho.\n- Reconhecidos por meio de certificado.\n\n## PRINCÍPIOS DA EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA (EPT)\n\n### PRINCÍPIOS ORIENTADORES\n\nOs princípios que orientam a EPT em todas as suas fases de organização, formas e modalidades de oferta, no âmbito do Sistema de Ensino do Distrito Federal, com base na Resolução nº 06/2012 – CNE (BRASIL, 2012), são:\n\n- formação integral do estudante, garantindo articulação entre a formação no Ensino Médio e a formação técnica específica;\n- pleno desenvolvimento para a vida social e profissional, com formação voltada para o fortalecimento de valores cidadãos;\n- respeito aos conhecimentos prévios dos sujeitos da aprendizagem, promovendo a indissociabilidade entre educação e prática social;\n- indissociabilidade entre teoria e prática no processo de ensino e aprendizagem;\n- envolvimento das múltiplas dimensões do eixo tecnológico do curso e das ciências e tecnologias a ele vinculadas;\n- articulação com os arranjos produtivos locais, com as demandas da comunidade escolar e com o desenvolvimento socioeconômico-ambiental dos territórios;\n- reconhecimento da diversidade das pessoas com deficiência, transtornos globais do desenvolvimento e altas habilidades, em regime de acolhimento ou internação e em regime de privação de liberdade;\n- reconhecimento das identidades étnico-raciais dos povos indígenas, dos quilombolas e das identidades de gênero, bem como da diversidade de orientação sexual, das populações do campo e das pessoas em situação de rua;\n- autonomia da Instituição Educacional na construção e revisão de seu Projeto Político Pedagógico (PPP), desde que respeitados o processo participativo, a legislação e as normas educacionais;\n- descrição de perfis profissionais de conclusão de curso que contemplem conhecimentos, competências e saberes profissionais requeridos pela natureza do trabalho, pelo desenvolvimento tecnológico e pelas demandas sociais, econômicas e ambientais;\n- colaboração entre os entes federados, incluindo parcerias com as entidades da sociedade civil, visando à melhoria dos indicadores educacionais.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

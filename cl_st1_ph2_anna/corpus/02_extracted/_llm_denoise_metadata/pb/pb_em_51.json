@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01aa88ba238a287b006ab3074b828c87d28ebaffe301836fa5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 528,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 554,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 1082
+    }
+  },
+  "created_at": "2026-09-22T22:55:12Z",
+  "duration_seconds": 5.279,
+  "error": null,
+  "excerpt_id": "pb_em_51",
+  "filename": "pb_em_51.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8439ca2dc86e57dd54c636a0c088441da561c5eeac91cad8399bb76d003599c6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "337819f49b407811c96307b60dd8a5db0540a72af6a26084e82940d805f1972a",
+    "rendered_prompt_sha256": "5934bddd4a2e807f89868c2d205748b554d47518d51373db66bdebc0a80b6e25",
+    "source_text_sha256": "bb7c5087ba947c58905d38f3c99cf3ee097e5686e8df6e66e51c89a9a025402c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_51.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2299,
+    "filename": "pb_em_51.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_51.txt",
+    "state": "pb",
+    "word_count_original": 272
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_51.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_51.json"
+  },
+  "raw_response_text": "### 2.2.3 COMPETÊNCIAS GERAIS POR ÁREA (BNCC + PECULIARIDADES PARAIBANAS)\n\n**Competência Específica 1** - Utilizar estratégias, conceitos e procedimentos matemáticos para interpretar situações em diversos contextos, sejam atividades cotidianas, sejam fatos das Ciências da Natureza e Humanas, questões econômicas ou tecnológicas. Como também, desenvolver a sua compreensão do mundo, relacionando seus esquemas conceituais a objetos ligados à natureza, à arte, à arquitetura, dentre outras, pertinentes aos mais variados contextos e divulgados por diferentes meios, de modo a consolidar uma formação científica geral.\n\n**Competência Específica 2** - Articular conhecimentos matemáticos ao propor e/ou participar de ações para investigar desafios do mundo contemporâneo e tomar decisões éticas e socialmente responsáveis, com base na análise de problemas de urgência social, como os voltados a situações políticas, de saúde, sustentabilidade, das implicações da tecnologia no mundo do trabalho, entre outros, recorrendo a conceitos, procedimentos e linguagens próprios da Matemática.\n\n**Competência Específica 3** - Utilizar estratégias, conceitos e procedimentos matemáticos para ler, interpretar, construir modelos e resolver/explorar/propor problemas em diversos contextos, analisando a plausibilidade dos resultados, a adequação das soluções propostas de modo a construir argumentação consistente.\n\n**Competência Específica 4** - Compreender e utilizar, com flexibilidade e fluidez, diferentes registros de representação, dentre eles os matemáticos (algébrico, geométrico, estatístico, computacional etc.), na busca da modelagem, solução e comunicação de resultados de problemas, de modo a favorecer a construção e o desenvolvimento do raciocínio matemático.\n\n**Competência Específica 5** - Investigar e estabelecer conjecturas a respeito de diferentes conceitos e propriedades matemáticas, empregando recursos e estratégias como observação de padrões, experimentações e tecnologias digitais, identificando a necessidade, ou não, de uma demonstração cada vez mais formal na validação das referidas conjecturas.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

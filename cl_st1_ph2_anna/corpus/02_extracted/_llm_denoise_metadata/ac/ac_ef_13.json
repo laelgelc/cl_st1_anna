@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_043fc38acb623a6e006ab2facf33b087d2909749c579d307db",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 626,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 724,
+      "output_tokens_details": {
+        "reasoning_tokens": 190
+      },
+      "total_tokens": 1350
+    }
+  },
+  "created_at": "2026-09-22T22:01:56Z",
+  "duration_seconds": 5.62,
+  "error": null,
+  "excerpt_id": "ac_ef_13",
+  "filename": "ac_ef_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b075d49b785e801e4e3f8a50e55c9e6efc6d2c04a922f68ba988d6a2cf47e825",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0db52220047fdece85f6d4b08dc9c707d6e105b0a8d93bc3b0a15762ce4fd416",
+    "rendered_prompt_sha256": "58ccdc3cc2c3adbfebaa33e92d7a834c12aef62fdbeac8a31925fdb3de47b7db",
+    "source_text_sha256": "2c6d90a217aa559ab481d7e14ba6ab2380ea309cc82a293c748c946f72f02d97"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_ef_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 5,
+    "filename": "ac_ef_13.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_ef_13.txt",
+    "state": "ac",
+    "word_count_original": 332
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_ef_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_ef_13.json"
+  },
+  "raw_response_text": "## 4.2. Anos finais\n\nA tabela acima também indica, a cada ano, a incidência dos Conteúdos dos Anos Finais e a que Direitos de Aprendizagem correspondem, de modo específico. Isto significa que, por exemplo, o segundo Direito de Aprendizagem ou Competência Específica 2 do Ensino Religioso, que é “Compreender, valorizar e respeitar as manifestações religiosas e filosofias de vida, suas experiências e saberes, em diferentes tempos, espaços e territórios”, será abordado por 2 Conteúdos no 6º e 8º ano, por 3 Conteúdos no 7º e por 4 Conteúdos no 9º ano. E assim por diante, em relação aos demais Direitos de Aprendizagem, sempre equivalentes às Competências Específicas do Ensino Religioso. Na última coluna à direita aparece, em relação a cada Direito de Aprendizagem, a quantidade de vezes em que é abordado, uma vez contabilizados os Anos Finais. Até o seu término, o aluno terá contato treze vezes com o Direito de Aprendizagem 1, doze vezes com os Direitos de Aprendizagem 2, oito vezes com os Direitos de Aprendizagem 3 e 4, onze vezes com o Direito de Aprendizagem 5 e 9 vezes com o Direito de Aprendizagem 6, conforme pode ser conferido pela coluna TOTAL dos Anos Finais, leitura vertical.\n\nDe um modo geral, pode ser observado na coluna TOTAL, numa leitura vertical, a quantidade de vezes em que cada Direito de Aprendizagem será abordado por uma dada quantidade de Conteúdos, correspondentes, respectivamente, nos Anos Iniciais, do 1º ao 5º, a 8 – 8 – 7 – 7 – 7 – 6 vezes, e nos Anos Finais, do 6º ao 9º, correspondentes a 13 – 11 – 8 – 8 – 11 – 9 vezes. Embora não verificada uma homogeneidade de abordagem, a cada ano, verifica-se pequena variação. Podemos concluir afirmando que, na sequência de 1 a 6 dos Direitos de Aprendizagem, segundo indica a tabela acima, é possível avaliar em que proporções serão abordados e por que quantidade de Conteúdos. Estes podem ser verificados no Quadro Organizador Curricular em sua correspondência, ano a ano, com os referidos Direitos de Aprendizagem.",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

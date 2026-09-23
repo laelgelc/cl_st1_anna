@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08ec8aa425e38735006ab30282b96887d2be79aad51c39c748",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 886,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 907,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 1793
+    }
+  },
+  "created_at": "2026-09-22T22:34:49Z",
+  "duration_seconds": 7.283,
+  "error": null,
+  "excerpt_id": "mg_ef_ch_his_1",
+  "filename": "mg_ef_ch_his_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ca73d88713cbd161a0203fc74a3f0331d63a94a8a24290852ea8a4188b1badc3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4424b1acd7e2278c5eb8704ec6660fedb22619d6de2689ba3ec89f01af37446a",
+    "rendered_prompt_sha256": "0715e8a054942edeb4a3a07f3ced32d10c8f8d7b08e6af67f1b5866d6054df0c",
+    "source_text_sha256": "99884eea8a73687e401e52e43ec30a2138801de285e753e64a2e7883d1d86533"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ch_his_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1390,
+    "filename": "mg_ef_ch_his_1.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ch_his_1.txt",
+    "state": "mg",
+    "word_count_original": 563
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ch_his_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ch_his_1.json"
+  },
+  "raw_response_text": "### 15.1 Componente Curricular: História\n\nO ensino de História ao privilegiar a dimensão temporal da existência humana nos permite identificar, analisar e compreender os significados de diferentes objetos, lugares, circunstâncias, temporalidades, movimento de pessoas, coisas e saberes. É importante para a formação de nossos estudantes na medida em que contribui para se pensar e problematizar questões do tempo presente. Quando somos capazes de perceber nosso passado histórico, temos condições de agir sobre a realidade, dessa forma, o passado que deve impulsionar a dinâmica do ensino-aprendizagem no Ensino Fundamental é aquele que dialoga com o presente.\n\nA História é um conhecimento em constante construção e reconstrução feita pelos homens do presente e para os homens do presente e, portanto, carrega em si as marcas, experiências e valores de cada época. A produção do conhecimento Histórico se faz em diferentes linguagens, narrações sobre o mundo em que os indivíduos viveram e vivem, suas instituições e organizações sociais.\n\nO processo de fazer História e de indagar sobre ela faz parte da constituição do sujeito e consequentemente permite o conhecimento do “Outro”, às vezes semelhantes, muitas vezes diferentes e se alarga ainda mais em direção ao conhecimento de outros povos, com seus usos e costumes específicos, chegando por fim ao mundo em constante movimento e transformação. Em meio a inúmeras combinações dessas variáveis – do Eu, do Outro e do Nós – inseridas em tempos e espaços específicos, os indivíduos produzem saberes que os tornam mais aptos para enfrentarem situações marcadas pelo conflito ou pela conciliação.\n\nEntre os saberes produzidos, destaca-se a capacidade de comunicação e diálogo, instrumento necessário para o respeito à pluralidade cultural, social e política, bem como para o enfrentamento de circunstâncias marcadas pela tensão e pelo conflito. A lógica da palavra, da argumentação, é aquela que permite ao sujeito enfrentar os problemas e propor soluções com vistas à superação das contradições políticas, econômicas e sociais do mundo em que vivemos.\n\nPara se pensar o ensino de História, é fundamental considerar a utilização de diferentes fontes e tipos de documentos (escritos, iconográficos, materiais, imateriais) capazes de facilitar a compreensão da relação tempo e espaço e das relações sociais que os geraram.\n\nOs registros e vestígios das mais diversas naturezas (mobiliário, instrumentos de trabalho, música etc.) deixados pelos indivíduos carregam em si mesmos a experiência humana, as formas específicas de produção, consumo e circulação, tanto de objetos quanto de saberes. Nessa dimensão, o objeto histórico transforma-se em exercício, em laboratório da memória voltado para a produção de um saber próprio da história.\n\nA utilização de objetos materiais pode auxiliar o professor e os estudantes a colocar em questão o significado das coisas do mundo, estimulando a produção do conhecimento histórico em âmbito escolar. Por meio dessa prática, docentes e discentes poderão desempenhar o papel de agentes do processo de ensino e aprendizagem, assumindo, ambos, uma “atitude historiadora” diante dos conteúdos propostos, no âmbito de um processo adequado ao Ensino Fundamental.\n\nO Currículo Referência de História pretende estimular ações nas quais professores e estudantes sejam sujeitos do processo de ensino e aprendizagem. Nesse sentido, eles próprios devem assumir uma atitude historiadora diante dos conteúdos propostos no âmbito do Ensino Fundamental.\n\nConsiderando esses pressupostos, e em articulação com as competências gerais da BNCC e com as competências específicas da área de Ciências Humanas, o componente curricular História deve garantir aos estudantes o desenvolvimento de competências específicas.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

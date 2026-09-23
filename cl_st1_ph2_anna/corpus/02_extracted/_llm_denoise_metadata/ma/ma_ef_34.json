@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a680b42845b3cca006ab301cda66c87d2a464d3538aa7cbe4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 992,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1020,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 2012
+    }
+  },
+  "created_at": "2026-09-22T22:31:48Z",
+  "duration_seconds": 7.342,
+  "error": null,
+  "excerpt_id": "ma_ef_34",
+  "filename": "ma_ef_34.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5ed25bfb2c3b9ba69fad7b78c362f035658f347fec7537b8a0dcf55cccaf0849",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cffdfd3e3d7ad27dba8e77a6c4d4d9b4cd39c42a730cdebfff62d06841d2f0b4",
+    "rendered_prompt_sha256": "4e337e041e47e20ed9097df26479f90e650bc13090920594f8e2cdc6bb9ecddf",
+    "source_text_sha256": "c28c700b4b3bd5e2043f1257a1d3d55eb4b95fc854ba116bf70fa71df5744ea4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_ef_34.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1260,
+    "filename": "ma_ef_34.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_ef_34.txt",
+    "state": "ma",
+    "word_count_original": 617
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_ef_34.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_ef_34.json"
+  },
+  "raw_response_text": "## Unidades temáticas\n\nComo visto no tópico anterior, a Matemática é componente importante na construção da cidadania, pois faz parte da vida e dos problemas cotidianos. Seu ensino deve desenvolver nos estudantes competências que os levem a observar, compreender e transformar a realidade em que vivem.\n\nSeu ensino foi dividido em unidades temáticas, e cada uma delas possui modos de ver e representar o mundo real e seus problemas. As unidades temáticas estruturantes do componente curricular Matemática constituem referências para definição de conteúdos básicos que deverão compor o planejamento do professor. São elas: números, álgebra, grandezas e medidas, geometria, estatística e probabilidade.\n\nEm termos gerais, é apresentado a seguir o que se pretende com cada uma das unidades temáticas.\n\nSobre números, pretende-se que os estudantes ampliem e construam novos significados para estes, representando-os, utilizando seus diferentes significados, resolvendo situações-problema que os envolvam, assim como problemas operatórios. Os procedimentos devem variar desde aqueles que envolvem cálculo mental, estimativas, arredondamentos até algoritmos.\n\nPor meio da álgebra, é esperado que os estudantes generalizem regularidades, interpretem expressões algébricas, igualdades e desigualdades, resolvam problemas que envolvam equações, inequações e sistemas ao traduzirem situações-problema na linguagem matemática. Nesse sentido almeja-se um ensino pela vertente do pensamento algébrico que, segundo Van de Walle (2009:286) “longe de ser um tópico de pouco uso no mundo real, o pensamento algébrico penetra toda a Matemática e é essencial para torná-la útil na vida cotidiana”.\n\nNa geometria, busca-se que a construção do conhecimento parta da geometria espacial para as planas, de forma que o estudante compreenda a construção das figuras geométricas e seus elementos, observando diferenças e semelhanças entre elas; construindo representações por meio da composição, decomposição, ampliação e redução das mesmas, além da localização de pontos no plano cartesiano, construindo conceitos.\n\nSobre grandezas e medidas, deseja-se que o estudante compreenda a relação entre as mesmas para que possa observar a variação entre grandezas, estabelecer relações e resolver situações-problema que tratem de proporcionalidade.\n\nPor meio da estatística e probabilidade, o que se quer é que os estudantes resolvam problemas que envolvam a coleta, organização e análise de dados e informações, a construção e interpretação de gráficos e tabelas, além de desenvolverem o raciocínio sobre probabilidades. O que se propõe com essa unidade temática é um ensino que possibilite ao estudante “perceber que (...) os gráficos e quadros comunicam sobre as informações e que tipos diferentes de representações informam coisas diferentes sobre os mesmos dados” (VAN DE WALLE, 2009:491).\n\nÉ interessante notar que a formação dos conceitos básicos relativos aos conteúdos matemáticos deve ser explorada em cada unidade temática, de modo que o estudante seja capaz de investigar e analisar situações do cotidiano para fazer suas interpretações, representando-as por meio dos recursos que a Matemática lhe disponibiliza, a saber: gráficos, tabelas, diagramas aplicados a situações-problema.\n\nIsto não invalida a possibilidade de envolvermos duas ou mais unidades temáticas no planejamento de uma atividade matemática. Desta forma, consideramos um ensino que habilite o estudante do Ensino Fundamental a “compreender padrões, relações e função; representar e analisar estruturas matemáticas usando símbolos algébricos; usar modelos matemáticos para representar e compreender relações quantitativas; analisar a variação em diversos contextos” (APM, 2007:39).\n\nNessa direção, a BNCC (BRASIL, 2017:266) propõe cinco unidades temáticas, correlacionadas, que orientam a formulação de habilidades a ser desenvolvidas ao longo do Ensino Fundamental. Cada uma delas pode receber ênfase diferente, a depender do ano de escolarização.\n\nDessa forma, acredita-se que deve haver assim, sempre que possível, um planejamento que envolva essas unidades fazendo com que se relacionem objetos de conhecimento (conteúdos, conceitos e processos) às suas respectivas habilidades.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

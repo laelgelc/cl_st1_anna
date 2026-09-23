@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b2a0a50bbecd8f0006ab30ae8642c87d280324a02132437f4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 586,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 598,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 1184
+    }
+  },
+  "created_at": "2026-09-22T23:10:37Z",
+  "duration_seconds": 5.25,
+  "error": null,
+  "excerpt_id": "rn_ef_41",
+  "filename": "rn_ef_41.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "53c0e193ccd452d3d19cfe446421d49169051b78f89b13ddf5c27e4f56d03a6b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0d5859aaa0df664027f2f3f374bdbd0ffcb7616e4ab6f9388c23b5a21a084ce9",
+    "rendered_prompt_sha256": "7124e7cb3883218d0f3eab0614b33621e0820c1a455e0ee13c1dc387f98dc1d4",
+    "source_text_sha256": "f84b97e1e0d0cd665ad96417e0dc8838b12364ad0ac74db504ec5c46c207d3e2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_41.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2981,
+    "filename": "rn_ef_41.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_41.txt",
+    "state": "rn",
+    "word_count_original": 329
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_41.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_41.json"
+  },
+  "raw_response_text": "## COMPETÊNCIAS ESPECÍFICAS DO COMPONENTE CURRICULAR\n\n1. Reconhecer que a Matemática é uma ciência humana, fruto das necessidades e preocupações de diferentes culturas, em diferentes momentos históricos, e é uma ciência viva, que contribui para solucionar problemas científicos e tecnológicos e para alicerçar descobertas e construções, inclusive com impactos no mundo do trabalho.\n2. Desenvolver o raciocínio lógico, o espírito de investigação e a capacidade de produzir argumentos convincentes, recorrendo aos conhecimentos matemáticos para compreender e atuar no mundo.\n3. Compreender as relações entre conceitos e procedimentos dos diferentes campos da Matemática (Aritmética, Álgebra, Geometria, Estatística e Probabilidade) e de outras áreas do conhecimento, sentindo segurança quanto à própria capacidade de construir e aplicar conhecimentos matemáticos, desenvolvendo a autoestima e a perseverança na busca de soluções.\n4. Fazer observações sistemáticas de aspectos quantitativos e qualitativos presentes nas práticas sociais e culturais, de modo a investigar, organizar, representar e comunicar informações relevantes, para interpretá-las e avaliá-las crítica e eticamente, produzindo argumentos convincentes.\n5. Utilizar processos e ferramentas matemáticas, inclusive tecnologias digitais disponíveis, para modelar e resolver problemas cotidianos, sociais e de outras áreas do conhecimento, validando estratégias e resultados.\n6. Enfrentar situações-problema em múltiplos contextos, incluindo-se situações imaginadas, não diretamente relacionadas com o aspecto prático-utilitário, expressar suas respostas e sintetizar conclusões, utilizando diferentes registros e linguagens (gráficos, tabelas, esquemas, além de texto escrito na língua materna e outras linguagens para descrever algoritmos, como fluxogramas, e dados).\n7. Desenvolver e/ou discutir projetos que abordem, sobretudo, questões de urgência social, com base em princípios éticos, democráticos, sustentáveis e solidários, valorizando a diversidade de opiniões de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.\n8. Interagir com seus pares de forma cooperativa, trabalhando coletivamente no planejamento e desenvolvimento de pesquisas para responder a questionamentos e na busca de soluções para problemas, de modo a identificar aspectos consensuais ou não na discussão de uma determinada questão, respeitando o modo de pensar dos colegas e aprendendo com eles.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

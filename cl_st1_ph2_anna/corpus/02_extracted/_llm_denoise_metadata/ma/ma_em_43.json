@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f83d12f1b6a0a6e006ab3022c9e9c87d2a5afd7c06bbe8479",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1382,
+      "input_tokens_details": {
+        "cache_write_tokens": 1379,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1496,
+      "output_tokens_details": {
+        "reasoning_tokens": 307
+      },
+      "total_tokens": 2878
+    }
+  },
+  "created_at": "2026-09-22T22:33:27Z",
+  "duration_seconds": 11.052,
+  "error": null,
+  "excerpt_id": "ma_em_43",
+  "filename": "ma_em_43.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b9a3c5a316ff2529228bda060067057f720203fe7adc06f7b61fe7ca688219b7",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9d38ae1499715617616a015e22b42d73de6ad5709ffbaee4ad1c128d09be5465",
+    "rendered_prompt_sha256": "2446fbbf185079bdea0e383b0516c428ae05c7f71a885a24b0118e1c11f3ef11",
+    "source_text_sha256": "e448a44801e1f28b9af4afe133cb7f55c714c3b3200a3fe5cfffbd9c9990a2e3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_43.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1332,
+    "filename": "ma_em_43.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_43.txt",
+    "state": "ma",
+    "word_count_original": 812
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_43.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_43.json"
+  },
+  "raw_response_text": "### 4.3. Proposição curricular para a rede estadual de ensino\n\nNa rede estadual de ensino, o estudante do ensino médio irá fazer a escolha do itinerário que irá seguir, ao final da 1ª série, a partir de orientações dadas pelas unidades curriculares de projeto de vida, eletivas de pré-IF e tutoria, presentes na matriz curricular, na parte da diversificação curricular. Unidades curriculares que são indispensáveis para dar ao estudante o apoio necessário a uma escolha mais consciente, como demonstrado abaixo.\n\n- 1ª série – organização curricular básica, constituída pela BNCC + formação diversificada para apoiar a escolha ao final do ano;\n- 2ª e 3ª série – organização curricular constituída pela integração da BNCC + formação diversificada, com carga horária específica para os itinerários formativos.\n\nAlém das unidades curriculares que fazem parte da formação diversificada e se apresentam na proposta curricular para a rede estadual de ensino, do projeto de vida e das eletivas, há outras unidades curriculares que são: tutoria, pós-médio, estudo orientado, corresponsabilidade social, cultura espanhola, práticas experimentais e projetos empreendedores. Em referência à concepção de oferta das eletivas, apresenta-se três tipos, com características, públicos e enfoques distintos: eletivas da Base Nacional Comum Curricular (eletivas da Base), eletivas pré-itinerário formativo (eletivas pré IF) e eletivas de itinerário formativo (eletivas IF).\n\nA figura 5, na próxima página, descreve, de forma sucinta, a abordagem que algumas unidades curriculares do itinerário formativo devem ter dentro do currículo escolar.\n\nVale ressaltar que os itinerários formativos devem considerar as demandas e necessidades do mundo contemporâneo, estar sintonizados com os diferentes interesses dos estudantes e sua inserção na sociedade, o contexto local e as possibilidades de oferta dos sistemas e instituições de ensino e orientados para o aprofundamento e ampliação das aprendizagens em áreas do conhecimento que devem garantir a apropriação de procedimentos cognitivos e o uso de metodologias que favoreçam o protagonismo juvenil, e organizar-se em torno de um ou mais dos eixos estruturantes a seguir (BRASIL, 2018).\n\nEm consonância com as Diretrizes Curriculares Nacionais para o Ensino Médio, os itinerários formativos terão como base os seguintes eixos estruturantes:\n\n- Investigação científica: supõe o aprofundamento de conceitos fundantes das ciências para a interpretação de ideias, fenômenos e processos para serem utilizados em procedimentos de investigação voltados ao enfrentamento de situações cotidianas e demandas locais e coletivas, e a proposição de intervenções que considerem o desenvolvimento local e a melhoria da qualidade de vida da comunidade;\n- Processos criativos: supõe o uso e o aprofundamento do conhecimento científico na construção e criação de experimentos, modelos, protótipos para a criação de processos ou produtos que atendam a demandas pela resolução de problemas identificados na sociedade;\n- Mediação e intervenção sociocultural: supõe a mobilização de conhecimentos de uma ou mais áreas para mediar conflitos, promover entendimento e implementar soluções para questões e problemas identificados na comunidade;\n- Empreendedorismo: supõe a mobilização de conhecimentos de diferentes áreas para a formação de organizações com variadas missões voltadas ao desenvolvimento de produtos ou prestação de serviços inovadores com o uso das tecnologias (BRASIL, 2018).\n\nNa perspectiva da investigação científica, o estudante terá como objetivo pesquisar, investigar, elaborar hipóteses, apropriar-se de todos os mecanismos que a ciência oferece: aprofundamento, investigação científica para conhecer o tema. Em processos criativos, o estudante terá a capacidade de criar, propor, inovar e solucionar problemas. A ideia é pegar o tema que já foi investigado cientificamente e criar algo para solucionar esse problema ou para inovar nesse tema. Os processos criativos podem ser artísticos, midiáticos, teatro, livro, aplicativos de games, projetos criados em laboratórios. Em intervenção comunitária, a ideia é que, se já pesquisou o tema, já criou algo para solucionar e inovar, o estudante vai aplicar na realidade. Vai levar o que criou para implementar na realidade, por meio de campanha, teatro ou foco no social ambiental que sejam relevantes. Por fim, o empreendedorismo, que pode ser um projeto pessoal, social, startup, pequena empresa, porta de saída, pensamento pós-médio.\n\nAssim, conforme as Diretrizes Curriculares Nacionais para o Ensino Médio, os itinerários formativos têm, ainda, o objetivo de consolidar a formação integral, promover a incorporação de valores universais e desenvolver habilidades que permitam aos estudantes ampliar sua visão de mundo, tomar decisões e agir com autonomia e responsabilidade.\n\nCada eixo estruturante, conforme a sua especificidade, poderá proporcionar ao estudante várias possibilidades de aprendizagens em diferentes contextos. O estudante pode, mediante um tema, pesquisar, criar, intervir e empreender. Isto nos remete a entender que cada ação precisa ser amplamente experimentada pelo objeto de conhecimento da área de conhecimento ou pela educação profissional técnica. Estes experimentos podem ser feitos por meio das eletivas, considerando que elas são elementos constituintes dos itinerários formativos. Desse modo, compreendemos que os objetivos dos eixos consistem em proporcionar ao estudante a aplicação dos conhecimentos em diferentes situações.\n\nNa formação técnica e profissional, a expansão ocorre juntamente com o desenvolvimento de habilidades básicas requeridas pelo mundo do trabalho e habilidades específicas relacionadas aos cursos técnicos, cursos de qualificação profissional, de formação inicial e continuada (FICs) ou programa de aprendizagem profissional também escolhidos pelos estudantes, conforme a oferta disponibilizada na rede estadual e estabelecimentos de ensino em geral.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

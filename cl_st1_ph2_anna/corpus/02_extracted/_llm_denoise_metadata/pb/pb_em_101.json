@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a7d69ae02249bc8006ab306f800c887d2842beb548ff8387d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 805,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 955,
+      "output_tokens_details": {
+        "reasoning_tokens": 248
+      },
+      "total_tokens": 1760
+    }
+  },
+  "created_at": "2026-09-22T22:53:53Z",
+  "duration_seconds": 9.403,
+  "error": null,
+  "excerpt_id": "pb_em_101",
+  "filename": "pb_em_101.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "529d4dad232a8c0959f8d724528f3f3003da9dce96fafce3b1ee14fceaab4000",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8d8e9dc8fd204f63abc3313fa5f7b0f9ef240f4345a687432e9bb7afac080504",
+    "rendered_prompt_sha256": "19e517f43b7c12705b86cf5aa00ab2840b8f42a572e8dea2083a0feaf9a07f55",
+    "source_text_sha256": "f75b36ad9163f85a91713dcdba9db831f0b7882fd721eac06c7826b477f2ff0f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_101.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2235,
+    "filename": "pb_em_101.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_101.txt",
+    "state": "pb",
+    "word_count_original": 501
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_101.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_101.json"
+  },
+  "raw_response_text": "### 3.7 ELETIVAS\n\n#### 3.7.1 INTRODUÇÃO\n\nOs Componentes Curriculares das Eletivas pertencem a parte integrante da flexibilização do currículo do Novo Ensino Médio e são pensadas para fortalecer o Projeto de Vida dos estudantes, com a finalidade de aprofundar as Unidades Temáticas propostas nos Componentes Curriculares da Base Nacional Comum Curricular (BNCC). As Eletivas são oferecidas, semestralmente, com temas sugeridos pelos educadores e/ou pelos estudantes, de acordo com os anseios dos envolvidos podendo abranger diferentes áreas do conhecimento e ampliando o repertório cultural dos estudantes.\n\nPara que a proposta da Eletiva se torne efetiva, ela precisa ter caráter atrativo, dinâmico e interdisciplinar, considerando a importância de se pensar no contexto do estudante para que os temas a serem trabalhados tenham como resultado uma aprendizagem significativa. A cada semestre letivo, o estudante fará a escolha da Eletiva, entre as opções ofertadas pela Unidade de Ensino, a que mais se aproxima de sua identidade, buscando aprender de forma contextualizada, uma vez que nos componentes Eletivas terão aplicações aulas práticas, alinhadas com a proposta da BNCC, no que se refere à formação integral do estudante e no desenvolvimento de habilidades e competências que contribuam na formação do estudante para a vida.\n\nRessaltamos que para uma oferta adequada na Unidade de Ensino, as Eletivas, para todas as turmas, devem acontecer no mesmo dia e horário, com carga horária de duas horas/aulas sequenciadas, podendo se matricular estudantes de séries diferentes na mesma eletiva, possibilitando assim um maior engajamento entre as turmas da escola.\n\nDessa forma, compreendendo que as Unidades de Ensino têm a missão de formar, com excelência, cidadãos para a vida, os educadores, que possuem o privilégio de lecionar os Componentes Curriculares Eletivas, buscam mecanismos para a efetivação do que de fato compreende-se como processo de formação de cidadãos, amparados pela Lei de Diretrizes e Bases para Educação no 9394/96. em seu Art. 1o quando estabelece que a educação abrange os processos formativos que se desenvolvem na vida familiar, na convivência humana, no trabalho, nas instituições de ensino e pesquisa, nos movimentos sociais e organizações da sociedade civil e nas manifestações culturais.\n\nDe acordo com a LDB 9394/96, quando nos referimos à Educação, ela está diretamente ligada aos processos formativos que se desenvolvem em toda a vivência do estudante, em todas as esferas de sua vida, e no ponto de vista das instituições de ensino, a estas cabe o papel de sistematizar este processo, assumindo a responsabilidade de direcionar os estudantes em um avanço acadêmico de qualidade. Assim, exercendo seu papel de cidadãos, os estudantes possuem a liberdade de escolher, dentre as diversas áreas do conhecimento, as Eletivas, as quais correspondem a uma imersão no conhecimento, de forma interdisciplinar, buscando minimizar déficits de aprendizagem ao longo de seu processo formativo, possibilitando descobertas e novas experiências. Assim sendo, o Componente Curricular Eletiva permite o protagonismo e proatividade desses estudantes, além de desenvolver sua autonomia, criatividade e repertório de conhecimentos, buscando aliar o conhecimento científico e teórico às atividades práticas.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

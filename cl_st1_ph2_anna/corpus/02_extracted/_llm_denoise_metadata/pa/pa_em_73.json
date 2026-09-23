@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_028428897330745a006ab306348a8c87d29a60ff75503a8408",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 824,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1271,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2095
+    }
+  },
+  "created_at": "2026-09-22T22:50:40Z",
+  "duration_seconds": 12.019,
+  "error": null,
+  "excerpt_id": "pa_em_73",
+  "filename": "pa_em_73.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dc59d9dbd5667bf9ee0e655febd0f63da7edb5355123825d59bcd08aeee02a8c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bae2f9c0496691bbf54cae0768817dbde2667b85ca14e56f7df83cf35a3be1a3",
+    "rendered_prompt_sha256": "89baacf7ce7c744d88d6f174fae77bfcd7dbd7a76c3515e518e461f4f1c449ed",
+    "source_text_sha256": "f39c0a8fe9eeb62e97afa4f511723d6e8723c2f4b7bca57fc0a56fe4f989b3dd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pa/pa_em_73.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2123,
+    "filename": "pa_em_73.txt",
+    "filepath": "corpus/00_source_per_state/pa/pa_em_73.txt",
+    "state": "pa",
+    "word_count_original": 464
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pa/pa_em_73.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pa/pa_em_73.json"
+  },
+  "raw_response_text": "## Quadro 22: Estrutura das ementas dos Campos de Saberes e Práticas Eletivos\n\n### Elementos\n\n1. **Título do campo de saberes:**  \n   Este deve ser atrativo (linguagem das juventudes).\n\n2. **Princípio(s) curricular(es) norteador(es):**\n   - Respeito às diversas culturas amazônicas e suas inter-relações no espaço e no tempo;\n   - Educação para a sustentabilidade ambiental, social e econômica;\n   - Interdisciplinaridade no processo ensino-aprendizagem.\n\n   Os princípios acima listados são fundamentos que norteiam (orientam) o currículo na perspectiva da formação humana integral, trazendo para as discussões o desenvolvimento dos processos criativos e produtivos, advindos dos distintos grupos sociais que compõem a Amazônia, considerando a diversidade ambiental, social, econômica e cultural.\n\n3. **Eixos estruturantes:**\n   - Investigação científica;\n   - Processos criativos;\n   - Mediação e intervenção sociocultural;\n   - Empreendedorismo social.\n\n   Estes eixos conectam as experiências pedagógicas com a realidade cotidiana dos estudantes, favorecendo o desenvolvimento de habilidades importantes para a formação humana integral.\n\n4. **Carga horária:**  \n   40h semestrais.\n\n5. **Área(s) de conhecimento(s):**  \n   Aponta as áreas Linguagens e suas tecnologias, Matemática e suas tecnologias, Ciências da Natureza e suas tecnologias, Ciências Humanas Sociais Aplicada. Caso o campo eletivo seja vinculado à EPT, deve-se informar que se trata de um campo cuja itinerância integra a área e a EPT.\n\n6. **Competência específica de área:**  \n   Referem-se às competências das áreas de conhecimento apresentadas na nucleação da formação geral básica. Deve-se indicar o seu código alfanumérico.\n\n   Ex.: EM13MAT201 (segunda competência da área de matemática).\n\n7. **Habilidades a serem trabalhadas:**  \n   Refere-se às habilidades associadas às competências gerais da BNCC e às habilidades específicas das itinerâncias, conforme determina a Portaria MEC nº 1.432/2018. Deve-se indicar o seu código alfanumérico.\n\n   Ex.: (EMIFLGG01) – 1ª habilidade específica da itinerância na área de Linguagens e suas Tecnologias.\n\n8. **Objetos de conhecimento a serem aprofundados:**  \n   Apresenta a lista de objetos de conhecimento possíveis para serem aprofundados nos campos eletivos e associados às habilidades.\n\n9. **Bibliografia básica:**  \n   Lista de materiais bibliográficos consultados pelo professor para subsidiar a prática docente no campo eletivo.\n\n**Fonte:** Elaboração com base nos estudos e sistematizações do ProBNCC – etapa ensino médio (2019).\n\nAssim, os campos de saberes e práticas de ensino eletivos são unidades curriculares flexíveis que possibilitam a integração curricular entre os objetos de ensino que compõem uma área de conhecimento e a EPT. Dessa forma, o DCEPA – etapa ensino médio apresenta em anexo um conjunto de ementas para subsidiar a elaboração de campos eletivos para serem disponibilizados nas escolas e suas respectivas ementas, que se correlacionarão com os princípios curriculares norteadores, os eixos estruturantes, as competências específicas de área, as habilidades específicas das itinerâncias e os objetos de conhecimento.\n\nPortanto, os campos eletivos são oportunidades de aprendizagens diversas que aliam os interesses dos estudantes, o aprofundamento dos objetos de conhecimento de uma área e seus projetos de vida, que serão discutidos na continuidade desta seção.",
+  "state": "pa",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

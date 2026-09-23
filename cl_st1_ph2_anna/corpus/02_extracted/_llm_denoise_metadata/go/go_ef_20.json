@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0979d4fb2b001c44006ab300ebc41c87d284ad4d1bb006912a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 694,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1295,
+      "output_tokens_details": {
+        "reasoning_tokens": 750
+      },
+      "total_tokens": 1989
+    }
+  },
+  "created_at": "2026-09-22T22:28:08Z",
+  "duration_seconds": 12.567,
+  "error": null,
+  "excerpt_id": "go_ef_20",
+  "filename": "go_ef_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dc039d72cbb1ef615358c8aad9fa2e26b3799bff25c831e522ee0d007c049509",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "90ab8a2dfab9716b7930f27b86136b6e94aec590a67b28d62d9597805d4d9d1a",
+    "rendered_prompt_sha256": "751c389fed386d787635bcf2d45d563aa8898a1fa93667372902dc8768bc7119",
+    "source_text_sha256": "1e43b13c969b30e71794f03352ec4009b52bf2ee302506aa926741c0c41e32d8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_ef_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1095,
+    "filename": "go_ef_20.txt",
+    "filepath": "corpus/00_source_per_state/go/go_ef_20.txt",
+    "state": "go",
+    "word_count_original": 370
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_ef_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_ef_20.json"
+  },
+  "raw_response_text": "# QUADRO CURRICULAR DO COMPONENTE EDUCAÇÃO FÍSICA\n\nO papel da Educação Física no currículo escolar é tematizar as práticas corporais em suas diversas formas de codificação e significação social, entendidas como manifestações das possibilidades expressivas dos sujeitos, produzidas por diversos grupos sociais no decorrer da história.\n\nO Quadro Curricular do componente de Educação Física apresenta-se organizado pelas seguintes unidades temáticas: Brincadeiras e Jogos; Esporte; Ginástica; Dança; Lutas e Práticas Corporais de Aventura. As unidades temáticas, objetos de conhecimento, conteúdos e habilidades estão alinhadas, anualmente, de modo que a progressão dos processos cognitivos se encontra organizada hierarquicamente, em níveis de complexidade crescente, gradual e progressiva. A progressão dos objetos de conhecimento pode ser horizontal, no mesmo ano, e vertical, no decorrer do Ensino Fundamental, pois indicam processos cognitivos cada vez mais ativos ou exigentes, respeitando as especificidades das diferentes práticas corporais, as singularidades dos sujeitos e seus contextos.\n\nAs habilidades expressam as aprendizagens essenciais que devem ser asseguradas aos estudantes, ao longo do Ensino Fundamental. Elas estão organizadas em um quadro e são identificadas por um código alfanumérico. Nos casos em que a habilidade permanece como está na BNCC, o código alfanumérico mantém a estrutura original (EF12EF03). Para atender a organização ano a ano, as habilidades da BNCC, que haviam sido elaboradas para blocos, foram reelaboradas para cada um dos anos que compõem os blocos, sendo precedidas pela sigla GO (GO-EF09EF10).\n\nNo processo de inter-relação com a Área de Linguagens, o componente da Educação Física dialoga com todos os componentes, sendo Língua Portuguesa e Língua Inglesa base para o ordenamento. Nos anos iniciais, a unidade temática Jogos e Brincadeiras estabelece conexões com todos os componentes de Linguagens, integrando, por exemplo, com o campo de atuação da Língua Portuguesa, Vida Cotidiana, e com Língua Inglesa, que contemplam em suas habilidades tecnologias e recursos digitais, para acesso, apreciação, produção, registro e compartilhamento.\n\nAs demais áreas apontam possibilidades de integração, pois todas as unidades temáticas da Educação Física se articulam, uma vez que nenhuma unidade temática é pré-requisito para outra.\n\nO professor, com sua experiência e autonomia, poderá encontrar no quadro de habilidades, várias outras possibilidades de integração com os componentes das outras áreas, criando caminhos, formas e oportunidades de mobilizar conhecimentos, de forma integrada.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

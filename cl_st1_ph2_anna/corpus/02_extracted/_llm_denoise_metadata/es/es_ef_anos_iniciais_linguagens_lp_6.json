@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0aa99019b6c9b495006ab3008e539487d2967d37706b0b7927",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 705,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 795,
+      "output_tokens_details": {
+        "reasoning_tokens": 203
+      },
+      "total_tokens": 1500
+    }
+  },
+  "created_at": "2026-09-22T22:26:28Z",
+  "duration_seconds": 6.349,
+  "error": null,
+  "excerpt_id": "es_ef_anos_iniciais_linguagens_lp_6",
+  "filename": "es_ef_anos_iniciais_linguagens_lp_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f61d5c9e8c790d16bc87a28a75d2b415fd6697f3e65587ba043d172ffd6968fe",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "62d9faffba74f0f99cd5389762fbad3000406e51e01d9b21939ab1927567af5a",
+    "rendered_prompt_sha256": "942595f27d4f82c8e46469fb2c6c12604f856a72a0768740ef1d729e5c2762a5",
+    "source_text_sha256": "199fae263af1c9d1e7f3ee79932dfef0b8240abc732209ff4a7142f9d3aa7b64"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_ef_anos_iniciais_linguagens_lp_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1008,
+    "filename": "es_ef_anos_iniciais_linguagens_lp_6.txt",
+    "filepath": "corpus/00_source_per_state/es/es_ef_anos_iniciais_linguagens_lp_6.txt",
+    "state": "es",
+    "word_count_original": 362
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_ef_anos_iniciais_linguagens_lp_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_ef_anos_iniciais_linguagens_lp_6.json"
+  },
+  "raw_response_text": "Considerando esses pressupostos, e em articulação com as competências gerais da Educação Básica e com as competências específicas da área de Linguagens, o componente curricular Língua Portuguesa, deve garantir aos alunos o desenvolvimento das seguintes Competências Específicas:\n\n| Competência Específica | Descrição da Competência |\n|---|---|\n| LPEF01 | Compreender a língua como fenômeno cultural, histórico, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo-a como meio de construção de identidades de seus usuários e da comunidade a que pertencem. |\n| LPEF02 | Apropriar-se da linguagem escrita, reconhecendo-a como forma de interação nos diferentes campos de atuação da vida social e utilizando-a para ampliar suas possibilidades de participar da cultura letrada, de construir conhecimentos (inclusive escolares) e de se envolver com maior autonomia e protagonismo na vida social. |\n| LPEF03 | Ler, escutar e produzir textos orais, escritos e multissemióticos que circulam em diferentes campos de atuação e mídias, com compreensão, autonomia, fluência e criticidade, de modo a se expressar e partilhar informações, experiências, ideias e sentimentos, e continuar aprendendo. |\n| LPEF04 | Compreender o fenômeno da variação linguística, demonstrando atitude respeitosa diante de variedades linguísticas e rejeitando preconceitos linguísticos. |\n| LPEF05 | Empregar, nas interações sociais, a variedade e o estilo de linguagem adequados à situação comunicativa, ao(s) interlocutor(es) e ao gênero do discurso/gênero textual. |\n| LPEF06 | Analisar informações, argumentos e opiniões manifestados em interações sociais e nos meios de comunicação, posicionando-se ética e criticamente em relação a conteúdos discriminatórios que ferem direitos humanos e ambientais. |\n| LPEF07 | Reconhecer o texto como lugar de manifestação e negociação de sentidos, valores e ideologias. |\n| LPEF08 | Selecionar textos e livros para leitura integral, de acordo com objetivos, interesses e projetos pessoais (estudo, formação pessoal, entretenimento, pesquisa, trabalho, dentre outros). |\n| LPEF09 | Envolver-se em práticas de leitura literária que possibilitem o desenvolvimento do senso estético para fruição, valorizando a literatura e outras manifestações artístico-culturais como formas de acesso às dimensões lúdicas, de imaginário e encantamento, reconhecendo o potencial transformador e humanizador da experiência com a literatura. |\n| LPEF10 | Mobilizar práticas da cultura digital, diferentes linguagens, mídias e ferramentas digitais para expandir as formas de produzir sentidos (nos processos de compreensão e produção), aprender e refletir sobre o mundo e realizar diferentes projetos autorais. |",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

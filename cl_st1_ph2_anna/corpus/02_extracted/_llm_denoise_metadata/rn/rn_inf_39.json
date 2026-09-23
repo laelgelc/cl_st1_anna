@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d9db0900c23c2d9006ab30b583cc087d28b98a3839e4e658a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 572,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 565,
+      "output_tokens_details": {
+        "reasoning_tokens": 92
+      },
+      "total_tokens": 1137
+    }
+  },
+  "created_at": "2026-09-22T23:12:29Z",
+  "duration_seconds": 5.478,
+  "error": null,
+  "excerpt_id": "rn_inf_39",
+  "filename": "rn_inf_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f40314287a1280e3739777e773ad7bfdab4d000d41210cb9e40726ed6b2bdb4d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5fbbd8f87a68e7353fb10e51aaeb1e4b9c42b492f8dd15b415ff88491caddaa6",
+    "rendered_prompt_sha256": "1ec5d38184b8d70066981fab0a3857dbe0bad35fb3a8a94c3ebea4752ae33c13",
+    "source_text_sha256": "7db69b9cbbf6159d937604dff02fb8d0142295b722de402e66bffaedd35ab052"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3086,
+    "filename": "rn_inf_39.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_39.txt",
+    "state": "rn",
+    "word_count_original": 343
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_39.json"
+  },
+  "raw_response_text": "## DIALOGANDO COM AS DCNEI\n\nCabe às instituições:\n\na) planejar e efetivar o acolhimento das crianças e de suas famílias quando do ingresso na instituição, considerando a necessária adaptação das crianças e seus responsáveis às práticas e relacionamentos que têm lugar naquele espaço, e visar o conhecimento de cada criança e de sua família pela equipe da Instituição;\n\nb) priorizar a observação atenta das crianças e mediar as relações que elas estabelecem entre si, entre elas e os adultos, entre elas e as situações e objetos, para orientar as mudanças de turmas pelas crianças e acompanhar seu processo de vivência e desenvolvimento no interior da instituição;\n\nc) planejar o trabalho pedagógico reunindo as equipes da creche e da pré-escola, acompanhado de relatórios descritivos das turmas e das crianças, suas vivências, conquistas e planos, de modo a dar continuidade a seu processo de aprendizagem;\n\nd) prever formas de articulação entre os docentes da Educação Infantil e do Ensino Fundamental (encontros, visitas, reuniões) e providenciar instrumentos de registro – portfólios de turmas, relatórios de avaliação do trabalho pedagógico, documentação da frequência e das realizações alcançadas pelas crianças – que permitam aos docentes do Ensino Fundamental conhecer os processos de aprendizagem vivenciados na Educação Infantil, em especial na pré-escola e as condições em que eles se deram, independentemente dessa transição ser feita no interior de uma mesma instituição ou entre instituições, para assegurar às crianças a continuidade de seus processos peculiares de desenvolvimento e a concretização de seu direito à educação (BRASIL, 2009, p. 17).\n\nDessa forma, defende-se nesse documento que as transições precisam ser concebidas em sua continuidade do percurso educativo das crianças, em que se respeitem as características dos sujeitos, as interações estabelecidas com os outros e com os objetos do conhecimento, bem como o respeito às especificidades de cada etapa educativa, reconhecendo suas diferentes formas de organização curricular, objetivos e fundamentos. Nessa perspectiva, é possível superar os desafios da transição, promovendo o equilíbrio necessário à continuidade das aprendizagens e, consequentemente, evitando a fragmentação do trabalho pedagógico, como proposto na BNCC (BRASIL, 2017).",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

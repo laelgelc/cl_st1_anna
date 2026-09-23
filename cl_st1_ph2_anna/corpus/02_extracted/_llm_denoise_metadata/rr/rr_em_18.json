@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0eb4548e112d874f006ab30d1fba5887d2ad531d763a92ba66",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 466,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 961,
+      "output_tokens_details": {
+        "reasoning_tokens": 584
+      },
+      "total_tokens": 1427
+    }
+  },
+  "created_at": "2026-09-22T23:20:09Z",
+  "duration_seconds": 9.583,
+  "error": null,
+  "excerpt_id": "rr_em_18",
+  "filename": "rr_em_18.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "687182b5d0650299d2deace900371a354f928f78464ec704092d181d4f4ad1ad",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "545dd52a217a612379e9f2f87e6bc85e3dc894d0287fea0cdb07538c3d3d3569",
+    "rendered_prompt_sha256": "ce885aad7bb7dbe6481b17e53d489bf9f9d49dffa326bd0f0b9148312983d49c",
+    "source_text_sha256": "e040092fe65f14dd75d7ae7b2698589cab8d7dfd1b27577b83ea29ddc6d09b42"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_18.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3450,
+    "filename": "rr_em_18.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_18.txt",
+    "state": "rr",
+    "word_count_original": 243
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_18.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_18.json"
+  },
+  "raw_response_text": "2.5.\n\nTendo em vista a diversidade dos sujeitos do Ensino Médio, este Documento Curricular assegura a aplicação de uma política étnico-racial que segue os pressupostos legais nas normativas estabelecidas no Decreto nº 7.037 (BRASIL, 2009), Parecer CNE/CP nº 8 (BRASIL, 2012a) e Resolução CNE/CP nº 1 (BRASIL, 2012b), dentre outros, e segue as premissas definidas na BNCC (BRASIL, 2018a), propiciando, por meio de temas contemporâneos transversais, a promoção da educação étnico-racial.\n\nNessa perspectiva, para que se alcance resultados positivos na implementação de políticas públicas voltadas para o respeito à diversidade, a escola necessita desenvolver em suas ações o princípio da alteridade, que, em sua natureza, já contempla as raízes do que se entende por respeito e equidade. Conforme afirma a UNESCO (2004), as escolas devem ser locais onde os estereótipos são eliminados e não reforçados, o que significa oferecer aos estudantes, meninos e meninas, as mesmas oportunidades de acesso a métodos de ensino e currículos livres de estereótipos, bem como de orientações acadêmicas sem influência de preconceitos.\n\nSeguindo essa concepção, a escola deverá promover práticas para aplicação de uma educação inclusiva, propiciando a valorização de cada sujeito e sua identidade. Alinhadas a essas abordagens já mencionadas, o DCRR – Ensino Médio deixa claro que as escolas, em seus projetos pedagógicos, devem assegurar o cumprimento dos dispositivos normativos que garantam uma educação de qualidade para todos, com um olhar ao princípio da equidade étnico-racial e questão de gênero.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

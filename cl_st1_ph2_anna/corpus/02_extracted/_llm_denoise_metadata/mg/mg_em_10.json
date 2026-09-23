@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04a88210396d146c006ab302d9ed3c87d29ce45c710ac96f37",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 697,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 649,
+      "output_tokens_details": {
+        "reasoning_tokens": 94
+      },
+      "total_tokens": 1346
+    }
+  },
+  "created_at": "2026-09-22T22:36:14Z",
+  "duration_seconds": 5.002,
+  "error": null,
+  "excerpt_id": "mg_em_10",
+  "filename": "mg_em_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6a5be1456945dc936cd654675c3b460f02ec28756e99c0ee6ed9c80a020f16c4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ee081721e249ff8ce871c2bbbf6151c721bcbc847bdc92ffc4b74b191c4ddfec",
+    "rendered_prompt_sha256": "1a1f150073fe1091f3e50418a30b99ea7f27713798f0f8f237edf05ffd909241",
+    "source_text_sha256": "6ecabed126252cb17aca5dbd95fc3c298d3ed11e08d65aef93f4e5b07061eaf0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1486,
+    "filename": "mg_em_10.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_10.txt",
+    "state": "mg",
+    "word_count_original": 430
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_10.json"
+  },
+  "raw_response_text": "### 1.4.3 Currículo e formação continuada de educadores e educadoras\n\nA tarefa essencial da política educacional de incluir e fazer uma escola de qualidade para todos e todas exige dar oportunidades aos profissionais da educação de fazer a análise crítica, inovadora e permanente de sua prática, considerando a formação continuada a partir das necessidades locais, em conformidade com as diretrizes da rede. Dentre as demandas de formação no âmbito da prática docente, a temática do currículo certamente é central, pois diz respeito àquilo que essencialmente o professor precisa desenvolver em seu fazer cotidiano, pois ele é norteador da prática pedagógica.\n\nInstaurar o Currículo Referência demanda dos profissionais da educação, especialmente os docentes, conhecer o documento aqui apresentado e se apropriar dos conceitos e terminologias nele presentes para que o trabalho em sala de aula realmente se alinhe aos direitos de aprendizagem previstos em sua organização. Do mesmo modo, a concepção de educação, de ensino e de aprendizagem proposta a partir do novo currículo requer novas formas de planejar e estruturar o trabalho pedagógico, de organizar didática e metodologicamente os componentes curriculares, tendo em vista as habilidades e as competências que precisam ser desenvolvidas durante a Educação Básica. Nesse sentido, torna-se imperativo pensar em novas formas de ensinar, de acompanhar e de avaliar as aprendizagens.\n\nO documento curricular estabelece o que deve ser essencialmente ensinado em cada etapa e ano de escolaridade, no entanto, ele não determina como se deve ensinar ou como é possível acompanhar as aprendizagens. Assim, a partir de uma postura reflexiva sobre a prática, que possibilite lidar com as diferentes questões que permeiam o trabalho diário do professor, é necessário que o processo de formação continuada possibilite a articulação entre os conhecimentos básicos da função docente e aqueles indispensáveis ao desenvolvimento profissional. O primeiro diz respeito à área, aos conhecimentos adquiridos na formação inicial. O segundo, está relacionado ao conhecimento pedagógico do conteúdo, à gestão de sala de aula, à compreensão da avaliação como instrumento diagnóstico. Para a efetivação dessa articulação, entende-se que a formação continuada deve se desenvolver de forma perene, induzida e/ou planejada pelas redes de ensino, e também reconstruídas e ampliadas localmente, possibilitando o desenvolvimento profissional no lócus da prática.\n\nNesse sentido, é no âmbito do trabalho coletivo nas escolas, na interação entre os pares, entre a equipe pedagógica e a gestora, que a implementação do Currículo Referência deve ser objeto de estudos periódicos, de debates e discussões que promovam a reflexão sobre as práticas docentes e dialoguem com a permanente revisão do Projeto Político Pedagógico em cada instituição escolar.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

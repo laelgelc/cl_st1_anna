@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e91e484deea3242006ab2fc97eba487d2baeb159a75d39f3b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 372,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 370,
+      "output_tokens_details": {
+        "reasoning_tokens": 131
+      },
+      "total_tokens": 742
+    }
+  },
+  "created_at": "2026-09-22T22:09:31Z",
+  "duration_seconds": 3.69,
+  "error": null,
+  "excerpt_id": "al_ef_91",
+  "filename": "al_ef_91.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "280bbe90d68e53d92947de151bbdff11f5681ee4825f80492af37652d83144b9",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d612c78163b17bb24f5e7d2a6282fd07051c809acb74651073c8a1768e7c4b45",
+    "rendered_prompt_sha256": "47f421fa64f074b6dde5d6c13df109f3a968a32cdb4e657959e44e46cc000fbb",
+    "source_text_sha256": "88747216414b6ba30cd93e9be45bcd100e58958fa6dc3b58e6337207e4a07d8e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_91.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 232,
+    "filename": "al_ef_91.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_91.txt",
+    "state": "al",
+    "word_count_original": 176
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_91.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_91.json"
+  },
+  "raw_response_text": "## 8. Organizador Curricular de História\n\nEste documento apresenta através do Organizador Curricular de História, as habilidades que devem ser desenvolvidas pelos estudantes em toda a Educação Básica, conforme a BNCC, estas habilidades estão relacionadas aos objetos do conhecimento e unidades temáticas dos Anos Iniciais e finais do Ensino Fundamental.\n\nRessaltamos que não apresentamos um direcionamento metodológico, ou condicionante para as habilidades, propomos que estas sejam desenvolvidas em ação conjunta da comunidade escolar, de acordo com a faixa etária dos estudantes, em consonância com os projetos políticos pedagógicos das escolas.\n\nConsiderando as competências a serem adquiridas ao longo do ensino fundamental, acrescentamos um instrumento auxiliar na prática pedagógica na quarta coluna intitulado de Desdobramentos Didático Pedagógico – DesDP, onde apresentamos propostas de detalhamentos e contextualização das habilidades, otimizando as possibilidades didático pedagógicas com foco na territorialidade.\n\nDestacamos como se apresenta as habilidades de História dentro de seu Organizador Curricular, cada habilidade é identificada por um código alfanumérico cuja composição é a seguinte:",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06a8ed64a240ca10006ab304bba72087d2a5fafb4b0783ddbc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 986,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 873,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 1859
+    }
+  },
+  "created_at": "2026-09-22T22:44:18Z",
+  "duration_seconds": 7.345,
+  "error": null,
+  "excerpt_id": "mt_em_1",
+  "filename": "mt_em_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8614b1660ec5c588a576bf01d4eb9262b2783ee7a87f518e183f0ce1e36987ba",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6153a2f9a83b9870a06755d44c326321729893b4cb527864c577011577142075",
+    "rendered_prompt_sha256": "e48ff8d5654fc1a83484594785eaa2521bc6b2e063366204ab29b30ff3583cfb",
+    "source_text_sha256": "f54ae583f3498340cb1bbf40217c55a7cf42ad7d712a4b29137e42d4d3248513"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1899,
+    "filename": "mt_em_1.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_1.txt",
+    "state": "mt",
+    "word_count_original": 590
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_1.json"
+  },
+  "raw_response_text": "## Introdução\n\nO Documento de Referência Curricular para Mato Grosso – Etapa Ensino Médio (DRC-MT-EM) é proposto na perspectiva de contemplar as dimensões de ciência, cultura, trabalho e tecnologia, a partir da flexibilização curricular, com vistas à formação integral do estudante. Ao considerar as singularidades e diversidades dessa etapa de ensino, visa contribuir com a sociedade na promoção da equidade social o que abarca aspectos de justiça, solidariedade, democracia e sustentabilidade.\n\nInicialmente o documento faz uma breve contextualização histórica dos aspectos legais do Ensino Médio salientando a necessidade da universalização do ensino para garantia do acesso e permanência do estudante a fim de que tenha êxito e sucesso em sua trajetória escolar, a partir das peculiaridades do seu projeto de vida. Daí a necessidade de entender a indissociabilidade entre o currículo e as expectativas das juventudes em relação às contribuições que a escola pode dar a sua trajetória egressa.\n\nNa sequência, discorre-se acerca das pluralidades juvenis de Mato Grosso; enfatiza-se a necessidade de articulação da intencionalidade pedagógica das escolas aos interesses formativos do estudante reiterando que o desenvolvimento do protagonismo é uma forma de auxiliá-lo a construir sua autonomia e a fomentar sua criatividade. Assim, orientar o estudante na construção de seu projeto de vida, no desenvolvimento do autoconhecimento e de perspectivas de futuro, torna-se uma ação imprescindível, sobretudo quando se vislumbra a oferta de uma formação integral.\n\nFinaliza-se o capítulo introdutório tecendo considerações acerca dos temas transversais, bem como o ensino no escopo das diversidades contemplando as singularidades dos saberes do campo, quilombola, indígena, Educação de Jovens e Adultos e da educação inclusiva.\n\nNa sequência as áreas apresentam suas especificidades sinalizando possibilidades para a consolidação das competências e habilidades da Formação Geral, da Base Nacional Comum Curricular, aprovada e homologada pelo Conselho Nacional de Educação em 4 de dezembro de 2018, considerando a progressão das aprendizagens da Educação Básica, sem perder de vistas o viés da flexibilização curricular.\n\nA organização da etapa considera uma abordagem curricular capaz de atender as distintas trajetórias, alinhadas aos projetos de vida dos jovens. Portanto, os currículos do Ensino Médio serão compostos por duas partes articuladas e indissociáveis: A Formação Geral Básica e os Itinerários Formativos, ambas com carga horária pré-determinada, contemplam um conjunto de competências e habilidades específicas que devem ser consideradas em cada uma dessa partes.\n\nOs Itinerários Formativos têm a intencionalidade de ampliar os aprendizados promovidos pela Formação Geral Básica. Essa expansão ocorre em articulação com os Temas Contemporâneos Transversais (TCTs), considerando o contexto e o interesse dos estudantes, explorando potenciais e vocações, envolvendo um tempo de dedicação em unidades curriculares escolhidas de acordo com o Projeto de Vida. Idealizados a partir dos Eixos Estruturantes, possibilitam a contextualização do que é ensinado, promovem a conexão entre as experiências educativas e a realidade na qual os estudantes estão inseridos, além de permitir que eles se aprofundem nas áreas pelas quais se interessam mais.\n\nNa sequência, o documento traz a arquitetura tanto das escolas de tempo parcial, quanto das escolas de tempo integral, legitimadas pelos profissionais da rede por meio da consulta pública.\n\nEm anexo, são apresentadas algumas possibilidades de eletivas e trilhas de aprofundamento, tanto das áreas de conhecimento quanto da Formação Profissional e Técnica, lembrando que essas devem servir de guias para orientar a construção das propostas exclusivas, a serem construídas em cada unidade escolar, visto que devem ser consideradas, para sua oferta, tanto a escolha do estudante quanto a estrutura física e humana da escola, de acordo com a realidade em que está inserida.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

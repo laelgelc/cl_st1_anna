@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03d6d538332a4953006ab2ff77069087d2971f0989742b8787",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 364,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 324,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 688
+    }
+  },
+  "created_at": "2026-09-22T22:21:46Z",
+  "duration_seconds": 3.077,
+  "error": null,
+  "excerpt_id": "ce_em_35",
+  "filename": "ce_em_35.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d8e428ace33bce4abf25de453593d21be8050bf55f17ad12ac5c7b4517b7f582",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9a8e9e458ad0248e79e90dddcfdaa053641cf721aa1a07529f101ef787157200",
+    "rendered_prompt_sha256": "1eadff71dc7fa586066318642588454ba48bc6b3303e7b296b2f0c0bff6e829e",
+    "source_text_sha256": "006e86c88cbee659a84c80a721a1bf140a0e6d8e18d13c7b7376e89518b0f679"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_em_35.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 791,
+    "filename": "ce_em_35.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_em_35.txt",
+    "state": "ce",
+    "word_count_original": 208
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_em_35.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_em_35.json"
+  },
+  "raw_response_text": "## 8.2.4.2. A diversidade e a multiplicidade no ensino de Matemática\n\nQuando o conhecimento matemático é contemplado na proposta da BNCC, torna-se essencial o desenvolvimento de metodologias e abordagens que possam proporcionar atividades e pesquisas que deem sentido de coletividade, cooperação, solidariedade e ética, demonstrando disponibilidade para a realização de ações coletivas, respeitando a pluralidade de opiniões.\n\nBuscamos tornar relevante o conhecimento presente na realidade social do educando como parte integrante de suas raízes culturais, na construção de significados que o ajudem a desenvolver o seu potencial, o levem a pensar e o encaminhem para uma aprendizagem significativa, desenvolvendo iniciativa e segurança para aplicá-las a diferentes contextos. Temos como objetivo conduzir o aluno a saber aplicar o conhecimento adquirido em prol do desenvolvimento sustentável do meio social em que o aprendente está inserido. A preparação do educando passa por suas raízes culturais, o seu senso comum que está arraigado dentro de sua cultura e educação secular, no entanto a escola através do professor deve se dedicar para que o conhecimento matemático se torne uma aprendizagem significativa e que o educando possa aplicar dentro de suas realidades e que o professor conduza este saber de maneira que este possa desenvolver o seu potencial.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

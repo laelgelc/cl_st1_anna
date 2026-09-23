@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01add6fac640959a006ab30c52084487d2b92ca9628151afb3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 594,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 559,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 1153
+    }
+  },
+  "created_at": "2026-09-22T23:16:39Z",
+  "duration_seconds": 5.066,
+  "error": null,
+  "excerpt_id": "ro_em_57",
+  "filename": "ro_em_57.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "36741354d5fdd13f5c9048e81217d9c21d6106fa77df367cd5c755f17e790346",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4018f346eb25b70c1932c7313937c906bce829cdb72ad3d1e2c281a2ab32409b",
+    "rendered_prompt_sha256": "4cf0ea35a920ed0dd0cc458d7018a73858a7f03d7d94e63d054da4795ae83500",
+    "source_text_sha256": "27f6ec7bc42d6e070d9c4df4fae3ed94729691c5d9705d1abd4ae48bd87471c7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_57.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3274,
+    "filename": "ro_em_57.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_57.txt",
+    "state": "ro",
+    "word_count_original": 395
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_57.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_57.json"
+  },
+  "raw_response_text": "### 2.5.2. Articulação com a Etapa do Ensino Fundamental\n\nÉ importante considerar que a transição entre as etapas do Ensino Fundamental e do Ensino Médio requer muita atenção para garantir a integração e continuidade dos processos de aprendizagens, de forma a permitir que o estudante passe por essa transição do nível abstrato para o concreto, contribuindo para o amadurecimento social, emocional, cultural e profissional. Para isso, faz-se necessário estabelecer estratégias de acolhimento e adaptação tanto para os estudantes, quanto para os docentes, de modo que a nova etapa se construa com base no que o estudante sabe e é capaz de fazer, em uma perspectiva de continuidade de seu percurso educativo.\n\nNos anos finais do Ensino Fundamental, a exploração das vivências, saberes, interesses e curiosidades dos estudantes sobre as Ciências e o mundo natural e material é fundamental. Todavia, ao longo desse percurso, percebe-se uma ampliação progressiva da capacidade de abstração e da autonomia de ação e de pensamento, em especial nos últimos anos, de forma a estimular o interesse dos estudantes pela vida social e pela busca de uma identidade própria.\n\nÉ imprescindível que o Projeto de Vida colabore com a continuidade do protagonismo estudantil na transição entre as etapas. E o mesmo, deve considerar a valorização das experiências pessoais e coletivas e que representem o autocuidado com seu corpo e o respeito com o do outro, na perspectiva do cuidado integral à saúde física, mental, sexual e reprodutiva. Conforme a conclusão do Ensino Fundamental se aproxima, os estudantes são capazes de estabelecer relações ainda mais profundas entre a Ciência, a Natureza, a Tecnologia e a Sociedade, o que significa lançar mão do conhecimento científico e tecnológico para compreender os fenômenos e conhecer o mundo, o ambiente e a dinâmica da natureza.\n\nA partir do Ensino Médio, a área de Ciências da Natureza e suas Tecnologias engloba os componentes curriculares de Biologia, Física e Química que visam, principalmente, ampliar a capacidade e a possibilidade da evolução de uma atitude científica nos estudantes e uma postura crítica de interesse por questões sociais relativas à Ciência, com o objetivo de formar o cidadão crítico, consciente da sociedade em que está inserido por meio de situações-problema para ser capaz de transformar sua realidade, construindo seu próprio conhecimento, propondo soluções, utilizando-se de tecnologias e do raciocínio lógico envolvidos no contexto do conhecimento.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

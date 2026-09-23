@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_057f768b85006051006ab2fc66e01c87d28d76cb3835967dc6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 394,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 389,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 783
+    }
+  },
+  "created_at": "2026-09-22T22:08:42Z",
+  "duration_seconds": 3.62,
+  "error": null,
+  "excerpt_id": "al_ef_57",
+  "filename": "al_ef_57.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e2985aeeb37e843c5efda0c4c3074c5789039e4cce53ca7b4318d35aa35135f5",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "87f93c04e555ffca410fa94a90e2ed9b5555f8a32e7e97f3b6728b29fe4cd024",
+    "rendered_prompt_sha256": "4082be52c9d00aa9593be5292a441179207bec14435ebb355e8044f5a9faccba",
+    "source_text_sha256": "e795312e5c8883eed5d863acdcdeabca6679582aa54bae397e82ea548c837183"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_57.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 194,
+    "filename": "al_ef_57.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_57.txt",
+    "state": "al",
+    "word_count_original": 181
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_57.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_57.json"
+  },
+  "raw_response_text": "## 4. LÍNGUA INGLESA NOS ANOS INICIAIS\n\nPara os Anos Iniciais (1º ao 5º), o Referencial Curricular de Alagoas parte da organização proposta pela BNCC, que permite que determinadas habilidades possam ser (re)trabalhadas em outros anos, de forma conveniente e significativa para estudantes e professores, na perspectiva de um currículo espiralado, fundamentando as escolas na (re)construção de seus currículos e projetos político-pedagógicos para os próximos anos.\n\n## 5. ORGANIZADOR CURRICULAR DO COMPONENTE\n\nO Organizador Curricular da Língua Inglesa segue a proposta de organização da BNCC. Entretanto, como estratégia para contemplar a parte diversificada, foi acrescida uma quarta coluna onde se encontram os Desdobramentos Didático-Pedagógicos - DesDP, cujo objetivo é o de contribuir para tornar as habilidades mais detalhadas visando a uma aproximação com o contexto de nós estudantes, bem como, os aspectos socioculturais do território alagoano. A referida coluna sugere, ainda, um olhar crítico sobre outros países onde o idioma é usado como primeira e/ou segunda língua(s). Esses acréscimos podem ser melhor visualizados nos anexos.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01d6b598f9b34d6e006ab2fc8728c087d2ae7854f986222152",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 946,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1282,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2228
+    }
+  },
+  "created_at": "2026-09-22T22:09:21Z",
+  "duration_seconds": 10.301,
+  "error": null,
+  "excerpt_id": "al_ef_79",
+  "filename": "al_ef_79.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b920eb73867241dd0293af534258f445dde8f756c650468ec1088915f3848949",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7d4244e33dcdace57beed6c47de6f2db7498a886a4e64cb803d6ac97e85c3474",
+    "rendered_prompt_sha256": "b736bae76df4d4cac03e3e77a674eacdf55fce89fbc3a0268252a92e030953be",
+    "source_text_sha256": "c4ea1428e63e4ff106f3edebea10a4ac32503b80fbcb1abbd1623a257627068b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_79.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 218,
+    "filename": "al_ef_79.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_79.txt",
+    "state": "al",
+    "word_count_original": 560
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_79.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_79.json"
+  },
+  "raw_response_text": "## 9.2.1 Aspectos Estruturantes em um currículo de Educação Integral\n\nJá foi exposto neste documento que a Base Nacional Comum Curricular (BNCC) é um documento de caráter normativo que define o conjunto orgânico e progressivo de aprendizagens essenciais que todos os estudantes devem desenvolver ao longo das etapas e modalidades da Educação Básica, de modo que tenham assegurados seus direitos de aprendizagem e desenvolvimento, em conformidade com o que preceitua o Plano Nacional de Educação (PNE). Mas como garantir de forma efetiva essas aprendizagens essenciais aos estudantes?\n\nDe acordo com a BNCC,\n\n> No novo cenário mundial, reconhecer-se em seu contexto histórico e cultural, comunicar-se, ser criativo, analítico-crítico, participativo, aberto ao novo, colaborativo, resiliente, produtivo e responsável requer muito mais do que o acúmulo de informações (2017, p. 14).\n\nPercebe-se que estamos nos referindo a um tipo de educação que trate o estudante a partir desse viés acima mencionado, assim, o caminho a ser trilhado será na perspectiva de uma Educação Integral. Portanto, esse documento caminha no sentido de uma Educação Integral em todas as áreas de conhecimento dialogando com as transdisciplinaridades, interdisciplinaridades, Projetos Didáticos Pedagógico, Sequências Didáticas,\n\nA fim de evitar determinismos, antes da construção das aprendizagens é necessário identificar a quem se destina o currículo. Quais são suas características, desejos, projetos, identidade, que tipo de escola querem etc. Promover protagonismo não significa concordância plena com aspirações.\n\n### DESENVOLVIMENTO PLENO (CSE + COGNITIVAS)\n\nUma vez conhecida à visão do estudante pode-se selecionar as competências a serem desenvolvidas, a fim de auxiliá-los na concretização de seus projetos de vida. O desenvolvimento pleno não se dá numa estrutura compartimentada, sem comunicação entre seus elementos e sem objetivos compartilhados. Não exclui o sujeito reflexivo.\n\n### INTEGRAÇÃO CURRICULAR\n\nPromover a integração curricular, considerando desenvolvimento socioemocional, requer um expediente que exceda a interdisciplinaridade por meio de temas. Faz-se necessária uma estratégia metodológica e, da própria gestão escolar, em que os aspectos socioemocionais possam ser intencionalmente desenvolvidos em diferentes tempos e espaços.\n\nNo sentido de garantir o direito de aprendizagem nos mais variados campos de conhecimentos e nas relações sociais que acontecem cotidianamente no interior da escola. Ou seja, uma concepção contemporânea de educação integral busca superar: a educação centrada exclusivamente na dimensão cognitiva e enfatizar a dimensão socioemocional; a fragmentação das disciplinas isoladas em si mesmo, e explicitar a relação do conhecimento aliado a experiência e finalmente superar a abordagem massificada dos estudantes e proporcionar-lhes a concretização de seus anseios e projetos de vida, como finalidade da educação. (Instituto Airton Sena, 2015).\n\nQuando o professor ignora a educação em sua forma integral, conscientemente ou inconscientemente, ele está priorizando determinado objeto de conhecimento na expectativa de que os estudantes o absorvam, recorrendo à memorização, modelo que inibe a criatividade, falta de expressão, falta de criticidade e a aquisição do saber elaborado.\n\nO quadro nº 05 detalha os Aspectos Estruturantes em um Currículo de Educação Integral.\n\nPortanto, a BNCC, propõe a superação da fragmentação que permeia o conhecimento, o estímulo a sua aplicação na vida real dos estudantes, o protagonismo juvenil, sendo que esses parâmetros são essenciais para sua aprendizagem e para a construção de seu projeto de vida.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

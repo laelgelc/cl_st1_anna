@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04f4aa2e407e48d3006ab30c2a9c4487d293df798670b05925",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 710,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 786,
+      "output_tokens_details": {
+        "reasoning_tokens": 168
+      },
+      "total_tokens": 1496
+    }
+  },
+  "created_at": "2026-09-22T23:16:02Z",
+  "duration_seconds": 7.759,
+  "error": null,
+  "excerpt_id": "ro_em_37",
+  "filename": "ro_em_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "58772158e4c0e96a84df8c75a97dfe739ebc235de01d8688ba4ab27c42770ce2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5eae6496a72a6d47b3b4af4069244b3312fbc74da30d69764a86fb1f62236a20",
+    "rendered_prompt_sha256": "8e73c2a421510bdf1dac14ad5b419b1fffa95a13cd6836b6cd1e1d28f1efff93",
+    "source_text_sha256": "e50d699c427e995e22916cc75a2712342b35d59f91bcf54ca8ff85ba40eb416e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3252,
+    "filename": "ro_em_37.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_37.txt",
+    "state": "ro",
+    "word_count_original": 415
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_37.json"
+  },
+  "raw_response_text": "### 2.3.1.2. Aritmética\n\nA aritmética é o ramo da matemática que estuda os números e as operações realizadas através da soma, subtração, multiplicação e divisão.\n\nDo ponto de vista etimológico, a palavra aritmética vem do latim *arithmetica*, que por sua vez, tem origem no termo grego *aritmetikos*, composta pela raiz *arithmos*, que significa números e pelo sufixo *tiko*, que quer dizer ciência. Dessa forma, a aritmética pode ser definida como a ciência dos números.\n\nOs primeiros registros escritos indicam que os egípcios e babilônios usavam todas as operações aritméticas elementares tão cedo quanto 2000 a.C. Esses artefatos nem sempre revelam o processo específico usado para resolver problemas, mas as características do sistema de numeração, em particular, influenciaram fortemente a complexidade dos métodos. O sistema de hieróglifos para numerais egípcios, como os numerais romanos posteriores, descende de marcas de contagem, usadas para contar. Em ambos os casos, essa origem resultou em valores que usavam uma base decimal, mas não incluíam a notação posicional. Cálculos complexos com algarismos romanos exigiram o auxílio de uma placa de contagem ou o ábaco romano para obter os resultados.\n\n### 2.3.1.3 Estatística e Probabilidade\n\nVivemos em um mundo regido pelo acaso e sem exatidão dos acontecimentos. Quantas vezes na vida não fomos surpreendidos por eventos que não pudemos prever os acontecimentos? Por exemplo, uma chuva inesperada, aquele time de futebol que todos consideravam fraco e acabou sendo campeão, um recorde batido por alguém inesperado, entre outros. São muitas situações, inclusive em eventos que ocorrem em nossa vida pessoal, das quais somos surpreendidos, tanto positivamente quanto negativamente, pelo acaso.\n\nCom tantas coisas acontecendo de forma tão aleatória e sem exatidão dos resultados, utilizamos de probabilidade e estatística na tentativa de agrupar, testar e prever as possibilidades de um ou mais determinados eventos ocorrerem. Qual a probabilidade de eu ou você ganharmos na loteria? E de cair um raio em casa? É isso que esta ciência se preocupa em responder.\n\nA teoria da Probabilidade é o estudo matemático na quantificação da aleatoriedade e incerteza de eventos na natureza; enquanto a Estatística é a ciência da coleta, descrição e análise de dados. Portanto, há uma interligação entre essas duas áreas das ciências que lidam com o que é aleatório.\n\nAdemais, esses dois campos de estudo estão relacionados com outros tópicos de matemática, como algoritmos, ciência da computação e lógica. Também são fundamentais para a teoria dos jogos, a biologia, a economia, a sociologia e a física, entre outros.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

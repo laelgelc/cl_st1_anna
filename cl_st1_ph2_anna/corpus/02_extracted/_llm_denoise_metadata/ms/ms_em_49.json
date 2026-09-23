@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bbc3fce1f8d494e006ab303c701b487d2a2cfc63ffa7619b3",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 945,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 854,
+      "output_tokens_details": {
+        "reasoning_tokens": 80
+      },
+      "total_tokens": 1799
+    }
+  },
+  "created_at": "2026-09-22T22:40:14Z",
+  "duration_seconds": 7.125,
+  "error": null,
+  "excerpt_id": "ms_em_49",
+  "filename": "ms_em_49.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "f3b64c3b5bebdfc40ac9b9800cc35324842f002285d724a0f31cb5521931dc51",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1fcde9874617b26629a123fa7f03dfd79f69ea027b926de6aa836b0e49175302",
+    "rendered_prompt_sha256": "e00f99ff8cf26ab0a61c0a981e31f2c7d3961ac475eb904cbc91962797ae863e",
+    "source_text_sha256": "62a535a7dd0ae801f5f4ea9f30756c3064c1be6db0f10784fb0d19380bd199b2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_49.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1715,
+    "filename": "ms_em_49.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_49.txt",
+    "state": "ms",
+    "word_count_original": 498
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_49.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_49.json"
+  },
+  "raw_response_text": "## II. Organizador curricular\n\n### 2.1 Eixos estruturantes\n\n#### 2.1.1. INVESTIGAÇÃO CIENTÍFICA\n\n### 2.2. Objetos de conhecimento\n\n**Objetos de conhecimento:**\n\n- O termo raça como categoria discursiva.\n- A construção das identidades.\n- Discurso nacionalista:\n  - Nacionalismo e identidade nacional;\n  - Racismo cultural.\n  - O nacionalismo e a identidade na literatura brasileira:\n    - *O Guarani* - José de Alencar.\n    - *Macunaíma* - Mário de Andrade.\n  - A identidade brasileira e os estereótipos internacionais.\n\n### 2.3. Sugestões didáticas\n\n**Sugestões didáticas associadas aos eixos estruturantes:**\n\na. Iniciar discussão com o grupo sobre o que é identidade cultural, promovendo uma tempestade de ideias.\n\nb. Apresentar o vídeo Identidade Cultural e retomar a discussão sobre o assunto.\n\nc. Dividir a turma em grupos e mediar a pesquisa, a partir de alguns templates com trechos retirados do livro *Identidade cultural na Pós-modernidade*. Algumas questões podem nortear as discussões, como:\n\n- O que é racismo?\n- O que é “homogeneização cultural”?\n- Qual o significado de nação? O que se entende por nacionalismo?\n- As identidades nacionais estão sendo “homogeneizadas”?\n- Qual é a sua identidade cultural? (Retomar a questão na conclusão da pesquisa)\n\nd. Apresentar algumas expressões racistas usadas no cotidiano, propondo uma análise crítica, em conjunto, sobre o significado das mesmas e sensibilizar o grupo para uma discussão sobre o tema.\n\ne. Mediar a pesquisa de outras expressões empregadas no dia a dia, pela sociedade em geral e, especialmente, pela comunidade escolar, de forma consciente ou inconsciente que, apesar de parecerem inofensivas mostram-se, na verdade, como uma manifestação do racismo.\n\nf. Exibir o vídeo Elimine Expressões Racistas do seu Vocabulário e promover um debate sobre a origem e o significado de tais expressões.\n\ng. Retomar o gênero Documentário, estudado no Ensino Fundamental e propor a elaboração desse gênero, abordando o tema em estudo, para ser exibido em um evento da escola, aberto à comunidade escolar.\n\nh. A partir da leitura de *O Guarani*, de José de Alencar, promover uma discussão relacionada à escravidão indígena e negra no Brasil, abordando os problemas sociais e raciais no texto literário e comparar com os dias atuais.\n\ni. Fazer um paralelo entre o nacionalismo brasileiro presente na obra *O Guarani*, de José de Alencar, e os estereótipos nacionais presentes na obra *Macunaíma*, de Mário de Andrade, abordando os aspectos políticos da época, a identidade das personagens e seus costumes.\n\nj. Exibir o episódio da animação *Os Simpsons* É tudo culpa da Lisa (2002), que tem como tema uma viagem ao Brasil. Na sequência, analisar e discutir os clichês apresentados sobre as identidades e as culturas do povo brasileiro.\n\nk. O resultado da pesquisa será materializado em um artigo de opinião, gênero estudado no Ensino Fundamental e no Ensino Médio, com a compilação de todas as informações colhidas no processo, que poderá ser publicado em uma revista impressa ou digital da turma ou da escola.\n\nl. Recomenda-se ainda, organizar um evento para divulgação da revista, a fim de apresentar as produções dos estudantes. O momento é propício para mostrar a cultura local, privilegiando diversas manifestações e desconstruindo e reconstruindo ideias.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

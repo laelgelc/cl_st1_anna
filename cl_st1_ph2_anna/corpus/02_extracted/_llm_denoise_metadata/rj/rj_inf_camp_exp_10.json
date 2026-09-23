@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0eff75255caa6c9c006ab30a9d6c6c87d2b7c23e006383d959",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 712,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 847,
+      "output_tokens_details": {
+        "reasoning_tokens": 229
+      },
+      "total_tokens": 1559
+    }
+  },
+  "created_at": "2026-09-22T23:09:24Z",
+  "duration_seconds": 6.88,
+  "error": null,
+  "excerpt_id": "rj_inf_camp_exp_10",
+  "filename": "rj_inf_camp_exp_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "334f8d7948184889058d3d8fda8069f7eab1b3092fe872ab0eb65d833052064c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c9f6367457e9f9d4a03e393db91ea626238fbe18508a4a038eab080be3311a3c",
+    "rendered_prompt_sha256": "90ae63bac4ff57856d7a3b727aa17c6d58b98717b48ac28204c679cb2d6869ff",
+    "source_text_sha256": "ad2d6e7e646a2cc99b9738f8e75d6d54a7e8acc76c071de9a43c264313318dbf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_camp_exp_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2904,
+    "filename": "rj_inf_camp_exp_10.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_camp_exp_10.txt",
+    "state": "rj",
+    "word_count_original": 434
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_camp_exp_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_camp_exp_10.json"
+  },
+  "raw_response_text": "# O Campo de Experiências Escuta, Fala, Pensamento e Imaginação\n\nA BNCC para esse campo implementa:\n\nA partir do nascimento, as crianças participam em situações comunicativas cotidianas com as pessoas com quem interagem. As primeiras formas de interação do bebê são os movimentos do seu corpo, o olhar, a postura corporal, o sorriso, o choro e outros recursos vocais, que ganham sentido com a interpretação do outro. Progressivamente as crianças vão ampliando e enriquecendo seu vocabulário e demais recursos de expressão e compreensão, apropriando-se da língua materna – que se torna, pouco a pouco, seu veículo privilegiado de interação. Na educação infantil é importante promover experiências nas quais as crianças possam falar e ouvir, potencializando sua participação na cultura oral, pois é na escuta de histórias, na participação em conversas, nas descrições, nas narrativas elaboradas individualmente, ou em grupo, e nas implicações com as múltiplas linguagens que a criança se constitui ativamente como sujeito singular e pertencente a um grupo social.\n\nDesde cedo a criança manifesta curiosidade em relação à cultura escrita: ao ouvir e acompanhar a leitura de textos, ao observar os muitos textos que circulam no contexto familiar, comunitário e escolar, ela vai construindo sua concepção da linguagem escrita, reconhecendo diferentes usos sociais da escrita, dos gêneros, suportes e portadores. Na Educação Infantil, a imersão na cultura escrita parte do que as crianças conhecem e das curiosidades que deixam transparecer. As experiências com a literatura infantil propostas pelo educador, mediador entre os textos e as crianças, contribui para o desenvolvimento do gosto pela leitura, do estímulo à imaginação e da ampliação do conhecimento do mundo. Além disso o contato com histórias, contos, fábulas, poemas, cordéis etc. propicia a familiaridade da criança com livros, com diferentes gêneros literários, a diferenciação entre ilustrações e escrita, a aprendizagem da direção da escrita, e as formas corretas de manipulação de livros. Nesse convívio com textos escritos as crianças vão construindo hipóteses sobre a escrita que se revelam, inicialmente, em rabiscos e garatujas e, à medida que vão conhecendo letras, em escritas espontâneas, não convencionais, mas já indicativas da compreensão da escrita como sistema de representação da língua.\n\nA BNCC propõe que, ao longo de sua trajetória na Educação Infantil, as crianças construam conhecimentos a respeito da linguagem oral e escrita, por meio de gestos, expressões, sons da língua, rimas, leituras de imagens, de letras, da identificação de palavras em poesias, parlendas, canções, e também a partir da escuta e dramatização de histórias e da participação na produção de textos escritos. Apropriando-se desses elementos, as crianças podem criar novos gestos, falas, histórias e escritas, convencionais ou não.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

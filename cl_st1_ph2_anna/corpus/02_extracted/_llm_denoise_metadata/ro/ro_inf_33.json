@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_05e415d49a852d02006ab30cabb08c87d2a22ec1d353cd6f4d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 693,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 821,
+      "output_tokens_details": {
+        "reasoning_tokens": 214
+      },
+      "total_tokens": 1514
+    }
+  },
+  "created_at": "2026-09-22T23:18:11Z",
+  "duration_seconds": 7.47,
+  "error": null,
+  "excerpt_id": "ro_inf_33",
+  "filename": "ro_inf_33.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4bc1e75c9c4c8a1eed11e017b3b400d4cb4dd70ff51fc28783591ed11bcb9c8a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "03010c88f21d04eb5dd056e051955369c1d7ecea206c64001e402d5e04328495",
+    "rendered_prompt_sha256": "7f4729adec93d82991b33944eca2fc7edc9264f2bcbf70ae3326a758be67b2bc",
+    "source_text_sha256": "320b7fa8c2328d8da6ce7f14585b53bef2a4312542d21aa0fd447117d295e24a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_33.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3347,
+    "filename": "ro_inf_33.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_33.txt",
+    "state": "ro",
+    "word_count_original": 373
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_33.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_33.json"
+  },
+  "raw_response_text": "### Direitos de aprendizagem e desenvolvimento deste campo, articulados aos demais campos\n\n- Conviver com crianças e adultos compartilhando sua língua materna em situações comunicativas cotidianas, constituindo modos de pensar, imaginar, sentir, narrar, dialogar e conhecer.\n- Brincar com parlendas, trava-línguas, adivinhas, memória, rodas, brincadeiras cantadas, jogos e textos de imagens, escritos e outros, ampliando o repertório das manifestações culturais da tradição local e de outras culturas, enriquecendo sua linguagem oral, corporal, musical, dramática, escrita, dentre outras.\n- Explorar gestos, expressões, sons da língua, rimas, imagens, textos escritos, além dos sentidos das palavras, nas poesias, parlendas, canções e nos enredos de histórias, apropriando-se desses elementos para criar novas falas, enredos, histórias e escritas convencionais ou não.\n- Participar de rodas de conversa, de relatos de experiências, de contação e leitura de histórias e poesias, de construção de narrativas, da elaboração, descrição e representação de papéis no faz de conta, da exploração de materiais impressos e de variedades linguísticas, construindo diversas formas de organizar o pensamento.\n- Expressar sentimentos, ideias, percepções, desejos, necessidades, pontos de vista, informações, dúvidas e descobertas utilizando múltiplas linguagens, entendendo e considerando o que é comunicado pelas demais crianças e adultos.\n- Conhecer-se e reconhecer suas preferências por pessoas, brincadeiras, lugares, histórias, autores, gêneros linguísticos, e seu interesse em produzir com a linguagem verbal.\n\n## Escuta, Fala, Pensamento e Imaginação\n\n### Contextos de Aprendizagem e Desenvolvimento\n\nPara propor intencionalidades educativas significativas, docentes da primeira infância podem:\n\n#### Pensando nos Bebês\n\n- Propor situações de conversa com os bebês em ambiente tranquilo e lúdico.\n- Favorecer participação em jogos rítmicos em que os bebês são animados a imitar sons variados, ou em jogos de nomeação em que a professora aponta para algo, propõe a questão: “O que é isso?”, e apoia o bebê a responder.\n- Oportunizar brincadeiras com outros bebês, com ou sem objetos, expressando-se, corporal e/ou verbalmente.\n- Possibilitar que repitam acalantos, cantigas de roda, poesias e parlendas, explorando o ritmo, a sonoridade e a conotação das palavras.\n- Oferecer a escuta de histórias, contos de repetição, poemas e imitação das variações de entonação e de gestos realizados pela professora ao ler ou cantar.\n- Oportunizar situações de brincar de traçar marcas gráficas em cartolinas ou outro suporte, usando os dedos ou pincéis, além de tintas caseiras ou não.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

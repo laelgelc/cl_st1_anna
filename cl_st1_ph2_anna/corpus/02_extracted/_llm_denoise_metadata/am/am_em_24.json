@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_044411073f8ecdff006ab2fd72e20c87d2a04e8cf1dafd1c38",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 546,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 531,
+      "output_tokens_details": {
+        "reasoning_tokens": 121
+      },
+      "total_tokens": 1077
+    }
+  },
+  "created_at": "2026-09-22T22:13:11Z",
+  "duration_seconds": 4.94,
+  "error": null,
+  "excerpt_id": "am_em_24",
+  "filename": "am_em_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1ba824084b482f53f9da401578f9241265b38b838b199f80fde6158b05a37a4a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b5e50f3ffa1343b0df31df279de9390640ff1049fcfbcd66c22916827594a58f",
+    "rendered_prompt_sha256": "99d77e92c943db6b19ea955eefaba962927eec61af3c90bb00c28bd1a010adae",
+    "source_text_sha256": "05d2fb885037afbd9f776a264d5ea937eafcab7a4967bd444bbf44048415d0bd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_em_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 383,
+    "filename": "am_em_24.txt",
+    "filepath": "corpus/00_source_per_state/am/am_em_24.txt",
+    "state": "am",
+    "word_count_original": 282
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_em_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_em_24.json"
+  },
+  "raw_response_text": "## 3 ITINERÁRIOS FORMATIVOS (IFs)\n\nA parte diversificada do currículo do Ensino Médio, a partir da edição da Lei nº 13.415/2017, passou a ser constituída por Itinerários Formativos (IFs), cuja organização curricular deve estar harmonizada à Base Nacional Comum Curricular e ser articulada, a partir do contexto histórico, econômico, social, ambiental e cultural.\n\nConforme o art. 36 da Lei nº 13.415/2017, os IFs deverão ser organizados por meio da oferta de diferentes arranjos curriculares, de acordo com a relevância para o contexto local e a possibilidade do sistema de ensino, considerando as áreas do conhecimento ou a formação técnica e profissional.\n\nPor sua vez, a Portaria MEC nº 1.432, de 28 de dezembro de 2018, que estabelece os referenciais para a elaboração dos IFs, aponta que a nova organização do Ensino Médio deve ser capaz de não só atender às necessidades e expectativas dos estudantes, fortalecendo seu interesse, engajamento e protagonismo, visando garantir sua permanência e aprendizagem na escola, mas também garantir o desenvolvimento de conhecimentos, habilidades, atitudes e valores capazes de formar as novas gerações para lidar com desafios e incertezas que marcam as sociedades na contemporaneidade.\n\nPara este contexto de reforma curricular, compreendem-se os Itinerários Formativos, com base na mencionada Portaria, como:\n\n> Conjunto de situações e atividades educativas que os estudantes podem escolher conforme seu interesse, para aprofundar e ampliar aprendizagens em uma ou mais Áreas de Conhecimento e/ou na Formação Técnica e Profissional, com carga horária total mínima de 1.200 horas (BRASIL, 2018).\n\nEm síntese, os Itinerários Formativos são os percursos de aprendizagem ofertados pelo sistema, para permitir que os estudantes realizem sua trajetória de aprendizagem singular, combinada à Formação Geral Básica.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

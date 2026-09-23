@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b41cbd5daa32508006ab30c965bf087d2b9da9180259ac4df",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 619,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 582,
+      "output_tokens_details": {
+        "reasoning_tokens": 58
+      },
+      "total_tokens": 1201
+    }
+  },
+  "created_at": "2026-09-22T23:17:46Z",
+  "duration_seconds": 4.479,
+  "error": null,
+  "excerpt_id": "ro_inf_12",
+  "filename": "ro_inf_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "716514ccbc38bd11347e768799b10dd38c821619b1f9b1b15b1573b7ce946a5a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a6122afa4d04f4e84e98ba8ca4669f7ee49fb9d91631f89f08781d98ecb657ed",
+    "rendered_prompt_sha256": "80de1e25d66830bcb57bf01e6187e85c92cdc7ae343f666828aced0382f792e9",
+    "source_text_sha256": "4f139a4a8c13a3ded073f59afabf66f87073edf597d0c399ec9157f185184db2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3324,
+    "filename": "ro_inf_12.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_12.txt",
+    "state": "ro",
+    "word_count_original": 400
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_12.json"
+  },
+  "raw_response_text": "Na constituição histórica da humanidade, os seres humanos sempre foram cuidados e educados pelos integrantes mais experientes de seu grupo social. Essa tarefa transcorreu no tempo e foi se qualificando à medida que as comunidades evoluíam e se ajustavam às novas demandas do desenvolvimento pertinente a cada período histórico. Logo, educar e cuidar são aspectos da ação humana desde tempos remotos.\n\nA partir do momento em que a evolução social das organizações humanas foi ocorrendo, houve a necessidade da criação de instituições destinadas a atender as crianças nos sentidos de cuidar, primeiramente, e, posteriormente, observou-se que, para cuidar de crianças, era necessário e se fazia presente no contexto desse trabalho o ato de educar. Dessa forma, o cuidar e o educar surgem como aspectos preponderantes da ação educativa institucionalizada.\n\nNesse sentido, na constituição da Educação Infantil, o educar e cuidar são entendidos como aspectos indissociáveis da ação pedagógica, quando se configuram em instrumentos de superação da histórica perspectiva de pensar o cuidar como atividade pautada no corpo e destinada às crianças mais pobres, e o educar como experiência para o desenvolvimento intelectual oferecida aos filhos dos grupos socialmente privilegiados, vencendo a ideia dicotômica de que o cuidar é ato separado do educar e vice-versa e de escola para pobre e escola para rico, e da ideia de que as instituições destinadas a atender as crianças na ausência periódica dos pais (organizadas de forma precária e improvisadas) eram para atender às crianças carentes que precisavam ser cuidadas enquanto suas mães trabalhavam.\n\n## Fundamentos Pedagógicos da Educação Infantil\n\nPortanto, na Educação Infantil há uma série de aprendizagens que se relacionam claramente às necessidades das crianças que vão além de suas necessidades vitais. Igualmente, há uma série de situações, durante a jornada diária nas instituições educativas, que são importantes para o desenvolvimento das crianças e no estabelecimento de uma boa relação delas com os objetos e as pessoas que as rodeiam.\n\nDesse modo, enfatiza-se que as propostas pedagógicas destinadas às crianças dessa etapa de ensino devem promover práticas de educação e cuidado que tratem de modo integrado aspectos físicos, emocionais, afetivos, cognitivos, linguísticos e sociais da criança, entendendo-as como ser integral, e da mesma forma, busquem a interação com os aspectos da vida social a partir de atividades estruturadas, espontâneas e livres, garantindo os direitos de aprendizagem e desenvolvimento para a constituição de conhecimentos e valores, de acordo com a faixa etária.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

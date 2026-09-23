@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09cd39a6172ca098006ab3047fb7bc87d2aa42cdfb9dfa8d98",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 759,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 715,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 1474
+    }
+  },
+  "created_at": "2026-09-22T22:43:18Z",
+  "duration_seconds": 6.703,
+  "error": null,
+  "excerpt_id": "mt_ef_58",
+  "filename": "mt_ef_58.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "930a7da51add76e85e2b48beaa41bde23e1dac7ddf955bff919bd8a1e6211037",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9328d05d43ba98ef746b89fba6c53561ed7dfd6b06f3a13359fa95db597127c3",
+    "rendered_prompt_sha256": "54a9325b8078d49138b5157ca513a66c36dabd40e7ed7fdafc88abfbcfeb7e76",
+    "source_text_sha256": "fbdb0c8ba443c633edf818af26e9e872443dfa0a413b7ebcd7ee9e0c4c28d075"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_58.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1853,
+    "filename": "mt_ef_58.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_58.txt",
+    "state": "mt",
+    "word_count_original": 430
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_58.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_58.json"
+  },
+  "raw_response_text": "### 1.4.2. Contribuição da Educação Física para o Desenvolvimento Integral\n\nA Educação Física é um componente curricular que contribui para a formação integral dos estudantes em vários aspectos. Dentre as possibilidades, podemos citar: o desenvolvimento, a prática e o aperfeiçoamento das habilidades motoras, das capacidades físicas, da psicomotricidade, da expressão corporal, das técnicas e táticas das manifestações da cultura corporal; a inteligência nas estratégias e resoluções de problemas relacionadas às práticas corporais; a cooperação, a solidariedade; o respeito aos outros e às regras das modalidades; a curiosidade; o senso crítico; a superação das dificuldades encontradas nas práticas corporais; a busca de novos conhecimentos e ampliação dos mesmos etc. Tais aspectos dependem de serem mobilizados pelos professores nos seus ensinos, através das perspectivas pedagógicas e das estratégias metodológicas utilizadas.\n\nRessalta-se que as decisões relacionadas ao trabalho pedagógico devem estar voltadas para o desenvolvimento de competências, ou seja, pela indicação do que os alunos devem “saber” (conhecimentos, habilidades, atitudes e valores) e, sobretudo, do que devem “saber fazer” (através da mobilização desses conhecimentos, habilidades, atitudes e valores) para resolver demandas da vida cotidiana, do exercício da cidadania e do mundo do trabalho visando à formação integral dos estudantes. Assim, no novo cenário mundial é importante:\n\n> [...] reconhecer-se em seu contexto histórico e cultural, comunicar-se, ser criativo, analítico-crítico, participativo, aberto ao novo, colaborativo, resiliente, produtivo e responsável requer muito mais do que o acúmulo de informações. Requer o desenvolvimento de competências para aprender a aprender, saber lidar com a informação cada vez mais disponível, atuar com discernimento e responsabilidade nos contextos das culturas digitais, aplicar conhecimentos para resolver problemas, ter autonomia para tomar decisões, ser proativo para identificar os dados de uma situação e buscar soluções, conviver e aprender com as diferenças e as diversidades (BRASIL, 2017, p. 14).\n\nDeste modo, na Educação Física ofertada no sistema educacional pelas escolas públicas, filantrópicas e privadas de Ensino Fundamental, espera-se que os alunos sejam capazes de desenvolver as competências específicas previstas pela BNCC e pelo Documento de Referência Curricular para Mato Grosso. Estas competências da Educação Física vão contribuir para o desenvolvimento das competências da área de Linguagens e todas as disciplinas que vão consolidar as competências gerais da Educação Básica, tal qual definidas pela BNCC (BRASIL, 2017).\n\nO quadro a seguir mostra quais são as competências gerais para a Educação Básica (BRASIL, 2017, p. 9-10) e as competências específicas do componente curricular da Educação Física (BRASIL, 2017, p. 221). As competências de Linguagens já foram apresentadas anteriormente, na parte que aborda esta área neste Documento de Referência Curricular.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

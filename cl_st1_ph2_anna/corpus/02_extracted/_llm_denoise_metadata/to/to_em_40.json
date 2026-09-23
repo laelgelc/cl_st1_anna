@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0677bfc4dddba889006ab3103b80a087d2b46c88f6d25a188b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1033,
+      "input_tokens_details": {
+        "cache_write_tokens": 1030,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1163,
+      "output_tokens_details": {
+        "reasoning_tokens": 219
+      },
+      "total_tokens": 2196
+    }
+  },
+  "created_at": "2026-09-22T23:33:24Z",
+  "duration_seconds": 9.37,
+  "error": null,
+  "excerpt_id": "to_em_40",
+  "filename": "to_em_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "57915be81a3d0b9841dc55e6f59975f97691f20491d85298ad2c3e159ad58a44",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "42accf5efd6d6f5061caf3e857eec52c0f7091fc2ac074a312ee13b62fa1af0d",
+    "rendered_prompt_sha256": "9559a1fa268f4138c6579b3ddea2b80997ff94c89e88efdb341d0544e9ab0c9a",
+    "source_text_sha256": "30ab5f68128f5cc3dd70dac0079b3001048492a7cf7f0a9723fe34bc910d5025"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4041,
+    "filename": "to_em_40.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_40.txt",
+    "state": "to",
+    "word_count_original": 706
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_40.json"
+  },
+  "raw_response_text": "### 3.3 Formas de Oferta\n\nA Educação Profissional Técnica de Nível Médio é desenvolvida nas formas articulada e subsequente ao Ensino Médio:\n\nI - a articulada, por sua vez, é desenvolvida nas seguintes formas:\n\na) integrada, ofertada somente a quem já tenha concluído o Ensino Fundamental, com matrícula única na mesma instituição, de modo a conduzir o estudante à habilitação profissional técnica de nível médio ao mesmo tempo em que conclui a última etapa da Educação Básica;\n\nb) concomitante, ofertada a quem ingressa no Ensino Médio ou já o esteja cursando, efetuando-se matrículas distintas para cada curso, aproveitando oportunidades educacionais disponíveis, seja em unidades de ensino da mesma instituição ou em distintas instituições de ensino;\n\nc) concomitante intercomplementar, desenvolvida simultaneamente em distintas instituições educacionais, mas integrada no conteúdo, mediante a ação de convênio ou acordo de intercomplementaridade, para a execução de projeto pedagógico unificado;\n\nII - a subsequente, desenvolvida em cursos destinados exclusivamente a quem já tenha concluído o Ensino Médio.\n\nA trajetória prevista no quadro de oferta da formação técnica e profissional, incluindo a flexibilidade das saídas intermediárias, foi concebida de forma a possibilitar ao trabalhador e/ou estudante construir seu caminho de formação de acordo com suas aptidões e necessidades.\n\nA nova estrutura do Ensino Médio traz a possibilidade de as unidades escolares estabelecerem parcerias com outras instituições de ensino da sua localidade para garantir diferentes possibilidades de escolha de itinerários da formação técnica e profissional aos estudantes. Portanto, cabe ressaltar que além do Ensino Médio Integrado onde o estudante realiza a formação geral básica e cursos de formação técnica e profissional em uma mesma unidade escolar, o Novo Ensino Médio possibilita que o estudante curse Formação geral em uma unidade escolar de Ensino Médio e a formação técnica e profissional em instituição parceira, desde que seja formalizada a parceria.\n\nUma das mais importantes mudanças geradas pelo decreto é a possibilidade de haver progressividade e simultaneidade na formação e na certificação do estudante. Agora, o estudante poderá aproveitar sua qualificação inicial e complementá-la com cursos técnicos de nível médio, desde que estes tenham sido organizados dentro de itinerários formativos específicos. Esse avanço permitirá uma certificação gradativa, qualificando o estudante para inserir-se no mercado de trabalho e habilitando em uma área específica.\n\nA flexibilidade prevista amplia a perspectiva, na qual a unidade escolar organizará o currículo do curso a ser oferecido, estruturando um plano de curso contextualizado com a realidade da escola e organizando o meio pedagógico necessário para o alcance do perfil profissional de conclusão. Essa contextualização deve ocorrer, também, no próprio processo de aprendizagem, beneficiando sempre as relações entre os objetos de conhecimento e contextos para dar significado ao aprendizado, principalmente pela inserção de metodologias que incluam a vivência e a prática profissional ao longo do curso.\n\nNa organização dos Itinerários de Formação Técnica e Profissional os estudantes terão oportunidades de fazer tanto um curso de habilitação profissional técnica quanto a qualificação profissional, incluindo-se o programa de aprendizagem profissional em ambas as ofertas. Seja qual for a trajetória escolhida pelos estudantes, ela deve considerar:\n\nOs Itinerários da Formação Técnica e Profissional que têm o propósito de preparar para o mundo do trabalho deverão ser desenvolvidos como:\n\n- **Habilitação Profissional Técnica de Nível Médio** – é a formação profissional reconhecida por meio de diplomas em cursos listados no Catálogo Nacional de Cursos Técnicos (CNCT). Esta proposta pode ser estruturada com diferentes arranjos curriculares, possibilitando a organização de itinerários formativos com saídas intermediárias de qualificação profissional técnica.\n- **Qualificação Profissional** – refere-se à Formação Inicial e Continuada para desenvolvimento de competências relacionadas ao perfil profissional listado no Catálogo Brasileiro das Ocupações (CBO). Esses cursos possuem carga horária reduzida e não conferem um diploma de Técnico e sim uma Certificação para determinada função.\n- **Formações Experimentais** – são formações experimentais ainda não reconhecidas formalmente. Com prazo de seis meses a cinco anos para sua inclusão no Catálogo Nacional de Cursos Técnicos (CNCT).\n\nA Reforma do Ensino Médio traz à tona discussões importantes que perpassam pela a reelaboração dos currículos, a revisão dos Projetos Políticos Pedagógicos e Planos de Cursos e a preparação dos gestores e docentes. Esse projeto visa aumentar a conexão dos jovens com as instituições de ensino, resultando na sua permanência e melhoria dos resultados de aprendizagem.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

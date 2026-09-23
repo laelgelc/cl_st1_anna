@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01a1e24ca0082f5c006ab302f186f487d2aa4794cbcaf5b0d4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 860,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 882,
+      "output_tokens_details": {
+        "reasoning_tokens": 165
+      },
+      "total_tokens": 1742
+    }
+  },
+  "created_at": "2026-09-22T22:36:40Z",
+  "duration_seconds": 6.849,
+  "error": null,
+  "excerpt_id": "mg_em_12",
+  "filename": "mg_em_12.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "580279090acf807b76188ccffde19b1439694345a3a7cedb1f88e8c00932b76e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1c68ef3de4cca9413d3c2e87175805d0315ff7b419d6700205ecb230c85dd4f2",
+    "rendered_prompt_sha256": "326bd9164d9ea6a312316734f46ee705d382e3b28fa55a297e16ec0af096a206",
+    "source_text_sha256": "a41a32bfaffd4da2e50177655520bacef918a69fd72cee53b21b195bcc8999a9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_12.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1508,
+    "filename": "mg_em_12.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_12.txt",
+    "state": "mg",
+    "word_count_original": 521
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_12.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_12.json"
+  },
+  "raw_response_text": "### 1.5 Articulação entre etapas e transição do Ensino Fundamental para o Ensino Médio\n\nAs três etapas que compõem a Educação Básica (Educação Infantil, Ensino Fundamental e Ensino Médio) se inter-relacionam em uma articulação progressiva de competências e habilidades que visam à formação integral das crianças e jovens. Assim, poderíamos dizer que são elos de uma mesma corrente que se complementam e se reforçam mutuamente. Nessa engrenagem, todas as peças, com suas especificidades, são fundamentais para um conjunto harmonioso e coeso em prol da formação humana global. Se uma se parte, quebra-se o elo.\n\nNesse sentido, um dos aspectos importantes a ser considerado nessa articulação entre as etapas está relacionado à transição entre elas, ou seja, ao momento de finalização da etapa de um processo de aprendizagem e de início de outra, seja da Educação Infantil para o Ensino Fundamental ou deste para o Ensino Médio. Em todos esses períodos de mudanças e de adaptações, são necessárias estratégias para garantir a integração e a continuidade dos processos de aprendizagens, observando-se a progressão das habilidades e competências previstas para cada etapa, bem como a articulação entre as áreas do conhecimento.\n\nUm aspecto a ser considerado é o período de transição dos jovens do Ensino Fundamental para o Ensino Médio, última etapa da Educação Básica. São juventudes com diversas experiências escolares, de diferentes contextos sociais, familiares e culturais, com distintos interesses, aspirações e perspectivas presentes e futuras, com suas múltiplas dimensões e especificidades. Nessa faixa etária, os jovens ampliam vínculos sociais, afetivos e culturais, buscam aprofundar os conhecimentos sobre seus interesses e capacidades intelectuais e expressivas, refletem sobre si mesmos, sobre seu posicionamento em relação à vida, a suas escolhas, ao trabalho e à profissão que gostariam de ter. As juventudes também buscam maior autonomia e capacidade de abstração para ampliarem sua participação e atuação em diversos grupos sociais e culturais. Nesse contexto, um dos desafios que se apresenta a esta última etapa da Educação Básica é o acolhimento às juventudes, incentivando sua permanência e a continuidade dos estudos, com a oferta de uma formação que considere suas potencialidades e percursos e a capacidade de definir seus projetos de vida em relação aos estudos e ao trabalho, bem como em relação às escolhas saudáveis, éticas e sustentáveis. O capítulo Visão de juventudes aborda mais detalhadamente uma reflexão sobre as juventudes no contexto das Minas Gerais.\n\nNessa perspectiva, a proposta de formação integral, em conformidade com os pressupostos do Parecer CNE/CP Nº11/2009, visa à flexibilidade dos processos educativos em atendimento à heterogeneidade e pluralidade de condições, aspirações e interesses das juventudes, bem como à promoção da\n\n> “inclusão dos componentes centrais obrigatórios previstos na legislação e nas normas educacionais, e componentes flexíveis e variáveis de enriquecimento curricular que possibilitem, eletivamente, desenhos e itinerários formativos que atendam aos interesses e necessidade dos estudantes” (BRASIL, 2018, p. 466).\n\nAssegurados o desenvolvimento das competências e habilidades definidas pela BNCC e pelo Currículo Referência de Minas Gerais – CRMG, a flexibilidade é um princípio que possibilita, também, a articulação entre as áreas, os componentes curriculares, os projetos e interesses que melhor atendam ao contexto escolar.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

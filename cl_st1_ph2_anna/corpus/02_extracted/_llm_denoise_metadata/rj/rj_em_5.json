@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0fa6e0fa85f98c82006ab30a8b2e7c87d28af92885f7dda935",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 444,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 577,
+      "output_tokens_details": {
+        "reasoning_tokens": 261
+      },
+      "total_tokens": 1021
+    }
+  },
+  "created_at": "2026-09-22T23:09:04Z",
+  "duration_seconds": 5.652,
+  "error": null,
+  "excerpt_id": "rj_em_5",
+  "filename": "rj_em_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "badd57e8cc2098b148e8db56df70c97881966635b819e675ce79abae9b160212",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ef0e0badce5a4fee4a6bf35fb4bd23551677e6e99331c523a1fc63d18a1a4ba8",
+    "rendered_prompt_sha256": "82c81dcde04865915422ce34209ce6db66a5fe9d3b79b1ba1cafbd5e2f810bd7",
+    "source_text_sha256": "3dfa30ab01786def7d6b55be6ed49b5d4bcc0d5fd332e36e78792bdfb96c47f2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_em_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2887,
+    "filename": "rj_em_5.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_em_5.txt",
+    "state": "rj",
+    "word_count_original": 212
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_em_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_em_5.json"
+  },
+  "raw_response_text": "## ARQUITETURA DO NOVO ENSINO MÉDIO\n\nO Novo Ensino Médio busca atender às exigências sociais e culturais do mundo contemporâneo. O Currículo Referencial do Rio de Janeiro apresenta o protagonismo no cerne de sua estruturação. Um currículo que contempla o desenvolvimento integral e o estudante no centro do processo de ensino-aprendizagem, possibilitando aos jovens escolherem itinerários formativos e trilhas de aprofundamento. O componente Projeto de Vida permite o preparo do educando para a assertividade nas suas escolhas e tomadas de decisão, rumo ao autoconhecimento e criticidade, e também possibilita o fortalecimento da relação dialógica entre professor e estudante, proporcionando um processo avaliativo efetivo, visando o alcance dos objetivos educacionais e a melhoria dos resultados.\n\nSabe-se que um Currículo é resultado de um conjunto de conhecimentos e saberes selecionados, mas, também, é trajetória, é território e é vivência, que se amplia na relação cotidiana que se estabelece entre professores, estudantes e escola, portanto, enquanto documento de identidade, como bem define Tomaz Tadeu Silva (2009)³, caberá a cada comunidade escolar construir seu Currículo tendo como orientação o Currículo Referencial do Estado do Rio de Janeiro – Ensino Médio (Regular e Educação de Jovens e Adultos).\n\n³ SILVA, Tomaz Tadeu. Documentos de identidade; uma introdução às teorias do currículo. 3ª ed., Belo Horizonte: Autêntica: 2009.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

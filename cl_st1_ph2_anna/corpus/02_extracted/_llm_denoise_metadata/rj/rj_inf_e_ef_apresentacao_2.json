@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08837b1f04e30f23006ab30aa598b487d2bbc011025b90b433",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 865,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 992,
+      "output_tokens_details": {
+        "reasoning_tokens": 229
+      },
+      "total_tokens": 1857
+    }
+  },
+  "created_at": "2026-09-22T23:09:34Z",
+  "duration_seconds": 9.148,
+  "error": null,
+  "excerpt_id": "rj_inf_e_ef_apresentacao_2",
+  "filename": "rj_inf_e_ef_apresentacao_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ebe98ceba92721275fb588380e52c5c77c43062e57d3e1a41089b8e1ac3e5b0f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "18b1ee45ecf5f1926c1574179d62fc42757077587061ab022412a2c1b2e249d7",
+    "rendered_prompt_sha256": "ccfc9d3d10fa251f17fb6384d48a57de7c9102a3348890d104b422c9375cb7e7",
+    "source_text_sha256": "d0763361b6585c7f5ddd669d92c05588a5c25de581bf2e5908b8de1df893725f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_e_ef_apresentacao_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2919,
+    "filename": "rj_inf_e_ef_apresentacao_2.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_e_ef_apresentacao_2.txt",
+    "state": "rj",
+    "word_count_original": 493
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_e_ef_apresentacao_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_e_ef_apresentacao_2.json"
+  },
+  "raw_response_text": "# METODOLOGIA DE ANÁLISE DO DOCUMENTO DE ORIENTAÇÃO CURRICULAR E DE SUA HOMOLOGAÇÃO PELO CONSELHO ESTADUAL DE EDUCAÇÃO\n\n## Agradecimentos\n\nA poetisa Cris Pizziment expressa em seu poema “Sou Feita de Retalhos” a forma como o Conselho Estadual de Educação do Rio de Janeiro (CEE-RJ) percebe a metodologia que utilizou para analisar a Proposta Preliminar do Documento Curricular do Estado do Rio de Janeiro, entregue ao Conselho em dezembro de 2018.\n\n> Sou feita de retalhos. Pedacinhos coloridos de cada vida que passa  \n> pela minha e que vou costurando na alma.  \n> Nem sempre bonitos, nem sempre felizes, mas me acrescentam e  \n> me fazem ser quem eu sou.  \n> Em cada encontro, em cada contato, vou ficando maior… Em cada  \n> retalho, uma vida, uma lição, um carinho, uma saudade… Que me tornam  \n> mais pessoa, mais humana, mais completa.  \n> E penso que é assim mesmo que a vida se faz: de pedaços de outras  \n> gentes que vão se tornando parte da gente também. E a melhor parte é  \n> que nunca estaremos prontos, finalizados… Haverá sempre um retalho  \n> novo para adicionar à alma.  \n> Portanto, obrigada a cada um de vocês, que fazem parte da minha  \n> vida e que me permitem engrandecer minha história com os retalhos  \n> deixados em mim. Que eu também possa deixar pedacinhos de mim pelos  \n> caminhos e que eles possam ser parte das suas histórias.  \n> E que assim, de retalho em retalho, possamos nos tornar, um dia,  \n> um imenso bordado de ‘nós’”.\n\nDessa forma, registramos os nossos agradecimentos:\n\n- Ao Grupo de Assessoria ao CEE-RJ formado pela representação da Associação de Pós-graduação e Pesquisa em Educação – ANPED; a Associação Nacional pela Formação dos Profissionais da Educação – ANFOPE; a Associação Brasileira de Currículo – ABdC; a Associação Nacional de Política e Administração da Educação – ANPAE; e pelo Fórum Estadual de Educação do Estado do Rio de Janeiro – FEERJ.\n- Ao Grupo de profissionais da educação, especialistas nas várias áreas e modalidades de ensino que analisaram voluntariamente o Documento Preliminar entregue pela SEEDUC-RJ e UNDIME-RJ ao CEE-RJ, cujos nomes estão referenciados nos textos por eles elaborados e que farão parte de uma publicação do CEE-RJ.\n- Aos profissionais da educação, estudantes, representantes da sociedade civil que espontaneamente compareceram às audiências públicas trazendo suas fundamentais contribuições.\n- Às Instituições que nos acolheram e as suas Equipes que generosamente possibilitaram que ocorressem o Seminário e as Audiências Públicas em um clima de respeito ao diverso.\n- À União Nacional dos Conselhos Municipais de Educação do Rio de Janeiro (UNCMERJ) e ao Grupo de Articulação de Fortalecimento dos Conselhos Escolares do Rio de Janeiro (GAFCE RJ) pela intensa divulgação do trabalho e participação nas Audiências Públicas.\n\nSomente dessa forma, com pedaços que se entrelaçaram é que foi possível tecer a Deliberação CEE-RJ 373 de outubro de 2019, que representa um pouco de cada um de nós, para que as escolas possam em conjunto com as suas comunidades, respeitando as suas histórias de vida, realizar o seu bordado, que é único.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

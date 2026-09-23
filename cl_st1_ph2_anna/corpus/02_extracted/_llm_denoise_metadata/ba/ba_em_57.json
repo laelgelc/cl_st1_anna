@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c27f8f01c1d5b3c006ab2feda8dd887d2b516b33d134dd176",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 868,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 863,
+      "output_tokens_details": {
+        "reasoning_tokens": 90
+      },
+      "total_tokens": 1731
+    }
+  },
+  "created_at": "2026-09-22T22:19:12Z",
+  "duration_seconds": 5.692,
+  "error": null,
+  "excerpt_id": "ba_em_57",
+  "filename": "ba_em_57.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c0affefc664716df0a63dce89a01635614a7638166f9183486a2133926febbd6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c5134d8dafa63c871c8a7a28cd8c0c437591cb63b425e30d3e4eda2f65838d13",
+    "rendered_prompt_sha256": "0efdabc1a7492eff7757e5eba9ddabe08d5d373c810642578a70525cf9411aa1",
+    "source_text_sha256": "72bba4a6e2c09388271cbe94a47a2c4afa30f92bee9a4aa0518b0d5cf7659ba8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_em_57.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 675,
+    "filename": "ba_em_57.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_em_57.txt",
+    "state": "ba",
+    "word_count_original": 578
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_em_57.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_em_57.json"
+  },
+  "raw_response_text": "## 12.10. FOCO NO PROJETO DE VIDA DOS/AS ESTUDANTES\n\nSegundo a Base Nacional Comum Curricular (BNCC), o Projeto de Vida do estudante diz respeito ao planejamento quanto às perspectivas possíveis para os jovens, como também ter em vista a continuidade dos estudos no ensino médio, fato este que potencializa a escola enquanto ambiente para a vida em democracia, como espaço formador, acolhedor, visando ao exercício da democracia e da participação social e política.\n\nNessa direção, no Ensino Fundamental – Anos Finais, a escola pode contribuir para o delineamento do projeto de vida dos estudantes, ao estabelecer uma articulação não somente com os anseios desses jovens em relação ao seu futuro, como também com a continuidade dos estudos no Ensino Médio. Esse processo de reflexão sobre o que cada jovem quer ser no futuro, e de planejamento de ações para construir esse futuro, pode representar mais uma possibilidade de desenvolvimento pessoal e social (BRASIL, 2017, p. 62).\n\nO Projeto de Vida deve corroborar para que o (a) estudante reflita sobre quem é, aonde quer chegar na vida e os meios para tal, levando em consideração as relações históricas que o configuram, suas crenças, seus valores pessoais e o seu autoconhecimento, de modo a possuir uma visão clara do seu passado, presente e futuro e ter consciência do mundo em que vive e das relações que o cerca, sempre em busca de uma vida melhor. (ProEI, 2014, pág. 75).\n\nO Projeto de Vida comporta a potencialidade de desenvolver as competências socioemocionais em uma lógica de aprendizagem que suscita o uso de metodologias ativas, uma vez que a apropriação teórica desse campo do desenvolvimento humano é mais difícil. O exercício da escuta, os registros autobiográficos, a observação crítica da realidade, a identificação dos limites e das potencialidades existentes em si e no território, a observação desperta dos sonhos, ambições e desejos e dos mecanismos necessários para transformar os sonhos em realidade, tudo isso deve estar presente no trabalho curricular com o Projeto de Vida.\n\nA competência geral que trata do Projeto de Vida, na BNCC, nos apresenta o vínculo do projeto de vida com a liberdade, autonomia, criticidade e responsabilidade. Para o desenvolvimento dessa competência, ao longo da educação básica, são apresentadas as sub-dimensões da determinação, esforço, auto eficácia, perseverança e auto avaliação.\n\nAinda no texto da BNCC, encontramos um claro apontamento para a organização da escola em atenção ao acolhimento das diversidades que as juventudes trazem, bem como a um percurso formativo que, observando diferentes percursos e histórias, faculte aos sujeitos da aprendizagem a definição dos seus Projetos de Vida, em âmbito individual e coletivo.\n\nDemarcando ainda o campo privilegiado de fortalecimento do protagonismo juvenil e da construção de identidades, que o Projeto de Vida deve ocupar, convidamos os profissionais da educação a reconhecerem seus estudantes como detentores de saberes, formas de sociabilidade e práticas culturais, aproveitando esse singular momento do desenvolvimento humano, entre o final do ensino fundamental e o início do ensino médio, para fomentar a construção do “eu”, para estimular a autonomia, para encorajar nossas juventudes a se prepararem para ir além do que, muitas vezes, se acredita e se credita a elas. Não devemos desperdiçar a extraordinária potência que guardam as juventudes de construir identidades. É mais do que oportuno, portanto, que possamos mover o currículo na direção da construção de Projetos de Vida que inspirem as juventudes a caminhar na direção dos seus desejos e sonhos alicerçados em bases éticas, democráticas e humanistas.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

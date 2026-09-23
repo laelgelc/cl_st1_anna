@@ -1,0 +1,47 @@
+## 4.2.2 Projetos Integrados de Ensino
+
+De acordo com as DCNEM (BRASIL, 2012), tornar-se indispensável a escola olhar com atenção e considerar a diversidade brasileira das juventudes atendidas nesta etapa, para que atinja o objetivo da formação humana integral. Desta forma, o currículo integrado organiza os saberes das áreas de conhecimento e da EPT, desenvolvendo o processo de ensino-aprendizagem de maneira que os conceitos sejam apreendidos como sistemas de relações de uma totalidade concreta que se pretende explicar/compreender (RAMOS, 2005).
+
+Esta concepção compreende que, na escola, são as unidades curriculares as responsáveis por permitir apreender os conhecimentos já construídos em sua especificidade teórico-metodológica e histórica; ou seja, como as determinações mais particulares dos fenômenos, relacionadas entre si, permitindo compreendê-los na sua totalidade.
+
+Neste contexto, as diretrizes curriculares propostas nas DCNEM consideram que as áreas de conhecimento devem dialogar na perspectiva integrada, para favorecer os conhecimentos escolares com os saberes do cotidiano, ou seja, considerando os conhecimentos provenientes da realidade dos jovens, além do respeito à diversidade e as questões relacionadas ao trabalho.
+
+Para que a proposta faça sentido, requer que os docentes considerem as proposições que os alunos trazem nas escutas, pois mais que um estudo exploratório, a investigação científica nesta unidade curricular leva o aluno a observar e a refletir sobre si, sobre o mundo, induzir, trazer a compreensão de que é da natureza humana, a curiosidade para constatar ou refutar algo que se queira deduzir ou ressignificar.
+
+É, portanto, a concepção de formação humana integral, mediante a construção e organização do currículo integrado, a partir da articulação das dimensões trabalho, ciência, tecnologia e cultura, que os projetos integrados são importantes para a prática docente interdisciplinar e contextualizada, uma vez que possibilitam desvelar as necessidades sociais, culturais, econômicas e intelectuais das juventudes, de modo a contribuir para formação de jovens mais participativos, reflexivos e críticos.
+
+Assim, refletir sobre os projetos integrados nos remete à organização curricular por meio das quatro áreas do conhecimento e a EPT, a partir de metodologias de ensino que possibilitem contribuir na construção da formação humana integral dos estudantes de ensino médio.
+
+Neste sentido, na proposta do DCEPA – etapa ensino médio, o Projeto Integrado é uma unidade curricular flexível da nucleação referente à formação para o mundo do trabalho, que articulará os princípios curriculares norteadores da educação básica paraense, os eixos estruturantes, as competências específicas de área, as habilidades específicas das itinerâncias¹⁰³ e seus respectivos objetos de conhecimento.
+
+¹⁰³ De acordo com a Portaria MEC nº 1.432/2018, essas habilidades referem-se a dois grupos: habilidades associadas às competências gerais da BNCC e as habilidades específicas dos itinerários formativos, por meio das quatros áreas do conhecimento e a EPT.
+
+Estes têm como objetivos aprofundar e ampliar conhecimentos vivenciados na nucleação da formação geral básica, que serão experienciados ao longo dos três anos do ensino médio. É importante ressaltar, como premissa, que esta unidade curricular esteja pautada, ainda, nos pressupostos da contextualização, da interdisciplinaridade e da integração curricular.
+
+Assim, tais percursos são ainda espaços de aprendizagens na perspectiva mais flexível, não apenas de questões pedagógicas, mas sim de questões sociopolíticas da educação, ao aprendizado de competências que contribuam para a construção de uma sociedade mais ética, democrática, responsável, inclusiva e que subsidie o projeto de vida e formação humana integral das juventudes paraenses.
+
+A partir dos “Referenciais Curriculares para a elaboração dos Itinerários formativos”, este documento curricular propõe os Projetos Integrados de área e/ou da EPT, que requerem atenção, no que se refere a sua estrutura, a partir de uma trajetória com começo, meio e fim, garantindo seus objetivos, finalidades e aprofundamentos.
+
+Ressalta-se ainda que nos projetos integrados, as competências, habilidades e objetos são estruturados considerando o quadro organizador da formação para o mundo do trabalho, sendo este importante referência de orientação e consulta, na qual os professores devem considerar para a construção dos projetos integrados, que se organizam nos elementos do quadro 21, abaixo:
+
+**Quadro 21: Estrutura dos Projetos Integrados de Áreas e EPT**
+
+| Elementos | Orientação |
+|---|---|
+| 1.1 Título do Projeto | Este deve ser atrativo (linguagem das juventudes). |
+| 1.2 Unidade regional | Informar URE ou USE de vinculação da escola. |
+| 1.3 Município | Cidade em que a escola está situada. |
+| 1.4 Escola | Nome da escola conforme registrado no CEE/PA. |
+| 1.5 Princípio(s) Curricular(es) norteador(es) | - Respeito às diversas culturas amazônicas e suas inter-relações no espaço e no tempo;<br>- Educação para a sustentabilidade ambiental, social e econômica;<br>- Interdisciplinaridade e contextualização no processo ensino-aprendizagem.<br><br>Os princípios acima listados são fundamentos que norteiam (orientam) o currículo na perspectiva da formação humana integral, trazendo para as discussões o desenvolvimento dos processos criativos e produtivos, advindo dos distintos grupos sociais que compõem a Amazônia, considerando a diversidade ambiental, social, econômica e cultural. |
+| 1.6 Áreas do conhecimento envolvidas | Aponta as áreas Linguagens e suas tecnologias, Matemática e suas tecnologias, Ciências da Natureza e suas tecnologias, Ciências Humanas Sociais Aplicadas. Caso o projeto seja vinculado a EPT, deve-se informar que se trata de um projeto, cuja itinerância integra a área e a EPT. |
+| 1.7 Unidades curriculares envolvidas | Refere-se às unidades curriculares que compõe uma ou mais áreas do conhecimento da formação geral básica. |
+| 1.8 Eixos estruturantes | - Investigação científica;<br>- Processos criativos;<br>- Mediação e intervenção sociocultural;<br>- Empreendedorismo social.<br><br>Estes eixos conectam as experiências pedagógicas com a realidade cotidiana dos estudantes, favorecendo o desenvolvimento de habilidades importantes para a formação humana integral. |
+| 1.9 Perfil de Entrada esperado | |
+| 1.10 Perfil de Saída esperado | Refere-se aos requisitos de aprendizagem que o aluno deverá construir ao concluir cada fase do projeto integrado e que poderá servir de pré-requisito para projetos posteriores. |
+| 1.11 Professores/as responsáveis | |
+| 1.12 Anos/semestre | Refere-se ao do ensino médio (1º, 2º e 3º) no semestre letivo corrente.<br><br>Exemplos:<br>1º ano/1º semestre;<br>1º ano/2º semestre;<br>2º ano/3º semestre;<br>2º ano/4º semestre;<br>3º ano/5º semestre;<br>3º ano/6º semestre. |
+| 1.13 Turma(s) envolvida(s) | Refere-se aos códigos do SIGEP, referentes às turmas do 1º, 2º ou 3º ano do Ensino Médio, em que se desenvolverá o projeto. |
+| 1.14 Período de Realização | Informar o ano e o semestre letivo.<br><br>Exemplo:<br>2020.1 (refere-se ao 1º semestre do ano letivo de 2020). 2020.2 (refere-se ao 2º semestre do ano letivo de 2020). |
+| 1.15 Carga-horária | |
+
+Fonte: Elaboração com base nos estudos e sistematizações do ProBNCC - etapa ensino médio (2019).

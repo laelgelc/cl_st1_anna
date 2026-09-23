@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a397c2e42470030006ab30add318487d2b62e06776840e9d5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 667,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 719,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 1386
+    }
+  },
+  "created_at": "2026-09-22T23:10:27Z",
+  "duration_seconds": 6.62,
+  "error": null,
+  "excerpt_id": "rn_ef_29",
+  "filename": "rn_ef_29.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ba8b07621909fede5b760dbac1289a0cf55a02847364057d9d7d13290c15a359",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "78f3a0a949e20ba602e040438d3be712e4a4ec576d40c40f73c46040ca548d94",
+    "rendered_prompt_sha256": "a8442c176764074294325d3b5acb9b1975069c9357647cdc50b44dd8b3a3e209",
+    "source_text_sha256": "28136f277f3a227963186cb8f90dc629a0fcd83e09b03d6ddbaf14ab66a32c44"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_ef_29.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2967,
+    "filename": "rn_ef_29.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_ef_29.txt",
+    "state": "rn",
+    "word_count_original": 399
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_ef_29.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_ef_29.json"
+  },
+  "raw_response_text": "## Brincadeiras e jogos\n\nEsta unidade temática tem por finalidade explorar atividades nas quais o aluno participa voluntariamente, sendo estabelecidos, previamente e de forma coletiva, alguns combinados quanto a limites de tempo e de espaço e possíveis alterações de regras.\n\nEssas práticas não possuem um conjunto estável de regras, podem ser recriados, constantemente, pelos diversos grupos culturais. Mesmo assim, é possível reconhecer que um conjunto grande dessas brincadeiras e jogos é difundido por meio de redes de sociabilidade informais, o que permite denominá-los populares. (BRASIL, 2017b, p. 212)\n\nA respeito de jogos, Johan Huizinga (2001, p. 33) define que\n\n> O jogo é uma atividade ou ocupação voluntária, exercida dentro de certos e determinados limites de tempo e de espaço, segundo regras livremente consentidas, mas absolutamente obrigatórias, dotado de um fim em si mesmo, acompanhado de um sentimento de alegria e de uma consciência de ser diferente da “vida quotidiana”.\n\nNa visão de Cacilda Gonçalves Velasco (1996), a brincadeira é uma diversão típica e inerente da infância, que auxilia o desenvolvimento e socialização nesta fase.\n\nOs jogos exercem uma grande importância no processo de aprendizagem das crianças. O Coletivo de Autores (2012) traz o jogo como satisfação às necessidades de “ação” das crianças, estimula o exercício do pensamento, faz desenvolver suas vontades e, ao mesmo tempo, as tornam conscientes de suas escolhas e decisões. Huizinga (2001) afirma que o jogo é muito mais que meramente um fenômeno fisiológico ou reflexo psicológico, ou seja, faz transcender as necessidades imediatas, dá sentido à ação, é livre, trata-se de uma evasão da vida real, é desinteressado e exerce uma função cultural por seu valor expressivo e por suas associações espirituais e sociais.\n\nAtualmente, brincar torna-se um dos temas importantes para a quebra de fronteiras de diferentes áreas do conhecimento, pois sua ação lúdica tem potencialidade de penetrar tanto nas ciências quanto na educação e integrá-las. Assim, essa forma lúdica é configurada pela sequência de decisões do brincante, tomado como ser social protagonista, ou seja, que tem capacidade de decisão embebida pela cultura na qual vive e acompanhada por regras que provêm do exterior, mas que podem ser negociadas ou construídas conforme o jogo avança e que orientam as ações lúdicas. Por não terem consequências na vida do brincante, as ações lúdicas tornam-se frívolas e, por dependerem de suas decisões, viram atos incertos e de difícil previsão (KISHIMOTO, 2016).",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

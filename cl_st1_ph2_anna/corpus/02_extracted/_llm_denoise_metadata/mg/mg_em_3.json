@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07944a0a93206e38006ab303310d0487d28be855c9f09a2ee7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 680,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 641,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 1321
+    }
+  },
+  "created_at": "2026-09-22T22:37:44Z",
+  "duration_seconds": 7.744,
+  "error": null,
+  "excerpt_id": "mg_em_3",
+  "filename": "mg_em_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cd7f5aea7959173462901c527c557ec59120885a22a6fcd2a856714d385d7699",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4f86b7462840cefd522fa5a0b94eccdc36eb0220304373c23a824f7b3ae388e3",
+    "rendered_prompt_sha256": "84bf983321394620d5215d1d49bfffb7fa7243529680e45a5bd3b4be990fe195",
+    "source_text_sha256": "bd6337b4a92e2193cfc9b9dc13b2f73a8681a8215a0b53fed5c86c287af600ae"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1559,
+    "filename": "mg_em_3.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_3.txt",
+    "state": "mg",
+    "word_count_original": 393
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_3.json"
+  },
+  "raw_response_text": "### 1.2.1 Currículo da Educação Infantil e Ensino Fundamental\n\nPara a Versão Preliminar do Currículo da Educação Infantil e Ensino Fundamental, trabalhando na redação desde fevereiro de 2018, a equipe contou com a participação de mais de 3.100 escolas e 120.000 profissionais de todas as partes do estado, cujas contribuições foram analisadas e incorporadas ao documento. Contou também com o processo de consulta pública on-line e encontros municipais realizados nos diversos territórios em parcerias entre as redes de ensino. Nestes, educadores e comunidade escolar puderam debater a versão preliminar e apresentar propostas para sua ampliação. Os Encontros Municipais foram realizados durante os meses de agosto e setembro com a participação de mais de 690 municípios, contando com mais de 55.000 participantes, presencialmente, que estudaram, analisaram e fizeram propostas à Versão Preliminar do documento. Paralelamente, foram registradas mais de 404.000 participações na Consulta Pública On-line. Todas as contribuições foram analisadas pela equipe de redação quanto à pertinência da proposta e foi, então, feita a adequação do documento de acordo com o proposto. Grande parte das sugestões foram incorporadas, tornando o documento verdadeiramente colaborativo e representativo das diversas Minas Gerais.\n\n### 1.2.2 Currículo do Ensino Médio\n\nO processo de construção do currículo para o Ensino Médio contou, também, com encontros realizados nos diversos territórios para que educadores e comunidade escolar pudessem debater a versão preliminar do documento e apresentar propostas para ampliá-la. Realizamos a consulta pública online com mais de 650 contribuições que foram analisadas pela equipe e adequadamente inseridas no documento, tornando-o mais colaborativo e representativo das diversas Minas Gerais. Envolvendo 120.000 profissionais de todas as partes do estado, a versão preliminar do Currículo Referência do Ensino Médio de Minas Gerais contou com a participação de 13 escolas-piloto.\n\nA construção do Currículo Referência contou, também, com a escuta às entidades parceiras, como a União Nacional dos Conselhos Municipais de Educação em Minas Gerais – UNCME/MG, a União Nacional do Dirigentes Municipais de Educação em Minas Gerais - UNDIME/MG, o Conselho Estadual de Educação de Minas Gerais – CEE/MG, além de outras entidades e colaboradores, como professores de Espanhol da Rede Estadual de Minas Gerais. A redação final deste documento contou ainda com a leitura crítica do Instituto Reúna, Instituições de Ensino Superior do território mineiro e Sindicato das Escolas Particulares de Minas Gerais.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

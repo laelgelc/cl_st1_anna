@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0dde94bb8ac782e4006ab307a7ed3087d29f59a07f644e978f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 856,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 775,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 1631
+    }
+  },
+  "created_at": "2026-09-22T22:56:46Z",
+  "duration_seconds": 6.96,
+  "error": null,
+  "excerpt_id": "pb_inf_e_ef_4",
+  "filename": "pb_inf_e_ef_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6a941b2070a1b32d453ea37fd197322d7f0ab81cf684f564730188359651c3e4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8043b39da1f3c781faa6fc29bbe96547217ab6a3879e86095e15e69869515fdb",
+    "rendered_prompt_sha256": "8824accd307c34cb399a4ef763ab3d1be87c67794bf87615514c80fb26016904",
+    "source_text_sha256": "0749583b74b5120db9b35bc984badf3132de4ab900dae95d2bffd7f95608bebf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_e_ef_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2383,
+    "filename": "pb_inf_e_ef_4.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_e_ef_4.txt",
+    "state": "pb",
+    "word_count_original": 534
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_e_ef_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_e_ef_4.json"
+  },
+  "raw_response_text": "## 2.2 Sujeitos e direitos de aprendizagem\n\nUma concepção presente nesta proposta curricular é a de sujeito de direitos, tanto na Educação Infantil como no Ensino Fundamental. Pensar os sujeitos com base nesta concepção é uma perspectiva relativamente recente. Ela tem início no debate sobre direitos humanos, nos anos 1990, e é fruto da combinação de mudanças políticas na sociedade internacional e de importantes transformações conceituais nos direitos humanos. A Conferência de Viena, de 1993, anuncia a relação necessária entre direitos humanos, democracia e desenvolvimento, do qual a pessoa humana é o sujeito central.\n\nNo entanto, a partir da conferência de Istambul, em 1996, assiste-se a uma regressão nesses espaços devido a diversos fatores: problemas de ordem orçamentária, críticas a concepções “socialistas” e disputa por hegemonia entre grupos diversos.\n\nNesse contexto de avanços e recuos, é importante perceber que, apesar dos avanços em relação ao reconhecimento dos direitos humanos, a situação política internacional mostra como esses avanços ainda estão indefinidos, uma vez que assistimos a uma proteção internacional seletiva dos mesmos, seguida de reações de grupos políticos fundamentalistas, nacionalistas e defensores de outros particularismos, o que põe em tensão o campo emergente dos direitos humanos.\n\nHá um longo caminho a ser trilhado e ele deve ser baseado no diálogo e na luta política. Estes devem ser constantes, uma vez que uma concepção única é algo que não se deve esperar, já que esse debate ocorre à luz da disputa, de conflitos e de consensos possíveis, mas não absolutos.\n\nNessa mesma direção, a noção de sujeito em Vigotski (apud ZANELLA, 2004, p. 127) afirma que este é “constituído em contextos sociais, os quais, por sua vez, resultam da ação concreta de homens que coletivamente organizam o seu próprio viver” (ZANELLA, 2004, p. 128). O sujeito se constitui em relação, o que implica a alteridade, a negociação, o conflito, mas, também, a possibilidade de consensos.\n\nPensar o sujeito, ainda, é ter que considerar a complexidade de sua constituição que não se dá apenas do ponto de vista do que vem de fora, das aprendizagens, ou apenas de aspectos biológicos e subjetivos. Mas, de pensá-lo nesta dupla articulação que, ao se fazer, não é apenas uma junção de fatores, mas estes, em conjunto e em articulação, constituem o sujeito. O sujeito de direitos, por sua vez, é fruto de uma conquista realizada pela luta por reconhecimento da dignidade humana como princípio fundamental e universal. Tal conquista não está dada absolutamente. Como se disse, interesses contrários estão permanentemente colocando em risco essa conquista. Defender o sujeito de direitos é uma opção política que baliza toda a proposta curricular que aqui se encontra.\n\nDesse modo, as crianças e jovens paraibanos são sujeitos de direitos de aprendizagem, estabelecidos nesta proposta para cada componente curricular. No âmbito dos sistemas e instituições de ensino, os direitos de aprendizagem deverão ser traduzidos no trabalho de promoção de práticas educativas e de ensino que visem à produção e apropriação de saberes que possam favorecer o desenvolvimento pessoal e a vida em sociedade dos alunos.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

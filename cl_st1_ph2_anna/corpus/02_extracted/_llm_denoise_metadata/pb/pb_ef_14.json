@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bcd249963db3114006ab306a5ee2487d288098b7e7d8da518",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 788,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 847,
+      "output_tokens_details": {
+        "reasoning_tokens": 188
+      },
+      "total_tokens": 1635
+    }
+  },
+  "created_at": "2026-09-22T22:52:30Z",
+  "duration_seconds": 8.64,
+  "error": null,
+  "excerpt_id": "pb_ef_14",
+  "filename": "pb_ef_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "376fed9bf75a6ac26d88af48e45cfd09d22eb5b91d6a737ea6f9ffb5d495e514",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ca7f0a679dda6f458deeb96a12b51349336380df827c2a7366e18c5d63fa8930",
+    "rendered_prompt_sha256": "79e122bc88d269da1edc8405366d70b7413154ae5ffb7e5bbc3e3d23860a0b84",
+    "source_text_sha256": "4381a401033c39c9f0cb3d5f2ef084a43cfbc8d5971c3cf54aad1940c3fa8059"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_ef_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2181,
+    "filename": "pb_ef_14.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_ef_14.txt",
+    "state": "pb",
+    "word_count_original": 486
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_ef_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_ef_14.json"
+  },
+  "raw_response_text": "### 5.2.4 Ensino da Dança\n\nA Dança no espaço da Educação Formal deve ser entendida e contemplar objetivos diferentes do entendimento e dos objetivos da Educação Não-formal ou Informal. Na escola, o Ensino de Dança tem uma função fundamental de criar conexões entre o(a) estudante e seu corpo, seus sentimentos, pensamentos, posicionamento perante o mundo visando uma unidade, um ser cidadão.\n\nEsse processo, que permeia todo o Ensino Fundamental, deverá ser conduzido por um docente de formação específica no Ensino de Dança, pois, além dos aspectos físicos envolvidos (o uso do corpo de forma adequada, gerando saúde e evitando lesões), esse profissional deve promover processos estéticos, criativos, de conhecimento de si, da relação com o outro e com o ambiente. No Ensino de Arte, em geral, e no Ensino de Dança, em específico, faz-se necessário que o educando desenvolva a compreensão do seu entorno e esteja apto a criar novos mundos, novas realidades, a partir das suas experimentações estéticas.\n\nCabe ao Ensino de Dança, no componente Arte, no decorrer do Ensino Fundamental, promover novas relações com o espaço físico da escola, problematizar o uso do corpo no espaço escolar, expandir as possibilidades criativas, éticas e estéticas dos(as) estudantes, oferecer espaço de expressão de ideias, sentimentos e autoconhecimento. Para tanto, deve ser levada em consideração toda a produção cultural e artística produzida no entorno, criando vínculos entre o que acontece dentro e fora da escola.\n\nDurante esse processo, que levará os nove anos do Ensino Fundamental, o(a) professor(a) irá conduzir o processo de ensino-aprendizagem dos seus(suas) estudantes trabalhando as dimensões do conhecimento, de modo não hierárquico, mas enfatizando ora umas ora outras, de acordo com a maturidade desenvolvida durante os anos. Nos 1º, 2º e 3º anos as dimensões estesia, expressão e relacional estão em evidência, levando a um trabalho voltado ao conhecer-se e a um contato mais íntimo com as experiências sensíveis no próprio corpo, aguçamento dos sentidos, possibilidades de expressão e relação com os colegas. No 4º e 5º ano, a ênfase passa para a fruição, criação e para a dimensão relacional, sendo ampliado o conhecimento de estilos de dança e as relações entre dança e a cultura em que ela foi criada. Aumenta-se o estímulo a criações processuais e, para isso, aprofundam-se as relações entre os(as) estudantes. Já para o 6º e 7º anos, além da ênfase nas dimensões de criação, fruição e relacional, propomos que haja ênfase na reflexão tanto das criações quanto das relações e fruições propostas. Por fim, no 8º e 9º anos deve-se acrescentar a dimensão crítica e reflexiva às dimensões de criação relacional. A proposta é dar ênfase a algumas dimensões, mas todas devem ser trabalhadas em todos os anos do Ensino Fundamental.\n\nA seguir, o mapa de dimensões sugerido.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

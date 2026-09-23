@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_090f4b60a97dc12b006ab30d6f7fcc87d2a3b6b86c889f6c32",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 651,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 793,
+      "output_tokens_details": {
+        "reasoning_tokens": 239
+      },
+      "total_tokens": 1444
+    }
+  },
+  "created_at": "2026-09-22T23:21:26Z",
+  "duration_seconds": 7.288,
+  "error": null,
+  "excerpt_id": "rr_inf_2",
+  "filename": "rr_inf_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "363c4dadef4eec154c1d5a5272ac52ae4bd1f11628934cf5727388ea06b7ab39",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f37f103218cba5ed7635e6730ceb7788e01b0738a1e17295571be819149011ae",
+    "rendered_prompt_sha256": "5db7e3ec1a03872492628e67e5de3fe541ab45b7648905c083172571a8a62930",
+    "source_text_sha256": "1406be6325af5de3c735d7a8e54df24e0491672f193506cc9e6ad44a861935f5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3518,
+    "filename": "rr_inf_2.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_2.txt",
+    "state": "rr",
+    "word_count_original": 361
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_2.json"
+  },
+  "raw_response_text": "### 3.1 BREVE HISTÓRICO DA EDUCAÇÃO INFANTIL EM RORAIMA\n\nA Educação Infantil no Estado de Roraima foi implementada em todas as redes municipais, tanto pública como privada, está regulamentada pelas normativas e resoluções gerais dos Conselhos Estadual e Municipal de Educação.\n\nA Resolução CEE/RR 05/09 estabelece as normas aplicáveis para a Educação Básica no Sistema Estadual de Ensino e dá outras providências, normatiza a organização da primeira etapa da Educação Básica que tem como objetivo central o desenvolvimento integral da criança, em seus aspectos físico, afetivo, psicológico, intelectual, social, complementando a ação da família e da comunidade, conforme estabelecido no art. 29 (LDBEN n. 9394/96).\n\nO Conselho Estadual de Educação também orienta e assessora os Municípios em regime de colaboração as regulamentações conforme a DCNEI, art. 7º da Resolução CEE/CES/RR 051/03 e art. 9º da Lei n. 429/04.\n\nA maioria dessas matrículas são na pré-escola, chegando a 2.399 alunos matriculados em 115 Escolas Indígenas, distribuídas em onze Etnias, 9 línguas e mais de 30 dialetos, sendo que em três municípios (Pacaraima, Normandia e Uiramutã) possuem 100% de escolas indígenas, considerando também que a Educação Infantil é Optativo/Facultativo nas comunidades (RESOLUÇÃO nº 05/2009).\n\nEm Escolas do/no Campo atualmente são 2.464 crianças matriculadas, distribuídas em 123 Escolas Rurais e em área urbana dos interiores, nas escolas de comunidades Ribeirinhos, Assentamentos Rurais e Vicinais Agrícolas, assim como nas escolas de fronteira entre Brasil e Guiana e Brasil e Venezuela.\n\nNa capital, há o registro de 117 unidades que atendem à etapa da educação infantil: creches/casas mãe e pré-escolas, com 13.103 matrículas, assim como a 971 alunos em Salas de Recursos Multifuncional SRM/AEE.\n\nNesse contexto, vários são os desafios para atender ao estado multiétnico, em suas especificidades, assegurando os direitos de aprendizagem, assim como a oferta de espaços e propostas pedagógicas que atendam a criança na plenitude de seus direitos, com um direcionamento para formação aos profissionais da educação e investimento nas políticas públicas de ensino, além de um urgente delineamento da formação dos profissionais de modo a promover o respeito à criança enquanto cidadã de direitos.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

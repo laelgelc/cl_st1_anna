@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_03832e95f45d777b006ab30363d91487d2a24f2bc57c5dec76",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1829,
+      "input_tokens_details": {
+        "cache_write_tokens": 1826,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1755,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 3584
+    }
+  },
+  "created_at": "2026-09-22T22:38:38Z",
+  "duration_seconds": 10.359,
+  "error": null,
+  "excerpt_id": "mg_em_83",
+  "filename": "mg_em_83.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5118fdd9fa53c37462fd26a38acd39031d72b106ac2daf22a0e1d38a93301669",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "83314325adadce63d364d7135550c84e4603a252dab99b14432dd514bf000aa8",
+    "rendered_prompt_sha256": "fcfb0c4c5afb7fbc87a1b826c311141623378ddafe5f951f9359df68458ed6e2",
+    "source_text_sha256": "d63a45d768e58bdd3d26fe33ae5277a0f3390048c98d8a52b2dbe2b730e7287c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_83.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1618,
+    "filename": "mg_em_83.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_83.txt",
+    "state": "mg",
+    "word_count_original": 1122
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_83.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_83.json"
+  },
+  "raw_response_text": "## 4.1.2 Definição dos tipos de itinerários de aprofundamento\n\nA formação geral básica abrange o conjunto de competências e habilidades das áreas do conhecimento previstas na BNCC – Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias, Ciências Humanas e Sociais Aplicadas – que aprofundam e consolidam as aprendizagens essenciais do ensino fundamental, a compreensão de problemas complexos e a reflexão sobre soluções para eles.\n\nOs itinerários de aprofundamento, por sua vez, tratam de cada conjunto de unidades curriculares ofertadas pelas instituições e redes de ensino que possibilitam ao estudante aprofundar seus conhecimentos e se preparar para o prosseguimento de estudos ou para o mundo do trabalho, de forma a contribuir para a construção de soluções de problemas específicos da sociedade. Nesse contexto, é necessário reorientar currículos e propostas pedagógicas – compostos, indissociavelmente, por formação geral básica e itinerário formativo (Resolução CNE/CEB nº 3/2018, Art. 10).\n\nEles podem ser desenvolvidos por meio de disciplinas, projetos, oficinas, núcleos de estudo, entre outras situações de trabalho pedagógico que os estudantes poderão escolher. Como já mencionado, eles podem se aprofundar em uma área do conhecimento ou na formação técnica e profissional (FTP) ou mesmo em itinerários integrados, combinando duas ou mais áreas e a FTP.\n\nAs redes de ensino terão autonomia para definir quais os itinerários de aprofundamento irão ofertar, considerando um processo que envolva a participação de toda a comunidade escolar. Deve-se considerar, ainda, as demandas e necessidades do mundo contemporâneo, estar em sintonia com os diferentes interesses dos estudantes e sua inserção na sociedade, o contexto local e as possibilidades de oferta dos sistemas e instituições de ensino.\n\nPortanto, eles podem ser estruturados nos seguintes termos das DCNEM/2018:\n\nI – linguagens e suas tecnologias: aprofundamento de conhecimentos estruturantes para aplicação de diferentes linguagens em contextos sociais e de trabalho, estruturando arranjos curriculares que permitam estudos em línguas vernáculas, estrangeiras, clássicas e indígenas, Língua Brasileira de Sinais (LIBRAS), das artes, design, linguagens digitais, corporeidade, artes cênicas, roteiros, produções literárias, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nII – matemática e suas tecnologias: aprofundamento de conhecimentos estruturantes para aplicação de diferentes conceitos matemáticos em contextos sociais e de trabalho, estruturando arranjos curriculares que permitam estudos em resolução de problemas e análises complexas, funcionais e não-lineares, análise de dados estatísticos e probabilidade, geometria e topologia, robótica, automação, inteligência artificial, programação, jogos digitais, sistemas dinâmicos, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nIII – ciências da natureza e suas tecnologias: aprofundamento de conhecimentos estruturantes para aplicação de diferentes conceitos em contextos sociais e de trabalho, organizando arranjos curriculares que permitam estudos em astronomia, metrologia, física geral, clássica, molecular, quântica e mecânica, instrumentação, óptica, acústica, química dos produtos naturais, análise de fenômenos físicos e químicos, meteorologia e climatologia, microbiologia, imunologia e parasitologia, ecologia, nutrição, zoologia, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nIV – ciências humanas e sociais aplicadas: aprofundamento de conhecimentos estruturantes para aplicação de diferentes conceitos em contextos sociais e de trabalho, estruturando arranjos curriculares que permitam estudos em relações sociais, modelos econômicos, processos políticos, pluralidade cultural, historicidade do universo, do homem e natureza, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nV – formação técnica e profissional: desenvolvimento de programas educacionais inovadores e atualizados que promovam efetivamente a qualificação profissional dos estudantes para o mundo do trabalho, objetivando sua habilitação profissional tanto para o desenvolvimento de vida e carreira quanto para adaptar-se às novas condições ocupacionais e às exigências do mundo do trabalho contemporâneo e suas contínuas transformações, em condições de competitividade, produtividade e inovação, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino (Resolução CNE/CEB nº 3/2018, Art. 12, p.7).\n\nNesse sentido, devem garantir a apropriação de procedimentos cognitivos e uso de metodologias que favoreçam o protagonismo juvenil e organizar-se em torno de um ou mais dos seguintes eixos estruturantes:\n\nOs quatros eixos estruturantes são complementares e constituem as possibilidades dos Itinerários Formativos, garantindo ao estudante diversas situações de aprendizagem e desenvolvimento de um conjunto diversificado de habilidades para uma formação integral. Como sabemos, para assegurar as aprendizagens essenciais dos estudantes, a BNCC estabelece competências gerais, as quais serão desenvolvidas por meio de habilidades específicas relacionadas aos objetos de conhecimento. Nesse sentido, os Itinerários também possuem habilidades que estão associadas às competências gerais da BNCC, refletindo, assim, na formação integral do estudante.\n\nDessa maneira, para que a organização curricular a ser adotada – áreas, interáreas, componentes, projetos, centros de interesse etc. – responda aos diferentes contextos e condições do sistema estadual de educação, das redes e das escolas de toda a Minas Gerais, é fundamental que a flexibilidade seja tomada como princípio obrigatório. Independentemente da opção feita, é preciso destacar a necessidade de “romper com a centralidade das disciplinas nos currículos e substituí-las por aspectos mais globalizados e que abranjam a complexidade das relações existentes entre os ramos da ciência no mundo real” (Parecer CNE/CEB nº 5/2011). Para tanto, é fundamental a adoção de tratamento metodológico que favoreça e estimule o protagonismo dos estudantes.\n\nÉ essencial que as instituições de ensino considerem os interesses dos estudantes quanto às suas perspectivas presentes e futuras. De acordo com as normativas, é importante que a escola alie o Projeto de Vida aos outros componentes curriculares que integram os Itinerários Formativos, definindo-os conforme as suas possibilidades de oferta e segundo o perfil de saída almejado pelos jovens.\n\nDiante das diferentes potencialidades e realidades estruturais das escolas públicas, segundo o Parecer CNE/CEB nº 5/2011, podem ser estabelecidas parcerias entre diferentes instituições previamente credenciadas pelos sistemas de ensino para garantir a oferta diversificada dos Itinerários Formativos. Nesse sentido, é possível que os alunos transitem entre aquelas que oferecem novos arranjos curriculares e itinerários que despertam o interesse dos estudantes. Outra possibilidade é que, a critério dos sistemas de ensino, os currículos do Ensino Médio possam considerar componentes curriculares eletivos complementares do estudante como forma de ampliação da carga horária do itinerário formativo escolhido, atendendo ao seu projeto de vida.\n\nÉ importante que, no ato da escolha e a partir do Projeto de Vida, as instituições ou redes de ensino orientem os estudantes sobre o que está sendo ofertado interna ou externamente. Nesse formato, eles podem mudar sua escolha e cursar mais de um Itinerário na forma concomitante ou sequencial. Além disso, o sistema de ensino poderá considerar os estudos finalizados com êxito pelos estudantes para compor a organização dos itinerários. Portanto, é ideal que eles tenham uma parte comum, possibilitando, assim, o deslocamento por parte dos interessados (Parecer CNE/CEB nº 5/2011).",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

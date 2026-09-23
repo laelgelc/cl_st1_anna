@@ -1,0 +1,13 @@
+### 3.2 Marco regulatório: avanços na Educação Infantil
+
+A Educação Infantil tem na Constituição de 1988, no Brasil, um importante avanço em seu marco regulatório quanto ao reconhecimento do seu papel na educação das crianças de 0 até 6 anos. No artigo 208 desta Constituição, observa-se que é dever do Estado garantir Educação Infantil em creche e pré-escola às crianças até 5 anos de idade. Importante pontuar que a recente decisão do Supremo Tribunal Federal, tomada no segundo semestre de 2018, manteve o corte etário de 31 de março como marco para a matrícula das crianças na Educação Infantil ou no Ensino Fundamental. Ou seja, as crianças que fazem 6 anos após 31 de março devem ser matriculadas na Educação Infantil. Assim, também as crianças de 6 anos podem ser atendidas na Educação Infantil.
+
+Em 1990, em diálogo com a Constituição Federal, é promulgado o Estatuto da Criança e do Adolescente que, em seu Artigo 55, trata sobre as atribuições dos pais ou responsáveis junto à educação escolar, afirmando que estes são obrigados a matricular seus filhos ou pupilos na rede regular de ensino.
+
+A Lei de Diretrizes e Bases da Educação Nacional, de 1996, e em suas posteriores redações, reconhece a Educação Infantil como primeira etapa da Educação Básica e afirma que a matrícula das crianças de 0 a 3 anos deve ser feita em creche, devendo ser matriculadas na pré-escola as crianças de 4 e 5 anos.
+
+As Diretrizes Curriculares Nacionais para o Curso de Graduação em Pedagogia, licenciatura, aprovadas em 2006, também contribuíram na direção de garantir a formação do/a professor/a que atua na Educação Infantil em Pedagogia.
+
+As Diretrizes Curriculares Nacionais para a Educação Infantil, aprovadas em 2009, contribuem, dentre outros aspectos, para a reafirmação da Educação Infantil como primeira etapa da Educação Básica, oferecida em creches e pré-escolas, em espaços institucionais não domésticos, públicos ou privados, que cuidam e educam crianças em período diurno, em jornada parcial ou integral, que devem ser regulados e supervisionados por ordem competente, definindo ainda o conceito de criança, currículo e proposta pedagógica, conforme apresentado na Introdução.
+
+As Diretrizes Curriculares Nacionais para a Educação Infantil se constituem em fundamento para a construção da Base Nacional Comum Curricular da Educação Infantil e toda construção teórica ou legal que se proponha a refletir sobre o currículo da Educação Infantil deve, portanto, basear-se nas referidas Diretrizes, tal como foi feito na BNCC da Educação Infantil e poderá ser observado neste documento.

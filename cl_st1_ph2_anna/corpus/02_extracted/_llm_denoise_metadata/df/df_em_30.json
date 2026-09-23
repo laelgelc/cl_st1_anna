@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_092c4d764c206abe006ab3003c437087d2a1be6b3b31b6ad2f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 837,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 786,
+      "output_tokens_details": {
+        "reasoning_tokens": 61
+      },
+      "total_tokens": 1623
+    }
+  },
+  "created_at": "2026-09-22T22:25:05Z",
+  "duration_seconds": 5.127,
+  "error": null,
+  "excerpt_id": "df_em_30",
+  "filename": "df_em_30.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6da93dac77029d1f3125db28ab4726179bb8e468e2d8553d91161d26b7eaca9d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9162193b05a570b79477c5257ed3ffd6f9364e8642c13d0e548ad98dce86f1e3",
+    "rendered_prompt_sha256": "6b4e455c602c8358c8cb652395b5746d79aebe4e543ccadca6929135e8586549",
+    "source_text_sha256": "a1cb7a178988cf66aeb5a1ab64847430f9cb0bf305339c30a5fc6f9e91866902"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_30.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 918,
+    "filename": "df_em_30.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_30.txt",
+    "state": "df",
+    "word_count_original": 494
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_30.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_30.json"
+  },
+  "raw_response_text": "## 6. ITINERÁRIOS FORMATIVOS\n\nDe acordo com a Portaria MEC nº 1.432, de 28 de dezembro de 2018, a qual estabelece os referenciais para a elaboração dos Itinerários Formativos, o Novo Ensino Médio pretende atender às necessidades e expectativas dos estudantes, fortalecendo seu interesse, engajamento e protagonismo, visando garantir sua permanência e aprendizagem na escola. Para isso, deve assegurar o desenvolvimento de conhecimentos, habilidades, atitudes e valores capazes de formar as novas gerações para lidar com desafios pessoais, profissionais, sociais, culturais e ambientais do presente e do futuro, considerando a intensidade e a velocidade das transformações que marcam as sociedades na contemporaneidade (BRASIL, 2018c).\n\nAs alterações nas DCNEM e na LDB, bem como a publicação da BNCC para o Ensino Médio e dos referenciais para a elaboração dos Itinerários Formativos, promoveram mudanças na última etapa da Educação Básica, na qual o currículo passa a ser composto por duas partes indissociáveis:\n\n- Formação Geral Básica, com carga horária de até 1.800 horas;\n- Itinerários Formativos, com carga horária mínima de 1.200 horas.\n\nAssim, conforme as DCNEM, editadas na Resolução CNE/CEB nº 03/2018, no art. 6º, III, os Itinerários Formativos são entendidos como\n\n> [...] conjunto de unidades curriculares ofertadas pelas instituições e redes de ensino que possibilitem ao estudante aprofundar seus conhecimentos e se preparar para o prosseguimento de estudos ou para o mundo do trabalho de forma a contribuir para a construção de soluções de problemas específicos da sociedade. (BRASIL, 2018b).\n\nSegundo o art. 5º das DCNEM, o Ensino Médio será orientado pela diversificação da oferta, de forma a possibilitar aos estudantes múltiplas trajetórias e a articulação dos saberes com o contexto histórico, econômico, social, científico, ambiental, cultural, local e do mundo do trabalho, em todas as suas modalidades e formas de organização e oferta, além de ser orientado pelos princípios gerais estabelecidos para a educação nacional no art. 206 da Constituição Federal e no art. 3º da LDB.\n\nEm vista disso, é possível observar que os Itinerários Formativos constituem a parte flexível do currículo do Ensino Médio, a partir dos quais os estudantes poderão, de forma orientada, escolher, a cada período letivo, um conjunto de unidades curriculares conforme seus interesses, suas necessidades pedagógicas, suas aptidões e seus objetivos, para a ampliação das aprendizagens nas áreas do conhecimento e/ou na Educação Profissional e Tecnológica, a fim de garantir a apropriação dos temas transversais e o uso de metodologias que favoreçam o protagonismo estudantil, a resolução de demandas complexas da vida cotidiana e o exercício da cidadania.\n\nOs Itinerários Formativos devem estar articulados com a Formação Geral Básica, fomentando, em conjunto, estratégias pedagógicas que promovam a análise, a reflexão crítica e a problematização, conectando experiências educativas com a realidade do estudante, estimulando a capacidade de aprender a aprender, por meio da leitura, da produção escrita e da articulação entre teoria e prática. Tais itinerários devem, também, estimular o convívio e o acolhimento à diversidade, de maneira a promover a formação pessoal, profissional e cidadã.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

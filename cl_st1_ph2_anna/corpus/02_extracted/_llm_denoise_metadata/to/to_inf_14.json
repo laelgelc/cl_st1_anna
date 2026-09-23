@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06297bc59670fb07006ab3106ad27487d2ac8bce8b1d3bdc3a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 577,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 662,
+      "output_tokens_details": {
+        "reasoning_tokens": 182
+      },
+      "total_tokens": 1239
+    }
+  },
+  "created_at": "2026-09-22T23:34:08Z",
+  "duration_seconds": 5.732,
+  "error": null,
+  "excerpt_id": "to_inf_14",
+  "filename": "to_inf_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a9d222e882142a7e7b8b2b3149f6088d974cdc955588a7d03fced346350318ef",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4f3368e95849fcaef4128dcffd1bf11458274b0cce4daeefc59773bdfd0aed40",
+    "rendered_prompt_sha256": "8b2bd400e813fbee5f41b0bbcfa4f99a2f5d17782a389dd70ffb791b59425aea",
+    "source_text_sha256": "526d4b6b665c40ceab99f33b39ad3dc4fa52aa97373f01f0d64b4eb28ad7db6d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_inf_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4087,
+    "filename": "to_inf_14.txt",
+    "filepath": "corpus/00_source_per_state/to/to_inf_14.txt",
+    "state": "to",
+    "word_count_original": 333
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_inf_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_inf_14.json"
+  },
+  "raw_response_text": "## Infâncias dos assentamentos\n\nAs famílias dos assentamentos são compreendidas, desde as crianças até os mais velhos, possuem diversas experiências, reúnem-se num único ideal de luta, em que cada um, ao seu modo, aprende e ensina. Assim, essa cultura se fortalece. Por meio das vivências com os grupos de diferentes etnias e culturas, as crianças aprendem com as relações sociais estabelecidas.\n\n## Infâncias dos assentamentos\n\nA infância nos assentamentos convive em um contexto social marcado por lutas pela conquista de terra e trabalho. As crianças crescem num ambiente de constante ressignificação que afirma e revitaliza os seus costumes e tradições, consiste numa identidade complexa que se firma nas diferenças étnicas e culturais. Desde pequenas, as crianças aprendem a valorizar a terra e a água que fazem parte do contexto de vida dos assentados. Nesse sentido, requer-se uma instituição de ensino que promova uma educação descolonizadora, pactuada com a valorização e sustentabilidade dos povos, culturas e da natureza que ali se estabelecem.\n\nA escola de assentamento idealizada pelo MST propõe algumas ações significativas:\n\n- professores simpatizantes da reforma agrária;\n- conteúdos incluindo a história do MST;\n- livros contendo a experiência dos sem-terra; e\n- relação professor-aluno como uma relação de companheirismo (BRASIL/DCNEB, 2010, p. 289).\n\nAs crianças também são influenciadas pelos ideais revolucionários de liberdade, igualdade e fraternidade, colocados como valores que fortalecem os povos assentados. Esses ideais são importantes elementos para a afirmação da diversidade humana, que está na base da formação nacional, que possibilita aos brasileiros conviverem com as diferenças de maneira positiva e respeitosa.\n\nOs assentamentos, em seu contemporâneo contexto, configuraram-se como espaço de aprendizagem e de vivências significativas para as crianças, constituídos a partir da pluri-etnicidade e da multiculturalidade. É essencial que as instituições que atendem a infância nos assentamentos, e nos espaços onde essas crianças se fazem presentes, evidenciem as práticas educativas que fortaleçam as características sociais, étnicas e culturais que contribuem para desenvolver um complexo conhecimento de ressignificação, com a contribuição de cada cultura presente.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e8e3030beeb39e0006ab2ff49f5c487d2af01bec4c9cf6926",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 488,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 441,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 929
+    }
+  },
+  "created_at": "2026-09-22T22:21:01Z",
+  "duration_seconds": 3.331,
+  "error": null,
+  "excerpt_id": "ce_ef_4",
+  "filename": "ce_ef_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a963a700bcd1483cf1181745ac440a13bab8e603624fb065c7c8fa854a06c83e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0b4be2d03b2f0d1e67474748c338b38a7f8f1305059e74f7c2a860bba764aaca",
+    "rendered_prompt_sha256": "75e63fd9a7a9c3a519b7516b5a98d4075057e0ac28a6e43635fb779b7452c07a",
+    "source_text_sha256": "e96bcfdc1a0df04ee6b98d6141e086da0359836bb4f960738b06583559e264ec"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ce/ce_ef_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 757,
+    "filename": "ce_ef_4.txt",
+    "filepath": "corpus/00_source_per_state/ce/ce_ef_4.txt",
+    "state": "ce",
+    "word_count_original": 292
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ce/ce_ef_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ce/ce_ef_4.json"
+  },
+  "raw_response_text": "# EDUCAÇÃO FÍSICA\n\nA Educação Física, ao se configurar como um componente do cenário escolar, sofreu grandes reconfigurações ao longo dos anos. Sua inserção, neste âmbito, ocorreu e permaneceu, durante muito tempo, a serviço de demandas sociais relacionadas ao corpo e às exigências de desempenho motor em uma perspectiva utilitarista e mecanicista, como a preparação militar e o treinamento para o esporte de alto rendimento. Posteriormente, as práticas pedagógicas e finalidades da Educação Física foram amplamente questionadas. Isso permitiu surgir diferentes compreensões que, apesar de divergentes entre si, carregavam em comum uma forte crítica ao caráter manipulativo com que este componente era tratado neste ambiente.\n\nConsiderando a escola como instituição formal, onde ocorre a apropriação por parte das novas gerações da cultura elaborada ao longo dos anos, a Educação Física se caracteriza, neste contexto, como espaço-tempo em que ocorrem o contato e a ressignificação de práticas corporais constituídas pela humanidade, a partir da singularidade de cada sujeito que delas se apropria.\n\nA compreensão acerca da natureza e da finalidade deste componente que assumimos neste documento revela-se em sua vinculação à área de Linguagens. Dentro deste contexto, a Educação Física representa parte da cultura relacionada ao corpo que se manifesta por meio de gestos e movimentos dotados de sentidos e significados. Logo, em meio aos conhecimentos, considerados essenciais e que devem ser veiculados pela escola, mais especificamente os que estão relacionados às formas de expressão e comunicação por linguagem específica, a Educação Física representa a linguagem que se manifesta por meio, para e no corpo.\n\nSua importância reside na especificidade da natureza dos elementos que a constituem, pois, associados aos conhecimentos dos demais componentes, contribuem para a formação integral do educando que tem acesso à educação formal escolar.",
+  "state": "ce",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

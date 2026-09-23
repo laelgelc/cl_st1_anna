@@ -1,0 +1,27 @@
+## 8. Competências específicas do componente de Geografia para o Ensino Fundamental
+
+Na Educação Básica, o ensino de Geografia visa formar o estudante para se localizar dentro da sua espacialidade, compreender e atuar no mundo complexo, problematizar a realidade, formular proposições, reconhecer as dinâmicas existentes no espaço geográfico, pensar e atuar criticamente, tendo em vista a sua transformação.
+
+Destarte, o ensino de Geografia não se limita apenas às categorias descritas acima; ele busca a compreensão da espacialidade geográfica contemporânea e também a análise das transformações do espaço geográfico em suas diversas temporalidades. Os conhecimentos geográficos são muito importantes; eles auxiliam os estudantes a compreenderam a dinâmica do mundo ao seu redor e lhes dão condições de agir enquanto cidadão para tomada de decisões na construção da melhoria do espaço no qual estão inseridos.
+
+Assim, de acordo com o componente curricular de Geografia descrito na BNCC, as competências específicas devem garantir o desenvolvimento global dos estudantes a partir do desenvolvimento de competências e habilidades. Isso porque, ao longo do Ensino Fundamental, os estudantes devem desenvolver determinadas competências específicas do componente curricular de Geografia; são essas competências que irão garantir o direito de aprendizagem dos educandos.
+
+Nesse sentido, em articulação com as competências gerais da BNCC, as competências específicas da área de Ciências Humanas, aliadas às sete competências específicas de Geografia, podemos perceber que há uma lógica dialogal entre a tríade.
+
+A partir da observação do quadro nº 04, que trata das Competências Específicas do componente Curricular de Geografia, podemos perceber que há um diálogo entre os quadros 02 (p. 10) e o quadro 03 (p. 12).
+
+**01** Utilizar os conhecimentos geográficos para entender a interação sociedade/natureza e exercitar o interesse e o espírito de investigação e de resolução de problemas.
+
+**02** Estabelecer conexões entre diferentes temas do conhecimento geográfico, reconhecendo a importância dos objetos técnicos para a compreensão das formas como os seres humanos fazem uso dos recursos da natureza ao longo da história.
+
+**03** Desenvolver autonomia e senso crítico para compreensão e aplicação do raciocínio geográfico, na análise da ocupação humana e produção do espaço, envolvendo os princípios de analogia, conexão, diferenciação, distribuição, extensão, localização e ordem.
+
+**04** Desenvolver o pensamento espacial, fazendo uso das linguagens cartográficas e iconográficas, de diferentes gêneros textuais e das geotecnologias para a resolução de problemas que envolvam informações geográficas.
+
+**05** Desenvolver e utilizar processos, práticas e procedimentos de investigação para compreender o mundo natural, social, econômico, político e o meio técnico-científico e informacional, avaliar ações e propor perguntas e soluções (inclusive tecnológicas) para questões que requerem conhecimentos científicos da Geografia.
+
+**06** Construir argumentos com base em informações geográficas, debater e defender ideias e pontos de vista que respeitem e promovam a consciência socioambiental e o respeito à biodiversidade e ao outro, sempre conceitos de qualquer natureza.
+
+**07** Agir, pessoal e coletivamente, com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, propondo ações sobre as questões socioambientais, com base em princípios éticos, democráticos, sustentáveis e solidários.
+
+Fonte: BNCC, 2017, p. 364

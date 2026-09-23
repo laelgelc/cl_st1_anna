@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f61c68eb95b3ee0006ab30f605b9087d2ac879e462278c045",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 661,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 764,
+      "output_tokens_details": {
+        "reasoning_tokens": 226
+      },
+      "total_tokens": 1425
+    }
+  },
+  "created_at": "2026-09-22T23:29:42Z",
+  "duration_seconds": 6.173,
+  "error": null,
+  "excerpt_id": "se_inf_9",
+  "filename": "se_inf_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b947bd523989798bbaa4e8dc6982242e52c99c5e72c1d0664586110baf3465fb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "da5ec2b7fbd2252f2ea510fed0dfa75e392f23d2cfbd2558b2ffaafba9b18146",
+    "rendered_prompt_sha256": "85dccbbe4df67f11e40e509eb27d09622415919f1db7c738fd26bc148513bdbb",
+    "source_text_sha256": "053f8927dc1f71b463191ff3d480091563e6115e3d284024a972248804a1a5b4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_inf_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3861,
+    "filename": "se_inf_9.txt",
+    "filepath": "corpus/00_source_per_state/se/se_inf_9.txt",
+    "state": "se",
+    "word_count_original": 369
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_inf_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_inf_9.json"
+  },
+  "raw_response_text": "### 2.4.2 Os Objetivos de Aprendizagem e Desenvolvimento na Educação Infantil\n\nO organizador curricular na Educação Infantil está estruturado em 03 fases com faixas etárias distintas, a saber:\n\n- Crianças com idade entre 0 e 1 ano e 6 meses\n- Crianças com idade entre 1 ano e 7 meses e 3 anos e 11 meses\n- Crianças com idade entre 4 anos e 5 anos e 11 meses\n\nAs proposições de objetivos de aprendizagem e desenvolvimento estarão dispostos em quadros por Campos de Experiências e adequados à faixa etária.\n\n### 2.5 ORGANIZADOR CURRICULAR DA EDUCAÇÃO INFANTIL\n\n#### 1. GRUPO 1 – BEBÊS (DE 0 A 1 ANO E 6 MESES)\n\n**CAMPO 1: O EU, O OUTRO E O NÓS**\n\n**Direitos de aprendizagem e desenvolvimento:** Conviver, Brincar, Participar, Expressar, Conhecer-se e Explorar.\n\nO campo de experiências O Eu, o outro e o nós permite que as crianças possam compreender a si mesmas e ao outro em qualificadas relações humanas de convivência, contribuindo para construção da identidade, dos valores éticos e da cidadania. Isto posto, torna-se relevante a interlocução com os demais campos de experiências que as crianças precisam conectar nas interações e brincadeiras.\n\nOs bebês, desde bem pequenos, têm iniciativas de buscar interagir com os adultos e as outras crianças. As relações de confiança e segurança são essenciais para motivar sua autoiniciativa de interação por meio de seu corpo e sentidos, para que, nos momentos de exploração, aprendam sobre o mundo à sua volta. Ao serem convidados a brincar próximos a outras crianças ou a interagir com elas ou com seus(as) professores(as), os bebês descobrem diferentes formas de se expressarem e se comunicarem. Por meio de situações de interação livre ou intencionalmente planejadas e vivenciadas com professores(as) e outros adultos, nos quais confiam, os bebês continuam suas descobertas sobre si mesmos, percebendo-se como um ser individual, com necessidades e desejos próprios; aprendem a participar e colaborar em situações de convivência, em contato com colegas, podendo ser em dupla, trio ou em grupo. Valorizando e descobrindo diferentes formas de estar com os outros, os bebês começam a perceber que são capazes de conseguir reações específicas a partir de suas ações, e que suas ações têm efeitos nas outras pessoas.",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

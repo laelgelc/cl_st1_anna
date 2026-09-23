@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0599e035f889c107006ab30cd6fb8887d2b4f799c7dc23d390",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 469,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 431,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 900
+    }
+  },
+  "created_at": "2026-09-22T23:18:50Z",
+  "duration_seconds": 3.608,
+  "error": null,
+  "excerpt_id": "rr_ef_27",
+  "filename": "rr_ef_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b8a4c4a1612cb81e72fd6672726ac666ffa8746e94b2b229497476e8cf07159c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3da8e930948fce2843ed96a08c5beb96d492dd76317185c06a4c25bb01ec75b4",
+    "rendered_prompt_sha256": "b571af1b73b072ab6d0d44189c137952cd232b732436383ce5cfd43371edfe48",
+    "source_text_sha256": "91a87871be54f9495d648aa4a7a0a20524d3cecdddcd1f44bff969f90d9387cf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3393,
+    "filename": "rr_ef_27.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_27.txt",
+    "state": "rr",
+    "word_count_original": 243
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_27.json"
+  },
+  "raw_response_text": "## 4.5.4 COMPETÊNCIAS ESPECÍFICAS DE LÍNGUA ESPANHOLA PARA O ENSINO FUNDAMENTAL\n\n1. Identificar o lugar de si e o do outro em um mundo plurilíngue e multicultural, refletindo, criticamente, sobre como a aprendizagem da língua espanhola contribui para a inserção dos sujeitos no mundo globalizado, inclusive no que concerne ao mundo do trabalho.\n2. Comunicar-se na língua Espanhola, por meio do uso variado de linguagens em mídias impressas ou digitais, reconhecendo-a como ferramenta de acesso ao conhecimento, de ampliação das perspectivas e de possibilidades para a compreensão dos valores e interesses de outras culturas e para o exercício do protagonismo social.\n3. Identificar similaridades e diferenças entre a língua espanhola e a língua materna/outras línguas, articulando-as a aspectos sociais, culturais e identitários, em uma relação intrínseca entre língua, cultura e identidade.\n4. Elaborar repertórios linguístico-discursivos da língua espanhola, usados em diferentes países e por grupos sociais distintos dentro de um mesmo país, de modo a reconhecer a diversidade linguística como direito e valorizar os usos heterogêneos, híbridos e multimodais emergentes nas sociedades contemporâneas.\n5. Utilizar novas tecnologias, com novas linguagens e modos de interação, para pesquisar, selecionar, compartilhar, posicionar-se e produzir sentidos em práticas de letramento na língua espanhola, de forma ética, crítica e responsável.\n6. Conhecer diferentes patrimônios culturais, materiais e imateriais, difundidos na língua espanhola, com vistas ao exercício da fruição e da ampliação de perspectivas no contato com diferentes manifestações artístico-culturais.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

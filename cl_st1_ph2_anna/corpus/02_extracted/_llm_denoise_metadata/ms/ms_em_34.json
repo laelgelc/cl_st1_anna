@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_003274b740400816006ab303b2472487d2bd4fd60b9db88013",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1760,
+      "input_tokens_details": {
+        "cache_write_tokens": 1757,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2023,
+      "output_tokens_details": {
+        "reasoning_tokens": 478
+      },
+      "total_tokens": 3783
+    }
+  },
+  "created_at": "2026-09-22T22:40:03Z",
+  "duration_seconds": 17.516,
+  "error": null,
+  "excerpt_id": "ms_em_34",
+  "filename": "ms_em_34.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "28b018768d238671bb0109371ba70dc81fe95d0d3a1b1c1cb814cf1a05b230ed",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "66d27f499c8ec091dbcb6391f9bb383a5e95c81e4e3ad2ebbe43950f211fbdc6",
+    "rendered_prompt_sha256": "5f74da01a462db2f68ad31adebf1230bda0da1b7dd75b319a9cdffc63fc4489f",
+    "source_text_sha256": "78b09624b4180483410a2d4bfade568374a808f92b01221ffb89e170e2264f4c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_34.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1699,
+    "filename": "ms_em_34.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_34.txt",
+    "state": "ms",
+    "word_count_original": 1077
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_34.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_34.json"
+  },
+  "raw_response_text": "### 4.1. Itinerários Formativos\n\nAs mudanças ocorridas na sociedade ao longo dos anos, resultantes do avanço tecnológico e das relações estabelecidas em uma sociedade globalizada, ocasionam impactos nos mais diversos segmentos, inclusive na educação. Assim, o desafio está em ressignificar a educação pública brasileira, em especial a etapa do Ensino Médio, por meio de um ensino que proporcione uma aprendizagem direcionada para a formação integral do estudante.\n\nA necessidade de estruturas e percursos curriculares dotados de flexibilidade, a apropriação de recursos pedagógicos tecnologicamente avançados e as novas demandas de mercado, somadas a tantos outros fatores, constituem um desafio para qualquer sociedade, particularmente para as instituições associadas à educação. No enfrentamento desse desafio, o Ensino Médio acha-se diante de uma missão de grandes proporções no sentido de possibilitar uma formação pertinente aos novos tempos, de aumentar as taxas de desempenho escolar, de difundir de forma significativa a chamada propensão para aprender e de garantir a relação da escola com o mundo do trabalho. Associado a tais fatores, o atual cenário educacional constitui-se em momento apropriado e oportuno para tornar o Ensino Médio mais significativo e pertinente aos tempos atuais.\n\nNesse sentido, a LDB define a estrutura para o currículo do Ensino Médio em Base Nacional Comum Curricular e Itinerários Formativos, e estabelece que os Itinerários Formativos devem ser organizados por meio da oferta de diferentes arranjos curriculares, integrados ou não, e que considerem as Áreas de Conhecimento ou de atuação profissional, a saber: Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias, Ciências Humanas e Sociais Aplicadas e a Formação Técnica Profissional.\n\nEsses Itinerários, com suas respectivas habilidades e competências, regulamentadas por meio da Portaria/MEC n. 1.432, de 28 de dezembro de 2018, admitem que as combinações de arranjos curriculares sejam bem amplas. A flexibilidade e formas diferenciadas na organização curricular permitem que o estudante tenha diferentes perspectivas, opções de escolha e avanços durante sua trajetória acadêmica por meio de ênfases, temas integradores, aprofundamentos, estudos complementares e progressividade dos conteúdos em determinadas áreas do conhecimento ou de forma integrada.\n\nTal organização torna imprescindível que os sistemas de ensino, redes escolares e escolas reorientem seus currículos e projetos político-pedagógicos, visto que “a carga horária mínima anual do Ensino Médio deve ser ampliada de forma progressiva para mil e quatrocentas horas, devendo os sistemas de ensino oferecer no prazo máximo de cinco anos, pelo menos mil horas anuais, a partir de dois de março de 2017”. (BRASIL, 1996). Nessa nova organização, a carga horária destinada ao cumprimento da Base Nacional Comum Curricular está definida em até 1.800 (mil e oitocentas) horas. Em uma oferta de 3.000 (três mil) horas, 1.800 (um mil e oitocentas) horas da carga horária são destinadas à Formação Geral Básica e 1.200 (mil e duzentas) horas, para os Itinerários Formativos.\n\nA Resolução CNE/CEB n. 3, de 21 de novembro de 2018, estabelece em seu artigo 12:\n\n> § 6º Os sistemas de ensino devem garantir a oferta de mais de um itinerário formativo em cada município, em áreas distintas, permitindo-lhes a escolha, dentre diferentes arranjos curriculares, atendendo assim a heterogeneidade e pluralidade de condições, interesses e aspirações (BRASIL, 2018a).\n\nEssa afirmação vem apoiar o princípio da flexibilização curricular para os estudantes da etapa do Ensino Médio e considera, sobretudo, as particularidades e os arranjos produtivos de cada região/município, no intuito de garantir a possibilidade de escolha de diferentes Itinerários Formativos. A flexibilidade em questão implica na organização do processo ensino-aprendizagem, de modo a permitir que o estudante tenha diferentes perspectivas durante a sua trajetória escolar. Itinerários Formativos flexíveis objetivam o aprofundamento de estudos, o avanço ou a garantia de estudos de complementação em determinadas Áreas de Conhecimento, com vistas a promover uma aprendizagem com maior profundidade e que estimule o desenvolvimento integral do estudante, por meio do incentivo ao protagonismo, à autonomia e à responsabilidade do estudante por suas escolhas e seu futuro.\n\nPara orientar os sistemas de ensino na construção dos Itinerários Formativos, o Ministério da Educação (MEC) publicou, em 28 de dezembro de 2018, por meio da Portaria n. 1.432, os Referenciais Curriculares para a Elaboração de Itinerários Formativos, documento em consonância com a Resolução CNE/CEB n. 3, de 21 de novembro de 2018, que estabelece em seu artigo 7°:\n\n> § 2º os itinerários formativos orientados para o aprofundamento e ampliação das aprendizagens em áreas do conhecimento devem garantir a apropriação de procedimentos cognitivos e uso de metodologias que favoreçam o protagonismo juvenil, e organizar-se em torno de um ou mais dos seguintes eixos estruturantes:\n>\n> - I. Investigação científica: supõe o aprofundamento de conceitos fundantes das ciências para a interpretação de ideias, fenômenos e processos para serem utilizados em procedimentos de investigação voltados ao enfrentamento de situações cotidianas e demandas locais e coletivas, e a proposição de intervenções que considerem o desenvolvimento local e a melhoria da qualidade de vida da comunidade;\n> - II. Processos criativos: supõem o uso e o aprofundamento do conhecimento científico na construção e criação de experimentos, modelos, protótipos para a criação de processos ou produtos que atendam a demandas pela resolução de problemas identificados na sociedade;\n> - III. Mediação e intervenção sociocultural: supõem a mobilização de conhecimentos de uma ou mais áreas para medir conflitos, promover entendimento e implementar soluções para questões e problemas identificados na comunidade;\n> - IV. Empreendedorismo: supõe a mobilização de conhecimentos de diferentes áreas para a formação de organizações com variadas missões voltadas ao desenvolvimento de produtos ou prestação de serviços inovadores com o uso das tecnologias (BRASIL, 2018a).\n\nEvidencia-se, assim, que a construção dos Itinerários Formativos passe, necessariamente, por um eixo estruturante ou, preferencialmente, por todos, uma vez que desenvolvem habilidades importantes para a formação integral dos estudantes e conectam experiências educativas com a realidade contemporânea, por meio de diferentes arranjos curriculares.\n\nA reorganização do Ensino Médio deve promover a difusão do conhecimento por meio da Formação Geral Básica e de Itinerários Formativos, incorporar questões de empreendedorismo e de inovação e garantir um currículo que viabilize o diálogo entre a educação e o mundo do trabalho. O desafio está em flexibilizar os currículos, de modo a substituir a noção de curso por percurso e, ao mesmo tempo, enfatizar a formação cidadã e a formação de valores, reconhecer que a escola deve incentivar o protagonismo estudantil e a sua coautoria no processo de aprendizagem, assim como proporcionar a articulação de estratégias e instrumentos que permitam novas atuações no campo da cidadania.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04a6aba0fefc223a006ab308223a3087d29734df79e28875b5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 670,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 636,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 1306
+    }
+  },
+  "created_at": "2026-09-22T22:58:47Z",
+  "duration_seconds": 5.519,
+  "error": null,
+  "excerpt_id": "pe_em_38",
+  "filename": "pe_em_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "314817cc85339dcd30358bbcc126340d753142fde1874b88bb1d715ad943169e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "1c6d3fd802d8e038fefb1df01775e58bbc6211b626960de55376ba3af52728f0",
+    "rendered_prompt_sha256": "e1b2463e7b9ad903f999aba83ca94f9d4321f194272293f64930e9a9df2014a8",
+    "source_text_sha256": "4fa8dda47eb3a54b3be7dcc9125a2f0c28c109041e4e33f08cb122c808d9ac77"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_em_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2494,
+    "filename": "pe_em_38.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_em_38.txt",
+    "state": "pe",
+    "word_count_original": 371
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_em_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_em_38.json"
+  },
+  "raw_response_text": "### 4.2.1 – COMPETÊNCIAS ESPECÍFICAS DE LINGUAGENS E SUAS TECNOLOGIAS PARA O ENSINO MÉDIO\n\n1. Compreender o funcionamento das diferentes linguagens e práticas culturais (artísticas, corporais e verbais) e mobilizar esses conhecimentos na recepção e produção de discursos nos diferentes campos de atuação social e nas diversas mídias, para ampliar as formas de participação social, o entendimento e as possibilidades de explicação e interpretação crítica da realidade e para continuar aprendendo.\n2. Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconhecimento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza.\n3. Utilizar diferentes linguagens (artísticas, corporais e verbais) para exercer, com autonomia e colaboração, protagonismo e autoria na vida pessoal e coletiva, de forma crítica, criativa, ética e solidária, defendendo pontos de vista que respeitem o outro e promovam os Direitos Humanos, a consciência socioambiental e o consumo responsável, em âmbito local, regional e global.\n4. Compreender as línguas como fenômeno (geo)político, histórico, cultural, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo suas variedades e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como agindo no enfrentamento de preconceitos de qualquer natureza.\n5. Compreender os processos de produção e negociação de sentidos nas práticas corporais, reconhecendo-as e vivenciando-as como formas de expressão de valores e identidades, em uma perspectiva democrática e de respeito à diversidade.\n6. Apreciar esteticamente as mais diversas produções artísticas e culturais, considerando suas características locais, regionais e globais, e mobilizar seus conhecimentos sobre as linguagens artísticas para dar significado e (re)construir produções autorais individuais e coletivas, exercendo protagonismo de maneira crítica e criativa, com respeito à diversidade de saberes, identidades e culturas.\n7. Mobilizar práticas de linguagem no universo digital, considerando as dimensões técnicas, críticas, criativas, éticas e estéticas, para expandir as formas de produzir sentidos, de engajar-se em práticas autorais e coletivas, e de aprender a aprender nos campos da ciência, cultura, trabalho, informação e vida pessoal e coletiva.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

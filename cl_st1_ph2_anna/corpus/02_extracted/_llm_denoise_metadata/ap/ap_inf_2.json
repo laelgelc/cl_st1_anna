@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_034526320c3889c6006ab2fe4239dc87d2978ad7093cfdb930",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 433,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 511,
+      "output_tokens_details": {
+        "reasoning_tokens": 174
+      },
+      "total_tokens": 944
+    }
+  },
+  "created_at": "2026-09-22T22:16:39Z",
+  "duration_seconds": 5.202,
+  "error": null,
+  "excerpt_id": "ap_inf_2",
+  "filename": "ap_inf_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ccdff57b2e34acb7665c39ba7ca722474412b552538e5c06899dbc6248a5c16c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b1ea08f01f11ff33dc3c0e7d3e7cdf4195ac780ba658aaec34ee9404b25d6a5b",
+    "rendered_prompt_sha256": "5b5e6ffd928bfdb9775bd0e7215dd3bcf59466a8d2f8bd0ba3c839c185b39660",
+    "source_text_sha256": "91f93f4e900a209c3c0ebd49d63f11e5f2a0c7ac40d1dc7fabf7ceba7d1f51e0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_inf_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 571,
+    "filename": "ap_inf_2.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_inf_2.txt",
+    "state": "ap",
+    "word_count_original": 258
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_inf_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_inf_2.json"
+  },
+  "raw_response_text": "### 3.2. Os Protagonistas da Educação Infantil\n\nCada um de nós tem o direito de ser protagonista, de ter papel ativo na aprendizagem na relação com os outros. Esse é o motor da educação. (FILIPPINI, 2009).\n\nNa Educação Infantil encontramos dois protagonistas, a criança sujeito social de direitos, protagonista do seu desenvolvimento realizado por meio de uma interlocução ativa com seus pares, com os adultos que as rodeiam, com o ambiente no qual estão inseridas e o professor que é o autor da sua própria prática e agente na mediação entre o aluno e a busca por novos conhecimentos. Assim, o protagonismo na educação está na relação acolhedora e atenta entre professor e criança.\n\nNesse sentido, é preciso que se reforce o olhar reflexivo docente na Educação Infantil, no qual a criança seja concebida em sua potencialidade e pluralidade, em que o professor seja comprometido e responsável pela defesa de uma experiência de infância com garantia de direitos. Quando definimos uma postura pedagógica que assume e acredita no protagonismo infantil e nos saberes e competências das crianças pequenas, assumimos um compromisso diante do novo. Um novo modo de olhar, um novo modo de compreender as ações e desejos das crianças e, sobretudo, um novo modo de se relacionar com o outro e com o conhecimento. (BARBOSA; HORN, 2008, p. 59).\n\nAssim, esta seção intitulada como os protagonistas da Educação Infantil irá abordar o perfil do docente que atua nesta etapa e o processo de desenvolvimento da criança nas três faixas etárias: bebê, criança bem pequena e criança pequena.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

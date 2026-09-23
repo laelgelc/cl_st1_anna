@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_031379d0bade1f7f006ab2fbdc7f6887d29d018f017002d565",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1235,
+      "input_tokens_details": {
+        "cache_write_tokens": 1232,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1110,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 2345
+    }
+  },
+  "created_at": "2026-09-22T22:06:28Z",
+  "duration_seconds": 7.662,
+  "error": null,
+  "excerpt_id": "ac_em_37",
+  "filename": "ac_em_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "163c3d761a4c3fd8f2a9de15e4590e060c8becc543a0359d8e36192c3b1abb51",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b7cc8bcd267c19a9b81b407eff6da284cfffc83d22a1e1204427e79d69b09b67",
+    "rendered_prompt_sha256": "aa7d64f71cb8f85a8898f2978b19ecbd821f3ab70ce3d15e0fe4c24136621465",
+    "source_text_sha256": "557890c824e9f596997c3e4988e838142f21c661bbf15e6e5ff61b41f0f7069d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 77,
+    "filename": "ac_em_37.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_37.txt",
+    "state": "ac",
+    "word_count_original": 737
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_37.json"
+  },
+  "raw_response_text": "## 21. Ementas dos cursos e matrizes\n\n### 21.1. Na formação técnica\n\nOs Projetos Pedagógicos de Cursos (PPCs) de Formação Técnica de Nível Médio na forma concomitante ao Ensino Médio, com base no capítulo II das Diretrizes Curriculares Nacionais para a Educação Profissional Técnica de Nível Médio, bem como na Resolução do CEE/AC Nº 177/2013, devem ser organizados por eixos tecnológicos constantes do Catálogo Nacional de Cursos Técnicos (CNCT), constituído pelo Ministério da Educação ou em uma ou mais ocupações da Classificação Brasileira de Ocupações (CBO), devendo ser articulados considerando foco pedagógico, competências e habilidades dos eixos estruturantes.\n\nEm consonância com o art. 14 das Diretrizes Curriculares Nacionais para a Educação Profissional Técnica de Nível Médio, os PPCs devem proporcionar aos estudantes o diálogo com diversos campos do trabalho, da ciência, da tecnologia e da cultura como referências fundamentais de sua formação, os elementos para compreender e discutir as relações sociais de produção e de trabalho, bem como as especificidades históricas nas sociedades contemporâneas, os recursos para exercer sua profissão com competência, idoneidade intelectual e tecnológica, autonomia e responsabilidade, orientados por princípios éticos, estéticos e políticos, além de promoverem compromissos com a construção de uma sociedade democrática.\n\nOutro fator que deve ser considerado é o domínio intelectual das tecnologias pertinentes ao eixo tecnológico do curso, de modo a permitir progressivo desenvolvimento profissional e capacidade de construir novos conhecimentos, desenvolvendo competências profissionais com autonomia intelectual, instrumentais de cada habilitação, por meio da vivência de diferentes situações práticas de estudo e de trabalho.\n\nE, por fim, os fundamentos do empreendedorismo, cooperativismo, tecnologia da informação, legislação trabalhista, ética profissional, gestão ambiental, segurança do trabalho, gestão da inovação e iniciação científica, gestão de pessoas e gestão da qualidade social e ambiental do trabalho deverão estar incluídos nos projetos pedagógicos dos cursos técnicos das instituições parceiras, conforme as necessidades da área técnica ofertada.\n\nDiante desse contexto, em conformidade com orientações do Ministério da Educação, os docentes, especialistas e diretores e/ou responsáveis pela formação profissional deverão estar envolvidos de forma participativa na estruturação dos cursos. A proposta curricular precisa ser construída com viés flexível e com saídas intermediárias, voltadas para as competências necessárias à atuação profissional eficiente e eficaz. No caso da organização dos cursos com saídas intermediárias, poderão ser incluídas qualificações profissionais, desde que seja no mesmo eixo tecnológico e área profissional.\n\nA elaboração dos PPCs considera a carga horária mínima estabelecida no Catálogo Nacional de Cursos Técnicos (CNCT), além das profissões reconhecidas na Classificação Brasileira de Ocupações (CBO), não sendo, portanto, de responsabilidade das escolas técnicas parceiras a oferta de eletivas e/ou projetos de vida, embora estes estejam diretamente ligados à formação técnica oferecida aos estudantes, na articulação entre as escolas. O itinerário formativo dos cursos será composto por módulos, assim:\n\n- Módulo de Formação para o Mundo do Trabalho (FMT), comum a todos os cursos, permeado pelos eixos estruturantes;\n- Módulos de Formação Técnica, específicos da área de formação do curso, possibilitando a abordagem das áreas mais especializadas, com significado para a vida, expressas em práticas cognitivas, profissionais e socioemocionais, atitudes e valores continuamente mobilizados, articulados e integrados, para resolver demandas complexas da vida cotidiana, do exercício da cidadania e da atuação no mundo do trabalho, demonstrando procedimentos e técnicas referentes à profissão, de acordo com o grau de complexidade, que serão trabalhadas no decorrer dos módulos.\n\nSendo de responsabilidade da instituição educacional a elaboração do PPC, deve-se tomar por base o princípio do pluralismo de ideias e as concepções pedagógicas, nos termos de seu Projeto Político Pedagógico (PPP), observando a legislação e o disposto nas Diretrizes Curriculares Nacionais para Educação Profissional e no Catálogo Nacional de Cursos Técnicos, devendo ser submetidos à aprovação do Conselho Estadual de Educação (CEE), órgão competente do sistema de ensino do estado do Acre.\n\nO PPC deverá apresentar, obrigatoriamente, os itens descritos no art. 18 da Resolução CEE/AC Nº 177/2013. Além disso, as competências e habilidades da Formação Geral Básica e as específicas do Itinerário Formativo de EPT devem ser utilizadas como princípios para a articulação entre os componentes curriculares técnicos e propedêuticos, sobretudo na construção do perfil do egresso, assim, devendo ser apresentadas e discutidas junto às escolas.\n\nAs atividades realizadas a distância podem contemplar até 20% da carga horária total, podendo incidir tanto na Formação Geral Básica quanto nos Itinerários Formativos do currículo, desde que haja suporte tecnológico, digital ou não e pedagógico apropriado. (DCNEM 2018, p.11).",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

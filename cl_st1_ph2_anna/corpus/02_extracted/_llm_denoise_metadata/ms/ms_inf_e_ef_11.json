@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_093a267aba868e76006ab303da843887d28d8fe9c982a84f3d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1148,
+      "input_tokens_details": {
+        "cache_write_tokens": 1145,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1135,
+      "output_tokens_details": {
+        "reasoning_tokens": 162
+      },
+      "total_tokens": 2283
+    }
+  },
+  "created_at": "2026-09-22T22:40:36Z",
+  "duration_seconds": 11.035,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_11",
+  "filename": "ms_inf_e_ef_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "17cda6d57427abf5bc5edff4da8315c8caa5015d9ec30ae41de5c4c4a821078e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "382b3da7ce8256bb240634ce7d3a262604e74c16ef7808ec03a5659034dfc750",
+    "rendered_prompt_sha256": "f3f25e37371dbd2aafe2574ef4a924d942fd0c141a15619068daece013604d39",
+    "source_text_sha256": "bb93442db658a665e351798690de84fa7acbb6e912e4c32a24230a4c7e23d248"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1729,
+    "filename": "ms_inf_e_ef_11.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_11.txt",
+    "state": "ms",
+    "word_count_original": 687
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_11.json"
+  },
+  "raw_response_text": "### 3.4 Educação Ambiental\n\nA Educação Ambiental desenvolvida na escola constitui-se pelo princípio de sensibilização e formação crítica de cidadãos conscientes de suas ações em relação ao mundo em que vivem. De acordo com a Lei 9.795, de 27 de abril de 1999, a Educação Ambiental é entendida como processos por meio dos quais o indivíduo e a coletividade constroem valores sociais, conhecimentos, habilidades, atitudes e competências voltadas para a conservação do meio ambiente e sua sustentabilidade.\n\nEspecificamente, para a educação formal, a referida lei explicita que a Educação Ambiental será desenvolvida como uma prática educativa integrada, contínua e permanente em todos os níveis e modalidades do ensino formal. Segundo as Diretrizes Curriculares Nacionais para a Educação Ambiental, a inserção dos conhecimentos concernentes à Educação Ambiental nos currículos da Educação Básica pode ocorrer de três maneiras: i) pela transversalidade, mediante temas relacionados com o meio ambiente e a sustentabilidade socioambiental; ii) como conteúdo dos componentes já constantes do currículo; e iii) pela combinação de transversalidade e de tratamento nos componentes curriculares.\n\nNo Estado de Mato Grosso do Sul, em 06 de junho de 2018, foi lançado o Programa Estadual de Educação Ambiental - PROEEA/MS que aborda a Educação Ambiental no espaço formal e apresenta que:\n\n> [...] a grande tarefa da escola é proporcionar um ambiente escolar saudável e coerente com aquilo que pretende que seus estudantes aprendam, para que possa, de fato, contribuir para a formação da identidade como cidadãos conscientes de suas responsabilidades com o meio ambiente e capazes de atitudes de proteção e melhoria em relação a ele (MATO GROSSO DO SUL, 2018, p. 17).\n\nAssim, o Programa, que está estruturado em ações, prevê para a educação formal o “estímulo à execução de programas, projetos e ações de educação ambiental diretamente para escolas e instituições parceiras” (MATO GROSSO DO SUL, 2018, p. 27); a “promoção, apoio e incentivo à realização de eventos de educação ambiental para as escolas públicas e privadas” (MATO GROSSO DO SUL, 2018, p. 31); a “promoção do intercâmbio das práticas de Educação Ambiental desenvolvidas nas escolas que apresentam particularidades culturais, ambientais, econômicas e sociais, urbanas e rurais, destacando as escolas pantaneiras, indígenas, quilombolas e de assentamentos” (MATO GROSSO DO SUL, 2018, p. 31); a “inserção da educação ambiental na capacitação de agentes multiplicadores e na formação continuada de professores, favorecendo o intercâmbio de informações, materiais e experiências entre instituições, para atuação em Educação Ambiental formal e não formal”; e a “inserção da Educação Ambiental na capacitação de agentes multiplicadores e na formação continuada de professores, favorecendo o intercâmbio de informações, materiais e experiências entre instituições, para atuação em Educação Ambiental formal e não formal” (MATO GROSSO DO SUL, 2018, p. 28).\n\nA Educação Ambiental proposta neste Currículo é a que “aponta múltiplos percursos possíveis a serem trilhados pela escola e pela comunidade, com a adoção de princípios e práticas sociais sustentáveis, além de favorecer o envolvimento direto dos sujeitos sociais no processo educativo” (BRASIL, 2011). Essa visão pressupõe a transformação das escolas em Espaços Educadores Sustentáveis, ou seja, em espaços que “mantêm uma relação equilibrada com o meio ambiente e compensam seus impactos com o desenvolvimento de tecnologias apropriadas, de modo a garantir qualidade de vida para as gerações presentes e futuras” (BRASIL, 2011).\n\nPara que essa proposta se efetive, as transformações escolares devem ocorrer em três eixos: espaço físico, gestão e currículo. A transformação no espaço físico envolve pesquisa acerca do uso e do funcionamento das edificações, a arquitetura dos prédios escolares e o atendimento às necessidades locais. As mudanças na gestão estão intimamente relacionadas aos princípios da democracia e da participação, ou seja, a gestão escolar tem responsabilidade compartilhada, inclusive com a Comissão de Meio Ambiente e Qualidade de Vida – Com-Vida. Por fim, a modificação no currículo pressupõe a inserção da Educação Ambiental no Projeto Político Pedagógico da escola, de forma interdisciplinar e transdisciplinar, para promoção de sujeitos críticos, éticos e pautados em atitudes sustentáveis.\n\nNesse sentido, a escola, enquanto comunidade de aprendizagem, deve ser um dos agentes sociais e engajar-se na proposição de ações que minimizem impactos ambientais e dialoguem com os princípios da sustentabilidade.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

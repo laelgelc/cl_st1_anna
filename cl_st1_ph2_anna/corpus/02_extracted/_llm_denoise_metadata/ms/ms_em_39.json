@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c543502f23c5cab006ab303bae0c887d28b493884c3926126",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1626,
+      "input_tokens_details": {
+        "cache_write_tokens": 1623,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1514,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 3140
+    }
+  },
+  "created_at": "2026-09-22T22:40:04Z",
+  "duration_seconds": 9.357,
+  "error": null,
+  "excerpt_id": "ms_em_39",
+  "filename": "ms_em_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "040b4d95a77dea82b691579b8dad02139a92c192df8b3d6e876d1baf4082b0e6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "52ead5fbf583921a7caf6d6c47d52a22eee8788544a7c69c26a9d22b81de6e53",
+    "rendered_prompt_sha256": "2f8e023a034660705dc52fc6e296f5b62c140193693528cb762f31a257d8b82f",
+    "source_text_sha256": "3550151c784c1aa59e150cedc2797b0132cdaf2fea28953637b4c30e16562332"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1704,
+    "filename": "ms_em_39.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_39.txt",
+    "state": "ms",
+    "word_count_original": 908
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_39.json"
+  },
+  "raw_response_text": "### 4.4.1. Distribuição da Carga Horária e Organização da Oferta\n\nSegundo a LDB, a carga horária mínima anual para o Novo Ensino Médio será de mil horas, devendo ser ampliada, de forma progressiva, para mil e quatrocentas horas.\n\nEste Currículo de Referência sugere o desenvolvimento da Formação Geral Básica (FGB) em 600 (seiscentas) horas anuais e dos Itinerários Formativos (IF) em 400 (quatrocentas) horas anuais. Assim, semanalmente, serão ofertadas 30 (trinta) horas-aulas, divididas em 18 (dezoito) para a FGB e 12 (doze) para os IF.\n\nDiante desse arranjo, é possível identificar algumas possibilidades de organização da carga horária semanal:\n\nAs instituições de ensino poderão propor formas de distribuição semanal da carga horária, de modo a possibilitar o desenvolvimento da Formação Geral Básica e do Itinerário Formativo em todos os dias da semana (Matriz 1) ou em dias da semana específicos (Matriz 2).\n\n### 4.5. Itinerário Formativo Propedêutico\n\nOs Itinerários Formativos são definidos pelas Diretrizes Curriculares Nacionais para o Ensino Médio, conforme se transcreve:\n\n> Art. 6º, III - itinerários formativos: cada conjunto de unidades curriculares ofertadas pelas escolas e redes de ensino que possibilitam ao estudante aprofundar seus conhecimentos e se preparar para o prosseguimento de estudos ou para o mundo do trabalho de forma a contribuir para a construção de soluções de problemas específicos da sociedade. (RESOLUÇÃO CNE/CEB n. 3/2018, Art. 6º, Inciso III).\n\nEm sua composição, os IF compreendem um conjunto de situações e atividades educativas que os estudantes podem escolher, conforme seus interesses, para aprofundar e ampliar aprendizagens em uma ou mais Áreas de Conhecimento e/ou na FTP, segundo a Resolução CNE/CEB n. 3/2018:\n\nI - Linguagens e suas Tecnologias: aprofundamento de conhecimentos estruturantes para aplicação de diferentes linguagens em contextos sociais e de trabalho, construindo arranjos curriculares que permitam estudos em línguas vernáculas, estrangeiras, clássicas e indígenas, Língua Brasileira de Sinais (LIBRAS), das artes, design, linguagens digitais, corporeidade, artes cênicas, roteiros, produções literárias, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nII - Matemática e suas Tecnologias: aprofundamento de conhecimentos estruturantes para aplicação de diferentes conceitos matemáticos em contextos sociais e de trabalho, construindo arranjos curriculares que permitam estudos em resolução de problemas e análises complexas, funcionais e não lineares, análise de dados estatísticos e probabilidade, geometria e topologia, robótica, automação, inteligência artificial, programação, jogos digitais, sistemas dinâmicos, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nIII - Ciências da Natureza e suas Tecnologias: aprofundamento de conhecimentos estruturantes para aplicação de diferentes conceitos em contextos sociais e de trabalho, organizando arranjos curriculares que permitam estudos em astronomia, metrologia, física geral, clássica, molecular, quântica e mecânica, instrumentação, ótica, acústica, química dos produtos naturais, análise de fenômenos físicos e químicos, meteorologia e climatologia, microbiologia, imunologia e parasitologia, ecologia, nutrição, zoologia, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nIV - Ciências Humanas e Sociais Aplicadas: aprofundamento de conhecimentos estruturantes para aplicação de diferentes conceitos em contextos sociais e de trabalho, construindo arranjos curriculares que permitam estudos em relações sociais, modelos econômicos, processos políticos, pluralidade cultural, historicidade do universo, do homem e natureza, dentre outros, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino;\n\nV - Formação Técnica e Profissional: desenvolvimento de programas educacionais inovadores e atualizados que promovam efetivamente a qualificação profissional dos estudantes para o mundo do trabalho, com vistas a sua habilitação profissional para o desenvolvimento de vida e carreira e adaptar-se às novas condições ocupacionais e às exigências do mundo do trabalho contemporâneo e suas contínuas transformações, em condições de competitividade, produtividade e inovação, considerando o contexto local e as possibilidades de oferta pelos sistemas de ensino (BRASIL, 2018a).\n\nContemplados na parte flexível do Currículo, os Itinerários Formativos fortalecem, ampliam e aprofundam o interesse do estudante pela área escolhida, incentivam a construção de um projeto de vida, o desenvolvimento do protagonismo juvenil, de habilidades e de valores, além do desenvolvimento de competências socioemocionais, como descritas na Portaria MEC n. 1.432/2018 (BRASIL. 2018d).\n\nOs Itinerários Formativos Propedêuticos estão correlacionados às Áreas de Conhecimento, devem considerar as demandas e necessidades do mundo contemporâneo, estar sintonizados com os diferentes interesses dos estudantes e sua inserção na sociedade, o contexto local e as possibilidades de oferta dos sistemas e instituições de ensino. Orientados para o aprofundamento e ampliação das aprendizagens em áreas do conhecimento, os Itinerários devem garantir a apropriação de procedimentos cognitivos e o uso de metodologias que favoreçam o protagonismo juvenil e organizarem-se em torno de um ou mais Eixos Estruturantes.\n\nDe forma a permitir a efetiva possibilidade de escolha e o protagonismo dos estudantes, as UCs devem promover o aprofundamento e a ampliação das aprendizagens essenciais de uma ou mais Áreas de Conhecimento, que consolidem e aprofundem a formação integral, a incorporação de valores universais, ampliem a visão de mundo dos estudantes e auxiliem a tomar decisões e agir com autonomia e responsabilidade.\n\nAs Áreas de Conhecimento devem proporcionar a apropriação de conceitos e categorias básicas que estabelecem um conjunto necessário de saberes integrados e significativos. Assim, o Aprofundamento deve buscar expandir os aprendizados promovidos pela Formação Geral Básica, viabilizar a ampliação dos aprendizados em articulação com temáticas contemporâneas, sintonia com o contexto e os interesses dos estudantes, explorar potenciais e vocações, possibilitar um histórico escolar personalizado com maior tempo de dedicação a um Itinerário Formativo escolhido em consonância com o seu Projeto de Vida.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

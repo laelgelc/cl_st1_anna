@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b4f6499f6e5a8ad006ab300435c1c87d2a7dacdd07745259c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 526,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 473,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 999
+    }
+  },
+  "created_at": "2026-09-22T22:25:10Z",
+  "duration_seconds": 3.274,
+  "error": null,
+  "excerpt_id": "df_em_39",
+  "filename": "df_em_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "64b1b2fbb174cf38fed710822ed5c29dab1c12652280fdc9fd1f6138b656931a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "75ddb424ed738b06286ac0e81b9db3f0ce193b8cef391e573d878e9158ef0532",
+    "rendered_prompt_sha256": "877e512f35381e342a5744da88ff288efbbdb3f208622be6ecc2ed4c27994032",
+    "source_text_sha256": "0704cd3048794c26c954da1a6505f13fe9a1332dc78d9927305cd908201d1920"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 927,
+    "filename": "df_em_39.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_39.txt",
+    "state": "df",
+    "word_count_original": 300
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_39.json"
+  },
+  "raw_response_text": "# MEDIAÇÃO E INTERVENÇÃO SOCIOCULTURAL\n\nO aspecto sociocultural das práticas matemáticas utilizadas em sala de aula está relacionado com o conteúdo matemático e com os processos de associação desse conteúdo com as abordagens pedagógicas que são utilizadas para o ensino e a aprendizagem nessa área de conhecimento. Nessa perspectiva, o desenvolvimento do conhecimento matemático é influenciado em conformidade com as considerações socioculturais dos indivíduos que participam da comunidade escolar.\n\nO objetivo deste eixo é a aplicação de procedimentos e práticas matemáticas para a resolução de situações-problema presentes no cotidiano dos estudantes, desenvolvendo uma visão crítica de mundo pela Matemática. A ideia é fomentar o envolvimento dos estudantes em campos de atuação na sociedade, pelo seu engajamento em projetos de mobilização e intervenção sociocultural e ambiental que os levem a promover transformações positivas na comunidade.\n\nA orientação é que sejam propostas unidades curriculares baseadas em aspectos socioculturais dos estudantes e nos problemas enfrentados pela comunidade na qual estão inseridos, incorporando os valores de humanidade, como ética, respeito mútuo, solidariedade, cooperação, entre outros.\n\nO processo pressupõe o diagnóstico da realidade sobre a qual se pretende atuar, incluindo a busca de dados oficiais e a escuta da comunidade local; a ampliação de conhecimentos sobre o problema a ser enfrentado; o planejamento, a execução e a avaliação de uma ação social e/ou ambiental que responda às necessidades e aos interesses do contexto; a superação de situações de estranheza, resistência, conflitos interculturais, dentre outros possíveis obstáculos, com necessários ajustes de rota.\n\nEssas práticas exigem novas orientações teóricas e metodológicas que proporcionem aos estudantes uma aprendizagem mais significativa dos conceitos matemáticos, em prol de sua formação enquanto cidadão, buscando propostas didáticas que favoreçam a comunicação, a argumentação, a compreensão e a investigação de problemas, além do desenvolvimento de atitudes de aprendizagem e de convívio social.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

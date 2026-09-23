@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0715bf0ccbe85141006ab3039f558087d2bd13210b241d1b07",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 680,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 618,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 1298
+    }
+  },
+  "created_at": "2026-09-22T22:39:31Z",
+  "duration_seconds": 4.704,
+  "error": null,
+  "excerpt_id": "ms_em_15",
+  "filename": "ms_em_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b5d8836d54ab7bac8ec9c59957f6a7015d25528aab8ef84454edccf77193bc81",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "987b4673d5b15afc599629759704838766f9149430937c2ed0c0695fcd7ac890",
+    "rendered_prompt_sha256": "0dc7a4c40e6c9eb80ebaa3ae0e219fcc22b3615ca69d8dac5132dc5c2dbe4700",
+    "source_text_sha256": "5326741bbd9854f5c045257b566b7ff1884d2848feebb46b4495f22d5ea1c1e3"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1678,
+    "filename": "ms_em_15.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_15.txt",
+    "state": "ms",
+    "word_count_original": 409
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_15.json"
+  },
+  "raw_response_text": "### 2.4.7. Educação Fiscal\n\nA Educação Fiscal, em consonância com o Documento-Base do Programa Nacional de Educação Fiscal, é entendida como um processo educativo que visa à construção de uma consciência voltada ao exercício da cidadania e a participação do cidadão no funcionamento e aperfeiçoamento dos instrumentos de controle social e fiscal do Estado. A Educação Fiscal pauta-se na conscientização acerca do pagamento de tributos e no fomento aos cidadãos para monitorarem a aplicação desses tributos visando à melhoria de vida da população.\n\nPortanto, é uma temática a ser desenvolvida transversalmente, e que proporciona aos sujeitos aprendizes a compreensão de que os recursos públicos são provenientes do pagamento de tributos realizados por todos os sujeitos que habitam este país, e sobretudo, que esses recursos são limitados. Dessa maneira, práticas educativas de Educação Fiscal vinculam-se também à preservação do patrimônio público e aos direitos individuais e coletivos observados na Constituição Federal de 1988.\n\n### 2.4.8. Educação Financeira\n\nA Educação Financeira revela-se como estratégia educativa prevista no Decreto n. 7.397, de 22 de dezembro de 2010, que institui a Estratégia Nacional de Educação Financeira (ENEF). A ENEF visa à promoção da educação financeira e previdenciária e à contribuição para o fortalecimento da cidadania, da eficiência e solidez do sistema financeiro nacional e para a tomada de decisões conscientes por parte dos consumidores.\n\nA ENEF utiliza-se do conceito de Educação Financeira definido pela Organização para a Cooperação e Desenvolvimento Econômico (OCDE) e que se traduz para este Currículo como “o processo mediante o qual os indivíduos e as sociedades melhoram sua compreensão dos conceitos e dos produtos financeiros, de maneira que, com informação, formação e orientação, adquiram valores e competências necessários para se tornarem conscientes das oportunidades e dos riscos neles envolvidos” (OCDE, 2005). Desse modo, espera-se que os sujeitos sejam comprometidos com o futuro das sociedades.\n\nAssim, as estratégias de aprendizagem para a Educação Financeira geram novos conhecimentos a partir da experiência de vida dos sujeitos que têm a oportunidade de dialogarem, vivenciarem e refletirem sobre alguns conceitos, tais como: poupança, crédito, administração de recursos, investimento, preços, consumo, dinheiro e renda. Logo, o percurso de aprendizagem no que se refere à Educação Financeira não pode, tão somente, trazer esses conceitos, mas também fazer com que o sujeito compreenda as implicações deles para a sociedade, inclusive no que diz respeito à garantia dos direitos individuais e coletivos observados na Constituição Federal de 1988.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bc022dafba7b6dc006ab30d2c998087d2a7c27da43cdeaabc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 665,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 691,
+      "output_tokens_details": {
+        "reasoning_tokens": 123
+      },
+      "total_tokens": 1356
+    }
+  },
+  "created_at": "2026-09-22T23:20:18Z",
+  "duration_seconds": 5.645,
+  "error": null,
+  "excerpt_id": "rr_em_31",
+  "filename": "rr_em_31.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "eecd78d1b6061efb7e1d9b1657abd42204c20f709dde6cb1cb24a7f74e099dca",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ce8b8c427113bbd925e92bc73207ece3af371a1a57028d8805f6fabb14636bf5",
+    "rendered_prompt_sha256": "4c8b8c44cb82a0eee9753323324fc59d3e81bfae280186ea989c8b2718a245e7",
+    "source_text_sha256": "2c233cd604f39dc174aadc210e9dc85619332ce25d145f10104472734c49e29f"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_31.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3465,
+    "filename": "rr_em_31.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_31.txt",
+    "state": "rr",
+    "word_count_original": 376
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_31.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_31.json"
+  },
+  "raw_response_text": "### 4.3.3. Competências específicas\n\nCompetência específica 1: Compreender o funcionamento das diferentes linguagens e práticas culturais (artísticas, corporais e verbais) e mobilizar esses conhecimentos na recepção e produção de discursos nos diferentes campos de atuação social e nas diversas mídias, para ampliar as formas de participação social, o entendimento e as possibilidades de explicação e interpretação crítica da realidade e para continuar aprendendo.\n\nCompetência específica 2: Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitando as diversidades e a pluralidade de ideias e posições, e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando o autoconhecimento, a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza.\n\nCompetência específica 3: Utilizar diferentes linguagens (artísticas, corporais e verbais) para exercer, com autonomia e colaboração, protagonismo e autoria na vida pessoal e coletiva, de forma crítica, criativa, ética e solidária, defendendo pontos de vista que respeitem o outro e promovam os Direitos Humanos, a consciência socioambiental e o consumo responsável, em âmbito local, regional e global.\n\nCompetência específica 4: Compreender as línguas como fenômeno (geo) político, histórico, cultural, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo suas variedades e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como agindo no enfrentamento de preconceitos de qualquer natureza.\n\nCompetência específica 5: Compreender os processos de produção e negociação de sentidos nas práticas corporais, reconhecendo-as e vivenciando-as como formas de expressão de valores e identidades, em uma perspectiva democrática e de respeito à diversidade.\n\nCompetência específica 6: Apreciar esteticamente as mais diversas produções artísticas e culturais, considerando suas características locais, regionais e globais, e mobilizar seus conhecimentos sobre as linguagens artísticas para dar significado e (re) construir produções autorais individuais e coletivas, exercendo protagonismo de maneira crítica e criativa, com respeito à diversidade de saberes, identidades e culturas.\n\nCompetência específica 7: Mobilizar práticas de linguagem no universo digital, considerando as dimensões técnicas, críticas, criativas, éticas e estéticas, para expandir as formas de produzir sentidos, de engajar-se em práticas autorais e coletivas, e de aprender a aprender nos campos da ciência, cultura, trabalho, informação e vida pessoal e coletiva.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

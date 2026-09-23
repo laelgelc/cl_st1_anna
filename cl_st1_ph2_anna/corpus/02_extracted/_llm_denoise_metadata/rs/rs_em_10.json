@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_031e26e665cb6ee3006ab30d964ad487d298d83fad3129b871",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 998,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 989,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 1987
+    }
+  },
+  "created_at": "2026-09-22T23:22:09Z",
+  "duration_seconds": 11.455,
+  "error": null,
+  "excerpt_id": "rs_em_10",
+  "filename": "rs_em_10.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d01955900f711ae061b3c77266be1945716c7f0e9dd3b5cf56c65b5ba5c5b07f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "84459e64df89cb7828785565f2cacdbf8c9b6a2d7c4959f740f42aee22ba10fc",
+    "rendered_prompt_sha256": "758b654d3f94a1382b85af0b834020fb12155888083bcf74c59f141021be2241",
+    "source_text_sha256": "b14ac77ba14050c64a1a3f4ac2f8d4588c295fac8c2d3ccd142db2e400c4f9eb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_10.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3551,
+    "filename": "rs_em_10.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_10.txt",
+    "state": "rs",
+    "word_count_original": 626
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_10.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_10.json"
+  },
+  "raw_response_text": "### 1.7.2 Educação de Jovens e Adultos (EJA)\n\nA Educação de Jovens e Adultos é uma modalidade de ensino destinada àqueles que não puderam acessar ou concluir seus estudos no Ensino Fundamental e Médio na idade obrigatória, com características adequadas a suas necessidades e disponibilidades. A própria LDBEN dispõe a respeito, quando define, no art. 37, que\n\n> A educação de jovens e adultos será destinada àqueles que não tiveram acesso ou continuidade de estudos nos ensinos fundamental e médio na idade própria e constituirá instrumento para a educação e a aprendizagem ao longo da vida (BRASIL, 1996).\n\nNa EJA, deve-se disponibilizar aos adolescentes, aos jovens, aos adultos e aos idosos o acesso aos bens socioculturais acumulados pela humanidade, pois tais conhecimentos devem ser ressignificados, resgatando-se sua importância para o ensino e a aprendizagem, visando ao desenvolvimento do estudante e sua formação integral. Assim, a EJA tem a finalidade de trazer a educação formal aos jovens e adultos que não tiveram a oportunidade de passar por processos de escolarização regulares, surgindo com o intuito de corrigir uma injustiça social.\n\nÉ interessante evidenciar que a EJA constitui-se em uma educação possível e capaz de mudar significativamente a vida de uma pessoa, permitindo-lhe reescrever sua história. A EJA, em todas as suas formas de oferta, dentre as quais destacam-se a presencial, EaD e a integrada à Educação Profissional e Técnica (PROEJA), as quais podem variar conforme a rede/sistema e/ou nível de ensino, conforme, art. 6º, incisos I e II da Resolução CEEd-RS nº. 343/2018, representa melhoria nas oportunidades de trabalho e de condição de vida, significando, em muitos casos, a ampliação da empregabilidade dos jovens e adultos que porventura estejam fora do mundo de trabalho ou almejando um emprego melhor.\n\nEducar jovens e adultos não é apenas ensiná-los a ler e escrever seu próprio nome. É oferecer-lhes uma escolarização ampla e com mais qualidade, que considere as competências e habilidades previstas na BNCC e a aprendizagem ao longo da vida, assim como que respeite a bagagem cultural que os estudantes têm ao ingressar nessa modalidade de ensino. Nesse contexto, destaca-se que:\n\n> O papel da aprendizagem ao longo da vida é fundamental para resolver questões globais e desafios educacionais. Aprendizagem ao longo da vida, “do berço ao túmulo”, é uma filosofia, um marco conceitual e um princípio organizador de todas as formas de educação, baseada em valores inclusivos, emancipatórios, humanistas e democráticos, sendo abrangente e parte integrante da visão de uma sociedade do conhecimento (UNESCO, 2010, p. 6)\n\nFrente a isso, o RCGEM, ao delinear perspectivas para o Ensino Médio no contexto da BNCC, propõe alguns caminhos que podem ser trilhados pelos estudantes das redes de ensino de todo território gaúcho, a fim de valorizar a formação integral do sujeito, de forma democrática e emancipatória, incluindo aqueles que acessam o Ensino Médio por meio da EJA.\n\nImportante ressaltar que a EJA é organizada em regime semestral ou modular, em segmentos e etapas, com possibilidade de flexibilização do tempo para cumprimento da carga horária exigida e, para cada segmento, há uma correspondência nas etapas da Educação Básica e carga horária específica conforme Resolução CNE/CEB nº. 1/2021. Como a organização da EJA é distinta e regulada por legislação própria, deixa-se claro que, perante as demandas apresentadas pela Lei nº. 13.415/2017 quanto à organização do Ensino Médio, cada escola e rede de ensino que ofertar essa modalidade de EJA poderá exercer sua autonomia para organizar o seu currículo, podendo fazer do RCGEM um documento balizador das ações de planejamento da FGB e dos IFs, sempre adaptando-se às exigências legais para a modalidade e às demandas e características locais das escolas e de seus estudantes.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

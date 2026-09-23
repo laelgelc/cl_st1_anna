@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_037dbc28734addfa006ab304b6221087d2855d8b878a8b150c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 619,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 591,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 1210
+    }
+  },
+  "created_at": "2026-09-22T22:44:11Z",
+  "duration_seconds": 5.514,
+  "error": null,
+  "excerpt_id": "mt_ef_95",
+  "filename": "mt_ef_95.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b6a7e99159ff97cfde17dcb5692f5b2681c6c85768344be3a8c7fe9a4ecd3b32",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ce7333caf78eeba7c4f28b4f21f1caf1f6bc910d4fa5ab4bc49bb439b7ec0baf",
+    "rendered_prompt_sha256": "bf59df45767ac46c415b1f608a18ba9d5d69f8883fa9445b3d30e579bfdb3fc1",
+    "source_text_sha256": "45b5e0d7a3670c68f5d1af8ecbc5d3735ba97b2ba80ab8d74b6aa52df7a94f08"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_95.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1894,
+    "filename": "mt_ef_95.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_95.txt",
+    "state": "mt",
+    "word_count_original": 340
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_95.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_95.json"
+  },
+  "raw_response_text": "### 4.3. COMPONENTE CURRICULAR ENSINO RELIGIOSO\n\nO presente Documento de Referência Curricular para Mato Grosso tem como objetivo: subsidiar os professores em sua prática docente, contribuindo para o processo de ensino-aprendizagem nos componentes curriculares Geografia, História e Ensino Religioso, com vistas ao documento da BNCC, que traz em sua organização a Área de Ciências Humanas: História e Geografia. Porém, o Sistema Estadual de Ensino de Mato Grosso com sua autonomia, compreende e já vem trabalhando o Ensino Religioso como Componente Curricular da Área de Ciências Humanas, como se pode constatar nas Orientações Curriculares da Área de Ciências Humanas da Educação Básica do Estado de Mato Grosso (2010).\n\nNessa perspectiva, o objeto de conhecimento do Componente Curricular Ensino Religioso: os fenômenos culturais religiosos buscam o diálogo com a Área de Ciências Humanas e outras, a fim de compreendê-los interdisciplinarmente. Isto é, o estudante será estimulado a compreender o fenômeno cultural por meio do trabalho coletivo, colaborativo, de comparação, troca de experiência e de análise metodológica do fenômeno cultural religioso de maneira crítica e sem proselitismo. A luta pela superação do proselitismo é a materialização da superação da discriminação e da intolerância religiosa.\n\nDessa forma, é tarefa de todo educador, independente da sua crença religiosa ou posição política, quebrar as barreiras sociais históricas e educacionais que serviram ao proselitismo. É hora de construir caminhos didáticos e teórico-metodológicos para se compreender e dialogar as manifestações religiosas, tão diversas e ricas, no Estado Mato-grossense.\n\nO Documento de Referência Curricular para Mato Grosso é um documento normativo que define a política curricular do Estado de Mato Grosso, de modo a orientar e definir as práticas curriculares. Ao reconhecer, o Ensino Religioso como componente curricular, considerando as incongruências teórico-metodológicas, o desafio é superar o viés confessional. Assim, a abordagem cientifica é a fenomenologia, na Área das Ciências da Religião, Ciências Humanas e Ciências Sociais como aporte científico, com o objetivo de definir competências, objetos de aprendizagem e habilidades que assegurem a garantia de conhecimentos essenciais para a formação integral do estudante.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

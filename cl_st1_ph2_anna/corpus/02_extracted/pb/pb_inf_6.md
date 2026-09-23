@@ -1,0 +1,65 @@
+### 3.4.1 Conviver
+
+O direito de conviver aponta para a criação de vínculos, que devem ser pensados à luz da democracia e das diversas relações pelas quais as crianças também vão se constituindo como sujeitos: relações com os pares, com adultos, com toda a comunidade, escolar e mais ampla.
+
+É importante frisar que a convivência é um processo que coloca em jogo as experiências e saberes que as crianças trazem consigo. Seus pertencimentos, suas origens, suas diversas linguagens, seus jeitos próprios de estabelecer laços, de brincar, considerando como cada criança é, suas experiências anteriores, mas também as oportunidades para que ela amplie seu repertório, na direção de conviver respeitando as diferenças, a natureza, as diversas culturas e as diferenças entre as pessoas.
+
+Ainda em relação à convivência, é necessário também frisar que o acolhimento da criança e da sua família é fundamental. A convivência diz respeito às famílias também, que precisam estar próximas às propostas que os/as professores/as e instituição, de um modo geral, pensam para as crianças, dialogando com elas e colocando seus olhares e sugestões.
+
+### 3.4.2 Brincar
+
+O brincar é um dos direitos que também devem ser pensados na relação com a democracia. É também brincando que a criança estabelece relações com os outros e com o mundo, podendo, por meio delas, vivenciar situações que exigem respeito, reconhecimento ao pensamento do outro, dentre outras possibilidades. Não há um único modo de brincar ou uma brincadeira melhor. As brincadeiras que fazem parte do acervo cultural de um determinado grupo devem ser consideradas e reconhecidas. As brincadeiras fazem parte de um patrimônio cultural, por um lado, mas também nascem das interações entre as crianças e entre elas e os adultos, nas condições e materialidades próprias ao tempo que lhes constituem, podendo ser invenções ou criações que instigam a imaginação, ampliam as culturas infantis, traduzem emoções e propiciam vivências sensoriais, corporais, cognitivas, sociais, subjetivas.
+
+O brincar é uma experiência humana desde a antiguidade, uma vez que há evidências de que o homem sempre brincou. Porém, durante muito tempo, essa atividade foi – e, de certa forma, ainda é – considerada sem importância. Para muitos adultos – famílias e mesmo professores/as e instituições educacionais – o brincar e a brincadeira ainda são considerados algo secundário.
+
+Estudos de diversos autores comprovam que as crianças aprendem melhor por meio das brincadeiras. Não se trata apenas de aprendizagem no sentido cognitivo do termo, mas aprendizagem de relações, de respeito, da cultura do outro, dentre outras. Sendo assim, o brincar deve ser reconhecido e vivenciado nas práticas das instituições de Educação Infantil, sem restrições à faixa etária das crianças.
+
+Mas, como os/as professores/as da Educação Infantil, veem o brincar? Como um direito? É importante pensar sobre o lugar do brincar, da brincadeira e do brinquedo nas práticas desenvolvidas com as crianças. E elas podem ser muitas e diversificadas, como a vivência com as palavras, as cantigas, os contos, os corpos, os jogos, com materiais diversos, elementos da natureza, com situações diversificadas. Enfim, o repertório é infinito de possibilidades desde que o olhar sobre o brincar considere a potencialidade dessa prática na própria constituição da identidade da criança. É importante, nessa direção, que o/a
+
+> A interação durante o brincar caracteriza o cotidiano da infância, trazendo consigo muitas aprendizagens e potenciais para o desenvolvimento integral das crianças. (BNCC, 2017, EDUCAÇÃO INFANTIL)
+
+professor/a pense em situações que contemplem a brincadeira relacionada à inclusão de crianças que têm pertencimentos culturais específicos e/ou deficiências, considerando-as nas práticas realizadas na instituição de Educação Infantil.
+
+### 3.4.3 Participar
+
+A participação da criança na gestão da instituição educacional e das atividades cotidianas nela realizadas possibilita a esse sujeito desenvolver autonomia e tornar-se parte interessada nos destinos da instituição a qual pertence. Isso requer participação ativa em todas as ações desenvolvidas na instituição, fazendo com que a criança, desde o bebê, não só defina destinos na instituição, mas se responsabilize por eles. Escolher as brincadeiras que deseja participar, os materiais e espaços onde quer brincar ou realizar alguma ação favorece a implicação da criança com a instituição e um maior conhecimento sobre ela e sobre si mesma.
+
+As eleições para escolha da direção das instituições podem ser um excelente momento para a criança exercer o direito de participar, mas também escolher coletivamente onde uma faixa deve ser exposta, que lanche pode escolher para comemorar alguma data especial, dentre outras possibilidades, contribuem para que a criança exerça esse direito e conheça mais sobre o funcionamento da instituição na qual está inserida.
+
+A escolha das brincadeiras, o manuseio dos materiais utilizados, a escolha dos ambientes, tudo isso deve ser compartilhado com as crianças de modo que as mesmas possam opinar e participar da tomada de decisões.
+
+Dessa forma, participando de experiências diversas, a criança aprende a lidar com conflitos, a compreender direitos e limitações e pode avançar positivamente em seus processos de aprendizagem e desenvolvimento como cidadã que é e deve ser tomada no espaço institucional.
+
+### 3.4.4 Explorar
+
+A instituição de Educação Infantil, considerando a sua oferta em creche e pré-escola, deve estar atenta à relação da criança com o mundo pela via da exploração. Se a criança participa ativamente da vida de sua instituição, ela estará disponível para descobrir, conhecer e criar pela ótica da exploração. Assim, corpo, movimentos, gestos, sons, espaços diversos, situações, mudanças nos tempos e na organização da rotina, novidades, histórias contadas oral e livremente ou lidas a partir de um texto, objetos variados quanto ao tamanho, a cor, forma, espessura, enfim, constituem possibilidades infinitas de situações que podem e devem ser exploradas pelas crianças, com vistas a lhes favorecer o acesso ao mundo, conhecendo-o, mas também a interação entre as suas descobertas e o outro. Com esse direito garantido, a criança potencializa a ampliação dos seus saberes, sua linguagem e seus conhecimentos.
+
+Uma ação que pode fornecer caminhos para a exploração diz respeito ao próprio corpo da criança, que pode ser vivenciado pela criança por meio de músicas, de experiências com argila, com cores, na direção de que ela se autoconheça e perceba a si mesma e ao outro como sujeitos em interação.
+
+Outra ação é explorar o ambiente onde a criança está inserida, tanto em sua casa como na instituição de Educação Infantil. Nesse sentido, é importante saber sobre o pertencimento cultural da criança. Ela reside no campo ou na cidade? Mora perto de rios, cachoeiras, do mar? Vive em apartamento ou casa? Tem contato com a natureza? O que as crianças podem aprender com a natureza? O que aprendem neste contato direto e sensível? O que pode ser realizado junto aos bebês, às crianças bem pequenas e pequenas para aproximar, por exemplo, a criança da natureza?
+
+A relação com a natureza tem muito a contribuir na construção de saberes pela criança. Seu contato com ela aproxima e constrói uma relação, na qual ela pode perceber possibilidades de convivência sensível, na direção de que a compreenda não como estranha, mas como um espaço do qual a criança faz parte, construindo e ampliando sua consciência pessoal, planetária e ecológica.
+
+Podemos perceber apenas por esse exemplo que exercitar o direito de explorar contribui de forma significativa na construção e no desenvolvimento das crianças na sua relação com os outros e com o mundo.
+
+### 3.4.5 Expressar
+
+A criança tem direito de expressar e expressar-se na instituição de Educação Infantil e em todos os demais espaços nos quais se situa. E ela o faz por meio de diferentes linguagens que devem ser compreendidas como legítimas à sua comunicação: o choro, o silêncio, o gesto, a palavra, o grito, o sono, a agressividade, a alegria, a emoção, enfim, todas as formas de sentir e viver sua existência devem ser acolhidas como modos de expressão.
+
+Nesse sentido, as diversas linguagens devem ser concebidas como meios de expressão da criança no espaço da instituição de Educação Infantil e ela deve ter direito a expor o que sente, o que pensa, o que cria/imagina, o que entende e não entende, o que gosta e não gosta. Enfim, ela tem direito de comunicar aos outros, por meio de suas expressões, sentimentos, pensamentos, ideias, sensações.
+
+### 3.4.6 Conhecer-se
+
+> CONHECER-SE e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações e brincadeiras vivenciadas na instituição de Educação Infantil.
+
+A criança tem direito a conhecer-se e conhecer, potencializando a construção de uma imagem positiva de si e do seu grupo cultural e social. A garantia deste direito contribui para a construção de sua identidade pessoal e coletiva, mas também, das diversas identidades das outras crianças e dos adultos com os quais ela se relaciona.
+
+É na construção desse direito que a criança começa a perceber aspectos que a distingue das outras pessoas, cabendo ao/à professor/a e à instituição valorizar seus pertencimentos, suas características étnicas, culturais e pessoais.
+
+No dia a dia, as crianças vão se percebendo e percebendo os outros como diferentes. Essa percepção deve ser pensada e elaborada à luz do respeito, da democracia e da valorização das diferenças, favorecendo a construção de um conjunto de valores, crenças e conhecimentos diversificados, em que a prioridade seja valorizar e respeitar o outro como ele é.
+
+> Conhecer-se e construir sua identidade pessoal, social e cultural, constituindo uma imagem positiva de si e de seus grupos de pertencimento, nas diversas experiências de cuidados, interações, brincadeiras e linguagens vivenciadas na instituição escolar e em seu contexto familiar e comunitário. (BNCC, 2017, EDUCAÇÃO INFANTIL)
+>
+> Expressar, como sujeito dialógico, criativo e sensível, suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, questionamentos, por meio de diferentes linguagens. (BNCC, 2017, EDUCAÇÃO INFANTIL)
+
+Cabe aos/às professores/as acolher e possibilitar espaços para que as crianças possam expressar e expressar-se de diversos modos, manifestando a sua compreensão da importância da expressão dos seus sentimentos e descobertas como forma de dizer o que sente, esclarecer suas dúvidas sem medo, levantar hipóteses, confirmar ou não essas hipóteses, sem que sofram repressões.

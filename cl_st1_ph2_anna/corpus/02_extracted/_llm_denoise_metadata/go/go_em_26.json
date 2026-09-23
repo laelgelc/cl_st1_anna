@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_043bf9e215e13a77006ab3012cc32887d2a424a29b1d32bb39",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 821,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 899,
+      "output_tokens_details": {
+        "reasoning_tokens": 169
+      },
+      "total_tokens": 1720
+    }
+  },
+  "created_at": "2026-09-22T22:29:07Z",
+  "duration_seconds": 6.544,
+  "error": null,
+  "excerpt_id": "go_em_26",
+  "filename": "go_em_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "396b6bce9e22cf1dba387f7d9c5cb13e01f738f09bc9c0e15dc2bdb45d0703dd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e7b5c305d11d5533c6a185d49be19e8029004a94c47cbe85bc78a95e8415e030",
+    "rendered_prompt_sha256": "43100e6a4757dc9c6058dd5270913b07af0b8b998ad69c7602f959afe273f621",
+    "source_text_sha256": "5d830d2c3d015535ba683986b887475987564c3f155a508fc6e29c82f1e549ee"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/go/go_em_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1148,
+    "filename": "go_em_26.txt",
+    "filepath": "corpus/00_source_per_state/go/go_em_26.txt",
+    "state": "go",
+    "word_count_original": 533
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/go/go_em_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/go/go_em_26.json"
+  },
+  "raw_response_text": "### 8.1 - A Implementação do Novo Ensino Médio\n\nA Secretaria de Estado da Educação de Goiás (Seduc-GO) iniciou o processo de implementação do Novo Ensino Médio de forma progressiva, no ano letivo de 2020, sendo a matriz curricular organizada em duas partes: a primeira destinada à formação geral básica por meio das habilidades e competências das quatro áreas do conhecimento apontadas pela BNCC/EM e a segunda, destinada à Flexibilização Curricular/Itinerários Formativos, ofertando Eletivas, Projeto de Vida e Trilhas de Aprofundamento. A carga horária total destinada à Base Nacional Comum Curricular é de 1.800 (mil e oitocentas) horas-relógio que, em Goiás, equivalem a 2.160 (duas mil cento e sessenta) horas-aulas. A carga horária total destinada à Flexibilização Curricular é de 1.200 (mil e duzentas) horas-relógio, as quais, em Goiás, equivalem a 1.440 (mil e quatrocentos e quarenta) horas-aulas já praticadas na antiga matriz.\n\n### 8.2 - Flexibilização Curricular Itinerários Formativos\n\nOs Itinerários Formativos fazem parte da flexibilização curricular e é composto por três elementos: Projeto de Vida (PV), eletivas e trilhas de aprofundamento.\n\nNa rede estadual de educação de Goiás, todos/as os/as estudantes do Ensino Médio têm acesso a uma arquitetura curricular que contempla os componentes curriculares obrigatórios da formação geral básica, o componente curricular Projeto de Vida e componentes eletivos. Todas as turmas da primeira série, de período parcial, que não dependem do transporte escolar municipal, iniciaram no ano letivo de 2020 com a matriz curricular que contempla a flexibilização por meio de escolha de componentes curriculares eletivos e do componente curricular Projeto de Vida. A partir da segunda série do Ensino Médio, deverão escolher também as trilhas de aprofundamento que melhor se adequem aos seus interesses e a seu PV.\n\nPara o componente curricular Projeto de Vida, foi destinada uma hora-aula por semana em todas as séries do Ensino Médio. A oferta desse componente em todas as séries do Ensino Médio é uma forma de proporcionar aos/às estudantes goianos/as a possibilidade de orientações específicas em relação ao planejamento de suas atividades e seu futuro acadêmico, pessoal e profissional. Para implementação do componente curricular Projeto de Vida, a Equipe de Currículo do Ensino Médio de Goiás elaborou um material didático sequencial composto por um guia do/a professor/a e material do/a estudante.\n\nEm relação aos componentes curriculares eletivos, foram estruturados dois núcleos: o núcleo livre e o núcleo dirigido. As Eletivas do núcleo livre são construídas pela própria unidade escolar a partir das seguintes premissas: interesse dos/as estudantes, realidade da unidade escolar e contexto econômico de sua localidade. As unidades escolares também têm a opção de oferecer eletivas a partir de uma lista sugestiva preparada pela Seduc-GO via Superintendência de Ensino Médio. Essa lista é preparada a partir do cruzamento de dados do diagnóstico da rede, relacionados diretamente ao interesse dos/as estudantes, manifestados em rodas de conversas e questionários de escuta e dos arranjos econômicos e produtivos de cada município goiano. As eletivas a serem implementadas neste núcleo serão aquelas em que houver maior interesse dos/as estudantes por turma. A seguir o quadro 01 apresenta exemplos de componentes eletivos do núcleo livre.",
+  "state": "go",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

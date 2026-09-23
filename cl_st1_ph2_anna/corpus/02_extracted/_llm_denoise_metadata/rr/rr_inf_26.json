@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07414467bac9c949006ab30d77387c87d284d8937f6ecd7bd2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 336,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 351,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 687
+    }
+  },
+  "created_at": "2026-09-22T23:21:31Z",
+  "duration_seconds": 4.467,
+  "error": null,
+  "excerpt_id": "rr_inf_26",
+  "filename": "rr_inf_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "4e6fd5933b261e8afd828f5f344f6ce82518345d6ff3b3a87406b013cc56ca4d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "96f37ec5daf6c9151007a89b8c7483613c39a1868f899a94a483d2806ee8b68c",
+    "rendered_prompt_sha256": "efdcb15cbfd5ecd3baade61c64c98e2cc6771842ca21fe3e995e8a65e4583a65",
+    "source_text_sha256": "423b323ba425dc1531bb64ca3d464009eba24c69e6d956ac1678e8ec97a23ee0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3525,
+    "filename": "rr_inf_26.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_26.txt",
+    "state": "rr",
+    "word_count_original": 172
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_26.json"
+  },
+  "raw_response_text": "### 3.15 CONSIDERAÇÕES FINAIS\n\nConsidera-se que as fases de construção deste documento oportunizaram aos educadores da Educação Infantil, sistemas municipais de ensino e à própria sociedade a oportunidade para refletirem sobre a elaboração e construção do currículo para Educação Infantil no Estado de Roraima.\n\nAs proposições, aqui expostas, fundamentam-se nas DCNEIs e BNCC (2017), assegurando que os direitos de aprendizagem desenvolvidos nos campos de experiências fomentam um novo olhar sobre os processos de ensino e aprendizagem das nossas crianças, respeitando seus aspectos sociais, culturais e etapas de desenvolvimento cognitivo.\n\nEnfatiza-se também as orientações para atendimento às especificidades nas modalidades da Educação Escolar Indígena, Educação Especial, Educação do/no Campo e Escolas de fronteiras de modo que os direitos de aprendizagem sejam fomentados nas práticas docentes que atuam com os bebês, crianças bem pequenas e das crianças pequenas.\n\nNesse contexto, esperamos que as proposições apresentadas estimulem reflexões e discussões para enriquecimento do currículo, assim como o aprofundamento com sugestões acerca de práticas que promovam qualitativamente a aprendizagem das nossas crianças.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

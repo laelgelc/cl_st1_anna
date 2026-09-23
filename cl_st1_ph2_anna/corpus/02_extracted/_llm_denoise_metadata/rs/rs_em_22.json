@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_006f359fddb4934b006ab30da1c77c87d288ab8b2d5bcf6fb4",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 674,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 687,
+      "output_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "total_tokens": 1361
+    }
+  },
+  "created_at": "2026-09-22T23:22:15Z",
+  "duration_seconds": 6.214,
+  "error": null,
+  "excerpt_id": "rs_em_22",
+  "filename": "rs_em_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8722e837101c16615dd303dc42a5993c99165ac02cd4c65717626e1aef9abc1d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8523fe31e899c08cd96c32a1c98e765aa38282af5477c89ec081849bed60075d",
+    "rendered_prompt_sha256": "2bf2fd69e0315647b8458d007f02fa04e5fee3f925f8c84050b05720db73170a",
+    "source_text_sha256": "9f007b83e255dc9a00dd118d1e5fcd4ac88ddd7a2b48ca9d6c42f5e90ed3d988"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3564,
+    "filename": "rs_em_22.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_22.txt",
+    "state": "rs",
+    "word_count_original": 380
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_22.json"
+  },
+  "raw_response_text": "### 2.1.1. Dimensão Pessoal do Projeto de Vida\n\nNa dimensão pessoal, os estudantes trabalham o autoconhecimento, para descobrirem quem são e se reconhecerem como sujeitos, a fim de que tenham condições de definir do que gostam, o que querem, quais habilidades possuem, entre outras. Os aspectos envolvidos nesse processo incluem a construção de identidade e de valores, o reconhecimento da própria origem e a forma de identificar e lidar com os sentimentos. O autoconhecimento também favorece que o estudante se aceite como é e fortaleça sua autoestima e as habilidades fundamentais para o desenvolvimento pessoal.\n\n### 2.1.2 Dimensão Social do Projeto de Vida\n\nA dimensão social envolve as relações interpessoais, o reconhecimento do estudante como cidadão, seus papéis na sociedade e suas atuações na realidade do mundo. Para desenvolver essa dimensão no Projeto de Vida, a escola pode organizar atividades em grupo, potencializando o trabalho pedagógico para aprimorar o senso de responsabilidade com o bem comum e o mundo, abordando a atuação dos indivíduos na sociedade e apontando para a solução de problemas coletivos desde a microssociedade até a macro realidade.\n\n### 2.1.3 Dimensão Profissional do Projeto de Vida\n\nA dimensão profissional, conectada com o mundo do trabalho, tem como foco o desenvolvimento de habilidades e competências necessárias para compreender, analisar e operar com eticidade a partir das necessidades sociais, do projeto pessoal e aspirações dos estudantes. Prima pelo conhecimento teórico e prático no sentido de construir um perfil profissional que atue e transforme a precarização do mercado de trabalho, com criatividade, com o uso das tecnologias, com protagonismo, com solidariedade e com a perspectiva de integralidade humana.\n\nPara tanto, o Projeto de Vida será ofertado com carga horária a ser definida pelas redes de ensino com autonomia das instituições mantenedoras ao longo dos três anos letivos. Seguem-se sugestões de temáticas e competências a serem trabalhadas:\n\n- Inteligência emocional, autoconhecimento, autocuidado, autoestima, autoconfiança e autoeficácia;\n- Aspirações, planejamento, organização e tomada de decisões em nível pessoal, acadêmico e social;\n- Aptidões, competências e habilidades pessoais, mundo do trabalho e empreendedorismo;\n- Empatia, colaboração, relações dialógicas, responsabilidade, resiliência, cidadania, solidariedade e espírito de equipe;\n- Educação financeira, sustentabilidade, consumo responsável e consciente;\n- Relações midiáticas e cultura digital;\n- Métodos de Estudos, Aprendizado e Expressão Intelecto-científica;\n- Elaboração e gestão de projetos pessoais e profissionais.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ab853d1ad69f8ce006ab2fe317c0c87d2ae932afb27adc9c6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1200,
+      "input_tokens_details": {
+        "cache_write_tokens": 1197,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1273,
+      "output_tokens_details": {
+        "reasoning_tokens": 175
+      },
+      "total_tokens": 2473
+    }
+  },
+  "created_at": "2026-09-22T22:16:26Z",
+  "duration_seconds": 9.42,
+  "error": null,
+  "excerpt_id": "ap_em_55",
+  "filename": "ap_em_55.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b539d44395aff4e9bf3a2f76f08ea71d7cc1e4081ba042bf6cda6c848a920e56",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "0cc0cc9dcca35a245856c8b10c1120dc32646e8295f3db58b51b1604b38ee4e2",
+    "rendered_prompt_sha256": "720b28aa70ecb4ac4c94c650d7714ac3ceca0352a5f9a7b9b30c42b66fa78758",
+    "source_text_sha256": "ca1198d10279cca0d57e1d5768be9688700ca1ae248888d92b89e452023f8a0e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_55.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 552,
+    "filename": "ap_em_55.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_55.txt",
+    "state": "ap",
+    "word_count_original": 778
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_55.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_55.json"
+  },
+  "raw_response_text": "## ELETIVAS\n\nAs eletivas ocupam um lugar central no que tange à diversificação das experiências escolares, oferecendo um espaço privilegiado para a experimentação, a interdisciplinaridade e o aprofundamento dos estudos. Por meio delas é possível propiciar o desenvolvimento das diferentes linguagens, plástica, verbal, matemática, gráfica e corporal, além de proporcionar a expressão e comunicação de ideias e a interpretação e a fruição de produções culturais.\n\nA promoção do enriquecimento, da ampliação e da diversificação de aprendizagens da Formação Geral e/ou dos Itinerários deve ser feita através das Eletivas. Considera-se a interdisciplinaridade enquanto eixo metodológico para buscar a relação entre os temas explorados, respeitando as especificidades das distintas áreas de conhecimento e eixos estruturantes; oferecem a oportunidade de discutir temas atualíssimos e também dão aos estudantes oportunidades de criar – seja criação artística, científica, elaboração e realização de projetos sociais, etc.\n\nObserve como a BNCC contempla a possibilidade dos estudos através das eletivas em seu Art. 6º, esclarecendo que as propostas pedagógicas e os currículos devem considerar as múltiplas dimensões dos estudantes, visando ao seu pleno desenvolvimento, na perspectiva de efetivação de uma educação integral e no Art. 7º, onde os currículos e as propostas pedagógicas das instituições escolares, considerando o disposto no Art. 27 da Resolução CNE/CEB nº 3/2018, devem adequar as proposições da BNCC-EM à realidade local e dos estudantes, tendo em vista decidir sobre formas de organização interdisciplinar dos componentes curriculares e fortalecer a competência pedagógica das equipes escolares para adotar estratégias mais dinâmicas, interativas e colaborativas em relação à gestão do ensino e da aprendizagem.\n\nAs Diretrizes Curriculares Nacionais do Ensino Médio – DCNEM, também vislumbram no Art. 17º, que o ensino médio pode organizar-se em tempos escolares no formato de séries anuais, períodos semestrais, ciclos, módulos, sistema de créditos, alternância regular de períodos de estudos, grupos não seriados, com base na idade, na competência e em outros critérios, ou por forma diversa de organização, sempre que o interesse do processo de aprendizagem assim o recomendar. No Art. 12º apresenta que a critério dos sistemas de ensino, os currículos do ensino médio podem considerar competências eletivas complementares do estudante como forma de ampliação da carga horária do itinerário formativo escolhido, atendendo ao projeto de vida do estudante.\n\n**Figura 8 - Eletivas**\n\nO ingresso do estudante no Ensino Médio passará a incluir a escolha de qual itinerário (incluindo as eletivas dentro de cada itinerário) ele deseja cursar. As unidades ofertadas em um itinerário podem ser obrigatórias para todos os estudantes ou eletivas, no sentido de que o estudante pode optar por algumas unidades de uma lista, desde que cumpra uma carga horária mínima. Assim, as Eletivas caracterizam-se por serem de escolha livre, relacionada ao itinerário de aprofundamento (cursar eletiva para cumprir a carga horária mínima, como possibilidade do estudante ampliar a aprendizagem relacionada ao itinerário escolhido e atendendo ao projeto de vida do estudante) e/ou de livre escolha, relacionada à Formação Geral (cursar eletiva não relacionada ao itinerário formativo escolhido, mas que tenha correlação com as competências gerais da BNCC e proporcionem o enriquecimento curricular nas múltiplas dimensões).\n\nDe forma geral, as eletivas devem apresentar temáticas provocadoras da curiosidade e do interesse do estudante, propondo metodologias e práticas educativas ativas e diversificadas, com cunho interdisciplinar e a oferta com professores de áreas/componentes curriculares diferentes, formados em duplas e devem ter títulos atraentes. Para a organização na rotina escolar, será necessário um alinhamento dos horários de todas as turmas, com execução semanal, em duas horas de aulas sequenciadas onde serão oferecidas a partir de um “catálogo” de temas propostos pelos professores e/ou pelos estudantes. O desenvolvimento da Eletiva deve ser acompanhado pelo coordenador pedagógico e os professores analisam e discutem os elementos dos PROJETOS DE VIDA dos estudantes para a elaboração do catálogo de oferta das Eletivas. Sugere-se a elaboração de EMENTA para as Eletivas ofertadas e de um FEIRÃO das Eletivas, onde os professores “vendem” suas propostas de forma irreverente e atrativa para conquistar o interesse dos estudantes. Também, ao final da eletiva, os produtos propostos na construção devem ser apresentados num momento de CULMINÂNCIA.\n\nÉ importante que as eletivas desafiem e estimulem os estudantes, através de formas criativas e estimulantes de criar novas estruturas conceituais, aplicando metodologias que tenham como foco questionamentos, dúvidas e certezas temporárias, criando no estudante a busca de respostas, sendo ele o próprio empreendedor dessa busca. Mais ainda, devem contribuir no desenvolvimento dos estudantes de forma deliberada, compartilhando conhecimentos, valores, atitudes e habilidades que lhes permitam transformar o seu “querer ser” em “ser”; e usar a tecnologia como aliada, permitindo recursos aos professores para diversificar suas estratégias e tornar a Eletiva prática.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

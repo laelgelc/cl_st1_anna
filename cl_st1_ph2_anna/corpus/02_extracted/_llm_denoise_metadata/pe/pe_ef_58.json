@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a43ede22341afd9006ab307e662f887d28743ae83339a5bae",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 566,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 946,
+      "output_tokens_details": {
+        "reasoning_tokens": 474
+      },
+      "total_tokens": 1512
+    }
+  },
+  "created_at": "2026-09-22T22:57:50Z",
+  "duration_seconds": 8.403,
+  "error": null,
+  "excerpt_id": "pe_ef_58",
+  "filename": "pe_ef_58.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "61dca6186acbec60f083b838a2352b5d3e45f4f9da13c7ea2bf16b7275c77f2b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c1c4558e641d4e295ddac554e2f8c59c403b22aa8624e8b584b3cd0ec3f39274",
+    "rendered_prompt_sha256": "318f82fb677a73cd38346ed02db733dcb020b952033cca3e3111412fb766c588",
+    "source_text_sha256": "b592627406fcb2fa01e37606872c447d4fc888b33632ef3d1da862f7d0e324eb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_58.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2438,
+    "filename": "pe_ef_58.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_58.txt",
+    "state": "pe",
+    "word_count_original": 306
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_58.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_58.json"
+  },
+  "raw_response_text": "## Grandezas e Medidas\n\nNessa etapa de escolaridade, a ideia de medição é ampliada, contemplando as medidas relativas a comprimento, área, volume (capacidade), ângulo, tempo, massa e temperatura, sempre em situações que permitam dar significado a essas grandezas. As atividades envolvendo o sistema monetário devem dar continuidade ao que foi feito nos anos iniciais do ensino fundamental. O trabalho baseado exclusivamente em transformações de unidades, sem que o estudante consiga perceber as relações entre elas, deve ser evitado (PERNAMBUCO, 2012).\n\nA necessidade do emprego de unidades padronizadas de medida deve ser enfatizada por meio de atividades que tenham sentido para o estudante. Outras unidades de medida podem ser introduzidas e ampliadas, como, por exemplo, as unidades agrárias (particularmente aquelas mais próximas do contexto dos estudantes), as utilizadas no contexto da informática (Kb, Mb etc.) e aquelas relativas a grandezas determinadas pela razão ou produto de duas outras (KWh, velocidade, densidade etc.). No caso da grandeza volume, é desejável que se compreenda capacidade como o volume interno de determinados sólidos e não como a “quantidade de líquido” em tal recipiente, como muitos são levados a pensar em consequência do ensino usual.\n\nNo trabalho com as grandezas geométricas, a busca de dissociação entre as figuras (triângulo, quadrilátero etc.), as grandezas associadas à figura (3 m, 4 cm², 12 m³, 30° etc.) e o número associado à medição dessas grandezas (4, 12, 30 etc.) devem ser amplificadas.\n\nIniciar atividades que relacionem a área de algumas figuras planas com a área do retângulo permite o estabelecimento de expressões algébricas que possibilitam generalizar procedimentos de medidas de áreas a outras figuras, levando, assim, à sistematização de algumas fórmulas (áreas de quadrados, paralelogramos, triângulos, trapézios, losangos e comprimento da circunferência). É preciso ressaltar, porém, a necessidade de uma forte articulação com a geometria, buscando-se utilizar as propriedades das figuras planas para generalizar expressões.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

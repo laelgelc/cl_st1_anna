@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d5dc8fac90212b8006ab30c9bae9487d2a50bcf94f3d3ab5e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 721,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1112,
+      "output_tokens_details": {
+        "reasoning_tokens": 478
+      },
+      "total_tokens": 1833
+    }
+  },
+  "created_at": "2026-09-22T23:17:57Z",
+  "duration_seconds": 10.037,
+  "error": null,
+  "excerpt_id": "ro_inf_17",
+  "filename": "ro_inf_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "99f26ede4c8b218df8bcd5d429eb90583fcc39e8bbbb12581351ad04a5ac3e79",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "33f02a0201e31ff75e155873ece85bbecce23efb4dfecad37d0d0233700c6177",
+    "rendered_prompt_sha256": "efe0d8266a93f4b4cfa43f20fd9e0dd1f9baecf2712804ae5d057ee1896b488a",
+    "source_text_sha256": "08fa57e2119fdda34b6c93dcde1de15738e6064cdc2defc94de09d56ea0a2072"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_inf_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3329,
+    "filename": "ro_inf_17.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_inf_17.txt",
+    "state": "ro",
+    "word_count_original": 388
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_inf_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_inf_17.json"
+  },
+  "raw_response_text": "# Educação Escolar Quilombola no Contexto da Educação Infantil\n\nOs quilombos são grupos sociais integrados por descendentes de escravos fugitivos que formaram territórios independentes. Nessas comunidades, a liberdade e o trabalho comum passaram a ser símbolos de autonomia e diferenciação do regime escravista. O primeiro núcleo de resistência data de 1604. Segundo o Decreto Federal 4887, de 20 de novembro de 2003, consideram-se remanescentes das comunidades dos quilombos os grupos étnico-raciais com trajetória histórica própria, dotados de relações territoriais específicas, com presunção de ancestralidade negra relacionada com a resistência à opressão histórica sofrida.\n\nA Educação Escolar Quilombola tem como base os valores civilizatórios afro-brasileiros, o pertencimento étnico, cultural, histórico e social.\n\nDe acordo com as Diretrizes Curriculares Nacionais Gerais para a Educação Básica, ela é uma modalidade de ensino com Diretrizes Curriculares Nacionais específicas estabelecidas pela Resolução nº 8, de 20 de novembro de 2012, que define as Diretrizes Curriculares Nacionais para a Educação Escolar Quilombola na Educação Básica. Art. 1º A Educação Escolar Quilombola na Educação Básica organiza precipuamente o ensino ministrado nas instituições educacionais, fundamentando-se, informando-se e alimentando-se:\n\nA Educação Infantil Quilombola dar-se-á mediante a todos os direitos e garantias de oferta desta etapa para as crianças moradoras de Quilombos, sendo asseguradas, respeitadas e valorizadas suas culturas, seus modos próprios de viver, liberdade de expressão artística, bem como proteção a qualquer modo de aculturação.\n\nSegundo as DCNEIs (BRASIL, 2010, p. 24), as práticas pedagógicas para crianças filhas de agricultores familiares, extrativistas, pescadores artesanais, ribeirinhos, assentados e acampados da reforma agrária, quilombolas, caiçaras, povos da floresta, devem:\n\na) da memória coletiva;  \nb) das línguas reminiscentes;  \nc) dos marcos civilizatórios;  \nd) das práticas culturais;  \ne) das tecnologias e formas de produção do trabalho;  \nf) dos acervos e repertórios orais;  \ng) dos festejos, usos, tradições e demais elementos que formam o patrimônio cultural das comunidades quilombolas de todo o país;  \nh) da territorialidade.\n\n- Ter vinculação inerente à realidade dessas populações, suas culturas, tradições e identidades, assim como a práticas ambientalmente sustentáveis;\n- Flexibilizar, se necessário, calendário, rotinas e atividades, respeitando as diferenças quanto à atividade econômica dessas populações;\n- Valorizar e evidenciar os saberes e o papel dessas populações na produção de conhecimentos sobre o mundo e sobre o ambiente natural;\n- Prever a oferta de brinquedos e equipamentos que respeitem as características ambientais e socioculturais da comunidade.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

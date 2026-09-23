@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_083f88581bcdd036006ab30514369c87d298fed1f35849715f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 719,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 710,
+      "output_tokens_details": {
+        "reasoning_tokens": 138
+      },
+      "total_tokens": 1429
+    }
+  },
+  "created_at": "2026-09-22T22:45:47Z",
+  "duration_seconds": 7.008,
+  "error": null,
+  "excerpt_id": "mt_em_63",
+  "filename": "mt_em_63.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c8cfcddfc1fad7525a329b8b717efa6cd51307cba3c6d2d2840930fc408f5b05",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "dd8c4f7d59948cb7cafddf446e4380fd0fcf63e9fa0d3f99b4b2b92565832808",
+    "rendered_prompt_sha256": "d3cbf3bab09e0008ba17a6175362167dfdcd6931b1fddcae8b66b60df9318364",
+    "source_text_sha256": "901b41d30b381435defc130919456789850e5622f2db0353c16ba171d5f634e2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_em_63.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1958,
+    "filename": "mt_em_63.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_em_63.txt",
+    "state": "mt",
+    "word_count_original": 402
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_em_63.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_em_63.json"
+  },
+  "raw_response_text": "### 9.5.3.1.3 Investigações Estatísticas\n\nNo currículo de Matemática, a Estatística é um assunto recente. As abordagens comuns a este assunto ressaltam os métodos de uso computacionais e procedimentais, a exemplo disso temos, como se calcula uma média ou um desvio padrão, como se constrói um gráfico de barras, um gráfico de linhas, um gráfico circular e como se interpretam todas essas informações. Ao se falar em investigações estatísticas conclui-se que este campo é profícuo para desenvolvimento da interdisciplinaridade e a conexão entre os mais variados assuntos.\n\nConforme Ponte; Brocardo e Oliveira (2016):\n\n> A Estatística constitui uma importante ferramenta para a realização de projetos e investigações em numerosos domínios, sendo usada no planejamento, na recolha e análise de dados e na realização de inferências para tomar decisões. A sua linguagem e conceitos são utilizados em cada passo do dia a dia para apoiar afirmações em domínios como a saúde, o desporto, a educação, ciência, a economia e a política. Todo cidadão precisa saber quando um argumento estatístico está ou não a ser utilizado com propriedade. (PONTE; BROCARDO; OLIVEIRA, 2016, p.91)\n\nO estudo da estatística deve ser realizado concomitantemente ao processo de investigação e em contextos de atividade social, cultural, política e ambiental. Desse modo, o ensino dos objetos de conhecimento dessa unidade temática contribuirá, de forma efetiva, com os objetivos do ensino da Matemática no Ensino Médio.\n\nContudo, tais objetivos dificilmente serão alcançados se o ensino da estatística explorar apenas aspectos voltados a representação dos dados em gráficos, tabelas ou por meio de medidas de tendência central e de dispersão, pois dessa forma a aprendizagem matemática acerca da estatística será superficial e pouco auxiliará os estudantes na elaboração de planejamento, levantamento de hipóteses e realização de investigações e inferências.\n\nDe acordo com que é proposto na BNCC (BRASIL, 2018), para o ensino da Matemática e suas Tecnologias, será necessário encarar a estatística como um processo que envolve a realização de investigações, formulando questões, recolhendo, representando, organizando e interpretando dados, fazendo inferências e, a partir daí, colocando novas questões e reiniciando o ciclo investigativo.\n\nNesse contexto, salienta-se que as investigações: numérica, geométrica e estatística, poderão ser propostas a partir da realidade do estudante, desde que, posteriormente sejam ampliadas, com intuito de propor soluções às situações problemas do mundo. As investigações matemáticas terão maior sentido aos estudantes, quando aplicadas às outras áreas de conhecimento e ao mundo do trabalho.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

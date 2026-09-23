@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01aa9db529976583006ab300d80e7c87d2a82184c10f53ce64",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1380,
+      "input_tokens_details": {
+        "cache_write_tokens": 1377,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1443,
+      "output_tokens_details": {
+        "reasoning_tokens": 272
+      },
+      "total_tokens": 2823
+    }
+  },
+  "created_at": "2026-09-22T22:27:45Z",
+  "duration_seconds": 9.661,
+  "error": null,
+  "excerpt_id": "es_inf_intro_3",
+  "filename": "es_inf_intro_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9ec81ef70b7229025a63b288bc51a08c043e1cbaa2f26ee585bee0e5b4b0311b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "19f2f5c42f76b4a7bb518bea2712fe8bdfee6954979c10794ae44791c0c4dc59",
+    "rendered_prompt_sha256": "83eb0813e0529c140205888ae9528980ccd93ac45ddecdce119bcbe9872cfc26",
+    "source_text_sha256": "f016c407da77804567f263e32187c1d06ad2d0c03771e50b05881c8bc00744a2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_intro_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1076,
+    "filename": "es_inf_intro_3.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_intro_3.txt",
+    "state": "es",
+    "word_count_original": 871
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_intro_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_intro_3.json"
+  },
+  "raw_response_text": "## A Elaboração do Currículo em Regime de Colaboração\n\nA definição de uma base comum curricular para todo o país atende a uma prerrogativa da Constituição Federal Brasileira (BRASIL, 1988), da Lei de Diretrizes e Bases da Educação Nacional (BRASIL, 1996) e do Plano Nacional de Educação 2014-2024 (BRASIL, 2014) e nos coloca no rumo dos principais sistemas educacionais do mundo. Ao mesmo tempo, nos desafia a ter um novo olhar sobre os currículos já construídos e vividos nas redes estaduais e municipais de ensino, pois passa a ser uma referência nacional obrigatória para elaboração ou revisão dos documentos curriculares.\n\nA construção do Currículo do Espírito Santo se dá num momento histórico da educação brasileira. Em 17 de dezembro de 2017 foi homologada pelo Conselho Nacional de Educação a Base Nacional Comum Curricular, para a Educação Infantil e o Ensino Fundamental, que estabelece as aprendizagens essenciais e indispensáveis a todos os estudantes da educação básica nessas etapas¹. A definição de uma base comum curricular para todo o país atende a uma prerrogativa da Constituição Federal Brasileira de 1988, da Lei de Diretrizes e Bases da Educação Nacional (Lei Nº 9394/96) e do Plano Nacional de Educação de 2014 e nos coloca no rumo dos principais sistemas educacionais do mundo. Ao mesmo tempo, nos desafia a ter um novo olhar sobre os currículos já construídos e vividos nas redes estaduais e municipais de ensino, pois passa a ser uma referência nacional obrigatória para elaboração ou revisão curricular.\n\nNesse contexto, o Ministério da Educação instituiu, na Portaria Nº 331, de 5 de abril de 2018, o Programa de Apoio à Implementação da Base Nacional Comum Curricular – ProBNCC, cuja adesão pela Secretaria de Estado da Educação do Espírito Santo - SEDU e União Nacional dos Dirigentes Municipais de Educação, seccional Espírito Santo - UNDIME/ES, revela o compromisso das duas instituições em construir um currículo, em regime de colaboração entre estado e municípios, para proporcionar uma dinâmica de continuidade na formação do estudante de todo o território espírito-santense e desenvolver uma visão integrada para o desenvolvimento das ações necessárias para implementação e gestão curricular.\n\nPara o desenvolvimento de um trabalho de tal magnitude, foi instituída, pela Portaria Nº037-R/2018, uma estrutura de governança, visando dar assento, em igualdade, a instâncias representativas do estado e municípios, bem como a instituições que representam os profissionais da educação e as que são responsáveis por sua formação.\n\nNa mesma portaria foi instituída a equipe de elaboração curricular, composta por duas coordenações estaduais (CONSED e UNDIME), três coordenações estaduais de etapa (Educação Infantil e Ensino Fundamental - Anos Iniciais e Anos Finais), um analista de gestão, um articulador de regime de colaboração e 19 redatores dos componentes curriculares elencados na BNCC, além dos articuladores do Conselho Estadual de Educação - CEE e da União dos Conselhos Municipais de Educação - UNCME. Importante mencionar que a equipe de redatores foi composta por professores das redes estadual e municipal, que convidaram outros professores colaboradores de diferentes redes para contribuir com a elaboração desse documento.\n\nAlém do estudo profundo da Base Nacional Comum Curricular, a equipe de currículo realizou estudos dos documentos normativos e legais da educação nacional (Constituição Federal de 1988, LDB 9394/96, Diretrizes Nacionais da Educação Básica: Diversidade e Inclusão de 2013), de currículos nacionais e internacionais, e, principalmente, dos currículos já construídos e vividos na rede estadual, no caso o Currículo Básico Escola Estadual - CBEE (ES, 2009), e nas redes municipais do Espírito Santo². No seu processo de elaboração, o documento passou por duas consultas públicas online, a primeira direcionada aos profissionais de educação e a segunda também aberta para a sociedade; bem como por leitura crítica de profissionais e instituições representativas que desenvolvem estudos e pesquisas, uma vez que influenciam na construção de políticas públicas e formação profissional de professores nas diversas áreas e etapas que são abrangidas pelo currículo. Há que se destacar ainda o papel imprescindível dos articuladores municipais, indicados por suas secretarias, das SREs e professores referência, na mobilização dos professores e demais profissionais da educação de suas redes para que fossem protagonistas da construção coletiva e colaborativa deste documento curricular, que no total recebeu 10.649 contribuições de profissionais da educação e da sociedade civil.\n\nO Currículo do Espírito Santo, construído por muitos sujeitos, é resultado do trabalho em conjunto entre as instituições parceiras e a equipe de currículo e da colaboração de diversos profissionais da educação dos mais diferentes lugares de nosso estado, o que permitiu o avanço das propostas inicialmente apresentadas e uma visão mais integrada do percurso formativo dos estudantes da educação básica de nosso território, que direcionará outras políticas e ações necessárias para a sua implementação nas secretarias e escolas estaduais e municipais, incluindo orientações didático-metodológicas, materiais didáticos e formação docente.\n\nImportante destacar que o Currículo do Espírito Santo contempla os componentes curriculares abordados pela Base Nacional Comum Curricular, que define as aprendizagens essenciais dos componentes obrigatórios em todos os currículos, e os contextualiza, aprofunda e complementa nas questões relativas à educação do nosso Estado. Cabe a cada rede, adesa a este documento, elaborar outros componentes que sejam exigidos por normas específicas ao seu contexto.\n\n¹ Quando homologadas as aprendizagens essenciais do Ensino Médio, elas serão incorporadas a esse documento.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

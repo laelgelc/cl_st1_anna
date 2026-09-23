@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02eb85bb8ff7a882006ab2fdf325ac87d281f9f3f3fab602a0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 452,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 469,
+      "output_tokens_details": {
+        "reasoning_tokens": 115
+      },
+      "total_tokens": 921
+    }
+  },
+  "created_at": "2026-09-22T22:15:19Z",
+  "duration_seconds": 4.032,
+  "error": null,
+  "excerpt_id": "ap_ef_5",
+  "filename": "ap_ef_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "5e2fdb4287ce42cd798bf177967bcf52dd10c5b6c5bf49b975d0d27e822427c8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "c38a56971c861a454573e9566c4c0b686aa0a7a864486079ef2ad90f10536ff1",
+    "rendered_prompt_sha256": "f02894c8ac677322d8e93d0163b8f10ec08b4e0099b9e54a89a55b2f734f7179",
+    "source_text_sha256": "97fa65c97d4bd664ed4da1e80085c9c48aeba1419fed1f78ad385bedc27365ff"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_ef_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 497,
+    "filename": "ap_ef_5.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_ef_5.txt",
+    "state": "ap",
+    "word_count_original": 255
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_ef_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_ef_5.json"
+  },
+  "raw_response_text": "## Transversalidade\n\nCabe aos sistemas e redes de ensino, assim como às escolas, em suas respectivas esferas de autonomia e competência, incorporar aos currículos e às propostas pedagógicas a abordagem de temas contemporâneos que afetam a vida humana em escala local, regional e global, preferencialmente de forma transversal e integradora.\n\nHanze (2018) nos leva a refletir que a transversalidade diz respeito à possibilidade de se instituir, na prática educativa, uma analogia entre aprender conhecimentos teoricamente sistematizados (aprender sobre a realidade) e as questões da vida real (aprender na realidade e da realidade). A escola vista por esse enfoque, deve possuir uma visão mais ampla, acabando com a fragmentação do conhecimento, pois somente assim se apossará de uma cultura interdisciplinar.\n\nA transversalidade e a interdisciplinaridade são modos de trabalhar o conhecimento que buscam reintegração de procedimentos acadêmicos, que ficaram isolados uns dos outros pelo método disciplinar. Quando nos referimos aos temas transversais nos os colocamos como um eixo unificador da ação educativa, em torno do qual se organizam as disciplinas.\n\nA abordagem dos temas transversais deve se orientar pelos processos de vivência da sociedade, pelas comunidades, alunos e educadores em seu dia-a-dia. Os objetivos e conteúdos dos temas transversais devem estar inseridos em diferentes cenários de cada uma das disciplinas. Considera-se a transversalidade como o modo apropriado para a ação pedagógica destes temas. A transversalidade só tem significado dentro de uma compreensão interdisciplinar do conhecimento, sendo uma proposta didática que possibilita o tratamento de conteúdos de forma integrada em todas as áreas do conhecimento.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

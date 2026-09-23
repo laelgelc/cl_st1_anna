@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ccf29691cd5c0e4006ab31054cce487d2859809daa81d1906",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 479,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 754,
+      "output_tokens_details": {
+        "reasoning_tokens": 355
+      },
+      "total_tokens": 1233
+    }
+  },
+  "created_at": "2026-09-22T23:33:47Z",
+  "duration_seconds": 6.977,
+  "error": null,
+  "excerpt_id": "to_em_65",
+  "filename": "to_em_65.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2814aba635742d32a5876c17fd847b946567bf957395fd33579a6d4d7666525d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "35bd50bb0f93a931e1a847fbc7ba3eb0227389d5b423e67247eedf8bf7a32403",
+    "rendered_prompt_sha256": "62ff347048d60bccb4824dcf9b2cf2c5fd83a9ea2dda7cafb15e53d372b32a93",
+    "source_text_sha256": "60bd7e3825e331d1cff44e7c62496144dd192c5304e2681b415886c7fb249476"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_65.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4068,
+    "filename": "to_em_65.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_65.txt",
+    "state": "to",
+    "word_count_original": 269
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_65.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_65.json"
+  },
+  "raw_response_text": "## 9. AVALIAÇÃO\n\n### 9.1 Avaliação Institucional\n\nOs sistemas, redes e instituições de ensino deverão avaliar o processo de implementação do DCT-TO, Etapa Ensino Médio, e os resultados deste novo currículo, por meio de instrumentos de registros das metas (quantitativas e qualitativas) de curto, médio e longo prazos, considerando os indicadores relacionados:\n\n- nº de escolas do Ensino Médio com carga horária, conforme legislação vigente, no decorrer do percurso formativo;\n- nº de escolas com apenas um itinerário formativo disponível para escolha dos estudantes;\n- nº de escolas com, pelo menos, dois itinerários formativos diversos, disponíveis para escolha dos estudantes;\n- nº de escolas com itinerários formativos simples (de cada área do conhecimento), disponíveis para escolha dos estudantes;\n- nº de escolas com itinerários formativos integrados, disponíveis para escolha dos estudantes;\n- nº de estudantes matriculados por itinerários formativos, disponíveis para sua escolha;\n- nº de distribuição de matrículas de meninos e de meninas nos diferentes itinerários formativos ofertados;\n- nº de escolas com oferta de itinerário formativo técnico-profissional;\n- nº de escolas com estudantes matriculados em cada período de EJA/3º Segmento;\n- nº de escolas de Ensino Médio do campo, indígena e campo quilombola;\n- nº de estudantes de Ensino Médio parcial diurno, matriculados em cada um dos itinerários formativos ofertados pelas redes e respectivas unidades de ensino, conforme estruturas curriculares das modalidades de ensino atendidas;\n- nº de estudantes de Ensino Médio parcial noturno, matriculados em cada um dos itinerários formativos ofertados pelas redes e respectivas unidades de ensino, conforme estruturas curriculares das modalidades de ensino atendidas; e\n- nº de estudantes de Ensino Médio em tempo integral, matriculados em cada um dos itinerários formativos ofertados pelas redes e respectivas unidades de ensino.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

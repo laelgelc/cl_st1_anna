@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_060e3a198ed17b93006ab30fa6daa087d2868824b73bf2c974",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 480,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 449,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 929
+    }
+  },
+  "created_at": "2026-09-22T23:30:52Z",
+  "duration_seconds": 5.658,
+  "error": null,
+  "excerpt_id": "sp_em_27",
+  "filename": "sp_em_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "191a445aaa6b4885df9178f93eec5740ff954c6cc8a094b57eadc23ba2babbbd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "efa44d7460a897840d69ddfcaf63bb15c14b18e64b9718aa277a956e8b3e4afb",
+    "rendered_prompt_sha256": "d3d76271ea3db1bca8bf09f8fd1fcf659dcf1f5bebe9cb11da3e58aa3b2af4a8",
+    "source_text_sha256": "ea88735cb9d91a423869f30a825bcad4c3e53b3641908da06b196bd84ebf0643"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_em_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3921,
+    "filename": "sp_em_27.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_em_27.txt",
+    "state": "sp",
+    "word_count_original": 256
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_em_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_em_27.json"
+  },
+  "raw_response_text": "## A transição da etapa do Ensino Fundamental para a etapa do Ensino Médio\n\nPara a construção do Currículo Paulista do Ensino Médio, documentos norteadores serviram de base; são eles: Currículo Paulista das etapas Educação Infantil e Ensino Fundamental; Currículo Oficial do Estado de São Paulo; e BNCC. De posse desses normativos, foi realizado o estudo dos objetos de aprendizagem e do nível de complexidade com que as habilidades da BNCC se desenvolvem ao longo dos anos iniciais – AI e dos anos finais – AF do Ensino Fundamental, com o objetivo de identificar a progressão das habilidades e estabelecer a conexão entre elas e o Ensino Médio – EM.\n\nA partir do estudo dos objetos de conhecimento de cada componente curricular na BNCC (Ciências, Biologia, Física e Química), foi possível identificar que alguns deles passaram por rearranjos ao longo dos anos/séries do Ensino Fundamental e Ensino Médio quando comparados ao antigo Currículo do Estado de São Paulo (2012), e, consequentemente, as habilidades a serem desenvolvidas também. Assim, foi possível entender como a progressão das habilidades se apresentava ao longo dos segmentos (AI e AF). Após esses estudos, foram criados mapas conceituais com o objetivo de parametrizar e marcar o ponto de partida para a construção do Currículo Paulista etapa do Ensino Médio, possibilitando a escolha e o nível de aprofundamento dos objetos de conhecimento.\n\nNesse sentido, processos cognitivos como “identificar” e “reconhecer” terão predominância no Ensino Fundamental, cabendo ao Ensino Médio o desenvolvimento de habilidades mais complexas, abrangendo as capacidades de: “analisar”, “interpretar” e “argumentar”, por exemplo.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

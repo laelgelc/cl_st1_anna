@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e16a04daefb8af9006ab30d6ab16087d2a1cfff714b9f6960",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 290,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 326,
+      "output_tokens_details": {
+        "reasoning_tokens": 131
+      },
+      "total_tokens": 616
+    }
+  },
+  "created_at": "2026-09-22T23:21:18Z",
+  "duration_seconds": 3.469,
+  "error": null,
+  "excerpt_id": "rr_inf_13",
+  "filename": "rr_inf_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9c7270d38a7632f9950ac2b9d733690711b39ddc952951a8fe84d661551164eb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6a0ea56ac480b91e7973a40b1bcb40e391964e538564ba0c17019d441cc45f18",
+    "rendered_prompt_sha256": "30fed5194919ccb0a7227a5ea15aeed781223e69195295ef167bbd7305e50d43",
+    "source_text_sha256": "1a1fa2f505ba01243eb1e05589d361cf7e3bc45b4640cd83bc1d6163658349bd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3511,
+    "filename": "rr_inf_13.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_13.txt",
+    "state": "rr",
+    "word_count_original": 130
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_13.json"
+  },
+  "raw_response_text": "### 3.5 ORGANIZADOR CURRICULAR DA EDUCAÇÃO INFANTIL – RR\n\nO organizador curricular contempla os Campos de Experiências e visa assegurar e garantir que os Direitos de Aprendizagem e os Objetivos de Aprendizagem e desenvolvimentos sejam realizados conforme a gradação existentes por faixa etária.\n\nComo é possível observar no exemplo apresentado, cada objetivo de aprendizagem e desenvolvimento é identificado por um código alfanumérico cuja composição é explicada a seguir: Segundo esse critério, o código EI02TS01 refere-se ao primeiro objetivo de aprendizagem e desenvolvimento proposto no campo de experiências “Traços, sons, cores e formas” para as crianças bem pequenas (de 1 ano e 7 meses a 3 anos e 11 meses). Cumpre destacar que a numeração sequencial dos códigos alfanuméricos não sugere ordem ou hierarquia entre os objetivos de aprendizagem e desenvolvimento.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

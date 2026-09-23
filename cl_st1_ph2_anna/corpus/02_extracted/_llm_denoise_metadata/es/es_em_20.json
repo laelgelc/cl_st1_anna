@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b44d1b76dce3162006ab300a9a5a487d284062c0827b688ed",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 711,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 660,
+      "output_tokens_details": {
+        "reasoning_tokens": 96
+      },
+      "total_tokens": 1371
+    }
+  },
+  "created_at": "2026-09-22T22:26:54Z",
+  "duration_seconds": 5.409,
+  "error": null,
+  "excerpt_id": "es_em_20",
+  "filename": "es_em_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e84182b759a9ebe6bcabd5f81a47fa3598359f10418d485cda73a4711ecba54d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8cd1874ba83b89a2a0b64dfe264de7f97473f6450a607f6e89d57d624081331e",
+    "rendered_prompt_sha256": "8a51dc6e0bb0d5fe0f40ed38abe046e211ec5d7746e8bd06a23249fa941d21fe",
+    "source_text_sha256": "1cbdee7d285250453c6bc557fe05bbe3e14bf1559adba8700fa182fa4c925d4c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_em_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1027,
+    "filename": "es_em_20.txt",
+    "filepath": "corpus/00_source_per_state/es/es_em_20.txt",
+    "state": "es",
+    "word_count_original": 372
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_em_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_em_20.json"
+  },
+  "raw_response_text": "# ITINERÁRIO FORMATIVO DE APROFUNDAMENTO – IFA\n\n## 1. INTRODUÇÃO\n\nOs Itinerários Formativos de Aprofundamento (IFAs) constituem-se como eixos centrais para a consolidação de um Ensino Médio integral, plural e significativo, conforme estabelecido pela Resolução CNE/CEB nº 4/2025. Eles representam muito mais do que a simples continuidade dos estudos, sendo percursos educativos que visam ao aprofundamento progressivo e contextualizado para robustecer conhecimentos das quatro áreas – Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias e Ciências Humanas e Sociais Aplicadas – em diálogo constante com a Formação Geral Básica.\n\nSob a perspectiva da formação humana integral, os IFAs são estruturados para promover o desenvolvimento de estudantes autônomos, críticos e socialmente participativos, capazes de intervir de maneira ética e criativa na realidade. Seu desenho curricular está alicerçado em quatro eixos estruturantes, os quais articulam teoria e prática, ciência e cultura, indivíduo e coletividade.\n\nAprofundar os saberes de cada área não significa apenas expandir repertórios disciplinares, mas sim se debruçar sobre questões sociais, ambientais, econômicas, políticas e tecnológicas contemporâneas. Trata-se de oferecer aos(às) jovens as ferramentas conceituais e metodológicas necessárias para ler o mundo de forma crítica, identificar problemas, formular hipóteses e propor soluções criativas e fundamentadas, seja por meio da pesquisa científica, da expressão artística, da modelagem matemática ou da análise sociocultural.\n\nNesse sentido, os IFAs assumem um compromisso com a equidade, com a justiça curricular e com o enfrentamento dos preconceitos de gênero e das desigualdades financeiras, culturais, sociais, étnicas, religiosas etc., valorizando os saberes tradicionais, as múltiplas expressões culturais e as perspectivas de grupos historicamente marginalizados como negros, mulheres, indígenas, LGBTQIAPN+, entre outros. Eles incentivam o protagonismo juvenil e a construção de projetos de vida alinhados não apenas com aspirações individuais, mas com um projeto coletivo de sociedade pautado pela democracia, pelos direitos humanos e pela sustentabilidade socioambiental.\n\nAo integrar ciência, tecnologia, cultura e trabalho em uma perspectiva emancipatória, os Itinerários Formativos de Aprofundamento concretizam o direito à educação de qualidade e preparam os(as) estudantes para os desafios do século XXI, formando cidadãos e cidadãs de direitos, conscientes e capazes de atuar com responsabilidade, criatividade e senso crítico em um mundo em constante transformação, objetivando a construção de um estado de bem-estar social.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

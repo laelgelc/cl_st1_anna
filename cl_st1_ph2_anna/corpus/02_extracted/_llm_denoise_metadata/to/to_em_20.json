@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04fce6f9ab5d357d006ab310232d0887d28adecacb0612c08d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 996,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1049,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 2045
+    }
+  },
+  "created_at": "2026-09-22T23:32:59Z",
+  "duration_seconds": 8.387,
+  "error": null,
+  "excerpt_id": "to_em_20",
+  "filename": "to_em_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "984ec4649a33a49fcb5e2588bb0819bf4516e75f44159fe9330dddab7700ca5b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "54cdf7cb2b621a3773b7eaec8b690132139e9c3074a3815a7deaef5b1475acc8",
+    "rendered_prompt_sha256": "a3bb690bad8cfefabae3f180d17a1a975a189e1be74ec58af742d5c400a76383",
+    "source_text_sha256": "7b6cdf3ffd9b089c9e11bb84168079a9b66f60f9cabf47b9a6697613ba22a8a4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4019,
+    "filename": "to_em_20.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_20.txt",
+    "state": "to",
+    "word_count_original": 567
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_20.json"
+  },
+  "raw_response_text": "### 3.4 Trilhas de Aprofundamento\n\nAs Trilhas de Aprofundamento são compostas por uma sequência de unidades curriculares, distribuídas nas três séries do Ensino Médio, em módulos semestrais (ou outras possibilidades), que possibilitam o aprofundamento e ampliação das aprendizagens em uma ou mais Áreas do Conhecimento.\n\nAs Trilhas de Aprofundamento são de livre escolha do estudante, ofertadas em conformidade com as condições da unidade escolar. O estudante poderá realizar matrícula em mais de uma Trilha de Aprofundamento concomitantemente, desde que haja compatibilidade de carga horária.\n\nQuaisquer alterações e novas proposições feitas nas Unidades Curriculares quanto às Trilhas de Aprofundamento devem ter parecer de validação da Diretoria Regional de Educação-DRE, e este encaminhado à SEDUC-TO para aprovação do CEE/TO.\n\nAs Eletivas elaboradas pelas Unidades Escolares devem ter a validação da Diretoria Regional de Educação-DRE.\n\nDestaca-se que as Trilhas de Aprofundamento podem ser:\n\na) Trilhas de Aprendizagem Simples (contempla uma área de conhecimento);\nb) Trilhas de Aprendizagem Integradas (contempla duas ou mais áreas de conhecimento).\n\nEm razão do exposto, faz-se necessária uma sequência concatenada das Unidades e Arranjos Curriculares, de modo que permita aos estudantes, sem prejuízo à aprendizagem e continuidade pedagógica, a migração de uma Trilha de Aprofundamento para outra ou transferir-se de unidade escolar.\n\nSendo assim, a proposta das Trilhas de Aprofundamento contemplam os quatro Eixos Estruturantes do Referencial dos Itinerários Formativos; sendo que as Habilidades Gerais dos Itinerários Formativos são associadas às Competências Gerais da BNCC e, as Habilidades Específicas, dos Itinerários Formativos são associados aos Eixos Estruturantes.\n\nPara que todos os estudantes tenham opção de cursar Aprofundamentos em qualquer das Áreas do Conhecimento, recomenda-se que:\n\n- Escolas de menor porte sem outras unidades escolares nas imediações: ofertem, pelo menos, dois Aprofundamentos integrados (com duas Áreas do Conhecimento cada ou uma Formação Técnica e Profissional) ou cinco Aprofundamentos simples (um para cada Área do Conhecimento e Formação Técnica Profissional).\n- Escolas de menor porte com outras unidades escolares nas imediações: ofertem, pelo menos, um Aprofundamento integrado (com duas Áreas do Conhecimento cada ou uma Formação Técnica e Profissional) ou um Aprofundamento simples (com apenas uma Área do Conhecimento ou uma Formação Técnica e Profissional), com a possibilidade dos estudantes cursarem outros Aprofundamentos em unidades vizinhas.\n- Escolas de médio porte sem outras escolas nas imediações: ofertem, pelo menos, três Aprofundamentos integrados (com duas Áreas do Conhecimento cada ou Formação Técnica e Profissional) ou cinco Aprofundamentos simples (com apenas uma Área do Conhecimento cada e Formação Técnica e Profissional).\n- Escolas de médio porte com outras escolas nas imediações: ofertem, pelo menos, dois Aprofundamentos integrados (com duas Áreas do Conhecimento cada ou uma Formação Técnica e Profissional) ou dois Aprofundamentos simples (com apenas uma Área do Conhecimento cada ou uma Formação Técnica e Profissional), com a possibilidade dos estudantes cursarem outros Aprofundamentos em unidades vizinhas.\n- Escolas de maior porte sem outras escolas nas imediações: ofertem, pelo menos, quatro Aprofundamentos integrados (com duas Áreas do Conhecimento cada ou uma Formação Técnica e Profissional) ou oito Aprofundamentos simples (dois para cada Área do Conhecimento e/ou Formação Técnica e Profissional).\n- Escolas de maior porte com outras escolas nas imediações: ofertem, pelo menos, três Aprofundamentos integrados (com duas Áreas do Conhecimento cada ou uma Formação Técnica e Profissional) ou três Aprofundamentos simples (com apenas uma Área do Conhecimento cada ou uma Formação Técnica e Profissional), com a possibilidade de os estudantes cursarem outros Aprofundamentos em unidades vizinhas.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

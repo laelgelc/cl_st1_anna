@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0830c88bbf765766006ab2fc3cc1ec87d2a969c710dc47a847",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 773,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1049,
+      "output_tokens_details": {
+        "reasoning_tokens": 424
+      },
+      "total_tokens": 1822
+    }
+  },
+  "created_at": "2026-09-22T22:08:05Z",
+  "duration_seconds": 8.545,
+  "error": null,
+  "excerpt_id": "al_ef_22",
+  "filename": "al_ef_22.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a257a7ba59a86ec81c3f7a3f67ea139ab587c5882624fb4fbf181f74bf66a567",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "15062823fa4c4da93363b1d78dd4fb2d3f067e92569cf0d3e199bba18925f6fe",
+    "rendered_prompt_sha256": "f292aa2a19c1b9410d4f2bc07d4aeef56a5c59cdbb4ecfc57a63df4ac9670c83",
+    "source_text_sha256": "21a8acbe9fe9e8a6b4a442e36bffe5075bed3132ed68a79ad8c9f4f93c7e694c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_22.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 156,
+    "filename": "al_ef_22.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_22.txt",
+    "state": "al",
+    "word_count_original": 435
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_22.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_22.json"
+  },
+  "raw_response_text": "O Eixo da Oralidade diz respeito às práticas de linguagem que ocorrem em situação oral, seja face a face ou por outros modos de interação, tais como: aula dialogada, webconferência, mensagem gravada, spot de campanha, jingle, seminário, debate, programa de rádio, entrevista, declamação de poemas (com ou sem efeitos sonoros), peça teatral, apresentação de cantigas e canções, playlist comentada de músicas, vlog de game, contação de histórias, diferentes tipos de podcasts e vídeos, dentre outras.\n\nO tratamento das práticas orais propostas na BNCC e contempladas também neste referencial compreende:\n\n- Consideração e reflexão sobre as condições de produção dos textos orais que regem a circulação de diferentes gêneros nas diferentes mídias e campos de atividade humana\n  - Refletir sobre diferentes contextos e situações sociais em que se produzem textos orais e sobre as diferenças em termos formais, estilísticos e linguísticos que esses contextos determinam, incluindo-se aí a multimodalidade e a multissemiose.\n  - Conhecer e refletir sobre as tradições orais e seus gêneros, considerando-se as práticas sociais em que tais textos surgem e se perpetuam, bem como os sentidos que geram.\n- Compreensão de textos orais\n  - Proceder a uma escuta ativa, voltada para questões relativas ao contexto de produção dos textos, para o conteúdo em questão, para a observação de estratégias discursivas e dos recursos linguísticos e multissemióticos mobilizados, bem como dos elementos paralinguísticos e cinésicos.\n- Produção de textos orais\n  - Produzir textos pertencentes a gêneros orais diversos, considerando-se aspectos relativos ao planejamento, à produção, ao redesign, à avaliação das práticas realizadas em situações de interação social específicas.\n- Compreensão dos efeitos de sentidos provocados pelos usos de recursos linguísticos e multissemióticos em textos pertencentes a gêneros diversos\n  - Identificar e analisar efeitos de sentido decorrentes de escolhas de volume, timbre, intensidade, pausas, ritmo, efeitos sonoros, sincronização, expressividade, gestualidade etc. Produzir textos levando em conta efeitos possíveis.\n- Relação entre fala e escrita\n  - Estabelecer relação entre fala e escrita, levando-se em conta o modo como as duas modalidades se articulam em diferentes gêneros e práticas de linguagem (como jornal de TV, programa de rádio, apresentação de seminário, mensagem instantânea etc.), as semelhanças e as diferenças entre modos de falar e de registrar a escrita e os aspectos sociodiscursivos, composicionais e linguísticos de cada modalidade sempre relacionados com os gêneros em questão.\n  - Oralizar o texto escrito, considerando-se as situações sociais em que tal tipo de atividade acontece, seus elementos paralinguísticos e cinésicos, dentre outros.\n  - Refletir sobre as variedades linguísticas, adequando sua produção a esse contexto.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

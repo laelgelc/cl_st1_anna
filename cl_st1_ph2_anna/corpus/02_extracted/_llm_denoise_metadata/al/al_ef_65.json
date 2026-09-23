@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0acc85eb9a071956006ab2fc73e80887d2b92c4d252a51f0a0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1120,
+      "input_tokens_details": {
+        "cache_write_tokens": 1117,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1503,
+      "output_tokens_details": {
+        "reasoning_tokens": 648
+      },
+      "total_tokens": 2623
+    }
+  },
+  "created_at": "2026-09-22T22:09:03Z",
+  "duration_seconds": 11.675,
+  "error": null,
+  "excerpt_id": "al_ef_65",
+  "filename": "al_ef_65.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a9d158ad600ff79529d948ca8fd30d64daa2f897ab742bfafa0f77f730a5bef4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9c4aa262dc9efdae7205573ac950957ae327836d4f5d3673cfe73fa07f91d2a3",
+    "rendered_prompt_sha256": "cf3eebf00671c578046e82a9e91617eac8f6b6e017f35528360bbd40e824f683",
+    "source_text_sha256": "4328d95ed8a85d64b025f24f8459c46075388b7460f4be1fe58ce885f7d63bd4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_65.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 203,
+    "filename": "al_ef_65.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_65.txt",
+    "state": "al",
+    "word_count_original": 599
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_65.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_65.json"
+  },
+  "raw_response_text": "## 2.6 Competências específicas da matemática\n\nDe acordo com Perrenoud (2000), competência é a faculdade de mobilizar um conjunto de recursos cognitivos (saberes, capacidades, informações etc.) para solucionar com pertinência e eficácia uma série de situações.\n\nAs competências específicas da matemática para o ensino fundamental serão apresentadas a seguir.\n\n- Reconhecer que a Matemática é uma ciência humana, fruto das necessidades e preocupações de diferentes culturas, em diferentes momentos históricos, e é uma ciência viva, que contribui para solucionar problemas científicos e tecnológicos e para alicerçar descobertas e construções, inclusive com impactos no mundo do trabalho.\n- Desenvolver o raciocínio lógico, o espírito de investigação e a capacidade de produzir argumentos convincentes, recorrendo aos conhecimentos matemáticos para compreender e atuar no mundo.\n- Compreender as relações entre conceitos e procedimentos dos diferentes campos da Matemática (Aritmética, Álgebra, Geometria, Estatística e Probabilidade) e de outras áreas do conhecimento, sentindo segurança quanto à própria capacidade de construir e aplicar conhecimentos matemáticos, desenvolvendo a autoestima e a perseverança na busca de soluções.\n- Fazer observações sistemáticas de aspectos quantitativos e qualitativos presentes nas práticas sociais e culturais, de modo a investigar, organizar, representar e comunicar informações relevantes, para interpretá-las e avaliá-las crítica e eticamente, produzindo argumentos convincentes.\n- Utilizar processos e ferramentas matemáticas, inclusive tecnologias digitais disponíveis, para modelar e resolver problemas cotidianos, sociais e de outras áreas de conhecimento, validando estratégias e resultados.\n- Enfrentar situações-problema em múltiplos contextos, incluindo-se situações imaginadas, não diretamente relacionadas com o aspecto prático-utilitário, expressar suas respostas e sintetizar conclusões, utilizando diferentes registros e linguagens (gráficos, tabelas, esquemas, além de texto escrito na língua materna e outras linguagens para descrever algoritmos, como fluxogramas, e dados).\n- Desenvolver e/ou discutir projetos que abordem, sobretudo, questões de urgência social, com base em princípios éticos, democráticos, sustentáveis e solidários, valorizando a diversidade de opiniões de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.\n- Interagir com seus pares de forma cooperativa, trabalhando coletivamente no planejamento e desenvolvimento de pesquisas para responder a questionamentos e na busca de soluções para problemas, de modo a identificar aspectos consensuais ou não na discussão de uma determinada questão, respeitando o modo de pensar dos colegas e aprendendo com eles.\n\n## 2.7 A Progressividade da Aprendizagem dos Conhecimentos Matemáticos\n\nA BNCC dispõe, de forma sistematizada e distribuída nos 9 anos do Ensino Fundamental, a progressividade do conhecimento embasada nas aprendizagens adquiridas nos anos anteriores.\n\nSegundo a BNCC, na definição das habilidades, a progressão ano a ano se baseia na compreensão e utilização de novas ferramentas e também na complexidade das situações-problema propostas, cuja resolução exige a execução de mais etapas ou noções de unidades temáticas distintas.\n\n- Figuras geométricas espaciais: reconhecimento e relações com objetos familiares do mundo físico\n- Figuras geométricas planas (círculo, quadrado, retângulo e triângulo): reconhecimento e características\n- Figuras geométricas planas (triângulo, quadrado, retângulo, trapézio e paralelogramo): reconhecimento e análise de características\n- Figuras geométricas planas (polígonos convexo e côncavo): reconhecimento, representações e características\n- Figuras geométricas planas: características, representações e ângulos\n- Congruência de figuras geométricas planas\n- Simetria de reflexão\n- Figuras geométricas planas: características, representações e ângulos dos triângulos e quadriláteros\n- Ampliação e redução de figuras poligonais em malhas quadriculadas: reconhecimento da congruência dos ângulos e da proporcionalidade dos lados correspondentes",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

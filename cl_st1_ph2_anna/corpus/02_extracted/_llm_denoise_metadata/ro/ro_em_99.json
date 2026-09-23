@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e5d94ab5329438c006ab30c8f943087d2a38b6643ef901f50",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 672,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 748,
+      "output_tokens_details": {
+        "reasoning_tokens": 170
+      },
+      "total_tokens": 1420
+    }
+  },
+  "created_at": "2026-09-22T23:17:40Z",
+  "duration_seconds": 5.437,
+  "error": null,
+  "excerpt_id": "ro_em_99",
+  "filename": "ro_em_99.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d6a4b747b3e6592135596ee84ddba7fcfbfed1986a9e075fff1580e75ae8248f",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "10b661e9d8751214446a88f0710d4a6b376268ccdbbc7c823d27914ab0eb00ad",
+    "rendered_prompt_sha256": "ef0fd3ef389dc4f7a1862991a6c607db30ca454f6579ce90b85f69c231b388cf",
+    "source_text_sha256": "2f0761adb4a531ebddf55b331ab88bef2a6870a8ce007f5b94926e10564499e5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_99.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3320,
+    "filename": "ro_em_99.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_99.txt",
+    "state": "ro",
+    "word_count_original": 410
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_99.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_99.json"
+  },
+  "raw_response_text": "### 3.3.8.6. Autoavaliação\n\nA autoavaliação é um instrumento que visa propiciar aos estudantes uma visão de seus desempenhos de forma crítica, criteriosa e sistemática, a construção de conhecimentos, habilidades, valores e atitudes, indicando estratégias para aprimorar o próprio aprendizado.\n\nSugerimos alguns quadros de autoavaliação que podem compor o processo avaliativo. Eles permitem que os estudantes reflitam sobre a eficiência e a pertinência das atividades, o alcance dos objetivos de aprendizagem estabelecidos no decorrer dos capítulos e a importância das atitudes positivas diante das demandas apresentadas.\n\nDevem ser encarados como recursos de automonitoramento e reflexão, aspectos que contribuem e norteiam os estudantes e o professor para estabelecer compromissos e metas para as próximas etapas de aprendizagem. Mesmo que as atividades tenham sido realizadas em grupos, os quadros devem ser preenchidos individualmente pelos estudantes, no caderno, após o encerramento dos trabalhos e/ou atividades.\n\nEncerrada essa autoavaliação, se o professor considerar adequado, poderá organizar conversas coletivas ou individuais com os estudantes para identificar possíveis problemas ocorridos no percurso de aprendizagem, sugerir formas de aprimoramento ou destacar avanços na produção do conhecimento, entre outras estratégias para favorecer o desenvolvimento.\n\n### 3.3.8.7. Avaliação Atitudinal\n\nO trabalho com projeto de vida pressupõe o desenvolvimento de habilidades e competências relacionadas com valores e atitudes. Constantemente estimulados a realizar atividades em grupo, mesmo quando trabalham sozinhos, os estudantes costumam compartilhar suas produções. Aspectos como respeito, solidariedade, trabalho colaborativo e comunicação podem ser mediados frequentemente em atividades sistematicamente programadas. Com o objetivo de fundamentar o momento de autoavaliação, no fim de cada temática, há um quadro para reflexão atitudinal. Ele poderá ser ampliado com outros temas e posturas, conforme as necessidades identificadas pelo grupo.\n\n### 3.3.8.8. Feedback\n\nComo o trabalho com projeto de vida gira em torno da mobilização de competências, habilidades e atitudes que incentivem a convivência, o respeito, a construção da identidade, a autonomia, o conhecimento sobre o mundo do trabalho, dentre outras questões relacionadas à autogestão da vida. O objetivo é favorecer aos estudantes a consciência de suas atitudes.\n\nSugerimos a seguir um quadro avaliativo, para ser usado ao final de cada temática, que permita ao professor, por meio da observação da postura dos estudantes, dialogar com ele sobre o percurso de aprendizagem construído. O quadro também sugere a abordagem de temas, objetivos e competências discutidos de uma perspectiva atitudinal, além de ser uma oportunidade para assimilar devolutivas sobre o próprio desempenho a fim de reorientar ações futuras.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

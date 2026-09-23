@@ -1,0 +1,9 @@
+Apresentamos o REFERENCIAL CURRICULAR DE ALAGOAS, construído em Regime de colaboração entre Estado e municípios, em consonância com a Base Nacional Comum Curricular (BNCC). O documento tem como premissa, a garantia dos direitos de aprendizagem dos educandos, contribuindo para a promoção de aprendizagens significativas, visando à formação integral de todos os estudantes alagoanos.
+
+Este caderno é direcionado aos professores de Educação Física e busca-se com ele, auxiliar o trabalho pedagógico do professor de forma dinâmica, objetivando garantir o direito de aprendizagens dos estudantes do componente curricular Educação Física, a fim de que estes possam ingressar no Ano/Série subsequente, com as habilidades necessárias e específicas que lhes são inerentes em cada etapa e modalidade de ensino.
+
+O Referencial Curricular de Educação Física encontra-se disposto neste caderno, com a seguinte estrutura organizacional: Na primeira parte detalha-se uma breve introdução ao componente e na sequência os marcos legais que sustentam a Educação Física, como disciplina curricular obrigatória. Na segunda parte, apresenta-se a estrutura do Componente para o Ensino fundamental e a estrutura do seu Currículo, e as expectativas de aprendizagem, a organização curricular do componente de Educação Física, a organização das Unidades Temáticas, as Dimensões do Conhecimento e as competências específicas do componente.
+
+Finalizando o documento, apresentamos o Organizador Curricular com as habilidades diretamente relacionadas às aprendizagens a serem desenvolvidas pelos educandos.
+
+Portanto, o Referencial Curricular de Educação Física, aqui proposto, tem a finalidade de auxiliar os professores na reflexão, no planejamento de suas aulas, na análise e seleção de materiais didáticos e recursos tecnológicos e, em especial que possa contribuir para formação de um cidadão crítico e reflexivo.

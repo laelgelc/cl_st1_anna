@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07aef999fbab9c16006ab303543b5887d29832537cf762fdfe",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 705,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 740,
+      "output_tokens_details": {
+        "reasoning_tokens": 167
+      },
+      "total_tokens": 1445
+    }
+  },
+  "created_at": "2026-09-22T22:38:17Z",
+  "duration_seconds": 5.388,
+  "error": null,
+  "excerpt_id": "mg_em_7",
+  "filename": "mg_em_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "546d7fcba8c6cc7cc3dfb9437bbe0ab5fa6d89f51f62a8e87b54ab771e6ecb50",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ea66c4813a1e9e8ab04e8d36cd0209f9a4f65c42e0357b7ca915736cbe2513c5",
+    "rendered_prompt_sha256": "a786096ac592873539500e83c3b729af3f69411bcbe5df4dda1bf02d2a1d01fb",
+    "source_text_sha256": "6d3ce7ee7f6a7899abd35e722af3e709ba33732a35c4a1c86da6585f12145b05"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1603,
+    "filename": "mg_em_7.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_7.txt",
+    "state": "mg",
+    "word_count_original": 414
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_7.json"
+  },
+  "raw_response_text": "### 1.3.2 Eixos Estruturadores do Currículo Referência de Minas Gerais\n\nO instaurar dessa estrutura e dessa organização, de forma a garantir os direitos de aprendizagens de todos os estudantes, por meio do desenvolvimento das habilidades, competências e vivências destacadas neste documento, deverá perpassar preceitos e fundamentos básicos que norteiam toda a concepção do Currículo Referência de Minas Gerais, desde seu processo construtivo, a leitura deste documento e sua prática em sala de aula.\n\nO educador e a educadora devem refletir sobre quais são as bases que sustentam o PPP, o currículo, a prática docente e as diversas formas de organização e de participação na instituição.\n\nDefendemos uma educação que garanta isonomia e igualdade, que consiga promover uma educação de qualidade, nos preceitos estabelecidos no Plano Nacional de Educação, reconhecendo e valorizando os sujeitos participantes do processo, bem como as múltiplas dimensões da formação humana; uma educação que promova a inclusão e o acesso; que reconheça, respeite e valorize as diversidades; que reconheça seus sujeitos e tempos de vivência e estabeleça laços com a comunidade e seu território.\n\nPropomos, ainda, uma escola que acolha as crianças e juventudes, possibilitando-lhes: lidar melhor com seu corpo, sentimentos e emoções; compreender que a sociedade é formada por pessoas pertencentes a grupos étnico-raciais distintos cuja ancestralidade é base na construção da nação brasileira; promover o diálogo possibilitando a apresentação de opiniões divergentes; combater estereótipos e discriminações de qualquer natureza e violações de direitos; valorizar sua participação social e a dos outros; construir projetos pessoais e coletivos baseados na liberdade, na justiça e cooperação.\n\n### 1.3.3 Eixos Estruturantes do Currículo de Minas Gerais\n\nSe pensar a educação é declarar um direito, ao estruturarmos um documento da natureza do Currículo Referência, estamos afirmando que todos aqueles que estão na escola têm o direito a aprender, a fazer escolhas, a construir argumentos, a dominar linguagens, a compreender fenômenos, a enfrentar problemas e resolvê-los de forma a intervir proativamente no território, exercendo plenamente sua cidadania.\n\nÉ nesse sentido que o educador e a educadora têm papel fundamental na releitura do documento curricular aqui apresentado e na sua efetiva implementação no contexto escolar. Estabelecidos os direitos de aprendizagem para a Educação Infantil, Ensino Fundamental e Ensino Médio, em todo o Estado de Minas, é hora de pensar localmente: o público a ser atendido, a revisão permanente do Projeto Político Pedagógico, as práticas de gestão e as docentes, com vistas a garantir e ampliar os direitos de aprendizagem previstos.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

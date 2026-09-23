@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d33eeac08278085006ab3008a48e087d2bc597bef3bac86d6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 618,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 778,
+      "output_tokens_details": {
+        "reasoning_tokens": 223
+      },
+      "total_tokens": 1396
+    }
+  },
+  "created_at": "2026-09-22T22:26:25Z",
+  "duration_seconds": 7.497,
+  "error": null,
+  "excerpt_id": "es_ef_anos_iniciais_linguagens_lp_1",
+  "filename": "es_ef_anos_iniciais_linguagens_lp_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e4559483a0937dc9f9adaae915de656fcfd87f5ca8f96307d7d5bf99464cde17",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d0d3c0a19afeba1566ab44d8d3b2d48d84635e80d50e0d667bed466c23691f21",
+    "rendered_prompt_sha256": "464cc857d7b2b62fbe3ba47ce4f122ac8317a699b3c64edd221e79615bc16116",
+    "source_text_sha256": "81a04c7e7fa0805332da986a3ed7bbc68f9c6e877e96a0c0ea4a857727be7e9d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_ef_anos_iniciais_linguagens_lp_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1003,
+    "filename": "es_ef_anos_iniciais_linguagens_lp_1.txt",
+    "filepath": "corpus/00_source_per_state/es/es_ef_anos_iniciais_linguagens_lp_1.txt",
+    "state": "es",
+    "word_count_original": 281
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_ef_anos_iniciais_linguagens_lp_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_ef_anos_iniciais_linguagens_lp_1.json"
+  },
+  "raw_response_text": "# Língua Portuguesa\n\n“...de tudo aprendido, resta a certeza do afeto como a primordial metodologia.”  \n(Queirós: 2012, p.25).\n\nDo jardim de muitas infâncias, inocentes e ruidosos pezinhos  \nchegam à escola de Ensino Fundamental, a casa da palavra.  \nTrazem, em seus corações,  \nRitmos, canções e parlendas...  \nCores, música, companheirismo e diversão...  \nEmbrulhados na infância, se despedem dos ursinhos de pelúcia,  \ndos brinquedos tão essenciais para a leitura de mundo:  \nLivros, brinquedos, violão, flautas, plantinhas, pincéis, lápis de cor, escorregador, balanço e afeto.  \nSe despedem do atelier de pintura, do palco do teatro, das infantis mesas redondas bordadas de fazeres em mutirão.  \nE, em busca de outras histórias,  \nOlham crédulos para os professores (tios ainda) cheios de superpoderes.  \nDo alumbramento, a descoberta mágica e incrível  \nDe que há um desenho para a música da palavra ‘mamãe’...  \nda palavra ‘brincar’... da palavra ‘proteção’... ‘amigo’, da palavra ‘irmão’...  \nAo som da gargalhada dos meninos que um dia liam os desenhos da história  \nE nos surpreendem, agora, lendo as palavras poéticas...  \nas palavras simples e felizes dos contos  \ncontados nas rodas de leitura deleite,  \nCrianças que, de pezinhos agasalhados ou envolvidos em um velho chinelinho, chegam à escola com um brilho infantil no olhar, perguntamo-nos: com qual palavra?  \nAfetividade e segurança,  \nCom embasamento teórico e generosidade,  \nCom um olhar amoroso e firmeza nas mãos,  \nCom criatividade, inventividade e reflexão,  \nCom criticidade e dialogismo,  \nCom leitura,  \nEscrita,  \nLiteratura, músicas, jogos  \nEstudo e união.  \nDe mãos dadas,  \nAcolhemos nossos pequenos capixabinhas:  \nindígenas, afrodescendentes, imigrantes, meninos de todas as nações, meninos nossos.  \nCom que palavra fazer essa travessia?  \nCom a palavra respeito,  \ne colaboração,  \ncom a palavra  \nAcolhimento,  \nEstudo,  \nEquipe,  \nCrenças,  \nCertezas,  \nCompromisso e  \nEmancipação.\n\nSilvana Oliveira Medeiros",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

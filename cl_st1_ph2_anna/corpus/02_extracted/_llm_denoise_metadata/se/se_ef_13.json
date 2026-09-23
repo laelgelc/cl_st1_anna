@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0abce3285837cde4006ab30f1660d887d2ab72ed13a5c3d2cc",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 654,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 667,
+      "output_tokens_details": {
+        "reasoning_tokens": 112
+      },
+      "total_tokens": 1321
+    }
+  },
+  "created_at": "2026-09-22T23:28:27Z",
+  "duration_seconds": 5.592,
+  "error": null,
+  "excerpt_id": "se_ef_13",
+  "filename": "se_ef_13.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a4faa4a70f575c2b07af5511793e6e80f9053cd01daa22cefb5f99dbca036307",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "dae520805a88eed4005578e857508a3fd6231ff3bb69ef8ebb1402bc7d23848b",
+    "rendered_prompt_sha256": "9afa41000d259977682c87bf1192a70733f21d0f9893370ebe58399fda3d50bf",
+    "source_text_sha256": "6f9533b42b0816afa928ba9c8a27152e0189af468c6ac9349d4904b5b3da77f6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_ef_13.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3801,
+    "filename": "se_ef_13.txt",
+    "filepath": "corpus/00_source_per_state/se/se_ef_13.txt",
+    "state": "se",
+    "word_count_original": 408
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_ef_13.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_ef_13.json"
+  },
+  "raw_response_text": "GEOGRAFIA\n\nO universo escolar vive em constante transformação, viabilizada através da materialização de saberes e práticas pedagógicas, que buscam dinamizar o processo de ensino-aprendizagem de maneira a contribuir para a formação do aluno enquanto sujeito social inserido no espaço.\n\nEsse método, busca a diversificação do ensino padronizado nos moldes tradicionais, baseado no que Paulo Freire (1981) chama de concepção bancária do ensino, no qual, apenas se depositam conteúdos para os alunos, focando somente na explanação de ideias, de maneira monótona, na maior parte das aulas. O que se deve levar em consideração é que a aula tradicional não deve ser extinguida, porém, precisa ser reelaborada visando às especificidades de cada turma e/ou comunidade escolar, baseando-se nas concepções de espaço vivido e utilizando-se de ferramentas didático-metodológicas as quais possibilitarão o avanço das aulas de maneira lúdica, contribuindo para a formação, aprendizagem e emancipação dos alunos.\n\nRepensar o currículo da geografia à luz da Base Nacional Comum Curricular é um passo importante nessa construção do conhecimento apresentada na Educação Básica. O currículo deve englobar desde situações cotidianas componentes do espaço de vivência do aluno aos mais específicos conceitos globais da geografia, distribuídos em cinco unidades temáticas - O sujeito e seu lugar no mundo, Conexões e escalas, Mundo do trabalho, Formas de representação e pensamento espacial e Natureza, ambientes e qualidade de vida – e adequados à realidade do Ensino Fundamental de 9 anos, de maneira a propor uma ciência baseada no desenvolvimento do raciocínio geográfico e no pensamento complexo, levando a pensar a sua inserção na produção e reprodução do espaço em sua totalidade.\n\nO pensamento espacial está associado ao desenvolvimento intelectual que integra conhecimentos não somente da Geografia, mas também de outras áreas (como Matemática, Ciência, Arte e Literatura). Para o ensino da geografia, muitas são as ferramentas que podem ser utilizadas visando a essa contribuição para a transformação do universo escolar. Seja, por exemplo, no uso de geotecnologias, seja por meio de aulas de campo, ou atividades lúdicas, o objetivo é o mesmo: apresentar uma geografia escolar crítica, interessante, pautada na aprendizagem a partir da formação do aluno enquanto sujeito do espaço e protagonista da sua história. Essa abordagem possibilita a formação integral dos discentes, baseando-se na ideia de levar o aluno a ler e pensar o espaço a partir do seu lugar, interligando os conteúdos ao seu espaço vivido, percebido e concebido conforme norteado por intermédio das competências específicas da Geografia:",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

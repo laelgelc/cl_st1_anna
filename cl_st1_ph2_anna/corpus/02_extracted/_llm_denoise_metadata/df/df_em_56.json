@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_00941023aa113a8c006ab300548ee887d2a6980b0ccff12bae",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 700,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 673,
+      "output_tokens_details": {
+        "reasoning_tokens": 101
+      },
+      "total_tokens": 1373
+    }
+  },
+  "created_at": "2026-09-22T22:25:29Z",
+  "duration_seconds": 4.593,
+  "error": null,
+  "excerpt_id": "df_em_56",
+  "filename": "df_em_56.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "46aa0af4c353840bbae4747a4dd3a5e07e22e054f7028a32d6e78a1700382fc2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9e8654eb4db93f417b0cc71c0ae34f8811334da69272542cd2cf5705e724e500",
+    "rendered_prompt_sha256": "f27df132a64b296c98c1c06678ff07548e23751d7e7c662d593ec693906f086d",
+    "source_text_sha256": "8cdef4babcea2bcfceac3334ab4133bff016f56904fa54f514f935f27fcfeeeb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_56.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 946,
+    "filename": "df_em_56.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_56.txt",
+    "state": "df",
+    "word_count_original": 402
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_56.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_56.json"
+  },
+  "raw_response_text": "## PLANEJAMENTO PEDAGÓGICO\n\nA natureza e as especificidades da EPT exigem que o processo de planejamento, em todas as suas fases, seja incorporado pelas equipes gestoras, no âmbito central, intermediário, e, com maior impacto, pelas equipes das instituições educacionais, espaço onde a política educacional encontra sua concretude.\n\nDessa forma, independentemente do produto esperado ao final de um processo de planejamento, faz-se necessário conhecer e implantar o seguinte caminho:\n\n- Diagnóstico situacional: momento inicial e intermediário em que se busca reconhecer as fraquezas e potencialidades apresentadas no início do planejamento em todas as suas etapas de acompanhamento, com vistas ao permanente aperfeiçoamento e às adaptações das expectativas e dos objetivos.\n- Definição de objetivos/metas: pode-se estabelecer a priori ou a posteriori em relação ao diagnóstico, visando apresentar objetivamente aonde se quer chegar.\n- Construção de plano/projeto: permite, a partir do diagnóstico e da definição de objetivos, estabelecer todas as etapas imprescindíveis para a intervenção na realidade, com vistas aos resultados esperados.\n- Monitoramento/avaliação: processos permanentes que permitem acompanhar e buscar novos caminhos e alternativas que permitam a execução do planejado.\n\n## ORGANIZAÇÃO CURRICULAR\n\nA organização curricular, expressa no Plano de Curso e na Matriz Curricular para a oferta dos cursos de EPT, deve ser pautada nos seguintes pressupostos:\n\n- resgatar a historicidade da ocupação profissional, possibilitando a compreensão de sua evolução social, alinhada ao contexto histórico e à tecnologia vigente;\n- adequação e coerência do curso à vocação produtiva regional, bem como às tecnologias e à organização dos setores produtivos relevantes para o desenvolvimento regional;\n- definição do perfil profissional de conclusão do curso identificado com as demandas do mundo do trabalho;\n- indicação das efetivas possibilidades de contínuo e articulado aproveitamento de estudos;\n- identificação de conhecimentos, saberes e competências pessoais e profissionais alinhados ao perfil profissional de conclusão do curso;\n- organização curricular flexível, a partir de unidades curriculares, projetos, práticas profissionais, entre outros;\n- matriz curricular compatível com os princípios da interdisciplinaridade, da contextualização e da integração entre teoria e prática no processo de ensino e aprendizagem;\n- definição de critérios e procedimentos de avaliação da aprendizagem;\n- identificação de condições técnicas, tecnológicas, recursos físicos e, também, de pessoal habilitado para implantar o curso proposto.\n\nConsiderando a necessária responsabilidade pela definição de Itinerário, é importante enfatizar que a Matriz Curricular deverá estar organizada de forma a garantir que no primeiro e, sempre que possível, no segundo semestre, o estudante entre em contato com unidades curriculares inerentes a qualquer perfil profissional.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

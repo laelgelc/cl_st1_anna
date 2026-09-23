@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04660c7674cbdb10006ab301bde39487d2932d3a3af2e84e0d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 589,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 823,
+      "output_tokens_details": {
+        "reasoning_tokens": 330
+      },
+      "total_tokens": 1412
+    }
+  },
+  "created_at": "2026-09-22T22:31:33Z",
+  "duration_seconds": 8.099,
+  "error": null,
+  "excerpt_id": "ma_ef_24",
+  "filename": "ma_ef_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e0ba9a4577b3ce26a72d3487df2ea9ddf37c14c519f8e809627b3352fa895185",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "688d996256740fda051bcf3ac4ecd9268703e1d2258803e89e4fe4e827033dd2",
+    "rendered_prompt_sha256": "a75c7c5dde698600d1cb04553762f3a75a2053b9736bee02dba56ec0208b8a0f",
+    "source_text_sha256": "19df4db34f62d217d35a114eaf173e8b94edfc7b8e673d399581825fc9f96924"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_ef_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1249,
+    "filename": "ma_ef_24.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_ef_24.txt",
+    "state": "ma",
+    "word_count_original": 348
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_ef_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_ef_24.json"
+  },
+  "raw_response_text": "### 3.1.4 LÍNGUA INGLESA\n\nA língua inglesa, com o passar do tempo, expandiu-se pelo mundo e hoje ocupa a posição de língua franca, visto ser a que mais possibilita a comunicação entre pessoas de todo o globo. Além disso, é a língua mais usada na divulgação de informações, de toda natureza, que circulam pelas redes de comunicação e a principal usada para fazer negócios internacionais.\n\nEssa concepção de língua inglesa como língua franca está descrita na BNCC:\n\n> Outras terminologias, mais recentemente propostas, também provocam um intenso debate no campo, tais como inglês como língua internacional, como língua global, como língua adicional, como língua franca, dentre outras. Em que pese as diferenças entre uma terminologia e outra, suas ênfases, pontos de contato e eventuais sobreposições, o tratamento dado ao componente na BNCC prioriza o foco da função social e política do inglês e, nesse sentido, passa a tratá-la em seu status de língua franca (BRASIL, 2017:241)\n\nCom o objetivo de situar o Brasil neste contexto, o ensino de Língua Inglesa¹ na educação brasileira tornou-se obrigatório,² no país, a partir do 6º ano do Ensino Fundamental (anos finais). E, para atender a essa demanda, este documento orienta ações pedagógicas dentro de “uma perspectiva de educação linguística, consciente e crítica, na qual as dimensões pedagógicas e políticas estão intrinsecamente ligadas” (BRASIL, 2017:241), indo além do desenvolvimento cognitivo dos educandos.\n\nDessa forma, os estudantes terão acesso a uma dimensão inter e multicultural, que lhes garantirá um amplo letramento construído por meio de estratégias que lhes possibilitarão fazer conexões com universos diferentes do seu, de forma engajada, crítica e reflexiva. Essa proposta, portanto, objetiva colaborar com a formação de sujeitos capazes de propor transformações locais e globais, provenientes de demandas reveladas.\n\nÉ importante enfatizar que a BNCC institui o ensino da Língua Inglesa somente nos anos finais do Ensino Fundamental. Entretanto, nada impede que, a qualquer momento, os sistemas, as redes e as escolas ofereçam o ensino dessa língua nas demais etapas. Podem, inclusive, ofertar o ensino de outras línguas, se assim o desejarem.³",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_095bd636bfd87bfa006ab3034c28f487d28e5f230aff87471c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 675,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 652,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 1327
+    }
+  },
+  "created_at": "2026-09-22T22:38:09Z",
+  "duration_seconds": 5.465,
+  "error": null,
+  "excerpt_id": "mg_em_60",
+  "filename": "mg_em_60.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0968953bbe31d5a3accbaf6e509a2a92e01cc5d18fc365476c89e6c22bb3e5fc",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8b01a1c23ebc59facd526a81b8e69bc4fde0b30c1b70f6e301c5c00b4510088d",
+    "rendered_prompt_sha256": "cdd9d225fd2006ffdbc88084fae3a4090e98df83bf572a4ac66664478ea1f10b",
+    "source_text_sha256": "961288006a28539f70a33b2198fa449e587ca8bef5c04a09f2557a8ff7ea2287"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_60.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1593,
+    "filename": "mg_em_60.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_60.txt",
+    "state": "mg",
+    "word_count_original": 388
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_60.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_60.json"
+  },
+  "raw_response_text": "### 3.2.4 As Áreas do Conhecimento no Ensino Médio\n\nA integração entre diferentes disciplinas constitui uma estratégia didática de grande potencial para o sucesso da aprendizagem. Quando os estudantes têm a oportunidade de resolver problemas sob diferentes perspectivas, a aprendizagem se desenvolve mais naturalmente, pois essa integração entre diferentes áreas do saber permite estabelecer relações com conhecimentos e experiências anteriores, ampliá-los, reformular e contextualizar sua aplicação.\n\nNo Currículo Referência as competências e habilidades têm o objetivo de orientar uma aprendizagem motivadora, significativa e interdisciplinar. Sendo assim, é fundamental que a matemática faça um trabalho integrado e alinhado às demais áreas do conhecimento. Essa relação pedagógica e interdisciplinar entre a Matemática e os outros componentes está retratada por meio de habilidades específicas que trazem novos conteúdos a serem trabalhados pelo professor. Um exemplo disso é o registro de algoritmos na resolução de problemas matemáticos, representados na forma analítica e/ou por meio de fluxogramas.\n\nA BNCC contempla essa integração entre as áreas a partir das competências e habilidades e, também, por meio dos Temas Contemporâneos Transversais. Eles trazem uma abordagem que favorece a superação da fragmentação do conteúdo de matemática no processo de ensino e aprendizagem em relação às demais áreas do conhecimentos e temas como Meio Ambiente, Economia, Ciência e Tecnologia.\n\nÉ importante que o estudante associe conceitos matemáticos às aplicações em diversas áreas, como:\n\n- Relacionar função polinomial de 1º grau com economia.\n- Aplicar conhecimentos de probabilidade no estudo de genética.\n- Associar um sistema de equações a um balanceamento químico.\n- Reconhecer a razão entre diferentes grandezas quando estudar densidade demográfica e escala, em Geografia.\n- Relacionar função polinomial de 1º e 2º graus ao estudo de movimento uniforme e movimento uniformemente variado em Física.\n- Compreender o papel da função logarítmica na leitura da escala Richter em Geografia.\n- Relacionar a trigonometria com a Engenharia Civil.\n- Interligar Filosofia com História da Matemática.\n- Reconhecer e aplicar conhecimentos estatísticos na coleta e organização de dados experimentais oriundos de pesquisas reais, além de comunicar os resultados por meio de tabelas e/ou gráficos.\n\nEsses exemplos representam uma pequena amostra da aplicação da matemática em contextos do mundo real. Por isso, é necessário buscar e empreender novas formas de planejamento pedagógico que considerem, de fato, a interdisciplinaridade, traduzida aqui pelo esforço contínuo do professor em conectar conteúdos matemáticos às outras áreas do conhecimento.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e083c77f5d95259006ab307a42b5087d2947949f3f287b033",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 791,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 851,
+      "output_tokens_details": {
+        "reasoning_tokens": 215
+      },
+      "total_tokens": 1642
+    }
+  },
+  "created_at": "2026-09-22T22:56:47Z",
+  "duration_seconds": 11.366,
+  "error": null,
+  "excerpt_id": "pb_inf_e_ef_1",
+  "filename": "pb_inf_e_ef_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "20b910e861d3c7ae7bb825a44e7e412085ff21623a510fe9686bce4c9e9eeae2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "5b5c3e00dc010442f605c138001aab8ea691dbb4ea4b854c01830737d95f6be6",
+    "rendered_prompt_sha256": "bd2fbf435f4d7bed973bf8b9c425398a732a025708b05ff4da687ba7f8adb4f5",
+    "source_text_sha256": "5e3190849c58b326856ab288c2377882da28b11b5e252f4e65c9c9f88028ef07"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_e_ef_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2380,
+    "filename": "pb_inf_e_ef_1.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_e_ef_1.txt",
+    "state": "pb",
+    "word_count_original": 473
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_e_ef_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_e_ef_1.json"
+  },
+  "raw_response_text": "## Apresentação\n\nA Secretaria da Educação do Estado da Paraíba e a União Nacional dos Dirigentes Educacionais (Undime) apresentam a Proposta Curricular do Estado da Paraíba para as creches e escolas públicas e privadas das redes estadual e municipal do território paraibano.\n\nA realização deste documento foi decorrente da aprovação da Base Nacional Comum Curricular (BNCC) pelo Conselho Nacional de Educação (CNE) e a sua homologação, em 2017, pelo Ministério da Educação (MEC), que, por sua vez, requereu uma série de iniciativas a ser implementadas pelos entes federados (União, Estados, Distrito Federal e Municípios), entre elas, o pacto de colaboração entre Estados e Municípios para se elaborar os Currículos dos Estados, numa perspectiva territorial.\n\nEsse regime de colaboração foi instituído pela Portaria nº 331, de 5 de abril de 2018, que dispõe sobre o Programa de Apoio à Implementação da Base Nacional Comum Curricular - ProBNCC e estabelece diretrizes, parâmetros e critérios para sua implementação. Assim sendo, para a implantação da BNCC e elaboração dos Currículos Estaduais para os territórios estaduais, houve a participação efetiva e significativa do Ministério da Educação (MEC), Conselho Nacional de Secretários de Educação (Consed), União Nacional dos Dirigentes Municipais de Educação (Undime), Conselho Estadual de Educação (CEE) e União Nacional dos Conselhos Municipais de Educação (UNCME).\n\nAssim sendo, a Proposta Curricular do Estado da Paraíba foi construída por meio de uma interlocução consistente entre diversidades de vozes e mãos representadas, por professores e educadores das Redes e Sistemas de Ensino do território paraibano, pesquisadores de Universidades Públicas, além de parceiros de movimentos e segmentos sociais. Logo, é uma proposta curricular legitimada pelo viés democrático, sedimentada no diálogo direto com o professor, que vivencia diariamente experiências com o estudante, que, por sua vez, é sujeito do seu tempo, espaço e cultura local. Tudo isso explicita o nosso compromisso e a nossa lealdade em garantir os direitos de aprendizagens dos educandos e da melhoria da educação paraibana.\n\nO direito à Educação de qualidade é o centro do planejamento curricular, instrumento norteador das ações escolares nas unidades educacionais públicas (creches e escolas estaduais e municipais) e privadas da Paraíba. Vale salientar que a Proposta Curricular é um documento aberto a ser complementado pelos respectivos Sistemas de Ensino (público e privado), por meio de seus currículos, Projeto Político Pedagógico e plano de aula dos professores.\n\nPortanto, esperamos que esta proposta seja uma base de orientação importante para os educadores desenvolverem suas práticas educativas cotidianas, de modo a contribuir para a transposição didática efetiva dos objetos de conhecimento/conteúdos e, consequentemente, para a concretização dos objetivos de aprendizagens traçados, os quais garantirão os direitos de aprendizagem de cada criança, adolescentes e jovens e adultos na Educação Básica no território paraibano.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

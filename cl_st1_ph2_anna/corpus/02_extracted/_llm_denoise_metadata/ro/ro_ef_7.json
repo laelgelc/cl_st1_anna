@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01ccb991c1e5f17b006ab30bbf82c487d2b19ab54d8984c7d8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 904,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 858,
+      "output_tokens_details": {
+        "reasoning_tokens": 57
+      },
+      "total_tokens": 1762
+    }
+  },
+  "created_at": "2026-09-22T23:14:12Z",
+  "duration_seconds": 5.244,
+  "error": null,
+  "excerpt_id": "ro_ef_7",
+  "filename": "ro_ef_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b95923f66abb03d76deb09b1c5f70f7a5dee0cb84c4a976082321454f925fd18",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "11cf41f10d8ac44cffaca237471d72da5c7d666910649609a941a62f32df3a73",
+    "rendered_prompt_sha256": "34b844e2f8a6758f7ef289df5647ebb965a35938139c3c47fdd7beb72965c9bd",
+    "source_text_sha256": "9986a216047120112f8202d64b77be52236b99800e46829e7f99bbc187250b83"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3172,
+    "filename": "ro_ef_7.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_7.txt",
+    "state": "ro",
+    "word_count_original": 586
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_7.json"
+  },
+  "raw_response_text": "## 2 ESCOLA E CURRÍCULO\n\nA Escola é o ambiente educativo voltado ao processo de escolarização e compromisso com os saberes, hábitos, atitudes, conhecimentos, culturas, ideologias e valores socialmente referenciados em processo de constituição permanente de reflexão e transformação social para inclusão e melhoria da convivência humana. Ela se constitui num espaço de ampliação do conhecimento, por estar centrada nas interações entre educador e educando. Cabe à escola garantir a aprendizagem de certas habilidades e conteúdo que são necessários para a vida em sociedade.\n\nTer clareza da função social e do homem que se quer formar é fundamental para realizar uma prática pedagógica competente e socialmente comprometida, particularmente num estado de contraste como o Estado de Rondônia, que como muitos outros estados, apresenta desigualdades econômicas, sociais e culturais.\n\nO Currículo Escolar configura-se como o conjunto de valores e práticas que proporcionam a produção, a socialização de significados no espaço social e contribuem intensamente para a construção de identidades socioculturais dos educandos. O Currículo inclui não só os componentes curriculares centrais obrigatórios previstos na legislação e nas normas educacionais, mas outros, de modo flexível e variável, conforme cada projeto pedagógico escolar.\n\nO Referencial Curricular do Estado de Rondônia defende que o currículo escrito sofre influências das experiências vividas, transcendendo os guias curriculares. O currículo necessário envolve questões técnicas, políticas, éticas e estéticas. A escola recebe influência de diversos mecanismos, sendo assim, deve permitir que o educando compartilhe as experiências vividas e se aproprie também das oportunidades. O currículo é um processo coletivo que envolve todos os segmentos da comunidade escolar, selecionando saberes, competências, conhecimentos e habilidades.\n\nÉ notório que grande é a discussão sobre a importância relacionada ao desenvolvimento cognitivo, todavia, tem como objetivo a ampliação de todos os fatores que contribuem para a formação do educando, tais como:\n\n- saberes envolvem um conjunto de situações vivenciadas, adquiridas ao longo da vida e que contribuem na formação do indivíduo. Todos têm saberes próprios, de acordo com suas experiências, e estes devem ser articulados ao saber formal, favorecendo a integração com seu meio social;\n- um currículo para formação humana considera que o conhecimento formal traz outras dimensões ao desenvolvimento humano, não se limitando apenas à aprendizagem do aluno ou às realidades regionais, ou seja, o conhecimento não é tão somente uma apropriação individual, mas um processo de desenvolvimento do sujeito nas suas relações com o outro, que terá reflexo na vida em sociedade;\n- a competência não é algo que se alcança, e sim algo que, como feixe de relações, se desenvolve em conjunto com o indivíduo. Moretto (2004) ressalta que a competência não é algo abstrato ou descontextualizado, mas está sempre ligada a uma situação complexa (situações simples, habituais, não requerem a mobilização de recursos de ordem superior). A competência, portanto, implica na mobilização de conhecimentos e esquemas cognitivos na busca de desenvolver respostas inéditas, criativas e eficazes para a resolução de problemas novos nas atividades propostas;\n- as Habilidades se constituem de linguagens, conhecimentos, atitudes e saberes adquiridos que, mobilizados, permitem a manifestação da competência.\n\nPara o desenvolvimento de competências e habilidades, admite-se que a aprendizagem deve ser considerada sempre como aprendizagem de algo para a construção de conceitos ao longo do desenvolvimento humano. Por sua vez, o conteúdo formal, que integra os conhecimentos adquiridos e mobilizados no processo do desenvolvimento de competências e habilidades, se coloca à disposição do conhecimento, para além das ações prescritivas. Por esse viés, o centro da aprendizagem é o processo (Texto retirado do Referencial Curricular de RO, p.10, 2013).",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

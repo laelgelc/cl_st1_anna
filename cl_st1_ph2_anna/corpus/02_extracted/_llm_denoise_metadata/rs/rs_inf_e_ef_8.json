@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ee56dc011a6eb01006ab30e14670887d28f76ce02c6619707",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 526,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 554,
+      "output_tokens_details": {
+        "reasoning_tokens": 163
+      },
+      "total_tokens": 1080
+    }
+  },
+  "created_at": "2026-09-22T23:24:08Z",
+  "duration_seconds": 4.632,
+  "error": null,
+  "excerpt_id": "rs_inf_e_ef_8",
+  "filename": "rs_inf_e_ef_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "44b5c4007d9a79ccbc38da79c299e89495f6bcfa5ab5940e36bc2b23bc73cc4a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7ba71787cd248dcc550b974ac85c8c22d488b890add03d0d1acf461f1a8c5f4a",
+    "rendered_prompt_sha256": "2c8d8f41e2237f89c7d7df4afb4ec0c32f94634766b453e779de473953564df2",
+    "source_text_sha256": "5d62f826bf981c498c936ca8b0381573187df74944f63d02cd832e8ce29c5276"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_e_ef_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3677,
+    "filename": "rs_inf_e_ef_8.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_e_ef_8.txt",
+    "state": "rs",
+    "word_count_original": 274
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_e_ef_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_e_ef_8.json"
+  },
+  "raw_response_text": "## 1.5 Competências Gerais da Base\n\nA Base Nacional Comum Curricular tem como fio condutor 10 Competências Gerais a serem desenvolvidas ao longo da Educação Básica, ou seja, da Educação Infantil ao Ensino Médio. Essas competências visam assegurar aos alunos uma formação humana integral e, por isso, não constituem um componente em si. Ao contrário: elas devem ser tratadas de forma interdisciplinar, capilarizadas por todos os componentes curriculares.\n\nNo século 21, a interconectividade e a complexidade das transformações sociais, culturais, tecnológicas, entre outras, têm ampliado a relevância e necessidade de compor outras competências para além das cognitivas. As competências pessoais e sociais estão organizadas em autoconsciência, autogestão, consciência social, habilidades de relacionamento e tomada de decisão responsável. A BNCC apresenta dez competências gerais da Base Nacional Comum Curricular já apresentada neste documento.\n\nNesse sentido as competências pessoais e sociais apresentam um conjunto de habilidades que permitem compreender as próprias emoções e formas de relacionar-se com os outros, viabilizando o autoconhecimento, colaboração e resolução de problemas. Essas competências fazem parte da formação integral e do desenvolvimento dos sujeitos.\n\nEm consonância com a BNCC, as competências pessoais e sociais devem estar imbricadas e articuladas com as áreas do conhecimento e componentes curriculares em movimento espiralado, possibilitando o desenvolvimento das seguintes competências:\n\na) respeitar e expressar sentimentos e emoções, atuando com progressiva autonomia emocional;  \nb) atuar em grupo e demonstrar interesse em construir novas relações, respeitando a diversidade e solidarizando-se com os outros; e  \nc) conhecer e respeitar as formas de convívio social.\n\nRessignificar o ambiente escolar com as diferentes competências de ordem cognitiva, comunicativa, pessoais e sociais impacta diretamente na formação integral dos estudantes.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

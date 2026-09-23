@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_068feff5051c4eff006ab308e4afd087d2a5207d407f8f441e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 891,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1676,
+      "output_tokens_details": {
+        "reasoning_tokens": 875
+      },
+      "total_tokens": 2567
+    }
+  },
+  "created_at": "2026-09-22T23:02:11Z",
+  "duration_seconds": 15.08,
+  "error": null,
+  "excerpt_id": "pi_em_6",
+  "filename": "pi_em_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6d8f9b2ab37d301d25a5749adf2d5450dbf43c78c4c4b4b3b5448d181e1483c0",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fe07393b983b698af6da7584da706abfb3ca452f95e248df692eec949a460449",
+    "rendered_prompt_sha256": "6ff8683cda503d4c9dfdcc0d59771b1a13817719f59098be4bb2c439be875eab",
+    "source_text_sha256": "f7a7021c4125c6e80cf242f819fb5c4255d6676d5c97e42c816d9819c86acea0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_em_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2640,
+    "filename": "pi_em_6.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_em_6.txt",
+    "state": "pi",
+    "word_count_original": 558
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_em_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_em_6.json"
+  },
+  "raw_response_text": "No Sistema de Avaliação Educacional do Piauí (SAEPI), a Matriz de Referência apresenta um conjunto de habilidades relacionadas às orientações curriculares da rede de ensino. As habilidades apresentadas em cada Matriz de Referência, específicas para cada disciplina e etapa avaliadas, servem como base para a elaboração dos itens que compõem o teste.\n\nNa análise de resultados do SAEPI, são aplicadas a Teoria Clássica dos Testes (TCT) e a Teoria da Resposta ao Item (TRI). Com o uso da TCT, por exemplo, é calculado o percentual de acertos por descritor, enquanto a TRI é usada para estimar a proficiência dos estudantes.\n\nConforme as figuras trazidas de forma amostral, verifica-se que, na 1ª série do Ensino Médio, na disciplina de Língua Portuguesa, ocorreu um crescimento na evolução do percentual de estudantes por padrão de desempenho nos níveis adequado e avançado de 2017 para 2018, e uma pequena queda de 2018 para 2019. E crescimento no percentual de desempenho do nível abaixo do básico. No descritor componente curricular de Matemática, na mesma série, de 2017 a 2018 houve uma queda no percentual de desempenho de estudantes avaliados abaixo do básico, e consequente crescimento nos níveis básico, adequado e 0,7% no nível avançado. Esse percentual tem leve queda de 2018 para 2019, com crescimento do percentual nos níveis abaixo do básico e redução nos demais níveis.\n\nA Matriz de avaliação do SAEPI é vinculada ao trabalho realizado pela escola. O Sistema, ao realizar um diagnóstico das escolas da rede, possibilita o direcionamento de ações norteadoras do processo de ensino e aprendizagem, que passam a considerar outras sistemáticas de ensino e avaliação.\n\nA exposição dos dados no período de 2007 a 2019 mostra aumento das médias. Ao relacionar os resultados com suas metas, também se verificam resultados positivos: em apenas duas edições, a rede não ultrapassou as projeções, o que significou um alerta para a identificação das causas desse resultado. Portanto, as avaliações externas SAEB e SAEPI direcionam as políticas educacionais da rede e trazem mudanças positivas ao favorecer uma constante autoavaliação do trabalho desenvolvido e melhorias na sistemática de avaliação, ao tempo que contribuem para repensar o desenho da Matriz Curricular da rede.\n\nRessalta-se que a Matriz Curricular do Ensino Médio Regular é baseada na Instrução Normativa SUPEN nº 001/2017, a qual estabelece que a organização curricular básica deve ser composta de Base Nacional Comum e de Parte Diversificada, de forma integrada e contextualizada, visando à aquisição de um conjunto necessário de saberes teóricos, práticos, integrados e significativos. A referida matriz está organizada em quatro áreas de conhecimentos: I – Linguagens; II – Matemática; III – Ciências da Natureza; e IV – Ciências Humanas. A duração do curso é de 03 (três) anos, com 200 (duzentos) dias letivos, com carga horária total de 3.600 horas, distribuídas pelas áreas de conhecimento, com destinação de 80 horas para oficina (por bimestre), totalizando a carga horária de 240 horas anual, com oferta do esporte educacional para as três séries do Ensino Médio Diurno.\n\nPara atender às peculiaridades dos estudantes do turno da noite, a Matriz Curricular para o Ensino Médio Noturno no Piauí está organizada pela Instrução Normativa SUPEN nº 002/2018, que determina a carga horária semanal de 25 (vinte e cinco) horas-aula, com carga horária total de 3.000 (três mil) horas, com 1.000 horas por ano.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

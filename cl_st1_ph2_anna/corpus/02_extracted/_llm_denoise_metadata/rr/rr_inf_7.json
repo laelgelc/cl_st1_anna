@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_088efa08eb326dc9006ab30d7d758c87d29a03f1788b9c39e5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 466,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 531,
+      "output_tokens_details": {
+        "reasoning_tokens": 157
+      },
+      "total_tokens": 997
+    }
+  },
+  "created_at": "2026-09-22T23:21:38Z",
+  "duration_seconds": 4.767,
+  "error": null,
+  "excerpt_id": "rr_inf_7",
+  "filename": "rr_inf_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7faa484c3588e406a706ae58b023da2ca36fd9914261b8bf4d727015d56be0ab",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "130e614c03d0af333e8da5258d23327e2899e5a89a8fc90bd8f76d3bfe4ee352",
+    "rendered_prompt_sha256": "1d2ead8fbc430ab771bd3864bb6b221fd132419630994ef5782a35851d8ca267",
+    "source_text_sha256": "c29cdfb792da7226de29af57667f8354c3f5373267ca3a18555a9b6d07869711"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3530,
+    "filename": "rr_inf_7.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_7.txt",
+    "state": "rr",
+    "word_count_original": 246
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_7.json"
+  },
+  "raw_response_text": "### 3.4 OS CAMPOS DE EXPERIÊNCIAS\n\nAs diversas experiências das quais as crianças podem participar na instituição de Educação Infantil são promovidas pelo convívio entre elas, pelos contextos e materiais organizados por elas e pelos adultos e por um conjunto de práticas coordenadas pelo/a professor/a que problematizam, instigam e articulam seus saberes e fazeres aos conhecimentos já sistematizados pela humanidade.\n\nConforme o parecer CNE n.º 20/2009, o currículo da Educação Infantil no Estado de Roraima está organizado em Campos de Experiências que se articulam com os objetivos e fomentam a aplicabilidade dos Direitos de Aprendizagem.\n\nOs campos de experiências acolhem as situações e as experiências concretas da vida cotidiana das crianças e seus saberes, entrelaçando-os aos conhecimentos que fazem parte de nosso patrimônio cultural. (BRASIL, 2016).\n\nColocam, no centro do processo educativo, as interações e as brincadeiras, das quais emergem as significações, as observações, os questionamentos, as investigações, os posicionamentos e outras ações das crianças. As experiências, geralmente interdisciplinares, podem ser pensadas e propostas na interseção entre os campos de experiência.\n\nOs CAMPOS DE EXPERIÊNCIAS em que se organiza a BNCC são:\n\n- O eu, o outro e o nós;\n- Corpo, gestos e movimentos;\n- Traços, sons, cores e imagens;\n- Escuta, fala, linguagem e pensamento;\n- Espaços, tempos, quantidades, relações e transformações.\n\nO modo de organização curricular por campos, parte da promoção da ação social das crianças e fundamenta importantes processos de aprendizagens que terão continuidade nas demais etapas da Educação Básica (BRASIL, 2016).",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

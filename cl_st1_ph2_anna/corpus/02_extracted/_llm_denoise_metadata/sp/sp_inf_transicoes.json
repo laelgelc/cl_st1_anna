@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d11203b525acb51006ab30fdc437c87d287305c44c8e46402",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 927,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1001,
+      "output_tokens_details": {
+        "reasoning_tokens": 241
+      },
+      "total_tokens": 1928
+    }
+  },
+  "created_at": "2026-09-22T23:31:47Z",
+  "duration_seconds": 7.667,
+  "error": null,
+  "excerpt_id": "sp_inf_transicoes",
+  "filename": "sp_inf_transicoes.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8d2c10f6011be1aeff50c6be1b3747d26111405d19c448fa557e562a6cfa7d41",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "857d7d7556f2565976c0ccaf34abf62e9322f5565be41920560faad484557143",
+    "rendered_prompt_sha256": "ea2ee935e42b1534dce6a18c936b056b831ef1474ef5e3f276738f3013bdb15f",
+    "source_text_sha256": "0b12183df7167d09bed6190a80a7f3b2903ab539546abd82282e54b7cc62b227"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_inf_transicoes.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3967,
+    "filename": "sp_inf_transicoes.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_inf_transicoes.txt",
+    "state": "sp",
+    "word_count_original": 598
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_inf_transicoes.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_inf_transicoes.json"
+  },
+  "raw_response_text": "## Transições\n\nPor vezes, a primeira transição da Educação Infantil acontece no momento em que a criança deixa sua família e ingressa na instituição. Para que esta transição ocorra de modo tranquilo, é imprescindível que os profissionais da escola possibilitem o acolhimento no ato da matrícula e viabilizem um atendimento que permita à família e à escola compartilharem suas especificidades, suas expectativas e suas necessidades. Assim, uma instituição segura em relação à criança favorece o processo de acolhimento da família, do mesmo modo que uma família segura proporciona segurança à criança.\n\nNeste sentido, faz-se necessário que a família e a escola se conheçam. Para tanto, pode-se recorrer às reuniões específicas com novos pais/responsáveis e/ou entrevistas individuais. Saber gostos e comportamentos típicos de cada criança pode, efetivamente, amenizar inseguranças, angústias, ansiedades de ambas as instituições, em prol da garantia do bem-estar da criança.\n\nApós esse processo de acolhimento, a criança, gradativamente, é inserida na creche ou na pré-escola, às vezes acompanhada por um adulto de sua família, vivenciando horários que se adequem às suas necessidades, de forma a respeitar seus ritmos e tempos, até que esteja familiarizada com o novo ambiente.\n\nA criança passa, continuamente, por processos de transição, que vão desde as mudanças dos espaços físicos, trocas ou substituições de professores, ou mesmo entradas e saídas de colegas do grupo. Cabe à instituição minimizar os impactos dessas mudanças a partir de propostas que ampliem as situações de interação da criança com os diversos espaços e pessoas.\n\nNas situações em que o estabelecimento de creche é separado fisicamente da pré-escola, pode-se planejar ações que aproximem as crianças por meio de visitas, trocas de desenhos, fotos, vídeos, fusão de atividades e festividades; pode-se, ainda, viabilizar esta proximidade fazendo uso dos recursos tecnológicos, como a ferramenta do google maps, hangouts, videoconferências, que contam do espaço e das pessoas, crianças e adultos que o ocupam. Essas mesmas estratégias, dentre muitas outras, podem favorecer a transição da Educação Infantil para o Ensino Fundamental, assegurando a continuidade dos processos de aprendizagem e o desenvolvimento da criança.\n\nO último ano da pré-escola deve ser marcado pela parceria entre instituição de Educação Infantil e escolas de Ensino Fundamental a fim de que, juntas, pensem ações que favoreçam este processo de transição. Salvaguardando o que têm em comum, a criança pequena terá a garantia dos direitos de aprendizagem e desenvolvimento por ocasião de ingresso no Ensino Fundamental. Nesse sentido, preservar e considerar os direitos de conviver, brincar, interagir, explorar, participar e conhecer-se são ações que podem contribuir, e muito, com a inserção da criança na etapa seguinte da Educação Básica.\n\n## Relação com as famílias e/ou responsáveis\n\nA boa relação entre as famílias e/ou responsáveis e as instituições de Educação Infantil é essencial para potencializar a aprendizagem e o desenvolvimento das crianças, bem como a prática do diálogo e o compartilhamento de responsabilidades. Além disso, a instituição precisa conhecer e trabalhar com as culturas plurais, dialogando com a riqueza/diversidade das famílias e da comunidade.\n\nSendo assim, a participação da família na escola colabora para a efetivação da gestão democrática participativa, e isto pressupõe o seu envolvimento nas diversas situações da instituição, inclusive quando da elaboração, execução e avaliação da Proposta Pedagógica. Uma escuta atenta e ativa da família a integra neste processo, fomentando uma ação responsiva frente às demandas educativas cujo foco é enriquecer as experiências cotidianas das crianças.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

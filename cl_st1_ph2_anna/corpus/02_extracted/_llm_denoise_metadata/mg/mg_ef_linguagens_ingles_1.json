@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_035281e19b2249ae006ab302b1db8487d2958889144efc9507",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 499,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 482,
+      "output_tokens_details": {
+        "reasoning_tokens": 104
+      },
+      "total_tokens": 981
+    }
+  },
+  "created_at": "2026-09-22T22:35:34Z",
+  "duration_seconds": 4.544,
+  "error": null,
+  "excerpt_id": "mg_ef_linguagens_ingles_1",
+  "filename": "mg_ef_linguagens_ingles_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "03dd40bb3cebaa719c2d6caa5d33abb6b24f92279f8488d6541058bc9f2f4dc8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "924346796201312a6f22701ae58d5b6cc70b9139082366ecbf2322f83df8e65d",
+    "rendered_prompt_sha256": "550507897a2861f9c76dbfc9ff0ac1d71c2609de2e66ac60e06344445130dccf",
+    "source_text_sha256": "c0b8425d947d4ce5a1e26587f68ac934e219720c3d6a9e7d3b08dce69656da02"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_linguagens_ingles_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1446,
+    "filename": "mg_ef_linguagens_ingles_1.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_linguagens_ingles_1.txt",
+    "state": "mg",
+    "word_count_original": 257
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_linguagens_ingles_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_linguagens_ingles_1.json"
+  },
+  "raw_response_text": "### 8.1 Componente Curricular: Língua Inglesa\n\nO Currículo Referência de Minas Gerais do componente curricular Língua Inglesa é o resultado de um diálogo entre os Conteúdos Básicos Comuns (CBC) já utilizado nas escolas estaduais e a Base Nacional Comum Curricular (BNCC) homologada em dezembro de 2017 pelo Conselho Nacional de Educação (CNE). No documento, são apresentadas ao professor as expectativas de aprendizagem representadas pelas habilidades listadas por ano de escolaridade na Língua Inglesa. As orientações metodológicas e os referenciais teóricos são de grande importância, quando devidamente apropriadas pelo educador são ferramentas poderosas para qualificar o trabalho docente, adicionando infinitas possibilidades de reflexão sobre o fazer pedagógico. O conhecimento da língua como sistema de regras gramaticais sempre esteve em primeiro plano e os conteúdos relacionados à descrição da estrutura sintática da língua constituíam os eixos organizativos do Currículo, confinando o estudo do léxico a mero objeto para o preenchimento de lacunas das estruturas estudadas.\n\nOs parâmetros propostos para o ensino da Língua Inglesa estão ancorados nas seguintes perspectivas teóricas: a visão sociointeracionista da linguagem e da aprendizagem e a perspectiva do interacionismo sociodiscursivo. O enfoque sociointeracionista da linguagem indica que, ao se engajarem no discurso, as pessoas consideram seus interlocutores na construção social do significado. Para que a aprendizagem, na perspectiva sociointeracionista, seja possível, o aprendiz utiliza conhecimentos sistêmicos de mundo e da organização textual. Esses conhecimentos envolvem aspectos metacognitivos e desenvolvem a consciência crítica do aprendiz no que se refere a como a linguagem é usada no mundo social, como reflexo de crenças, projetos e valores políticos.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

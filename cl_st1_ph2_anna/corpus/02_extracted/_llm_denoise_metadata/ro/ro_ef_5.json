@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0860c95d077e9117006ab30ba1a40487d2a93f0996e1858530",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 874,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1073,
+      "output_tokens_details": {
+        "reasoning_tokens": 292
+      },
+      "total_tokens": 1947
+    }
+  },
+  "created_at": "2026-09-22T23:13:45Z",
+  "duration_seconds": 7.938,
+  "error": null,
+  "excerpt_id": "ro_ef_5",
+  "filename": "ro_ef_5.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "258915da9af338e35862c7d26760a5d3283673866bfcfa56b2ca8088e8049cfd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f2723be77c63ced746b93533144650924267cd7e87943cc025dc0fc697a69f3a",
+    "rendered_prompt_sha256": "f7d57c5d02b58ea37f80db7fe1648ed9a78adaaea0b98a281ab500608c59954c",
+    "source_text_sha256": "c49f57953e22c3879ac4a7e8abbb279dbb5e9bbefc64d27527f576d083aea552"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_5.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3150,
+    "filename": "ro_ef_5.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_5.txt",
+    "state": "ro",
+    "word_count_original": 535
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_5.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_5.json"
+  },
+  "raw_response_text": "## 1.2 DIVULGAÇÃO E SENSIBILIZAÇÃO DO (RCRO)\n\nO primeiro movimento de divulgação para conhecimento da construção do Documento Curricular de Rondônia foi o Dia Nacional de Discussão sobre a Base Nacional Comum Curricular - Dia “D”, sendo uma iniciativa do MEC, que produziu todo material para divulgação nos Estados.\n\nAs contribuições realizadas contaram com a participação de estudantes, professores, educadores, coordenadores pedagógicos, gestores, dirigentes, familiares e sociedade civil de todas as regiões de Rondônia. A primeira versão do documento foi apresentada no mês de agosto, permanecendo disponível para Consulta Pública no período de agosto a outubro de 2018. Neste mesmo período, os redatores fizeram uma revisão do documento para possíveis ajustes e adequações necessárias, bem como as sensibilizações por todo o Estado.\n\nA divulgação e sensibilização se deram a partir da construção da 1ª versão, em dois momentos, atendendo às redes estadual e municipal de educação, com a participação de 2.400 (dois mil e quatrocentos) professores, das etapas de Educação Infantil, Ensino Fundamental anos iniciais e finais de Rondônia. No primeiro momento, atendemos cerca de 1.000 (hum mil) professores do 6º ao 9º ano, da rede estadual, com a parceria das 18 (dezoito) coordenadorias Regionais de Educação - CREs, as quais mobilizaram seus professores para o Encontro de Sensibilização do Documento Curricular-RO.\n\nNa Rede municipal contou-se com a participação de 1.400 (mil e quatrocentos) professores, atendendo as etapas da Educação Infantil e Ensino Fundamental - anos iniciais, em seis polos: Porto Velho / Ariquemes / Ji-Paraná / Cacoal / Rolim de Moura e Vilhena, sensibilizando os professores para a contribuição na Consulta Pública, momento em que o apoio do CONSED e da UNDIME foi irrestrito.\n\n## 1.3 CONSULTA PÚBLICA\n\nA Consulta Pública foi disponibilizada de forma on-line na plataforma do Ministério da Educação - MEC, no formato Excel, com possibilidades de analisar, avaliar e contribuir nos textos introdutórios, em cada objeto de conhecimentos e habilidades do documento curricular estadual, em relação à clareza e pertinência. Foi uma importante ferramenta para análise quantitativa e qualitativa dos dados para ajudar a filtrar e sistematizar as necessidades prioritárias de mudança no documento.\n\nNa consulta pública do documento tivemos 5.614 (cinco mil, seiscentas e quatorze) contribuições de estudantes, professores, educadores, coordenadores pedagógicos, gestores, dirigentes, familiares e sociedade civil. Considerando o volume expressivo de participação na consulta, primamos pela garantia do processo democrático, respeito mútuo entre os participantes, promoção da pluralidade de ideias, identidades e expressões, consideração à representatividade dos segmentos e setores sociais e fortalecimento da articulação entre os entes federados, resguardando os direitos de aprendizagem dos estudantes.\n\nDevido a quantidade de contribuições foi necessário criar critérios de filtragem das informações mais relevantes para o trabalho de revisão do documento. Os critérios criados para filtrar as informações disponíveis, após a consulta, foram: ACEITE - que contribuem para a revisão dos documentos (comentários que sugerem formas de contextualizar objetivos e habilidades, novos objetivos e habilidades pertinentes, revisões ortográficas e outras sugestões de mudanças com justificativas, entre outros.); e NÃO ACEITE - que não apresentam elementos para a revisão dos documentos curriculares (comentários sobre a BNCC e não sobre o currículo, que ferem a legislação, avaliações pessoais sem sugestões de mudanças, proposições já contempladas no documento). Foram utilizados os códigos das tabelas abaixo:",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

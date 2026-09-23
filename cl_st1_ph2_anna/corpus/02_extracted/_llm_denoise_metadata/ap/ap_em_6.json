@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0444e1720d1d7c51006ab2fe3702d487d28f835e96cf293cd8",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 511,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 460,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 971
+    }
+  },
+  "created_at": "2026-09-22T22:16:27Z",
+  "duration_seconds": 4.574,
+  "error": null,
+  "excerpt_id": "ap_em_6",
+  "filename": "ap_em_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "82b16d69423a05b336f68d33987b8c0c1d66ad29f8e037d57b5af7ee7f8eef9a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8358511de04979f752c909cb560dc9325af114f845a166180e59ce75aa0a67d9",
+    "rendered_prompt_sha256": "5a817385e8e20ac9fa27cd53c89c8d62bcac739fdd25fd2c8e35562655c38765",
+    "source_text_sha256": "cf0d3825f63abcebc1bbec123b6829a80617922a9bad643b24aa983c1f9b2aca"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 557,
+    "filename": "ap_em_6.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_6.txt",
+    "state": "ap",
+    "word_count_original": 238
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_6.json"
+  },
+  "raw_response_text": "# ARQUITETURA GERAL DO ENSINO MÉDIO\n\nA Lei Federal nº 13.415/2017, define para o Ensino Médio o currículo composto pela BNCC, cuja estrutura será ofertada com a Formação Geral Básica (comum a todos os estudantes), com carga horária máxima de 1.800 horas, e pelos itinerários formativos (parte diversificada e flexível), com carga horária mínima de 1.200 horas, sendo permitida a oferta de diferentes arranjos curriculares, de acordo com o local e as possibilidades do sistema.\n\nFormação Geral Básica: Conjunto de competências e habilidades das Áreas de Conhecimento (Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias, Ciências Humanas e Sociais Aplicadas), que aprofundam e consolidam as aprendizagens essenciais do Ensino Fundamental, a compreensão de problemas complexos e a reflexão sobre soluções para eles.\n\nItinerários Formativos: Conjunto de situações e atividades educativas que os estudantes podem escolher conforme seus interesses, para aprofundar e ampliar aprendizagens em uma ou mais Áreas de Conhecimento e/ou na Formação Técnica e Profissional.\n\nOs Itinerários Formativos organizam-se a partir de quatro eixos estruturantes: Investigação Científica, Processos Criativos, Mediação e Intervenção Sociocultural e Empreendedorismo, os quais visam integrar e integralizar os diferentes arranjos de Itinerários Formativos e criar oportunidades para que os estudantes vivenciem experiências educativas associadas à realidade contemporânea, que promovam a sua formação pessoal, profissional e cidadã.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

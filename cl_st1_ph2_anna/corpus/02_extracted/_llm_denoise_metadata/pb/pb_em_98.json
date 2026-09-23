@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04f51dd91a51c51e006ab3078938a487d28cf556c382a83069",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1363,
+      "input_tokens_details": {
+        "cache_write_tokens": 1360,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1576,
+      "output_tokens_details": {
+        "reasoning_tokens": 314
+      },
+      "total_tokens": 2939
+    }
+  },
+  "created_at": "2026-09-22T22:56:21Z",
+  "duration_seconds": 12.27,
+  "error": null,
+  "excerpt_id": "pb_em_98",
+  "filename": "pb_em_98.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "87d09fb8f1ac0c9a695e2bea0a6315add7093135d5fc01e5d88ed4974934ea04",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "b9b5a06e5d104cfd50b0fed7584253af7698ecd0ecd25ce474b8008976784c6a",
+    "rendered_prompt_sha256": "40179e73044b655aad86331918339d20bee3b229fbd8fa302c994e236ea86f65",
+    "source_text_sha256": "51f5963cebbcc6a6e95cebd909dc23ad0bdb80126fde4e791d4fb9127c71628b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_em_98.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2350,
+    "filename": "pb_em_98.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_em_98.txt",
+    "state": "pb",
+    "word_count_original": 870
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_em_98.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_em_98.json"
+  },
+  "raw_response_text": "### 3.6.2 PERFIL DO ESTUDANTE EGRESSO\n\nEstudante capaz de:\n\n- construir sua identidade como ponto de partida para a elaboração do seu projeto de vida.\n- ampliar e consolidar os valores e princípios necessários à vida pessoal, social e produtiva.\n- propor expectativas em relação ao futuro e à construção de uma visão de si próprio.\n- desenvolver suas potencialidades e tomada de decisão para o seu projeto de vida.\n\n### 3.6.3 OBJETIVOS GERAIS DO ITINERÁRIO FORMATIVO\n\n- Perceber a si próprio como ser único com qualidades e potenciais.\n- Sentir a realidade na qual se insere.\n- Refletir sobre o projeto de vida como algo pelo qual se é responsável.\n- Respeitar os constantes processos de mudanças e a importância da convivência com o outro.\n- Considerar a interdependência da responsabilidade individual e coletiva.\n- Estimular o protagonismo juvenil na escola e em sociedade.\n- Ser consciente dos elementos relevantes à dimensão transcendental da vida.\n- Identificar diferentes valores presentes nas pessoas e em si como parte da construção da identidade.\n- Valorizar e reconhecer os talentos e habilidades que possui, bem como lidar com as suas limitações e emoções.\n- Construir positivamente os conceitos acerca de si próprio.\n- Despertar no estudante a busca por suas habilidades, aptidões e valores para possibilitar a realização dos seus sonhos.\n- Desenvolver um conjunto de competências socioemocionais em um mundo cada vez mais complexo, atuando criticamente e na perspectiva do trabalho colaborativo.\n\n### 3.6.4 MATRIZ CURRICULAR\n\n#### 3.6.4.1 Competências Gerais por área (BNCC + peculiaridades paraibanas)⁵⁹\n\na) Analisar processos políticos, econômicos, sociais, ambientais e culturais nos âmbitos local, regional, nacional e mundial em diferentes tempos, a partir da pluralidade de procedimentos epistemológicos, científicos e tecnológicos, de modo a compreender e posicionar-se criticamente em relação a eles, considerando diferentes pontos de vista e tomando decisões baseadas em argumentos e fontes de natureza científica.\n\nb) Analisar e avaliar criticamente as relações de diferentes grupos, povos e sociedades com a natureza (produção, distribuição e consumo) e seus impactos econômicos e socioambientais, com vistas à proposição de alternativas que respeitem e promovam a consciência, a ética socioambiental e o consumo responsável em âmbito local, regional, nacional e global.\n\nc) Analisar as relações de produção, capital e trabalho em diferentes territórios, contextos e culturas, discutindo o papel dessas relações na construção, consolidação e transformação das sociedades.\n\nd) Participar do debate público de forma crítica, respeitando diferentes posições e fazendo escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade.\n\ne) Compreender os processos identitários, conflitos e relações de poder que permeiam as práticas sociais de linguagem, respeitar as diversidades, a pluralidade de ideias e posições e atuar socialmente com base em princípios e valores assentados na democracia, na igualdade e nos Direitos Humanos, exercitando a empatia, o diálogo, a resolução de conflitos e a cooperação, e combatendo preconceitos de qualquer natureza.\n\nf) Utilizar diferentes linguagens (artísticas, corporais e verbais) para exercer, com autonomia e colaboração, protagonismo e autoria na vida pessoal e coletiva, de forma crítica, criativa, ética e solidária, defendendo pontos de vista que respeitem o outro e promovam os Direitos Humanos, a consciência socioambiental e o consumo responsável, em âmbito local, regional e global.\n\ng) Compreender as línguas como fenômeno (geo)político, histórico, social, variável, heterogêneo e sensível aos contextos de uso, reconhecendo-as e vivenciando-as como formas de expressões identitárias, pessoais e coletivas, bem como respeitando as variedades linguísticas e agindo no enfrentamento de preconceitos de qualquer natureza.\n\nh) Articular conhecimentos matemáticos ao propor e/ou participar de ações para investigar desafios do mundo contemporâneo e tomar decisões éticas e socialmente responsáveis, com base na análise de problemas de urgência social, como os voltados a situações de saúde, sustentabilidade, das implicações da tecnologia no mundo do trabalho, entre outros, recorrendo a conceitos, procedimentos e linguagens próprios da Matemática.\n\n#### 3.6.4.2 Habilidades Específicas por área\n\na) Capacidade de manter as próprias emoções sob controle diante de situações estressantes, assumindo uma atitude de respeito quando os comportamentos dos outros são diferentes dos seus.\n\nb) Capacidade de manter boas relações com outras pessoas, implicando no domínio de habilidades sociais básicas, como comunicação, respeito e outras.\n\nc) Capacidade de reconhecer os seus próprios pensamentos e emoções, bem como os seus efeitos nos comportamentos, fazendo com que tenha uma avaliação mais precisa das suas forças e limitações.\n\nd) Capacidade de regulação dos seus pensamentos, emoções e comportamentos de forma eficiente, permitindo o gerenciamento do estresse e sentimento em relação ao estado de bem-estar.\n\ne) Capacidade de estabelecer e manter relacionamentos saudáveis, para ajudar os outros quando necessário, por meio de uma comunicação efetiva que auxilie na gestão de conflitos de forma construtiva e na solução de problemas.\n\nf) Capacidade de escolhas construtivas, responsáveis e éticas que promovam o bem-estar a si mesmo e aos outros, gerenciando as tarefas de forma efetiva.\n\ng) Capacidade de trabalhar coletivamente na qual todos ganham, diminuindo os interesses de ganhos individuais e discriminatórios pautados em práticas meramente competitivas.\n\n⁵⁹ O componente curricular Projeto de Vida deve permear todas as áreas de conhecimento. O documento em questão destaca as habilidades necessárias para os estudantes, utilizamos: BRASIL. MINISTÉRIO DA EDUCAÇÃO. Base Nacional Curricular Comum (BNCC) de dezembro de 2018.",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

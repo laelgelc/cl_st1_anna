@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e996c78ae09ec74006ab30db2376087d2bf7eb7849092dcdf",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 797,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 828,
+      "output_tokens_details": {
+        "reasoning_tokens": 171
+      },
+      "total_tokens": 1625
+    }
+  },
+  "created_at": "2026-09-22T23:22:33Z",
+  "duration_seconds": 6.957,
+  "error": null,
+  "excerpt_id": "rs_em_36",
+  "filename": "rs_em_36.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "17c96f309740b0c13a2191b23b5d7c37b10e1611291c38a6b1e5b2c3fd24fcf8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e3cbb45c2b65c3fe6e6fb1e02ed5aa66b9ff9bbd3cf90a234c0a32ed521ecd40",
+    "rendered_prompt_sha256": "a1ce090309e13c85685eafdbd29485f7df1a5eebca3d44e736c47e272b13f7b8",
+    "source_text_sha256": "ad725d4629f2131eb71d06cd001614b6858e46315c02a067e9cea706ca44ef8c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_36.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3579,
+    "filename": "rs_em_36.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_36.txt",
+    "state": "rs",
+    "word_count_original": 482
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_36.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_36.json"
+  },
+  "raw_response_text": "## 2.4.14 Direitos da Criança e do Adolescente\n\nTodos os indivíduos têm direitos básicos e garantias individuais no mundo da política republicana e democrática, no qual o nascimento estabelece garantias básicas e a vida é o principal e fundante princípio dos direitos. Assim, os direitos humanos são universais e acolhem, nas suas concepções fundamentais, também os direitos civis, políticos, econômicos, sociais e culturais. Todos os seres humanos estão protegidos pelos direitos humanos, incluindo as crianças e os adolescentes que gozam de direitos específicos por necessitarem de cuidados e proteção especiais.\n\nOs direitos humanos das crianças e dos adolescentes estão explicitamente definidos na Convenção das Nações Unidas sobre os Direitos da Criança, o tratado de direitos humanos mais amplamente ratificado da história, acordado por todos os países do mundo, exceto os Estados Unidos da América. Eles também estão contidos em outros documentos de direitos humanos, incluindo a Declaração Universal dos Direitos Humanos, os Pactos Internacionais, a Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres e outros amplamente incorporados aos tratados e declarações internacionais de direitos humanos.\n\nA Convenção das Nações Unidas sobre os Direitos da Criança se estrutura a partir de quatro grupos básicos:\n\n1. Direito à assistência médica e odontológica, direito à recreação, direito de ir à escola, direito de ser alimentado, vestido e cuidado.\n2. Direito de ser protegido e não ser atingido ou envergonhado com punições, direito à privacidade, direito à proteção diante de provocações ou intimidações, direito de ser protegido contra racismo, sexismo e outros tipos de discriminação.\n3. Direito de participar de atividades sociais e recreativas em sua religião e sua cultura e direito de falar sua própria língua.\n4. Direito a um advogado ou intérprete, de aprender e acessar informações importantes acerca de seus direitos e de ser informado sobre regras e decisões para que entenda o que está acontecendo e possa se posicionar (ONU, 1989).\n\nNo caso específico do Brasil, a Lei nº. 11.525/2007 obriga que os currículos desenvolvam questões ligadas aos direitos das crianças e dos adolescentes; a Lei nº. 13.010/2014, estabelece a necessidade do desenvolvimento transversal de objetos de conhecimento que visem prevenir todas as formas de violência contra crianças e adolescentes, assim como prevê o Estatuto da Criança e do Adolescente (BRASIL, 1990).\n\nNo RS, a Lei nº. 11.525/2007 trata sobre a obrigatoriedade do ensino dos direitos da criança e do adolescente em todos os níveis de educação – infantil, fundamental, médio e superior –. O objetivo é debater sobre o conjunto de leis, em especial o Estatuto da Criança e do Adolescente, para combater todas as formas de violências e assédios cometidos contra crianças e jovens em todas as dimensões da vida social e pessoal. A relevância dessa temática, segundo a BNCC, exige um trabalho educacional de forma transversal e integradora em todas as áreas do conhecimento e em seus componentes curriculares.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0651db5bd04db76b006ab2fbf6b3e487d2aceb9d341582c214",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 604,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 590,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 1194
+    }
+  },
+  "created_at": "2026-09-22T22:07:06Z",
+  "duration_seconds": 20.742,
+  "error": null,
+  "excerpt_id": "ac_em_9",
+  "filename": "ac_em_9.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b5e27b1a782917bf2204be1af4d0e768a7e2379f64cd603e2ad5e9b250e23282",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9957d5a0c91cd33fc5dc603e16c699150f89511a2ba4267a5bfde008ef220ff3",
+    "rendered_prompt_sha256": "57d7a371a5f9a96b213c6ee4b6d085313e84faf68c0b8659b4445d42959bde11",
+    "source_text_sha256": "9d9b321340259c5d865841f7f39b4b4d04d9de7853b82c204daa36d4ebf4b361"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ac/ac_em_9.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 101,
+    "filename": "ac_em_9.txt",
+    "filepath": "corpus/00_source_per_state/ac/ac_em_9.txt",
+    "state": "ac",
+    "word_count_original": 316
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ac/ac_em_9.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ac/ac_em_9.json"
+  },
+  "raw_response_text": "## 8. Conceito de ensino médio flexível\n\nA BNCC centra-se no desenvolvimento de competências e é orientada pelo princípio da educação integral. Nessa medida, as competências gerais da Educação Básica orientam igualmente as aprendizagens essenciais. Torna-se imprescindível, na busca por uma organização curricular flexível, “romper com a centralidade das disciplinas nos currículos e substituí-las por aspectos mais globalizados e que abranjam a complexidade das relações existentes entre os ramos da ciência no mundo real” (Parecer CNE/CEB nº 5/2011). Nesse sentido, a BNCC define que as aprendizagens essenciais serão organizadas por áreas do conhecimento: Linguagens e Suas Tecnologias, Matemática e Suas Tecnologias, Ciências da Natureza e Suas Tecnologias e Ciências Humanas e Sociais Aplicadas.\n\nTodas as habilidades da BNCC foram definidas tomando como referência o limite de 1.800 horas do total da carga horária da etapa; e 1.200 horas para os Itinerários Formativos. Nessa perspectiva, apresentamos alguns pressupostos a serem construídos em cada escola de nosso estado tendo em vista a reorganização dos Projetos Políticos Pedagógicos e a nova organização curricular pautada pela BNCC:\n\n- A constituição de componentes curriculares que promovam diálogos abertos com o território e que acolham as realidades das comunidades locais.\n- A inserção de itinerários formativos com seus diferentes arranjos curriculares, considerando a realidade local, recursos físicos, materiais e humanos da escola.\n- A inserção da cultura digital para estudantes, não somente como consumidores, mas se apresentando cada vez mais como protagonistas; em articulação às competências gerais e considerando as muitas juventudes que existem nos territórios.\n- O debate e articulação entre os saberes acadêmicos e os saberes populares. Práticas curriculares organizadas como ambiências criativas que acolham a participação dos estudantes, que reconheçam e promovam seu envolvimento político-comunitário.\n- A ampliação da conceituação de qualidade para além dos resultados das avaliações externas e internas, para a formação integral do sujeito, criando condições para o desenvolvimento do seu Projeto de Vida",
+  "state": "ac",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0730b2778e662c5c006ab30f4419a087d2900983aceeb5926f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 733,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 778,
+      "output_tokens_details": {
+        "reasoning_tokens": 181
+      },
+      "total_tokens": 1511
+    }
+  },
+  "created_at": "2026-09-22T23:29:15Z",
+  "duration_seconds": 7.39,
+  "error": null,
+  "excerpt_id": "se_em_26",
+  "filename": "se_em_26.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7e1523f97e9e082576be9c68762ba20117d8fac11eb55391a133824a9648278c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e51e8e0fed876dddc51bcf4259b66fba9f80541ab6cc5ff879649b87648f2f24",
+    "rendered_prompt_sha256": "4b834682264ad317a8edf83f56bef252e6019283aa4bd37cac0a17d6c2bdf28e",
+    "source_text_sha256": "580fb594c20ce8f9eb0da7e746ebaf47420767a6f673c09f59e9f59e37fd03bf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/se/se_em_26.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3839,
+    "filename": "se_em_26.txt",
+    "filepath": "corpus/00_source_per_state/se/se_em_26.txt",
+    "state": "se",
+    "word_count_original": 418
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/se/se_em_26.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/se/se_em_26.json"
+  },
+  "raw_response_text": "## 5.3 Itinerários Formativos\n\nOs Itinerários Formativos são compostos por: Aprofundamentos nas Áreas do Conhecimento ou na Formação Técnica e Profissional, as Eletivas e o Projeto de Vida. Na Formação Técnica e Profissional, os aprofundamentos devem acontecer juntamente com o desenvolvimento de habilidades básicas requeridas pelo mundo do trabalho e habilidades específicas relacionadas aos Cursos Técnicos, Cursos de Qualificação Profissional (FICs) ou Programa de Aprendizagem Profissional escolhidos pelos estudantes. Assim, além de melhor explorar potenciais e vocações, os Aprofundamentos permitem que os jovens já concluam o Ensino Médio com algum diferencial na sua formação.\n\nAs Eletivas devem ser entendidas como unidades curriculares de livre escolha dos estudantes, que lhes possibilitam experimentar diferentes temas, vivências e aprendizagens, de maneira a diversificar e enriquecer o seu Itinerário Formativo. Têm como objetivo ampliar e aprofundar as aprendizagens previstas na Formação Geral e aquelas relativas à Formação Básica para o Trabalho.\n\nO estudante pode cursar eletivas associadas à mesma Área do Conhecimento ou Formação Técnica e Profissional em que estiver se aprofundando ou optar por diversificar a sua formação, escolhendo Eletivas de temas de seu interesse associados a outras Áreas do Conhecimento. Devem ser construídas pelos professores, a partir de sugestões dos próprios estudantes. Apesar do seu caráter mais lúdico e prático, é importante que tenham intencionalidade pedagógica e se articulem com as Áreas do Conhecimento, os eixos estruturantes e as Competências Gerais da BNCC.\n\nOs FICs (Curso de Qualificação Profissional) também podem ser ofertadas como eletivas, que devem dialogar com os eixos do Catálogo Nacional de Cursos Técnicos (CNCT) e oportunizar o protagonismo estudantil. As eletivas, devem gerar um produto final e/ou um momento de culminância que estimulem a efetiva participação e valorizem o talento e a dedicação dos estudantes.\n\nJá o PROJETO DE VIDA: é um componente curricular que envolve o trabalho pedagógico intencional e estruturado e tem como objetivo primordial desenvolver a capacidade do estudante de dar sentido à sua existência, tomar decisões, planejar o futuro e agir no presente com autonomia e responsabilidade.\n\nEsse processo deve ser permeado por vivências que lhes permitam desenvolver competências como autoconfiança, determinação e resiliência, dentre outros.\n\nRessalta-se que o itinerário Formação Técnica e Profissional corresponde ao conjunto de cursos e programas (cursos técnicos, de qualificação profissional - FIC ou programas de aprendizagem profissional) que a Instituição oferece aos estudantes para que possam planejar suas carreiras, e o itinerário profissional equivale ao conjunto de ocupações com identidades definidas no mundo do trabalho em determinada área profissional e/ou eixo tecnológico.",
+  "state": "se",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

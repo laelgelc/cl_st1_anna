@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_052b83b9a357600e006ab2fc4da22c87d28025725ac7ca7f9e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 894,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 881,
+      "output_tokens_details": {
+        "reasoning_tokens": 183
+      },
+      "total_tokens": 1775
+    }
+  },
+  "created_at": "2026-09-22T22:08:28Z",
+  "duration_seconds": 15.199,
+  "error": null,
+  "excerpt_id": "al_ef_37",
+  "filename": "al_ef_37.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d7575ed458d7acc2828d8041048cdc9d82aac88919cc8612ebe3b2feeafd25af",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "89226e1ab2533d831b32278875a1a10efc8fb9b4c5eb2b0853e1af858e827560",
+    "rendered_prompt_sha256": "37ee56a20fe25024793ed60f59e40445acb70ed4adab0e4887b55952a687b47b",
+    "source_text_sha256": "84017aa4809ed9d18a464bfa318373ba6958597bbe5179d5511bacdb3af2a7f4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_37.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 172,
+    "filename": "al_ef_37.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_37.txt",
+    "state": "al",
+    "word_count_original": 553
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_37.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_37.json"
+  },
+  "raw_response_text": "## 8. O PAPEL DO ARTE EDUCADOR E SUAS MEDIAÇÕES\n\nO desenvolvimento do vínculo afetivo, entre professor e estudante, torna-se o diferencial no processo de ensino-aprendizagem, defendido por Pichon Rivière (1994), o docente deve se ver e ser visto dentro de um referencial humanista e cognitivista. Desempenhando o papel de mediador, entre o estudante e o mundo que o rodeia, o professor auxilia, tanto na construção do desenvolvimento cognitivo e socioemocional, como na construção de uma aprendizagem mais significativa e integral.\n\nÉ preciso que o mediador considere a área de Arte, como também a de Educação, seu campo de estudo e aprendizagem, reconhecendo as linguagens artísticas e a cultura campos heterogêneos de pesquisa e fonte inesgotável de investigação, desde a formação inicial à continuada. É importante que o professor se reconheça como mediador na construção do conhecimento artístico e cultural do sujeito, estabelecendo possíveis elos entre a educação formal e o aprendizado do cotidiano, respeitando e garantindo espaços para que os estudantes se expressem a sua maneira.\n\nO professor que estabelece relações entre o currículo formal e a realidade cotidiana, proporciona um espaço aberto para investigação de temáticas, de forma aprofundada, voltada para descobertas, tanto de criação, quanto de percepções críticas e estéticas. A utilização de diferentes estratégias didáticas, de forma criativa, dinâmica e inovadora, com atividades práticas associadas aos conhecimentos teóricos, favorecem o desenvolvimento do diálogo.\n\nA presença pedagógica é essencial para que aconteça uma boa mediação da aprendizagem. Ela trata da qualidade das interações professor-estudante, estabelecendo um clima que favoreça à aprendizagem. A qualidade, das interações e mediações do professor, envolve uma atuação, voltada para acolher e construir uma relação de confiança entre os estudantes, explorar o potencial de aprendizagem em situações de conflito e promover a aprendizagem. É importante que a gestão do ensino e da aprendizagem mediada pelo professor, aconteça antes com o preparo de uma boa aula, durante com a prática pedagógica em sua plenitude e, depois, é o momento para refletir e avaliar seu planejamento e diagnosticar a necessidade de planejar novas ações para o exercício da sua prática.\n\nO uso de metodologias integradoras abrem portas para que o modo de atuação do professor promova a mediação no processo de aprendizagem com qualidade, onde a construção do conhecimento seja coletiva, a problematização fomente o aprender a aprender e multiletramentos, de modo que as atividades sejam estruturadas por meio de projetos conectando o ensino com a prática.\n\nHistoricamente, o conhecimento e o ensino da Arte têm sido criados, recriados e reinventados em diferentes linguagens, com novas formas de expressão e investigação do mundo. Associados e estimulados pelo contexto em que o ser humano se encontra e sua identidade social, os modos de fazer Arte possibilitam a criação de símbolos que, de alguma maneira, expressam o que não está aparente, dando-lhe sentido, falando ao sentimento e à imaginação. Cabe ao componente curricular Arte [...] com suas especificidades na maneira de observar o mundo e refletir sobre ele, proporcionar um espaço, voltado para descobertas tanto de criação, quanto de percepções críticas e estéticas (AROUCA. 2012, p.11).",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

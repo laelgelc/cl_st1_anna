@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_01dda193fa4486b9006ab303476f4487d29e283d8449f1db06",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 632,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 647,
+      "output_tokens_details": {
+        "reasoning_tokens": 148
+      },
+      "total_tokens": 1279
+    }
+  },
+  "created_at": "2026-09-22T22:38:05Z",
+  "duration_seconds": 5.826,
+  "error": null,
+  "excerpt_id": "mg_em_57",
+  "filename": "mg_em_57.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "afeceb16fd5223382d6cf2987267ef4983a9570af962b6dc5a112ff12dd55555",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "619c5b489e94afec836bff1a0e758022a7774169b0a8c1c09d12342a4ac198da",
+    "rendered_prompt_sha256": "113a28f481768de1097b793e0d47e4062ba2f3e943f0c019a2e1f9ff2fe21b91",
+    "source_text_sha256": "f6772c54bc805a9f1da4bccae49a76180d5a856d4e55d777c4f3936f879a2a92"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_57.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1589,
+    "filename": "mg_em_57.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_57.txt",
+    "state": "mg",
+    "word_count_original": 349
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_57.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_57.json"
+  },
+  "raw_response_text": "### 3.2.1 Competências específicas da área de Matemática e suas Tecnologias\n\nO conceito de competências consiste na mobilização de conhecimentos, procedimentos, habilidades e atitudes. Na Área de Matemática e suas Tecnologias, as competências específicas apontam a possibilidade de trabalhar os conteúdos matemáticos integrados às outras áreas do conhecimentos. Dessa forma, busca-se o desenvolvimento de habilidades cognitivas, socioemocionais, de atitudes ou de valores, com ênfase em situações do cotidiano, com espírito de investigação, argumentação e visando a resolução de problemas.\n\nDe acordo com a BNCC para o Ensino Médio, são cinco as competências específicas em Matemática.\n\n1. Utilizar estratégias, conceitos e procedimentos matemáticos para interpretar situações em diversos contextos, sejam atividades cotidianas, sejam fatos das Ciências da Natureza e Humanas, das questões socioeconômicas ou tecnológicas, divulgados por diferentes meios, de modo a contribuir para uma formação geral.\n2. Propor ou participar de ações para investigar desafios do mundo contemporâneo e tomar decisões éticas e socialmente responsáveis, com base na análise de problemas sociais, como os voltados a situações de saúde, sustentabilidade, das implicações da tecnologia no mundo do trabalho, entre outros, mobilizando e articulando conceitos, procedimentos e linguagens próprios da Matemática.\n3. Utilizar estratégias, conceitos, definições e procedimentos matemáticos para interpretar, construir modelos e resolver problemas em diversos contextos, analisando a plausibilidade dos resultados e a adequação das soluções propostas, de modo a construir argumentação consistente.\n4. Compreender e utilizar, com flexibilidade e precisão, diferentes registros de representação matemáticos (algébrico, geométrico, estatístico, computacional etc.), na busca de solução e comunicação de resultados de problemas.\n5. Investigar e estabelecer conjecturas a respeito de diferentes conceitos e propriedades matemáticas, empregando estratégias e recursos, como observação de padrões, experimentações e diferentes tecnologias, identificando a necessidade, ou não, de uma demonstração cada vez mais formal na validação das referidas conjecturas.\n\nEssas competências expressam os direitos de aprendizagem a serem garantidos aos estudantes ao longo de sua trajetória na Educação Básica, contemplam todas as habilidades até então vigentes no Currículo Básico Comum de Minas Gerais (CBC-MG) e garantem uma visão mais ampla da área de conhecimento como componente integrado às outras áreas.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

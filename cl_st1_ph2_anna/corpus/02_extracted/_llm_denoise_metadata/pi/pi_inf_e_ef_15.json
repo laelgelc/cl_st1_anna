@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04e2d02adb4f8c7b006ab309027e3887d2be5b2efe06a177b2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 508,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 479,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 987
+    }
+  },
+  "created_at": "2026-09-22T23:02:31Z",
+  "duration_seconds": 5.515,
+  "error": null,
+  "excerpt_id": "pi_inf_e_ef_15",
+  "filename": "pi_inf_e_ef_15.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b0aa4012d7a421eee9beb70fa6faadbafc77c5bebd01128ebdf48a4b162c439b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "ef44ab437d265dea69f5c9e70929be81fa9b7d2b255d17b22fcd15255c3cf461",
+    "rendered_prompt_sha256": "dabe7b2f9d9a7287fbdb9a48cd3ec1a0da260d95937b42ab14e6832572b7e937",
+    "source_text_sha256": "61a4a255ce101eed17219e0cd5907378900592491c7136fe97fda5d68a02eb89"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_inf_e_ef_15.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2659,
+    "filename": "pi_inf_e_ef_15.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_inf_e_ef_15.txt",
+    "state": "pi",
+    "word_count_original": 271
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_inf_e_ef_15.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_inf_e_ef_15.json"
+  },
+  "raw_response_text": "### 3.1 Diagnóstico\n\nCom o objetivo de melhorar a prática pedagógica, as Secretarias de educação devem realizar um consistente diagnóstico de contexto, devendo considerar: Dimensão da rede; Percentual de docentes por número de escolas em que lecionam; Demanda por atividades de desenvolvimento profissional, como por exemplo, o percentual de docentes que afirmam gostar de determinadas atividades de desenvolvimento e temas como maior necessidade; Cumprimento de 1/3 da hora atividade.\n\n### 3.2 Metodologia\n\nPilar que visa melhor estruturar o desenho metodológico entre outros aspectos, indicar as estratégias para alcançar os objetivos definidos.\n\n- A escola como locus principal da formação continuada;\n- A promoção e o estímulo ao trabalho colaborativo entre os professores, por exemplo, por meio da atuação da coordenação pedagógica;\n- A importância de a formação continuada ser específica, isto é, corresponder a demandas reais do professor e com clara relação à sua prática pedagógica;\n- A personalização dos itinerários/roteiros de formação conforme características e demandas específicas dos professores no âmbito de cada Rede, incluindo, por exemplo, ações específicas de formação para professores em estágio probatório;\n- O uso dos resultados dos dados das avaliações de aprendizagem para nortear as ações de formação continuada focadas na melhoria da prática pedagógica do professor;\n- O uso de recursos tecnológicos como um dos meios para oportunizar a formação continuada em todo território e para viabilizar a personalização do itinerário/roteiro da formação e ambientes inovadores de aprendizagem;\n- A formação da gestão escolar e da coordenação pedagógica para apoiar e/ou liderar a implementação das ações de formação continuada na escola.\n- A disponibilização de protocolos de acompanhamento da prática docente para apoiar os coordenadores pedagógicos.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

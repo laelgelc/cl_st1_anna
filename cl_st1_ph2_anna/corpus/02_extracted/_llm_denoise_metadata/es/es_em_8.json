@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0437864895317bf9006ab300b4e69487d28f44513278a39c79",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1009,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 932,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 1941
+    }
+  },
+  "created_at": "2026-09-22T22:27:07Z",
+  "duration_seconds": 6.48,
+  "error": null,
+  "excerpt_id": "es_em_8",
+  "filename": "es_em_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "eca0008dc674f37b948e3a4fbd8cb335513a0a2e530c10a89ea3eeb01f109e60",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f18aa365bfde2f63e0ff2bf568df7d3677805d61d14712a5fae98e18d90733f5",
+    "rendered_prompt_sha256": "5442c537b5ce6a1ed7fdf12a8fbc35c82415c28766db809c17bc51c3b04379a3",
+    "source_text_sha256": "e0d6151262d6af2361f6b6519cf15b800ceb2823af75995a01c48ed76eb82948"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_em_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1040,
+    "filename": "es_em_8.txt",
+    "filepath": "corpus/00_source_per_state/es/es_em_8.txt",
+    "state": "es",
+    "word_count_original": 572
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_em_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_em_8.json"
+  },
+  "raw_response_text": "## Educação do Campo\n\nUma outra modalidade que urge ser destacada aqui diz respeito à Educação no Campo, cujas premissas já foram apontadas no texto introdutório desse Currículo e que demonstram tratar-se de identificar e valorizar o que é próprio dessas comunidades e adequar os projetos pedagógicos de cada escola com a participação de todos, visando apropriar metodologias e recursos à sua realidade para promover a aprendizagem significativa.\n\nAo contextualizarmos a Educação do Campo no estado do Espírito Santo, devemos levar em consideração que o meio rural brasileiro – e espírito-santense – não pode ser entendido como algo homogêneo e uniforme. O campo, assim compreendido, é composto por sujeitos diversos e expressa uma gama de complexidades, de relações políticas e de poder, de organizações e movimentos sociais, e de culturas diferentes.\n\nO Decreto N° 7.352/2010 define as populações do campo como aquelas que produzam e reproduzam suas condições materiais e imateriais de existência a partir do meio rural: os agricultores familiares, os assentados e acampados da reforma agrária, os trabalhadores assalariados rurais, os quilombolas, os caiçaras, os povos da floresta, os caboclos, os extrativistas, os pescadores artesanais, os ribeirinhos e outros (BRASIL, 2010). Desse modo, a Educação do Campo é a modalidade de ensino que se propõe a atender essas populações, de acordo com o que se estabelece na Resolução CEE/ES N° 3.777/2014.\n\nReforçando a diversidade rural no Brasil, a Política Nacional de Desenvolvimento Sustentável dos Povos e Comunidades Tradicionais (PNPCT) reconhece diversas populações no âmbito dessa categoria. Nesse sentido, a PNPCT assegura direitos específicos a esses segmentos sociais, destacando a valorização dos seus modos de viver, costumes, saberes e tradições, incluindo suas formas tradicionais de educação (BRASIL, 2007). No Espírito Santo, por meio do Decreto N° 3.248-R/2013, são reconhecidos como povos e comunidades tradicionais: ciganos; indígenas; pomeranos; pescadores artesanais; quilombolas; e povos de terreiro. Assim, toda essa diversidade deve ser compreendida e incorporada nos currículos das redes de ensino e nas práticas escolares.\n\nAinda de acordo com o Decreto N° 7.352/2010, escolas do campo são aquelas localizadas em área rural ou em área urbana desde que atendam predominantemente as populações do campo. Nesse sentido, as escolas do campo estão vinculadas ao modo de vida das populações que atendem, ou seja, as identidades, as territorialidades, as temporalidades e as culturas locais devem estar demarcadas nos currículos e nos fazeres pedagógicos.\n\nEm consonância com o que se estabelece na Resolução CNE N° 01/2002, as práticas pedagógicas no contexto escolar do campo devem ser dialógicas com as vivências cotidianas dos estudantes campesinos, não podendo dissociar-se do contexto rural local. Diante disso, o processo de ensino-aprendizagem deve voltar-se para a valorização dos sujeitos do campo, das águas e das florestas. Contemplando, assim, os diferentes aspectos que compõem a vida desses sujeitos: trabalho e produção; família e relações sociais; religiosidades; tradições culturais; territórios e conflitos; organização política; ancestralidade, além de conhecimentos tradicionais.\n\nDiante desse contexto, destaca-se que os conteúdos e metodologias adotadas nas escolas do campo devem pautar o constante e permanente diálogo com a BNCC. Trata-se, portanto, de atender às singularidades inerentes ao contexto rural dos estudantes, impondo a necessidade de adequações curriculares, sem prejuízo, diminuição ou qualquer oposição aos conteúdos que são essenciais à educação básica e comuns a todo território nacional. Assim como devem ser garantidas as diretrizes, normas e princípios estabelecidos na Resolução CNE N° 02/2008.",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

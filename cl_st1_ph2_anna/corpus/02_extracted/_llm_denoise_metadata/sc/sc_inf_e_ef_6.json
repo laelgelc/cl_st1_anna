@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_013e803744799f18006ab30f0a7d0487d29f104b59a55ba5df",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 675,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 785,
+      "output_tokens_details": {
+        "reasoning_tokens": 226
+      },
+      "total_tokens": 1460
+    }
+  },
+  "created_at": "2026-09-22T23:28:17Z",
+  "duration_seconds": 7.593,
+  "error": null,
+  "excerpt_id": "sc_inf_e_ef_6",
+  "filename": "sc_inf_e_ef_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "31a5bd0ae9aa071bb1dfe081a2ce54110e3140d38d923478ba17d18ea90ff183",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "35c759798079b309ecfd09544d0876be1b78f22d88e7658acc5f16e9281476b6",
+    "rendered_prompt_sha256": "745a0a0fd2a38b037cf9b693b1c55f7bc10d16ef94cb9fd04a88be86c38f3e51",
+    "source_text_sha256": "a09129903f8698d512296556becd7847669da27db8be4901046e493a6f21e469"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sc/sc_inf_e_ef_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3793,
+    "filename": "sc_inf_e_ef_6.txt",
+    "filepath": "corpus/00_source_per_state/sc/sc_inf_e_ef_6.txt",
+    "state": "sc",
+    "word_count_original": 379
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sc/sc_inf_e_ef_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sc/sc_inf_e_ef_6.json"
+  },
+  "raw_response_text": "## 1.1 EDUCAÇÃO AMBIENTAL FORMAL\n\nConsultora  \nRosemy da Silva Nascimento\n\nGrupo de Trabalho:  \nAndréia Rosane Longhini Balzzan  \nCassiana Medeiros de Souza  \nKarla Grazielle Soares Lima  \nKetryn Fabiana Cidade Beseke  \nLúcio José Bento  \nMarcia Aparecida Dalcanale\n\nA Educação Ambiental Formal (EAF), como especificidade no currículo da Educação Básica, é focada nos sujeitos da comunidade escolar e na sua relação com o ambiente local e seu entorno, a qual reverbera nas demais dimensões escalares.\n\nA justificativa de uma educação para o ambiente foi devido a uma crescente perda da qualidade e da degradação ambiental, além do comprometimento da preservação da vida. Esse alerta serviu para o reconhecimento do papel da educação ambiental na formação e na mobilização dos sujeitos, no resgate de valores e na ação social comprometidos com toda a forma de vida; é, por conseguinte, uma educação para a sustentabilidade socioambiental. Assim sendo, no contexto da definição, compreendemos que a Educação Ambiental (EA) se caracteriza como processo e não evento, considerando a educação dos sujeitos para o conhecimento socioambiental e suas conexões, sustentadas na informação, na sensibilização e na mobilização individual e/ou coletiva para a construção de valores socioambientais, conhecimentos, habilidades, atitudes, tanto para a melhoria quanto para a sustentabilidade de todas as formas de vida; e que, no âmago do corpo-mente-espírito, possa promover a fé[^1] e a busca de esperança.\n\nA Educação Ambiental trata da educação para o ambiente, e o agente ativo nesse processo é o ser humano. Educar significa obter conhecimento, que pode ser construído pelas experiências, pela aceitação, pela razão e pela experimentação. O sentido de educar é instruir para o mundo, para si e para os outros. Nesse sentido, a educação como processo visa promover, nas pessoas, o desenvolvimento de habilidades intelectuais para assimilação de dados e de informações na geração de conhecimento de forma integrada, para apropriarem-se e mudarem comportamentos.\n\n[^1]: Fé, etimologicamente de origem Grega “pistia”, designa a noção de acreditar. E, no Latim, “fides”, remete a uma atitude de fidelidade. Nesse contexto, ter fé implica em ter confiança. Em situações como problemas emocionais ou físicos, ter fé significa ter esperança de algo que vai mudar de forma positiva, para melhor. O termo “fé” também está no cotidiano, como no campo do legislativo. “Dar fé = Atesto como verdade”.",
+  "state": "sc",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08adbf909c609642006ab30d3636cc87d2a848065617ff1960",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 658,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 852,
+      "output_tokens_details": {
+        "reasoning_tokens": 282
+      },
+      "total_tokens": 1510
+    }
+  },
+  "created_at": "2026-09-22T23:20:30Z",
+  "duration_seconds": 8.065,
+  "error": null,
+  "excerpt_id": "rr_em_40",
+  "filename": "rr_em_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "57e66a3fd19ff645ff7a41803e0246cdcc40955907ad27342874709e86dc816d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e4704e7e07e9bc8faf8155c92ed67925bca0bff897aff366fc98bcca5a044490",
+    "rendered_prompt_sha256": "3f71214214fd0bc2868c41f72112ba1099b10288f560e49e14acfe474db20a57",
+    "source_text_sha256": "5d7c7841be1f8f478f918162f645f8baeb5a37a6fe003dd4e8a4bccd093a43de"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_em_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3475,
+    "filename": "rr_em_40.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_em_40.txt",
+    "state": "rr",
+    "word_count_original": 371
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_em_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_em_40.json"
+  },
+  "raw_response_text": "### 4.6.2. Competências específicas\n\n**Competência específica 1:** Analisar processos políticos, econômicos, sociais, ambientais e culturais nos âmbitos local, regional, nacional e mundial em diferentes tempos, a partir da pluralidade de procedimentos epistemológicos, científicos e tecnológicos, de modo a compreender e posicionar-se criticamente em relação a eles, considerando diferentes pontos de vista e tomando decisões baseadas em argumentos e fontes de natureza científica, especialmente do círculo roraimense, compreendendo as dinâmicas do cenário nacional e mundial e seus impactos nos modos de vida das populações indígenas e não-indígenas amazônidas contemporâneas e afro-brasileiros.\n\n**Competência específica 2:** Analisar a formação de territórios e fronteiras em diferentes tempos e espaços, mediante a compreensão das relações de poder que determinam as territorialidades e o papel geopolítico dos Estados-nações, identificando e contextualizando a formação do território roraimense, dentro da Amazônia Caribenha, bem como os agentes que nele atuam.\n\n**Competência específica 3:** Analisar e avaliar criticamente as relações de diferentes grupos, povos e sociedades com a natureza (produção, distribuição e consumo) e seus impactos econômicos e socioambientais, com vistas à proposição de alternativas que respeitem e promovam a consciência, a ética socioambiental e o consumo responsável em âmbito local, regional, nacional e global. Fomentando a discussão acerca das especificidades étnicos-ambientais roraimense e seus potenciais econômicos sustentáveis.\n\n**Competência específica 4:** Analisar as relações de produção, capital e trabalho em diferentes territórios, contextos e culturas, discutindo o papel dessas relações na construção, consolidação e transformação das sociedades. Envolvendo nessas relações o ambiente amazônico e roraimense, ressaltando como estes espaços se inserem na lógica capitalista mundial e na divisão internacional do trabalho.\n\n**Competência específica 5:** Identificar e combater as diversas formas de injustiça, preconceito e violência, adotando princípios éticos, democráticos, inclusivos e solidários, e respeitando os Direitos Humanos. Promovendo o diálogo acerca das diferenças étnicas que formam o povo roraimense e que promovem a riqueza da sua cultura.\n\n**Competência específica 6:** Participar do debate público de forma crítica, respeitando diferentes posições e fazendo escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade. Estendido aos diferentes projetos e modos de vida (especialmente das juventudes integrantes) dos povos indígenas e não-indígenas amazônicos, amazônicos caribenhos e roraimenses.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

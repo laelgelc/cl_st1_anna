@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0a4e5465f878fa92006ab2fd23b31c87d2b7a3fc4999e87644",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 437,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 469,
+      "output_tokens_details": {
+        "reasoning_tokens": 156
+      },
+      "total_tokens": 906
+    }
+  },
+  "created_at": "2026-09-22T22:11:52Z",
+  "duration_seconds": 5.005,
+  "error": null,
+  "excerpt_id": "am_ef_27",
+  "filename": "am_ef_27.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b95c63e0df69baaec2e35a9b58233e1777a61085ac9e820e9bdf761df39b5b35",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3b07b17009ad5c9183f334ce28b7102d863d34c433fc07d39f701b1e4afa260c",
+    "rendered_prompt_sha256": "7f7d13101e8217fea40737c13a3206b8bfdcbdcc9707f1f1f0dd540e0cdd85b9",
+    "source_text_sha256": "e52ec66de437543c778b06a5ee143a9e67926637726c7fb98549ebaa9e1f31f8"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_27.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 329,
+    "filename": "am_ef_27.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_27.txt",
+    "state": "am",
+    "word_count_original": 201
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_27.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_27.json"
+  },
+  "raw_response_text": "12.1\n\nUm detalhe relevante no processo avaliativo são os instrumentos utilizados para realizar a avaliação dos alunos. O modelo que predomina nas escolas para mensurar a aprendizagem ainda é a prova escrita. Entretanto, são diversos os instrumentos a serem usados para avaliar o processo de aprendizagem. Entre eles:\n\n* Produções individuais ou coletivas;\n* Seminários;\n* Painel integrado;\n* Prova dissertativa, com consulta ou sem consulta;\n* Prova objetiva ou oral;\n* Roteiros de observação no caderno;\n* Portfólios;\n* Questionários;\n* Pesquisa e produção textual-individual ou em equipes;\n* Construção de maquetes;\n* Observação e experimentação;\n* O processo avaliativo deve considerar as dimensões e competências gerais da BNCC, atendendo os princípios da globalidade, da eficácia, da justiça e deve estar ao alcance do estudante.\n* Para atender a esses princípios a avaliação deve ter critérios significativos como:\n  * Clareza: não pode suscitar dúvidas sobre a informação que se quer obter;\n  * Diferenciação cognitiva: considerar os diferentes níveis cognitivos;\n  * Representatividade: submeter-se essencialmente aos conteúdos trabalhados.\n\nPor fim, que a avaliação deve superar o caráter punitivo e classificatório e evidenciar o progresso ou dificuldade dos estudantes, orientando a escola e professor na concepção da avaliação como produtora de conhecimento, possibilitando para que busque a inclusão de todos, superando as desigualdades e permitindo oportunidades.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

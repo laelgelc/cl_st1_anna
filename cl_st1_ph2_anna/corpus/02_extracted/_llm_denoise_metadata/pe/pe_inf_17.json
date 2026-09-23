@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08904e48fbaeef85006ab3083b7d2c87d292274f8cd78f2b47",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 734,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 792,
+      "output_tokens_details": {
+        "reasoning_tokens": 205
+      },
+      "total_tokens": 1526
+    }
+  },
+  "created_at": "2026-09-22T22:59:11Z",
+  "duration_seconds": 4.223,
+  "error": null,
+  "excerpt_id": "pe_inf_17",
+  "filename": "pe_inf_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fd53dcbe0a09bddced4adfdac02ec93a0f2b446e2b57387d279abd856ec77744",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "61fbba2845ce92a19584400d5d8d430532bacd41e755ecfabdf231ca831afa18",
+    "rendered_prompt_sha256": "bd1a6bf6d91d6c846eb898f6a51428f82cc759c7bb6fe68e2310ccdb49be385a",
+    "source_text_sha256": "cf36481e67b968c28eb1b3d760eeb5de58c341e060d2aea568103b8d07805b9b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_inf_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2522,
+    "filename": "pe_inf_17.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_inf_17.txt",
+    "state": "pe",
+    "word_count_original": 458
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_inf_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_inf_17.json"
+  },
+  "raw_response_text": "## 2.4 FUNÇÃO SOCIOPOLÍTICA E PEDAGÓGICA DA EDUCAÇÃO INFANTIL\n\nDe acordo com o marco legal que norteia a Educação Infantil, a função sociopolítica dessa primeira etapa da Educação básica determina que o espaço de educação coletiva fora do contexto familiar deve se inscrever no projeto de sociedade democrática com responsabilidades no desempenho de um papel ativo na construção de uma sociedade livre, justa e solidária. Que tenha como propósito a redução das desigualdades sociais e regionais e a promoção do bem de todos (art. 3º, incisos II e IV da Constituição Federal), compromissos a serem perseguidos pelos sistemas de ensino e por todos os educadores na Educação Infantil.\n\nNo que tange à função pedagógica da Educação Infantil, é parte integrante da Educação Básica, como diz a Lei nº 9.394/96 em seu artigo 22, e tem por finalidade desenvolver o educando, assegurando-lhe a formação comum indispensável para o exercício da cidadania e fornecer-lhe meios para progredir no trabalho. Essa finalidade deve ser adequadamente interpretada em relação às crianças pequenas, compreendendo, nessa interpretação, as formas como as crianças, nessa etapa de vida, interagem, aprendem e se desenvolvem de forma bem específica e indicando uma identidade própria para esse segmento que, através do cuidar e o educar, rompe com a visão assistencialista e define esta concepção como direito das crianças.\n\nO cuidar e educar são funções indissociáveis na Educação Infantil, materializados quando a instituição garante a integração dos aspectos físicos, emocionais, cognitivos e sociais nas propostas desenvolvidas, rompendo com a cultura da divisão entre os cuidados com a higienização e alimentação e as práticas pedagógicas.\n\nNesse sentido, para Barbosa (2006), o cuidar ultrapassa processos ligados à proteção e ao atendimento das necessidades físicas de alimentação, repouso, higiene, conforto e prevenção da dor. Exige que o professor se coloque disponível para a escuta das necessidades, dos desejos e inquietações das crianças, no sentido de apoiar as suas conquistas.\n\nAs práticas envolvidas nos atos de alimentar-se, tomar banho, trocar fraldas e controlar os esfíncteres, na escolha do que vestir, na atenção aos riscos de adoecimento mais fácil nessa faixa etária, no âmbito da Educação Infantil, não são apenas práticas que respeitam o direito da criança de ser bem atendida nesses aspectos, como cumprimento do respeito à sua dignidade como pessoa humana. Elas são também práticas que respeitam e atendem ao direito da criança de apropriar-se, por meio de experiências corporais, dos modos estabelecidos culturalmente de alimentação e promoção de saúde, de relação com o próprio corpo e consigo mesma, mediada pelos professores que intencionalmente planejam e cuidam da organização dessas práticas.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

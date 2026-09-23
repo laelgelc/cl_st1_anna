@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0778e7ce101e1277006ab308fbdf0c87d2aa2a7eee4b9737b9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 912,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1105,
+      "output_tokens_details": {
+        "reasoning_tokens": 357
+      },
+      "total_tokens": 2017
+    }
+  },
+  "created_at": "2026-09-22T23:02:29Z",
+  "duration_seconds": 10.186,
+  "error": null,
+  "excerpt_id": "pi_inf_e_ef_11",
+  "filename": "pi_inf_e_ef_11.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "72fb6622f4be5edb73936d515c084ef1fdd11dd7361b6911f2af72dcf915987a",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a4fca20e0382d72d7110716c86d927485dac82a989c1e8ed05210bc4def39846",
+    "rendered_prompt_sha256": "452229fef6b19b0ef07ad302319d8d29449edcda432898c87715387d31c40cdb",
+    "source_text_sha256": "7fea7e877d985fa1fab7e52d6e5d2630395afea1c85318d711d770888ed6f0d9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_inf_e_ef_11.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2655,
+    "filename": "pi_inf_e_ef_11.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_inf_e_ef_11.txt",
+    "state": "pi",
+    "word_count_original": 540
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_inf_e_ef_11.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_inf_e_ef_11.json"
+  },
+  "raw_response_text": "## 2.3 Avaliação\n\nAvaliar é um processo inerente ao ser humano e se processa nas relações sociais, uma vez que somos avaliados a cada momento nas atitudes e valores. No ambiente educacional, mais especificamente no sistema de ensino, este processo se dá de forma sistemática e compreende três dimensões, conforme capítulo II da Resolução nº 4 de 13 de julho de 2010:\n\nI – avaliação da aprendizagem que, na sua função diagnóstica, liga-se à aprendizagem, possibilitando o aprendiz a recriar, refazer o que aprendeu a criar, propor e, neste contexto, aponta para uma avaliação global, que vai além do aspecto quantitativo porque identifica o desenvolvimento da autonomia dos estudantes que é indissociavelmente ético, social e intelectual. Em nível operacional tem como referência o conjunto de habilidades, conhecimentos, princípios e valores que os sujeitos do processo educativo projetam para si de modo integrado e articulado com aqueles princípios e valores definidos para a Educação Básica, redimensionados para cada uma de suas etapas; na Educação Infantil é realizada mediante acompanhamento e registro do desenvolvimento da criança, sem objetivo de promoção, mesmo em se tratando de acesso ao Ensino Fundamental; é de caráter formativo no Ensino Fundamental e médio, predominando o qualitativo sobre o quantitativo e classificatório, adota uma estratégia de progresso individual e contínuo que favorece o crescimento do educando, preservando a qualidade necessária para a sua formação escolar, sendo organizada de acordo com as regras comuns a essas etapas (Resolução nº 4, de 13 de julho de 2010 in: BRASIL, 2013, p. 76).\n\nII – avaliação institucional interna e externa – promovida pelos órgãos superiores dos sistemas educacionais, inclui, entre outros instrumentos, pesquisas, provas, tais como as do SAEB, Prova Brasil, ENEM e outras promovidas por sistemas de ensino de diferentes entes federativos, dados estatísticos, incluindo os resultados que compõem o Índice de Desenvolvimento da Educação Básica (IDEB) e/ou que o complementem ou o substituam, e os decorrentes da supervisão e verificações in loco.\n\nIII – avaliação de redes de Educação Básica – é periódica, feita por órgãos externos às escolas e engloba os resultados da avaliação institucional, que sinalizam para a sociedade se a escola apresenta qualidade suficiente para continuar funcionando (Resolução nº 4, de 13 de julho de 2010 in: BRASIL, 2013, p. 77).\n\nTomando a avaliação como um processo global, nas três dimensões, citados anteriormente, a proposta de currículo do Piauí considera-a ferramenta necessária para o funcionamento do currículo, seu monitoramento e tomada de decisões. Dessa forma, a avaliação se configura como instrumento potencializador do currículo e como ponto de partida e de chegada do processo de ensino e aprendizagem, e vai além de medir conhecimento e atribuir notas e conceitos, como afirma Haydt (2008), citada por Barbosa (2011):\n\n> [...] a avaliação assume dimensões mais amplas. A atividade educativa não tem por meta atribuir notas, mas realizar uma série de objetivos que se traduzem em termos de mudanças de comportamentos dos alunos. E cabe justamente à avaliação verificar em que medida esses objetivos estão realmente sendo alcançadas, para ajudar o aluno a avançar na aprendizagem.\n\nConsiderando o exposto, o Currículo do Piauí, para ser implementado com sucesso, terá como norte as avaliações diagnóstica, a contínua e cumulativa, a formativa, de modo que a qualitativa se sobreponha à quantitativa.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

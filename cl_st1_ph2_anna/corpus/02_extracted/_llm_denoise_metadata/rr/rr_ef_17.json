@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0111cace7a1985a0006ab30ccde92887d2a76611a6092630ce",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 575,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 574,
+      "output_tokens_details": {
+        "reasoning_tokens": 97
+      },
+      "total_tokens": 1149
+    }
+  },
+  "created_at": "2026-09-22T23:18:42Z",
+  "duration_seconds": 4.406,
+  "error": null,
+  "excerpt_id": "rr_ef_17",
+  "filename": "rr_ef_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "642da9679a156ba7be67905b0f7235273a9d338b123b2a50b9bee03194b3f30c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "67d120d878081d789208527d23b9c8b4f64590732b5b201e19feccbd86347012",
+    "rendered_prompt_sha256": "d00a1d70886a1a9abaef76dacdb606d3038942b31a6a1b5a591d14bc63e69641",
+    "source_text_sha256": "a3639feef52a744226782bac10cd46f1bb7b95c22d8eba50d65ed6589866cc0a"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_ef_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3382,
+    "filename": "rr_ef_17.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_ef_17.txt",
+    "state": "rr",
+    "word_count_original": 331
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_ef_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_ef_17.json"
+  },
+  "raw_response_text": "### 4.3.6 ORIENTAÇÕES DIDÁTICAS:\n\n- Ao tematizar as práticas corporais relacionadas as Brincadeiras e Jogos, Danças e Lutas nas suas aulas, o professor (a) deve abordar essas práticas de acordo com sua ocorrência social, ou seja, partindo do contexto cultural de Roraima, da região norte, do Brasil e finalmente do mundo.\n- O Documento Curricular de Educação Física elenca as unidades temáticas, porém não sugere uma distribuição delas em bimestres ou de forma linear, ficando a cargo dos professores em suas escolas escolherem a organização dessas práticas corporais em uma perspectiva espiralada.\n- As modalidades esportivas citadas na descrição das categorias dos esportes servem apenas para facilitar a compreensão do que caracteriza cada uma das categorias. Portanto, não são prescrições das modalidades a ser obrigatoriamente tematizadas na escola.\n- A estruturação e organização das aulas deve seguir uma sequência didática lógica, pois permitirá um encadeamento das práticas corporais com expectativas e progressões de aprendizagens bem definidas.\n- Sugere-se que a estruturação das aulas seja composta basicamente de três momentos:\n  - Primeiro Momento: Contextualização – É a parte inicial da aula, momento que o professor realiza uma roda de conversa inicial onde apresenta a unidade temática e o objeto do conhecimento que serão explorados na aula, com a explicação conceitual e as orientações didáticas sobre a prática corporal que será tematizada;\n  - Segundo Momento: Experimentação – É a parte principal da aula, em que os alunos devem experimentar, fruir, vivenciar, criar, recriar, construir, produzir, investigar, problematizar entre outros domínios das práticas corporais, podendo estabelecer relações com o tema da aula de acordo com o planejamento desenvolvido. As atividades podem ser tematizadas de forma conceitual, procedimental ou atitudinal.\n  - Terceiro Momento: Avaliação – É a parte final da aula, momento de avaliação e reflexão conjunta entre professor e alunos sobre as práticas corporais tematizadas e as habilidades que foram desenvolvidas. Esse momento deve ser registrado utilizando-se instrumentos avaliativos adequados, bem definidos e coerentes com a faixa etária dos alunos, inclusive, respeitando o desenvolvimento cognitivo de cada um.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06e5642056ba189e006ab3083f961887d2b3112376572210c1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 899,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 974,
+      "output_tokens_details": {
+        "reasoning_tokens": 219
+      },
+      "total_tokens": 1873
+    }
+  },
+  "created_at": "2026-09-22T22:59:20Z",
+  "duration_seconds": 8.502,
+  "error": null,
+  "excerpt_id": "pe_inf_19",
+  "filename": "pe_inf_19.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "911b42b72d2cfec9cff1db6f5989644f276654c318d237fa5ac74bac732c80af",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "49490e768df03da81268868b6c2f10e1f67b99222fc1630da947bcfbd5125769",
+    "rendered_prompt_sha256": "f04582fcc82f8a5c2394f7a9209ff2c154cfb6ea00098cb07dd5239866cd8654",
+    "source_text_sha256": "277f3100fcaf755a4d82507e6b5e8138ee3f4bdaca21cb42ee1b71368faf9b5e"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_inf_19.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2524,
+    "filename": "pe_inf_19.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_inf_19.txt",
+    "state": "pe",
+    "word_count_original": 558
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_inf_19.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_inf_19.json"
+  },
+  "raw_response_text": "## 2.7 ORGANIZAÇÃO DO TEMPO E ESPAÇO NA EDUCAÇÃO INFANTIL: A ROTINA DIÁRIA E O ESPAÇO FÍSICO\n\nA rotina na Educação Infantil é instrumento de reflexão sobre a prática pedagógica na busca de potencializar ações organizadas e flexibilizadas que atendam às necessidades de aprendizagem e desenvolvimento e promovam a autonomia das crianças nas interações e brincadeiras, no tempo e espaço.\n\nEstudos realizados por Barbosa (2006) compreendem a rotina como uma categoria pedagógica da Educação Infantil, que opera como uma estrutura básica organizadora do cotidiano das creches ou pré-escola, sendo atividades recorrentes ou reiterativas na vida cotidiana coletiva, que são ressignificadas e planejadas de acordo com a ampliação das experiências das crianças.\n\nNessa dinâmica, o planejamento do professor ganha cada vez mais relevância no uso efetivo e qualificado do tempo ao arquitetar uma rotina flexível, promovendo reflexões metodológicas na utilização dos materiais disponíveis e brincadeiras, nas atividades individuais e em grupos, através de múltiplas linguagens, à medida que as ações da prática pedagógica apresentem indicativos para ampliação do conhecimento na trajetória de aprendizagem.\n\nQuando se pensa em rotina, na instituição de Educação Infantil, relaciona-se também a ideia de espaço e tempo vividos. No entanto, é importante a compreensão do que se trata esse tempo/espaço no currículo para constituição da formação humana.\n\nÉ significativa a escolha de lugares para o desenvolvimento das brincadeiras e repouso, alimentação, higiene, atividades lúdicas, jogos e brincadeiras. Deve-se considerar a importância de estimular nas crianças a realização de explorações, experimentações e descobertas que atuam no desenvolvimento de suas potencialidades físicas, cognitivas, motoras, afetivas e interativas, considerando suas características físicas, suas faixas etárias e sua cultura.\n\nO tempo e o espaço também devem ser organizados intencionalmente de forma a promover o desenvolvimento integral, o que remete à importância da sensibilidade do professor diante dos materiais e móveis que ocupam esses espaços e sua relevância significativa em contribuir para aprendizagem e desenvolvimento desses sujeitos de direitos, desejantes, ativos, cognoscentes.\n\nA valorização do desenvolvimento integral, nos aspectos cognitivo, físico e socioemocional, assim como a organização do espaço e do tempo nas creches e pré-escolas tornam-se substanciais quando se apresentam comprometidas com os direitos de aprendizagem e de desenvolvimento, pois “a organização do espaço se constitui em um parceiro pedagógico de excelência. Quanto mais rico e desafiador este espaço for, mais qualificadas serão as aprendizagens das crianças” (HORN, 2004).\n\nPortanto, as instituições de Educação Infantil devem garantir espaços físicos limpos, seguros, inclusivos, acolhedores e desafiadores, com acessibilidade, estética, ventilação, insolação, luminosidade, acústica, com higiene e interatividade, de sorte a permitir a participação efetiva nas explorações e descobertas nas relações e interações entre crianças/crianças; crianças/professor;\n\nComo explica Rossetti-Ferreira et al (2007), ao citar que os espaços devem ser sempre atraentes e estimulantes na Educação Infantil, o professor necessita estar atento para as observações e mudanças, de modo a acompanhar o desenvolvimento dos bebês e das crianças e seus interesses por coisas novas.\n\nNessa perspectiva, a rotina e o espaço físico nas creches e pré-escolas estão imbricados e devem estar comprometidos com a aprendizagem e desenvolvimento na Educação Infantil, pois reconhecer que os bebês e as crianças estão sempre aprendendo, é imprescindível!",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

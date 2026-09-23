@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_037917e180b1c3ca006ab30b47b5d487d29a50bdf5ccf6eff9",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 843,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 988,
+      "output_tokens_details": {
+        "reasoning_tokens": 232
+      },
+      "total_tokens": 1831
+    }
+  },
+  "created_at": "2026-09-22T23:12:17Z",
+  "duration_seconds": 9.714,
+  "error": null,
+  "excerpt_id": "rn_inf_23",
+  "filename": "rn_inf_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9533e85ee2b99b0fbc339eabc81d66caa466c0a06d3294beaf08d6cf679e8e3c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "526f5d9e1418a704a9ff23821a109d5a40b2efc74131c4db4de97d8554929615",
+    "rendered_prompt_sha256": "2cb4e438f6a925266a1786dbcebfb5be1e208413e3caf2f4c46343a2cf7566ac",
+    "source_text_sha256": "7575fc535db8d9e1f1f4a91f2516b25dee1639bca4492cd555862cad60e5b707"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_inf_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3069,
+    "filename": "rn_inf_23.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_inf_23.txt",
+    "state": "rn",
+    "word_count_original": 520
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_inf_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_inf_23.json"
+  },
+  "raw_response_text": "Considerando que, na Educação Infantil, as aprendizagens e o desenvolvimento das crianças têm como eixos estruturantes as interações e a brincadeira, assegurando-lhes os direitos de conviver, brincar, participar, explorar, expressar-se e conhecer-se, a organização curricular da Educação Infantil na BNCC está estruturada em cinco campos de experiências, no âmbito dos quais são definidos os objetivos de aprendizagem e desenvolvimento. Os campos de experiências constituem um arranjo curricular que acolhe as situações e as experiências concretas da vida cotidiana das crianças e seus saberes, entrelaçando-os aos conhecimentos que fazem parte do patrimônio cultural (BRASIL, 2017, p. 38).\n\nOs direitos de aprendizagem orientam o trabalho pedagógico em cada um dos campos de experiência estabelecidos na BNCC, expressando os diferentes modos como as crianças aprendem, isto é, convivendo, brincando, participando, explorando, expressando e se conhecendo. Desse modo, apresenta-se aqui Direitos de aprendizagem e desenvolvimento para cada Campo de experiência, propostos em um recente documento publicado pelo MEC (BRASIL, 2018) no processo de implementação da BNCC.\n\n## CAMPO DE EXPERIÊNCIAS: O EU, O OUTRO E O NÓS\n\n### Direitos de aprendizagem e desenvolvimento\n\n- **CONVIVER** com crianças e adultos em pequenos grupos, reconhecendo e respeitando as diferentes identidades e pertencimento étnico-racial, de gênero e religião de seus parceiros.\n- **BRINCAR** com diferentes parceiros desenvolvendo sua imaginação e solidariedade.\n- **EXPLORAR** diferentes formas de interagir com parceiros diversos em situações variadas, ampliando sua noção de mundo e sua sensibilidade em relação aos outros.\n- **PARTICIPAR** ativamente das situações do cotidiano, tanto daquelas ligadas ao cuidado de si e do ambiente, como das relativas às atividades propostas pelo/a professor/a.\n- **EXPRESSAR** às outras crianças e/ou adultos suas necessidades, emoções, sentimentos, dúvidas, hipóteses, descobertas, opiniões, oposições.\n- **CONHECER-SE** e construir uma identidade pessoal e cultural, valorizando características e as das outras crianças e adultos, aprendendo a identificar e combater atitudes preconceituosas e discriminatórias.\n\n(BRASIL, 2018)\n\nÉ importante reconhecer a relevância das interações na constituição das identidades das crianças, de modo que estas se percebam enquanto sujeitos individuais e sociais. Nessa perspectiva, faz-se necessário a ampliação de experiências diversas que promovam o conhecimento de si, do outro e do mundo, bem como de situações de aprendizagem que visem a construção de sua autonomia.\n\nPara isso, é necessário possibilitar, também, vivências onde as crianças possam reconhecer a diversidade, convivendo com diferentes grupos culturais, a fim de que seus padrões de referência e identidade sejam ampliados. Desse modo, nas interações com diferentes parceiros em situações diversas, elas se apropriam de amplas aprendizagens sobre si mesmas e os outros, conhecendo, valorizando e respeitando as diferenças que os tornam seres individuais, ainda que sociais.\n\nPropõe-se, então, criar e organizar situações em que as crianças possam aprender a desenvolver sua autonomia, a partir da relação com outras crianças e adultos, do conhecimento dos cuidados que precisa ter com sua saúde e higiene no dia a dia, e de momentos em que possam expressar seus desejos, saberes, preferências. Bem como, de situações nas quais os pequenos sejam capazes de enfrentar conflitos, argumentando suas opiniões, realizando combinados, criando vínculos afetivos de amizade com seus colegas e com adultos, etc.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

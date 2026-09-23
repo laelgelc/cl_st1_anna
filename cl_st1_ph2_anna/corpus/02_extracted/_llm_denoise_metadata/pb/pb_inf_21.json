@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0b2b0769427b1856006ab30799d22087d2a24292c7dc19ea61",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 677,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 736,
+      "output_tokens_details": {
+        "reasoning_tokens": 160
+      },
+      "total_tokens": 1413
+    }
+  },
+  "created_at": "2026-09-22T22:56:32Z",
+  "duration_seconds": 6.373,
+  "error": null,
+  "excerpt_id": "pb_inf_21",
+  "filename": "pb_inf_21.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8179388db07788ce10cb3cbc729bfc7a9950886440f33effde91c5d46ff71e33",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a84524b889abfa60c029e29f388bee4670e477f8b92c78b4cdfd160c73fe8646",
+    "rendered_prompt_sha256": "bbbfdb27bc1cb99e6f60ce76e67cc353ec1d1044f8d4014cb411c61a4598d160",
+    "source_text_sha256": "4a4061d6ecb66e24db50c0c8dced77055391b524e2387f97fe7b515d6b49b764"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pb/pb_inf_21.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2365,
+    "filename": "pb_inf_21.txt",
+    "filepath": "corpus/00_source_per_state/pb/pb_inf_21.txt",
+    "state": "pb",
+    "word_count_original": 344
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pb/pb_inf_21.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pb/pb_inf_21.json"
+  },
+  "raw_response_text": "Campo de experiências: “ESCUTA, FALA, PENSAMENTO E IMAGINAÇÃO”\n\n**OBJETIVOS DE APRENDIZAGEM E DESENVOLVIMENTO**\n\nDialogar com crianças e adultos, expressando seus desejos, necessidades, sentimentos e opiniões.\n\nIdentificar e criar diferentes sons e reconhecer rimas e aliterações em cantigas de roda e textos poéticos.\n\nDemonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita).\n\nFormular e responder perguntas sobre fatos da história narrada, identificando cenários, personagens e principais acontecimentos.\n\nRelatar experiências e fatos acontecidos, histórias ouvidas, filmes ou peças teatrais assistidos etc.\n\nCriar e contar histórias oralmente, com base em imagens ou temas sugeridos.\n\nManusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais.\n\nManipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.).\n\nManusear diferentes instrumentos e suportes de escrita para desenhar, traçar letras e outros sinais gráficos. (BNCC, 2017)\n\nVivenciar diferentes sons, rimas e aliterações com cantigas de roda e textos poéticos.\n\n**SUGESTÕES DE VIVÊNCIAS QUE FAVORECEM A CONSTRUÇÃO DE EXPERIÊNCIAS PELAS CRIANÇAS BEM PEQUENAS NESTE CAMPO**\n\nAs práticas realizadas na Instituição de Educação Infantil devem possibilitar:\n\n- Condições para que as crianças possam expressar sentimentos, desejos e necessidades usando a linguagem oral;\n- Contato com diferentes gêneros textuais;\n- Momentos de encantamento pela escuta da leitura de histórias e outros gêneros textuais;\n- Participação em situações que envolvam a convivência e a manipulação de diferentes suportes textuais;\n- Momentos de criação e recontos de histórias da literatura universal, local e da vida cotidiana, com ênfase nos múltiplos elementos que compõem uma narrativa;\n- Participação em variadas possibilidades de criação e expressão oral, mobilizadas por materiais diversos, imagens, objetos, fotografias, filmes, cenas cotidianas, dentre outros recursos;\n- Intervenções nas contações de histórias, de forma lúdica, utilizando múltiplas linguagens;\n- Liberdade de se expressar, transmitindo suas emoções, sentimentos, pensamentos, desejos, necessidades, por meio de diferentes linguagens;\n- Desenvolvimento da imaginação, atenção e percepção em suas variadas dimensões;",
+  "state": "pb",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

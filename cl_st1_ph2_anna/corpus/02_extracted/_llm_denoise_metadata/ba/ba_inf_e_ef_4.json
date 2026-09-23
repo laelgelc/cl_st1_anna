@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06511c949998d29c006ab2ff11bdb487d2b373c3713d1140de",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1060,
+      "input_tokens_details": {
+        "cache_write_tokens": 1057,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1249,
+      "output_tokens_details": {
+        "reasoning_tokens": 345
+      },
+      "total_tokens": 2309
+    }
+  },
+  "created_at": "2026-09-22T22:20:11Z",
+  "duration_seconds": 9.413,
+  "error": null,
+  "excerpt_id": "ba_inf_e_ef_4",
+  "filename": "ba_inf_e_ef_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "bb445980a7fd8dee6a9504ae7ba236357b918c5d677420ff9acd75066a71e8e3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "88f22a0097b6d9e379074fd3665c4286a84014e350ae154c50a34e70b7231357",
+    "rendered_prompt_sha256": "c2618486f2a33fa0498d16ba4f8c27667c3408fe27a09d7740042be5797a2a44",
+    "source_text_sha256": "4b0481b4712c03ba1448d3d72131db2cd871ea50d89c23bfe2c46eb6eefb06bf"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ba/ba_inf_e_ef_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 721,
+    "filename": "ba_inf_e_ef_4.txt",
+    "filepath": "corpus/00_source_per_state/ba/ba_inf_e_ef_4.txt",
+    "state": "ba",
+    "word_count_original": 656
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ba/ba_inf_e_ef_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ba/ba_inf_e_ef_4.json"
+  },
+  "raw_response_text": "O Documento Curricular Referencial da Bahia para a Educação Infantil e Ensino Fundamental (DCRB) considera as diversas identidades que caracterizam a Bahia, atribuindo às escolas o desenvolvimento de competências voltadas à contextualização, ao aprofundamento e à construção das pluralidades e singularidades dos seus territórios. Nesse sentido, por se tratar de um documento para o Estado da Bahia, apresenta orientações que respeitem a autonomia dessas escolas como representantes de seu Território, evitando generalizações ou caracterização pormenorizada que causariam a exclusão de especificidades identitárias.\n\nAssim, com o objetivo de orientar os educadores, a Política Curricular para o Estado da Bahia emerge de um campo de reflexões que se integram ao território percebido a partir de autores contemporâneos, cujo conceito vai além do território nacional ou mero espaço geográfico, estando de acordo com Milton Santos, cujo pensamento apresenta a dimensão do território usado, que não se limita ao conjunto dos sistemas naturais, incorporando o lugar à identidade, ao sentimento de pertencer como sujeito histórico e político⁶. Milton Santos convida a pensar sobre a relação entre a dinâmica territorial e a manifestação da consciência social, reflexão fundamental no contexto de organização de um currículo referencial para um Estado multidiverso e com dimensões continentais como a Bahia.\n\nEm todo o DCRB, é importante reconhecer a apreensão de “Território” como conceito híbrido e multidimensional. Para definir os fenômenos de utilização humana de espaços e lugares ou a dinâmica da interação social, ambiental, política, econômica e cultural mediada pelo espaço, deve-se ter claro que definir territórios a partir das identidades que lhe são emergentes é uma opção política.\n\nO pertencimento como categoria definidora de Território é um dos muitos ângulos a partir dos quais se pode formular o seu conceito, considerando as dinâmicas históricas de sua produção, as identidades também precisam ser vistas como possíveis de redefinições.\n\n⁶ SANTOS, Milton. Técnica, espaço, tempo: globalização e meio técnico-científico informacional. São Paulo: Edusp, 2008.\n\nComo o Território refere-se às questões do poder, do apropriar-se do seu engendramento ou subordinar-se a ele, a conceituação mais atual esforça-se por reconhecer a suposição de territorialidades num mesmo Território e a mobilidade de suas linhas definidoras: espaciais – de classe, de interesses, de realizações, de capacidades, sempre de acordo com a dinâmica social; e política nele engendrada (territorialização, reterritorialização, desterritorialização).\n\nNa Bahia, o termo “Território” foi apropriado pelo Estado a partir da noção de identidade, tomada como amálgama possível de engendrar possibilidades de desenvolvimento, de se criar laços e convergências possíveis para fazer o enfrentamento dos óbices da pobreza e da baixa capacidade produtiva, seja ela econômica, tecnológica, cultural ou institucional. Estimula-se o entendimento de que “desenvolvimento”, assim como “Território”, é um conceito multirreferencial que pode ser interpretado pela sua significação ideológica, historicamente construída. Nos marcos do Estado da Bahia e da Política de Desenvolvimento Territorial, especificamente, o Território aparece como categoria política, para além do economicismo liberal, apontando para sua dimensão humana e ecológica.\n\nNesse contexto, a dimensão da autonomia aparece como categoria imprescindível ao desenvolvimento. Autonomia como expressão política de uma população ou território capaz de participar e atuar nas definições dos rumos a serem tomados para o seu futuro e os rumos do desenvolvimento.\n\nPor isso, o DCRB busca assegurar a autonomia da escola ao caracterizar seu “lugar”, tomando-a como sujeito político, como autora de decisões. A premissa para isso é a garantia da participação social, de espaços de governança e exercício de poderes de intervenção. Não poderá haver sustentabilidade sem consciência e participação política a nível local.\n\nDessa forma, o Estado da Bahia organiza os seus 417 municípios em 27 Territórios de Identidade, que se constituem como Unidades de Planejamento das Políticas Públicas, delineadas a partir de agrupamentos identitários municipais, geralmente contíguos, formados de acordo com critérios sociais, culturais, econômicos e geográficos.",
+  "state": "ba",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

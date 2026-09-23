@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_09fbda559bd3a911006ab30b7abf9487d2897d50b95be5eb13",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1476,
+      "input_tokens_details": {
+        "cache_write_tokens": 1473,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1510,
+      "output_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "total_tokens": 2986
+    }
+  },
+  "created_at": "2026-09-22T23:13:10Z",
+  "duration_seconds": 12.002,
+  "error": null,
+  "excerpt_id": "ro_ef_14",
+  "filename": "ro_ef_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "439f3bcac4b8a671144cf31a14122f88b15ca6599d6cad35a253e580246b9bab",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "fad0c5d680ce3630f61dacb787892e101cb122015ec84a954b89a4649e2615aa",
+    "rendered_prompt_sha256": "5aa05b492698c53f2a795c4282179bb9a4b49dce13f8ae9c0a1a0f3e88d73c54",
+    "source_text_sha256": "57aaf672a1a03a337ad468d50f4c3b7d05fc714db1032ecae0ceb80858e1d97b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3111,
+    "filename": "ro_ef_14.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_14.txt",
+    "state": "ro",
+    "word_count_original": 985
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_14.json"
+  },
+  "raw_response_text": "## 4.3 A INICIAÇÃO CIENTÍFICA NA EDUCAÇÃO BÁSICA\n\nA inovação educativa proposta pela Base Nacional Comum Curricular – BNCC, com horizonte para o Século XXI, instigadas pelas diversas competências que se estendem por todos os componentes curriculares da Educação Básica, exigirá no cotidiano escolar uma nova postura nas práticas pedagógicas do professor, bem como a inserção de ferramentas tecnológicas que devem contribuir para a organização, estruturação e solução das atividades escolares diárias do estudante. O uso das tecnologias possibilitará a estes estudantes a ampliação de conhecimentos, as novas formas de pensar e de aprender sobre os diferentes componentes curriculares e o impulsionará na prática da pesquisa científica.\n\nMas como sair do enfadonho exercício de transmissão de conteúdo? Como modificar a metodologia de ensino por parte do professor? Como mudar o comportamento do estudante e aguçar seu interesse desde sua tenra idade à prática da pesquisa científica? Ou como associar o ensino a pesquisa na Educação Básica?\n\nA sorte está lançada. Pois, estes caminhos, devem ser traçados pela equipe gestora das Secretarias de Estado da Educação de cada estado, e patrocinados pelos seus governantes. Conquanto, nem a escola e nem o professor pode ignorar o que passa no mundo das novas tecnologias da informação e da comunicação – TICs, porque sua importância não está somente na maneira de comunicar, mas também de trabalhar, decidir, pensar, pesquisar, de aprender. Então, definitivamente o uso das tecnologias se constitui em um importante instrumento de trabalho. Um recurso que tem por objetivo a aquisição e aprofundamento de conhecimentos acerca de determinadas áreas ou assuntos e, nesse viés a (BNCC, 2017), diz que:\n\n> A sociedade contemporânea está fortemente organizada com base no desenvolvimento científico e tecnológico [...], e que o ensino tem compromisso com o letramento científico [...], que precisa assegurar aos estudantes o acesso à diversidade de conhecimentos científicos, produzidos ao longo da história, bem como a aproximação gradativa aos principais processos, práticas e procedimentos da investigação científica, (BNCC, 2017, p. 317).\n\nSe a Base Nacional entende que a prática científica é inerente a prática pedagógica e que é imprescindível que o estudante tenha seu interesse progressivamente estimulado às curiosidades científicas que os “possibilite definir problemas, levantar, analisar e representar resultados, comunicar conclusões e propor intervenções”, (BNCC, 2017, p. 319), isso já justifica na Educação Básica a inserção da Iniciação Científica.\n\nA iniciação científica (IC), enquanto experiência de pesquisa que, até pouco tempo, era trabalhada quase que exclusivamente no Ensino Superior, agora está, definitivamente associada à Educação Básica com o objetivo de iniciar, estimular e envolver o estudante na prática na científica e inovação tecnológica, ainda instituir e conduzir a sistematização da pesquisa desde a Educação Infantil perpassando pelo Ensino Fundamental e Ensino Médio e, ademais, promover a integração das instituições públicas e privadas.\n\nDesse modo, a escola possibilitará às crianças e jovens estudantes o desenvolvimento das capacidades sociocognitivas para aprendizagens de natureza científica, além de beneficiá-los em formas mais elaboradas de pensamento e de capacidades para o trabalho individual e em equipe. Segundo o Caderno 7 – Iniciação Científica, (MEC, 2014), organizado por Ítalo Modesto Dutra, é preciso que:\n\n> Ao introduzirmos a IC nos currículos escolares, os estudantes da Educação Básica sejam desafiados a explicitar curiosidades em todas as áreas do conhecimento, a produzir indagações, a modelizar possíveis soluções aos problemas, a orientar-se por um Método de Trabalho, a realizar testagens e reflexões que levem à construção de novas relações entre elementos de problemas levantados e que estão sendo estudados pelos estudantes pesquisadores e seus professores orientadores, (MEC, 2014, p. 02).\n\nÉ importante perceber que introdução da Iniciação Científica nas escolas de Educação Básica despertará curiosidades e abrirá caminho para que todos os cidadãos tenham conhecimento da importância da ciência no cotidiano da humanidade e, ainda, possibilitará ao estudante a introdução de novas criações e/ou trabalhar na tentativa de resolver questões para ele não solvidas.\n\nEstas atividades paulatinamente vão proporcionando compreensões sobre importância do fazer científico e, para além do laboratório ou atividades desenvolvidas na sala de aula, permitirá entendimentos condizentes as implicações políticas, sociais, econômicas, ambientais e culturais em âmbito local e global.\n\nA pesquisa e os estudos científicos em todas as escolas do estado de Rondônia, motiva e incentiva o intercâmbio entre os estudantes pesquisadores e professores. Não diferente, as demais escolas da Educação Infantil já vêm experimentando a prática da Iniciação Científica, considerando sempre a faixa etária, o ano escolar e as indagações, dúvidas e curiosidades apresentadas por esse público. Estas atividades experimentais, de acordo com a proposta do objeto do conhecimento, são desenvolvidas no decorrer das aulas e, concomitantemente são explicadas pelos professores com aproximações científicas de maneira a facilitar suas compreensões.\n\nNão obstante, entendendo que a escola é um espaço de interpretação e produção de saberes, os conhecimentos mediados pelo trabalho do professor são sempre abordados de forma interdisciplinar e transversal, no qual todos os componentes curriculares se complementam e se integram permitindo ultrapassar limites. Nesse intuito, os gestores, orientadores educacionais e professores buscam, cada vez mais, aprofundar os trabalhos científicos nas salas de aula. Bem ao propósito argumentado por Argüello (2002).\n\n> Educar em ciências é vivenciar no aluno o processo de Fazer Ciências, de Viver Ciências, é manter-se alerta para o diferente, o não explicado ainda para o sujeito, é ter habilidade de formular a pergunta, é se autorresponsabilizar pela procura da resposta, é se extasiar no momento do encontro da resposta criativa e é também saber e ter necessidade de comunicar o descoberto, (ARGÜELLO, 2002, p. 205).\n\nNessa perspectiva, a prática da Iniciação Científica tem promovido cada vez mais oportunidades de fazer os estudantes dialogarem com o conhecimento e, no âmbito dessa prática fundamentada na pesquisa, realizarem novas descobertas, criações, experimentos e análises dos conhecimentos gerados a partir dos diferentes estudos. Pois ao buscar novas informações o estudante estará favorecendo sua autonomia, refletindo sobre os problemas sociais e promovendo soluções que coadunem com anseio da sociedade que ele está inserido.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

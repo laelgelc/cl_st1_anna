@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_098614f8ecb22427006ab30b2317e087d2a621f11b08e201de",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 706,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 699,
+      "output_tokens_details": {
+        "reasoning_tokens": 91
+      },
+      "total_tokens": 1405
+    }
+  },
+  "created_at": "2026-09-22T23:11:36Z",
+  "duration_seconds": 5.703,
+  "error": null,
+  "excerpt_id": "rn_em_39",
+  "filename": "rn_em_39.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "796682c1bd5736ad372cc40b6cefee305d5e3d277515d5a9516ada91e41f71a3",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "81c7f7919ecb1d25b44799078c5c297b5ceb3fa2d23420a2e62d902919c702ee",
+    "rendered_prompt_sha256": "e92e94b8880ae73ae419d0447979ba6ff58deb5b1413a2b5351f8cb252bc4829",
+    "source_text_sha256": "45c022639b496e6a895281320761c81f62365b9627ff79a093b31ad01e09994d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rn/rn_em_39.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3039,
+    "filename": "rn_em_39.txt",
+    "filepath": "corpus/00_source_per_state/rn/rn_em_39.txt",
+    "state": "rn",
+    "word_count_original": 456
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rn/rn_em_39.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rn/rn_em_39.json"
+  },
+  "raw_response_text": "### 3. Progressão para o terceiro ano/série\n\nNeste ano/série, o estudante precisa consolidar a visão de que a Matemática escolar não se limita a tratar dos conteúdos e temas de estudo, mas dos processos de pensamento que precisam ser postos em funcionamento, como a abstração, a demonstração, o raciocínio por meio de hipóteses, a resolução e o planejamento de problemas. Para isso, ele deverá tratar com um conjunto de conhecimentos relacionados e interdependentes, com diversos níveis de complexidade e ampliação de conceitos, tendo presente a realidade sócio-histórico-cultural da comunidade a que pertence, atribuindo, dessa forma, significado aos conhecimentos e saberes adquiridos.\n\nO estudo das funções trigonométricas tais como a função seno, cosseno e tangente e suas aplicações tanto em situações reais como internas à própria Matemática, busca a inter-relação dos assuntos abordados, trazendo para a análise dos estudantes as conexões entre as representações gráficas no plano cartesiano e a geometria, de modo a estabelecer uma primeira aproximação com a geometria analítica, sem, no entanto, adentrar nela. A análise de funções definidas por mais de uma sentença também tem o propósito de ampliar e aprofundar o estudo das funções.\n\nA resolução de sistemas de equações lineares pode enfatizar o processo de resolução por escalonamento, sem deixar à margem outros métodos, estando alinhada a procedimentos computacionais, além de privilegiar a ideia fundamental da equivalência de representações em Matemática.\n\nEm relação à geometria, buscamos garantir ao estudante o aprofundamento dos conceitos da geometria plana e espacial em um nível de abstração mais complexo. O estudo das transformações como funções, considerando as isometrias com figuras representadas no plano cartesiano, tem o propósito de aprofundar a noção de função e despertar a atenção dos estudantes para as posições entre pontos e segmentos antes e depois das transformações a que forem submetidos, possibilitando a conclusão de que a figura inicial e o seu transformado são congruentes.\n\nO pensamento não determinístico também se aprofunda neste período, por meio da análise de situações, levantamento de possibilidades e julgamento do que ocorre em eventos sucessivos e sua probabilidade. A pesquisa estatística proposta estabelece a necessidade de o estudante fazer uso de um sistema de expressão, por meio do qual precisa organizar o pensamento, estruturar dados e informações, relacionar os conhecimentos, interpretar e dar significado aos resultados encontrados.\n\nAs sugestões apresentadas para os três anos/séries do Ensino Médio, no que se refere à progressão de aprendizagens da matemática, estão ancoradas no respeito à cultura, às práticas sociais e às características próprias das juventudes do Rio Grande do Norte, e também na vocação laboral e econômica da sociedade potiguar no âmbito comercial, industrial, da prestação de serviço ou extrativista e nos objetos específicos da Área de Matemática e nos objetos de conhecimento vinculados a ela.",
+  "state": "rn",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

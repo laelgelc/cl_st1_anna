@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06bb26a645cc1e26006ab303cd451087d2897b0621abc2063f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 2391,
+      "input_tokens_details": {
+        "cache_write_tokens": 2388,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2272,
+      "output_tokens_details": {
+        "reasoning_tokens": 149
+      },
+      "total_tokens": 4663
+    }
+  },
+  "created_at": "2026-09-22T22:40:27Z",
+  "duration_seconds": 14.162,
+  "error": null,
+  "excerpt_id": "ms_em_53",
+  "filename": "ms_em_53.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "1892c184b7b74ee779a883587433be904014c43542bed0c25e931207d64e367d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f7b3d8ee7c01b70f5034eba95d6990c72001adcd92b9999f43a6d3a50419a6e9",
+    "rendered_prompt_sha256": "8d28482ef2ad7650bb2d8aaccbd12823b2c1b199fb88122801d3e9b4d7938541",
+    "source_text_sha256": "de21c0e3afacb49e61d450bd3b729a1ad4f23d3ac895d0ef234f3866545cc2a5"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_em_53.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1720,
+    "filename": "ms_em_53.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_em_53.txt",
+    "state": "ms",
+    "word_count_original": 1422
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_em_53.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_em_53.json"
+  },
+  "raw_response_text": "## 4.6. Itinerário de Formação Técnica e Profissional\n\nConforme o artigo 2º da Resolução CNE/CP n. 1, de 5 de janeiro de 2021, que define as Diretrizes Curriculares Nacionais Gerais para a Educação Profissional e Tecnológica, a Educação Profissional e Tecnológica é:\n\n> [...] modalidade educacional que perpassa todos os níveis da educação nacional, integrada às demais modalidades de educação e às dimensões do trabalho, da ciência, da cultura e da tecnologia, organizada por eixos tecnológicos, em consonância com a estrutura sócio-ocupacional do trabalho e as exigências da formação profissional nos diferentes níveis de desenvolvimento, observadas as leis e normas vigentes (BRASIL, 2021).\n\nEssa modalidade é ofertada por meio de cursos técnicos e programas de qualificação profissional e de Educação Profissional Técnica de Nível Médio. Por sua vez, o marco legal da BNCC inova a ação de promover e aprimorar o desempenho do cidadão na sociedade e propiciar melhores condições para o seu aperfeiçoamento profissional.\n\nOs Itinerários Formativos são conjuntos de atividades, situações e conhecimentos que compõem o conteúdo preparado para os estudantes da etapa do Ensino Médio pelas instituições e redes da educação. Sua escolha será feita pelo discente consoante ao seu interesse e/ou aptidão para aprofundar e ampliar aprendizagens em uma ou mais Áreas de Conhecimento e/ou na Formação Técnica e Profissional (FTP), com carga total mínima de 1.200 horas. Os Itinerários indicam a trajetória que o estudante pode percorrer ao longo de sua formação no Ensino Médio, tendo a oportunidade de escolhas e mudanças ao longo desse caminho.\n\nA Portaria n. 1.432/2018 estabelece os referenciais para a elaboração dos Itinerários Formativos, nos quais são previstas situações e atividades educativas que os estudantes podem escolher para que possam aprofundar e ampliar os seus conhecimentos nas mais variadas Áreas do Conhecimento (seja em apenas uma Área ou mais, ou ainda na sua formação técnica). Essa Portaria define os eixos estruturantes que organizam os diferentes arranjos de Itinerários Formativos, bem como cria oportunidades para que os estudantes vivenciem experiências educativas, associadas à realidade contemporânea, que promovam a sua formação pessoal, profissional e cidadã, buscando envolvê-los em situações de aprendizagem que lhes permitam produzir conhecimentos, criar, intervir na realidade e empreender projetos.\n\nDentre as possibilidades de escolha dos Itinerários Formativos, viabilizados a partir da BNCC, o estudante poderá optar pela Formação Profissional Técnica (Curso Técnico), Qualificação Profissional (Formação Inicial e Continuada), Aprofundamento nas Áreas de Conhecimento (Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias e Ciências Humanas e Sociais Aplicadas) ou, ainda, a composição de duas ou mais dessas opções numa mesma trajetória (itinerário integrado).\n\nO parágrafo 5º, do artigo 5º, da Resolução CNE/CP n. 1, de 5 de janeiro de 2021, define o itinerário formativo na Educação Profissional e Tecnológica como “o conjunto de unidades curriculares, etapas ou módulos que compõem a sua organização em eixos tecnológicos e respectiva área tecnológica” (BRASIL, 2021).\n\nSegundo a Resolução CNE/CP n. 3/2018, o Itinerário de Formação Técnica e Profissional compreende um conjunto de termos e conceitos próprios, tais como: ambientes simulados, formações experimentais, aprendizagem profissional, qualificação profissional, habilitação profissional técnica de nível médio, programa de aprendizagem, certificação intermediária e certificação profissional. Conforme o § único, artigo 6º dessa Resolução:\n\na) ambientes simulados: são ambientes pedagógicos que possibilitam o desenvolvimento de atividades práticas da aprendizagem profissional quando não puderem ser elididos riscos que sujeitem os aprendizes à insalubridade ou à periculosidade nos ambientes reais de trabalho;\n\nb) formações experimentais: são formações autorizadas pelos respectivos sistemas de ensino, nos termos de sua regulamentação específica, que ainda não constam no Catálogo Nacional de Cursos Técnicos (CNCT);\n\nc) aprendizagem profissional: é a formação técnico-profissional compatível com o desenvolvimento físico, moral, psicológico e social do jovem, de 14 a 24 anos de idade, previsto no § 4º do art. 428 da Consolidação das Leis do Trabalho (CLT) e em legislação específica, caracterizada por atividades teóricas e práticas, metodicamente organizadas em tarefas de complexidade progressiva, conforme respectivo perfil profissional;\n\nd) qualificação profissional: é o processo ou resultado de formação e desenvolvimento de competências de um determinado perfil profissional, definido no mercado de trabalho;\n\ne) habilitação profissional técnica de nível médio: é a qualificação profissional formalmente reconhecida por meio de diploma de conclusão de curso técnico, o qual, quando registrado, tem validade nacional;\n\nf) programa de aprendizagem: compreende arranjos e combinações de cursos que, articulados e com os devidos aproveitamentos curriculares, possibilitam um itinerário formativo. A oferta de programas de aprendizagem tem por objetivo apoiar trajetórias formativas, que tenham relevância para os jovens e favoreçam sua inserção futura no mercado de trabalho. Observadas as normas vigentes relacionadas à carga horária mínima e ao tempo máximo de duração do contrato de aprendizagem, os programas de aprendizagem podem compreender distintos arranjos;\n\ng) certificação intermediária: é a possibilidade de emitir certificação de qualificação para o trabalho quando a formação for estruturada e organizada em etapas com terminalidade;\n\nh) certificação profissional: é o processo de avaliação, reconhecimento e certificação de saberes adquiridos na educação profissional, inclusive no trabalho, para fins de prosseguimento ou conclusão de estudos nos termos do art. 41 da LDB (BRASIL, 2018a).\n\nA Resolução CNE/CP n. 1, de 5 de janeiro de 2021, que define as Diretrizes Curriculares Nacionais Gerais para a Educação Profissional e Tecnológica, estabelece a carga horária mínima para o Ensino Médio, integra e promove uma articulação entre a educação profissional e a básica, conforme o disposto no artigo 26:\n\n> § 1º Os cursos de qualificação profissional técnica e os cursos técnicos, na forma articulada, integrada com o Ensino Médio ou com este concomitante em instituições e redes de ensino distintas, com projeto pedagógico unificado, terão carga horária que, em conjunto com a da formação geral, totalizará, no mínimo, 3.000 (três mil) horas, a partir do ano de 2021, garantindo-se carga horária máxima de 1.800 (mil e oitocentas) horas para a BNCC, nos termos das Diretrizes Curriculares Nacionais para o Ensino Médio, em atenção ao disposto no §5º do Art. 35-A da LDB (BRASIL, 2021).\n\nRessalta-se que o § 3º, artigo 5º, da Resolução CNE/CP n. 1/2021 estabelece que “o Catálogo Nacional de Cursos Técnicos (CNCT) e o Catálogo Nacional de Cursos Superiores de Tecnologia (CNCST) orientam a organização dos cursos dando visibilidade às ofertas de Educação Profissional e Tecnológica” (BRASIL, 2021).\n\nA respeito da carga horária do Itinerário em Formação Técnica e Profissional, a matriz curricular obedece ao artigo 26 da Resolução CNE/CP n. 1/2021:\n\n> § 1º Os cursos de qualificação profissional técnica e os cursos técnicos, na forma articulada, integrada com o Ensino Médio ou com este concomitante em instituições e redes de ensino distintas, com projeto pedagógico unificado, terão carga horária que, em conjunto com a da formação geral, totalizará, no mínimo, 3.000 (três mil) horas, a partir do ano de 2021, garantindo-se carga horária máxima de 1.800 (mil e oitocentas) horas para a BNCC, nos termos das Diretrizes Curriculares Nacionais para o Ensino Médio, em atenção ao disposto no §5º do Art. 35-A da LDB (BRASIL, 2021).\n\nOs cursos da Educação Profissional são estruturados em eixos tecnológicos, que podem ser compreendidos como conjuntos organizados e sistematizados de conhecimentos, competências e habilidades, de diferentes ordens (científicos, jurídicos, políticos, sociais, econômicos, organizacionais, culturais, éticos, estéticos etc.). Cada eixo reúne um grupo de cursos, indicando para cada um a carga horária mínima, o perfil profissional de conclusão, infraestrutura mínima requerida, dentre outras informações.\n\nA Resolução CNE/CP n. 1/2021 define o eixo tecnológico, no § 8º, artigo 5º, como:\n\n> A estrutura de organização da Educação Profissional e Tecnológica, considerando as diferentes matrizes tecnológicas nele existentes, por meio das quais são promovidos os agrupamentos de cursos, levando em consideração os fundamentos científicos que as sustentam, de forma a orientar o Projeto Pedagógico do Curso (PPC), identificando o conjunto de conhecimentos, habilidades, atitudes, valores e emoções que devem orientar e integrar a organização curricular, dando identidade aos respectivos perfis profissionais (BRASIL, 2021).\n\nA seguir, apresentar-se-á a composição dos Itinerários Formativos (IF) de FTP em Mato Grosso do Sul, a luz da BNCC e da Resolução CNE/CP n. 1/2021. O quadro abaixo revela os 12 IF em Formação Técnica e Profissional que compõem o Currículo de Mato Grosso do Sul, a partir dos quais se desdobram, no total, 36 qualificações profissionais em conformidade com suas matrizes tecnológicas. A atualização e a publicação do Catálogo dos Itinerários de Formação Técnica e Profissional e suas respectivas Qualificações Profissionais são de responsabilidade da SED/MS.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

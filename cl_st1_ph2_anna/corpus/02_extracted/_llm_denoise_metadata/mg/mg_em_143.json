@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_08fd1bed70de84e6006ab30317d07487d29045f29eb98c388c",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 845,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 892,
+      "output_tokens_details": {
+        "reasoning_tokens": 179
+      },
+      "total_tokens": 1737
+    }
+  },
+  "created_at": "2026-09-22T22:37:17Z",
+  "duration_seconds": 6.148,
+  "error": null,
+  "excerpt_id": "mg_em_143",
+  "filename": "mg_em_143.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a11897d7fae1cfc764d09496ee7ad7d8af347755ffd65f3ef2fb7bd2ac36ecb4",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "85244292cdcadaef52f24f91df241456da6c404be9f8c54d60aeab5883e16880",
+    "rendered_prompt_sha256": "26d2436aef68ab1e8beb40853ac1e8bf080fdb7c0638906f957d61aaff06c375",
+    "source_text_sha256": "88a04fd7627346b31952fd8d28836e4e51519ac5f5c0b3df1cecaa8c397457ea"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_143.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1534,
+    "filename": "mg_em_143.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_143.txt",
+    "state": "mg",
+    "word_count_original": 509
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_143.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_143.json"
+  },
+  "raw_response_text": "### 7.1 Formação continuada e o professor\n\nPara a implementação do Currículo Referência, deve-se pensar na contínua formação, visando à efetivação de uma formação humana, científica, cultural e profissional. Ela deve primar pela centralidade dos estudantes no processo educativo, reconhecendo e valorizando as juventudes, assumindo-os como sujeitos sócio e historicamente situados em diferentes contextos, que apresentam suas próprias condições físicas, sociais, culturais, emocionais e intelectuais.\n\nSer ‘docente’ é atuar em combinações sistemáticas de elementos teóricos, conceituais, históricos, contextuais, dentre outros, com situações reais, o que torna difícil pensar na possibilidade de educar fora de uma situação concreta e de uma realidade definida.\n\nO professor continua aprendendo por meio de cursos de graduação, pós-graduação, especializações, atividades culturais e de lazer, seminários, palestras, encontros pedagógicos, dentre outras ações. O processo de aprendizagem e inovação se efetiva quando essas atividades permitem uma reflexão crítica da própria prática docente. Afinal, a formação passa pela experimentação, pela inovação e pela construção de novos modos de desenvolver os processos pedagógicos.\n\nA formação continuada é um processo que envolve, também, os saberes acumulados e experimentados por professores em sua trajetória profissional, ao lidar com problemas e desafios nas práticas e rotinas do cotidiano escolar. Ou seja, a prática pedagógica será transformada e aperfeiçoada no processo contínuo pela busca dos conhecimentos para o ensino e uma atuação profissional cada vez mais eficaz e eficiente.\n\nÉ importante considerar que a troca de experiências e a partilha de conhecimentos entre docentes propiciam um ambiente de permanente formação, no qual cada professor é situado no desempenho simultâneo do papel de formador e de formando (NÓVOA, 1992). Contudo, para que ele se encontre nessa posição, é necessário que esteja atento e aberto às oportunidades que o levem ao crescimento pessoal, cognitivo e profissional, valorizando-se enquanto humano e educador.\n\nNa escola, todos são importantes – gestores, estudantes, professores, demais profissionais, pais, mães e responsáveis – o que implica em uma responsabilidade compartilhada, a qual:\n\n> (...) exige do professor a consciência de que sua formação nunca está terminada e das chefias e do governo, a assunção do princípio da formação continuada. No entanto, também lhe dá o reconforto de sentir que a profissão é para ele, com os outros, sede de construção de saber, sobretudo se a escola em que leciona for uma escola, ela própria, aprendente e, consequentemente, qualificante para os que nela trabalham (ALARCÃO, 2001, p. 24).\n\nAssim, a formação continuada é responsabilidade dos governos, que devem financiá-la e valorizá-la; das escolas, que devem incentivá-la e promovê-la continuamente; e dos próprios professores, que devem considerá-la como um modo de conhecer melhor seus estudantes, para repensar e reorganizar o trabalho, para obter “novos” conhecimentos, para selecionar conteúdos e escolher metodologias adequadas para cada objetivo de aprendizagem, para sentirem-se melhores como seres humanos e como profissionais. Pois, no processo de formação continuada, o professor descobre sempre algo novo ou uma abordagem não vivenciada em sua formação inicial, de modo a repensar e aprimorar suas práticas pedagógicas, contribuindo para o fortalecimento de sua identidade pessoal, intelectual e profissional.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

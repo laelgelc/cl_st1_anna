@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_075bae0ab982ae56006ab3029da7dc87d2882713547870423d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1500,
+      "input_tokens_details": {
+        "cache_write_tokens": 1497,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1843,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 3343
+    }
+  },
+  "created_at": "2026-09-22T22:35:22Z",
+  "duration_seconds": 13.004,
+  "error": null,
+  "excerpt_id": "mg_ef_intro_3",
+  "filename": "mg_ef_intro_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e5e8e192b9326adb0dc0be89275ad27d1bad2e7aef8adf0607fd5f6d30d43fcb",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2e7b02c6604e961070cad7bfd1875dc8f2b843f67a9b661c63c73b3c2fe58378",
+    "rendered_prompt_sha256": "92c6b7ef647f0f64f65ff3dbd08c01b156f5e5602085f99528df94a4c66a7b71",
+    "source_text_sha256": "e8c61ecd38510e9dfbd4e7015aa7198da47a75f5eb9d82cdcf3dbb25286bbea9"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_intro_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1423,
+    "filename": "mg_ef_intro_3.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_intro_3.txt",
+    "state": "mg",
+    "word_count_original": 938
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_intro_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_intro_3.json"
+  },
+  "raw_response_text": "Nessa transição, há algumas evidências: na maioria das vezes, desconsidera-se os conhecimentos prévios trazidos pelos estudantes, de como se dá o processo de transição, as dificuldades que não foram sanadas na fase anterior e a ausência de ações que ajudem os estudantes a se adaptarem às novas condições. Nesse sentido, o Currículo Referência de Minas Gerais, em consonância com a Base Nacional Comum Curricular (BNCC), contribui para minimizar a descontinuidade entre fases e o descompasso entre ensino e aprendizagem verificados ao longo do Ensino Fundamental.\n\nO descompasso entre docentes e discentes dos anos finais do Ensino Fundamental é notório, gerando altas taxas de reprovação e abandono nesse período. No estudo de Davis et al. (2013), esse descompasso é verificado de diversas formas:\n\n> Os depoimentos de professores e estudantes evidenciam a presença de percepções muito distantes sobre as mesmas questões: para os docentes, os alunos são despreparados, desinteressados, imaturos; para os estudantes, as dificuldades de aprendizagem estão relacionadas à falta de planejamento dos professores e ao fato de ignorarem que mudanças de comportamento e de interesse são, na escola, resultantes do contraditório processo de passagem da infância para a adolescência. A indisciplina também foi bastante enfatizada nos grupos de discussão dos professores, aparecendo como causa das dificuldades de aprendizagem dos alunos e perturbador do trabalho docente – algo analisado por vários autores. (DIAS-DA-SILVA, 1997; ROSA e PROENÇA, 2003; CARVALHO e MANSUTTI, s/d apud DAVIS, 2013, p. 116).\n\nConsiderando o cenário apresentado, é urgente adequar as diversas vivências dos estudantes do EFII⁶ na escola, sensibilizando-se com as transições pelas quais os estudantes estão passando e que demandam auxílio de todos os envolvidos no processo de ensino e de aprendizagem. Para tanto, torna-se necessário o cumprimento dos pilares da Educação: aprender a ser, aprender a conhecer, aprender a fazer, aprender a viver com os outros, auxiliando a melhor convivência consigo mesmo e com os outros nos dias atuais. O direito a uma educação de qualidade passa por promover uma educação sintonizada com as especificidades da faixa etária dos 11 aos 14 anos, diminuindo a tendência de desmotivação pela falta de sentido no que está sendo ensinado e, consequentemente, o fracasso escolar.\n\n⁶ Anos finais do Ensino Fundamental ou EFII.\n\nNessa direção, conforme a BNCC (BRASIL, 2017), no Ensino Fundamental – Anos Finais, a escola pode contribuir para o delineamento do projeto de vida dos estudantes, ao estabelecer uma articulação não somente com os anseios desses jovens em relação ao seu futuro, mas também com a continuidade dos estudos no Ensino Médio. Esse processo de reflexão sobre o que cada jovem quer ser e sobre o planejamento de ações para construir esse futuro pode representar mais uma possibilidade de desenvolvimento pessoal e social.\n\nAo longo dessa fase de escolarização, os estudantes se deparam com desafios de maior complexidade, os quais condensam os conhecimentos próprios de cada área. Nesse sentido, a BNCC (BRASIL, 2017) afirma que, tendo em vista essa maior especialização, é importante, nos vários componentes curriculares, retomar e ressignificar as aprendizagens do Ensino Fundamental – Anos Iniciais no contexto das diferentes áreas, visando ao aprofundamento e à ampliação de repertórios dos estudantes.\n\nA escola deve estar atenta a culturas distintas (não uniformes nem contínuas dos estudantes), dessa etapa, sendo necessário que a escola dialogue com a diversidade de formação e vivências para enfrentar com sucesso os desafios de seus propósitos educativos. Nessa perspectiva, a construção coletiva do Projeto Político Pedagógico (PPP) torna-se essencial na efetivação de um currículo territorial, regional ou local que contemple as especificidades de cada comunidade e reflita, na sala de aula, em aprendizagem significativa.\n\nA compreensão dos estudantes, como sujeitos com histórias, e saberes construídos nas interações com outras pessoas, tanto do entorno social mais próximo quanto do universo da cultura midiática e digital, fortalece o potencial da escola como espaço formador e orientador para a cidadania consciente, crítica e participativa.\n\nDiante do exposto, o Currículo Referência de Minas Gerais, em consonância com a BNCC, no Ensino Fundamental, estrutura-se em Áreas do Conhecimento e seus respectivos componentes curriculares, a saber:\n\nI - Linguagens:\n- I.I - Língua Portuguesa\n- I.II - Arte\n- I.III - Educação Física\n- I.IV - Língua Inglesa\n\nII - Matemática:\n- II.I - Matemática\n\nIII - Ciências da Natureza:\n- III.I - Ciências\n\nIV - Ciências Humanas:\n- I.I - Geografia\n- I.II - História\n- I.III - Ensino Religioso\n\nCada Área do Conhecimento e cada componente curricular traz uma parte introdutória, em que é apresentada suas constituições enquanto conhecimento científico, as suas relações com as concepções afirmadas no currículo, suas especificidades e diretrizes. Além disso, é feita uma explicação desse componente curricular em cada fase do Ensino Fundamental e de sua organização, seja em campos de atuação, seja em unidades temáticas. Ao final, são feitas discussões sobre as formas de avaliação em cada componente. Vale destacar que são definidas competências específicas a serem desenvolvidas ao longo desse percurso.\n\nApós a parte introdutória, é apresentado o quadro denominado Organizador Curricular, em que se organizam as habilidades ano a ano e possibilita-se a visualização da progressão das aprendizagens, a fim de auxiliar professores e equipes pedagógicas em suas práticas educativas⁷ e colaborar para uma educação pertinente e equitativa.\n\nAs habilidades do Ensino Fundamental também seguem código alfanumérico. As duas primeiras letras do código alfanumérico se referem à etapa de Ensino Fundamental (EF). O primeiro par de números se refere ao ano em que as habilidades devem ser trabalhadas. Se uma habilidade possui referência para mais de um ano, ela deve ser trabalhada em todos os anos. As letras em sequência indicam o componente a ser trabalhado. O último par de números é a posição do objetivo de aprendizagem na numeração sequencial.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

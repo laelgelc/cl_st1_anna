@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0bc46ce6fdf50216006ab2fdbbf27087d2bf56b22d756ff6c6",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1300,
+      "input_tokens_details": {
+        "cache_write_tokens": 1297,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1324,
+      "output_tokens_details": {
+        "reasoning_tokens": 214
+      },
+      "total_tokens": 2624
+    }
+  },
+  "created_at": "2026-09-22T22:14:45Z",
+  "duration_seconds": 25.626,
+  "error": null,
+  "excerpt_id": "am_inf_44",
+  "filename": "am_inf_44.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "b1e361e0bb08efb671aa320ab8c85c4db4b023b30476155b510aa8c0d9710e78",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "85ea201a818b522e60fbeb08e6d90c757d7371ccb4e202c4b7b45d5e2a5bbb47",
+    "rendered_prompt_sha256": "7aa1bdd9faa1cc6c50da91cf686a203dac3ac2f1b53b68b6e242444ca112e974",
+    "source_text_sha256": "9390cea40dc57c1caba41482d3826225127379b7248909f0ed7db27498cb1a06"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_inf_44.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 447,
+    "filename": "am_inf_44.txt",
+    "filepath": "corpus/00_source_per_state/am/am_inf_44.txt",
+    "state": "am",
+    "word_count_original": 784
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_inf_44.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_inf_44.json"
+  },
+  "raw_response_text": "### 20.2.2 Saúde e higiene dos funcionários\n\nOs funcionários devem ter boa apresentação pessoal, cartão de vacina atualizado e apresentar hábitos adequados; Precisam lavar as mãos antes e após alimentar, cuidar (troca de fralda, limpeza nasal e ferimentos do bebê e da criança); Manter as unhas curtas, limpas, preferencialmente sem esmaltes e os cabelos presos; Não podem atuar na Unidade de Ensino quando apresentarem doenças infectocontagiosas, devendo permanecer afastados do trabalho durante o período de transmissibilidade.\n\nOs funcionários que atuam na higienização do ambiente e das roupas devem utilizar os Equipamentos de Proteção Individual (EPIs) adequados: usar sapatos fechados com sola antiderrapante ou botas de borracha; uniformes ou aventais de material impermeável, luvas e outros que se façam necessários. É necessário um cuidado especial com a limpeza do ambiente porque os bebês e crianças mantêm contato prolongado com o piso, realizando varredura úmida (pano limpo umedecido com água e sabão) a fim de evitar suspensão de partículas de poeira e dispersão de microrganismos.\n\nOs funcionários que atuam na manipulação de alimentos devem utilizar os Equipamentos de Proteção Individual (EPIs) adequados: usar o uniforme de cor clara, toucas e demais equipamentos oferecidos pela prestadora de serviço e usar sapatos fechados com sola antiderrapante. Os manipuladores de alimentos devem manter bons hábitos de higiene durante a manipulação, tais como: não fumar, não tossir, não espirrar, não falar desnecessariamente sobre os alimentos; manter unhas curtas e limpas, sem esmalte ou base (esmalte e unhas postiças acumulam bactéria e não permitem uma boa higiene das mãos).\n\nO local de trabalho do manipulador de alimentos deve ser mantido bem iluminado e ventilado, pois os micróbios patogênicos se multiplicam rapidamente em locais quentes e abafados. As operações de higienização devem ser realizadas com frequência, que garanta a manutenção dessas condições e minimize o risco de contaminação do alimento, devendo a área de preparação ser higienizada quantas vezes forem necessárias e imediatamente após o término do trabalho. Os produtos saneantes utilizados devem estar regularizados pelo Ministério da Saúde. A diluição, o tempo de contato e modo de uso/aplicação dos produtos saneantes deve obedecer às instruções recomendadas pelo fabricante.\n\n### 20.2.3 Limpeza da mamadeira, banheira e escova de dente\n\nO cuidado com a limpeza das mamadeiras deve seguir orientações que garantam a higiene. É preciso preparar uma solução de água e detergente neutro em um recipiente ou pia de cuba funda. Em seguida, emergir as partes das mamadeiras, por alguns minutos, até que as sujidades se desprendam da superfície; com auxílio de uma escova de lavar mamadeira, retirar as sujidades das partes internas e externas; para bicos, virá-los do avesso e com auxílio de uma escova própria, retirar as sujidades.\n\nNa utilização do método de fervura das mamadeiras e utensílios de preparo de alimento, recomenda-se aquecer a água em uma panela em fogo médio até atingir o ponto de fervura. Na utilização da desinfecção física de mamadeiras e utensílios pequenos de contato com os alimentos, o esterilizador de mamadeiras para micro-ondas, é recomendado desde que se sigam as especificações de cada fabricante. Após a secagem, recomenda-se guardar os utensílios em recipientes higienizados e fechados ou em embalagens que não sejam de tecido.\n\nA limpeza da banheira tem por finalidade a remoção de sujidade e eliminação de micro-organismos patogênicos (causam doenças). Após cada uso, é necessário lavá-la com água e sabão, enxaguar com água corrente, secar, proceder à desinfecção da banheira com álcool a 70% e armazenar em local apropriado.\n\nA higiene oral tem a finalidade de limpar a cavidade oral, incluindo língua, gengiva e dentes; prevenir infecções ou combater infecções já instaladas e proporcionar conforto e bem-estar dos bebês e crianças. A escova de dente, gazes e/ou um pano úmido limpo e de uso individual é um item indispensável da higiene diária do bebê e criança. Logo no primeiro uso, a escova, gazes e/ou um pano úmido útil para desorganizar a placa bacteriana, já é contaminada com essas mesmas bactérias da flora bucal. Por isso, é importante conservá-los em local protegido para que não traga bactérias estranhas para a boca.\n\nÉ preciso lavar a escova em água corrente e secar com papel absorvente. Gazes devem ser descartadas após o uso e o pano lavado de forma adequada. A escova deve estar identificadas com o nome da criança, ser guardada em um protetor apropriado e limpo. Utilizar recipiente preferencialmente individual, com tampa para a proteção e que permita a ventilação (evitando a umidade). Realizar a troca periodicamente a cada 3 meses ou sempre que apresentar indícios de mofo ou cerdas desgastadas.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

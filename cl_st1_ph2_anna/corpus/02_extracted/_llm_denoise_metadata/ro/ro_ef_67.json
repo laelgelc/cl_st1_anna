@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06bc0206251ac137006ab30bbb627087d2ad06a8fbcc803500",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 514,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 638,
+      "output_tokens_details": {
+        "reasoning_tokens": 233
+      },
+      "total_tokens": 1152
+    }
+  },
+  "created_at": "2026-09-22T23:14:08Z",
+  "duration_seconds": 5.311,
+  "error": null,
+  "excerpt_id": "ro_ef_67",
+  "filename": "ro_ef_67.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "358039e3add2d5ebccece75644649ae9b43e06a8d424dfb24e25e4fc1759c858",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "84e4b970f1a28a20a7f2c4c4bb0f6fe0ef55744e2d7e6f3831aafdb24ad00806",
+    "rendered_prompt_sha256": "1acb6838947a7d5e517d89a8db961f8d65f371b0916c967f38e0dca2f70d1123",
+    "source_text_sha256": "92b4ed53083fdc0e3ddfe06b606b66a50df8c68ae1f40b310011d63b90539f19"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_ef_67.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3169,
+    "filename": "ro_ef_67.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_ef_67.txt",
+    "state": "ro",
+    "word_count_original": 263
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_ef_67.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_ef_67.json"
+  },
+  "raw_response_text": "### 9.4.4 Competências Específicas do Componente Curricular de Arte\n\n**COMPETÊNCIAS ESPECÍFICAS DE ARTE**\n\n1. Explorar, conhecer, fruir e analisar criticamente práticas e produções artísticas e culturais do seu entorno social, dos povos indígenas, das comunidades tradicionais brasileiras e de diversas sociedades, em distintos tempos e espaços, para reconhecer a arte como um fenômeno cultural, histórico, social e sensível a diferentes contextos e dialogar com as diversidades.\n\n2. Compreender as relações entre as linguagens da Arte e suas práticas integradas, inclusive aquelas possibilitadas pelo uso das novas tecnologias de informação e comunicação, pelo cinema e pelo audiovisual, nas condições particulares de produção, na prática de cada linguagem e nas suas articulações.\n\n3. Pesquisar e conhecer distintas matrizes estéticas e culturais – especialmente aquelas manifestas na arte e nas culturas que constituem a identidade brasileira –, sua tradição e manifestações contemporâneas, reelaborando-as nas criações em Arte.\n\n4. Experienciar a ludicidade, a percepção, a expressividade e a imaginação, ressignificando espaços da escola e de fora dela no âmbito da Arte.\n\n5. Mobilizar recursos tecnológicos como formas de registro, pesquisa e criação artística.\n\n6. Estabelecer relações entre arte, mídia, mercado e consumo, compreendendo, de forma crítica e problematizadora, modos de produção e de circulação da arte na sociedade.\n\n7. Problematizar questões políticas, sociais, econômicas, científicas, tecnológicas e culturais, por meio de exercícios, produções, intervenções e apresentações artísticas.\n\n8. Desenvolver a autonomia, a crítica, a autoria e o trabalho coletivo e colaborativo nas artes.\n\n9. Analisar e valorizar o patrimônio artístico nacional e internacional, material e imaterial, com suas histórias e diferentes visões de mundo.\n\n**Fonte: BNCC**",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

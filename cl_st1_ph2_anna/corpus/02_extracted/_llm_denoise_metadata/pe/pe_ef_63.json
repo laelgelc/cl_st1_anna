@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d1c7c6f6d241a4c006ab307ed9b5c87d2b59887ec6e689d3d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 496,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 439,
+      "output_tokens_details": {
+        "reasoning_tokens": 38
+      },
+      "total_tokens": 935
+    }
+  },
+  "created_at": "2026-09-22T22:57:53Z",
+  "duration_seconds": 4.435,
+  "error": null,
+  "excerpt_id": "pe_ef_63",
+  "filename": "pe_ef_63.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "9067656fe995bc393867bc51b90f497c1d9ebba4506170a4fd5ebc9f7f842595",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "98081f8d1ec8c71a9d6466004aa47641a56c60acca50baf95a9f02d8a56a3375",
+    "rendered_prompt_sha256": "62adc4fcf392c24d2566f4e400153630ef86ea157068166cbe069ed9555e3d84",
+    "source_text_sha256": "1236fd04cd0403589ae5d9bd00369df63c3a2548dac7d3517e8bbce2767cb428"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_ef_63.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2444,
+    "filename": "pe_ef_63.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_ef_63.txt",
+    "state": "pe",
+    "word_count_original": 268
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_ef_63.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_ef_63.json"
+  },
+  "raw_response_text": "### 5.2.1 CIÊNCIAS NO ENSINO FUNDAMENTAL – ANOS INICIAIS\n\nDesde muito cedo, as crianças já mantêm contato com fenômenos, transformações e recursos tecnológicos em seu dia a dia. São frequentemente curiosas, buscam explicações para o que veem, ouvem e sentem. “O que é isso?” “Como funciona?” “Como faz?” Essa é uma fase em que tais indagações e os porquês são bastante recorrentes. Nesse momento da vida, uma série de curiosidades sobre o mundo natural e tecnológico deve ser considerada elemento mobilizador para a construção do conhecimento sistematizado de Ciências. Esse é um estágio provocador tanto para as crianças que buscam respostas, quanto para seus professores, pois caberá a eles a tarefa de apresentar o mundo científico de maneira convidativa, lúdica e integralizadora.\n\nA atuação docente, nesse momento, é de extrema importância, porque deve oferecer, em suas aulas, atividades investigativas desafiadoras, que estimulem o interesse dessas crianças pelo “pensar”, desenvolvendo sua capacidade de observar, testar, comparar, questionar e criar ativamente no processo de ensino-aprendizagem. O propósito é buscar respostas aos “porquês” suscitados nas aulas de Ciências, possibilitando a ampliação de conhecimentos já existentes, preparando-os assim para níveis posteriores da aprendizagem conceitual assegurados na Base Nacional Comum Curricular (BRASIL, 2017) em todos os anos do ensino fundamental.\n\nEnsinar Ciências, nos anos iniciais, faz-se necessário na perspectiva de assegurar a formação científica das crianças, colaborando para o desenvolvimento de habilidades e valores importantes nessa fase da escolarização básica. O que se pretende com isso é que elas alcancem elevados níveis de cognição compatíveis com a faixa etária e assim possam atuar como cidadãos críticos, conscientes e cientificamente letrados.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

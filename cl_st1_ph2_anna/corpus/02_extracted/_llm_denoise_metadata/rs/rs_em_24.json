@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_034d6765779caa2f006ab30da3b47c87d2817d52acf20babf5",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 946,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 861,
+      "output_tokens_details": {
+        "reasoning_tokens": 73
+      },
+      "total_tokens": 1807
+    }
+  },
+  "created_at": "2026-09-22T23:22:18Z",
+  "duration_seconds": 6.422,
+  "error": null,
+  "excerpt_id": "rs_em_24",
+  "filename": "rs_em_24.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c309055fc464bf572e34b4baf456a77a76703e747402628d32f62e5e7becc7dc",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8079dba23d90475f408048dc4eb6b7a8b420a1e9e19ebd6569e62b9d4ba68d14",
+    "rendered_prompt_sha256": "0ea59ece38d6f2d71b7e582c82565408dfe00f62945237d5cb050b35c3eebb89",
+    "source_text_sha256": "b98d1966949b4aaa21ee1d942ab04183d195ba7dfb1ce6b38de4c2a9ecaabc68"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_em_24.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3566,
+    "filename": "rs_em_24.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_em_24.txt",
+    "state": "rs",
+    "word_count_original": 567
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_em_24.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_em_24.json"
+  },
+  "raw_response_text": "## 2.3 COMPETÊNCIAS SOCIOEMOCIONAIS\n\nO estudo sobre o impacto das competências socioemocionais na educação é recente. Foi nos anos 90, com o surgimento do PNUD (Programa das Nações Unidas para o Desenvolvimento) e com a publicação do Relatório Jacques Delors, organizado pela UNESCO, no qual se afirma a importância de uma educação plena, que considere o ser humano na sua integralidade. O relatório da UNESCO sugere um sistema de ensino baseado em quatro pilares: aprender a conhecer, aprender a fazer, aprender a ser, aprender a conviver.\n\nA partir de então, especialistas de diferentes áreas como economia, educação, neurociência e psicologia passaram a estudar e definir quais seriam as competências necessárias para o alcance dos quatro pilares propostos e se haveria outros objetivos para a aprendizagem. Os estudos foram evidenciando a relação entre desenvolvimento socioemocional e desenvolvimento cognitivo, bem como ligações com os diversos contextos da aprendizagem como família, comunidade, ambiente de trabalho e com os indicadores de bem-estar ao longo da vida como renda, saúde e segurança.\n\nA importância das competências socioemocionais serem trabalhadas nas salas de aula, no entanto, é embasada no entendimento de que os humanos são seres integrais, seres complexos e que têm um melhor desempenho cognitivo e socioemocional quando possuem uma harmonia e equilíbrio em seus pensamentos, atitudes, ações e emoções. Abed (2014, p. 112) assevera que “Além de investir no desenvolvimento das habilidades emocionais e sociais das crianças e jovens, a escola pode transformar-se em um espaço privilegiado para estimular o desenvolvimento socioemocional dos familiares dos alunos, ampliando para a comunidade o seu âmbito de influências”.\n\nNessa perspectiva, as habilidades socioemocionais compõem os objetivos da educação integral. Ao propor uma educação contextualizada, ligada aos interesses dos estudantes e relacionada com os desafios que eles enfrentarão ao longo de sua vida, o ensino socioemocional passa a ser um importante suporte, capaz de auxiliar na construção do conhecimento, na formação de sujeitos com princípios éticos, capazes de tomar decisões responsáveis e que saibam lidar melhor com suas emoções.\n\nSegundo Gardner (1995), as habilidades socioemocionais também auxiliam os estudantes na autonomia do pensamento, na socialização e na observância de regras de convívio social, uma vez que a formação integral do ser humano compreende preparar os indivíduos cognitiva e emocionalmente, formando-os como indivíduos, como profissionais e como cidadãos. Além disso, trabalham calcadas nas múltiplas inteligências inerentes à aprendizagem.\n\nNa BNCC, as dimensões socioemocionais guardam larga relação com as Competências Gerais da Educação Básica (estão presentes em todas elas e bem explícitas em quatro delas). Elas incluem a capacidade dos estudantes de lidarem com as próprias emoções, de relacionarem-se com os outros, de serem capazes de colaborar e mediar conflitos, de desenvolverem autoconhecimento e capacidade de solucionar problemas. Permitem, ainda, que os/as estudantes tomem decisões responsáveis, que desenvolvam e demonstrem empatia e que alcancem os seus objetivos.\n\nA educação socioemocional, em grande medida, refere-se ao processo de entendimento e ao manejo das emoções, com empatia e pela tomada de decisão responsável, englobando cinco competências: autoconsciência, autogestão, consciência social, habilidades de relacionamento e tomada de decisão responsável. Destarte, como enfatiza Adorno (2010, p. 143) “A educação seria impotente e ideológica se ignorasse o objetivo de adaptação e não preparasse os homens para se orientarem no mundo”. Destaca-se então que as competências socioemocionais também são fatores de proteção à saúde mental e ao bullying, favorecendo a educação integral como está descrita acima.",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

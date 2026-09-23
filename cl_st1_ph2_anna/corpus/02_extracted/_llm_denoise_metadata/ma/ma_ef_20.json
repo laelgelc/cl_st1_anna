@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_04e771a38db9d43a006ab301bc44f487d287a0f4fc1c90e48a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1743,
+      "input_tokens_details": {
+        "cache_write_tokens": 1740,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3199,
+      "output_tokens_details": {
+        "reasoning_tokens": 1520
+      },
+      "total_tokens": 4942
+    }
+  },
+  "created_at": "2026-09-22T22:31:52Z",
+  "duration_seconds": 28.389,
+  "error": null,
+  "excerpt_id": "ma_ef_20",
+  "filename": "ma_ef_20.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7336f9afdeae4676fc5bb9c96c17d15751f6fac4aa4560b46f0bb49d30f65f28",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "abbd0aef385edf31d7a27f2175babd7a04ff355f485eb31688b22162718a51ab",
+    "rendered_prompt_sha256": "25e7d93f60ce9855ee160a79e6cec76f72be70ae5e4db3727d8eb8ad6a2dff44",
+    "source_text_sha256": "31477d56eabed49ae639d8430829308c98636c5d076eb5389dcbe89584ffb549"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_ef_20.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1245,
+    "filename": "ma_ef_20.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_ef_20.txt",
+    "state": "ma",
+    "word_count_original": 1052
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_ef_20.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_ef_20.json"
+  },
+  "raw_response_text": "## Práticas corporais categorizadas\n\nSegundo a BNCC (BRASIL, 2017), a proposta sugerida por este documento está organizada em dois blocos, sendo Ensino Fundamental – anos iniciais (1º e 2º anos; 3º ao 5º ano) e anos finais (6º ao 9º ano), que apontam as seguintes unidades temáticas:\n\n- **Jogos e brincadeiras.** Os jogos podem ter uma flexibilidade maior nas regulamentações, que são adaptadas em função das condições de espaço e material disponíveis, do número de participantes, entre outros. São exercidos com um caráter competitivo, cooperativo ou recreativo em situações festivas, comemorativas, de confraternização ou ainda no cotidiano, como simples passatempo e diversão.\n- **Esporte.** Práticas em que são adotadas regras de caráter oficial e competitivo, organizadas em federações regionais, nacionais e internacionais que regulamentam a atuação amadora e a profissional.\n\nAssim, apresentamos 11 categorias de esportes que não são prescrições de modalidades a serem obrigatoriamente tematizadas na escola, que levam em consideração a cooperação, interação, desempenho motor e objetivos táticos da ação:\n\n**Marca.** Caracteriza resultados em segundos, metros ou quilos. Exemplos: atletismo, natação, ciclismo, levantamento de peso, entre outros.\n\n**Precisão.** Caracterizada por arremesso ou lançamento de objeto para alcançar alvo específico comparando-se o número de tentativas ou a proximidade do objeto ao alvo, como é o caso de tiro esportivo, arco e flecha, golfe e boliche.\n\n**Técnico-combinatório.** O resultado das ações motoras e a qualidade do movimento segundo padrões técnicos-combinatórios como nas ginásticas rítmica e artística, nado sincronizado, saltos ornamentais etc.\n\n**Rede/quadra dividida ou parede de rebote.** Caracterizadas por arremessar, lançar ou rebater a bola em direções a setores da quadra adversária nos quais o rival seja incapaz de devolvê-la da mesma forma ou que leve o adversário a cometer um erro. Exemplos: voleibol, tênis de mesa, badmington e peteca.\n\n**Campo e taco.** Modalidades que se caracterizam por rebater a bola lançada pelo adversário o mais longe possível para tentar percorrer o maior número de vezes as bases ou a maior distância entre as bases enquanto os defensores não recuperam o controle da bola e assim somar pontos. Exemplos: beisebol, críquete.\n\n**Invasão ou territorial.** Compara-se a capacidade de uma equipe introduzir ou levar uma bola (ou outro objeto) a uma meta ou setor de quadra/campo defendida pelos adversários (gol, cesta e outros), protegendo simultaneamente o próprio alvo, meta ou setor do campo, como no basquetebol, futebol, futsal, futebol americano, polo aquático.\n\n**Combate.** Caracterizada como disputa na qual o oponente deve ser subjugado com técnicas, táticas e estratégias de desequilíbrio, contusão, imobilização ou exclusão de um determinado espaço por meio de combinações de ações de ataque e defesa. É o caso do judô, boxe, esgrima e outros.\n\n**Lutas.** Disputas em que o(s) oponente(s) deve(m) ser subjugado(s), com técnicas e estratégias de desequilíbrio, contusão, imobilização ou exclusão de um determinado espaço na combinação de ações de ataque e defesa. Caracterizam-se por uma regulamentação específica a fim de punir atitudes de violência e de deslealdade.\n\n**Ginástica.** Técnica de trabalho corporal que, de modo geral, assume um caráter individualizado com finalidades diversas. Por exemplo, pode ser feita como preparação para outras modalidades, como relaxamento, para manutenção ou recuperação da saúde, ou ainda de forma recreativa, competitiva e de convívio social.\n\n**Danças.** Manifestações da cultura corporal que têm como característica comum a intenção explícita de expressão e comunicação por meio dos gestos na presença de ritmos, sons e da música na construção da expressão corporal. Trata-se especificamente das danças, mímicas e brincadeiras cantadas.\n\n- **Práticas corporais de aventura.** Possibilidades e limites de vivências e experiências por meio da educação ambiental nas aulas de Educação Física, possibilitando o diálogo entre as práticas corporais de aventura, a Educação Física e a educação ambiental, destacando as relações entre o ser humano e o ambiente.\n\nPara oferecer uma visão mais abrangente da disposição dos blocos proposta pela BNCC, segue quadro abaixo da organização com dois blocos do Ensino Fundamental anos iniciais (1º e 2º anos; 3º ao 5º ano), referindo-se aos seguintes objetos de conhecimento, em cada unidade temática.\n\nNo Ensino Fundamental, anos iniciais, existem características próprias no que tange à apropriação do conhecimento, que permitem aos educandos dessa faixa etária uma aproximação com a Educação Infantil, respeitando suas experiências pessoais e sociais, enaltecendo a interdependência com a realidade local.\n\nÉ oportuno ressaltar que essa proposta de aproximação das informações deve constar nos currículos, adequando-se de acordo com a realidade de cada região e localidade em que esse educando está inserido.\n\n### ENSINO FUNDAMENTAL – ANOS INICIAIS\n\n| Unidades temáticas | 1º e 2º anos | 3º ao 5º ano |\n|---|---|---|\n| Brincadeiras e jogos | Brincadeiras e jogos da cultura popular presentes no contexto comunitário e regional | Brincadeiras e jogos populares do Brasil e do mundo; Brincadeiras e jogos de matriz indígena e africana |\n| Esportes | Esportes de marca; Esportes de precisão | Esportes de campo e taco; Esportes de rede/parede; Esportes de invasão |\n| Ginásticas | Ginástica geral | Ginástica geral |\n| Danças | Danças do contexto comunitário e regional | Danças do Brasil e do mundo; Danças de matriz indígena e africana |\n| Lutas |  | Lutas do contexto comunitário e regional; Lutas de matriz indígena e africana |\n| Práticas corporais de aventura |  |  |\n\nFonte: BNCC (2017:223).\n\nPara oferecer uma visão mais abrangente da disposição dos blocos propostos pela BNCC, segue quadro abaixo da organização com dois blocos do Ensino Fundamental anos finais (6º e 7º anos; 8º e 9º anos), referindo-se aos seguintes objetos de conhecimento, em cada unidade temática.\n\nNo Ensino Fundamental, anos finais, existem características singulares, em que pese à apropriação do conhecimento, que permitem aos educandos maior aprofundamento nas informações de modo geral, bem como em relação às práticas corporais. É oportuno ressaltar que essa proposta de aprofundamento das informações deve constar nos currículos, adequando-se de acordo com a realidade de cada região e localidade em que esse educando está inserido.\n\n### EDUCAÇÃO FÍSICA – ANOS FINAIS\n\n| Unidades temáticas | 6º e 7º anos | 8º e 9º anos |\n|---|---|---|\n| Brincadeiras e jogos | Jogos eletrônicos |  |\n| Esportes | Esportes de marca; Esportes de precisão; Esportes de invasão; Esportes técnico-combinatórios | Esportes de rede/parede; Esportes de campo e taco; Esportes de invasão; Esportes de combate |\n| Ginásticas | Ginástica de condicionamento físico | Ginástica de condicionamento físico; Ginástica de conscientização corporal |\n| Danças | Danças urbanas | Danças de salão |\n| Lutas | Lutas do Brasil | Lutas do mundo |\n\nFonte: BNCC (2017:229).",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

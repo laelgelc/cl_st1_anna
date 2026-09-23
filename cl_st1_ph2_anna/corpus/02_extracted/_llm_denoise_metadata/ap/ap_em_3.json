@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0559a52825aae8a0006ab2fe13244087d285a8aca3b344f63f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1370,
+      "input_tokens_details": {
+        "cache_write_tokens": 1367,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2064,
+      "output_tokens_details": {
+        "reasoning_tokens": 996
+      },
+      "total_tokens": 3434
+    }
+  },
+  "created_at": "2026-09-22T22:16:04Z",
+  "duration_seconds": 17.734,
+  "error": null,
+  "excerpt_id": "ap_em_3",
+  "filename": "ap_em_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "918fbff5a887c98d976b4aba9c288c370b028cf20ac999f28112d09f400cc782",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "020aa09882552f043d75873aeaa6517530671152ae31de49a0d906069ea8c49d",
+    "rendered_prompt_sha256": "37db70722156a33db186b80ab7c75354642587778d19a092da2c16fc6e13fc77",
+    "source_text_sha256": "a65642a429826ce062c0bcd5b39928d8c233cddf8e0f95b17f1441c36b164aab"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 524,
+    "filename": "ap_em_3.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_3.txt",
+    "state": "ap",
+    "word_count_original": 727
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_3.json"
+  },
+  "raw_response_text": "Conforme a Pesquisa Nacional por Amostra de Domicílios (PNAD/IBGE) - 2017 e o Documento Panorama dos Territórios: Amapá, elaborado pelo Instituto UNIBANCO, em relação à distribuição da população por faixa etária, nota-se que no Amapá 27,4% dos habitantes tem entre 0 e 14 anos de idade e 29,9% tem entre 15 e 29 anos, dentre os quais 6,4% estão na faixa etária entre 15 e 17 anos, ou seja, são jovens em idade de cursar o ensino médio. Assim, é possível que a população amapaense tende a ser mais jovem do que no restante do país. Com efeito, no Brasil os jovens entre 0 e 14 anos representam 20,6% da população. Já aqueles que tem entre 15 e 29 anos somam 23,6%, dentre os quais 4,9% estão em idade de cursar o Ensino Médio. Vale ressaltar que a composição etária estadual se aproxima das tendências encontradas na região Norte, na qual 26,1% da população tem entre 0 e 14 anos, e 6,2% tem entre 15 e 17 anos.\n\n### Amapá\n\nLocalizado na região Norte, tem como limites o Estado do Pará, a Guiana Francesa, o Oceano Atlântico e o Suriname, com 142.470,762 km² de Área da Unidade Territorial, e uma população estimada, em 2020, de 861.773 habitantes, distribuída em 16 (dezesseis) municípios.\n\n## OS JOVENS E O ENSINO MÉDIO\n\nA entrada dos jovens no Ensino Médio representa, um novo desafio, a equipe de professores e disciplinas se amplia e se faz necessária a adaptação dos estudantes para acompanhar a metodologia utilizada pelos professores, os temas mais específicos e os problemas mais complexos, os novos grupos de colegas e suas experiências; as orientações que passam a fazer parte do cotidiano, não apenas dos jovens, como também das famílias, pois tudo é novo e desafiador.\n\nDiante da transição entre os anos finais do Ensino Fundamental e os desafios do Ensino Médio, é importante observar quais são as expectativas dos jovens sobre a escola e o que querem aprender, como interagem com a comunidade local e quais os saberes que consideram importantes para garantir o desenvolvimento do seu território e de que maneira poderão intervir no espaço social, geográfico, político e ambiental, no qual estão inseridos.\n\nA juventude do Amapá ultrapassa 200 mil pessoas, conforme dados da PNAD/IBGE - 2017, o que significa 29,8% de toda a população do estado. Dentre os jovens, os de 15 a 17 anos, idade na qual deveriam estar cursando o Ensino Médio, representam 21,5% (ou 6,4% da população do estado); os de 18 a 24 anos são quase metade dos jovens (49,7%), e os de 25 a 29 anos representam 28,8% dessa população, os quais estão inseridos nos espaços territoriais de áreas de assentamentos, terras indígenas, áreas remanescentes de quilombos, centros urbanos e rurais, regiões ribeirinhas e do campo.\n\nConforme disposto no Parecer CNE/CEB nº 5/2011, a juventude,\n\n> como condição sócio-histórico-cultural de uma categoria de sujeitos que necessita ser considerada em suas múltiplas dimensões, com especificidades próprias que não estão restritas às dimensões biológica e etária, mas que se encontram articuladas com uma multiplicidade de atravessamentos sociais e culturais, produzindo múltiplas culturas juvenis ou muitas juventudes (Parecer CNE/CEB nº 5/2011).\n\nAnte às diversas peculiaridades regionais e locais, torna-se imprescindível a compreensão de que a educação desenvolvida na e pela escola, está associada às diversas demandas apresentadas pelas juventudes, integradas às múltiplas culturas juvenis, as quais são permanentemente atualizadas em função das infinitas mudanças que envolvem a ciência, a tecnologia e o trabalho, nas diversas sociedades.\n\nA BNCC enfatiza a necessidade de uma escola que acolha as diversidades, sobretudo no que se refere ao desenvolvimento das competências socioemocionais, na qual o currículo esteja a serviço do desenvolvimento humano dos jovens estudantes, privilegiando o respeito, os princípios éticos, o valor à vida, a aprendizagem em suas diversas dimensões e possibilidades.\n\n> A literatura sociológica que no Brasil estuda a juventude considera a expressão “juventudes” (Carrano, 2000; Abramo & Branco, 2005) porque reconhece a realidade plural e composta de diversas faces e dimensões a partir das quais os jovens se definem como sujeitos sociais (a exemplo do gênero, grupo étnico, cor da pele, condição econômica, local de moradia, perspectivas de futuro, entre outras).\n\n*Caderno Memória e Concepção – Conceitos do Modelo da Escola da Escolha*",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

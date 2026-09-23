@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0821c34d4712d501006ab3106148d887d2831888a08f8a1936",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 578,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 622,
+      "output_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "total_tokens": 1200
+    }
+  },
+  "created_at": "2026-09-22T23:33:59Z",
+  "duration_seconds": 6.0,
+  "error": null,
+  "excerpt_id": "to_em_74",
+  "filename": "to_em_74.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "64996fda29d9f31b535398c4c1c2c7bedbaafd10ae26b0ab0c91bff57fcab387",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d340c89d8ffc1083491ff09dfb9cc419a1016bbd5d52d84d24507cc30d0193fa",
+    "rendered_prompt_sha256": "6b13297ba5c7e3bbb409a844a2d36b5b833de0f2b6b7ce70091f05060643b735",
+    "source_text_sha256": "9accf17f9fb1e199ef2eaf13eff11abb1e0850a98dac71cdf9d3e7a344ed04ad"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/to/to_em_74.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 4078,
+    "filename": "to_em_74.txt",
+    "filepath": "corpus/00_source_per_state/to/to_em_74.txt",
+    "state": "to",
+    "word_count_original": 341
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/to/to_em_74.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/to/to_em_74.json"
+  },
+  "raw_response_text": "### 11.5.3 Projeto de Vida\n\nÉ o trabalho pedagógico intencional e estruturado, que tem como objetivo primordial desenvolver a capacidade do estudante de dar sentido à sua existência, tomar decisões, planejar o futuro e agir no presente com autonomia e responsabilidade, conforme disposto no Caderno 4.\n\n### 11.5.4 Unidades Curriculares Integradoras específicas para as Instituições de Tempo Integral\n\nAs Unidades Escolares de Tempo Integral contemplam em seus currículos as Unidades Curriculares Integradoras, em todo o Ensino Médio. São postas como estratégias interdisciplinares, que objetivam propiciar aos estudantes conhecimentos teóricos e práticos, bem como integrá-los com os diversos campos de interação social.\n\nAs Unidades Curriculares Integradoras são elementos que enriquecem e complementam a Formação Geral Básica, relacionando e considerando as características regionais e locais da sociedade, da cultura e da economia, bem como, da comunidade escolar a despeito dos tempos e espaços curriculares. Exercem o papel de articuladoras entre o mundo acadêmico e as práticas sociais, ampliando, enriquecendo e diversificando o repertório de experiências e conhecimento dos estudantes.\n\nSão executadas por meio de aulas e procedimentos teóricos e metodológicos que favorecem a experimentação de atividades dinâmicas, contextualizadas e significativas para os estudantes, em distintas áreas, bem como possibilitam um tempo qualificado, destinado à realização de atividades pertinente ao estudo dos componentes curriculares da formação geral básica, que os incentivem a construir uma rotina diária de estudos com vistas a um bom desempenho escolar; o desenvolvimento de competências socioemocionais como autonomia, iniciativa, responsabilidade, autoconfiança, autoconhecimento; favorecem o exercício dos quatros pilares da educação: “Aprender a Conhecer, Aprender a Fazer, Aprender a Conviver e Aprender a Ser”; desenvolvem o protagonismo e apoiam a construção e consolidação do projeto de vida.\n\nAs unidades curriculares integradoras também tem como foco o desenvolvimento da aprendizagem de forma equânime, aplicando práticas inclusivas com a proposição de desenvolvimento de habilidades básicas não desenvolvidas em períodos anteriores da série em curso e, ainda, acompanhar, de forma sistemática, o caminho percorrido pelo(a) estudante para o alcance do sucesso escolar e o desenvolvimento de seu Projeto de Vida.",
+  "state": "to",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

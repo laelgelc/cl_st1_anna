@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07ecd2af075921ce006ab30c0ab13487d288b8007cb2d74951",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1581,
+      "input_tokens_details": {
+        "cache_write_tokens": 1578,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1863,
+      "output_tokens_details": {
+        "reasoning_tokens": 345
+      },
+      "total_tokens": 3444
+    }
+  },
+  "created_at": "2026-09-22T23:15:39Z",
+  "duration_seconds": 16.537,
+  "error": null,
+  "excerpt_id": "ro_em_17",
+  "filename": "ro_em_17.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "57e9941074c5d85e43181e6e1b5296b44f1a3e1ccb1f2d9f86051751618419bc",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "399ae6895b3149e7e6fcd48830574fa07d31de6a84d80812a1a6e94f55c2db73",
+    "rendered_prompt_sha256": "37cd0f46a16007555c172b112c6e6922eb177a24b83345fa09e910a378ba586b",
+    "source_text_sha256": "fe3d88bb5af7b1be0342f53a91fb1a403e007e6a6b65c9f91c6ca20848f967c2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ro/ro_em_17.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3231,
+    "filename": "ro_em_17.txt",
+    "filepath": "corpus/00_source_per_state/ro/ro_em_17.txt",
+    "state": "ro",
+    "word_count_original": 1040
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ro/ro_em_17.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ro/ro_em_17.json"
+  },
+  "raw_response_text": "### 1.6.3. Arquitetura Curricular\n\nA reformulação curricular do ensino médio é uma mudança na estrutura do sistema atual de ensino, buscando cumprir as metas do Plano Nacional de Educação, do Plano Estadual de Educação de Rondônia e o cumprimento da Lei nº 13.415/17. Trata-se de um instrumento fundamental para a melhoria da educação no país e em cada estado da federação com suas especificidades. Em outras palavras, é uma proposta que se fundamenta na comprovação dos baixos índices de aprendizado demonstrados pelos resultados das avaliações internas e externas realizadas com estudantes do Ensino Médio Regular e a ressignificação social da educação no Brasil. Em complemento a isso, a reformulação tem sido pretendida desde a aprovação da LDB 9394/96 e prossegue até a atualidade com a reformulação curricular do Ensino Médio proposta pela Lei 13.415/2017.\n\nA reformulação, que será implementada, é composta por uma parte comum e obrigatória a todas as escolas, a Base Nacional Comum Curricular (BNCC), e outra parte propõe a flexibilização da Matriz Curricular, permitindo ao estudante a escolha da área de conhecimento e/ou formação profissional e técnica que deseja aprofundar seus estudos. Com isso, o ensino médio aproximará ainda mais a escola da realidade dos estudantes à luz das novas demandas profissionais do mercado de trabalho.\n\nAssim sendo, a arquitetura curricular é a estrutura básica que organiza a distribuição da carga horária, tanto da Formação Geral Básica como dos Itinerários Formativos, ao longo dos três anos do ensino médio e os tempos escolares (formatos de séries anuais, semestrais, ciclos, módulos, sistemas de créditos, entre outros). Além desse elemento, a arquitetura curricular conta outras definições importantes, como o modelo de eletividade e mobilidade dos estudantes entre os diferentes itinerários formativos e a forma de oferta dos componentes curriculares pelas unidades educacionais.\n\nUma arquitetura bem elaborada pode aumentar a integração e reduzir a fragmentação do conhecimento, articulando o desenvolvimento dos eixos temáticos e possibilitando uma trajetória de aprendizagem estimulante e impactante para os estudantes.\n\nPortanto, o Referencial Curricular para o Ensino Médio de Rondônia estabelece uma estrutura curricular flexível e alinhada com as DCNEM (BRASIL, 2018a) e BNCC (BRASIL, 2018b), que é composta pela Formação Geral Básica - FGB, com carga horária máxima de 1.800 horas, e por Itinerários Formativos - IF, com carga horária mínima de 1.200 horas.\n\nDessa forma, a Formação Geral Básica está organizada a fim de possibilitar o desenvolvimento das competências e habilidades expressas na BNCC, sendo ofertada por áreas de conhecimento e considerando a premissa do planejamento interdisciplinar e transdisciplinar, essencialmente, entre os componentes curriculares da mesma área, conforme estabelecido no artigo nº 35-A da Lei nº 9394/96 (BRASIL, 1996):\n\n> A Base Nacional Comum Curricular definirá direitos e objetivos de aprendizagem do ensino médio, conforme as DCNEM, nas seguintes áreas do conhecimento:\n>\n> I - linguagens e suas tecnologias;  \n> II - matemática e suas tecnologias;  \n> III - ciências da natureza e suas tecnologias;  \n> IV - ciências humanas e sociais aplicadas.\n\nIndissociavelmente de Formação Geral Básica, os Itinerários Formativos devem aprofundar e ampliar as aprendizagens dos estudantes, por meio da oferta de unidades curriculares que favoreçam a autonomia e o protagonismo, dos estudantes considerando os aspectos físicos, cognitivos e socioemocionais. Deste modo, considerando o art. nº 36 da Lei nº 13.415 (BRASIL, 2017), a oferta dos itinerários formativos deve observar alguns critérios, quais sejam:\n\n> O currículo do ensino médio será composto pela Base Nacional Comum Curricular e por itinerários formativos, que deverão ser organizados por meio da oferta de diferentes arranjos curriculares, conforme a relevância para o contexto local e a possibilidade dos sistemas de ensino, a saber:\n>\n> I - linguagens e suas tecnologias;  \n> II - matemática e suas tecnologias;  \n> III - ciências da natureza e suas tecnologias;  \n> IV - ciências humanas e sociais aplicadas;  \n> V - formação técnica e profissional.\n\nNesse processo, o Referencial Curricular para o Ensino Médio de Rondônia estabelece que os itinerários formativos serão desenvolvidos por meio das unidades curriculares: Trilhas de Aprofundamentos, Projeto de Vida, Eletivas e Língua Espanhola. Nessa configuração, os itinerários formativos se apresentam como a parte mais desafiadora da nova arquitetura curricular, pois requerem criatividade e inovação no que diz respeito à elaboração de arranjos curriculares que oportunizem mudanças significativas na organização de tempos, espaços e práticas escolares, de forma que façam mais sentido e gerem mais aprendizagem e desenvolvimento para os jovens de Rondônia.\n\nA partir de 2022, deverá ser iniciada a implementação do Referencial Curricular para o Ensino Médio de Rondônia, de forma gradativa, considerando o disposto na Portaria nº 521/2021/MEC, artigo nº 4, incisos I a IV:\n\n> Art. 4º A implementação nos estabelecimentos de ensino que ofertam o ensino médio dos novos currículos, alinhados à BNCC e aos itinerários formativos, obedecerá ao seguinte cronograma:\n>\n> I - No ano de 2020: elaboração dos referenciais curriculares dos estados e do Distrito Federal, contemplando a BNCC e os itinerários formativos;  \n> II - No ano de 2021: aprovação e homologação dos referenciais curriculares pelos respectivos Conselhos de Educação e formações continuadas destinadas aos profissionais da educação;  \n> III - No ano de 2022: implementação dos referenciais curriculares no 1º ano do ensino médio;  \n> IV - No ano de 2023: implementação dos referenciais curriculares nos 1º e 2º anos do ensino médio;  \n> V - No ano de 2024 - implementação dos referenciais curriculares em todos os anos do ensino médio; e  \n> VI - Nos anos de 2022 a 2024 - monitoramento da implementação dos referenciais curriculares e da formação continuada aos profissionais da educação.\n\nAssim sendo, a implementação do Referencial Curricular para o Ensino Médio de Rondônia dar-se-á conforme a arquitetura curricular elaborada para o sistema estadual de ensino, com base no resultado do processo de escuta da sociedade, realizado pela Secretaria Estadual de Educação no período de outubro a novembro de 2020, bem como os debates no âmbito do Comitê de Acompanhamento das Ações de Implementação e Desenvolvimento da Política do Novo Ensino Médio, criado por meio da Portaria nº 3387/2020 SEDUC, com o objetivo coordenar as ações relacionadas à governança, ao monitoramento e à avaliação da implementação do Novo Ensino Médio, em consonância com a Lei 13.415/17 e as Diretrizes Curriculares Nacionais para o Ensino Médio.\n\nIsto posto, apresentamos a seguir os elementos constitutivos da arquitetura curricular para implementação do Referencial Curricular para o Ensino Médio de Rondônia.",
+  "state": "ro",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

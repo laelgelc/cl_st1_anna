@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d2e0beee6424c0b006ab30398863087d2bd295ab5526ac996",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1179,
+      "input_tokens_details": {
+        "cache_write_tokens": 1176,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1415,
+      "output_tokens_details": {
+        "reasoning_tokens": 384
+      },
+      "total_tokens": 2594
+    }
+  },
+  "created_at": "2026-09-22T22:39:31Z",
+  "duration_seconds": 11.471,
+  "error": null,
+  "excerpt_id": "mg_inf_trajetoria",
+  "filename": "mg_inf_trajetoria.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a447bbd8b33223bf1b9f8e0aab210e1a6faa1a289198260924a0015b5bdfdde1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e77b602627a3812d6f2e69bc9f24ba6a7855e25514dfa6ed99bbb21e0e1f8883",
+    "rendered_prompt_sha256": "514feeec12b42d55377bfe11868f9644c470084df32ef1225d5353a32a604ab1",
+    "source_text_sha256": "c394a317b8743fe190c91ae6115e6b21a3ecbffe45cb7f72dab7d5370a1cf178"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_trajetoria.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1671,
+    "filename": "mg_inf_trajetoria.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_trajetoria.txt",
+    "state": "mg",
+    "word_count_original": 679
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_trajetoria.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_trajetoria.json"
+  },
+  "raw_response_text": "## 2.3 Educação Infantil: trajetória histórica e marcos legais\n\nA Educação Infantil pública, gratuita, laica, inclusiva e com qualidade social se constituiu como dever do Estado e direito de todas as crianças a partir da Constituição Federal, aprovada em 1988.⁴ Desde então, uma série de documentos (normativos e consultivos) foram produzidos pelo Ministério da Educação como forma de ratificar o preceito constitucional da educação infantil como direito público subjetivo de toda criança. Consequentemente, as creches e pré-escolas passaram por um processo de construção de uma nova identidade, de modo a superar as concepções antagônicas que pautaram a sua criação.\n\nDo ponto de vista histórico, a Educação Infantil sempre foi vista por duas concepções distintas: a assistencialista e a educacional (compensatórias e/ou preparatórias). A primeira esteve associada aos cuidados para com as crianças de classes menos favorecidas e a segunda, com um enfoque mais pedagógico, este, em geral, destinado às crianças de quatro e cinco anos das classes mais abastadas. Entretanto, Kuhlmann Jr (2003) considera que é preciso superar essa visão dicotômica de que creche e pré-escola são instituições com enfoques distintos e paradoxais (entre assistência e educação), pois, segundo ele, “essa dicotomia está impregnada em várias dimensões do pensamento pedagógico” (KUHLMANN Jr, 2003, p. 53).\n\nA Lei de Diretrizes e Bases da Educação Nacional (LDBEN) – Lei nº 9.394, de 20 de dezembro de 1996, determinou as responsabilidades dos entes federados, cabendo aos municípios a responsabilidade pela oferta da Educação Infantil. Em seu art. 29, considera-se a Educação Infantil como a primeira etapa da Educação Básica, tendo como finalidade o desenvolvimento integral da criança de zero a cinco anos de idade em seus aspectos físico, afetivo, intelectual, linguístico e social, complementando a ação da família e da comunidade.\n\nNovos avanços foram incorporados às Diretrizes Curriculares Nacionais para Educação Infantil (DCNEI) aprovadas em 2010, propostas no Parecer CNE/CEB nº 20/2009, de 17 de dezembro de 2009 e na Resolução nº 5, de 17 de dezembro de 2009.\n\nNova função sociopolítica se faz presente, como assevera o Parecer nº 20, de 2009, da Câmara de Educação Básica do Conselho Nacional de Educação (CNE/CEB), que versa sobre a revisão das Diretrizes Curriculares Nacionais para a Educação Infantil:\n\n> A função das instituições de Educação Infantil (...) se inscreve no projeto de sociedade democrática desenhado na Constituição Federal de 1988 (art. 3º, inciso I), com responsabilidades no desempenho de um papel ativo na construção de uma sociedade livre, justa, solidária e socioambientalmente orientada. A redução das desigualdades sociais e regionais e a promoção do bem de todos (art. 3º, incisos II e IV da Constituição Federal) são compromissos a serem perseguidos pelos sistemas de ensino e pelos professores também na Educação Infantil. É bastante conhecida no país a desigualdade de acesso às creches e pré-escolas entre as crianças brancas e negras, moradoras do meio urbano e rural, das regiões sul/sudeste e norte/nordeste e, principalmente, ricas e pobres. Além das desigualdades de acesso, também às condições desiguais da qualidade da educação oferecida às crianças configuram-se em violações de direitos constitucionais das mesmas e caracterizam esses espaços como instrumentos que, ao invés de promover a equidade, alimentam e reforçam as desigualdades socioeconômicas, étnico-raciais e regionais. Em decorrência disso, os objetivos fundamentais da República serão efetivados no âmbito da Educação Infantil se as creches e pré-escolas cumprirem plenamente sua função sociopolítica e pedagógica. (BRASIL, 2009, p. 5).\n\n⁴ BRASIL. Constituição (1988). Disponível em: http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm. Acesso em: 21 jul. 2018.\n\nA alteração da LDBEN pela Lei nº 12.796, de 04 de abril de 2013⁵ marca a obrigatoriedade da oferta para as crianças de 4 e 5 anos e orienta a organização da etapa.\n\nEsses avanços não se constituíram naturalmente, mas são resultados de um processo histórico que foi se consolidando e materializando-se em políticas públicas no âmbito dos sistemas de ensino, evidenciando o potencial educacional de creches e pré-escolas, bem como, o direito dos bebês e demais crianças de até cinco anos (FLORES, 2016).",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

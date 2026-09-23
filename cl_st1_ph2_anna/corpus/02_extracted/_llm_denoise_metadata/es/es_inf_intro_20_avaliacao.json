@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0ba1882cc3d2914d006ab300d6232487d2959384aa5396472d",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 879,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 886,
+      "output_tokens_details": {
+        "reasoning_tokens": 146
+      },
+      "total_tokens": 1765
+    }
+  },
+  "created_at": "2026-09-22T22:27:40Z",
+  "duration_seconds": 6.23,
+  "error": null,
+  "excerpt_id": "es_inf_intro_20_avaliacao",
+  "filename": "es_inf_intro_20_avaliacao.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "3ce1850add1cca6a21a5fa11870d57625da5ff5c1182e2e1232e6deefadfe111",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "351f6989270446f57102d5f9b38da82dbfcb2fbf5a6fa2bca6a9a41c2bbab030",
+    "rendered_prompt_sha256": "bdf3e2b05cc3a2e3b335c3c8bf00b635b5bda8a477244561a95666041f9b794b",
+    "source_text_sha256": "ce0ec71f93932b812e49d8ad09d0643e3932232a3f9a4d90d9cd4de302da14f2"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/es/es_inf_intro_20_avaliacao.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1073,
+    "filename": "es_inf_intro_20_avaliacao.txt",
+    "filepath": "corpus/00_source_per_state/es/es_inf_intro_20_avaliacao.txt",
+    "state": "es",
+    "word_count_original": 559
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/es/es_inf_intro_20_avaliacao.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/es/es_inf_intro_20_avaliacao.json"
+  },
+  "raw_response_text": "## Concepção de Avaliação\n\nO Currículo do Espírito Santo baseia-se na compreensão de que a avaliação é um ato essencialmente pedagógico. Mediante seus resultados, os estudantes tomam consciência de sua progressão na aprendizagem e necessidades, e, ao mesmo tempo, os professores os utilizam como subsídio para a tomada de decisões, a avaliação da sua própria prática e a busca de outras formas de planejamento, conteúdos, estratégias e formas de abordar os contextos, visando oferecer novas possibilidades de aprendizagem.\n\n> [...] avaliação da aprendizagem escolar adquire seu sentido na medida em que se articula com um projeto pedagógico e com seu consequente projeto de ensino. A avaliação, tanto no geral quanto no caso específico da aprendizagem, não possui uma finalidade em si; ela subsidia um curso de ação que visa construir um resultado previamente definido.  \n> (LUCKESI, 1990)\n\nA organização curricular proposta neste documento, sob a perspectiva do desenvolvimento de competências e da educação integral, nos impulsiona a ampliar o olhar sobre a avaliação, uma vez que a verificação apenas do aspecto cognitivo, com um único instrumento ao final de um processo, não contribui para identificar os avanços e necessidades de aprendizagem que envolvem os âmbitos do saber, do fazer, do ser e do conviver, na diversidade que compõe o ambiente escolar e a singularidade que é própria de cada estudante. Isso desafia a repensar as práticas de avaliação no sentido de um olhar formativo ao longo do processo, utilizando estratégias e instrumentos diversificados que permitam identificar o ponto de partida e onde se quer chegar, intervindo ao longo do processo.\n\nÉ importante ainda que a avaliação leve em conta os contextos e as condições de aprendizagem que perpassam os diferentes espaços escolares, de modo que seus resultados não sejam vistos como uma sentença, mas como ponto de reflexão e investigação que auxilie os professores na compreensão dos resultados para a tomada de decisões e, especialmente, para a valorização dos saberes inerentes àquele contexto e identificação das condições em que se dão os processos educativos, tanto na Educação Básica regular como nas demais modalidades, com as especificidades que lhes são próprias.\n\nA avaliação é uma das tarefas didáticas permanente no trabalho do professor, ela deve acompanhar todos os passos do processo de ensino e aprendizagem. Através dela se compara os resultados obtidos no decorrer do trabalho do professor, juntamente com seus estudantes, conforme os objetivos propostos, a fim de verificar os processos, as dificuldades, e orientar o trabalho para as correções necessárias. Nesse sentido, entende-se a avaliação como um processo contínuo e assume funções importantes: diagnóstica, de intervenção ao longo do processo e somativa.\n\n### Avaliação diagnóstica\n\nVisa identificar o ponto de partida de cada estudante no processo educativo, identificando seus conhecimentos prévios, bem como seus ritmos, vivências, crenças, contextos e aptidões, para que auxilie o professor no planejamento de estratégias mais adequadas aos seus discentes.\n\n### Avaliação formativa\n\nTem por objetivo acompanhar a aprendizagem dos estudantes ao longo do processo educativo, identificando se as aprendizagens estão ocorrendo de acordo com o esperado, bem como realizando ajustes nas atividades e abordagens escolhidas no planejamento inicial.\n\n### Avaliação somativa\n\nOcorre final do processo e verifica o que os estudantes aprenderam, com o compromisso de dar visibilidade à continuidade e não à terminalidade das aprendizagens e levando em consideração seu percurso ao longo dos anos escolares.\n\nFigura 15 – As funções da avaliação (BLOOM, HASTINGS e MADAUS, 1983).",
+  "state": "es",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

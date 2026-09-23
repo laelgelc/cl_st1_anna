@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0081108062e24f2d006ab30d83980887d2bfc175cb208540c1",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1252,
+      "input_tokens_details": {
+        "cache_write_tokens": 1249,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1385,
+      "output_tokens_details": {
+        "reasoning_tokens": 238
+      },
+      "total_tokens": 2637
+    }
+  },
+  "created_at": "2026-09-22T23:21:50Z",
+  "duration_seconds": 11.277,
+  "error": null,
+  "excerpt_id": "rr_inf_e_ef_4",
+  "filename": "rr_inf_e_ef_4.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "cc7d4bc6e4f2ecaf4d684913dec1558e84a87fa50e2ab45d1aab6a4e154bea35",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6fe00b2c304a9ed8271bc508496e69f4016787a6a406cb808d5137baddafc994",
+    "rendered_prompt_sha256": "3482207b43bc679343aeeefbb0abae47f312d878dea2df5329e2005a15227ec4",
+    "source_text_sha256": "1662f4485b0910dbcad12cb0dfd978dc70e10754d8846812d0f69b53279ef09d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rr/rr_inf_e_ef_4.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3536,
+    "filename": "rr_inf_e_ef_4.txt",
+    "filepath": "corpus/00_source_per_state/rr/rr_inf_e_ef_4.txt",
+    "state": "rr",
+    "word_count_original": 782
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rr/rr_inf_e_ef_4.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rr/rr_inf_e_ef_4.json"
+  },
+  "raw_response_text": "## 2.2 FORMAÇÃO INTEGRAL DO SUJEITO\n\nA educação desempenha um grande papel no desenvolvimento humano. O relatório para a UNESCO da Comissão Internacional sobre Educação para o século XXI diz que “a educação deve dotar a humanidade da capacidade de dominar o seu próprio desenvolvimento, fazendo com que cada um tome seu destino nas mãos e contribua para o progresso da sociedade em que vive...” e diz ainda que a educação básica é “absolutamente vital” e que ela deve englobar todos os conhecimentos e competências indispensáveis na perspectiva de desenvolvimento humano.\n\nNeste sentido, entende-se que para atender esta perspectiva de educação é necessário fazer uma reflexão sobre a formação do aluno, que deve ser pautada no desenvolvimento do mesmo, em todos os seus aspectos: cognitivo, socioemocional, psicomotor e cultural de forma integrada e interdisciplinar. Além disso, deve reconhecer o aluno como sujeito de direitos, protagonista social e cultural com expressões e linguagens singulares, ou seja, a necessidade de uma formação integral.\n\nDesse modo, a escola tem papel primordial, garantindo a todos essa formação integral. Para tanto, a escola deve articular diversas experiências educativas, dentro e fora do seu espaço, favorecendo aprendizagens importantes para o desenvolvimento do aluno. Não basta que o aluno aprenda apenas conceitos básicos dos componentes curriculares; o ideal é que consiga usar o que aprendeu na sua vida.\n\nA educação fundamentada em princípios que refletem uma visão integradora da vida humana está presente nas Diretrizes Curriculares Nacionais para o Ensino Fundamental por meio dos seguintes princípios: 1) Princípios Éticos, autonomia, responsabilidade, solidariedade e respeito ao bem comum; 2) Princípios Políticos, direitos e deveres da cidadania, exercício da criticidade, respeito à ordem democrática; 3) Princípios Estéticos, sensibilidade, criatividade, diversidade de manifestações artísticas e culturais (BRASIL, 1998).\n\nVale ressaltar, também, a afirmação de educação integral na Educação Básica trazida pela Base Nacional Comum Curricular (BNCC) que ajuda a nortear as abordagens:\n\n> [...] deve visar à formação e ao desenvolvimento humano global, o que implica compreender a complexidade e a não linearidade desse desenvolvimento, rompendo com visões reducionistas que privilegiam ou a dimensão intelectual (cognitiva) ou a dimensão afetiva. Significa, ainda, assumir uma visão plural, singular e integral da criança, do adolescente, do jovem e do adulto – considerando-os como sujeitos de aprendizagem – e promover uma educação voltada ao seu acolhimento, reconhecimento e desenvolvimento pleno, nas suas singularidades e diversidades [...] (BRASIL, 2017).\n\nAlém da BNCC, a Educação Integral está presente na legislação educacional brasileira e está garantida Constituição Federal (1988) em seus artigos 205, 206 e 227; no Estatuto da Criança e do Adolescente (Lei nº 9089/1990); na Lei de Diretrizes e Bases (Lei nº 9394/1996), nos artigos 34 e 87; no Fundo Nacional de Manutenção e Desenvolvimento do Ensino Básico e de Valorização do Magistério (Lei nº 11.494/2007).\n\nA Lei nº 10.172, de 9 de janeiro de 2001 instituiu o Plano Nacional de Educação (PNE), reafirmado também na 13.005/2014 (PNE) e nos Planos estadual e municipais de educação, que retoma e valoriza a Educação Integral como possibilidade de formação integral da pessoa.\n\nAssim, embasados na legislação, normas e concepções de formação integral o Documento Curricular de Roraima – DCR – preza pela educação integral devendo ser assumida por todos os envolvidos no processo formativo das crianças, jovens e adultos, colocando-os como centro do processo de ensino e aprendizagem.\n\nPara tanto, as instituições de ensino de Roraima devem assumir o papel de formadoras de competências e habilidades que vão além dos componentes curriculares, mas contemplando também um conjunto de capacidades associadas às diversas dimensões do desenvolvimento integral. Essas capacidades, assim definidas pela organização Movimento pela Base, devem ser: Autoconhecimento e Autocuidado, Pensamento Crítico, Criatividade e Inovação, Abertura às Diferenças e Apreciação da Diversidade, Sociabilidade, Responsabilidade, Determinação (Movimento pela Base, 2017)[^2].\n\nNeste sentido, o currículo de Roraima se propõe a promover uma formação de cidadãos plenos e aptos a lidar e atuar na realidade, com os desafios do hoje e do amanhã. E isso não é possível sem que se repense aspectos primordiais do contexto escolar, como: a elaboração cuidadosa de um projeto político-pedagógico que propicie experiências voltadas ao desenvolvimento dos diferentes tipos de habilidades humanas e a formação continuada dos professores, que deve ser ampliada, para um trabalho pedagógico focado no alcance dos objetivos de aprendizagens e desenvolvimento de habilidades.\n\nPor fim, este documento fundamenta-se em uma educação que leve as crianças, jovens e adultos, ao que coloca Anna Penido, “a serem profissionais, cidadãos, seres humanos preparados para lidar com os desafios do mundo contemporâneo, dispostos a construir uma sociedade mais justa, solidária, sustentável e democrática”.\n\n[^2]: Movimento pela Base, 2017. Disponível em: <movimentopelabase.org.br>. Acesso em 13/11/2018.",
+  "state": "rr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

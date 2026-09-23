@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0079e7a0d5794ef0006ab2fd4f04b487d29cacc4e17bebfbf2",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 761,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 884,
+      "output_tokens_details": {
+        "reasoning_tokens": 283
+      },
+      "total_tokens": 1645
+    }
+  },
+  "created_at": "2026-09-22T22:12:38Z",
+  "duration_seconds": 7.642,
+  "error": null,
+  "excerpt_id": "am_ef_7",
+  "filename": "am_ef_7.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "600c7f1494cc87c2e05763bc3aed1d70ac9b9f5f13d6003de7d67996f2124c65",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "2088499839d5c76cef94020d8063a1f7113aca2cb0cae2c3a9be844786a1836d",
+    "rendered_prompt_sha256": "d88d1cee0ed87666caf89387ade9a756976c575f6daaa733164ea8eca5699d95",
+    "source_text_sha256": "58a51a08e01de5325eae34a5e3bcc910cbbb322da6738c8a69242a010ed578d4"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/am/am_ef_7.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 364,
+    "filename": "am_ef_7.txt",
+    "filepath": "corpus/00_source_per_state/am/am_ef_7.txt",
+    "state": "am",
+    "word_count_original": 427
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/am/am_ef_7.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/am/am_ef_7.json"
+  },
+  "raw_response_text": "## 4. Prática interdisciplinar\n\nO Referencial Curricular Amazonense, ao refletir sobre os desafios da construção do currículo, enfrentou uma reflexão na prática escolar. O que é fazer o trabalho interdisciplinar na educação no Estado do Amazonas? Ao discutir essa questão, a equipe de redatores permitiu-se desconstruir práticas e ações que em décadas não indicaram possibilidades de inovação. No decorrer dos meses, este tema fez parte do debate da equipe, seja pelas limitações de carga horária que alguns componentes possuem no atual modelo, ou pela concepção da mudança nas práticas pedagógicas ao se referir ao tema. Em vista disso, sabendo que ainda existem professores nas escolas distantes de qualquer aparato pedagógico, será apresentada uma reflexão que promova discussões acerca da interdisciplinaridade no universo escolar.\n\nCom a fragmentação do conhecimento surge a necessidade da superação em busca da interligação dos saberes, à interdisciplinaridade, como forma de superar esta visão de mundo que, de acordo com Fazenda (2012), apesar de ser discutida e realizada atualmente, mas seu aparecimento se deu em meados da década de 1960 na França e na Itália, devido aos movimentos estudantis que reivindicavam um novo estatuto de universidade e de escola. Porém, hoje ainda há quem tenha compreensão de um mundo compartimentado, isolado em categorias que submetem a divisão dos saberes.\n\nNo Brasil, as discussões em torno da interdisciplinaridade iniciaram no final da década de 60, com poucas repercussões no campo da ciência. “A temática era nova e não havia reflexões mais aprofundadas a respeito, por isso distorções acerca da matéria foram inevitáveis” (NOGUEIRA, 2008, p. 19). Porém, houve avanços sobre a interdisciplinaridade nos estudos desenvolvidos por brasileiros na década de 1970, sendo a primeira produção significativa a de Hilton Japiassú, em que apresenta uma síntese das principais questões que envolvem a interdisciplinaridade e os pressupostos fundamentais para uma metodologia interdisciplinar.\n\nOutro trabalho realizado no Brasil é de Ivani Fazenda, que investigou uma análise das proposições sobre interdisciplinaridade na época das reformas de ensino no Brasil e apontou a falta de informação, o caos que se instaurou sobre a conceituação da interdisciplinaridade.\n\nA interdisciplinaridade ao se fazer presente nas práticas, estabelece uma transformação tanto no professor quanto no aluno e isso vai além de integrar as áreas de conhecimento, implica em romper barreiras, remetendo-nos a conhecer sua história e seu desenvolvimento no processo de ensino, visando o aprendizado dos alunos com novas práticas. Percebe-se, com isso, a importância da interdisciplinaridade e a necessidade e dificuldade do docente em realizar novas práticas pedagógicas, sendo um desafio ao professor planejar e executar planos interdisciplinares.",
+  "state": "am",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0f071764b28044e1006ab3038dc68487d2a01c5cd59f34049e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 844,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1195,
+      "output_tokens_details": {
+        "reasoning_tokens": 472
+      },
+      "total_tokens": 2039
+    }
+  },
+  "created_at": "2026-09-22T22:39:20Z",
+  "duration_seconds": 11.246,
+  "error": null,
+  "excerpt_id": "mg_inf_inclusao_6",
+  "filename": "mg_inf_inclusao_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "7ee31f52a3d21a6e0ef3c4fad8604cbfee442417bce16f1ad770aab22ee4788d",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "65d64891a0cdb334934b32e09b645dcb9d750bc47fc27e773f70645dbd6a563b",
+    "rendered_prompt_sha256": "331e6ff2c0ed4cf1ccaa314053734a2e2b1f846f35ab96b2061c2fabaea6c118",
+    "source_text_sha256": "591950fd56e4c6fae9a639ce3f70a64c3cd9b74f5fa1bdb9d299b3da86573fbb"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_inf_inclusao_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1658,
+    "filename": "mg_inf_inclusao_6.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_inf_inclusao_6.txt",
+    "state": "mg",
+    "word_count_original": 467
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_inf_inclusao_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_inf_inclusao_6.json"
+  },
+  "raw_response_text": "### 2.11.4 Populações em situação de Itinerância\n\nDe acordo com o Parecer CNE/CEB nº 14/2011⁸, considera-se em situação de itinerância as crianças e adolescentes pertencentes a diferentes grupos sociais que, por motivos culturais, políticos, econômicos, de saúde, dentre outros, se encontram em permanente deslocamento. Pertencentes a esta população podemos considerar: ciganos, indígenas, povos nômades, trabalhadores itinerantes, acampados, artistas, demais trabalhadores em circos, parques de diversão e teatro mambembe que tenham autoconhecimento como tal ou sejam assim declarados pelo seu responsável legal.\n\nPara resguardar os direitos educacionais, assegurar a matrícula e a continuidade do percurso escolar dos povos que se encontram nessa condição de itinerância, a Resolução CNE/CEB nº 3, de 16 de maio de 2012⁹, que define as diretrizes para o atendimento de educação escolar às populações em situação de itinerância, no seu Art. 1º prevê que as crianças, adolescentes e jovens em situação de itinerância deverão ter garantido o direito à matrícula em escola pública, gratuita, com qualidade social e que garanta a liberdade de consciência e de crença. (Brasil, 2012, p. 1).\n\nNão basta assegurar o direito à matrícula dos bebês e demais crianças pequenas oriundos das populações em situação de itinerância, é necessário respeitar e articular as práticas socioculturais de seus povos às práticas pedagógicas propostas pelas instituições, articulando-as à organização curricular proposta pela instituição, através dos campos de experiências.\n\nPara efetivação de seu papel formativo, as instituições de educação infantil deverão desenvolver estratégias pedagógicas adequadas às necessidades de aprendizagens dessa população, garantindo a ela seu protagonismo, um rico contexto de aprendizagens significativas, preservando as especificidades de sua cultura. Para tanto, se faz necessário que a criança itinerante seja o centro das atenções, que seus conhecimentos prévios sejam reconhecidos e a oferta de atividades complementares, quando for o caso, seja assegurada. Dessa forma, ampliam-se as condições que os impede de frequentar regularmente a instituição e nela permanecer com qualidade, aspectos fundamentais e necessários para garantia dos direitos de aprendizagem e desenvolvimento.\n\n⁸ BRASIL. Conselho Nacional de Educação; Câmara de Educação Básica. Parecer nº 14, de 07 de dezembro de 2011. Diretrizes para o atendimento de educação escolar de crianças, adolescentes e jovens em situação de itinerância. *Diário Oficial da União*, Brasília, 10 de maio de 2012, Seção 1, p. 24. Disponível em: http://portal.mec.gov.br/index.php?option=com_docman&view=download&alias=9609-pceb014-11&Itemid=30192. Acesso em: 22 jul. 2018.\n\n⁹ BRASIL. Conselho Nacional de Educação; Câmara de Educação Básica. Resolução nº 3, de 16 de maio de 2012. Define diretrizes para o atendimento de educação escolar para populações em situação de itinerância. Disponível em: http://portal.mec.gov.br/index.php?option=com_docman&view=download&alias=10770-rceb003-12-pdf-1&category_slug=maio-2012-pdf&Itemid=30192. Acesso em 22 jul. 2018.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

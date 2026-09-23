@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0527649abb0384b1006ab30480732087d29c8d780f72dcfc59",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1996,
+      "input_tokens_details": {
+        "cache_write_tokens": 1993,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2090,
+      "output_tokens_details": {
+        "reasoning_tokens": 355
+      },
+      "total_tokens": 4086
+    }
+  },
+  "created_at": "2026-09-22T22:43:32Z",
+  "duration_seconds": 20.42,
+  "error": null,
+  "excerpt_id": "mt_ef_6",
+  "filename": "mt_ef_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "fada558040cb73769a79e48d3fb2a84472c63068e07c70b5fe734091f5cb9ea1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "9bf7564c2a9c803f3b6a022d8b0b99cb87c156dff61d502fb12bfc8b6488ba3b",
+    "rendered_prompt_sha256": "39d54bc998ae28053a5e4119cdc41f1a0c772e5fd2d3c04dff97ad49e7db0e87",
+    "source_text_sha256": "7559f9c00817c0cd153fb7403e1fc15103d7f46028cab9195ac2b3d6a243be95"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mt/mt_ef_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1855,
+    "filename": "mt_ef_6.txt",
+    "filepath": "corpus/00_source_per_state/mt/mt_ef_6.txt",
+    "state": "mt",
+    "word_count_original": 1150
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mt/mt_ef_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mt/mt_ef_6.json"
+  },
+  "raw_response_text": "### 2.4.1. Etnomatemática[^3]\n\nO termo Etnomatemática surgiu na década de 70, na tentativa de aproximar o ensino da Matemática à realidade sociocultural dos estudantes e, ao mesmo tempo, para sanar as críticas sociais referentes ao ensino tradicional do referido componente curricular. Essa metodologia pode ser aplicada em qualquer etapa da Educação Básica, uma vez que é:\n\n- uma subárea da História da Matemática e da Educação Matemática, com intersecções com a Antropologia e as Ciências da Cognição;\n- fundamentada em pesquisa, que tem por objetivo “entender o saber/fazer matemático” ao longo da história da humanidade;\n- uma forma de valorização dos conceitos matemáticos informais, construídos pelos estudantes a partir de suas experiências fora do contexto escolar;\n- informalmente construída pelos estudantes, utilizada como ponto de partida para o ensino formal;\n- constituída de diferentes dimensões – conceitual, histórica, cognitiva, cotidiana, epistemológica, política e educacional;\n\n### 2.4.2. Modelagem Matemática\n\nA modelagem Matemática, segundo Bassanezi (2002), pode ser definida como a arte de transformar problemas da realidade em problemas matemáticos, analisá-los e resolvê-los, interpretando suas soluções na linguagem do mundo real. Desta forma, a Modelagem Matemática, além de método científico de pesquisa e estratégia de ensino, também pode ser entendida como metodologia de ensino específica da Matemática, conforme está demonstrado, logo abaixo, no esquema simplificado, contendo as etapas da Modelagem.\n\n**Figura 1: Esquema Simplificado da Modelagem Matemática**  \nFonte: Adaptado de Biembengut (2003)\n\nSegundo Kluber e Burak (2008), a Modelagem Matemática também pode ser organizada em cinco etapas, sendo elas: 1) escolha o tema; 2) pesquisa exploratória; 3) levantamento dos problemas; 4) resolução de problemas e o desenvolvimento do objeto de conhecimento do tema; 5) análise crítica das soluções.\n\n### 2.4.3. Resolução de Problemas[^4]\n\nA Resolução de Problemas começa a ser vista como metodologia de ensino a partir dos Standards (2000), o que é confirmado também nos Parâmetros Curriculares Nacionais (2000). Atualmente, a Resolução de Problemas consta nos documentos da BNCC como uma macro competência que a Matemática deve assumir como sua.\n\nPara melhor entendimento sobre a metodologia de ensino Resolução de Problemas, torna-se necessário, inicialmente, diferenciarmos “problema” de “exercício”. Assim, segundo Dante (1991), a diferença entre problema e exercício é:\n\n> Problema – processo [...] é a descrição de uma situação onde se procura algo desconhecido e não se tem previamente nenhum algoritmo que garanta sua solução.  \n> Exercício, como o próprio nome diz, serve para exercitar, para praticar um determinado algoritmo ou processo. O aluno lê o exercício e extrai as informações necessárias para praticar uma ou mais habilidades algorítmicas (DANTE, 1991, p.43).\n\nSegundo Toledo (2010), quando uma situação requer uma descoberta por meio de ferramentas matemáticas, então podemos considerá-la como um problema matemático. O citado autor afirma que um problema matemático deve desafiar o estudante a descobrir e resolver a situação através de constante investigação. Logo abaixo estão apresentadas características de uma situação problema:\n\n- O caminho da resolução é desconhecido;\n- precisam ser analisados de várias formas diferentes, ou seja, esgotar todas as suas possibilidades.\n- exigem paciência, pois devemos analisar até descobrirmos padrões, regularidades que permitam traçar estratégias de resolução;\n- podem conter informações ocultas, que só percebemos se analisarmos corretamente as informações dadas;\n- não têm resposta única: podemos nos deparar com situações em que existem várias maneiras de resolver o mesmo problema, outras em que não exista uma melhor solução ou até mesmo encontrar problemas sem solução, pois resolver um problema não é a mesma coisa que identificar somente a resposta. (TOLEDO, 2010, p. 6).\n\nSendo assim, a Resolução de Problemas é uma metodologia de ensino em que são propostas situações com objetivo de despertar nos estudantes a investigação e exploração de novos conceitos. Em consonância com esses pressupostos, Dante (1991) descreve os objetivos da referida metodologia:\n\n- fazer o aluno a pensar produtivamente;\n- desenvolver o raciocínio do aluno;\n- ensinar o aluno a enfrentar situações novas;\n- Dar ao aluno a oportunidades de se desenvolver com as aplicações Matemáticas;\n- tornar as aulas de Matemática mais interessantes e desafiadoras;\n- equipar o aluno com estratégias para resolver problemas e dar uma boa base Matemática às pessoas. (DANTE, 1991, p. 11-5).\n\nA Metodologia de Resolução Problemas, segundo os pesquisadores Schroeder e Lester (1989), pode ser abordada de três modos distintos em sala de aula, sendo:\n\n- Ensinar sobre resolução de problemas: o professor trabalha com variações do modelo de Polya (Polya,1945).\n- Ensinar a resolver problemas: concentra-se na maneira como a Matemática é ensinada e o que dela pode ser aplicada. Dá-se relevância ao uso do conhecimento adquirido anteriormente em problemas rotineiros e não rotineiros.\n- Ensinar Matemática através da resolução de problemas: temos a resolução de problemas como uma metodologia de ensino, como um ponto de partida e um meio de se ensinar Matemática. O problema é olhado como um elemento que pode disparar um processo de construção do conhecimento. O ensino está centrado no aluno, que constrói os conceitos matemáticos durante a resolução de um problema, sendo a seguir formalizados pelo professor. (SCHROEDER e LESTER, 1989, p. 31 – 34)\n\nO último item, apresenta um caminho que se destaca por ensinar Matemática para além de resolver problemas. Aliás, este ponto de vista é inovador, no qual o professor é o mediador e o aluno é protagonista no processo de ensino e aprendizagem.\n\n### 2.5. Reflexões sobre a ação pedagógica\n\nA definição da metodologia de ensino favorece a Alfabetização e o Letramento Matemático dos estudantes, principalmente, quando os profissionais da educação têm clareza e se apropriam dos pressupostos metodológicos. Entretanto, para isso faz-se necessária a realização de estudos aprofundados sobre metodologias de ensino, específicas da Matemática.\n\nDesse modo, os textos referentes à Etnomatemática, Modelagem Matemática e Resolução de Problemas, abordados neste documento, são apenas ponto de partida para aprofundamento dos estudos dos professores. Por outro lado, os professores também poderão optar por metodologias que não foram contempladas neste documento, desde que estas atendam às necessidades de aprendizagem dos estudantes.\n\nNesse sentido, para mapear as dificuldades de aprendizagem dos estudantes, a avaliação deve ser entendida enquanto processo de diagnóstico, a partir do qual o professor pode repensar metodologias, atividades realizadas e traçar novos percursos didáticos para assegurar a aprendizagem ativa dos estudantes.\n\n[^3]: No Brasil, a Etnomatemática tem Ubiratan D’Ambrósio como seu precursor e idealizador. Para aprofundamento, recomenda-se as leituras de Etnomatemática – Reflexões e ações pedagógicas em Matemática do Ensino Fundamental (BANDEIRA, 2016) e outros documentos disponibilizados por Ubiratan D’Ambrósio, Gelsa Knijnik, entre outros autores.\n\n[^4]: Para aprofundamento sobre o tema, recomenda-se a leitura de: Resolução de Problemas como estratégia para incentivar e desenvolver a criatividade dos alunos na prática educativa matemática (RODRIGUES, 1992), A arte de resolver problemas: um enfoque do método matemático (POLYA, 1994), Ensino-Aprendizagem de Matemática via resolução, exploração, codificação e descodificação de problemas (ANDRADE, 1998), Ensino-aprendizagem de Matemática através da resolução de problemas (ONUCHIC, 1999) e Ensinando Matemática na sala de aula através da Resolução de Problemas (ONUCHIC & ALLEVATO, 2009), entre outros autores.",
+  "state": "mt",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

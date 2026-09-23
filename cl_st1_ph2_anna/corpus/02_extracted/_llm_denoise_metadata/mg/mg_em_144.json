@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_028aba666867193d006ab3031859c887d29ebdea273cfbf240",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 885,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 850,
+      "output_tokens_details": {
+        "reasoning_tokens": 118
+      },
+      "total_tokens": 1735
+    }
+  },
+  "created_at": "2026-09-22T22:37:17Z",
+  "duration_seconds": 5.667,
+  "error": null,
+  "excerpt_id": "mg_em_144",
+  "filename": "mg_em_144.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "d7556a05e5ded85b5723bf8693dc983c94dc7d7f1d0cc1bd6c792ce70e7ca180",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "25f2d2076b3b30d512e90fc1313b43a94b784a31cdd4c9fd45b30d99082e4705",
+    "rendered_prompt_sha256": "48183a8269c2bdf2eb077f90b65a99d297026970b4939b5974769df3582e0c22",
+    "source_text_sha256": "ffd0cd9bb1302c72bf126b23535ccdfd14871c424570bbe1ee2e185cb306f7f1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_144.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1535,
+    "filename": "mg_em_144.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_144.txt",
+    "state": "mg",
+    "word_count_original": 535
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_144.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_144.json"
+  },
+  "raw_response_text": "## 7.2 Formação continuada e o sujeito em sua diversidade\n\nUm dos objetivos do Currículo Referência é avançar no reconhecimento e valorização de todos os estudantes presentes em nossas escolas em suas diversidades. Por isso, outra dimensão que deve ser considerada no processo de formação continuada consiste em entender que grande parte de nossos educadores teve sua formação voltada para a fragmentação curricular, que exigia pouco diálogo com outros componentes curriculares e, principalmente, com os contextos socioculturais dos estudantes. Assim, para a implementação dessa nova compreensão de educação e, por consequência, dos processos formativos, será importante que aconteça um processo de aperfeiçoamento, atualização e aprofundamento dos conhecimentos relacionados aos componentes da Formação Geral Básica e de entendimento, reflexão e planejamento da parte flexível do currículo, que são as unidades que compõem o Itinerário Formativo.\n\nFrente à implementação de um modelo curricular que tem como centralidade os estudantes e suas identidades, é essencial que se reconheça que tanto os professores quanto os estudantes carregam experiências e visões de mundo, pertencimentos étnicos, percursos familiares, crenças religiosas e políticas, de gênero e orientações sexuais (TEIXEIRA, 1996). Esses são sujeitos socioculturais concretos; pessoas vivas, reais e plurais que têm projetos, desejos e significam suas experiências no mundo das formas mais diversas, sob a influência de várias dimensões que lhes alcançam. Nesse sentido, o professor, na atuação profissional contemporânea, deve refletir sobre perspectivas monoculturais e hegemônicas que desconsideram a pluralidade de experiências e outros modos de construir o conhecimento. Comunidades tradicionais, como as indígenas e quilombolas, têm seus modos de observar e abstrair os conhecimentos da realidade e essas devem ser reconhecidas e valorizadas nos processos educativos. De igual modo, os tempos e objetivos de formação de jovens e adultos público da educação especial com deficiências e necessidades especiais devem ser consideradas atividades pedagógicas acessíveis e condizentes com seus processos de aprendizagem.\n\nTemas e questões contemporâneas de classe, raça, gênero e sexualidade têm protagonizado importantes mudanças na sociedade e alcançam as juventudes em diferentes momentos da vida. Ter em mente essas temáticas, respeitando as diferenças e pluralidades e assegurando os direitos democráticos e a dignidade humana, é um posicionamento importante de docentes do século XXI. O reconhecimento e valorização da diversidade, numa perspectiva de valorização das diferenças, de modo a contribuir para uma educação emancipatória dos sujeitos, é um investimento numa transformação de si e de futuras gerações. No processo de continuar se formando e aprendendo, docentes e estudantes podem refletir sobre suas identidades de maneira afirmativa, buscando a convivência respeitosa e democrática.\n\nA relação que o professor desenvolve com o estudante deve, portanto, ser pautada na confiança, na empatia e no respeito mútuo, favorecendo o processo de ensino e aprendizagem de modo agradável e efetivo para ambos. Para tanto, Nóvoa (2002) aponta que a atividade docente se caracteriza por uma grande complexidade do ponto de vista emocional, pois os professores vivem em um espaço carregado de afetos, de sentimentos e de conflitos. O distanciamento dos componentes emocionais seria a negação do seu próprio trabalho. O autor destaca que é importante incluir na formação inicial e continuada, para além da formação pedagógica, as dimensões afetivas e sociais com os demais sujeitos escolares, com os estudantes e com a comunidade local.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

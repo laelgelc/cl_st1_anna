@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_026eebafb23a565f006ab30f68a12087d280f10ae71c1d3f23",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 963,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 940,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 1903
+    }
+  },
+  "created_at": "2026-09-22T23:29:52Z",
+  "duration_seconds": 8.112,
+  "error": null,
+  "excerpt_id": "sp_ef_ciencias_da_natureza_2",
+  "filename": "sp_ef_ciencias_da_natureza_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a2096f4dabb197d765ed7a76a27d28f0fcbdb0b01aff800686726c779ec7ee07",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "d7052481a08ce8f4afb0da1b353d28c4fd92ce34445599dcad28c7fb0b1e645e",
+    "rendered_prompt_sha256": "e8a02f5fc646a675ef7ec7793faf8f601f7cbf6168f31abadf7b9438e2838e89",
+    "source_text_sha256": "5b091fa86f8c960bc68faa14887c9abd265a77e30caed1c543294f815edce27d"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/sp/sp_ef_ciencias_da_natureza_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3866,
+    "filename": "sp_ef_ciencias_da_natureza_2.txt",
+    "filepath": "corpus/00_source_per_state/sp/sp_ef_ciencias_da_natureza_2.txt",
+    "state": "sp",
+    "word_count_original": 626
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/sp/sp_ef_ciencias_da_natureza_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/sp/sp_ef_ciencias_da_natureza_2.json"
+  },
+  "raw_response_text": "Os procedimentos de investigação devem considerar também o modo como o conhecimento científico foi construído ao longo do tempo, sendo produto de relações históricas, sociais e culturais – outro princípio orientador da área.\n\nConhecer a História das Ciências permite compreender diferentes narrativas, perspectivas e atores, valorizando as múltiplas experiências humanas em uma reflexão que considere o contexto dos fenômenos, fatos, evidências e registros, desmistificando estereótipos e valorizando a construção do conhecimento em sua temporalidade.\n\nConsiderando que o Currículo Paulista referencia-se na Educação Integral - que busca o desenvolvimento pleno do estudante - as situações de aprendizagem da área de Ciências da Natureza devem mobilizar conhecimentos (conceitos e procedimentos), habilidades (práticas cognitivas e socioemocionais), atitudes e valores para resolver demandas complexas da vida cotidiana, do pleno exercício da cidadania e do mundo do trabalho.\n\nSendo indissociáveis o desenvolvimento cognitivo e o socioemocional, é desejável que a prática pedagógica contemple esses aspectos de maneira integrada. Nesse sentido, o desenvolvimento dos procedimentos de investigação, descritos no quadro anterior, por meio de metodologias ativas que promovam situações de interação, autoria e protagonismo, representam oportunidades para o desenvolvimento das habilidades pretendidas.\n\nVale ressaltar que a perspectiva da Educação Integral, com vistas ao desenvolvimento pleno, requer novos olhares sobre a prática pedagógica, de modo que o conhecimento seja tratado de maneira relacional e vinculado ao contexto do estudante. Isto só é possível a partir de mediações comprometidas com a construção coletiva do conhecimento, em espaços de interação, debate e expressão de ideias e ações que permitam a experimentação e a significação de conceitos, valores e atitudes.\n\nNessa direção, na área de Ciências da Natureza, os objetos de conhecimento, em sua especificidade, são tratados em diálogo com as atitudes e valores condizentes com os princípios defendidos no Currículo Paulista, conforme se observa nas competências, a seguir.\n\n## Competências Específicas de Ciências da Natureza para o Ensino Fundamental\n\n1. Compreender as Ciências da Natureza como empreendimento humano, e o conhecimento científico como provisório, cultural e histórico.\n2. Compreender conceitos fundamentais e estruturas explicativas das Ciências da Natureza, bem como dominar processos, práticas e procedimentos da investigação científica, de modo a sentir segurança no debate de questões científicas, tecnológicas, socioambientais e do mundo do trabalho, continuar aprendendo e colaborar para a construção de uma sociedade justa, democrática e inclusiva.\n3. Analisar, compreender e explicar características, fenômenos e processos relativos ao mundo natural, social e tecnológico (incluindo o digital), como também as relações que se estabelecem entre eles, exercitando a curiosidade para fazer perguntas, buscar respostas e criar soluções (inclusive tecnológicas) com base nos conhecimentos das Ciências da Natureza.\n4. Avaliar aplicações e implicações políticas, socioambientais e culturais da Ciência e de suas tecnologias para propor alternativas aos desafios do mundo contemporâneo, incluindo aqueles relativos ao mundo do trabalho.\n5. Construir argumentos com base em dados, evidências e informações confiáveis e negociar e defender ideias e pontos de vista que promovam a consciência socioambiental e o respeito a si próprio e ao outro, acolhendo e valorizando a diversidade de indivíduos e de grupos sociais, sem preconceitos de qualquer natureza.\n6. Utilizar diferentes linguagens e tecnologias digitais de informação e comunicação para se comunicar, acessar e disseminar informações, produzir conhecimentos e resolver problemas das Ciências da Natureza de forma crítica, significativa, reflexiva e ética.\n7. Conhecer, apreciar e cuidar de si, do seu corpo e bem-estar, compreendendo-se na diversidade humana, fazendo-se respeitar e respeitando o outro, recorrendo aos conhecimentos das Ciências da Natureza e às suas tecnologias.\n8. Agir pessoal e coletivamente com respeito, autonomia, responsabilidade, flexibilidade, resiliência e determinação, recorrendo aos conhecimentos das Ciências da Natureza para tomar decisões frente a questões científico-tecnológicas e socioambientais e a respeito da saúde individual e coletiva, com base em princípios éticos, democráticos, sustentáveis e solidários.",
+  "state": "sp",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

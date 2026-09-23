@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0d7c5c326fff4fee006ab302139a0487d2acf7cdfa8a4990b0",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 471,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 584,
+      "output_tokens_details": {
+        "reasoning_tokens": 246
+      },
+      "total_tokens": 1055
+    }
+  },
+  "created_at": "2026-09-22T22:32:57Z",
+  "duration_seconds": 5.809,
+  "error": null,
+  "excerpt_id": "ma_em_28",
+  "filename": "ma_em_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "0b4f9863cd0f65cff4196aa23a6e39c3d7bcd8db6456292e03228ed4ebaa8067",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "7f1879f1fb362b94425374807d8b2ee076d818c249260d552cb2ef3e1cdd09d8",
+    "rendered_prompt_sha256": "40b5cdadab65329fa103a79f03a3c9d4d64f6d8d320a536f70dac44f007c198a",
+    "source_text_sha256": "06cf4b367bb318e512d82ddef999ddb296bc9029400862723255760bc126740b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_em_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1315,
+    "filename": "ma_em_28.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_em_28.txt",
+    "state": "ma",
+    "word_count_original": 194
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_em_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_em_28.json"
+  },
+  "raw_response_text": "## Os objetivos dos itinerários formativos\n\nPara a organização dos itinerários formativos sugeridos para o território maranhense, considera-se os objetivos previstos nos Referenciais para Elaboração dos Itinerários Formativos, publicados na Portaria nº 1432, de 28 de dezembro de 2018, quais sejam:\n\n- Aprofundar as aprendizagens relacionadas às competências gerais, às áreas de conhecimento e/ou à formação técnica e profissional;\n- Consolidar a formação integral dos estudantes, desenvolvendo a autonomia necessária para que realizem seus projetos de vida;\n- Promover a incorporação de valores universais, como ética, liberdade, democracia, justiça social, pluralidade, solidariedade e sustentabilidade; e\n- Desenvolver habilidades que permitam aos estudantes ter uma visão de mundo ampla e heterogênea, tomar decisões e agir nas mais diversas situações, seja na escola, seja no trabalho, seja na vida.\n\nPara cumprir tais objetivos, os itinerários formativos se constituem a partir dos componentes curriculares da Base Nacional Comum Curricular e da parte de formação diversificada, já desenvolvidos nos Centros Educa Mais desde a sua implantação, tanto nas metodologias e práticas conhecidas, que sofreram alterações, como nos novos componentes concebidos para o Novo Ensino Médio pelo Instituto de Corresponsabilidade pela Educação.\n\nEsses componentes curriculares se organizam a partir dos quatro eixos estruturantes⁶, que são complementares e coexistem nos distintos itinerários, garantindo que os estudantes experimentem situações de aprendizagem e vivências e possam desenvolver um conjunto diferenciado e ampliado de habilidades importantes e significativas para sua formação integral",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

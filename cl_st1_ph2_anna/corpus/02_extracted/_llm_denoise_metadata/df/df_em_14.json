@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_093cc01822dda9d8006ab300245c0887d29034f7599e69b7e7",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 623,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 572,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 1195
+    }
+  },
+  "created_at": "2026-09-22T22:24:40Z",
+  "duration_seconds": 4.051,
+  "error": null,
+  "excerpt_id": "df_em_14",
+  "filename": "df_em_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "972ead0167bc13053a5b35160b920401266b70c6ed476c3702293f948e1fe09b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "bcfe871b5abdb3fec56e09145a37f26f66310fe93ffed843e2e2063cd7caf706",
+    "rendered_prompt_sha256": "e8b9c79c76d4f93528eefbc486c582011c40fdf0eae5fa6679914640f69a2129",
+    "source_text_sha256": "b0ae78fe23b9507a04e67fed1f200798d2c944a78808bd3547be0a2318b45931"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/df/df_em_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 900,
+    "filename": "df_em_14.txt",
+    "filepath": "corpus/00_source_per_state/df/df_em_14.txt",
+    "state": "df",
+    "word_count_original": 347
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/df/df_em_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/df/df_em_14.json"
+  },
+  "raw_response_text": "## 5. FORMAÇÃO GERAL BÁSICA\n\nA Formação Geral Básica do estudante de Ensino Médio, no Sistema de Ensino do Distrito Federal, compreendendo até 1800 horas, constrói-se a partir das concepções da BNCC quanto às competências e habilidades essenciais que todo estudante brasileiro deve adquirir em seu percurso formativo durante a Educação Básica, de forma a possibilitar o aprofundamento e a consolidação das aprendizagens essenciais do Ensino Fundamental, a compreensão de problemas complexos e a reflexão sobre soluções para eles. Nesse sentido, as Diretrizes Curriculares Nacionais para o Ensino Médio definem aprendizagens essenciais como sendo aquelas que:\n\n> [...] desenvolvem competências e habilidades entendidas como conhecimentos em ação, com significado para a vida, expressas em práticas cognitivas, profissionais e socioemocionais, atitudes e valores continuamente mobilizados, articulados e integrados, para resolver demandas complexas da vida cotidiana, do exercício da cidadania e da atuação no mundo do trabalho. (BRASIL, 2018b, p.21).\n\nPara resolver demandas complexas do dia a dia, exercer a cidadania e atuar no mundo do trabalho, torna-se imprescindível a perspectiva dialógica entre os saberes. Nela, a organização curricular parte de grandes áreas do conhecimento, e o trabalho interdisciplinar ganha efetividade a partir da interação entre os saberes específicos, ampliando as possibilidades da formação integral do estudante. Assim, a Formação Geral Básica é composta pelas seguintes áreas do conhecimento: Linguagens e suas Tecnologias, Matemática e suas Tecnologias, Ciências da Natureza e suas Tecnologias e Ciências Humanas e Sociais Aplicadas.\n\nNo Currículo em Movimento do Ensino Médio, as áreas de conhecimento estão estruturadas em torno de unidades temáticas e objetivos de aprendizagens interdisciplinares, que instigam e motivam o trabalho docente de forma cooperativa e dialógica. Busca-se mobilizar e articular, em um mesmo propósito, os conceitos (saberes e procedimentos), as habilidades (práticas, cognitivas e socioemocionais), as atitudes e os valores dos diversos componentes curriculares que norteiam o processo de ensino e aprendizagem na construção de conhecimentos que são fundamentais para a formação do estudante. Essa organização visa a superar fronteiras limitadoras e promover o compartilhamento de sentido, sem, no entanto, perder a particularidade do saber em cada campo de conhecimento.",
+  "state": "df",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

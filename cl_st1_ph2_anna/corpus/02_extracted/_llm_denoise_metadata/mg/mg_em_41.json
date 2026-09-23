@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c89acb6fbbb6db6006ab3033a049887d288017fcfdcac84fe",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 760,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 664,
+      "output_tokens_details": {
+        "reasoning_tokens": 38
+      },
+      "total_tokens": 1424
+    }
+  },
+  "created_at": "2026-09-22T22:37:51Z",
+  "duration_seconds": 5.45,
+  "error": null,
+  "excerpt_id": "mg_em_41",
+  "filename": "mg_em_41.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "09f281581578e6ee37a501c4b77f1850dd29809b26ea373597784b5419e703f1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "8634e11a0ddb41c72ba71bbc8e110495f5823ac5e6d97d8b98a8f11f33edef10",
+    "rendered_prompt_sha256": "567d059456d575e02296f7081ddcf1dfa703feabea97b7abb705c50b91361193",
+    "source_text_sha256": "9372cfae469a5b6eb0be3bc45a9501e951d7bad83d559ddc0b3d4a32a0522ef7"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_em_41.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1572,
+    "filename": "mg_em_41.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_em_41.txt",
+    "state": "mg",
+    "word_count_original": 431
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_em_41.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_em_41.json"
+  },
+  "raw_response_text": "O campo da vida pessoal organiza-se para possibilitar uma reflexão sobre as condições que cercam a vida contemporânea, a condição juvenil no Brasil e no mundo, sobre temas, questões que afetam os jovens. As vivências, experiências, análises críticas e aprendizagens desse campo podem se tornar suporte para os processos de construção de identidade e de projetos de vida por meio do mapeamento, do resgate de trajetórias, interesses, afinidades, antipatias, angústias, temores etc. que possibilitam uma ampliação de referências e experiências culturais diversas e do conhecimento sobre si.\n\nPor sua vez, a construção de Projetos de Vida deve envolver reflexões/definições não só em termos de vida afetiva, família, estudo e trabalho, mas, também, de saúde, bem-estar, relação com o meio ambiente, espaços e tempos para lazer, práticas das culturas corporais, práticas culturais, experiências estéticas, participação social, atuação em âmbito local e global etc. Esse campo articula e integra as aprendizagens promovidas em todos os outros campos de atuação (BRASIL, 2018).\n\nO campo das práticas de estudo e pesquisa envolve a pesquisa, recepção, apreciação, análise, aplicação e produção de discursos e textos expositivos, analíticos e argumentativos, que circulam na esfera escolar, acadêmica e de pesquisa e no jornalismo de divulgação científica. Ele visa a ampliar a reflexão sobre as linguagens, contribuindo para a construção do conhecimento científico e para aprender a aprender (BRASIL, 2018).\n\nO campo jornalístico-midiático compreende estudos de discursos e textos da mídia informativa (impressa, televisiva, radiofônica e digital) e de discursos publicitários. Ele contribui para uma consciência crítica e seletiva em relação à produção e circulação de informações, posicionamentos e induções ao consumo (BRASIL, 2018).\n\nO campo de atuação na vida pública engloba discursos e textos normativos, legais e jurídicos, assim como os propositivos e reivindicatórios (petições, manifestos etc.). Permite ao estudante refletir e participar na vida pública, pautando-se pela ética (BRASIL, 2018).\n\nO campo artístico-literário é o espaço de circulação das manifestações artísticas em geral, em especial a literatura. Busca-se que as juventudes possam atualizar os sentidos das obras, engajando-se criticamente, dialogando com colegas e pelas redes sociais. Esse contato possibilita reconhecer, valorizar, fruir e produzir tais manifestações, com base em critérios estéticos e no exercício da sensibilidade (BRASIL, 2018).\n\nA consideração desses campos para a organização da área vai além de possibilitar aos estudantes vivências nas práticas de linguagens. As formas diversificadas de organização dos espaços e tempos escolares possibilitam uma flexibilização curricular no que concerne às aprendizagens definidas na BNCC, já que escolhas são possíveis desde que contemplem os diferentes campos, bem como as articulações com os Itinerários Formativos.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

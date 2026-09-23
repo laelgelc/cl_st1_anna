@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_02f58a64899d62cb006ab30287dd8087d28d0c7cf0a93b0323",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 793,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 890,
+      "output_tokens_details": {
+        "reasoning_tokens": 236
+      },
+      "total_tokens": 1683
+    }
+  },
+  "created_at": "2026-09-22T22:34:55Z",
+  "duration_seconds": 7.832,
+  "error": null,
+  "excerpt_id": "mg_ef_ciencias_3",
+  "filename": "mg_ef_ciencias_3.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e49f81c3f3693f54ebff1dea3197337cbb062ab6e9f795a677d46b3de0953e5e",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "6b1d8b7fe052e96fb50219048776ed64f61592c8043e59f82fdcfd7704eee663",
+    "rendered_prompt_sha256": "b4f18d774d3d33ea7d6fc1d20d48700da7c74e60ae4761fbf5ff3c62150b912b",
+    "source_text_sha256": "07c23a132a78fbb2bd7c9ab1c22a3c7112c04eee5f8e3879bedc212c50f69931"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/mg/mg_ef_ciencias_3.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1399,
+    "filename": "mg_ef_ciencias_3.txt",
+    "filepath": "corpus/00_source_per_state/mg/mg_ef_ciencias_3.txt",
+    "state": "mg",
+    "word_count_original": 475
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/mg/mg_ef_ciencias_3.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/mg/mg_ef_ciencias_3.json"
+  },
+  "raw_response_text": "## 12.2 Relação do Componente Curricular de Ciências com as Concepções do Currículo Referência de Minas Gerais\n\nAs Ciências da Natureza envolvem conhecimentos para a formação humana e o desenvolvimento integral dos estudantes, considerando todas as dimensões: cognitiva, emocional, social, cultural, intelectual e física, buscando a articulação dos diversos campos do saber de acordo com as necessidades, as possibilidades e os interesses dos estudantes, considerando, também, as diferentes infâncias e juventudes, as diversas culturas e seu potencial de desenvolvimento do pensamento crítico e da capacidade de tomada de decisões consciente.\n\nO ensino de Ciências, como parte de um processo contínuo de contextualização histórica, social e cultural, dá sentido aos conhecimentos para que os estudantes desenvolvam sua autonomia e senso crítico em relação às diversas esferas da vida, exercitando a habilidade para o diálogo e potencializando seu poder de argumentação, garantindo a inclusão escolar e o pleno exercício da cidadania.\n\nO Componente Curricular de Ciências propõe uma construção coletiva de ações que devem estar contempladas no Projeto Pedagógico (PP), com as diferentes áreas do conhecimento, os temas transversais, as estratégias metodológicas, os recursos didáticos, as práticas e saberes dos sujeitos envolvidos no processo, objetivando promover o desenvolvimento integral dos estudantes. Acreditamos que o trabalho interdisciplinar seja uma metodologia significativa para potencializar o processo de ensino-aprendizagem, numa visão integral.\n\n## 12.3 Especificidades do Componente Curricular\n\nO ensino de Ciências da Natureza no Ensino Fundamental tem como intencionalidade cooperar para a transformação da sociedade, ao tratar dos saberes que lhes são inerentes, permitindo aos estudantes o desenvolvimento de habilidades para a construção, reconstrução ou desconstrução dos conhecimentos, premissa que requer a implementação de um conjunto de encaminhamentos que contribuam para a formação de estudantes questionadores e investigativos.\n\nEssa capacidade investigativa dos estudantes, por sua vez, se dá por meio da observação e da pesquisa com o objetivo da integração do conhecimento científico resultante da investigação da natureza para interpretar racionalmente os fenômenos naturais observados, decorrentes de contextos históricos, sociais e econômicos considerados no tempo, espaço, matéria, movimento, força, campo, energia, vida e evolução.\n\nSendo assim, o ensino de Ciências deve promover situações nas quais os estudantes possam: observar, analisar, propor, planejar, investigar, relatar, desenvolver e implementar ações de intervenção para melhorar a qualidade de vida individual, coletiva e socioambiental.\n\nÉ essencial que a mediação do professor no processo de ensino-aprendizagem desperte nos estudantes a capacidade investigativa para a resolução de problemas desafiadores para que possam expressar seu conhecimento prévio, de origem escolar ou advindo do meio onde vivem.\n\nDesse modo, o Ensino de Ciências não se resume, como em muitos livros didáticos, na apresentação de conceitos científicos, em geral, fora do alcance da compreensão dos estudantes. Deve-se, em todo o caso, dar uma atenção especial ao letramento científico para que o componente curricular Ciências não seja um compêndio de conceituações sem significados para os estudantes.",
+  "state": "mg",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_096dbf48a11ae61f006ab30877897887d29285fc85471630ff",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 836,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 759,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 1595
+    }
+  },
+  "created_at": "2026-09-22T23:00:14Z",
+  "duration_seconds": 7.282,
+  "error": null,
+  "excerpt_id": "pi_ef_42",
+  "filename": "pi_ef_42.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "c32cfc341aaa56c1deeed0869f6f5889b85f2c157b71768697a92033e157f21b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4ed7da23a79d65cdf4492cf9f25ba7c16a16d1ac34df3fce649f6656011c569b",
+    "rendered_prompt_sha256": "600c47cafbef24daba677aaee2f6ee9125e8c77b5a7b85ae76e354432cc41eaf",
+    "source_text_sha256": "ecae29e1abef1d3a727edbd6182bfbd4188aaae67f28158fedd9818c3a89447b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_ef_42.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2578,
+    "filename": "pi_ef_42.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_ef_42.txt",
+    "state": "pi",
+    "word_count_original": 457
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_ef_42.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_ef_42.json"
+  },
+  "raw_response_text": "## COMPETÊNCIAS ESPECÍFICAS DE ENSINO RELIGIOSO PARA O ENSINO FUNDAMENTAL\n\n1. Conhecer os aspectos estruturantes das diferentes tradições/movimentos religiosos e filosofias de vida, a partir de pressupostos científicos, filosóficos, estéticos e éticos.\n2. Compreender, valorizar e respeitar as manifestações religiosas e filosofias de vida, suas experiências e saberes, em diferentes tempos, espaços e territórios.\n3. Reconhecer e cuidar de si, do outro, da coletividade e da natureza, enquanto expressão de valor da vida.\n4. Conviver com a diversidade de crenças, pensamentos, convicções, modos de ser e viver.\n5. Analisar as relações entre as tradições religiosas e os campos da cultura, da política, da economia, da saúde, da ciência, da tecnologia e do meio ambiente.\n6. Debater, problematizar e posicionar-se frente aos discursos e práticas de intolerância, discriminação e violência de cunho religioso, de modo a assegurar os direitos humanos no constante exercício da cidadania e da cultura de paz.\n\n### Avaliação da aprendizagem\n\nA dimensão vivencial da Educação Religiosa não é medida, mas, sim, observada para ser retomada e redimensionada pelo estudante a partir da autoavaliação e pelo educador a partir de uma concepção diagnóstica e processual. Tomada como uma educação processual, recriadora, que gera libertação, o educador é sujeito do seu crescimento. Assim, a avaliação é indispensável na ação humana de educar promovendo um contínuo processo de ação, reflexão e construção.\n\nA avaliação processual se direciona ao diagnóstico, bem como à análise da situação, procurando alternativas que favoreçam o crescimento e desenvolvimento dos sujeitos escolares, compreendendo que a pessoa humana é rica de possibilidades e encontra-se em intensa transformação. Portanto, nossa concepção para a avaliação do ensino religioso deve comportar ações de acompanhamento, de conhecimento do estágio em que o educando se encontra, analisando as capacidades e limites do aluno a fim de que cresça de um saber conquistado para outro mais elaborado e ampliado. Os Parâmetros Curriculares Nacionais para o Ensino Religioso (1997) compreendem que:\n\n> A avaliação parte sempre da concepção de ensino e aprendizagem. Nessa proposta, a abordagem do conhecimento visualiza o Ensino Religioso como algo significativo, articulado, contextualizado, em permanente formação e transformação... conjunto de atuação que tem a função de alimentar, sustentar, orientar e adequar a intervenção pedagógica, verificando o nível de aprendizagem atingido pelo aluno (PARÂMETROS CURRICULARES NACIONAIS DO ENSINO RELIGIOSO, 1997).\n\nNessa perspectiva, o professor de Ensino Religioso deve contemplar o desenvolvimento integral do aluno e desenvolver competências indispensáveis à busca desse ser humano transformador e humanizado.\n\nA avaliação no Ensino Religioso compreende um processo privilegiado que permite ao educador tomar conhecimento do crescimento do educando, reformular seu projeto educativo e rever sua atuação. Ao educando, permite tomar conhecimento do seu crescimento, sentir-se valorizado em seus esforços, como, também, redimensionar a sua postura diante do projeto pedagógico.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

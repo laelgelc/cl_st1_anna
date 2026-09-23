@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06ebe81dcd827a61006ab2fdf3527c87d2ae54c1e0d8031507",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 1032,
+      "input_tokens_details": {
+        "cache_write_tokens": 1029,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1242,
+      "output_tokens_details": {
+        "reasoning_tokens": 308
+      },
+      "total_tokens": 2274
+    }
+  },
+  "created_at": "2026-09-22T22:15:24Z",
+  "duration_seconds": 9.366,
+  "error": null,
+  "excerpt_id": "ap_ef_6",
+  "filename": "ap_ef_6.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "e3734d3515f593afa249077bb29ce0ca47092ad0a09b1b0ab5a8ba60ef401fa8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a312b1babdd4aaad36f0ad4583dfaf0313a7fc82c4f37abbf8c2f5bf073ee047",
+    "rendered_prompt_sha256": "21eeda48000f1df2336bfac7401a451538fd7ac3f4c718dc0d52280ae45be386",
+    "source_text_sha256": "05cf1d7c26b0e0ca6e948023bcad842fd7697df102d1937e769d02f94305d538"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_ef_6.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 498,
+    "filename": "ap_ef_6.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_ef_6.txt",
+    "state": "ap",
+    "word_count_original": 669
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_ef_6.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_ef_6.json"
+  },
+  "raw_response_text": "## 4.3. Áreas de Conhecimento e Competências Gerais\n\n### 4.3.1. Área de Linguagens\n\n**Quadro 1:** Organograma das competências específicas da área de linguagens feito pelas redatoras de Educação Física.\n\nA área de linguagens, que no Ensino Fundamental compreende os componentes de Línguas Portuguesa e Inglesa, Artes e Educação Física, volta-se à formação de textos em acepção ampla. Seguramente, como Bakhtin afirmou, o texto em caráter filosófico une duas consciências, dois sujeitos por meio de signos por eles reconhecidos.\n\nNo Ensino Fundamental principalmente nos anos Iniciais, os componentes curriculares tematizam diversas práticas, considerando especialmente aquelas relativas às culturas infantis tradicionais e contemporâneas. Ratifica-se que nos dois primeiros anos desse segmento, o processo de alfabetização deve ser o foco da ação pedagógica.\n\nReconhecer que a família, a comunidade, a sociedade e o poder público devem assegurar - com absoluta prioridade - a efetivação dos direitos referentes à vida, à saúde, à alimentação, à educação, ao esporte, ao lazer, à profissionalização, à cultura, à dignidade, ao respeito, à liberdade e à convivência familiar e comunitária, nos termos do art. 227 da Constituição, bem como reconhece que a responsabilidade pela alfabetização das crianças deve ser acolhida por docentes, por gestores, pelas secretarias de educação e pelas instituições formadoras como um imperativo ético indispensável à construção de uma educação efetivamente democrática e socialmente justa.\n\nO processo de composições de sentidos na vivência humana permeia cada componente de linguagem. Desta forma, saber que tais componentes se alinham num objetivo filosófico comum norteia a formação escolar para a qual todos os profissionais envolvidos operam: a competência linguística no sentido mais amplo – a multissemiose.\n\nÉ no olhar interdisciplinar que se pode ampliar o campo de atuação de cada componente se pode transferir a postura filosófica que se pretende para os alunos. É importante que se questione para quê deve ocorrer a ampliação do campo de atuação do profissional da linguagem; isto é, no recorte feito no trabalho do professor, a visão especialista deve alternar com uma visão de panorama, e vice-versa; a finalidade em si mesma da aquisição de saberes do componente para fazer da linguagem um meio de compreensão ativa da realidade.\n\nLembrando que competência carrega em seu entendimento a disposição autônoma de ferramentas e habilidades apreendidas em determinado campo do saber, formar indivíduos competentes é induzir à conscientização do sujeito, instigando a reflexão para a própria linguagem, para os papéis que por meio dela pode desempenhar em sua comunidade, transformando a escola em um cenário empoderador.\n\nDefinido o grande objeto da área, em sentido filosófico, o texto, o desafio no tocante ao ensino aprendizagem não é o que ensinar, mas (re)criar a natureza dialógica no como ensinar no que se refere ao sujeito social que o aluno é e o que o aluno pretende ser.\n\nInvestigar e definir a participação social que se pretende para o aluno, bem como coadunar esforços requer o estudo empírico do próprio jovem. Nesse âmbito, para a formação desse jovem, fenômenos humanísticos recortados pelo professor devem levar o aluno à aprendizagem e a formação em linguagens múltiplas deve ser especialmente revivificados em classe, compartilhados, criados e necessariamente reproduzidos.\n\nPor sua vez, no Ensino Fundamental, Anos Finais, as aprendizagens, nos componentes curriculares dessa área, ampliam as práticas de linguagem conquistadas no Ensino Fundamental – Anos Iniciais, incluindo a aprendizagem de Língua Inglesa. Nesse segmento, a diversificação dos contextos permite o aprofundamento de práticas de linguagem artísticas, corporais e linguísticas que se constituem e constituem a vida social.\n\nSe só pela experiência tem-se a atitude do sujeito configurada, isto é, se em um recurso pictórico temos uma expressão cultural definida pelo suporte e pelos instrumentos selecionados, se no repertório vocabular a expressão linguística é particular em cada falante, se na dança há a expressão corporal desenhada pelo instrumento que lhe é próprio e que lhe delimita, verifica-se que, portanto, a atitude humana não é, em si, linguagem. A linguagem é o meio – essência compreendida histórica e socialmente a ser destrinchada metodologicamente, cientificamente, filosoficamente, do professor para seus educandos.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

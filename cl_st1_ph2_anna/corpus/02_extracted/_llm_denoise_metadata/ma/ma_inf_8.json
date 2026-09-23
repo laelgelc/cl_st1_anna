@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0edea66d52b18fbe006ab3025f6a3c87d2aaa8b01745c6c54e",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 678,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 694,
+      "output_tokens_details": {
+        "reasoning_tokens": 114
+      },
+      "total_tokens": 1372
+    }
+  },
+  "created_at": "2026-09-22T22:34:12Z",
+  "duration_seconds": 5.133,
+  "error": null,
+  "excerpt_id": "ma_inf_8",
+  "filename": "ma_inf_8.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "2f7b5fd13a0c021b351907b957cb3cf8f646f8929e1e30630f778153795282bd",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "e6e15de0be488dcc606e5cc29f0adca00af2d3d4c426ff8115ea7bd5daaa2af8",
+    "rendered_prompt_sha256": "ecd799939d6e07a0bacd08e0fbee4613c9cc1b12b8596c639b4c4a060b42551f",
+    "source_text_sha256": "b26a7038aca99bae1f9a2f4796c70cfff485ca8727f483504963cd5561ac4ffd"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ma/ma_inf_8.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1361,
+    "filename": "ma_inf_8.txt",
+    "filepath": "corpus/00_source_per_state/ma/ma_inf_8.txt",
+    "state": "ma",
+    "word_count_original": 438
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ma/ma_inf_8.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ma/ma_inf_8.json"
+  },
+  "raw_response_text": "## A avaliação na Educação Infantil\n\nA avaliação é uma atividade importante em qualquer processo educativo. Seu objetivo deve ser conhecer melhor em que estágio as crianças estão e identificar de que modo é possível atuar de maneira mais efetiva para assegurar o seu pleno desenvolvimento. Assim, constitui um recurso pedagógico adicional para os professores e coordenadores pedagógicos ou diretores de unidades de Educação Infantil.\n\nA avaliação na Educação Infantil deve incidir diretamente no planejamento das atividades diárias promovidas pelo professor junto às crianças, devendo subsidiar elementos que ampliem as aprendizagens e experiências apresentadas por elas, contribuindo também para suas manifestações, desejos e necessidades.\n\nVale ressaltar que a avaliação nesta etapa da Educação Básica possui algumas especificidades que devem ser observadas. A mais importante delas é o fato de que os procedimentos avaliativos não devem ter caráter de classificação ou promoção das crianças de uma fase a outra. Sua finalidade maior é educativa.\n\nA LDB de 1996 estabelece que a Educação Infantil precisa ser organizada com base em algumas regras comuns, entre elas “avaliação mediante acompanhamento e registro do desenvolvimento das crianças, sem o objetivo de promoção, mesmo para o acesso ao Ensino Fundamental” (incluído pela Lei no 12.796/13). Assim, o foco da avaliação está voltado para o registro de todas as conquistas, avanços, dificuldades e desafios enfrentados pelas crianças, com a finalidade de observar seu progresso no processo de ensino e aprendizagem.\n\nImportante, ainda, considerar o disposto nas Diretrizes Curriculares Nacionais para a Educação Infantil de 2009, que reitera que “as instituições de Educação Infantil devem criar procedimentos para acompanhamento do trabalho pedagógico e para avaliação do desenvolvimento das crianças, sem objetivo de seleção, promoção ou classificação”. Conforme detalhado no documento, essa avaliação deve garantir:\n\nI – a observação crítica e criativa das atividades, das brincadeiras e interações das crianças no cotidiano;  \nII – utilização de múltiplos registros realizados por adultos e crianças (relatórios, fotografias, desenhos, álbuns etc.);  \nIII – a continuidade dos processos de aprendizagens por meio da criação de estratégias adequadas aos diferentes momentos de transição vividos pela criança (transição casa/instituição de Educação Infantil, transições no interior da instituição, transição creche/pré-escola e transição pré-escola/Ensino Fundamental);  \nIV – documentação específica que permita às famílias conhecer o trabalho da instituição junto às crianças e os processos de desenvolvimento e aprendizagem da criança na Educação Infantil;  \nV – a não retenção das crianças na Educação Infantil.\n\nEssa passagem mostra a importância de, por um lado, propiciar experiências educativas cheias de significados para as crianças e, por outro, registrar seu desenvolvimento ao longo das atividades, apontando desafios e progressos e, sobretudo, estimulando suas potencialidades.",
+  "state": "ma",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

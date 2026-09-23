@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0186ad4a6fc7d37b006ab30a9f050487d2b937b25c592652ac",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 682,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 645,
+      "output_tokens_details": {
+        "reasoning_tokens": 60
+      },
+      "total_tokens": 1327
+    }
+  },
+  "created_at": "2026-09-22T23:09:24Z",
+  "duration_seconds": 5.17,
+  "error": null,
+  "excerpt_id": "rj_inf_camp_exp_2",
+  "filename": "rj_inf_camp_exp_2.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "332fd5e426d6aa2bf073dbb1f1024049e5e8549039dc8c903d3dee2f85ce0bd8",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f3e9fbd94d086abfea379419904876b146ade1b2c84586706b87953048cc6f24",
+    "rendered_prompt_sha256": "18dd58388813d7b721a42a2c6536ec8c39303c8b6c734ef5ff3e30118cbf79f5",
+    "source_text_sha256": "626d9ca7ddae0f931ba85942e0c1805844bc46827519a2f84527f358b15212f6"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rj/rj_inf_camp_exp_2.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2907,
+    "filename": "rj_inf_camp_exp_2.txt",
+    "filepath": "corpus/00_source_per_state/rj/rj_inf_camp_exp_2.txt",
+    "state": "rj",
+    "word_count_original": 433
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rj/rj_inf_camp_exp_2.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rj/rj_inf_camp_exp_2.json"
+  },
+  "raw_response_text": "O caráter lúdico e contínuo das experiências das crianças abre espaço para a produção de significados pessoais, seja por propiciar prazer do já vivido característico da atividade lúdica, seja por germinar algo que está embrionário na criança na continuidade de suas experiências. Por isso, não podemos confundir os campos de experiência com a tradição de organização do currículo por disciplinas, tal como estamos acostumados. Não se trata de dar novo nome à velha forma de fragmentar o conhecimento.\n\nO que podemos, em vez disso, é articular os princípios dos campos de experiência com pistas dadas pelas atuais DCNEI. Tendo em vista que na ideia dos campos de experiência reside a articulação das dimensões do conhecimento, das práticas sociais e das linguagens, a sua organização deve considerar (Barbosa e Fochi, 2015):\n\n1. As experiências concretas da vida cotidiana, ou seja, no dia a dia nada é banal e nele residem situações importantes a serem consideradas e problematizadas para as crianças, tais como as atividades de higiene, alimentação, sono;\n2. O convívio no espaço da vida coletiva nas interações com outras crianças e com os adultos;\n3. A aprendizagem da cultura, na articulação dos saberes das crianças com aqueles que a humanidade já sistematizou, na apropriação de rituais e modos de funcionamento de cada cultura;\n4. A produção de narrativas individuais e coletivas através de diferentes linguagens, já que as crianças aprendem porque querem compreender o mundo em que vivem, dar sentido à sua vida. As crianças vivem suas brincadeiras de modo narrativo porque formulam e contam histórias ao mesmo tempo em que dramatizam.\n\nPara reduzirmos a fragmentação e o caráter episódico de muitas atividades que as crianças vivem na escola, precisamos ficar atentos a essa articulação entre as diversas situações que acontecem cotidianamente e a maneira como vamos narrando ou pensando a sua continuidade e ampliação de repertórios. É preciso, como afirmam Carvalho e Fochi (2016, p. 165), reconhecermos o valor do cotidiano “como uma unidade de inteireza da vida constituída por diversos fios — temporalidades, espacialidades, relações, linguagens — que se estabelecem na escola”.\n\nOrganizar a escola de educação infantil a partir dos campos de experiência significa reconhecer que as crianças têm em si o desejo de aprender. Por isso, o adulto deve ficar atento a fim de descobrir para onde meninos e meninas estão canalizando sua energia e, a partir dessa descoberta, criar condições externas para que eles possam colocar à prova suas “teorias provisórias”. Segundo Rimondi (2003, p. 39), “este caminho é aquele que é naturalmente próprio da criança, devido à sua atitude substancial de se lançar, movida pela curiosidade e pela fantasia”.",
+  "state": "rj",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

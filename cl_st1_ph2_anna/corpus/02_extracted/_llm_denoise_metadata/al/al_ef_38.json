@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_07ea864ea7a4950c006ab2fc4d74f887d29374e956ca03dd16",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 857,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1157,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 2014
+    }
+  },
+  "created_at": "2026-09-22T22:08:22Z",
+  "duration_seconds": 8.853,
+  "error": null,
+  "excerpt_id": "al_ef_38",
+  "filename": "al_ef_38.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8d7b78f0b0258be1e6c8ecfaf7a5909dd665b97f206715f88f53ddb44e993565",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "836bfa79486a85a6bbe9e76c3ad9df2aa5901822bd0525b09ebec6c296ae9dc6",
+    "rendered_prompt_sha256": "556ada151228c7e7e1ab77f91c82516e493e0f78d8035aedfaa3009a209c9f75",
+    "source_text_sha256": "7706b6f95845798941c73d8c384c32e98a8a8e8479cc88dab53a7e3ae86dc148"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_38.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 173,
+    "filename": "al_ef_38.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_38.txt",
+    "state": "al",
+    "word_count_original": 487
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_38.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_38.json"
+  },
+  "raw_response_text": "# 9. O COMPONENTE CURRICULAR ARTE, NO ENSINO FUNDAMENTAL\n## ARTE\n\nNo Ensino Fundamental, o componente curricular Arte está centrado nas linguagens artísticas: Artes Visuais, Dança, Música e Teatro. Essas linguagens articulam saberes referentes a produtos e fenômenos artísticos e envolvem as práticas de criar, ler, produzir, construir, exteriorizar e refletir sobre formas artísticas. A sensibilidade, a intuição, o pensamento, as emoções e as subjetividades se manifestam como formas de expressão, comunicação e interação no processo de aprendizagem em Arte.\n\nNa BNCC (2017), a organização do componente Arte, para o Ensino Fundamental, está dividida em dois ciclos: 1º ao 5º (Anos Iniciais) e 6º ao 9º (Anos Finais), o que significa tempo maior que o anual para que os estudantes atinjam as expectativas de aprendizagem. Convém respeitar os diferentes ritmos de aprendizagens, pois não existe uma hierarquia e nem uma ordem a ser seguida para o desenvolvimento do trabalho. No âmbito didático, favorece o uso de diferentes abordagens e graus de complexidade, de acordo com o ciclo.\n\nNo Referencial Curricular de Alagoas, o componente Arte, para o Ensino Fundamental, continua sendo trabalhado em ciclos (1º ao 5º dos Anos Iniciais e 6º ao 9º dos Anos Finais) conforme a BNCC, só que o desenvolvimento desse trabalho é feito ano a ano, de acordo com as fases de progressão proposta nesse componente, que contempla o desenvolvimento das competências e habilidades propostas para o componente curricular Arte com um olhar progressivo e espiral, ou seja, a progressão das aprendizagens não está proposta de forma linear, rígida ou cumulativa com relação a cada linguagem artística ou objeto de conhecimento.\n\nNesse sentido, é proposto um movimento, onde as novas experiências estejam relacionadas às anteriores e às posteriores na aprendizagem em Arte com a criação de Desdobramentos Didático Pedagógico, onde a cada ano, fases de progressão irão complementar e orientar com possibilidades o desenvolvimento das habilidades.\n\nOs conteúdos devem ser constantemente retomados durante o trabalho pedagógico do professor, procurando oferecer uma apropriada construção do conhecimento dos estudantes acerca das práticas, possibilitando o aumento da flexibilidade na delimitação dos currículos e a adequação às realidades locais.\n\nPara garantir a integração, equilíbrio e continuidade dos processos de aprendizagens das crianças, adolescentes, jovens e adultos, é importante o respeito às singularidades de cada sujeito e as relações que eles estabelecem com os conhecimentos, assim como a natureza das mediações em cada etapa e períodos de transições.\n\nCom esse olhar, propõe-se o desenvolvimento, principalmente nos períodos de transições, de estratégias de acolhimento e adaptações para crianças e adolescentes para possibilitar que essa nova etapa seja construída com base no que o estudante sabe e é capaz de fazer, dando continuidade de forma progressiva às experiências vividas na Educação Infantil, Anos Iniciais e Anos Finais.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

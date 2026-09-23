@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0e527a33d937f01d006ab30dfa9ebc87d2b084d15b5085cf7a",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 882,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1201,
+      "output_tokens_details": {
+        "reasoning_tokens": 466
+      },
+      "total_tokens": 2083
+    }
+  },
+  "created_at": "2026-09-22T23:23:46Z",
+  "duration_seconds": 7.839,
+  "error": null,
+  "excerpt_id": "rs_inf_14",
+  "filename": "rs_inf_14.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "85474e4bf805b602d8dbe41488d8be3feca35b6c3999a9ac4bff4c65883b7e46",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f0217cd53e73a6f8889b5c8b1aced56685d07e3948e95187dc41581d35e21685",
+    "rendered_prompt_sha256": "a5809e1b5f7de5f80624dff9001c3f018e65925fb1ebe8e11618c15241cc888a",
+    "source_text_sha256": "aa82b6bd31666a34d9083c56aa1813e04ca554e9ffed859fb7265c320387ace0"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/rs/rs_inf_14.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 3646,
+    "filename": "rs_inf_14.txt",
+    "filepath": "corpus/00_source_per_state/rs/rs_inf_14.txt",
+    "state": "rs",
+    "word_count_original": 469
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/rs/rs_inf_14.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/rs/rs_inf_14.json"
+  },
+  "raw_response_text": "## 11.3 CAMPO DE EXPERIÊNCIAS: TRAÇOS, SONS, CORES E FORMAS (TS)\n\nO Referencial Curricular Gaúcho, baseado no conceito deste Campo proposto pela BNCC (2017)[^7], destaca experiências nas quais as crianças tenham oportunidade de perceber o ambiente como um composto de traços, sons, cores e formas, oferecendo condições para sentirem a consistência da terra ou areia, criar misturas, colecionar coisas, modelar com argila, criar tintas, explorar formas coloridas, texturas, sabores, sons e também silêncios e um espaço acolhedor cheio de visualidades e sonoridades, promovendo o desenvolvimento da expressividade e da criatividade infantil e abrindo caminhos para o desenvolvimento de sua afetividade.\n\nO Campo de Experiências Traços, Sons, Cores e Formas refere-se às múltiplas linguagens artísticas que envolvem expressão: música, dança, escultura, cinema e teatro. Cada linguagem é constituída por diferentes elementos – imagens, cores, sons e traços – e utilizadas pelas crianças para se comunicar, expressar e interagir com o meio. Cada linguagem possibilita a ampliação de vivências que consideram a expressão criativa das crianças, a partir das condições propostas e oferecidas pelo professor. Um trabalho que exige planejamento, acompanhamento, avaliação e, muitas vezes, intervenções.\n\nNessa perspectiva, o trabalho com as linguagens artísticas não visa a formação de artistas, mas, auxiliar, através das diferentes linguagens e da arte, na formação de crianças sensíveis ao mundo, capazes de expressar sensações, sentimentos, pensamentos e de desenvolver seus próprios percursos criativos, articulando a percepção, a sensibilidade, a imaginação, a cognição, sob a orientação do professor.\n\nO trabalho nesse Campo de Experiências deve permitir a imersão das crianças nas diferentes linguagens artísticas e a familiarização e apropriação de várias formas de expressão (gestual, verbal, plástica, dramática e musical), através de ricas e variadas experiências de conhecimento, apreciação, expressão e interação.\n\n[^7]: Conviver com diferentes manifestações artísticas, culturais e científicas, locais e universais, no cotidiano da instituição escolar, possibilita às crianças, por meio de experiências diversificadas, vivenciar diversas formas de expressão e linguagens, como as artes visuais (pintura, modelagem, colagem, fotografia etc.), a música, o teatro, a dança e o audiovisual, entre outras. Com base nessas experiências, elas se expressam por várias linguagens, criando suas próprias produções artísticas ou culturais, exercitando a autoria (coletiva e individual) com sons, traços, gestos, danças, mímicas, encenações, canções, desenhos, modelagens, manipulação de diversos materiais e de recursos tecnológicos. Essas experiências contribuem para que, desde muito pequenas, as crianças desenvolvam senso estético e crítico, o conhecimento de si mesmas, dos outros e da realidade que as cerca. Portanto, a Educação Infantil precisa promover a participação das crianças em tempos e espaços para a produção, manifestação e apreciação artística, de modo a favorecer o desenvolvimento da sensibilidade, da criatividade e da expressão pessoal das crianças, permitindo que se apropriem e reconfigurem, permanentemente, a cultura e potencializem suas singularidades, ao ampliar repertórios e interpretar suas experiências e vivências artísticas. (BNCC, 2017, p. 39).",
+  "state": "rs",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

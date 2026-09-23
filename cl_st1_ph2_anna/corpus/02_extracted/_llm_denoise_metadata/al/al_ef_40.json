@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0c6e33af349f3310006ab2fc5439e887d2a0bcb74597a86775",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 642,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 790,
+      "output_tokens_details": {
+        "reasoning_tokens": 303
+      },
+      "total_tokens": 1432
+    }
+  },
+  "created_at": "2026-09-22T22:08:26Z",
+  "duration_seconds": 5.912,
+  "error": null,
+  "excerpt_id": "al_ef_40",
+  "filename": "al_ef_40.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "516ddd74596ac2efa69e607c6ec5998db71b4b7a515c40b43c7f76684cbebbc1",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "f2f6b3945b4d071c6f99e2d26530c39ac7d4491417515228c59e1a6e0a6cc5e9",
+    "rendered_prompt_sha256": "b544a722ced430b26c1aeea087608763d97be0a08a4534af46f0dfe13cf01a12",
+    "source_text_sha256": "8d865ebb4e3bb259d465468ad74d813b5c76e000fbbd560cdfcfb304a930506c"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/al/al_ef_40.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 176,
+    "filename": "al_ef_40.txt",
+    "filepath": "corpus/00_source_per_state/al/al_ef_40.txt",
+    "state": "al",
+    "word_count_original": 362
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/al/al_ef_40.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/al/al_ef_40.json"
+  },
+  "raw_response_text": "## 10. ORGANIZAÇÃO DO COMPONENTE CURRICULAR ARTE\n\nA organização da disciplina Arte no Referencial Curricular de Alagoas passou por momentos de estudos e pesquisas em busca de possíveis adequações tendo como objetivo oferecer aos sistemas e unidades de ensino, em especial aos professores de Arte, um material que oriente os processos de desenvolvimentos, sem tirar a autonomia das escolas e professores na construção do seus currículos e planos de aulas, respeitando suas especificidades locais. Nesse sentido, há uma articulação com a forma de organização da BNCC e acrescentou-se uma quarta coluna destinada aos desdobramento didático pedagógico das habilidades da base, ampliando o olhar e as possibilidades de mediações e intervenções artísticas.\n\nCompreendendo a importância na elaboração de um documento estadual norteador, que garanta a flexibilização na organização curricular do componente Arte, torna-se necessário que os responsáveis pela elaboração do currículo de Arte nas escolas, garantam o desenvolvimento das competências específicas por meio das dimensões do conhecimento em Arte. É importante trabalhar as linguagens artísticas e seus objetos do conhecimento de modo que estimulem e desenvolvam as habilidades propostas para cada ciclo/blocos (1º ao 5º e 6º ao 9º) do Ensino Fundamental, contemplando a construção da aprendizagem em espiral e a progressão do conhecimento.\n\n### 10.1 Competências específicas de arte\n\nAs aprendizagens essenciais definidas pela BNCC “devem concorrer para assegurar aos estudantes o desenvolvimento de dez competências gerais”, com suas dimensões e subdimensões, unificando direitos de aprendizagens e desenvolvimento de forma progressiva.\n\nCom esse entendimento as competências, de uma forma ampla, passam a ser definidas como a mobilização de conhecimentos (conceitos e procedimentos), habilidades (práticas, cognitivas e socioemocionais), atitudes e valores que se inter-relacionam e desdobram-se em procedimentos didáticos para a Educação Básica. Nesse sentido, é importante considerar o entendimento e a articulação entre as Competências Gerais (cognitivas e socioemocionais) e da Área de Linguagens assegurando o desenvolvimento das Competências Específicas de Arte.\n\nAs competências específicas de Arte no Referencial Curricular de Alagoas, foram alinhadas com as da BNCC com o objetivo de unificar entendimentos e práticas.",
+  "state": "al",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

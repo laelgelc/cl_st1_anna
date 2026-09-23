@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_06a79bd3c53c9b36006ab308f3c48c87d2b730b450e68ec85f",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 622,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 569,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 1191
+    }
+  },
+  "created_at": "2026-09-22T23:02:16Z",
+  "duration_seconds": 4.817,
+  "error": null,
+  "excerpt_id": "pi_inf_1",
+  "filename": "pi_inf_1.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "ddbad5c903ea638561776132eb1e2861b441d1a9f88130280e804e0aa9a44eb6",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "4e5dd65dc744e6cd7bc8e4734a3ee649b66f0ff43ecd6c762a6c2a249a870695",
+    "rendered_prompt_sha256": "ad2e42cc7c95ae841dae1cccd771adec4e3a84c9566b03a3a76e709a77d4f3c7",
+    "source_text_sha256": "7da275e20cfde5241b050dd57b62a196342a3833f79ce652d8f1066f604b910b"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pi/pi_inf_1.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2646,
+    "filename": "pi_inf_1.txt",
+    "filepath": "corpus/00_source_per_state/pi/pi_inf_1.txt",
+    "state": "pi",
+    "word_count_original": 356
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pi/pi_inf_1.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pi/pi_inf_1.json"
+  },
+  "raw_response_text": "# EDUCAÇÃO INFANTIL\n\nA Educação Infantil, primeira etapa da educação básica, visa o pleno desenvolvimento da criança, intencionalizando a preparação para a vida escolar. Para que este direito seja efetivado em sua totalidade, faz-se necessário o atendimento a esta prerrogativa peculiar, considerando as especificidades desta faixa etária, onde o educar e o cuidar devem acontecer de maneira interativa, síncrona e por meio de brincadeiras, vivenciando campos de experiências com vistas a desenvolver os direitos de aprendizagens.\n\nDessa forma, deve estar interligada com o Ensino Fundamental, pois todo processo de educação básica segue um fluxo sequenciado que tem a Educação Infantil como alicerce para a qualidade da educação. Portanto, esse tempo próprio da criança é o período necessário de preparação para a construção de conceitos a serem assimilados no processo de alfabetização.\n\nA proposta do currículo segue recomendação da Base Nacional Comum Curricular aprovada em 2017, tem como norte uma reflexão e construção acerca dos meios e fins de uma proposta inovadora e dinâmica, respeitando a diferença, diversidade, cultura e o espaço socio-histórico. É importante apresentar como se estrutura o componente da educação infantil no currículo piauiense.\n\nDe acordo com Brasil (2015, p. 9), já se reconhece que as crianças têm suas necessidades, têm seus processos físicos, cognitivo, emocionais e características individuais – sexo, idade, etnia, raça e classe social – e têm seus direitos e deveres.\n\nNesta perspectiva, percebe-se que, atualmente, as individualidades devem ser observadas e consideradas para que se tenha a oportunidade de desenvolver uma educação de qualidade, de maneira integral e plena.\n\nA Educação Infantil no Estado do Piauí, a partir do ano de 2013, passou a ser exclusivamente de responsabilidade dos municípios. Dessa forma é ofertada exclusivamente pelos municípios como define a Constituição Federal de 1988 e a Lei nº 9.394/2006.\n\nO Plano Estadual de Educação, Lei nº 13.005/2014 define uma previsão de universalização da matrícula de crianças de 4 a 5 anos de idade até o ano de 2016 e elevar para 50% a matrícula de crianças de 0 a 3 anos de idade até o final da vigência do plano em 2025.",
+  "state": "pi",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

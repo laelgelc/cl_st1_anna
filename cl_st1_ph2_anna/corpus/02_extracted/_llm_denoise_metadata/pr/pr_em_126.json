@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_0de876b2af003c29006ab309754ab887d2a3d2af0d74c9384b",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 539,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 478,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 1017
+    }
+  },
+  "created_at": "2026-09-22T23:04:24Z",
+  "duration_seconds": 3.602,
+  "error": null,
+  "excerpt_id": "pr_em_126",
+  "filename": "pr_em_126.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "a8e49fcf3d43a32d438e0e91172cfb5e84af64a29f086efce7db75bf9051937b",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "05a8bb40584c4469ca7d91535742d32ce393740b99f3420337758f0c2c3c5393",
+    "rendered_prompt_sha256": "f08123ddfd7a21a8862090333e67243475249e50f052499400c91275c4066cdb",
+    "source_text_sha256": "6ffccffadc30a47351654cb8c4641ac6ec12b3098203a0312e9413096ac17e82"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pr/pr_em_126.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2712,
+    "filename": "pr_em_126.txt",
+    "filepath": "corpus/00_source_per_state/pr/pr_em_126.txt",
+    "state": "pr",
+    "word_count_original": 282
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pr/pr_em_126.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pr/pr_em_126.json"
+  },
+  "raw_response_text": "### 3.4 Avaliação\n\nEntre os princípios pedagógicos da avaliação a ser realizada no IFA da área de CNT, sugere-se que os processos avaliativos sejam de caráter diagnóstico, permanente, formativo e somativo, que reconheçam as especificidades e singularidades dos estudantes do Ensino Médio, bem como possibilitem intervenções pedagógicas para a superação de dificuldades apresentadas. Em consonância com essa perspectiva, torna-se evidente a importância de oportunizar aos estudantes uma avaliação alinhada com a estratégia de ensino por investigação. Para tanto, salienta-se a necessidade de rompimento com os métodos tradicionais de avaliação, para impulsionar os estudantes na reconstrução de seus conhecimentos (Martins; Salgado, 2018).\n\nNesse contexto, a avaliação deve associar os saberes sistematizados a questões do cotidiano, contribuindo para o estudante exercer sua cidadania de forma consistente com a própria realidade e sua relação com os desafios globais, proporcionando-lhe a compreensão de seu percurso e de seu desenvolvimento, na aquisição gradativa das competências propostas (Antunes, 2003).\n\nNessa perspectiva, os instrumentos avaliativos empregados devem ser diferenciados para avaliar aspectos não só cognitivos, mas também procedimentais e atitudinais, tais como: apresentação e desenvolvimento de atividades experimentais; elaboração de relatórios das atividades práticas; construção de protótipos, modelos e diários de bordo; histórias escritas em quadrinhos; confecção de murais; avaliações online; representação teatral; mapa mental e conceitual; gincanas; júri simulado; elaboração de blogs; autoavaliação e avaliação em pares, entre outras possibilidades.\n\nNas práticas pedagógicas delineadas a partir de uma abordagem interdisciplinar, cabe aos professores, segundo Bender (2014), avaliar todo o processo, considerar o desempenho individual do estudante e do grupo, possibilitando uma reflexão da aprendizagem e identificando pontos de melhoria, com vistas à progressividade de modo a contribuir na construção do projeto de vida dos estudantes.",
+  "state": "pr",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

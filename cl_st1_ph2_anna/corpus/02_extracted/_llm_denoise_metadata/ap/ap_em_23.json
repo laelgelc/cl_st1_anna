@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_064a91dff5c34126006ab2fe08bbd487d2bedf3b249a5a1e98",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 570,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 580,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 1150
+    }
+  },
+  "created_at": "2026-09-22T22:15:41Z",
+  "duration_seconds": 4.958,
+  "error": null,
+  "excerpt_id": "ap_em_23",
+  "filename": "ap_em_23.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "6b7e5ec17d2d71e8ecf3d36b34c72c7e8284e277d0592d1c5fdedb8c40f7b55c",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "cee0dedfed66d6c0a3115f48b7975c6fb23544d3a47e1639dffb3912c25e6d02",
+    "rendered_prompt_sha256": "4aef459273a9a4985003eb0efb456961370d3399d3aff5274946b52fd3f6d6d5",
+    "source_text_sha256": "a3609e41d66157a760508c2aec0b01680ffd52d90e5e54e3c01f6eca7fed1ed1"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ap/ap_em_23.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 517,
+    "filename": "ap_em_23.txt",
+    "filepath": "corpus/00_source_per_state/ap/ap_em_23.txt",
+    "state": "ap",
+    "word_count_original": 343
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ap/ap_em_23.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ap/ap_em_23.json"
+  },
+  "raw_response_text": "**CONCEPÇÕES DAS CATEGORIAS CONCEITUAIS DE ÁREA/COMPONENTES**\n\nA área de conhecimento Ciências da Natureza, no Ensino Fundamental, é representada por um único componente de mesmo nome, enquanto no Ensino Médio, o ensino é distribuído entre os componentes curriculares Biologia, Física e Química.\n\nNo Ensino Médio, com a maior maturidade de jovens e adultos, os conceitos de cada componente curricular – Biologia, Física e Química – podem ser aprofundados em suas especificidades temáticas e em seus modelos abstratos, ampliando a leitura do mundo físico e social, o enfrentamento de situações relacionadas às Ciências da Natureza, o desenvolvimento do pensamento crítico e tomadas de decisões mais conscientes e consistentes. Para essa formação ampla, os componentes curriculares da área de conhecimento Ciências da Natureza devem possibilitar a construção de uma base de conhecimentos contextualizada, envolvendo a discussão de temas como energia, saúde, ambiente, tecnologia, educação para o consumo, sustentabilidade, entre outros. Isso exige, no ensino, uma integração entre conhecimentos abordados nos vários componentes curriculares, superando o tratamento fragmentado, ao articular saberes dos componentes da área, bem como da área Ciências da Natureza com outras.\n\nPor exemplo, ao tratar o tema energia no Ensino Médio, os/as estudantes, além de compreenderem sua transformação e conservação, do ponto de vista da Física, da Química, da Biologia, podem também percebê-lo na Geografia, sabendo avaliar os impactos das diferentes fontes de energia em uma matriz energética, considerando fatores como a produção, os recursos naturais mobilizados, as tecnologias envolvidas e os impactos ambientais. Ainda, pode-se perceber a apropriação humana dos ciclos energéticos naturais como elemento essencial para se compreenderem as transformações econômicas ao longo da história.\n\nPortanto, para cumprir as premissas das competências gerais propostas na BNCC do Ensino Médio, assim como as competências específicas da área citada no mesmo documento orientador do novo currículo, e aqui proposto, é imperativo reconhecer a importância e papel de cada componente, mas não os fragmentar. Seguir a ideia central, que é desenvolver habilidades que envolvam a área de conhecimento aqui disponível como fonte de consulta para futuras escritas, capazes de instigar mentes criativas.",
+  "state": "ap",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

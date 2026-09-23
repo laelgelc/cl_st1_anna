@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_065811cca506f254006ab303db688887d2a50231163d9dab04",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 716,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 632,
+      "output_tokens_details": {
+        "reasoning_tokens": 54
+      },
+      "total_tokens": 1348
+    }
+  },
+  "created_at": "2026-09-22T22:40:32Z",
+  "duration_seconds": 5.657,
+  "error": null,
+  "excerpt_id": "ms_inf_e_ef_16",
+  "filename": "ms_inf_e_ef_16.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "8efdbc51d01a2b5e696184ba622071e637879427ac74118410799e84e47dbfa2",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "3c85730106b04ae322f2ca24554aae7a41f44ef5179c05eff2c72f3b4044b5ee",
+    "rendered_prompt_sha256": "d575ecb5777644ad1614d7fb5fe9d3f095dcc2c9726ac9ff381f600f7e27ec5c",
+    "source_text_sha256": "d7d85a2c447f4c052911ea5049606868e8be9b05a737d337cd39ec0d65cdff02"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/ms/ms_inf_e_ef_16.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 1734,
+    "filename": "ms_inf_e_ef_16.txt",
+    "filepath": "corpus/00_source_per_state/ms/ms_inf_e_ef_16.txt",
+    "state": "ms",
+    "word_count_original": 404
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/ms/ms_inf_e_ef_16.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/ms/ms_inf_e_ef_16.json"
+  },
+  "raw_response_text": "### 3.12 Cultura sul-mato-grossense e diversidade cultural\n\nO Estado de Mato Grosso do Sul, conforme o Parecer CEE/MS n. 235/2006, do Conselho Estadual de Educação, tem vivenciado experiências que demonstram a relevância das manifestações culturais entre povos diversos, unidos por questões históricas, geográficas, políticas e ideológicas.\n\nO Parecer também se fundamenta conceitualmente e menciona que a “cultura abrange música, teatro, artes plásticas, artesanato, manifestações étnicas, prédios históricos, dentre outros e tem um caráter que extrapola os limites da estética, mas envolve valores, concepções, ideologias, constituição histórica e diversos outros aspectos que designam um povo” (MATO GROSSO DO SUL, 2006).\n\nAssim, a abordagem desse tema deve destacar as contribuições do campo na cultura de Mato Grosso do Sul, nas diversas manifestações artísticas e também na constituição e divisão dos territórios, tanto geográfica quanto historicamente, partindo sempre do contexto da diversidade na qual o estado foi construído e fundamentado historicamente.\n\nNesse sentido, a escola, como espaço de educação formal, deve favorecer o conhecimento das produções regional e local, bem como divulgá-las e valorizá-las, pois a partir do momento em que a criança, o adolescente e o jovem compreendem a sua história e a história do lugar de onde vieram, percebendo que a cultura surge de várias contribuições, aprenderão a respeitar e colaborar para a valorização cultural.\n\n### 3.13 Superação de Discriminações e Preconceitos como Racismo, Sexismo, Homofobia e Outros\n\nA escola é difusora de conhecimento científico e garantia do direito à educação previstos na Constituição Federal. A Carta Magna determina que todos sejam iguais perante a lei e que não haja distinção de qualquer natureza entre as pessoas, ou seja, não há espaço para discriminações e preconceitos e, por isso, a escola, como instituição social, deve ser ambiente de combate à violência. Isso quer dizer que a escola pode oportunizar às crianças, aos adolescentes e aos jovens a apropriação de identidades e a reflexão sobre os padrões de comportamento vivenciados pela sociedade, buscando uma visão de equidade, na qual todos tenham os mesmos direitos e deveres, independente de suas origens, credo, orientação sexual.\n\nNessa lógica, a escola precisa ser entendida como espaço de convivência de sujeitos cujas ações sejam pautadas em medidas que anulem e atenuem as práticas de discriminação e preconceitos que violam os direitos humanos e sociais. Assim, o currículo passa a ser possibilitador de uma abordagem educativa, pautada no diálogo e nas vivências, que supere essas práticas.",
+  "state": "ms",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

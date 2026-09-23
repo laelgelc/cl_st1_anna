@@ -1,0 +1,58 @@
+{
+  "api_metadata": {
+    "id": "resp_076fdffcab09cffb006ab30849410487d2891a1b8a2244f056",
+    "model": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 811,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1421,
+      "output_tokens_details": {
+        "reasoning_tokens": 715
+      },
+      "total_tokens": 2232
+    }
+  },
+  "created_at": "2026-09-22T22:59:33Z",
+  "duration_seconds": 12.417,
+  "error": null,
+  "excerpt_id": "pe_inf_28",
+  "filename": "pe_inf_28.txt",
+  "hashes": {
+    "denoised_markdown_sha256": "dfe7d7ee352d1ab4f954040738a03bc6a5778537cb0436dca2d1863d91d91720",
+    "manifest_file_sha256": "f9c8897e49f9a3ef4ab40c3fc986da79b812bf851dd450c57af728fe9e588d68",
+    "prompt_template_sha256": "b7ad1ffe710ddd063b48acf238a0edf189b8e8dc8b41001d28fd393d52a43b8c",
+    "raw_response_text_sha256": "a5c3b1f7b8de6e6276d2d5fbd9c7bd2ead10926bcd626d9177db0a3e5f1b6b23",
+    "rendered_prompt_sha256": "5296757263c80b8706f45b5541f4d1b2f3948ab10e9416c98c0046978fddcad9",
+    "source_text_sha256": "7cdc0a18dfeaca82b5dc8e2befb81cf225cb8680f26ecda1a8c9290b49f48389"
+  },
+  "input": {
+    "manifest_file": "corpus/brazilian_educational_guidelines.ndjson",
+    "prompt_file": "denoising_prompts/denoising_v2.md",
+    "source_file": "corpus/00_source_per_state/pe/pe_inf_28.txt"
+  },
+  "manifest_row": {
+    "_manifest_line_number": 2534,
+    "filename": "pe_inf_28.txt",
+    "filepath": "corpus/00_source_per_state/pe/pe_inf_28.txt",
+    "state": "pe",
+    "word_count_original": 456
+  },
+  "max_output_tokens": 10000,
+  "max_output_tokens_sent_to_api": true,
+  "model": {
+    "configured_model": "gpt-6-luna",
+    "response_model": "gpt-6-luna"
+  },
+  "output": {
+    "markdown_file": "corpus/02_extracted/pe/pe_inf_28.md",
+    "metadata_json": "corpus/02_extracted/_llm_denoise_metadata/pe/pe_inf_28.json"
+  },
+  "raw_response_text": "## 2.11.5 ESPAÇOS, TEMPOS, QUANTIDADES, RELAÇÕES E TRANSFORMAÇÕES\n\nAs crianças vivem inseridas em espaços e tempos de diferentes dimensões em um mundo constituído de fenômenos naturais e socioculturais. Desde muito pequenas, elas procuram se situar em diversos espaços (rua, bairro, cidade etc.) e tempos (dia e noite; hoje, ontem e amanhã etc.).\n\nDemonstram também curiosidade sobre o mundo físico (seu próprio corpo, os fenômenos atmosféricos, os animais, as plantas, as transformações da natureza, os diferentes tipos de materiais e as possibilidades de sua manipulação etc.) e o mundo sociocultural (as relações de parentesco e sociais entre as pessoas que conhece; como vivem e em que trabalham essas pessoas; quais suas tradições e seus costumes; a diversidade entre elas etc.).\n\nAlém disso, nessas experiências e em muitas outras, as crianças também se deparam, frequentemente, com conhecimentos matemáticos (contagem, ordenação, relações entre quantidades, dimensões, medidas, comparação de pesos e de comprimentos, avaliação de distâncias, reconhecimento de formas geométricas, conhecimento e reconhecimento de numerais cardinais e ordinais etc.) que igualmente aguçam a curiosidade.\n\nPortanto, a Educação Infantil precisa promover experiências nas quais as crianças possam fazer observações, manipular objetos, investigar e explorar seu entorno, levantar hipóteses e consultar fontes de informação para buscar respostas às suas curiosidades e indagações.\n\nAssim, a instituição escolar está criando oportunidades para que as crianças ampliem seus conhecimentos do mundo físico e sociocultural e possam utilizá-los em seu cotidiano.\n\n(BNCC, 2017)\n\n### DIREITOS DE APRENDIZAGEM E DESENVOLVIMENTO\n\n- **CONVIVER** com crianças e adultos e com eles criar estratégias para investigar o mundo social e natural, demonstrando atitudes positivas em relação a situações que envolvam diversidade étnico-racial, ambiental, de gênero, de língua, de religião.\n- **BRINCAR** com materiais e objetos cotidianos, associados a diferentes papéis ou cenas sociais, e com elementos da natureza que apresentam diversidade de formas, cheiros, cores, tamanhos, pesos, densidades, experimentando possibilidades de transformação.\n- **PARTICIPAR** de atividades que oportunizem a observação de contextos diversos, atentando para características do ambiente e das histórias locais, utilizando ferramentas de conhecimento e instrumentos de registro, orientação e comunicação, como bússola, lanterna, lupa, máquina fotográfica, gravador, filmadora, projetor, computador e celular.\n- **EXPLORAR** e identificar as características do mundo natural e social, nomeando-as, reagrupando-as e ordenando-as, segundo critérios diversos.\n- **EXPRESSAR** suas observações, hipóteses e explicações sobre objetos, organismos vivos, fenômenos da natureza, características do ambiente, personagens e situações sociais, registrando-as por meio de desenhos, fotografias, gravações em áudio e vídeo, escritas e outras linguagens.\n- **CONHECER-SE** e construir sua identidade pessoal e cultural, identificando seus próprios interesses na relação com o mundo físico e social, apropriando-se dos costumes, das crenças e tradições de seus grupos de pertencimento e do patrimônio cultural, artístico, ambiental, científico e tecnológico.",
+  "state": "pe",
+  "status": "success",
+  "temperature": 0.0,
+  "temperature_sent_to_api": false
+}

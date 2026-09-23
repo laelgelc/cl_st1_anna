@@ -5,18 +5,18 @@ Generate interpretation prompt files for factor poles.
 For each pole, this script assembles a complete prompt containing:
     1. System prompt
     2. User prompt
-    3. Mean decade scores
+    3. Mean group scores
     4. Factor loadings
     5. Example excerpts, with their loading words appended
 
 The project name is inferred from the current working directory unless supplied
 explicitly with --project.
 
-Expected inputs:
+Default expected inputs:
     factors/f<n>_<pole>.txt
     examples_txt/f<n>_<pole>/*.txt
     examples/score_details.txt
-    sas/output_<project>/means_decade_f<n>.tsv
+    sas/output_<project>/means_state_f<n>.tsv
 
 Output:
     interpretation/input/f<n>_<pole>.txt
@@ -34,6 +34,7 @@ from pathlib import Path
 # ============================================================
 
 DEFAULT_PROJECT = Path.cwd().name
+DEFAULT_GROUP = "state"
 DEFAULT_FACTORS_DIR = Path("factors")
 DEFAULT_EXAMPLES_DIR = Path("examples_txt")
 DEFAULT_DETAILS_FILE = Path("examples/score_details.txt")
@@ -56,8 +57,16 @@ def parse_args() -> argparse.Namespace:
         "--project",
         default=DEFAULT_PROJECT,
         help=(
-            "Project name, e.g. cl_st1_ph2_andrea or cl_st1_ph3_andrea. "
+            "Project name, e.g. cl_st1_ph2_anna. "
             "Default: current directory name."
+        ),
+    )
+    parser.add_argument(
+        "--group",
+        default=DEFAULT_GROUP,
+        help=(
+            "Grouping column and means-file suffix, e.g. state or decade. "
+            "Default: state."
         ),
     )
     parser.add_argument(
@@ -104,6 +113,21 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def normalize_group(group: str) -> str:
+    """Normalize group name for filenames, headings, and table lookup."""
+    normalized = str(group).strip().lower()
+
+    if not normalized:
+        raise ValueError("--group must not be empty")
+
+    if not re.fullmatch(r"[a-zA-Z0-9_]+", normalized):
+        raise ValueError(
+            "--group may contain only letters, numbers, and underscores"
+        )
+
+    return normalized
+
+
 def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path:
     """Resolve the SAS output directory."""
     if sas_output_dir_arg is None:
@@ -116,51 +140,47 @@ def resolve_sas_output_dir(project: str, sas_output_dir_arg: str | None) -> Path
 # PROMPT TEXT
 # ============================================================
 
-def phase_description(project: str) -> str:
-    """Return a phase-specific description for the current project."""
-    if "ph2" in project:
-        return (
-            "This phase analyses the commercial verbal subcorpus: transcript texts "
-            "representing the spoken/audio-verbal content of the selected television commercials."
-        )
+def group_description(group: str) -> str:
+    """Return a readable group description."""
+    if group == "state":
+        return "Brazilian state"
 
-    if "ph3" in project:
-        return (
-            "This phase analyses the commercial visual subcorpus: textual descriptions "
-            "of the visual content of the selected television commercials."
-        )
+    return group.replace("_", " ")
+
+
+def phase_description(project: str, group: str) -> str:
+    """Return a project-specific corpus description."""
+    group_label = group_description(group)
 
     return (
-        "This phase analyses one of the commercial subcorpora: either transcript texts "
-        "of spoken/audio-verbal content or textual descriptions of visual content."
+        "This phase analyses a corpus of Brazilian educational curriculum and "
+        "guideline excerpts. The texts have been denoised, tagged, transformed "
+        "into lexical variables, and analysed with Lexical Multi-Dimensional "
+        f"Analysis. The corpus is organised by {group_label} strata."
     )
 
 
-def build_system_prompt(project: str) -> str:
+def build_system_prompt(project: str, group: str) -> str:
     """Build the system prompt."""
+    group_label = group_description(group)
+
     return f"""You are a corpus linguist specialising in Lexical Multi-Dimensional Analysis (LMDA).
 Your task is to interpret a single factor pole as a discourse dimension.
 
-The corpus consists of selected television-commercial texts organised by decade.
-The dataset is a balanced sample of commercials from the 1950s through the 2020s,
-with the same number of selected commercials in each decade.
+{phase_description(project, group)}
 
-{phase_description(project)}
-
-The analysis is applied to decade-based strata:
-• 1950s
-• 1960s
-• 1970s
-• 1980s
-• 1990s
-• 2000s
-• 2010s
-• 2020s
+The analysis is applied to {group_label}-based strata. The mean-score table shows
+how strongly each {group_label} scores on the relevant factor.
 
 Your interpretation must identify the discourses encoded at this pole, taking into account:
-• lexical loadings, which represent the full analysed subcorpus;
+• lexical loadings, which represent the full analysed corpus;
 • example excerpts, which illustrate high-scoring texts at this pole;
-• the decades that score most strongly at this pole.
+• the {group_label}s that score most strongly at this pole;
+• the loading words that appear in the examples.
+
+Do not interpret isolated examples as if they represented the entire corpus.
+Use the examples to illustrate and qualify the broader pattern shown by the loadings
+and by the group mean scores.
 """
 
 
@@ -168,17 +188,22 @@ USER_PROMPT = """Interpret Factor {factor} ({polarity}) as a discourse dimension
 Propose possible labels for this pole only and justify them.
 
 Base your interpretation on:
-• Mean decade scores. For positive poles, consider the highest-scoring decades in the table. For negative poles, consider the lowest-scoring decades; these may be the lowest positive scores or the most negative scores if there are any.
+• Mean {group_label} scores. For positive poles, consider the highest-scoring {group_label}s in the table. For negative poles, consider the lowest-scoring {group_label}s; these may be the lowest positive scores or the most negative scores if there are any.
 • Factor loadings.
 • Example excerpts from high-scoring texts.
 • The loading words that appear in these examples.
-• Which decades appear to drive this pole.
-• Diachronic tendencies suggested by the decade scores.
+• Which {group_label}s appear to drive this pole.
+• Regional or group-level tendencies suggested by the mean scores.
 
 Do not offer a "versus" interpretation of the opposite pole.
 Focus on this single pole only.
 
-Give equal weight to the loadings and the examples. Remember that loadings represent the full analysed subcorpus, whereas the excerpts are only a limited set of high-scoring samples.
+Give equal weight to the loadings and the examples. Remember that loadings represent
+the full analysed corpus, whereas the excerpts are only a limited set of high-scoring
+samples.
+
+When proposing labels, prefer concise discourse-functional labels rather than merely
+listing frequent words.
 """
 
 
@@ -202,10 +227,11 @@ def load_score_details(details_path: Path) -> dict[str, dict[str, dict[str, list
         for line in f:
             line = line.strip()
 
-            match_id = re.match(r"text ID:\s*(t\d+)", line)
+            match_id = re.match(r"text ID:\s*(.+)", line)
             if match_id:
-                current_id = match_id.group(1)
+                current_id = match_id.group(1).strip()
                 score_details[current_id] = {}
+                current_factor = None
                 continue
 
             match_factor = re.match(r"(f\d+)\s+score:", line)
@@ -252,11 +278,16 @@ def extract_excerpt(file_path: Path, n_lines: int) -> str:
 
 
 def detect_text_id(text: str) -> str | None:
-    """Detect a text ID such as t000001 inside an example file."""
-    match = re.search(r"(t\d{6})", text)
+    """Detect the text ID from an example file."""
+    match = re.search(r"^Text ID:\s*(.+?)\s*$", text, flags=re.MULTILINE)
 
     if match:
-        return match.group(1)
+        return match.group(1).strip()
+
+    legacy_match = re.search(r"(t\d{6})", text)
+
+    if legacy_match:
+        return legacy_match.group(1)
 
     return None
 
@@ -264,6 +295,12 @@ def detect_text_id(text: str) -> str | None:
 def natural_sort_key(path: Path) -> list[int | str]:
     """Return a natural-sort key for paths."""
     parts = re.split(r"(\d+)", path.name)
+    return [int(part) if part.isdigit() else part.lower() for part in parts]
+
+
+def factor_sort_key(path: Path) -> list[int | str]:
+    """Return a natural-sort key for factor pole files."""
+    parts = re.split(r"(\d+)", path.stem)
     return [int(part) if part.isdigit() else part.lower() for part in parts]
 
 
@@ -276,6 +313,9 @@ def main() -> None:
     args = parse_args()
 
     project = args.project
+    group = normalize_group(args.group)
+    group_label = group_description(group)
+
     sas_output_dir = resolve_sas_output_dir(project, args.sas_output_dir)
     factors_dir = Path(args.factors_dir)
     examples_dir = Path(args.examples_dir)
@@ -297,13 +337,18 @@ def main() -> None:
 
     factor_files = sorted(
         factors_dir.glob("f*_*.txt"),
-        key=natural_sort_key,
+        key=factor_sort_key,
     )
+
+    factor_files = [
+        path for path in factor_files
+        if re.fullmatch(r"f\d+_(pos|neg)", path.stem)
+    ]
 
     if not factor_files:
         raise FileNotFoundError(f"No factor pole files found in {factors_dir}")
 
-    system_prompt = build_system_prompt(project)
+    system_prompt = build_system_prompt(project, group)
 
     for factor_file in factor_files:
         factor_name = factor_file.stem
@@ -324,7 +369,7 @@ def main() -> None:
 
         loadings_text = factor_file.read_text(encoding="utf-8").strip()
 
-        means_file = sas_output_dir / f"means_decade_f{factor_number}.tsv"
+        means_file = sas_output_dir / f"means_{group}_f{factor_number}.tsv"
 
         if not means_file.exists():
             print(f"Warning: missing means file {means_file}")
@@ -333,10 +378,15 @@ def main() -> None:
             means_text = means_file.read_text(encoding="utf-8").strip()
 
         example_folder = examples_dir / factor_name
-        example_files = sorted(
-            example_folder.glob("*.txt"),
-            key=natural_sort_key,
-        )[:args.excerpt_count]
+
+        if not example_folder.exists():
+            print(f"Warning: missing example folder {example_folder}")
+            example_files = []
+        else:
+            example_files = sorted(
+                example_folder.glob("*.txt"),
+                key=natural_sort_key,
+            )[:args.excerpt_count]
 
         excerpts_block = []
 
@@ -376,10 +426,17 @@ def main() -> None:
         user_prompt = USER_PROMPT.format(
             factor=factor,
             polarity=polarity,
+            group_label=group_label,
         )
 
-        mean_section = f"\n=== MEAN DECADE SCORES ===\n{means_text}\n"
-        loadings_section = f"\n=== FACTOR LOADINGS ({factor_name}) ===\n{loadings_text}\n"
+        mean_section = (
+            f"\n=== MEAN {group.upper()} SCORES ===\n"
+            f"{means_text}\n"
+        )
+        loadings_section = (
+            f"\n=== FACTOR LOADINGS ({factor_name}) ===\n"
+            f"{loadings_text}\n"
+        )
 
         final_prompt = (
                 system_prompt
@@ -398,6 +455,7 @@ def main() -> None:
         print("Wrote:", output_path)
 
     print(f"\nProject: {project}")
+    print(f"Group: {group}")
     print(f"SAS output directory: {sas_output_dir}")
     print(f"Interpretation prompts written to: {output_dir}")
 

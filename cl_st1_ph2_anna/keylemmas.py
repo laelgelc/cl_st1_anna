@@ -33,6 +33,12 @@ VALID_TAG_PREFIXES = (
 
 # stopwords (lowercase)
 STOPWORDS = {
+    "ii",
+    "iii",
+    "iv",
+    "nº",
+    "xvi",
+    "xxi"
 }
 
 

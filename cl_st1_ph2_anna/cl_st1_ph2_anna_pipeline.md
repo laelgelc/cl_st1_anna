@@ -188,9 +188,9 @@ to                     → 45 keywords max
 ac                     → selected 45/45 from 246 available POSKW lemmas
 al                     → selected 45/45 from 89 available POSKW lemmas
 am                     → selected 45/45 from 170 available POSKW lemmas
-ap                     → selected 45/45 from 46 available POSKW lemmas
-ba                     → selected 45/45 from 356 available POSKW lemmas
-ce                     → selected 45/45 from 368 available POSKW lemmas
+ap                     → selected 43/45 from 43 available POSKW lemmas
+ba                     → selected 45/45 from 355 available POSKW lemmas
+ce                     → selected 45/45 from 366 available POSKW lemmas
 df                     → selected 45/45 from 120 available POSKW lemmas
 es                     → selected 45/45 from 124 available POSKW lemmas
 go                     → selected 45/45 from 364 available POSKW lemmas
@@ -198,27 +198,27 @@ ma                     → selected 45/45 from 244 available POSKW lemmas
 mg                     → selected 30/45 from 30 available POSKW lemmas
 ms                     → selected 45/45 from 147 available POSKW lemmas
 mt                     → selected 45/45 from 252 available POSKW lemmas
-pa                     → selected 45/45 from 679 available POSKW lemmas
+pa                     → selected 45/45 from 678 available POSKW lemmas
 pb                     → selected 45/45 from 140 available POSKW lemmas
 pe                     → selected 45/45 from 68 available POSKW lemmas
-pi                     → selected 45/45 from 191 available POSKW lemmas
+pi                     → selected 45/45 from 189 available POSKW lemmas
 pr                     → selected 45/45 from 853 available POSKW lemmas
 rj                     → selected 45/45 from 121 available POSKW lemmas
 rn                     → selected 45/45 from 74 available POSKW lemmas
 ro                     → selected 45/45 from 110 available POSKW lemmas
 rr                     → selected 45/45 from 65 available POSKW lemmas
-rs                     → selected 45/45 from 92 available POSKW lemmas
-sc                     → selected 45/45 from 1150 available POSKW lemmas
-se                     → selected 45/45 from 161 available POSKW lemmas
+rs                     → selected 45/45 from 91 available POSKW lemmas
+sc                     → selected 45/45 from 1147 available POSKW lemmas
+se                     → selected 45/45 from 159 available POSKW lemmas
 sp                     → selected 45/45 from 98 available POSKW lemmas
 to                     → selected 45/45 from 102 available POSKW lemmas
 
-Total consolidated keywords before de-duplication: 1200
-Unique keywords after de-duplication: 1063
+Total consolidated keywords before de-duplication: 1198
+Unique keywords after de-duplication: 1061
 Duplicates removed: 137
 
 Final unique keywords written to: corpus/09_kw_selected/keywords.txt
-Final unique keyword count: 1063
+Final unique keyword count: 1061
 ```
 
 ## 5. Build binary keyword columns

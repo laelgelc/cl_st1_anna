@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Denoise Brazilian educational guideline excerpts with the OpenAI API.
+Denoise Brazilian educational guideline excerpts with OpenAI or Gemini APIs.
 
 The program is manifest-driven, resumable, concurrent, and writes:
 - one Markdown file per successful excerpt;
@@ -8,6 +8,15 @@ The program is manifest-driven, resumable, concurrent, and writes:
 - failures/invalid-response NDJSON files;
 - a consolidated denoised NDJSON dataset;
 - run manifest, timestamped manifest, summary, and log files.
+
+Model routing:
+- Models whose names start with "gemini-" use the Gemini API.
+- Other models use the OpenAI API.
+
+Environment:
+- OPENAI_API_KEY is required for OpenAI models.
+- GEMINI_API_KEY is required for Gemini models.
+- By default, environment variables are also loaded from env/.env when present.
 """
 
 from __future__ import annotations
@@ -19,7 +28,6 @@ import json
 import logging
 import os
 import re
-import sys
 import tempfile
 import threading
 import time
@@ -32,6 +40,9 @@ from typing import Any
 
 PLACEHOLDER = "<<<GUIDELINE_EXCERPT_TEXT>>>"
 PROGRAMME = "llm_denoise.py"
+
+OPENAI_MODEL_PREFIXES = ("gpt-", "o")
+GEMINI_MODEL_PREFIXES = ("gemini-",)
 
 
 class FatalSetupError(RuntimeError):
@@ -101,6 +112,15 @@ class TemperatureSupportCache:
             self._unsupported_models.add(model)
 
 
+def model_family(model: str) -> str:
+    model_lower = model.strip().lower()
+    if model_lower.startswith(GEMINI_MODEL_PREFIXES):
+        return "gemini"
+    if model_lower.startswith(OPENAI_MODEL_PREFIXES):
+        return "openai"
+    return "openai"
+
+
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
@@ -147,7 +167,7 @@ def sha256_file(path: Path) -> str:
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Denoise guideline excerpts with OpenAI.")
+    parser = argparse.ArgumentParser(description="Denoise guideline excerpts with OpenAI or Gemini.")
     parser.add_argument("--manifest", required=True)
     parser.add_argument("--output", required=True)
     parser.add_argument("--prompt", required=True)
@@ -287,7 +307,11 @@ def load_dotenv_file(path: Path) -> dict[str, Any]:
         with path.open("r", encoding="utf-8", errors="replace") as f:
             for line in f:
                 stripped = line.strip()
-                if not stripped or stripped.startswith("#") or "=" not in stripped:
+                if not stripped or stripped.startswith("#"):
+                    continue
+                if stripped.startswith("export "):
+                    stripped = stripped[len("export "):].strip()
+                if "=" not in stripped:
                     continue
                 key, value = stripped.split("=", 1)
                 key = key.strip()
@@ -300,9 +324,21 @@ def load_dotenv_file(path: Path) -> dict[str, Any]:
         "env_file_found": found,
         "loaded_keys": loaded_keys,
         "openai_api_key_available": bool(os.environ.get("OPENAI_API_KEY")),
+        "gemini_api_key_available": bool(os.environ.get("GEMINI_API_KEY")),
         "openai_api_key_source": "env_file_or_process_environment" if os.environ.get("OPENAI_API_KEY") else None,
-        "openai_api_key_logged": False,
+        "gemini_api_key_source": "env_file_or_process_environment" if os.environ.get("GEMINI_API_KEY") else None,
+        "api_keys_logged": False,
     }
+
+
+def validate_api_key_available(config: Config, env_metadata: dict[str, Any]) -> None:
+    family = model_family(config.model)
+    if family == "gemini":
+        if not env_metadata["gemini_api_key_available"]:
+            raise FatalSetupError("GEMINI_API_KEY is unavailable")
+    else:
+        if not env_metadata["openai_api_key_available"]:
+            raise FatalSetupError("OPENAI_API_KEY is unavailable")
 
 
 def load_prompt(config: Config) -> str:
@@ -489,6 +525,20 @@ def make_openai_client() -> Any:
     return OpenAI()
 
 
+def make_gemini_client() -> Any:
+    try:
+        from google import genai
+    except Exception as exc:
+        raise FatalSetupError("Google GenAI Python SDK is unavailable; install google-genai") from exc
+    return genai.Client(vertexai=False)
+
+
+def make_llm_client(config: Config) -> Any:
+    if model_family(config.model) == "gemini":
+        return make_gemini_client()
+    return make_openai_client()
+
+
 def _api_error_suggests_temperature_unsupported(exc: Exception) -> bool:
     text = str(exc).lower()
     return "temperature" in text and (
@@ -498,54 +548,6 @@ def _api_error_suggests_temperature_unsupported(exc: Exception) -> bool:
             or "unknown parameter" in text
             or "invalid parameter" in text
     )
-
-
-def call_openai_with_retries(
-        client: Any,
-        config: Config,
-        prompt: str,
-        temperature_cache: TemperatureSupportCache,
-) -> tuple[Any, bool, bool]:
-    last_exc: Exception | None = None
-
-    for attempt in range(config.max_retries + 1):
-        temperature_sent = temperature_cache.supports_temperature(config.model)
-        request: dict[str, Any] = {
-            "model": config.model,
-            "input": prompt,
-            "max_output_tokens": config.max_output_tokens,
-        }
-        if temperature_sent:
-            request["temperature"] = config.temperature
-
-        try:
-            response = client.responses.create(**request)
-            return response, temperature_sent, True
-        except Exception as exc:
-            last_exc = exc
-
-            if temperature_sent and _api_error_suggests_temperature_unsupported(exc):
-                logging.warning("Model rejected temperature; retrying without temperature for future calls")
-                temperature_cache.mark_unsupported(config.model)
-                try:
-                    request.pop("temperature", None)
-                    response = client.responses.create(**request)
-                    return response, False, True
-                except Exception as second_exc:
-                    last_exc = second_exc
-
-            if attempt < config.max_retries:
-                sleep_seconds = config.retry_backoff_seconds * (2**attempt)
-                logging.warning(
-                    "API call failed; retrying attempt=%s/%s sleep_seconds=%.2f error=%s",
-                    attempt + 1,
-                    config.max_retries,
-                    sleep_seconds,
-                    str(last_exc),
-                    )
-                time.sleep(sleep_seconds)
-
-    raise RuntimeError(f"API error after retries: {last_exc}") from last_exc
 
 
 def _obj_to_dict(obj: Any) -> dict[str, Any]:
@@ -561,6 +563,11 @@ def _obj_to_dict(obj: Any) -> dict[str, Any]:
     if hasattr(obj, "to_dict"):
         try:
             return obj.to_dict()
+        except Exception:
+            pass
+    if hasattr(obj, "to_json_dict"):
+        try:
+            return obj.to_json_dict()
         except Exception:
             pass
     return {}
@@ -602,11 +609,184 @@ def extract_api_metadata(response: Any) -> dict[str, Any]:
     }
 
 
+def extract_gemini_response_text(response: Any) -> str:
+    response_text = getattr(response, "text", None)
+    if isinstance(response_text, str) and response_text.strip():
+        return response_text.strip()
+
+    data = _obj_to_dict(response)
+    texts: list[str] = []
+
+    def walk(value: Any) -> None:
+        if isinstance(value, dict):
+            text = value.get("text")
+            if isinstance(text, str) and text.strip():
+                texts.append(text)
+            for nested in value.values():
+                walk(nested)
+        elif isinstance(value, list):
+            for item in value:
+                walk(item)
+
+    walk(data)
+    return "\n".join(t for t in texts if t.strip()).strip()
+
+
+def extract_gemini_metadata(response: Any, config: Config) -> dict[str, Any]:
+    data = _obj_to_dict(response)
+    usage_metadata = getattr(response, "usage_metadata", None)
+
+    return {
+        "model": config.model,
+        "usage_metadata": _obj_to_dict(usage_metadata),
+        "response": data,
+    }
+
+
+def call_openai_with_retries(
+        client: Any,
+        config: Config,
+        prompt: str,
+        temperature_cache: TemperatureSupportCache,
+) -> tuple[str, dict[str, Any], bool]:
+    last_exc: Exception | None = None
+
+    for attempt in range(config.max_retries + 1):
+        temperature_sent = temperature_cache.supports_temperature(config.model)
+        request: dict[str, Any] = {
+            "model": config.model,
+            "input": prompt,
+            "max_output_tokens": config.max_output_tokens,
+        }
+        if temperature_sent:
+            request["temperature"] = config.temperature
+
+        try:
+            response = client.responses.create(**request)
+            raw_response_text = extract_response_text(response)
+            api_metadata = extract_api_metadata(response)
+            return raw_response_text, api_metadata, temperature_sent
+        except Exception as exc:
+            last_exc = exc
+
+            if temperature_sent and _api_error_suggests_temperature_unsupported(exc):
+                logging.warning("Model rejected temperature; retrying without temperature for future calls")
+                temperature_cache.mark_unsupported(config.model)
+                try:
+                    request.pop("temperature", None)
+                    response = client.responses.create(**request)
+                    raw_response_text = extract_response_text(response)
+                    api_metadata = extract_api_metadata(response)
+                    return raw_response_text, api_metadata, False
+                except Exception as second_exc:
+                    last_exc = second_exc
+
+            if attempt < config.max_retries:
+                sleep_seconds = config.retry_backoff_seconds * (2**attempt)
+                logging.warning(
+                    "OpenAI API call failed; retrying attempt=%s/%s sleep_seconds=%.2f error=%s",
+                    attempt + 1,
+                    config.max_retries,
+                    sleep_seconds,
+                    str(last_exc),
+                    )
+                time.sleep(sleep_seconds)
+
+    raise RuntimeError(f"OpenAI API error after retries: {last_exc}") from last_exc
+
+
+def call_gemini_with_retries(
+        client: Any,
+        config: Config,
+        prompt: str,
+) -> tuple[str, dict[str, Any], bool]:
+    last_exc: Exception | None = None
+
+    for attempt in range(config.max_retries + 1):
+        try:
+            request: dict[str, Any] = {
+                "model": config.model,
+                "contents": [prompt],
+            }
+
+            response = client.models.generate_content(**request)
+            raw_response_text = extract_gemini_response_text(response)
+            api_metadata = extract_gemini_metadata(response, config)
+            return raw_response_text, api_metadata, False
+        except Exception as exc:
+            last_exc = exc
+
+            if attempt < config.max_retries:
+                sleep_seconds = config.retry_backoff_seconds * (2**attempt)
+                logging.warning(
+                    "Gemini API call failed; retrying attempt=%s/%s sleep_seconds=%.2f error=%s",
+                    attempt + 1,
+                    config.max_retries,
+                    sleep_seconds,
+                    str(last_exc),
+                    )
+                time.sleep(sleep_seconds)
+
+    raise RuntimeError(f"Gemini API error after retries: {last_exc}") from last_exc
+
+
+def call_llm_with_retries(
+        client: Any,
+        config: Config,
+        prompt: str,
+        temperature_cache: TemperatureSupportCache,
+) -> tuple[str, dict[str, Any], bool]:
+    if model_family(config.model) == "gemini":
+        return call_gemini_with_retries(client, config, prompt)
+    return call_openai_with_retries(client, config, prompt, temperature_cache)
+
+
 def usage_totals_add(totals: dict[str, int], usage: dict[str, Any]) -> None:
     for key in ("input_tokens", "output_tokens", "total_tokens"):
         value = usage.get(key)
         if isinstance(value, int):
             totals[key] = totals.get(key, 0) + value
+
+    gemini_key_map = {
+        "prompt_token_count": "input_tokens",
+        "candidates_token_count": "output_tokens",
+        "total_token_count": "total_tokens",
+    }
+    for source_key, target_key in gemini_key_map.items():
+        value = usage.get(source_key)
+        if isinstance(value, int):
+            totals[target_key] = totals.get(target_key, 0) + value
+
+
+def is_likely_refusal(text: str) -> bool:
+    """
+    Detect assistant-style refusals without rejecting legitimate quoted source text.
+
+    This checks only the opening of the response and requires refusal-like phrasing
+    that refers to the assistant's inability to perform the requested task.
+    """
+    stripped = text.strip()
+    if not stripped:
+        return False
+
+    first_lines = "\n".join(stripped.splitlines()[:6]).strip()
+    first_chunk = first_lines[:800].lower()
+
+    first_chunk = re.sub(r"^```[a-zA-Z0-9_-]*\s*", "", first_chunk).strip()
+    first_chunk = re.sub(r"^#+\s*", "", first_chunk).strip()
+    first_chunk = re.sub(r"^>\s*", "", first_chunk).strip()
+
+    refusal_patterns = [
+        r"^(i\s+am\s+sorry|i'm\s+sorry|sorry),?\s+(but\s+)?i\s+(cannot|can't|am unable to)\b",
+        r"^(i\s+cannot|i\s+can't|i\s+am\s+unable\s+to)\s+(assist|help|comply|provide|process|complete|do)\b",
+        r"^as\s+an\s+ai\b.{0,200}\b(i\s+cannot|i\s+can't|i\s+am\s+unable\s+to)\b",
+        r"^(cannot|can't)\s+comply\b",
+        r"^(desculpe|sinto muito),?\s+(mas\s+)?(não\s+posso|não\s+consigo|sou\s+incapaz\s+de)\b",
+        r"^(não\s+posso|não\s+consigo)\s+(ajudar|atender|cumprir|fornecer|processar|realizar|fazer)\b",
+        r"^como\s+(um|uma)\s+(modelo|assistente|ia|inteligência artificial)\b.{0,200}\b(não\s+posso|não\s+consigo)\b",
+    ]
+
+    return any(re.search(pattern, first_chunk, flags=re.DOTALL) for pattern in refusal_patterns)
 
 
 def validate_denoised_markdown(text: Any) -> tuple[bool, str | None]:
@@ -620,18 +800,7 @@ def validate_denoised_markdown(text: Any) -> tuple[bool, str | None]:
     if re.fullmatch(r"```[a-zA-Z0-9_-]*\s*```", stripped, flags=re.DOTALL):
         return False, "Response consists only of Markdown code fences"
 
-    lowered = stripped.lower()
-    refusal_patterns = [
-        "i cannot",
-        "i can't",
-        "não posso",
-        "não consigo",
-        "cannot comply",
-        "as an ai",
-        "desculpe",
-        "sorry",
-    ]
-    if any(pattern in lowered[:500] for pattern in refusal_patterns):
+    if is_likely_refusal(stripped):
         return False, "Response appears to be a refusal"
 
     wrapper_patterns = [
@@ -641,6 +810,7 @@ def validate_denoised_markdown(text: Any) -> tuple[bool, str | None]:
         "denoised version",
         "aqui está",
     ]
+    lowered = stripped.lower()
     if any(pattern in lowered[:300] for pattern in wrapper_patterns):
         return False, "Response appears to contain an explanatory wrapper"
 
@@ -739,6 +909,7 @@ def build_success_record(
             "status": "success",
             "model": {
                 "configured_model": config.model,
+                "model_family": model_family(config.model),
                 "response_model": api_metadata.get("model") or config.model,
             },
             "hashes": {
@@ -753,7 +924,7 @@ def build_success_record(
             "temperature": config.temperature,
             "temperature_sent_to_api": temperature_sent,
             "max_output_tokens": config.max_output_tokens,
-            "max_output_tokens_sent_to_api": True,
+            "max_output_tokens_sent_to_api": model_family(config.model) == "openai",
             "created_at": utc_now_iso(),
             "duration_seconds": round(time.time() - started_at, 3),
             "error": None,
@@ -789,26 +960,14 @@ def process_item(
 
     if not item.source_path.exists():
         record = build_failure_record(
-            config,
-            item,
-            manifest_hash,
-            prompt_hash,
-            "missing_source_file",
-            "Source file not found",
-            started_at,
+            config, item, manifest_hash, prompt_hash, "missing_source_file", "Source file not found", started_at
         )
         write_json_file(item.metadata_path, record)
         return record
 
     if not item.source_path.is_file():
         record = build_failure_record(
-            config,
-            item,
-            manifest_hash,
-            prompt_hash,
-            "source_path_not_file",
-            "Source path is not a file",
-            started_at,
+            config, item, manifest_hash, prompt_hash, "source_path_not_file", "Source path is not a file", started_at
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -817,26 +976,14 @@ def process_item(
         source_text = read_source_text(item.source_path)
     except Exception as exc:
         record = build_failure_record(
-            config,
-            item,
-            manifest_hash,
-            prompt_hash,
-            "unreadable_source_file",
-            str(exc),
-            started_at,
+            config, item, manifest_hash, prompt_hash, "unreadable_source_file", str(exc), started_at
         )
         write_json_file(item.metadata_path, record)
         return record
 
     if not source_text.strip():
         record = build_failure_record(
-            config,
-            item,
-            manifest_hash,
-            prompt_hash,
-            "empty_source_file",
-            "Source file is empty",
-            started_at,
+            config, item, manifest_hash, prompt_hash, "empty_source_file", "Source file is empty", started_at
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -846,31 +993,22 @@ def process_item(
     rendered_prompt_hash = sha256_text(rendered_prompt)
 
     try:
-        response, temperature_sent, _ = call_openai_with_retries(client, config, rendered_prompt, temperature_cache)
-        raw_response_text = extract_response_text(response)
-        api_metadata = extract_api_metadata(response)
+        raw_response_text, api_metadata, temperature_sent = call_llm_with_retries(
+            client,
+            config,
+            rendered_prompt,
+            temperature_cache,
+        )
     except Exception as exc:
         record = build_failure_record(
-            config,
-            item,
-            manifest_hash,
-            prompt_hash,
-            "api_error_after_retries",
-            str(exc),
-            started_at,
+            config, item, manifest_hash, prompt_hash, "api_error_after_retries", str(exc), started_at
         )
         write_json_file(item.metadata_path, record)
         return record
 
     if not raw_response_text.strip():
         record = build_failure_record(
-            config,
-            item,
-            manifest_hash,
-            prompt_hash,
-            "empty_llm_response",
-            "No usable response text found",
-            started_at,
+            config, item, manifest_hash, prompt_hash, "empty_llm_response", "No usable response text found", started_at
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -896,13 +1034,7 @@ def process_item(
         write_text_atomic(item.markdown_path, denoised_markdown)
     except Exception as exc:
         record = build_failure_record(
-            config,
-            item,
-            manifest_hash,
-            prompt_hash,
-            "markdown_output_write_failure",
-            str(exc),
-            started_at,
+            config, item, manifest_hash, prompt_hash, "markdown_output_write_failure", str(exc), started_at
         )
         write_json_file(item.metadata_path, record)
         return record
@@ -925,13 +1057,7 @@ def process_item(
         write_json_file(item.metadata_path, record)
     except Exception as exc:
         record = build_failure_record(
-            config,
-            item,
-            manifest_hash,
-            prompt_hash,
-            "metadata_json_write_failure",
-            str(exc),
-            started_at,
+            config, item, manifest_hash, prompt_hash, "metadata_json_write_failure", str(exc), started_at
         )
         return record
 
@@ -950,6 +1076,7 @@ def build_consolidated_success_row(config: Config, record: dict[str, Any]) -> di
     row["llm_denoise_metadata"] = {
         "status": record["status"],
         "model": record.get("model", {}).get("configured_model"),
+        "model_family": record.get("model", {}).get("model_family"),
         "prompt_file": record["input"]["prompt_file"],
         "prompt_template_sha256": hashes.get("prompt_template_sha256"),
         "source_text_sha256": hashes.get("source_text_sha256"),
@@ -957,6 +1084,7 @@ def build_consolidated_success_row(config: Config, record: dict[str, Any]) -> di
         "denoised_at": record.get("created_at"),
         "metadata_json": record["output"]["metadata_json"],
         "usage": api_metadata.get("usage", {}),
+        "usage_metadata": api_metadata.get("usage_metadata", {}),
     }
     return row
 
@@ -1025,6 +1153,7 @@ def build_summary(
         "run_id": run_id,
         "programme": PROGRAMME,
         "model": config.model,
+        "model_family": model_family(config.model),
         "prompt": relpath(config.prompt, config.base_dir),
         "manifest": relpath(config.manifest, config.base_dir),
         "output": relpath(config.output, config.base_dir),
@@ -1066,12 +1195,16 @@ def build_run_manifest(
         "environment": {
             "env_file": relpath(config.env_file, config.base_dir),
             "env_file_found": env_metadata["env_file_found"],
+            "model_family": model_family(config.model),
             "openai_api_key_available": env_metadata["openai_api_key_available"],
             "openai_api_key_source": env_metadata["openai_api_key_source"],
-            "openai_api_key_logged": False,
+            "gemini_api_key_available": env_metadata["gemini_api_key_available"],
+            "gemini_api_key_source": env_metadata["gemini_api_key_source"],
+            "api_keys_logged": False,
         },
         "model_configuration": {
             "model": config.model,
+            "model_family": model_family(config.model),
             "temperature": config.temperature,
             "max_output_tokens": config.max_output_tokens,
         },
@@ -1121,7 +1254,7 @@ def main(argv: list[str] | None = None) -> int:
         logging.info("Manifest: %s", config.manifest)
         logging.info("Output: %s", config.output)
         logging.info("Prompt: %s", config.prompt)
-        logging.info("Model: %s", config.model)
+        logging.info("Model: %s family=%s", config.model, model_family(config.model))
         logging.info(
             "Workers: %s dry_run=%s resume=%s reprocess=%s only_filename=%s",
             config.workers,
@@ -1132,15 +1265,15 @@ def main(argv: list[str] | None = None) -> int:
         )
 
         env_metadata = load_dotenv_file(config.env_file)
-        if not config.dry_run and not env_metadata["openai_api_key_available"]:
-            raise FatalSetupError("OPENAI_API_KEY is unavailable")
+        if not config.dry_run:
+            validate_api_key_available(config, env_metadata)
 
         prompt_template = load_prompt(config)
         prompt_hash = sha256_text(prompt_template)
         manifest_hash = sha256_file(config.manifest)
 
         if not config.dry_run:
-            make_openai_client()
+            make_llm_client(config)
 
         rows = load_manifest_rows(config.manifest)
         filtered_rows = filter_rows_by_filename(rows, config)
@@ -1170,7 +1303,7 @@ def main(argv: list[str] | None = None) -> int:
                     config, item, manifest_hash, prompt_hash, prompt_template
                 )
         else:
-            client = make_openai_client()
+            client = make_llm_client(config)
             temperature_cache = TemperatureSupportCache()
 
             with concurrent.futures.ThreadPoolExecutor(max_workers=config.workers) as executor:
@@ -1225,7 +1358,9 @@ def main(argv: list[str] | None = None) -> int:
 
         usage_totals = {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
         for record in ordered_results:
-            usage_totals_add(usage_totals, record.get("api_metadata", {}).get("usage", {}))
+            api_metadata = record.get("api_metadata", {})
+            usage_totals_add(usage_totals, api_metadata.get("usage", {}))
+            usage_totals_add(usage_totals, api_metadata.get("usage_metadata", {}))
 
         counts = {
             "manifest_rows_total": len(rows),

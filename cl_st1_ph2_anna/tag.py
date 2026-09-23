@@ -1,17 +1,62 @@
 #!/usr/bin/env python3
-import os
-import time
-import subprocess
+
 import multiprocessing
-from pathlib import Path
+import os
+import subprocess
+import time
 from concurrent.futures import ProcessPoolExecutor
+from pathlib import Path
+
 from tqdm import tqdm
+
+
+# ---------------------------------------------------------
+# Configuration
+# ---------------------------------------------------------
+INPUT_BASE = Path("corpus/02_extracted")
+OUTPUT_BASE = Path("corpus/07_tagged")
+
+
+# ---------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------
+def is_corpus_folder(path: Path) -> bool:
+    """Return True if path is an input corpus group folder."""
+    return (
+            path.is_dir()
+            and not path.name.startswith("_")
+            and not path.name.startswith(".")
+    )
+
+
+def gather_tasks(input_base: Path, output_base: Path) -> list[tuple[str, str]]:
+    """Collect input/output file pairs for tagging."""
+    folders = sorted(p for p in input_base.iterdir() if is_corpus_folder(p))
+
+    if not folders:
+        return []
+
+    print("Corpus folders to process:")
+    for folder in folders:
+        print(f"  - {folder.name}")
+    print()
+
+    tasks = []
+
+    for folder in folders:
+        out_subfolder = output_base / folder.name
+
+        for infile in sorted(folder.glob("*.txt")):
+            outfile = out_subfolder / infile.name
+            tasks.append((str(infile), str(outfile)))
+
+    return tasks
 
 
 # ---------------------------------------------------------
 # Worker
 # ---------------------------------------------------------
-def tag_file(task):
+def tag_file(task: tuple[str, str]) -> tuple[str, float]:
     infile, outfile = task
     os.makedirs(os.path.dirname(outfile), exist_ok=True)
 
@@ -20,58 +65,48 @@ def tag_file(task):
             open(outfile, "w", encoding="utf-8") as fout:
         subprocess.run(
             ["tree-tagger-portuguese2"],
-            stdin=fin, stdout=fout, check=True
+            stdin=fin,
+            stdout=fout,
+            check=True,
         )
+
     return infile, time.time() - start
 
 
 # ---------------------------------------------------------
 # Main
 # ---------------------------------------------------------
-def main():
-
-    INPUT_BASE = Path("corpus/02_extracted")
-    OUTPUT_BASE = Path("corpus/07_tagged")
+def main() -> None:
     OUTPUT_BASE.mkdir(parents=True, exist_ok=True)
 
-    # Gather all immediate subfolders under corpus/02_extracted (e.g., es, mg, rj, sp)
-    folders = sorted([p for p in INPUT_BASE.iterdir() if p.is_dir()])
-    if not folders:
-        print("No folders found under corpus/02_extracted. Exiting.")
+    if not INPUT_BASE.exists():
+        print(f"Input directory not found: {INPUT_BASE}")
         return
 
-    tasks = []
-
-    # Collect files and map each to mirrored output subfolder
-    for folder in folders:
-        # folder.name examples:
-        #   "es", "mg", "rj", "sp"
-        out_subfolder = OUTPUT_BASE / folder.name
-
-        for infile in sorted(folder.glob("*.txt")):
-            outfile = out_subfolder / infile.name
-            tasks.append((str(infile), str(outfile)))
+    tasks = gather_tasks(INPUT_BASE, OUTPUT_BASE)
 
     total = len(tasks)
     if total == 0:
-        print("No text files to tag under corpus/02_extracted. Exiting.")
+        print(
+            "No text files to tag under corpus/02_extracted corpus folders. "
+            "Exiting."
+        )
         return
 
     print(f"Total files to tag: {total}\n")
     print(f"Input root directory: {INPUT_BASE}")
     print(f"Output root directory: {OUTPUT_BASE}\n")
 
-    # Determine number of workers
     n_workers = max(1, multiprocessing.cpu_count() - 1)
     print(f"Using {n_workers} workers...\n")
 
-    # Run parallel tagging
     with ProcessPoolExecutor(max_workers=n_workers) as executor:
         for infile, elapsed in tqdm(
                 executor.map(tag_file, tasks),
                 total=total,
                 desc="Tagging files",
-                unit="file"):
+                unit="file",
+        ):
             print(f"✓ {os.path.basename(infile)} tagged in {elapsed:.1f}s")
 
     print("\nAll tagging complete.\n")

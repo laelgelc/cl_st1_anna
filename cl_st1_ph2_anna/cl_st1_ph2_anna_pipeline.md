@@ -79,6 +79,8 @@ bash run_python_ec2.sh \
 
 ### Retry specific files
 
+`se_inf_1.txt` was initially flagged as `error`. A try switched it to `success`, but the output file was incomplete.
+
 ```shell
 python llm_denoise.py \
     --manifest corpus/brazilian_educational_guidelines.ndjson \
@@ -91,6 +93,8 @@ python llm_denoise.py \
     --reprocess
 ```
 
+The `llm_denoise.py` programme was extended with Gemini support. It was run with the `--model` flag set to `gemini-3.8-flash`. This time, the output file was correctly generated.
+
 ```shell
 python llm_denoise.py \
     --manifest corpus/brazilian_educational_guidelines.ndjson \
@@ -102,6 +106,8 @@ python llm_denoise.py \
     --only-filename se_inf_1.txt \
     --reprocess
 ```
+
+`ms_inf_e_ef_45.txt` was initially flagged as `invalid`. The `llm_denoise.py` programme was adjusted with less restrictive `refusal_patterns`. After a rerun, the output file was correctly generated.
 
 ```shell
 python llm_denoise.py \

@@ -1,6 +1,6 @@
 # 2. A ETAPA EDUCAÇÃO INFANTIL
 
-Certa vez, quando tinha seis anos, vi num livro sobre a Floresta Virgem [...] uma imponente gravura. Representava ela uma jiboia que engolia uma fera: dizia o livro: ‘as jiboias engolem, sem mastigar a presa inteira. Em seguida não podem mover-se e dormem os seis meses da digestão’. Refleti então sobre as aventuras na selva, e fiz, com meu lápis de cor, o meu primeiro desenho[...]. mostrei às pessoas grandes e perguntei se meu desenho lhes fazia medo. Responderam-me: ‘por que um chapéu faria medo?’ Meu desenho não representava um chapéu. Representava uma jiboia digerindo um elefante. Desenhei então, o interior da jiboia, a fim de que as pessoas grandes pudessem compreender. Elas têm sempre a necessidade de explicações [...]. As pessoas grandes aconselharam-me a deixar de lado o desenho de jiboias abertas ou fechadas, e dedicar-me de preferência, à geografia, à história, ao cálculo, à gramática. Foi assim que abandonei, aos seis anos, uma esplêndida carreira de pintor. Eu fora desencorajado pelo insucesso do desenho número 1 e do desenho número 2. As pessoas grandes não compreendem nada sozinhas, e é cansativo para as crianças, estar a toda hora explicando. (SAINT-EXUPÉRY, 1994, p.7-8)
+> Certa vez, quando tinha seis anos, vi num livro sobre a Floresta Virgem [...] uma imponente gravura. Representava ela uma jiboia que engolia uma fera: dizia o livro: ‘as jiboias engolem, sem mastigar a presa inteira. Em seguida não podem mover-se e dormem os seis meses da digestão’. Refleti então sobre as aventuras na selva, e fiz, com meu lápis de cor, o meu primeiro desenho[...]. mostrei às pessoas grandes e perguntei se meu desenho lhes fazia medo. Responderam-me: ‘por que um chapéu faria medo?’ Meu desenho não representava um chapéu. Representava uma jiboia digerindo um elefante. Desenhei então, o interior da jiboia, a fim de que as pessoas grandes pudessem compreender. Elas têm sempre a necessidade de explicações [...]. As pessoas grandes aconselharam-me a deixar de lado o desenho de jiboias abertas ou fechadas, e dedicar-me de preferência, à geografia, à história, ao cálculo, à gramática. Foi assim que abandonei, aos seis anos, uma esplêndida carreira de pintor. Eu fora desencorajado pelo insucesso do desenho número 1 e do desenho número 2. As pessoas grandes não compreendem nada sozinhas, e é cansativo para as crianças, estar a toda hora explicando. (SAINT-EXUPÉRY, 1994, p.7-8)
 
 O texto preliminar apresentado encaminha-se na perspectiva de fomentar o desencadeamento das contribuições para a elaboração do documento Curricular do Estado de Sergipe, no que concerne à etapa da Educação Infantil. Este processo abre importante espaço para participação dos profissionais da educação, pois, entendemos o currículo como uma construção coletiva, arraigada ao contexto que dialoga com os sujeitos de cada comunidade. Portanto, as especificidades do nosso Estado devem ser alçadas como ponto de partida para um projeto educativo, que promova às novas gerações de sergipanos a conquista de conhecimentos socialmente úteis para os contextos de vida nos quais estão inseridas.
 
@@ -8,9 +8,9 @@ Na elaboração do currículo dessa etapa, foi priorizada a criança como sujeit
 
 Para melhor contribuir com o conhecimento de todos os docentes, o texto introdutório do documento curricular ficou organizado com a seguinte estrutura:
 
-* Contexto Histórico-político da Educação Infantil no Brasil;
-* Fundamentos Filosófico-Pedagógicos da Educação Infantil;
-* Elementos para a Organização Curricular na Educação Infantil.
+- Contexto Histórico-político da Educação Infantil no Brasil;
+- Fundamentos Filosófico-Pedagógicos da Educação Infantil;
+- Elementos para a Organização Curricular na Educação Infantil.
 
 Nesta perspectiva, convidamos todos os profissionais da educação e comunidade em geral para que realizem a leitura desse documento preliminar, discutam e apresentem sugestões que venham a contribuir com a construção do Currículo Sergipano.
 
@@ -30,14 +30,11 @@ Além da Revolução Industrial, a Proclamação da República brasileira (1889)
 
 > Enquanto para as famílias mais abastadas pagavam uma babá, as pobres se viam na contingência de deixar os filhos sozinhos ou colocá-los numa instituição que deles cuidasse. Para os filhos das mulheres trabalhadoras, a creche tinha que ser de tempo integral; para os filhos de operárias de baixa renda, tinha que ser gratuita ou cobrar muito pouco; ou para cuidar da criança enquanto a mãe estava trabalhando fora de casa, tinha que zelar pela saúde, ensinar hábitos de higiene e alimentar a criança. A educação permanecia assunto de família. Essa origem determinou a associação creche, criança pobre e o caráter assistencial da creche (DIDONET, 2001, p. 13).
 
-Assim, creches, jardins de infância e parques infantis foram criados, e, junto a eles, eclodiu a necessidade de regulamentação do atendimento. Nessa conjuntura, surgiram iniciativas de atendimento à infância com o propósito hospitaleiro e higienista de subsídio aos extratos sociais desfavorecidos, visando ainda afastar as crianças do trabalho servil, além de servirem como guardiãs de crianças órfãs. As creches ainda foram vistas como substituição ou oposição à roda dos expostos “para que as mães não abandonassem suas crianças”¹ (KUHLMANN JR,1999, p. 82).
+Assim, creches, jardins de infância e parques infantis foram criados, e, junto a eles, eclodiu a necessidade de regulamentação do atendimento. Nessa conjuntura, surgiram iniciativas de atendimento à infância com o propósito hospitaleiro e higienista de subsídio aos extratos sociais desfavorecidos, visando ainda afastar as crianças do trabalho servil, além de servirem como guardiãs de crianças órfãs. As creches ainda foram vistas como substituição ou oposição à roda dos expostos “para que as mães não abandonassem suas crianças”[^1] (KUHLMANN JR,1999, p. 82).
 
 Naquela conjuntura histórica, acreditava-se que as crianças das camadas populares eram consideradas “[...] carentes, deficientes e inferiores na medida em que não correspondem ao padrão estabelecido; faltariam a essas crianças privadas culturalmente, determinados atributos ou conteúdos que deveriam ser nelas incutidos” (KRAMER, 1995, p. 24). Para compensar tal carência, a proposta educacional para essas crianças diferenciava-se da proposta oferecida nas instituições onde estavam as crianças de famílias mais abastadas. Nessa perspectiva, a pré-escola funcionaria, segundo a Kramer (1995), como mola propulsora da mudança social, uma vez que possibilitaria a democratização das oportunidades educacionais.
 
 A proposta pedagógica das unidades de pré-escola seguia a influência dos modelos pedagógicos europeus e americanos, traduzida pelo movimento da Escola Nova, o qual teve à frente Fernando de Azevedo, Anísio Teixeira e Lourenço Filho. Entre as concepções, era defendida a “escola pública organizada em sistemas de ensino, desde o jardim de infância até a universidade e trabalhavam com a ideia de educação popular, na primeira fase da escolarização” (MIGUEL, 2004, p.31). A diferença da proposta ainda era mais perceptível nos estabelecimentos privados cujo cunho pedagógico estava voltado à socialização, criatividade e à preparação para o ensino regular (KRAMER, 1995).
-
----
-¹ A roda dos expostos, como assistência caritativa, era, pois, missionária. A primeira preocupação do sistema para com a criança nela deixada era de providenciar o batismo, salvando a alma da criança, a menos que trouxesse consigo um bilhete – o que era muito comum – que informava à rodeira de que o bebê já estava batizado. No caso de dúvida dos responsáveis pela instituição, a criança era novamente batizada. Mas o fenômeno de abandonar os filhos é tão antigo como a história da colonização brasileira, só que antes da roda, as crianças eram abandonadas e supostamente assistidas pelas municipalidades, ou pela compaixão de quem as encontrava (AQUINO, 2001, p. 31).
 
 Essa diferença no atendimento com base na origem social foi dirimida com a implementação de políticas governamentais, a exemplo da Lei no 5.692/71, a qual assegura em seu Art. 19, § 2o, que “os sistemas velarão para que as crianças de idade inferior a 7 anos recebam educação em escolas maternais, jardins-de-infância ou instituições equivalentes”.
 
@@ -61,7 +58,7 @@ Em 1931, o Interventor Federal Augusto Maynard encarregou o secretário da Diret
 
 Nesse mesmo ano, Dr. Helvécio de Andrade estava à frente da Diretoria Geral da Instrução Pública, momento em que escreveu um Relatório Anual apresentando ao Interventor Federal Augusto Maynard suas ações na educação pública estadual. Em seus escritos ressaltou que:
 
-> Certo, o início do ensino do pré-escolar jardim escolar, no próximo ano, com inauguração do jardim de infância, a cuja organização de V. Exa. dedicado todos os seus esforços, trará para o ensino público sergipano uma fase de aperfeiçoamento digna de todos os aplausos. Na primeira idade, que vai até os cinco anos, os movimentos infantis são incoordenados, despersivos. Disciplinar esses movimentos, dar-lhes uma significação, transformá-los em hábitos salutares, de conduta, de higiene, de observação, é lançar as bases de uma educação completa (ANDRADE, 1931, p. 2).²
+> Certo, o início do ensino do pré-escolar jardim escolar, no próximo ano, com inauguração do jardim de infância, a cuja organização de V. Exa. dedicado todos os seus esforços, trará para o ensino público sergipano uma fase de aperfeiçoamento digna de todos os aplausos. Na primeira idade, que vai até os cinco anos, os movimentos infantis são incoordenados, despersivos. Disciplinar esses movimentos, dar-lhes uma significação, transformá-los em hábitos salutares, de conduta, de higiene, de observação, é lançar as bases de uma educação completa (ANDRADE, 1931, p. 2).[^2]
 
 No ano seguinte à escrita do Relatório Anual, precisamente em 17 de março de 1932, foi inaugurada a primeira escola de Educação Infantil, denominada Casa da Criança de Sergipe, cujo nome, posteriormente, foi alterado para Jardim de Infância Augusto Maynard, em homenagem ao Interventor Federal que atendeu os anseios das professoras normalistas Helena Abud e Miriam Santos Melo (FERNANDEZ, s/d).
 
@@ -69,12 +66,9 @@ O Jardim de Infância teve como primeira Diretora, a Professora laranjeirense Pe
 
 Essa instituição foi construída para acolher as crianças de 04 a 06 anos de idade, com preocupação voltada à saúde, à alimentação, à higiene e à sobrevivência. No interior do estabelecimento, existia uma Inspetoria de Higiene Infantil cuja premissa era a proteção à infância, cuidados de saúde e higiene, além do preparo físico como requisito para o ingresso escolar (ANDRADE, 1931).
 
----
-² A ortografia foi atualizada.
-
 Na década de 40, a realidade educacional do Estado era alarmante:
 
-> Sergipe entrou nesse período com 72,6 por cento da sua população analfabeta. Existiam apenas 536 escolas públicas primárias (escolas isoladas com apenas uma única sala), sendo 358 estaduais e 178 municipais, com uma matrícula total de 21.810 alunos. Havia ainda cerca de 120 escolas particulares e apenas 2 instituições de educação infantil – o Jardim “Augusto Maynard” e a escola da Legião da Boa Vontade (LBA) (LIMA, 2006, p. 158).³
+> Sergipe entrou nesse período com 72,6 por cento da sua população analfabeta. Existiam apenas 536 escolas públicas primárias (escolas isoladas com apenas uma única sala), sendo 358 estaduais e 178 municipais, com uma matrícula total de 21.810 alunos. Havia ainda cerca de 120 escolas particulares e apenas 2 instituições de educação infantil – o Jardim “Augusto Maynard” e a escola da Legião da Boa Vontade (LBA) (LIMA, 2006, p. 158).[^3]
 
 Do exposto, verifica-se que muitas crianças e jovens ainda estavam fora da escola, quadro esse que sofreu pequena alteração com a inauguração, em 1944, do primeiro Jardim de Infância Municipal de Aracaju, denominado de Centro Municipal de Assistência à Criança, “constituído de um Jardim de Infância e de um Posto Puericultura, uma Biblioteca infantil e Grupo Escolar” (Decreto no 75, de 21 de março de 1945, art. 1o).
 
@@ -83,9 +77,6 @@ O Centro visava ao preparo de crianças para a “escola primária, de 4 a 6 ano
 Esta instituição, situada no Bairro Siqueira Campos, ficou conhecida como o Jardim Operário porque fora a primeira instituição de atendimento pré-escolar pública municipal situada num bairro popular, que atendia crianças das famílias das camadas trabalhadoras (DECRETO LEI no 75, 1945, apud LIMA, 2006, p. 158).
 
 Embora o Decreto Lei no 75/1945 instituísse o atendimento aos filhos das camadas trabalhadoras do bairro Siqueira Campos, acabou por beneficiar as classes privilegiadas:
-
----
-³ Quadro Demonstrativo dos Grupos Escolares, Escolas Reunidas, Escolas Isoladas, Estaduais, Municipais e Particulares e Nomes dos Respectivos Professores. Governo de Sergipe. Imprensa Oficial. Aracaju, Abril, 1941.
 
 > A matrícula no Jardim de Infância do Centro Municipal de Assistência à Criança obedecia a alguns pré-requisitos que sustentavam a ideia de uma instituição para alguns privilegiados, os que tinham boas condições e status social baseadas nos padrões éticos, morais e de saúde perfeita. Não era qualquer criança que poderia matricular-se no Jardim de Infância (...). As exigências para o ingresso na instituição eram claras no sentido de que não poderiam se matricular crianças com princípio de leitura e cálculo. Visto que, assegura-se a ideia de que era o Jardim que iria cumprir o papel de ensinar as primeiras letras (SANTOS; CARDOSO; MELO, 2016, p. 6).
 
@@ -118,3 +109,9 @@ Pelo diagnóstico do PEE, no período de 2009 a 2013, “a Educação Infantil a
 Segundo dados da Plataforma QEdu, no ano de 2017, o atendimento de Educação Infantil ocorreu em 1.496 escolas públicas e privadas, tanto da zona rural quanto da zona urbana. Esses estabelecimentos atenderam a 22.347 crianças de creche e 58.995 crianças na pré-escola, perfazendo um total de 81.342 matrículas. Esse atendimento da rede pública ainda será ampliado com a finalização das construções de instituições de ensino com incentivos advindos do Programa Proinfância, do Governo Federal.
 
 As perspectivas de ampliação do atendimento, previstas no Plano Estadual de Educação e nos Planos Municipais de Educação, devem ser acompanhadas de ações em prol da organização de um currículo sergipano que expresse, de forma qualificada, as concepções pedagógicas voltadas ao desenvolvimento e aprendizagem das crianças de 0 a 5 anos de idade.
+
+[^1]: A roda dos expostos, como assistência caritativa, era, pois, missionária. A primeira preocupação do sistema para com a criança nela deixada era de providenciar o batismo, salvando a alma da criança, a menos que trouxesse consigo um bilhete – o que era muito comum – que informava à rodeira de que o bebê já estava batizado. No caso de dúvida dos responsáveis pela instituição, a criança era novamente batizada. Mas o fenômeno de abandonar os filhos é tão antigo como a história da colonização brasileira, só que antes da roda, as crianças eram abandonadas e supostamente assistidas pelas municipalidades, ou pela compaixão de quem as encontrava (AQUINO, 2001, p. 31).
+
+[^2]: A ortografia foi atualizada.
+
+[^3]: Quadro Demonstrativo dos Grupos Escolares, Escolas Reunidas, Escolas Isoladas, Estaduais, Municipais e Particulares e Nomes dos Respectivos Professores. Governo de Sergipe. Imprensa Oficial. Aracaju, Abril, 1941.

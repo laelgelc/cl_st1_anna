@@ -263,7 +263,7 @@ def parse_score_details(path: Path, *, num_factors: int) -> dict[str, dict[str, 
     blocks = text.split("=============================================")
 
     for block in blocks:
-        match = re.search(r"^text ID:\s*(.+?)\s*$", block, flags=re.MULTILINE)
+        match = re.search(r"^text ID:[ \t]*(.+?)[ \t]*$", block, flags=re.MULTILINE)
 
         if not match:
             continue
@@ -273,12 +273,12 @@ def parse_score_details(path: Path, *, num_factors: int) -> dict[str, dict[str, 
 
         for factor_number in range(1, num_factors + 1):
             match_pos = re.search(
-                rf"^f{factor_number} pos words \(N=\d+\):\s*(.*)$",
+                rf"^f{factor_number} pos words \(N=\d+\):[ \t]*(.*)$",
                 block,
                 flags=re.MULTILINE,
             )
             match_neg = re.search(
-                rf"^f{factor_number} neg words \(N=\d+\):\s*(.*)$",
+                rf"^f{factor_number} neg words \(N=\d+\):[ \t]*(.*)$",
                 block,
                 flags=re.MULTILINE,
             )

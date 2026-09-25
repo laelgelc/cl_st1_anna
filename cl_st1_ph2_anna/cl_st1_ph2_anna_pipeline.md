@@ -260,10 +260,10 @@ ac                     → selected 45/45 from 226 available POSKW lemmas
 al                     → selected 45/45 from 75 available POSKW lemmas
 am                     → selected 45/45 from 147 available POSKW lemmas
 ap                     → selected 33/45 from 33 available POSKW lemmas
-ba                     → selected 45/45 from 296 available POSKW lemmas
+ba                     → selected 45/45 from 294 available POSKW lemmas
 ce                     → selected 45/45 from 329 available POSKW lemmas
 df                     → selected 45/45 from 93 available POSKW lemmas
-es                     → selected 45/45 from 108 available POSKW lemmas
+es                     → selected 45/45 from 107 available POSKW lemmas
 go                     → selected 45/45 from 324 available POSKW lemmas
 ma                     → selected 45/45 from 215 available POSKW lemmas
 mg                     → selected 22/45 from 22 available POSKW lemmas
@@ -279,17 +279,17 @@ rn                     → selected 45/45 from 64 available POSKW lemmas
 ro                     → selected 45/45 from 102 available POSKW lemmas
 rr                     → selected 45/45 from 53 available POSKW lemmas
 rs                     → selected 45/45 from 76 available POSKW lemmas
-sc                     → selected 45/45 from 1089 available POSKW lemmas
+sc                     → selected 45/45 from 1088 available POSKW lemmas
 se                     → selected 45/45 from 130 available POSKW lemmas
 sp                     → selected 45/45 from 91 available POSKW lemmas
 to                     → selected 45/45 from 94 available POSKW lemmas
 
 Total consolidated keywords before de-duplication: 1180
-Unique keywords after de-duplication: 1036
-Duplicates removed: 144
+Unique keywords after de-duplication: 1037
+Duplicates removed: 143
 
 Final unique keywords written to: corpus/09_kw_selected/keywords.txt
-Final unique keyword count: 1036
+Final unique keyword count: 1037
 ```
 
 ## 5. Build binary keyword columns

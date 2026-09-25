@@ -9,7 +9,7 @@
      No header
      Space-separated
      Columns:
-       filename state v000001-v001061
+       filename state v000001-v001037
 
    Example:
      t000001 ac 1 1 0 0 ...
@@ -30,7 +30,7 @@
 options fmtsearch=(work library);
 
 /* enter the variable ID corresponding to the last keyword variable */
-%let lastkeywordvar = v001061 ;
+%let lastkeywordvar = v001037 ;
 
 /* enter number of factors to extract */
 %let extractfactors = 6 ;

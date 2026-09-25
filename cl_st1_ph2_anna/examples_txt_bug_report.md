@@ -2,7 +2,7 @@
 
 ## Summary
 
-The function that parses `score_details.txt` can incorrectly capture the next line after an empty loading-word list.
+The function `parse_score_details` that parses `score_details.txt` can incorrectly capture the next line after an empty loading-word list.
 
 When a line such as:
 

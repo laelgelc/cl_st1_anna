@@ -13,22 +13,14 @@ import math
 import argparse
 from collections import defaultdict
 
-# POS tags to keep: nouns, proper nouns, main verbs, adjectives, and adverbs.
+# POS tags to keep: nouns, main verbs, and adjectives.
 #
-# The first group supports Universal Dependencies-style tags:
-#   NOUN, PROPN, VERB, ADJ, ADV
-#
-# The second group supports common TreeTagger Portuguese-style tags:
-#   NOM, NAM, VER:..., ADJ, ADV
 VALID_TAG_PREFIXES = (
     "NOUN",
-    "PROPN",
+#    "PROPN",
     "VERB",
     "ADJ",
-    "ADV",
-#    "NOM",
-#    "NAM",
-#    "VER",
+#    "ADV",
 )
 
 # stopwords (lowercase)

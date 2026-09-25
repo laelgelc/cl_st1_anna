@@ -154,6 +154,8 @@ python select_kws_stratified.py \
 
 Output: `corpus/09_kw_selected/keywords.txt
 
+Deprecated run
+
 ```shell
 === Stratum Keyword Quotas ===
 ac                     → 45 keywords max
@@ -219,6 +221,75 @@ Duplicates removed: 137
 
 Final unique keywords written to: corpus/09_kw_selected/keywords.txt
 Final unique keyword count: 1061
+```
+
+Current run
+
+```shell
+=== Stratum Keyword Quotas ===
+ac                     → 45 keywords max
+al                     → 45 keywords max
+am                     → 45 keywords max
+ap                     → 45 keywords max
+ba                     → 45 keywords max
+ce                     → 45 keywords max
+df                     → 45 keywords max
+es                     → 45 keywords max
+go                     → 45 keywords max
+ma                     → 45 keywords max
+mg                     → 45 keywords max
+ms                     → 45 keywords max
+mt                     → 45 keywords max
+pa                     → 45 keywords max
+pb                     → 45 keywords max
+pe                     → 45 keywords max
+pi                     → 45 keywords max
+pr                     → 45 keywords max
+rj                     → 45 keywords max
+rn                     → 45 keywords max
+ro                     → 45 keywords max
+rr                     → 45 keywords max
+rs                     → 45 keywords max
+sc                     → 45 keywords max
+se                     → 45 keywords max
+sp                     → 45 keywords max
+to                     → 45 keywords max
+==============================
+
+ac                     → selected 45/45 from 226 available POSKW lemmas
+al                     → selected 45/45 from 75 available POSKW lemmas
+am                     → selected 45/45 from 147 available POSKW lemmas
+ap                     → selected 33/45 from 33 available POSKW lemmas
+ba                     → selected 45/45 from 296 available POSKW lemmas
+ce                     → selected 45/45 from 329 available POSKW lemmas
+df                     → selected 45/45 from 93 available POSKW lemmas
+es                     → selected 45/45 from 108 available POSKW lemmas
+go                     → selected 45/45 from 324 available POSKW lemmas
+ma                     → selected 45/45 from 215 available POSKW lemmas
+mg                     → selected 22/45 from 22 available POSKW lemmas
+ms                     → selected 45/45 from 122 available POSKW lemmas
+mt                     → selected 45/45 from 215 available POSKW lemmas
+pa                     → selected 45/45 from 605 available POSKW lemmas
+pb                     → selected 45/45 from 116 available POSKW lemmas
+pe                     → selected 45/45 from 52 available POSKW lemmas
+pi                     → selected 45/45 from 157 available POSKW lemmas
+pr                     → selected 45/45 from 781 available POSKW lemmas
+rj                     → selected 45/45 from 106 available POSKW lemmas
+rn                     → selected 45/45 from 64 available POSKW lemmas
+ro                     → selected 45/45 from 102 available POSKW lemmas
+rr                     → selected 45/45 from 53 available POSKW lemmas
+rs                     → selected 45/45 from 76 available POSKW lemmas
+sc                     → selected 45/45 from 1089 available POSKW lemmas
+se                     → selected 45/45 from 130 available POSKW lemmas
+sp                     → selected 45/45 from 91 available POSKW lemmas
+to                     → selected 45/45 from 94 available POSKW lemmas
+
+Total consolidated keywords before de-duplication: 1180
+Unique keywords after de-duplication: 1036
+Duplicates removed: 144
+
+Final unique keywords written to: corpus/09_kw_selected/keywords.txt
+Final unique keyword count: 1036
 ```
 
 ## 5. Build binary keyword columns

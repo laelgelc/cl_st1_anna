@@ -38,7 +38,8 @@ STOPWORDS = {
     "iv",
     "nº",
     "xvi",
-    "xxi"
+    "xxi",
+    "que",
 }
 
 

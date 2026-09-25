@@ -150,6 +150,9 @@ STOPWORDS = {
     "vigotski",
     "wallon",
     "zabala",
+    "caput",
+    "santo",
+    "xi",
 }
 
 

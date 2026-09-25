@@ -1,0 +1,64 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 68         
+ 69         OPTIONS VALIDVARNAME=ANY;
+ 70         
+ 71         proc corr data = &project outplc = polychor polychoric noprint;
+ 72         var &names ;
+ 73         run;
+ 
+ WARNING: The number of groups for variable v000035 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000037 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000182 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000196 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000212 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000213 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000250 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000251 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000305 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000328 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000383 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000444 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000453 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000454 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000484 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000504 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000505 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000561 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000573 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000574 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000624 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000692 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000697 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000698 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000724 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000725 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000785 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000788 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000829 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000899 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000910 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000979 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v000985 is less than 2, the affected polychoric correlations are set to missing.
+ WARNING: The number of groups for variable v001019 is less than 2, the affected polychoric correlations are set to missing.
+ NOTE: The data set WORK.POLYCHOR has 1040 observations and 1039 variables.
+ NOTE: PROCEDURE CORR used (Total process time):
+       real time           2:04.49
+       user cpu time       2:03.43
+       system cpu time     0.20 seconds
+       memory              378918.56k
+       OS Memory           437244.00k
+       Timestamp           25/09/2026 08:08:05 PM
+       Step Count                        88  Switch Count  4
+       Page Faults                       0
+       Page Reclaims                     78479
+       Page Swaps                        0
+       Voluntary Context Switches        27
+       Involuntary Context Switches      374
+       Block Input Operations            0
+       Block Output Operations           18232
+       
+ 
+ 74         
+ 75         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 85         

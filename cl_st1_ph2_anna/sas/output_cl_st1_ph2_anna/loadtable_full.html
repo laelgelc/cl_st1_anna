@@ -1,0 +1,5891 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.accessiblecaption
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+</head>
+<body class="body">
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">LOADINGS TABLE</td>
+</tr>
+<tr>
+<td class="c systemtitle2">Factor 1 pos</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.TEMP">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">_NAME_</th>
+<th class="r header" scope="col">Factor1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">discursivo (v000304)</td>
+<td class="r data">0.71873</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">multissemiótico (v000659)</td>
+<td class="r data">0.69280</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">multiletramento (v000658)</td>
+<td class="r data">0.67275</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">infográfico (v000532)</td>
+<td class="r data">0.64514</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">postar (v000764)</td>
+<td class="r data">0.61986</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data">dialético (v000289)</td>
+<td class="r data">0.60646</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data">problematização (v000789)</td>
+<td class="r data">0.56333</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data">recepção (v000838)</td>
+<td class="r data">0.55962</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data">entrevista (v000356)</td>
+<td class="r data">0.55757</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data">inter-relacionar (v000547)</td>
+<td class="r data">0.53857</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data">estudioso (v000390)</td>
+<td class="r data">0.53712</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data">vídeo (v001026)</td>
+<td class="r data">0.53500</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data">processar (v000791)</td>
+<td class="r data">0.53336</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data">focar (v000428)</td>
+<td class="r data">0.53068</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data">operar (v000696)</td>
+<td class="r data">0.52486</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data">consenso (v000199)</td>
+<td class="r data">0.52221</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data">ensino-aprendizagem (v000354)</td>
+<td class="r data">0.51378</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data">funcional (v000449)</td>
+<td class="r data">0.50973</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data">virtual (v001015)</td>
+<td class="r data">0.50632</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data">aplicativo (v000050)</td>
+<td class="r data">0.50530</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data">exposição (v000408)</td>
+<td class="r data">0.50522</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data">coesão (v000163)</td>
+<td class="r data">0.50515</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data">remeter (v000866)</td>
+<td class="r data">0.50295</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data">inter-relação (v000548)</td>
+<td class="r data">0.50176</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data">profundidade (v000796)</td>
+<td class="r data">0.49658</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data">letramento (v000588)</td>
+<td class="r data">0.49481</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data">autêntico (v000095)</td>
+<td class="r data">0.49400</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data">erro (v000363)</td>
+<td class="r data">0.49386</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data">argumentar (v000059)</td>
+<td class="r data">0.49246</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data">memorização (v000625)</td>
+<td class="r data">0.49243</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data">proficiência (v000794)</td>
+<td class="r data">0.49077</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data">inglês (v000534)</td>
+<td class="r data">0.49051</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data">edição (v000327)</td>
+<td class="r data">0.48983</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data">mero (v000630)</td>
+<td class="r data">0.48848</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data">capitalista (v000132)</td>
+<td class="r data">0.48715</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data">tese (v000967)</td>
+<td class="r data">0.48660</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data">simulação (v000914)</td>
+<td class="r data">0.48334</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data">hegemônico (v000479)</td>
+<td class="r data">0.48233</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data">posicionamento (v000762)</td>
+<td class="r data">0.48162</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data">fragilidade (v000441)</td>
+<td class="r data">0.48107</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data">teórico-metodológico (v000971)</td>
+<td class="r data">0.47951</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="l data">moderno (v000647)</td>
+<td class="r data">0.47766</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="l data">instância (v000541)</td>
+<td class="r data">0.47680</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="l data">digital (v000293)</td>
+<td class="r data">0.47617</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="l data">indicação (v000522)</td>
+<td class="r data">0.47160</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="l data">correlação (v000225)</td>
+<td class="r data">0.46850</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="l data">mau (v000620)</td>
+<td class="r data">0.46435</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="l data">argumento (v000060)</td>
+<td class="r data">0.46406</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">49</th>
+<td class="l data">metodológico (v000631)</td>
+<td class="r data">0.46355</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">50</th>
+<td class="l data">autor (v000093)</td>
+<td class="r data">0.46324</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">51</th>
+<td class="l data">prova (v000809)</td>
+<td class="r data">0.46313</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">52</th>
+<td class="l data">restringir (v000879)</td>
+<td class="r data">0.46308</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">53</th>
+<td class="l data">imbricar (v000507)</td>
+<td class="r data">0.45839</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">54</th>
+<td class="l data">globalizado (v000465)</td>
+<td class="r data">0.45770</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">55</th>
+<td class="l data">contemporaneidade (v000210)</td>
+<td class="r data">0.45522</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">56</th>
+<td class="l data">verbo (v001003)</td>
+<td class="r data">0.45320</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">57</th>
+<td class="l data">persistência (v000740)</td>
+<td class="r data">0.45250</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">58</th>
+<td class="l data">resultante (v000880)</td>
+<td class="r data">0.45120</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">59</th>
+<td class="l data">surgimento (v000945)</td>
+<td class="r data">0.45033</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">60</th>
+<td class="l data">releitura (v000863)</td>
+<td class="r data">0.44838</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">61</th>
+<td class="l data">abordagem (v000003)</td>
+<td class="r data">0.44769</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">62</th>
+<td class="l data">interface (v000553)</td>
+<td class="r data">0.44718</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">63</th>
+<td class="l data">imediato (v000508)</td>
+<td class="r data">0.44714</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">64</th>
+<td class="l data">sócio-histórico (v000950)</td>
+<td class="r data">0.44594</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">65</th>
+<td class="l data">crítico (v000237)</td>
+<td class="r data">0.44261</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">66</th>
+<td class="l data">vivar (v001018)</td>
+<td class="r data">0.43992</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">67</th>
+<td class="l data">exame (v000395)</td>
+<td class="r data">0.43925</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">68</th>
+<td class="l data">divulgar (v000311)</td>
+<td class="r data">0.43671</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">69</th>
+<td class="l data">consequente (v000200)</td>
+<td class="r data">0.43556</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">70</th>
+<td class="l data">reelaborar (v000845)</td>
+<td class="r data">0.43206</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">71</th>
+<td class="l data">ideal (v000500)</td>
+<td class="r data">0.43145</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">72</th>
+<td class="l data">constitutivo (v000203)</td>
+<td class="r data">0.43090</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">73</th>
+<td class="l data">convir (v000220)</td>
+<td class="r data">0.43070</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">74</th>
+<td class="l data">escopo (v000366)</td>
+<td class="r data">0.42977</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">75</th>
+<td class="l data">contextualização (v000214)</td>
+<td class="r data">0.42966</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">76</th>
+<td class="l data">seminário (v000898)</td>
+<td class="r data">0.42964</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">77</th>
+<td class="l data">horizonte (v000493)</td>
+<td class="r data">0.42651</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">78</th>
+<td class="l data">grifo (v000474)</td>
+<td class="r data">0.42582</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">79</th>
+<td class="l data">mente (v000628)</td>
+<td class="r data">0.42504</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">80</th>
+<td class="l data">contemporâneo (v000211)</td>
+<td class="r data">0.42495</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">81</th>
+<td class="l data">conseguinte (v000197)</td>
+<td class="r data">0.42373</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">82</th>
+<td class="l data">foco (v000429)</td>
+<td class="r data">0.42236</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">83</th>
+<td class="l data">termos (v000962)</td>
+<td class="r data">0.42111</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">84</th>
+<td class="l data">qualitativo (v000828)</td>
+<td class="r data">0.42110</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">85</th>
+<td class="l data">basilar (v000108)</td>
+<td class="r data">0.42070</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">86</th>
+<td class="l data">aprendiz (v000053)</td>
+<td class="r data">0.41974</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">87</th>
+<td class="l data">progressão (v000798)</td>
+<td class="r data">0.41782</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">88</th>
+<td class="l data">categoria (v000142)</td>
+<td class="r data">0.41780</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">89</th>
+<td class="l data">transformador (v000982)</td>
+<td class="r data">0.41779</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">90</th>
+<td class="l data">emergente (v000341)</td>
+<td class="r data">0.41769</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">91</th>
+<td class="l data">tópico (v000993)</td>
+<td class="r data">0.41653</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">92</th>
+<td class="l data">aproximar (v000056)</td>
+<td class="r data">0.41554</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">93</th>
+<td class="l data">identitária (v000502)</td>
+<td class="r data">0.41500</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">94</th>
+<td class="l data">transdisciplinaridade (v000980)</td>
+<td class="r data">0.41497</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">95</th>
+<td class="l data">cientista (v000155)</td>
+<td class="r data">0.41383</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">96</th>
+<td class="l data">intermédio (v000556)</td>
+<td class="r data">0.41338</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">97</th>
+<td class="l data">debate (v000252)</td>
+<td class="r data">0.41249</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">98</th>
+<td class="l data">reelaboração (v000846)</td>
+<td class="r data">0.41210</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">99</th>
+<td class="l data">constituinte (v000202)</td>
+<td class="r data">0.41159</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">100</th>
+<td class="l data">sugerir (v000936)</td>
+<td class="r data">0.41054</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">101</th>
+<td class="l data">reiterar (v000859)</td>
+<td class="r data">0.40900</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">102</th>
+<td class="l data">intuito (v000564)</td>
+<td class="r data">0.40865</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">103</th>
+<td class="l data">autoria (v000094)</td>
+<td class="r data">0.40840</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">104</th>
+<td class="l data">histórico-cultural (v000486)</td>
+<td class="r data">0.40778</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">105</th>
+<td class="l data">aprimorar (v000054)</td>
+<td class="r data">0.40753</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">106</th>
+<td class="l data">discente (v000300)</td>
+<td class="r data">0.40715</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">107</th>
+<td class="l data">desdobramento (v000270)</td>
+<td class="r data">0.40694</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">108</th>
+<td class="l data">conceitual (v000183)</td>
+<td class="r data">0.40653</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">109</th>
+<td class="l data">depender (v000264)</td>
+<td class="r data">0.40610</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">110</th>
+<td class="l data">raciocínio (v000832)</td>
+<td class="r data">0.40597</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">111</th>
+<td class="l data">relevante (v000864)</td>
+<td class="r data">0.40574</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">112</th>
+<td class="l data">pesquisador (v000744)</td>
+<td class="r data">0.40549</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">113</th>
+<td class="l data">detalhar (v000284)</td>
+<td class="r data">0.40542</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">114</th>
+<td class="l data">análise (v000048)</td>
+<td class="r data">0.40537</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">115</th>
+<td class="l data">mobilizar (v000643)</td>
+<td class="r data">0.40457</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">116</th>
+<td class="l data">razão (v000835)</td>
+<td class="r data">0.40431</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">117</th>
+<td class="l data">aberto (v000001)</td>
+<td class="r data">0.40407</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">118</th>
+<td class="l data">encaminhamento (v000350)</td>
+<td class="r data">0.40406</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">119</th>
+<td class="l data">reflexivo (v000852)</td>
+<td class="r data">0.40289</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">120</th>
+<td class="l data">compreensão (v000178)</td>
+<td class="r data">0.40240</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">121</th>
+<td class="l data">suma (v000940)</td>
+<td class="r data">0.40205</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">122</th>
+<td class="l data">influenciar (v000530)</td>
+<td class="r data">0.40181</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">123</th>
+<td class="l data">tecnologia (v000958)</td>
+<td class="r data">0.40179</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">124</th>
+<td class="l data">lembrar (v000585)</td>
+<td class="r data">0.40128</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">125</th>
+<td class="l data">influência (v000531)</td>
+<td class="r data">0.40111</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">126</th>
+<td class="l data">epistemologia (v000357)</td>
+<td class="r data">0.40067</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">127</th>
+<td class="l data">intuição (v000565)</td>
+<td class="r data">0.39887</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">128</th>
+<td class="l data">intercultural (v000549)</td>
+<td class="r data">0.39843</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">129</th>
+<td class="l data">supor (v000943)</td>
+<td class="r data">0.39719</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">130</th>
+<td class="l data">aula (v000087)</td>
+<td class="r data">0.39431</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">131</th>
+<td class="l data">figurar (v000418)</td>
+<td class="r data">0.39391</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">132</th>
+<td class="l data">disciplina (v000301)</td>
+<td class="r data">0.39384</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">133</th>
+<td class="l data">método (v000665)</td>
+<td class="r data">0.39377</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">134</th>
+<td class="l data">sumo (v000941)</td>
+<td class="r data">0.39170</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">135</th>
+<td class="l data">imprimir (v000519)</td>
+<td class="r data">0.39056</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">136</th>
+<td class="l data">aprofundamento (v000055)</td>
+<td class="r data">0.38981</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">137</th>
+<td class="l data">salientar (v000889)</td>
+<td class="r data">0.38850</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">138</th>
+<td class="l data">filosofia (v000419)</td>
+<td class="r data">0.38795</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">139</th>
+<td class="l data">primordial (v000784)</td>
+<td class="r data">0.38653</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">140</th>
+<td class="l data">basear (v000107)</td>
+<td class="r data">0.38643</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">141</th>
+<td class="l data">sinalizar (v000915)</td>
+<td class="r data">0.38567</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">142</th>
+<td class="l data">mantido (v000607)</td>
+<td class="r data">0.38510</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">143</th>
+<td class="l data">teoria (v000961)</td>
+<td class="r data">0.38502</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">144</th>
+<td class="l data">teórico (v000970)</td>
+<td class="r data">0.38487</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">145</th>
+<td class="l data">explicitar (v000406)</td>
+<td class="r data">0.38330</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">146</th>
+<td class="l data">biologia (v000114)</td>
+<td class="r data">0.38318</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">147</th>
+<td class="l data">visual-motor (v001017)</td>
+<td class="r data">0.38171</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">148</th>
+<td class="l data">organizador (v000702)</td>
+<td class="r data">0.38088</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">149</th>
+<td class="l data">materializar (v000616)</td>
+<td class="r data">0.38083</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">150</th>
+<td class="l data">segar (v000892)</td>
+<td class="r data">0.38073</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">151</th>
+<td class="l data">devido (v000285)</td>
+<td class="r data">0.38040</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">152</th>
+<td class="l data">socioemocional (v000927)</td>
+<td class="r data">0.37958</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">153</th>
+<td class="l data">desencadear (v000274)</td>
+<td class="r data">0.37912</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">154</th>
+<td class="l data">seção (v000912)</td>
+<td class="r data">0.37880</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">155</th>
+<td class="l data">direcionamento (v000295)</td>
+<td class="r data">0.37809</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">156</th>
+<td class="l data">fundamento (v000452)</td>
+<td class="r data">0.37739</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">157</th>
+<td class="l data">introdução (v000563)</td>
+<td class="r data">0.37710</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">158</th>
+<td class="l data">investir (v000569)</td>
+<td class="r data">0.37660</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">159</th>
+<td class="l data">ancorar (v000046)</td>
+<td class="r data">0.37300</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">160</th>
+<td class="l data">mobilização (v000644)</td>
+<td class="r data">0.37134</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">161</th>
+<td class="l data">juventude (v000578)</td>
+<td class="r data">0.37112</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">162</th>
+<td class="l data">ótica (v001037)</td>
+<td class="r data">0.37048</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">163</th>
+<td class="l data">impactar (v000514)</td>
+<td class="r data">0.36993</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">164</th>
+<td class="l data">sequência (v000904)</td>
+<td class="r data">0.36812</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">165</th>
+<td class="l data">cartográfico (v000139)</td>
+<td class="r data">0.36720</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">166</th>
+<td class="l data">agenda (v000018)</td>
+<td class="r data">0.36690</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">167</th>
+<td class="l data">oportuno (v000699)</td>
+<td class="r data">0.36659</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">168</th>
+<td class="l data">exigir (v000404)</td>
+<td class="r data">0.36617</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">169</th>
+<td class="l data">implicar (v000517)</td>
+<td class="r data">0.36564</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">170</th>
+<td class="l data">renovar (v000867)</td>
+<td class="r data">0.36536</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">171</th>
+<td class="l data">interdisciplinaridade (v000550)</td>
+<td class="r data">0.36516</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">172</th>
+<td class="l data">horizontal (v000492)</td>
+<td class="r data">0.36475</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">173</th>
+<td class="l data">notar (v000679)</td>
+<td class="r data">0.36452</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">174</th>
+<td class="l data">crucial (v000236)</td>
+<td class="r data">0.36281</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">175</th>
+<td class="l data">trilha (v000988)</td>
+<td class="r data">0.36264</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">176</th>
+<td class="l data">aluno (v000033)</td>
+<td class="r data">0.36203</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">177</th>
+<td class="l data">exposto (v000409)</td>
+<td class="r data">0.36123</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">178</th>
+<td class="l data">embasar (v000340)</td>
+<td class="r data">0.36097</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">179</th>
+<td class="l data">diagnóstico (v000288)</td>
+<td class="r data">0.35908</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">180</th>
+<td class="l data">subsídio (v000935)</td>
+<td class="r data">0.35886</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">181</th>
+<td class="l data">certo (v000152)</td>
+<td class="r data">0.35845</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">182</th>
+<td class="l data">mercado (v000629)</td>
+<td class="r data">0.35789</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">183</th>
+<td class="l data">ordenado (v000701)</td>
+<td class="r data">0.35655</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">184</th>
+<td class="l data">subsidiar (v000934)</td>
+<td class="r data">0.35651</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">185</th>
+<td class="l data">complexo (v000177)</td>
+<td class="r data">0.35645</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">186</th>
+<td class="l data">voz (v001025)</td>
+<td class="r data">0.35625</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">187</th>
+<td class="l data">palestra (v000708)</td>
+<td class="r data">0.35615</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">188</th>
+<td class="l data">imprescindível (v000518)</td>
+<td class="r data">0.35611</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">189</th>
+<td class="l data">comprometido (v000180)</td>
+<td class="r data">0.35531</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">190</th>
+<td class="l data">atual (v000085)</td>
+<td class="r data">0.35524</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">191</th>
+<td class="l data">socioambiental (v000925)</td>
+<td class="r data">0.35500</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">192</th>
+<td class="l data">emergir (v000342)</td>
+<td class="r data">0.35492</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">193</th>
+<td class="l data">sistematizar (v000919)</td>
+<td class="r data">0.35175</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">194</th>
+<td class="l data">dialógico (v000290)</td>
+<td class="r data">0.35071</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">195</th>
+<td class="l data">problema (v000787)</td>
+<td class="r data">0.35042</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">196</th>
+<td class="l data">sistematização (v000920)</td>
+<td class="r data">0.35022</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">197</th>
+<td class="l data">verificar (v001004)</td>
+<td class="r data">0.35003</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">198</th>
+<td class="l data">totalidade (v000976)</td>
+<td class="r data">0.34978</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">199</th>
+<td class="l data">multidisciplinar (v000657)</td>
+<td class="r data">0.34976</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">200</th>
+<td class="l data">novidade (v000681)</td>
+<td class="r data">0.34920</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">201</th>
+<td class="l data">central (v000148)</td>
+<td class="r data">0.34825</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">202</th>
+<td class="l data">artístico-cultural (v000068)</td>
+<td class="r data">0.34822</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">203</th>
+<td class="l data">conduta (v000189)</td>
+<td class="r data">0.34744</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">204</th>
+<td class="l data">avaliativo (v000097)</td>
+<td class="r data">0.34718</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">205</th>
+<td class="l data">articulado (v000064)</td>
+<td class="r data">0.34658</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">206</th>
+<td class="l data">evento (v000394)</td>
+<td class="r data">0.34573</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">207</th>
+<td class="l data">configurar (v000190)</td>
+<td class="r data">0.34334</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">208</th>
+<td class="l data">século (v000948)</td>
+<td class="r data">0.34247</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">209</th>
+<td class="l data">tocante (v000975)</td>
+<td class="r data">0.34229</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">210</th>
+<td class="l data">espanhol (v000370)</td>
+<td class="r data">0.34220</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">211</th>
+<td class="l data">ilustrar (v000506)</td>
+<td class="r data">0.33933</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">212</th>
+<td class="l data">inúmero (v000571)</td>
+<td class="r data">0.33792</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">213</th>
+<td class="l data">julgar (v000576)</td>
+<td class="r data">0.33741</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">214</th>
+<td class="l data">descrição (v000269)</td>
+<td class="r data">0.33716</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">215</th>
+<td class="l data">pertinente (v000742)</td>
+<td class="r data">0.33655</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">216</th>
+<td class="l data">legítimo (v000584)</td>
+<td class="r data">0.33650</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">217</th>
+<td class="l data">induzir (v000525)</td>
+<td class="r data">0.33639</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">218</th>
+<td class="l data">preocupar (v000777)</td>
+<td class="r data">0.33626</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">219</th>
+<td class="l data">propício (v000805)</td>
+<td class="r data">0.33612</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">220</th>
+<td class="l data">demandar (v000257)</td>
+<td class="r data">0.33569</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">221</th>
+<td class="l data">decorrer (v000253)</td>
+<td class="r data">0.33402</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">222</th>
+<td class="l data">indispensável (v000523)</td>
+<td class="r data">0.33362</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">223</th>
+<td class="l data">frisar (v000447)</td>
+<td class="r data">0.33329</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">224</th>
+<td class="l data">aceitação (v000004)</td>
+<td class="r data">0.33315</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">225</th>
+<td class="l data">qualificar (v000826)</td>
+<td class="r data">0.33254</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">226</th>
+<td class="l data">instigar (v000537)</td>
+<td class="r data">0.33174</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">227</th>
+<td class="l data">vertente (v001006)</td>
+<td class="r data">0.33143</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">228</th>
+<td class="l data">somar (v000932)</td>
+<td class="r data">0.33125</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">229</th>
+<td class="l data">provocação (v000811)</td>
+<td class="r data">0.33110</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">230</th>
+<td class="l data">caminho (v000128)</td>
+<td class="r data">0.33043</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">231</th>
+<td class="l data">permear (v000738)</td>
+<td class="r data">0.32993</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">232</th>
+<td class="l data">simples (v000913)</td>
+<td class="r data">0.32929</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">233</th>
+<td class="l data">demanda (v000256)</td>
+<td class="r data">0.32902</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">234</th>
+<td class="l data">figura (v000417)</td>
+<td class="r data">0.32898</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">235</th>
+<td class="l data">desempenhar (v000273)</td>
+<td class="r data">0.32689</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">236</th>
+<td class="l data">maneira (v000604)</td>
+<td class="r data">0.32682</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">237</th>
+<td class="l data">capacidade (v000129)</td>
+<td class="r data">0.32612</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">238</th>
+<td class="l data">parâmetro (v000719)</td>
+<td class="r data">0.32610</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">239</th>
+<td class="l data">aplicabilidade (v000049)</td>
+<td class="r data">0.32582</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">240</th>
+<td class="l data">lado (v000579)</td>
+<td class="r data">0.32527</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">241</th>
+<td class="l data">projeção (v000799)</td>
+<td class="r data">0.32508</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">242</th>
+<td class="l data">publicar (v000816)</td>
+<td class="r data">0.32503</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">243</th>
+<td class="l data">atingir (v000081)</td>
+<td class="r data">0.32428</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">244</th>
+<td class="l data">quadro (v000823)</td>
+<td class="r data">0.32406</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">245</th>
+<td class="l data">tanto (v000954)</td>
+<td class="r data">0.32174</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">246</th>
+<td class="l data">dizer (v000312)</td>
+<td class="r data">0.32095</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">247</th>
+<td class="l data">ciência (v000159)</td>
+<td class="r data">0.32025</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">248</th>
+<td class="l data">fomentar (v000431)</td>
+<td class="r data">0.31995</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">249</th>
+<td class="l data">agregar (v000020)</td>
+<td class="r data">0.31954</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">250</th>
+<td class="l data">competência (v000174)</td>
+<td class="r data">0.31948</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">251</th>
+<td class="l data">potencial (v000766)</td>
+<td class="r data">0.31909</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">252</th>
+<td class="l data">seriação (v000907)</td>
+<td class="r data">0.31893</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">253</th>
+<td class="l data">transversal (v000983)</td>
+<td class="r data">0.31853</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">254</th>
+<td class="l data">vista (v001016)</td>
+<td class="r data">0.31724</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">255</th>
+<td class="l data">discorrer (v000302)</td>
+<td class="r data">0.31647</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">256</th>
+<td class="l data">introdutório (v000562)</td>
+<td class="r data">0.31589</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">257</th>
+<td class="l data">inerente (v000527)</td>
+<td class="r data">0.31536</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">258</th>
+<td class="l data">localidade (v000597)</td>
+<td class="r data">0.31522</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">259</th>
+<td class="l data">desvendar (v000282)</td>
+<td class="r data">0.31518</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">260</th>
+<td class="l data">tarefa (v000955)</td>
+<td class="r data">0.31441</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">261</th>
+<td class="l data">responsivo (v000877)</td>
+<td class="r data">0.31392</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">262</th>
+<td class="l data">imperativo (v000515)</td>
+<td class="r data">0.31342</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">263</th>
+<td class="l data">despertar (v000279)</td>
+<td class="r data">0.31212</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">264</th>
+<td class="l data">final (v000420)</td>
+<td class="r data">0.31201</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">265</th>
+<td class="l data">colaborador (v000166)</td>
+<td class="r data">0.31201</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">266</th>
+<td class="l data">perder (v000733)</td>
+<td class="r data">0.31096</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">267</th>
+<td class="l data">ator (v000082)</td>
+<td class="r data">0.31072</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">268</th>
+<td class="l data">auxiliar (v000096)</td>
+<td class="r data">0.31035</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">269</th>
+<td class="l data">econômico (v000326)</td>
+<td class="r data">0.31002</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">270</th>
+<td class="l data">esperar (v000375)</td>
+<td class="r data">0.30994</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">271</th>
+<td class="l data">médio (v000664)</td>
+<td class="r data">0.30957</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">272</th>
+<td class="l data">humanidade (v000495)</td>
+<td class="r data">0.30856</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">273</th>
+<td class="l data">inspirar (v000536)</td>
+<td class="r data">0.30804</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">274</th>
+<td class="l data">matriz (v000618)</td>
+<td class="r data">0.30757</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">275</th>
+<td class="l data">pluralidade (v000751)</td>
+<td class="r data">0.30648</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">276</th>
+<td class="l data">parágrafo (v000718)</td>
+<td class="r data">0.30629</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">277</th>
+<td class="l data">libra (v000591)</td>
+<td class="r data">0.30388</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX1"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">Factor 1 neg</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.TEMP">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">_NAME_</th>
+<th class="r header" scope="col">Factor1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">reutilizável (v000881)</td>
+<td class="r data" nowrap>-1.14124</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">encaixe (v000349)</td>
+<td class="r data" nowrap>-1.13872</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">desagrado (v000266)</td>
+<td class="r data" nowrap>-0.99433</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">balançar (v000102)</td>
+<td class="r data" nowrap>-0.96683</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">empilhar (v000346)</td>
+<td class="r data" nowrap>-0.88982</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data">horas-aula (v000491)</td>
+<td class="r data" nowrap>-0.88966</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data">emancipatória (v000337)</td>
+<td class="r data" nowrap>-0.84358</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data">tampo (v000953)</td>
+<td class="r data" nowrap>-0.83999</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data">globalidade (v000464)</td>
+<td class="r data" nowrap>-0.80803</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data">revisitação (v000883)</td>
+<td class="r data" nowrap>-0.78949</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data">selva (v000895)</td>
+<td class="r data" nowrap>-0.77650</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data">terreiro (v000963)</td>
+<td class="r data" nowrap>-0.77535</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data">fralda (v000443)</td>
+<td class="r data" nowrap>-0.77472</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data">depreciar (v000265)</td>
+<td class="r data" nowrap>-0.77471</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data">flor (v000424)</td>
+<td class="r data" nowrap>-0.73458</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data">não-indígena (v000684)</td>
+<td class="r data" nowrap>-0.69813</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data">refeição (v000847)</td>
+<td class="r data" nowrap>-0.69656</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data">balbucio (v000103)</td>
+<td class="r data" nowrap>-0.69484</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data">palma (v000709)</td>
+<td class="r data" nowrap>-0.68077</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data">biopsicológico (v000115)</td>
+<td class="r data" nowrap>-0.67399</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data">pré-escolar (v000813)</td>
+<td class="r data" nowrap>-0.65238</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data">desmembramento (v000276)</td>
+<td class="r data" nowrap>-0.60790</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data">intermediação (v000554)</td>
+<td class="r data" nowrap>-0.59496</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data">limpeza (v000593)</td>
+<td class="r data" nowrap>-0.55351</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data">intimidação (v000559)</td>
+<td class="r data" nowrap>-0.53257</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data">descanso (v000267)</td>
+<td class="r data" nowrap>-0.52995</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data">utensílio (v000997)</td>
+<td class="r data" nowrap>-0.49784</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data">governança (v000468)</td>
+<td class="r data" nowrap>-0.49374</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data">vidar (v001011)</td>
+<td class="r data" nowrap>-0.49186</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data">assessor (v000073)</td>
+<td class="r data" nowrap>-0.48917</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data">técnico-pedagógico (v000992)</td>
+<td class="r data" nowrap>-0.46192</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data">focal (v000427)</td>
+<td class="r data" nowrap>-0.43546</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data">feitura (v000415)</td>
+<td class="r data" nowrap>-0.43415</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data">sequenciado (v000902)</td>
+<td class="r data" nowrap>-0.43363</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data">desperdício (v000278)</td>
+<td class="r data" nowrap>-0.41864</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data">vigilância (v001013)</td>
+<td class="r data" nowrap>-0.39937</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data">recortar (v000840)</td>
+<td class="r data" nowrap>-0.37418</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data">iminente (v000511)</td>
+<td class="r data" nowrap>-0.36671</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data">intermitente (v000555)</td>
+<td class="r data" nowrap>-0.32692</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data">documentar (v000314)</td>
+<td class="r data" nowrap>-0.32254</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data">pleitear (v000749)</td>
+<td class="r data" nowrap>-0.31526</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX2"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">LOADINGS TABLE</td>
+</tr>
+<tr>
+<td class="c systemtitle2">Factor 2 pos</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.TEMP">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">_NAME_</th>
+<th class="r header" scope="col">Factor2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">certificação (v000151)</td>
+<td class="r data">0.86971</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">habilitação (v000478)</td>
+<td class="r data">0.80780</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">cursar (v000246)</td>
+<td class="r data">0.75216</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">portaria (v000760)</td>
+<td class="r data">0.70273</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">providência (v000810)</td>
+<td class="r data">0.68005</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data">catálogo (v000143)</td>
+<td class="r data">0.65436</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data">órgão (v001036)</td>
+<td class="r data">0.64674</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data">entidade (v000355)</td>
+<td class="r data">0.64305</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data">normatizar (v000675)</td>
+<td class="r data">0.62302</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data">frequentar (v000445)</td>
+<td class="r data">0.61996</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data">regime (v000855)</td>
+<td class="r data">0.61876</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data">distrito (v000308)</td>
+<td class="r data">0.60723</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data">duzentos (v000323)</td>
+<td class="r data">0.60584</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data">capacitação (v000130)</td>
+<td class="r data">0.60220</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data">qualificação (v000827)</td>
+<td class="r data">0.59963</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data">carga (v000134)</td>
+<td class="r data">0.59657</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data">diretoria (v000296)</td>
+<td class="r data">0.59219</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data">trabalhador (v000977)</td>
+<td class="r data">0.59150</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data">ofertante (v000689)</td>
+<td class="r data">0.59133</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data">ofertar (v000690)</td>
+<td class="r data">0.58831</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data">prosseguimento (v000806)</td>
+<td class="r data">0.58289</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data">secretário (v000891)</td>
+<td class="r data">0.57391</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data">superior (v000942)</td>
+<td class="r data">0.57204</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data">censo (v000147)</td>
+<td class="r data">0.56478</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data">oferta (v000688)</td>
+<td class="r data">0.56260</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data">eletivo (v000335)</td>
+<td class="r data">0.56202</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data">curso (v000247)</td>
+<td class="r data">0.56157</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data">regulamentação (v000858)</td>
+<td class="r data">0.55887</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data">elevação (v000336)</td>
+<td class="r data">0.55644</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data">clientela (v000160)</td>
+<td class="r data">0.55275</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data">intersetorial (v000558)</td>
+<td class="r data">0.55219</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data">implantação (v000516)</td>
+<td class="r data">0.55122</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data">alternância (v000031)</td>
+<td class="r data">0.54405</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data">masculino (v000615)</td>
+<td class="r data">0.54330</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data">previsto (v000782)</td>
+<td class="r data">0.54064</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data">erradicação (v000362)</td>
+<td class="r data">0.53942</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data">dirigente (v000299)</td>
+<td class="r data">0.53935</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data">deliberação (v000255)</td>
+<td class="r data">0.53770</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data">sintonizar (v000917)</td>
+<td class="r data">0.53740</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data">itinerário (v000572)</td>
+<td class="r data">0.52864</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data">carreira (v000137)</td>
+<td class="r data">0.52299</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="l data">legislação (v000583)</td>
+<td class="r data">0.52296</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="l data">estadual (v000382)</td>
+<td class="r data">0.51945</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="l data">horário (v000494)</td>
+<td class="r data">0.51855</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="l data">federal (v000413)</td>
+<td class="r data">0.51820</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="l data">privar (v000786)</td>
+<td class="r data">0.51680</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="l data">revogar (v000884)</td>
+<td class="r data">0.51310</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="l data">instituir (v000539)</td>
+<td class="r data">0.50627</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">49</th>
+<td class="l data">consubstanciar (v000207)</td>
+<td class="r data">0.50456</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">50</th>
+<td class="l data">reforma (v000853)</td>
+<td class="r data">0.50016</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">51</th>
+<td class="l data">viabilizar (v001009)</td>
+<td class="r data">0.49850</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">52</th>
+<td class="l data">municipal (v000660)</td>
+<td class="r data">0.49169</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">53</th>
+<td class="l data">especialização (v000371)</td>
+<td class="r data">0.49036</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">54</th>
+<td class="l data">corresponsabilidade (v000226)</td>
+<td class="r data">0.48983</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">55</th>
+<td class="l data">executivo (v000401)</td>
+<td class="r data">0.48041</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">56</th>
+<td class="l data">semestre (v000897)</td>
+<td class="r data">0.47297</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">57</th>
+<td class="l data">preliminar (v000775)</td>
+<td class="r data">0.47067</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">58</th>
+<td class="l data">missão (v000640)</td>
+<td class="r data">0.47026</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">59</th>
+<td class="l data">diretriz (v000297)</td>
+<td class="r data">0.46908</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">60</th>
+<td class="l data">percentual (v000730)</td>
+<td class="r data">0.46412</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">61</th>
+<td class="l data">semanal (v000896)</td>
+<td class="r data">0.45969</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">62</th>
+<td class="l data">atualizar (v000086)</td>
+<td class="r data">0.45355</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">63</th>
+<td class="l data">vocação (v001021)</td>
+<td class="r data">0.44947</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">64</th>
+<td class="l data">viabilização (v001010)</td>
+<td class="r data">0.44811</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">65</th>
+<td class="l data">flexibilizar (v000422)</td>
+<td class="r data">0.44693</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">66</th>
+<td class="l data">prescrever (v000779)</td>
+<td class="r data">0.44545</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">67</th>
+<td class="l data">observância (v000686)</td>
+<td class="r data">0.44205</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">68</th>
+<td class="l data">sessenta (v000909)</td>
+<td class="r data">0.44064</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">69</th>
+<td class="l data">docência (v000317)</td>
+<td class="r data">0.43921</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">70</th>
+<td class="l data">capítulo (v000133)</td>
+<td class="r data">0.43758</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">71</th>
+<td class="l data">responsabilizar (v000876)</td>
+<td class="r data">0.43627</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">72</th>
+<td class="l data">dignidade (v000294)</td>
+<td class="r data">0.43569</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">73</th>
+<td class="l data">notório (v000680)</td>
+<td class="r data">0.43519</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">74</th>
+<td class="l data">preceito (v000769)</td>
+<td class="r data">0.43380</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">75</th>
+<td class="l data">graduação (v000472)</td>
+<td class="r data">0.43324</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">76</th>
+<td class="l data">funcionário (v000450)</td>
+<td class="r data">0.42904</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">77</th>
+<td class="l data">administração (v000012)</td>
+<td class="r data">0.42848</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">78</th>
+<td class="l data">efetivação (v000331)</td>
+<td class="r data">0.42820</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">79</th>
+<td class="l data">transversalidade (v000984)</td>
+<td class="r data">0.42656</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">80</th>
+<td class="l data">seriar (v000906)</td>
+<td class="r data">0.42569</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">81</th>
+<td class="l data">conquistar (v000194)</td>
+<td class="r data">0.42518</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">82</th>
+<td class="l data">empreendedorismo (v000347)</td>
+<td class="r data">0.42287</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">83</th>
+<td class="l data">profissional (v000795)</td>
+<td class="r data">0.42104</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">84</th>
+<td class="l data">consecução (v000195)</td>
+<td class="r data">0.42001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">85</th>
+<td class="l data">flexível (v000423)</td>
+<td class="r data">0.41857</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">86</th>
+<td class="l data">societário (v000924)</td>
+<td class="r data">0.41714</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">87</th>
+<td class="l data">município (v000661)</td>
+<td class="r data">0.41538</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">88</th>
+<td class="l data">gerência (v000460)</td>
+<td class="r data">0.40900</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">89</th>
+<td class="l data">atender (v000078)</td>
+<td class="r data">0.40816</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">90</th>
+<td class="l data">integralidade (v000543)</td>
+<td class="r data">0.40762</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">91</th>
+<td class="l data">excelência (v000397)</td>
+<td class="r data">0.40756</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">92</th>
+<td class="l data">respaldar (v000874)</td>
+<td class="r data">0.40611</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">93</th>
+<td class="l data">homologar (v000490)</td>
+<td class="r data">0.40529</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">94</th>
+<td class="l data">reprovação (v000872)</td>
+<td class="r data">0.40450</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">95</th>
+<td class="l data">equânime (v000361)</td>
+<td class="r data">0.40401</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">96</th>
+<td class="l data">fortalecimento (v000437)</td>
+<td class="r data">0.40155</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">97</th>
+<td class="l data">vigente (v001012)</td>
+<td class="r data">0.40060</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">98</th>
+<td class="l data">requisito (v000873)</td>
+<td class="r data">0.39812</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">99</th>
+<td class="l data">conformidade (v000191)</td>
+<td class="r data">0.39448</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">100</th>
+<td class="l data">formativo (v000434)</td>
+<td class="r data">0.39380</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">101</th>
+<td class="l data">destinar (v000281)</td>
+<td class="r data">0.38962</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">102</th>
+<td class="l data">guia (v000477)</td>
+<td class="r data">0.38890</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">103</th>
+<td class="l data">mantenedor (v000606)</td>
+<td class="r data">0.38546</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">104</th>
+<td class="l data">mobilidade (v000642)</td>
+<td class="r data">0.38226</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">105</th>
+<td class="l data">normatização (v000676)</td>
+<td class="r data">0.37945</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">106</th>
+<td class="l data">corresponsável (v000227)</td>
+<td class="r data">0.37904</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">107</th>
+<td class="l data">prerrogativa (v000778)</td>
+<td class="r data">0.37845</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">108</th>
+<td class="l data">perfil (v000734)</td>
+<td class="r data">0.37792</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">109</th>
+<td class="l data">técnico (v000991)</td>
+<td class="r data">0.37588</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">110</th>
+<td class="l data">demarcar (v000259)</td>
+<td class="r data">0.37122</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">111</th>
+<td class="l data">política (v000754)</td>
+<td class="r data">0.36160</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">112</th>
+<td class="l data">culminar (v000243)</td>
+<td class="r data">0.36042</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">113</th>
+<td class="l data">desporto (v000280)</td>
+<td class="r data">0.35624</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">114</th>
+<td class="l data">qualidade (v000824)</td>
+<td class="r data">0.35543</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">115</th>
+<td class="l data">interseccionalidade (v000557)</td>
+<td class="r data">0.35444</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">116</th>
+<td class="l data">maturidade (v000619)</td>
+<td class="r data">0.34969</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">117</th>
+<td class="l data">garantia (v000458)</td>
+<td class="r data">0.34957</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">118</th>
+<td class="l data">supramencionado (v000944)</td>
+<td class="r data">0.34851</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">119</th>
+<td class="l data">orientador (v000703)</td>
+<td class="r data">0.34413</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">120</th>
+<td class="l data">balizar (v000105)</td>
+<td class="r data">0.34404</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">121</th>
+<td class="l data">primar (v000783)</td>
+<td class="r data">0.34321</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">122</th>
+<td class="l data">concorrer (v000186)</td>
+<td class="r data">0.34218</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">123</th>
+<td class="l data">equidade (v000358)</td>
+<td class="r data">0.33960</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">124</th>
+<td class="l data">amparar (v000041)</td>
+<td class="r data">0.33682</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">125</th>
+<td class="l data">currículo (v000245)</td>
+<td class="r data">0.33045</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">126</th>
+<td class="l data">alinhar (v000029)</td>
+<td class="r data">0.32840</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">127</th>
+<td class="l data">escolaridade (v000364)</td>
+<td class="r data">0.32437</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">128</th>
+<td class="l data">média (v000663)</td>
+<td class="r data">0.32286</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">129</th>
+<td class="l data">adolescente (v000013)</td>
+<td class="r data">0.32240</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">130</th>
+<td class="l data">ético-político (v001032)</td>
+<td class="r data">0.32182</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">131</th>
+<td class="l data">preconizar (v000772)</td>
+<td class="r data">0.31967</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">132</th>
+<td class="l data">socioeducacional (v000926)</td>
+<td class="r data">0.31805</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">133</th>
+<td class="l data">oficina (v000691)</td>
+<td class="r data">0.31664</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">134</th>
+<td class="l data">fragmentação (v000442)</td>
+<td class="r data">0.31447</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">135</th>
+<td class="l data">rede (v000843)</td>
+<td class="r data">0.31377</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">136</th>
+<td class="l data">estruturante (v000388)</td>
+<td class="r data">0.31247</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">137</th>
+<td class="l data">adversidade (v000015)</td>
+<td class="r data">0.31232</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">138</th>
+<td class="l data">aderir (v000011)</td>
+<td class="r data">0.31157</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">139</th>
+<td class="l data">trajetória (v000978)</td>
+<td class="r data">0.30806</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">140</th>
+<td class="l data">documentação (v000315)</td>
+<td class="r data">0.30792</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">141</th>
+<td class="l data">efetuar (v000332)</td>
+<td class="r data">0.30329</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">142</th>
+<td class="l data">precípuo (v000773)</td>
+<td class="r data">0.30074</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX3"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">Factor 2 neg</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.TEMP">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">_NAME_</th>
+<th class="r header" scope="col">Factor2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">estilização (v000384)</td>
+<td class="r data" nowrap>-1.12156</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">modalização (v000646)</td>
+<td class="r data" nowrap>-1.05954</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">paródia (v000720)</td>
+<td class="r data" nowrap>-0.96382</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">hipertexto (v000483)</td>
+<td class="r data" nowrap>-0.93016</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">sintático (v000918)</td>
+<td class="r data" nowrap>-0.92740</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data">oração (v000700)</td>
+<td class="r data" nowrap>-0.91942</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data">virar (v001014)</td>
+<td class="r data" nowrap>-0.90833</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data">humor (v000497)</td>
+<td class="r data" nowrap>-0.84560</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data">ortografia (v000705)</td>
+<td class="r data" nowrap>-0.72155</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data">tinta (v000973)</td>
+<td class="r data" nowrap>-0.70712</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data">narração (v000668)</td>
+<td class="r data" nowrap>-0.70608</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data">álbum (v001029)</td>
+<td class="r data" nowrap>-0.69583</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data">contemplação (v000209)</td>
+<td class="r data" nowrap>-0.68982</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data">reportagem (v000870)</td>
+<td class="r data" nowrap>-0.68844</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data">artístico-literário (v000069)</td>
+<td class="r data" nowrap>-0.68303</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data">câmera (v000248)</td>
+<td class="r data" nowrap>-0.67445</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data">exibir (v000402)</td>
+<td class="r data" nowrap>-0.66724</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data">lenda (v000586)</td>
+<td class="r data" nowrap>-0.64302</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data">imitação (v000513)</td>
+<td class="r data" nowrap>-0.63430</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data">prender (v000776)</td>
+<td class="r data" nowrap>-0.60640</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data">misturar (v000641)</td>
+<td class="r data" nowrap>-0.59757</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data">gestualidade (v000463)</td>
+<td class="r data" nowrap>-0.59517</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data">baixar (v000101)</td>
+<td class="r data" nowrap>-0.59205</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data">marcial (v000614)</td>
+<td class="r data" nowrap>-0.56507</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data">comentar (v000171)</td>
+<td class="r data" nowrap>-0.55548</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data">borracha (v000120)</td>
+<td class="r data" nowrap>-0.54641</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data">apêndice (v000057)</td>
+<td class="r data" nowrap>-0.54354</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data">cartão (v000140)</td>
+<td class="r data" nowrap>-0.53234</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data">pasta (v000722)</td>
+<td class="r data" nowrap>-0.52578</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data">causo (v000144)</td>
+<td class="r data" nowrap>-0.50496</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data">citadino (v000158)</td>
+<td class="r data" nowrap>-0.50187</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data">esportivização (v000379)</td>
+<td class="r data" nowrap>-0.49358</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data">dupla (v000322)</td>
+<td class="r data" nowrap>-0.49115</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data">artista (v000066)</td>
+<td class="r data" nowrap>-0.48523</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data">minuto (v000639)</td>
+<td class="r data" nowrap>-0.47948</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data">li (v000589)</td>
+<td class="r data" nowrap>-0.47834</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data">mostra (v000651)</td>
+<td class="r data" nowrap>-0.46067</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data">coluna (v000170)</td>
+<td class="r data" nowrap>-0.44329</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data">game (v000457)</td>
+<td class="r data" nowrap>-0.43545</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data">palco (v000707)</td>
+<td class="r data" nowrap>-0.43347</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data">cena (v000146)</td>
+<td class="r data" nowrap>-0.42579</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="l data">literário (v000594)</td>
+<td class="r data" nowrap>-0.42390</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="l data">página (v000817)</td>
+<td class="r data" nowrap>-0.42042</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="l data">celular (v000145)</td>
+<td class="r data" nowrap>-0.40670</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="l data">codificação (v000162)</td>
+<td class="r data" nowrap>-0.36675</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="l data">liderar (v000592)</td>
+<td class="r data" nowrap>-0.34705</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="l data">letra (v000587)</td>
+<td class="r data" nowrap>-0.34544</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="l data">tipologia (v000974)</td>
+<td class="r data" nowrap>-0.33199</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX4"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">LOADINGS TABLE</td>
+</tr>
+<tr>
+<td class="c systemtitle2">Factor 3 pos</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.TEMP">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">_NAME_</th>
+<th class="r header" scope="col">Factor3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">textura (v000969)</td>
+<td class="r data">0.91486</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">brinquedo (v000124)</td>
+<td class="r data">0.90573</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">manusear (v000608)</td>
+<td class="r data">0.90108</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">imitar (v000512)</td>
+<td class="r data">0.89362</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">bebê (v000110)</td>
+<td class="r data">0.87729</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data">carro (v000138)</td>
+<td class="r data">0.84701</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data">areia (v000058)</td>
+<td class="r data">0.82921</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data">conversar (v000218)</td>
+<td class="r data">0.82766</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data">brincar (v000123)</td>
+<td class="r data">0.82599</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data">esconder (v000365)</td>
+<td class="r data">0.81516</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data">higiene (v000482)</td>
+<td class="r data">0.81403</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data">dedo (v000254)</td>
+<td class="r data">0.79302</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data">pé (v000819)</td>
+<td class="r data">0.78727</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data">montar (v000649)</td>
+<td class="r data">0.77045</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data">passeio (v000721)</td>
+<td class="r data">0.75006</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data">bater (v000109)</td>
+<td class="r data">0.74903</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data">mês (v000666)</td>
+<td class="r data">0.73001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data">manipular (v000605)</td>
+<td class="r data">0.72604</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data">sensorial (v000901)</td>
+<td class="r data">0.71538</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data">espelho (v000374)</td>
+<td class="r data">0.70851</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data">dramatizar (v000320)</td>
+<td class="r data">0.70451</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data">conforto (v000192)</td>
+<td class="r data">0.69213</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data">plástico (v000752)</td>
+<td class="r data">0.67875</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data">tecido (v000957)</td>
+<td class="r data">0.67411</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data">peso (v000743)</td>
+<td class="r data">0.67222</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data">mímico (v000667)</td>
+<td class="r data">0.67190</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data">vestimenta (v001008)</td>
+<td class="r data">0.66610</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data">professora (v000793)</td>
+<td class="r data">0.65974</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data">afeto (v000016)</td>
+<td class="r data">0.65257</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data">brincadeira (v000122)</td>
+<td class="r data">0.64745</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data">parque (v000715)</td>
+<td class="r data">0.64700</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data">lápis (v000601)</td>
+<td class="r data">0.63738</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data">nascimento (v000669)</td>
+<td class="r data">0.63309</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data">movimentação (v000653)</td>
+<td class="r data">0.62761</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data">colher (v000168)</td>
+<td class="r data">0.62214</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data">ajuda (v000025)</td>
+<td class="r data">0.62173</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data">roda (v000887)</td>
+<td class="r data">0.61816</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data">creche (v000228)</td>
+<td class="r data">0.61732</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data">menino (v000626)</td>
+<td class="r data">0.60928</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data">criterioso (v000234)</td>
+<td class="r data">0.60824</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data">parceiro (v000711)</td>
+<td class="r data">0.60800</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="l data">cuidado (v000239)</td>
+<td class="r data">0.60524</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="l data">boca (v000118)</td>
+<td class="r data">0.59616</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="l data">som (v000931)</td>
+<td class="r data">0.58660</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="l data">autoconfiança (v000090)</td>
+<td class="r data">0.58615</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="l data">gesto (v000462)</td>
+<td class="r data">0.58586</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="l data">manuseio (v000609)</td>
+<td class="r data">0.57772</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="l data">embalagem (v000338)</td>
+<td class="r data">0.56772</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">49</th>
+<td class="l data">personagem (v000741)</td>
+<td class="r data">0.56585</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">50</th>
+<td class="l data">pintura (v000745)</td>
+<td class="r data">0.56400</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">51</th>
+<td class="l data">colo (v000169)</td>
+<td class="r data">0.56250</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">52</th>
+<td class="l data">colega (v000167)</td>
+<td class="r data">0.55413</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">53</th>
+<td class="l data">mobiliário (v000645)</td>
+<td class="r data">0.55264</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">54</th>
+<td class="l data">escutar (v000368)</td>
+<td class="r data">0.55234</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">55</th>
+<td class="l data">interessar (v000552)</td>
+<td class="r data">0.55030</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">56</th>
+<td class="l data">pré-escola (v000812)</td>
+<td class="r data">0.55020</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">57</th>
+<td class="l data">cuidar (v000241)</td>
+<td class="r data">0.54625</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">58</th>
+<td class="l data">satisfazer (v000890)</td>
+<td class="r data">0.53440</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">59</th>
+<td class="l data">curiosidade (v000244)</td>
+<td class="r data">0.53351</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">60</th>
+<td class="l data">ouvir (v000706)</td>
+<td class="r data">0.53105</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">61</th>
+<td class="l data">criança (v000231)</td>
+<td class="r data">0.52750</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">62</th>
+<td class="l data">fotográfico (v000440)</td>
+<td class="r data">0.52672</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">63</th>
+<td class="l data">emocionar (v000345)</td>
+<td class="r data">0.52094</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">64</th>
+<td class="l data">infantil (v000528)</td>
+<td class="r data">0.51911</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">65</th>
+<td class="l data">parede (v000714)</td>
+<td class="r data">0.51817</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">66</th>
+<td class="l data">rotina (v000888)</td>
+<td class="r data">0.51163</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">67</th>
+<td class="l data">par (v000710)</td>
+<td class="r data">0.51102</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">68</th>
+<td class="l data">prevenção (v000780)</td>
+<td class="r data">0.50899</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">69</th>
+<td class="l data">adulto (v000014)</td>
+<td class="r data">0.50481</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">70</th>
+<td class="l data">pátio (v000818)</td>
+<td class="r data">0.50478</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">71</th>
+<td class="l data">biblioteca (v000112)</td>
+<td class="r data">0.50459</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">72</th>
+<td class="l data">culinário (v000242)</td>
+<td class="r data">0.50209</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">73</th>
+<td class="l data">inventar (v000567)</td>
+<td class="r data">0.50094</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">74</th>
+<td class="l data">testar (v000968)</td>
+<td class="r data">0.49524</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">75</th>
+<td class="l data">mão (v000662)</td>
+<td class="r data">0.48936</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">76</th>
+<td class="l data">emitir (v000344)</td>
+<td class="r data">0.48671</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">77</th>
+<td class="l data">foto (v000439)</td>
+<td class="r data">0.48522</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">78</th>
+<td class="l data">pequeno (v000729)</td>
+<td class="r data">0.48020</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">79</th>
+<td class="l data">equilíbrio (v000359)</td>
+<td class="r data">0.48016</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">80</th>
+<td class="l data">infância (v000533)</td>
+<td class="r data">0.47960</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">81</th>
+<td class="l data">hábito (v000499)</td>
+<td class="r data">0.47591</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">82</th>
+<td class="l data">desejo (v000271)</td>
+<td class="r data">0.47078</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">83</th>
+<td class="l data">atento (v000080)</td>
+<td class="r data">0.45955</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">84</th>
+<td class="l data">compreensível (v000179)</td>
+<td class="r data">0.44834</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">85</th>
+<td class="l data">volta (v001022)</td>
+<td class="r data">0.44825</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">86</th>
+<td class="l data">relacional (v000860)</td>
+<td class="r data">0.44562</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">87</th>
+<td class="l data">futebol (v000455)</td>
+<td class="r data">0.44386</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">88</th>
+<td class="l data">diário (v000313)</td>
+<td class="r data">0.43964</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">89</th>
+<td class="l data">dramático (v000321)</td>
+<td class="r data">0.43363</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">90</th>
+<td class="l data">vontade (v001024)</td>
+<td class="r data">0.42450</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">91</th>
+<td class="l data">seres (v000905)</td>
+<td class="r data">0.41720</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">92</th>
+<td class="l data">lúdico (v000603)</td>
+<td class="r data">0.41589</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">93</th>
+<td class="l data">deparar (v000263)</td>
+<td class="r data">0.40213</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">94</th>
+<td class="l data">acompanhamento (v000007)</td>
+<td class="r data">0.40180</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">95</th>
+<td class="l data">doméstico (v000319)</td>
+<td class="r data">0.39735</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">96</th>
+<td class="l data">registro (v000857)</td>
+<td class="r data">0.39673</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">97</th>
+<td class="l data">calendário (v000127)</td>
+<td class="r data">0.39529</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">98</th>
+<td class="l data">contar (v000208)</td>
+<td class="r data">0.39332</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">99</th>
+<td class="l data">repetir (v000868)</td>
+<td class="r data">0.39170</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">100</th>
+<td class="l data">membro (v000623)</td>
+<td class="r data">0.38929</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">101</th>
+<td class="l data">instituição (v000540)</td>
+<td class="r data">0.38891</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">102</th>
+<td class="l data">partícipe (v000717)</td>
+<td class="r data">0.38406</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">103</th>
+<td class="l data">estímulo (v000391)</td>
+<td class="r data">0.37226</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">104</th>
+<td class="l data">imersão (v000509)</td>
+<td class="r data">0.36969</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">105</th>
+<td class="l data">apoiar (v000051)</td>
+<td class="r data">0.36740</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">106</th>
+<td class="l data">indicativo (v000521)</td>
+<td class="r data">0.36714</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">107</th>
+<td class="l data">livro (v000596)</td>
+<td class="r data">0.36553</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">108</th>
+<td class="l data">etário (v000392)</td>
+<td class="r data">0.36453</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">109</th>
+<td class="l data">cheio (v000153)</td>
+<td class="r data">0.36376</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">110</th>
+<td class="l data">agradável (v000019)</td>
+<td class="r data">0.36179</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">111</th>
+<td class="l data">demonstrar (v000261)</td>
+<td class="r data">0.36076</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">112</th>
+<td class="l data">convidar (v000219)</td>
+<td class="r data">0.35856</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">113</th>
+<td class="l data">assimilar (v000074)</td>
+<td class="r data">0.35492</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">114</th>
+<td class="l data">oliveira (v000693)</td>
+<td class="r data">0.35258</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">115</th>
+<td class="l data">laço (v000582)</td>
+<td class="r data">0.34809</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">116</th>
+<td class="l data">escuta (v000367)</td>
+<td class="r data">0.34433</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">117</th>
+<td class="l data">marca (v000612)</td>
+<td class="r data">0.34231</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">118</th>
+<td class="l data">sólido (v000951)</td>
+<td class="r data">0.34175</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">119</th>
+<td class="l data">acolher (v000006)</td>
+<td class="r data">0.33994</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">120</th>
+<td class="l data">manutenção (v000610)</td>
+<td class="r data">0.33865</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">121</th>
+<td class="l data">centralidade (v000149)</td>
+<td class="r data">0.33724</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">122</th>
+<td class="l data">transferir (v000981)</td>
+<td class="r data">0.33631</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">123</th>
+<td class="l data">dia (v000286)</td>
+<td class="r data">0.33069</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">124</th>
+<td class="l data">sugestão (v000937)</td>
+<td class="r data">0.33045</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">125</th>
+<td class="l data">feira (v000414)</td>
+<td class="r data">0.33026</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">126</th>
+<td class="l data">partilha (v000716)</td>
+<td class="r data">0.32782</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">127</th>
+<td class="l data">cópia (v000249)</td>
+<td class="r data">0.32155</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">128</th>
+<td class="l data">percepção (v000731)</td>
+<td class="r data">0.31830</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">129</th>
+<td class="l data">crescimento (v000230)</td>
+<td class="r data">0.31354</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">130</th>
+<td class="l data">interessante (v000551)</td>
+<td class="r data">0.31268</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">131</th>
+<td class="l data">humanização (v000496)</td>
+<td class="r data">0.31201</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">132</th>
+<td class="l data">conseguir (v000198)</td>
+<td class="r data">0.31018</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">133</th>
+<td class="l data">medição (v000622)</td>
+<td class="r data">0.30987</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">134</th>
+<td class="l data">atentar (v000079)</td>
+<td class="r data">0.30986</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">135</th>
+<td class="l data">frequente (v000446)</td>
+<td class="r data">0.30520</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">136</th>
+<td class="l data">íntimo (v001035)</td>
+<td class="r data">0.30377</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">137</th>
+<td class="l data">prédio (v000814)</td>
+<td class="r data">0.30329</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">138</th>
+<td class="l data">pontuar (v000756)</td>
+<td class="r data">0.30270</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">139</th>
+<td class="l data">volume (v001023)</td>
+<td class="r data">0.30117</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX5"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">Factor 3 neg</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.TEMP">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">_NAME_</th>
+<th class="r header" scope="col">Factor3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">gerúndio (v000461)</td>
+<td class="r data" nowrap>-0.89100</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">sofisticação (v000929)</td>
+<td class="r data" nowrap>-0.73873</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">infinitivo (v000529)</td>
+<td class="r data" nowrap>-0.69652</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">receptivo (v000837)</td>
+<td class="r data" nowrap>-0.66633</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">lp (v000599)</td>
+<td class="r data" nowrap>-0.66292</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data">exigente (v000403)</td>
+<td class="r data" nowrap>-0.62889</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data">demarcador (v000258)</td>
+<td class="r data" nowrap>-0.62678</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data">ifa (v000503)</td>
+<td class="r data" nowrap>-0.59982</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data">eugenia (v000393)</td>
+<td class="r data" nowrap>-0.59374</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data">constituído (v000204)</td>
+<td class="r data" nowrap>-0.57870</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data">desmembrar (v000277)</td>
+<td class="r data" nowrap>-0.53391</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data">compartimentação (v000172)</td>
+<td class="r data" nowrap>-0.52349</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data">desinformação (v000275)</td>
+<td class="r data" nowrap>-0.49248</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data">dívida (v000324)</td>
+<td class="r data" nowrap>-0.45846</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data">venezuelano (v001001)</td>
+<td class="r data" nowrap>-0.39342</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data">gnosiológico (v000466)</td>
+<td class="r data" nowrap>-0.38109</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data">tempos-espaço (v000960)</td>
+<td class="r data" nowrap>-0.38089</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data">intencionar (v000546)</td>
+<td class="r data" nowrap>-0.36200</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data">árabe (v001030)</td>
+<td class="r data" nowrap>-0.35538</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data">espiralar (v000378)</td>
+<td class="r data" nowrap>-0.33159</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data">nucleação (v000682)</td>
+<td class="r data" nowrap>-0.32777</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data">tempo-espaço (v000959)</td>
+<td class="r data" nowrap>-0.32146</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data">gradação (v000469)</td>
+<td class="r data" nowrap>-0.31896</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data">engendrar (v000352)</td>
+<td class="r data" nowrap>-0.31883</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX6"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">LOADINGS TABLE</td>
+</tr>
+<tr>
+<td class="c systemtitle2">Factor 4 pos</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.TEMP">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">_NAME_</th>
+<th class="r header" scope="col">Factor4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">índio (v001033)</td>
+<td class="r data">1.02502</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">litoral (v000595)</td>
+<td class="r data">0.83228</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">quilombo (v000830)</td>
+<td class="r data">0.82083</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">imigrante (v000510)</td>
+<td class="r data">0.79654</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">mar (v000611)</td>
+<td class="r data">0.79512</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data">nordeste (v000674)</td>
+<td class="r data">0.78801</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data">praia (v000768)</td>
+<td class="r data">0.76543</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data">agreste (v000021)</td>
+<td class="r data">0.75407</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data">guerreiro (v000476)</td>
+<td class="r data">0.72608</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data">pardo (v000712)</td>
+<td class="r data">0.72328</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data">sertão (v000908)</td>
+<td class="r data">0.70934</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data">coco (v000161)</td>
+<td class="r data">0.70078</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data">branco (v000121)</td>
+<td class="r data">0.69972</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data">fauna (v000412)</td>
+<td class="r data">0.69848</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data">migratório (v000634)</td>
+<td class="r data">0.68964</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data">lagoa (v000580)</td>
+<td class="r data">0.66870</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data">agrícola (v000024)</td>
+<td class="r data">0.65891</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data">folclore (v000430)</td>
+<td class="r data">0.64465</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data">artesanato (v000063)</td>
+<td class="r data">0.63798</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data">floresta (v000426)</td>
+<td class="r data">0.63381</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data">flora (v000425)</td>
+<td class="r data">0.60743</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data">milhão (v000636)</td>
+<td class="r data">0.60323</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data">analfabetismo (v000044)</td>
+<td class="r data">0.59641</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data">periferia (v000735)</td>
+<td class="r data">0.59020</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data">xenofobia (v001027)</td>
+<td class="r data">0.58774</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data">continente (v000215)</td>
+<td class="r data">0.58760</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data">arqueológico (v000061)</td>
+<td class="r data">0.58705</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data">cigano (v000156)</td>
+<td class="r data">0.55663</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data">chão (v000154)</td>
+<td class="r data">0.55407</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data">semiárido (v000900)</td>
+<td class="r data">0.55301</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data">ribeirinho (v000885)</td>
+<td class="r data">0.55224</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data">norte (v000677)</td>
+<td class="r data">0.55163</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data">mulher (v000655)</td>
+<td class="r data">0.55112</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data">racial (v000831)</td>
+<td class="r data">0.52616</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data">população (v000758)</td>
+<td class="r data">0.52543</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data">migração (v000635)</td>
+<td class="r data">0.51847</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data">amazônico (v000036)</td>
+<td class="r data">0.51352</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data">raça (v000836)</td>
+<td class="r data">0.51312</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data">indígena (v000526)</td>
+<td class="r data">0.49905</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data">alemão (v000026)</td>
+<td class="r data">0.49729</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data">negar (v000671)</td>
+<td class="r data">0.49340</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="l data">capital (v000131)</td>
+<td class="r data">0.49132</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="l data">migrante (v000633)</td>
+<td class="r data">0.48748</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="l data">velho (v001000)</td>
+<td class="r data">0.48309</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="l data">goiano (v000467)</td>
+<td class="r data">0.47672</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="l data">turismo (v000989)</td>
+<td class="r data">0.47480</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="l data">relegar (v000862)</td>
+<td class="r data">0.47053</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="l data">territorialidade (v000965)</td>
+<td class="r data">0.46750</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">49</th>
+<td class="l data">fronteira (v000448)</td>
+<td class="r data">0.46732</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">50</th>
+<td class="l data">ancestralidade (v000045)</td>
+<td class="r data">0.46695</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">51</th>
+<td class="l data">predominante (v000774)</td>
+<td class="r data">0.46688</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">52</th>
+<td class="l data">baiano (v000100)</td>
+<td class="r data">0.45716</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">53</th>
+<td class="l data">religioso (v000865)</td>
+<td class="r data">0.45655</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">54</th>
+<td class="l data">hierarquizar (v000481)</td>
+<td class="r data">0.45573</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">55</th>
+<td class="l data">rio (v000886)</td>
+<td class="r data">0.45305</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">56</th>
+<td class="l data">libertador (v000590)</td>
+<td class="r data">0.45225</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">57</th>
+<td class="l data">racismo (v000833)</td>
+<td class="r data">0.44991</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">58</th>
+<td class="l data">amor (v000039)</td>
+<td class="r data">0.44181</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">59</th>
+<td class="l data">geracional (v000459)</td>
+<td class="r data">0.43501</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">60</th>
+<td class="l data">marcante (v000613)</td>
+<td class="r data">0.41839</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">61</th>
+<td class="l data">contraposição (v000216)</td>
+<td class="r data">0.40912</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">62</th>
+<td class="l data">amazona (v000034)</td>
+<td class="r data">0.40568</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">63</th>
+<td class="l data">ecológico (v000325)</td>
+<td class="r data">0.40430</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">64</th>
+<td class="l data">popular (v000757)</td>
+<td class="r data">0.40319</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">65</th>
+<td class="l data">crise (v000232)</td>
+<td class="r data">0.39779</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">66</th>
+<td class="l data">agronegócio (v000022)</td>
+<td class="r data">0.39742</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">67</th>
+<td class="l data">recuperar (v000841)</td>
+<td class="r data">0.38936</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">68</th>
+<td class="l data">zona (v001028)</td>
+<td class="r data">0.38774</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">69</th>
+<td class="l data">território (v000966)</td>
+<td class="r data">0.38763</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">70</th>
+<td class="l data">laico (v000581)</td>
+<td class="r data">0.38388</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">71</th>
+<td class="l data">urgente (v000995)</td>
+<td class="r data">0.38367</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">72</th>
+<td class="l data">atravessar (v000084)</td>
+<td class="r data">0.37797</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">73</th>
+<td class="l data">relações (v000861)</td>
+<td class="r data">0.37315</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">74</th>
+<td class="l data">sul (v000939)</td>
+<td class="r data">0.37308</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">75</th>
+<td class="l data">estado (v000381)</td>
+<td class="r data">0.37291</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">76</th>
+<td class="l data">homem (v000488)</td>
+<td class="r data">0.37212</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">77</th>
+<td class="l data">intolerância (v000560)</td>
+<td class="r data">0.36980</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">78</th>
+<td class="l data">cristalizar (v000233)</td>
+<td class="r data">0.35942</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">79</th>
+<td class="l data">neutro (v000672)</td>
+<td class="r data">0.34493</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">80</th>
+<td class="l data">bilíngue (v000113)</td>
+<td class="r data">0.33775</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">81</th>
+<td class="l data">exclusão (v000400)</td>
+<td class="r data">0.33380</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">82</th>
+<td class="l data">discriminação (v000303)</td>
+<td class="r data">0.33259</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">83</th>
+<td class="l data">antropológico (v000047)</td>
+<td class="r data">0.33191</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">84</th>
+<td class="l data">lócus (v000602)</td>
+<td class="r data">0.33159</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">85</th>
+<td class="l data">carregar (v000136)</td>
+<td class="r data">0.33126</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">86</th>
+<td class="l data">mosaico (v000650)</td>
+<td class="r data">0.33015</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">87</th>
+<td class="l data">identidade (v000501)</td>
+<td class="r data">0.32897</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">88</th>
+<td class="l data">bojo (v000119)</td>
+<td class="r data">0.32567</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">89</th>
+<td class="l data">raiz (v000834)</td>
+<td class="r data">0.30189</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX7"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">Factor 4 neg</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.TEMP">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">_NAME_</th>
+<th class="r header" scope="col">Factor4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">somativo (v000933)</td>
+<td class="r data" nowrap>-0.67517</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">tutoria (v000990)</td>
+<td class="r data" nowrap>-0.67489</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">autoavaliação (v000089)</td>
+<td class="r data" nowrap>-0.62735</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">taxonomia (v000956)</td>
+<td class="r data" nowrap>-0.57399</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">perseverar (v000739)</td>
+<td class="r data" nowrap>-0.55878</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data">pós-médio (v000821)</td>
+<td class="r data" nowrap>-0.54903</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data">protótipo (v000808)</td>
+<td class="r data" nowrap>-0.54067</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data">portfólio (v000761)</td>
+<td class="r data" nowrap>-0.53119</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data">diagnosticar (v000287)</td>
+<td class="r data" nowrap>-0.51513</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data">fórmula (v000456)</td>
+<td class="r data" nowrap>-0.51112</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data">calculador (v000126)</td>
+<td class="r data" nowrap>-0.51062</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data">recomendável (v000839)</td>
+<td class="r data" nowrap>-0.50959</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data">proporcionalidade (v000802)</td>
+<td class="r data" nowrap>-0.49215</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data">assertivo (v000072)</td>
+<td class="r data" nowrap>-0.48614</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data">verificação (v001005)</td>
+<td class="r data" nowrap>-0.48404</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data">quadrado (v000822)</td>
+<td class="r data" nowrap>-0.47731</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data">mensurar (v000627)</td>
+<td class="r data" nowrap>-0.47298</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data">indutivo (v000524)</td>
+<td class="r data" nowrap>-0.45324</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data">vertical (v001007)</td>
+<td class="r data" nowrap>-0.44955</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data">amostral (v000040)</td>
+<td class="r data" nowrap>-0.44662</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data">cronograma (v000235)</td>
+<td class="r data" nowrap>-0.44290</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data">progressividade (v000797)</td>
+<td class="r data" nowrap>-0.42714</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data">formulário (v000435)</td>
+<td class="r data" nowrap>-0.40449</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data">estresse (v000386)</td>
+<td class="r data" nowrap>-0.38506</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data">cuidadoso (v000240)</td>
+<td class="r data" nowrap>-0.37793</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data">gradual (v000471)</td>
+<td class="r data" nowrap>-0.37654</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data">espetáculo (v000376)</td>
+<td class="r data" nowrap>-0.37196</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data">autocuidar (v000092)</td>
+<td class="r data" nowrap>-0.37136</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data">metódico (v000632)</td>
+<td class="r data" nowrap>-0.36904</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data">espiral (v000377)</td>
+<td class="r data" nowrap>-0.36302</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data">coragem (v000223)</td>
+<td class="r data" nowrap>-0.35387</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data">complemento (v000175)</td>
+<td class="r data" nowrap>-0.35227</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data">lousa (v000598)</td>
+<td class="r data" nowrap>-0.34875</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data">emissão (v000343)</td>
+<td class="r data" nowrap>-0.33933</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data">estimativa (v000385)</td>
+<td class="r data" nowrap>-0.33458</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data">modificador (v000648)</td>
+<td class="r data" nowrap>-0.33410</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data">ferreiro (v000416)</td>
+<td class="r data" nowrap>-0.33327</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data">excessivo (v000398)</td>
+<td class="r data" nowrap>-0.32218</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>

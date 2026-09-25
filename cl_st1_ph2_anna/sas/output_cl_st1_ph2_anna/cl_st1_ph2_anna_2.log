@@ -1,0 +1,74 @@
+ 
+ 1          OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ NOTE: ODS statements in the SAS Studio environment may disable some output features.
+ 69         
+ 70         ODS EXCLUDE NONE;
+ 71         
+ 72         proc factor fuzz=0.3 data= polychor (type=corr) OUTSTAT= fout NOPRINT
+ 73         method=principal
+ 74         plots=scree
+ 75         mineigen=1
+ 76         reorder
+ 77         heywood
+ 78         nfactors=100
+ 79         nobs=&nobs;
+ 80         var &names ;
+ 81         run;
+ 
+ NOTE: The PLOTS= option is ignored with NOPRINT.
+ WARNING: Conditional variance of v000035 is zero.
+ WARNING: Conditional variance of v000037 is zero.
+ WARNING: Conditional variance of v000182 is zero.
+ WARNING: Conditional variance of v000196 is zero.
+ WARNING: Conditional variance of v000212 is zero.
+ WARNING: Conditional variance of v000213 is zero.
+ WARNING: Conditional variance of v000250 is zero.
+ WARNING: Conditional variance of v000251 is zero.
+ WARNING: Conditional variance of v000305 is zero.
+ WARNING: Conditional variance of v000328 is zero.
+ WARNING: Conditional variance of v000383 is zero.
+ WARNING: Conditional variance of v000444 is zero.
+ WARNING: Conditional variance of v000453 is zero.
+ WARNING: Conditional variance of v000454 is zero.
+ WARNING: Conditional variance of v000484 is zero.
+ WARNING: Conditional variance of v000504 is zero.
+ WARNING: Conditional variance of v000505 is zero.
+ WARNING: Conditional variance of v000561 is zero.
+ WARNING: Conditional variance of v000573 is zero.
+ WARNING: Conditional variance of v000574 is zero.
+ WARNING: Conditional variance of v000624 is zero.
+ WARNING: Conditional variance of v000692 is zero.
+ WARNING: Conditional variance of v000697 is zero.
+ WARNING: Conditional variance of v000698 is zero.
+ WARNING: Conditional variance of v000724 is zero.
+ WARNING: Conditional variance of v000725 is zero.
+ WARNING: Conditional variance of v000785 is zero.
+ WARNING: Conditional variance of v000788 is zero.
+ WARNING: Conditional variance of v000829 is zero.
+ WARNING: Conditional variance of v000899 is zero.
+ WARNING: Conditional variance of v000910 is zero.
+ WARNING: Conditional variance of v000979 is zero.
+ WARNING: Conditional variance of v000985 is zero.
+ WARNING: Conditional variance of v001019 is zero.
+ NOTE: 100 factors will be retained by the NFACTOR criterion.
+ NOTE: The data set WORK.FOUT has 1143 observations and 1039 variables.
+ NOTE: PROCEDURE FACTOR used (Total process time):
+       real time           0.44 seconds
+       user cpu time       0.43 seconds
+       system cpu time     0.01 seconds
+       memory              15679.18k
+       OS Memory           39096.00k
+       Timestamp           25/09/2026 08:10:26 PM
+       Step Count                        135  Switch Count  3
+       Page Faults                       0
+       Page Reclaims                     1430
+       Page Swaps                        0
+       Voluntary Context Switches        21
+       Involuntary Context Switches      2
+       Block Input Operations            0
+       Block Output Operations           27672
+       
+ 
+ 82         
+ 83         OPTIONS NONOTES NOSTIMER NOSOURCE NOSYNTAXCHECK;
+ 93         

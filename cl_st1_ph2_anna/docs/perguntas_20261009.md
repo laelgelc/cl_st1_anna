@@ -120,7 +120,7 @@ Por isso, embora a quantidade de textos tenha sido 4112, como indica `cl_st1_ph2
 
 2. Qual etiquetador linguístico foi utilizado e como ocorreu a lematização.
 
-Resposta: O etiquetador foi TreeTagger, que automaticamente realiza a lematização. Por exemplo, no extrato de texto etiquetado a sequir (`cl_st1_ph2_anna/corpus/07_tagged/es/es_ef_anos_finais_linguagens_ingles_1.txt`), a primeira coluna é a palavra (token), a segunda, é a etiqueta (tag), e a terceira é o lema (lemma).
+Resposta: O etiquetador foi o TreeTagger, que automaticamente realiza a lematização. Por exemplo, no extrato de texto etiquetado a sequir (`cl_st1_ph2_anna/corpus/07_tagged/es/es_ef_anos_finais_linguagens_ingles_1.txt`), a primeira coluna é a palavra (token), a segunda, é a etiqueta (tag), e a terceira é o lema (lemma).
 
 ```text
 Samba	NOUN.Masc.Sing	samba
@@ -136,7 +136,7 @@ Scott, M. (1997). PC analysis of key words—And key key words. System, 25(2), 2
 
 4. Por que foram selecionadas até 45 palavras-chave por estado.
 
-Resposta: Foram extraídas 45 palavras-chave por subcorpus (estado) para selecionar volta de 1000 variáveis lexicais de forma estratificada. Essa seleção foi realizada através do programa `cl_st1_ph2_anna/select_kws_stratified.py` e resultou em 1037 variáveis.
+Resposta: Foram extraídas 45 palavras-chave por subcorpus (estado) para selecionar por volta de 1000 variáveis lexicais de forma estratificada. Essa seleção foi realizada através do programa `cl_st1_ph2_anna/select_kws_stratified.py` e resultou em 1037 variáveis.
 
 ```text
 === Stratum Keyword Quotas ===

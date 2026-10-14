@@ -29,19 +29,23 @@ Resposta:
 > A opção tem uma justificativa compreensível: ampliar a representação lexical dos diferentes estados. No entanto, precisa explicar melhor como essa estratégia afeta a interpretação estatística. Deve-se discutir se a seleção favorece itens associados a contextos estaduais específicos, em detrimento de palavras recorrentes no conjunto do corpus.
 >
 > **Quais critérios foram utilizados para determinar que uma variável lexical seria mantida ou excluída da solução fatorial?**
->
+
+Resposta: 
+
+### Pergunta 3
+
 > ## A retenção de quatro fatores: decisão estatística ou interpretativa?
 >
 > **Qual foi a proporção de variância explicada pela solução de quatro fatores e por cada fator individualmente?**
 
-Resposta:
+Resposta: 
 
-### Pergunta 3
+### Pergunta 4
 
 [14/10/26, 09:17:25] ~Anna Freire:
 
 > Precisa apresentar uma caracterização quantitativa clara do corpus: número de documentos, unidades textuais, palavras e distribuição por estado e etapa de ensino. Essa caracterização permitiria ao leitor avaliar melhor o alcance dos resultados.
 
-[14/10/26, 09:17:25] ~Anna Freire: Coloquei uma tabela com o número d e textos por estado, mas não está suficiente. Eu acho essas informações que ela está pedindo na pasta?
+[14/10/26, 09:17:25] ~Anna Freire: Coloquei uma tabela com o número de textos por estado, mas não está suficiente. Eu acho essas informações que ela está pedindo na pasta?
 
-Resposta:
+Resposta: 

@@ -184,7 +184,8 @@ def extract_stage_from_filename(path: Path, strata: str, stage_order: list[str])
         go_em_1.txt -> em
         se_inf_1.txt -> inf
         es_ef_anos_finais_linguagens_ingles_1.txt
-            -> ef_anos_finais_linguagens_ingles, when --ample is used
+            -> ef, without --ample
+            -> ef_anos_finais_linguagens_ingles, with --ample
     """
     stem = path.stem
     prefix = f"{strata}_"
@@ -199,13 +200,7 @@ def extract_stage_from_filename(path: Path, strata: str, stage_order: list[str])
 
     for stage in sorted(stage_order, key=len, reverse=True):
         if remainder == stage or remainder.startswith(f"{stage}_"):
-            suffix = remainder[len(stage):]
-
-            if not suffix:
-                return stage
-
-            if re.fullmatch(r"_\d+", suffix):
-                return stage
+            return stage
 
     raise ValueError(
         f"Could not extract a known stage from {path}. "

@@ -40,6 +40,7 @@ OUTPUT_FILE = OUTPUT_DIR / "corpus_size.tsv"
 OUTPUT_FILE_AMPLE = OUTPUT_DIR / "corpus_size_ample.tsv"
 
 STATE_PATTERN = re.compile(r"^[a-z]{2}$")
+UNCLASSIFIED_STAGE = "unclassified"
 
 STAGE_ORDER = [
     "inf",
@@ -48,6 +49,7 @@ STAGE_ORDER = [
     "ef",
     "ef_e_em",
     "em",
+    UNCLASSIFIED_STAGE,
 ]
 
 AMPLE_STAGE_ORDER = [
@@ -138,6 +140,7 @@ AMPLE_STAGE_ORDER = [
     "ef_matematica",
     "ef_matematica_intro",
     "em",
+    UNCLASSIFIED_STAGE,
 ]
 
 
@@ -186,26 +189,29 @@ def extract_stage_from_filename(path: Path, strata: str, stage_order: list[str])
         es_ef_anos_finais_linguagens_ingles_1.txt
             -> ef, without --ample
             -> ef_anos_finais_linguagens_ingles, with --ample
+        mt_1.txt -> unclassified
     """
     stem = path.stem
     prefix = f"{strata}_"
 
     if not stem.startswith(prefix):
-        raise ValueError(
-            f"Could not extract stage from {path}: "
-            f"filename does not start with expected prefix {prefix!r}"
-        )
+        return UNCLASSIFIED_STAGE
 
     remainder = stem[len(prefix):]
 
-    for stage in sorted(stage_order, key=len, reverse=True):
+    if not remainder or remainder.isdigit():
+        return UNCLASSIFIED_STAGE
+
+    candidate_stages = [
+        stage for stage in stage_order
+        if stage != UNCLASSIFIED_STAGE
+    ]
+
+    for stage in sorted(candidate_stages, key=len, reverse=True):
         if remainder == stage or remainder.startswith(f"{stage}_"):
             return stage
 
-    raise ValueError(
-        f"Could not extract a known stage from {path}. "
-        f"Expected one of: {', '.join(stage_order)}"
-    )
+    return UNCLASSIFIED_STAGE
 
 
 def is_countable_token(word: str, tag: str) -> bool:
@@ -353,6 +359,13 @@ def main():
     print(f"Corpus sizes saved to {output_file}")
     print(f"Total texts: {total_files}")
     print(f"Total words: {total_words}")
+
+    if total_files_by_stage.get(UNCLASSIFIED_STAGE, 0):
+        print(
+            "Warning: "
+            f"{total_files_by_stage[UNCLASSIFIED_STAGE]} text(s) were classified as "
+            f"{UNCLASSIFIED_STAGE!r} because no known stage could be extracted."
+        )
 
 
 if __name__ == "__main__":

@@ -69,7 +69,25 @@ Por essa razão, a solução fatorial deve ser interpretada como uma análise do
 >
 > **Qual foi a proporção de variância explicada pela solução de quatro fatores e por cada fator individualmente?**
 
-Resposta: 
+Resposta (assistida pelo AI Assistant):
+
+A solução de quatro fatores explicou, em conjunto, aproximadamente **32,02% da variância** das variáveis lexicais retidas na análise fatorial. A distribuição da variância explicada por fator foi a seguinte:
+
+|     Fator | Variância explicada |
+|----------:|--------------------:|
+|   Fator 1 |          **10,04%** |
+|   Fator 2 |           **8,25%** |
+|   Fator 3 |           **7,92%** |
+|   Fator 4 |           **5,80%** |
+| **Total** |          **32,02%** |
+
+Esses percentuais foram calculados a partir da soma dos quadrados das cargas fatoriais da solução rotacionada, considerando as **1.003 variáveis lexicais retidas** após a exclusão das variáveis com baixa comunalidade. O cálculo desses resultados está em `cl_st1_ph2_anna.ipynb`.
+
+A retenção dos quatro fatores não foi exclusivamente automática. Ela combinou critérios estatísticos e interpretativos: inicialmente, foram considerados o **critério de Kaiser**, isto é, autovalores superiores a 1, e a **inspeção visual do scree plot**. Além disso, variáveis com comunalidade inferior a **0,15** foram removidas. Após essa etapa, a solução de quatro fatores foi mantida por decisão do pesquisador, considerando também a **interpretabilidade substantiva** das dimensões resultantes.
+
+Assim, a resposta metodológica pode ser formulada da seguinte maneira:
+
+> A solução final de quatro fatores explicou 32,02% da variância total das 1.003 variáveis lexicais retidas na análise. Individualmente, o Fator 1 explicou 10,04% da variância, o Fator 2 explicou 8,25%, o Fator 3 explicou 7,92% e o Fator 4 explicou 5,80%. A retenção dos quatro fatores resultou da combinação entre critérios estatísticos — critério de Kaiser, inspeção visual do scree plot e exclusão de variáveis com comunalidade inferior a 0,15 — e avaliação interpretativa da solução pelo pesquisador.
 
 ### Pergunta 4
 

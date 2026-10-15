@@ -346,6 +346,12 @@ python corpus_size.py
 
 Output: `corpus_size/corpus_size.tsv`
 
+```shell
+python corpus_size.py --ample
+```
+
+Output: `corpus_size/corpus_size_ample.tsv`
+
 ## 11. Generate LaTeX/TikZ boxplots
 
 ```shell
